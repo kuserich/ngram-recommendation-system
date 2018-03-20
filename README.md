@@ -6,5 +6,3 @@ Implementation of a Recommendation System for Software Engineering using n-gram 
 # Disclaimer
 
 This project is part of the course [Advanced Software Engineering - FS 18](http://www.ifi.uzh.ch/en/seal/teaching/courses/ase.html) and follows a given [project description](/Project%20Description.md).
-
----
