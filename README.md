@@ -13,7 +13,7 @@ Please register with the organizers by sending an email. You can register in tea
 ### Requirements
 To succeed in the project, your RSSE should pass the following criteria:
 
-* Use Java as the programming language. ✅
+* ✅ Use Java as the programming language.
 * You have successfully re-implemented the assigned tool.
 * You provide a set of learned models for the tool (or raw input data, depending on the approach).
 * You use Git to coordinate team development.
@@ -23,7 +23,7 @@ To succeed in the project, your RSSE should pass the following criteria:
 * The result is deployed to a public Maven repository. The easiest way is to just publish your artifacts in a Github repository (you will find a deployment tutorial on StackOverflow).
 * You provide an example client that uses the tool to answer a set of predefined queries
 (i.e., that implements a predefined interface).
-* Your code has a license (to make sure that you get the appropriate credit when others reuse your library)! We encourage you to use the Apache Public License v2, in accordance with the KaVE project, but you are free to pick any other compatible license. ✅
+* ✅ Your code has a license (to make sure that you get the appropriate credit when others reuse your library)! We encourage you to use the Apache Public License v2, in accordance with the KaVE project, but you are free to pick any other compatible license.
 
 ### Process
 To work on the project, you should follow some simple steps. Make sure that you agree in your team team, how you plan to work on these steps and make sure that all of you are on the same page.
