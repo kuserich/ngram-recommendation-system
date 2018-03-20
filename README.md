@@ -12,36 +12,37 @@ Please register with the organizers by sending an email. You can register in tea
 
 ### Requirements
 To succeed in the project, your RSSE should pass the following criteria:
-Use Java as the programming language.
-You have successfully re-implemented the assigned tool.
-You provide a set of learned models for the tool (or raw input data, depending on the approach).
-You use Git to coordinate team development.
-You have a significant test suite of unit tests that show the correctness of your code.
-Your tool is build with Maven.
-A build server is used for continuous integration.
-The result is deployed to a public Maven repository. The easiest way is to just publish your artifacts in a Github repository (you will find a deployment tutorial on StackOverflow).
-You provide an example client that uses the tool to answer a set of predefined queries
+
+* Use Java as the programming language. ✅
+* You have successfully re-implemented the assigned tool.
+* You provide a set of learned models for the tool (or raw input data, depending on the approach).
+* You use Git to coordinate team development.
+* You have a significant test suite of unit tests that show the correctness of your code.
+* Your tool is build with Maven.
+* A build server is used for continuous integration.
+* The result is deployed to a public Maven repository. The easiest way is to just publish your artifacts in a Github repository (you will find a deployment tutorial on StackOverflow).
+* You provide an example client that uses the tool to answer a set of predefined queries
 (i.e., that implements a predefined interface).
-Your code has a license (to make sure that you get the appropriate credit when others reuse your library)! We encourage you to use the Apache Public License v2, in accordance with the KaVE project, but you are free to pick any other compatible license.
+* Your code has a license (to make sure that you get the appropriate credit when others reuse your library)! We encourage you to use the Apache Public License v2, in accordance with the KaVE project, but you are free to pick any other compatible license. ✅
 
 ### Process
 To work on the project, you should follow some simple steps. Make sure that you agree in your team team, how you plan to work on these steps and make sure that all of you are on the same page.
 
 #### Study the Available Data
-To make the development and the evaluation easy for you, we want you to reuse the framework provided in the KaVE Project. The Project offers two datasets: a dataset of repository data (contexts) and a dataset of recorded developer interactions that can be used for the validation.
-The KaVE project also features a couple of examples that illustrate how to use the datasets.
-In your own project, just add a Maven dependency to our KaVE libraries to get all you need to make the example code working. Import cc.kave.commons and cc.kave.rsse.calls. At the time of writing, the newest version is 0.0.3, but it will be updated frequently.
-Please also note the mailing list of the KaVE project, which is a good source for information.You can ask questions about the KaVE libraries or the data. Just bear in mind that this is a public mailing list, so please do not send questions that are specific to the course, e.g., grading!
-It is crucial that you understand what kind of information is contained in the datasets and how to access it. It might be a good practice for everybody to do some simple exercises with the data to make sure you “know your tools”, before you actually start with your project. You should be able to write simple analyses:
-How many method invocations are typically called in a method body?
-What fraction of classes of the dataset overrides the Equals method?
-How often do developers abort a code completion invocation on string variables?
-You should understand the Visitor Pattern. We will include a refresher in the lecture, but you will need to understand it to traverse the syntax trees.
+* To make the development and the evaluation easy for you, we want you to reuse the framework provided in the KaVE Project. The Project offers two datasets: a dataset of repository data (contexts) and a dataset of recorded developer interactions that can be used for the validation.
+* The KaVE project also features a couple of examples that illustrate how to use the datasets.
+* In your own project, just add a Maven dependency to our KaVE libraries to get all you need to make the example code working. Import cc.kave.commons and cc.kave.rsse.calls. At the time of writing, the newest version is 0.0.3, but it will be updated frequently.
+* Please also note the mailing list of the KaVE project, which is a good source for information.You can ask questions about the KaVE libraries or the data. Just bear in mind that this is a public mailing list, so please do not send questions that are specific to the course, e.g., grading!
+* It is crucial that you understand what kind of information is contained in the datasets and how to access it. It might be a good practice for everybody to do some simple exercises with the data to make sure you “know your tools”, before you actually start with your project. You should be able to write simple analyses:
+    * How many method invocations are typically called in a method body?
+    * What fraction of classes of the dataset overrides the Equals method?
+    * How often do developers abort a code completion invocation on string variables?
+* You should understand the Visitor Pattern. We will include a refresher in the lecture, but you will need to understand it to traverse the syntax trees.
 
 #### Create a cook-book
-Before you start implementing(!), read the paper carefully and lay out a precise plan of the required steps you need to do for your RSSE.
-Make a meeting with Sebastian Proksch to discuss your laid out plan. The meeting should take place as soon as possible, but at the latest ~2 weeks before the midterm presentation. You are responsible to get in contact and schedule a meeting.
-You might also want to try to contact the original authors of the paper when you have questions, just bear in mind that they are busy people, so don’t ask for too much and be polite!
+* Before you start implementing(!), read the paper carefully and lay out a precise plan of the required steps you need to do for your RSSE.
+* Make a meeting with Sebastian Proksch to discuss your laid out plan. The meeting should take place as soon as possible, but at the latest ~2 weeks before the midterm presentation. You are responsible to get in contact and schedule a meeting.
+* You might also want to try to contact the original authors of the paper when you have questions, just bear in mind that they are busy people, so don’t ask for too much and be polite!
 
 #### Implement your Recommender
 Once you have a clear idea of the required steps to replicate the recommender system, you can start implementing it. The core task of the implementation is to create a working recommender, but you will have to define a process in your group to work together as a team. Several of the requirements listed above affect this process and will affect the grading. Think about these requirements as best practices in team development. To fully benefit from them, you should integrate them early on in your process. If you would only include them in your workflow right before the deadline -just to fulfil the requirements-, they do not help you anymore and just add overhead!
