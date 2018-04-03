@@ -1,4 +1,12 @@
+import cc.kave.commons.model.naming.types.ITypeName;
+import com.google.common.collect.Sets;
 import examples.GettingStarted;
+import examples.GettingStartedContexts;
+import examples.TypeCollectionVisitor;
+import fs.FSClient;
+import kave.KaVEClient;
+
+import java.util.Set;
 
 public class RunExample {
 
@@ -18,8 +26,12 @@ public class RunExample {
     public static String contextsDir = "Contexts-170503";
     
     public static void main(String[] args) {
+        new FSClient().run();
+        new KaVEClient(contextsDir+"/01org/acat/src/ACAT.sln-contexts.zip").run();
         GettingStarted gs = new GettingStarted(eventsDir);
-        gs.run();
+//        gs.run();
+//        GettingStartedContexts gsc = new GettingStartedContexts(contextsDir);
+//        gsc.run();
     }
     
 }
