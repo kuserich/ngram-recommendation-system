@@ -16,6 +16,10 @@ public class FSClient {
 		Folder f2 = new Folder("f1", f1, c);
 
 		doSomething(a, new KindVisitor());
+		doSomething(b, new KindVisitor());
+		doSomething(c, new KindVisitor());
+		doSomething(f1, new KindVisitor());
+		doSomething(f2, new KindVisitor());
 	}
 
 	public static void doSomething(IFileSystemItem i, IFileSystemVisitor v) {
