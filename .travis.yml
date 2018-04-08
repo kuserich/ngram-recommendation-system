@@ -27,4 +27,4 @@ cache:
   - $HOME/.m2
 
 after_script:
-  - echo "Finished the Travis Job $TRAVIS_JOB_ID"
+  - echo "Finished the Travis Job $TRAVIS_BUILD_NUMBER"
