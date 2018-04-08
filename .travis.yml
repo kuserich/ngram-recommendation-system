@@ -1,0 +1,14 @@
+# safelist
+branches:
+  only:
+  - master
+  - testing
+  - develop
+
+language: java
+jdk: oraclejdk8
+
+script:
+  - echo "Starting Clean install"
+  - ./mvnw clean install
+  - echo "Finished Clean install"
