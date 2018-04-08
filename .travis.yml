@@ -16,8 +16,15 @@ jdk: oraclejdk8
 env:
   - MAVEN_VERSION=3.3.9
 
-script:
-  - ./mvn clean install
+install:
+  - "mvn -N io.takari:maven:wrapper -Dmaven=${MAVEN_VERSION}"
+  - "./mvnw --show-version --errors --batch-mode test-compile dependency:go-offline"
+script: "./mvnw --show-version --errors --batch-mode -Prun-its clean verify"
+
+#install: true
+
+#script:
+#  - ./mvn clean install
 
 cache:
   directories:
