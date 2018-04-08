@@ -1,7 +1,10 @@
-import cc.kave.commons.model.naming.types.ITypeName;
+import cc.kave.commons.model.naming.codeelements.IMethodName;
+import cc.kave.commons.model.naming.types.organization.INamespaceName;
 import cc.kave.commons.model.ssts.ISST;
+import cc.kave.commons.model.ssts.IStatement;
 import cc.kave.commons.model.ssts.blocks.*;
 import cc.kave.commons.model.ssts.declarations.*;
+import cc.kave.commons.model.ssts.expressions.ISimpleExpression;
 import cc.kave.commons.model.ssts.expressions.assignable.*;
 import cc.kave.commons.model.ssts.expressions.loopheader.ILoopHeaderBlockExpression;
 import cc.kave.commons.model.ssts.expressions.simple.IConstantValueExpression;
@@ -12,281 +15,391 @@ import cc.kave.commons.model.ssts.references.*;
 import cc.kave.commons.model.ssts.statements.*;
 import cc.kave.commons.model.ssts.visitor.ISSTNodeVisitor;
 
+import java.util.HashSet;
+import java.util.List;
+import java.util.Map;
 import java.util.Set;
 
-public class APIVisitor implements ISSTNodeVisitor<Set<ITypeName>, ITypeName> {
+public class APIVisitor implements ISSTNodeVisitor<Map<String, Set<APIToken>>, APIToken> {
     
     @Override
-    public ITypeName visit(ISST isst, Set<ITypeName> iTypeNames) {
-        System.out.println("ISST");
+    public APIToken visit(ISST isst, Map<String, Set<APIToken>> context) {
+        // System.out.println("ISST");
         return null;
     }
 
     @Override
-    public ITypeName visit(IDelegateDeclaration iDelegateDeclaration, Set<ITypeName> iTypeNames) {
-        System.out.println("IDelegateDeclaration");
-        System.out.println(iDelegateDeclaration.getName());
+    public APIToken visit(IDelegateDeclaration statement, Map<String, Set<APIToken>> context) {
         return null;
     }
 
     @Override
-    public ITypeName visit(IEventDeclaration iEventDeclaration, Set<ITypeName> iTypeNames) {
-        System.out.println("IEventDeclaration");
-        System.out.println(iEventDeclaration.getName());
+    public APIToken visit(IEventDeclaration statement, Map<String, Set<APIToken>> context) {
         return null;
     }
 
     @Override
-    public ITypeName visit(IFieldDeclaration iFieldDeclaration, Set<ITypeName> iTypeNames) {
-        System.out.println("IFieldDeclaration");
-        System.out.println(iFieldDeclaration.getName());
+    public APIToken visit(IFieldDeclaration statement, Map<String, Set<APIToken>> context) {
+        // System.out.println("IFieldDeclaration");
+        // System.out.println(statement.getName());
+        return null;
+    }
+
+    /**
+     * This will never be called and used as we are processing methods in {@link SentenceExtractor#extract(String)}
+     * 
+     * @param statement 
+     *          ISSTNode of a method
+     * @param context
+     *          Set 
+     * @return
+     *          null
+     */
+    @Override
+    public APIToken visit(IMethodDeclaration statement, Map<String, Set<APIToken>> context) {
+        this.visit(statement.getBody(), context);
         return null;
     }
 
     @Override
-    public ITypeName visit(IMethodDeclaration iMethodDeclaration, Set<ITypeName> iTypeNames) {
-        System.out.println("IMethodDeclaration");
-        System.out.println(iMethodDeclaration.getName());
-        iMethodDeclaration.getBody().forEach(s -> System.out.println(s.toString()));
-        System.out.println(iMethodDeclaration.isEntryPoint());
+    public APIToken visit(IPropertyDeclaration statement, Map<String, Set<APIToken>> context) {
+        this.visit(statement.getGet(), context);
+        this.visit(statement.getSet(), context);
         return null;
     }
 
     @Override
-    public ITypeName visit(IPropertyDeclaration iPropertyDeclaration, Set<ITypeName> iTypeNames) {
-        System.out.println("IPropertyDeclaration");
-        System.out.println(iPropertyDeclaration.getName());
-        iPropertyDeclaration.getGet().forEach(s -> System.out.println(s.toString()));
-        iPropertyDeclaration.getSet().forEach(s -> System.out.println(s.toString()));
-        return null;
-    }
-
-    @Override
-    public ITypeName visit(IVariableDeclaration iVariableDeclaration, Set<ITypeName> iTypeNames) {
-        System.out.println("IVariableDeclaration");
-        // TODO: is this for new Class?
+    public APIToken visit(IVariableDeclaration statement, Map<String, Set<APIToken>> context) {
+        // System.out.println("IVariableDeclaration");
+        // TODO: is this for new Class, e.g. someVariable = new SomePackage.AnotherPackage.ClassName()?
         // TODO: TypeName three entries if not local?
         // TODO: identifier if library second?
-        System.out.println(iVariableDeclaration.getType()); // TODO: <- this has many methods
-        System.out.println(iVariableDeclaration.getReference());
-        System.out.println(iVariableDeclaration.isMissing());
+        // System.out.println(statement.getType()); // TODO: <- this has many methods
+
+        // System.out.println(statement.getType().getNamespace());
+        // System.out.println(statement.getType().getAssembly());
+        // System.out.println(statement.getType().getName());
+        // System.out.println(statement.getType().getFullName());
         return null;
     }
 
     @Override
-    public ITypeName visit(IAssignment iAssignment, Set<ITypeName> iTypeNames) {
-        System.out.println("IAssignment");
-        System.out.println(iAssignment.getExpression());
+    public APIToken visit(IAssignment statement, Map<String, Set<APIToken>> context) {
+        statement.getExpression().accept(this, context);
         return null;
     }
 
     @Override
-    public ITypeName visit(IBreakStatement iBreakStatement, Set<ITypeName> iTypeNames) {
+    public APIToken visit(IBreakStatement statement, Map<String, Set<APIToken>> context) {
         return null;
     }
 
     @Override
-    public ITypeName visit(IContinueStatement iContinueStatement, Set<ITypeName> iTypeNames) {
+    public APIToken visit(IContinueStatement statement, Map<String, Set<APIToken>> context) {
         return null;
     }
 
     @Override
-    public ITypeName visit(IExpressionStatement iExpressionStatement, Set<ITypeName> iTypeNames) {
+    public APIToken visit(IExpressionStatement statement, Map<String, Set<APIToken>> context) {
+        statement.getExpression().accept(this, context);
         return null; // TODO: identifier if library second?
     }
 
     @Override
-    public ITypeName visit(IGotoStatement iGotoStatement, Set<ITypeName> iTypeNames) {
+    public APIToken visit(IGotoStatement statement, Map<String, Set<APIToken>> context) {
         return null;
     }
 
     @Override
-    public ITypeName visit(ILabelledStatement iLabelledStatement, Set<ITypeName> iTypeNames) {
+    public APIToken visit(ILabelledStatement statement, Map<String, Set<APIToken>> context) {
+        statement.getStatement().accept(this, context);
         return null;
     }
 
     @Override
-    public ITypeName visit(IReturnStatement iReturnStatement, Set<ITypeName> iTypeNames) {
+    public APIToken visit(IReturnStatement statement, Map<String, Set<APIToken>> context) {
+        statement.getExpression().accept(this, context);
         return null;
     }
 
     @Override
-    public ITypeName visit(IThrowStatement iThrowStatement, Set<ITypeName> iTypeNames) {
+    public APIToken visit(IThrowStatement statement, Map<String, Set<APIToken>> context) {
+//        statement.getReference().accept(this, context); 
         return null;
     }
 
     @Override
-    public ITypeName visit(IEventSubscriptionStatement iEventSubscriptionStatement, Set<ITypeName> iTypeNames) {
+    public APIToken visit(IEventSubscriptionStatement statement, Map<String, Set<APIToken>> context) {
+        statement.getExpression().accept(this, context);
         return null;
     }
 
     @Override
-    public ITypeName visit(IDoLoop iDoLoop, Set<ITypeName> iTypeNames) {
+    public APIToken visit(IDoLoop statement, Map<String, Set<APIToken>> context) {
+        statement.getCondition().accept(this, context);
+        this.visit(statement.getBody(), context);
         return null;
     }
 
     @Override
-    public ITypeName visit(IForEachLoop iForEachLoop, Set<ITypeName> iTypeNames) {
+    public APIToken visit(IForEachLoop statement, Map<String, Set<APIToken>> context) {
+        statement.getDeclaration().accept(this, context);
+        statement.getLoopedReference().accept(this, context);
+        this.visit(statement.getBody(), context);
         return null;
     }
 
     @Override
-    public ITypeName visit(IForLoop iForLoop, Set<ITypeName> iTypeNames) {
+    public APIToken visit(IForLoop statement, Map<String, Set<APIToken>> context) {
+        this.visit(statement.getInit(), context);
+        statement.getCondition().accept(this, context);
+        this.visit(statement.getStep(), context);
+        this.visit(statement.getBody(), context);
         return null;
     }
 
     @Override
-    public ITypeName visit(IIfElseBlock iIfElseBlock, Set<ITypeName> iTypeNames) {
+    public APIToken visit(IIfElseBlock statement, Map<String, Set<APIToken>> context) {
+        statement.getCondition().accept(this, context);
+        this.visit(statement.getThen(), context);
+        this.visit(statement.getElse(), context);
         return null;
     }
 
     @Override
-    public ITypeName visit(ILockBlock iLockBlock, Set<ITypeName> iTypeNames) {
+    public APIToken visit(ILockBlock statement, Map<String, Set<APIToken>> context) {
+        this.visit(statement.getBody(), context);
         return null;
     }
 
     @Override
-    public ITypeName visit(ISwitchBlock iSwitchBlock, Set<ITypeName> iTypeNames) {
+    public APIToken visit(ISwitchBlock statement, Map<String, Set<APIToken>> context) {
+        statement.getReference().accept(this, context);
+        this.visit(statement.getDefaultSection(), context);
+
+        for(ICaseBlock caseBlock : statement.getSections()) {
+            this.visit(caseBlock.getBody(), context);
+        }
+
         return null;
     }
 
     @Override
-    public ITypeName visit(ITryBlock iTryBlock, Set<ITypeName> iTypeNames) {
+    public APIToken visit(ITryBlock statement, Map<String, Set<APIToken>> context) {
+        this.visit(statement.getBody(), context);
+        this.visit(statement.getFinally(), context);
+        for(ICatchBlock catchBlock : statement.getCatchBlocks()) {
+            this.visit(catchBlock.getBody(), context);
+        }
         return null;
     }
 
     @Override
-    public ITypeName visit(IUncheckedBlock iUncheckedBlock, Set<ITypeName> iTypeNames) {
+    public APIToken visit(IUncheckedBlock statement, Map<String, Set<APIToken>> context) {
+        this.visit(statement.getBody(), context);
         return null;
     }
 
     @Override
-    public ITypeName visit(IUnsafeBlock iUnsafeBlock, Set<ITypeName> iTypeNames) {
+    public APIToken visit(IUnsafeBlock statement, Map<String, Set<APIToken>> context) {
         return null;
     }
 
     @Override
-    public ITypeName visit(IUsingBlock iUsingBlock, Set<ITypeName> iTypeNames) {
+    public APIToken visit(IUsingBlock statement, Map<String, Set<APIToken>> context) {
+        this.visit(statement.getBody(), context);
+        statement.getReference().accept(this, context);
         return null;
     }
 
     @Override
-    public ITypeName visit(IWhileLoop iWhileLoop, Set<ITypeName> iTypeNames) {
+    public APIToken visit(IWhileLoop statement, Map<String, Set<APIToken>> context) {
+        statement.getCondition().accept(this, context);
+        this.visit(statement.getBody(), context);
         return null;
     }
 
     @Override
-    public ITypeName visit(IBinaryExpression iBinaryExpression, Set<ITypeName> iTypeNames) {
+    public APIToken visit(IBinaryExpression statement, Map<String, Set<APIToken>> context) {
+        statement.getLeftOperand().accept(this, context);
+        statement.getRightOperand().accept(this, context);
         return null;
     }
 
     @Override
-    public ITypeName visit(ICastExpression iCastExpression, Set<ITypeName> iTypeNames) {
+    public APIToken visit(ICastExpression statement, Map<String, Set<APIToken>> context) {
+        // TODO: which one?
         return null;
     }
 
     @Override
-    public ITypeName visit(ICompletionExpression iCompletionExpression, Set<ITypeName> iTypeNames) {
+    public APIToken visit(ICompletionExpression statement, Map<String, Set<APIToken>> context) {
+        statement.getVariableReference().accept(this, context);
         return null;
     }
 
     @Override
-    public ITypeName visit(IComposedExpression iComposedExpression, Set<ITypeName> iTypeNames) {
+    public APIToken visit(IComposedExpression statement, Map<String, Set<APIToken>> context) {
         return null;
     }
 
     @Override
-    public ITypeName visit(IIfElseExpression iIfElseExpression, Set<ITypeName> iTypeNames) {
+    public APIToken visit(IIfElseExpression statement, Map<String, Set<APIToken>> context) {
+        statement.getCondition().accept(this, context);
+        statement.getThenExpression().accept(this, context);
+        statement.getElseExpression().accept(this, context);
         return null;
     }
 
     @Override
-    public ITypeName visit(IIndexAccessExpression iIndexAccessExpression, Set<ITypeName> iTypeNames) {
+    public APIToken visit(IIndexAccessExpression statement, Map<String, Set<APIToken>> context) {
+        // TODO: which one?
         return null;
     }
 
     @Override
-    public ITypeName visit(IInvocationExpression iInvocationExpression, Set<ITypeName> iTypeNames) {
+    public APIToken visit(IInvocationExpression statement, Map<String, Set<APIToken>> context) {
+        // TODO: add here
+
+        for(ISimpleExpression parameter : statement.getParameters()) {
+            parameter.accept(this, context);
+        }
+        
+        IMethodName methodName = statement.getMethodName();
+        if(!methodName.getDeclaringType().getAssembly().isLocalProject()) {
+            APIToken apiToken = new APIToken();
+
+            if(methodName.isConstructor()) {
+                apiToken.operation = "new";
+                apiToken.invocation = "class constructor";
+            } else {
+                apiToken.operation = methodName.getName();
+                if(methodName.getIdentifier().startsWith("static")) {
+                    apiToken.invocation = "static operation";
+                } else {
+                    apiToken.invocation = "instance operation";
+                }
+            }
+            
+//            apiToken.type = methodName.getDeclaringType().getFullName();
+            apiToken.type = methodName.getDeclaringType().getName(); // TODO: use only the name
+            apiToken.namespace = methodName.getDeclaringType().getNamespace().getIdentifier();
+
+            String nameSpace = methodName.getDeclaringType().getNamespace().getIdentifier();
+            if(!context.containsKey(nameSpace)) {
+                context.put(nameSpace, new HashSet<>());
+            }
+            context.get(nameSpace).add(apiToken);
+        }
         return null;
     }
 
     @Override
-    public ITypeName visit(ILambdaExpression iLambdaExpression, Set<ITypeName> iTypeNames) {
+    public APIToken visit(ILambdaExpression statement, Map<String, Set<APIToken>> context) {
+        this.visit(statement.getBody(), context);
         return null;
     }
 
     @Override
-    public ITypeName visit(ITypeCheckExpression iTypeCheckExpression, Set<ITypeName> iTypeNames) {
+    public APIToken visit(ITypeCheckExpression statement, Map<String, Set<APIToken>> context) {
+        statement.getReference().accept(this, context);
         return null;
     }
 
     @Override
-    public ITypeName visit(IUnaryExpression iUnaryExpression, Set<ITypeName> iTypeNames) {
+    public APIToken visit(IUnaryExpression statement, Map<String, Set<APIToken>> context) {
+        statement.getOperand().accept(this, context);
         return null;
     }
 
     @Override
-    public ITypeName visit(ILoopHeaderBlockExpression iLoopHeaderBlockExpression, Set<ITypeName> iTypeNames) {
+    public APIToken visit(ILoopHeaderBlockExpression statement, Map<String, Set<APIToken>> context) {
+        this.visit(statement.getBody(), context);
         return null;
     }
 
     @Override
-    public ITypeName visit(IConstantValueExpression iConstantValueExpression, Set<ITypeName> iTypeNames) {
+    public APIToken visit(IConstantValueExpression statement, Map<String, Set<APIToken>> context) {
         return null;
     }
 
     @Override
-    public ITypeName visit(INullExpression iNullExpression, Set<ITypeName> iTypeNames) {
+    public APIToken visit(INullExpression statement, Map<String, Set<APIToken>> context) {
         return null;
     }
 
     @Override
-    public ITypeName visit(IReferenceExpression iReferenceExpression, Set<ITypeName> iTypeNames) {
+    public APIToken visit(IReferenceExpression statement, Map<String, Set<APIToken>> context) {
         return null;
     }
 
     @Override
-    public ITypeName visit(IEventReference iEventReference, Set<ITypeName> iTypeNames) {
+    public APIToken visit(IEventReference statement, Map<String, Set<APIToken>> context) {
         return null;
     }
 
     @Override
-    public ITypeName visit(IFieldReference iFieldReference, Set<ITypeName> iTypeNames) {
+    public APIToken visit(IFieldReference statement, Map<String, Set<APIToken>> context) {
+        // TODO: maybe this?
+        // System.out.println(statement.getFieldName());
         return null;
     }
 
     @Override
-    public ITypeName visit(IIndexAccessReference iIndexAccessReference, Set<ITypeName> iTypeNames) {
+    public APIToken visit(IIndexAccessReference statement, Map<String, Set<APIToken>> context) {
+        statement.getExpression().accept(this, context);
         return null;
     }
 
     @Override
-    public ITypeName visit(IMethodReference iMethodReference, Set<ITypeName> iTypeNames) {
+    public APIToken visit(IMethodReference statement, Map<String, Set<APIToken>> context) {
+        // System.out.println(statement.getMethodName());
         return null;
     }
 
     @Override
-    public ITypeName visit(IPropertyReference iPropertyReference, Set<ITypeName> iTypeNames) {
+    public APIToken visit(IPropertyReference statement, Map<String, Set<APIToken>> context) {
+        // System.out.println(statement.getPropertyName());
         return null;
     }
 
     @Override
-    public ITypeName visit(IVariableReference iVariableReference, Set<ITypeName> iTypeNames) {
+    public APIToken visit(IVariableReference statement, Map<String, Set<APIToken>> context) {
         return null;
     }
 
     @Override
-    public ITypeName visit(IUnknownReference iUnknownReference, Set<ITypeName> iTypeNames) {
+    public APIToken visit(IUnknownReference statement, Map<String, Set<APIToken>> context) {
         return null;
     }
 
     @Override
-    public ITypeName visit(IUnknownExpression iUnknownExpression, Set<ITypeName> iTypeNames) {
+    public APIToken visit(IUnknownExpression statement, Map<String, Set<APIToken>> context) {
         return null;
     }
 
     @Override
-    public ITypeName visit(IUnknownStatement iUnknownStatement, Set<ITypeName> iTypeNames) {
+    public APIToken visit(IUnknownStatement statement, Map<String, Set<APIToken>> context) {
         return null;
+    }
+    
+    // Generic
+
+    /**
+     * Given a list of statements, this function calls the accept function for each of the statements included
+     * in the list. Such lists occur in 
+     *      {@link IMethodDeclaration#getBody()},
+     *      {@link IForEachLoop#getBody()},
+     *      etc
+     *      
+     * @param body
+     *          list of statements
+     *          
+     * @param context
+     */
+    public void visit(List<IStatement> body, Map<String, Set<APIToken>> context) {
+        for(IStatement statement : body) {
+            statement.accept(this, context);
+        }
     }
 }

@@ -12,15 +12,13 @@ import examples.IoHelper;
 
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.util.HashSet;
-import java.util.Set;
+import java.util.*;
 
 public class SentenceExtractor {
 
     public void extract(String contextsDirectory) {
-        Set<String> inputContexts = null;
         try {
-            inputContexts = getInputZips(contextsDirectory);
+            Set<String> inputContexts = getInputZips(contextsDirectory);
             for(String inputContext : inputContexts) {
                 processZip(contextsDirectory + "/" + inputContext);
             }
@@ -30,8 +28,12 @@ public class SentenceExtractor {
     }
 
     private void processZip(String inputFilePath) {
+        System.out.println();
+        System.out.println("+-------------------------------------------+");
+        System.out.println("PROCESSING "+inputFilePath);
         try(IReadingArchive ra = new ReadingArchive(new File(inputFilePath))) {
             while(ra.hasNext()) {
+                
                 // within the slnZip, each stored context is contained as a single file that
                 // contains the Json representation of a Context.
                 Context context = ra.getNext(Context.class);
@@ -57,22 +59,47 @@ public class SentenceExtractor {
     private void process(ISST sst) {
         // SSTs represent a simplified meta model for source code. You can use the
         // various accessors to browse the contained information
-
+        
         // which type was edited?
         ITypeName declType = sst.getEnclosingType();
 
-        Set<Set<ITypeName>> sentences = new HashSet<>();
+        Set<Map<String, Set<APIToken>>> sentencesMap = new HashSet<>();
+        Set<IMethodDeclaration> methodDeclarations = sst.getMethods();
         // which methods are defined?
-        for(IMethodDeclaration md : sst.getMethods()) {
-            Set<ITypeName> sentence = new HashSet<>();
-            IMethodName m = md.getName();
+        for(IMethodDeclaration md : methodDeclarations) {
+            Map<String, Set<APIToken>> sentenceMap = new HashMap<>();
 
             for(IStatement stmt : md.getBody()) {
                 // process the body...
                 /// most likely, you will have to write an <see>ISSTNodeVisitor</see>
-                stmt.accept(new APIVisitor(), sentence);
+                stmt.accept(new APIVisitor(), sentenceMap);
+            }
+            if(sentenceMap.size() > 0) {
+                sentencesMap.add(sentenceMap);
             }
         }
+
+       
+        
+        if(sentencesMap.size() > 0) {
+            Map<String, Set<Set<APIToken>>> sentences = this.listOfMapsToMapOfLists(sentencesMap);
+            sentences.keySet().forEach(key -> {
+                System.out.println("+---------------------+");
+                System.out.println("\t"+key);
+                sentences.get(key).forEach(l -> {
+                    
+                });
+            });
+        }
+        
+        /*System.out.println("\n\nSENTENCES ("+sentences.size()+"):");
+        for(Set<APIToken> sentence : sentences) {
+            System.out.print("\n(");
+            for(APIToken token : sentence) {
+                System.out.print("\n\t<"+token.type+", "+token.operation+">");
+            }
+            System.out.print("\n)");
+        }*/
 
         // all references to types or type elements are fully qualified and preserve
         // many information about the resolved type
@@ -97,13 +124,27 @@ public class SentenceExtractor {
 
     }
 
+    private Map<String, Set<Set<APIToken>>> listOfMapsToMapOfLists(Set<Map<String, Set<APIToken>>> listOfMaps) {
+        Map<String, Set<Set<APIToken>>> mapOfLists = new HashMap<>();
+
+        listOfMaps.forEach(map -> {
+            map.keySet().forEach(key -> {
+                if(!mapOfLists.containsKey(key)) {
+                    mapOfLists.put(key, new HashSet<>());
+                }
+                mapOfLists.get(key).add(map.get(key));
+            });
+        });
+        
+        return mapOfLists;
+    }
+    
     /**
      * Returns a Set of zip files in a given file path.
      * 
      * Notice that this returns a Set with a single entry if the given path is a file (i.e. not a directory).
      * If the given path is a directory, this function will find and return all zips in all subdirectories as well
      * as the given directory. The directories are traversed recursively using {@link IoHelper#findAllZips(String)}.
-     * 
      * 
      * @see IoHelper#findAllZips(String)
      * 
