@@ -4,9 +4,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
+	<!-- Output to jar format -->
+	<packaging>jar</packaging>
+
     <groupId>ch.uzh.ase.ngram</groupId>
     <artifactId>ngram-recommendation-system</artifactId>
     <version>1.0-SNAPSHOT</version>
+
     <build>
         <plugins>
             <plugin>
@@ -32,6 +36,11 @@
             <groupId>cc.kave</groupId>
             <artifactId>cc.kave.rsse.calls</artifactId>
             <version>0.0.4</version>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
         </dependency>
     </dependencies>
     

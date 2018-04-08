@@ -1,0 +1,30 @@
+# safelist
+branches:
+  only:
+  - master
+  - testing
+  - develop
+
+# blacklist
+branches:
+  except:
+  - mvn-repo
+
+language: java
+jdk: oraclejdk8
+
+env:
+  - MAVEN_VERSION=3.3.9
+
+install:
+  - "mvn -N io.takari:maven:wrapper -Dmaven=${MAVEN_VERSION}"
+  - "./mvnw --show-version --errors --batch-mode test-compile dependency:go-offline"
+
+script: "./mvnw --show-version --errors --batch-mode -Prun-its clean verify"
+
+cache:
+  directories:
+  - $HOME/.m2
+
+after_script:
+  - echo "Finished the Travis Job $TRAVIS_BUILD_NUMBER"
