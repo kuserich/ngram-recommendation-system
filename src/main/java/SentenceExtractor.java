@@ -63,34 +63,27 @@ public class SentenceExtractor {
         // which type was edited?
         ITypeName declType = sst.getEnclosingType();
 
-        Set<Map<String, Set<APIToken>>> sentencesMap = new HashSet<>();
+        
+        Set<APITokenSet> sentences = new HashSet<>();
         Set<IMethodDeclaration> methodDeclarations = sst.getMethods();
         // which methods are defined?
         for(IMethodDeclaration md : methodDeclarations) {
-            Map<String, Set<APIToken>> sentenceMap = new HashMap<>();
-
-            for(IStatement stmt : md.getBody()) {
-                // process the body...
-                /// most likely, you will have to write an <see>ISSTNodeVisitor</see>
-                stmt.accept(new APIVisitor(), sentenceMap);
-            }
-            if(sentenceMap.size() > 0) {
-                sentencesMap.add(sentenceMap);
-            }
+            md.accept(new APIVisitor(), sentences);
         }
 
        
         
-        if(sentencesMap.size() > 0) {
+        /*if(sentencesMap.size() > 0) {
             Map<String, Set<Set<APIToken>>> sentences = this.listOfMapsToMapOfLists(sentencesMap);
             sentences.keySet().forEach(key -> {
-                System.out.println("+---------------------+");
+                System.out.println("+-------------------------------------------------+s");
                 System.out.println("\t"+key);
                 sentences.get(key).forEach(l -> {
-                    
+                    System.out.println("(");
+                    System.out.println("<");
                 });
             });
-        }
+        }*/
         
         /*System.out.println("\n\nSENTENCES ("+sentences.size()+"):");
         for(Set<APIToken> sentence : sentences) {
