@@ -87,7 +87,13 @@ public class SentenceExtractor {
                 System.out.println("+---------------------+");
                 System.out.println("\t"+key);
                 sentences.get(key).forEach(l -> {
-                    
+                    System.out.println("(");
+                    l.forEach(t -> {
+                        System.out.print("<");
+                        System.out.print(t.namespace+"."+t.type+", "+t.operation);
+                        System.out.print(">, ");
+                    });
+                    System.out.println("\n)");
                 });
             });
         }
