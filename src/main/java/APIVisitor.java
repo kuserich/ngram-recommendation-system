@@ -265,7 +265,7 @@ public class APIVisitor implements ISSTNodeVisitor<Set<APITokenSet>, APITokenSet
                 apiToken.operation = "new";
                 apiToken.invocation = "class constructor";
             } else {
-                apiToken.operation = methodName.getName();
+                apiToken.operation = methodName.getName(); 
                 if(methodName.getIdentifier().startsWith("static")) {
                     apiToken.invocation = "static operation";
                 } else {
