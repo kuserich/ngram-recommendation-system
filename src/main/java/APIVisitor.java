@@ -17,25 +17,25 @@ import cc.kave.commons.model.ssts.visitor.ISSTNodeVisitor;
 import java.util.List;
 import java.util.Set;
 
-public class APIVisitor implements ISSTNodeVisitor<Set<APITokenSet>, APITokenSet> {
+public class APIVisitor implements ISSTNodeVisitor<APISentence, APIToken> {
     
     @Override
-    public APITokenSet visit(ISST isst, Set<APITokenSet> context) {
+    public APIToken visit(ISST isst, APISentence context) {
         return null;
     }
 
     @Override
-    public APITokenSet visit(IDelegateDeclaration statement, Set<APITokenSet> context) {
+    public APIToken visit(IDelegateDeclaration statement, APISentence context) {
         return null;
     }
 
     @Override
-    public APITokenSet visit(IEventDeclaration statement, Set<APITokenSet> context) {
+    public APIToken visit(IEventDeclaration statement, APISentence context) {
         return null;
     }
 
     @Override
-    public APITokenSet visit(IFieldDeclaration statement, Set<APITokenSet> context) {
+    public APIToken visit(IFieldDeclaration statement, APISentence context) {
         return null;
     }
 
@@ -50,12 +50,12 @@ public class APIVisitor implements ISSTNodeVisitor<Set<APITokenSet>, APITokenSet
      *          null
      */
     @Override
-    public APITokenSet visit(IMethodDeclaration statement, Set<APITokenSet> context) {
+    public APIToken visit(IMethodDeclaration statement, APISentence context) {
         return this.visit(statement.getBody(), context);
     }
 
     @Override
-    public APITokenSet visit(IPropertyDeclaration statement, Set<APITokenSet> context) {
+    public APIToken visit(IPropertyDeclaration statement, APISentence context) {
         // TODO: what is this?
         this.visit(statement.getGet(), context);
         this.visit(statement.getSet(), context);
@@ -63,7 +63,7 @@ public class APIVisitor implements ISSTNodeVisitor<Set<APITokenSet>, APITokenSet
     }
 
     @Override
-    public APITokenSet visit(IVariableDeclaration statement, Set<APITokenSet> context) {
+    public APIToken visit(IVariableDeclaration statement, APISentence context) {
         // TODO: what here?
         
         // System.out.println("IVariableDeclaration");
@@ -80,63 +80,65 @@ public class APIVisitor implements ISSTNodeVisitor<Set<APITokenSet>, APITokenSet
     }
 
     @Override
-    public APITokenSet visit(IAssignment statement, Set<APITokenSet> context) {
+    public APIToken visit(IAssignment statement, APISentence context) {
         return statement.getExpression().accept(this, context);
     }
 
     @Override
-    public APITokenSet visit(IBreakStatement statement, Set<APITokenSet> context) {
+    public APIToken visit(IBreakStatement statement, APISentence context) {
         return null;
     }
 
     @Override
-    public APITokenSet visit(IContinueStatement statement, Set<APITokenSet> context) {
+    public APIToken visit(IContinueStatement statement, APISentence context) {
         return null;
     }
 
     @Override
-    public APITokenSet visit(IExpressionStatement statement, Set<APITokenSet> context) {
+    public APIToken visit(IExpressionStatement statement, APISentence context) {
         return statement.getExpression().accept(this, context);
     }
 
     @Override
-    public APITokenSet visit(IGotoStatement statement, Set<APITokenSet> context) {
+    public APIToken visit(IGotoStatement statement, APISentence context) {
         return null;
     }
 
     @Override
-    public APITokenSet visit(ILabelledStatement statement, Set<APITokenSet> context) {
+    public APIToken visit(ILabelledStatement statement, APISentence context) {
         statement.getStatement().accept(this, context);
         return null;
     }
 
     @Override
-    public APITokenSet visit(IReturnStatement statement, Set<APITokenSet> context) {
+    public APIToken visit(IReturnStatement statement, APISentence context) {
         statement.getExpression().accept(this, context);
         return null;
     }
 
     @Override
-    public APITokenSet visit(IThrowStatement statement, Set<APITokenSet> context) {
+    public APIToken visit(IThrowStatement statement, APISentence context) {
 //        statement.getReference().accept(this, context); 
         return null;
     }
 
     @Override
-    public APITokenSet visit(IEventSubscriptionStatement statement, Set<APITokenSet> context) {
+    public APIToken visit(IEventSubscriptionStatement statement, APISentence context) {
         statement.getExpression().accept(this, context);
         return null;
     }
 
     @Override
-    public APITokenSet visit(IDoLoop statement, Set<APITokenSet> context) {
+    public APIToken visit(IDoLoop statement, APISentence context) {
+        // TODO: branch
         statement.getCondition().accept(this, context);
         this.visit(statement.getBody(), context);
         return null;
     }
 
     @Override
-    public APITokenSet visit(IForEachLoop statement, Set<APITokenSet> context) {
+    public APIToken visit(IForEachLoop statement, APISentence context) {
+        // TODO: branch
         statement.getDeclaration().accept(this, context);
         statement.getLoopedReference().accept(this, context);
         this.visit(statement.getBody(), context);
@@ -144,7 +146,8 @@ public class APIVisitor implements ISSTNodeVisitor<Set<APITokenSet>, APITokenSet
     }
 
     @Override
-    public APITokenSet visit(IForLoop statement, Set<APITokenSet> context) {
+    public APIToken visit(IForLoop statement, APISentence context) {
+        // TODO: branch
         this.visit(statement.getInit(), context);
         statement.getCondition().accept(this, context);
         this.visit(statement.getStep(), context);
@@ -153,7 +156,8 @@ public class APIVisitor implements ISSTNodeVisitor<Set<APITokenSet>, APITokenSet
     }
 
     @Override
-    public APITokenSet visit(IIfElseBlock statement, Set<APITokenSet> context) {
+    public APIToken visit(IIfElseBlock statement, APISentence context) {
+        // TODO: branch
         statement.getCondition().accept(this, context);
         this.visit(statement.getThen(), context);
         this.visit(statement.getElse(), context);
@@ -161,13 +165,14 @@ public class APIVisitor implements ISSTNodeVisitor<Set<APITokenSet>, APITokenSet
     }
 
     @Override
-    public APITokenSet visit(ILockBlock statement, Set<APITokenSet> context) {
+    public APIToken visit(ILockBlock statement, APISentence context) {
         this.visit(statement.getBody(), context);
         return null;
     }
 
     @Override
-    public APITokenSet visit(ISwitchBlock statement, Set<APITokenSet> context) {
+    public APIToken visit(ISwitchBlock statement, APISentence context) {
+        // TODO: branch
         statement.getReference().accept(this, context);
         this.visit(statement.getDefaultSection(), context);
 
@@ -179,7 +184,8 @@ public class APIVisitor implements ISSTNodeVisitor<Set<APITokenSet>, APITokenSet
     }
 
     @Override
-    public APITokenSet visit(ITryBlock statement, Set<APITokenSet> context) {
+    public APIToken visit(ITryBlock statement, APISentence context) {
+        // TODO: branch
         this.visit(statement.getBody(), context);
         this.visit(statement.getFinally(), context);
         for(ICatchBlock catchBlock : statement.getCatchBlocks()) {
@@ -189,56 +195,59 @@ public class APIVisitor implements ISSTNodeVisitor<Set<APITokenSet>, APITokenSet
     }
 
     @Override
-    public APITokenSet visit(IUncheckedBlock statement, Set<APITokenSet> context) {
+    public APIToken visit(IUncheckedBlock statement, APISentence context) {
         this.visit(statement.getBody(), context);
         return null;
     }
 
     @Override
-    public APITokenSet visit(IUnsafeBlock statement, Set<APITokenSet> context) {
+    public APIToken visit(IUnsafeBlock statement, APISentence context) {
         return null;
     }
 
     @Override
-    public APITokenSet visit(IUsingBlock statement, Set<APITokenSet> context) {
+    public APIToken visit(IUsingBlock statement, APISentence context) {
+        // TODO: branch???
         this.visit(statement.getBody(), context);
         statement.getReference().accept(this, context);
         return null;
     }
 
     @Override
-    public APITokenSet visit(IWhileLoop statement, Set<APITokenSet> context) {
+    public APIToken visit(IWhileLoop statement, APISentence context) {
+        // TODO: branch
         statement.getCondition().accept(this, context);
         this.visit(statement.getBody(), context);
         return null;
     }
 
     @Override
-    public APITokenSet visit(IBinaryExpression statement, Set<APITokenSet> context) {
+    public APIToken visit(IBinaryExpression statement, APISentence context) {
         statement.getLeftOperand().accept(this, context);
         statement.getRightOperand().accept(this, context);
         return null;
     }
 
     @Override
-    public APITokenSet visit(ICastExpression statement, Set<APITokenSet> context) {
+    public APIToken visit(ICastExpression statement, APISentence context) {
         // TODO: which one?
         return null;
     }
 
     @Override
-    public APITokenSet visit(ICompletionExpression statement, Set<APITokenSet> context) {
+    public APIToken visit(ICompletionExpression statement, APISentence context) {
         statement.getVariableReference().accept(this, context);
         return null;
     }
 
     @Override
-    public APITokenSet visit(IComposedExpression statement, Set<APITokenSet> context) {
+    public APIToken visit(IComposedExpression statement, APISentence context) {
         return null;
     }
 
     @Override
-    public APITokenSet visit(IIfElseExpression statement, Set<APITokenSet> context) {
+    public APIToken visit(IIfElseExpression statement, APISentence context) {
+        // TODO: branch
         statement.getCondition().accept(this, context);
         statement.getThenExpression().accept(this, context);
         statement.getElseExpression().accept(this, context);
@@ -246,13 +255,19 @@ public class APIVisitor implements ISSTNodeVisitor<Set<APITokenSet>, APITokenSet
     }
 
     @Override
-    public APITokenSet visit(IIndexAccessExpression statement, Set<APITokenSet> context) {
+    public APIToken visit(IIndexAccessExpression statement, APISentence context) {
         // TODO: which one?
         return null;
     }
 
+    /**
+     * 
+     * @param statement
+     * @param context
+     * @return
+     */
     @Override
-    public APITokenSet visit(IInvocationExpression statement, Set<APITokenSet> context) {
+    public APIToken visit(IInvocationExpression statement, APISentence context) {
         for(ISimpleExpression parameter : statement.getParameters()) {
             parameter.accept(this, context);
         }
@@ -287,91 +302,91 @@ public class APIVisitor implements ISSTNodeVisitor<Set<APITokenSet>, APITokenSet
     }
 
     @Override
-    public APITokenSet visit(ILambdaExpression statement, Set<APITokenSet> context) {
+    public APIToken visit(ILambdaExpression statement, APISentence context) {
         this.visit(statement.getBody(), context);
         return null;
     }
 
     @Override
-    public APITokenSet visit(ITypeCheckExpression statement, Set<APITokenSet> context) {
+    public APIToken visit(ITypeCheckExpression statement, APISentence context) {
         statement.getReference().accept(this, context);
         return null;
     }
 
     @Override
-    public APITokenSet visit(IUnaryExpression statement, Set<APITokenSet> context) {
+    public APIToken visit(IUnaryExpression statement, APISentence context) {
         statement.getOperand().accept(this, context);
         return null;
     }
 
     @Override
-    public APITokenSet visit(ILoopHeaderBlockExpression statement, Set<APITokenSet> context) {
+    public APIToken visit(ILoopHeaderBlockExpression statement, APISentence context) {
         this.visit(statement.getBody(), context);
         return null;
     }
 
     @Override
-    public APITokenSet visit(IConstantValueExpression statement, Set<APITokenSet> context) {
+    public APIToken visit(IConstantValueExpression statement, APISentence context) {
         return null;
     }
 
     @Override
-    public APITokenSet visit(INullExpression statement, Set<APITokenSet> context) {
+    public APIToken visit(INullExpression statement, APISentence context) {
         return null;
     }
 
     @Override
-    public APITokenSet visit(IReferenceExpression statement, Set<APITokenSet> context) {
+    public APIToken visit(IReferenceExpression statement, APISentence context) {
         return null;
     }
 
     @Override
-    public APITokenSet visit(IEventReference statement, Set<APITokenSet> context) {
+    public APIToken visit(IEventReference statement, APISentence context) {
         return null;
     }
 
     @Override
-    public APITokenSet visit(IFieldReference statement, Set<APITokenSet> context) {
+    public APIToken visit(IFieldReference statement, APISentence context) {
         // TODO: maybe this?
         // System.out.println(statement.getFieldName());
         return null;
     }
 
     @Override
-    public APITokenSet visit(IIndexAccessReference statement, Set<APITokenSet> context) {
+    public APIToken visit(IIndexAccessReference statement, APISentence context) {
         statement.getExpression().accept(this, context);
         return null;
     }
 
     @Override
-    public APITokenSet visit(IMethodReference statement, Set<APITokenSet> context) {
+    public APIToken visit(IMethodReference statement, APISentence context) {
         // System.out.println(statement.getMethodName());
         return null;
     }
 
     @Override
-    public APITokenSet visit(IPropertyReference statement, Set<APITokenSet> context) {
+    public APIToken visit(IPropertyReference statement, APISentence context) {
         // System.out.println(statement.getPropertyName());
         return null;
     }
 
     @Override
-    public APITokenSet visit(IVariableReference statement, Set<APITokenSet> context) {
+    public APIToken visit(IVariableReference statement, APISentence context) {
         return null;
     }
 
     @Override
-    public APITokenSet visit(IUnknownReference statement, Set<APITokenSet> context) {
+    public APIToken visit(IUnknownReference statement, APISentence context) {
         return null;
     }
 
     @Override
-    public APITokenSet visit(IUnknownExpression statement, Set<APITokenSet> context) {
+    public APIToken visit(IUnknownExpression statement, APISentence context) {
         return null;
     }
 
     @Override
-    public APITokenSet visit(IUnknownStatement statement, Set<APITokenSet> context) {
+    public APIToken visit(IUnknownStatement statement, APISentence context) {
         return null;
     }
     
@@ -388,7 +403,7 @@ public class APIVisitor implements ISSTNodeVisitor<Set<APITokenSet>, APITokenSet
      *          
      * @param context
      */
-    public APITokenSet visit(List<IStatement> body, Set<APITokenSet> context) {
+    public APIToken visit(List<IStatement> body, APISentence context) {
         for(IStatement statement : body) {
             statement.accept(this, context);
         }

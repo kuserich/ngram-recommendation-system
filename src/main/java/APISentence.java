@@ -3,10 +3,17 @@ import java.util.List;
 
 public class APISentence {
     
-    List<APIToken> apiTokens = new ArrayList<>();
+    private List<APIToken> apiTokens = new ArrayList<>();
+    private List<APISentence> branches = new ArrayList<>();
     
-    public void add(APIToken apiToken) {
-        this.apiTokens.add(apiToken);
+    public void addToken(APIToken token) {
+        this.apiTokens.add(token);
+    }
+    
+    public APISentence branch() {
+        APISentence sentence = new APISentence();
+        this.branches.add(sentence);
+        return sentence;
     }
     
 }

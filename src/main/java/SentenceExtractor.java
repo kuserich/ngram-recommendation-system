@@ -33,7 +33,6 @@ public class SentenceExtractor {
         System.out.println("PROCESSING "+inputFilePath);
         try(IReadingArchive ra = new ReadingArchive(new File(inputFilePath))) {
             while(ra.hasNext()) {
-                
                 // within the slnZip, each stored context is contained as a single file that
                 // contains the Json representation of a Context.
                 Context context = ra.getNext(Context.class);
@@ -57,8 +56,8 @@ public class SentenceExtractor {
     }
 
     private void process(ISST sst) {
-        // SSTs represent a simplified meta model for source code. You can use the
-        // various accessors to browse the contained information
+        // SSTs represent a simplified meta model for source code. 
+        // You can use the various accessors to browse the contained information
         
         // which type was edited?
         ITypeName declType = sst.getEnclosingType();
@@ -70,30 +69,7 @@ public class SentenceExtractor {
         for(IMethodDeclaration md : methodDeclarations) {
             md.accept(new APIVisitor(), sentences);
         }
-
-       
         
-        /*if(sentencesMap.size() > 0) {
-            Map<String, Set<Set<APIToken>>> sentences = this.listOfMapsToMapOfLists(sentencesMap);
-            sentences.keySet().forEach(key -> {
-                System.out.println("+-------------------------------------------------+s");
-                System.out.println("\t"+key);
-                sentences.get(key).forEach(l -> {
-                    System.out.println("(");
-                    System.out.println("<");
-                });
-            });
-        }*/
-        
-        /*System.out.println("\n\nSENTENCES ("+sentences.size()+"):");
-        for(Set<APIToken> sentence : sentences) {
-            System.out.print("\n(");
-            for(APIToken token : sentence) {
-                System.out.print("\n\t<"+token.type+", "+token.operation+">");
-            }
-            System.out.print("\n)");
-        }*/
-
         // all references to types or type elements are fully qualified and preserve
         // many information about the resolved type
         declType.getNamespace();
