@@ -297,6 +297,7 @@ public class APIVisitor implements ISSTNodeVisitor<APISentence, APIToken> {
 //                context.put(nameSpace, new HashSet<>());
 //            }
 //            context.add(apiToken);
+            context.addToken(apiToken);
         }
         return null;
     }

@@ -63,13 +63,16 @@ public class SentenceExtractor {
         ITypeName declType = sst.getEnclosingType();
 
         
-        Set<APITokenSet> sentences = new HashSet<>();
+        APISentence sentence = new APISentence();
         Set<IMethodDeclaration> methodDeclarations = sst.getMethods();
         // which methods are defined?
         for(IMethodDeclaration md : methodDeclarations) {
-            md.accept(new APIVisitor(), sentences);
+            md.accept(new APIVisitor(), sentence);
         }
-        
+
+        System.out.println(sentence.toString());
+        System.exit(1);
+
         // all references to types or type elements are fully qualified and preserve
         // many information about the resolved type
         declType.getNamespace();
