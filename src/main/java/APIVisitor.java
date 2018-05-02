@@ -1,5 +1,4 @@
 import cc.kave.commons.model.naming.codeelements.IMethodName;
-import cc.kave.commons.model.naming.types.organization.INamespaceName;
 import cc.kave.commons.model.ssts.ISST;
 import cc.kave.commons.model.ssts.IStatement;
 import cc.kave.commons.model.ssts.blocks.*;
@@ -24,7 +23,6 @@ public class APIVisitor implements ISSTNodeVisitor<Map<String, Set<APIToken>>, A
     
     @Override
     public APIToken visit(ISST isst, Map<String, Set<APIToken>> context) {
-        // System.out.println("ISST");
         return null;
     }
 
@@ -40,8 +38,6 @@ public class APIVisitor implements ISSTNodeVisitor<Map<String, Set<APIToken>>, A
 
     @Override
     public APIToken visit(IFieldDeclaration statement, Map<String, Set<APIToken>> context) {
-        // System.out.println("IFieldDeclaration");
-        // System.out.println(statement.getName());
         return null;
     }
 
@@ -136,6 +132,7 @@ public class APIVisitor implements ISSTNodeVisitor<Map<String, Set<APIToken>>, A
 
     @Override
     public APIToken visit(IDoLoop statement, Map<String, Set<APIToken>> context) {
+        // TODO: branch
         statement.getCondition().accept(this, context);
         this.visit(statement.getBody(), context);
         return null;
@@ -143,6 +140,7 @@ public class APIVisitor implements ISSTNodeVisitor<Map<String, Set<APIToken>>, A
 
     @Override
     public APIToken visit(IForEachLoop statement, Map<String, Set<APIToken>> context) {
+        // TODO: branch
         statement.getDeclaration().accept(this, context);
         statement.getLoopedReference().accept(this, context);
         this.visit(statement.getBody(), context);
@@ -151,6 +149,7 @@ public class APIVisitor implements ISSTNodeVisitor<Map<String, Set<APIToken>>, A
 
     @Override
     public APIToken visit(IForLoop statement, Map<String, Set<APIToken>> context) {
+        // TODO: branch
         this.visit(statement.getInit(), context);
         statement.getCondition().accept(this, context);
         this.visit(statement.getStep(), context);
@@ -160,6 +159,7 @@ public class APIVisitor implements ISSTNodeVisitor<Map<String, Set<APIToken>>, A
 
     @Override
     public APIToken visit(IIfElseBlock statement, Map<String, Set<APIToken>> context) {
+        // TODO: branch
         statement.getCondition().accept(this, context);
         this.visit(statement.getThen(), context);
         this.visit(statement.getElse(), context);
@@ -174,6 +174,7 @@ public class APIVisitor implements ISSTNodeVisitor<Map<String, Set<APIToken>>, A
 
     @Override
     public APIToken visit(ISwitchBlock statement, Map<String, Set<APIToken>> context) {
+        // TODO: branch
         statement.getReference().accept(this, context);
         this.visit(statement.getDefaultSection(), context);
 
@@ -186,6 +187,7 @@ public class APIVisitor implements ISSTNodeVisitor<Map<String, Set<APIToken>>, A
 
     @Override
     public APIToken visit(ITryBlock statement, Map<String, Set<APIToken>> context) {
+        // TODO: branch
         this.visit(statement.getBody(), context);
         this.visit(statement.getFinally(), context);
         for(ICatchBlock catchBlock : statement.getCatchBlocks()) {
@@ -207,6 +209,7 @@ public class APIVisitor implements ISSTNodeVisitor<Map<String, Set<APIToken>>, A
 
     @Override
     public APIToken visit(IUsingBlock statement, Map<String, Set<APIToken>> context) {
+        // TODO: branch???
         this.visit(statement.getBody(), context);
         statement.getReference().accept(this, context);
         return null;
@@ -214,6 +217,7 @@ public class APIVisitor implements ISSTNodeVisitor<Map<String, Set<APIToken>>, A
 
     @Override
     public APIToken visit(IWhileLoop statement, Map<String, Set<APIToken>> context) {
+        // TODO: branch
         statement.getCondition().accept(this, context);
         this.visit(statement.getBody(), context);
         return null;
@@ -245,6 +249,7 @@ public class APIVisitor implements ISSTNodeVisitor<Map<String, Set<APIToken>>, A
 
     @Override
     public APIToken visit(IIfElseExpression statement, Map<String, Set<APIToken>> context) {
+        // TODO: branch
         statement.getCondition().accept(this, context);
         statement.getThenExpression().accept(this, context);
         statement.getElseExpression().accept(this, context);
@@ -257,6 +262,12 @@ public class APIVisitor implements ISSTNodeVisitor<Map<String, Set<APIToken>>, A
         return null;
     }
 
+    /**
+     * 
+     * @param statement
+     * @param context
+     * @return
+     */
     @Override
     public APIToken visit(IInvocationExpression statement, Map<String, Set<APIToken>> context) {
         // TODO: add here

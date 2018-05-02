@@ -33,7 +33,6 @@ public class SentenceExtractor {
         System.out.println("PROCESSING "+inputFilePath);
         try(IReadingArchive ra = new ReadingArchive(new File(inputFilePath))) {
             while(ra.hasNext()) {
-                
                 // within the slnZip, each stored context is contained as a single file that
                 // contains the Json representation of a Context.
                 Context context = ra.getNext(Context.class);
@@ -57,8 +56,8 @@ public class SentenceExtractor {
     }
 
     private void process(ISST sst) {
-        // SSTs represent a simplified meta model for source code. You can use the
-        // various accessors to browse the contained information
+        // SSTs represent a simplified meta model for source code. 
+        // You can use the various accessors to browse the contained information
         
         // which type was edited?
         ITypeName declType = sst.getEnclosingType();
@@ -68,7 +67,6 @@ public class SentenceExtractor {
         // which methods are defined?
         for(IMethodDeclaration md : methodDeclarations) {
             Map<String, Set<APIToken>> sentenceMap = new HashMap<>();
-
             for(IStatement stmt : md.getBody()) {
                 // process the body...
                 /// most likely, you will have to write an <see>ISSTNodeVisitor</see>
@@ -78,8 +76,6 @@ public class SentenceExtractor {
                 sentencesMap.add(sentenceMap);
             }
         }
-
-       
         
         if(sentencesMap.size() > 0) {
             Map<String, Set<Set<APIToken>>> sentences = this.listOfMapsToMapOfLists(sentencesMap);
