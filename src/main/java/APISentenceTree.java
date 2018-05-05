@@ -1,7 +1,4 @@
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 public class APISentenceTree {
     
@@ -47,18 +44,45 @@ public class APISentenceTree {
     
     @Override
     public String toString() {
+        return toString(2);
+    }
+
+    /**
+     * Return the string representation of an APISentenceTree.
+     * 
+     *   (<Token, Some>, <Token, SomeOther>
+     *      <Branch, First>, <Branch, StillFirst>
+     *          <Branch, Second>
+     *      <Branch, ThirdButFromRoot>
+     *   <Token, Some>)
+     *       
+     *       
+     * @param branchIndent
+     *          number of spaces that the current branch should be indented.
+     *          Notice that for every {@link APISentenceTree} in {@link #branch}
+     *          the function calls {@link #toString(int)} with an increased 
+     *          branchIndent.
+     * 
+     * @return
+     *          string representation of an APISentenceTree
+     */
+    public String toString(int branchIndent) {
         StringBuilder sb = new StringBuilder();
         sb.append("(");
         for(int i = 0; i< tokens.size(); i++) {
             APIToken token = tokens.get(i);
             sb.append(token.toString());
-            
+
             if(branches.containsKey(token)) {
                 for(APISentenceTree branch : branches.get(token)) {
-                    sb.append(branch.toString());
+                    sb.append("\n");
+                    char[] repeat = new char[branchIndent];
+                    Arrays.fill(repeat, ' ');
+                    sb.append(new String(repeat));
+                    sb.append(branch.toString(branchIndent+2));
                 }
             }
-            
+
             if(i< tokens.size()-1) {
                 sb.append(", ");
             }

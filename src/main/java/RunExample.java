@@ -11,7 +11,7 @@ public class RunExample {
     /*
      * download the context data and follow the same instructions as before.
      */
-    public static String contextsDir = "Contexts-170503";
+    public static String contextsDir = "Contexts-170503/";
     
     public static void main(String[] args) {
 //        new FSClient().run();

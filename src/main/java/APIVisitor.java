@@ -216,7 +216,7 @@ public class APIVisitor implements ISSTNodeVisitor<APISentenceTree, APIToken> {
                                         context.getLastValidToken() == null ?
                                         new APIToken() : context.getLastValidToken() 
                                             : stepToken : conditionToken : initToken;
-        
+
         this.visit(statement.getBody(), context.branch(lastValidToken));
         return lastValidToken;
     }
@@ -224,13 +224,16 @@ public class APIVisitor implements ISSTNodeVisitor<APISentenceTree, APIToken> {
     @Override
     public APIToken visit(IIfElseBlock statement, APISentenceTree context) {
         // TODO: branch
-        APIToken at = statement.getCondition().accept(this, context);
-        if(at != null) {
-            System.out.println(at.toString());
-            this.visit(statement.getThen(), context.branch(at));
-            this.visit(statement.getElse(), context.branch(at));
-        }
-        return null;
+        APIToken conditionToken = statement.getCondition().accept(this, context);
+        APIToken lastValidToken = 
+                conditionToken == null ? 
+                        context.getLastValidToken() == null ? 
+                                new APIToken() : context.getLastValidToken() : conditionToken;
+    
+        this.visit(statement.getThen(), context.branch(lastValidToken));
+        this.visit(statement.getElse(), context.branch(lastValidToken));
+        
+        return lastValidToken;
     }
 
     @Override
@@ -531,6 +534,10 @@ public class APIVisitor implements ISSTNodeVisitor<APISentenceTree, APIToken> {
      */
     public APIToken visit(List<IStatement> body, APISentenceTree context) {
         for(IStatement statement : body) {
+            /*APIToken token = statement.accept(this, context);
+            if(token != null) {
+                context.addToken(token);
+            }*/
             statement.accept(this, context);
         }
         return null;

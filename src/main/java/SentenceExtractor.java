@@ -76,9 +76,7 @@ public class SentenceExtractor {
             }
         }
 
-        apiSentences.forEach(s -> {
-            System.out.println(s.toString());
-        });
+        apiSentences.forEach(s -> System.out.println(s.toString()));
 
         // all references to types or type elements are fully qualified and preserve
         // many information about the resolved type
