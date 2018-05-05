@@ -4,8 +4,8 @@ import cc.kave.commons.model.naming.codeelements.IMethodName;
 import cc.kave.commons.model.naming.codeelements.IParameterName;
 import cc.kave.commons.model.naming.types.ITypeName;
 import cc.kave.commons.model.ssts.ISST;
-import cc.kave.commons.model.ssts.IStatement;
 import cc.kave.commons.model.ssts.declarations.IMethodDeclaration;
+import cc.kave.commons.model.typeshapes.ITypeShape;
 import cc.kave.commons.utils.io.IReadingArchive;
 import cc.kave.commons.utils.io.ReadingArchive;
 import examples.IoHelper;
@@ -48,6 +48,8 @@ public class SentenceExtractor {
         // two things:
 
         // 1) a simplified syntax tree of the type declaration
+
+        ITypeShape whatever = context.getTypeShape();
         process(context.getSST());
 
         // 2) a "type shape" that provides information about the hierarchy of the
@@ -61,17 +63,22 @@ public class SentenceExtractor {
         
         // which type was edited?
         ITypeName declType = sst.getEnclosingType();
-
         
-        APISentence sentence = new APISentence();
-        Set<IMethodDeclaration> methodDeclarations = sst.getMethods();
-        // which methods are defined?
-        for(IMethodDeclaration md : methodDeclarations) {
+        Set<APISentenceTree> apiSentences = new HashSet<>();
+        
+        for(IMethodDeclaration md : sst.getMethods()) {
+            // TODO: this is wrong, there will be a single sentence per method but bucketized per namespace
+            // TODO: maybe not, we can bucketize in a separate step
+            APISentenceTree sentence = new APISentenceTree();
             md.accept(new APIVisitor(), sentence);
+            if(!sentence.isEmpty()) {
+                apiSentences.add(sentence);
+            }
         }
 
-        System.out.println(sentence.toString());
-        System.exit(1);
+        apiSentences.forEach(s -> {
+            System.out.println(s.toString());
+        });
 
         // all references to types or type elements are fully qualified and preserve
         // many information about the resolved type
@@ -89,7 +96,7 @@ public class SentenceExtractor {
         m.getDeclaringType();
         m.getReturnType();
         // or inspect the signature
-        for (IParameterName p : m.getParameters()) {
+        for(IParameterName p : m.getParameters()) {
             String pid = p.getName();
             ITypeName ptype = p.getValueType();
         }

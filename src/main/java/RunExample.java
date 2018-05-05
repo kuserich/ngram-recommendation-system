@@ -1,21 +1,4 @@
-import cc.kave.commons.model.events.completionevents.Context;
-import cc.kave.commons.model.naming.types.ITypeName;
-import cc.kave.commons.model.ssts.ISST;
-import cc.kave.commons.utils.io.ReadingArchive;
-import com.google.common.collect.Sets;
-import examples.GettingStarted;
-import examples.GettingStartedContexts;
-import examples.TypeCollectionVisitor;
-import fs.FSClient;
-import kave.KaVEClient;
-
-import java.io.File;
-import java.util.HashSet;
-import java.util.Set;
-
 public class RunExample {
-
-
 
     /*
      * download the interaction data and unzip it into the root of this project (at
