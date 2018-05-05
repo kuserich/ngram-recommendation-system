@@ -16,21 +16,28 @@ import java.util.*;
 
 public class SentenceExtractor {
 
-    public void extract(String contextsDirectory) {
+    public List<List<APIToken>> extract(String contextsDirectory) {
         try {
             Set<String> inputContexts = getInputZips(contextsDirectory);
+            List<List<APIToken>> apiSentences = new ArrayList<>();
+
             for(String inputContext : inputContexts) {
-                processZip(contextsDirectory + "/" + inputContext);
+                apiSentences.addAll(processZip(contextsDirectory + "/" + inputContext));
             }
+            return apiSentences;
         } catch(FileNotFoundException e) {
             e.printStackTrace();
         }
+        return null;
     }
 
-    private void processZip(String inputFilePath) {
+    private List<List<APIToken>> processZip(String inputFilePath) {
         System.out.println();
         System.out.println("+-------------------------------------------+");
         System.out.println("PROCESSING "+inputFilePath);
+
+        List<List<APIToken>> apiSentences = new ArrayList<>();
+
         try(IReadingArchive ra = new ReadingArchive(new File(inputFilePath))) {
             while(ra.hasNext()) {
                 // within the slnZip, each stored context is contained as a single file that
@@ -38,33 +45,40 @@ public class SentenceExtractor {
                 Context context = ra.getNext(Context.class);
 
                 // the events can then be processed individually
-                processContext(context);
+                apiSentences.addAll(processContext(context));
             }
         }
+        return apiSentences;
     }
 
-    private void processContext(Context context) {
+    private List<List<APIToken>> processContext(Context context) {
         // a context is an abstract view on a single type declaration that contains of
         // two things:
 
         // 1) a simplified syntax tree of the type declaration
 
         ITypeShape whatever = context.getTypeShape();
-        process(context.getSST());
+        List<APISentenceTree> apiSentenceTrees = process(context.getSST());
+        
+        List<List<APIToken>> apiSentences = new ArrayList<>();
+        for(APISentenceTree asp : apiSentenceTrees) {
+            apiSentences.addAll(asp.flatten());
+        }
+        return apiSentences;
 
         // 2) a "type shape" that provides information about the hierarchy of the
         // declared type
 //        process(context.getTypeShape());
     }
 
-    private void process(ISST sst) {
+    private List<APISentenceTree> process(ISST sst) {
         // SSTs represent a simplified meta model for source code. 
         // You can use the various accessors to browse the contained information
         
         // which type was edited?
         ITypeName declType = sst.getEnclosingType();
         
-        Set<APISentenceTree> apiSentences = new HashSet<>();
+        List<APISentenceTree> apiSentences = new ArrayList<>();
         
         for(IMethodDeclaration md : sst.getMethods()) {
             // TODO: this is wrong, there will be a single sentence per method but bucketized per namespace
@@ -75,10 +89,10 @@ public class SentenceExtractor {
                 apiSentences.add(sentence);
             }
         }
+        
+        return apiSentences;
 
-        apiSentences.forEach(s -> System.out.println(s.toString()));
-
-        // all references to types or type elements are fully qualified and preserve
+        /*// all references to types or type elements are fully qualified and preserve
         // many information about the resolved type
         declType.getNamespace();
         declType.isInterfaceType();
@@ -97,7 +111,7 @@ public class SentenceExtractor {
         for(IParameterName p : m.getParameters()) {
             String pid = p.getName();
             ITypeName ptype = p.getValueType();
-        }
+        }*/
 
     }
 

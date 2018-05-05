@@ -1,3 +1,4 @@
+import cc.kave.commons.model.events.completionevents.Context;
 import cc.kave.commons.model.naming.codeelements.IMethodName;
 import cc.kave.commons.model.ssts.ISST;
 import cc.kave.commons.model.ssts.IStatement;
@@ -17,84 +18,51 @@ import cc.kave.commons.model.ssts.visitor.ISSTNodeVisitor;
 import java.util.List;
 
 public class APIVisitor implements ISSTNodeVisitor<APISentenceTree, APIToken> {
-    
-    @Override
-    public APIToken visit(ISST isst, APISentenceTree context) {
-        return null;
-    }
-
-    @Override
-    public APIToken visit(IDelegateDeclaration statement, APISentenceTree context) {
-        return null;
-    }
-
-    @Override
-    public APIToken visit(IEventDeclaration statement, APISentenceTree context) {
-        return null;
-    }
-
-    @Override
-    public APIToken visit(IFieldDeclaration statement, APISentenceTree context) {
-        return null;
-    }
 
     /**
-     * Entry level declaration. // TODO: DANGEROUS AS SEMANTICS ARE DIFFERENT
-     * // TODO: {@link cc.kave.commons.model.ssts.impl.declarations.MethodDeclaration} contains a field isEntryPoint, see what this does
+     * Entry level declaration. 
      * 
      * {@link IMethodDeclaration} is used for entire methods. That is, it includes
-     * and encapsulates a single body with all its statements.
+     * and encapsulates a single method body with all its statements.
      * There is no information that we need to take from this statement itself but
-     * process its body. Hence, we return the result we receive from visiting the body.
+     * we will only process its body. Hence, we return the result we receive from 
+     * visiting the body.
      * 
-     * TODO: perhaps in the future we will move this outside the visitor
      * (because we want to add tokens to a list/sentence and semantically, 
      * this function should return this list)
      * 
-     * Problem: at the moment we return {@link APIToken} objects whereas here
-     * we would return an {@link APISentenceTree}.
+     * Notice that this function is called in {@link SentenceExtractor#processContext(Context)}
+     * and will always receive a newly created {@link APISentenceTree} object.
+     * Furthermore, this function will always call {@link #visit(List, APISentenceTree)}
+     * and propagate further processing.
+     *
+     * TODO: {@link cc.kave.commons.model.ssts.impl.declarations.MethodDeclaration} contains a field isEntryPoint, see what this does
+     * 
+     * @see SentenceExtractor#processContext(Context)
+     *          
+     * @see #visit(IInvocationExpression, APISentenceTree)
+     * @see #visit(List, APISentenceTree)
      * 
      * @param statement
+     *          Method declaration statement that contains the body of a method.
+     *          
      * @param context
+     *          newly created {@link APISentenceTree} that will be filled with the
+     *          {@link IInvocationExpression} objects from the body of the method
      * 
      * @return
+     *          APIToken from {@link #visit(List, APISentenceTree)}
      */
     @Override
     public APIToken visit(IMethodDeclaration statement, APISentenceTree context) {
-        // DO NOT USE THIS
         return this.visit(statement.getBody(), context);
     }
 
     @Override
     public APIToken visit(IPropertyDeclaration statement, APISentenceTree context) {
-        // TODO: what is this?
         this.visit(statement.getGet(), context);
         this.visit(statement.getSet(), context);
-        return null;
-    }
-
-    /**
-     * Scratch stateStoreSpy = new Scratch();
-     * ---------------------   <--- this part is a VariableDeclaration,
-     *                              hence, no information gain (i.e. the
-     *                              actual information will be processed
-     *                              in the right side declaration)
-     * @param statement
-     * @param context
-     * 
-     * @see #visit(IAssignment, APISentenceTree)
-     *          contains the right side information in raw form.
-     *          That is, {@link IAssignment} itself does not store any 
-     *          useful information but will propagate processing (such
-     *          that we can capture the information on the right side
-     *          of the declaration, if needed - which is the case for
-     *          methods and object instatiations only)
-     * 
-     * @return null
-     *          this information is not needed
-     */
-    @Override
-    public APIToken visit(IVariableDeclaration statement, APISentenceTree context) {
+        
         return null;
     }
 
@@ -119,20 +87,10 @@ public class APIVisitor implements ISSTNodeVisitor<APISentenceTree, APIToken> {
         return statement.getExpression().accept(this, context);
     }
 
-    @Override
-    public APIToken visit(IBreakStatement statement, APISentenceTree context) {
-        return null;
-    }
-
-    @Override
-    public APIToken visit(IContinueStatement statement, APISentenceTree context) {
-        return null;
-    }
-
 
     /**
-     * Have not yet fully figured out what this is but may contain {@link IInvocationExpression}
-     * and therefore must be propagated.
+     * Have not yet fully figured out what this is but may contain
+     * {@link IInvocationExpression} and therefore must be propagated.
      * 
      * @param statement
      * @param context
@@ -146,14 +104,8 @@ public class APIVisitor implements ISSTNodeVisitor<APISentenceTree, APIToken> {
     }
 
     @Override
-    public APIToken visit(IGotoStatement statement, APISentenceTree context) {
-        return null;
-    }
-
-    @Override
     public APIToken visit(ILabelledStatement statement, APISentenceTree context) {
-        statement.getStatement().accept(this, context);
-        return null;
+        return statement.getStatement().accept(this, context);
     }
 
     /**
@@ -168,43 +120,38 @@ public class APIVisitor implements ISSTNodeVisitor<APISentenceTree, APIToken> {
      */
     @Override
     public APIToken visit(IReturnStatement statement, APISentenceTree context) {
-        statement.getExpression().accept(this, context);
-        return null;
-    }
-
-    @Override
-    public APIToken visit(IThrowStatement statement, APISentenceTree context) {
-        statement.getReference().accept(this, context);
-//        statement.getReference().accept(this, context); 
-        return null;
+        return statement.getExpression().accept(this, context);
     }
 
     @Override
     public APIToken visit(IEventSubscriptionStatement statement, APISentenceTree context) {
-        statement.getExpression().accept(this, context);
-        return null;
+        return statement.getExpression().accept(this, context);
     }
 
     @Override
     public APIToken visit(IDoLoop statement, APISentenceTree context) {
-        // TODO: branch
-        statement.getCondition().accept(this, context);
-        this.visit(statement.getBody(), context);
-        return null;
+        APIToken conditionToken = statement.getCondition().accept(this, context);
+        APIToken lastValidToken = 
+                conditionToken == null ?
+                        context.getLastValidToken() == null ?
+                                new APIToken() : context.getLastValidToken() : conditionToken;
+        
+        return this.visit(statement.getBody(), context.branch(lastValidToken));
     }
 
     @Override
     public APIToken visit(IForEachLoop statement, APISentenceTree context) {
-        // TODO: branch
-        statement.getDeclaration().accept(this, context);
-        statement.getLoopedReference().accept(this, context);
-        this.visit(statement.getBody(), context);
-        return null;
+        APIToken declarationToken = statement.getDeclaration().accept(this, context);
+        APIToken lastValidToken =
+                declarationToken == null ?
+                        context.getLastValidToken() == null ?
+                                new APIToken() : context.getLastValidToken() : declarationToken;
+        
+        return this.visit(statement.getBody(), context.branch(lastValidToken));
     }
 
     @Override
     public APIToken visit(IForLoop statement, APISentenceTree context) {
-        // TODO: branch
         APIToken initToken = this.visit(statement.getInit(), context);
         APIToken conditionToken = statement.getCondition().accept(this, context);
         APIToken stepToken = this.visit(statement.getStep(), context);
@@ -217,13 +164,11 @@ public class APIVisitor implements ISSTNodeVisitor<APISentenceTree, APIToken> {
                                         new APIToken() : context.getLastValidToken() 
                                             : stepToken : conditionToken : initToken;
 
-        this.visit(statement.getBody(), context.branch(lastValidToken));
-        return lastValidToken;
+        return this.visit(statement.getBody(), context.branch(lastValidToken));
     }
 
     @Override
     public APIToken visit(IIfElseBlock statement, APISentenceTree context) {
-        // TODO: branch
         APIToken conditionToken = statement.getCondition().accept(this, context);
         APIToken lastValidToken = 
                 conditionToken == null ? 
@@ -238,21 +183,21 @@ public class APIVisitor implements ISSTNodeVisitor<APISentenceTree, APIToken> {
 
     @Override
     public APIToken visit(ILockBlock statement, APISentenceTree context) {
-        this.visit(statement.getBody(), context);
-        return null;
+        return this.visit(statement.getBody(), context);
     }
-
+    
     @Override
     public APIToken visit(ISwitchBlock statement, APISentenceTree context) {
         // TODO: branch
-        statement.getReference().accept(this, context);
-        this.visit(statement.getDefaultSection(), context);
-
+        // TODO: technically, we should only branch if there is a break statement within the switch block
+        APIToken lastValidToken = context.getLastValidToken() == null ?
+                new APIToken() : context.getLastValidToken();
+        
         for(ICaseBlock caseBlock : statement.getSections()) {
-            this.visit(caseBlock.getBody(), context);
+            this.visit(caseBlock.getBody(), context.branch(lastValidToken));
         }
-
-        return null;
+        
+        return this.visit(statement.getDefaultSection(), context.branch(lastValidToken));
     }
 
     @Override
@@ -260,37 +205,34 @@ public class APIVisitor implements ISSTNodeVisitor<APISentenceTree, APIToken> {
         // TODO: branch
         this.visit(statement.getBody(), context);
         this.visit(statement.getFinally(), context);
+        
         for(ICatchBlock catchBlock : statement.getCatchBlocks()) {
-            this.visit(catchBlock.getBody(), context);
+            APISentenceTree newContext = context.branch(new APIToken());
+            this.visit(catchBlock.getBody(), newContext);
+            this.visit(statement.getFinally(), newContext);
         }
         return null;
     }
 
     @Override
     public APIToken visit(IUncheckedBlock statement, APISentenceTree context) {
-        this.visit(statement.getBody(), context);
-        return null;
-    }
-
-    @Override
-    public APIToken visit(IUnsafeBlock statement, APISentenceTree context) {
-        return null;
+        return this.visit(statement.getBody(), context);
     }
 
     @Override
     public APIToken visit(IUsingBlock statement, APISentenceTree context) {
-        // TODO: branch???
-        this.visit(statement.getBody(), context);
-        statement.getReference().accept(this, context);
-        return null;
+        return this.visit(statement.getBody(), context);
     }
 
     @Override
     public APIToken visit(IWhileLoop statement, APISentenceTree context) {
-        // TODO: branch
-        statement.getCondition().accept(this, context);
-        this.visit(statement.getBody(), context);
-        return null;
+        APIToken conditionToken = statement.getCondition().accept(this, context);
+        APIToken lastValidToken = 
+                conditionToken == null ?
+                        context.getLastValidToken() == null?
+                                new APIToken() : context.getLastValidToken() : conditionToken;
+        
+        return this.visit(statement.getBody(), context.branch(lastValidToken));
     }
 
     /**
@@ -327,34 +269,128 @@ public class APIVisitor implements ISSTNodeVisitor<APISentenceTree, APIToken> {
 
     @Override
     public APIToken visit(IComposedExpression statement, APISentenceTree context) {
+        // TODO: what is this?
         return null;
     }
 
     @Override
     public APIToken visit(IIfElseExpression statement, APISentenceTree context) {
-        // TODO: branch
-        statement.getCondition().accept(this, context);
-        statement.getThenExpression().accept(this, context);
-        statement.getElseExpression().accept(this, context);
-        return null;
+        APIToken conditionToken = statement.getCondition().accept(this, context);
+
+        APIToken lastValidToken =
+                conditionToken == null ?
+                        context.getLastValidToken() == null?
+                                new APIToken() : context.getLastValidToken() : conditionToken;
+        
+        statement.getThenExpression().accept(this, context.branch(lastValidToken));
+        return statement.getElseExpression().accept(this, context.branch(lastValidToken));
+    }
+    
+    /**
+     * 
+     * @param statement
+     * @param context
+     * @return
+     */
+    @Override
+    public APIToken visit(IInvocationExpression statement, APISentenceTree context) {
+        // TODO: check in what order we should process an invocation statement
+        for(ISimpleExpression parameter : statement.getParameters()) {
+            parameter.accept(this, context);
+        }
+        
+        IMethodName methodName = statement.getMethodName();
+        if(methodName.getDeclaringType().getAssembly().isLocalProject() 
+                || hasIllegalMethodName(methodName)) {
+            return null;
+        }
+
+        
+        String operation;
+        String invocation;
+        
+        if(methodName.isConstructor()) {
+            operation = "new";
+            invocation = "class constructor";
+        } else {
+            operation = methodName.getName();
+            if(methodName.getIdentifier().startsWith("static")) {
+                invocation = "static operation";
+            } else {
+                invocation = "instance operation";
+            }
+        }
+        
+        APIToken apiToken = new APIToken();
+        apiToken.setOperation(operation);
+        apiToken.setInvocation(invocation);
+        // TODO: use only the name
+        apiToken.setType(methodName.getDeclaringType().getName()); 
+        apiToken.setNamespace(methodName.getDeclaringType().getNamespace().getIdentifier());
+
+        // it is very important that we add our tokens within the visit methods.
+        // particularly, we will only add any tokens in this visit method as we
+        // are only interested in invocation expressions.
+        // We are unable to use the return statement of a single visit method
+        // to return the tokens that we want to add because i) some visit methods
+        // would need to return multiple results ii) it would be more appropriate
+        // for some visit functions to return entire APISentenceTree objects.
+        // We cannot use different return types and hence omit the strategy of
+        // using return types.
+        context.addToken(apiToken);
+        return apiToken;
     }
 
     @Override
-    public APIToken visit(IIndexAccessExpression statement, APISentenceTree context) {
-        // TODO: which one?
+    public APIToken visit(IUnaryExpression statement, APISentenceTree context) {
+        return statement.getOperand().accept(this, context);
+    }
+
+    @Override
+    public APIToken visit(ILoopHeaderBlockExpression statement, APISentenceTree context) {
+        return this.visit(statement.getBody(), context);
+    }
+    
+    // Generic
+
+    /**
+     * Given a list of statements, this function calls the accept function for 
+     * each of the statements included in the list. Such lists occur in 
+     * 
+     *      {@link IMethodDeclaration#getBody()},
+     *      {@link IForEachLoop#getBody()},
+     *      
+     *      and others
+     *      
+     * @see #visit(IMethodDeclaration, APISentenceTree)     
+     * @see #visit(IInvocationExpression, APISentenceTree) 
+     * 
+     * @param body
+     *          list of statements
+     *          
+     * @param context
+     *          {@link APISentenceTree} that will be filled with the
+     *          {@link IInvocationExpression} statements included in the body
+     */
+    public APIToken visit(List<IStatement> body, APISentenceTree context) {
+        for(IStatement statement : body) {
+            statement.accept(this, context);
+        }
         return null;
     }
 
+    // Utilities
+
     /**
      * Returns whether the given method name contains illegal name or namespace.
-     * 
+     *
      * We have noticed during development that there are a lot of method names 
      * that only contain question marks. As we cannot use this in any meaningful
      * way we have decided to remove them.
-     * 
+     *
      * @see #visit(IInvocationExpression, APISentenceTree)
      *          the function that uses {@link #hasIllegalMethodName(IMethodName)}
-     * 
+     *
      * @param methodName
      *          Method name of a statement (usually an {@link IInvocationExpression}
      * @return
@@ -368,127 +404,100 @@ public class APIVisitor implements ISSTNodeVisitor<APISentenceTree, APIToken> {
                 || methodName.getDeclaringType().getNamespace().getIdentifier().equals("???");
     }
     
+    // Unused visits
+
     /**
-     * 
+     * Scratch stateStoreSpy = new Scratch();
+     * ---------------------   <--- this part is a VariableDeclaration,
+     *                              hence, no information gain (i.e. the
+     *                              actual information will be processed
+     *                              in the right side declaration)
      * @param statement
      * @param context
-     * @return
+     *
+     * @see #visit(IAssignment, APISentenceTree)
+     *          contains the right side information in raw form.
+     *          That is, {@link IAssignment} itself does not store any 
+     *          useful information but will propagate processing (such
+     *          that we can capture the information on the right side
+     *          of the declaration, if needed - which is the case for
+     *          methods and object instatiations only)
+     *
+     * @return null
+     *          this information is not needed
      */
     @Override
-    public APIToken visit(IInvocationExpression statement, APISentenceTree context) {
-        // TODO: is this needed?
-        for(ISimpleExpression parameter : statement.getParameters()) {
-            parameter.accept(this, context);
-        }
-        
-        IMethodName methodName = statement.getMethodName();
-        if(!methodName.getDeclaringType().getAssembly().isLocalProject() && !hasIllegalMethodName(methodName)) {
-            APIToken apiToken = new APIToken();
-
-            if(methodName.isConstructor()) {
-                apiToken.setOperation("new");
-                apiToken.setInvocation("class constructor");
-            } else {
-                apiToken.setOperation(methodName.getName()); 
-                if(methodName.getIdentifier().startsWith("static")) {
-                    apiToken.setInvocation("static operation");
-                } else {
-                    apiToken.setInvocation("instance operation");
-                }
-            }
-            
-            apiToken.setType(methodName.getDeclaringType().getName()); // TODO: use only the name
-            apiToken.setNamespace( methodName.getDeclaringType().getNamespace().getIdentifier());
-            
-            context.addToken(apiToken);
-            return apiToken;
-        }
+    public APIToken visit(IVariableDeclaration statement, APISentenceTree context) {
         return null;
     }
 
     @Override
     public APIToken visit(ILambdaExpression statement, APISentenceTree context) {
-        this.visit(statement.getBody(), context);
-        return null;
+        return this.visit(statement.getBody(), context);
     }
 
     @Override
     public APIToken visit(ITypeCheckExpression statement, APISentenceTree context) {
-        statement.getReference().accept(this, context);
         return null;
     }
 
     @Override
-    public APIToken visit(IUnaryExpression statement, APISentenceTree context) {
-        statement.getOperand().accept(this, context);
+    public APIToken visit(IUnsafeBlock statement, APISentenceTree context) {
         return null;
     }
 
     @Override
-    public APIToken visit(ILoopHeaderBlockExpression statement, APISentenceTree context) {
-        this.visit(statement.getBody(), context);
-        return null;
-    }
-
-    /**
-     * Not needed
-     * 
-     * @param statement
-     * @param context
-     * @return
-     */
-    @Override
-    public APIToken visit(IConstantValueExpression statement, APISentenceTree context) {
+    public APIToken visit(IIndexAccessExpression statement, APISentenceTree context) {
         return null;
     }
 
     @Override
-    public APIToken visit(INullExpression statement, APISentenceTree context) {
-        return null;
-    }
-
-    /**
-     * Object abcd = new Object()
-     *        ----  <-- contains only the reference
-     *        
-     * Does not yield any useful information.
-     * 
-     * @param statement
-     * @param context
-     * @return
-     */
-    @Override
-    public APIToken visit(IReferenceExpression statement, APISentenceTree context) {
+    public APIToken visit(IThrowStatement statement, APISentenceTree context) {
         return null;
     }
 
     @Override
-    public APIToken visit(IEventReference statement, APISentenceTree context) {
+    public APIToken visit(ISST isst, APISentenceTree context) {
         return null;
     }
 
     @Override
-    public APIToken visit(IFieldReference statement, APISentenceTree context) {
-        // TODO: maybe this?
-        // System.out.println(statement.getFieldName());
+    public APIToken visit(IDelegateDeclaration statement, APISentenceTree context) {
         return null;
     }
 
     @Override
-    public APIToken visit(IIndexAccessReference statement, APISentenceTree context) {
-        statement.getExpression().accept(this, context);
+    public APIToken visit(IEventDeclaration statement, APISentenceTree context) {
+        return null;
+    }
+
+    @Override
+    public APIToken visit(IFieldDeclaration statement, APISentenceTree context) {
+        return null;
+    }
+
+    @Override
+    public APIToken visit(IBreakStatement statement, APISentenceTree context) {
+        return null;
+    }
+
+    @Override
+    public APIToken visit(IContinueStatement statement, APISentenceTree context) {
+        return null;
+    }
+
+    @Override
+    public APIToken visit(IGotoStatement statement, APISentenceTree context) {
         return null;
     }
 
     @Override
     public APIToken visit(IMethodReference statement, APISentenceTree context) {
-        // System.out.println(statement.getMethodName());
         return null;
     }
 
     @Override
     public APIToken visit(IPropertyReference statement, APISentenceTree context) {
-        // System.out.println(statement.getPropertyName());
         return null;
     }
 
@@ -512,34 +521,34 @@ public class APIVisitor implements ISSTNodeVisitor<APISentenceTree, APIToken> {
         return null;
     }
     
-    // Generic
-
-    /**
-     * Given a list of statements, this function calls the accept function for 
-     * each of the statements included in the list. Such lists occur in 
-     * 
-     *      {@link IMethodDeclaration#getBody()},
-     *      {@link IForEachLoop#getBody()},
-     *      
-     *      and others
-     *      
-     * // TODO: maybe move
-     * PROBLEM: at the moment we return {@link APIToken} objects. in this method, we would rather return
-     * an {@link APISentenceTree} (i.e. the context).
-     * 
-     * @param body
-     *          list of statements
-     *          
-     * @param context
-     */
-    public APIToken visit(List<IStatement> body, APISentenceTree context) {
-        for(IStatement statement : body) {
-            /*APIToken token = statement.accept(this, context);
-            if(token != null) {
-                context.addToken(token);
-            }*/
-            statement.accept(this, context);
-        }
+    @Override
+    public APIToken visit(IReferenceExpression statement, APISentenceTree context) {
         return null;
     }
+
+    @Override
+    public APIToken visit(IEventReference statement, APISentenceTree context) {
+        return null;
+    }
+
+    @Override
+    public APIToken visit(IFieldReference statement, APISentenceTree context) {
+        return null;
+    }
+
+    @Override
+    public APIToken visit(IConstantValueExpression statement, APISentenceTree context) {
+        return null;
+    }
+
+    @Override
+    public APIToken visit(INullExpression statement, APISentenceTree context) {
+        return null;
+    }
+
+    @Override
+    public APIToken visit(IIndexAccessReference statement, APISentenceTree context) {
+        return null;
+    }
+    
 }
