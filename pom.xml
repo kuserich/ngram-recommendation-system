@@ -27,6 +27,11 @@
 
     <dependencies>
         <dependency>
+            <groupId>org.apache.opennlp</groupId>
+            <artifactId>opennlp-tools</artifactId>
+            <version>1.8.4</version>
+        </dependency>
+        <dependency>
             <groupId>cc.kave</groupId>
             <artifactId>cc.kave.commons</artifactId>
             <version>0.0.4</version>

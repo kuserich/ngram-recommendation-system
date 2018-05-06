@@ -1,3 +1,5 @@
+import java.io.IOException;
+import java.io.PrintWriter;
 import java.util.List;
 
 public class RunExample {
@@ -14,20 +16,25 @@ public class RunExample {
      * download the context data and follow the same instructions as before.
      */
     public static String contextsDir = "Contexts-170503/";
-    
-    public static void main(String[] args) {
+
+    public static void main(String[] args) throws IOException {
         SentenceExtractor se = new SentenceExtractor();
         List<List<APIToken>> apiSentences = se.extract(contextsDir);
-        for(List<APIToken> sentence : apiSentences) {
-            System.out.println("(");
-            for(APIToken token : sentence) {
-                System.out.println("\t"+token.toString());
+
+        PrintWriter writer = new PrintWriter("rawApiLines.txt", "UTF-8");
+        String output = "";
+        for (List<APIToken> sentence : apiSentences) {
+            writer.println(" ");
+
+            for (APIToken token : sentence) {
+                output = output + " " + token.toString().replaceAll("\\s+","");
             }
-            System.out.println(")");
-            System.out.println();
+            writer.println(output);
+            output = "";
+            writer.println(" ");
         }
     }
-    
+
     public static void testFlatten() {
         APISentenceTree asp = new APISentenceTree();
 
@@ -96,14 +103,14 @@ public class RunExample {
         // M1, M2, M3, M4, M6, M7, M8, M9
 
 
-        for(List<APIToken> sentence : asp.flatten()) {
+        for (List<APIToken> sentence : asp.flatten()) {
             System.out.println("(");
-            for(APIToken token : sentence) {
-                System.out.println("\t"+token.toString());
+            for (APIToken token : sentence) {
+                System.out.println("\t" + token.toString());
             }
             System.out.println(")");
             System.out.println();
         }
     }
-    
+
 }
