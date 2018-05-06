@@ -15,10 +15,15 @@
  * the License.
  */
 
+import examples.CountEventTypeExample;
+import examples.GettingStarted;
+import ngram.ExampleClient;
 import ngram.ModelBuilder;
 import opennlp.tools.util.StringList;
 
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 
 public class RunMe {
 
@@ -45,21 +50,18 @@ public class RunMe {
 
         // RSSE RELATED EXAMPLES
         //new BMNMining().run();
+        /**
+         * Example Client Usage
+         */
 
+        ExampleClient client = new ExampleClient();
+        ArrayList<String> clientRequest = new ArrayList<>();
 
+        clientRequest.add("rawApiLines.txt");
+        clientRequest.add("<System.Drawing.Drawing2D,new>,<System.Drawing.Drawing2D,StartFigure>");
 
+        client.query(clientRequest);
 
-
-        //Call Modelbuilder with input string of text file
-        ModelBuilder model = new ModelBuilder("rawApiLines.txt");
-
-        //model.nGramModel();
-
-        String stringToCompare = "<System.Drawing.Drawing2D,CloseFigure>";
-        StringList recommendation = model.testNGramLanguageModel(stringToCompare);
-
-        System.out.println("input: " + stringToCompare);
-        System.out.println("output: " + recommendation);
 
     }
 };
