@@ -2,6 +2,8 @@ import java.util.*;
 
 public class APISentenceTree {
     
+    private final int DEFAULT_TOSTRING_INDENT = 2;
+    
     private List<APIToken> tokens = new ArrayList<>();
     private Map<APIToken, List<APISentenceTree>> branches = new HashMap<>();
     
@@ -31,12 +33,9 @@ public class APISentenceTree {
                 }
                 
                 if(branches.containsKey(token)) {
-                    List<List<List<APIToken>>> copiedSentenceLists = new ArrayList<>();
-                    for(APISentenceTree asp : branches.get(token)) {
-                        copiedSentenceLists.add(copySentenceList(sentenceList));
-                    }
+                    List<List<APIToken>> copiedSentenceLists = copySentenceList(sentenceList);
                     for(int i=0; i<branches.get(token).size(); i++) {
-                        sentenceList.addAll(branches.get(token).get(i).flatten(copiedSentenceLists.get(i)));
+                        sentenceList.addAll(branches.get(token).get(i).flatten(copySentenceList(copiedSentenceLists)));
                     }
                 }
             }
@@ -51,7 +50,30 @@ public class APISentenceTree {
         }
         return copiedList;
     }
-    
+
+    /**
+     * Return the last {@link APIToken} in {@link #tokens}.
+     * This is either the last object in the array or null, if the array is empty.
+     * 
+     * This method is used in the {@link APIVisitor} for branching tokens. That is,
+     * conditions in loops (for, while, ...) as well as simple conditional blocks
+     * (if, if-else) yield multiple API sentences (one per possible path).
+     * We store such branches in {@link #branches} which uses an {@link APIToken}
+     * as the key. It is possible that the conditional expression is not of interest
+     * for our objective (i.e. it is not an 
+     * {@link cc.kave.commons.model.ssts.expressions.assignable.IInvocationExpression}).
+     * In this case, we want to use the last valid token (in the case that it's null, 
+     * we create a new, empty token).
+     *
+     * @see APIVisitor
+     * @see APIVisitor#visit(cc.kave.commons.model.ssts.blocks.IWhileLoop, APISentenceTree)
+     * @see APIVisitor#visit(cc.kave.commons.model.ssts.blocks.IForLoop, APISentenceTree)
+     * @see APIVisitor#visit(cc.kave.commons.model.ssts.blocks.IIfElseBlock, APISentenceTree)
+     *      and similar
+     *      
+     * @return
+     *          last entry in {@link #tokens} or null
+     */
     public APIToken getLastValidToken() {
         if(tokens.size() > 0) {
             return tokens.get(tokens.size()-1);
@@ -59,17 +81,47 @@ public class APISentenceTree {
         return null;
     }
 
+    /**
+     * Return whether {@link #tokens} is empty.
+     * 
+     * @return
+     *          true if it's empty, false otherwise
+     */
     public boolean isEmpty() {
         return tokens.size() == 0;
-    }
-    
-    @Override
-    public String toString() {
-        return toString(2);
     }
 
     /**
      * Return the string representation of an APISentenceTree.
+     * This includes all tokens in this tree as well as all tokens in 
+     * the trees in the branches.
+     * 
+     * This function simply calls {@link #toString(int)} with a default indent.
+     * 
+     * Notice that the string representation differs from the flattened sentences
+     * that are retrieved in {@link #flatten()}.
+     * 
+     * @see #toString(int)
+     *          function that is called with an indent
+     * @see #DEFAULT_TOSTRING_INDENT
+     *          value of the default indent
+     * @see #tokens
+     *          tokens that will be turned into strings
+     * @see #branches
+     *          subtrees
+     * 
+     * @return
+     *          String representation of this object
+     */
+    @Override
+    public String toString() {
+        return toString(DEFAULT_TOSTRING_INDENT);
+    }
+
+    /**
+     * Return the string representation of an APISentenceTree.
+     * This includes all tokens in this tree as well as all tokens in 
+     * the trees in the branches.
      * 
      *   (<Token, Some>, <Token, SomeOther>
      *      <Branch, First>, <Branch, StillFirst>
@@ -77,7 +129,22 @@ public class APISentenceTree {
      *      <Branch, ThirdButFromRoot>
      *   <Token, Some>)
      *       
+
+     * Notice that the string representation differs from the flattened sentences
+     * that are retrieved in {@link #flatten()}.
      *       
+     *
+     * @see #toString()
+     *          method that calls this method with a default indent
+     * @see #DEFAULT_TOSTRING_INDENT
+     *          value of the default indent used in {@link #toString()}
+     * @see #tokens
+     *          tokens that are turned into strings
+     * @see APIToken#toString()
+     *          string representation of {@link APIToken} objects in {@link #tokens}
+     * @see #branches
+     *          subtrees
+     * 
      * @param branchIndent
      *          number of spaces that the current branch should be indented.
      *          Notice that for every {@link APISentenceTree} in {@link #branch}
@@ -91,19 +158,25 @@ public class APISentenceTree {
         StringBuilder sb = new StringBuilder();
         sb.append("(");
         for(int i = 0; i< tokens.size(); i++) {
+            // add every token to the string
             APIToken token = tokens.get(i);
             sb.append(token.toString());
 
             if(branches.containsKey(token)) {
                 for(APISentenceTree branch : branches.get(token)) {
                     sb.append("\n");
+                    
+                    // add the number of spaces to the string as defined with the indent
                     char[] repeat = new char[branchIndent];
                     Arrays.fill(repeat, ' ');
                     sb.append(new String(repeat));
+                    
+                    // add the string of the subtree
                     sb.append(branch.toString(branchIndent+2));
                 }
             }
 
+            // all tokens but the last one should include a comma
             if(i< tokens.size()-1) {
                 sb.append(", ");
             }

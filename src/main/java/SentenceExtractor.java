@@ -1,18 +1,16 @@
 import cc.kave.commons.model.events.completionevents.Context;
-import cc.kave.commons.model.naming.Names;
-import cc.kave.commons.model.naming.codeelements.IMethodName;
-import cc.kave.commons.model.naming.codeelements.IParameterName;
-import cc.kave.commons.model.naming.types.ITypeName;
 import cc.kave.commons.model.ssts.ISST;
 import cc.kave.commons.model.ssts.declarations.IMethodDeclaration;
-import cc.kave.commons.model.typeshapes.ITypeShape;
 import cc.kave.commons.utils.io.IReadingArchive;
 import cc.kave.commons.utils.io.ReadingArchive;
 import examples.IoHelper;
 
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
 
 public class SentenceExtractor {
 
@@ -24,6 +22,7 @@ public class SentenceExtractor {
             for(String inputContext : inputContexts) {
                 apiSentences.addAll(processZip(contextsDirectory + "/" + inputContext));
             }
+            
             return apiSentences;
         } catch(FileNotFoundException e) {
             e.printStackTrace();
@@ -52,37 +51,24 @@ public class SentenceExtractor {
     }
 
     private List<List<APIToken>> processContext(Context context) {
-        // a context is an abstract view on a single type declaration that contains of
-        // two things:
-
-        // 1) a simplified syntax tree of the type declaration
-
-        ITypeShape whatever = context.getTypeShape();
         List<APISentenceTree> apiSentenceTrees = process(context.getSST());
         
         List<List<APIToken>> apiSentences = new ArrayList<>();
         for(APISentenceTree asp : apiSentenceTrees) {
-            apiSentences.addAll(asp.flatten());
+            List<List<APIToken>> kk = asp.flatten();
+            apiSentences.addAll(kk);
+            System.out.println(kk);
         }
         return apiSentences;
-
-        // 2) a "type shape" that provides information about the hierarchy of the
-        // declared type
-//        process(context.getTypeShape());
     }
 
     private List<APISentenceTree> process(ISST sst) {
         // SSTs represent a simplified meta model for source code. 
         // You can use the various accessors to browse the contained information
         
-        // which type was edited?
-        ITypeName declType = sst.getEnclosingType();
-        
         List<APISentenceTree> apiSentences = new ArrayList<>();
         
         for(IMethodDeclaration md : sst.getMethods()) {
-            // TODO: this is wrong, there will be a single sentence per method but bucketized per namespace
-            // TODO: maybe not, we can bucketize in a separate step
             APISentenceTree sentence = new APISentenceTree();
             md.accept(new APIVisitor(), sentence);
             if(!sentence.isEmpty()) {
@@ -91,45 +77,8 @@ public class SentenceExtractor {
         }
         
         return apiSentences;
-
-        /*// all references to types or type elements are fully qualified and preserve
-        // many information about the resolved type
-        declType.getNamespace();
-        declType.isInterfaceType();
-        declType.getAssembly();
-
-        // TODO: a useful boi
-        // you can distinguish reused types from types defined in a local project
-        boolean isLocal = declType.getAssembly().isLocalProject();
-
-        // the same is possible for all other <see>IName</see> subclasses, e.g.,
-        // <see>IMethodName</see>
-        IMethodName m = Names.getUnknownMethod();
-        m.getDeclaringType();
-        m.getReturnType();
-        // or inspect the signature
-        for(IParameterName p : m.getParameters()) {
-            String pid = p.getName();
-            ITypeName ptype = p.getValueType();
-        }*/
-
     }
 
-    private Map<String, Set<Set<APIToken>>> listOfMapsToMapOfLists(Set<Map<String, Set<APIToken>>> listOfMaps) {
-        Map<String, Set<Set<APIToken>>> mapOfLists = new HashMap<>();
-
-        listOfMaps.forEach(map -> {
-            map.keySet().forEach(key -> {
-                if(!mapOfLists.containsKey(key)) {
-                    mapOfLists.put(key, new HashSet<>());
-                }
-                mapOfLists.get(key).add(map.get(key));
-            });
-        });
-        
-        return mapOfLists;
-    }
-    
     /**
      * Returns a Set of zip files in a given file path.
      * 

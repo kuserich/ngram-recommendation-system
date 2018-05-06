@@ -1,51 +1,15 @@
-import java.io.IOException;
-import java.io.PrintWriter;
+import org.junit.Test;
+
 import java.util.ArrayList;
 import java.util.List;
 
-public class RunExample {
+import static org.hamcrest.CoreMatchers.is;
+import static org.junit.Assert.assertThat;
 
-    /*
-     * download the interaction data and unzip it into the root of this project (at
-     * the level of the pom.xml). Unpack it, you should now have a folder that
-     * includes a bunch of folders that have dates as names and that contain .zip
-     * files.
-     */
-    public static String eventsDir = "Events-170301-2";
-
-    /*
-     * download the context data and follow the same instructions as before.
-     */
-    public static String contextsDir = "Contexts-170503/";
-
-    public static void main(String[] args) throws IOException {
-        List<APIToken> a = new ArrayList<>();
-        a.add(new APIToken());
-
-        List<APIToken> b = new ArrayList<>();
-        b.add(new APIToken());
-
-        System.out.println(a.equals(b));
-        System.exit(1);
-        
-        SentenceExtractor se = new SentenceExtractor();
-        List<List<APIToken>> apiSentences = se.extract(contextsDir);
-
-        PrintWriter writer = new PrintWriter("rawApiLines.txt", "UTF-8");
-        String output = "";
-        for (List<APIToken> sentence : apiSentences) {
-            writer.println(" ");
-
-            for (APIToken token : sentence) {
-                output = output + " " + token.toString().replaceAll("\\s+","");
-            }
-            writer.println(output);
-            output = "";
-            writer.println(" ");
-        }
-    }
-
-    public static void testFlatten() {
+public class APISentenceTreeTest {
+    
+    @Test
+    public void flatten() {
         APISentenceTree asp = new APISentenceTree();
 
         APIToken t1 = new APIToken();
@@ -106,16 +70,43 @@ public class RunExample {
         // M1, M2, M3, M4, M8, M9
         // M1, M2, M3, M4, M5, M8, M9
         // M1, M2, M3, M4, M6, M7, M8, M9
+        
+        List<List<APIToken>> expected = new ArrayList<>();
+        expected.add(new ArrayList<>());
+        expected.get(0).add(t1);
+        expected.get(0).add(t2);
+        expected.get(0).add(t9);
 
+        expected.add(new ArrayList<>());
+        expected.get(1).add(t1);
+        expected.get(1).add(t2);
+        expected.get(1).add(t3);
+        expected.get(1).add(t4);
+        expected.get(1).add(t8);
+        expected.get(1).add(t9);
 
-        for (List<APIToken> sentence : asp.flatten()) {
-            System.out.println("(");
-            for (APIToken token : sentence) {
-                System.out.println("\t" + token.toString());
-            }
-            System.out.println(")");
-            System.out.println();
-        }
+        expected.add(new ArrayList<>());
+        expected.get(2).add(t1);
+        expected.get(2).add(t2);
+        expected.get(2).add(t3);
+        expected.get(2).add(t4);
+        expected.get(2).add(t5);
+        expected.get(2).add(t8);
+        expected.get(2).add(t9);
+
+        expected.add(new ArrayList<>());
+        expected.get(3).add(t1);
+        expected.get(3).add(t2);
+        expected.get(3).add(t3);
+        expected.get(3).add(t4);
+        expected.get(3).add(t6);
+        expected.get(3).add(t7);
+        expected.get(3).add(t8);
+        expected.get(3).add(t9);
+        
+        List<List<APIToken>> actual = asp.flatten();
+        
+        assertThat(actual, is(expected));
     }
-
+    
 }
