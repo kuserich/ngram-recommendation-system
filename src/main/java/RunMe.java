@@ -15,15 +15,10 @@
  * the License.
  */
 
-import examples.CountEventTypeExample;
-import examples.GettingStarted;
 import ngram.ExampleClient;
-import ngram.ModelBuilder;
-import opennlp.tools.util.StringList;
 
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.List;
 
 public class RunMe {
 

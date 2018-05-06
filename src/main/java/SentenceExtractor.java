@@ -3,7 +3,7 @@ import cc.kave.commons.model.ssts.ISST;
 import cc.kave.commons.model.ssts.declarations.IMethodDeclaration;
 import cc.kave.commons.utils.io.IReadingArchive;
 import cc.kave.commons.utils.io.ReadingArchive;
-import examples.IoHelper;
+import util.IoHelper;
 
 import java.io.File;
 import java.io.FileNotFoundException;

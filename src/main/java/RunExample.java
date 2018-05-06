@@ -19,15 +19,6 @@ public class RunExample {
     public static String contextsDir = "Contexts-170503/";
 
     public static void main(String[] args) throws IOException {
-        List<APIToken> a = new ArrayList<>();
-        a.add(new APIToken());
-
-        List<APIToken> b = new ArrayList<>();
-        b.add(new APIToken());
-
-        System.out.println(a.equals(b));
-        System.exit(1);
-        
         SentenceExtractor se = new SentenceExtractor();
         List<List<APIToken>> apiSentences = se.extract(contextsDir);
 
