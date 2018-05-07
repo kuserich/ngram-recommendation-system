@@ -55,7 +55,7 @@ public class RunMe {
         clientRequest.add("rawApiLines.txt");
         clientRequest.add("<System.Drawing.Drawing2D,new>,<System.Drawing.Drawing2D,StartFigure>");
 
-        client.query(clientRequest);
+        System.out.println(client.query(clientRequest));
 
 
     }

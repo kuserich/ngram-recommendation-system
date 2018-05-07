@@ -9,6 +9,7 @@ import opennlp.tools.util.StringList;
 
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
@@ -18,7 +19,6 @@ public class ExampleClient implements ICallsRecommender {
     /**
      * use the recommender-specific query format to query proposals
      *
-     * @param Object with index 0 as API File Path, index 1 with Input String the query in a format specfic to the recommender
      * @return a sorted set of the proposed methods plus probability
      **/
     @Override
@@ -31,18 +31,23 @@ public class ExampleClient implements ICallsRecommender {
             String stringToCompare = (String) input.get(1);
 
             StringList recommendation = model.getNextTokens(stringToCompare);
+            Double proba = model.getTokenProbability(recommendation);
 
             System.out.println("The Input String is " + stringToCompare);
             System.out.println("The Proposed Methods");
             System.out.println(recommendation);
             System.out.println("The probability");
-            System.out.println(model.getTokenProbability(recommendation));
+            System.out.println(proba);
 
 
-            //TODO: somehow have the response as a IMethodName
-            Set<Tuple<IMethodName, Double>> output = null;
+            MethodOutput methodName = new MethodOutput();
+            methodName.setMethodName(recommendation);
+            Set<Tuple<IMethodName, Double>> output = new HashSet<Tuple<IMethodName, Double>>();
 
-            return null;
+
+            output.add(Tuple.newTuple(methodName, proba));
+
+            return output;
 
         } catch (IOException e) {
             e.printStackTrace();
