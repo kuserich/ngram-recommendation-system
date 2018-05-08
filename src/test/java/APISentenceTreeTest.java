@@ -1,9 +1,12 @@
+import extractor.APISentenceTree;
+import extractor.APIToken;
 import org.junit.Test;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import static org.hamcrest.CoreMatchers.is;
+import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertThat;
 
 public class APISentenceTreeTest {
@@ -107,6 +110,32 @@ public class APISentenceTreeTest {
         List<List<APIToken>> actual = asp.flatten();
         
         assertThat(actual, is(expected));
+    }
+    
+    @Test
+    public void branch() {
+        APISentenceTree asp = new APISentenceTree();
+
+        APIToken t1 = new APIToken();
+        t1.setNamespace("System");
+        t1.setOperation("M1");
+        APIToken t2 = new APIToken();
+        t2.setNamespace("System");
+        t2.setOperation("M2");
+        APIToken t3 = new APIToken();
+        t3.setNamespace("System");
+        t3.setOperation("M3");
+        APIToken t4 = new APIToken();
+        t4.setNamespace("System");
+        t4.setOperation("M4");
+        
+        asp.addToken(t1);
+        APISentenceTree aspB = asp.branch(t2);
+        aspB.addToken(t3);
+        aspB.addToken(t4);
+
+        assertEquals(asp.getBranches().get(t2).get(0).getTokens().get(0), t3);
+        assertEquals(asp.getBranches().get(t2).get(0).getTokens().get(1), t4);
     }
     
 }

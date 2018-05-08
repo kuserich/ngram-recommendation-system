@@ -1,6 +1,9 @@
+import extractor.APISentenceTree;
+import extractor.APIToken;
+import extractor.SentenceExtractor;
+
 import java.io.IOException;
 import java.io.PrintWriter;
-import java.util.ArrayList;
 import java.util.List;
 
 public class RunExample {

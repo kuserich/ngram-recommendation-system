@@ -1,3 +1,5 @@
+package extractor;
+
 import java.util.*;
 
 public class APISentenceTree {
@@ -19,6 +21,14 @@ public class APISentenceTree {
         this.branches.get(token).add(sentence);
         return sentence;
     }
+    
+    public List<APIToken> getTokens() {
+        return tokens;
+    }
+    
+    public Map<APIToken, List<APISentenceTree>> getBranches() {
+        return branches;
+    }
 
     public List<List<APIToken>> flatten() {
         List<List<APIToken>> sentenceList = new ArrayList<>();
@@ -29,7 +39,9 @@ public class APISentenceTree {
     public List<List<APIToken>> flatten(List<List<APIToken>> sentenceList) {
             for(APIToken token : tokens) {
                 for(List<APIToken> sentence : sentenceList) {
-                    sentence.add(token);
+                    if(!token.isEmpty()) {
+                        sentence.add(token);
+                    }
                 }
                 
                 if(branches.containsKey(token)) {
@@ -92,7 +104,7 @@ public class APISentenceTree {
     }
 
     /**
-     * Return the string representation of an APISentenceTree.
+     * Return the string representation of an extractor.APISentenceTree.
      * This includes all tokens in this tree as well as all tokens in 
      * the trees in the branches.
      * 
@@ -119,7 +131,7 @@ public class APISentenceTree {
     }
 
     /**
-     * Return the string representation of an APISentenceTree.
+     * Return the string representation of an extractor.APISentenceTree.
      * This includes all tokens in this tree as well as all tokens in 
      * the trees in the branches.
      * 
@@ -152,7 +164,7 @@ public class APISentenceTree {
      *          branchIndent.
      * 
      * @return
-     *          string representation of an APISentenceTree
+     *          string representation of an extractor.APISentenceTree
      */
     public String toString(int branchIndent) {
         StringBuilder sb = new StringBuilder();

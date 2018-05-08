@@ -1,3 +1,5 @@
+package extractor;
+
 import cc.kave.commons.model.events.completionevents.Context;
 import cc.kave.commons.model.naming.codeelements.IMethodName;
 import cc.kave.commons.model.ssts.ISST;
@@ -51,7 +53,7 @@ public class APIVisitor implements ISSTNodeVisitor<APISentenceTree, APIToken> {
      *          {@link IInvocationExpression} objects from the body of the method
      * 
      * @return
-     *          APIToken from {@link #visit(List, APISentenceTree)}
+     *          extractor.APIToken from {@link #visit(List, APISentenceTree)}
      */
     @Override
     public APIToken visit(IMethodDeclaration statement, APISentenceTree context) {
@@ -334,7 +336,7 @@ public class APIVisitor implements ISSTNodeVisitor<APISentenceTree, APIToken> {
         // We are unable to use the return statement of a single visit method
         // to return the tokens that we want to add because i) some visit methods
         // would need to return multiple results ii) it would be more appropriate
-        // for some visit functions to return entire APISentenceTree objects.
+        // for some visit functions to return entire extractor.APISentenceTree objects.
         // We cannot use different return types and hence omit the strategy of
         // using return types.
         context.addToken(apiToken);
