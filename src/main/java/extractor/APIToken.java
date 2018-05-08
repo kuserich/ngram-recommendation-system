@@ -5,17 +5,17 @@ import cc.kave.commons.model.ssts.ISST;
 
 public class APIToken implements IName {
     
-    private String invocation;
+    private Invocation invocation;
     private String type;
     private String operation;
     
     private String namespace;
 
-    public String getInvocation() {
+    public Invocation getInvocation() {
         return invocation;
     }
 
-    public void setInvocation(String invocation) {
+    public void setInvocation(Invocation invocation) {
         this.invocation = invocation;
     }
 
@@ -66,7 +66,7 @@ public class APIToken implements IName {
      *          true if this token is empty, false otherwise
      */
     public boolean isEmpty() {
-        return (invocation == null || invocation.length() == 0)
+        return (invocation == null)
                 && (type == null || type.length() == 0)
                 && (operation == null || operation.length() == 0)
                 && (namespace == null || namespace.length() == 0);
@@ -91,5 +91,9 @@ public class APIToken implements IName {
     public String toString() {
         return "<"+namespace+", "+operation+">";
     }
+    
+}
 
+enum Invocation {
+    STATIC_OPERATION, INSTANCE_OPERATION, CLASS_CONSTRUCTOR
 }

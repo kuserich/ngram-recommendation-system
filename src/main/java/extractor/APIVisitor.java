@@ -60,6 +60,17 @@ public class APIVisitor implements ISSTNodeVisitor<APISentenceTree, APIToken> {
         return this.visit(statement.getBody(), context);
     }
 
+    /**
+     * Propagates processing of the get and set statements in the property declaration
+     * 
+     * @param statement
+     *          Property declaration
+     * @param context
+     *          APISentenceTree to which the get and set statements might be added
+     *          
+     * @return
+     *          null
+     */
     @Override
     public APIToken visit(IPropertyDeclaration statement, APISentenceTree context) {
         this.visit(statement.getGet(), context);
@@ -105,6 +116,18 @@ public class APIVisitor implements ISSTNodeVisitor<APISentenceTree, APIToken> {
         return statement.getExpression().accept(this, context);
     }
 
+    /**
+     * Propagates processing of the statement.
+     * 
+     * @param statement
+     *          labelled statement
+     * @param context
+     *          APISentenceTree to which the included statement might be added
+     *          
+     * @return
+     *          returns an APIToken if the statement is an {@link IInvocationExpression}
+     *          otherwise null
+     */
     @Override
     public APIToken visit(ILabelledStatement statement, APISentenceTree context) {
         return statement.getStatement().accept(this, context);
@@ -117,14 +140,30 @@ public class APIVisitor implements ISSTNodeVisitor<APISentenceTree, APIToken> {
      * further processing (e.g. return new SomeInterestingClass())
      * 
      * @param statement
+     *          simple return statement
      * @param context
+     *          APISentenceTree to which the expression in the return statement
+     *          might be added
+     *          
      * @return
+     *          APIToken if the expression includes an {@link IInvocationExpression}
+     *          otherwise null
      */
     @Override
     public APIToken visit(IReturnStatement statement, APISentenceTree context) {
         return statement.getExpression().accept(this, context);
     }
 
+    /**
+     * Propagates processing of the expression in the event subscription statement.
+     * 
+     * @param statement
+     * @param context
+     * 
+     * @return
+     *          APIToken if the expression includes an {@link IInvocationExpression}
+     *          otherwise null
+     */
     @Override
     public APIToken visit(IEventSubscriptionStatement statement, APISentenceTree context) {
         return statement.getExpression().accept(this, context);
@@ -309,17 +348,17 @@ public class APIVisitor implements ISSTNodeVisitor<APISentenceTree, APIToken> {
 
         
         String operation;
-        String invocation;
+        Invocation invocation;
         
         if(methodName.isConstructor()) {
             operation = "new";
-            invocation = "class constructor";
+            invocation = Invocation.CLASS_CONSTRUCTOR;
         } else {
             operation = methodName.getName();
             if(methodName.getIdentifier().startsWith("static")) {
-                invocation = "static operation";
+                invocation = Invocation.STATIC_OPERATION;
             } else {
-                invocation = "instance operation";
+                invocation = Invocation.INSTANCE_OPERATION;
             }
         }
         

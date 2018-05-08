@@ -16,6 +16,15 @@ import java.util.Set;
 
 public class SentenceExtractor {
 
+    /**
+     * Returns all API sentences from all contexts in the given directory.
+     * 
+     * @param contextsDirectory
+     *          path to the directory containing context files that should be processed
+     *          
+     * @return
+     *          all API sentences in all contexts in the given directory
+     */
     public List<List<APIToken>> extract(String contextsDirectory) {
         try {
             Set<String> inputContexts = getInputZips(contextsDirectory);
@@ -52,6 +61,26 @@ public class SentenceExtractor {
         return apiSentences;
     }
 
+    /**
+     * Return all API sentences from the given context.
+     * 
+     * This method calls {@link #process(ISST)} with the SST from the context
+     * and returns a list of all API sentences that can be created from the 
+     * results of {@link #process(ISST)}}.
+     * 
+     * @see #process(ISST) 
+     *          method that returns all {@link APISentenceTree} objects 
+     *          from the context
+     * @see APISentenceTree#flatten() 
+     *          method that returns all API sentences from the 
+     *          {@link APISentenceTree} objects
+     * 
+     * @param context
+     *          context
+     *          
+     * @return
+     *          list of all API sentences from the given context
+     */
     private List<List<APIToken>> processContext(Context context) {
         List<APISentenceTree> apiSentenceTrees = process(context.getSST());
         
@@ -59,15 +88,25 @@ public class SentenceExtractor {
         for(APISentenceTree asp : apiSentenceTrees) {
             List<List<APIToken>> kk = asp.flatten();
             apiSentences.addAll(kk);
-            System.out.println(kk);
         }
         return apiSentences;
     }
 
+    /**
+     * Returns all {@link APISentenceTree} objects from the given syntax tree.
+     * There will be at most one {@link APISentenceTree} object per method declaration.
+     * 
+     * Notice that these are not the API sentences but only their trees.
+     * To retrieve API sentences, the trees must be flattened using
+     * {@link APISentenceTree#flatten()}.
+     * 
+     * @param sst
+     *          syntax tree
+     *          
+     * @return
+     *          List of {@link APISentenceTree} objects
+     */
     private List<APISentenceTree> process(ISST sst) {
-        // SSTs represent a simplified meta model for source code. 
-        // You can use the various accessors to browse the contained information
-        
         List<APISentenceTree> apiSentences = new ArrayList<>();
         
         for(IMethodDeclaration md : sst.getMethods()) {
@@ -82,9 +121,9 @@ public class SentenceExtractor {
     }
 
     /**
-     * Returns a Set of zip files in a given file path.
+     * Returns a set of zip files in a given file path.
      * 
-     * Notice that this returns a Set with a single entry if the given path is a file (i.e. not a directory).
+     * Notice that this returns a set with a single entry if the given path is a file (i.e. not a directory).
      * If the given path is a directory, this function will find and return all zips in all subdirectories as well
      * as the given directory. The directories are traversed recursively using {@link IoHelper#findAllZips(String)}.
      * 
