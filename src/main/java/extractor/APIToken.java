@@ -1,9 +1,16 @@
 package extractor;
 
 import cc.kave.commons.model.naming.IName;
+import cc.kave.commons.model.naming.codeelements.IMethodName;
+import cc.kave.commons.model.naming.codeelements.IParameterName;
+import cc.kave.commons.model.naming.types.ITypeName;
+import cc.kave.commons.model.naming.types.ITypeParameterName;
 import cc.kave.commons.model.ssts.ISST;
+import opennlp.tools.util.StringList;
 
-public class APIToken implements IName {
+import java.util.List;
+
+public class APIToken implements IName, IMethodName {
     
     private Invocation invocation;
     private String type;
@@ -35,6 +42,10 @@ public class APIToken implements IName {
         this.operation = operation;
     }
 
+    public void setOperation(StringList operationList) {
+        this.operation = String.valueOf(operationList);
+    }
+    
     public String getNamespace() {
         return namespace;
     }
@@ -91,7 +102,76 @@ public class APIToken implements IName {
     public String toString() {
         return "<"+namespace+", "+operation+">";
     }
-    
+
+    @Override
+    public boolean isConstructor() {
+        return false;
+    }
+
+    @Override
+    public boolean isInit() {
+        return false;
+    }
+
+    @Override
+    public ITypeName getReturnType() {
+        return null;
+    }
+
+    @Override
+    public boolean isExtensionMethod() {
+        return false;
+    }
+
+    @Override
+    public boolean hasTypeParameters() {
+        return false;
+    }
+
+    @Override
+    public List<ITypeParameterName> getTypeParameters() {
+        return null;
+    }
+
+    @Override
+    public List<IParameterName> getParameters() {
+        return null;
+    }
+
+    @Override
+    public boolean hasParameters() {
+        return false;
+    }
+
+    @Override
+    public ITypeName getDeclaringType() {
+        return null;
+    }
+
+    @Override
+    public ITypeName getValueType() {
+        return null;
+    }
+
+    @Override
+    public boolean isStatic() {
+        return false;
+    }
+
+    @Override
+    public String getName() {
+        return null;
+    }
+
+    @Override
+    public String getFullName() {
+        return null;
+    }
+
+    @Override
+    public int compareTo(IMethodName o) {
+        return 0;
+    }
 }
 
 enum Invocation {

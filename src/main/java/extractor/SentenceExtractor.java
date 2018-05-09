@@ -9,6 +9,7 @@ import util.IoHelper;
 
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
@@ -25,40 +26,54 @@ public class SentenceExtractor {
      * @return
      *          all API sentences in all contexts in the given directory
      */
-    public List<List<APIToken>> extract(String contextsDirectory) {
+    public void extract(String contextsDirectory, String outputDirectory) {
         try {
+            IoHelper.createDirectoryIfNotExists(outputDirectory);
             Set<String> inputContexts = getInputZips(contextsDirectory);
-            List<List<APIToken>> apiSentences = new ArrayList<>();
 
             for(String inputContext : inputContexts) {
-                apiSentences.addAll(processZip(contextsDirectory + "/" + inputContext));
+                processZip(contextsDirectory + "/" + inputContext, outputDirectory);
             }
             
-            return apiSentences;
         } catch(FileNotFoundException e) {
             e.printStackTrace();
         }
-        return null;
     }
 
-    private List<List<APIToken>> processZip(String inputFilePath) {
+    private void processZip(String inputFilePath, String outputDirectory) {
         System.out.println();
         System.out.println("+-------------------------------------------+");
         System.out.println("PROCESSING "+inputFilePath);
+        
+        if(inputFilePath.contains("ConsoleApplication1")) {
+            System.out.println("omg");
+        }
 
-        List<List<APIToken>> apiSentences = new ArrayList<>();
 
+        int cnt = 1;
+        String filenameBase = outputDirectory;
+        filenameBase += IoHelper.pathToFileName(inputFilePath);
         try(IReadingArchive ra = new ReadingArchive(new File(inputFilePath))) {
+            System.out.println("contains "+ra.getNumberOfEntries()+" entries");
             while(ra.hasNext()) {
+                System.out.println("Processing entry: "+String.valueOf(cnt));
+
                 // within the slnZip, each stored context is contained as a single file that
                 // contains the Json representation of a Context.
                 Context context = ra.getNext(Context.class);
 
                 // the events can then be processed individually
-                apiSentences.addAll(processContext(context));
+                List<List<APIToken>> apiSentences = processContext(context);
+                String filename = filenameBase+String.valueOf(cnt++);
+                try {
+                    if(apiSentences.size() > 0) {
+                        IoHelper.writeAPISentencesToFile(filename, apiSentences);
+                    }
+                } catch(FileNotFoundException | UnsupportedEncodingException e) {
+                    e.printStackTrace();
+                }
             }
         }
-        return apiSentences;
     }
 
     /**
@@ -107,6 +122,8 @@ public class SentenceExtractor {
      *          List of {@link APISentenceTree} objects
      */
     private List<APISentenceTree> process(ISST sst) {
+        System.out.println("Processing syntax tree...");
+        System.out.println("includes "+sst.getMethods().size()+" methods");
         List<APISentenceTree> apiSentences = new ArrayList<>();
         
         for(IMethodDeclaration md : sst.getMethods()) {

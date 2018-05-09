@@ -5,6 +5,7 @@ import cc.kave.commons.model.events.completionevents.Context;
 import cc.kave.commons.model.naming.codeelements.IMethodName;
 import cc.kave.rsse.calls.ICallsRecommender;
 import cc.kave.rsse.calls.datastructures.Tuple;
+import extractor.APIToken;
 import opennlp.tools.util.StringList;
 
 import java.io.IOException;
@@ -40,8 +41,8 @@ public class ExampleClient implements ICallsRecommender {
             System.out.println(proba);
 
 
-            MethodOutput methodName = new MethodOutput();
-            methodName.setMethodName(recommendation);
+            APIToken methodName = new APIToken();
+            methodName.setOperation(recommendation);
             Set<Tuple<IMethodName, Double>> output = new HashSet<Tuple<IMethodName, Double>>();
 
 

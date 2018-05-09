@@ -16,6 +16,9 @@
 package util;
 
 import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.PrintWriter;
+import java.io.UnsupportedEncodingException;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Set;
@@ -26,6 +29,7 @@ import cc.kave.commons.model.events.completionevents.Context;
 import cc.kave.commons.utils.io.Directory;
 import cc.kave.commons.utils.io.IReadingArchive;
 import cc.kave.commons.utils.io.ReadingArchive;
+import extractor.APIToken;
 
 /**
  * this class explains how contexts can be read from the file system
@@ -48,7 +52,29 @@ public class IoHelper {
 		}
 		return res;
 	}
+	
+	public static void createDirectoryIfNotExists(String path) {
+		File directory = new File(path);
+		if (! directory.exists()){
+			directory.mkdir();
+		}
+	}
+	
+	public static void writeAPISentencesToFile(String filename, List<List<APIToken>> apiSentences) 
+			throws FileNotFoundException, UnsupportedEncodingException {
+		PrintWriter writer = new PrintWriter(filename, "UTF-8");
+		for(List<APIToken> sentences : apiSentences) {
+			writer.println(sentences.toString());
+		}
+		writer.close();
+	}
 
+	public static String pathToFileName(String filePath) {
+		return filePath.replaceAll("//","+")
+				.replaceAll("/", "+")
+				.replaceAll("\\.", "+");
+	}
+	
 	public static List<Context> read(String zipFile) {
 		LinkedList<Context> res = Lists.newLinkedList();
 		try {

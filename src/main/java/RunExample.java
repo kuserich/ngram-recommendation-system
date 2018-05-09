@@ -15,28 +15,17 @@ public class RunExample {
      * files.
      */
     public static String eventsDir = "Events-170301-2";
+    
+    public static String outputDir = "output/";
 
     /*
      * download the context data and follow the same instructions as before.
      */
     public static String contextsDir = "Contexts-170503/";
 
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) {
         SentenceExtractor se = new SentenceExtractor();
-        List<List<APIToken>> apiSentences = se.extract(contextsDir);
-
-        PrintWriter writer = new PrintWriter("rawApiLines.txt", "UTF-8");
-        String output = "";
-        for (List<APIToken> sentence : apiSentences) {
-            writer.println(" ");
-
-            for (APIToken token : sentence) {
-                output = output + " " + token.toString().replaceAll("\\s+","");
-            }
-            writer.println(output);
-            output = "";
-            writer.println(" ");
-        }
+        se.extract(contextsDir, outputDir);
     }
 
     public static void testFlatten() {
