@@ -100,7 +100,7 @@ public class APIToken implements IName, IMethodName {
 
     @Override
     public String toString() {
-        return "<"+namespace+", "+operation+">";
+        return "<"+namespace+","+operation+">";
     }
 
     @Override

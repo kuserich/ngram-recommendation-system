@@ -54,6 +54,33 @@ public class APISentenceTree {
         
         return sentenceList;
     }
+
+    /**
+     * 
+     * @return
+     */
+    public Long numberOfSentences() {
+        return numberOfSentences(this, 0L);
+    }
+
+    /**
+     * 
+     * @param asp
+     * @param total
+     * @return
+     */
+    public Long numberOfSentences(APISentenceTree asp, Long total) {
+        total += tokens.size();
+        total += (int) Math.pow(2, asp.branches.size());
+        if(asp.branches.size() > 0) {
+            for(APIToken key : asp.branches.keySet()) {
+                for(APISentenceTree iasp : asp.branches.get(key)) {
+                    total += iasp.numberOfSentences();
+                }
+            }
+        }
+        return total;
+    }
     
     public List<List<APIToken>> copySentenceList(List<List<APIToken>> sentenceList) {
         List<List<APIToken>> copiedList = new ArrayList<>();

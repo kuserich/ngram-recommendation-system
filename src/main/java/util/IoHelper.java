@@ -12,13 +12,17 @@
  * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
  * License for the specific language governing permissions and limitations under
  * the License.
+ * 
+ * 
+ * Copyright 2018 Universität Zürich (UZH)
+ * 
+ * Parts of this file were created by members of UZH.
+ * The same license applies.
  */
 package util;
 
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.PrintWriter;
-import java.io.UnsupportedEncodingException;
+import java.io.*;
+import java.nio.file.Files;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Set;
@@ -59,16 +63,56 @@ public class IoHelper {
 			directory.mkdir();
 		}
 	}
-	
-	public static void writeAPISentencesToFile(String filename, List<List<APIToken>> apiSentences) 
-			throws FileNotFoundException, UnsupportedEncodingException {
+
+	/**
+	 * Given a filename and list of API sentences, this method creates a new file with the given filename
+	 * and writes all API sentences to that file such that one line contains one sentence.
+	 * Sentences are only written to the file if they contain at least as many tokens as defined by minLength.
+	 * 
+	 * @see #removeFile(String)
+	 * 			the file with filename is created also if no API sentences are added (due to minLength).
+	 * 			Hence, those files must be removed afterwards.	
+	 * 
+	 * @param filename
+	 * 			file to create and write to
+	 * @param apiSentences
+	 * 			API sentences that are written to the file
+	 * @param minLength
+	 * 			minimal length an API sentence must be to be written to the file
+	 * 			
+	 * @throws IOException
+	 * 			thrown if there is an error with writing or deleting files
+	 */
+	public static void writeAPISentencesToFile(String filename, List<List<APIToken>> apiSentences, int minLength)
+			throws IOException {
 		PrintWriter writer = new PrintWriter(filename, "UTF-8");
-		for(List<APIToken> sentences : apiSentences) {
-			writer.println(sentences.toString());
+		Long sentencesAdded = 0L;
+		for(List<APIToken> sentence : apiSentences) {
+			if(sentence.size() >= minLength) {
+				writer.println(sentence.toString());
+				sentencesAdded++;
+			}
 		}
 		writer.close();
+		// remove the file created if nothing was written to it
+		if(sentencesAdded.equals(0L)) {
+			removeFile(filename);
+		}
 	}
 
+	/**
+	 * Deletes the file with given path.
+	 * 
+	 * @param filePath
+	 * 			path and name of the file
+	 * 			
+	 * @throws IOException
+	 * 			thrown if there is an error with deleting the file
+	 */
+	public static void removeFile(String filePath) throws IOException {
+		Files.deleteIfExists(new File(filePath).toPath());
+	}
+	
 	public static String pathToFileName(String filePath) {
 		return filePath.replaceAll("//","+")
 				.replaceAll("/", "+")

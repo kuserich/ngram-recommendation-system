@@ -9,6 +9,7 @@ import util.IoHelper;
 
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
 import java.util.HashSet;
@@ -67,9 +68,9 @@ public class SentenceExtractor {
                 String filename = filenameBase+String.valueOf(cnt++);
                 try {
                     if(apiSentences.size() > 0) {
-                        IoHelper.writeAPISentencesToFile(filename, apiSentences);
+                        IoHelper.writeAPISentencesToFile(filename, apiSentences, 2);
                     }
-                } catch(FileNotFoundException | UnsupportedEncodingException e) {
+                } catch(IOException e) {
                     e.printStackTrace();
                 }
             }
@@ -101,8 +102,13 @@ public class SentenceExtractor {
         
         List<List<APIToken>> apiSentences = new ArrayList<>();
         for(APISentenceTree asp : apiSentenceTrees) {
-            List<List<APIToken>> kk = asp.flatten();
-            apiSentences.addAll(kk);
+            Long n = asp.numberOfSentences();
+            if(asp.numberOfSentences() < 20000) {
+                List<List<APIToken>> kk = asp.flatten();
+                apiSentences.addAll(kk);
+            } else {
+                System.out.println("Skipping because too large");
+            }
         }
         return apiSentences;
     }
@@ -124,17 +130,17 @@ public class SentenceExtractor {
     private List<APISentenceTree> process(ISST sst) {
         System.out.println("Processing syntax tree...");
         System.out.println("includes "+sst.getMethods().size()+" methods");
-        List<APISentenceTree> apiSentences = new ArrayList<>();
+        List<APISentenceTree> apiSentenceTrees = new ArrayList<>();
         
         for(IMethodDeclaration md : sst.getMethods()) {
             APISentenceTree sentence = new APISentenceTree();
             md.accept(new APIVisitor(), sentence);
             if(!sentence.isEmpty()) {
-                apiSentences.add(sentence);
+                apiSentenceTrees.add(sentence);
             }
         }
         
-        return apiSentences;
+        return apiSentenceTrees;
     }
 
     /**
