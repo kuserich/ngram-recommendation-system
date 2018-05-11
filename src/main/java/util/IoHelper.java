@@ -101,6 +101,44 @@ public class IoHelper {
 	}
 
 	/**
+	 * Given a filename and list of API sentences, this method creates a new file with the given filename
+	 * if none exists and appends all API sentences to that file such that one line contains one sentence.
+	 * Sentences are only written to the file if they contain at least as many tokens as defined by minLength.
+	 *
+	 * @param filename
+	 * 			file to create and write to
+	 * @param apiSentences
+	 * 			API sentences that are written to the file
+	 * @param minLength
+	 * 			minimal length an API sentence must be to be written to the file
+	 *
+	 * @throws IOException
+	 * 			thrown if there is an error with writing or deleting files
+	 */
+	public static void appendAPISentencesToFile(String filename, List<List<APIToken>> apiSentences, int minLength) 
+			throws IOException {
+		FileWriter fw = new FileWriter(filename, true);
+		BufferedWriter bw = new BufferedWriter(fw);	
+		PrintWriter out = new PrintWriter(bw);
+		for(List<APIToken> sentence : apiSentences) {
+			if(sentence.size() >= minLength) {
+				out.println(sentence.toString());
+			}
+		}
+		out.close();
+		bw.close();
+		fw.close();
+		removeFileIfEmpty(filename);
+	}
+	
+	public static void removeFileIfEmpty(String filename) throws IOException {
+		BufferedReader br = new BufferedReader(new FileReader(filename));
+		if(br.readLine() == null) {
+			removeFile(filename);
+		}
+	}
+
+	/**
 	 * Deletes the file with given path.
 	 * 
 	 * @param filePath
