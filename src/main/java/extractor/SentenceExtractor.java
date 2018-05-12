@@ -28,9 +28,11 @@ public class SentenceExtractor {
             IoHelper.createDirectoryIfNotExists(outputDirectory);
             Set<String> inputContexts = getInputZips(contextsDirectory);
 
+            int cnt = 0;
             for(String inputContext : inputContexts) {
-//                processZip(contextsDirectory + "/" + inputContext, outputDirectory);
-                processZip(inputContext, outputDirectory);
+                processZip(contextsDirectory + "/" + inputContext, outputDirectory);
+                System.out.println("FINISHED PROCESSING FILE "+String.valueOf(cnt)+"/"+String.valueOf(inputContext.length()));
+//                processZip(inputContext, outputDirectory);
 
             }
             
@@ -86,9 +88,11 @@ public class SentenceExtractor {
         List<APISentenceTree> apiSentenceTrees = process(context.getSST());
         
         for(APISentenceTree asp : apiSentenceTrees) {
-            Long n = asp.numberOfSentences();
-            if(asp.numberOfSentences() < 10000) {
+            Long n = 4*asp.numberOfSentences();
+            System.out.println("expected: "+n);
+            if(asp.numberOfSentences() < 100000L) {
                 List<List<APIToken>> apiSentences = asp.flatten();
+                System.out.println("actual : "+apiSentences.size());
                 Map<String, List<List<APIToken>>> bucketizedSentences = bucketizeApiSentences(apiSentences);
                 
                 try {
