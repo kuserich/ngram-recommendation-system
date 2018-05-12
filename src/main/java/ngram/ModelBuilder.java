@@ -24,19 +24,15 @@ public class ModelBuilder {
 
 
     public ModelBuilder(String APIFilePath) throws IOException {
-
         Stream<String> apiSentences = Files.lines(Paths.get(APIFilePath), StandardCharsets.UTF_8);
         SentenceString = apiSentences.collect(Collectors.joining());
         this.buildTokensAndModel();
-
     }
 
     private void buildTokensAndModel() {
-
         this.tokens = new StringList(WhitespaceTokenizer.INSTANCE.tokenize(this.SentenceString));
         this.model = new NGramLanguageModel();
         this.model.add(this.tokens, 2, 5);
-
     }
 
     public double getTokenProbability(StringList tokens) {

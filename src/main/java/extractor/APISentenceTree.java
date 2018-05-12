@@ -5,6 +5,7 @@ import java.util.*;
 public class APISentenceTree {
     
     private final int DEFAULT_TOSTRING_INDENT = 2;
+    private final int MAX_SENTENCES = 1000000;
     
     private List<APIToken> tokens = new ArrayList<>();
     private Map<APIToken, List<APISentenceTree>> branches = new HashMap<>();
@@ -63,7 +64,7 @@ public class APISentenceTree {
                 }
             }
 
-            if(branches.containsKey(token)) {
+            if(branches.containsKey(token) && sentenceList.size() < MAX_SENTENCES) {
                 List<List<APIToken>> copiedSentenceLists = copySentenceList(sentenceList);
                 List<List<APIToken>> newSentenceList = new ArrayList<>();
                 

@@ -31,12 +31,15 @@ public class SentenceExtractor {
             int cnt = 0;
             for(String inputContext : inputContexts) {
                 processZip(contextsDirectory + "/" + inputContext, outputDirectory);
+                System.out.println("====================================");
                 System.out.println("FINISHED PROCESSING FILE "+String.valueOf(cnt++)+"/"+String.valueOf(inputContext.length()));
+                System.out.println("====================================");
+//                IoHelper.removeFile(contextsDirectory + "/" + inputContext);
 //                processZip(inputContext, outputDirectory);
 
             }
             
-        } catch(FileNotFoundException e) {
+        } catch(IOException e) {
             e.printStackTrace();
         }
     }
@@ -47,12 +50,12 @@ public class SentenceExtractor {
         System.out.println("PROCESSING "+inputFilePath);
 
         int cnt = 1;
-        String filenameBase = outputDirectory;
-        filenameBase += IoHelper.pathToFileName(inputFilePath);
         try(IReadingArchive ra = new ReadingArchive(new File(inputFilePath))) {
-            System.out.println("\tcontains "+ra.getNumberOfEntries()+" entries");
             while(ra.hasNext()) {
-                System.out.println("\tProcessing entry: "+String.valueOf(cnt));
+                System.out.println("\tProcessing entry: "+String.valueOf(cnt++)+"/"+ra.getNumberOfEntries());
+                if(cnt == 214) {
+                    System.out.println("Ok");
+                }
 
                 // within the slnZip, each stored context is contained as a single file that
                 // contains the Json representation of a Context.
@@ -150,11 +153,6 @@ public class SentenceExtractor {
      *          List of {@link APISentenceTree} objects
      */
     private List<APISentenceTree> process(ISST sst) {
-        System.out.println("\tProcessing syntax tree...");
-        System.out.println("\tincludes "+sst.getMethods().size()+" methods");
-        if(sst.getMethods().size() == 17) {
-            System.out.println("scnd debug here");
-        }
         List<APISentenceTree> apiSentenceTrees = new ArrayList<>();
         
         for(IMethodDeclaration md : sst.getMethods()) {

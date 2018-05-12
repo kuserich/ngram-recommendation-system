@@ -52,11 +52,9 @@ public class RunMe {
         ExampleClient client = new ExampleClient();
         ArrayList<String> clientRequest = new ArrayList<>();
 
-        clientRequest.add("rawApiLines.txt");
+        clientRequest.add("output/System.data.Linq.txt");
         clientRequest.add("<System.Drawing.Drawing2D,new>,<System.Drawing.Drawing2D,StartFigure>");
 
         System.out.println(client.query(clientRequest));
-
-
     }
 };
