@@ -29,10 +29,11 @@ public class SentenceExtractor {
             Set<String> inputContexts = getInputZips(contextsDirectory);
 
             int cnt = 0;
+            int totalFiles = inputContexts.size();
             for(String inputContext : inputContexts) {
                 processZip(contextsDirectory + "/" + inputContext, outputDirectory);
                 System.out.println("====================================");
-                System.out.println("FINISHED PROCESSING FILE "+String.valueOf(cnt++)+"/"+String.valueOf(inputContext.length()));
+                System.out.println("FINISHED PROCESSING FILE "+String.valueOf(cnt++)+"/"+String.valueOf(totalFiles));
                 System.out.println("====================================");
             }
             
@@ -50,9 +51,6 @@ public class SentenceExtractor {
         try(IReadingArchive ra = new ReadingArchive(new File(inputFilePath))) {
             while(ra.hasNext()) {
                 System.out.println("\tProcessing entry: "+String.valueOf(cnt++)+"/"+ra.getNumberOfEntries());
-                if(cnt == 214) {
-                    System.out.println("Ok");
-                }
 
                 // within the slnZip, each stored context is contained as a single file that
                 // contains the Json representation of a Context.
