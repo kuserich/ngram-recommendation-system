@@ -31,7 +31,7 @@ public class SentenceExtractor {
             int cnt = 0;
             for(String inputContext : inputContexts) {
                 processZip(contextsDirectory + "/" + inputContext, outputDirectory);
-                System.out.println("FINISHED PROCESSING FILE "+String.valueOf(cnt)+"/"+String.valueOf(inputContext.length()));
+                System.out.println("FINISHED PROCESSING FILE "+String.valueOf(cnt++)+"/"+String.valueOf(inputContext.length()));
 //                processZip(inputContext, outputDirectory);
 
             }
