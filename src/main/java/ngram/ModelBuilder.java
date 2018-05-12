@@ -6,6 +6,9 @@ import opennlp.tools.ngram.NGramUtils;
 import opennlp.tools.tokenize.WhitespaceTokenizer;
 import opennlp.tools.util.StringList;
 
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
@@ -18,37 +21,40 @@ import java.util.stream.Stream;
 
 public class ModelBuilder {
 
-    private final String SentenceString;
+    private final String SentenceString = "";
     private StringList tokens;
     private NGramLanguageModel model;
 
+    private final int NGRAM_MIN_LENGTH = 2;
+    private final int NGRAM_MAX_LENGTH = 5;
 
-    public ModelBuilder(String APIFilePath) throws IOException {
-        Stream<String> apiSentences = Files.lines(Paths.get(APIFilePath), StandardCharsets.UTF_8);
-        SentenceString = apiSentences.collect(Collectors.joining());
-        this.buildTokensAndModel();
+    public ModelBuilder() {
+        model = new NGramLanguageModel(NGRAM_MAX_LENGTH);
     }
 
-    private void buildTokensAndModel() {
-        this.tokens = new StringList(WhitespaceTokenizer.INSTANCE.tokenize(this.SentenceString));
-        this.model = new NGramLanguageModel();
-        this.model.add(this.tokens, 2, 5);
+    public void train(String trainFile) throws IOException {
+        BufferedReader br = new BufferedReader(new FileReader(trainFile));
+        String line;
+        while((line = br.readLine()) != null) {
+            addTokensFromLineToModel(line);
+        }
     }
-
+    
+    private void addTokensFromLineToModel(String apiSentenceLine) {
+        apiSentenceLine = apiSentenceLine.substring(1, apiSentenceLine.length()-1);
+        StringList tokens = new StringList(apiSentenceLine.split(", "));
+        model.add(tokens, NGRAM_MIN_LENGTH, NGRAM_MAX_LENGTH);
+    }
+    
     public double getTokenProbability(StringList tokens) {
-
-        return this.model.calculateProbability(tokens);
-
+        return model.calculateProbability(tokens);
     }
 
-    public StringList getNextTokens(String compare) {
-
-        return this.model.predictNextTokens(new StringList(compare));
-
+    public StringList predictNextTokens(String compare) {
+        return model.predictNextTokens(new StringList(compare));
     }
 
     public void nGramModel() {
-
         NGramModel nGramModel = new NGramModel();
         nGramModel.add(this.tokens, 2, 5);
 

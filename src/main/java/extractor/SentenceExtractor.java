@@ -34,9 +34,6 @@ public class SentenceExtractor {
                 System.out.println("====================================");
                 System.out.println("FINISHED PROCESSING FILE "+String.valueOf(cnt++)+"/"+String.valueOf(inputContext.length()));
                 System.out.println("====================================");
-//                IoHelper.removeFile(contextsDirectory + "/" + inputContext);
-//                processZip(inputContext, outputDirectory);
-
             }
             
         } catch(IOException e) {
@@ -106,7 +103,6 @@ public class SentenceExtractor {
                                 IoHelper.appendAPISentencesToFile(filename, bucketizedSentences.get(key), 2);
                             }
                         }
-//                        IoHelper.writeAPISentencesToFile(filename, apiSentences, 2);
                     }
                 } catch(IOException e) {
                     e.printStackTrace();
@@ -117,7 +113,12 @@ public class SentenceExtractor {
             }
         }
     }
-    
+
+    /**
+     * 
+     * @param apiSentences
+     * @return
+     */
     private Map<String, List<List<APIToken>>> bucketizeApiSentences(List<List<APIToken>> apiSentences) {
         Map<String, List<List<APIToken>>> buckets = new HashMap<>();
         for(List<APIToken> sentence : apiSentences) {

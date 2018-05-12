@@ -122,7 +122,16 @@ public class IoHelper {
 		PrintWriter out = new PrintWriter(bw);
 		for(List<APIToken> sentence : apiSentences) {
 			if(sentence.size() >= minLength) {
-				out.println(sentence.toString());
+//				out.println(sentence.toString());
+				for(int i=0;i<sentence.size();i++) {
+					out.print(sentence.get(i).getType());
+					out.print(",");
+					out.print(sentence.get(i).getOperation());
+					if(i < sentence.size()-1) {
+						out.print(" ");
+					}
+				}
+				out.println();
 			}
 		}
 		out.close();
