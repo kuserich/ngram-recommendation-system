@@ -10,11 +10,7 @@ import util.IoHelper;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.io.UnsupportedEncodingException;
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 
 public class SentenceExtractor {
 
@@ -32,8 +28,12 @@ public class SentenceExtractor {
             IoHelper.createDirectoryIfNotExists(outputDirectory);
             Set<String> inputContexts = getInputZips(contextsDirectory);
 
+            int cnt = 0;
             for(String inputContext : inputContexts) {
                 processZip(contextsDirectory + "/" + inputContext, outputDirectory);
+                System.out.println("FINISHED PROCESSING FILE "+String.valueOf(cnt++)+"/"+String.valueOf(inputContext.length()));
+//                processZip(inputContext, outputDirectory);
+
             }
             
         } catch(FileNotFoundException e) {
@@ -45,34 +45,21 @@ public class SentenceExtractor {
         System.out.println();
         System.out.println("+-------------------------------------------+");
         System.out.println("PROCESSING "+inputFilePath);
-        
-        if(inputFilePath.contains("ConsoleApplication1")) {
-            System.out.println("omg");
-        }
-
 
         int cnt = 1;
         String filenameBase = outputDirectory;
         filenameBase += IoHelper.pathToFileName(inputFilePath);
         try(IReadingArchive ra = new ReadingArchive(new File(inputFilePath))) {
-            System.out.println("contains "+ra.getNumberOfEntries()+" entries");
+            System.out.println("\tcontains "+ra.getNumberOfEntries()+" entries");
             while(ra.hasNext()) {
-                System.out.println("Processing entry: "+String.valueOf(cnt));
+                System.out.println("\tProcessing entry: "+String.valueOf(cnt));
 
                 // within the slnZip, each stored context is contained as a single file that
                 // contains the Json representation of a Context.
                 Context context = ra.getNext(Context.class);
 
                 // the events can then be processed individually
-                List<List<APIToken>> apiSentences = processContext(context);
-                String filename = filenameBase+String.valueOf(cnt++);
-                try {
-                    if(apiSentences.size() > 0) {
-                        IoHelper.writeAPISentencesToFile(filename, apiSentences, 2);
-                    }
-                } catch(IOException e) {
-                    e.printStackTrace();
-                }
+                processContext(context, outputDirectory);
             }
         }
     }
@@ -97,20 +84,55 @@ public class SentenceExtractor {
      * @return
      *          list of all API sentences from the given context
      */
-    private List<List<APIToken>> processContext(Context context) {
+    private void processContext(Context context, String outputDirectory) {
         List<APISentenceTree> apiSentenceTrees = process(context.getSST());
         
-        List<List<APIToken>> apiSentences = new ArrayList<>();
         for(APISentenceTree asp : apiSentenceTrees) {
-            Long n = asp.numberOfSentences();
-            if(asp.numberOfSentences() < 20000) {
-                List<List<APIToken>> kk = asp.flatten();
-                apiSentences.addAll(kk);
+            Long n = 4*asp.numberOfSentences();
+            System.out.println("expected: "+n);
+            if(asp.numberOfSentences() < 100000L) {
+                List<List<APIToken>> apiSentences = asp.flatten();
+                System.out.println("actual : "+apiSentences.size());
+                Map<String, List<List<APIToken>>> bucketizedSentences = bucketizeApiSentences(apiSentences);
+                
+                try {
+                    if(apiSentences.size() > 0) {
+                        for(String key : bucketizedSentences.keySet()) {
+                            if(bucketizedSentences.get(key).size() > 0) {
+                                String filename = outputDirectory+key+".txt";
+                                IoHelper.appendAPISentencesToFile(filename, bucketizedSentences.get(key), 2);
+                            }
+                        }
+//                        IoHelper.writeAPISentencesToFile(filename, apiSentences, 2);
+                    }
+                } catch(IOException e) {
+                    e.printStackTrace();
+                }
+                
             } else {
-                System.out.println("Skipping because too large");
+                System.out.println("!!! SKIPPING LARGE BODY !!!");
             }
         }
-        return apiSentences;
+    }
+    
+    private Map<String, List<List<APIToken>>> bucketizeApiSentences(List<List<APIToken>> apiSentences) {
+        Map<String, List<List<APIToken>>> buckets = new HashMap<>();
+        for(List<APIToken> sentence : apiSentences) {
+            Map<String, List<APIToken>> currentMap = new HashMap<>();
+            for(APIToken token : sentence) {
+                if(!currentMap.containsKey(token.getNamespace())) {
+                    currentMap.put(token.getNamespace(), new ArrayList<>());
+                }
+                currentMap.get(token.getNamespace()).add(token);
+            }
+            for(String key : currentMap.keySet()) {
+                if(!buckets.containsKey(key)) {
+                    buckets.put(key, new ArrayList<>());
+                }
+                buckets.get(key).add(currentMap.get(key));
+            }
+        }
+        return buckets;
     }
 
     /**
@@ -128,8 +150,11 @@ public class SentenceExtractor {
      *          List of {@link APISentenceTree} objects
      */
     private List<APISentenceTree> process(ISST sst) {
-        System.out.println("Processing syntax tree...");
-        System.out.println("includes "+sst.getMethods().size()+" methods");
+        System.out.println("\tProcessing syntax tree...");
+        System.out.println("\tincludes "+sst.getMethods().size()+" methods");
+        if(sst.getMethods().size() == 17) {
+            System.out.println("scnd debug here");
+        }
         List<APISentenceTree> apiSentenceTrees = new ArrayList<>();
         
         for(IMethodDeclaration md : sst.getMethods()) {

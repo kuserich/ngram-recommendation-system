@@ -36,7 +36,7 @@ public class APISentenceTree {
         return flatten(sentenceList);
     }
     
-    public List<List<APIToken>> flatten(List<List<APIToken>> sentenceList) {
+    /*public List<List<APIToken>> flatten(List<List<APIToken>> sentenceList) {
             for(APIToken token : tokens) {
                 for(List<APIToken> sentence : sentenceList) {
                     if(!token.isEmpty()) {
@@ -53,28 +53,44 @@ public class APISentenceTree {
             }
         
         return sentenceList;
+    }*/
+
+    public List<List<APIToken>> flatten(List<List<APIToken>> sentenceList) {
+        for(APIToken token : tokens) {
+            for(List<APIToken> sentence : sentenceList) {
+                if(!token.isEmpty()) {
+                    sentence.add(token);
+                }
+            }
+
+            if(branches.containsKey(token)) {
+                List<List<APIToken>> copiedSentenceLists = copySentenceList(sentenceList);
+                List<List<APIToken>> newSentenceList = new ArrayList<>();
+                
+                int numberOfBranches = branches.get(token).size();
+                for(int i=0; i<numberOfBranches; i++) {
+                    if(numberOfBranches > 1) {
+                        if(i == numberOfBranches-1) {
+                            newSentenceList.addAll(branches.get(token).get(i).flatten(sentenceList));
+                            sentenceList = newSentenceList;
+                        } else {
+                            newSentenceList.addAll(branches.get(token).get(i).flatten(copySentenceList(copiedSentenceLists)));
+                        }
+                    } else {
+                        sentenceList.addAll(branches.get(token).get(i).flatten(copySentenceList(copiedSentenceLists)));
+                    }
+                }
+            }
+        }
+
+        return sentenceList;
     }
 
-    /**
-     * 
-     * @return
-     */
     public Long numberOfSentences() {
-        return numberOfSentences(this, 0L);
-    }
-
-    /**
-     * 
-     * @param asp
-     * @param total
-     * @return
-     */
-    public Long numberOfSentences(APISentenceTree asp, Long total) {
-        total += tokens.size();
-        total += (int) Math.pow(2, asp.branches.size());
-        if(asp.branches.size() > 0) {
-            for(APIToken key : asp.branches.keySet()) {
-                for(APISentenceTree iasp : asp.branches.get(key)) {
+        Long total = (long) Math.max(1, Math.pow(2, branches.size()-1));
+        if(branches.size() > 0) {
+            for(APIToken key : branches.keySet()) {
+                for(APISentenceTree iasp : branches.get(key)) {
                     total += iasp.numberOfSentences();
                 }
             }
