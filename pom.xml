@@ -12,6 +12,13 @@
     <version>1.0-SNAPSHOT</version>
 
     <build>
+        <extensions>
+            <extension>
+                <groupId>io.packagecloud.maven.wagon</groupId>
+                <artifactId>maven-packagecloud-wagon</artifactId>
+                <version>0.0.4</version>
+            </extension>
+        </extensions>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -24,6 +31,20 @@
         </plugins>
     </build>
 
+    <distributionManagement>
+        <repository>
+            <id>packagecloud-travis</id>
+            <url>
+                packagecloud+https://packagecloud.io/sebastian/ngram-recommender
+            </url>
+        </repository>
+        <snapshotRepository>
+            <id>packagecloud-travis</id>
+            <url>
+                packagecloud+https://packagecloud.io/sebastian/ngram-recommender
+            </url>
+        </snapshotRepository>
+    </distributionManagement>
 
     <dependencies>
         <dependency>
