@@ -31,4 +31,4 @@ deploy:
     all_branches: true
 
 after_script:
-  - echo "Finished the Travis Job $TRAVIS_BUILD_NUMBER"
+  - echo "Finished the Travis Build Number $TRAVIS_BUILD_NUMBER"
