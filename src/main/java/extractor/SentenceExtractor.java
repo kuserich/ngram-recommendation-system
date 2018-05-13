@@ -88,6 +88,8 @@ public class SentenceExtractor {
         for(APISentenceTree asp : apiSentenceTrees) {
             Long n = 4*asp.numberOfSentences();
             System.out.println("expected: "+n);
+            System.out.println("nbranches: "+asp.totalNumberOfBranches());
+            System.out.println("in pow: "+Math.pow(2, asp.totalNumberOfBranches()));
             if(asp.numberOfSentences() < 100000L) {
                 List<List<APIToken>> apiSentences = asp.flatten();
                 System.out.println("actual : "+apiSentences.size());

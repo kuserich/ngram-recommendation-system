@@ -1,0 +1,806 @@
+<?xml version="1.0" encoding="UTF-8"?><dictionary case_sensitive="false">
+<entry count="6">
+<token>MonoMac.CoreGraphics.CGPoint,new</token>
+<token>MonoMac.CoreGraphics.CGPoint,new</token>
+<token>MonoMac.CoreGraphics.CGRect,new</token>
+</entry>
+<entry count="6">
+<token>MonoMac.CoreGraphics.CGContext,TranslateCTM</token>
+<token>MonoMac.CoreGraphics.CGAffineTransform,MakeTranslation</token>
+<token>MonoMac.CoreGraphics.CGAffineTransform,Multiply</token>
+</entry>
+<entry count="12">
+<token>MonoMac.CoreGraphics.CGAffineTransform,new</token>
+<token>MonoMac.CoreGraphics.CGPath,AddArc</token>
+</entry>
+<entry count="6">
+<token>MonoMac.CoreGraphics.CGRect,new</token>
+<token>MonoMac.CoreGraphics.CGContext,AddEllipseInRect</token>
+<token>MonoMac.CoreGraphics.CGContext,Clip</token>
+</entry>
+<entry count="6">
+<token>MonoMac.CoreGraphics.CGAffineTransform,new</token>
+<token>MonoMac.CoreGraphics.CGContext,ConcatCTM</token>
+<token>MonoMac.CoreGraphics.CGContext,MoveTo</token>
+<token>MonoMac.CoreGraphics.CGContext,AddArc</token>
+<token>MonoMac.CoreGraphics.CGContext,AddLineToPoint</token>
+</entry>
+<entry count="6">
+<token>MonoMac.CoreGraphics.CGContext,ClosePath</token>
+<token>MonoMac.CoreGraphics.CGContext,EOClip</token>
+</entry>
+<entry count="12">
+<token>MonoMac.CoreGraphics.CGContext,SetStrokeColor</token>
+<token>MonoMac.CoreGraphics.CGContext,SetLineCap</token>
+<token>MonoMac.CoreGraphics.CGContext,SetLineJoin</token>
+<token>MonoMac.CoreGraphics.CGContext,SetLineWidth</token>
+<token>MonoMac.CoreGraphics.CGContext,SetMiterLimit</token>
+</entry>
+<entry count="6">
+<token>MonoMac.CoreGraphics.CGPath,new</token>
+<token>MonoMac.CoreGraphics.CGPath,AddPath</token>
+</entry>
+<entry count="6">
+<token>MonoMac.CoreGraphics.CGRect,new</token>
+<token>MonoMac.CoreGraphics.CGContext,AddRect</token>
+<token>MonoMac.CoreGraphics.CGContext,Clip</token>
+</entry>
+<entry count="6">
+<token>MonoMac.CoreGraphics.CGContext,BeginPath</token>
+<token>MonoMac.CoreGraphics.CGContext,AddPath</token>
+<token>MonoMac.CoreGraphics.CGContext,StrokePath</token>
+</entry>
+<entry count="6">
+<token>MonoMac.CoreGraphics.CGContext,ConcatCTM</token>
+<token>MonoMac.CoreGraphics.CGAffineTransform,new</token>
+<token>MonoMac.CoreGraphics.CGContext,ConcatCTM</token>
+<token>MonoMac.CoreGraphics.CGRect,new</token>
+<token>MonoMac.CoreGraphics.CGContext,DrawTiledImage</token>
+</entry>
+<entry count="12">
+<token>MonoMac.CoreGraphics.CGContext,SaveState</token>
+<token>MonoMac.CoreGraphics.CGContext,ClipToRect</token>
+<token>MonoMac.CoreGraphics.CGAffineTransform,new</token>
+</entry>
+<entry count="12">
+<token>MonoMac.CoreGraphics.CGAffineTransform,MakeScale</token>
+<token>MonoMac.CoreGraphics.CGAffineTransform,Multiply</token>
+</entry>
+<entry count="6">
+<token>MonoMac.CoreGraphics.CGAffineTransform,new</token>
+<token>MonoMac.CoreGraphics.CGAffineTransform,Multiply</token>
+<token>MonoMac.CoreGraphics.CGContext,SaveState</token>
+<token>MonoMac.CoreGraphics.CGContext,ConcatCTM</token>
+</entry>
+<entry count="6">
+<token>MonoMac.CoreGraphics.CGContext,AddArc</token>
+<token>MonoMac.CoreGraphics.CGContext,AddLineToPoint</token>
+</entry>
+<entry count="6">
+<token>MonoMac.CoreGraphics.CGContext,AddArc</token>
+<token>MonoMac.CoreGraphics.CGContext,StrokePath</token>
+</entry>
+<entry count="6">
+<token>MonoMac.CoreGraphics.CGContext,AddArc</token>
+<token>MonoMac.CoreGraphics.CGContext,AddLineToPoint</token>
+<token>MonoMac.CoreGraphics.CGContext,ClosePath</token>
+<token>MonoMac.CoreGraphics.CGContext,RestoreState</token>
+</entry>
+<entry count="6">
+<token>MonoMac.CoreGraphics.RectangleFExtensions,GetMidY</token>
+<token>MonoMac.CoreGraphics.RectangleFExtensions,GetMidX</token>
+<token>MonoMac.CoreGraphics.CGAffineTransform,new</token>
+<token>MonoMac.CoreGraphics.CGContext,ConcatCTM</token>
+<token>MonoMac.CoreGraphics.CGContext,AddArc</token>
+</entry>
+<entry count="6">
+<token>MonoMac.CoreGraphics.CGRect,new</token>
+<token>MonoMac.CoreGraphics.CGPath,AddElipseInRect</token>
+</entry>
+<entry count="12">
+<token>MonoMac.CoreGraphics.CGContext,SaveState</token>
+<token>MonoMac.CoreGraphics.CGContext,ClipToRect</token>
+</entry>
+<entry count="6">
+<token>MonoMac.CoreGraphics.CGRect,new</token>
+<token>MonoMac.CoreGraphics.CGContext,AddEllipseInRect</token>
+</entry>
+<entry count="6">
+<token>MonoMac.CoreGraphics.CGContext,SaveState</token>
+<token>MonoMac.CoreGraphics.RectangleFExtensions,GetMidY</token>
+<token>MonoMac.CoreGraphics.RectangleFExtensions,GetMidX</token>
+<token>MonoMac.CoreGraphics.CGAffineTransform,new</token>
+</entry>
+<entry count="6">
+<token>MonoMac.CoreGraphics.CGContext,ConcatCTM</token>
+<token>MonoMac.CoreGraphics.CGRect,new</token>
+</entry>
+<entry count="6">
+<token>MonoMac.CoreGraphics.CGAffineTransform,new</token>
+<token>MonoMac.CoreGraphics.CGContext,ConcatCTM</token>
+<token>MonoMac.CoreGraphics.CGContext,SetBlendMode</token>
+</entry>
+<entry count="12">
+<token>MonoMac.CoreGraphics.CGContext,SetLineCap</token>
+<token>MonoMac.CoreGraphics.CGContext,SetLineJoin</token>
+</entry>
+<entry count="6">
+<token>MonoMac.CoreGraphics.CGContext,ClosePath</token>
+<token>MonoMac.CoreGraphics.CGContext,RestoreState</token>
+</entry>
+<entry count="12">
+<token>MonoMac.CoreGraphics.CGContext,ConcatCTM</token>
+<token>MonoMac.CoreGraphics.CGAffineTransform,new</token>
+</entry>
+<entry count="12">
+<token>MonoMac.CoreGraphics.CGContext,GetClipBoundingBox</token>
+<token>MonoMac.CoreGraphics.CGContext,ClearRect</token>
+</entry>
+<entry count="6">
+<token>MonoMac.CoreGraphics.CGRect,new</token>
+<token>MonoMac.CoreGraphics.RectangleFExtensions,GetMidY</token>
+<token>MonoMac.CoreGraphics.RectangleFExtensions,GetMidX</token>
+<token>MonoMac.CoreGraphics.CGAffineTransform,new</token>
+</entry>
+<entry count="6">
+<token>MonoMac.CoreGraphics.CGRect,new</token>
+<token>MonoMac.CoreGraphics.CGPath,AddRect</token>
+</entry>
+<entry count="6">
+<token>MonoMac.CoreGraphics.CGContext,ConcatCTM</token>
+<token>MonoMac.CoreGraphics.CGContext,DrawRadialGradient</token>
+<token>MonoMac.CoreGraphics.CGContext,RestoreState</token>
+</entry>
+<entry count="6">
+<token>MonoMac.CoreGraphics.CGContext,MoveTo</token>
+<token>MonoMac.CoreGraphics.CGContext,AddArc</token>
+</entry>
+<entry count="24">
+<token>MonoMac.CoreGraphics.CGAffineTransform,new</token>
+<token>MonoMac.CoreGraphics.CGAffineTransform,Multiply</token>
+</entry>
+<entry count="6">
+<token>MonoMac.CoreGraphics.CGContext,ConcatCTM</token>
+<token>MonoMac.CoreGraphics.CGContext,SetBlendMode</token>
+<token>MonoMac.CoreGraphics.CGContext,SetAlpha</token>
+<token>MonoMac.CoreGraphics.CGRect,new</token>
+</entry>
+<entry count="6">
+<token>MonoMac.CoreGraphics.CGRect,new</token>
+<token>MonoMac.CoreGraphics.RectangleFExtensions,GetMidY</token>
+<token>MonoMac.CoreGraphics.RectangleFExtensions,GetMidX</token>
+<token>MonoMac.CoreGraphics.CGAffineTransform,new</token>
+<token>MonoMac.CoreGraphics.CGContext,ConcatCTM</token>
+</entry>
+<entry count="6">
+<token>MonoMac.CoreGraphics.CGContext,ClosePath</token>
+<token>MonoMac.CoreGraphics.CGContext,RestoreState</token>
+<token>MonoMac.CoreGraphics.CGContext,Clip</token>
+</entry>
+<entry count="12">
+<token>MonoMac.CoreGraphics.CGContext,SetStrokeColor</token>
+<token>MonoMac.CoreGraphics.CGContext,SetLineCap</token>
+<token>MonoMac.CoreGraphics.CGContext,SetLineJoin</token>
+</entry>
+<entry count="12">
+<token>MonoMac.CoreGraphics.CGRect,new</token>
+<token>MonoMac.CoreGraphics.CGContext,DrawTiledImage</token>
+</entry>
+<entry count="24">
+<token>MonoMac.CoreGraphics.CGContext,BeginPath</token>
+<token>MonoMac.CoreGraphics.CGContext,AddPath</token>
+</entry>
+<entry count="6">
+<token>MonoMac.CoreGraphics.CGContext,ConcatCTM</token>
+<token>MonoMac.CoreGraphics.CGContext,MoveTo</token>
+<token>MonoMac.CoreGraphics.CGContext,AddArc</token>
+</entry>
+<entry count="6">
+<token>MonoMac.CoreGraphics.RectangleFExtensions,GetMidY</token>
+<token>MonoMac.CoreGraphics.RectangleFExtensions,GetMidX</token>
+<token>MonoMac.CoreGraphics.CGAffineTransform,new</token>
+<token>MonoMac.CoreGraphics.CGContext,ConcatCTM</token>
+<token>MonoMac.CoreGraphics.CGContext,MoveTo</token>
+</entry>
+<entry count="18">
+<token>MonoMac.CoreGraphics.CGContext,BeginPath</token>
+<token>MonoMac.CoreGraphics.CGContext,AddPath</token>
+<token>MonoMac.CoreGraphics.CGContext,ClosePath</token>
+</entry>
+<entry count="6">
+<token>MonoMac.CoreGraphics.CGContext,DrawRadialGradient</token>
+<token>MonoMac.CoreGraphics.CGContext,RestoreState</token>
+</entry>
+<entry count="12">
+<token>MonoMac.CoreGraphics.CGContext,SetLineCap</token>
+<token>MonoMac.CoreGraphics.CGContext,SetLineJoin</token>
+<token>MonoMac.CoreGraphics.CGContext,SetLineWidth</token>
+</entry>
+<entry count="6">
+<token>MonoMac.CoreGraphics.CGAffineTransform,new</token>
+<token>MonoMac.CoreGraphics.CGContext,ConcatCTM</token>
+<token>MonoMac.CoreGraphics.CGContext,MoveTo</token>
+</entry>
+<entry count="12">
+<token>MonoMac.CoreGraphics.CGContext,SetLineJoin</token>
+<token>MonoMac.CoreGraphics.CGContext,SetLineWidth</token>
+</entry>
+<entry count="6">
+<token>MonoMac.CoreGraphics.CGAffineTransform,Multiply</token>
+<token>MonoMac.CoreGraphics.CGContext,SaveState</token>
+<token>MonoMac.CoreGraphics.CGContext,ConcatCTM</token>
+<token>MonoMac.CoreGraphics.CGContext,DrawRadialGradient</token>
+</entry>
+<entry count="6">
+<token>MonoMac.CoreGraphics.CGContext,ConcatCTM</token>
+<token>MonoMac.CoreGraphics.CGContext,AddArc</token>
+<token>MonoMac.CoreGraphics.CGContext,StrokePath</token>
+</entry>
+<entry count="6">
+<token>MonoMac.CoreGraphics.CGContext,SaveState</token>
+<token>MonoMac.CoreGraphics.RectangleFExtensions,GetMidY</token>
+<token>MonoMac.CoreGraphics.RectangleFExtensions,GetMidX</token>
+<token>MonoMac.CoreGraphics.CGAffineTransform,new</token>
+<token>MonoMac.CoreGraphics.CGContext,ConcatCTM</token>
+</entry>
+<entry count="6">
+<token>MonoMac.CoreGraphics.CGContext,RotateCTM</token>
+<token>MonoMac.CoreGraphics.CGAffineTransform,MakeRotation</token>
+<token>MonoMac.CoreGraphics.CGAffineTransform,Multiply</token>
+</entry>
+<entry count="6">
+<token>MonoMac.CoreGraphics.CGContext,ConcatCTM</token>
+<token>MonoMac.CoreGraphics.CGRect,new</token>
+<token>MonoMac.CoreGraphics.CGContext,DrawTiledImage</token>
+</entry>
+<entry count="6">
+<token>MonoMac.CoreGraphics.CGContext,ConcatCTM</token>
+<token>MonoMac.CoreGraphics.CGContext,SetBlendMode</token>
+<token>MonoMac.CoreGraphics.CGContext,SetAlpha</token>
+</entry>
+<entry count="6">
+<token>MonoMac.CoreGraphics.CGAffineTransform,new</token>
+<token>MonoMac.CoreGraphics.CGContext,ConcatCTM</token>
+<token>MonoMac.CoreGraphics.CGContext,SetBlendMode</token>
+<token>MonoMac.CoreGraphics.CGContext,SetAlpha</token>
+</entry>
+<entry count="6">
+<token>MonoMac.CoreGraphics.CGContext,SaveState</token>
+<token>MonoMac.CoreGraphics.CGContext,ConcatCTM</token>
+<token>MonoMac.CoreGraphics.CGAffineTransform,new</token>
+<token>MonoMac.CoreGraphics.CGContext,ConcatCTM</token>
+<token>MonoMac.CoreGraphics.CGContext,SetBlendMode</token>
+</entry>
+<entry count="12">
+<token>MonoMac.CoreGraphics.CGContext,SetLineCap</token>
+<token>MonoMac.CoreGraphics.CGContext,SetLineJoin</token>
+<token>MonoMac.CoreGraphics.CGContext,SetLineWidth</token>
+<token>MonoMac.CoreGraphics.CGContext,SetMiterLimit</token>
+</entry>
+<entry count="6">
+<token>MonoMac.CoreGraphics.CGSize,new</token>
+<token>MonoMac.CoreGraphics.CGPoint,new</token>
+</entry>
+<entry count="6">
+<token>MonoMac.CoreGraphics.CGContext,ConcatCTM</token>
+<token>MonoMac.CoreGraphics.CGContext,DrawRadialGradient</token>
+</entry>
+<entry count="6">
+<token>MonoMac.CoreGraphics.CGAffineTransform,new</token>
+<token>MonoMac.CoreGraphics.CGContext,ConcatCTM</token>
+<token>MonoMac.CoreGraphics.CGContext,SetBlendMode</token>
+<token>MonoMac.CoreGraphics.CGContext,SetAlpha</token>
+<token>MonoMac.CoreGraphics.CGRect,new</token>
+</entry>
+<entry count="6">
+<token>MonoMac.CoreGraphics.CGContext,ConcatCTM</token>
+<token>MonoMac.CoreGraphics.CGContext,MoveTo</token>
+</entry>
+<entry count="6">
+<token>MonoMac.CoreGraphics.CGContext,BeginPath</token>
+<token>MonoMac.CoreGraphics.CGContext,AddPath</token>
+<token>MonoMac.CoreGraphics.CGContext,ClosePath</token>
+<token>MonoMac.CoreGraphics.CGContext,EOClip</token>
+</entry>
+<entry count="6">
+<token>MonoMac.CoreGraphics.CGContext,ConcatCTM</token>
+<token>MonoMac.CoreGraphics.CGAffineTransform,new</token>
+<token>MonoMac.CoreGraphics.CGContext,ConcatCTM</token>
+<token>MonoMac.CoreGraphics.CGContext,SetBlendMode</token>
+</entry>
+<entry count="6">
+<token>MonoMac.CoreGraphics.CGContext,MoveTo</token>
+<token>MonoMac.CoreGraphics.CGContext,AddArc</token>
+<token>MonoMac.CoreGraphics.CGContext,AddLineToPoint</token>
+<token>MonoMac.CoreGraphics.CGContext,ClosePath</token>
+<token>MonoMac.CoreGraphics.CGContext,RestoreState</token>
+</entry>
+<entry count="6">
+<token>MonoMac.CoreGraphics.CGAffineTransform,new</token>
+<token>MonoMac.CoreGraphics.CGAffineTransform,Multiply</token>
+<token>MonoMac.CoreGraphics.CGContext,SaveState</token>
+</entry>
+<entry count="12">
+<token>MonoMac.CoreGraphics.CGContext,ConcatCTM</token>
+<token>MonoMac.CoreGraphics.CGAffineTransform,new</token>
+<token>MonoMac.CoreGraphics.CGContext,ConcatCTM</token>
+</entry>
+<entry count="12">
+<token>MonoMac.CoreGraphics.CGContext,SetLineWidth</token>
+<token>MonoMac.CoreGraphics.CGContext,SetMiterLimit</token>
+</entry>
+<entry count="12">
+<token>MonoMac.CoreGraphics.RectangleFExtensions,GetMidY</token>
+<token>MonoMac.CoreGraphics.RectangleFExtensions,GetMidX</token>
+</entry>
+<entry count="12">
+<token>MonoMac.CoreGraphics.CGContext,ClipToRect</token>
+<token>MonoMac.CoreGraphics.CGAffineTransform,new</token>
+</entry>
+<entry count="36">
+<token>MonoMac.CoreGraphics.CGPoint,new</token>
+<token>MonoMac.CoreGraphics.CGRect,new</token>
+</entry>
+<entry count="6">
+<token>MonoMac.CoreGraphics.CGRect,new</token>
+<token>MonoMac.CoreGraphics.CGContext,AddRect</token>
+</entry>
+<entry count="6">
+<token>MonoMac.CoreGraphics.CGRect,new</token>
+<token>MonoMac.CoreGraphics.CGContext,SaveState</token>
+</entry>
+<entry count="6">
+<token>MonoMac.CoreGraphics.CGContext,TranslateCTM</token>
+<token>MonoMac.CoreGraphics.CGAffineTransform,MakeTranslation</token>
+</entry>
+<entry count="12">
+<token>MonoMac.CoreGraphics.CGContext,DrawTiledImage</token>
+<token>MonoMac.CoreGraphics.CGContext,RestoreState</token>
+</entry>
+<entry count="6">
+<token>MonoMac.CoreGraphics.CGContext,RotateCTM</token>
+<token>MonoMac.CoreGraphics.CGAffineTransform,MakeRotation</token>
+</entry>
+<entry count="6">
+<token>MonoMac.CoreGraphics.CGContext,SetFillColor</token>
+<token>MonoMac.CoreGraphics.CGContext,FillRect</token>
+</entry>
+<entry count="6">
+<token>MonoMac.CoreGraphics.CGAffineTransform,new</token>
+<token>MonoMac.CoreGraphics.CGContext,ConcatCTM</token>
+<token>MonoMac.CoreGraphics.CGContext,AddArc</token>
+</entry>
+<entry count="6">
+<token>MonoMac.CoreGraphics.CGRect,new</token>
+<token>MonoMac.CoreGraphics.CGContext,SaveState</token>
+<token>MonoMac.CoreGraphics.RectangleFExtensions,GetMidY</token>
+<token>MonoMac.CoreGraphics.RectangleFExtensions,GetMidX</token>
+<token>MonoMac.CoreGraphics.CGAffineTransform,new</token>
+</entry>
+<entry count="6">
+<token>MonoMac.CoreGraphics.CGContext,ClosePath</token>
+<token>MonoMac.CoreGraphics.CGContext,Clip</token>
+</entry>
+<entry count="6">
+<token>MonoMac.CoreGraphics.CGContext,ConcatCTM</token>
+<token>MonoMac.CoreGraphics.CGContext,SetBlendMode</token>
+<token>MonoMac.CoreGraphics.CGContext,SetAlpha</token>
+<token>MonoMac.CoreGraphics.CGRect,new</token>
+<token>MonoMac.CoreGraphics.CGContext,DrawTiledImage</token>
+</entry>
+<entry count="12">
+<token>MonoMac.CoreGraphics.RectangleFExtensions,GetMidY</token>
+<token>MonoMac.CoreGraphics.RectangleFExtensions,GetMidX</token>
+<token>MonoMac.CoreGraphics.CGAffineTransform,new</token>
+</entry>
+<entry count="6">
+<token>MonoMac.CoreGraphics.CGContext,BeginPath</token>
+<token>MonoMac.CoreGraphics.CGContext,AddPath</token>
+<token>MonoMac.CoreGraphics.CGContext,ClosePath</token>
+<token>MonoMac.CoreGraphics.CGContext,Clip</token>
+</entry>
+<entry count="6">
+<token>MonoMac.CoreGraphics.CGRect,new</token>
+<token>MonoMac.CoreGraphics.CGContext,SaveState</token>
+<token>MonoMac.CoreGraphics.RectangleFExtensions,GetMidY</token>
+</entry>
+<entry count="6">
+<token>MonoMac.CoreGraphics.CGContext,AddLineToPoint</token>
+<token>MonoMac.CoreGraphics.CGContext,ClosePath</token>
+<token>MonoMac.CoreGraphics.CGContext,RestoreState</token>
+</entry>
+<entry count="12">
+<token>MonoMac.CoreGraphics.CGAffineTransform,MakeTranslation</token>
+<token>MonoMac.CoreGraphics.CGAffineTransform,Multiply</token>
+</entry>
+<entry count="6">
+<token>MonoMac.CoreGraphics.RectangleFExtensions,GetMidX</token>
+<token>MonoMac.CoreGraphics.CGAffineTransform,new</token>
+<token>MonoMac.CoreGraphics.CGContext,ConcatCTM</token>
+<token>MonoMac.CoreGraphics.CGContext,MoveTo</token>
+</entry>
+<entry count="18">
+<token>MonoMac.CoreGraphics.CGContext,AddPath</token>
+<token>MonoMac.CoreGraphics.CGContext,ClosePath</token>
+</entry>
+<entry count="6">
+<token>MonoMac.CoreGraphics.CGContext,SetMiterLimit</token>
+<token>MonoMac.CoreGraphics.CGContext,SetLineDash</token>
+</entry>
+<entry count="6">
+<token>MonoMac.CoreGraphics.CGContext,ConcatCTM</token>
+<token>MonoMac.CoreGraphics.CGAffineTransform,new</token>
+<token>MonoMac.CoreGraphics.CGContext,ConcatCTM</token>
+<token>MonoMac.CoreGraphics.CGContext,SetBlendMode</token>
+<token>MonoMac.CoreGraphics.CGContext,SetAlpha</token>
+</entry>
+<entry count="6">
+<token>MonoMac.CoreGraphics.CGContext,ConcatCTM</token>
+<token>MonoMac.CoreGraphics.CGContext,MoveTo</token>
+<token>MonoMac.CoreGraphics.CGContext,AddArc</token>
+<token>MonoMac.CoreGraphics.CGContext,AddLineToPoint</token>
+</entry>
+<entry count="6">
+<token>MonoMac.CoreGraphics.CGPoint,new</token>
+<token>MonoMac.CoreGraphics.CGPoint,new</token>
+</entry>
+<entry count="6">
+<token>MonoMac.CoreGraphics.CGRect,new</token>
+<token>MonoMac.CoreGraphics.CGContext,StrokeRect</token>
+</entry>
+<entry count="6">
+<token>MonoMac.CoreGraphics.CGRect,new</token>
+<token>MonoMac.CoreGraphics.RectangleFExtensions,GetMidY</token>
+</entry>
+<entry count="12">
+<token>MonoMac.CoreGraphics.RectangleFExtensions,GetMidX</token>
+<token>MonoMac.CoreGraphics.CGAffineTransform,new</token>
+<token>MonoMac.CoreGraphics.CGContext,ConcatCTM</token>
+</entry>
+<entry count="6">
+<token>MonoMac.CoreGraphics.CGAffineTransform,new</token>
+<token>MonoMac.CoreGraphics.CGContext,ConcatCTM</token>
+<token>MonoMac.CoreGraphics.CGContext,MoveTo</token>
+<token>MonoMac.CoreGraphics.CGContext,AddArc</token>
+</entry>
+<entry count="6">
+<token>MonoMac.CoreGraphics.CGContext,SaveState</token>
+<token>MonoMac.CoreGraphics.RectangleFExtensions,GetMidY</token>
+<token>MonoMac.CoreGraphics.RectangleFExtensions,GetMidX</token>
+</entry>
+<entry count="6">
+<token>MonoMac.CoreGraphics.CGContext,ConcatCTM</token>
+<token>MonoMac.CoreGraphics.CGContext,MoveTo</token>
+<token>MonoMac.CoreGraphics.CGContext,AddArc</token>
+<token>MonoMac.CoreGraphics.CGContext,AddLineToPoint</token>
+<token>MonoMac.CoreGraphics.CGContext,ClosePath</token>
+</entry>
+<entry count="6">
+<token>MonoMac.CoreGraphics.CGContext,AddArc</token>
+<token>MonoMac.CoreGraphics.CGContext,AddLineToPoint</token>
+<token>MonoMac.CoreGraphics.CGContext,ClosePath</token>
+<token>MonoMac.CoreGraphics.CGContext,RestoreState</token>
+<token>MonoMac.CoreGraphics.CGContext,Clip</token>
+</entry>
+<entry count="6">
+<token>MonoMac.CoreGraphics.CGContext,ScaleCTM</token>
+<token>MonoMac.CoreGraphics.CGAffineTransform,MakeScale</token>
+<token>MonoMac.CoreGraphics.CGAffineTransform,Multiply</token>
+</entry>
+<entry count="6">
+<token>MonoMac.CoreGraphics.CGRect,new</token>
+<token>MonoMac.CoreGraphics.CGContext,StrokeEllipseInRect</token>
+</entry>
+<entry count="6">
+<token>MonoMac.CoreGraphics.CGRect,new</token>
+<token>MonoMac.CoreGraphics.RectangleFExtensions,GetMidY</token>
+<token>MonoMac.CoreGraphics.RectangleFExtensions,GetMidX</token>
+</entry>
+<entry count="12">
+<token>MonoMac.CoreGraphics.CGAffineTransform,MakeRotation</token>
+<token>MonoMac.CoreGraphics.CGAffineTransform,Multiply</token>
+</entry>
+<entry count="6">
+<token>MonoMac.CoreGraphics.RectangleFExtensions,GetMidX</token>
+<token>MonoMac.CoreGraphics.CGAffineTransform,new</token>
+<token>MonoMac.CoreGraphics.CGContext,ConcatCTM</token>
+<token>MonoMac.CoreGraphics.CGContext,AddArc</token>
+</entry>
+<entry count="6">
+<token>MonoMac.CoreGraphics.CGContext,ConcatCTM</token>
+<token>MonoMac.CoreGraphics.CGContext,SetBlendMode</token>
+</entry>
+<entry count="12">
+<token>MonoMac.CoreGraphics.CGContext,SetStrokeColor</token>
+<token>MonoMac.CoreGraphics.CGContext,SetLineCap</token>
+<token>MonoMac.CoreGraphics.CGContext,SetLineJoin</token>
+<token>MonoMac.CoreGraphics.CGContext,SetLineWidth</token>
+</entry>
+<entry count="6">
+<token>MonoMac.CoreGraphics.CGContext,ConcatCTM</token>
+<token>MonoMac.CoreGraphics.CGAffineTransform,Multiply</token>
+</entry>
+<entry count="6">
+<token>MonoMac.CoreGraphics.CGContext,AddLineToPoint</token>
+<token>MonoMac.CoreGraphics.CGContext,ClosePath</token>
+</entry>
+<entry count="6">
+<token>MonoMac.CoreGraphics.CGContext,RestoreState</token>
+<token>MonoMac.CoreGraphics.CGContext,Clip</token>
+</entry>
+<entry count="6">
+<token>MonoMac.CoreGraphics.CGContext,MoveTo</token>
+<token>MonoMac.CoreGraphics.CGContext,AddArc</token>
+<token>MonoMac.CoreGraphics.CGContext,AddLineToPoint</token>
+<token>MonoMac.CoreGraphics.CGContext,ClosePath</token>
+</entry>
+<entry count="6">
+<token>MonoMac.CoreGraphics.CGContext,ScaleCTM</token>
+<token>MonoMac.CoreGraphics.CGAffineTransform,MakeScale</token>
+</entry>
+<entry count="6">
+<token>MonoMac.CoreGraphics.CGContext,SetBlendMode</token>
+<token>MonoMac.CoreGraphics.CGContext,SetAlpha</token>
+<token>MonoMac.CoreGraphics.CGRect,new</token>
+<token>MonoMac.CoreGraphics.CGContext,DrawTiledImage</token>
+</entry>
+<entry count="6">
+<token>MonoMac.CoreGraphics.CGContext,AddArc</token>
+<token>MonoMac.CoreGraphics.CGContext,AddLineToPoint</token>
+<token>MonoMac.CoreGraphics.CGContext,ClosePath</token>
+</entry>
+<entry count="6">
+<token>MonoMac.CoreGraphics.CGPoint,new</token>
+<token>MonoMac.CoreGraphics.CGSize,new</token>
+<token>MonoMac.CoreGraphics.CGPoint,new</token>
+</entry>
+<entry count="6">
+<token>MonoMac.CoreGraphics.CGAffineTransform,new</token>
+<token>MonoMac.CoreGraphics.CGContext,ConcatCTM</token>
+<token>MonoMac.CoreGraphics.CGRect,new</token>
+</entry>
+<entry count="6">
+<token>MonoMac.CoreGraphics.CGContext,AddEllipseInRect</token>
+<token>MonoMac.CoreGraphics.CGContext,Clip</token>
+</entry>
+<entry count="6">
+<token>MonoMac.CoreGraphics.CGRect,new</token>
+<token>MonoMac.CoreGraphics.CGContext,SaveState</token>
+<token>MonoMac.CoreGraphics.RectangleFExtensions,GetMidY</token>
+<token>MonoMac.CoreGraphics.RectangleFExtensions,GetMidX</token>
+</entry>
+<entry count="6">
+<token>MonoMac.CoreGraphics.RectangleFExtensions,GetMidX</token>
+<token>MonoMac.CoreGraphics.CGAffineTransform,new</token>
+<token>MonoMac.CoreGraphics.CGContext,ConcatCTM</token>
+<token>MonoMac.CoreGraphics.CGContext,MoveTo</token>
+<token>MonoMac.CoreGraphics.CGContext,AddArc</token>
+</entry>
+<entry count="12">
+<token>MonoMac.CoreGraphics.CGContext,ClipToRect</token>
+<token>MonoMac.CoreGraphics.CGAffineTransform,new</token>
+<token>MonoMac.CoreGraphics.CGContext,ConcatCTM</token>
+</entry>
+<entry count="6">
+<token>MonoMac.CoreGraphics.CGContext,SaveState</token>
+<token>MonoMac.CoreGraphics.CGContext,ConcatCTM</token>
+<token>MonoMac.CoreGraphics.CGContext,DrawRadialGradient</token>
+</entry>
+<entry count="6">
+<token>MonoMac.CoreGraphics.CGContext,AddPath</token>
+<token>MonoMac.CoreGraphics.CGContext,ClosePath</token>
+<token>MonoMac.CoreGraphics.CGContext,EOClip</token>
+</entry>
+<entry count="6">
+<token>MonoMac.CoreGraphics.CGContext,SaveState</token>
+<token>MonoMac.CoreGraphics.CGContext,ConcatCTM</token>
+<token>MonoMac.CoreGraphics.CGAffineTransform,new</token>
+<token>MonoMac.CoreGraphics.CGContext,ConcatCTM</token>
+<token>MonoMac.CoreGraphics.CGRect,new</token>
+</entry>
+<entry count="6">
+<token>MonoMac.CoreGraphics.CGContext,SetAlpha</token>
+<token>MonoMac.CoreGraphics.CGRect,new</token>
+<token>MonoMac.CoreGraphics.CGContext,DrawTiledImage</token>
+<token>MonoMac.CoreGraphics.CGContext,RestoreState</token>
+</entry>
+<entry count="6">
+<token>MonoMac.CoreGraphics.CGContext,SetLineCap</token>
+<token>MonoMac.CoreGraphics.CGContext,SetLineJoin</token>
+<token>MonoMac.CoreGraphics.CGContext,SetLineWidth</token>
+<token>MonoMac.CoreGraphics.CGContext,SetMiterLimit</token>
+<token>MonoMac.CoreGraphics.CGContext,SetLineDash</token>
+</entry>
+<entry count="12">
+<token>MonoMac.CoreGraphics.CGContext,SaveState</token>
+<token>MonoMac.CoreGraphics.CGContext,ConcatCTM</token>
+<token>MonoMac.CoreGraphics.CGAffineTransform,new</token>
+<token>MonoMac.CoreGraphics.CGContext,ConcatCTM</token>
+</entry>
+<entry count="12">
+<token>MonoMac.CoreGraphics.CGContext,SetLineJoin</token>
+<token>MonoMac.CoreGraphics.CGContext,SetLineWidth</token>
+<token>MonoMac.CoreGraphics.CGContext,SetMiterLimit</token>
+</entry>
+<entry count="6">
+<token>MonoMac.CoreGraphics.CGContext,MoveTo</token>
+<token>MonoMac.CoreGraphics.CGContext,AddArc</token>
+<token>MonoMac.CoreGraphics.CGContext,AddLineToPoint</token>
+</entry>
+<entry count="6">
+<token>MonoMac.CoreGraphics.CGAffineTransform,new</token>
+<token>MonoMac.CoreGraphics.CGAffineTransform,Multiply</token>
+<token>MonoMac.CoreGraphics.CGContext,SaveState</token>
+<token>MonoMac.CoreGraphics.CGContext,ConcatCTM</token>
+<token>MonoMac.CoreGraphics.CGContext,DrawRadialGradient</token>
+</entry>
+<entry count="18">
+<token>MonoMac.CoreGraphics.CGRect,new</token>
+<token>MonoMac.CoreGraphics.CGRect,new</token>
+</entry>
+<entry count="6">
+<token>MonoMac.CoreGraphics.CGContext,SaveState</token>
+<token>MonoMac.CoreGraphics.RectangleFExtensions,GetMidY</token>
+</entry>
+<entry count="6">
+<token>MonoMac.CoreGraphics.CGAffineTransform,new</token>
+<token>MonoMac.CoreGraphics.CGContext,ConcatCTM</token>
+<token>MonoMac.CoreGraphics.CGRect,new</token>
+<token>MonoMac.CoreGraphics.CGContext,DrawTiledImage</token>
+</entry>
+<entry count="6">
+<token>MonoMac.CoreGraphics.CGContext,SetBlendMode</token>
+<token>MonoMac.CoreGraphics.CGContext,SetAlpha</token>
+<token>MonoMac.CoreGraphics.CGRect,new</token>
+</entry>
+<entry count="6">
+<token>MonoMac.CoreGraphics.RectangleFExtensions,GetMidX</token>
+<token>MonoMac.CoreGraphics.CGAffineTransform,new</token>
+<token>MonoMac.CoreGraphics.CGContext,ConcatCTM</token>
+<token>MonoMac.CoreGraphics.CGContext,AddArc</token>
+<token>MonoMac.CoreGraphics.CGContext,StrokePath</token>
+</entry>
+<entry count="24">
+<token>MonoMac.CoreGraphics.CGContext,SaveState</token>
+<token>MonoMac.CoreGraphics.CGContext,ConcatCTM</token>
+</entry>
+<entry count="6">
+<token>MonoMac.CoreGraphics.CGContext,SetAlpha</token>
+<token>MonoMac.CoreGraphics.CGRect,new</token>
+</entry>
+<entry count="12">
+<token>MonoMac.CoreGraphics.CGContext,SaveState</token>
+<token>MonoMac.CoreGraphics.CGContext,ConcatCTM</token>
+<token>MonoMac.CoreGraphics.CGAffineTransform,new</token>
+</entry>
+<entry count="36">
+<token>MonoMac.CoreGraphics.CGAffineTransform,new</token>
+<token>MonoMac.CoreGraphics.CGContext,ConcatCTM</token>
+</entry>
+<entry count="12">
+<token>MonoMac.CoreGraphics.CGContext,SetStrokeColor</token>
+<token>MonoMac.CoreGraphics.CGContext,SetLineCap</token>
+</entry>
+<entry count="12">
+<token>MonoMac.CoreGraphics.CGRect,new</token>
+<token>MonoMac.CoreGraphics.CGContext,DrawTiledImage</token>
+<token>MonoMac.CoreGraphics.CGContext,RestoreState</token>
+</entry>
+<entry count="6">
+<token>MonoMac.CoreGraphics.CGContext,SetBlendMode</token>
+<token>MonoMac.CoreGraphics.CGContext,SetAlpha</token>
+<token>MonoMac.CoreGraphics.CGRect,new</token>
+<token>MonoMac.CoreGraphics.CGContext,DrawTiledImage</token>
+<token>MonoMac.CoreGraphics.CGContext,RestoreState</token>
+</entry>
+<entry count="6">
+<token>MonoMac.CoreGraphics.CGAffineTransform,Multiply</token>
+<token>MonoMac.CoreGraphics.CGContext,SaveState</token>
+<token>MonoMac.CoreGraphics.CGContext,ConcatCTM</token>
+<token>MonoMac.CoreGraphics.CGContext,DrawRadialGradient</token>
+<token>MonoMac.CoreGraphics.CGContext,RestoreState</token>
+</entry>
+<entry count="6">
+<token>MonoMac.CoreGraphics.CGAffineTransform,Multiply</token>
+<token>MonoMac.CoreGraphics.CGContext,SaveState</token>
+</entry>
+<entry count="6">
+<token>MonoMac.CoreGraphics.CGPoint,new</token>
+<token>MonoMac.CoreGraphics.CGSize,new</token>
+</entry>
+<entry count="12">
+<token>MonoMac.CoreGraphics.CGContext,SaveState</token>
+<token>MonoMac.CoreGraphics.CGContext,ClipToRect</token>
+<token>MonoMac.CoreGraphics.CGAffineTransform,new</token>
+<token>MonoMac.CoreGraphics.CGContext,ConcatCTM</token>
+</entry>
+<entry count="6">
+<token>MonoMac.CoreGraphics.CGContext,AddPath</token>
+<token>MonoMac.CoreGraphics.CGContext,StrokePath</token>
+</entry>
+<entry count="12">
+<token>MonoMac.CoreGraphics.RectangleFExtensions,GetMidY</token>
+<token>MonoMac.CoreGraphics.RectangleFExtensions,GetMidX</token>
+<token>MonoMac.CoreGraphics.CGAffineTransform,new</token>
+<token>MonoMac.CoreGraphics.CGContext,ConcatCTM</token>
+</entry>
+<entry count="6">
+<token>MonoMac.CoreGraphics.CGAffineTransform,new</token>
+<token>MonoMac.CoreGraphics.CGContext,ConcatCTM</token>
+<token>MonoMac.CoreGraphics.CGContext,AddArc</token>
+<token>MonoMac.CoreGraphics.CGContext,StrokePath</token>
+</entry>
+<entry count="6">
+<token>MonoMac.CoreGraphics.CGContext,ConcatCTM</token>
+<token>MonoMac.CoreGraphics.CGRect,new</token>
+<token>MonoMac.CoreGraphics.CGContext,DrawTiledImage</token>
+<token>MonoMac.CoreGraphics.CGContext,RestoreState</token>
+</entry>
+<entry count="6">
+<token>MonoMac.CoreGraphics.CGContext,AddLineToPoint</token>
+<token>MonoMac.CoreGraphics.CGContext,ClosePath</token>
+<token>MonoMac.CoreGraphics.CGContext,RestoreState</token>
+<token>MonoMac.CoreGraphics.CGContext,Clip</token>
+</entry>
+<entry count="6">
+<token>MonoMac.CoreGraphics.CGContext,SetAlpha</token>
+<token>MonoMac.CoreGraphics.CGRect,new</token>
+<token>MonoMac.CoreGraphics.CGContext,DrawTiledImage</token>
+</entry>
+<entry count="6">
+<token>MonoMac.CoreGraphics.CGContext,AddPath</token>
+<token>MonoMac.CoreGraphics.CGContext,ClosePath</token>
+<token>MonoMac.CoreGraphics.CGContext,Clip</token>
+</entry>
+<entry count="6">
+<token>MonoMac.CoreGraphics.CGContext,AddRect</token>
+<token>MonoMac.CoreGraphics.CGContext,Clip</token>
+</entry>
+<entry count="6">
+<token>MonoMac.CoreGraphics.CGContext,SaveState</token>
+<token>MonoMac.CoreGraphics.CGContext,ConcatCTM</token>
+<token>MonoMac.CoreGraphics.CGContext,DrawRadialGradient</token>
+<token>MonoMac.CoreGraphics.CGContext,RestoreState</token>
+</entry>
+<entry count="6">
+<token>MonoMac.CoreGraphics.CGContext,SetLineJoin</token>
+<token>MonoMac.CoreGraphics.CGContext,SetLineWidth</token>
+<token>MonoMac.CoreGraphics.CGContext,SetMiterLimit</token>
+<token>MonoMac.CoreGraphics.CGContext,SetLineDash</token>
+</entry>
+<entry count="6">
+<token>MonoMac.CoreGraphics.CGContext,SetLineWidth</token>
+<token>MonoMac.CoreGraphics.CGContext,SetMiterLimit</token>
+<token>MonoMac.CoreGraphics.CGContext,SetLineDash</token>
+</entry>
+<entry count="6">
+<token>MonoMac.CoreGraphics.CGAffineTransform,new</token>
+<token>MonoMac.CoreGraphics.CGContext,ConcatCTM</token>
+<token>MonoMac.CoreGraphics.CGRect,new</token>
+<token>MonoMac.CoreGraphics.CGContext,DrawTiledImage</token>
+<token>MonoMac.CoreGraphics.CGContext,RestoreState</token>
+</entry>
+<entry count="6">
+<token>MonoMac.CoreGraphics.CGContext,ConcatCTM</token>
+<token>MonoMac.CoreGraphics.CGContext,AddArc</token>
+</entry>
+<entry count="6">
+<token>MonoMac.CoreGraphics.CGAffineTransform,Multiply</token>
+<token>MonoMac.CoreGraphics.CGContext,SaveState</token>
+<token>MonoMac.CoreGraphics.CGContext,ConcatCTM</token>
+</entry>
+<entry count="12">
+<token>MonoMac.CoreGraphics.RectangleFExtensions,GetMidX</token>
+<token>MonoMac.CoreGraphics.CGAffineTransform,new</token>
+</entry>
+<entry count="6">
+<token>MonoMac.CoreGraphics.CGContext,SetBlendMode</token>
+<token>MonoMac.CoreGraphics.CGContext,SetAlpha</token>
+</entry>
+<entry count="6">
+<token>MonoMac.CoreGraphics.CGContext,ConcatCTM</token>
+<token>MonoMac.CoreGraphics.CGAffineTransform,new</token>
+<token>MonoMac.CoreGraphics.CGContext,ConcatCTM</token>
+<token>MonoMac.CoreGraphics.CGRect,new</token>
+</entry>
+</dictionary>

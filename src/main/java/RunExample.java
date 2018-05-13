@@ -17,9 +17,9 @@ public class RunExample {
     public static String eventsDir = "Events-170301-2";
 
     public static void main(String[] args) throws IOException {
-//        extractSentences();
-//        trainModels();
-        predictionExample();
+        extractSentences();
+        trainModels();
+//        predictionExample();
     }
 
     /**

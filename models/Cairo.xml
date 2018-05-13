@@ -1,0 +1,1252 @@
+<?xml version="1.0" encoding="UTF-8"?><dictionary case_sensitive="false">
+<entry count="3">
+<token>Cairo.Context,Save</token>
+<token>Cairo.Context,SetSourceColor</token>
+<token>Cairo.Context,MoveTo</token>
+<token>Cairo.Context,Fill</token>
+</entry>
+<entry count="6">
+<token>Cairo.Context,NewSubPath</token>
+<token>Cairo.Context,Save</token>
+<token>Cairo.Context,Translate</token>
+<token>Cairo.Context,Scale</token>
+</entry>
+<entry count="6">
+<token>Cairo.Context,Scale</token>
+<token>Cairo.Context,LineTo</token>
+<token>Cairo.Context,Restore</token>
+</entry>
+<entry count="6">
+<token>Cairo.Context,Scale</token>
+<token>Cairo.Context,LineTo</token>
+</entry>
+<entry count="6">
+<token>Cairo.Context,Paint</token>
+<token>Cairo.Context,Restore</token>
+<token>Cairo.Context,Save</token>
+</entry>
+<entry count="3">
+<token>Cairo.Context,Rectangle</token>
+<token>Cairo.Context,Fill</token>
+<token>Cairo.Context,Restore</token>
+</entry>
+<entry count="3">
+<token>Cairo.Context,Translate</token>
+<token>Cairo.Matrix,new</token>
+</entry>
+<entry count="6">
+<token>Cairo.Matrix,new</token>
+<token>Cairo.Context,Transform</token>
+</entry>
+<entry count="6">
+<token>Cairo.Context,Fill</token>
+<token>Cairo.Pattern,Dispose</token>
+</entry>
+<entry count="3">
+<token>Cairo.Context,Translate</token>
+<token>Cairo.Context,ArcNegative</token>
+<token>Cairo.Context,LineTo</token>
+<token>Cairo.Context,Restore</token>
+</entry>
+<entry count="9">
+<token>Cairo.Context,Paint</token>
+<token>Cairo.Context,Restore</token>
+</entry>
+<entry count="6">
+<token>Cairo.Context,Rectangle</token>
+<token>Cairo.Context,Scale</token>
+<token>Cairo.Context,SetSourceSurface</token>
+</entry>
+<entry count="6">
+<token>Cairo.Context,Save</token>
+<token>Cairo.Context,Translate</token>
+<token>Cairo.Context,ArcNegative</token>
+<token>Cairo.Context,Restore</token>
+</entry>
+<entry count="3">
+<token>Cairo.Context,Paint</token>
+<token>Cairo.Context,Restore</token>
+<token>Cairo.Context,Save</token>
+<token>Cairo.Context,Restore</token>
+</entry>
+<entry count="3">
+<token>Cairo.Context,Rotate</token>
+<token>Cairo.Matrix,new</token>
+</entry>
+<entry count="3">
+<token>Cairo.Matrix,InitTranslate</token>
+<token>Cairo.Matrix,Multiply</token>
+</entry>
+<entry count="3">
+<token>Cairo.Gradient,AddColorStop</token>
+<token>Cairo.Gradient,AddColorStop</token>
+<token>Cairo.Context,SetSource</token>
+<token>Cairo.Context,FillPreserve</token>
+<token>Cairo.Context,Stroke</token>
+</entry>
+<entry count="3">
+<token>Cairo.Context,Rectangle</token>
+<token>Cairo.Context,Fill</token>
+</entry>
+<entry count="3">
+<token>Cairo.Context,Transform</token>
+<token>Cairo.Matrix,new</token>
+<token>Cairo.Context,Transform</token>
+<token>Cairo.Context,SetSource</token>
+<token>Cairo.Context,Fill</token>
+</entry>
+<entry count="12">
+<token>Cairo.ImageSurface,new</token>
+<token>Cairo.Context,Save</token>
+</entry>
+<entry count="3">
+<token>Cairo.Context,Rectangle</token>
+<token>Cairo.Context,Save</token>
+</entry>
+<entry count="30">
+<token>Cairo.Context,Save</token>
+<token>Cairo.Context,Restore</token>
+</entry>
+<entry count="6">
+<token>Cairo.Context,Rectangle</token>
+<token>Cairo.Context,SetSourceSurface</token>
+<token>Cairo.Context,Fill</token>
+<token>Cairo.Context,Restore</token>
+</entry>
+<entry count="3">
+<token>Cairo.LinearGradient,new</token>
+<token>Cairo.Gradient,AddColorStop</token>
+<token>Cairo.Gradient,AddColorStop</token>
+<token>Cairo.Context,SetSource</token>
+<token>Cairo.Context,FillPreserve</token>
+</entry>
+<entry count="3">
+<token>Cairo.Context,Transform</token>
+<token>Cairo.Matrix,new</token>
+</entry>
+<entry count="6">
+<token>Cairo.Context,Scale</token>
+<token>Cairo.Context,Arc</token>
+<token>Cairo.Context,Restore</token>
+<token>Cairo.Context,Save</token>
+<token>Cairo.Context,Restore</token>
+</entry>
+<entry count="3">
+<token>Cairo.Context,Transform</token>
+<token>Cairo.Context,GetSource</token>
+<token>Cairo.Context,Clip</token>
+<token>Cairo.Context,PaintWithAlpha</token>
+</entry>
+<entry count="6">
+<token>Cairo.Context,Translate</token>
+<token>Cairo.Context,Scale</token>
+<token>Cairo.Context,LineTo</token>
+<token>Cairo.Context,Restore</token>
+</entry>
+<entry count="36">
+<token>Cairo.Context,Translate</token>
+<token>Cairo.Context,Scale</token>
+</entry>
+<entry count="6">
+<token>Cairo.Context,Rectangle</token>
+<token>Cairo.Context,GetSource</token>
+<token>Cairo.Context,Fill</token>
+</entry>
+<entry count="3">
+<token>Cairo.Context,Restore</token>
+<token>Cairo.Context,Save</token>
+<token>Cairo.Context,Paint</token>
+<token>Cairo.Context,Restore</token>
+</entry>
+<entry count="3">
+<token>Cairo.LinearGradient,new</token>
+<token>Cairo.Gradient,AddColorStop</token>
+</entry>
+<entry count="6">
+<token>Cairo.Context,GetSource</token>
+<token>Cairo.Context,Clip</token>
+<token>Cairo.Context,PaintWithAlpha</token>
+<token>Cairo.Pattern,Dispose</token>
+</entry>
+<entry count="6">
+<token>Cairo.Context,Scale</token>
+<token>Cairo.Context,SetSourceSurface</token>
+</entry>
+<entry count="3">
+<token>Cairo.Context,ArcNegative</token>
+<token>Cairo.Context,LineTo</token>
+<token>Cairo.Context,Restore</token>
+</entry>
+<entry count="12">
+<token>Cairo.Context,Transform</token>
+<token>Cairo.Context,GetSource</token>
+</entry>
+<entry count="12">
+<token>Cairo.Context,Translate</token>
+<token>Cairo.Context,Scale</token>
+<token>Cairo.Context,Restore</token>
+</entry>
+<entry count="6">
+<token>Cairo.Context,Scale</token>
+<token>Cairo.Context,SetSourceSurface</token>
+<token>Cairo.Context,Fill</token>
+<token>Cairo.Context,Restore</token>
+</entry>
+<entry count="3">
+<token>Cairo.PointD,new</token>
+<token>Cairo.Context,MoveTo</token>
+</entry>
+<entry count="3">
+<token>Cairo.Matrix,new</token>
+<token>Cairo.Matrix,InitScale</token>
+<token>Cairo.Matrix,Multiply</token>
+</entry>
+<entry count="3">
+<token>Cairo.Context,Arc</token>
+<token>Cairo.Context,LineTo</token>
+<token>Cairo.Context,Restore</token>
+<token>Cairo.Context,Save</token>
+<token>Cairo.Context,Restore</token>
+</entry>
+<entry count="9">
+<token>Cairo.Color,new</token>
+<token>Cairo.Color,new</token>
+</entry>
+<entry count="3">
+<token>Cairo.Context,SetSourceColor</token>
+<token>Cairo.Context,MoveTo</token>
+</entry>
+<entry count="6">
+<token>Cairo.Context,Rectangle</token>
+<token>Cairo.Context,Scale</token>
+<token>Cairo.Context,GetSource</token>
+<token>Cairo.Context,Fill</token>
+</entry>
+<entry count="3">
+<token>Cairo.Context,Save</token>
+<token>Cairo.Context,SetSourceColor</token>
+</entry>
+<entry count="18">
+<token>Cairo.Context,Scale</token>
+<token>Cairo.Context,Arc</token>
+<token>Cairo.Context,Restore</token>
+</entry>
+<entry count="3">
+<token>Cairo.Context,Save</token>
+<token>Cairo.Context,SetSourceColor</token>
+<token>Cairo.Context,MoveTo</token>
+</entry>
+<entry count="6">
+<token>Cairo.Context,Scale</token>
+<token>Cairo.Context,GetSource</token>
+<token>Cairo.Context,Fill</token>
+<token>Cairo.Context,Restore</token>
+<token>Cairo.Pattern,Dispose</token>
+</entry>
+<entry count="6">
+<token>Cairo.Context,Translate</token>
+<token>Cairo.Context,Scale</token>
+<token>Cairo.Context,LineTo</token>
+</entry>
+<entry count="3">
+<token>Cairo.Context,Translate</token>
+<token>Cairo.Matrix,new</token>
+<token>Cairo.Matrix,InitTranslate</token>
+<token>Cairo.Matrix,Multiply</token>
+</entry>
+<entry count="3">
+<token>Cairo.Context,MoveTo</token>
+<token>Cairo.Context,Fill</token>
+<token>Cairo.Context,Restore</token>
+</entry>
+<entry count="3">
+<token>Cairo.Gradient,AddColorStop</token>
+<token>Cairo.Gradient,AddColorStop</token>
+<token>Cairo.Context,SetSource</token>
+<token>Cairo.Context,FillPreserve</token>
+</entry>
+<entry count="12">
+<token>Cairo.Context,SetSourceSurface</token>
+<token>Cairo.Context,Fill</token>
+</entry>
+<entry count="3">
+<token>Cairo.Context,Transform</token>
+<token>Cairo.Matrix,new</token>
+<token>Cairo.Context,Transform</token>
+</entry>
+<entry count="6">
+<token>Cairo.Context,Save</token>
+<token>Cairo.Context,Translate</token>
+<token>Cairo.Context,Scale</token>
+<token>Cairo.Context,LineTo</token>
+<token>Cairo.Context,Restore</token>
+</entry>
+<entry count="9">
+<token>Cairo.Matrix,new</token>
+<token>Cairo.Matrix,Multiply</token>
+</entry>
+<entry count="6">
+<token>Cairo.Context,Save</token>
+<token>Cairo.Context,Rectangle</token>
+<token>Cairo.Context,Scale</token>
+<token>Cairo.Context,GetSource</token>
+</entry>
+<entry count="6">
+<token>Cairo.Context,Transform</token>
+<token>Cairo.Context,GetSource</token>
+<token>Cairo.Pattern,Dispose</token>
+</entry>
+<entry count="6">
+<token>Cairo.Context,Save</token>
+<token>Cairo.Context,Rectangle</token>
+<token>Cairo.Context,Scale</token>
+<token>Cairo.Context,GetSource</token>
+<token>Cairo.Context,Fill</token>
+</entry>
+<entry count="3">
+<token>Cairo.Context,Restore</token>
+<token>Cairo.Context,Save</token>
+<token>Cairo.Context,Paint</token>
+</entry>
+<entry count="6">
+<token>Cairo.Context,Save</token>
+<token>Cairo.Context,Rectangle</token>
+<token>Cairo.Context,GetSource</token>
+<token>Cairo.Context,Fill</token>
+</entry>
+<entry count="6">
+<token>Cairo.Context,NewSubPath</token>
+<token>Cairo.Context,Save</token>
+<token>Cairo.Context,Translate</token>
+</entry>
+<entry count="3">
+<token>Cairo.Context,LineTo</token>
+<token>Cairo.Context,ClosePath</token>
+</entry>
+<entry count="3">
+<token>Cairo.Context,Save</token>
+<token>Cairo.Context,Translate</token>
+<token>Cairo.Context,Arc</token>
+<token>Cairo.Context,LineTo</token>
+<token>Cairo.Context,Restore</token>
+</entry>
+<entry count="9">
+<token>Cairo.Context,Save</token>
+<token>Cairo.Context,Paint</token>
+<token>Cairo.Context,Restore</token>
+</entry>
+<entry count="18">
+<token>Cairo.Context,Save</token>
+<token>Cairo.Context,Translate</token>
+<token>Cairo.Context,Scale</token>
+<token>Cairo.Context,Arc</token>
+<token>Cairo.Context,Restore</token>
+</entry>
+<entry count="3">
+<token>Cairo.Context,Rotate</token>
+<token>Cairo.Matrix,new</token>
+<token>Cairo.Matrix,InitRotate</token>
+<token>Cairo.Matrix,Multiply</token>
+</entry>
+<entry count="3">
+<token>Cairo.Context,LineTo</token>
+<token>Cairo.Context,ClosePath</token>
+<token>Cairo.Context,SetSourceColor</token>
+</entry>
+<entry count="12">
+<token>Cairo.Context,LineTo</token>
+<token>Cairo.Context,Restore</token>
+</entry>
+<entry count="6">
+<token>Cairo.ImageSurface,new</token>
+<token>Cairo.Context,new</token>
+</entry>
+<entry count="6">
+<token>Cairo.Context,Scale</token>
+<token>Cairo.Context,GetSource</token>
+<token>Cairo.Context,Fill</token>
+<token>Cairo.Context,Restore</token>
+</entry>
+<entry count="9">
+<token>Cairo.Context,Translate</token>
+<token>Cairo.Context,ArcNegative</token>
+</entry>
+<entry count="3">
+<token>Cairo.Context,SetSourceColor</token>
+<token>Cairo.Context,SetDash</token>
+<token>Cairo.Context,Stroke</token>
+</entry>
+<entry count="9">
+<token>Cairo.Context,Transform</token>
+<token>Cairo.Context,SetSource</token>
+</entry>
+<entry count="3">
+<token>Cairo.Context,ClosePath</token>
+<token>Cairo.Context,NewSubPath</token>
+</entry>
+<entry count="6">
+<token>Cairo.Context,Clip</token>
+<token>Cairo.Context,PaintWithAlpha</token>
+<token>Cairo.Pattern,Dispose</token>
+</entry>
+<entry count="6">
+<token>Cairo.ImageSurface,new</token>
+<token>Cairo.Context,Save</token>
+<token>Cairo.Context,Rectangle</token>
+<token>Cairo.Context,Scale</token>
+</entry>
+<entry count="9">
+<token>Cairo.Gradient,AddColorStop</token>
+<token>Cairo.Gradient,AddColorStop</token>
+</entry>
+<entry count="12">
+<token>Cairo.ImageSurface,new</token>
+<token>Cairo.Context,Save</token>
+<token>Cairo.Context,Rectangle</token>
+</entry>
+<entry count="3">
+<token>Cairo.Context,Arc</token>
+<token>Cairo.LinearGradient,new</token>
+<token>Cairo.Gradient,AddColorStop</token>
+</entry>
+<entry count="18">
+<token>Cairo.Context,GetSource</token>
+<token>Cairo.Context,Fill</token>
+</entry>
+<entry count="3">
+<token>Cairo.ImageSurface,new</token>
+<token>Cairo.Context,new</token>
+<token>Cairo.Context,Save</token>
+<token>Cairo.Context,Rectangle</token>
+</entry>
+<entry count="3">
+<token>Cairo.Context,ArcNegative</token>
+<token>Cairo.Context,LineTo</token>
+</entry>
+<entry count="30">
+<token>Cairo.Context,Fill</token>
+<token>Cairo.Context,Restore</token>
+</entry>
+<entry count="3">
+<token>Cairo.Context,NewSubPath</token>
+<token>Cairo.Context,Rectangle</token>
+</entry>
+<entry count="3">
+<token>Cairo.PointD,new</token>
+<token>Cairo.Context,LineTo</token>
+</entry>
+<entry count="3">
+<token>Cairo.Matrix,new</token>
+<token>Cairo.Matrix,InitTranslate</token>
+</entry>
+<entry count="6">
+<token>Cairo.Context,Scale</token>
+<token>Cairo.Context,LineTo</token>
+<token>Cairo.Context,Restore</token>
+<token>Cairo.Context,Save</token>
+<token>Cairo.Context,Restore</token>
+</entry>
+<entry count="6">
+<token>Cairo.Color,new</token>
+<token>Cairo.Color,new</token>
+<token>Cairo.Color,new</token>
+</entry>
+<entry count="3">
+<token>Cairo.Gradient,AddColorStop</token>
+<token>Cairo.Context,SetSource</token>
+<token>Cairo.Context,FillPreserve</token>
+<token>Cairo.Context,Stroke</token>
+</entry>
+<entry count="3">
+<token>Cairo.Context,Arc</token>
+<token>Cairo.LinearGradient,new</token>
+</entry>
+<entry count="6">
+<token>Cairo.Context,Rectangle</token>
+<token>Cairo.Context,GetSource</token>
+<token>Cairo.Context,Fill</token>
+<token>Cairo.Context,Restore</token>
+</entry>
+<entry count="12">
+<token>Cairo.Context,Save</token>
+<token>Cairo.Context,Rectangle</token>
+<token>Cairo.Context,Scale</token>
+</entry>
+<entry count="6">
+<token>Cairo.Context,Translate</token>
+<token>Cairo.Context,Scale</token>
+<token>Cairo.Context,Arc</token>
+<token>Cairo.Context,Restore</token>
+<token>Cairo.Context,Save</token>
+</entry>
+<entry count="3">
+<token>Cairo.Context,Paint</token>
+<token>Cairo.Context,Restore</token>
+<token>Cairo.Context,Save</token>
+<token>Cairo.Context,Paint</token>
+</entry>
+<entry count="6">
+<token>Cairo.Context,GetSource</token>
+<token>Cairo.Context,Clip</token>
+<token>Cairo.Context,PaintWithAlpha</token>
+</entry>
+<entry count="3">
+<token>Cairo.Context,new</token>
+<token>Cairo.Context,Save</token>
+<token>Cairo.Context,Rectangle</token>
+</entry>
+<entry count="6">
+<token>Cairo.Context,Scale</token>
+<token>Cairo.Context,GetSource</token>
+</entry>
+<entry count="18">
+<token>Cairo.Context,Scale</token>
+<token>Cairo.Context,Arc</token>
+</entry>
+<entry count="3">
+<token>Cairo.PointD,new</token>
+<token>Cairo.Context,MoveTo</token>
+<token>Cairo.PointD,new</token>
+</entry>
+<entry count="3">
+<token>Cairo.Context,MoveTo</token>
+<token>Cairo.Context,Fill</token>
+</entry>
+<entry count="6">
+<token>Cairo.Context,Rectangle</token>
+<token>Cairo.Context,SetSourceSurface</token>
+</entry>
+<entry count="9">
+<token>Cairo.Context,Save</token>
+<token>Cairo.Context,Translate</token>
+<token>Cairo.Context,Arc</token>
+</entry>
+<entry count="9">
+<token>Cairo.Context,Transform</token>
+<token>Cairo.Context,SetSource</token>
+<token>Cairo.Context,Fill</token>
+</entry>
+<entry count="3">
+<token>Cairo.Context,SetSourceColor</token>
+<token>Cairo.Context,MoveTo</token>
+<token>Cairo.Context,Fill</token>
+<token>Cairo.Context,Restore</token>
+</entry>
+<entry count="6">
+<token>Cairo.Context,Save</token>
+<token>Cairo.Context,Rectangle</token>
+<token>Cairo.Context,Scale</token>
+<token>Cairo.Context,SetSourceSurface</token>
+</entry>
+<entry count="12">
+<token>Cairo.Context,GetSource</token>
+<token>Cairo.Context,Fill</token>
+<token>Cairo.Context,Restore</token>
+<token>Cairo.Pattern,Dispose</token>
+</entry>
+<entry count="6">
+<token>Cairo.Context,GetSource</token>
+<token>Cairo.Context,Clip</token>
+</entry>
+<entry count="18">
+<token>Cairo.Context,Save</token>
+<token>Cairo.Context,Translate</token>
+<token>Cairo.Context,Scale</token>
+<token>Cairo.Context,Arc</token>
+</entry>
+<entry count="3">
+<token>Cairo.Context,ClosePath</token>
+<token>Cairo.Context,SetSourceColor</token>
+</entry>
+<entry count="3">
+<token>Cairo.Matrix,new</token>
+<token>Cairo.Matrix,InitScale</token>
+</entry>
+<entry count="3">
+<token>Cairo.Context,MoveTo</token>
+<token>Cairo.PointD,new</token>
+<token>Cairo.Context,LineTo</token>
+</entry>
+<entry count="6">
+<token>Cairo.Context,Scale</token>
+<token>Cairo.Context,LineTo</token>
+<token>Cairo.Context,Restore</token>
+<token>Cairo.Context,Save</token>
+</entry>
+<entry count="6">
+<token>Cairo.Context,Rectangle</token>
+<token>Cairo.Context,GetSource</token>
+<token>Cairo.Context,Fill</token>
+<token>Cairo.Context,Restore</token>
+<token>Cairo.Pattern,Dispose</token>
+</entry>
+<entry count="3">
+<token>Cairo.LinearGradient,new</token>
+<token>Cairo.Gradient,AddColorStop</token>
+<token>Cairo.Gradient,AddColorStop</token>
+<token>Cairo.Context,SetSource</token>
+</entry>
+<entry count="3">
+<token>Cairo.Context,FillPreserve</token>
+<token>Cairo.Context,Stroke</token>
+</entry>
+<entry count="3">
+<token>Cairo.Context,SetSource</token>
+<token>Cairo.Context,FillPreserve</token>
+<token>Cairo.Context,Stroke</token>
+</entry>
+<entry count="3">
+<token>Cairo.Context,ArcNegative</token>
+<token>Cairo.Context,LineTo</token>
+<token>Cairo.Context,Restore</token>
+<token>Cairo.Context,Save</token>
+</entry>
+<entry count="6">
+<token>Cairo.Context,Save</token>
+<token>Cairo.Context,Rectangle</token>
+<token>Cairo.Context,SetSourceSurface</token>
+<token>Cairo.Context,Fill</token>
+<token>Cairo.Context,Restore</token>
+</entry>
+<entry count="6">
+<token>Cairo.Context,Clip</token>
+<token>Cairo.Context,PaintWithAlpha</token>
+</entry>
+<entry count="6">
+<token>Cairo.ImageSurface,new</token>
+<token>Cairo.Context,Save</token>
+<token>Cairo.Context,Rectangle</token>
+<token>Cairo.Context,Scale</token>
+<token>Cairo.Context,SetSourceSurface</token>
+</entry>
+<entry count="18">
+<token>Cairo.Context,Translate</token>
+<token>Cairo.Context,Scale</token>
+<token>Cairo.Context,Arc</token>
+</entry>
+<entry count="3">
+<token>Cairo.Context,Translate</token>
+<token>Cairo.Matrix,new</token>
+<token>Cairo.Matrix,InitTranslate</token>
+</entry>
+<entry count="6">
+<token>Cairo.Context,NewSubPath</token>
+<token>Cairo.Context,Save</token>
+</entry>
+<entry count="6">
+<token>Cairo.Context,Translate</token>
+<token>Cairo.Context,Arc</token>
+<token>Cairo.Context,Restore</token>
+</entry>
+<entry count="3">
+<token>Cairo.Context,Scale</token>
+<token>Cairo.Matrix,new</token>
+</entry>
+<entry count="6">
+<token>Cairo.Matrix,new</token>
+<token>Cairo.Context,Transform</token>
+<token>Cairo.Context,SetSource</token>
+</entry>
+<entry count="9">
+<token>Cairo.Context,Save</token>
+<token>Cairo.Context,Translate</token>
+<token>Cairo.Context,ArcNegative</token>
+</entry>
+<entry count="6">
+<token>Cairo.Context,Translate</token>
+<token>Cairo.Context,ArcNegative</token>
+<token>Cairo.Context,Restore</token>
+</entry>
+<entry count="12">
+<token>Cairo.Context,Restore</token>
+<token>Cairo.Pattern,Dispose</token>
+</entry>
+<entry count="6">
+<token>Cairo.Context,Save</token>
+<token>Cairo.Context,Rectangle</token>
+<token>Cairo.Context,GetSource</token>
+<token>Cairo.Context,Fill</token>
+<token>Cairo.Context,Restore</token>
+</entry>
+<entry count="3">
+<token>Cairo.Context,ArcNegative</token>
+<token>Cairo.Context,LineTo</token>
+<token>Cairo.Context,Restore</token>
+<token>Cairo.Context,Save</token>
+<token>Cairo.Context,Restore</token>
+</entry>
+<entry count="3">
+<token>Cairo.Context,Scale</token>
+<token>Cairo.Matrix,new</token>
+<token>Cairo.Matrix,InitScale</token>
+<token>Cairo.Matrix,Multiply</token>
+</entry>
+<entry count="6">
+<token>Cairo.Context,Rectangle</token>
+<token>Cairo.Context,Scale</token>
+<token>Cairo.Context,GetSource</token>
+<token>Cairo.Context,Fill</token>
+<token>Cairo.Context,Restore</token>
+</entry>
+<entry count="21">
+<token>Cairo.Context,Restore</token>
+<token>Cairo.Context,Save</token>
+<token>Cairo.Context,Restore</token>
+</entry>
+<entry count="6">
+<token>Cairo.Context,Arc</token>
+<token>Cairo.Context,Restore</token>
+<token>Cairo.Context,Save</token>
+<token>Cairo.Context,Restore</token>
+</entry>
+<entry count="6">
+<token>Cairo.Context,Save</token>
+<token>Cairo.Context,Translate</token>
+<token>Cairo.Context,Scale</token>
+<token>Cairo.Context,LineTo</token>
+</entry>
+<entry count="6">
+<token>Cairo.Context,Rectangle</token>
+<token>Cairo.Context,Scale</token>
+<token>Cairo.Context,GetSource</token>
+</entry>
+<entry count="12">
+<token>Cairo.Context,LineTo</token>
+<token>Cairo.Context,Restore</token>
+<token>Cairo.Context,Save</token>
+</entry>
+<entry count="3">
+<token>Cairo.Context,MoveTo</token>
+<token>Cairo.PointD,new</token>
+<token>Cairo.Context,LineTo</token>
+<token>Cairo.Context,ClosePath</token>
+<token>Cairo.Context,SetSourceColor</token>
+</entry>
+<entry count="12">
+<token>Cairo.Context,SetSourceSurface</token>
+<token>Cairo.Context,Fill</token>
+<token>Cairo.Context,Restore</token>
+</entry>
+<entry count="3">
+<token>Cairo.Context,Transform</token>
+<token>Cairo.Context,GetSource</token>
+<token>Cairo.Context,Clip</token>
+<token>Cairo.Context,PaintWithAlpha</token>
+<token>Cairo.Pattern,Dispose</token>
+</entry>
+<entry count="3">
+<token>Cairo.Context,Arc</token>
+<token>Cairo.LinearGradient,new</token>
+<token>Cairo.Gradient,AddColorStop</token>
+<token>Cairo.Gradient,AddColorStop</token>
+<token>Cairo.Context,SetSource</token>
+</entry>
+<entry count="3">
+<token>Cairo.Context,SetSourceColor</token>
+<token>Cairo.Context,MoveTo</token>
+<token>Cairo.Context,Fill</token>
+</entry>
+<entry count="3">
+<token>Cairo.Context,Save</token>
+<token>Cairo.Context,Transform</token>
+</entry>
+<entry count="3">
+<token>Cairo.Context,Translate</token>
+<token>Cairo.Context,Arc</token>
+<token>Cairo.Context,LineTo</token>
+<token>Cairo.Context,Restore</token>
+<token>Cairo.Context,Save</token>
+</entry>
+<entry count="6">
+<token>Cairo.Context,Save</token>
+<token>Cairo.Context,Rectangle</token>
+<token>Cairo.Context,GetSource</token>
+</entry>
+<entry count="6">
+<token>Cairo.Context,ArcNegative</token>
+<token>Cairo.Context,Restore</token>
+</entry>
+<entry count="3">
+<token>Cairo.Context,Transform</token>
+<token>Cairo.Matrix,Multiply</token>
+</entry>
+<entry count="12">
+<token>Cairo.Context,LineTo</token>
+<token>Cairo.Context,Restore</token>
+<token>Cairo.Context,Save</token>
+<token>Cairo.Context,Restore</token>
+</entry>
+<entry count="6">
+<token>Cairo.Context,Rectangle</token>
+<token>Cairo.Context,GetSource</token>
+</entry>
+<entry count="3">
+<token>Cairo.Context,Save</token>
+<token>Cairo.Context,Rectangle</token>
+<token>Cairo.Context,Fill</token>
+<token>Cairo.Context,Restore</token>
+</entry>
+<entry count="3">
+<token>Cairo.Matrix,InitScale</token>
+<token>Cairo.Matrix,Multiply</token>
+</entry>
+<entry count="36">
+<token>Cairo.Context,Save</token>
+<token>Cairo.Context,Translate</token>
+<token>Cairo.Context,Scale</token>
+</entry>
+<entry count="9">
+<token>Cairo.Context,Save</token>
+<token>Cairo.Context,Paint</token>
+</entry>
+<entry count="6">
+<token>Cairo.ImageSurface,new</token>
+<token>Cairo.Context,Save</token>
+<token>Cairo.Context,Rectangle</token>
+<token>Cairo.Context,SetSourceSurface</token>
+</entry>
+<entry count="3">
+<token>Cairo.Context,Paint</token>
+<token>Cairo.Context,Restore</token>
+<token>Cairo.Context,Save</token>
+<token>Cairo.Context,Paint</token>
+<token>Cairo.Context,Restore</token>
+</entry>
+<entry count="3">
+<token>Cairo.Context,Rotate</token>
+<token>Cairo.Matrix,new</token>
+<token>Cairo.Matrix,InitRotate</token>
+</entry>
+<entry count="6">
+<token>Cairo.Context,Scale</token>
+<token>Cairo.Context,GetSource</token>
+<token>Cairo.Context,Fill</token>
+</entry>
+<entry count="6">
+<token>Cairo.Context,Rectangle</token>
+<token>Cairo.Context,Scale</token>
+<token>Cairo.Context,SetSourceSurface</token>
+<token>Cairo.Context,Fill</token>
+</entry>
+<entry count="24">
+<token>Cairo.Context,Restore</token>
+<token>Cairo.Context,Save</token>
+</entry>
+<entry count="3">
+<token>Cairo.Context,MoveTo</token>
+<token>Cairo.Context,LineTo</token>
+</entry>
+<entry count="12">
+<token>Cairo.Context,GetSource</token>
+<token>Cairo.Context,Fill</token>
+<token>Cairo.Context,Restore</token>
+</entry>
+<entry count="3">
+<token>Cairo.Context,Arc</token>
+<token>Cairo.Context,LineTo</token>
+<token>Cairo.Context,Restore</token>
+<token>Cairo.Context,Save</token>
+</entry>
+<entry count="3">
+<token>Cairo.Context,new</token>
+<token>Cairo.Context,Save</token>
+</entry>
+<entry count="3">
+<token>Cairo.Context,Arc</token>
+<token>Cairo.Context,LineTo</token>
+<token>Cairo.Context,Restore</token>
+</entry>
+<entry count="6">
+<token>Cairo.Matrix,new</token>
+<token>Cairo.Context,Transform</token>
+<token>Cairo.Context,SetSource</token>
+<token>Cairo.Context,Fill</token>
+</entry>
+<entry count="3">
+<token>Cairo.Context,LineTo</token>
+<token>Cairo.Context,ClosePath</token>
+<token>Cairo.Context,SetSourceColor</token>
+<token>Cairo.Context,Stroke</token>
+</entry>
+<entry count="6">
+<token>Cairo.Context,Save</token>
+<token>Cairo.Context,Paint</token>
+<token>Cairo.Context,Restore</token>
+<token>Cairo.Context,Save</token>
+</entry>
+<entry count="3">
+<token>Cairo.Context,Scale</token>
+<token>Cairo.Matrix,new</token>
+<token>Cairo.Matrix,InitScale</token>
+</entry>
+<entry count="3">
+<token>Cairo.Matrix,new</token>
+<token>Cairo.Matrix,InitRotate</token>
+<token>Cairo.Matrix,Multiply</token>
+</entry>
+<entry count="6">
+<token>Cairo.Context,Rectangle</token>
+<token>Cairo.Context,Scale</token>
+<token>Cairo.Context,SetSourceSurface</token>
+<token>Cairo.Context,Fill</token>
+<token>Cairo.Context,Restore</token>
+</entry>
+<entry count="3">
+<token>Cairo.Context,ClosePath</token>
+<token>Cairo.Context,SetSourceColor</token>
+<token>Cairo.Context,Stroke</token>
+</entry>
+<entry count="3">
+<token>Cairo.PointD,new</token>
+<token>Cairo.Context,LineTo</token>
+<token>Cairo.Context,ClosePath</token>
+</entry>
+<entry count="3">
+<token>Cairo.Context,SetSourceColor</token>
+<token>Cairo.Context,Fill</token>
+</entry>
+<entry count="3">
+<token>Cairo.Context,MoveTo</token>
+<token>Cairo.PointD,new</token>
+<token>Cairo.Context,LineTo</token>
+<token>Cairo.Context,ClosePath</token>
+</entry>
+<entry count="6">
+<token>Cairo.Context,Save</token>
+<token>Cairo.Context,Rectangle</token>
+<token>Cairo.Context,Scale</token>
+<token>Cairo.Context,SetSourceSurface</token>
+<token>Cairo.Context,Fill</token>
+</entry>
+<entry count="3">
+<token>Cairo.Matrix,InitRotate</token>
+<token>Cairo.Matrix,Multiply</token>
+</entry>
+<entry count="3">
+<token>Cairo.Context,Transform</token>
+<token>Cairo.Matrix,new</token>
+<token>Cairo.Context,Transform</token>
+<token>Cairo.Context,SetSource</token>
+</entry>
+<entry count="12">
+<token>Cairo.Context,Save</token>
+<token>Cairo.Context,Translate</token>
+<token>Cairo.Context,Scale</token>
+<token>Cairo.Context,Restore</token>
+</entry>
+<entry count="3">
+<token>Cairo.Context,Save</token>
+<token>Cairo.Context,Translate</token>
+<token>Cairo.Context,ArcNegative</token>
+<token>Cairo.Context,LineTo</token>
+</entry>
+<entry count="3">
+<token>Cairo.Context,Rectangle</token>
+<token>Cairo.Context,Save</token>
+<token>Cairo.Context,Restore</token>
+</entry>
+<entry count="6">
+<token>Cairo.Context,Rectangle</token>
+<token>Cairo.Context,SetSourceSurface</token>
+<token>Cairo.Context,Fill</token>
+</entry>
+<entry count="12">
+<token>Cairo.Context,GetSource</token>
+<token>Cairo.Pattern,Dispose</token>
+</entry>
+<entry count="6">
+<token>Cairo.Context,Arc</token>
+<token>Cairo.Context,Restore</token>
+<token>Cairo.Context,Save</token>
+</entry>
+<entry count="6">
+<token>Cairo.Context,Scale</token>
+<token>Cairo.Context,Arc</token>
+<token>Cairo.Context,Restore</token>
+<token>Cairo.Context,Save</token>
+</entry>
+<entry count="3">
+<token>Cairo.PointD,new</token>
+<token>Cairo.Context,MoveTo</token>
+<token>Cairo.PointD,new</token>
+<token>Cairo.Context,LineTo</token>
+</entry>
+<entry count="3">
+<token>Cairo.Gradient,AddColorStop</token>
+<token>Cairo.Context,SetSource</token>
+</entry>
+<entry count="12">
+<token>Cairo.Context,SetSource</token>
+<token>Cairo.Context,Fill</token>
+</entry>
+<entry count="6">
+<token>Cairo.Context,Scale</token>
+<token>Cairo.Context,SetSourceSurface</token>
+<token>Cairo.Context,Fill</token>
+</entry>
+<entry count="54">
+<token>Cairo.Context,Save</token>
+<token>Cairo.Context,Translate</token>
+</entry>
+<entry count="3">
+<token>Cairo.Context,SetDash</token>
+<token>Cairo.Context,Stroke</token>
+</entry>
+<entry count="3">
+<token>Cairo.Context,Save</token>
+<token>Cairo.Context,Paint</token>
+<token>Cairo.Context,Restore</token>
+<token>Cairo.Context,Save</token>
+<token>Cairo.Context,Paint</token>
+</entry>
+<entry count="3">
+<token>Cairo.Context,new</token>
+<token>Cairo.Context,Save</token>
+<token>Cairo.Context,Rectangle</token>
+<token>Cairo.Context,Fill</token>
+<token>Cairo.Context,Restore</token>
+</entry>
+<entry count="3">
+<token>Cairo.ImageSurface,new</token>
+<token>Cairo.Context,new</token>
+<token>Cairo.Context,Save</token>
+<token>Cairo.Context,Rectangle</token>
+<token>Cairo.Context,Fill</token>
+</entry>
+<entry count="3">
+<token>Cairo.Context,Transform</token>
+<token>Cairo.Context,GetSource</token>
+<token>Cairo.Context,Clip</token>
+</entry>
+<entry count="3">
+<token>Cairo.Gradient,AddColorStop</token>
+<token>Cairo.Gradient,AddColorStop</token>
+<token>Cairo.Context,SetSource</token>
+</entry>
+<entry count="3">
+<token>Cairo.Context,Save</token>
+<token>Cairo.Context,Rectangle</token>
+<token>Cairo.Context,Fill</token>
+</entry>
+<entry count="3">
+<token>Cairo.Matrix,new</token>
+<token>Cairo.Matrix,InitTranslate</token>
+<token>Cairo.Matrix,Multiply</token>
+</entry>
+<entry count="3">
+<token>Cairo.Context,Translate</token>
+<token>Cairo.Context,ArcNegative</token>
+<token>Cairo.Context,LineTo</token>
+</entry>
+<entry count="3">
+<token>Cairo.Context,Translate</token>
+<token>Cairo.Context,Arc</token>
+<token>Cairo.Context,LineTo</token>
+</entry>
+<entry count="3">
+<token>Cairo.Color,new</token>
+<token>Cairo.Color,new</token>
+<token>Cairo.Color,new</token>
+<token>Cairo.Color,new</token>
+</entry>
+<entry count="3">
+<token>Cairo.Context,Arc</token>
+<token>Cairo.Context,LineTo</token>
+</entry>
+<entry count="12">
+<token>Cairo.Context,Rectangle</token>
+<token>Cairo.Context,Scale</token>
+</entry>
+<entry count="6">
+<token>Cairo.Context,Translate</token>
+<token>Cairo.Context,Scale</token>
+<token>Cairo.Context,LineTo</token>
+<token>Cairo.Context,Restore</token>
+<token>Cairo.Context,Save</token>
+</entry>
+<entry count="6">
+<token>Cairo.ImageSurface,new</token>
+<token>Cairo.Context,Save</token>
+<token>Cairo.Context,Rectangle</token>
+<token>Cairo.Context,SetSourceSurface</token>
+<token>Cairo.Context,Fill</token>
+</entry>
+<entry count="3">
+<token>Cairo.LinearGradient,new</token>
+<token>Cairo.Gradient,AddColorStop</token>
+<token>Cairo.Gradient,AddColorStop</token>
+</entry>
+<entry count="6">
+<token>Cairo.Context,Save</token>
+<token>Cairo.Context,Translate</token>
+<token>Cairo.Context,Arc</token>
+<token>Cairo.Context,Restore</token>
+</entry>
+<entry count="3">
+<token>Cairo.Context,Save</token>
+<token>Cairo.Context,Paint</token>
+<token>Cairo.Context,Restore</token>
+<token>Cairo.Context,Save</token>
+<token>Cairo.Context,Restore</token>
+</entry>
+<entry count="3">
+<token>Cairo.Gradient,AddColorStop</token>
+<token>Cairo.Context,SetSource</token>
+<token>Cairo.Context,FillPreserve</token>
+</entry>
+<entry count="3">
+<token>Cairo.ImageSurface,new</token>
+<token>Cairo.Context,new</token>
+<token>Cairo.Context,Save</token>
+</entry>
+<entry count="6">
+<token>Cairo.Context,GetSource</token>
+<token>Cairo.Context,Fill</token>
+<token>Cairo.Pattern,Dispose</token>
+</entry>
+<entry count="3">
+<token>Cairo.PointD,new</token>
+<token>Cairo.Context,MoveTo</token>
+<token>Cairo.PointD,new</token>
+<token>Cairo.Context,LineTo</token>
+<token>Cairo.Context,ClosePath</token>
+</entry>
+<entry count="12">
+<token>Cairo.Context,Fill</token>
+<token>Cairo.Context,Restore</token>
+<token>Cairo.Pattern,Dispose</token>
+</entry>
+<entry count="27">
+<token>Cairo.Context,Save</token>
+<token>Cairo.Context,Rectangle</token>
+</entry>
+<entry count="3">
+<token>Cairo.PointD,new</token>
+<token>Cairo.Context,LineTo</token>
+<token>Cairo.Context,ClosePath</token>
+<token>Cairo.Context,SetSourceColor</token>
+</entry>
+<entry count="9">
+<token>Cairo.Context,Translate</token>
+<token>Cairo.Context,Arc</token>
+</entry>
+<entry count="3">
+<token>Cairo.Context,Translate</token>
+<token>Cairo.Context,ArcNegative</token>
+<token>Cairo.Context,LineTo</token>
+<token>Cairo.Context,Restore</token>
+<token>Cairo.Context,Save</token>
+</entry>
+<entry count="6">
+<token>Cairo.Context,Save</token>
+<token>Cairo.Context,Rectangle</token>
+<token>Cairo.Context,SetSourceSurface</token>
+</entry>
+<entry count="3">
+<token>Cairo.Context,new</token>
+<token>Cairo.Context,Save</token>
+<token>Cairo.Context,Rectangle</token>
+<token>Cairo.Context,Fill</token>
+</entry>
+<entry count="3">
+<token>Cairo.PointD,new</token>
+<token>Cairo.Context,LineTo</token>
+<token>Cairo.Context,ClosePath</token>
+<token>Cairo.Context,SetSourceColor</token>
+<token>Cairo.Context,Stroke</token>
+</entry>
+<entry count="18">
+<token>Cairo.Context,Translate</token>
+<token>Cairo.Context,Scale</token>
+<token>Cairo.Context,Arc</token>
+<token>Cairo.Context,Restore</token>
+</entry>
+<entry count="12">
+<token>Cairo.Context,Scale</token>
+<token>Cairo.Context,Restore</token>
+</entry>
+<entry count="3">
+<token>Cairo.Context,Save</token>
+<token>Cairo.Context,Translate</token>
+<token>Cairo.Context,Arc</token>
+<token>Cairo.Context,LineTo</token>
+</entry>
+<entry count="3">
+<token>Cairo.Context,Translate</token>
+<token>Cairo.Context,Arc</token>
+<token>Cairo.Context,LineTo</token>
+<token>Cairo.Context,Restore</token>
+</entry>
+<entry count="6">
+<token>Cairo.Context,Save</token>
+<token>Cairo.Context,Rectangle</token>
+<token>Cairo.Context,SetSourceSurface</token>
+<token>Cairo.Context,Fill</token>
+</entry>
+<entry count="24">
+<token>Cairo.Context,Arc</token>
+<token>Cairo.Context,Restore</token>
+</entry>
+<entry count="3">
+<token>Cairo.Context,SetSource</token>
+<token>Cairo.Context,FillPreserve</token>
+</entry>
+<entry count="6">
+<token>Cairo.Context,PaintWithAlpha</token>
+<token>Cairo.Pattern,Dispose</token>
+</entry>
+<entry count="3">
+<token>Cairo.Context,Save</token>
+<token>Cairo.Context,Translate</token>
+<token>Cairo.Context,ArcNegative</token>
+<token>Cairo.Context,LineTo</token>
+<token>Cairo.Context,Restore</token>
+</entry>
+<entry count="3">
+<token>Cairo.Matrix,new</token>
+<token>Cairo.Matrix,InitRotate</token>
+</entry>
+<entry count="6">
+<token>Cairo.Context,NewSubPath</token>
+<token>Cairo.Context,Save</token>
+<token>Cairo.Context,Translate</token>
+<token>Cairo.Context,Scale</token>
+<token>Cairo.Context,Arc</token>
+</entry>
+<entry count="3">
+<token>Cairo.Context,Transform</token>
+<token>Cairo.Context,GetSource</token>
+<token>Cairo.Context,Fill</token>
+<token>Cairo.Pattern,Dispose</token>
+</entry>
+<entry count="3">
+<token>Cairo.Context,MoveTo</token>
+<token>Cairo.PointD,new</token>
+</entry>
+<entry count="3">
+<token>Cairo.Context,Save</token>
+<token>Cairo.Context,SetSourceColor</token>
+<token>Cairo.Context,MoveTo</token>
+<token>Cairo.Context,Fill</token>
+<token>Cairo.Context,Restore</token>
+</entry>
+<entry count="6">
+<token>Cairo.Context,SetSourceColor</token>
+<token>Cairo.Context,Stroke</token>
+</entry>
+<entry count="3">
+<token>Cairo.Context,Transform</token>
+<token>Cairo.Context,GetSource</token>
+<token>Cairo.Context,Fill</token>
+</entry>
+<entry count="3">
+<token>Cairo.Context,Arc</token>
+<token>Cairo.LinearGradient,new</token>
+<token>Cairo.Gradient,AddColorStop</token>
+<token>Cairo.Gradient,AddColorStop</token>
+</entry>
+<entry count="3">
+<token>Cairo.Context,SetSourceColor</token>
+<token>Cairo.Context,SetDash</token>
+</entry>
+</dictionary>

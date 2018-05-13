@@ -1,0 +1,2118 @@
+<?xml version="1.0" encoding="UTF-8"?><dictionary case_sensitive="false">
+<entry count="1">
+<token>Fohjin.DDD.Bus]],CacheBy</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+<token>i:System.Runtime.Serialization.IFormatter,</token>
+<token>mscorlib,</token>
+</entry>
+<entry count="1">
+<token>StructureMap.Configuration.DSL.Expressions.CreatePluginFamilyExpression`1[[PLUGINTYPE</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.BankApplication.Presenters.IAccountDetailsPresenter,</token>
+<token>Fohjin.DDD.BankApplication]],TheDefaultIsConcreteType</token>
+</entry>
+<entry count="1">
+<token>Fohjin.DDD.Reporting]],OfConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.Reporting.IReportingRepository,</token>
+<token>Fohjin.DDD.Reporting]],OfConcreteType</token>
+</entry>
+<entry count="1">
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.EventStore.Storage.IDomainEventStorage`1[[TDomainEvent</token>
+<token>-&gt;</token>
+</entry>
+<entry count="2">
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.EventStore.Storage.IEventStoreUnitOfWork`1[[TDomainEvent</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.EventStore.IDomainEvent,</token>
+<token>Fohjin.DDD.EventStore]],</token>
+</entry>
+<entry count="1">
+<token>i:Fohjin.DDD.EventStore.IDomainRepository`1[[TDomainEvent</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.EventStore.IDomainEvent,</token>
+</entry>
+<entry count="1">
+<token>i:Fohjin.DDD.EventStore.IUnitOfWork,</token>
+<token>Fohjin.DDD.EventStore]],ConstructedBy</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.EventStore.IDomainRepository`1[[TDomainEvent</token>
+</entry>
+<entry count="16">
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+</entry>
+<entry count="2">
+<token>i:Fohjin.DDD.EventStore.IDomainEvent,</token>
+<token>Fohjin.DDD.EventStore]],</token>
+<token>Fohjin.DDD.EventStore]],OfConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+</entry>
+<entry count="1">
+<token>Fohjin.DDD.EventStore]],OfConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.EventStore.IUnitOfWork,</token>
+</entry>
+<entry count="1">
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.Reporting.Infrastructure.ISqlInsertBuilder,</token>
+<token>Fohjin.DDD.Reporting]],OfConcreteType</token>
+</entry>
+<entry count="1">
+<token>StructureMap.Configuration.DSL.Expressions.CreatePluginFamilyExpression`1[[PLUGINTYPE</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.Bus.IBus,</token>
+</entry>
+<entry count="1">
+<token>Fohjin.DDD.EventStore]],CacheBy</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.EventStore.Storage.IEventStoreUnitOfWork`1[[TDomainEvent</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.Services.IReceiveMoneyTransfers,</token>
+</entry>
+<entry count="1">
+<token>Fohjin.DDD.Reporting]],OfConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.Reporting.Infrastructure.ISqlDeleteBuilder,</token>
+</entry>
+<entry count="1">
+<token>i:Fohjin.DDD.Reporting.Infrastructure.ISqlDeleteBuilder,</token>
+<token>Fohjin.DDD.Reporting]],OfConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.BankApplication.Views.IPopupView,</token>
+<token>Fohjin.DDD.BankApplication]],TheDefaultIsConcreteType</token>
+</entry>
+<entry count="1">
+<token>2.0.0.0]],ConstructedBy</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>StructureMap.Configuration.DSL.Expressions.CreatePluginFamilyExpression`1[[PLUGINTYPE</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.EventStore.Storage.IEventStoreUnitOfWork`1[[TDomainEvent</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.Bus.Direct.IRouteMessages,</token>
+<token>Fohjin.DDD.Bus]],AsSingletons</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.BankApplication.Presenters.IClientDetailsPresenter,</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.BankApplication.Views.IClientSearchFormView,</token>
+<token>Fohjin.DDD.BankApplication]],TheDefaultIsConcreteType</token>
+</entry>
+<entry count="1">
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.EventStore.IDomainRepository`1[[TDomainEvent</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.BankApplication.Views.IClientDetailsView,</token>
+<token>Fohjin.DDD.BankApplication]],TheDefaultIsConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.CreatePluginFamilyExpression`1[[PLUGINTYPE</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.BankApplication.Views.IAccountDetailsView,</token>
+<token>Fohjin.DDD.BankApplication]],TheDefaultIsConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.CreatePluginFamilyExpression`1[[PLUGINTYPE</token>
+</entry>
+<entry count="1">
+<token>i:Fohjin.DDD.Reporting.Infrastructure.ISqlInsertBuilder,</token>
+<token>Fohjin.DDD.Reporting]],OfConcreteType</token>
+</entry>
+<entry count="1">
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.EventStore.IUnitOfWork,</token>
+<token>Fohjin.DDD.EventStore]],ConstructedBy</token>
+</entry>
+<entry count="1">
+<token>Fohjin.DDD.Reporting]],OfConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.Reporting.Infrastructure.ISqlSelectBuilder,</token>
+<token>Fohjin.DDD.Reporting]],OfConcreteType</token>
+</entry>
+<entry count="1">
+<token>StructureMap.Configuration.DSL.Expressions.CreatePluginFamilyExpression`1[[PLUGINTYPE</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.BankApplication.Views.IClientSearchFormView,</token>
+</entry>
+<entry count="1">
+<token>i:Fohjin.DDD.Services.IReceiveMoneyTransfers,</token>
+<token>Fohjin.DDD.Services]],OfConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>Fohjin.DDD.Reporting]],OfConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.Reporting.IReportingRepository,</token>
+</entry>
+<entry count="1">
+<token>i:Fohjin.DDD.BankApplication.Presenters.IPopupPresenter,</token>
+<token>Fohjin.DDD.BankApplication]],TheDefaultIsConcreteType</token>
+</entry>
+<entry count="1">
+<token>i:Fohjin.DDD.BankApplication.Presenters.IClientDetailsPresenter,</token>
+<token>Fohjin.DDD.BankApplication]],TheDefaultIsConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.CreatePluginFamilyExpression`1[[PLUGINTYPE</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.BankApplication.Presenters.IAccountDetailsPresenter,</token>
+</entry>
+<entry count="1">
+<token>Fohjin.DDD.BankApplication]],TheDefaultIsConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.CreatePluginFamilyExpression`1[[PLUGINTYPE</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.BankApplication.Views.IPopupView,</token>
+<token>Fohjin.DDD.BankApplication]],TheDefaultIsConcreteType</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.EventStore.Storage.IDomainEventStorage`1[[TDomainEvent</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>Fohjin.DDD.BankApplication]],TheDefaultIsConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.CreatePluginFamilyExpression`1[[PLUGINTYPE</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.BankApplication.Views.IClientSearchFormView,</token>
+<token>Fohjin.DDD.BankApplication]],TheDefaultIsConcreteType</token>
+</entry>
+<entry count="1">
+<token>i:Fohjin.DDD.BankApplication.Presenters.IPopupPresenter,</token>
+<token>Fohjin.DDD.BankApplication]],TheDefaultIsConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.CreatePluginFamilyExpression`1[[PLUGINTYPE</token>
+</entry>
+<entry count="11">
+<token>StructureMap.Configuration.DSL.Expressions.CreatePluginFamilyExpression`1[[PLUGINTYPE</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.EventStore.IDomainEvent,</token>
+<token>Fohjin.DDD.EventStore]],</token>
+<token>Fohjin.DDD.EventStore]],OfConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.CreatePluginFamilyExpression`1[[PLUGINTYPE</token>
+</entry>
+<entry count="1">
+<token>StructureMap.Configuration.DSL.Expressions.CreatePluginFamilyExpression`1[[PLUGINTYPE</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.BankApplication.Views.IClientDetailsView,</token>
+</entry>
+<entry count="1">
+<token>i:Fohjin.DDD.Reporting.Infrastructure.ISqlInsertBuilder,</token>
+<token>Fohjin.DDD.Reporting]],OfConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+</entry>
+<entry count="1">
+<token>i:Fohjin.DDD.Reporting.Infrastructure.ISqlSelectBuilder,</token>
+<token>Fohjin.DDD.Reporting]],OfConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.BankApplication.Presenters.IPopupPresenter,</token>
+<token>Fohjin.DDD.BankApplication]],TheDefaultIsConcreteType</token>
+</entry>
+<entry count="1">
+<token>Fohjin.DDD.EventStore]],OfConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.CreatePluginFamilyExpression`1[[PLUGINTYPE</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>i:Fohjin.DDD.Reporting.Infrastructure.ISqlUpdateBuilder,</token>
+<token>Fohjin.DDD.Reporting]],OfConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.Reporting.Infrastructure.ISqlUpdateBuilder,</token>
+<token>Fohjin.DDD.Reporting]],OfConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+</entry>
+<entry count="1">
+<token>Fohjin.DDD.Services]],OfConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.Services.ISendMoneyTransfer,</token>
+<token>Fohjin.DDD.Services]],OfConcreteType</token>
+</entry>
+<entry count="1">
+<token>i:Fohjin.DDD.Reporting.Infrastructure.ISqlSelectBuilder,</token>
+<token>Fohjin.DDD.Reporting]],OfConcreteType</token>
+</entry>
+<entry count="1">
+<token>Fohjin.DDD.BankApplication]],TheDefaultIsConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.CreatePluginFamilyExpression`1[[PLUGINTYPE</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.BankApplication.Presenters.IAccountDetailsPresenter,</token>
+<token>Fohjin.DDD.BankApplication]],TheDefaultIsConcreteType</token>
+</entry>
+<entry count="1">
+<token>i:Fohjin.DDD.BankApplication.Views.IAccountDetailsView,</token>
+<token>Fohjin.DDD.BankApplication]],TheDefaultIsConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.CreatePluginFamilyExpression`1[[PLUGINTYPE</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.BankApplication.Views.IPopupView,</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>i:System.Runtime.Serialization.IFormatter,</token>
+<token>mscorlib,</token>
+</entry>
+<entry count="1">
+<token>i:Fohjin.DDD.BankApplication.Views.IClientSearchFormView,</token>
+<token>Fohjin.DDD.BankApplication]],TheDefaultIsConcreteType</token>
+</entry>
+<entry count="1">
+<token>i:Fohjin.DDD.BankApplication.Views.IPopupView,</token>
+<token>Fohjin.DDD.BankApplication]],TheDefaultIsConcreteType</token>
+</entry>
+<entry count="1">
+<token>Fohjin.DDD.BankApplication]],TheDefaultIsConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.CreatePluginFamilyExpression`1[[PLUGINTYPE</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.BankApplication.Views.IPopupView,</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.EventStore.IDomainRepository`1[[TDomainEvent</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.EventStore.IDomainEvent,</token>
+<token>Fohjin.DDD.EventStore]],</token>
+</entry>
+<entry count="1">
+<token>i:Fohjin.DDD.BankApplication.Presenters.IAccountDetailsPresenter,</token>
+<token>Fohjin.DDD.BankApplication]],TheDefaultIsConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.CreatePluginFamilyExpression`1[[PLUGINTYPE</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.BankApplication.Presenters.IPopupPresenter,</token>
+</entry>
+<entry count="1">
+<token>StructureMap.Configuration.DSL.Expressions.CreatePluginFamilyExpression`1[[PLUGINTYPE</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.BankApplication.Views.IAccountDetailsView,</token>
+</entry>
+<entry count="2">
+<token>Fohjin.DDD.EventStore]],</token>
+<token>Fohjin.DDD.EventStore]],OfConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.Reporting.Infrastructure.ISqlSelectBuilder,</token>
+<token>Fohjin.DDD.Reporting]],OfConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>Fohjin.DDD.EventStore]],</token>
+<token>Fohjin.DDD.EventStore]],OfConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.CreatePluginFamilyExpression`1[[PLUGINTYPE</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.EventStore.Storage.IEventStoreUnitOfWork`1[[TDomainEvent</token>
+</entry>
+<entry count="1">
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.Reporting.Infrastructure.ISqlUpdateBuilder,</token>
+</entry>
+<entry count="1">
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.Reporting.Infrastructure.ISqlInsertBuilder,</token>
+<token>Fohjin.DDD.Reporting]],OfConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+</entry>
+<entry count="1">
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.Reporting.Infrastructure.ISqlSelectBuilder,</token>
+<token>Fohjin.DDD.Reporting]],OfConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+</entry>
+<entry count="1">
+<token>i:Fohjin.DDD.BankApplication.Presenters.IAccountDetailsPresenter,</token>
+<token>Fohjin.DDD.BankApplication]],TheDefaultIsConcreteType</token>
+</entry>
+<entry count="1">
+<token>StructureMap.Configuration.DSL.Expressions.CreatePluginFamilyExpression`1[[PLUGINTYPE</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.Bus.IBus,</token>
+<token>Fohjin.DDD.Bus]],CacheBy</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.Reporting.Infrastructure.ISqlCreateBuilder,</token>
+<token>Fohjin.DDD.Reporting]],OfConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.BankApplication.Presenters.IAccountDetailsPresenter,</token>
+<token>Fohjin.DDD.BankApplication]],TheDefaultIsConcreteType</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.Reporting.Infrastructure.ISqlSelectBuilder,</token>
+</entry>
+<entry count="4">
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.EventStore.IDomainEvent,</token>
+<token>Fohjin.DDD.EventStore]],</token>
+<token>Fohjin.DDD.EventStore]],OfConcreteType</token>
+</entry>
+<entry count="1">
+<token>Fohjin.DDD.Bus]],AsSingletons</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.Bus.Direct.IRouteMessages,</token>
+<token>Fohjin.DDD.Bus]],OfConcreteType</token>
+</entry>
+<entry count="1">
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.Bus.Direct.IRouteMessages,</token>
+<token>Fohjin.DDD.Bus]],OfConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+</entry>
+<entry count="1">
+<token>i:System.Runtime.Serialization.IFormatter,</token>
+<token>mscorlib,</token>
+<token>2.0.0.0]],ConstructedBy</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+</entry>
+<entry count="1">
+<token>StructureMap.Configuration.DSL.Expressions.CreatePluginFamilyExpression`1[[PLUGINTYPE</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.BankApplication.Presenters.IClientSearchFormPresenter,</token>
+</entry>
+<entry count="1">
+<token>Fohjin.DDD.BankApplication]],TheDefaultIsConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.CreatePluginFamilyExpression`1[[PLUGINTYPE</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.BankApplication.Presenters.IAccountDetailsPresenter,</token>
+</entry>
+<entry count="1">
+<token>i:Fohjin.DDD.EventStore.IDomainRepository`1[[TDomainEvent</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.EventStore.IDomainEvent,</token>
+<token>Fohjin.DDD.EventStore]],</token>
+</entry>
+<entry count="1">
+<token>StructureMap.Configuration.DSL.Expressions.CreatePluginFamilyExpression`1[[PLUGINTYPE</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.BankApplication.Views.IAccountDetailsView,</token>
+<token>Fohjin.DDD.BankApplication]],TheDefaultIsConcreteType</token>
+</entry>
+<entry count="1">
+<token>i:Fohjin.DDD.Reporting.IReportingRepository,</token>
+<token>Fohjin.DDD.Reporting]],OfConcreteType</token>
+</entry>
+<entry count="1">
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.Bus.IBus,</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.EventStore.IUnitOfWork,</token>
+</entry>
+<entry count="1">
+<token>i:Fohjin.DDD.EventStore.IUnitOfWork,</token>
+<token>Fohjin.DDD.EventStore]],ConstructedBy</token>
+</entry>
+<entry count="1">
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.Reporting.Infrastructure.ISqlSelectBuilder,</token>
+<token>Fohjin.DDD.Reporting]],OfConcreteType</token>
+</entry>
+<entry count="1">
+<token>i:System.Runtime.Serialization.IFormatter,</token>
+<token>mscorlib,</token>
+</entry>
+<entry count="5">
+<token>i:Fohjin.DDD.EventStore.IDomainEvent,</token>
+<token>Fohjin.DDD.EventStore]],</token>
+</entry>
+<entry count="1">
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.EventStore.Storage.IIdentityMap`1[[TDomainEvent</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.EventStore.IDomainEvent,</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.Reporting.Infrastructure.ISqlSelectBuilder,</token>
+<token>Fohjin.DDD.Reporting]],OfConcreteType</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.Bus.IBus,</token>
+<token>Fohjin.DDD.Bus]],OfConcreteType</token>
+</entry>
+<entry count="1">
+<token>Fohjin.DDD.Bus]],OfConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.Reporting.Infrastructure.ISqlInsertBuilder,</token>
+<token>Fohjin.DDD.Reporting]],OfConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>Fohjin.DDD.Services]],OfConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.Bus.IBus,</token>
+<token>Fohjin.DDD.Bus]],OfConcreteType</token>
+</entry>
+<entry count="1">
+<token>i:Fohjin.DDD.EventStore.Storage.IDomainEventStorage`1[[TDomainEvent</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.EventStore.Storage.IDomainEventStorage`1[[TDomainEvent</token>
+</entry>
+<entry count="1">
+<token>Fohjin.DDD.Reporting]],OfConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.Reporting.Infrastructure.ISqlInsertBuilder,</token>
+</entry>
+<entry count="1">
+<token>StructureMap.Configuration.DSL.Expressions.CreatePluginFamilyExpression`1[[PLUGINTYPE</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.BankApplication.Presenters.IPopupPresenter,</token>
+<token>Fohjin.DDD.BankApplication]],TheDefaultIsConcreteType</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>i:System.Runtime.Serialization.IFormatter,</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.Reporting.Infrastructure.ISqlDeleteBuilder,</token>
+<token>Fohjin.DDD.Reporting]],OfConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.BankApplication.Presenters.IAccountDetailsPresenter,</token>
+<token>Fohjin.DDD.BankApplication]],TheDefaultIsConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.CreatePluginFamilyExpression`1[[PLUGINTYPE</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.Reporting.Infrastructure.ISqlInsertBuilder,</token>
+<token>Fohjin.DDD.Reporting]],OfConcreteType</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.BankApplication.Views.IAccountDetailsView,</token>
+<token>Fohjin.DDD.BankApplication]],TheDefaultIsConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.CreatePluginFamilyExpression`1[[PLUGINTYPE</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.Reporting.Infrastructure.ISqlInsertBuilder,</token>
+</entry>
+<entry count="1">
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.Services.ISendMoneyTransfer,</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.BankApplication.Presenters.IAccountDetailsPresenter,</token>
+</entry>
+<entry count="1">
+<token>i:Fohjin.DDD.Reporting.Infrastructure.ISqlDeleteBuilder,</token>
+<token>Fohjin.DDD.Reporting]],OfConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+</entry>
+<entry count="7">
+<token>Fohjin.DDD.BankApplication]],TheDefaultIsConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.CreatePluginFamilyExpression`1[[PLUGINTYPE</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>i:Fohjin.DDD.EventStore.IDomainEvent,</token>
+<token>Fohjin.DDD.EventStore]],</token>
+<token>Fohjin.DDD.EventStore]],CacheBy</token>
+</entry>
+<entry count="1">
+<token>StructureMap.Configuration.DSL.Expressions.CreatePluginFamilyExpression`1[[PLUGINTYPE</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.BankApplication.Views.IClientSearchFormView,</token>
+<token>Fohjin.DDD.BankApplication]],TheDefaultIsConcreteType</token>
+</entry>
+<entry count="1">
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.Reporting.Infrastructure.ISqlDeleteBuilder,</token>
+<token>Fohjin.DDD.Reporting]],OfConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+</entry>
+<entry count="1">
+<token>i:Fohjin.DDD.EventStore.Storage.IIdentityMap`1[[TDomainEvent</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.EventStore.IDomainEvent,</token>
+<token>Fohjin.DDD.EventStore]],</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.Bus.IBus,</token>
+<token>Fohjin.DDD.Bus]],OfConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.CreatePluginFamilyExpression`1[[PLUGINTYPE</token>
+</entry>
+<entry count="1">
+<token>i:Fohjin.DDD.BankApplication.Presenters.IClientDetailsPresenter,</token>
+<token>Fohjin.DDD.BankApplication]],TheDefaultIsConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.CreatePluginFamilyExpression`1[[PLUGINTYPE</token>
+<token>-&gt;</token>
+</entry>
+<entry count="5">
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.EventStore.IDomainEvent,</token>
+</entry>
+<entry count="1">
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.EventStore.IDomainRepository`1[[TDomainEvent</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.EventStore.IDomainEvent,</token>
+</entry>
+<entry count="1">
+<token>StructureMap.Configuration.DSL.Expressions.CreatePluginFamilyExpression`1[[PLUGINTYPE</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.BankApplication.Views.IPopupView,</token>
+<token>Fohjin.DDD.BankApplication]],TheDefaultIsConcreteType</token>
+</entry>
+<entry count="5">
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.EventStore.IDomainEvent,</token>
+<token>Fohjin.DDD.EventStore]],</token>
+</entry>
+<entry count="1">
+<token>mscorlib,</token>
+<token>2.0.0.0]],ConstructedBy</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.EventStore.IUnitOfWork,</token>
+<token>Fohjin.DDD.EventStore]],ConstructedBy</token>
+</entry>
+<entry count="2">
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.EventStore.Storage.IEventStoreUnitOfWork`1[[TDomainEvent</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.EventStore.IDomainEvent,</token>
+</entry>
+<entry count="1">
+<token>Fohjin.DDD.BankApplication]],TheDefaultIsConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.CreatePluginFamilyExpression`1[[PLUGINTYPE</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.BankApplication.Presenters.IClientDetailsPresenter,</token>
+</entry>
+<entry count="1">
+<token>i:Fohjin.DDD.BankApplication.Presenters.IClientSearchFormPresenter,</token>
+<token>Fohjin.DDD.BankApplication]],TheDefaultIsConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.CreatePluginFamilyExpression`1[[PLUGINTYPE</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.BankApplication.Presenters.IClientDetailsPresenter,</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.BankApplication.Views.IAccountDetailsView,</token>
+</entry>
+<entry count="1">
+<token>StructureMap.Configuration.DSL.Expressions.CreatePluginFamilyExpression`1[[PLUGINTYPE</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.BankApplication.Presenters.IClientSearchFormPresenter,</token>
+<token>Fohjin.DDD.BankApplication]],TheDefaultIsConcreteType</token>
+</entry>
+<entry count="2">
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.EventStore.IDomainEvent,</token>
+<token>Fohjin.DDD.EventStore]],</token>
+<token>Fohjin.DDD.EventStore]],OfConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+</entry>
+<entry count="1">
+<token>StructureMap.Configuration.DSL.Expressions.CreatePluginFamilyExpression`1[[PLUGINTYPE</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.BankApplication.Presenters.IClientDetailsPresenter,</token>
+<token>Fohjin.DDD.BankApplication]],TheDefaultIsConcreteType</token>
+</entry>
+<entry count="4">
+<token>Fohjin.DDD.EventStore]],</token>
+<token>Fohjin.DDD.EventStore]],OfConcreteType</token>
+</entry>
+<entry count="1">
+<token>Fohjin.DDD.EventStore]],</token>
+<token>Fohjin.DDD.EventStore]],CacheBy</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.Bus.IBus,</token>
+<token>Fohjin.DDD.Bus]],CacheBy</token>
+</entry>
+<entry count="1">
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.EventStore.IUnitOfWork,</token>
+<token>Fohjin.DDD.EventStore]],ConstructedBy</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+</entry>
+<entry count="1">
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.Bus.Direct.IRouteMessages,</token>
+<token>Fohjin.DDD.Bus]],OfConcreteType</token>
+</entry>
+<entry count="1">
+<token>Fohjin.DDD.EventStore]],CacheBy</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+</entry>
+<entry count="2">
+<token>i:Fohjin.DDD.EventStore.Storage.IEventStoreUnitOfWork`1[[TDomainEvent</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.EventStore.IDomainEvent,</token>
+<token>Fohjin.DDD.EventStore]],</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.Reporting.IReportingRepository,</token>
+</entry>
+<entry count="1">
+<token>i:Fohjin.DDD.Reporting.Infrastructure.ISqlUpdateBuilder,</token>
+<token>Fohjin.DDD.Reporting]],OfConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+</entry>
+<entry count="1">
+<token>Fohjin.DDD.BankApplication]],TheDefaultIsConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.CreatePluginFamilyExpression`1[[PLUGINTYPE</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.BankApplication.Presenters.IClientDetailsPresenter,</token>
+<token>Fohjin.DDD.BankApplication]],TheDefaultIsConcreteType</token>
+</entry>
+<entry count="1">
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.Reporting.IReportingRepository,</token>
+</entry>
+<entry count="1">
+<token>Fohjin.DDD.EventStore]],</token>
+<token>Fohjin.DDD.EventStore]],OfConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.CreatePluginFamilyExpression`1[[PLUGINTYPE</token>
+</entry>
+<entry count="1">
+<token>i:Fohjin.DDD.EventStore.IDomainEvent,</token>
+<token>Fohjin.DDD.EventStore]],</token>
+<token>Fohjin.DDD.EventStore]],CacheBy</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+</entry>
+<entry count="1">
+<token>Fohjin.DDD.EventStore]],</token>
+<token>Fohjin.DDD.EventStore]],OfConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.EventStore.IUnitOfWork,</token>
+</entry>
+<entry count="1">
+<token>i:Fohjin.DDD.Reporting.Infrastructure.ISqlCreateBuilder,</token>
+<token>Fohjin.DDD.Reporting]],OfConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.Services.IReceiveMoneyTransfers,</token>
+<token>Fohjin.DDD.Services]],OfConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>Fohjin.DDD.Reporting]],OfConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.Reporting.Infrastructure.ISqlUpdateBuilder,</token>
+<token>Fohjin.DDD.Reporting]],OfConcreteType</token>
+</entry>
+<entry count="1">
+<token>Fohjin.DDD.Bus]],OfConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+</entry>
+<entry count="1">
+<token>i:Fohjin.DDD.Bus.Direct.IRouteMessages,</token>
+<token>Fohjin.DDD.Bus]],OfConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.Bus.Direct.IRouteMessages,</token>
+</entry>
+<entry count="1">
+<token>i:Fohjin.DDD.EventStore.IDomainEvent,</token>
+<token>Fohjin.DDD.EventStore]],</token>
+<token>Fohjin.DDD.EventStore]],OfConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.CreatePluginFamilyExpression`1[[PLUGINTYPE</token>
+</entry>
+<entry count="1">
+<token>i:Fohjin.DDD.BankApplication.Presenters.IPopupPresenter,</token>
+<token>Fohjin.DDD.BankApplication]],TheDefaultIsConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.CreatePluginFamilyExpression`1[[PLUGINTYPE</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>Fohjin.DDD.Bus]],CacheBy</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.Bus.IBus,</token>
+<token>Fohjin.DDD.Bus]],OfConcreteType</token>
+</entry>
+<entry count="1">
+<token>i:Fohjin.DDD.BankApplication.Views.IClientDetailsView,</token>
+<token>Fohjin.DDD.BankApplication]],TheDefaultIsConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.CreatePluginFamilyExpression`1[[PLUGINTYPE</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>i:Fohjin.DDD.Bus.Direct.IRouteMessages,</token>
+<token>Fohjin.DDD.Bus]],OfConcreteType</token>
+</entry>
+<entry count="1">
+<token>Fohjin.DDD.Bus]],OfConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.CreatePluginFamilyExpression`1[[PLUGINTYPE</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.Bus.Direct.IRouteMessages,</token>
+<token>Fohjin.DDD.Bus]],AsSingletons</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.Bus.Direct.IRouteMessages,</token>
+<token>Fohjin.DDD.Bus]],OfConcreteType</token>
+</entry>
+<entry count="1">
+<token>StructureMap.Configuration.DSL.Expressions.CreatePluginFamilyExpression`1[[PLUGINTYPE</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.Bus.Direct.IRouteMessages,</token>
+<token>Fohjin.DDD.Bus]],AsSingletons</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+</entry>
+<entry count="1">
+<token>StructureMap.Configuration.DSL.Expressions.CreatePluginFamilyExpression`1[[PLUGINTYPE</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.BankApplication.Presenters.IClientDetailsPresenter,</token>
+</entry>
+<entry count="1">
+<token>Fohjin.DDD.EventStore]],</token>
+<token>Fohjin.DDD.EventStore]],CacheBy</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>i:Fohjin.DDD.Reporting.Infrastructure.ISqlCreateBuilder,</token>
+<token>Fohjin.DDD.Reporting]],OfConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>i:Fohjin.DDD.Bus.Direct.IRouteMessages,</token>
+<token>Fohjin.DDD.Bus]],AsSingletons</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+</entry>
+<entry count="5">
+<token>Fohjin.DDD.Reporting]],OfConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>Fohjin.DDD.Bus]],AsSingletons</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.Bus.Direct.IRouteMessages,</token>
+</entry>
+<entry count="1">
+<token>Fohjin.DDD.EventStore]],OfConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.EventStore.Storage.IIdentityMap`1[[TDomainEvent</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.EventStore.Storage.IDomainEventStorage`1[[TDomainEvent</token>
+</entry>
+<entry count="1">
+<token>Fohjin.DDD.EventStore]],OfConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.EventStore.IUnitOfWork,</token>
+<token>Fohjin.DDD.EventStore]],ConstructedBy</token>
+</entry>
+<entry count="1">
+<token>Fohjin.DDD.EventStore]],OfConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.CreatePluginFamilyExpression`1[[PLUGINTYPE</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.EventStore.Storage.IEventStoreUnitOfWork`1[[TDomainEvent</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.EventStore.IUnitOfWork,</token>
+<token>Fohjin.DDD.EventStore]],ConstructedBy</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+</entry>
+<entry count="2">
+<token>Fohjin.DDD.EventStore]],OfConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>i:Fohjin.DDD.BankApplication.Presenters.IClientDetailsPresenter,</token>
+<token>Fohjin.DDD.BankApplication]],TheDefaultIsConcreteType</token>
+</entry>
+<entry count="1">
+<token>Fohjin.DDD.Bus]],OfConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.CreatePluginFamilyExpression`1[[PLUGINTYPE</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.BankApplication.Views.IClientSearchFormView,</token>
+</entry>
+<entry count="1">
+<token>Fohjin.DDD.Services]],OfConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.BankApplication.Presenters.IClientSearchFormPresenter,</token>
+<token>Fohjin.DDD.BankApplication]],TheDefaultIsConcreteType</token>
+</entry>
+<entry count="1">
+<token>Fohjin.DDD.Services]],OfConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.Services.ISendMoneyTransfer,</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.Services.IReceiveMoneyTransfers,</token>
+<token>Fohjin.DDD.Services]],OfConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+</entry>
+<entry count="2">
+<token>Fohjin.DDD.EventStore]],</token>
+<token>Fohjin.DDD.EventStore]],OfConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>i:Fohjin.DDD.BankApplication.Presenters.IClientSearchFormPresenter,</token>
+<token>Fohjin.DDD.BankApplication]],TheDefaultIsConcreteType</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.BankApplication.Views.IPopupView,</token>
+</entry>
+<entry count="1">
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.Services.IReceiveMoneyTransfers,</token>
+</entry>
+<entry count="1">
+<token>Fohjin.DDD.Bus]],AsSingletons</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.Bus.Direct.IRouteMessages,</token>
+<token>Fohjin.DDD.Bus]],OfConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>Fohjin.DDD.BankApplication]],TheDefaultIsConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.CreatePluginFamilyExpression`1[[PLUGINTYPE</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.BankApplication.Views.IClientDetailsView,</token>
+</entry>
+<entry count="1">
+<token>StructureMap.Configuration.DSL.Expressions.CreatePluginFamilyExpression`1[[PLUGINTYPE</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.Bus.IBus,</token>
+<token>Fohjin.DDD.Bus]],CacheBy</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+</entry>
+<entry count="1">
+<token>Fohjin.DDD.Bus]],OfConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+<token>i:System.Runtime.Serialization.IFormatter,</token>
+<token>mscorlib,</token>
+</entry>
+<entry count="1">
+<token>i:Fohjin.DDD.BankApplication.Presenters.IClientDetailsPresenter,</token>
+<token>Fohjin.DDD.BankApplication]],TheDefaultIsConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.CreatePluginFamilyExpression`1[[PLUGINTYPE</token>
+</entry>
+<entry count="2">
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.Bus.IBus,</token>
+</entry>
+<entry count="1">
+<token>Fohjin.DDD.EventStore]],ConstructedBy</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.EventStore.IDomainEvent,</token>
+<token>Fohjin.DDD.EventStore]],</token>
+<token>Fohjin.DDD.EventStore]],CacheBy</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.BankApplication.Presenters.IClientSearchFormPresenter,</token>
+<token>Fohjin.DDD.BankApplication]],TheDefaultIsConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.CreatePluginFamilyExpression`1[[PLUGINTYPE</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.Reporting.Infrastructure.ISqlCreateBuilder,</token>
+<token>Fohjin.DDD.Reporting]],OfConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>StructureMap.Configuration.DSL.Expressions.CreatePluginFamilyExpression`1[[PLUGINTYPE</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.BankApplication.Presenters.IClientSearchFormPresenter,</token>
+<token>Fohjin.DDD.BankApplication]],TheDefaultIsConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.CreatePluginFamilyExpression`1[[PLUGINTYPE</token>
+</entry>
+<entry count="1">
+<token>mscorlib,</token>
+<token>2.0.0.0]],ConstructedBy</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+</entry>
+<entry count="1">
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.Reporting.Infrastructure.ISqlCreateBuilder,</token>
+<token>Fohjin.DDD.Reporting]],OfConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+</entry>
+<entry count="1">
+<token>Fohjin.DDD.BankApplication]],TheDefaultIsConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.CreatePluginFamilyExpression`1[[PLUGINTYPE</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.BankApplication.Presenters.IPopupPresenter,</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.BankApplication.Views.IClientDetailsView,</token>
+<token>Fohjin.DDD.BankApplication]],TheDefaultIsConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.CreatePluginFamilyExpression`1[[PLUGINTYPE</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>i:Fohjin.DDD.EventStore.IDomainRepository`1[[TDomainEvent</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>StructureMap.Configuration.DSL.Expressions.CreatePluginFamilyExpression`1[[PLUGINTYPE</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.Bus.Direct.IRouteMessages,</token>
+</entry>
+<entry count="1">
+<token>StructureMap.Configuration.DSL.Expressions.CreatePluginFamilyExpression`1[[PLUGINTYPE</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.Bus.Direct.IRouteMessages,</token>
+<token>Fohjin.DDD.Bus]],AsSingletons</token>
+</entry>
+<entry count="1">
+<token>StructureMap.Configuration.DSL.Expressions.CreatePluginFamilyExpression`1[[PLUGINTYPE</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.BankApplication.Views.IClientSearchFormView,</token>
+<token>Fohjin.DDD.BankApplication]],TheDefaultIsConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.CreatePluginFamilyExpression`1[[PLUGINTYPE</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>i:System.Runtime.Serialization.IFormatter,</token>
+<token>mscorlib,</token>
+<token>2.0.0.0]],ConstructedBy</token>
+</entry>
+<entry count="1">
+<token>Fohjin.DDD.EventStore]],</token>
+<token>Fohjin.DDD.EventStore]],OfConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.EventStore.Storage.IIdentityMap`1[[TDomainEvent</token>
+</entry>
+<entry count="1">
+<token>Fohjin.DDD.Reporting]],OfConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.Reporting.Infrastructure.ISqlDeleteBuilder,</token>
+<token>Fohjin.DDD.Reporting]],OfConcreteType</token>
+</entry>
+<entry count="1">
+<token>StructureMap.Configuration.DSL.Expressions.CreatePluginFamilyExpression`1[[PLUGINTYPE</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.BankApplication.Presenters.IPopupPresenter,</token>
+<token>Fohjin.DDD.BankApplication]],TheDefaultIsConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.CreatePluginFamilyExpression`1[[PLUGINTYPE</token>
+</entry>
+<entry count="1">
+<token>Fohjin.DDD.Bus]],OfConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.CreatePluginFamilyExpression`1[[PLUGINTYPE</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.Bus.Direct.IRouteMessages,</token>
+</entry>
+<entry count="1">
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.Bus.IBus,</token>
+<token>Fohjin.DDD.Bus]],OfConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.CreatePluginFamilyExpression`1[[PLUGINTYPE</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.BankApplication.Views.IClientDetailsView,</token>
+<token>Fohjin.DDD.BankApplication]],TheDefaultIsConcreteType</token>
+</entry>
+<entry count="1">
+<token>i:Fohjin.DDD.Bus.Direct.IRouteMessages,</token>
+<token>Fohjin.DDD.Bus]],AsSingletons</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+</entry>
+<entry count="1">
+<token>StructureMap.Configuration.DSL.Expressions.CreatePluginFamilyExpression`1[[PLUGINTYPE</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.BankApplication.Presenters.IAccountDetailsPresenter,</token>
+<token>Fohjin.DDD.BankApplication]],TheDefaultIsConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.CreatePluginFamilyExpression`1[[PLUGINTYPE</token>
+</entry>
+<entry count="1">
+<token>i:Fohjin.DDD.BankApplication.Views.IClientSearchFormView,</token>
+<token>Fohjin.DDD.BankApplication]],TheDefaultIsConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.CreatePluginFamilyExpression`1[[PLUGINTYPE</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.BankApplication.Views.IClientDetailsView,</token>
+</entry>
+<entry count="1">
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.EventStore.Storage.IEventStoreUnitOfWork`1[[TDomainEvent</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>i:Fohjin.DDD.EventStore.IDomainEvent,</token>
+<token>Fohjin.DDD.EventStore]],</token>
+<token>Fohjin.DDD.EventStore]],CacheBy</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>i:Fohjin.DDD.BankApplication.Views.IClientDetailsView,</token>
+<token>Fohjin.DDD.BankApplication]],TheDefaultIsConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.CreatePluginFamilyExpression`1[[PLUGINTYPE</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.BankApplication.Views.IAccountDetailsView,</token>
+</entry>
+<entry count="1">
+<token>i:Fohjin.DDD.EventStore.IUnitOfWork,</token>
+<token>Fohjin.DDD.EventStore]],ConstructedBy</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.Bus.IBus,</token>
+<token>Fohjin.DDD.Bus]],CacheBy</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.Services.IReceiveMoneyTransfers,</token>
+<token>Fohjin.DDD.Services]],OfConcreteType</token>
+</entry>
+<entry count="1">
+<token>i:Fohjin.DDD.Bus.Direct.IRouteMessages,</token>
+<token>Fohjin.DDD.Bus]],AsSingletons</token>
+</entry>
+<entry count="1">
+<token>i:Fohjin.DDD.BankApplication.Presenters.IClientSearchFormPresenter,</token>
+<token>Fohjin.DDD.BankApplication]],TheDefaultIsConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.CreatePluginFamilyExpression`1[[PLUGINTYPE</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>i:Fohjin.DDD.BankApplication.Views.IClientDetailsView,</token>
+<token>Fohjin.DDD.BankApplication]],TheDefaultIsConcreteType</token>
+</entry>
+<entry count="1">
+<token>StructureMap.Configuration.DSL.Expressions.CreatePluginFamilyExpression`1[[PLUGINTYPE</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.BankApplication.Presenters.IAccountDetailsPresenter,</token>
+</entry>
+<entry count="1">
+<token>i:Fohjin.DDD.BankApplication.Views.IAccountDetailsView,</token>
+<token>Fohjin.DDD.BankApplication]],TheDefaultIsConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.CreatePluginFamilyExpression`1[[PLUGINTYPE</token>
+</entry>
+<entry count="1">
+<token>StructureMap.Configuration.DSL.Expressions.CreatePluginFamilyExpression`1[[PLUGINTYPE</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.EventStore.Storage.IEventStoreUnitOfWork`1[[TDomainEvent</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.EventStore.IDomainEvent,</token>
+</entry>
+<entry count="1">
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.EventStore.Storage.IEventStoreUnitOfWork`1[[TDomainEvent</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.EventStore.IDomainEvent,</token>
+</entry>
+<entry count="1">
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+<token>i:System.Runtime.Serialization.IFormatter,</token>
+<token>mscorlib,</token>
+<token>2.0.0.0]],ConstructedBy</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.BankApplication.Presenters.IPopupPresenter,</token>
+<token>Fohjin.DDD.BankApplication]],TheDefaultIsConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.CreatePluginFamilyExpression`1[[PLUGINTYPE</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>2.0.0.0]],ConstructedBy</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.EventStore.Storage.IDomainEventStorage`1[[TDomainEvent</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>i:Fohjin.DDD.Reporting.Infrastructure.ISqlCreateBuilder,</token>
+<token>Fohjin.DDD.Reporting]],OfConcreteType</token>
+</entry>
+<entry count="1">
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.EventStore.IUnitOfWork,</token>
+</entry>
+<entry count="1">
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.EventStore.Storage.IIdentityMap`1[[TDomainEvent</token>
+<token>-&gt;</token>
+</entry>
+<entry count="7">
+<token>Fohjin.DDD.BankApplication]],TheDefaultIsConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.CreatePluginFamilyExpression`1[[PLUGINTYPE</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.EventStore.IDomainRepository`1[[TDomainEvent</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>i:Fohjin.DDD.EventStore.Storage.IDomainEventStorage`1[[TDomainEvent</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.EventStore.IDomainEvent,</token>
+<token>Fohjin.DDD.EventStore]],</token>
+</entry>
+<entry count="1">
+<token>StructureMap.Configuration.DSL.Expressions.CreatePluginFamilyExpression`1[[PLUGINTYPE</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.BankApplication.Presenters.IPopupPresenter,</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.BankApplication.Presenters.IAccountDetailsPresenter,</token>
+<token>Fohjin.DDD.BankApplication]],TheDefaultIsConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.CreatePluginFamilyExpression`1[[PLUGINTYPE</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.BankApplication.Presenters.IClientDetailsPresenter,</token>
+<token>Fohjin.DDD.BankApplication]],TheDefaultIsConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.CreatePluginFamilyExpression`1[[PLUGINTYPE</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.Services.IReceiveMoneyTransfers,</token>
+<token>Fohjin.DDD.Services]],OfConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+</entry>
+<entry count="1">
+<token>Fohjin.DDD.BankApplication]],TheDefaultIsConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.CreatePluginFamilyExpression`1[[PLUGINTYPE</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.BankApplication.Views.IClientDetailsView,</token>
+<token>Fohjin.DDD.BankApplication]],TheDefaultIsConcreteType</token>
+</entry>
+<entry count="1">
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.Reporting.Infrastructure.ISqlUpdateBuilder,</token>
+<token>Fohjin.DDD.Reporting]],OfConcreteType</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.Bus.Direct.IRouteMessages,</token>
+<token>Fohjin.DDD.Bus]],AsSingletons</token>
+</entry>
+<entry count="1">
+<token>i:Fohjin.DDD.Bus.Direct.IRouteMessages,</token>
+<token>Fohjin.DDD.Bus]],OfConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+<token>i:System.Runtime.Serialization.IFormatter,</token>
+</entry>
+<entry count="1">
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.Reporting.Infrastructure.ISqlInsertBuilder,</token>
+</entry>
+<entry count="1">
+<token>i:Fohjin.DDD.EventStore.IUnitOfWork,</token>
+<token>Fohjin.DDD.EventStore]],ConstructedBy</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.Reporting.Infrastructure.ISqlSelectBuilder,</token>
+<token>Fohjin.DDD.Reporting]],OfConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.Reporting.Infrastructure.ISqlInsertBuilder,</token>
+<token>Fohjin.DDD.Reporting]],OfConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.EventStore.Storage.IIdentityMap`1[[TDomainEvent</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.EventStore.IDomainEvent,</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.BankApplication.Views.IClientDetailsView,</token>
+</entry>
+<entry count="1">
+<token>i:System.Runtime.Serialization.IFormatter,</token>
+<token>mscorlib,</token>
+<token>2.0.0.0]],ConstructedBy</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.Reporting.Infrastructure.ISqlUpdateBuilder,</token>
+<token>Fohjin.DDD.Reporting]],OfConcreteType</token>
+</entry>
+<entry count="1">
+<token>i:Fohjin.DDD.Reporting.Infrastructure.ISqlCreateBuilder,</token>
+<token>Fohjin.DDD.Reporting]],OfConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.Reporting.Infrastructure.ISqlInsertBuilder,</token>
+</entry>
+<entry count="1">
+<token>i:Fohjin.DDD.Reporting.Infrastructure.ISqlInsertBuilder,</token>
+<token>Fohjin.DDD.Reporting]],OfConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>Fohjin.DDD.EventStore]],OfConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.CreatePluginFamilyExpression`1[[PLUGINTYPE</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.EventStore.Storage.IEventStoreUnitOfWork`1[[TDomainEvent</token>
+</entry>
+<entry count="1">
+<token>Fohjin.DDD.EventStore]],OfConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.CreatePluginFamilyExpression`1[[PLUGINTYPE</token>
+</entry>
+<entry count="1">
+<token>i:Fohjin.DDD.EventStore.Storage.IDomainEventStorage`1[[TDomainEvent</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.EventStore.IDomainEvent,</token>
+<token>Fohjin.DDD.EventStore]],</token>
+<token>Fohjin.DDD.EventStore]],OfConcreteType</token>
+</entry>
+<entry count="1">
+<token>i:Fohjin.DDD.EventStore.Storage.IIdentityMap`1[[TDomainEvent</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>StructureMap.Configuration.DSL.Expressions.CreatePluginFamilyExpression`1[[PLUGINTYPE</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.BankApplication.Views.IClientDetailsView,</token>
+<token>Fohjin.DDD.BankApplication]],TheDefaultIsConcreteType</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.Services.IReceiveMoneyTransfers,</token>
+<token>Fohjin.DDD.Services]],OfConcreteType</token>
+</entry>
+<entry count="1">
+<token>i:Fohjin.DDD.Reporting.Infrastructure.ISqlUpdateBuilder,</token>
+<token>Fohjin.DDD.Reporting]],OfConcreteType</token>
+</entry>
+<entry count="1">
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.Reporting.Infrastructure.ISqlCreateBuilder,</token>
+<token>Fohjin.DDD.Reporting]],OfConcreteType</token>
+</entry>
+<entry count="1">
+<token>mscorlib,</token>
+<token>2.0.0.0]],ConstructedBy</token>
+</entry>
+<entry count="1">
+<token>Fohjin.DDD.Reporting]],OfConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.Reporting.Infrastructure.ISqlSelectBuilder,</token>
+</entry>
+<entry count="1">
+<token>i:Fohjin.DDD.Reporting.Infrastructure.ISqlDeleteBuilder,</token>
+<token>Fohjin.DDD.Reporting]],OfConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.Reporting.IReportingRepository,</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.BankApplication.Presenters.IClientDetailsPresenter,</token>
+<token>Fohjin.DDD.BankApplication]],TheDefaultIsConcreteType</token>
+</entry>
+<entry count="1">
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.EventStore.IDomainRepository`1[[TDomainEvent</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+<token>i:System.Runtime.Serialization.IFormatter,</token>
+</entry>
+<entry count="1">
+<token>2.0.0.0]],ConstructedBy</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.EventStore.Storage.IDomainEventStorage`1[[TDomainEvent</token>
+</entry>
+<entry count="2">
+<token>i:Fohjin.DDD.EventStore.IDomainEvent,</token>
+<token>Fohjin.DDD.EventStore]],</token>
+<token>Fohjin.DDD.EventStore]],OfConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.EventStore.IDomainRepository`1[[TDomainEvent</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.EventStore.Storage.IIdentityMap`1[[TDomainEvent</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.EventStore.IDomainEvent,</token>
+<token>Fohjin.DDD.EventStore]],</token>
+</entry>
+<entry count="1">
+<token>i:Fohjin.DDD.EventStore.Storage.IEventStoreUnitOfWork`1[[TDomainEvent</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.EventStore.IDomainEvent,</token>
+<token>Fohjin.DDD.EventStore]],</token>
+<token>Fohjin.DDD.EventStore]],OfConcreteType</token>
+</entry>
+<entry count="2">
+<token>Fohjin.DDD.EventStore]],OfConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+</entry>
+<entry count="1">
+<token>mscorlib,</token>
+<token>2.0.0.0]],ConstructedBy</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.EventStore.Storage.IDomainEventStorage`1[[TDomainEvent</token>
+</entry>
+<entry count="1">
+<token>Fohjin.DDD.EventStore]],CacheBy</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.EventStore.Storage.IEventStoreUnitOfWork`1[[TDomainEvent</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>StructureMap.Configuration.DSL.Expressions.CreatePluginFamilyExpression`1[[PLUGINTYPE</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.BankApplication.Views.IClientDetailsView,</token>
+<token>Fohjin.DDD.BankApplication]],TheDefaultIsConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.CreatePluginFamilyExpression`1[[PLUGINTYPE</token>
+</entry>
+<entry count="1">
+<token>i:Fohjin.DDD.Reporting.Infrastructure.ISqlDeleteBuilder,</token>
+<token>Fohjin.DDD.Reporting]],OfConcreteType</token>
+</entry>
+<entry count="1">
+<token>i:Fohjin.DDD.BankApplication.Views.IAccountDetailsView,</token>
+<token>Fohjin.DDD.BankApplication]],TheDefaultIsConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.CreatePluginFamilyExpression`1[[PLUGINTYPE</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>StructureMap.Configuration.DSL.Expressions.CreatePluginFamilyExpression`1[[PLUGINTYPE</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.BankApplication.Presenters.IClientDetailsPresenter,</token>
+<token>Fohjin.DDD.BankApplication]],TheDefaultIsConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.CreatePluginFamilyExpression`1[[PLUGINTYPE</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.Reporting.Infrastructure.ISqlDeleteBuilder,</token>
+<token>Fohjin.DDD.Reporting]],OfConcreteType</token>
+</entry>
+<entry count="1">
+<token>Fohjin.DDD.Bus]],AsSingletons</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+</entry>
+<entry count="1">
+<token>Fohjin.DDD.Bus]],CacheBy</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.Bus.IBus,</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.Reporting.Infrastructure.ISqlCreateBuilder,</token>
+<token>Fohjin.DDD.Reporting]],OfConcreteType</token>
+</entry>
+<entry count="1">
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.Reporting.Infrastructure.ISqlSelectBuilder,</token>
+</entry>
+<entry count="1">
+<token>i:Fohjin.DDD.Services.IReceiveMoneyTransfers,</token>
+<token>Fohjin.DDD.Services]],OfConcreteType</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.EventStore.Storage.IIdentityMap`1[[TDomainEvent</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>i:System.Runtime.Serialization.IFormatter,</token>
+<token>mscorlib,</token>
+<token>2.0.0.0]],ConstructedBy</token>
+</entry>
+<entry count="1">
+<token>Fohjin.DDD.EventStore]],</token>
+<token>Fohjin.DDD.EventStore]],OfConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.CreatePluginFamilyExpression`1[[PLUGINTYPE</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>Fohjin.DDD.Reporting]],OfConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.Reporting.Infrastructure.ISqlUpdateBuilder,</token>
+</entry>
+<entry count="1">
+<token>i:Fohjin.DDD.Bus.Direct.IRouteMessages,</token>
+<token>Fohjin.DDD.Bus]],AsSingletons</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.Bus.Direct.IRouteMessages,</token>
+</entry>
+<entry count="1">
+<token>i:Fohjin.DDD.Services.IReceiveMoneyTransfers,</token>
+<token>Fohjin.DDD.Services]],OfConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.EventStore.Storage.IDomainEventStorage`1[[TDomainEvent</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.EventStore.IDomainEvent,</token>
+</entry>
+<entry count="1">
+<token>StructureMap.Configuration.DSL.Expressions.CreatePluginFamilyExpression`1[[PLUGINTYPE</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.BankApplication.Views.IPopupView,</token>
+</entry>
+<entry count="1">
+<token>2.0.0.0]],ConstructedBy</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>i:System.Runtime.Serialization.IFormatter,</token>
+<token>mscorlib,</token>
+<token>2.0.0.0]],ConstructedBy</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+</entry>
+<entry count="1">
+<token>i:Fohjin.DDD.Bus.IBus,</token>
+<token>Fohjin.DDD.Bus]],CacheBy</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.Bus.Direct.IRouteMessages,</token>
+<token>Fohjin.DDD.Bus]],OfConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+</entry>
+<entry count="1">
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.Reporting.Infrastructure.ISqlDeleteBuilder,</token>
+<token>Fohjin.DDD.Reporting]],OfConcreteType</token>
+</entry>
+<entry count="1">
+<token>i:Fohjin.DDD.Bus.IBus,</token>
+<token>Fohjin.DDD.Bus]],CacheBy</token>
+</entry>
+<entry count="1">
+<token>i:Fohjin.DDD.EventStore.Storage.IIdentityMap`1[[TDomainEvent</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.EventStore.IDomainEvent,</token>
+<token>Fohjin.DDD.EventStore]],</token>
+<token>Fohjin.DDD.EventStore]],OfConcreteType</token>
+</entry>
+<entry count="2">
+<token>i:Fohjin.DDD.EventStore.Storage.IEventStoreUnitOfWork`1[[TDomainEvent</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.EventStore.IDomainEvent,</token>
+</entry>
+<entry count="1">
+<token>Fohjin.DDD.Bus]],OfConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+<token>i:System.Runtime.Serialization.IFormatter,</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.BankApplication.Presenters.IClientSearchFormPresenter,</token>
+<token>Fohjin.DDD.BankApplication]],TheDefaultIsConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.CreatePluginFamilyExpression`1[[PLUGINTYPE</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.BankApplication.Presenters.IClientDetailsPresenter,</token>
+<token>Fohjin.DDD.BankApplication]],TheDefaultIsConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.CreatePluginFamilyExpression`1[[PLUGINTYPE</token>
+</entry>
+<entry count="1">
+<token>i:Fohjin.DDD.BankApplication.Views.IAccountDetailsView,</token>
+<token>Fohjin.DDD.BankApplication]],TheDefaultIsConcreteType</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.Reporting.Infrastructure.ISqlCreateBuilder,</token>
+</entry>
+<entry count="1">
+<token>i:Fohjin.DDD.BankApplication.Views.IClientSearchFormView,</token>
+<token>Fohjin.DDD.BankApplication]],TheDefaultIsConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.CreatePluginFamilyExpression`1[[PLUGINTYPE</token>
+</entry>
+<entry count="1">
+<token>i:Fohjin.DDD.Bus.IBus,</token>
+<token>Fohjin.DDD.Bus]],OfConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.CreatePluginFamilyExpression`1[[PLUGINTYPE</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.Bus.Direct.IRouteMessages,</token>
+</entry>
+<entry count="1">
+<token>i:Fohjin.DDD.Services.ISendMoneyTransfer,</token>
+<token>Fohjin.DDD.Services]],OfConcreteType</token>
+</entry>
+<entry count="2">
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.Bus.Direct.IRouteMessages,</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.Reporting.Infrastructure.ISqlUpdateBuilder,</token>
+</entry>
+<entry count="1">
+<token>Fohjin.DDD.Reporting]],OfConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.Reporting.Infrastructure.ISqlInsertBuilder,</token>
+<token>Fohjin.DDD.Reporting]],OfConcreteType</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.BankApplication.Presenters.IPopupPresenter,</token>
+</entry>
+<entry count="1">
+<token>StructureMap.Configuration.DSL.Expressions.CreatePluginFamilyExpression`1[[PLUGINTYPE</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.EventStore.Storage.IEventStoreUnitOfWork`1[[TDomainEvent</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>Fohjin.DDD.EventStore]],ConstructedBy</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+</entry>
+<entry count="1">
+<token>Fohjin.DDD.EventStore]],ConstructedBy</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.EventStore.IDomainRepository`1[[TDomainEvent</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>i:Fohjin.DDD.Reporting.Infrastructure.ISqlUpdateBuilder,</token>
+<token>Fohjin.DDD.Reporting]],OfConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.Reporting.Infrastructure.ISqlDeleteBuilder,</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.EventStore.IUnitOfWork,</token>
+<token>Fohjin.DDD.EventStore]],ConstructedBy</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>i:Fohjin.DDD.EventStore.Storage.IEventStoreUnitOfWork`1[[TDomainEvent</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.EventStore.IDomainEvent,</token>
+<token>Fohjin.DDD.EventStore]],</token>
+<token>Fohjin.DDD.EventStore]],CacheBy</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.Reporting.Infrastructure.ISqlUpdateBuilder,</token>
+<token>Fohjin.DDD.Reporting]],OfConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.BankApplication.Views.IAccountDetailsView,</token>
+<token>Fohjin.DDD.BankApplication]],TheDefaultIsConcreteType</token>
+</entry>
+<entry count="1">
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.Reporting.Infrastructure.ISqlCreateBuilder,</token>
+</entry>
+<entry count="1">
+<token>i:Fohjin.DDD.Bus.Direct.IRouteMessages,</token>
+<token>Fohjin.DDD.Bus]],OfConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+</entry>
+<entry count="1">
+<token>Fohjin.DDD.Bus]],CacheBy</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.Reporting.IReportingRepository,</token>
+<token>Fohjin.DDD.Reporting]],OfConcreteType</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.BankApplication.Views.IClientSearchFormView,</token>
+<token>Fohjin.DDD.BankApplication]],TheDefaultIsConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.CreatePluginFamilyExpression`1[[PLUGINTYPE</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.Services.ISendMoneyTransfer,</token>
+<token>Fohjin.DDD.Services]],OfConcreteType</token>
+</entry>
+<entry count="1">
+<token>StructureMap.Configuration.DSL.Expressions.CreatePluginFamilyExpression`1[[PLUGINTYPE</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.BankApplication.Views.IAccountDetailsView,</token>
+<token>Fohjin.DDD.BankApplication]],TheDefaultIsConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.CreatePluginFamilyExpression`1[[PLUGINTYPE</token>
+</entry>
+<entry count="1">
+<token>i:Fohjin.DDD.BankApplication.Presenters.IClientSearchFormPresenter,</token>
+<token>Fohjin.DDD.BankApplication]],TheDefaultIsConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.CreatePluginFamilyExpression`1[[PLUGINTYPE</token>
+</entry>
+<entry count="4">
+<token>i:Fohjin.DDD.EventStore.IDomainEvent,</token>
+<token>Fohjin.DDD.EventStore]],</token>
+<token>Fohjin.DDD.EventStore]],OfConcreteType</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.Reporting.Infrastructure.ISqlDeleteBuilder,</token>
+</entry>
+<entry count="1">
+<token>i:Fohjin.DDD.EventStore.IDomainEvent,</token>
+<token>Fohjin.DDD.EventStore]],</token>
+<token>Fohjin.DDD.EventStore]],OfConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.CreatePluginFamilyExpression`1[[PLUGINTYPE</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.EventStore.Storage.IIdentityMap`1[[TDomainEvent</token>
+</entry>
+<entry count="1">
+<token>i:Fohjin.DDD.Reporting.Infrastructure.ISqlSelectBuilder,</token>
+<token>Fohjin.DDD.Reporting]],OfConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.Reporting.Infrastructure.ISqlUpdateBuilder,</token>
+</entry>
+<entry count="1">
+<token>Fohjin.DDD.BankApplication]],TheDefaultIsConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.CreatePluginFamilyExpression`1[[PLUGINTYPE</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.BankApplication.Views.IAccountDetailsView,</token>
+<token>Fohjin.DDD.BankApplication]],TheDefaultIsConcreteType</token>
+</entry>
+<entry count="1">
+<token>Fohjin.DDD.EventStore]],</token>
+<token>Fohjin.DDD.EventStore]],CacheBy</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.Services.ISendMoneyTransfer,</token>
+</entry>
+<entry count="1">
+<token>i:Fohjin.DDD.Bus.IBus,</token>
+<token>Fohjin.DDD.Bus]],OfConcreteType</token>
+</entry>
+<entry count="2">
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.EventStore.Storage.IEventStoreUnitOfWork`1[[TDomainEvent</token>
+</entry>
+<entry count="1">
+<token>i:Fohjin.DDD.Reporting.Infrastructure.ISqlInsertBuilder,</token>
+<token>Fohjin.DDD.Reporting]],OfConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.Reporting.Infrastructure.ISqlSelectBuilder,</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.Reporting.Infrastructure.ISqlUpdateBuilder,</token>
+<token>Fohjin.DDD.Reporting]],OfConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>Fohjin.DDD.EventStore]],CacheBy</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+</entry>
+<entry count="1">
+<token>i:Fohjin.DDD.BankApplication.Presenters.IPopupPresenter,</token>
+<token>Fohjin.DDD.BankApplication]],TheDefaultIsConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.CreatePluginFamilyExpression`1[[PLUGINTYPE</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.BankApplication.Views.IClientSearchFormView,</token>
+</entry>
+<entry count="1">
+<token>i:Fohjin.DDD.BankApplication.Views.IClientSearchFormView,</token>
+<token>Fohjin.DDD.BankApplication]],TheDefaultIsConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.CreatePluginFamilyExpression`1[[PLUGINTYPE</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>i:Fohjin.DDD.EventStore.Storage.IIdentityMap`1[[TDomainEvent</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.EventStore.IDomainEvent,</token>
+</entry>
+<entry count="5">
+<token>Fohjin.DDD.Reporting]],OfConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+</entry>
+<entry count="1">
+<token>i:Fohjin.DDD.BankApplication.Views.IClientDetailsView,</token>
+<token>Fohjin.DDD.BankApplication]],TheDefaultIsConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.CreatePluginFamilyExpression`1[[PLUGINTYPE</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.Bus.Direct.IRouteMessages,</token>
+<token>Fohjin.DDD.Bus]],AsSingletons</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+</entry>
+<entry count="1">
+<token>i:Fohjin.DDD.BankApplication.Presenters.IAccountDetailsPresenter,</token>
+<token>Fohjin.DDD.BankApplication]],TheDefaultIsConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.CreatePluginFamilyExpression`1[[PLUGINTYPE</token>
+</entry>
+<entry count="1">
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.EventStore.Storage.IDomainEventStorage`1[[TDomainEvent</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.EventStore.IDomainEvent,</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.EventStore.Storage.IDomainEventStorage`1[[TDomainEvent</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.EventStore.IDomainEvent,</token>
+<token>Fohjin.DDD.EventStore]],</token>
+</entry>
+<entry count="1">
+<token>i:Fohjin.DDD.Reporting.Infrastructure.ISqlSelectBuilder,</token>
+<token>Fohjin.DDD.Reporting]],OfConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.EventStore.IDomainRepository`1[[TDomainEvent</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.EventStore.IDomainEvent,</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.BankApplication.Presenters.IPopupPresenter,</token>
+<token>Fohjin.DDD.BankApplication]],TheDefaultIsConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.CreatePluginFamilyExpression`1[[PLUGINTYPE</token>
+</entry>
+<entry count="1">
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.Reporting.Infrastructure.ISqlDeleteBuilder,</token>
+</entry>
+<entry count="2">
+<token>i:Fohjin.DDD.EventStore.Storage.IEventStoreUnitOfWork`1[[TDomainEvent</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>i:Fohjin.DDD.Bus.IBus,</token>
+<token>Fohjin.DDD.Bus]],OfConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.CreatePluginFamilyExpression`1[[PLUGINTYPE</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.Bus.IBus,</token>
+<token>Fohjin.DDD.Bus]],CacheBy</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+</entry>
+<entry count="1">
+<token>i:Fohjin.DDD.Services.IReceiveMoneyTransfers,</token>
+<token>Fohjin.DDD.Services]],OfConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.Services.ISendMoneyTransfer,</token>
+</entry>
+<entry count="1">
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.EventStore.Storage.IEventStoreUnitOfWork`1[[TDomainEvent</token>
+</entry>
+<entry count="1">
+<token>Fohjin.DDD.EventStore]],OfConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.EventStore.Storage.IIdentityMap`1[[TDomainEvent</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.BankApplication.Views.IClientSearchFormView,</token>
+<token>Fohjin.DDD.BankApplication]],TheDefaultIsConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.CreatePluginFamilyExpression`1[[PLUGINTYPE</token>
+</entry>
+<entry count="1">
+<token>Fohjin.DDD.BankApplication]],TheDefaultIsConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.CreatePluginFamilyExpression`1[[PLUGINTYPE</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.BankApplication.Presenters.IPopupPresenter,</token>
+<token>Fohjin.DDD.BankApplication]],TheDefaultIsConcreteType</token>
+</entry>
+<entry count="1">
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.Services.ISendMoneyTransfer,</token>
+<token>Fohjin.DDD.Services]],OfConcreteType</token>
+</entry>
+<entry count="2">
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.EventStore.Storage.IEventStoreUnitOfWork`1[[TDomainEvent</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>i:Fohjin.DDD.EventStore.Storage.IDomainEventStorage`1[[TDomainEvent</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.EventStore.IDomainEvent,</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.Bus.IBus,</token>
+<token>Fohjin.DDD.Bus]],OfConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.CreatePluginFamilyExpression`1[[PLUGINTYPE</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.Reporting.Infrastructure.ISqlDeleteBuilder,</token>
+<token>Fohjin.DDD.Reporting]],OfConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+</entry>
+<entry count="1">
+<token>Fohjin.DDD.EventStore]],ConstructedBy</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.EventStore.IDomainRepository`1[[TDomainEvent</token>
+</entry>
+<entry count="1">
+<token>i:Fohjin.DDD.Bus.IBus,</token>
+<token>Fohjin.DDD.Bus]],CacheBy</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.Bus.IBus,</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.BankApplication.Presenters.IClientSearchFormPresenter,</token>
+</entry>
+<entry count="1">
+<token>i:Fohjin.DDD.EventStore.IDomainRepository`1[[TDomainEvent</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.EventStore.IDomainEvent,</token>
+<token>Fohjin.DDD.EventStore]],</token>
+<token>Fohjin.DDD.EventStore]],OfConcreteType</token>
+</entry>
+<entry count="1">
+<token>i:Fohjin.DDD.Bus.IBus,</token>
+<token>Fohjin.DDD.Bus]],CacheBy</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>Fohjin.DDD.Bus]],OfConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.CreatePluginFamilyExpression`1[[PLUGINTYPE</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.Reporting.IReportingRepository,</token>
+<token>Fohjin.DDD.Reporting]],OfConcreteType</token>
+</entry>
+<entry count="1">
+<token>Fohjin.DDD.BankApplication]],TheDefaultIsConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.CreatePluginFamilyExpression`1[[PLUGINTYPE</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.BankApplication.Views.IAccountDetailsView,</token>
+</entry>
+<entry count="1">
+<token>Fohjin.DDD.BankApplication]],TheDefaultIsConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.CreatePluginFamilyExpression`1[[PLUGINTYPE</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.BankApplication.Views.IClientSearchFormView,</token>
+</entry>
+<entry count="1">
+<token>i:Fohjin.DDD.Bus.IBus,</token>
+<token>Fohjin.DDD.Bus]],OfConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.CreatePluginFamilyExpression`1[[PLUGINTYPE</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.EventStore.IDomainEvent,</token>
+<token>Fohjin.DDD.EventStore]],</token>
+<token>Fohjin.DDD.EventStore]],CacheBy</token>
+</entry>
+<entry count="1">
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.EventStore.Storage.IIdentityMap`1[[TDomainEvent</token>
+</entry>
+<entry count="1">
+<token>i:Fohjin.DDD.BankApplication.Presenters.IAccountDetailsPresenter,</token>
+<token>Fohjin.DDD.BankApplication]],TheDefaultIsConcreteType</token>
+<token>StructureMap.Configuration.DSL.Expressions.CreatePluginFamilyExpression`1[[PLUGINTYPE</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>Fohjin.DDD.EventStore]],</token>
+<token>Fohjin.DDD.EventStore]],CacheBy</token>
+<token>StructureMap.Configuration.DSL.Expressions.IInstanceExpression`1[[T</token>
+<token>-&gt;</token>
+<token>i:Fohjin.DDD.EventStore.Storage.IEventStoreUnitOfWork`1[[TDomainEvent</token>
+</entry>
+</dictionary>

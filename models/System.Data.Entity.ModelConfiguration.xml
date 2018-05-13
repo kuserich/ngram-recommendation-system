@@ -1,0 +1,2578 @@
+<?xml version="1.0" encoding="UTF-8"?><dictionary case_sensitive="false">
+<entry count="2">
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>TDSM.Core.Data.Models.PlayerNode,</token>
+</entry>
+<entry count="1">
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Models.Movies.PosterImageInfo,</token>
+<token>Models]],HasKey</token>
+</entry>
+<entry count="4">
+<token>Models.Movies.Show,</token>
+<token>Models]],HasMany</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+</entry>
+<entry count="2">
+<token>Core]],ToTable</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+</entry>
+<entry count="1">
+<token>Models.Movies.Movie,</token>
+<token>Models]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+</entry>
+<entry count="2">
+<token>-&gt;</token>
+<token>TDSM.Core.Data.Models.APIAccountRole,</token>
+</entry>
+<entry count="1">
+<token>Models.Users.Authorization.ClientApplication,</token>
+<token>Models]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+</entry>
+<entry count="6">
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Models.Movies.Show,</token>
+</entry>
+<entry count="1">
+<token>Models]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Models.Movies.Show,</token>
+<token>Models]],ToTable</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>Models.Movies.Movie,</token>
+<token>Models]],HasKey</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>Models.Movies.Keyword,</token>
+<token>Models]],ToTable</token>
+</entry>
+<entry count="1">
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Models.Movies.Language,</token>
+<token>Models]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+</entry>
+<entry count="2">
+<token>-&gt;</token>
+<token>TDSM.Core.Data.Group,</token>
+<token>Core]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+</entry>
+<entry count="1">
+<token>Models]],ToTable</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Models.Movies.PosterImageInfo,</token>
+<token>Models]],HasKey</token>
+</entry>
+<entry count="1">
+<token>Models]],ToTable</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Models.Movies.Genre,</token>
+<token>Models]],HasKey</token>
+</entry>
+<entry count="2">
+<token>TDSM.Core.Data.DbPlayer,</token>
+<token>Core]],ToTable</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>Models.Movies.Language,</token>
+<token>Models]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+</entry>
+<entry count="1">
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Models.Users.Authorization.ClientApplication,</token>
+<token>Models]],HasKey</token>
+</entry>
+<entry count="1">
+<token>Models.Users.Authorization.RefreshToken,</token>
+<token>Models]],ToTable</token>
+</entry>
+<entry count="1">
+<token>Models]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Models.Users.Authorization.RefreshToken,</token>
+<token>Models]],HasRequired</token>
+</entry>
+<entry count="5">
+<token>-&gt;</token>
+<token>Models.Movies.Movie,</token>
+<token>Models]],HasMany</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>Models.Users.Authorization.ClientApplication,</token>
+<token>Models]],ToTable</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+</entry>
+<entry count="3">
+<token>-&gt;</token>
+<token>Bonobo.Git.Server.Data.Repository,</token>
+<token>Bonobo.Git.Server]],HasMany</token>
+</entry>
+<entry count="2">
+<token>TDSM.Core.Data.Models.PlayerNode,</token>
+<token>Core]],HasKey</token>
+</entry>
+<entry count="3">
+<token>Models]],HasMany</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Models.Movies.Show,</token>
+<token>Models]],HasMany</token>
+</entry>
+<entry count="2">
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>TDSM.Core.ServerCharacters.SlotItem,</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>Models.Movies.PosterImageInfo,</token>
+<token>Models]],HasKey</token>
+</entry>
+<entry count="1">
+<token>OSharp.Demo.Core]],HasRequired</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+</entry>
+<entry count="9">
+<token>Models]],ToTable</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+</entry>
+<entry count="2">
+<token>-&gt;</token>
+<token>TDSM.Core.Data.Models.PlayerNode,</token>
+</entry>
+<entry count="1">
+<token>Models.Movies.Show,</token>
+<token>Models]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Models.Movies.Show,</token>
+</entry>
+<entry count="1">
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Models.Users.Authorization.ClientApplication,</token>
+<token>Models]],ToTable</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+</entry>
+<entry count="1">
+<token>Models]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Models.Movies.Language,</token>
+</entry>
+<entry count="1">
+<token>Models]],ToTable</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Models.Movies.Movie,</token>
+<token>Models]],HasKey</token>
+</entry>
+<entry count="6">
+<token>-&gt;</token>
+<token>Models.Movies.Show,</token>
+</entry>
+<entry count="2">
+<token>Bonobo.Git.Server.Data.Repository,</token>
+<token>Bonobo.Git.Server]],HasMany</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+</entry>
+<entry count="2">
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>TDSM.Core.Data.Models.APIAccountRole,</token>
+</entry>
+<entry count="1">
+<token>Models.Users.Authorization.RefreshToken,</token>
+<token>Models]],HasRequired</token>
+</entry>
+<entry count="1">
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Models.Movies.Movie,</token>
+<token>Models]],HasKey</token>
+</entry>
+<entry count="1">
+<token>Models.Movies.Movie,</token>
+<token>Models]],ToTable</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+</entry>
+<entry count="2">
+<token>Core]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>TDSM.Core.Data.Models.PlayerNode,</token>
+</entry>
+<entry count="2">
+<token>-&gt;</token>
+<token>TDSM.Core.Data.Models.Character,</token>
+<token>Core]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+</entry>
+<entry count="2">
+<token>TDSM.Core.Data.Models.PlayerGroup,</token>
+<token>Core]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+</entry>
+<entry count="2">
+<token>Core]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>TDSM.Core.Data.Models.APIAccountRole,</token>
+<token>Core]],HasKey</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>Models.Movies.PosterImageInfo,</token>
+<token>Models]],ToTable</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+</entry>
+<entry count="2">
+<token>TDSM.Core.Data.Models.Character,</token>
+<token>Core]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>TDSM.Core.Data.Models.LoadoutItem,</token>
+</entry>
+<entry count="2">
+<token>TDSM.Core.ServerCharacters.SlotItem,</token>
+<token>Core]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>Models.Movies.BackdropImageInfo,</token>
+<token>Models]],ToTable</token>
+</entry>
+<entry count="1">
+<token>Models.Movies.Movie,</token>
+<token>Models]],HasMany</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Models.Movies.Genre,</token>
+</entry>
+<entry count="1">
+<token>Models]],HasMany</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Models.Movies.Genre,</token>
+<token>Models]],ToTable</token>
+</entry>
+<entry count="2">
+<token>Core]],ToTable</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>TDSM.Core.Data.DbPlayer,</token>
+</entry>
+<entry count="1">
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Models.Movies.Keyword,</token>
+<token>Models]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+</entry>
+<entry count="2">
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>TDSM.Core.Data.DbPlayer,</token>
+<token>Core]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>Models.Movies.PosterImageInfo,</token>
+<token>Models]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+</entry>
+<entry count="2">
+<token>TDSM.Core.Data.DbPlayer,</token>
+<token>Core]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+</entry>
+<entry count="2">
+<token>-&gt;</token>
+<token>TDSM.Core.Data.Group,</token>
+<token>Core]],HasKey</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>Models.Movies.Genre,</token>
+<token>Models]],HasKey</token>
+</entry>
+<entry count="2">
+<token>Bonobo.Git.Server]],HasMany</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Bonobo.Git.Server.Data.Repository,</token>
+<token>Bonobo.Git.Server]],HasMany</token>
+</entry>
+<entry count="2">
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>TDSM.Core.Data.DbPlayer,</token>
+<token>Core]],HasKey</token>
+</entry>
+<entry count="1">
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Models.Users.Authorization.ClientApplication,</token>
+<token>Models]],ToTable</token>
+</entry>
+<entry count="2">
+<token>-&gt;</token>
+<token>TDSM.Core.Data.Models.Character,</token>
+<token>Core]],HasKey</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>Models.Users.Authorization.ClientApplication,</token>
+<token>Models]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+</entry>
+<entry count="2">
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>OSharp.Demo.Models.Identity.UserRoleMap,</token>
+<token>OSharp.Demo.Core]],HasRequired</token>
+</entry>
+<entry count="5">
+<token>Models.Movies.Movie,</token>
+<token>Models]],HasMany</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+</entry>
+<entry count="2">
+<token>TDSM.Core.Data.Models.NodePermission,</token>
+<token>Core]],HasKey</token>
+</entry>
+<entry count="2">
+<token>TDSM.Core.ServerCharacters.SlotItem,</token>
+<token>Core]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>TDSM.Core.Data.Group,</token>
+</entry>
+<entry count="2">
+<token>-&gt;</token>
+<token>Models.Movies.Language,</token>
+</entry>
+<entry count="1">
+<token>Models.Movies.Show,</token>
+<token>Models]],ToTable</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>Models.Movies.Genre,</token>
+<token>Models]],ToTable</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>Models.Movies.Genre,</token>
+<token>Models]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+</entry>
+<entry count="1">
+<token>Models]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Models.Users.Authorization.ClientApplication,</token>
+</entry>
+<entry count="2">
+<token>TDSM.Core.Data.Models.PlayerNode,</token>
+<token>Core]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>TDSM.Core.Data.Models.GroupNode,</token>
+</entry>
+<entry count="2">
+<token>TDSM.Core.Data.Models.PlayerGroup,</token>
+<token>Core]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>TDSM.Core.Data.Models.NodePermission,</token>
+</entry>
+<entry count="1">
+<token>Models.Movies.Keyword,</token>
+<token>Models]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>Models.Movies.Show,</token>
+<token>Models]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+</entry>
+<entry count="1">
+<token>OSharp.Demo.Core]],HasRequired</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>OSharp.Demo.Models.Identity.UserRoleMap,</token>
+</entry>
+<entry count="2">
+<token>TDSM.Core.Data.Models.Character,</token>
+<token>Core]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Models.Movies.Genre,</token>
+<token>Models]],HasKey</token>
+</entry>
+<entry count="2">
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>TDSM.Core.Data.Group,</token>
+<token>Core]],HasKey</token>
+</entry>
+<entry count="1">
+<token>Models.Movies.Genre,</token>
+<token>Models]],ToTable</token>
+</entry>
+<entry count="1">
+<token>Models.Movies.BackdropImageInfo,</token>
+<token>Models]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+</entry>
+<entry count="1">
+<token>Models]],ToTable</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Models.Users.Authorization.ClientApplication,</token>
+<token>Models]],HasKey</token>
+</entry>
+<entry count="2">
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>TDSM.Core.Data.Models.Character,</token>
+<token>Core]],HasKey</token>
+</entry>
+<entry count="2">
+<token>-&gt;</token>
+<token>TDSM.Core.Data.DbPlayer,</token>
+<token>Core]],HasKey</token>
+</entry>
+<entry count="1">
+<token>Models.Movies.BackdropImageInfo,</token>
+<token>Models]],ToTable</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Models.Movies.Keyword,</token>
+<token>Models]],ToTable</token>
+</entry>
+<entry count="2">
+<token>Bonobo.Git.Server.Data.Repository,</token>
+<token>Bonobo.Git.Server]],HasMany</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+</entry>
+<entry count="2">
+<token>-&gt;</token>
+<token>OSharp.Demo.Models.Identity.UserRoleMap,</token>
+<token>OSharp.Demo.Core]],HasRequired</token>
+</entry>
+<entry count="1">
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Models.Movies.PosterImageInfo,</token>
+<token>Models]],ToTable</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+</entry>
+<entry count="1">
+<token>Models.Movies.PosterImageInfo,</token>
+<token>Models]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Models.Users.Authorization.ClientApplication,</token>
+</entry>
+<entry count="1">
+<token>Models.Users.Authorization.RefreshToken,</token>
+<token>Models]],ToTable</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Models.Users.Authorization.RefreshToken,</token>
+</entry>
+<entry count="2">
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Models.Movies.BackdropImageInfo,</token>
+</entry>
+<entry count="2">
+<token>TDSM.Core.Data.DbPlayer,</token>
+<token>Core]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>TDSM.Core.Data.Models.PlayerGroup,</token>
+</entry>
+<entry count="1">
+<token>Models]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Models.Movies.PosterImageInfo,</token>
+<token>Models]],ToTable</token>
+</entry>
+<entry count="2">
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>TDSM.Core.Data.Group,</token>
+<token>Core]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+</entry>
+<entry count="1">
+<token>Models.Movies.Show,</token>
+<token>Models]],ToTable</token>
+</entry>
+<entry count="1">
+<token>Models]],ToTable</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Models.Users.Authorization.RefreshToken,</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>Models.Movies.BackdropImageInfo,</token>
+<token>Models]],ToTable</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+</entry>
+<entry count="3">
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Bonobo.Git.Server.Data.Repository,</token>
+<token>Bonobo.Git.Server]],HasMany</token>
+</entry>
+<entry count="2">
+<token>TDSM.Core.Data.Models.Character,</token>
+<token>Core]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+</entry>
+<entry count="5">
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Models.Movies.Movie,</token>
+<token>Models]],HasMany</token>
+</entry>
+<entry count="2">
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>TDSM.Core.Data.Models.APIAccountRole,</token>
+<token>Core]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+</entry>
+<entry count="4">
+<token>Models]],HasMany</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Models.Movies.Movie,</token>
+</entry>
+<entry count="1">
+<token>Models.Users.Authorization.ClientApplication,</token>
+<token>Models]],ToTable</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Models.Users.Authorization.ClientApplication,</token>
+</entry>
+<entry count="2">
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>TDSM.Core.Data.Models.LoadoutItem,</token>
+<token>Core]],HasKey</token>
+</entry>
+<entry count="2">
+<token>-&gt;</token>
+<token>TDSM.Core.Data.Models.PlayerGroup,</token>
+<token>Core]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+</entry>
+<entry count="2">
+<token>TDSM.Core.Data.Models.APIAccount,</token>
+<token>Core]],HasKey</token>
+</entry>
+<entry count="1">
+<token>Models.Movies.Language,</token>
+<token>Models]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+</entry>
+<entry count="1">
+<token>Models]],ToTable</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Models.Movies.Keyword,</token>
+<token>Models]],HasKey</token>
+</entry>
+<entry count="1">
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Models.Movies.Show,</token>
+<token>Models]],ToTable</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+</entry>
+<entry count="1">
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Models.Movies.Genre,</token>
+<token>Models]],ToTable</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>OSharp.Demo.Models.Identity.UserRoleMap,</token>
+<token>OSharp.Demo.Core]],HasRequired</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+</entry>
+<entry count="2">
+<token>Core]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>TDSM.Core.Data.Models.PlayerGroup,</token>
+</entry>
+<entry count="1">
+<token>OSharp.Demo.Models.Identity.UserRoleMap,</token>
+<token>OSharp.Demo.Core]],HasRequired</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+</entry>
+<entry count="1">
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Models.Users.Authorization.RefreshToken,</token>
+<token>Models]],ToTable</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+</entry>
+<entry count="2">
+<token>Core]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>TDSM.Core.Data.Models.LoadoutItem,</token>
+<token>Core]],HasKey</token>
+</entry>
+<entry count="1">
+<token>Models.Movies.Language,</token>
+<token>Models]],HasKey</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>Models.Users.Authorization.ClientApplication,</token>
+<token>Models]],ToTable</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+</entry>
+<entry count="2">
+<token>TDSM.Core.Data.DbPlayer,</token>
+<token>Core]],ToTable</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>Models.Users.Authorization.RefreshToken,</token>
+<token>Models]],ToTable</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+</entry>
+<entry count="1">
+<token>Models.Movies.Genre,</token>
+<token>Models]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Models.Movies.Language,</token>
+</entry>
+<entry count="2">
+<token>-&gt;</token>
+<token>TDSM.Core.Data.DbPlayer,</token>
+<token>Core]],ToTable</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+</entry>
+<entry count="2">
+<token>-&gt;</token>
+<token>TDSM.Core.ServerCharacters.SlotItem,</token>
+<token>Core]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+</entry>
+<entry count="7">
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Models.Movies.Movie,</token>
+</entry>
+<entry count="2">
+<token>-&gt;</token>
+<token>TDSM.Core.Data.Models.PlayerNode,</token>
+<token>Core]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+</entry>
+<entry count="2">
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Models.Movies.Keyword,</token>
+</entry>
+<entry count="1">
+<token>Models]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Models.Movies.Show,</token>
+<token>Models]],HasMany</token>
+</entry>
+<entry count="1">
+<token>Models]],HasMany</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Models.Movies.BackdropImageInfo,</token>
+</entry>
+<entry count="4">
+<token>Models.Movies.Movie,</token>
+<token>Models]],HasMany</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Models.Movies.Movie,</token>
+</entry>
+<entry count="1">
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Models.Movies.Show,</token>
+<token>Models]],HasKey</token>
+</entry>
+<entry count="2">
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Models.Users.Authorization.ClientApplication,</token>
+</entry>
+<entry count="1">
+<token>Models]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Models.Users.Authorization.ClientApplication,</token>
+<token>Models]],ToTable</token>
+</entry>
+<entry count="1">
+<token>Models.Movies.PosterImageInfo,</token>
+<token>Models]],ToTable</token>
+</entry>
+<entry count="1">
+<token>Models.Users.Authorization.RefreshToken,</token>
+<token>Models]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Models.Users.Authorization.RefreshToken,</token>
+</entry>
+<entry count="2">
+<token>-&gt;</token>
+<token>TDSM.Core.Data.Models.PlayerGroup,</token>
+<token>Core]],HasKey</token>
+</entry>
+<entry count="2">
+<token>-&gt;</token>
+<token>TDSM.Core.Data.Group,</token>
+<token>Core]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+</entry>
+<entry count="2">
+<token>TDSM.Core.Data.Models.PlayerNode,</token>
+<token>Core]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+</entry>
+<entry count="1">
+<token>Models.Users.Authorization.ClientApplication,</token>
+<token>Models]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+</entry>
+<entry count="2">
+<token>TDSM.Core.Data.Models.GroupNode,</token>
+<token>Core]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+</entry>
+<entry count="2">
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>TDSM.Core.Data.Models.DataSetting,</token>
+</entry>
+<entry count="2">
+<token>-&gt;</token>
+<token>TDSM.Core.Data.Models.APIAccount,</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>Models.Movies.Keyword,</token>
+<token>Models]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>Models.Users.Authorization.ClientApplication,</token>
+<token>Models]],ToTable</token>
+</entry>
+<entry count="5">
+<token>Models.Movies.Movie,</token>
+<token>Models]],HasMany</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>Models.Movies.Keyword,</token>
+<token>Models]],ToTable</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+</entry>
+<entry count="4">
+<token>-&gt;</token>
+<token>TDSM.Core.Data.DbPlayer,</token>
+</entry>
+<entry count="2">
+<token>TDSM.Core.Data.Models.PlayerNode,</token>
+<token>Core]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+</entry>
+<entry count="2">
+<token>-&gt;</token>
+<token>TDSM.Core.Data.Models.LoadoutItem,</token>
+<token>Core]],HasKey</token>
+</entry>
+<entry count="2">
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>TDSM.Core.Data.Models.LoadoutItem,</token>
+</entry>
+<entry count="1">
+<token>Models.Movies.PosterImageInfo,</token>
+<token>Models]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Models.Movies.Keyword,</token>
+<token>Models]],HasKey</token>
+</entry>
+<entry count="2">
+<token>TDSM.Core.Data.Models.APIAccount,</token>
+<token>Core]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>Models.Movies.BackdropImageInfo,</token>
+<token>Models]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+</entry>
+<entry count="2">
+<token>Bonobo.Git.Server.Data.Repository,</token>
+<token>Bonobo.Git.Server]],HasMany</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Bonobo.Git.Server.Data.Repository,</token>
+</entry>
+<entry count="2">
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>TDSM.Core.Data.Models.PlayerGroup,</token>
+<token>Core]],HasKey</token>
+</entry>
+<entry count="1">
+<token>Models.Users.Authorization.RefreshToken,</token>
+<token>Models]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+</entry>
+<entry count="2">
+<token>TDSM.Core.Data.DbPlayer,</token>
+<token>Core]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+</entry>
+<entry count="2">
+<token>TDSM.Core.Data.Models.APIAccount,</token>
+<token>Core]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+</entry>
+<entry count="9">
+<token>Models]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+</entry>
+<entry count="2">
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>TDSM.Core.Data.Models.NodePermission,</token>
+</entry>
+<entry count="2">
+<token>-&gt;</token>
+<token>Bonobo.Git.Server.Data.Repository,</token>
+<token>Bonobo.Git.Server]],HasMany</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+</entry>
+<entry count="4">
+<token>Models.Movies.Show,</token>
+<token>Models]],HasMany</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>Models.Movies.Show,</token>
+<token>Models]],HasKey</token>
+</entry>
+<entry count="1">
+<token>Models]],ToTable</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Models.Movies.Genre,</token>
+</entry>
+<entry count="5">
+<token>-&gt;</token>
+<token>Models.Movies.Movie,</token>
+<token>Models]],HasMany</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+</entry>
+<entry count="2">
+<token>-&gt;</token>
+<token>Models.Users.Authorization.ClientApplication,</token>
+</entry>
+<entry count="2">
+<token>-&gt;</token>
+<token>Models.Movies.Keyword,</token>
+</entry>
+<entry count="1">
+<token>Models]],ToTable</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Models.Movies.Show,</token>
+<token>Models]],HasKey</token>
+</entry>
+<entry count="2">
+<token>TDSM.Core.ServerCharacters.SlotItem,</token>
+<token>Core]],HasKey</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>Models.Movies.Keyword,</token>
+<token>Models]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+</entry>
+<entry count="2">
+<token>-&gt;</token>
+<token>TDSM.Core.Data.Models.APIAccountRole,</token>
+<token>Core]],HasKey</token>
+</entry>
+<entry count="2">
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Models.Movies.PosterImageInfo,</token>
+</entry>
+<entry count="4">
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Models.Movies.Show,</token>
+<token>Models]],HasMany</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>Models.Movies.BackdropImageInfo,</token>
+<token>Models]],ToTable</token>
+</entry>
+<entry count="1">
+<token>Models.Users.Authorization.ClientApplication,</token>
+<token>Models]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Models.Users.Authorization.RefreshToken,</token>
+</entry>
+<entry count="2">
+<token>TDSM.Core.Data.Models.NodePermission,</token>
+<token>Core]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+</entry>
+<entry count="1">
+<token>OSharp.Demo.Models.Identity.UserRoleMap,</token>
+<token>OSharp.Demo.Core]],HasRequired</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>Models.Movies.Movie,</token>
+<token>Models]],ToTable</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>Models.Users.Authorization.RefreshToken,</token>
+<token>Models]],HasKey</token>
+</entry>
+<entry count="9">
+<token>Models]],ToTable</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>Models.Movies.PosterImageInfo,</token>
+<token>Models]],ToTable</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>Models.Movies.Keyword,</token>
+<token>Models]],HasKey</token>
+</entry>
+<entry count="1">
+<token>Models]],ToTable</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Models.Movies.Keyword,</token>
+</entry>
+<entry count="2">
+<token>TDSM.Core.ServerCharacters.SlotItem,</token>
+<token>Core]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+</entry>
+<entry count="1">
+<token>Models.Users.Authorization.ClientApplication,</token>
+<token>Models]],ToTable</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+</entry>
+<entry count="4">
+<token>-&gt;</token>
+<token>Models.Movies.Show,</token>
+<token>Models]],HasMany</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>Models]],ToTable</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Models.Users.Authorization.ClientApplication,</token>
+</entry>
+<entry count="3">
+<token>-&gt;</token>
+<token>Models.Users.Authorization.RefreshToken,</token>
+</entry>
+<entry count="1">
+<token>Models]],ToTable</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Models.Movies.PosterImageInfo,</token>
+</entry>
+<entry count="1">
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Models.Movies.BackdropImageInfo,</token>
+<token>Models]],HasKey</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>Models.Movies.BackdropImageInfo,</token>
+<token>Models]],ToTable</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+</entry>
+<entry count="3">
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Bonobo.Git.Server.Data.Repository,</token>
+</entry>
+<entry count="2">
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>TDSM.Core.Data.Models.APIAccountRole,</token>
+<token>Core]],HasKey</token>
+</entry>
+<entry count="1">
+<token>Models.Movies.BackdropImageInfo,</token>
+<token>Models]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>Models.Movies.PosterImageInfo,</token>
+<token>Models]],ToTable</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Models.Movies.PosterImageInfo,</token>
+</entry>
+<entry count="2">
+<token>TDSM.Core.Data.Group,</token>
+<token>Core]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+</entry>
+<entry count="2">
+<token>TDSM.Core.Data.Models.GroupNode,</token>
+<token>Core]],HasKey</token>
+</entry>
+<entry count="1">
+<token>Models]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Models.Movies.Movie,</token>
+</entry>
+<entry count="1">
+<token>Models.Movies.Keyword,</token>
+<token>Models]],ToTable</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>Models.Movies.Movie,</token>
+<token>Models]],ToTable</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>Models.Movies.BackdropImageInfo,</token>
+<token>Models]],HasKey</token>
+</entry>
+<entry count="1">
+<token>Models.Movies.Language,</token>
+<token>Models]],ToTable</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Models.Movies.Language,</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>Models.Movies.BackdropImageInfo,</token>
+<token>Models]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>Models.Movies.PosterImageInfo,</token>
+<token>Models]],ToTable</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+</entry>
+<entry count="2">
+<token>TDSM.Core.Data.Models.LoadoutItem,</token>
+<token>Core]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+</entry>
+<entry count="4">
+<token>-&gt;</token>
+<token>Models.Movies.Show,</token>
+<token>Models]],HasMany</token>
+</entry>
+<entry count="1">
+<token>Models.Movies.Language,</token>
+<token>Models]],ToTable</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+</entry>
+<entry count="1">
+<token>Models]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Models.Users.Authorization.RefreshToken,</token>
+<token>Models]],ToTable</token>
+</entry>
+<entry count="1">
+<token>Models.Movies.Keyword,</token>
+<token>Models]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Models.Movies.Show,</token>
+</entry>
+<entry count="1">
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Models.Users.Authorization.RefreshToken,</token>
+<token>Models]],HasKey</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>Models.Users.Authorization.ClientApplication,</token>
+<token>Models]],HasKey</token>
+</entry>
+<entry count="1">
+<token>Models.Movies.Show,</token>
+<token>Models]],ToTable</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+</entry>
+<entry count="2">
+<token>TDSM.Core.Data.Models.LoadoutItem,</token>
+<token>Core]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+</entry>
+<entry count="2">
+<token>-&gt;</token>
+<token>TDSM.Core.Data.Models.LoadoutItem,</token>
+<token>Core]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+</entry>
+<entry count="2">
+<token>TDSM.Core.Data.Models.APIAccountRole,</token>
+<token>Core]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+</entry>
+<entry count="2">
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>TDSM.Core.Data.Models.Character,</token>
+<token>Core]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+</entry>
+<entry count="2">
+<token>Core]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>TDSM.Core.Data.Models.PlayerGroup,</token>
+<token>Core]],HasKey</token>
+</entry>
+<entry count="1">
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Models.Movies.BackdropImageInfo,</token>
+<token>Models]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+</entry>
+<entry count="1">
+<token>Models.Movies.Language,</token>
+<token>Models]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>Models.Movies.Genre,</token>
+<token>Models]],ToTable</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Models.Movies.Genre,</token>
+</entry>
+<entry count="2">
+<token>-&gt;</token>
+<token>TDSM.Core.Data.Models.Character,</token>
+</entry>
+<entry count="1">
+<token>Models]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Models.Movies.Movie,</token>
+<token>Models]],HasMany</token>
+</entry>
+<entry count="2">
+<token>-&gt;</token>
+<token>Models.Movies.Genre,</token>
+</entry>
+<entry count="3">
+<token>Models]],HasMany</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Models.Movies.Show,</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>Models.Movies.PosterImageInfo,</token>
+<token>Models]],ToTable</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+</entry>
+<entry count="3">
+<token>Bonobo.Git.Server.Data.Repository,</token>
+<token>Bonobo.Git.Server]],HasMany</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>Models.Users.Authorization.RefreshToken,</token>
+<token>Models]],ToTable</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>Models.Movies.Genre,</token>
+<token>Models]],ToTable</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>Models.Movies.BackdropImageInfo,</token>
+<token>Models]],ToTable</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Models.Movies.BackdropImageInfo,</token>
+</entry>
+<entry count="2">
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>TDSM.Core.Data.Models.GroupNode,</token>
+<token>Core]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+</entry>
+<entry count="2">
+<token>-&gt;</token>
+<token>TDSM.Core.Data.Models.GroupNode,</token>
+<token>Core]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>Models.Movies.Keyword,</token>
+<token>Models]],ToTable</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+</entry>
+<entry count="2">
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>TDSM.Core.Data.Models.DataSetting,</token>
+<token>Core]],HasKey</token>
+</entry>
+<entry count="1">
+<token>Models.Movies.Keyword,</token>
+<token>Models]],ToTable</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>Models.Users.Authorization.RefreshToken,</token>
+<token>Models]],ToTable</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>Models.Movies.PosterImageInfo,</token>
+<token>Models]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+</entry>
+<entry count="2">
+<token>Core]],ToTable</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>Models.Users.Authorization.RefreshToken,</token>
+<token>Models]],ToTable</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+</entry>
+<entry count="9">
+<token>Models]],HasMany</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+</entry>
+<entry count="2">
+<token>-&gt;</token>
+<token>TDSM.Core.Data.Models.GroupNode,</token>
+<token>Core]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+</entry>
+<entry count="1">
+<token>Models]],ToTable</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Models.Movies.Movie,</token>
+</entry>
+<entry count="1">
+<token>Models.Movies.Movie,</token>
+<token>Models]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Models.Movies.Keyword,</token>
+<token>Models]],ToTable</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+</entry>
+<entry count="2">
+<token>-&gt;</token>
+<token>TDSM.Core.ServerCharacters.SlotItem,</token>
+<token>Core]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+</entry>
+<entry count="2">
+<token>TDSM.Core.Data.Models.GroupNode,</token>
+<token>Core]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>TDSM.Core.Data.Models.APIAccount,</token>
+</entry>
+<entry count="2">
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>OSharp.Demo.Models.Identity.UserRoleMap,</token>
+</entry>
+<entry count="2">
+<token>TDSM.Core.Data.Group,</token>
+<token>Core]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>TDSM.Core.Data.DbPlayer,</token>
+</entry>
+<entry count="1">
+<token>Models.Movies.Genre,</token>
+<token>Models]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+</entry>
+<entry count="2">
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>TDSM.Core.Data.Models.NodePermission,</token>
+<token>Core]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+</entry>
+<entry count="2">
+<token>Bonobo.Git.Server]],HasMany</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+</entry>
+<entry count="3">
+<token>Models.Movies.Show,</token>
+<token>Models]],HasMany</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Models.Movies.Show,</token>
+</entry>
+<entry count="2">
+<token>Core]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>TDSM.Core.Data.Models.PlayerNode,</token>
+<token>Core]],HasKey</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>Models.Movies.Show,</token>
+<token>Models]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+</entry>
+<entry count="2">
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Models.Movies.Genre,</token>
+</entry>
+<entry count="2">
+<token>-&gt;</token>
+<token>TDSM.Core.Data.Models.LoadoutItem,</token>
+<token>Core]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+</entry>
+<entry count="1">
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Models.Users.Authorization.RefreshToken,</token>
+<token>Models]],ToTable</token>
+</entry>
+<entry count="1">
+<token>Models]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Models.Movies.Language,</token>
+<token>Models]],ToTable</token>
+</entry>
+<entry count="1">
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>OSharp.Demo.Models.Identity.UserRoleMap,</token>
+<token>OSharp.Demo.Core]],HasRequired</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+</entry>
+<entry count="1">
+<token>Models]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Models.Movies.Keyword,</token>
+<token>Models]],ToTable</token>
+</entry>
+<entry count="2">
+<token>-&gt;</token>
+<token>TDSM.Core.Data.Models.APIAccount,</token>
+<token>Core]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Models.Movies.BackdropImageInfo,</token>
+<token>Models]],ToTable</token>
+</entry>
+<entry count="2">
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>TDSM.Core.Data.Models.PlayerNode,</token>
+<token>Core]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+</entry>
+<entry count="2">
+<token>-&gt;</token>
+<token>TDSM.Core.Data.Models.DataSetting,</token>
+<token>Core]],HasKey</token>
+</entry>
+<entry count="1">
+<token>Models]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Models.Movies.PosterImageInfo,</token>
+</entry>
+<entry count="9">
+<token>Models]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+</entry>
+<entry count="2">
+<token>-&gt;</token>
+<token>TDSM.Core.Data.Models.PlayerNode,</token>
+<token>Core]],HasKey</token>
+</entry>
+<entry count="2">
+<token>-&gt;</token>
+<token>TDSM.Core.Data.Models.Character,</token>
+<token>Core]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+</entry>
+<entry count="1">
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Models.Users.Authorization.ClientApplication,</token>
+<token>Models]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+</entry>
+<entry count="1">
+<token>Models.Movies.Language,</token>
+<token>Models]],ToTable</token>
+</entry>
+<entry count="1">
+<token>Models.Movies.Movie,</token>
+<token>Models]],HasKey</token>
+</entry>
+<entry count="1">
+<token>Models.Users.Authorization.ClientApplication,</token>
+<token>Models]],ToTable</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Models.Users.Authorization.RefreshToken,</token>
+<token>Models]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+</entry>
+<entry count="1">
+<token>OSharp.Demo.Models.Identity.UserRoleMap,</token>
+<token>OSharp.Demo.Core]],HasRequired</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>OSharp.Demo.Models.Identity.UserRoleMap,</token>
+</entry>
+<entry count="1">
+<token>Models.Movies.Movie,</token>
+<token>Models]],ToTable</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Models.Movies.Movie,</token>
+</entry>
+<entry count="1">
+<token>Models.Movies.BackdropImageInfo,</token>
+<token>Models]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Models.Movies.PosterImageInfo,</token>
+</entry>
+<entry count="2">
+<token>-&gt;</token>
+<token>TDSM.Core.Data.Models.GroupNode,</token>
+</entry>
+<entry count="2">
+<token>TDSM.Core.Data.Models.Character,</token>
+<token>Core]],HasKey</token>
+</entry>
+<entry count="2">
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>TDSM.Core.Data.Models.APIAccount,</token>
+</entry>
+<entry count="1">
+<token>Models]],HasMany</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Models.Movies.BackdropImageInfo,</token>
+<token>Models]],ToTable</token>
+</entry>
+<entry count="1">
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Models.Movies.Movie,</token>
+<token>Models]],ToTable</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+</entry>
+<entry count="1">
+<token>Models]],ToTable</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Models.Movies.Language,</token>
+<token>Models]],HasKey</token>
+</entry>
+<entry count="1">
+<token>Models]],ToTable</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Models.Movies.BackdropImageInfo,</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>Models.Movies.Language,</token>
+<token>Models]],ToTable</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+</entry>
+<entry count="2">
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>TDSM.Core.Data.Models.APIAccount,</token>
+<token>Core]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+</entry>
+<entry count="1">
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Models.Movies.Show,</token>
+<token>Models]],ToTable</token>
+</entry>
+<entry count="2">
+<token>TDSM.Core.Data.Group,</token>
+<token>Core]],HasKey</token>
+</entry>
+<entry count="1">
+<token>Models.Movies.Genre,</token>
+<token>Models]],HasKey</token>
+</entry>
+<entry count="2">
+<token>Core]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>TDSM.Core.Data.Models.LoadoutItem,</token>
+</entry>
+<entry count="1">
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Models.Movies.Language,</token>
+<token>Models]],ToTable</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+</entry>
+<entry count="1">
+<token>Models]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Models.Movies.Keyword,</token>
+</entry>
+<entry count="2">
+<token>-&gt;</token>
+<token>TDSM.Core.Data.Models.NodePermission,</token>
+<token>Core]],HasKey</token>
+</entry>
+<entry count="2">
+<token>TDSM.Core.Data.Models.GroupNode,</token>
+<token>Core]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+</entry>
+<entry count="2">
+<token>-&gt;</token>
+<token>TDSM.Core.Data.Models.PlayerGroup,</token>
+</entry>
+<entry count="2">
+<token>Bonobo.Git.Server]],HasMany</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Bonobo.Git.Server.Data.Repository,</token>
+</entry>
+<entry count="1">
+<token>Models.Movies.Genre,</token>
+<token>Models]],ToTable</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>Models.Users.Authorization.RefreshToken,</token>
+<token>Models]],HasRequired</token>
+</entry>
+<entry count="2">
+<token>-&gt;</token>
+<token>TDSM.Core.Data.Models.NodePermission,</token>
+</entry>
+<entry count="2">
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>TDSM.Core.Data.Models.GroupNode,</token>
+</entry>
+<entry count="2">
+<token>Core]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>TDSM.Core.Data.Models.GroupNode,</token>
+</entry>
+<entry count="2">
+<token>Core]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>TDSM.Core.Data.Models.APIAccount,</token>
+</entry>
+<entry count="1">
+<token>Models.Movies.Show,</token>
+<token>Models]],HasMany</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Models.Movies.BackdropImageInfo,</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>Models.Users.Authorization.RefreshToken,</token>
+<token>Models]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+</entry>
+<entry count="2">
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>TDSM.Core.Data.Models.LoadoutItem,</token>
+<token>Core]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>OSharp.Demo.Models.Identity.UserRoleMap,</token>
+<token>OSharp.Demo.Core]],HasRequired</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+</entry>
+<entry count="2">
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>TDSM.Core.Data.Models.Character,</token>
+</entry>
+<entry count="2">
+<token>Core]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>TDSM.Core.Data.Models.DataSetting,</token>
+<token>Core]],HasKey</token>
+</entry>
+<entry count="2">
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>TDSM.Core.ServerCharacters.SlotItem,</token>
+<token>Core]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+</entry>
+<entry count="1">
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Models.Movies.BackdropImageInfo,</token>
+<token>Models]],ToTable</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>Models.Movies.Genre,</token>
+<token>Models]],ToTable</token>
+</entry>
+<entry count="9">
+<token>Models]],HasMany</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+</entry>
+<entry count="2">
+<token>Core]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>TDSM.Core.Data.Models.NodePermission,</token>
+<token>Core]],HasKey</token>
+</entry>
+<entry count="5">
+<token>Models.Movies.Movie,</token>
+<token>Models]],HasMany</token>
+</entry>
+<entry count="2">
+<token>TDSM.Core.Data.Group,</token>
+<token>Core]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+</entry>
+<entry count="2">
+<token>-&gt;</token>
+<token>Models.Movies.PosterImageInfo,</token>
+</entry>
+<entry count="2">
+<token>Core]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>TDSM.Core.Data.DbPlayer,</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>Models.Movies.Show,</token>
+<token>Models]],ToTable</token>
+</entry>
+<entry count="2">
+<token>-&gt;</token>
+<token>TDSM.Core.Data.Models.NodePermission,</token>
+<token>Core]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+</entry>
+<entry count="1">
+<token>Models.Movies.PosterImageInfo,</token>
+<token>Models]],HasKey</token>
+</entry>
+<entry count="2">
+<token>Core]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>TDSM.Core.Data.Models.DataSetting,</token>
+</entry>
+<entry count="2">
+<token>OSharp.Demo.Models.Identity.UserRoleMap,</token>
+<token>OSharp.Demo.Core]],HasRequired</token>
+</entry>
+<entry count="2">
+<token>-&gt;</token>
+<token>TDSM.Core.Data.Models.APIAccountRole,</token>
+<token>Core]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>Models.Movies.Language,</token>
+<token>Models]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Models.Movies.Keyword,</token>
+</entry>
+<entry count="2">
+<token>-&gt;</token>
+<token>TDSM.Core.Data.Models.PlayerNode,</token>
+<token>Core]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+</entry>
+<entry count="1">
+<token>Models]],ToTable</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Models.Movies.BackdropImageInfo,</token>
+<token>Models]],HasKey</token>
+</entry>
+<entry count="2">
+<token>TDSM.Core.Data.Models.APIAccountRole,</token>
+<token>Core]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+</entry>
+<entry count="3">
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Models.Users.Authorization.RefreshToken,</token>
+</entry>
+<entry count="2">
+<token>-&gt;</token>
+<token>OSharp.Demo.Models.Identity.UserRoleMap,</token>
+</entry>
+<entry count="2">
+<token>Core]],ToTable</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>TDSM.Core.Data.DbPlayer,</token>
+<token>Core]],HasKey</token>
+</entry>
+<entry count="2">
+<token>Core]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>TDSM.Core.Data.Models.NodePermission,</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>Models.Movies.Language,</token>
+<token>Models]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>Models.Movies.Show,</token>
+<token>Models]],ToTable</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+</entry>
+<entry count="3">
+<token>-&gt;</token>
+<token>Bonobo.Git.Server.Data.Repository,</token>
+</entry>
+<entry count="2">
+<token>-&gt;</token>
+<token>TDSM.Core.Data.Models.DataSetting,</token>
+</entry>
+<entry count="2">
+<token>-&gt;</token>
+<token>Bonobo.Git.Server.Data.Repository,</token>
+<token>Bonobo.Git.Server]],HasMany</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+</entry>
+<entry count="1">
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Models.Movies.PosterImageInfo,</token>
+<token>Models]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+</entry>
+<entry count="2">
+<token>TDSM.Core.Data.Models.APIAccount,</token>
+<token>Core]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>TDSM.Core.Data.Models.APIAccountRole,</token>
+</entry>
+<entry count="1">
+<token>Models.Movies.Genre,</token>
+<token>Models]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>Models]],ToTable</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Models.Users.Authorization.RefreshToken,</token>
+<token>Models]],HasKey</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>Models.Movies.PosterImageInfo,</token>
+<token>Models]],ToTable</token>
+</entry>
+<entry count="2">
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Bonobo.Git.Server.Data.Repository,</token>
+<token>Bonobo.Git.Server]],HasMany</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+</entry>
+<entry count="4">
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>TDSM.Core.Data.DbPlayer,</token>
+</entry>
+<entry count="2">
+<token>-&gt;</token>
+<token>TDSM.Core.Data.Models.LoadoutItem,</token>
+</entry>
+<entry count="2">
+<token>Core]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>TDSM.Core.Data.Models.GroupNode,</token>
+<token>Core]],HasKey</token>
+</entry>
+<entry count="1">
+<token>Models.Users.Authorization.RefreshToken,</token>
+<token>Models]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+</entry>
+<entry count="2">
+<token>-&gt;</token>
+<token>TDSM.Core.Data.Group,</token>
+</entry>
+<entry count="2">
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>TDSM.Core.Data.Models.GroupNode,</token>
+<token>Core]],HasKey</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>Models.Movies.Language,</token>
+<token>Models]],ToTable</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+</entry>
+<entry count="2">
+<token>TDSM.Core.Data.Models.PlayerGroup,</token>
+<token>Core]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+</entry>
+<entry count="4">
+<token>Models]],HasMany</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Models.Movies.Movie,</token>
+<token>Models]],HasMany</token>
+</entry>
+<entry count="1">
+<token>Models.Movies.BackdropImageInfo,</token>
+<token>Models]],ToTable</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+</entry>
+<entry count="2">
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>TDSM.Core.Data.DbPlayer,</token>
+<token>Core]],ToTable</token>
+</entry>
+<entry count="1">
+<token>Models.Movies.Keyword,</token>
+<token>Models]],ToTable</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Models.Movies.Keyword,</token>
+</entry>
+<entry count="2">
+<token>-&gt;</token>
+<token>TDSM.Core.Data.Models.APIAccount,</token>
+<token>Core]],HasKey</token>
+</entry>
+<entry count="2">
+<token>Core]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>TDSM.Core.Data.DbPlayer,</token>
+<token>Core]],ToTable</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>Models.Movies.Movie,</token>
+<token>Models]],ToTable</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>Models.Movies.PosterImageInfo,</token>
+<token>Models]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+</entry>
+<entry count="22">
+<token>Core]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+</entry>
+<entry count="2">
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>TDSM.Core.Data.DbPlayer,</token>
+<token>Core]],ToTable</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+</entry>
+<entry count="2">
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>TDSM.Core.ServerCharacters.SlotItem,</token>
+<token>Core]],HasKey</token>
+</entry>
+<entry count="2">
+<token>-&gt;</token>
+<token>TDSM.Core.Data.Models.GroupNode,</token>
+<token>Core]],HasKey</token>
+</entry>
+<entry count="1">
+<token>Models]],ToTable</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Models.Movies.Show,</token>
+</entry>
+<entry count="22">
+<token>Core]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+</entry>
+<entry count="2">
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>TDSM.Core.Data.Group,</token>
+</entry>
+<entry count="2">
+<token>TDSM.Core.Data.DbPlayer,</token>
+<token>Core]],ToTable</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>Models.Movies.Movie,</token>
+<token>Models]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+</entry>
+<entry count="2">
+<token>TDSM.Core.Data.DbPlayer,</token>
+<token>Core]],HasKey</token>
+</entry>
+<entry count="1">
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Models.Movies.PosterImageInfo,</token>
+<token>Models]],ToTable</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>Models.Movies.Genre,</token>
+<token>Models]],ToTable</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+</entry>
+<entry count="2">
+<token>TDSM.Core.Data.Models.PlayerGroup,</token>
+<token>Core]],HasKey</token>
+</entry>
+<entry count="1">
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Models.Movies.Genre,</token>
+<token>Models]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+</entry>
+<entry count="2">
+<token>-&gt;</token>
+<token>TDSM.Core.Data.Models.PlayerGroup,</token>
+<token>Core]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>Models.Movies.Show,</token>
+<token>Models]],HasKey</token>
+</entry>
+<entry count="1">
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Models.Movies.Language,</token>
+<token>Models]],ToTable</token>
+</entry>
+<entry count="2">
+<token>Models]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Models.Users.Authorization.RefreshToken,</token>
+</entry>
+<entry count="5">
+<token>-&gt;</token>
+<token>Models.Movies.Movie,</token>
+<token>Models]],HasMany</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+</entry>
+<entry count="2">
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>TDSM.Core.Data.Models.NodePermission,</token>
+<token>Core]],HasKey</token>
+</entry>
+<entry count="7">
+<token>-&gt;</token>
+<token>Models.Movies.Movie,</token>
+</entry>
+<entry count="4">
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Models.Movies.Show,</token>
+<token>Models]],HasMany</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+</entry>
+<entry count="1">
+<token>Models.Movies.Keyword,</token>
+<token>Models]],HasKey</token>
+</entry>
+<entry count="59">
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+</entry>
+<entry count="2">
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>TDSM.Core.Data.Models.PlayerGroup,</token>
+</entry>
+<entry count="1">
+<token>Models.Users.Authorization.ClientApplication,</token>
+<token>Models]],ToTable</token>
+</entry>
+<entry count="1">
+<token>Models.Movies.Keyword,</token>
+<token>Models]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+</entry>
+<entry count="2">
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>TDSM.Core.Data.Models.APIAccount,</token>
+<token>Core]],HasKey</token>
+</entry>
+<entry count="2">
+<token>-&gt;</token>
+<token>TDSM.Core.Data.DbPlayer,</token>
+<token>Core]],ToTable</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>Models.Movies.Genre,</token>
+<token>Models]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Models.Users.Authorization.RefreshToken,</token>
+<token>Models]],HasRequired</token>
+</entry>
+<entry count="1">
+<token>Models.Users.Authorization.RefreshToken,</token>
+<token>Models]],ToTable</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+</entry>
+<entry count="2">
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>TDSM.Core.Data.Models.PlayerGroup,</token>
+<token>Core]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>Models.Movies.Show,</token>
+<token>Models]],ToTable</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+</entry>
+<entry count="2">
+<token>TDSM.Core.Data.Models.NodePermission,</token>
+<token>Core]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>TDSM.Core.Data.Models.PlayerNode,</token>
+</entry>
+<entry count="2">
+<token>TDSM.Core.Data.DbPlayer,</token>
+<token>Core]],ToTable</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>TDSM.Core.Data.DbPlayer,</token>
+</entry>
+<entry count="2">
+<token>Bonobo.Git.Server]],HasMany</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+</entry>
+<entry count="2">
+<token>-&gt;</token>
+<token>TDSM.Core.ServerCharacters.SlotItem,</token>
+<token>Core]],HasKey</token>
+</entry>
+<entry count="2">
+<token>TDSM.Core.Data.Models.APIAccountRole,</token>
+<token>Core]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>TDSM.Core.Data.Models.DataSetting,</token>
+</entry>
+<entry count="2">
+<token>-&gt;</token>
+<token>TDSM.Core.ServerCharacters.SlotItem,</token>
+</entry>
+<entry count="1">
+<token>OSharp.Demo.Core]],HasRequired</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>OSharp.Demo.Models.Identity.UserRoleMap,</token>
+<token>OSharp.Demo.Core]],HasRequired</token>
+</entry>
+<entry count="1">
+<token>OSharp.Demo.Core]],HasRequired</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+</entry>
+<entry count="2">
+<token>TDSM.Core.Data.Models.APIAccountRole,</token>
+<token>Core]],HasKey</token>
+</entry>
+<entry count="2">
+<token>Models]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Models.Movies.Show,</token>
+</entry>
+<entry count="2">
+<token>-&gt;</token>
+<token>TDSM.Core.Data.Models.APIAccountRole,</token>
+<token>Core]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+</entry>
+<entry count="2">
+<token>-&gt;</token>
+<token>TDSM.Core.Data.DbPlayer,</token>
+<token>Core]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+</entry>
+<entry count="5">
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Models.Movies.Movie,</token>
+<token>Models]],HasMany</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>Models.Movies.Language,</token>
+<token>Models]],ToTable</token>
+</entry>
+<entry count="2">
+<token>-&gt;</token>
+<token>Models.Movies.BackdropImageInfo,</token>
+</entry>
+<entry count="2">
+<token>Core]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>TDSM.Core.Data.Models.APIAccountRole,</token>
+</entry>
+<entry count="1">
+<token>Models.Movies.Movie,</token>
+<token>Models]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Models.Movies.Movie,</token>
+</entry>
+<entry count="2">
+<token>TDSM.Core.Data.Models.DataSetting,</token>
+<token>Core]],HasKey</token>
+</entry>
+<entry count="2">
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>TDSM.Core.Data.Models.PlayerNode,</token>
+<token>Core]],HasKey</token>
+</entry>
+<entry count="2">
+<token>Core]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>TDSM.Core.Data.Group,</token>
+</entry>
+<entry count="1">
+<token>Models.Movies.Keyword,</token>
+<token>Models]],ToTable</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>Models.Movies.Movie,</token>
+<token>Models]],ToTable</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+</entry>
+<entry count="1">
+<token>Models.Movies.Show,</token>
+<token>Models]],ToTable</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Models.Movies.Show,</token>
+</entry>
+<entry count="1">
+<token>Models.Movies.Language,</token>
+<token>Models]],ToTable</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+</entry>
+<entry count="2">
+<token>Core]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>TDSM.Core.Data.Group,</token>
+<token>Core]],HasKey</token>
+</entry>
+<entry count="1">
+<token>Models]],HasMany</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Models.Movies.Genre,</token>
+</entry>
+<entry count="1">
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Models.Movies.Language,</token>
+<token>Models]],HasKey</token>
+</entry>
+<entry count="2">
+<token>Core]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>TDSM.Core.ServerCharacters.SlotItem,</token>
+<token>Core]],HasKey</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>Models.Users.Authorization.RefreshToken,</token>
+<token>Models]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Models.Movies.Show,</token>
+<token>Models]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+</entry>
+<entry count="1">
+<token>Models.Movies.BackdropImageInfo,</token>
+<token>Models]],HasKey</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>Models.Movies.Movie,</token>
+<token>Models]],ToTable</token>
+</entry>
+<entry count="2">
+<token>-&gt;</token>
+<token>TDSM.Core.Data.Models.NodePermission,</token>
+<token>Core]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+</entry>
+<entry count="2">
+<token>TDSM.Core.Data.Models.LoadoutItem,</token>
+<token>Core]],HasKey</token>
+</entry>
+<entry count="1">
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Models.Movies.Genre,</token>
+<token>Models]],ToTable</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+</entry>
+<entry count="2">
+<token>-&gt;</token>
+<token>TDSM.Core.Data.DbPlayer,</token>
+<token>Core]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+</entry>
+<entry count="2">
+<token>TDSM.Core.Data.Models.NodePermission,</token>
+<token>Core]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+</entry>
+<entry count="4">
+<token>-&gt;</token>
+<token>Models.Movies.Show,</token>
+<token>Models]],HasMany</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+</entry>
+<entry count="2">
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Models.Movies.Language,</token>
+</entry>
+<entry count="1">
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Models.Movies.Movie,</token>
+<token>Models]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+</entry>
+<entry count="2">
+<token>Core]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>TDSM.Core.ServerCharacters.SlotItem,</token>
+</entry>
+<entry count="1">
+<token>Models.Users.Authorization.ClientApplication,</token>
+<token>Models]],HasKey</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>Models.Movies.Movie,</token>
+<token>Models]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>Models.Movies.Language,</token>
+<token>Models]],HasKey</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>Models.Movies.Show,</token>
+<token>Models]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+</entry>
+<entry count="4">
+<token>Models.Movies.Show,</token>
+<token>Models]],HasMany</token>
+</entry>
+<entry count="1">
+<token>Models.Users.Authorization.RefreshToken,</token>
+<token>Models]],HasKey</token>
+</entry>
+<entry count="2">
+<token>-&gt;</token>
+<token>TDSM.Core.Data.DbPlayer,</token>
+<token>Core]],ToTable</token>
+</entry>
+<entry count="1">
+<token>Models.Movies.Show,</token>
+<token>Models]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>Models]],ToTable</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Models.Movies.Language,</token>
+</entry>
+<entry count="2">
+<token>TDSM.Core.Data.Models.LoadoutItem,</token>
+<token>Core]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>TDSM.Core.ServerCharacters.SlotItem,</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>Models.Users.Authorization.ClientApplication,</token>
+<token>Models]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+</entry>
+<entry count="2">
+<token>-&gt;</token>
+<token>TDSM.Core.Data.Models.APIAccount,</token>
+<token>Core]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+</entry>
+<entry count="1">
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>Models.Movies.Movie,</token>
+<token>Models]],ToTable</token>
+</entry>
+<entry count="2">
+<token>Core]],HasKey</token>
+<token>System.Data.Entity.ModelConfiguration.EntityTypeConfiguration`1[[TEntityType</token>
+<token>-&gt;</token>
+<token>TDSM.Core.Data.Models.APIAccount,</token>
+<token>Core]],HasKey</token>
+</entry>
+</dictionary>
