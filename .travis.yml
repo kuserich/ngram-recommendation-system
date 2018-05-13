@@ -1,15 +1,3 @@
-# safelist
-branches:
-  only:
-  - master
-  - testing
-  - develop
-
-# blacklist
-branches:
-  except:
-  - mvn-repo
-
 language: java
 jdk: oraclejdk8
 
