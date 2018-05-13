@@ -44,9 +44,13 @@ public class NgramRecommenderClient extends NGramLanguageModel implements ICalls
             add(new StringList(WhitespaceTokenizer.INSTANCE.tokenize(line)), 
                     NGRAM_MIN_LENGTH, NGRAM_MAX_LENGTH);
         }
+        setModelNameFromFileName(trainFile);
     }
     
     private void setModelNameFromFileName(String modelFile) {
+        if(modelFile.contains(".txt")) {
+            modelFile = modelFile.replace(".txt", "");
+        }
         if(modelFile.contains("/")) {
             modelName = modelFile.split("/")[1];
         } else {
@@ -62,11 +66,14 @@ public class NgramRecommenderClient extends NGramLanguageModel implements ICalls
         StringList predictedTokenStrings = predictNextTokens(new StringList(stringToCompare));
         Iterator<String> iter = predictedTokenStrings.iterator();
         while(iter.hasNext()) {
-            String operation = iter.next();
+            String tokenString = iter.next();
+            String type = tokenString.split(",")[0];
+            String operation = tokenString.split(",")[0];
 
             APIToken token = new APIToken();
             token.setNamespace(modelName);
             token.setOperation(operation);
+            token.setType(type);
             Tuple<IMethodName, Double> prediction = Tuple.newTuple(token, calculateProbability(predictedTokenStrings));
             recommendation.add(prediction);
         }

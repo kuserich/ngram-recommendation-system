@@ -17,9 +17,9 @@ public class RunExample {
     public static String eventsDir = "Events-170301-2";
 
     public static void main(String[] args) throws IOException {
-        extractSentences();
-        trainModels();
-//        predictionExample();
+//        extractSentences();
+//        trainModels();
+        predictionExample();
     }
 
     /**
@@ -72,7 +72,7 @@ public class RunExample {
     }
     
     public static void predictionExample() throws IOException {
-        NgramRecommenderClient nrc = new NgramRecommenderClient("models/System.Linq");
-        System.out.println(nrc.query("Select"));
+        NgramRecommenderClient nrc = new NgramRecommenderClient("models/System.Text");
+        System.out.println(nrc.query("System.Text.StringBuilder,AppendFormat"));
     }
 }
