@@ -1,4 +1,5 @@
 import cc.kave.commons.utils.io.Directory;
+import evaluation.NgramRecommenderEvaluation;
 import extractor.SentenceExtractor;
 import ngram.NgramRecommenderClient;
 import util.IoHelper;
@@ -17,9 +18,10 @@ public class RunExample {
     public static String eventsDir = "Events-170301-2";
 
     public static void main(String[] args) throws IOException {
-        extractSentences();
-        trainModels();
+//        extractSentences();
+//        trainModels();
 //        predictionExample();
+        evaluationExample();
     }
 
     /**
@@ -74,5 +76,9 @@ public class RunExample {
     public static void predictionExample() throws IOException {
         NgramRecommenderClient nrc = new NgramRecommenderClient("models/Autofac.Integration.WebApi.xml");
         System.out.println(nrc.query("Autofac.Integration.WebApi.RegistrationExtensions,RegisterWebApiFilterProvider"));
+    }
+    
+    public static void evaluationExample() {
+        NgramRecommenderEvaluation.readAllEvents(eventsDir);
     }
 }
