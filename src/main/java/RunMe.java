@@ -15,10 +15,10 @@
  * the License.
  */
 
-import ngram.ExampleClient;
+import ngram.NgramRecommenderClient;
 
+import java.io.FileInputStream;
 import java.io.IOException;
-import java.util.ArrayList;
 
 public class RunMe {
 
@@ -49,14 +49,14 @@ public class RunMe {
          * Example Client Usage
          */
 
-        ExampleClient client = new ExampleClient();
+
+        /*ExampleClient client = new ExampleClient();
         ArrayList<String> clientRequest = new ArrayList<>();
 
-        clientRequest.add("rawApiLines.txt");
-        clientRequest.add("<System.Drawing.Drawing2D,new>,<System.Drawing.Drawing2D,StartFigure>");
+        clientRequest.add("output/System.Linq.txt");
+//        clientRequest.add("<System.Data.Linq,new>");
+        clientRequest.add("<System.Linq,Select>");
 
-        System.out.println(client.query(clientRequest));
-
-
+        System.out.println(client.query(clientRequest));*/
     }
-};
+}
