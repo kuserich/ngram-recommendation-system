@@ -9,10 +9,9 @@
 
     <groupId>ch.uzh.ase.ngram</groupId>
     <artifactId>ngram-recommender</artifactId>
-    <version>0.1</version>
+    <version>0.1-${maven.build.timestamp}</version>
 
     <build>
-        <finalName>${project.artifactId}-${project.version}-${maven.build.timestamp}</finalName>
         <extensions>
             <extension>
                 <groupId>io.packagecloud.maven.wagon</groupId>
