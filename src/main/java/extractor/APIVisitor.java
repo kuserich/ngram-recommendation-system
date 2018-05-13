@@ -33,14 +33,14 @@ public class APIVisitor implements ISSTNodeVisitor<APISentenceTree, APIToken> {
      * (because we want to add tokens to a list/sentence and semantically, 
      * this function should return this list)
      * 
-     * Notice that this function is called in {@link SentenceExtractor#processContext(Context)}
+     * Notice that this function is called in {@link SentenceExtractor#processContext(Context, String)}
      * and will always receive a newly created {@link APISentenceTree} object.
      * Furthermore, this function will always call {@link #visit(List, APISentenceTree)}
      * and propagate further processing.
      *
      * TODO: {@link cc.kave.commons.model.ssts.impl.declarations.MethodDeclaration} contains a field isEntryPoint, see what this does
      * 
-     * @see SentenceExtractor#processContext(Context)
+     * @see SentenceExtractor#processContext(Context, String)
      *          
      * @see #visit(IInvocationExpression, APISentenceTree)
      * @see #visit(List, APISentenceTree)
@@ -304,6 +304,7 @@ public class APIVisitor implements ISSTNodeVisitor<APISentenceTree, APIToken> {
 
     @Override
     public APIToken visit(ICompletionExpression statement, APISentenceTree context) {
+        System.out.println("CompletionExpression");
         statement.getVariableReference().accept(this, context);
         return null;
     }

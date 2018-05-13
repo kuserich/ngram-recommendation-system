@@ -2,6 +2,7 @@ import cc.kave.commons.utils.io.Directory;
 import evaluation.NgramRecommenderEvaluation;
 import extractor.SentenceExtractor;
 import ngram.NgramRecommenderClient;
+import opennlp.tools.util.StringList;
 import util.IoHelper;
 
 import java.io.FileInputStream;
@@ -20,8 +21,8 @@ public class RunExample {
     public static void main(String[] args) throws IOException {
 //        extractSentences();
 //        trainModels();
-//        predictionExample();
-        evaluationExample();
+        predictionExample();
+//        evaluationExample();
     }
 
     /**
@@ -74,8 +75,35 @@ public class RunExample {
     }
     
     public static void predictionExample() throws IOException {
-        NgramRecommenderClient nrc = new NgramRecommenderClient("models/Autofac.Integration.WebApi.xml");
-        System.out.println(nrc.query("Autofac.Integration.WebApi.RegistrationExtensions,RegisterWebApiFilterProvider"));
+        NgramRecommenderClient nrc = new NgramRecommenderClient("models/NUnit.Framework.xml");
+        System.out.println(nrc.query(new StringList("NUnit.Framework.Assert,AreEqual")));
+        
+        System.out.println(nrc.query(
+            new StringList(
+        "NUnit.Framework.Assert,AreEqual", 
+                "NUnit.Framework.Assert,AreEqual"
+        )));
+        System.out.println(nrc.query(
+            new StringList(
+        "NUnit.Framework.Assert,AreEqual",
+                "NUnit.Framework.Assert,IsTrue"
+        )));
+        System.out.println(nrc.query(
+            new StringList(
+        "NUnit.Framework.Assert,AreEqual",
+                "NUnit.Framework.Assert,IsTrue",
+                "NUnit.Framework.Assert,AreEqual",
+                "NUnit.Framework.Assert,IsTrue"
+        )));
+
+        System.out.println(nrc.query(
+            new StringList(
+        "NUnit.Framework.Assert,AreEqual",
+                "NUnit.Framework.CollectionAssert,AreEqual",
+                "NUnit.Framework.Assert,AreEqual",
+                "NUnit.Framework.Assert,AreEqual"
+        )));
+
     }
     
     public static void evaluationExample() {

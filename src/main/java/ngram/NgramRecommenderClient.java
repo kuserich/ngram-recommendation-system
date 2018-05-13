@@ -15,7 +15,7 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Set;
 
-public class NgramRecommenderClient extends NGramLanguageModel implements ICallsRecommender<String> {
+public class NgramRecommenderClient extends NGramLanguageModel implements ICallsRecommender<StringList> {
 
     private static final int DEFAULT_N = 5;
 
@@ -60,10 +60,10 @@ public class NgramRecommenderClient extends NGramLanguageModel implements ICalls
 
     
     @Override
-    public Set<Tuple<IMethodName, Double>> query(String stringToCompare) {
+    public Set<Tuple<IMethodName, Double>> query(StringList stringToCompare) {
         Set<Tuple<IMethodName, Double>> recommendation = new HashSet<>();
         
-        StringList predictedTokenStrings = predictNextTokens(new StringList(stringToCompare));
+        StringList predictedTokenStrings = predictNextTokens(stringToCompare);
         Iterator<String> iter = predictedTokenStrings.iterator();
         while(iter.hasNext()) {
             String tokenString = iter.next();
