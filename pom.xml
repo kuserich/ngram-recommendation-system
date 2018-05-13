@@ -9,7 +9,7 @@
 
     <groupId>ch.uzh.ase.ngram</groupId>
     <artifactId>ngram-recommender</artifactId>
-    <version>0.1.${env.TRAVIS_BUILD_NUMBER}-{env.TRAVIS_BRANCH}</version>
+    <version>0.1.${env.TRAVIS_BUILD_NUMBER}-${env.TRAVIS_BRANCH}</version>
 
     <build>
         <extensions>
