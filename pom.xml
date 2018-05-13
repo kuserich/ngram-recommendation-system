@@ -9,9 +9,10 @@
 
     <groupId>ch.uzh.ase.ngram</groupId>
     <artifactId>ngram-recommender</artifactId>
-    <version>${git.branch}-0.1</version>
+    <version>0.1</version>
 
     <build>
+        <finalName>${project.artifactId}-${project.version}-${maven.build.timestamp}</finalName>
         <extensions>
             <extension>
                 <groupId>io.packagecloud.maven.wagon</groupId>
@@ -43,14 +44,6 @@
             </plugin>
         </plugins>
     </build>
-
-    <pluginRepositories>
-        <pluginRepository>
-            <id>sonatype-snapshots</id>
-            <name>Sonatype Snapshots</name>
-            <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
-        </pluginRepository>
-    </pluginRepositories>
 
     <distributionManagement>
         <repository>
