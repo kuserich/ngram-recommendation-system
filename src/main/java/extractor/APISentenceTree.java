@@ -36,25 +36,6 @@ public class APISentenceTree {
         sentenceList.add(new ArrayList<>());
         return flatten(sentenceList);
     }
-    
-    /*public List<List<APIToken>> flatten(List<List<APIToken>> sentenceList) {
-            for(APIToken token : tokens) {
-                for(List<APIToken> sentence : sentenceList) {
-                    if(!token.isEmpty()) {
-                        sentence.add(token);
-                    }
-                }
-                
-                if(branches.containsKey(token)) {
-                    List<List<APIToken>> copiedSentenceLists = copySentenceList(sentenceList);
-                    for(int i=0; i<branches.get(token).size(); i++) {
-                        sentenceList.addAll(branches.get(token).get(i).flatten(copySentenceList(copiedSentenceLists)));
-                    }
-                }
-            }
-        
-        return sentenceList;
-    }*/
 
     public List<List<APIToken>> flatten(List<List<APIToken>> sentenceList) {
         for(APIToken token : tokens) {

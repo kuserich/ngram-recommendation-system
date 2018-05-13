@@ -122,9 +122,9 @@ public class IoHelper {
 		PrintWriter out = new PrintWriter(bw);
 		for(List<APIToken> sentence : apiSentences) {
 			if(sentence.size() >= minLength) {
-				out.println(sentence.toString());
+//				out.println(sentence.toString());
                 
-				/*for(int i=0;i<sentence.size();i++) {
+				for(int i=0;i<sentence.size();i++) {
 					out.print(sentence.get(i).getType());
 					out.print(",");
 					out.print(sentence.get(i).getOperation());
@@ -132,7 +132,7 @@ public class IoHelper {
 						out.print(" ");
 					}
 				}
-				out.println();*/
+				out.println();
 			}
 		}
 		out.close();
