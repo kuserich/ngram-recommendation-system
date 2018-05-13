@@ -5,7 +5,7 @@ install:
   - "mvn -N io.takari:maven:wrapper -Dmaven=3.3.9"
   - "./mvnw --show-version --errors --batch-mode test-compile dependency:go-offline"
 
-script: "./mvnw --show-version --errors --batch-mode -Prun-its clean verify"
+script: "./mvnw --show-version --errors --batch-mode -Prun-its clean verify test jacoco:report"
 
 cache:
   directories:
@@ -17,3 +17,6 @@ deploy:
   skip_cleanup: true
   on:
     all_branches: true
+
+after_success:
+  - mvn coveralls:report
