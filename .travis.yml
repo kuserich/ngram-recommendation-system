@@ -19,4 +19,4 @@ deploy:
     all_branches: true
 
 after_success:
-  - mvn clean test jacoco:report coveralls:report
+  - mvn clean -DTRAVIS_JOB_ID=$TRAVIS_JOB_ID cobertura:cobertura coveralls:report
