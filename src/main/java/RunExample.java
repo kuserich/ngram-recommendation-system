@@ -68,11 +68,11 @@ public class RunExample {
         nrc.train(inputFile);
         
         System.out.println("[INFO]\t Serializing model ("+modelName+")");
-        nrc.serialize(new FileOutputStream(outputDirectory+modelName));
+        nrc.serialize(new FileOutputStream(outputDirectory+modelName+".xml"));
     }
     
     public static void predictionExample() throws IOException {
-        NgramRecommenderClient nrc = new NgramRecommenderClient("models/System.Text");
-        System.out.println(nrc.query("System.Text.StringBuilder,AppendFormat"));
+        NgramRecommenderClient nrc = new NgramRecommenderClient("models/Autofac.Integration.WebApi.xml");
+        System.out.println(nrc.query("Autofac.Integration.WebApi.RegistrationExtensions,RegisterWebApiFilterProvider"));
     }
 }

@@ -68,7 +68,7 @@ public class NgramRecommenderClient extends NGramLanguageModel implements ICalls
         while(iter.hasNext()) {
             String tokenString = iter.next();
             String type = tokenString.split(",")[0];
-            String operation = tokenString.split(",")[0];
+            String operation = tokenString.split(",")[1];
 
             APIToken token = new APIToken();
             token.setNamespace(modelName);
