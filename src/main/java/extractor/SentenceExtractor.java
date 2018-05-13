@@ -29,14 +29,12 @@ public class SentenceExtractor {
             Set<String> inputContexts = getInputZips(contextsDirectory);
 
             int cnt = 0;
+            int totalFiles = inputContexts.size();
             for(String inputContext : inputContexts) {
                 processZip(contextsDirectory + "/" + inputContext, outputDirectory);
                 System.out.println("====================================");
-                System.out.println("FINISHED PROCESSING FILE "+String.valueOf(cnt++)+"/"+String.valueOf(inputContext.length()));
+                System.out.println("FINISHED PROCESSING FILE "+String.valueOf(cnt++)+"/"+String.valueOf(totalFiles));
                 System.out.println("====================================");
-//                IoHelper.removeFile(contextsDirectory + "/" + inputContext);
-//                processZip(inputContext, outputDirectory);
-
             }
             
         } catch(IOException e) {
@@ -53,9 +51,6 @@ public class SentenceExtractor {
         try(IReadingArchive ra = new ReadingArchive(new File(inputFilePath))) {
             while(ra.hasNext()) {
                 System.out.println("\tProcessing entry: "+String.valueOf(cnt++)+"/"+ra.getNumberOfEntries());
-                if(cnt == 214) {
-                    System.out.println("Ok");
-                }
 
                 // within the slnZip, each stored context is contained as a single file that
                 // contains the Json representation of a Context.
@@ -106,7 +101,6 @@ public class SentenceExtractor {
                                 IoHelper.appendAPISentencesToFile(filename, bucketizedSentences.get(key), 2);
                             }
                         }
-//                        IoHelper.writeAPISentencesToFile(filename, apiSentences, 2);
                     }
                 } catch(IOException e) {
                     e.printStackTrace();
@@ -117,7 +111,12 @@ public class SentenceExtractor {
             }
         }
     }
-    
+
+    /**
+     * 
+     * @param apiSentences
+     * @return
+     */
     private Map<String, List<List<APIToken>>> bucketizeApiSentences(List<List<APIToken>> apiSentences) {
         Map<String, List<List<APIToken>>> buckets = new HashMap<>();
         for(List<APIToken> sentence : apiSentences) {

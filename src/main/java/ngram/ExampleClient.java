@@ -28,10 +28,11 @@ public class ExampleClient implements ICallsRecommender {
         ArrayList input = (ArrayList) args;
 
         try {
-            ModelBuilder model = new ModelBuilder((String) input.get(0));
+            ModelBuilder model = new ModelBuilder();
+            model.train((String) input.get(0));
             String stringToCompare = (String) input.get(1);
 
-            StringList recommendation = model.getNextTokens(stringToCompare);
+            StringList recommendation = model.predictNextTokens(stringToCompare);
             Double proba = model.getTokenProbability(recommendation);
 
             System.out.println("The Input String is " + stringToCompare);
