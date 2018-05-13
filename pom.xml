@@ -11,6 +11,10 @@
     <artifactId>ngram-recommender</artifactId>
     <version>0.1-${maven.build.timestamp}</version>
 
+    <properties>
+        <maven.build.timestamp.format>yyyyMMddHHmm</maven.build.timestamp.format>
+    </properties>
+
     <build>
         <extensions>
             <extension>
