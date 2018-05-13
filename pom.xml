@@ -9,7 +9,7 @@
 
     <groupId>ch.uzh.ase.ngram</groupId>
     <artifactId>ngram-recommender</artifactId>
-    <version>0.1-${maven.build.timestamp}</version>
+    <version>0.1.${env.TRAVIS_BUILD_NUMBER}-${maven.build.timestamp}</version>
 
     <properties>
         <maven.build.timestamp.format>yyyyMMddHHmm</maven.build.timestamp.format>
@@ -57,7 +57,7 @@
                     </coberturaReports>
                     <sourceEncoding>UTF-8</sourceEncoding>
                     <serviceName>travis-ci</serviceName>
-                    <serviceJobId>${env.TRAVIS_JOB_ID} </serviceJobId>
+                    <serviceJobId>${env.TRAVIS_JOB_ID}</serviceJobId>
                 </configuration>
             </plugin>
             <plugin>
