@@ -3,16 +3,72 @@
 <token>Microsoft.VisualStudio.Shell.Interop.IVsOutputWindow,GetPane</token>
 <token>Microsoft.VisualStudio.Shell.Interop.IVsOutputWindowPane,Clear</token>
 </entry>
-<entry count="32">
-<token>Microsoft.VisualStudio.Shell.Interop.IVsCommonMessagePump,SetWaitText</token>
-<token>Microsoft.VisualStudio.Shell.Interop.IVsCommonMessagePump,SetStatusBarText</token>
-</entry>
 <entry count="16">
 <token>Microsoft.VisualStudio.Shell.Interop.IVsOutputWindow,GetPane</token>
 <token>Microsoft.VisualStudio.Shell.Interop.IVsOutputWindowPane,Clear</token>
 <token>Microsoft.VisualStudio.Shell.Interop.IVsOutputWindowPane,Activate</token>
 <token>Microsoft.VisualStudio.Shell.Interop.IVsOutputWindowPane,OutputString</token>
 <token>Microsoft.VisualStudio.Shell.Interop.IVsUIShell,PostExecCommand</token>
+</entry>
+<entry count="8">
+<token>Microsoft.VisualStudio.Shell.Interop.IVsTaskList2,GetSelectionCount</token>
+<token>Microsoft.VisualStudio.Shell.Interop.IVsTaskList2,EnumSelectedItems</token>
+<token>Microsoft.VisualStudio.Shell.Interop.IVsEnumTaskItems,Next</token>
+</entry>
+<entry count="16">
+<token>Microsoft.VisualStudio.Shell.Interop.IVsOutputWindowPane,Clear</token>
+<token>Microsoft.VisualStudio.Shell.Interop.IVsOutputWindowPane,Activate</token>
+<token>Microsoft.VisualStudio.Shell.Interop.IVsOutputWindowPane,OutputString</token>
+<token>Microsoft.VisualStudio.Shell.Interop.IVsUIShell,PostExecCommand</token>
+</entry>
+<entry count="1">
+<token>Microsoft.VisualStudio.Shell.Interop.IVsSolution,CreateSolution</token>
+<token>Microsoft.VisualStudio.Shell.Interop.IVsSolution,SaveSolutionElement</token>
+</entry>
+<entry count="1">
+<token>Microsoft.VisualStudio.Shell.Interop.IVsShell,IsPackageLoaded</token>
+<token>Microsoft.VisualStudio.Shell.Interop.IVsShell,LoadPackage</token>
+</entry>
+<entry count="1">
+<token>Microsoft.VisualStudio.Shell.Interop.IVsRunningDocumentTable,FindAndLockDocument</token>
+<token>Microsoft.VisualStudio.Shell.Interop.IVsSolution,CloseSolutionElement</token>
+</entry>
+<entry count="5">
+<token>Microsoft.VisualStudio.Shell.Interop.IVsOutputWindow,CreatePane</token>
+<token>Microsoft.VisualStudio.Shell.Interop.IVsOutputWindow,GetPane</token>
+</entry>
+<entry count="16">
+<token>Microsoft.VisualStudio.Shell.Interop.IVsOutputWindowPane,Clear</token>
+<token>Microsoft.VisualStudio.Shell.Interop.IVsOutputWindowPane,Activate</token>
+</entry>
+<entry count="16">
+<token>Microsoft.VisualStudio.Shell.Interop.IVsOutputWindow,GetPane</token>
+<token>Microsoft.VisualStudio.Shell.Interop.IVsOutputWindowPane,Clear</token>
+<token>Microsoft.VisualStudio.Shell.Interop.IVsOutputWindowPane,Activate</token>
+<token>Microsoft.VisualStudio.Shell.Interop.IVsOutputWindowPane,OutputString</token>
+</entry>
+<entry count="32">
+<token>Microsoft.VisualStudio.Shell.Interop.IVsSolution,GetProjectEnum</token>
+<token>Microsoft.VisualStudio.Shell.Interop.IEnumHierarchies,Next</token>
+<token>Microsoft.VisualStudio.Shell.Interop.IVsSolution,GetProjectEnum</token>
+<token>Microsoft.VisualStudio.Shell.Interop.IEnumHierarchies,Next</token>
+</entry>
+<entry count="16">
+<token>Microsoft.VisualStudio.Shell.Interop.IVsOutputWindowPane,Activate</token>
+<token>Microsoft.VisualStudio.Shell.Interop.IVsOutputWindowPane,OutputString</token>
+<token>Microsoft.VisualStudio.Shell.Interop.IVsUIShell,PostExecCommand</token>
+</entry>
+<entry count="2">
+<token>Microsoft.VisualStudio.Shell.Interop.IVsSettingsManager,GetReadOnlySettingsStore</token>
+<token>Microsoft.VisualStudio.Shell.Interop.IVsSettingsStore,GetSubCollectionCount</token>
+</entry>
+<entry count="16">
+<token>Microsoft.VisualStudio.Shell.Interop.IVsOutputWindowPane,Activate</token>
+<token>Microsoft.VisualStudio.Shell.Interop.IVsOutputWindowPane,OutputString</token>
+</entry>
+<entry count="32">
+<token>Microsoft.VisualStudio.Shell.Interop.IVsCommonMessagePump,SetWaitText</token>
+<token>Microsoft.VisualStudio.Shell.Interop.IVsCommonMessagePump,SetStatusBarText</token>
 </entry>
 <entry count="32">
 <token>Microsoft.VisualStudio.Shell.Interop.IEnumHierarchies,Next</token>
@@ -32,12 +88,6 @@
 <token>Microsoft.VisualStudio.Shell.Interop.IVsOutputWindowPane,OutputString</token>
 </entry>
 <entry count="16">
-<token>Microsoft.VisualStudio.Shell.Interop.IVsOutputWindowPane,Clear</token>
-<token>Microsoft.VisualStudio.Shell.Interop.IVsOutputWindowPane,Activate</token>
-<token>Microsoft.VisualStudio.Shell.Interop.IVsOutputWindowPane,OutputString</token>
-<token>Microsoft.VisualStudio.Shell.Interop.IVsUIShell,PostExecCommand</token>
-</entry>
-<entry count="16">
 <token>Microsoft.VisualStudio.Shell.Interop.IVsOutputWindow,GetPane</token>
 <token>Microsoft.VisualStudio.Shell.Interop.IVsOutputWindowPane,Clear</token>
 <token>Microsoft.VisualStudio.Shell.Interop.IVsOutputWindowPane,Activate</token>
@@ -46,6 +96,11 @@
 <token>Microsoft.VisualStudio.Shell.Interop.IEnumHierarchies,Next</token>
 <token>Microsoft.VisualStudio.Shell.Interop.IVsSolution,GetProjectEnum</token>
 <token>Microsoft.VisualStudio.Shell.Interop.IEnumHierarchies,Next</token>
+</entry>
+<entry count="1">
+<token>Microsoft.VisualStudio.Shell.Interop.IVsSettingsManager,GetReadOnlySettingsStore</token>
+<token>Microsoft.VisualStudio.Shell.Interop.IVsSettingsStore,GetSubCollectionCount</token>
+<token>Microsoft.VisualStudio.Shell.Interop.IVsSettingsStore,GetSubCollectionName</token>
 </entry>
 <entry count="32">
 <token>Microsoft.VisualStudio.Shell.Interop.IVsSolution,GetProjectEnum</token>
@@ -58,39 +113,38 @@
 <token>Microsoft.VisualStudio.Shell.Interop.IVsCommonMessagePump,SetWaitText</token>
 <token>Microsoft.VisualStudio.Shell.Interop.IVsCommonMessagePump,SetStatusBarText</token>
 </entry>
+<entry count="1">
+<token>Microsoft.VisualStudio.Shell.Interop.IVsWindowFrame,GetProperty</token>
+<token>Microsoft.VisualStudio.Shell.Interop.IVsWindowFrame,SetProperty</token>
+</entry>
 <entry count="32">
 <token>Microsoft.VisualStudio.Shell.Interop.IVsCommonMessagePump,SetAllowCancel</token>
 <token>Microsoft.VisualStudio.Shell.Interop.IVsCommonMessagePump,SetWaitText</token>
-</entry>
-<entry count="16">
-<token>Microsoft.VisualStudio.Shell.Interop.IVsOutputWindowPane,Clear</token>
-<token>Microsoft.VisualStudio.Shell.Interop.IVsOutputWindowPane,Activate</token>
 </entry>
 <entry count="32">
 <token>Microsoft.VisualStudio.Shell.Interop.IVsCommonMessagePump,SetAllowCancel</token>
 <token>Microsoft.VisualStudio.Shell.Interop.IVsCommonMessagePump,SetWaitText</token>
 <token>Microsoft.VisualStudio.Shell.Interop.IVsCommonMessagePump,SetStatusBarText</token>
 </entry>
-<entry count="16">
-<token>Microsoft.VisualStudio.Shell.Interop.IVsOutputWindow,GetPane</token>
-<token>Microsoft.VisualStudio.Shell.Interop.IVsOutputWindowPane,Clear</token>
-<token>Microsoft.VisualStudio.Shell.Interop.IVsOutputWindowPane,Activate</token>
-<token>Microsoft.VisualStudio.Shell.Interop.IVsOutputWindowPane,OutputString</token>
+<entry count="8">
+<token>Microsoft.VisualStudio.Shell.Interop.IVsTaskList2,GetSelectionCount</token>
+<token>Microsoft.VisualStudio.Shell.Interop.IVsTaskList2,EnumSelectedItems</token>
 </entry>
-<entry count="32">
-<token>Microsoft.VisualStudio.Shell.Interop.IVsSolution,GetProjectEnum</token>
-<token>Microsoft.VisualStudio.Shell.Interop.IEnumHierarchies,Next</token>
-<token>Microsoft.VisualStudio.Shell.Interop.IVsSolution,GetProjectEnum</token>
-<token>Microsoft.VisualStudio.Shell.Interop.IEnumHierarchies,Next</token>
+<entry count="8">
+<token>Microsoft.VisualStudio.Shell.Interop.IVsTaskList2,EnumSelectedItems</token>
+<token>Microsoft.VisualStudio.Shell.Interop.IVsEnumTaskItems,Next</token>
 </entry>
 <entry count="16">
-<token>Microsoft.VisualStudio.Shell.Interop.IVsOutputWindowPane,Activate</token>
-<token>Microsoft.VisualStudio.Shell.Interop.IVsOutputWindowPane,OutputString</token>
-<token>Microsoft.VisualStudio.Shell.Interop.IVsUIShell,PostExecCommand</token>
+<token>Microsoft.VisualStudio.Shell.Interop.IVsSolution,AdviseSolutionEvents</token>
+<token>Microsoft.VisualStudio.Shell.Interop.IVsSolutionBuildManager,AdviseUpdateSolutionEvents</token>
 </entry>
-<entry count="16">
-<token>Microsoft.VisualStudio.Shell.Interop.IVsOutputWindowPane,Activate</token>
-<token>Microsoft.VisualStudio.Shell.Interop.IVsOutputWindowPane,OutputString</token>
+<entry count="1">
+<token>Microsoft.VisualStudio.Shell.Interop.IVsRunningDocumentTable,FindAndLockDocument</token>
+<token>Microsoft.VisualStudio.Shell.Interop.IVsSolution,SaveSolutionElement</token>
+</entry>
+<entry count="1">
+<token>Microsoft.VisualStudio.Shell.Interop.IVsSettingsStore,GetSubCollectionCount</token>
+<token>Microsoft.VisualStudio.Shell.Interop.IVsSettingsStore,GetSubCollectionName</token>
 </entry>
 <entry count="32">
 <token>Microsoft.VisualStudio.Shell.Interop.IVsCommonMessagePumpFactory,CreateInstance</token>

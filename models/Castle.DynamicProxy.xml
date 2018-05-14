@@ -1,24 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?><dictionary case_sensitive="false">
+<entry count="6">
+<token>Castle.DynamicProxy.ProxyGenerationOptions,new</token>
+<token>Castle.DynamicProxy.ProxyGenerationOptions,AddMixinInstance</token>
+</entry>
+<entry count="4">
+<token>Castle.DynamicProxy.ProxyGenerationOptions,new</token>
+<token>Castle.DynamicProxy.ProxyGenerator,CreateInterfaceProxyWithTarget</token>
+</entry>
 <entry count="1">
+<token>Castle.DynamicProxy.ProxyGenerator,new</token>
+<token>Castle.DynamicProxy.ProxyGenerator,CreateInterfaceProxyWithTarget</token>
+<token>Castle.DynamicProxy.ProxyGenerator,CreateInterfaceProxyWithTarget</token>
+<token>Castle.DynamicProxy.ProxyGenerator,CreateInterfaceProxyWithTarget</token>
+</entry>
+<entry count="4">
+<token>Castle.DynamicProxy.ProxyGenerator,new</token>
 <token>Castle.DynamicProxy.ProxyGenerationOptions,new</token>
 <token>Castle.DynamicProxy.ProxyGenerationOptions,AddMixinInstance</token>
 </entry>
 <entry count="1">
-<token>Castle.DynamicProxy.ProxyGenerationOptions,new</token>
-<token>Castle.DynamicProxy.ProxyGenerationOptions,AddMixinInstance</token>
-<token>Castle.DynamicProxy.ProxyGenerationOptions,AddMixinInstance</token>
+<token>Castle.DynamicProxy.IInvocation,GetArgumentValue</token>
+<token>Castle.DynamicProxy.IInvocation,GetArgumentValue</token>
 </entry>
-<entry count="1">
-<token>Castle.DynamicProxy.ProxyGenerationOptions,new</token>
-<token>Castle.DynamicProxy.ProxyGenerationOptions,AddMixinInstance</token>
-<token>Castle.DynamicProxy.ProxyGenerationOptions,AddMixinInstance</token>
-<token>Castle.DynamicProxy.ProxyGenerator,CreateClassProxy</token>
-</entry>
-<entry count="1">
-<token>Castle.DynamicProxy.ProxyGenerationOptions,AddMixinInstance</token>
-<token>Castle.DynamicProxy.ProxyGenerationOptions,AddMixinInstance</token>
-</entry>
-<entry count="1">
+<entry count="5">
 <token>Castle.DynamicProxy.ProxyGenerationOptions,AddMixinInstance</token>
 <token>Castle.DynamicProxy.ProxyGenerator,CreateClassProxy</token>
 </entry>
@@ -26,9 +30,89 @@
 <token>Castle.DynamicProxy.ProxyGenerator,new</token>
 <token>Castle.DynamicProxy.ProxyGenerator,CreateInterfaceProxyWithoutTarget</token>
 </entry>
+<entry count="4">
+<token>Castle.DynamicProxy.ProxyGenerator,new</token>
+<token>Castle.DynamicProxy.ProxyGenerationOptions,new</token>
+</entry>
+<entry count="4">
+<token>Castle.DynamicProxy.ProxyGenerator,new</token>
+<token>Castle.DynamicProxy.ProxyGenerationOptions,new</token>
+<token>Castle.DynamicProxy.ProxyGenerationOptions,AddMixinInstance</token>
+<token>Castle.DynamicProxy.ProxyGenerator,CreateClassProxy</token>
+</entry>
+<entry count="3">
+<token>Castle.DynamicProxy.ProxyGenerator,CreateInterfaceProxyWithTarget</token>
+<token>Castle.DynamicProxy.ProxyGenerator,CreateInterfaceProxyWithTarget</token>
+<token>Castle.DynamicProxy.ProxyGenerator,CreateInterfaceProxyWithTarget</token>
+</entry>
+<entry count="1">
+<token>Castle.DynamicProxy.IInvocation,GetConcreteMethod</token>
+<token>Castle.DynamicProxy.IInvocation,GetConcreteMethod</token>
+</entry>
 <entry count="1">
 <token>Castle.DynamicProxy.ProxyGenerationOptions,AddMixinInstance</token>
 <token>Castle.DynamicProxy.ProxyGenerationOptions,AddMixinInstance</token>
 <token>Castle.DynamicProxy.ProxyGenerator,CreateClassProxy</token>
+</entry>
+<entry count="8">
+<token>Castle.DynamicProxy.ProxyGenerationOptions,AddMixinInstance</token>
+<token>Castle.DynamicProxy.ProxyGenerator,CreateClassProxyWithTarget</token>
+</entry>
+<entry count="4">
+<token>Castle.DynamicProxy.ProxyGenerationOptions,new</token>
+<token>Castle.DynamicProxy.ProxyGenerationOptions,AddMixinInstance</token>
+<token>Castle.DynamicProxy.ProxyGenerator,CreateClassProxy</token>
+</entry>
+<entry count="12">
+<token>Castle.DynamicProxy.ProxyGenerator,new</token>
+<token>Castle.DynamicProxy.ProxyGenerator,CreateInterfaceProxyWithTarget</token>
+</entry>
+<entry count="1">
+<token>Castle.DynamicProxy.ProxyGenerationOptions,new</token>
+<token>Castle.DynamicProxy.ProxyGenerationOptions,AddMixinInstance</token>
+<token>Castle.DynamicProxy.ProxyGenerationOptions,AddMixinInstance</token>
+<token>Castle.DynamicProxy.ProxyGenerator,CreateClassProxy</token>
+</entry>
+<entry count="2">
+<token>Castle.DynamicProxy.IInvocation,GetConcreteMethod</token>
+<token>Castle.DynamicProxy.IInvocation,Proceed</token>
+</entry>
+<entry count="4">
+<token>Castle.DynamicProxy.PersistentProxyBuilder,new</token>
+<token>Castle.DynamicProxy.ProxyGenerator,new</token>
+</entry>
+<entry count="1">
+<token>Castle.DynamicProxy.IInvocation,GetConcreteMethodInvocationTarget</token>
+<token>Castle.DynamicProxy.IInvocation,GetConcreteMethodInvocationTarget</token>
+</entry>
+<entry count="3">
+<token>Castle.DynamicProxy.ProxyGenerationOptions,new</token>
+<token>Castle.DynamicProxy.ProxyGenerator,CreateClassProxy</token>
+</entry>
+<entry count="1">
+<token>Castle.DynamicProxy.ProxyGenerationOptions,new</token>
+<token>Castle.DynamicProxy.ProxyGenerationOptions,AddMixinInstance</token>
+<token>Castle.DynamicProxy.ProxyGenerationOptions,AddMixinInstance</token>
+</entry>
+<entry count="1">
+<token>Castle.DynamicProxy.ProxyGenerationOptions,AddMixinInstance</token>
+<token>Castle.DynamicProxy.ProxyGenerationOptions,AddMixinInstance</token>
+</entry>
+<entry count="4">
+<token>Castle.DynamicProxy.ProxyGenerator,new</token>
+<token>Castle.DynamicProxy.ProxyGenerator,CreateClassProxyWithTarget</token>
+</entry>
+<entry count="8">
+<token>Castle.DynamicProxy.ProxyGenerator,CreateInterfaceProxyWithTarget</token>
+<token>Castle.DynamicProxy.ProxyGenerator,CreateInterfaceProxyWithTarget</token>
+</entry>
+<entry count="3">
+<token>Castle.DynamicProxy.ProxyGenerator,new</token>
+<token>Castle.DynamicProxy.ProxyGenerator,CreateInterfaceProxyWithTarget</token>
+<token>Castle.DynamicProxy.ProxyGenerator,CreateInterfaceProxyWithTarget</token>
+</entry>
+<entry count="8">
+<token>Castle.DynamicProxy.ProxyGenerationOptions,AddMixinInstance</token>
+<token>Castle.DynamicProxy.ProxyGenerator,CreateInterfaceProxyWithTarget</token>
 </entry>
 </dictionary>

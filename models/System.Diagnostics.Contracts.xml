@@ -1,185 +1,3868 @@
 <?xml version="1.0" encoding="UTF-8"?><dictionary case_sensitive="false">
+<entry count="48">
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+</entry>
+<entry count="17">
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="4">
+<token>System.Diagnostics.Contracts.Contract,OldValue</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,OldValue</token>
+</entry>
+<entry count="1">
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
 <entry count="2">
-<token>System.Diagnostics.Contracts.Contract,Invariant</token>
-<token>System.Diagnostics.Contracts.Contract,Invariant</token>
-<token>System.Diagnostics.Contracts.Contract,Invariant</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
 </entry>
-<entry count="72">
+<entry count="2">
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="43">
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="382">
 <token>System.Diagnostics.Contracts.Contract,Requires</token>
-<token>System.Diagnostics.Contracts.Contract,EndContractBlock</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
 </entry>
-<entry count="35">
+<entry count="3">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,OldValue</token>
+</entry>
+<entry count="2">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="2603">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="97">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
 <token>System.Diagnostics.Contracts.Contract,Result</token>
 <token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="334">
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="8">
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,OldValue</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,OldValue</token>
+</entry>
+<entry count="9">
+<token>System.Diagnostics.Contracts.Contract,Invariant</token>
+<token>System.Diagnostics.Contracts.Contract,Invariant</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Invariant</token>
+</entry>
+<entry count="1136">
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="12">
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="16656">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+</entry>
+<entry count="21">
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="16">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="11">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+</entry>
+<entry count="1">
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,OldValue</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="161">
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="3">
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+</entry>
+<entry count="12">
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="6">
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
 <token>System.Diagnostics.Contracts.Contract,Result</token>
 </entry>
 <entry count="4">
 <token>System.Diagnostics.Contracts.Contract,Ensures</token>
-<token>System.Diagnostics.Contracts.Contract,EndContractBlock</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+</entry>
+<entry count="9">
+<token>System.Diagnostics.Contracts.Contract,Invariant</token>
+<token>System.Diagnostics.Contracts.Contract,Invariant</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+</entry>
+<entry count="87">
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+</entry>
+<entry count="1434">
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="2">
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="780">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="7">
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="227">
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="8">
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,OldValue</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,OldValue</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="171">
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="2">
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+</entry>
+<entry count="6">
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="6">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,OldValue</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+</entry>
+<entry count="24">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+</entry>
+<entry count="25">
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="90">
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="119">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="340">
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+</entry>
+<entry count="32">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="4">
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,OldValue</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="409">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="2">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
 </entry>
 <entry count="1">
 <token>System.Diagnostics.Contracts.Contract,Requires</token>
 <token>System.Diagnostics.Contracts.Contract,Requires</token>
 <token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,OldValue</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
 </entry>
-<entry count="358">
+<entry count="13">
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,OldValue</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="4">
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,OldValue</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,OldValue</token>
+</entry>
+<entry count="2">
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="1">
+<token>System.Diagnostics.Contracts.Contract,Invariant</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Invariant</token>
+</entry>
+<entry count="3">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+</entry>
+<entry count="5">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="607">
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+</entry>
+<entry count="1">
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="2">
+<token>System.Diagnostics.Contracts.Contract,OldValue</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="2">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+</entry>
+<entry count="139">
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="132">
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="2">
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Exists</token>
+</entry>
+<entry count="542">
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="90">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="2">
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="2">
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="89">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="8">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+</entry>
+<entry count="1">
+<token>System.Diagnostics.Contracts.Contract,OldValue</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,EnsuresOnThrow</token>
+</entry>
+<entry count="4">
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="5">
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="5">
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="3">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,OldValue</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,OldValue</token>
+</entry>
+<entry count="36">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="6">
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="130">
+<token>System.Diagnostics.Contracts.Contract,Invariant</token>
+<token>System.Diagnostics.Contracts.Contract,Invariant</token>
+<token>System.Diagnostics.Contracts.Contract,Invariant</token>
+<token>System.Diagnostics.Contracts.Contract,Invariant</token>
+</entry>
+<entry count="69">
+<token>System.Diagnostics.Contracts.Contract,Invariant</token>
+<token>System.Diagnostics.Contracts.Contract,Invariant</token>
+<token>System.Diagnostics.Contracts.Contract,Invariant</token>
+<token>System.Diagnostics.Contracts.Contract,Invariant</token>
+<token>System.Diagnostics.Contracts.Contract,Invariant</token>
+</entry>
+<entry count="6">
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="22">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,OldValue</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="15">
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Invariant</token>
+</entry>
+<entry count="42">
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+</entry>
+<entry count="1126">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="1">
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+</entry>
+<entry count="510">
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="125">
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="4">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+</entry>
+<entry count="2">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="1">
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,OldValue</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+</entry>
+<entry count="309">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+</entry>
+<entry count="1">
+<token>System.Diagnostics.Contracts.Contract,OldValue</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="112">
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="1">
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Invariant</token>
+</entry>
+<entry count="102">
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="1197">
 <token>System.Diagnostics.Contracts.Contract,Assert</token>
 <token>System.Diagnostics.Contracts.Contract,Assert</token>
 <token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="35">
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,OldValue</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="17">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+</entry>
+<entry count="277">
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="1">
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
 <token>System.Diagnostics.Contracts.Contract,Assert</token>
 </entry>
 <entry count="2">
 <token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="140">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="266">
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="1">
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,OldValue</token>
+</entry>
+<entry count="144">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+</entry>
+<entry count="4">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+</entry>
+<entry count="387">
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="216">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="5">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="1">
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="248">
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="85">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="4">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="430">
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="8">
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,OldValue</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="11">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,OldValue</token>
+</entry>
+<entry count="148">
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="4">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+</entry>
+<entry count="1">
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="3">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+</entry>
+<entry count="340">
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+</entry>
+<entry count="4">
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,OldValue</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,OldValue</token>
+</entry>
+<entry count="1">
+<token>System.Diagnostics.Contracts.Contract,Invariant</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+</entry>
+<entry count="7">
+<token>System.Diagnostics.Contracts.Contract,Invariant</token>
+<token>System.Diagnostics.Contracts.Contract,Invariant</token>
+<token>System.Diagnostics.Contracts.Contract,Invariant</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Invariant</token>
+</entry>
+<entry count="8">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+</entry>
+<entry count="1">
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+</entry>
+<entry count="4">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+</entry>
+<entry count="20">
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="1">
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,OldValue</token>
+</entry>
+<entry count="2">
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="4">
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+</entry>
+<entry count="110">
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="230">
+<token>System.Diagnostics.Contracts.Contract,Invariant</token>
+<token>System.Diagnostics.Contracts.Contract,Invariant</token>
+<token>System.Diagnostics.Contracts.Contract,Invariant</token>
+</entry>
+<entry count="1061">
 <token>System.Diagnostics.Contracts.Contract,Result</token>
 <token>System.Diagnostics.Contracts.Contract,Ensures</token>
 <token>System.Diagnostics.Contracts.Contract,Result</token>
+</entry>
+<entry count="1">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,OldValue</token>
+</entry>
+<entry count="3">
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="8">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="152">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+</entry>
+<entry count="12">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="6">
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
 </entry>
 <entry count="4">
 <token>System.Diagnostics.Contracts.Contract,Ensures</token>
 <token>System.Diagnostics.Contracts.Contract,EnsuresOnThrow</token>
 </entry>
-<entry count="203">
+<entry count="20">
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
 <token>System.Diagnostics.Contracts.Contract,Result</token>
 <token>System.Diagnostics.Contracts.Contract,Ensures</token>
 </entry>
-<entry count="511">
+<entry count="2">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,OldValue</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="70">
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="21">
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="4">
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="2">
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Exists</token>
+</entry>
+<entry count="19">
+<token>System.Diagnostics.Contracts.Contract,OldValue</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,OldValue</token>
+</entry>
+<entry count="34">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="92">
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="22">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,OldValue</token>
+</entry>
+<entry count="12">
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="3">
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="1">
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="4">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="243">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="6">
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="377">
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+</entry>
+<entry count="6">
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="188">
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="128">
+<token>System.Diagnostics.Contracts.Contract,OldValue</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="3">
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
 <token>System.Diagnostics.Contracts.Contract,Requires</token>
 <token>System.Diagnostics.Contracts.Contract,Requires</token>
 </entry>
 <entry count="2">
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+</entry>
+<entry count="4">
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+</entry>
+<entry count="2">
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Exists</token>
+</entry>
+<entry count="786">
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="10">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+</entry>
+<entry count="6">
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="2">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="137">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="12">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="6">
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+</entry>
+<entry count="6">
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="145">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="1">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="1">
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="1">
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="1">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,OldValue</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="4">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,OldValue</token>
+</entry>
+<entry count="7">
+<token>System.Diagnostics.Contracts.Contract,Invariant</token>
+<token>System.Diagnostics.Contracts.Contract,Invariant</token>
+<token>System.Diagnostics.Contracts.Contract,Invariant</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+</entry>
+<entry count="206">
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="6">
+<token>System.Diagnostics.Contracts.Contract,OldValue</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="46">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+</entry>
+<entry count="2">
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+</entry>
+<entry count="87">
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+</entry>
+<entry count="62">
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+</entry>
+<entry count="1">
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+</entry>
+<entry count="112">
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="9">
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="311">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="33">
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="496">
 <token>System.Diagnostics.Contracts.Contract,Result</token>
 <token>System.Diagnostics.Contracts.Contract,Ensures</token>
 <token>System.Diagnostics.Contracts.Contract,Assume</token>
 </entry>
-<entry count="52">
+<entry count="587">
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+</entry>
+<entry count="345">
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="19">
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="1">
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="340">
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+</entry>
+<entry count="1">
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="6">
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+</entry>
+<entry count="3">
 <token>System.Diagnostics.Contracts.Contract,Requires</token>
 <token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
 <token>System.Diagnostics.Contracts.Contract,Requires</token>
 <token>System.Diagnostics.Contracts.Contract,Requires</token>
 </entry>
-<entry count="2">
+<entry count="24">
+<token>System.Diagnostics.Contracts.Contract,Result</token>
 <token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
 <token>System.Diagnostics.Contracts.Contract,Ensures</token>
-<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
 </entry>
 <entry count="2">
 <token>System.Diagnostics.Contracts.Contract,Requires</token>
-<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
 </entry>
-<entry count="2">
+<entry count="1">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,OldValue</token>
+</entry>
+<entry count="9">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
 <token>System.Diagnostics.Contracts.Contract,Requires</token>
 <token>System.Diagnostics.Contracts.Contract,Result</token>
 <token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,OldValue</token>
+</entry>
+<entry count="6">
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+</entry>
+<entry count="22">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+</entry>
+<entry count="262">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="57">
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="3342">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
 <token>System.Diagnostics.Contracts.Contract,Result</token>
 <token>System.Diagnostics.Contracts.Contract,Ensures</token>
 </entry>
 <entry count="3">
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="540">
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="480">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="164">
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="2">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="35">
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,OldValue</token>
+</entry>
+<entry count="1">
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,OldValue</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,EnsuresOnThrow</token>
+</entry>
+<entry count="6">
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+</entry>
+<entry count="2">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="3">
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+</entry>
+<entry count="2">
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+</entry>
+<entry count="2">
+<token>System.Diagnostics.Contracts.Contract,Invariant</token>
+<token>System.Diagnostics.Contracts.Contract,Invariant</token>
+<token>System.Diagnostics.Contracts.Contract,Invariant</token>
+<token>System.Diagnostics.Contracts.Contract,Invariant</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+</entry>
+<entry count="6867">
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="273">
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="43">
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="36">
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+</entry>
+<entry count="2">
+<token>System.Diagnostics.Contracts.Contract,OldValue</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="21">
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+</entry>
+<entry count="6">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="496">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="32">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="116">
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="1">
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+</entry>
+<entry count="422">
 <token>System.Diagnostics.Contracts.Contract,Invariant</token>
 <token>System.Diagnostics.Contracts.Contract,Invariant</token>
 </entry>
 <entry count="2">
+<token>System.Diagnostics.Contracts.Contract,Exists</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="43">
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="2">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+</entry>
+<entry count="472">
 <token>System.Diagnostics.Contracts.Contract,Ensures</token>
 <token>System.Diagnostics.Contracts.Contract,Result</token>
 <token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+</entry>
+<entry count="561">
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="12">
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="1158">
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="42">
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="7896">
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="2">
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+</entry>
+<entry count="422">
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="2">
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="12">
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+</entry>
+<entry count="2">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,OldValue</token>
+</entry>
+<entry count="2">
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="28">
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="128">
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="91">
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="2">
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+</entry>
+<entry count="11">
+<token>System.Diagnostics.Contracts.Contract,Invariant</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+</entry>
+<entry count="22">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,OldValue</token>
+</entry>
+<entry count="583">
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+</entry>
+<entry count="140">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="19841">
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+</entry>
+<entry count="3">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="4">
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
 <token>System.Diagnostics.Contracts.Contract,Result</token>
 <token>System.Diagnostics.Contracts.Contract,Ensures</token>
 </entry>
 <entry count="2">
 <token>System.Diagnostics.Contracts.Contract,Result</token>
 <token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="98">
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="7">
+<token>System.Diagnostics.Contracts.Contract,OldValue</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+</entry>
+<entry count="4">
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,OldValue</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,OldValue</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="24">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="339">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
 <token>System.Diagnostics.Contracts.Contract,Result</token>
 <token>System.Diagnostics.Contracts.Contract,Ensures</token>
 <token>System.Diagnostics.Contracts.Contract,Result</token>
+</entry>
+<entry count="3">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="1">
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+</entry>
+<entry count="15">
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+</entry>
+<entry count="15">
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+</entry>
+<entry count="66">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="1">
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+</entry>
+<entry count="3">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="4">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,OldValue</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="2">
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+</entry>
+<entry count="176">
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="99">
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="1">
+<token>System.Diagnostics.Contracts.Contract,OldValue</token>
+<token>System.Diagnostics.Contracts.Contract,OldValue</token>
+</entry>
+<entry count="2">
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+</entry>
+<entry count="66">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+</entry>
+<entry count="3">
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="2">
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="65">
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="1">
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Invariant</token>
+</entry>
+<entry count="281">
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="70">
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="168">
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="4">
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+</entry>
+<entry count="6425">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+</entry>
+<entry count="115">
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+</entry>
+<entry count="1">
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="19">
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="2960">
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="8">
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="4">
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,OldValue</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="2">
+<token>System.Diagnostics.Contracts.Contract,OldValue</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="1">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="2">
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Exists</token>
+</entry>
+<entry count="400">
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="4">
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+</entry>
+<entry count="102">
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="219">
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="3159">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+</entry>
+<entry count="378">
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="255">
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="5">
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="577">
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="14">
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+</entry>
+<entry count="15">
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+</entry>
+<entry count="18">
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="12">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="4">
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+</entry>
+<entry count="23">
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+</entry>
+<entry count="1">
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="3120">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="218">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="2">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+</entry>
+<entry count="144">
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+</entry>
+<entry count="42">
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="1">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,OldValue</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,OldValue</token>
+</entry>
+<entry count="19">
+<token>System.Diagnostics.Contracts.Contract,OldValue</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,OldValue</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="8">
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+</entry>
+<entry count="2">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="526">
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="1">
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,OldValue</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+</entry>
+<entry count="4">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="22">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,OldValue</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="29">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="1">
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+</entry>
+<entry count="291">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="97">
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="1">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+</entry>
+<entry count="565">
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="11">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="8">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+</entry>
+<entry count="90">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="2">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+</entry>
+<entry count="1">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,OldValue</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
 </entry>
 <entry count="1">
 <token>System.Diagnostics.Contracts.Contract,Invariant</token>
-<token>System.Diagnostics.Contracts.Contract,Invariant</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
 <token>System.Diagnostics.Contracts.Contract,Invariant</token>
 <token>System.Diagnostics.Contracts.Contract,Invariant</token>
 </entry>
 <entry count="2">
 <token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+</entry>
+<entry count="1">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,OldValue</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+</entry>
+<entry count="70">
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+</entry>
+<entry count="51">
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="4">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+</entry>
+<entry count="1182">
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="2">
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+</entry>
+<entry count="87">
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+</entry>
+<entry count="121">
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="20032">
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="18">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+</entry>
+<entry count="1">
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+</entry>
+<entry count="2">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,OldValue</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="12">
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="12">
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="399">
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="4">
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+</entry>
+<entry count="6">
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="52">
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="3">
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,EnsuresOnThrow</token>
+</entry>
+<entry count="64">
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="2">
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="160">
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="280">
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="358">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="8">
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
 <token>System.Diagnostics.Contracts.Contract,Result</token>
 </entry>
 <entry count="2">
 <token>System.Diagnostics.Contracts.Contract,Ensures</token>
 <token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
 <token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+</entry>
+<entry count="6">
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="2">
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+</entry>
+<entry count="1">
+<token>System.Diagnostics.Contracts.Contract,OldValue</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,OldValue</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="160">
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="510">
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+</entry>
+<entry count="14">
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="12">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
 <token>System.Diagnostics.Contracts.Contract,Result</token>
 </entry>
 <entry count="1">
+<token>System.Diagnostics.Contracts.Contract,Invariant</token>
+<token>System.Diagnostics.Contracts.Contract,Invariant</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Invariant</token>
+<token>System.Diagnostics.Contracts.Contract,Invariant</token>
+</entry>
+<entry count="3">
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+</entry>
+<entry count="2">
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="4">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="15">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
 <token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+</entry>
+<entry count="2">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="1">
+<token>System.Diagnostics.Contracts.Contract,Invariant</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+</entry>
+<entry count="2">
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Exists</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="1">
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="201">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="2707">
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="6">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+</entry>
+<entry count="288">
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+</entry>
+<entry count="5">
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+</entry>
+<entry count="152">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+</entry>
+<entry count="4">
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="24">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+</entry>
+<entry count="510">
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+</entry>
+<entry count="8">
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,OldValue</token>
+</entry>
+<entry count="4">
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,OldValue</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="85">
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="86">
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="262">
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="3">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+</entry>
+<entry count="9">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="3224">
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="70">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="155">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+</entry>
+<entry count="20">
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+</entry>
+<entry count="8">
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,OldValue</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="72">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,EndContractBlock</token>
+</entry>
+<entry count="111">
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="2639">
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="2">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="87">
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="48">
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="2">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="112">
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="2">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,EnsuresOnThrow</token>
+</entry>
+<entry count="1">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,OldValue</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="2">
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="3">
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+</entry>
+<entry count="39">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+</entry>
+<entry count="6">
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+</entry>
+<entry count="4">
+<token>System.Diagnostics.Contracts.Contract,OldValue</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,OldValue</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="4">
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,OldValue</token>
+</entry>
+<entry count="8">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="4">
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+</entry>
+<entry count="20">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="148">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="6">
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="6">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,OldValue</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="6">
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+</entry>
+<entry count="1034">
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="1">
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="529">
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+</entry>
+<entry count="3491">
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="2">
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+</entry>
+<entry count="18">
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+</entry>
+<entry count="10">
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="10">
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="2">
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+</entry>
+<entry count="6">
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+</entry>
+<entry count="65">
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="2">
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="28">
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+</entry>
+<entry count="80">
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="2">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,OldValue</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="4">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="8">
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="210">
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="10">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+</entry>
+<entry count="86">
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="64">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="10">
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="1">
+<token>System.Diagnostics.Contracts.Contract,OldValue</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+</entry>
+<entry count="240">
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+</entry>
+<entry count="4">
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,OldValue</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+</entry>
+<entry count="370">
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="240">
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+</entry>
+<entry count="255">
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="2">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="117">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="2">
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Exists</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="3">
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+</entry>
+<entry count="8">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+</entry>
+<entry count="3">
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="11">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,OldValue</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="1">
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="6">
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="7">
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="1483">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+</entry>
+<entry count="1">
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="1">
+<token>System.Diagnostics.Contracts.Contract,OldValue</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="1046">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+</entry>
+<entry count="2">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+</entry>
+<entry count="2">
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="205">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+</entry>
+<entry count="20">
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="51">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="4">
+<token>System.Diagnostics.Contracts.Contract,OldValue</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,OldValue</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="639">
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="603">
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+</entry>
+<entry count="2">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+</entry>
+<entry count="1">
+<token>System.Diagnostics.Contracts.Contract,OldValue</token>
+<token>System.Diagnostics.Contracts.Contract,OldValue</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="508">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+</entry>
+<entry count="2">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+</entry>
+<entry count="12">
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="47">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,OldValue</token>
+</entry>
+<entry count="3">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="21">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="12">
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+</entry>
+<entry count="4">
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+</entry>
+<entry count="1">
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+</entry>
+<entry count="2">
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,EnsuresOnThrow</token>
+</entry>
+<entry count="609">
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="60">
+<token>System.Diagnostics.Contracts.Contract,EndContractBlock</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="1">
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="2304">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+</entry>
+<entry count="1">
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+</entry>
+<entry count="4">
+<token>System.Diagnostics.Contracts.Contract,OldValue</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="2">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+</entry>
+<entry count="17">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="1">
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Invariant</token>
+<token>System.Diagnostics.Contracts.Contract,Invariant</token>
+</entry>
+<entry count="1">
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,OldValue</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="1">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="1">
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="39">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="1">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="12">
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="543">
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="2">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="6">
+<token>System.Diagnostics.Contracts.Contract,OldValue</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,OldValue</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,OldValue</token>
+</entry>
+<entry count="12">
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="3">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="46">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,OldValue</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="24">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+</entry>
+<entry count="255">
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="87">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+</entry>
+<entry count="4">
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,OldValue</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+</entry>
+<entry count="8">
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="10">
+<token>System.Diagnostics.Contracts.Contract,Invariant</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Invariant</token>
+</entry>
+<entry count="2">
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="144">
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="2">
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+</entry>
+<entry count="207">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="4">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="18">
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+</entry>
+<entry count="8">
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+</entry>
+<entry count="4">
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="8">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="6">
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="1">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="93">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="4">
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+</entry>
+<entry count="3">
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,EnsuresOnThrow</token>
+</entry>
+<entry count="3">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,OldValue</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,OldValue</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="1">
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="6">
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="4">
+<token>System.Diagnostics.Contracts.Contract,OldValue</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="6760">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+</entry>
+<entry count="18">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="6">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="71">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="1">
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="1">
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+</entry>
+<entry count="1">
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="66">
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="148">
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="1">
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="6">
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="19283">
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="4">
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="5">
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="55">
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="48">
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="184">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+</entry>
+<entry count="4">
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,OldValue</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,OldValue</token>
+</entry>
+<entry count="1">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,OldValue</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,OldValue</token>
+</entry>
+<entry count="107">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="2">
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+</entry>
+<entry count="3">
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+</entry>
+<entry count="251">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+</entry>
+<entry count="2">
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+</entry>
+<entry count="112">
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="3">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="61">
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="16">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="77">
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="7">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+</entry>
+<entry count="1">
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,OldValue</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+</entry>
+<entry count="59">
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="2">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+</entry>
+<entry count="4">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+</entry>
+<entry count="1598">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+</entry>
+<entry count="7">
 <token>System.Diagnostics.Contracts.Contract,Ensures</token>
 <token>System.Diagnostics.Contracts.Contract,Result</token>
 <token>System.Diagnostics.Contracts.Contract,Ensures</token>
 <token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
 </entry>
-<entry count="35">
+<entry count="13">
 <token>System.Diagnostics.Contracts.Contract,Ensures</token>
 <token>System.Diagnostics.Contracts.Contract,Result</token>
-</entry>
-<entry count="35">
-<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
 <token>System.Diagnostics.Contracts.Contract,Ensures</token>
-<token>System.Diagnostics.Contracts.Contract,Result</token>
-<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
 </entry>
-<entry count="963">
-<token>System.Diagnostics.Contracts.Contract,Assert</token>
-<token>System.Diagnostics.Contracts.Contract,Assert</token>
-<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<entry count="4">
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,OldValue</token>
 </entry>
 <entry count="1">
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
 <token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="8">
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,OldValue</token>
+</entry>
+<entry count="263">
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="2">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+</entry>
+<entry count="2">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="20">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="1777">
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+</entry>
+<entry count="455">
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="8">
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="15">
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+</entry>
+<entry count="18">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+</entry>
+<entry count="1">
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+</entry>
+<entry count="2">
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+</entry>
+<entry count="8">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="32">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="4">
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="8">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+</entry>
+<entry count="3">
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+</entry>
+<entry count="132">
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="2">
+<token>System.Diagnostics.Contracts.Contract,OldValue</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="2">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,OldValue</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="71">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+</entry>
+<entry count="7">
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="2">
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="3">
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="25">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="4">
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,EndContractBlock</token>
+</entry>
+<entry count="109">
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="160">
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="164">
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="139">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="2">
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="2">
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Exists</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="8">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="84">
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="5">
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+</entry>
+<entry count="1767">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="35">
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="2">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="10">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+</entry>
+<entry count="6">
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+</entry>
+<entry count="4">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+</entry>
+<entry count="173">
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="2">
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="2">
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="28">
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="21">
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+</entry>
+<entry count="3">
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+</entry>
+<entry count="77">
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="42">
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+</entry>
+<entry count="467">
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="11">
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+</entry>
+<entry count="58">
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+</entry>
+<entry count="73">
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+</entry>
+<entry count="11">
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="137">
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
+</entry>
+<entry count="12">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="95">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
 <token>System.Diagnostics.Contracts.Contract,Ensures</token>
 <token>System.Diagnostics.Contracts.Contract,Ensures</token>
 <token>System.Diagnostics.Contracts.Contract,Ensures</token>
 </entry>
 <entry count="4">
-<token>System.Diagnostics.Contracts.Contract,Requires</token>
-<token>System.Diagnostics.Contracts.Contract,Requires</token>
-<token>System.Diagnostics.Contracts.Contract,Requires</token>
-<token>System.Diagnostics.Contracts.Contract,Requires</token>
-<token>System.Diagnostics.Contracts.Contract,Requires</token>
-</entry>
-<entry count="35">
+<token>System.Diagnostics.Contracts.Contract,OldValue</token>
 <token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+</entry>
+<entry count="57">
 <token>System.Diagnostics.Contracts.Contract,Result</token>
-<token>System.Diagnostics.Contracts.Contract,Ensures</token>
-</entry>
-<entry count="2204">
-<token>System.Diagnostics.Contracts.Contract,Assert</token>
-<token>System.Diagnostics.Contracts.Contract,Assert</token>
-</entry>
-<entry count="163">
-<token>System.Diagnostics.Contracts.Contract,Requires</token>
-<token>System.Diagnostics.Contracts.Contract,Requires</token>
-<token>System.Diagnostics.Contracts.Contract,Requires</token>
-</entry>
-<entry count="35">
-<token>System.Diagnostics.Contracts.Contract,Assert</token>
-<token>System.Diagnostics.Contracts.Contract,Assert</token>
-<token>System.Diagnostics.Contracts.Contract,Assert</token>
-<token>System.Diagnostics.Contracts.Contract,Assert</token>
-<token>System.Diagnostics.Contracts.Contract,Assert</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
 </entry>
 <entry count="1">
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+</entry>
+<entry count="91">
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
 <token>System.Diagnostics.Contracts.Contract,Ensures</token>
 <token>System.Diagnostics.Contracts.Contract,Result</token>
+</entry>
+<entry count="558">
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+</entry>
+<entry count="13">
+<token>System.Diagnostics.Contracts.Contract,Result</token>
 <token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,OldValue</token>
+</entry>
+<entry count="12">
+<token>System.Diagnostics.Contracts.Contract,Requires</token>
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
 <token>System.Diagnostics.Contracts.Contract,Assume</token>
 </entry>
-<entry count="2">
+<entry count="241">
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
 <token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="837">
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+</entry>
+<entry count="73">
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,ValueAtReturn</token>
+<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+</entry>
+<entry count="10">
+<token>System.Diagnostics.Contracts.Contract,ForAll</token>
+<token>System.Diagnostics.Contracts.Contract,Assume</token>
 <token>System.Diagnostics.Contracts.Contract,Assume</token>
 </entry>
-<entry count="2">
+<entry count="241">
 <token>System.Diagnostics.Contracts.Contract,Requires</token>
 <token>System.Diagnostics.Contracts.Contract,Result</token>
-<token>System.Diagnostics.Contracts.Contract,Ensures</token>
-</entry>
-<entry count="3">
-<token>System.Diagnostics.Contracts.Contract,Ensures</token>
-<token>System.Diagnostics.Contracts.Contract,Ensures</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
+<token>System.Diagnostics.Contracts.Contract,Result</token>
 </entry>
 </dictionary>

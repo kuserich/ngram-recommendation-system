@@ -1,51 +1,237 @@
 <?xml version="1.0" encoding="UTF-8"?><dictionary case_sensitive="false">
 <entry count="1">
-<token>System.Drawing.Imaging.ColorMatrix,new</token>
-<token>System.Drawing.Imaging.ImageAttributes,new</token>
 <token>System.Drawing.Imaging.ImageAttributes,SetColorMatrix</token>
+<token>System.Drawing.Imaging.ImageAttributes,SetGamma</token>
 </entry>
-<entry count="4">
-<token>System.Drawing.Imaging.ImageAttributes,SetWrapMode</token>
-<token>System.Drawing.Imaging.ColorMatrix,new</token>
-</entry>
-<entry count="4">
-<token>System.Drawing.Imaging.ColorMatrix,new</token>
-<token>System.Drawing.Imaging.ImageAttributes,SetColorMatrix</token>
-</entry>
-<entry count="4">
+<entry count="193">
+<token>System.Drawing.Imaging.ImageFormat,Equals</token>
+<token>System.Drawing.Imaging.ImageFormat,Equals</token>
 <token>System.Drawing.Imaging.ImageFormat,Equals</token>
 <token>System.Drawing.Imaging.ImageFormat,Equals</token>
 </entry>
 <entry count="1">
+<token>System.Drawing.Imaging.ImageAttributes,new</token>
+<token>System.Drawing.Imaging.ImageAttributes,ClearColorMatrix</token>
+<token>System.Drawing.Imaging.ImageAttributes,SetColorMatrix</token>
+<token>System.Drawing.Imaging.ImageAttributes,SetGamma</token>
+</entry>
+<entry count="1">
+<token>System.Drawing.Imaging.ColorMatrix,new</token>
+<token>System.Drawing.Imaging.ImageAttributes,new</token>
+<token>System.Drawing.Imaging.ImageAttributes,ClearColorMatrix</token>
+<token>System.Drawing.Imaging.ImageAttributes,SetColorMatrix</token>
+<token>System.Drawing.Imaging.ImageAttributes,SetGamma</token>
+</entry>
+<entry count="8">
+<token>System.Drawing.Imaging.EncoderParameter,new</token>
+<token>System.Drawing.Imaging.ImageCodecInfo,GetImageEncoders</token>
+</entry>
+<entry count="13">
+<token>System.Drawing.Imaging.ImageFormat,Equals</token>
+<token>System.Drawing.Imaging.ImageFormat,Equals</token>
+<token>System.Drawing.Imaging.ImageFormat,ToString</token>
+</entry>
+<entry count="16">
+<token>System.Drawing.Imaging.ImageAttributes,new</token>
+<token>System.Drawing.Imaging.ImageAttributes,SetWrapMode</token>
+<token>System.Drawing.Imaging.EncoderParameters,new</token>
+<token>System.Drawing.Imaging.EncoderParameter,new</token>
+</entry>
+<entry count="28">
+<token>System.Drawing.Imaging.ImageAttributes,SetWrapMode</token>
+<token>System.Drawing.Imaging.ColorMatrix,new</token>
+</entry>
+<entry count="36">
+<token>System.Drawing.Imaging.ColorMatrix,new</token>
+<token>System.Drawing.Imaging.ImageAttributes,SetColorMatrix</token>
+</entry>
+<entry count="367">
+<token>System.Drawing.Imaging.ImageFormat,Equals</token>
+<token>System.Drawing.Imaging.ImageFormat,Equals</token>
+<token>System.Drawing.Imaging.ImageFormat,Equals</token>
+</entry>
+<entry count="13">
+<token>System.Drawing.Imaging.ImageFormat,Equals</token>
+<token>System.Drawing.Imaging.ImageFormat,Equals</token>
+<token>System.Drawing.Imaging.ImageFormat,Equals</token>
+<token>System.Drawing.Imaging.ImageFormat,ToString</token>
+</entry>
+<entry count="2">
+<token>System.Drawing.Imaging.ImageAttributes,new</token>
+<token>System.Drawing.Imaging.ColorMap,new</token>
+</entry>
+<entry count="1">
+<token>System.Drawing.Imaging.ImageAttributes,ClearColorMatrix</token>
+<token>System.Drawing.Imaging.ImageAttributes,SetColorMatrix</token>
+<token>System.Drawing.Imaging.ImageAttributes,SetGamma</token>
+</entry>
+<entry count="2">
+<token>System.Drawing.Imaging.ImageAttributes,new</token>
+<token>System.Drawing.Imaging.ColorMap,new</token>
+<token>System.Drawing.Imaging.ColorMap,new</token>
+<token>System.Drawing.Imaging.ImageAttributes,SetRemapTable</token>
+</entry>
+<entry count="1">
+<token>System.Drawing.Imaging.ImageAttributes,ClearColorMatrix</token>
+<token>System.Drawing.Imaging.ImageAttributes,SetGamma</token>
+</entry>
+<entry count="28">
+<token>System.Drawing.Imaging.ImageAttributes,SetWrapMode</token>
+<token>System.Drawing.Imaging.ColorMatrix,new</token>
+<token>System.Drawing.Imaging.ImageAttributes,SetColorMatrix</token>
+</entry>
+<entry count="1">
+<token>System.Drawing.Imaging.ColorMatrix,new</token>
+<token>System.Drawing.Imaging.ImageAttributes,new</token>
+<token>System.Drawing.Imaging.ImageAttributes,ClearColorMatrix</token>
+<token>System.Drawing.Imaging.ImageAttributes,SetColorMatrix</token>
+</entry>
+<entry count="3">
+<token>System.Drawing.Imaging.ImageAttributes,new</token>
+<token>System.Drawing.Imaging.ImageAttributes,SetGamma</token>
+</entry>
+<entry count="16">
+<token>System.Drawing.Imaging.ImageAttributes,SetWrapMode</token>
+<token>System.Drawing.Imaging.EncoderParameters,new</token>
+<token>System.Drawing.Imaging.EncoderParameter,new</token>
+</entry>
+<entry count="16">
+<token>System.Drawing.Imaging.ImageAttributes,new</token>
+<token>System.Drawing.Imaging.ImageAttributes,SetWrapMode</token>
+<token>System.Drawing.Imaging.EncoderParameters,new</token>
+</entry>
+<entry count="4">
+<token>System.Drawing.Imaging.ImageAttributes,new</token>
+<token>System.Drawing.Imaging.ColorMatrix,new</token>
+</entry>
+<entry count="92">
+<token>System.Drawing.Imaging.ImageFormat,Equals</token>
+<token>System.Drawing.Imaging.ImageFormat,Equals</token>
+<token>System.Drawing.Imaging.ImageFormat,Equals</token>
+<token>System.Drawing.Imaging.ImageFormat,Equals</token>
+<token>System.Drawing.Imaging.ImageFormat,Equals</token>
+</entry>
+<entry count="3">
+<token>System.Drawing.Imaging.ImageAttributes,new</token>
+<token>System.Drawing.Imaging.ImageAttributes,ClearColorMatrix</token>
+<token>System.Drawing.Imaging.ImageAttributes,SetColorMatrix</token>
+</entry>
+<entry count="607">
+<token>System.Drawing.Imaging.ImageFormat,Equals</token>
+<token>System.Drawing.Imaging.ImageFormat,Equals</token>
+</entry>
+<entry count="15">
+<token>System.Drawing.Imaging.EncoderParameter,new</token>
+<token>System.Drawing.Imaging.EncoderParameters,new</token>
+</entry>
+<entry count="2">
+<token>System.Drawing.Imaging.ImageAttributes,new</token>
+<token>System.Drawing.Imaging.ColorMap,new</token>
+<token>System.Drawing.Imaging.ColorMap,new</token>
+</entry>
+<entry count="28">
+<token>System.Drawing.Imaging.ImageAttributes,new</token>
+<token>System.Drawing.Imaging.ImageAttributes,SetWrapMode</token>
+<token>System.Drawing.Imaging.ColorMatrix,new</token>
+<token>System.Drawing.Imaging.ImageAttributes,SetColorMatrix</token>
+</entry>
+<entry count="2">
+<token>System.Drawing.Imaging.ColorMap,new</token>
+<token>System.Drawing.Imaging.ImageAttributes,SetRemapTable</token>
+</entry>
+<entry count="13">
+<token>System.Drawing.Imaging.ImageFormat,Equals</token>
+<token>System.Drawing.Imaging.ImageFormat,Equals</token>
+<token>System.Drawing.Imaging.ImageFormat,Equals</token>
+<token>System.Drawing.Imaging.ImageFormat,Equals</token>
+<token>System.Drawing.Imaging.ImageFormat,ToString</token>
+</entry>
+<entry count="15">
+<token>System.Drawing.Imaging.ImageFormat,Equals</token>
+<token>System.Drawing.Imaging.ImageFormat,ToString</token>
+</entry>
+<entry count="28">
+<token>System.Drawing.Imaging.ImageAttributes,new</token>
+<token>System.Drawing.Imaging.ImageAttributes,SetWrapMode</token>
+<token>System.Drawing.Imaging.ColorMatrix,new</token>
+</entry>
+<entry count="61">
+<token>System.Drawing.Imaging.ColorMatrix,new</token>
+<token>System.Drawing.Imaging.ImageAttributes,new</token>
+<token>System.Drawing.Imaging.ImageAttributes,SetColorMatrix</token>
+</entry>
+<entry count="16">
+<token>System.Drawing.Imaging.ImageAttributes,SetWrapMode</token>
+<token>System.Drawing.Imaging.EncoderParameters,new</token>
+</entry>
+<entry count="8">
+<token>System.Drawing.Imaging.EncoderParameter,new</token>
+<token>System.Drawing.Imaging.ImageCodecInfo,GetImageEncoders</token>
+<token>System.Drawing.Imaging.EncoderParameters,new</token>
+</entry>
+<entry count="4">
+<token>System.Drawing.Imaging.ColorMatrix,new</token>
+<token>System.Drawing.Imaging.ColorMatrix,new</token>
+</entry>
+<entry count="62">
 <token>System.Drawing.Imaging.ColorMatrix,new</token>
 <token>System.Drawing.Imaging.ImageAttributes,new</token>
 </entry>
 <entry count="4">
-<token>System.Drawing.Imaging.ImageAttributes,SetWrapMode</token>
+<token>System.Drawing.Imaging.ImageAttributes,new</token>
 <token>System.Drawing.Imaging.ColorMatrix,new</token>
+<token>System.Drawing.Imaging.ImageAttributes,SetColorMatrix</token>
+</entry>
+<entry count="6317">
+<token>System.Drawing.Imaging.ImageAttributes,new</token>
+<token>System.Drawing.Imaging.ImageAttributes,SetWrapMode</token>
+</entry>
+<entry count="211">
+<token>System.Drawing.Imaging.EncoderParameters,new</token>
+<token>System.Drawing.Imaging.EncoderParameter,new</token>
+</entry>
+<entry count="4">
+<token>System.Drawing.Imaging.ImageAttributes,new</token>
+<token>System.Drawing.Imaging.ImageAttributes,ClearColorMatrix</token>
+</entry>
+<entry count="3">
+<token>System.Drawing.Imaging.ImageAttributes,ClearColorMatrix</token>
 <token>System.Drawing.Imaging.ImageAttributes,SetColorMatrix</token>
 </entry>
 <entry count="8">
-<token>System.Drawing.Imaging.ImageAttributes,new</token>
-<token>System.Drawing.Imaging.ImageAttributes,SetWrapMode</token>
+<token>System.Drawing.Imaging.ImageCodecInfo,GetImageEncoders</token>
+<token>System.Drawing.Imaging.EncoderParameters,new</token>
 </entry>
-<entry count="4">
-<token>System.Drawing.Imaging.ImageAttributes,new</token>
-<token>System.Drawing.Imaging.ImageAttributes,SetWrapMode</token>
-<token>System.Drawing.Imaging.ColorMatrix,new</token>
-</entry>
-<entry count="4">
-<token>System.Drawing.Imaging.ImageAttributes,new</token>
-<token>System.Drawing.Imaging.ImageAttributes,SetWrapMode</token>
-<token>System.Drawing.Imaging.ColorMatrix,new</token>
-<token>System.Drawing.Imaging.ImageAttributes,SetColorMatrix</token>
+<entry count="2">
+<token>System.Drawing.Imaging.ImageCodecInfo,GetImageDecoders</token>
+<token>System.Drawing.Imaging.EncoderParameters,new</token>
+<token>System.Drawing.Imaging.EncoderParameter,new</token>
 </entry>
 <entry count="1">
+<token>System.Drawing.Imaging.ImageAttributes,new</token>
+<token>System.Drawing.Imaging.ImageAttributes,ClearColorMatrix</token>
+<token>System.Drawing.Imaging.ImageAttributes,SetGamma</token>
+</entry>
+<entry count="2">
+<token>System.Drawing.Imaging.ColorMap,new</token>
+<token>System.Drawing.Imaging.ColorMap,new</token>
+</entry>
+<entry count="1">
+<token>System.Drawing.Imaging.ColorMatrix,new</token>
+<token>System.Drawing.Imaging.ImageAttributes,new</token>
+<token>System.Drawing.Imaging.ImageAttributes,ClearColorMatrix</token>
+</entry>
+<entry count="62">
 <token>System.Drawing.Imaging.ImageAttributes,new</token>
 <token>System.Drawing.Imaging.ImageAttributes,SetColorMatrix</token>
 </entry>
 <entry count="2">
-<token>System.Drawing.Imaging.ImageAttributes,new</token>
-<token>System.Drawing.Imaging.ImageAttributes,SetGamma</token>
+<token>System.Drawing.Imaging.ColorMap,new</token>
+<token>System.Drawing.Imaging.ColorMap,new</token>
+<token>System.Drawing.Imaging.ImageAttributes,SetRemapTable</token>
+</entry>
+<entry count="2">
+<token>System.Drawing.Imaging.ImageCodecInfo,GetImageDecoders</token>
+<token>System.Drawing.Imaging.EncoderParameters,new</token>
 </entry>
 </dictionary>

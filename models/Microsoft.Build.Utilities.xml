@@ -1,61 +1,2238 @@
 <?xml version="1.0" encoding="UTF-8"?><dictionary case_sensitive="false">
-<entry count="30">
-<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
+<entry count="72">
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNameIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,ToString</token>
+</entry>
+<entry count="135">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,new</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+</entry>
+<entry count="7538">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+</entry>
+<entry count="48">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,ToString</token>
+</entry>
+<entry count="36">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNameIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+</entry>
+<entry count="209">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNamesIfNotNull</token>
+</entry>
+<entry count="47">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNameIfNotNull</token>
+</entry>
+<entry count="820">
 <token>Microsoft.Build.Utilities.TaskLoggingHelper,LogWarning</token>
-</entry>
-<entry count="4">
-<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogWarning</token>
-<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogError</token>
-</entry>
-<entry count="400">
-<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
-<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
-<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
 <token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
 </entry>
-<entry count="4">
-<token>Microsoft.Build.Utilities.TaskLoggingHelper,ExtractMessageCode</token>
-<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
+<entry count="178">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNamesIfNotNull</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNameIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,ToString</token>
+</entry>
+<entry count="46">
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+</entry>
+<entry count="3168">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNameIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNameIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNamesIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+</entry>
+<entry count="108">
+<token>Microsoft.Build.Utilities.ToolTask,Execute</token>
+<token>Microsoft.Build.Utilities.ToolTask,Execute</token>
 </entry>
 <entry count="2">
-<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogError</token>
-<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogWarning</token>
+<token>Microsoft.Build.Utilities.ToolTask,Execute</token>
+<token>Microsoft.Build.Utilities.ToolTask,Execute</token>
 <token>Microsoft.Build.Utilities.TaskLoggingHelper,LogError</token>
 </entry>
-<entry count="4">
+<entry count="2">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,new</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNamesIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,ToString</token>
+</entry>
+<entry count="3392">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+</entry>
+<entry count="160">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,new</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogWarning</token>
+<token>Microsoft.Build.Utilities.ToolTask,Execute</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogWarning</token>
+</entry>
+<entry count="8">
+<token>Microsoft.Build.Utilities.ToolTask,Execute</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+<token>Microsoft.Build.Utilities.ToolTask,Execute</token>
+</entry>
+<entry count="6336">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNamesIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+</entry>
+<entry count="36">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNameIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+</entry>
+<entry count="16">
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+<token>Microsoft.Build.Utilities.TaskItem,SetMetadata</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
+<token>Microsoft.Build.Utilities.ToolTask,Execute</token>
+</entry>
+<entry count="9102">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+</entry>
+<entry count="424">
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogWarning</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
+</entry>
+<entry count="16">
+<token>Microsoft.Build.Utilities.TaskItem,SetMetadata</token>
+<token>Microsoft.Build.Utilities.TaskItem,SetMetadata</token>
+<token>Microsoft.Build.Utilities.TaskItem,SetMetadata</token>
+<token>Microsoft.Build.Utilities.TaskItem,SetMetadata</token>
+</entry>
+<entry count="13028">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+</entry>
+<entry count="37">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNameIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+</entry>
+<entry count="19716">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+</entry>
+<entry count="108">
+<token>Microsoft.Build.Utilities.ToolTask,Execute</token>
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+</entry>
+<entry count="60">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,new</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+</entry>
+<entry count="12">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,ToString</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Build.Utilities.ToolTask,ValidateParameters</token>
 <token>Microsoft.Build.Utilities.TaskLoggingHelper,LogError</token>
+</entry>
+<entry count="36">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,new</token>
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogWarning</token>
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Build.Utilities.TaskItem,SetMetadata</token>
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+</entry>
+<entry count="20174">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Build.Utilities.TaskItem,SetMetadata</token>
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+<token>Microsoft.Build.Utilities.TaskItem,SetMetadata</token>
+<token>Microsoft.Build.Utilities.TaskItem,SetMetadata</token>
+</entry>
+<entry count="3">
 <token>Microsoft.Build.Utilities.TaskLoggingHelper,LogError</token>
+<token>Microsoft.Build.Utilities.ToolTask,ValidateParameters</token>
+</entry>
+<entry count="3168">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNamesIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+</entry>
+<entry count="56">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,ToString</token>
+</entry>
+<entry count="8">
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+<token>Microsoft.Build.Utilities.TaskItem,SetMetadata</token>
+</entry>
+<entry count="6336">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNameIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNamesIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+</entry>
+<entry count="8">
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
+<token>Microsoft.Build.Utilities.ToolTask,Execute</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogError</token>
+</entry>
+<entry count="424">
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogWarning</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNameIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+</entry>
+<entry count="72">
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+</entry>
+<entry count="467">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNamesIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,ToString</token>
+</entry>
+<entry count="96">
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+<token>Microsoft.Build.Utilities.ToolTask,Execute</token>
+<token>Microsoft.Build.Utilities.ToolTask,Execute</token>
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
 </entry>
 <entry count="2">
 <token>Microsoft.Build.Utilities.ToolTask,Execute</token>
 <token>Microsoft.Build.Utilities.ToolTask,HandleTaskExecutionErrors</token>
 </entry>
-<entry count="846">
+<entry count="2">
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogWarning</token>
+<token>Microsoft.Build.Utilities.ToolTask,Execute</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogError</token>
+</entry>
+<entry count="245">
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+<token>Microsoft.Build.Utilities.ToolTask,Execute</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Build.Utilities.TaskItem,SetMetadata</token>
+<token>Microsoft.Build.Utilities.TaskItem,SetMetadata</token>
+<token>Microsoft.Build.Utilities.TaskItem,SetMetadata</token>
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+<token>Microsoft.Build.Utilities.TaskItem,SetMetadata</token>
+</entry>
+<entry count="10">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNameIfNotNull</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNamesIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,ToString</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,new</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNameIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,ToString</token>
+</entry>
+<entry count="6560">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,ToString</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Build.Utilities.ToolTask,LogEventsFromTextOutput</token>
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+</entry>
+<entry count="6336">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNameIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNamesIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+</entry>
+<entry count="18">
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+<token>Microsoft.Build.Utilities.TaskItem,SetMetadata</token>
+<token>Microsoft.Build.Utilities.TaskItem,SetMetadata</token>
+<token>Microsoft.Build.Utilities.TaskItem,SetMetadata</token>
+</entry>
+<entry count="12679">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNameIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNameIfNotNull</token>
+</entry>
+<entry count="128">
+<token>Microsoft.Build.Utilities.ToolLocationHelper,GetPathToDotNetFrameworkFile</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,ExtractMessageCode</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
+</entry>
+<entry count="13116">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,ToString</token>
+</entry>
+<entry count="468">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNameIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+</entry>
+<entry count="548">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNameIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNameIfNotNull</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,new</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,ToString</token>
+</entry>
+<entry count="12">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,ToString</token>
+</entry>
+<entry count="6420">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogError</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogError</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogError</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogError</token>
+</entry>
+<entry count="3">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNameIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNameIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+</entry>
+<entry count="12">
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogWarning</token>
+<token>Microsoft.Build.Utilities.ToolTask,Execute</token>
+</entry>
+<entry count="415">
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
 <token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
 <token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
 <token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
 </entry>
+<entry count="10">
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogError</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogError</token>
+</entry>
+<entry count="9">
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
+</entry>
+<entry count="6344">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNamesIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+</entry>
+<entry count="461">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+</entry>
+<entry count="42">
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogError</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogError</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Build.Utilities.ToolTask,Execute</token>
+<token>Microsoft.Build.Utilities.ToolTask,Execute</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogWarning</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,new</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNamesIfNotNull</token>
+</entry>
+<entry count="3168">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNameIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNameIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNamesIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+</entry>
+<entry count="8">
+<token>Microsoft.Build.Utilities.ToolTask,Execute</token>
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+<token>Microsoft.Build.Utilities.ToolTask,Execute</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
+</entry>
+<entry count="37">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNameIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+</entry>
+<entry count="5">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,new</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNameIfNotNull</token>
+</entry>
+<entry count="80">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+</entry>
+<entry count="1768">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+</entry>
+<entry count="3168">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNameIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNamesIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+</entry>
+<entry count="328">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,new</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+</entry>
+<entry count="224">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+</entry>
+<entry count="8">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,ToString</token>
+</entry>
+<entry count="1183">
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNameIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNameIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,ToString</token>
+</entry>
+<entry count="100">
+<token>Microsoft.Build.Utilities.ToolTask,Execute</token>
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+<token>Microsoft.Build.Utilities.ToolTask,Execute</token>
+</entry>
+<entry count="45">
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogError</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogError</token>
+</entry>
+<entry count="162">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,new</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogWarning</token>
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+</entry>
 <entry count="120">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNameIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNameIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,ToString</token>
+</entry>
+<entry count="8">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,new</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNamesIfNotNull</token>
+</entry>
+<entry count="13406">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogError</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+</entry>
+<entry count="61">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,ToString</token>
+</entry>
+<entry count="48">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,ToString</token>
+</entry>
+<entry count="12672">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,new</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNameIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNameIfNotNull</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNameIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNameIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,ToString</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNameIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNameIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,ToString</token>
+</entry>
+<entry count="48">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,ToString</token>
+</entry>
+<entry count="36">
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+</entry>
+<entry count="32">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,new</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,ToString</token>
+</entry>
+<entry count="6336">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNameIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNameIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNamesIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+</entry>
+<entry count="8">
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+<token>Microsoft.Build.Utilities.ToolTask,Execute</token>
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogError</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogWarning</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogError</token>
+</entry>
+<entry count="8">
+<token>Microsoft.Build.Utilities.ToolTask,Execute</token>
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+<token>Microsoft.Build.Utilities.ToolTask,Execute</token>
+</entry>
+<entry count="36">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,new</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNameIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+</entry>
+<entry count="12672">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,new</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNameIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNameIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNamesIfNotNull</token>
+</entry>
+<entry count="48">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+</entry>
+<entry count="8">
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+<token>Microsoft.Build.Utilities.ToolTask,Execute</token>
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+</entry>
+<entry count="8">
+<token>Microsoft.Build.Utilities.ToolTask,Execute</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+</entry>
+<entry count="12672">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNameIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNamesIfNotNull</token>
+</entry>
+<entry count="80">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,new</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+</entry>
+<entry count="52785">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+</entry>
+<entry count="160">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,new</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+</entry>
+<entry count="23716">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+</entry>
+<entry count="128">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogWarning</token>
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+</entry>
+<entry count="3">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNamesIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Build.Utilities.ToolLocationHelper,GetPathToDotNetFrameworkFile</token>
+<token>Microsoft.Build.Utilities.ToolLocationHelper,GetDotNetFrameworkVersionFolderPrefix</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,new</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,ToString</token>
+</entry>
+<entry count="8">
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+<token>Microsoft.Build.Utilities.ToolTask,Execute</token>
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+</entry>
+<entry count="8">
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+<token>Microsoft.Build.Utilities.TaskItem,SetMetadata</token>
+<token>Microsoft.Build.Utilities.TaskItem,SetMetadata</token>
+</entry>
+<entry count="258">
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogWarning</token>
+</entry>
+<entry count="16">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Build.Utilities.TaskItem,SetMetadata</token>
+<token>Microsoft.Build.Utilities.TaskItem,SetMetadata</token>
+<token>Microsoft.Build.Utilities.TaskItem,SetMetadata</token>
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+</entry>
+<entry count="8">
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogCommandLine</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNameIfNotNull</token>
+</entry>
+<entry count="36">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,new</token>
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+</entry>
+<entry count="176">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNamesIfNotNull</token>
+</entry>
+<entry count="3">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,new</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNameIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,ToString</token>
+</entry>
+<entry count="8">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+</entry>
+<entry count="3176">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNamesIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+</entry>
+<entry count="96">
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+<token>Microsoft.Build.Utilities.ToolTask,Execute</token>
+<token>Microsoft.Build.Utilities.ToolTask,Execute</token>
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+<token>Microsoft.Build.Utilities.ToolTask,Execute</token>
+</entry>
+<entry count="16">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+</entry>
+<entry count="5">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,new</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNameIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNameIfNotNull</token>
+</entry>
+<entry count="5">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,new</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNamesIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+</entry>
+<entry count="162">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,new</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+</entry>
+<entry count="96">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+</entry>
+<entry count="62">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,ToString</token>
+</entry>
+<entry count="14038">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+</entry>
+<entry count="96">
+<token>Microsoft.Build.Utilities.ToolTask,Execute</token>
+<token>Microsoft.Build.Utilities.ToolTask,Execute</token>
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+<token>Microsoft.Build.Utilities.ToolTask,Execute</token>
+</entry>
+<entry count="6336">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNameIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNamesIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+</entry>
+<entry count="79">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNamesIfNotNull</token>
+</entry>
+<entry count="106">
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+</entry>
+<entry count="12">
+<token>Microsoft.Build.Utilities.ToolTask,Execute</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogWarning</token>
+<token>Microsoft.Build.Utilities.ToolTask,Execute</token>
+</entry>
+<entry count="280">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+</entry>
+<entry count="3">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,new</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNamesIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+</entry>
+<entry count="16">
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+<token>Microsoft.Build.Utilities.TaskItem,SetMetadata</token>
+<token>Microsoft.Build.Utilities.TaskItem,SetMetadata</token>
+</entry>
+<entry count="280">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+</entry>
+<entry count="158">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,new</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+</entry>
+<entry count="161">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,new</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+<token>Microsoft.Build.Utilities.ToolTask,Execute</token>
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+<token>Microsoft.Build.Utilities.ToolTask,Execute</token>
+</entry>
+<entry count="48">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+<token>Microsoft.Build.Utilities.TaskItem,SetMetadata</token>
+<token>Microsoft.Build.Utilities.TaskItem,SetMetadata</token>
+<token>Microsoft.Build.Utilities.TaskItem,SetMetadata</token>
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+</entry>
+<entry count="844">
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogWarning</token>
+</entry>
+<entry count="28">
+<token>Microsoft.Build.Utilities.ToolTask,Execute</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogError</token>
+</entry>
+<entry count="208">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,new</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogError</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogError</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogError</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
+</entry>
+<entry count="484">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+</entry>
+<entry count="16">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,new</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNamesIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,ToString</token>
+</entry>
+<entry count="64">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+</entry>
+<entry count="8">
+<token>Microsoft.Build.Utilities.ToolTask,Execute</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNameIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,ToString</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNameIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,ToString</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNameIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNameIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+</entry>
+<entry count="80">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+</entry>
+<entry count="8">
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+<token>Microsoft.Build.Utilities.ToolTask,Execute</token>
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+</entry>
+<entry count="176">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNamesIfNotNull</token>
+</entry>
+<entry count="3392">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+</entry>
+<entry count="243">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,new</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+<token>Microsoft.Build.Utilities.ToolTask,Execute</token>
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+<token>Microsoft.Build.Utilities.ToolTask,Execute</token>
+</entry>
+<entry count="6">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,new</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNamesIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,ToString</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogError</token>
 <token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
 <token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
 <token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Build.Utilities.TaskItem,SetMetadata</token>
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+<token>Microsoft.Build.Utilities.TaskItem,SetMetadata</token>
+<token>Microsoft.Build.Utilities.TaskItem,SetMetadata</token>
+<token>Microsoft.Build.Utilities.TaskItem,SetMetadata</token>
+</entry>
+<entry count="2">
 <token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogWarning</token>
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogError</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogError</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
+</entry>
+<entry count="12673">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,new</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNameIfNotNull</token>
+</entry>
+<entry count="76">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNamesIfNotNull</token>
+</entry>
+<entry count="6336">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNameIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNameIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNamesIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+</entry>
+<entry count="6420">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+</entry>
+<entry count="3504">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,ToString</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNameIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNameIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNameIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+</entry>
+<entry count="6336">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNameIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNameIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNamesIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+</entry>
+<entry count="34">
+<token>Microsoft.Build.Utilities.TaskItem,SetMetadata</token>
+<token>Microsoft.Build.Utilities.TaskItem,SetMetadata</token>
+<token>Microsoft.Build.Utilities.TaskItem,SetMetadata</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Build.Utilities.TaskItem,SetMetadata</token>
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+<token>Microsoft.Build.Utilities.TaskItem,SetMetadata</token>
+</entry>
+<entry count="65">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNamesIfNotNull</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogWarning</token>
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogWarning</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogError</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+</entry>
+<entry count="60">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,new</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+</entry>
+<entry count="80">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,new</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogWarning</token>
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
+</entry>
+<entry count="5">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNameIfNotNull</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNameIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNameIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+</entry>
+<entry count="208">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,new</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
+</entry>
+<entry count="458">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,new</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+</entry>
+<entry count="39">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNameIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+</entry>
+<entry count="16">
+<token>Microsoft.Build.Utilities.ToolTask,Execute</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogWarning</token>
+</entry>
+<entry count="389">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNamesIfNotNull</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNameIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNameIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,ToString</token>
+</entry>
+<entry count="147">
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,new</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+</entry>
+<entry count="35">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNameIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+</entry>
+<entry count="3">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,new</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNamesIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,ToString</token>
+</entry>
+<entry count="8">
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+<token>Microsoft.Build.Utilities.ToolTask,Execute</token>
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+<token>Microsoft.Build.Utilities.ToolTask,Execute</token>
+</entry>
+<entry count="8">
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogError</token>
+<token>Microsoft.Build.Utilities.ToolTask,Execute</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogError</token>
+</entry>
+<entry count="64">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+</entry>
+<entry count="7">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNameIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNameIfNotNull</token>
+</entry>
+<entry count="3">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNameIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNameIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+</entry>
+<entry count="8">
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogError</token>
+<token>Microsoft.Build.Utilities.ToolTask,Execute</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogError</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,new</token>
 <token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
 </entry>
 <entry count="2">
-<token>Microsoft.Build.Utilities.TaskLoggingHelper,ExtractMessageCode</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
+</entry>
+<entry count="6336">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNamesIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+</entry>
+<entry count="202">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,ToString</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,new</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNamesIfNotNull</token>
+</entry>
+<entry count="27604">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+</entry>
+<entry count="7">
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogError</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogCommandLine</token>
+</entry>
+<entry count="3">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNamesIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+</entry>
+<entry count="5">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,new</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNameIfNotNull</token>
+</entry>
+<entry count="96">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+</entry>
+<entry count="3168">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNameIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNamesIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,new</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNameIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNameIfNotNull</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Build.Utilities.ToolLocationHelper,GetPathToDotNetFrameworkFile</token>
+<token>Microsoft.Build.Utilities.ToolLocationHelper,GetDotNetFrameworkVersionFolderPrefix</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogErrorWithCodeFromResources</token>
+</entry>
+<entry count="13">
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+</entry>
+<entry count="128">
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
 <token>Microsoft.Build.Utilities.TaskLoggingHelper,LogWarning</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNameIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNameIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+</entry>
+<entry count="65">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNamesIfNotNull</token>
+</entry>
+<entry count="389">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNamesIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,ToString</token>
+</entry>
+<entry count="18">
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+<token>Microsoft.Build.Utilities.TaskItem,SetMetadata</token>
+<token>Microsoft.Build.Utilities.TaskItem,SetMetadata</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Build.Utilities.ToolTask,Execute</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogWarning</token>
+<token>Microsoft.Build.Utilities.ToolTask,Execute</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogWarning</token>
+</entry>
+<entry count="23">
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
+<token>Microsoft.Build.Utilities.ToolTask,Execute</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,new</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNamesIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,ToString</token>
+</entry>
+<entry count="8">
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+<token>Microsoft.Build.Utilities.ToolTask,Execute</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+</entry>
+<entry count="18">
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+<token>Microsoft.Build.Utilities.TaskItem,SetMetadata</token>
+</entry>
+<entry count="808">
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogWarning</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
+</entry>
+<entry count="1226">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNameIfNotNull</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNameIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,ToString</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNameIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNameIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogError</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogError</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogCommandLine</token>
+</entry>
+<entry count="3168">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNamesIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+</entry>
+<entry count="209">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNamesIfNotNull</token>
+</entry>
+<entry count="36">
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+</entry>
+<entry count="6">
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+</entry>
+<entry count="96">
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+<token>Microsoft.Build.Utilities.ToolTask,Execute</token>
+<token>Microsoft.Build.Utilities.ToolTask,Execute</token>
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+</entry>
+<entry count="18">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNameIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,ToString</token>
+</entry>
+<entry count="80">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+</entry>
+<entry count="8">
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+<token>Microsoft.Build.Utilities.ToolTask,Execute</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+<token>Microsoft.Build.Utilities.ToolTask,Execute</token>
 </entry>
 <entry count="2">
 <token>Microsoft.Build.Utilities.TaskLoggingHelper,ExtractMessageCode</token>
 <token>Microsoft.Build.Utilities.TaskLoggingHelper,LogError</token>
 </entry>
 <entry count="4">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNameIfNotNull</token>
+</entry>
+<entry count="48">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+</entry>
+<entry count="209">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNamesIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,ToString</token>
+</entry>
+<entry count="3">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNamesIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+</entry>
+<entry count="72">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,new</token>
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+</entry>
+<entry count="3168">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNamesIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+</entry>
+<entry count="20">
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogError</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogError</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogError</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogError</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNameIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+</entry>
+<entry count="30">
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+<token>Microsoft.Build.Utilities.ToolTask,Execute</token>
+</entry>
+<entry count="12913">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,ToString</token>
+</entry>
+<entry count="240">
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogError</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
+</entry>
+<entry count="132">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNamesIfNotNull</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,ToString</token>
+</entry>
+<entry count="36">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,new</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNameIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+</entry>
+<entry count="8">
+<token>Microsoft.Build.Utilities.ToolTask,Execute</token>
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogError</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
+</entry>
+<entry count="3">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,new</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNameIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNameIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+</entry>
+<entry count="3">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,new</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNamesIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+</entry>
+<entry count="75">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNamesIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,ToString</token>
+</entry>
+<entry count="13">
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+<token>Microsoft.Build.Utilities.ToolTask,Execute</token>
+</entry>
+<entry count="515">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,new</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNameIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNameIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,ToString</token>
+</entry>
+<entry count="72">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,new</token>
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+</entry>
+<entry count="128">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,new</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+</entry>
+<entry count="17">
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogError</token>
+</entry>
+<entry count="256">
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogWarning</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
+</entry>
+<entry count="122">
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,ExtractMessageCode</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogWarning</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,new</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNamesIfNotNull</token>
+</entry>
+<entry count="8">
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogCommandLine</token>
+</entry>
+<entry count="32">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Build.Utilities.TaskItem,SetMetadata</token>
+<token>Microsoft.Build.Utilities.TaskItem,SetMetadata</token>
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+<token>Microsoft.Build.Utilities.TaskItem,SetMetadata</token>
+<token>Microsoft.Build.Utilities.TaskItem,SetMetadata</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Build.Utilities.TaskItem,SetMetadata</token>
+<token>Microsoft.Build.Utilities.TaskItem,SetMetadata</token>
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,new</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,ToString</token>
+</entry>
+<entry count="6336">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,new</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNameIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNameIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNamesIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+</entry>
+<entry count="52">
+<token>Microsoft.Build.Utilities.TaskItem,SetMetadata</token>
+<token>Microsoft.Build.Utilities.TaskItem,SetMetadata</token>
+</entry>
+<entry count="6922">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+</entry>
+<entry count="64">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,new</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,new</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNameIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNameIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,ToString</token>
+</entry>
+<entry count="7">
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogError</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogError</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogError</token>
+</entry>
+<entry count="17284">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Build.Utilities.ToolLocationHelper,GetDotNetFrameworkVersionFolderPrefix</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogErrorWithCodeFromResources</token>
+</entry>
+<entry count="79957">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogError</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogError</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
+</entry>
+<entry count="3176">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNamesIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+</entry>
+<entry count="3168">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNamesIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+</entry>
+<entry count="19">
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogError</token>
+<token>Microsoft.Build.Utilities.ToolTask,Execute</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+<token>Microsoft.Build.Utilities.ToolTask,Execute</token>
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+</entry>
+<entry count="5">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,new</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNamesIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+</entry>
+<entry count="13292">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,new</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,ToString</token>
+</entry>
+<entry count="3168">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNameIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNamesIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+</entry>
+<entry count="3">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNameIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,ToString</token>
+</entry>
+<entry count="3">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,new</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,ToString</token>
+</entry>
+<entry count="8">
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+<token>Microsoft.Build.Utilities.ToolTask,Execute</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
+</entry>
+<entry count="41">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,new</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNameIfNotNull</token>
+</entry>
+<entry count="108">
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+<token>Microsoft.Build.Utilities.ToolTask,Execute</token>
+</entry>
+<entry count="10">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNameIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,ToString</token>
+</entry>
+<entry count="6412">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+</entry>
+<entry count="8">
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+<token>Microsoft.Build.Utilities.ToolTask,Execute</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
+</entry>
+<entry count="16">
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+<token>Microsoft.Build.Utilities.TaskItem,SetMetadata</token>
+<token>Microsoft.Build.Utilities.TaskItem,SetMetadata</token>
+<token>Microsoft.Build.Utilities.TaskItem,SetMetadata</token>
+<token>Microsoft.Build.Utilities.TaskItem,SetMetadata</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,new</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+</entry>
+<entry count="36">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNameIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+</entry>
+<entry count="16">
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+<token>Microsoft.Build.Utilities.TaskItem,SetMetadata</token>
+<token>Microsoft.Build.Utilities.TaskItem,SetMetadata</token>
+<token>Microsoft.Build.Utilities.TaskItem,SetMetadata</token>
+</entry>
+<entry count="36">
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+</entry>
+<entry count="12">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,new</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNameIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,ToString</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Build.Utilities.ToolTask,Execute</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogWarning</token>
+<token>Microsoft.Build.Utilities.ToolTask,Execute</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogError</token>
+</entry>
+<entry count="65">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNamesIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,ToString</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogError</token>
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+</entry>
+<entry count="8">
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+<token>Microsoft.Build.Utilities.ToolTask,Execute</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+</entry>
+<entry count="12672">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNameIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNameIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNamesIfNotNull</token>
+</entry>
+<entry count="65">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNamesIfNotNull</token>
+</entry>
+<entry count="209">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNamesIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,ToString</token>
+</entry>
+<entry count="20919">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+</entry>
+<entry count="3168">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNamesIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+</entry>
+<entry count="8">
 <token>Microsoft.Build.Utilities.TaskLoggingHelper,LogError</token>
 <token>Microsoft.Build.Utilities.TaskLoggingHelper,LogWarning</token>
 </entry>
-<entry count="1346">
+<entry count="202">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,ToString</token>
+</entry>
+<entry count="96">
+<token>Microsoft.Build.Utilities.ToolTask,Execute</token>
+<token>Microsoft.Build.Utilities.ToolTask,Execute</token>
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+</entry>
+<entry count="3168">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNamesIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+</entry>
+<entry count="96">
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+<token>Microsoft.Build.Utilities.ToolTask,Execute</token>
+<token>Microsoft.Build.Utilities.ToolTask,Execute</token>
+</entry>
+<entry count="176">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNamesIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,ToString</token>
+</entry>
+<entry count="36">
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+</entry>
+<entry count="96">
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+<token>Microsoft.Build.Utilities.ToolTask,Execute</token>
+<token>Microsoft.Build.Utilities.ToolTask,Execute</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,new</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNamesIfNotNull</token>
+</entry>
+<entry count="202">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,ToString</token>
+</entry>
+<entry count="6338">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,ToString</token>
+</entry>
+<entry count="3168">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNameIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNamesIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+</entry>
+<entry count="12">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,ToString</token>
+</entry>
+<entry count="32127">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+</entry>
+<entry count="18">
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogError</token>
+<token>Microsoft.Build.Utilities.ToolTask,Execute</token>
+</entry>
+<entry count="12899">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,ToString</token>
+</entry>
+<entry count="21240">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+</entry>
+<entry count="1592">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNamesIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+</entry>
+<entry count="3168">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNameIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNamesIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+</entry>
+<entry count="80">
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogError</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
+</entry>
+<entry count="3168">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNamesIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+</entry>
+<entry count="9">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,new</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNamesIfNotNull</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Build.Utilities.TaskItem,SetMetadata</token>
+<token>Microsoft.Build.Utilities.TaskItem,SetMetadata</token>
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+<token>Microsoft.Build.Utilities.TaskItem,SetMetadata</token>
+</entry>
+<entry count="48">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,new</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+</entry>
+<entry count="16">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,new</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+</entry>
+<entry count="96">
 <token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
 <token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+<token>Microsoft.Build.Utilities.ToolTask,Execute</token>
+<token>Microsoft.Build.Utilities.ToolTask,Execute</token>
+</entry>
+<entry count="6336">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,new</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNameIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNameIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNamesIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+</entry>
+<entry count="409">
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogError</token>
+</entry>
+<entry count="3">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNameIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,ToString</token>
+</entry>
+<entry count="32">
+<token>Microsoft.Build.Utilities.ToolLocationHelper,GetPathToDotNetFrameworkFile</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogError</token>
+</entry>
+<entry count="3284">
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
+</entry>
+<entry count="12">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,ToString</token>
+</entry>
+<entry count="5">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,new</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNamesIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+</entry>
+<entry count="3168">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNameIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNamesIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNamesIfNotNull</token>
+</entry>
+<entry count="62">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,new</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+</entry>
+<entry count="96">
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
+<token>Microsoft.Build.Utilities.TaskLoggingHelper,LogMessage</token>
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+<token>Microsoft.Build.Utilities.ToolTask,Execute</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,new</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNameIfNotNull</token>
+</entry>
+<entry count="65">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNamesIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,ToString</token>
+</entry>
+<entry count="1584">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNamesIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+</entry>
+<entry count="178">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNamesIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,ToString</token>
+</entry>
+<entry count="5">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,new</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNameIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,ToString</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,new</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNameIfNotNull</token>
+</entry>
+<entry count="12">
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+<token>Microsoft.Build.Utilities.ToolTask,Execute</token>
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+</entry>
+<entry count="72">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,new</token>
+<token>Microsoft.Build.Utilities.TaskItem,new</token>
+</entry>
+<entry count="126">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,ToString</token>
+</entry>
+<entry count="4184">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitchIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendSwitch</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Build.Utilities.CommandLineBuilder,new</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,AppendFileNameIfNotNull</token>
+<token>Microsoft.Build.Utilities.CommandLineBuilder,ToString</token>
 </entry>
 </dictionary>

@@ -1,22 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?><dictionary case_sensitive="false">
-<entry count="5">
-<token>p:float]],Sparse</token>
-<token>MathNet.Numerics.LinearAlgebra.Matrix`1[[T</token>
-</entry>
 <entry count="3">
 <token>p:float]],Sparse</token>
 <token>MathNet.Numerics.LinearAlgebra.Matrix`1[[T</token>
 <token>-&gt;</token>
 <token>p:float]],EnumerateRows</token>
 </entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>p:double]],Svd</token>
+</entry>
 <entry count="5">
 <token>p:float]],Sparse</token>
 <token>MathNet.Numerics.LinearAlgebra.Matrix`1[[T</token>
 <token>-&gt;</token>
 </entry>
-<entry count="4">
-<token>MathNet.Numerics.LinearAlgebra.VectorBuilder`1[[T</token>
+<entry count="1">
+<token>MathNet.Numerics.LinearAlgebra.Matrix`1[[T</token>
 <token>-&gt;</token>
+<token>p:double]],Svd</token>
 </entry>
 <entry count="3">
 <token>-&gt;</token>
@@ -37,32 +38,56 @@
 <token>-&gt;</token>
 <token>p:float]],Sparse</token>
 </entry>
-<entry count="2">
-<token>MathNet.Numerics.LinearAlgebra.VectorBuilder`1[[T</token>
+<entry count="1">
 <token>-&gt;</token>
-<token>p:float]],SparseOfArray</token>
-<token>MathNet.Numerics.LinearAlgebra.VectorBuilder`1[[T</token>
+<token>p:double]],Multiply</token>
 </entry>
-<entry count="5">
+<entry count="1">
 <token>MathNet.Numerics.LinearAlgebra.Matrix`1[[T</token>
 <token>-&gt;</token>
+<token>p:double]],Multiply</token>
+<token>MathNet.Numerics.LinearAlgebra.Matrix`1[[T</token>
+</entry>
+<entry count="1">
+<token>MathNet.Numerics.LinearAlgebra.Matrix`1[[T</token>
+<token>-&gt;</token>
+<token>p:double]],Svd</token>
+<token>MathNet.Numerics.LinearAlgebra.Matrix`1[[T</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>MathNet.Numerics.LinearAlgebra.Matrix`1[[T</token>
+<token>-&gt;</token>
+<token>p:double]],Multiply</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>p:double]],Multiply</token>
+<token>MathNet.Numerics.LinearAlgebra.Matrix`1[[T</token>
+<token>-&gt;</token>
+<token>p:double]],TransposeAndMultiply</token>
 </entry>
 <entry count="5">
 <token>MathNet.Numerics.LinearAlgebra.MatrixBuilder`1[[T</token>
 <token>-&gt;</token>
 <token>p:float]],Sparse</token>
 <token>MathNet.Numerics.LinearAlgebra.Matrix`1[[T</token>
-</entry>
-<entry count="5">
-<token>MathNet.Numerics.LinearAlgebra.MatrixBuilder`1[[T</token>
-<token>-&gt;</token>
-<token>p:float]],Sparse</token>
-<token>MathNet.Numerics.LinearAlgebra.Matrix`1[[T</token>
 <token>-&gt;</token>
 </entry>
 <entry count="2">
 <token>-&gt;</token>
 <token>p:float]],CopyTo</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>p:double]],Multiply</token>
+<token>MathNet.Numerics.LinearAlgebra.Matrix`1[[T</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>p:double]],Multiply</token>
+<token>MathNet.Numerics.LinearAlgebra.Matrix`1[[T</token>
+<token>-&gt;</token>
 </entry>
 <entry count="2">
 <token>MathNet.Numerics.LinearAlgebra.Matrix`1[[T</token>
@@ -73,32 +98,12 @@
 <token>p:float]],SparseOfArray</token>
 <token>MathNet.Numerics.LinearAlgebra.VectorBuilder`1[[T</token>
 </entry>
-<entry count="2">
-<token>MathNet.Numerics.LinearAlgebra.VectorBuilder`1[[T</token>
-<token>-&gt;</token>
-<token>p:float]],SparseOfArray</token>
-</entry>
-<entry count="2">
-<token>p:float]],SparseOfArray</token>
-<token>MathNet.Numerics.LinearAlgebra.VectorBuilder`1[[T</token>
-<token>-&gt;</token>
-</entry>
-<entry count="2">
-<token>-&gt;</token>
-<token>p:float]],SparseOfArray</token>
-</entry>
-<entry count="2">
-<token>p:float]],Sparse</token>
+<entry count="1">
 <token>MathNet.Numerics.LinearAlgebra.Matrix`1[[T</token>
 <token>-&gt;</token>
-<token>p:float]],CopyTo</token>
-</entry>
-<entry count="2">
-<token>-&gt;</token>
-<token>p:float]],Sparse</token>
+<token>p:double]],Multiply</token>
 <token>MathNet.Numerics.LinearAlgebra.Matrix`1[[T</token>
 <token>-&gt;</token>
-<token>p:float]],CopyTo</token>
 </entry>
 <entry count="2">
 <token>p:float]],SparseOfArray</token>
@@ -110,41 +115,30 @@
 <token>-&gt;</token>
 <token>p:float]],Sparse</token>
 </entry>
-<entry count="5">
-<token>MathNet.Numerics.LinearAlgebra.MatrixBuilder`1[[T</token>
+<entry count="1">
 <token>-&gt;</token>
-<token>p:float]],Sparse</token>
+<token>p:double]],Transpose</token>
 </entry>
-<entry count="3">
+<entry count="1">
 <token>-&gt;</token>
-<token>p:float]],EnumerateRows</token>
-</entry>
-<entry count="3">
-<token>MathNet.Numerics.LinearAlgebra.Matrix`1[[T</token>
-<token>-&gt;</token>
-<token>p:float]],EnumerateRows</token>
-</entry>
-<entry count="5">
-<token>-&gt;</token>
-<token>p:float]],Sparse</token>
+<token>p:double]],Svd</token>
 <token>MathNet.Numerics.LinearAlgebra.Matrix`1[[T</token>
 </entry>
-<entry count="2">
+<entry count="1">
+<token>MathNet.Numerics.LinearAlgebra.Matrix`1[[T</token>
 <token>-&gt;</token>
-<token>p:float]],SparseOfArray</token>
-<token>MathNet.Numerics.LinearAlgebra.VectorBuilder`1[[T</token>
+<token>p:double]],Transpose</token>
+</entry>
+<entry count="5">
 <token>-&gt;</token>
+<token>p:float]],Sparse</token>
+<token>MathNet.Numerics.LinearAlgebra.Matrix`1[[T</token>
 </entry>
 <entry count="5">
 <token>-&gt;</token>
 <token>p:float]],Sparse</token>
 <token>MathNet.Numerics.LinearAlgebra.Matrix`1[[T</token>
 <token>-&gt;</token>
-</entry>
-<entry count="2">
-<token>-&gt;</token>
-<token>p:float]],SparseOfArray</token>
-<token>MathNet.Numerics.LinearAlgebra.VectorBuilder`1[[T</token>
 </entry>
 <entry count="2">
 <token>MathNet.Numerics.LinearAlgebra.VectorBuilder`1[[T</token>
@@ -156,5 +150,139 @@
 <entry count="5">
 <token>MathNet.Numerics.LinearAlgebra.MatrixBuilder`1[[T</token>
 <token>-&gt;</token>
+</entry>
+<entry count="5">
+<token>p:float]],Sparse</token>
+<token>MathNet.Numerics.LinearAlgebra.Matrix`1[[T</token>
+</entry>
+<entry count="1">
+<token>MathNet.Numerics.LinearAlgebra.Matrix`1[[T</token>
+<token>-&gt;</token>
+<token>p:double]],Svd</token>
+<token>MathNet.Numerics.LinearAlgebra.Matrix`1[[T</token>
+</entry>
+<entry count="4">
+<token>MathNet.Numerics.LinearAlgebra.VectorBuilder`1[[T</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>p:double]],Multiply</token>
+<token>MathNet.Numerics.LinearAlgebra.Matrix`1[[T</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>p:double]],Svd</token>
+<token>MathNet.Numerics.LinearAlgebra.Matrix`1[[T</token>
+<token>-&gt;</token>
+<token>p:double]],Transpose</token>
+</entry>
+<entry count="2">
+<token>MathNet.Numerics.LinearAlgebra.VectorBuilder`1[[T</token>
+<token>-&gt;</token>
+<token>p:float]],SparseOfArray</token>
+<token>MathNet.Numerics.LinearAlgebra.VectorBuilder`1[[T</token>
+</entry>
+<entry count="9">
+<token>MathNet.Numerics.LinearAlgebra.Matrix`1[[T</token>
+<token>-&gt;</token>
+</entry>
+<entry count="5">
+<token>MathNet.Numerics.LinearAlgebra.MatrixBuilder`1[[T</token>
+<token>-&gt;</token>
+<token>p:float]],Sparse</token>
+<token>MathNet.Numerics.LinearAlgebra.Matrix`1[[T</token>
+</entry>
+<entry count="1">
+<token>p:double]],Svd</token>
+<token>MathNet.Numerics.LinearAlgebra.Matrix`1[[T</token>
+</entry>
+<entry count="1">
+<token>p:double]],Svd</token>
+<token>MathNet.Numerics.LinearAlgebra.Matrix`1[[T</token>
+<token>-&gt;</token>
+<token>p:double]],Transpose</token>
+</entry>
+<entry count="2">
+<token>MathNet.Numerics.LinearAlgebra.VectorBuilder`1[[T</token>
+<token>-&gt;</token>
+<token>p:float]],SparseOfArray</token>
+</entry>
+<entry count="2">
+<token>p:float]],SparseOfArray</token>
+<token>MathNet.Numerics.LinearAlgebra.VectorBuilder`1[[T</token>
+<token>-&gt;</token>
+</entry>
+<entry count="2">
+<token>-&gt;</token>
+<token>p:float]],SparseOfArray</token>
+</entry>
+<entry count="2">
+<token>p:float]],Sparse</token>
+<token>MathNet.Numerics.LinearAlgebra.Matrix`1[[T</token>
+<token>-&gt;</token>
+<token>p:float]],CopyTo</token>
+</entry>
+<entry count="2">
+<token>-&gt;</token>
+<token>p:float]],Sparse</token>
+<token>MathNet.Numerics.LinearAlgebra.Matrix`1[[T</token>
+<token>-&gt;</token>
+<token>p:float]],CopyTo</token>
+</entry>
+<entry count="1">
+<token>p:double]],Svd</token>
+<token>MathNet.Numerics.LinearAlgebra.Matrix`1[[T</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>MathNet.Numerics.LinearAlgebra.Matrix`1[[T</token>
+<token>-&gt;</token>
+<token>p:double]],TransposeAndMultiply</token>
+</entry>
+<entry count="1">
+<token>p:double]],Multiply</token>
+<token>MathNet.Numerics.LinearAlgebra.Matrix`1[[T</token>
+</entry>
+<entry count="5">
+<token>MathNet.Numerics.LinearAlgebra.MatrixBuilder`1[[T</token>
+<token>-&gt;</token>
+<token>p:float]],Sparse</token>
+</entry>
+<entry count="3">
+<token>-&gt;</token>
+<token>p:float]],EnumerateRows</token>
+</entry>
+<entry count="1">
+<token>p:double]],Multiply</token>
+<token>MathNet.Numerics.LinearAlgebra.Matrix`1[[T</token>
+<token>-&gt;</token>
+<token>p:double]],TransposeAndMultiply</token>
+</entry>
+<entry count="3">
+<token>MathNet.Numerics.LinearAlgebra.Matrix`1[[T</token>
+<token>-&gt;</token>
+<token>p:float]],EnumerateRows</token>
+</entry>
+<entry count="2">
+<token>-&gt;</token>
+<token>p:float]],SparseOfArray</token>
+<token>MathNet.Numerics.LinearAlgebra.VectorBuilder`1[[T</token>
+<token>-&gt;</token>
+</entry>
+<entry count="2">
+<token>-&gt;</token>
+<token>p:float]],SparseOfArray</token>
+<token>MathNet.Numerics.LinearAlgebra.VectorBuilder`1[[T</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>p:double]],Svd</token>
+<token>MathNet.Numerics.LinearAlgebra.Matrix`1[[T</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>p:double]],TransposeAndMultiply</token>
 </entry>
 </dictionary>

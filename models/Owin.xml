@@ -1,29 +1,562 @@
 <?xml version="1.0" encoding="UTF-8"?><dictionary case_sensitive="false">
 <entry count="1">
+<token>Owin.OAuthBearerAuthenticationExtensions,UseOAuthBearerAuthentication</token>
 <token>Owin.GoogleAuthenticationExtensions,UseGoogleAuthentication</token>
 <token>Owin.FacebookAuthenticationExtensions,UseFacebookAuthentication</token>
 <token>Owin.CorsExtensions,UseCors</token>
 </entry>
 <entry count="1">
-<token>Owin.OAuthBearerAuthenticationExtensions,UseOAuthBearerAuthentication</token>
-<token>Owin.GoogleAuthenticationExtensions,UseGoogleAuthentication</token>
-<token>Owin.FacebookAuthenticationExtensions,UseFacebookAuthentication</token>
+<token>Owin.ErrorPageExtensions,UseErrorPage</token>
 <token>Owin.CorsExtensions,UseCors</token>
+<token>Owin.MapExtensions,Map</token>
+</entry>
+<entry count="2">
+<token>Owin.IAppBuilder,Use</token>
+<token>Owin.WebApiAppBuilderExtensions,UseWebApi</token>
+</entry>
+<entry count="1">
+<token>Owin.IdentityServerBearerTokenValidationAppBuilderExtensions,UseIdentityServerBearerTokenAuthentication</token>
+<token>Owin.WebApiAppBuilderExtensions,UseWebApi</token>
+</entry>
+<entry count="2">
+<token>Owin.CookieAuthenticationExtensions,UseCookieAuthentication</token>
+<token>Owin.OpenIdConnectAuthenticationExtensions,UseOpenIdConnectAuthentication</token>
+<token>Owin.MapExtensions,Map</token>
+<token>Owin.MapExtensions,Map</token>
+</entry>
+<entry count="1">
+<token>Owin.CookieAuthenticationExtensions,UseCookieAuthentication</token>
+<token>Owin.AppBuilderExtensions,UseResourceAuthorization</token>
+</entry>
+<entry count="4">
+<token>Owin.IAppBuilder,Use</token>
+<token>Owin.IAppBuilder,Use</token>
+<token>Owin.ErrorPageExtensions,UseErrorPage</token>
+</entry>
+<entry count="3">
+<token>Owin.CookieAuthenticationExtensions,UseCookieAuthentication</token>
+<token>Owin.AppBuilderExtensions,UseExternalSignInCookie</token>
+<token>Owin.AppBuilderExtensions,UseTwoFactorSignInCookie</token>
+<token>Owin.AppBuilderExtensions,UseTwoFactorRememberBrowserCookie</token>
+</entry>
+<entry count="3">
+<token>Owin.CookieAuthenticationExtensions,UseCookieAuthentication</token>
+<token>Owin.AppBuilderExtensions,UseExternalSignInCookie</token>
+<token>Owin.AppBuilderExtensions,UseTwoFactorSignInCookie</token>
+</entry>
+<entry count="1">
+<token>Owin.AppBuilderExtensions,UseExternalSignInCookie</token>
+<token>Owin.OAuthAuthorizationServerExtensions,UseOAuthAuthorizationServer</token>
 </entry>
 <entry count="1">
 <token>Owin.AppBuilderExtensions,UseExternalSignInCookie</token>
 <token>Owin.OAuthBearerAuthenticationExtensions,UseOAuthBearerAuthentication</token>
 <token>Owin.GoogleAuthenticationExtensions,UseGoogleAuthentication</token>
+</entry>
+<entry count="3">
+<token>Owin.IdentityManagerAppBuilderExtensions,UseIdentityManager</token>
+<token>Owin.MapExtensions,Map</token>
+</entry>
+<entry count="3">
+<token>Owin.MapExtensions,Map</token>
+<token>Owin.MapExtensions,Map</token>
+</entry>
+<entry count="1">
+<token>Owin.AppBuilderExtensions,CreatePerOwinContext</token>
+<token>Owin.AppBuilderExtensions,CreatePerOwinContext</token>
+<token>Owin.AppBuilderExtensions,CreatePerOwinContext</token>
+<token>Owin.OAuthAuthorizationServerExtensions,UseOAuthAuthorizationServer</token>
+</entry>
+<entry count="6">
+<token>Owin.AppBuilderExtensions,CreatePerOwinContext</token>
+<token>Owin.AppBuilderExtensions,CreatePerOwinContext</token>
+<token>Owin.AppBuilderExtensions,CreatePerOwinContext</token>
+</entry>
+<entry count="1">
+<token>Owin.GoogleAuthenticationExtensions,UseGoogleAuthentication</token>
 <token>Owin.FacebookAuthenticationExtensions,UseFacebookAuthentication</token>
 <token>Owin.CorsExtensions,UseCors</token>
 </entry>
-<entry count="1">
+<entry count="7">
 <token>Owin.CorsExtensions,UseCors</token>
-<token>Owin.WebApiAppBuilderExtensions,UseWebApi</token>
+<token>Owin.OwinExtensions,RunSignalR</token>
+<token>Owin.MapExtensions,Map</token>
+</entry>
+<entry count="1">
+<token>Owin.MapExtensions,Map</token>
+<token>Owin.CorsExtensions,UseCors</token>
+<token>Owin.MapExtensions,Map</token>
+</entry>
+<entry count="1">
+<token>Owin.IAppBuilder,Use</token>
+<token>Owin.IntegratedPipelineExtensions,UseStageMarkerAuthenticate</token>
 </entry>
 <entry count="1">
 <token>Owin.OAuthAuthorizationServerExtensions,UseOAuthAuthorizationServer</token>
 <token>Owin.AppBuilderExtensions,UseExternalSignInCookie</token>
+<token>Owin.OAuthBearerAuthenticationExtensions,UseOAuthBearerAuthentication</token>
+<token>Owin.GoogleAuthenticationExtensions,UseGoogleAuthentication</token>
+</entry>
+<entry count="9">
+<token>Owin.UseIdentityServerExtension,UseIdentityServer</token>
+<token>Owin.MapExtensions,Map</token>
+</entry>
+<entry count="6">
+<token>Owin.OAuthBearerAuthenticationExtensions,UseOAuthBearerAuthentication</token>
+<token>Owin.WebApiAppBuilderExtensions,UseWebApi</token>
+</entry>
+<entry count="1">
+<token>Owin.FacebookAuthenticationExtensions,UseFacebookAuthentication</token>
+<token>Owin.CorsExtensions,UseCors</token>
+</entry>
+<entry count="3">
+<token>Owin.AppBuilderExtensions,UseExternalSignInCookie</token>
+<token>Owin.AppBuilderExtensions,UseTwoFactorSignInCookie</token>
+<token>Owin.AppBuilderExtensions,UseTwoFactorRememberBrowserCookie</token>
+</entry>
+<entry count="1">
+<token>Owin.IdentityServerBearerTokenValidationAppBuilderExtensions,UseIdentityServerBearerTokenAuthentication</token>
+<token>Owin.ClaimsTransformationMiddlewareExtensions,UseClaimsTransformation</token>
+</entry>
+<entry count="1">
+<token>Owin.AppBuilderExtensions,UseExternalSignInCookie</token>
+<token>Owin.OAuthAuthorizationServerExtensions,UseOAuthAuthorizationServer</token>
+<token>Owin.OAuthBearerAuthenticationExtensions,UseOAuthBearerAuthentication</token>
+</entry>
+<entry count="8">
+<token>Owin.GoogleAuthenticationExtensions,UseGoogleAuthentication</token>
+<token>Owin.FacebookAuthenticationExtensions,UseFacebookAuthentication</token>
+</entry>
+<entry count="1">
+<token>Owin.WebApiAppBuilderExtensions,UseWebApi</token>
+<token>Owin.FileServerExtensions,UseFileServer</token>
+</entry>
+<entry count="1">
+<token>Owin.IdentityManagerAppBuilderExtensions,UseIdentityManager</token>
+<token>Owin.MapExtensions,Map</token>
+<token>Owin.MapExtensions,Map</token>
+</entry>
+<entry count="3">
+<token>Owin.AppBuilderExtensions,CreatePerOwinContext</token>
+<token>Owin.AppBuilderExtensions,CreatePerOwinContext</token>
+<token>Owin.AppBuilderExtensions,CreatePerOwinContext</token>
+<token>Owin.CookieAuthenticationExtensions,UseCookieAuthentication</token>
+<token>Owin.AppBuilderExtensions,UseExternalSignInCookie</token>
+</entry>
+<entry count="5">
+<token>Owin.AppBuilderExtensions,CreatePerOwinContext</token>
+<token>Owin.AppBuilderExtensions,CreatePerOwinContext</token>
+<token>Owin.CookieAuthenticationExtensions,UseCookieAuthentication</token>
+<token>Owin.AppBuilderExtensions,UseExternalSignInCookie</token>
+</entry>
+<entry count="3">
+<token>Owin.CorsExtensions,UseCors</token>
+<token>Owin.CorsExtensions,UseCors</token>
+<token>Owin.OwinExtensions,RunSignalR</token>
+<token>Owin.MapExtensions,Map</token>
+</entry>
+<entry count="3">
+<token>Owin.AppBuilderExtensions,UseResourceAuthorization</token>
+<token>Owin.CookieAuthenticationExtensions,UseCookieAuthentication</token>
+<token>Owin.OpenIdConnectAuthenticationExtensions,UseOpenIdConnectAuthentication</token>
+</entry>
+<entry count="1">
+<token>Owin.ClientCertificateAuthenticationExtensions,UseClientCertificateAuthentication</token>
+<token>Owin.ClaimsTransformationMiddlewareExtensions,UseClaimsTransformation</token>
+<token>Owin.WebApiAppBuilderExtensions,UseWebApi</token>
+</entry>
+<entry count="1">
+<token>Owin.OwinExtensions,MapHubs</token>
+<token>Owin.Extensions,UseNancy</token>
+</entry>
+<entry count="6">
+<token>Owin.FacebookAuthenticationExtensions,UseFacebookAuthentication</token>
+<token>Owin.TwitterAuthenticationExtensions,UseTwitterAuthentication</token>
+</entry>
+<entry count="2">
+<token>Owin.AppBuilderUseExtensions,Use</token>
+<token>Owin.MapExtensions,Map</token>
+</entry>
+<entry count="3">
+<token>Owin.UseIdentityServerExtension,UseIdentityServer</token>
+<token>Owin.MapExtensions,Map</token>
+<token>Owin.AppBuilderExtensions,UseResourceAuthorization</token>
+<token>Owin.CookieAuthenticationExtensions,UseCookieAuthentication</token>
+</entry>
+<entry count="1">
+<token>Owin.BasicAuthnMiddlewareExtensions,UseBasicAuthentication</token>
+<token>Owin.ClientCertificateAuthenticationExtensions,UseClientCertificateAuthentication</token>
+</entry>
+<entry count="1">
+<token>Owin.ErrorPageExtensions,UseErrorPage</token>
+<token>Owin.CorsExtensions,UseCors</token>
+</entry>
+<entry count="1">
+<token>Owin.GoogleAuthenticationExtensions,UseGoogleAuthentication</token>
+<token>Owin.FacebookAuthenticationExtensions,UseFacebookAuthentication</token>
+<token>Owin.CorsExtensions,UseCors</token>
+<token>Owin.WebApiAppBuilderExtensions,UseWebApi</token>
+</entry>
+<entry count="1">
+<token>Owin.IdentityServerBearerTokenValidationAppBuilderExtensions,UseIdentityServerBearerTokenAuthentication</token>
+<token>Owin.ClaimsTransformationMiddlewareExtensions,UseClaimsTransformation</token>
+<token>Owin.WebApiAppBuilderExtensions,UseWebApi</token>
+</entry>
+<entry count="3">
+<token>Owin.MapExtensions,Map</token>
+<token>Owin.AppBuilderExtensions,UseResourceAuthorization</token>
+<token>Owin.CookieAuthenticationExtensions,UseCookieAuthentication</token>
+</entry>
+<entry count="3">
+<token>Owin.UseIdentityServerExtension,UseIdentityServer</token>
+<token>Owin.MapExtensions,Map</token>
+<token>Owin.AppBuilderExtensions,UseResourceAuthorization</token>
+<token>Owin.CookieAuthenticationExtensions,UseCookieAuthentication</token>
+<token>Owin.OpenIdConnectAuthenticationExtensions,UseOpenIdConnectAuthentication</token>
+</entry>
+<entry count="5">
+<token>Owin.AppBuilderExtensions,CreatePerOwinContext</token>
+<token>Owin.CookieAuthenticationExtensions,UseCookieAuthentication</token>
+<token>Owin.AppBuilderExtensions,UseExternalSignInCookie</token>
+</entry>
+<entry count="1">
+<token>Owin.AppBuilderExtensions,RequireScopes</token>
+<token>Owin.WebApiAppBuilderExtensions,UseWebApi</token>
+</entry>
+<entry count="8">
+<token>Owin.AppBuilderUseExtensions,Use</token>
+<token>Owin.WebApiAppBuilderExtensions,UseWebApi</token>
+</entry>
+<entry count="6">
+<token>Owin.AppBuilderExtensions,CreatePerOwinContext</token>
+<token>Owin.CookieAuthenticationExtensions,UseCookieAuthentication</token>
+</entry>
+<entry count="1">
+<token>Owin.ErrorPageExtensions,UseErrorPage</token>
+<token>Owin.CorsExtensions,UseCors</token>
+<token>Owin.MapExtensions,Map</token>
+<token>Owin.CorsExtensions,UseCors</token>
+</entry>
+<entry count="6">
+<token>Owin.GoogleAuthenticationExtensions,UseGoogleAuthentication</token>
+<token>Owin.FacebookAuthenticationExtensions,UseFacebookAuthentication</token>
+<token>Owin.TwitterAuthenticationExtensions,UseTwitterAuthentication</token>
+</entry>
+<entry count="14">
+<token>Owin.CookieAuthenticationExtensions,UseCookieAuthentication</token>
+<token>Owin.OpenIdConnectAuthenticationExtensions,UseOpenIdConnectAuthentication</token>
+</entry>
+<entry count="3">
+<token>Owin.CorsExtensions,UseCors</token>
+<token>Owin.CorsExtensions,UseCors</token>
+<token>Owin.OwinExtensions,RunSignalR</token>
+</entry>
+<entry count="2">
+<token>Owin.OpenIdConnectAuthenticationExtensions,UseOpenIdConnectAuthentication</token>
+<token>Owin.MapExtensions,Map</token>
+<token>Owin.MapExtensions,Map</token>
+</entry>
+<entry count="3">
+<token>Owin.MapExtensions,Map</token>
+<token>Owin.AppBuilderExtensions,UseResourceAuthorization</token>
+</entry>
+<entry count="1">
+<token>Owin.BasicAuthnMiddlewareExtensions,UseBasicAuthentication</token>
+<token>Owin.ClientCertificateAuthenticationExtensions,UseClientCertificateAuthentication</token>
+<token>Owin.ClaimsTransformationMiddlewareExtensions,UseClaimsTransformation</token>
+</entry>
+<entry count="2">
+<token>Owin.CookieAuthenticationExtensions,UseCookieAuthentication</token>
+<token>Owin.OpenIdConnectAuthenticationExtensions,UseOpenIdConnectAuthentication</token>
+<token>Owin.MapExtensions,Map</token>
+</entry>
+<entry count="1">
+<token>Owin.AppBuilderExtensions,RequireSsl</token>
+<token>Owin.BasicAuthnMiddlewareExtensions,UseBasicAuthentication</token>
+<token>Owin.ClientCertificateAuthenticationExtensions,UseClientCertificateAuthentication</token>
+<token>Owin.ClaimsTransformationMiddlewareExtensions,UseClaimsTransformation</token>
+</entry>
+<entry count="3">
+<token>Owin.MapExtensions,Map</token>
+<token>Owin.AppBuilderExtensions,UseResourceAuthorization</token>
+<token>Owin.CookieAuthenticationExtensions,UseCookieAuthentication</token>
+<token>Owin.OpenIdConnectAuthenticationExtensions,UseOpenIdConnectAuthentication</token>
+</entry>
+<entry count="1">
+<token>Owin.AppBuilderExtensions,CreatePerOwinContext</token>
+<token>Owin.AppBuilderExtensions,CreatePerOwinContext</token>
+<token>Owin.AppBuilderExtensions,CreatePerOwinContext</token>
+<token>Owin.AppBuilderExtensions,CreatePerOwinContext</token>
+</entry>
+<entry count="2">
+<token>Owin.IdentityModelJwtBearerAuthenticationExtensions,UseJsonWebToken</token>
+<token>Owin.ClaimsTransformationMiddlewareExtensions,UseClaimsTransformation</token>
+</entry>
+<entry count="1">
+<token>Owin.ErrorPageExtensions,UseErrorPage</token>
+<token>Owin.CorsExtensions,UseCors</token>
+<token>Owin.MapExtensions,Map</token>
+<token>Owin.CorsExtensions,UseCors</token>
+<token>Owin.MapExtensions,Map</token>
+</entry>
+<entry count="1">
+<token>Owin.OAuthAuthorizationServerExtensions,UseOAuthAuthorizationServer</token>
+<token>Owin.AppBuilderExtensions,UseExternalSignInCookie</token>
+</entry>
+<entry count="1">
+<token>Owin.OAuthAuthorizationServerExtensions,UseOAuthAuthorizationServer</token>
+<token>Owin.OAuthBearerAuthenticationExtensions,UseOAuthBearerAuthentication</token>
+<token>Owin.GoogleAuthenticationExtensions,UseGoogleAuthentication</token>
+</entry>
+<entry count="2">
+<token>Owin.IdentityManagerAppBuilderExtensions,UseIdentityManager</token>
+<token>Owin.MapExtensions,Map</token>
+<token>Owin.UseIdentityServerExtension,UseIdentityServer</token>
+<token>Owin.MapExtensions,Map</token>
+</entry>
+<entry count="2">
+<token>Owin.IdentityManagerAppBuilderExtensions,UseIdentityManager</token>
+<token>Owin.MapExtensions,Map</token>
+<token>Owin.UseIdentityServerExtension,UseIdentityServer</token>
+</entry>
+<entry count="2">
+<token>Owin.OpenIdConnectAuthenticationExtensions,UseOpenIdConnectAuthentication</token>
+<token>Owin.MapExtensions,Map</token>
+</entry>
+<entry count="1">
+<token>Owin.WebApiAppBuilderExtensions,UseWebApi</token>
+<token>Owin.FileServerExtensions,UseFileServer</token>
+<token>Owin.AppBuilderExtensions,UseNancy</token>
+</entry>
+<entry count="3">
+<token>Owin.MapExtensions,Map</token>
+<token>Owin.UseIdentityServerExtension,UseIdentityServer</token>
+</entry>
+<entry count="60">
+<token>Owin.AppBuilderUseExtensions,Run</token>
+<token>Owin.MapExtensions,Map</token>
+<token>Owin.AppBuilderUseExtensions,Run</token>
+</entry>
+<entry count="1">
+<token>Owin.AppBuilderExtensions,UseExternalSignInCookie</token>
+<token>Owin.OAuthBearerAuthenticationExtensions,UseOAuthBearerAuthentication</token>
+<token>Owin.GoogleAuthenticationExtensions,UseGoogleAuthentication</token>
+<token>Owin.FacebookAuthenticationExtensions,UseFacebookAuthentication</token>
+</entry>
+<entry count="3">
+<token>Owin.AppBuilderExtensions,UseExternalSignInCookie</token>
+<token>Owin.AppBuilderExtensions,UseTwoFactorSignInCookie</token>
+</entry>
+<entry count="1">
+<token>Owin.AppBuilderExtensions,UseExternalSignInCookie</token>
+<token>Owin.OAuthAuthorizationServerExtensions,UseOAuthAuthorizationServer</token>
+<token>Owin.OAuthBearerAuthenticationExtensions,UseOAuthBearerAuthentication</token>
+<token>Owin.GoogleAuthenticationExtensions,UseGoogleAuthentication</token>
+</entry>
+<entry count="1">
+<token>Owin.BasicAuthnMiddlewareExtensions,UseBasicAuthentication</token>
+<token>Owin.ClientCertificateAuthenticationExtensions,UseClientCertificateAuthentication</token>
+<token>Owin.ClaimsTransformationMiddlewareExtensions,UseClaimsTransformation</token>
+<token>Owin.WebApiAppBuilderExtensions,UseWebApi</token>
+</entry>
+<entry count="1">
+<token>Owin.FacebookAuthenticationExtensions,UseFacebookAuthentication</token>
+<token>Owin.CorsExtensions,UseCors</token>
+<token>Owin.WebApiAppBuilderExtensions,UseWebApi</token>
+</entry>
+<entry count="3">
+<token>Owin.CorsExtensions,UseCors</token>
+<token>Owin.CorsExtensions,UseCors</token>
+</entry>
+<entry count="2">
+<token>Owin.IAppBuilder,Use</token>
+<token>Owin.IAppBuilder,Use</token>
+<token>Owin.IAppBuilder,Use</token>
+</entry>
+<entry count="1">
+<token>Owin.FileServerExtensions,UseFileServer</token>
+<token>Owin.AppBuilderExtensions,UseNancy</token>
+</entry>
+<entry count="1">
+<token>Owin.OAuthAuthorizationServerExtensions,UseOAuthAuthorizationServer</token>
+<token>Owin.AppBuilderExtensions,UseExternalSignInCookie</token>
+<token>Owin.OAuthBearerAuthenticationExtensions,UseOAuthBearerAuthentication</token>
+</entry>
+<entry count="1">
+<token>Owin.AppBuilderExtensions,UseExternalSignInCookie</token>
+<token>Owin.OAuthAuthorizationServerExtensions,UseOAuthAuthorizationServer</token>
+<token>Owin.OAuthBearerAuthenticationExtensions,UseOAuthBearerAuthentication</token>
+<token>Owin.GoogleAuthenticationExtensions,UseGoogleAuthentication</token>
+<token>Owin.FacebookAuthenticationExtensions,UseFacebookAuthentication</token>
+</entry>
+<entry count="1">
+<token>Owin.AppBuilderExtensions,CreatePerOwinContext</token>
+<token>Owin.AppBuilderExtensions,CreatePerOwinContext</token>
+<token>Owin.OAuthAuthorizationServerExtensions,UseOAuthAuthorizationServer</token>
+</entry>
+<entry count="1">
+<token>Owin.ClaimsTransformationMiddlewareExtensions,UseClaimsTransformation</token>
+<token>Owin.AppBuilderExtensions,UseNancy</token>
+</entry>
+<entry count="1">
+<token>Owin.AppBuilderExtensions,CreatePerOwinContext</token>
+<token>Owin.OAuthAuthorizationServerExtensions,UseOAuthAuthorizationServer</token>
+</entry>
+<entry count="2">
+<token>Owin.AppBuilderExtensions,RequireScopes</token>
+<token>Owin.AppBuilderUseExtensions,Use</token>
+</entry>
+<entry count="3">
+<token>Owin.UseIdentityServerExtension,UseIdentityServer</token>
+<token>Owin.MapExtensions,Map</token>
+<token>Owin.AppBuilderExtensions,UseResourceAuthorization</token>
+</entry>
+<entry count="1">
+<token>Owin.AppBuilderExtensions,RequireSsl</token>
+<token>Owin.BasicAuthnMiddlewareExtensions,UseBasicAuthentication</token>
+</entry>
+<entry count="1">
+<token>Owin.OAuthAuthorizationServerExtensions,UseOAuthAuthorizationServer</token>
+<token>Owin.OAuthBearerAuthenticationExtensions,UseOAuthBearerAuthentication</token>
+<token>Owin.GoogleAuthenticationExtensions,UseGoogleAuthentication</token>
+<token>Owin.FacebookAuthenticationExtensions,UseFacebookAuthentication</token>
+</entry>
+<entry count="3">
+<token>Owin.AppBuilderExtensions,CreatePerOwinContext</token>
+<token>Owin.CookieAuthenticationExtensions,UseCookieAuthentication</token>
+<token>Owin.AppBuilderExtensions,UseExternalSignInCookie</token>
+<token>Owin.AppBuilderExtensions,UseTwoFactorSignInCookie</token>
+<token>Owin.AppBuilderExtensions,UseTwoFactorRememberBrowserCookie</token>
+</entry>
+<entry count="4">
+<token>Owin.JwtBearerAuthenticationExtensions,UseJwtBearerAuthentication</token>
+<token>Owin.AppBuilderExtensions,RequireScopes</token>
+</entry>
+<entry count="3">
+<token>Owin.ClaimsTransformationMiddlewareExtensions,UseClaimsTransformation</token>
+<token>Owin.WebApiAppBuilderExtensions,UseWebApi</token>
+</entry>
+<entry count="1">
+<token>Owin.CorsExtensions,UseCors</token>
+<token>Owin.MapExtensions,Map</token>
+<token>Owin.CorsExtensions,UseCors</token>
+</entry>
+<entry count="7">
+<token>Owin.CorsExtensions,UseCors</token>
+<token>Owin.OwinExtensions,RunSignalR</token>
+</entry>
+<entry count="3">
+<token>Owin.AppBuilderExtensions,UseTwoFactorSignInCookie</token>
+<token>Owin.AppBuilderExtensions,UseTwoFactorRememberBrowserCookie</token>
+</entry>
+<entry count="1">
+<token>Owin.AppBuilderUseExtensions,Use</token>
+<token>Owin.AppBuilderExtensions,RequireScopes</token>
+<token>Owin.WebApiAppBuilderExtensions,UseWebApi</token>
+</entry>
+<entry count="60">
+<token>Owin.MapExtensions,Map</token>
+<token>Owin.AppBuilderUseExtensions,Run</token>
+</entry>
+<entry count="1">
+<token>Owin.OwinExtensions,MapSignalR</token>
+<token>Owin.WebApiAppBuilderExtensions,UseWebApi</token>
+</entry>
+<entry count="18">
+<token>Owin.OAuthAuthorizationServerExtensions,UseOAuthAuthorizationServer</token>
+<token>Owin.OAuthBearerAuthenticationExtensions,UseOAuthBearerAuthentication</token>
+</entry>
+<entry count="1">
+<token>Owin.OAuthBearerAuthenticationExtensions,UseOAuthBearerAuthentication</token>
+<token>Owin.GoogleAuthenticationExtensions,UseGoogleAuthentication</token>
+<token>Owin.FacebookAuthenticationExtensions,UseFacebookAuthentication</token>
+<token>Owin.CorsExtensions,UseCors</token>
+<token>Owin.WebApiAppBuilderExtensions,UseWebApi</token>
+</entry>
+<entry count="1">
+<token>Owin.ClientCertificateAuthenticationExtensions,UseClientCertificateAuthentication</token>
+<token>Owin.ClaimsTransformationMiddlewareExtensions,UseClaimsTransformation</token>
+</entry>
+<entry count="64">
+<token>Owin.AppBuilderUseExtensions,Run</token>
+<token>Owin.MapExtensions,Map</token>
+</entry>
+<entry count="8">
+<token>Owin.IAppBuilder,Use</token>
+<token>Owin.ErrorPageExtensions,UseErrorPage</token>
+</entry>
+<entry count="4">
+<token>Owin.AppBuilderExtensions,CreatePerOwinContext</token>
+<token>Owin.AppBuilderExtensions,CreatePerOwinContext</token>
+<token>Owin.AppBuilderExtensions,CreatePerOwinContext</token>
+<token>Owin.CookieAuthenticationExtensions,UseCookieAuthentication</token>
+</entry>
+<entry count="1">
+<token>Owin.AppBuilderExtensions,CreatePerOwinContext</token>
+<token>Owin.AppBuilderExtensions,CreatePerOwinContext</token>
+<token>Owin.AppBuilderExtensions,CreatePerOwinContext</token>
+<token>Owin.CookieAuthenticationExtensions,UseCookieAuthentication</token>
+<token>Owin.OpenIdConnectAuthenticationExtensions,UseOpenIdConnectAuthentication</token>
+</entry>
+<entry count="7">
+<token>Owin.OwinExtensions,RunSignalR</token>
+<token>Owin.MapExtensions,Map</token>
+</entry>
+<entry count="1">
+<token>Owin.CorsExtensions,UseCors</token>
+<token>Owin.MapExtensions,Map</token>
+<token>Owin.CorsExtensions,UseCors</token>
+<token>Owin.MapExtensions,Map</token>
+</entry>
+<entry count="3">
+<token>Owin.AppBuilderExtensions,UseResourceAuthorization</token>
+<token>Owin.CookieAuthenticationExtensions,UseCookieAuthentication</token>
+</entry>
+<entry count="1">
+<token>Owin.AppBuilderExtensions,RequireSsl</token>
+<token>Owin.BasicAuthnMiddlewareExtensions,UseBasicAuthentication</token>
+<token>Owin.ClientCertificateAuthenticationExtensions,UseClientCertificateAuthentication</token>
+</entry>
+<entry count="12">
+<token>Owin.IAppBuilder,Use</token>
+<token>Owin.IAppBuilder,Use</token>
+</entry>
+<entry count="1">
+<token>Owin.AppBuilderUseExtensions,Use</token>
+<token>Owin.AppBuilderExtensions,RequireScopes</token>
+</entry>
+<entry count="1">
+<token>Owin.AppBuilderExtensions,CreatePerOwinContext</token>
+<token>Owin.AppBuilderExtensions,CreatePerOwinContext</token>
+<token>Owin.CookieAuthenticationExtensions,UseCookieAuthentication</token>
+<token>Owin.OpenIdConnectAuthenticationExtensions,UseOpenIdConnectAuthentication</token>
+</entry>
+<entry count="1">
+<token>Owin.AppBuilderExtensions,UseExternalSignInCookie</token>
+<token>Owin.OAuthBearerAuthenticationExtensions,UseOAuthBearerAuthentication</token>
+<token>Owin.GoogleAuthenticationExtensions,UseGoogleAuthentication</token>
+<token>Owin.FacebookAuthenticationExtensions,UseFacebookAuthentication</token>
+<token>Owin.CorsExtensions,UseCors</token>
+</entry>
+<entry count="13">
+<token>Owin.AppBuilderExtensions,CreatePerOwinContext</token>
+<token>Owin.AppBuilderExtensions,CreatePerOwinContext</token>
+</entry>
+<entry count="6">
+<token>Owin.AppBuilderExtensions,CreatePerOwinContext</token>
+<token>Owin.AppBuilderExtensions,CreatePerOwinContext</token>
+<token>Owin.CookieAuthenticationExtensions,UseCookieAuthentication</token>
+</entry>
+<entry count="3">
+<token>Owin.AppBuilderExtensions,CreatePerOwinContext</token>
+<token>Owin.AppBuilderExtensions,CreatePerOwinContext</token>
+<token>Owin.CookieAuthenticationExtensions,UseCookieAuthentication</token>
+<token>Owin.AppBuilderExtensions,UseExternalSignInCookie</token>
+<token>Owin.AppBuilderExtensions,UseTwoFactorSignInCookie</token>
+</entry>
+<entry count="4">
+<token>Owin.CorsExtensions,UseCors</token>
+<token>Owin.WebApiAppBuilderExtensions,UseWebApi</token>
 </entry>
 <entry count="1">
 <token>Owin.OAuthAuthorizationServerExtensions,UseOAuthAuthorizationServer</token>
@@ -37,76 +570,78 @@
 <token>Owin.WsFederationAuthenticationExtensions,UseWsFederationAuthentication</token>
 </entry>
 <entry count="1">
+<token>Owin.AppBuilderExtensions,RequireSsl</token>
+<token>Owin.BasicAuthnMiddlewareExtensions,UseBasicAuthentication</token>
+<token>Owin.ClientCertificateAuthenticationExtensions,UseClientCertificateAuthentication</token>
+<token>Owin.ClaimsTransformationMiddlewareExtensions,UseClaimsTransformation</token>
+<token>Owin.WebApiAppBuilderExtensions,UseWebApi</token>
+</entry>
+<entry count="2">
 <token>Owin.OAuthBearerAuthenticationExtensions,UseOAuthBearerAuthentication</token>
 <token>Owin.GoogleAuthenticationExtensions,UseGoogleAuthentication</token>
 </entry>
-<entry count="1">
-<token>Owin.OAuthAuthorizationServerExtensions,UseOAuthAuthorizationServer</token>
-<token>Owin.OAuthBearerAuthenticationExtensions,UseOAuthBearerAuthentication</token>
-</entry>
-<entry count="1">
+<entry count="2">
 <token>Owin.OAuthBearerAuthenticationExtensions,UseOAuthBearerAuthentication</token>
 <token>Owin.GoogleAuthenticationExtensions,UseGoogleAuthentication</token>
 <token>Owin.FacebookAuthenticationExtensions,UseFacebookAuthentication</token>
-<token>Owin.CorsExtensions,UseCors</token>
-<token>Owin.WebApiAppBuilderExtensions,UseWebApi</token>
-</entry>
-<entry count="1">
-<token>Owin.OAuthAuthorizationServerExtensions,UseOAuthAuthorizationServer</token>
-<token>Owin.AppBuilderExtensions,UseExternalSignInCookie</token>
-<token>Owin.OAuthBearerAuthenticationExtensions,UseOAuthBearerAuthentication</token>
-</entry>
-<entry count="1">
-<token>Owin.OAuthAuthorizationServerExtensions,UseOAuthAuthorizationServer</token>
-<token>Owin.AppBuilderExtensions,UseExternalSignInCookie</token>
-<token>Owin.OAuthBearerAuthenticationExtensions,UseOAuthBearerAuthentication</token>
-<token>Owin.GoogleAuthenticationExtensions,UseGoogleAuthentication</token>
 </entry>
 <entry count="8">
-<token>Owin.AppBuilderUseExtensions,Use</token>
-<token>Owin.WebApiAppBuilderExtensions,UseWebApi</token>
-</entry>
-<entry count="1">
-<token>Owin.OAuthBearerAuthenticationExtensions,UseOAuthBearerAuthentication</token>
-<token>Owin.GoogleAuthenticationExtensions,UseGoogleAuthentication</token>
-<token>Owin.FacebookAuthenticationExtensions,UseFacebookAuthentication</token>
-</entry>
-<entry count="1">
 <token>Owin.CookieAuthenticationExtensions,UseCookieAuthentication</token>
 <token>Owin.AppBuilderExtensions,UseExternalSignInCookie</token>
 </entry>
-<entry count="1">
-<token>Owin.FacebookAuthenticationExtensions,UseFacebookAuthentication</token>
-<token>Owin.CorsExtensions,UseCors</token>
-</entry>
-<entry count="1">
+<entry count="3">
+<token>Owin.AppBuilderExtensions,CreatePerOwinContext</token>
+<token>Owin.CookieAuthenticationExtensions,UseCookieAuthentication</token>
 <token>Owin.AppBuilderExtensions,UseExternalSignInCookie</token>
-<token>Owin.OAuthBearerAuthenticationExtensions,UseOAuthBearerAuthentication</token>
-<token>Owin.GoogleAuthenticationExtensions,UseGoogleAuthentication</token>
+<token>Owin.AppBuilderExtensions,UseTwoFactorSignInCookie</token>
 </entry>
-<entry count="1">
-<token>Owin.AppBuilderExtensions,UseExternalSignInCookie</token>
-<token>Owin.OAuthBearerAuthenticationExtensions,UseOAuthBearerAuthentication</token>
-<token>Owin.GoogleAuthenticationExtensions,UseGoogleAuthentication</token>
-<token>Owin.FacebookAuthenticationExtensions,UseFacebookAuthentication</token>
-</entry>
-<entry count="1">
-<token>Owin.GoogleAuthenticationExtensions,UseGoogleAuthentication</token>
-<token>Owin.FacebookAuthenticationExtensions,UseFacebookAuthentication</token>
-</entry>
-<entry count="1">
-<token>Owin.GoogleAuthenticationExtensions,UseGoogleAuthentication</token>
-<token>Owin.FacebookAuthenticationExtensions,UseFacebookAuthentication</token>
+<entry count="2">
 <token>Owin.CorsExtensions,UseCors</token>
+<token>Owin.MapExtensions,Map</token>
+</entry>
+<entry count="1">
+<token>Owin.IdentityModelJwtBearerAuthenticationExtensions,UseJsonWebToken</token>
+<token>Owin.ClaimsTransformationMiddlewareExtensions,UseClaimsTransformation</token>
+<token>Owin.AppBuilderExtensions,UseNancy</token>
+</entry>
+<entry count="2">
+<token>Owin.JwtBearerAuthenticationExtensions,UseJwtBearerAuthentication</token>
+<token>Owin.AppBuilderExtensions,RequireScopes</token>
+<token>Owin.AppBuilderUseExtensions,Use</token>
+</entry>
+<entry count="1">
+<token>Owin.IdentityModelJwtBearerAuthenticationExtensions,UseJsonWebToken</token>
+<token>Owin.ClaimsTransformationMiddlewareExtensions,UseClaimsTransformation</token>
 <token>Owin.WebApiAppBuilderExtensions,UseWebApi</token>
 </entry>
 <entry count="1">
-<token>Owin.FacebookAuthenticationExtensions,UseFacebookAuthentication</token>
-<token>Owin.CorsExtensions,UseCors</token>
-<token>Owin.WebApiAppBuilderExtensions,UseWebApi</token>
+<token>Owin.AppBuilderExtensions,CreatePerOwinContext</token>
+<token>Owin.AppBuilderExtensions,CreatePerOwinContext</token>
+<token>Owin.AppBuilderExtensions,CreatePerOwinContext</token>
+<token>Owin.AppBuilderExtensions,CreatePerOwinContext</token>
+<token>Owin.CookieAuthenticationExtensions,UseCookieAuthentication</token>
 </entry>
 <entry count="1">
 <token>Owin.AppBuilderExtensions,UseExternalSignInCookie</token>
 <token>Owin.OAuthBearerAuthenticationExtensions,UseOAuthBearerAuthentication</token>
+</entry>
+<entry count="2">
+<token>Owin.MapExtensions,Map</token>
+<token>Owin.UseIdentityServerExtension,UseIdentityServer</token>
+<token>Owin.MapExtensions,Map</token>
+</entry>
+<entry count="1">
+<token>Owin.MapExtensions,Map</token>
+<token>Owin.CorsExtensions,UseCors</token>
+</entry>
+<entry count="1">
+<token>Owin.AppBuilderExtensions,CreatePerOwinContext</token>
+<token>Owin.CookieAuthenticationExtensions,UseCookieAuthentication</token>
+<token>Owin.OpenIdConnectAuthenticationExtensions,UseOpenIdConnectAuthentication</token>
+</entry>
+<entry count="6">
+<token>Owin.OAuthAuthorizationServerExtensions,UseOAuthAuthorizationServer</token>
+<token>Owin.OAuthBearerAuthenticationExtensions,UseOAuthBearerAuthentication</token>
+<token>Owin.WebApiAppBuilderExtensions,UseWebApi</token>
 </entry>
 </dictionary>

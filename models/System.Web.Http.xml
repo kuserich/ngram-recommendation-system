@@ -1,79 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?><dictionary case_sensitive="false">
-<entry count="32">
-<token>System.Web.Http.ApiController,NotFound</token>
-<token>System.Web.Http.ApiController,Ok</token>
-</entry>
 <entry count="2">
-<token>System.Web.Http.ApiController,Ok</token>
-<token>System.Web.Http.ApiController,Ok</token>
-</entry>
-<entry count="144">
-<token>System.Web.Http.HttpRouteCollectionExtensions,MapHttpRoute</token>
-<token>System.Web.Http.HttpServer,new</token>
-<token>System.Web.Http.ServicesExtensions,GetHostBufferPolicySelector</token>
-</entry>
-<entry count="6">
-<token>System.Web.Http.ApiController,StatusCode</token>
 <token>System.Web.Http.ApiController,BadRequest</token>
+<token>System.Web.Http.ApiController,BadRequest</token>
+<token>System.Web.Http.ApiController,StatusCode</token>
 </entry>
-<entry count="2">
-<token>System.Web.Http.ApiController,Validate</token>
-<token>System.Web.Http.ApiController,Ok</token>
-</entry>
-<entry count="63">
-<token>System.Web.Http.HttpError,GetPropertyValue</token>
-<token>System.Web.Http.HttpError,GetPropertyValue</token>
-</entry>
-<entry count="2">
+<entry count="4">
 <token>System.Web.Http.HttpConfiguration,new</token>
 <token>System.Web.Http.ServicesExtensions,GetTraceManager</token>
 </entry>
-<entry count="1">
-<token>System.Web.Http.HttpConfiguration,new</token>
-<token>System.Web.Http.HttpRouteCollection,new</token>
-<token>System.Web.Http.HttpConfiguration,new</token>
-</entry>
-<entry count="3">
+<entry count="8">
+<token>System.Web.Http.HttpConfigurationExtensions,MapHttpAttributeRoutes</token>
 <token>System.Web.Http.HttpRouteCollectionExtensions,MapHttpRoute</token>
 <token>System.Web.Http.HttpRouteCollectionExtensions,MapHttpRoute</token>
-</entry>
-<entry count="5">
-<token>System.Web.Http.HttpConfiguration,new</token>
-<token>System.Web.Http.HttpServer,new</token>
-<token>System.Web.Http.HttpConfiguration,EnsureInitialized</token>
-</entry>
-<entry count="33">
-<token>System.Web.Http.HttpError,GetPropertyValue</token>
-<token>System.Web.Http.HttpError,GetPropertyValue</token>
-<token>System.Web.Http.HttpError,GetPropertyValue</token>
-</entry>
-<entry count="10">
-<token>WebStack.QA.Test.OData.ETags.ETagsCustomer,</token>
-<token>WebStack.QA.Test.OData]],new</token>
 </entry>
 <entry count="4">
-<token>System.Web.Http.ServicesExtensions,GetHttpControllerSelector</token>
-<token>System.Web.Http.ServicesExtensions,GetActionSelector</token>
+<token>System.Web.Http.ApiController,BadRequest</token>
+<token>System.Web.Http.ApiController,BadRequest</token>
+<token>System.Web.Http.ApiController,Unauthorized</token>
+<token>System.Web.Http.ApiController,Ok</token>
 </entry>
-<entry count="10">
-<token>-&gt;</token>
-<token>WebStack.QA.Test.OData.ETags.ETagsCustomer,</token>
-<token>WebStack.QA.Test.OData]],new</token>
+<entry count="74">
+<token>System.Web.Http.ApiController,BadRequest</token>
+<token>System.Web.Http.ApiController,Unauthorized</token>
 </entry>
-<entry count="1">
-<token>WebStack.QA.Test.OData.StoreGeneratedPattern.StoreGeneratedPatternCustomer,</token>
-<token>WebStack.QA.Test.OData]],new</token>
+<entry count="16">
+<token>System.Web.Http.ApiController,Unauthorized</token>
+<token>System.Web.Http.ApiController,Unauthorized</token>
+<token>System.Web.Http.ApiController,Unauthorized</token>
+</entry>
+<entry count="16">
+<token>System.Web.Http.ApiController,Unauthorized</token>
+<token>System.Web.Http.ApiController,Unauthorized</token>
+<token>System.Web.Http.ApiController,Unauthorized</token>
 <token>System.Web.Http.ApiController,Ok</token>
 </entry>
 <entry count="11">
 <token>WebStack.QA.Test.OData]],new</token>
 <token>System.Web.Http.ApiController,Ok</token>
 </entry>
-<entry count="3">
-<token>System.Web.Http.HttpConfiguration,new</token>
-<token>System.Web.Http.HttpRouteCollectionExtensions,MapHttpRoute</token>
-<token>System.Web.Http.ServicesExtensions,GetApiExplorer</token>
-</entry>
 <entry count="4">
 <token>System.Web.Http.HttpRouteCollection,Clear</token>
 <token>System.Web.Http.HttpRouteCollectionExtensions,MapHttpRoute</token>
@@ -84,258 +48,365 @@
 <token>-&gt;</token>
 </entry>
 <entry count="2">
-<token>System.Web.Http.HttpConfiguration,new</token>
-<token>System.Web.Http.HttpRouteCollectionExtensions,MapHttpRoute</token>
-<token>System.Web.Http.HttpRouteCollectionExtensions,MapHttpRoute</token>
-<token>System.Web.Http.HttpServer,new</token>
-</entry>
-<entry count="10">
-<token>System.Web.Http.HttpError,GetPropertyValue</token>
-<token>System.Web.Http.HttpError,GetPropertyValue</token>
-<token>System.Web.Http.HttpError,GetPropertyValue</token>
-<token>System.Web.Http.HttpError,GetPropertyValue</token>
-</entry>
-<entry count="3">
-<token>System.Web.Http.HttpRouteCollectionExtensions,MapHttpRoute</token>
-<token>System.Web.Http.ServicesExtensions,GetApiExplorer</token>
-</entry>
-<entry count="1">
-<token>System.Web.Http.HttpConfiguration,new</token>
-<token>System.Web.Http.HttpRouteCollection,new</token>
-<token>System.Web.Http.HttpConfiguration,new</token>
-<token>System.Web.Http.HttpConfiguration,new</token>
-</entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>WebStack.QA.Test.OData.StoreGeneratedPattern.StoreGeneratedPatternCustomer,</token>
-<token>WebStack.QA.Test.OData]],new</token>
-<token>System.Web.Http.ApiController,Ok</token>
-</entry>
-<entry count="10">
-<token>System.Web.Http.ApiController,BadRequest</token>
-<token>System.Web.Http.ApiController,StatusCode</token>
-</entry>
-<entry count="1">
 <token>System.Web.Http.HttpRouteCollection,new</token>
 <token>System.Web.Http.HttpServer,new</token>
 </entry>
 <entry count="2">
-<token>System.Web.Http.ServicesExtensions,GetTraceManager</token>
-<token>System.Web.Http.ServicesExtensions,GetHttpControllerSelector</token>
-<token>System.Web.Http.ServicesExtensions,GetActionSelector</token>
+<token>System.Web.Http.HttpRouteCollectionExtensions,MapHttpRoute</token>
+<token>System.Web.Http.HttpRouteCollection,ContainsKey</token>
+<token>System.Web.Http.ODataHttpRouteCollectionExtensions,MapODataRoute</token>
 </entry>
-<entry count="6">
-<token>System.Web.Http.HttpRouteCollection,Add</token>
-<token>System.Web.Http.HttpConfiguration,new</token>
-</entry>
-<entry count="2">
-<token>System.Web.Http.ApiController,BadRequest</token>
-<token>System.Web.Http.SingleResult`1[[T</token>
-<token>-&gt;</token>
-<token>WebStack.QA.Test.OData.ETags.ETagsCustomer,</token>
-</entry>
-<entry count="2">
-<token>System.Web.Http.HttpConfiguration,new</token>
-<token>System.Web.Http.ServicesExtensions,GetHttpControllerSelector</token>
-<token>System.Web.Http.ServicesExtensions,GetActionSelector</token>
+<entry count="4">
+<token>System.Web.Http.ODataHttpConfigurationExtensions,EnableQuerySupport</token>
+<token>System.Web.Http.CorsHttpConfigurationExtensions,EnableCors</token>
+<token>System.Web.Http.HttpRouteCollection,ContainsKey</token>
+<token>System.Web.Http.HttpRouteCollection,ContainsKey</token>
 </entry>
 <entry count="1">
 <token>System.Web.Http.OwinHttpConfigurationExtensions,SuppressDefaultHostAuthentication</token>
 <token>System.Web.Http.HostAuthenticationFilter,new</token>
 <token>System.Web.Http.HttpConfiguration,EnsureInitialized</token>
 </entry>
-<entry count="2">
-<token>System.Web.Http.HttpConfiguration,new</token>
-<token>System.Web.Http.ServicesExtensions,GetTraceManager</token>
-<token>System.Web.Http.ServicesExtensions,GetHttpControllerSelector</token>
-<token>System.Web.Http.ServicesExtensions,GetActionSelector</token>
-</entry>
-<entry count="4">
-<token>System.Web.Http.HttpRouteCollection,new</token>
-<token>System.Web.Http.HttpRouteCollection,Add</token>
-<token>System.Web.Http.HttpRouteCollection,Add</token>
-</entry>
-<entry count="2">
-<token>System.Web.Http.HttpRouteCollection,new</token>
-<token>System.Web.Http.HttpRouteCollection,Add</token>
-<token>System.Web.Http.HttpConfiguration,new</token>
-</entry>
-<entry count="2">
-<token>System.Web.Http.HttpConfiguration,new</token>
-<token>System.Web.Http.ServicesExtensions,GetActionSelector</token>
-</entry>
-<entry count="27">
-<token>System.Web.Http.HttpRouteCollection,Clear</token>
-<token>System.Web.Http.HttpConfiguration,EnsureInitialized</token>
-</entry>
-<entry count="144">
-<token>System.Web.Http.HttpConfiguration,new</token>
-<token>System.Web.Http.HttpRouteCollectionExtensions,MapHttpRoute</token>
-<token>System.Web.Http.HttpServer,new</token>
-<token>System.Web.Http.ServicesExtensions,GetHostBufferPolicySelector</token>
-</entry>
 <entry count="1">
-<token>System.Web.Http.SingleResult`1[[T</token>
-<token>-&gt;</token>
-<token>WebStack.QA.Test.OData.StoreGeneratedPattern.StoreGeneratedPatternCustomer,</token>
-<token>WebStack.QA.Test.OData]],new</token>
-<token>System.Web.Http.ApiController,Ok</token>
-</entry>
-<entry count="2">
-<token>System.Web.Http.ServicesExtensions,GetTraceManager</token>
-<token>System.Web.Http.ServicesExtensions,GetHttpControllerSelector</token>
-</entry>
-<entry count="2">
-<token>System.Web.Http.HttpConfiguration,new</token>
 <token>System.Web.Http.HttpRouteCollectionExtensions,MapHttpRoute</token>
-<token>System.Web.Http.HttpRouteCollection,GetRouteData</token>
-</entry>
-<entry count="2">
-<token>System.Web.Http.HttpConfiguration,new</token>
-<token>System.Web.Http.ServicesExtensions,GetContentNegotiator</token>
-</entry>
-<entry count="1">
 <token>System.Web.Http.OwinHttpConfigurationExtensions,SuppressDefaultHostAuthentication</token>
-<token>System.Web.Http.HostAuthenticationFilter,new</token>
+</entry>
+<entry count="8">
+<token>System.Web.Http.HttpRouteCollection,new</token>
+<token>System.Web.Http.HttpRouteCollection,Add</token>
+<token>System.Web.Http.HttpRouteCollection,Add</token>
+</entry>
+<entry count="1">
+<token>System.Web.Http.ApiController,NotFound</token>
+<token>System.Web.Http.ApiController,NotFound</token>
+<token>System.Web.Http.ApiController,StatusCode</token>
+</entry>
+<entry count="1">
+<token>System.Web.Http.HttpConfigurationExtensions,MapHttpAttributeRoutes</token>
+<token>System.Web.Http.HttpRouteCollectionExtensions,MapHttpRoute</token>
+<token>System.Web.Http.HttpRouteCollectionExtensions,MapHttpRoute</token>
+<token>System.Web.Http.OwinHttpConfigurationExtensions,SuppressDefaultHostAuthentication</token>
+</entry>
+<entry count="4">
+<token>System.Web.Http.ServicesExtensions,GetTraceManager</token>
+<token>System.Web.Http.ServicesExtensions,GetHttpControllerSelector</token>
 </entry>
 <entry count="2">
+<token>System.Web.Http.ApiController,NotFound</token>
+<token>System.Web.Http.ApiController,NotFound</token>
+<token>System.Web.Http.ApiController,BadRequest</token>
+</entry>
+<entry count="1">
+<token>System.Web.Http.HttpRouteCollectionExtensions,MapHttpRoute</token>
+<token>System.Web.Http.HttpConfiguration,new</token>
+</entry>
+<entry count="2">
+<token>System.Web.Http.ApiController,BadRequest</token>
+<token>System.Web.Http.ApiController,BadRequest</token>
+<token>System.Web.Http.ApiController,Unauthorized</token>
+<token>System.Web.Http.ApiController,Unauthorized</token>
+</entry>
+<entry count="4">
 <token>System.Web.Http.HttpConfiguration,new</token>
 <token>System.Web.Http.HttpRouteCollection,CreateRoute</token>
-</entry>
-<entry count="10">
-<token>System.Web.Http.SingleResult`1[[T</token>
-<token>-&gt;</token>
-<token>WebStack.QA.Test.OData.ETags.ETagsCustomer,</token>
-<token>WebStack.QA.Test.OData]],new</token>
-<token>System.Web.Http.ApiController,Ok</token>
-</entry>
-<entry count="2">
-<token>System.Web.Http.HttpConfiguration,new</token>
-<token>System.Web.Http.HttpConfiguration,EnsureInitialized</token>
 </entry>
 <entry count="1">
 <token>-&gt;</token>
 <token>WebStack.QA.Test.OData.StoreGeneratedPattern.StoreGeneratedPatternCustomer,</token>
 <token>WebStack.QA.Test.OData]],new</token>
 </entry>
-<entry count="15">
+<entry count="210">
 <token>System.Web.Http.ApiController,BadRequest</token>
 <token>System.Web.Http.ApiController,Ok</token>
 </entry>
 <entry count="2">
-<token>System.Web.Http.HttpRouteCollection,new</token>
-<token>System.Web.Http.HttpConfiguration,new</token>
-<token>System.Web.Http.HttpServer,new</token>
-</entry>
-<entry count="2">
-<token>System.Web.Http.HttpRouteCollection,new</token>
-<token>System.Web.Http.HttpConfiguration,new</token>
-<token>System.Web.Http.HttpConfiguration,new</token>
-</entry>
-<entry count="2">
-<token>System.Web.Http.HttpRouteCollectionExtensions,MapHttpRoute</token>
-<token>System.Web.Http.HttpRouteCollectionExtensions,MapHttpRoute</token>
-<token>System.Web.Http.HttpServer,new</token>
-</entry>
-<entry count="2">
 <token>System.Web.Http.HttpError,new</token>
 <token>System.Web.Http.HttpError,new</token>
 </entry>
-<entry count="2">
+<entry count="4">
 <token>System.Web.Http.HttpRouteCollection,new</token>
 <token>System.Web.Http.HttpConfiguration,new</token>
 <token>System.Web.Http.HttpRouteCollection,CreateRoute</token>
 </entry>
-<entry count="144">
-<token>System.Web.Http.HttpRouteCollection,new</token>
-<token>System.Web.Http.HttpConfiguration,new</token>
-<token>System.Web.Http.HttpRouteCollectionExtensions,MapHttpRoute</token>
-<token>System.Web.Http.HttpServer,new</token>
-<token>System.Web.Http.ServicesExtensions,GetHostBufferPolicySelector</token>
-</entry>
-<entry count="2">
-<token>System.Web.Http.ApiController,BadRequest</token>
-<token>System.Web.Http.SingleResult`1[[T</token>
-</entry>
-<entry count="10">
-<token>System.Web.Http.SingleResult`1[[T</token>
-<token>-&gt;</token>
-<token>WebStack.QA.Test.OData.ETags.ETagsCustomer,</token>
-<token>WebStack.QA.Test.OData]],new</token>
-</entry>
-<entry count="144">
-<token>System.Web.Http.HttpRouteCollection,new</token>
-<token>System.Web.Http.HttpConfiguration,new</token>
-<token>System.Web.Http.HttpRouteCollectionExtensions,MapHttpRoute</token>
-<token>System.Web.Http.HttpServer,new</token>
-</entry>
-<entry count="155">
-<token>System.Web.Http.HttpConfiguration,new</token>
-<token>System.Web.Http.HttpRouteCollectionExtensions,MapHttpRoute</token>
-<token>System.Web.Http.HttpServer,new</token>
-</entry>
-<entry count="30">
-<token>System.Web.Http.HttpResponseException,new</token>
-<token>System.Web.Http.HttpResponseException,new</token>
-</entry>
-<entry count="4">
-<token>System.Web.Http.HttpRouteCollectionExtensions,MapHttpBatchRoute</token>
-<token>System.Web.Http.HttpRouteCollection,Add</token>
-</entry>
-<entry count="27">
-<token>System.Web.Http.HttpConfiguration,new</token>
-<token>System.Web.Http.HttpServer,new</token>
-</entry>
-<entry count="4">
-<token>System.Web.Http.HttpRouteCollection,Add</token>
-<token>System.Web.Http.HttpRouteCollection,Add</token>
-</entry>
-<entry count="7">
-<token>System.Web.Http.ApiController,StatusCode</token>
-<token>System.Web.Http.ApiController,Ok</token>
+<entry count="1">
+<token>System.Web.Http.ApiController,InternalServerError</token>
+<token>System.Web.Http.ApiController,Redirect</token>
 </entry>
 <entry count="2">
 <token>System.Web.Http.SingleResult,Create</token>
 <token>System.Web.Http.ApiController,Ok</token>
 </entry>
-<entry count="158">
-<token>System.Web.Http.HttpRouteCollectionExtensions,MapHttpRoute</token>
-<token>System.Web.Http.HttpServer,new</token>
-</entry>
 <entry count="1">
 <token>WebStack.QA.Test.OData.StoreGeneratedPattern.StoreGeneratedPatternCustomer,</token>
 <token>WebStack.QA.Test.OData]],new</token>
 </entry>
-<entry count="8">
-<token>System.Web.Http.ServicesExtensions,GetActionValueBinder</token>
-<token>System.Web.Http.ServicesExtensions,GetContentNegotiator</token>
+<entry count="1">
+<token>System.Web.Http.HttpConfiguration,new</token>
+<token>System.Web.Http.HttpConfigurationExtensions,MapHttpAttributeRoutes</token>
+<token>System.Web.Http.HttpConfigurationTracingExtensions,EnableSystemDiagnosticsTracing</token>
 </entry>
-<entry count="7">
+<entry count="53">
 <token>System.Web.Http.ApiController,NotFound</token>
 <token>System.Web.Http.ApiController,StatusCode</token>
 </entry>
-<entry count="6">
-<token>System.Web.Http.HttpResponseException,new</token>
-<token>System.Web.Http.HttpResponseException,new</token>
-<token>System.Web.Http.HttpResponseException,new</token>
+<entry count="4">
+<token>System.Web.Http.HttpRouteCollection,ContainsKey</token>
+<token>System.Web.Http.HttpRouteCollectionExtensions,MapHttpRoute</token>
+<token>System.Web.Http.HttpRouteCollection,ContainsKey</token>
 </entry>
-<entry count="144">
-<token>System.Web.Http.HttpServer,new</token>
-<token>System.Web.Http.ServicesExtensions,GetHostBufferPolicySelector</token>
+<entry count="88">
+<token>System.Web.Http.ApiController,Unauthorized</token>
+<token>System.Web.Http.ApiController,Unauthorized</token>
+</entry>
+<entry count="4">
+<token>System.Web.Http.CorsHttpConfigurationExtensions,EnableCors</token>
+<token>System.Web.Http.HttpRouteCollection,ContainsKey</token>
+<token>System.Web.Http.HttpRouteCollectionExtensions,MapHttpRoute</token>
+</entry>
+<entry count="10">
+<token>WebStack.QA.Test.OData.ETags.ETagsCustomer,</token>
+<token>WebStack.QA.Test.OData]],new</token>
+<token>System.Web.Http.ApiController,Ok</token>
+</entry>
+<entry count="137">
+<token>System.Web.Http.ApiController,Unauthorized</token>
+<token>System.Web.Http.ApiController,Ok</token>
+</entry>
+<entry count="1">
+<token>System.Web.Http.SingleResult`1[[T</token>
+<token>-&gt;</token>
+<token>WebStack.QA.Test.OData.StoreGeneratedPattern.StoreGeneratedPatternCustomer,</token>
+</entry>
+<entry count="5">
+<token>System.Web.Http.ApiController,NotFound</token>
+<token>System.Web.Http.ApiController,NotFound</token>
+</entry>
+<entry count="1">
+<token>System.Web.Http.HttpConfigurationExtensions,MapHttpAttributeRoutes</token>
+<token>System.Web.Http.HttpRouteCollectionExtensions,MapHttpRoute</token>
+<token>System.Web.Http.HttpRouteCollectionExtensions,MapHttpRoute</token>
+<token>System.Web.Http.OwinHttpConfigurationExtensions,SuppressDefaultHostAuthentication</token>
+<token>System.Web.Http.HostAuthenticationAttribute,new</token>
+</entry>
+<entry count="10">
+<token>-&gt;</token>
+<token>WebStack.QA.Test.OData.ETags.ETagsCustomer,</token>
 </entry>
 <entry count="2">
 <token>System.Web.Http.HttpConfiguration,new</token>
+<token>System.Web.Http.HttpRouteCollection,new</token>
+</entry>
+<entry count="24">
+<token>System.Web.Http.ApiController,Ok</token>
+<token>System.Web.Http.ApiController,Ok</token>
+<token>System.Web.Http.ApiController,Ok</token>
+<token>System.Web.Http.ApiController,Ok</token>
+</entry>
+<entry count="4">
+<token>System.Web.Http.HttpConfiguration,new</token>
+<token>System.Web.Http.ServicesExtensions,GetTraceManager</token>
 <token>System.Web.Http.ServicesExtensions,GetHttpControllerSelector</token>
 </entry>
+<entry count="144">
+<token>System.Web.Http.HttpRouteCollectionExtensions,MapHttpRoute</token>
+<token>System.Web.Http.HttpServer,new</token>
+<token>System.Web.Http.ServicesExtensions,GetHostBufferPolicySelector</token>
+</entry>
+<entry count="88">
+<token>System.Web.Http.HttpError,GetPropertyValue</token>
+<token>System.Web.Http.HttpError,GetPropertyValue</token>
+</entry>
+<entry count="2">
+<token>System.Web.Http.HttpConfiguration,new</token>
+<token>System.Web.Http.HttpRouteCollection,new</token>
+<token>System.Web.Http.HttpConfiguration,new</token>
+</entry>
+<entry count="38">
+<token>System.Web.Http.ApiController,BadRequest</token>
+<token>System.Web.Http.ApiController,Unauthorized</token>
+<token>System.Web.Http.ApiController,Unauthorized</token>
+</entry>
+<entry count="4">
+<token>System.Web.Http.ODataHttpConfigurationExtensions,EnableQuerySupport</token>
+<token>System.Web.Http.CorsHttpConfigurationExtensions,EnableCors</token>
+<token>System.Web.Http.HttpRouteCollection,ContainsKey</token>
+<token>System.Web.Http.HttpRouteCollectionExtensions,MapHttpRoute</token>
+</entry>
 <entry count="1">
-<token>System.Web.Http.HostAuthenticationFilter,new</token>
+<token>System.Web.Http.HttpRouteCollectionExtensions,MapHttpRoute</token>
+<token>System.Web.Http.OwinHttpConfigurationExtensions,SuppressDefaultHostAuthentication</token>
+<token>System.Web.Http.HostAuthenticationAttribute,new</token>
+</entry>
+<entry count="1">
+<token>WebStack.QA.Test.OData.StoreGeneratedPattern.StoreGeneratedPatternCustomer,</token>
+<token>WebStack.QA.Test.OData]],new</token>
+<token>System.Web.Http.ApiController,Ok</token>
+</entry>
+<entry count="6">
+<token>System.Web.Http.HttpConfiguration,new</token>
+<token>System.Web.Http.HttpRouteCollectionExtensions,MapHttpRoute</token>
+<token>System.Web.Http.ServicesExtensions,GetApiExplorer</token>
+</entry>
+<entry count="2">
+<token>System.Web.Http.ODataHttpConfigurationExtensions,EnableQuerySupport</token>
+<token>System.Web.Http.CorsHttpConfigurationExtensions,EnableCors</token>
+<token>System.Web.Http.HttpRouteCollection,ContainsKey</token>
+<token>System.Web.Http.HttpRouteCollection,ContainsKey</token>
+<token>System.Web.Http.ODataHttpRouteCollectionExtensions,MapODataRoute</token>
+</entry>
+<entry count="1">
+<token>System.Web.Http.HttpRouteCollectionExtensions,MapHttpRoute</token>
+<token>System.Web.Http.CorsHttpConfigurationExtensions,EnableCors</token>
+</entry>
+<entry count="4">
+<token>System.Web.Http.HttpConfiguration,new</token>
+<token>System.Web.Http.HttpRouteCollectionExtensions,MapHttpRoute</token>
+<token>System.Web.Http.HttpRouteCollectionExtensions,MapHttpRoute</token>
+<token>System.Web.Http.HttpServer,new</token>
+</entry>
+<entry count="14">
+<token>System.Web.Http.HttpError,GetPropertyValue</token>
+<token>System.Web.Http.HttpError,GetPropertyValue</token>
+<token>System.Web.Http.HttpError,GetPropertyValue</token>
+<token>System.Web.Http.HttpError,GetPropertyValue</token>
+</entry>
+<entry count="60">
+<token>System.Web.Http.ApiController,BadRequest</token>
+<token>System.Web.Http.ApiController,BadRequest</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>WebStack.QA.Test.OData.StoreGeneratedPattern.StoreGeneratedPatternCustomer,</token>
+<token>WebStack.QA.Test.OData]],new</token>
+<token>System.Web.Http.ApiController,Ok</token>
+</entry>
+<entry count="1">
+<token>System.Web.Http.HttpRouteCollectionExtensions,MapHttpRoute</token>
+<token>System.Web.Http.HttpRouteCollectionExtensions,MapHttpRoute</token>
+<token>System.Web.Http.OwinHttpConfigurationExtensions,SuppressDefaultHostAuthentication</token>
+<token>System.Web.Http.HostAuthenticationAttribute,new</token>
+<token>System.Web.Http.AuthorizeAttribute,new</token>
+</entry>
+<entry count="1">
+<token>System.Web.Http.HttpError,new</token>
+<token>System.Web.Http.HttpConfiguration,new</token>
+</entry>
+<entry count="2">
+<token>System.Web.Http.HttpRouteCollection,ContainsKey</token>
+<token>System.Web.Http.HttpRouteCollectionExtensions,MapHttpRoute</token>
+<token>System.Web.Http.HttpRouteCollection,ContainsKey</token>
+<token>System.Web.Http.ODataHttpRouteCollectionExtensions,MapODataRoute</token>
+</entry>
+<entry count="4">
+<token>System.Web.Http.ServicesExtensions,GetTraceManager</token>
+<token>System.Web.Http.ServicesExtensions,GetHttpControllerSelector</token>
+<token>System.Web.Http.ServicesExtensions,GetActionSelector</token>
+</entry>
+<entry count="2">
+<token>System.Web.Http.HttpConfiguration,new</token>
+<token>System.Web.Http.HttpRouteCollectionExtensions,MapHttpRoute</token>
+<token>System.Web.Http.ServicesExtensions,GetFilterProviders</token>
+</entry>
+<entry count="6">
+<token>System.Web.Http.ApiController,BadRequest</token>
+<token>System.Web.Http.ApiController,BadRequest</token>
+<token>System.Web.Http.ApiController,Unauthorized</token>
+</entry>
+<entry count="1">
+<token>System.Web.Http.HttpConfiguration,new</token>
+<token>System.Web.Http.HttpRouteCollectionExtensions,MapHttpRoute</token>
+<token>System.Web.Http.CorsHttpConfigurationExtensions,EnableCors</token>
+</entry>
+<entry count="5">
+<token>System.Web.Http.HttpRouteCollection,new</token>
+<token>System.Web.Http.HttpRouteCollection,Add</token>
+<token>System.Web.Http.HttpConfiguration,new</token>
+</entry>
+<entry count="4">
+<token>System.Web.Http.HttpConfiguration,new</token>
+<token>System.Web.Http.ServicesExtensions,GetActionSelector</token>
+</entry>
+<entry count="1">
+<token>System.Web.Http.HttpRouteCollectionExtensions,MapHttpBatchRoute</token>
+<token>System.Web.Http.HttpRouteCollectionExtensions,MapHttpRoute</token>
+</entry>
+<entry count="27">
+<token>System.Web.Http.HttpRouteCollection,Clear</token>
 <token>System.Web.Http.HttpConfiguration,EnsureInitialized</token>
+</entry>
+<entry count="15">
+<token>System.Web.Http.HttpConfiguration,new</token>
+<token>System.Web.Http.HttpConfigurationExtensions,MapHttpAttributeRoutes</token>
+<token>System.Web.Http.HttpRouteCollectionExtensions,MapHttpRoute</token>
+</entry>
+<entry count="8">
+<token>System.Web.Http.ApiController,NotFound</token>
+<token>System.Web.Http.ApiController,Ok</token>
+<token>System.Web.Http.ApiController,Ok</token>
+<token>System.Web.Http.ApiController,Ok</token>
+</entry>
+<entry count="1">
+<token>System.Web.Http.OwinHttpConfigurationExtensions,SuppressDefaultHostAuthentication</token>
+<token>System.Web.Http.HostAuthenticationFilter,new</token>
+</entry>
+<entry count="1">
+<token>System.Web.Http.HttpServer,new</token>
+<token>System.Web.Http.HttpRouteCollectionExtensions,MapHttpBatchRoute</token>
+</entry>
+<entry count="2">
+<token>System.Web.Http.ApiController,Ok</token>
+<token>System.Web.Http.ApiController,Unauthorized</token>
+</entry>
+<entry count="6">
+<token>System.Web.Http.ApiController,NotFound</token>
+<token>System.Web.Http.ApiController,BadRequest</token>
+<token>System.Web.Http.ApiController,Ok</token>
+</entry>
+<entry count="144">
+<token>System.Web.Http.HttpRouteCollection,new</token>
+<token>System.Web.Http.HttpConfiguration,new</token>
+<token>System.Web.Http.HttpRouteCollectionExtensions,MapHttpRoute</token>
+<token>System.Web.Http.HttpServer,new</token>
+</entry>
+<entry count="167">
+<token>System.Web.Http.HttpConfiguration,new</token>
+<token>System.Web.Http.HttpRouteCollectionExtensions,MapHttpRoute</token>
+<token>System.Web.Http.HttpServer,new</token>
+</entry>
+<entry count="4">
+<token>System.Web.Http.HttpRouteCollectionExtensions,MapHttpBatchRoute</token>
+<token>System.Web.Http.HttpRouteCollection,Add</token>
+</entry>
+<entry count="49">
+<token>System.Web.Http.HttpConfiguration,new</token>
+<token>System.Web.Http.HttpServer,new</token>
+</entry>
+<entry count="8">
+<token>System.Web.Http.HttpRouteCollection,Add</token>
+<token>System.Web.Http.HttpRouteCollection,Add</token>
+</entry>
+<entry count="1">
+<token>System.Web.Http.HttpConfigurationExtensions,MapHttpAttributeRoutes</token>
+<token>System.Web.Http.HttpConfigurationTracingExtensions,EnableSystemDiagnosticsTracing</token>
+</entry>
+<entry count="2">
+<token>System.Web.Http.OwinHttpConfigurationExtensions,SuppressDefaultHostAuthentication</token>
+<token>System.Web.Http.HostAuthenticationAttribute,new</token>
+<token>System.Web.Http.AuthorizeAttribute,new</token>
+</entry>
+<entry count="173">
+<token>System.Web.Http.HttpRouteCollectionExtensions,MapHttpRoute</token>
+<token>System.Web.Http.HttpServer,new</token>
+</entry>
+<entry count="10">
+<token>System.Web.Http.ServicesExtensions,GetActionValueBinder</token>
+<token>System.Web.Http.ServicesExtensions,GetContentNegotiator</token>
 </entry>
 <entry count="6">
 <token>System.Web.Http.ApiController,Ok</token>
 <token>System.Web.Http.ApiController,BadRequest</token>
 </entry>
-<entry count="144">
+<entry count="152">
 <token>System.Web.Http.HttpRouteCollection,new</token>
 <token>System.Web.Http.HttpConfiguration,new</token>
 <token>System.Web.Http.HttpRouteCollectionExtensions,MapHttpRoute</token>
@@ -344,47 +415,24 @@
 <token>System.Web.Http.ApiController,Validate</token>
 <token>System.Web.Http.ApiController,BadRequest</token>
 </entry>
-<entry count="10">
-<token>WebStack.QA.Test.OData.ETags.ETagsCustomer,</token>
-<token>WebStack.QA.Test.OData]],new</token>
-<token>System.Web.Http.ApiController,Ok</token>
-</entry>
-<entry count="1">
-<token>System.Web.Http.SingleResult`1[[T</token>
-<token>-&gt;</token>
-<token>WebStack.QA.Test.OData.StoreGeneratedPattern.StoreGeneratedPatternCustomer,</token>
-</entry>
-<entry count="11">
-<token>System.Web.Http.SingleResult`1[[T</token>
-<token>-&gt;</token>
-</entry>
-<entry count="6">
-<token>System.Web.Http.HttpRouteCollection,new</token>
-<token>System.Web.Http.HttpRouteCollection,Add</token>
-</entry>
-<entry count="2">
+<entry count="7">
+<token>System.Web.Http.ApiController,NotFound</token>
 <token>System.Web.Http.ApiController,BadRequest</token>
-<token>System.Web.Http.SingleResult`1[[T</token>
-<token>-&gt;</token>
-<token>WebStack.QA.Test.OData.ETags.ETagsCustomer,</token>
-<token>WebStack.QA.Test.OData]],new</token>
 </entry>
-<entry count="6">
-<token>System.Web.Http.HttpServer,new</token>
-<token>System.Web.Http.HttpConfiguration,EnsureInitialized</token>
-</entry>
-<entry count="157">
-<token>System.Web.Http.HttpRouteCollection,new</token>
+<entry count="1">
 <token>System.Web.Http.HttpConfiguration,new</token>
+<token>System.Web.Http.HttpServer,new</token>
+<token>System.Web.Http.HttpRouteCollectionExtensions,MapHttpBatchRoute</token>
+<token>System.Web.Http.HttpRouteCollectionExtensions,MapHttpRoute</token>
 </entry>
 <entry count="4">
+<token>System.Web.Http.HttpRouteCollection,ContainsKey</token>
+<token>System.Web.Http.HttpRouteCollection,ContainsKey</token>
+</entry>
+<entry count="8">
 <token>System.Web.Http.HttpRouteCollection,Add</token>
 <token>System.Web.Http.HttpRouteCollection,Add</token>
 <token>System.Web.Http.HttpConfiguration,new</token>
-</entry>
-<entry count="10">
-<token>-&gt;</token>
-<token>WebStack.QA.Test.OData.ETags.ETagsCustomer,</token>
 </entry>
 <entry count="10">
 <token>-&gt;</token>
@@ -392,17 +440,22 @@
 <token>WebStack.QA.Test.OData]],new</token>
 <token>System.Web.Http.ApiController,Ok</token>
 </entry>
-<entry count="4">
+<entry count="8">
 <token>System.Web.Http.HttpRouteCollection,new</token>
 <token>System.Web.Http.HttpRouteCollection,Add</token>
 <token>System.Web.Http.HttpRouteCollection,Add</token>
 <token>System.Web.Http.HttpConfiguration,new</token>
+</entry>
+<entry count="8">
+<token>System.Web.Http.ServicesExtensions,GetAssembliesResolver</token>
+<token>System.Web.Http.ServicesExtensions,GetHttpControllerTypeResolver</token>
 </entry>
 <entry count="1">
 <token>System.Web.Http.HttpConfiguration,new</token>
-<token>System.Web.Http.HttpRouteCollection,new</token>
+<token>System.Web.Http.HttpServer,new</token>
+<token>System.Web.Http.HttpRouteCollectionExtensions,MapHttpBatchRoute</token>
 </entry>
-<entry count="4">
+<entry count="65">
 <token>System.Web.Http.HttpConfigurationExtensions,MapHttpAttributeRoutes</token>
 <token>System.Web.Http.HttpRouteCollectionExtensions,MapHttpRoute</token>
 </entry>
@@ -412,38 +465,576 @@
 <token>WebStack.QA.Test.OData.StoreGeneratedPattern.StoreGeneratedPatternCustomer,</token>
 <token>WebStack.QA.Test.OData]],new</token>
 </entry>
+<entry count="18">
+<token>System.Web.Http.HttpRouteCollectionExtensions,MapHttpRoute</token>
+<token>System.Web.Http.HttpRouteCollectionExtensions,MapHttpRoute</token>
+<token>System.Web.Http.HttpRouteCollectionExtensions,MapHttpRoute</token>
+</entry>
+<entry count="56">
+<token>System.Web.Http.HttpConfiguration,new</token>
+<token>System.Web.Http.HttpConfiguration,new</token>
+</entry>
+<entry count="2">
+<token>System.Web.Http.ApiController,BadRequest</token>
+<token>System.Web.Http.ApiController,BadRequest</token>
+<token>System.Web.Http.ApiController,Unauthorized</token>
+<token>System.Web.Http.ApiController,Unauthorized</token>
+<token>System.Web.Http.ApiController,Ok</token>
+</entry>
+<entry count="8">
+<token>System.Web.Http.ODataHttpConfigurationExtensions,EnableQuerySupport</token>
+<token>System.Web.Http.CorsHttpConfigurationExtensions,EnableCors</token>
+<token>System.Web.Http.HttpRouteCollection,ContainsKey</token>
+</entry>
+<entry count="164">
+<token>System.Web.Http.ApiController,NotFound</token>
+<token>System.Web.Http.ApiController,Ok</token>
+</entry>
+<entry count="684">
+<token>System.Web.Http.ApiController,Ok</token>
+<token>System.Web.Http.ApiController,Ok</token>
+</entry>
+<entry count="2">
+<token>System.Web.Http.HttpConfigurationExtensions,MapHttpAttributeRoutes</token>
+<token>System.Web.Http.HttpConfiguration,EnsureInitialized</token>
+</entry>
+<entry count="6">
+<token>System.Web.Http.ApiController,StatusCode</token>
+<token>System.Web.Http.ApiController,BadRequest</token>
+</entry>
+<entry count="1">
+<token>System.Web.Http.HttpConfigurationExtensions,MapHttpAttributeRoutes</token>
+<token>System.Web.Http.HttpRouteCollectionExtensions,MapHttpRoute</token>
+<token>System.Web.Http.ODataHttpRouteCollectionExtensions,MapODataRoute</token>
+</entry>
+<entry count="8">
+<token>System.Web.Http.ApiController,StatusCode</token>
+<token>System.Web.Http.ApiController,StatusCode</token>
+</entry>
+<entry count="2">
+<token>System.Web.Http.HttpRouteCollection,ContainsKey</token>
+<token>System.Web.Http.HttpRouteCollection,ContainsKey</token>
+<token>System.Web.Http.ODataHttpRouteCollectionExtensions,MapODataRoute</token>
+</entry>
+<entry count="1">
+<token>System.Web.Http.HttpServer,new</token>
+<token>System.Web.Http.HttpRouteCollectionExtensions,MapHttpBatchRoute</token>
+<token>System.Web.Http.HttpRouteCollectionExtensions,MapHttpRoute</token>
+</entry>
+<entry count="4">
+<token>System.Web.Http.CorsHttpConfigurationExtensions,EnableCors</token>
+<token>System.Web.Http.HttpRouteCollection,ContainsKey</token>
+<token>System.Web.Http.HttpRouteCollection,ContainsKey</token>
+</entry>
+<entry count="46">
+<token>System.Web.Http.ApiController,NotFound</token>
+<token>System.Web.Http.ApiController,Ok</token>
+<token>System.Web.Http.ApiController,Ok</token>
+</entry>
+<entry count="8">
+<token>System.Web.Http.CorsHttpConfigurationExtensions,EnableCors</token>
+<token>System.Web.Http.HttpRouteCollection,ContainsKey</token>
+</entry>
+<entry count="4">
+<token>System.Web.Http.HttpRouteCollectionExtensions,MapHttpRoute</token>
+<token>System.Web.Http.HttpRouteCollection,ContainsKey</token>
+</entry>
 <entry count="2">
 <token>System.Web.Http.HttpConfiguration,new</token>
-<token>System.Web.Http.HttpRouteCollectionExtensions,MapHttpRoute</token>
-<token>System.Web.Http.HttpRouteCollectionExtensions,MapHttpRoute</token>
-</entry>
-<entry count="29">
+<token>System.Web.Http.HttpRouteCollection,new</token>
 <token>System.Web.Http.HttpConfiguration,new</token>
 <token>System.Web.Http.HttpConfiguration,new</token>
 </entry>
-<entry count="168">
+<entry count="8">
+<token>System.Web.Http.ApiController,BadRequest</token>
+<token>System.Web.Http.ApiController,Unauthorized</token>
+<token>System.Web.Http.ApiController,Unauthorized</token>
+<token>System.Web.Http.ApiController,Unauthorized</token>
+<token>System.Web.Http.ApiController,Ok</token>
+</entry>
+<entry count="1">
+<token>System.Web.Http.HttpConfiguration,new</token>
+<token>System.Web.Http.HttpConfigurationExtensions,MapHttpAttributeRoutes</token>
+<token>System.Web.Http.AuthorizeAttribute,new</token>
+</entry>
+<entry count="2">
+<token>System.Web.Http.CorsHttpConfigurationExtensions,EnableCors</token>
+<token>System.Web.Http.HttpConfigurationExtensions,MapHttpAttributeRoutes</token>
+</entry>
+<entry count="1">
+<token>System.Web.Http.ApiController,BadRequest</token>
+<token>System.Web.Http.ApiController,Redirect</token>
+</entry>
+<entry count="144">
 <token>System.Web.Http.HttpConfiguration,new</token>
 <token>System.Web.Http.HttpRouteCollectionExtensions,MapHttpRoute</token>
+<token>System.Web.Http.HttpServer,new</token>
+<token>System.Web.Http.ServicesExtensions,GetHostBufferPolicySelector</token>
+</entry>
+<entry count="1">
+<token>System.Web.Http.SingleResult`1[[T</token>
+<token>-&gt;</token>
+<token>WebStack.QA.Test.OData.StoreGeneratedPattern.StoreGeneratedPatternCustomer,</token>
+<token>WebStack.QA.Test.OData]],new</token>
+<token>System.Web.Http.ApiController,Ok</token>
+</entry>
+<entry count="2">
+<token>System.Web.Http.ApiController,BadRequest</token>
+<token>System.Web.Http.ApiController,NotFound</token>
+</entry>
+<entry count="202">
+<token>System.Web.Http.ApiController,Ok</token>
+<token>System.Web.Http.ApiController,Ok</token>
+<token>System.Web.Http.ApiController,Ok</token>
+</entry>
+<entry count="5">
+<token>System.Web.Http.HttpRouteCollectionExtensions,MapHttpRoute</token>
+<token>System.Web.Http.HttpConfigurationExtensions,MapHttpAttributeRoutes</token>
+</entry>
+<entry count="4">
+<token>System.Web.Http.HttpConfiguration,new</token>
+<token>System.Web.Http.ServicesExtensions,GetContentNegotiator</token>
+</entry>
+<entry count="1">
+<token>System.Web.Http.HttpConfiguration,new</token>
+<token>System.Web.Http.HttpConfigurationExtensions,MapHttpAttributeRoutes</token>
+<token>System.Web.Http.HttpServer,new</token>
+</entry>
+<entry count="2">
+<token>System.Web.Http.ApiController,BadRequest</token>
+<token>System.Web.Http.ApiController,NotFound</token>
+<token>System.Web.Http.ApiController,StatusCode</token>
+</entry>
+<entry count="1">
+<token>System.Web.Http.TraceWriterExtensions,Info</token>
+<token>System.Web.Http.ApiController,CreatedAtRoute</token>
+</entry>
+<entry count="2">
+<token>System.Web.Http.CorsHttpConfigurationExtensions,EnableCors</token>
+<token>System.Web.Http.HttpRouteCollection,ContainsKey</token>
+<token>System.Web.Http.HttpRouteCollection,ContainsKey</token>
+<token>System.Web.Http.ODataHttpRouteCollectionExtensions,MapODataRoute</token>
+</entry>
+<entry count="10">
+<token>System.Web.Http.SingleResult`1[[T</token>
+<token>-&gt;</token>
+<token>WebStack.QA.Test.OData.ETags.ETagsCustomer,</token>
+<token>WebStack.QA.Test.OData]],new</token>
+<token>System.Web.Http.ApiController,Ok</token>
+</entry>
+<entry count="7">
+<token>System.Web.Http.HttpConfiguration,new</token>
+<token>System.Web.Http.HttpConfiguration,EnsureInitialized</token>
+</entry>
+<entry count="36">
+<token>System.Web.Http.ApiController,BadRequest</token>
+<token>System.Web.Http.ApiController,Unauthorized</token>
+<token>System.Web.Http.ApiController,Ok</token>
+</entry>
+<entry count="10">
+<token>System.Web.Http.SingleResult`1[[T</token>
+<token>-&gt;</token>
+<token>WebStack.QA.Test.OData.ETags.ETagsCustomer,</token>
+<token>WebStack.QA.Test.OData]],new</token>
+</entry>
+<entry count="71">
+<token>System.Web.Http.HttpResponseException,new</token>
+<token>System.Web.Http.HttpResponseException,new</token>
+</entry>
+<entry count="2">
+<token>System.Web.Http.HttpConfiguration,new</token>
+<token>System.Web.Http.HttpConfigurationExtensions,MapHttpAttributeRoutes</token>
+<token>System.Web.Http.HttpConfiguration,EnsureInitialized</token>
+</entry>
+<entry count="1">
+<token>System.Web.Http.HttpConfigurationExtensions,MapHttpAttributeRoutes</token>
+<token>System.Web.Http.HttpRouteCollectionExtensions,MapHttpRoute</token>
+<token>System.Web.Http.HttpConfigurationTracingExtensions,EnableSystemDiagnosticsTracing</token>
+</entry>
+<entry count="1">
+<token>System.Web.Http.HttpConfiguration,new</token>
+<token>System.Web.Http.HttpConfigurationExtensions,MapHttpAttributeRoutes</token>
+<token>System.Web.Http.OwinHttpConfigurationExtensions,SuppressDefaultHostAuthentication</token>
+<token>System.Web.Http.HostAuthenticationAttribute,new</token>
+</entry>
+<entry count="1">
+<token>System.Web.Http.HttpConfiguration,new</token>
+<token>System.Web.Http.HttpConfigurationExtensions,MapHttpAttributeRoutes</token>
+<token>System.Web.Http.HttpRouteCollectionExtensions,MapHttpRoute</token>
+<token>System.Web.Http.HttpRouteCollectionExtensions,MapHttpRoute</token>
+<token>System.Web.Http.HttpRouteCollectionExtensions,MapHttpRoute</token>
+</entry>
+<entry count="4">
+<token>System.Web.Http.HttpConfiguration,new</token>
+<token>System.Web.Http.ServicesExtensions,GetHttpControllerSelector</token>
+</entry>
+<entry count="11">
+<token>System.Web.Http.SingleResult`1[[T</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>System.Web.Http.HttpConfigurationExtensions,MapHttpAttributeRoutes</token>
+<token>System.Web.Http.OwinHttpConfigurationExtensions,SuppressDefaultHostAuthentication</token>
+<token>System.Web.Http.HostAuthenticationAttribute,new</token>
+</entry>
+<entry count="8">
+<token>System.Web.Http.HttpRouteCollectionExtensions,MapHttpRoute</token>
+<token>System.Web.Http.HttpRouteCollectionExtensions,MapHttpRoute</token>
+<token>System.Web.Http.HttpRouteCollectionExtensions,MapHttpRoute</token>
+<token>System.Web.Http.HttpRouteCollectionExtensions,MapHttpRoute</token>
+<token>System.Web.Http.HttpRouteCollectionExtensions,MapHttpRoute</token>
+</entry>
+<entry count="176">
+<token>System.Web.Http.HttpRouteCollection,new</token>
+<token>System.Web.Http.HttpConfiguration,new</token>
+</entry>
+<entry count="1">
+<token>System.Web.Http.HttpConfiguration,new</token>
+<token>System.Web.Http.HttpConfigurationExtensions,MapHttpAttributeRoutes</token>
+<token>System.Web.Http.HttpRouteCollectionExtensions,MapHttpRoute</token>
+<token>System.Web.Http.HttpRouteCollectionExtensions,MapHttpRoute</token>
+<token>System.Web.Http.OwinHttpConfigurationExtensions,SuppressDefaultHostAuthentication</token>
+</entry>
+<entry count="8">
+<token>System.Web.Http.ApiController,BadRequest</token>
+<token>System.Web.Http.ApiController,Unauthorized</token>
+<token>System.Web.Http.ApiController,Unauthorized</token>
+<token>System.Web.Http.ApiController,Unauthorized</token>
+</entry>
+<entry count="2">
+<token>System.Web.Http.ApiController,NotFound</token>
+<token>System.Web.Http.ApiController,NotFound</token>
+<token>System.Web.Http.ApiController,Ok</token>
+</entry>
+<entry count="2">
+<token>System.Web.Http.HttpRouteCollectionExtensions,MapHttpRoute</token>
+<token>System.Web.Http.ServicesExtensions,GetFilterProviders</token>
+</entry>
+<entry count="2">
+<token>System.Web.Http.HttpConfiguration,new</token>
+<token>System.Web.Http.HttpConfigurationExtensions,MapHttpAttributeRoutes</token>
+<token>System.Web.Http.CorsHttpConfigurationExtensions,EnableCors</token>
+</entry>
+<entry count="4">
+<token>System.Web.Http.HttpConfiguration,new</token>
+<token>System.Web.Http.HttpConfigurationExtensions,MapHttpAttributeRoutes</token>
+<token>System.Web.Http.HttpRouteCollectionExtensions,MapHttpRoute</token>
+<token>System.Web.Http.HttpRouteCollectionExtensions,MapHttpRoute</token>
+</entry>
+<entry count="4">
+<token>System.Web.Http.CorsHttpConfigurationExtensions,EnableCors</token>
+<token>System.Web.Http.HttpRouteCollection,ContainsKey</token>
+<token>System.Web.Http.HttpRouteCollectionExtensions,MapHttpRoute</token>
+<token>System.Web.Http.HttpRouteCollection,ContainsKey</token>
 </entry>
 <entry count="1">
 <token>-&gt;</token>
 <token>WebStack.QA.Test.OData.StoreGeneratedPattern.StoreGeneratedPatternCustomer,</token>
 </entry>
-<entry count="2">
-<token>System.Web.Http.HttpConfiguration,new</token>
-<token>System.Web.Http.ServicesExtensions,GetTraceManager</token>
-<token>System.Web.Http.ServicesExtensions,GetHttpControllerSelector</token>
-</entry>
 <entry count="1">
-<token>System.Web.Http.ServicesExtensions,GetDocumentationProvider</token>
-<token>System.Web.Http.ServicesExtensions,GetApiExplorer</token>
+<token>System.Web.Http.HttpConfigurationExtensions,MapHttpAttributeRoutes</token>
+<token>System.Web.Http.AuthorizeAttribute,new</token>
+</entry>
+<entry count="8">
+<token>System.Web.Http.ODataHttpConfigurationExtensions,EnableQuerySupport</token>
+<token>System.Web.Http.CorsHttpConfigurationExtensions,EnableCors</token>
 </entry>
 <entry count="10">
 <token>System.Web.Http.SingleResult`1[[T</token>
 <token>-&gt;</token>
 <token>WebStack.QA.Test.OData.ETags.ETagsCustomer,</token>
 </entry>
+<entry count="4">
+<token>System.Web.Http.HttpConfigurationExtensions,MapHttpAttributeRoutes</token>
+<token>System.Web.Http.HttpRouteCollectionExtensions,MapHttpRoute</token>
+<token>System.Web.Http.HttpRouteCollectionExtensions,MapHttpRoute</token>
+<token>System.Web.Http.HttpRouteCollectionExtensions,MapHttpRoute</token>
+</entry>
 <entry count="2">
+<token>System.Web.Http.ApiController,Validate</token>
+<token>System.Web.Http.ApiController,Ok</token>
+</entry>
+<entry count="1">
+<token>System.Web.Http.HttpRouteCollectionExtensions,MapHttpRoute</token>
+<token>System.Web.Http.ODataHttpRouteCollectionExtensions,MapODataRoute</token>
+</entry>
+<entry count="2">
+<token>System.Web.Http.ApiController,StatusCode</token>
+<token>System.Web.Http.ApiController,StatusCode</token>
+<token>System.Web.Http.ApiController,StatusCode</token>
+</entry>
+<entry count="41">
+<token>System.Web.Http.HttpRouteCollectionExtensions,MapHttpRoute</token>
+<token>System.Web.Http.HttpRouteCollectionExtensions,MapHttpRoute</token>
+</entry>
+<entry count="10">
+<token>System.Web.Http.HttpConfiguration,new</token>
+<token>System.Web.Http.HttpServer,new</token>
+<token>System.Web.Http.HttpConfiguration,EnsureInitialized</token>
+</entry>
+<entry count="46">
+<token>System.Web.Http.HttpError,GetPropertyValue</token>
+<token>System.Web.Http.HttpError,GetPropertyValue</token>
+<token>System.Web.Http.HttpError,GetPropertyValue</token>
+</entry>
+<entry count="4">
+<token>System.Web.Http.HttpRouteCollection,ContainsKey</token>
+<token>System.Web.Http.ODataHttpRouteCollectionExtensions,MapODataRoute</token>
+</entry>
+<entry count="10">
+<token>WebStack.QA.Test.OData.ETags.ETagsCustomer,</token>
+<token>WebStack.QA.Test.OData]],new</token>
+</entry>
+<entry count="24">
+<token>System.Web.Http.ServicesExtensions,GetHttpControllerSelector</token>
+<token>System.Web.Http.ServicesExtensions,GetActionSelector</token>
+</entry>
+<entry count="4">
+<token>System.Web.Http.HttpRouteCollection,ContainsKey</token>
+<token>System.Web.Http.HttpRouteCollectionExtensions,MapHttpRoute</token>
+</entry>
+<entry count="10">
+<token>-&gt;</token>
+<token>WebStack.QA.Test.OData.ETags.ETagsCustomer,</token>
+<token>WebStack.QA.Test.OData]],new</token>
+</entry>
+<entry count="2">
+<token>System.Web.Http.ApiController,NotFound</token>
+<token>System.Web.Http.ApiController,NotFound</token>
+<token>System.Web.Http.ApiController,BadRequest</token>
+<token>System.Web.Http.ApiController,Ok</token>
+</entry>
+<entry count="1">
+<token>System.Web.Http.HttpConfigurationExtensions,MapHttpAttributeRoutes</token>
+<token>System.Web.Http.HttpServer,new</token>
+</entry>
+<entry count="2">
+<token>System.Web.Http.HostAuthenticationAttribute,new</token>
+<token>System.Web.Http.AuthorizeAttribute,new</token>
+</entry>
+<entry count="30">
+<token>System.Web.Http.ApiController,BadRequest</token>
+<token>System.Web.Http.ApiController,Unauthorized</token>
+<token>System.Web.Http.ApiController,Unauthorized</token>
+<token>System.Web.Http.ApiController,Ok</token>
+</entry>
+<entry count="10">
+<token>System.Web.Http.HttpRouteCollectionExtensions,MapHttpRoute</token>
+<token>System.Web.Http.HttpRouteCollectionExtensions,MapHttpRoute</token>
+<token>System.Web.Http.HttpRouteCollectionExtensions,MapHttpRoute</token>
+<token>System.Web.Http.HttpRouteCollectionExtensions,MapHttpRoute</token>
+</entry>
+<entry count="6">
+<token>System.Web.Http.HttpRouteCollectionExtensions,MapHttpRoute</token>
+<token>System.Web.Http.ServicesExtensions,GetApiExplorer</token>
+</entry>
+<entry count="52">
+<token>System.Web.Http.ApiController,BadRequest</token>
+<token>System.Web.Http.ApiController,StatusCode</token>
+</entry>
+<entry count="13">
+<token>System.Web.Http.HttpRouteCollection,Add</token>
+<token>System.Web.Http.HttpConfiguration,new</token>
+</entry>
+<entry count="2">
+<token>System.Web.Http.ApiController,BadRequest</token>
+<token>System.Web.Http.SingleResult`1[[T</token>
+<token>-&gt;</token>
+<token>WebStack.QA.Test.OData.ETags.ETagsCustomer,</token>
+</entry>
+<entry count="4">
+<token>System.Web.Http.HttpConfiguration,new</token>
+<token>System.Web.Http.ServicesExtensions,GetHttpControllerSelector</token>
+<token>System.Web.Http.ServicesExtensions,GetActionSelector</token>
+</entry>
+<entry count="4">
+<token>System.Web.Http.HttpConfiguration,new</token>
+<token>System.Web.Http.ServicesExtensions,GetTraceManager</token>
+<token>System.Web.Http.ServicesExtensions,GetHttpControllerSelector</token>
+<token>System.Web.Http.ServicesExtensions,GetActionSelector</token>
+</entry>
+<entry count="2">
+<token>System.Web.Http.HttpConfigurationExtensions,MapHttpAttributeRoutes</token>
+<token>System.Web.Http.CorsHttpConfigurationExtensions,EnableCors</token>
+</entry>
+<entry count="1">
+<token>System.Web.Http.HttpConfiguration,new</token>
+<token>System.Web.Http.HttpConfigurationExtensions,MapHttpAttributeRoutes</token>
+<token>System.Web.Http.OwinHttpConfigurationExtensions,SuppressDefaultHostAuthentication</token>
+<token>System.Web.Http.HostAuthenticationAttribute,new</token>
+<token>System.Web.Http.AuthorizeAttribute,new</token>
+</entry>
+<entry count="2">
+<token>System.Web.Http.CorsHttpConfigurationExtensions,EnableCors</token>
+<token>System.Web.Http.HttpConfigurationExtensions,MapHttpAttributeRoutes</token>
+<token>System.Web.Http.HttpRouteCollectionExtensions,MapHttpRoute</token>
+</entry>
+<entry count="2">
+<token>System.Web.Http.ApiController,BadRequest</token>
+<token>System.Web.Http.ApiController,ResponseMessage</token>
+</entry>
+<entry count="14">
+<token>System.Web.Http.HttpConfiguration,new</token>
+<token>System.Web.Http.HttpRouteCollectionExtensions,MapHttpRoute</token>
+<token>System.Web.Http.HttpRouteCollection,GetRouteData</token>
+</entry>
+<entry count="1">
+<token>System.Web.Http.HttpConfiguration,new</token>
+<token>System.Web.Http.HttpConfigurationExtensions,MapHttpAttributeRoutes</token>
+<token>System.Web.Http.OwinHttpConfigurationExtensions,SuppressDefaultHostAuthentication</token>
+</entry>
+<entry count="1">
+<token>System.Web.Http.HttpRouteCollectionExtensions,MapHttpRoute</token>
+<token>System.Web.Http.HttpRouteCollectionExtensions,MapHttpRoute</token>
+<token>System.Web.Http.OwinHttpConfigurationExtensions,SuppressDefaultHostAuthentication</token>
+<token>System.Web.Http.HostAuthenticationAttribute,new</token>
+</entry>
+<entry count="8">
+<token>System.Web.Http.HttpRouteCollection,new</token>
+<token>System.Web.Http.HttpConfiguration,new</token>
+<token>System.Web.Http.HttpRouteCollectionExtensions,MapHttpRoute</token>
+<token>System.Web.Http.HttpRouteCollection,GetRouteData</token>
+</entry>
+<entry count="4">
+<token>System.Web.Http.HttpRouteCollection,new</token>
+<token>System.Web.Http.HttpConfiguration,new</token>
+<token>System.Web.Http.HttpServer,new</token>
+</entry>
+<entry count="1">
+<token>System.Web.Http.HttpConfigurationExtensions,MapHttpAttributeRoutes</token>
+<token>System.Web.Http.OwinHttpConfigurationExtensions,SuppressDefaultHostAuthentication</token>
+<token>System.Web.Http.HostAuthenticationAttribute,new</token>
+<token>System.Web.Http.AuthorizeAttribute,new</token>
+</entry>
+<entry count="4">
+<token>System.Web.Http.HttpRouteCollection,new</token>
+<token>System.Web.Http.HttpConfiguration,new</token>
+<token>System.Web.Http.HttpConfiguration,new</token>
+</entry>
+<entry count="72">
+<token>System.Web.Http.ApiController,Unauthorized</token>
+<token>System.Web.Http.ApiController,Unauthorized</token>
+<token>System.Web.Http.ApiController,Ok</token>
+</entry>
+<entry count="2">
+<token>System.Web.Http.HttpRouteCollectionExtensions,MapHttpRoute</token>
+<token>System.Web.Http.HttpConfigurationTracingExtensions,EnableSystemDiagnosticsTracing</token>
+</entry>
+<entry count="4">
+<token>System.Web.Http.HttpRouteCollectionExtensions,MapHttpRoute</token>
+<token>System.Web.Http.HttpRouteCollectionExtensions,MapHttpRoute</token>
+<token>System.Web.Http.HttpServer,new</token>
+</entry>
+<entry count="144">
+<token>System.Web.Http.HttpRouteCollection,new</token>
+<token>System.Web.Http.HttpConfiguration,new</token>
+<token>System.Web.Http.HttpRouteCollectionExtensions,MapHttpRoute</token>
+<token>System.Web.Http.HttpServer,new</token>
+<token>System.Web.Http.ServicesExtensions,GetHostBufferPolicySelector</token>
+</entry>
+<entry count="2">
+<token>System.Web.Http.ApiController,BadRequest</token>
+<token>System.Web.Http.SingleResult`1[[T</token>
+</entry>
+<entry count="2">
+<token>System.Web.Http.OwinHttpConfigurationExtensions,SuppressDefaultHostAuthentication</token>
+<token>System.Web.Http.HostAuthenticationAttribute,new</token>
+</entry>
+<entry count="2">
+<token>System.Web.Http.CorsHttpConfigurationExtensions,EnableCors</token>
+<token>System.Web.Http.HttpRouteCollection,ContainsKey</token>
+<token>System.Web.Http.HttpRouteCollectionExtensions,MapHttpRoute</token>
+<token>System.Web.Http.HttpRouteCollection,ContainsKey</token>
+<token>System.Web.Http.ODataHttpRouteCollectionExtensions,MapODataRoute</token>
+</entry>
+<entry count="7">
+<token>System.Web.Http.ApiController,StatusCode</token>
+<token>System.Web.Http.ApiController,Ok</token>
+</entry>
+<entry count="52">
+<token>System.Web.Http.ApiController,BadRequest</token>
+<token>System.Web.Http.ApiController,BadRequest</token>
+<token>System.Web.Http.ApiController,Ok</token>
+</entry>
+<entry count="13">
+<token>System.Web.Http.HttpResponseException,new</token>
+<token>System.Web.Http.HttpResponseException,new</token>
+<token>System.Web.Http.HttpResponseException,new</token>
+</entry>
+<entry count="144">
+<token>System.Web.Http.HttpServer,new</token>
+<token>System.Web.Http.ServicesExtensions,GetHostBufferPolicySelector</token>
+</entry>
+<entry count="1">
+<token>System.Web.Http.HostAuthenticationFilter,new</token>
+<token>System.Web.Http.HttpConfiguration,EnsureInitialized</token>
+</entry>
+<entry count="4">
+<token>System.Web.Http.ODataHttpConfigurationExtensions,EnableQuerySupport</token>
+<token>System.Web.Http.CorsHttpConfigurationExtensions,EnableCors</token>
+<token>System.Web.Http.HttpRouteCollection,ContainsKey</token>
+<token>System.Web.Http.HttpRouteCollectionExtensions,MapHttpRoute</token>
+<token>System.Web.Http.HttpRouteCollection,ContainsKey</token>
+</entry>
+<entry count="1">
+<token>System.Web.Http.HttpConfigurationExtensions,MapHttpAttributeRoutes</token>
+<token>System.Web.Http.OwinHttpConfigurationExtensions,SuppressDefaultHostAuthentication</token>
+</entry>
+<entry count="13">
+<token>System.Web.Http.HttpRouteCollection,new</token>
+<token>System.Web.Http.HttpRouteCollection,Add</token>
+</entry>
+<entry count="2">
+<token>System.Web.Http.ApiController,BadRequest</token>
+<token>System.Web.Http.SingleResult`1[[T</token>
+<token>-&gt;</token>
+<token>WebStack.QA.Test.OData.ETags.ETagsCustomer,</token>
+<token>WebStack.QA.Test.OData]],new</token>
+</entry>
+<entry count="12">
+<token>System.Web.Http.HttpServer,new</token>
+<token>System.Web.Http.HttpConfiguration,EnsureInitialized</token>
+</entry>
+<entry count="1">
+<token>System.Web.Http.ApiController,NotFound</token>
+<token>System.Web.Http.ApiController,BadRequest</token>
+<token>System.Web.Http.ApiController,StatusCode</token>
+</entry>
+<entry count="77">
+<token>System.Web.Http.HttpConfiguration,new</token>
+<token>System.Web.Http.HttpConfigurationExtensions,MapHttpAttributeRoutes</token>
+</entry>
+<entry count="2">
+<token>System.Web.Http.HttpConfiguration,new</token>
+<token>System.Web.Http.HttpRouteCollectionExtensions,MapHttpRoute</token>
+<token>System.Web.Http.HttpRouteCollectionExtensions,MapHttpRoute</token>
+<token>System.Web.Http.HttpRouteCollectionExtensions,MapHttpRoute</token>
+</entry>
+<entry count="1">
+<token>System.Web.Http.HttpRouteCollectionExtensions,MapHttpRoute</token>
+<token>System.Web.Http.HttpRouteCollectionExtensions,MapHttpRoute</token>
+<token>System.Web.Http.OwinHttpConfigurationExtensions,SuppressDefaultHostAuthentication</token>
+</entry>
+<entry count="10">
+<token>System.Web.Http.HttpConfiguration,new</token>
+<token>System.Web.Http.HttpRouteCollectionExtensions,MapHttpRoute</token>
+<token>System.Web.Http.HttpRouteCollectionExtensions,MapHttpRoute</token>
+</entry>
+<entry count="231">
+<token>System.Web.Http.HttpConfiguration,new</token>
+<token>System.Web.Http.HttpRouteCollectionExtensions,MapHttpRoute</token>
+</entry>
+<entry count="1">
+<token>System.Web.Http.HttpRouteCollectionExtensions,MapHttpRoute</token>
+<token>System.Web.Http.OwinHttpConfigurationExtensions,SuppressDefaultHostAuthentication</token>
+<token>System.Web.Http.HostAuthenticationAttribute,new</token>
+<token>System.Web.Http.AuthorizeAttribute,new</token>
+</entry>
+<entry count="22">
+<token>System.Web.Http.ServicesExtensions,GetDocumentationProvider</token>
+<token>System.Web.Http.ServicesExtensions,GetApiExplorer</token>
+</entry>
+<entry count="14">
 <token>System.Web.Http.HttpRouteCollectionExtensions,MapHttpRoute</token>
 <token>System.Web.Http.HttpRouteCollection,GetRouteData</token>
 </entry>

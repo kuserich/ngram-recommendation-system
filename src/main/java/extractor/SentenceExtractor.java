@@ -14,6 +14,8 @@ import java.util.*;
 
 public class SentenceExtractor {
 
+    private static final int MAX_FLATTEN_DEPTH = 10;
+    
     /**
      * Returns all API sentences from all contexts in the given directory.
      * 
@@ -28,13 +30,12 @@ public class SentenceExtractor {
             IoHelper.createDirectoryIfNotExists(outputDirectory);
             Set<String> inputContexts = getInputZips(contextsDirectory);
 
-            int cnt = 0;
+            int cnt = 1;
             int totalFiles = inputContexts.size();
             for(String inputContext : inputContexts) {
                 processZip(contextsDirectory + "/" + inputContext, outputDirectory);
-                System.out.println("====================================");
-                System.out.println("FINISHED PROCESSING FILE "+String.valueOf(cnt++)+"/"+String.valueOf(totalFiles));
-                System.out.println("====================================");
+                System.out.println("\n\n\nFINISHED PROCESSING FILE "+String.valueOf(cnt++)+"/"+String.valueOf(totalFiles));
+                System.out.println("========================================================================================");
             }
             
         } catch(IOException e) {
@@ -44,13 +45,12 @@ public class SentenceExtractor {
 
     private void processZip(String inputFilePath, String outputDirectory) {
         System.out.println();
-        System.out.println("+-------------------------------------------+");
         System.out.println("PROCESSING "+inputFilePath);
 
         int cnt = 1;
         try(IReadingArchive ra = new ReadingArchive(new File(inputFilePath))) {
             while(ra.hasNext()) {
-                System.out.println("\tProcessing entry: "+String.valueOf(cnt++)+"/"+ra.getNumberOfEntries());
+                System.out.print("\rProcessing entry: "+String.valueOf(cnt++)+"/"+ra.getNumberOfEntries());
 
                 // within the slnZip, each stored context is contained as a single file that
                 // contains the Json representation of a Context.
@@ -87,12 +87,12 @@ public class SentenceExtractor {
         
         for(APISentenceTree asp : apiSentenceTrees) {
             Long n = 4*asp.numberOfSentences();
-            System.out.println("expected: "+n);
-            System.out.println("nbranches: "+asp.totalNumberOfBranches());
-            System.out.println("in pow: "+Math.pow(2, asp.totalNumberOfBranches()));
+//            System.out.print(" expected: "+n);
+//            System.out.print(" nbranches: "+asp.totalNumberOfBranches());
+//            System.out.print(" in pow: "+Math.pow(2, asp.totalNumberOfBranches()));
             if(asp.numberOfSentences() < 100000L) {
-                List<List<APIToken>> apiSentences = asp.flatten();
-                System.out.println("actual : "+apiSentences.size());
+                List<List<APIToken>> apiSentences = asp.flatten(MAX_FLATTEN_DEPTH);
+//                System.out.print(" actual : "+apiSentences.size());
                 Map<String, List<List<APIToken>>> bucketizedSentences = bucketizeApiSentences(apiSentences);
                 
                 try {
@@ -109,7 +109,7 @@ public class SentenceExtractor {
                 }
                 
             } else {
-                System.out.println("!!! SKIPPING LARGE BODY !!!");
+                System.out.println("\n[WARN]\t!!! SKIPPING TOO LARGE BODY !!! (~"+asp.numberOfSentences()+" sentences)\n");
             }
         }
     }

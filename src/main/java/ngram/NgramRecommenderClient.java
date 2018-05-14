@@ -68,7 +68,8 @@ public class NgramRecommenderClient extends NGramLanguageModel implements ICalls
             modelFile = modelFile.replace(".txt", "");
         }
         if(modelFile.contains("/")) {
-            modelName = modelFile.split("/")[1];
+            String[] filenameSplit = modelFile.split("/");
+            modelName = filenameSplit[filenameSplit.length-1];
         } else {
             modelName = modelFile;
         }
@@ -76,7 +77,7 @@ public class NgramRecommenderClient extends NGramLanguageModel implements ICalls
 
     
     @Override
-    public Set<Tuple<IMethodName, Double>> query(StringList stringToCompare) {
+        public Set<Tuple<IMethodName, Double>> query(StringList stringToCompare) {
         Set<Tuple<IMethodName, Double>> recommendation = new HashSet<>();
         
         StringList predictedTokenStrings = predictNextTokens(stringToCompare);

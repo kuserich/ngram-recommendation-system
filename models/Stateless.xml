@@ -1,0 +1,1208 @@
+<?xml version="1.0" encoding="UTF-8"?><dictionary case_sensitive="false">
+<entry count="5">
+<token>e:GitHub.Controllers.UIController+Trigger,</token>
+<token>GitHub.App]]+StateConfiguration,OnEntry</token>
+<token>Stateless.StateMachine`2[[TState</token>
+</entry>
+<entry count="3">
+<token>-&gt;</token>
+<token>e:GitHub.VisualStudio.TeamExplorer.Connect.GitHubConnectSection+SectionStateTracker+SectionState,</token>
+<token>GitHub.VisualStudio],[TTrigger</token>
+<token>-&gt;</token>
+<token>p:string]]+StateConfiguration,PermitIf</token>
+</entry>
+<entry count="3">
+<token>-&gt;</token>
+<token>e:GitHub.VisualStudio.TeamExplorer.Connect.GitHubConnectSection+SectionStateTracker+SectionState,</token>
+<token>GitHub.VisualStudio],[TTrigger</token>
+<token>-&gt;</token>
+<token>p:string]]+StateConfiguration,IgnoreIf</token>
+</entry>
+<entry count="3">
+<token>p:string]],Configure</token>
+<token>Stateless.StateMachine`2[[TState</token>
+<token>-&gt;</token>
+<token>e:GitHub.VisualStudio.TeamExplorer.Connect.GitHubConnectSection+SectionStateTracker+SectionState,</token>
+<token>GitHub.VisualStudio],[TTrigger</token>
+</entry>
+<entry count="3">
+<token>GitHub.VisualStudio],[TTrigger</token>
+<token>-&gt;</token>
+<token>p:string]]+StateConfiguration,PermitIf</token>
+<token>Stateless.StateMachine`2[[TState</token>
+<token>-&gt;</token>
+</entry>
+<entry count="6">
+<token>GitHub.App]],Configure</token>
+<token>Stateless.StateMachine`2[[TState</token>
+</entry>
+<entry count="8">
+<token>GitHub.App]]+StateConfiguration,PermitIf</token>
+<token>Stateless.StateMachine`2[[TState</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>GitHub.Exports],[TTrigger</token>
+<token>-&gt;</token>
+<token>e:GitHub.Controllers.UIController+Trigger,</token>
+<token>GitHub.App]]+StateConfiguration,SubstateOf</token>
+</entry>
+<entry count="1">
+<token>e:GitHub.Controllers.UIController+Trigger,</token>
+<token>GitHub.App]],new</token>
+<token>Stateless.StateMachine`2[[TState</token>
+<token>-&gt;</token>
+<token>e:GitHub.Exports.UIViewType,</token>
+</entry>
+<entry count="35">
+<token>Stateless.StateMachine`2[[TState</token>
+<token>-&gt;</token>
+<token>e:GitHub.Exports.UIViewType,</token>
+</entry>
+<entry count="3">
+<token>GitHub.Exports],[TTrigger</token>
+<token>-&gt;</token>
+<token>e:GitHub.Controllers.UIController+Trigger,</token>
+<token>GitHub.App]]+StateConfiguration,OnEntryFrom</token>
+</entry>
+<entry count="1">
+<token>GitHub.App]],new</token>
+<token>Stateless.StateMachine`2[[TState</token>
+<token>-&gt;</token>
+</entry>
+<entry count="3">
+<token>p:string]]+StateConfiguration,IgnoreIf</token>
+<token>Stateless.StateMachine`2[[TState</token>
+</entry>
+<entry count="10">
+<token>-&gt;</token>
+<token>e:GitHub.Controllers.UIController+Trigger,</token>
+<token>GitHub.App]]+StateConfiguration,Permit</token>
+<token>Stateless.StateMachine`2[[TState</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>p:string]],new</token>
+<token>Stateless.StateMachine`2[[TState</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>GitHub.VisualStudio],[TTrigger</token>
+<token>-&gt;</token>
+<token>p:string]]+StateConfiguration,Ignore</token>
+<token>Stateless.StateMachine`2[[TState</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>GitHub.VisualStudio],[TTrigger</token>
+<token>-&gt;</token>
+<token>p:string]]+StateConfiguration,Permit</token>
+<token>Stateless.StateMachine`2[[TState</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>e:GitHub.VisualStudio.TeamExplorer.Connect.GitHubConnectSection+SectionStateTracker+SectionState,</token>
+<token>GitHub.VisualStudio],[TTrigger</token>
+<token>-&gt;</token>
+<token>p:string]]+StateConfiguration,Permit</token>
+<token>Stateless.StateMachine`2[[TState</token>
+</entry>
+<entry count="3">
+<token>e:GitHub.Controllers.UIController+Trigger,</token>
+<token>GitHub.App]]+StateConfiguration,OnEntryFrom</token>
+<token>Stateless.StateMachine`2[[TState</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>e:GitHub.VisualStudio.TeamExplorer.Connect.GitHubConnectSection+SectionStateTracker+SectionState,</token>
+<token>GitHub.VisualStudio],[TTrigger</token>
+<token>-&gt;</token>
+<token>p:string]]+StateConfiguration,OnExit</token>
+</entry>
+<entry count="10">
+<token>e:GitHub.Controllers.UIController+Trigger,</token>
+<token>GitHub.App]]+StateConfiguration,Permit</token>
+<token>Stateless.StateMachine`2[[TState</token>
+</entry>
+<entry count="3">
+<token>e:GitHub.VisualStudio.TeamExplorer.Connect.GitHubConnectSection+SectionStateTracker+SectionState,</token>
+<token>GitHub.VisualStudio],[TTrigger</token>
+<token>-&gt;</token>
+<token>p:string]],Configure</token>
+<token>Stateless.StateMachine`2[[TState</token>
+</entry>
+<entry count="1">
+<token>e:GitHub.VisualStudio.TeamExplorer.Connect.GitHubConnectSection+SectionStateTracker+SectionState,</token>
+<token>GitHub.VisualStudio],[TTrigger</token>
+<token>-&gt;</token>
+<token>p:string]]+StateConfiguration,Ignore</token>
+<token>Stateless.StateMachine`2[[TState</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>p:string]]+StateConfiguration,Ignore</token>
+<token>Stateless.StateMachine`2[[TState</token>
+<token>-&gt;</token>
+<token>e:GitHub.VisualStudio.TeamExplorer.Connect.GitHubConnectSection+SectionStateTracker+SectionState,</token>
+</entry>
+<entry count="13">
+<token>Stateless.StateMachine`2[[TState</token>
+<token>-&gt;</token>
+<token>e:GitHub.VisualStudio.TeamExplorer.Connect.GitHubConnectSection+SectionStateTracker+SectionState,</token>
+</entry>
+<entry count="10">
+<token>GitHub.Exports],[TTrigger</token>
+<token>-&gt;</token>
+<token>e:GitHub.Controllers.UIController+Trigger,</token>
+<token>GitHub.App]]+StateConfiguration,Permit</token>
+</entry>
+<entry count="1">
+<token>GitHub.App]]+StateConfiguration,SubstateOf</token>
+<token>Stateless.StateMachine`2[[TState</token>
+<token>-&gt;</token>
+<token>e:GitHub.Exports.UIViewType,</token>
+<token>GitHub.Exports],[TTrigger</token>
+</entry>
+<entry count="3">
+<token>e:GitHub.VisualStudio.TeamExplorer.Connect.GitHubConnectSection+SectionStateTracker+SectionState,</token>
+<token>GitHub.VisualStudio],[TTrigger</token>
+<token>-&gt;</token>
+<token>p:string]],Configure</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>e:GitHub.Controllers.UIController+Trigger,</token>
+<token>GitHub.App]],new</token>
+<token>Stateless.StateMachine`2[[TState</token>
+<token>-&gt;</token>
+</entry>
+<entry count="3">
+<token>-&gt;</token>
+<token>p:string]],Configure</token>
+<token>Stateless.StateMachine`2[[TState</token>
+<token>-&gt;</token>
+</entry>
+<entry count="8">
+<token>GitHub.App]]+StateConfiguration,PermitIf</token>
+<token>Stateless.StateMachine`2[[TState</token>
+<token>-&gt;</token>
+<token>e:GitHub.Exports.UIViewType,</token>
+<token>GitHub.Exports],[TTrigger</token>
+</entry>
+<entry count="1">
+<token>GitHub.VisualStudio],[TTrigger</token>
+<token>-&gt;</token>
+<token>p:string]],new</token>
+<token>Stateless.StateMachine`2[[TState</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>e:GitHub.VisualStudio.TeamExplorer.Connect.GitHubConnectSection+SectionStateTracker+SectionState,</token>
+<token>GitHub.VisualStudio],[TTrigger</token>
+<token>-&gt;</token>
+<token>p:string]]+StateConfiguration,OnExit</token>
+</entry>
+<entry count="13">
+<token>e:GitHub.VisualStudio.TeamExplorer.Connect.GitHubConnectSection+SectionStateTracker+SectionState,</token>
+<token>GitHub.VisualStudio],[TTrigger</token>
+<token>-&gt;</token>
+</entry>
+<entry count="35">
+<token>e:GitHub.Exports.UIViewType,</token>
+<token>GitHub.Exports],[TTrigger</token>
+<token>-&gt;</token>
+<token>e:GitHub.Controllers.UIController+Trigger,</token>
+</entry>
+<entry count="8">
+<token>-&gt;</token>
+<token>e:GitHub.Controllers.UIController+Trigger,</token>
+<token>GitHub.App]]+StateConfiguration,PermitIf</token>
+<token>Stateless.StateMachine`2[[TState</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>p:string]]+StateConfiguration,Ignore</token>
+<token>Stateless.StateMachine`2[[TState</token>
+<token>-&gt;</token>
+<token>e:GitHub.VisualStudio.TeamExplorer.Connect.GitHubConnectSection+SectionStateTracker+SectionState,</token>
+</entry>
+<entry count="3">
+<token>p:string]]+StateConfiguration,IgnoreIf</token>
+<token>Stateless.StateMachine`2[[TState</token>
+<token>-&gt;</token>
+<token>e:GitHub.VisualStudio.TeamExplorer.Connect.GitHubConnectSection+SectionStateTracker+SectionState,</token>
+<token>GitHub.VisualStudio],[TTrigger</token>
+</entry>
+<entry count="5">
+<token>e:GitHub.Controllers.UIController+Trigger,</token>
+<token>GitHub.App]]+StateConfiguration,OnEntry</token>
+<token>Stateless.StateMachine`2[[TState</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>p:string]]+StateConfiguration,Permit</token>
+<token>Stateless.StateMachine`2[[TState</token>
+</entry>
+<entry count="5">
+<token>-&gt;</token>
+<token>e:GitHub.Controllers.UIController+Trigger,</token>
+<token>GitHub.App]]+StateConfiguration,OnEntry</token>
+<token>Stateless.StateMachine`2[[TState</token>
+<token>-&gt;</token>
+</entry>
+<entry count="7">
+<token>e:GitHub.Controllers.UIController+Trigger,</token>
+<token>GitHub.App]],Configure</token>
+</entry>
+<entry count="3">
+<token>-&gt;</token>
+<token>p:string]]+StateConfiguration,IgnoreIf</token>
+<token>Stateless.StateMachine`2[[TState</token>
+</entry>
+<entry count="5">
+<token>GitHub.App]]+StateConfiguration,OnEntry</token>
+<token>Stateless.StateMachine`2[[TState</token>
+<token>-&gt;</token>
+<token>e:GitHub.Exports.UIViewType,</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>p:string]]+StateConfiguration,Permit</token>
+</entry>
+<entry count="1">
+<token>GitHub.VisualStudio],[TTrigger</token>
+<token>-&gt;</token>
+<token>p:string]],new</token>
+</entry>
+<entry count="5">
+<token>GitHub.App]]+StateConfiguration,OnEntry</token>
+<token>Stateless.StateMachine`2[[TState</token>
+</entry>
+<entry count="7">
+<token>-&gt;</token>
+<token>e:GitHub.Controllers.UIController+Trigger,</token>
+<token>GitHub.App]],Configure</token>
+</entry>
+<entry count="35">
+<token>Stateless.StateMachine`2[[TState</token>
+<token>-&gt;</token>
+<token>e:GitHub.Exports.UIViewType,</token>
+<token>GitHub.Exports],[TTrigger</token>
+<token>-&gt;</token>
+</entry>
+<entry count="3">
+<token>e:GitHub.VisualStudio.TeamExplorer.Connect.GitHubConnectSection+SectionStateTracker+SectionState,</token>
+<token>GitHub.VisualStudio],[TTrigger</token>
+<token>-&gt;</token>
+<token>p:string]]+StateConfiguration,IgnoreIf</token>
+</entry>
+<entry count="35">
+<token>-&gt;</token>
+<token>e:GitHub.Controllers.UIController+Trigger,</token>
+</entry>
+<entry count="3">
+<token>-&gt;</token>
+<token>e:GitHub.Controllers.UIController+Trigger,</token>
+<token>GitHub.App]]+StateConfiguration,OnEntryFrom</token>
+<token>Stateless.StateMachine`2[[TState</token>
+</entry>
+<entry count="1">
+<token>e:GitHub.Controllers.UIController+Trigger,</token>
+<token>GitHub.App]],new</token>
+</entry>
+<entry count="35">
+<token>e:GitHub.Exports.UIViewType,</token>
+<token>GitHub.Exports],[TTrigger</token>
+</entry>
+<entry count="13">
+<token>Stateless.StateMachine`2[[TState</token>
+<token>-&gt;</token>
+<token>e:GitHub.VisualStudio.TeamExplorer.Connect.GitHubConnectSection+SectionStateTracker+SectionState,</token>
+<token>GitHub.VisualStudio],[TTrigger</token>
+</entry>
+<entry count="3">
+<token>p:string]],Configure</token>
+<token>Stateless.StateMachine`2[[TState</token>
+<token>-&gt;</token>
+</entry>
+<entry count="3">
+<token>e:GitHub.VisualStudio.TeamExplorer.Connect.GitHubConnectSection+SectionStateTracker+SectionState,</token>
+<token>GitHub.VisualStudio],[TTrigger</token>
+<token>-&gt;</token>
+<token>p:string]]+StateConfiguration,IgnoreIf</token>
+<token>Stateless.StateMachine`2[[TState</token>
+</entry>
+<entry count="8">
+<token>GitHub.Exports],[TTrigger</token>
+<token>-&gt;</token>
+<token>e:GitHub.Controllers.UIController+Trigger,</token>
+<token>GitHub.App]]+StateConfiguration,PermitIf</token>
+</entry>
+<entry count="35">
+<token>-&gt;</token>
+<token>e:GitHub.Exports.UIViewType,</token>
+<token>GitHub.Exports],[TTrigger</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>e:GitHub.Controllers.UIController+Trigger,</token>
+<token>GitHub.App]],new</token>
+<token>Stateless.StateMachine`2[[TState</token>
+</entry>
+<entry count="1">
+<token>e:GitHub.Controllers.UIController+Trigger,</token>
+<token>GitHub.App]]+StateConfiguration,SubstateOf</token>
+<token>Stateless.StateMachine`2[[TState</token>
+<token>-&gt;</token>
+</entry>
+<entry count="3">
+<token>-&gt;</token>
+<token>p:string]]+StateConfiguration,IgnoreIf</token>
+<token>Stateless.StateMachine`2[[TState</token>
+<token>-&gt;</token>
+<token>e:GitHub.VisualStudio.TeamExplorer.Connect.GitHubConnectSection+SectionStateTracker+SectionState,</token>
+</entry>
+<entry count="3">
+<token>e:GitHub.Controllers.UIController+Trigger,</token>
+<token>GitHub.App]]+StateConfiguration,OnEntryFrom</token>
+<token>Stateless.StateMachine`2[[TState</token>
+<token>-&gt;</token>
+<token>e:GitHub.Exports.UIViewType,</token>
+</entry>
+<entry count="1">
+<token>GitHub.VisualStudio],[TTrigger</token>
+<token>-&gt;</token>
+<token>p:string]]+StateConfiguration,Ignore</token>
+</entry>
+<entry count="3">
+<token>e:GitHub.VisualStudio.TeamExplorer.Connect.GitHubConnectSection+SectionStateTracker+SectionState,</token>
+<token>GitHub.VisualStudio],[TTrigger</token>
+<token>-&gt;</token>
+<token>p:string]]+StateConfiguration,PermitIf</token>
+</entry>
+<entry count="1">
+<token>GitHub.App]],new</token>
+<token>Stateless.StateMachine`2[[TState</token>
+<token>-&gt;</token>
+<token>e:GitHub.Exports.UIViewType,</token>
+</entry>
+<entry count="10">
+<token>-&gt;</token>
+<token>e:GitHub.Controllers.UIController+Trigger,</token>
+<token>GitHub.App]]+StateConfiguration,Permit</token>
+</entry>
+<entry count="1">
+<token>e:GitHub.Controllers.UIController+Trigger,</token>
+<token>GitHub.App]],new</token>
+<token>Stateless.StateMachine`2[[TState</token>
+</entry>
+<entry count="10">
+<token>e:GitHub.Controllers.UIController+Trigger,</token>
+<token>GitHub.App]]+StateConfiguration,Permit</token>
+</entry>
+<entry count="1">
+<token>e:GitHub.Controllers.UIController+Trigger,</token>
+<token>GitHub.App]],new</token>
+<token>Stateless.StateMachine`2[[TState</token>
+<token>-&gt;</token>
+</entry>
+<entry count="6">
+<token>e:GitHub.Controllers.UIController+Trigger,</token>
+<token>GitHub.App]],Configure</token>
+<token>Stateless.StateMachine`2[[TState</token>
+<token>-&gt;</token>
+<token>e:GitHub.Exports.UIViewType,</token>
+</entry>
+<entry count="3">
+<token>GitHub.VisualStudio],[TTrigger</token>
+<token>-&gt;</token>
+<token>p:string]]+StateConfiguration,PermitIf</token>
+<token>Stateless.StateMachine`2[[TState</token>
+</entry>
+<entry count="13">
+<token>Stateless.StateMachine`2[[TState</token>
+<token>-&gt;</token>
+<token>e:GitHub.VisualStudio.TeamExplorer.Connect.GitHubConnectSection+SectionStateTracker+SectionState,</token>
+<token>GitHub.VisualStudio],[TTrigger</token>
+<token>-&gt;</token>
+</entry>
+<entry count="6">
+<token>GitHub.App]],Configure</token>
+<token>Stateless.StateMachine`2[[TState</token>
+<token>-&gt;</token>
+<token>e:GitHub.Exports.UIViewType,</token>
+</entry>
+<entry count="1">
+<token>p:string]]+StateConfiguration,Ignore</token>
+<token>Stateless.StateMachine`2[[TState</token>
+<token>-&gt;</token>
+<token>e:GitHub.VisualStudio.TeamExplorer.Connect.GitHubConnectSection+SectionStateTracker+SectionState,</token>
+<token>GitHub.VisualStudio],[TTrigger</token>
+</entry>
+<entry count="3">
+<token>e:GitHub.Exports.UIViewType,</token>
+<token>GitHub.Exports],[TTrigger</token>
+<token>-&gt;</token>
+<token>e:GitHub.Controllers.UIController+Trigger,</token>
+<token>GitHub.App]]+StateConfiguration,OnEntryFrom</token>
+</entry>
+<entry count="3">
+<token>GitHub.App]]+StateConfiguration,OnEntryFrom</token>
+<token>Stateless.StateMachine`2[[TState</token>
+</entry>
+<entry count="1">
+<token>GitHub.VisualStudio],[TTrigger</token>
+<token>-&gt;</token>
+<token>p:string]]+StateConfiguration,OnExit</token>
+</entry>
+<entry count="3">
+<token>p:string]]+StateConfiguration,IgnoreIf</token>
+<token>Stateless.StateMachine`2[[TState</token>
+<token>-&gt;</token>
+<token>e:GitHub.VisualStudio.TeamExplorer.Connect.GitHubConnectSection+SectionStateTracker+SectionState,</token>
+</entry>
+<entry count="1">
+<token>p:string]],new</token>
+<token>Stateless.StateMachine`2[[TState</token>
+<token>-&gt;</token>
+<token>e:GitHub.VisualStudio.TeamExplorer.Connect.GitHubConnectSection+SectionStateTracker+SectionState,</token>
+<token>GitHub.VisualStudio],[TTrigger</token>
+</entry>
+<entry count="35">
+<token>Stateless.StateMachine`2[[TState</token>
+<token>-&gt;</token>
+<token>e:GitHub.Exports.UIViewType,</token>
+<token>GitHub.Exports],[TTrigger</token>
+</entry>
+<entry count="3">
+<token>-&gt;</token>
+<token>p:string]]+StateConfiguration,PermitIf</token>
+<token>Stateless.StateMachine`2[[TState</token>
+<token>-&gt;</token>
+<token>e:GitHub.VisualStudio.TeamExplorer.Connect.GitHubConnectSection+SectionStateTracker+SectionState,</token>
+</entry>
+<entry count="8">
+<token>e:GitHub.Controllers.UIController+Trigger,</token>
+<token>GitHub.App]]+StateConfiguration,PermitIf</token>
+<token>Stateless.StateMachine`2[[TState</token>
+<token>-&gt;</token>
+<token>e:GitHub.Exports.UIViewType,</token>
+</entry>
+<entry count="3">
+<token>GitHub.VisualStudio],[TTrigger</token>
+<token>-&gt;</token>
+<token>p:string]]+StateConfiguration,IgnoreIf</token>
+<token>Stateless.StateMachine`2[[TState</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>p:string]],new</token>
+<token>Stateless.StateMachine`2[[TState</token>
+<token>-&gt;</token>
+<token>e:GitHub.VisualStudio.TeamExplorer.Connect.GitHubConnectSection+SectionStateTracker+SectionState,</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>p:string]],new</token>
+</entry>
+<entry count="3">
+<token>-&gt;</token>
+<token>p:string]]+StateConfiguration,PermitIf</token>
+<token>Stateless.StateMachine`2[[TState</token>
+<token>-&gt;</token>
+</entry>
+<entry count="3">
+<token>GitHub.Exports],[TTrigger</token>
+<token>-&gt;</token>
+<token>e:GitHub.Controllers.UIController+Trigger,</token>
+<token>GitHub.App]]+StateConfiguration,OnEntryFrom</token>
+<token>Stateless.StateMachine`2[[TState</token>
+</entry>
+<entry count="5">
+<token>e:GitHub.Exports.UIViewType,</token>
+<token>GitHub.Exports],[TTrigger</token>
+<token>-&gt;</token>
+<token>e:GitHub.Controllers.UIController+Trigger,</token>
+<token>GitHub.App]]+StateConfiguration,OnEntry</token>
+</entry>
+<entry count="3">
+<token>p:string]]+StateConfiguration,PermitIf</token>
+<token>Stateless.StateMachine`2[[TState</token>
+<token>-&gt;</token>
+<token>e:GitHub.VisualStudio.TeamExplorer.Connect.GitHubConnectSection+SectionStateTracker+SectionState,</token>
+</entry>
+<entry count="7">
+<token>GitHub.Exports],[TTrigger</token>
+<token>-&gt;</token>
+<token>e:GitHub.Controllers.UIController+Trigger,</token>
+<token>GitHub.App]],Configure</token>
+</entry>
+<entry count="35">
+<token>e:GitHub.Exports.UIViewType,</token>
+<token>GitHub.Exports],[TTrigger</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>e:GitHub.Controllers.UIController+Trigger,</token>
+<token>GitHub.App]]+StateConfiguration,SubstateOf</token>
+<token>Stateless.StateMachine`2[[TState</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>e:GitHub.Controllers.UIController+Trigger,</token>
+<token>GitHub.App]]+StateConfiguration,SubstateOf</token>
+</entry>
+<entry count="3">
+<token>GitHub.VisualStudio],[TTrigger</token>
+<token>-&gt;</token>
+<token>p:string]]+StateConfiguration,IgnoreIf</token>
+<token>Stateless.StateMachine`2[[TState</token>
+</entry>
+<entry count="10">
+<token>GitHub.Exports],[TTrigger</token>
+<token>-&gt;</token>
+<token>e:GitHub.Controllers.UIController+Trigger,</token>
+<token>GitHub.App]]+StateConfiguration,Permit</token>
+<token>Stateless.StateMachine`2[[TState</token>
+</entry>
+<entry count="1">
+<token>e:GitHub.Controllers.UIController+Trigger,</token>
+<token>GitHub.App]]+StateConfiguration,SubstateOf</token>
+</entry>
+<entry count="3">
+<token>-&gt;</token>
+<token>e:GitHub.Controllers.UIController+Trigger,</token>
+<token>GitHub.App]]+StateConfiguration,OnEntryFrom</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>e:GitHub.VisualStudio.TeamExplorer.Connect.GitHubConnectSection+SectionStateTracker+SectionState,</token>
+<token>GitHub.VisualStudio],[TTrigger</token>
+<token>-&gt;</token>
+<token>p:string]]+StateConfiguration,Ignore</token>
+</entry>
+<entry count="3">
+<token>GitHub.App]]+StateConfiguration,OnEntryFrom</token>
+<token>Stateless.StateMachine`2[[TState</token>
+<token>-&gt;</token>
+<token>e:GitHub.Exports.UIViewType,</token>
+<token>GitHub.Exports],[TTrigger</token>
+</entry>
+<entry count="1">
+<token>e:GitHub.VisualStudio.TeamExplorer.Connect.GitHubConnectSection+SectionStateTracker+SectionState,</token>
+<token>GitHub.VisualStudio],[TTrigger</token>
+<token>-&gt;</token>
+<token>p:string]]+StateConfiguration,Permit</token>
+</entry>
+<entry count="10">
+<token>GitHub.App]]+StateConfiguration,Permit</token>
+<token>Stateless.StateMachine`2[[TState</token>
+<token>-&gt;</token>
+<token>e:GitHub.Exports.UIViewType,</token>
+<token>GitHub.Exports],[TTrigger</token>
+</entry>
+<entry count="13">
+<token>-&gt;</token>
+<token>e:GitHub.VisualStudio.TeamExplorer.Connect.GitHubConnectSection+SectionStateTracker+SectionState,</token>
+<token>GitHub.VisualStudio],[TTrigger</token>
+</entry>
+<entry count="1">
+<token>e:GitHub.VisualStudio.TeamExplorer.Connect.GitHubConnectSection+SectionStateTracker+SectionState,</token>
+<token>GitHub.VisualStudio],[TTrigger</token>
+<token>-&gt;</token>
+<token>p:string]],new</token>
+<token>Stateless.StateMachine`2[[TState</token>
+</entry>
+<entry count="1">
+<token>GitHub.App]]+StateConfiguration,SubstateOf</token>
+<token>Stateless.StateMachine`2[[TState</token>
+</entry>
+<entry count="1">
+<token>GitHub.VisualStudio],[TTrigger</token>
+<token>-&gt;</token>
+<token>p:string]]+StateConfiguration,Permit</token>
+</entry>
+<entry count="5">
+<token>GitHub.Exports],[TTrigger</token>
+<token>-&gt;</token>
+<token>e:GitHub.Controllers.UIController+Trigger,</token>
+<token>GitHub.App]]+StateConfiguration,OnEntry</token>
+<token>Stateless.StateMachine`2[[TState</token>
+</entry>
+<entry count="8">
+<token>GitHub.App]]+StateConfiguration,PermitIf</token>
+<token>Stateless.StateMachine`2[[TState</token>
+<token>-&gt;</token>
+<token>e:GitHub.Exports.UIViewType,</token>
+</entry>
+<entry count="6">
+<token>GitHub.App]],Configure</token>
+<token>Stateless.StateMachine`2[[TState</token>
+<token>-&gt;</token>
+<token>e:GitHub.Exports.UIViewType,</token>
+<token>GitHub.Exports],[TTrigger</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>p:string]],new</token>
+<token>Stateless.StateMachine`2[[TState</token>
+<token>-&gt;</token>
+<token>e:GitHub.VisualStudio.TeamExplorer.Connect.GitHubConnectSection+SectionStateTracker+SectionState,</token>
+</entry>
+<entry count="1">
+<token>p:string]],new</token>
+<token>Stateless.StateMachine`2[[TState</token>
+<token>-&gt;</token>
+</entry>
+<entry count="8">
+<token>GitHub.App]]+StateConfiguration,PermitIf</token>
+<token>Stateless.StateMachine`2[[TState</token>
+</entry>
+<entry count="3">
+<token>GitHub.App]]+StateConfiguration,OnEntryFrom</token>
+<token>Stateless.StateMachine`2[[TState</token>
+<token>-&gt;</token>
+<token>e:GitHub.Exports.UIViewType,</token>
+</entry>
+<entry count="8">
+<token>e:GitHub.Exports.UIViewType,</token>
+<token>GitHub.Exports],[TTrigger</token>
+<token>-&gt;</token>
+<token>e:GitHub.Controllers.UIController+Trigger,</token>
+<token>GitHub.App]]+StateConfiguration,PermitIf</token>
+</entry>
+<entry count="8">
+<token>e:GitHub.Controllers.UIController+Trigger,</token>
+<token>GitHub.App]]+StateConfiguration,PermitIf</token>
+<token>Stateless.StateMachine`2[[TState</token>
+<token>-&gt;</token>
+</entry>
+<entry count="6">
+<token>-&gt;</token>
+<token>e:GitHub.Controllers.UIController+Trigger,</token>
+<token>GitHub.App]],Configure</token>
+<token>Stateless.StateMachine`2[[TState</token>
+<token>-&gt;</token>
+</entry>
+<entry count="10">
+<token>-&gt;</token>
+<token>e:GitHub.Controllers.UIController+Trigger,</token>
+<token>GitHub.App]]+StateConfiguration,Permit</token>
+<token>Stateless.StateMachine`2[[TState</token>
+</entry>
+<entry count="3">
+<token>p:string]]+StateConfiguration,PermitIf</token>
+<token>Stateless.StateMachine`2[[TState</token>
+</entry>
+<entry count="35">
+<token>-&gt;</token>
+<token>e:GitHub.Exports.UIViewType,</token>
+<token>GitHub.Exports],[TTrigger</token>
+<token>-&gt;</token>
+</entry>
+<entry count="3">
+<token>-&gt;</token>
+<token>e:GitHub.VisualStudio.TeamExplorer.Connect.GitHubConnectSection+SectionStateTracker+SectionState,</token>
+<token>GitHub.VisualStudio],[TTrigger</token>
+<token>-&gt;</token>
+<token>p:string]],Configure</token>
+</entry>
+<entry count="3">
+<token>p:string]],Configure</token>
+<token>Stateless.StateMachine`2[[TState</token>
+</entry>
+<entry count="10">
+<token>GitHub.App]]+StateConfiguration,Permit</token>
+<token>Stateless.StateMachine`2[[TState</token>
+<token>-&gt;</token>
+<token>e:GitHub.Exports.UIViewType,</token>
+</entry>
+<entry count="1">
+<token>e:GitHub.Exports.UIViewType,</token>
+<token>GitHub.Exports],[TTrigger</token>
+<token>-&gt;</token>
+<token>e:GitHub.Controllers.UIController+Trigger,</token>
+<token>GitHub.App]],new</token>
+</entry>
+<entry count="1">
+<token>p:string]]+StateConfiguration,Permit</token>
+<token>Stateless.StateMachine`2[[TState</token>
+<token>-&gt;</token>
+</entry>
+<entry count="3">
+<token>-&gt;</token>
+<token>p:string]],Configure</token>
+<token>Stateless.StateMachine`2[[TState</token>
+</entry>
+<entry count="1">
+<token>GitHub.Exports],[TTrigger</token>
+<token>-&gt;</token>
+<token>e:GitHub.Controllers.UIController+Trigger,</token>
+<token>GitHub.App]],new</token>
+<token>Stateless.StateMachine`2[[TState</token>
+</entry>
+<entry count="10">
+<token>e:GitHub.Controllers.UIController+Trigger,</token>
+<token>GitHub.App]]+StateConfiguration,Permit</token>
+<token>Stateless.StateMachine`2[[TState</token>
+<token>-&gt;</token>
+<token>e:GitHub.Exports.UIViewType,</token>
+</entry>
+<entry count="3">
+<token>-&gt;</token>
+<token>p:string]]+StateConfiguration,PermitIf</token>
+<token>Stateless.StateMachine`2[[TState</token>
+</entry>
+<entry count="1">
+<token>p:string]]+StateConfiguration,Ignore</token>
+<token>Stateless.StateMachine`2[[TState</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>p:string]]+StateConfiguration,Permit</token>
+<token>Stateless.StateMachine`2[[TState</token>
+<token>-&gt;</token>
+<token>e:GitHub.VisualStudio.TeamExplorer.Connect.GitHubConnectSection+SectionStateTracker+SectionState,</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>p:string]]+StateConfiguration,Ignore</token>
+</entry>
+<entry count="3">
+<token>-&gt;</token>
+<token>p:string]],Configure</token>
+</entry>
+<entry count="3">
+<token>GitHub.App]]+StateConfiguration,OnEntryFrom</token>
+<token>Stateless.StateMachine`2[[TState</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>p:string]]+StateConfiguration,Ignore</token>
+<token>Stateless.StateMachine`2[[TState</token>
+</entry>
+<entry count="3">
+<token>e:GitHub.VisualStudio.TeamExplorer.Connect.GitHubConnectSection+SectionStateTracker+SectionState,</token>
+<token>GitHub.VisualStudio],[TTrigger</token>
+<token>-&gt;</token>
+<token>p:string]]+StateConfiguration,PermitIf</token>
+<token>Stateless.StateMachine`2[[TState</token>
+</entry>
+<entry count="8">
+<token>-&gt;</token>
+<token>e:GitHub.Controllers.UIController+Trigger,</token>
+<token>GitHub.App]]+StateConfiguration,PermitIf</token>
+</entry>
+<entry count="1">
+<token>GitHub.App]]+StateConfiguration,SubstateOf</token>
+<token>Stateless.StateMachine`2[[TState</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>p:string]]+StateConfiguration,Ignore</token>
+<token>Stateless.StateMachine`2[[TState</token>
+</entry>
+<entry count="1">
+<token>p:string]]+StateConfiguration,Permit</token>
+<token>Stateless.StateMachine`2[[TState</token>
+<token>-&gt;</token>
+<token>e:GitHub.VisualStudio.TeamExplorer.Connect.GitHubConnectSection+SectionStateTracker+SectionState,</token>
+<token>GitHub.VisualStudio],[TTrigger</token>
+</entry>
+<entry count="8">
+<token>e:GitHub.Controllers.UIController+Trigger,</token>
+<token>GitHub.App]]+StateConfiguration,PermitIf</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>e:GitHub.VisualStudio.TeamExplorer.Connect.GitHubConnectSection+SectionStateTracker+SectionState,</token>
+<token>GitHub.VisualStudio],[TTrigger</token>
+<token>-&gt;</token>
+<token>p:string]]+StateConfiguration,Permit</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>e:GitHub.Controllers.UIController+Trigger,</token>
+<token>GitHub.App]],new</token>
+</entry>
+<entry count="13">
+<token>e:GitHub.VisualStudio.TeamExplorer.Connect.GitHubConnectSection+SectionStateTracker+SectionState,</token>
+<token>GitHub.VisualStudio],[TTrigger</token>
+</entry>
+<entry count="6">
+<token>GitHub.Exports],[TTrigger</token>
+<token>-&gt;</token>
+<token>e:GitHub.Controllers.UIController+Trigger,</token>
+<token>GitHub.App]],Configure</token>
+<token>Stateless.StateMachine`2[[TState</token>
+</entry>
+<entry count="5">
+<token>e:GitHub.Controllers.UIController+Trigger,</token>
+<token>GitHub.App]]+StateConfiguration,OnEntry</token>
+<token>Stateless.StateMachine`2[[TState</token>
+<token>-&gt;</token>
+<token>e:GitHub.Exports.UIViewType,</token>
+</entry>
+<entry count="3">
+<token>e:GitHub.Controllers.UIController+Trigger,</token>
+<token>GitHub.App]]+StateConfiguration,OnEntryFrom</token>
+</entry>
+<entry count="8">
+<token>GitHub.Exports],[TTrigger</token>
+<token>-&gt;</token>
+<token>e:GitHub.Controllers.UIController+Trigger,</token>
+<token>GitHub.App]]+StateConfiguration,PermitIf</token>
+<token>Stateless.StateMachine`2[[TState</token>
+</entry>
+<entry count="3">
+<token>-&gt;</token>
+<token>p:string]]+StateConfiguration,IgnoreIf</token>
+<token>Stateless.StateMachine`2[[TState</token>
+<token>-&gt;</token>
+</entry>
+<entry count="13">
+<token>GitHub.VisualStudio],[TTrigger</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>p:string]]+StateConfiguration,Permit</token>
+<token>Stateless.StateMachine`2[[TState</token>
+<token>-&gt;</token>
+<token>e:GitHub.VisualStudio.TeamExplorer.Connect.GitHubConnectSection+SectionStateTracker+SectionState,</token>
+</entry>
+<entry count="3">
+<token>p:string]]+StateConfiguration,PermitIf</token>
+<token>Stateless.StateMachine`2[[TState</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>GitHub.App]],new</token>
+<token>Stateless.StateMachine`2[[TState</token>
+<token>-&gt;</token>
+<token>e:GitHub.Exports.UIViewType,</token>
+<token>GitHub.Exports],[TTrigger</token>
+</entry>
+<entry count="10">
+<token>e:GitHub.Exports.UIViewType,</token>
+<token>GitHub.Exports],[TTrigger</token>
+<token>-&gt;</token>
+<token>e:GitHub.Controllers.UIController+Trigger,</token>
+<token>GitHub.App]]+StateConfiguration,Permit</token>
+</entry>
+<entry count="1">
+<token>e:GitHub.VisualStudio.TeamExplorer.Connect.GitHubConnectSection+SectionStateTracker+SectionState,</token>
+<token>GitHub.VisualStudio],[TTrigger</token>
+<token>-&gt;</token>
+<token>p:string]]+StateConfiguration,Ignore</token>
+</entry>
+<entry count="8">
+<token>-&gt;</token>
+<token>e:GitHub.Controllers.UIController+Trigger,</token>
+<token>GitHub.App]]+StateConfiguration,PermitIf</token>
+<token>Stateless.StateMachine`2[[TState</token>
+</entry>
+<entry count="1">
+<token>GitHub.VisualStudio],[TTrigger</token>
+<token>-&gt;</token>
+<token>p:string]],new</token>
+<token>Stateless.StateMachine`2[[TState</token>
+</entry>
+<entry count="5">
+<token>GitHub.App]]+StateConfiguration,OnEntry</token>
+<token>Stateless.StateMachine`2[[TState</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>p:string]]+StateConfiguration,Ignore</token>
+<token>Stateless.StateMachine`2[[TState</token>
+<token>-&gt;</token>
+</entry>
+<entry count="6">
+<token>e:GitHub.Controllers.UIController+Trigger,</token>
+<token>GitHub.App]],Configure</token>
+<token>Stateless.StateMachine`2[[TState</token>
+</entry>
+<entry count="5">
+<token>GitHub.App]]+StateConfiguration,OnEntry</token>
+<token>Stateless.StateMachine`2[[TState</token>
+<token>-&gt;</token>
+<token>e:GitHub.Exports.UIViewType,</token>
+<token>GitHub.Exports],[TTrigger</token>
+</entry>
+<entry count="10">
+<token>e:GitHub.Controllers.UIController+Trigger,</token>
+<token>GitHub.App]]+StateConfiguration,Permit</token>
+<token>Stateless.StateMachine`2[[TState</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>p:string]],new</token>
+<token>Stateless.StateMachine`2[[TState</token>
+</entry>
+<entry count="6">
+<token>e:GitHub.Controllers.UIController+Trigger,</token>
+<token>GitHub.App]],Configure</token>
+<token>Stateless.StateMachine`2[[TState</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>e:GitHub.Controllers.UIController+Trigger,</token>
+<token>GitHub.App]]+StateConfiguration,SubstateOf</token>
+<token>Stateless.StateMachine`2[[TState</token>
+</entry>
+<entry count="13">
+<token>-&gt;</token>
+<token>e:GitHub.VisualStudio.TeamExplorer.Connect.GitHubConnectSection+SectionStateTracker+SectionState,</token>
+<token>GitHub.VisualStudio],[TTrigger</token>
+<token>-&gt;</token>
+</entry>
+<entry count="3">
+<token>-&gt;</token>
+<token>e:GitHub.Controllers.UIController+Trigger,</token>
+<token>GitHub.App]]+StateConfiguration,OnEntryFrom</token>
+<token>Stateless.StateMachine`2[[TState</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>GitHub.Exports],[TTrigger</token>
+<token>-&gt;</token>
+<token>e:GitHub.Controllers.UIController+Trigger,</token>
+<token>GitHub.App]]+StateConfiguration,SubstateOf</token>
+<token>Stateless.StateMachine`2[[TState</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>p:string]]+StateConfiguration,Permit</token>
+<token>Stateless.StateMachine`2[[TState</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>p:string]]+StateConfiguration,Permit</token>
+<token>Stateless.StateMachine`2[[TState</token>
+</entry>
+<entry count="5">
+<token>e:GitHub.Controllers.UIController+Trigger,</token>
+<token>GitHub.App]]+StateConfiguration,OnEntry</token>
+</entry>
+<entry count="3">
+<token>-&gt;</token>
+<token>p:string]]+StateConfiguration,PermitIf</token>
+</entry>
+<entry count="3">
+<token>GitHub.VisualStudio],[TTrigger</token>
+<token>-&gt;</token>
+<token>p:string]]+StateConfiguration,IgnoreIf</token>
+</entry>
+<entry count="6">
+<token>GitHub.App]],Configure</token>
+<token>Stateless.StateMachine`2[[TState</token>
+<token>-&gt;</token>
+</entry>
+<entry count="10">
+<token>GitHub.App]]+StateConfiguration,Permit</token>
+<token>Stateless.StateMachine`2[[TState</token>
+</entry>
+<entry count="3">
+<token>p:string]]+StateConfiguration,PermitIf</token>
+<token>Stateless.StateMachine`2[[TState</token>
+<token>-&gt;</token>
+<token>e:GitHub.VisualStudio.TeamExplorer.Connect.GitHubConnectSection+SectionStateTracker+SectionState,</token>
+<token>GitHub.VisualStudio],[TTrigger</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>p:string]]+StateConfiguration,OnExit</token>
+</entry>
+<entry count="3">
+<token>GitHub.VisualStudio],[TTrigger</token>
+<token>-&gt;</token>
+<token>p:string]],Configure</token>
+</entry>
+<entry count="35">
+<token>GitHub.Exports],[TTrigger</token>
+<token>-&gt;</token>
+</entry>
+<entry count="8">
+<token>e:GitHub.Controllers.UIController+Trigger,</token>
+<token>GitHub.App]]+StateConfiguration,PermitIf</token>
+<token>Stateless.StateMachine`2[[TState</token>
+</entry>
+<entry count="5">
+<token>-&gt;</token>
+<token>e:GitHub.Controllers.UIController+Trigger,</token>
+<token>GitHub.App]]+StateConfiguration,OnEntry</token>
+</entry>
+<entry count="1">
+<token>GitHub.Exports],[TTrigger</token>
+<token>-&gt;</token>
+<token>e:GitHub.Controllers.UIController+Trigger,</token>
+<token>GitHub.App]],new</token>
+</entry>
+<entry count="35">
+<token>GitHub.Exports],[TTrigger</token>
+<token>-&gt;</token>
+<token>e:GitHub.Controllers.UIController+Trigger,</token>
+</entry>
+<entry count="3">
+<token>GitHub.VisualStudio],[TTrigger</token>
+<token>-&gt;</token>
+<token>p:string]]+StateConfiguration,PermitIf</token>
+</entry>
+<entry count="13">
+<token>-&gt;</token>
+<token>e:GitHub.VisualStudio.TeamExplorer.Connect.GitHubConnectSection+SectionStateTracker+SectionState,</token>
+</entry>
+<entry count="3">
+<token>GitHub.VisualStudio],[TTrigger</token>
+<token>-&gt;</token>
+<token>p:string]],Configure</token>
+<token>Stateless.StateMachine`2[[TState</token>
+<token>-&gt;</token>
+</entry>
+<entry count="35">
+<token>-&gt;</token>
+<token>e:GitHub.Exports.UIViewType,</token>
+<token>GitHub.Exports],[TTrigger</token>
+<token>-&gt;</token>
+<token>e:GitHub.Controllers.UIController+Trigger,</token>
+</entry>
+<entry count="3">
+<token>-&gt;</token>
+<token>p:string]]+StateConfiguration,IgnoreIf</token>
+</entry>
+<entry count="35">
+<token>-&gt;</token>
+<token>e:GitHub.Exports.UIViewType,</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>e:GitHub.VisualStudio.TeamExplorer.Connect.GitHubConnectSection+SectionStateTracker+SectionState,</token>
+<token>GitHub.VisualStudio],[TTrigger</token>
+<token>-&gt;</token>
+<token>p:string]],new</token>
+</entry>
+<entry count="1">
+<token>GitHub.App]],new</token>
+<token>Stateless.StateMachine`2[[TState</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>e:GitHub.Controllers.UIController+Trigger,</token>
+<token>GitHub.App]]+StateConfiguration,SubstateOf</token>
+<token>Stateless.StateMachine`2[[TState</token>
+</entry>
+<entry count="3">
+<token>-&gt;</token>
+<token>p:string]],Configure</token>
+<token>Stateless.StateMachine`2[[TState</token>
+<token>-&gt;</token>
+<token>e:GitHub.VisualStudio.TeamExplorer.Connect.GitHubConnectSection+SectionStateTracker+SectionState,</token>
+</entry>
+<entry count="6">
+<token>-&gt;</token>
+<token>e:GitHub.Controllers.UIController+Trigger,</token>
+<token>GitHub.App]],Configure</token>
+<token>Stateless.StateMachine`2[[TState</token>
+</entry>
+<entry count="1">
+<token>GitHub.VisualStudio],[TTrigger</token>
+<token>-&gt;</token>
+<token>p:string]]+StateConfiguration,Ignore</token>
+<token>Stateless.StateMachine`2[[TState</token>
+</entry>
+<entry count="7">
+<token>e:GitHub.Exports.UIViewType,</token>
+<token>GitHub.Exports],[TTrigger</token>
+<token>-&gt;</token>
+<token>e:GitHub.Controllers.UIController+Trigger,</token>
+<token>GitHub.App]],Configure</token>
+</entry>
+<entry count="10">
+<token>GitHub.App]]+StateConfiguration,Permit</token>
+<token>Stateless.StateMachine`2[[TState</token>
+<token>-&gt;</token>
+</entry>
+<entry count="3">
+<token>e:GitHub.Controllers.UIController+Trigger,</token>
+<token>GitHub.App]]+StateConfiguration,OnEntryFrom</token>
+<token>Stateless.StateMachine`2[[TState</token>
+</entry>
+<entry count="3">
+<token>GitHub.VisualStudio],[TTrigger</token>
+<token>-&gt;</token>
+<token>p:string]],Configure</token>
+<token>Stateless.StateMachine`2[[TState</token>
+</entry>
+<entry count="48">
+<token>Stateless.StateMachine`2[[TState</token>
+<token>-&gt;</token>
+</entry>
+<entry count="5">
+<token>GitHub.Exports],[TTrigger</token>
+<token>-&gt;</token>
+<token>e:GitHub.Controllers.UIController+Trigger,</token>
+<token>GitHub.App]]+StateConfiguration,OnEntry</token>
+</entry>
+<entry count="1">
+<token>GitHub.VisualStudio],[TTrigger</token>
+<token>-&gt;</token>
+<token>p:string]]+StateConfiguration,Permit</token>
+<token>Stateless.StateMachine`2[[TState</token>
+</entry>
+<entry count="3">
+<token>p:string]]+StateConfiguration,IgnoreIf</token>
+<token>Stateless.StateMachine`2[[TState</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>GitHub.App]]+StateConfiguration,SubstateOf</token>
+<token>Stateless.StateMachine`2[[TState</token>
+<token>-&gt;</token>
+<token>e:GitHub.Exports.UIViewType,</token>
+</entry>
+<entry count="3">
+<token>p:string]],Configure</token>
+<token>Stateless.StateMachine`2[[TState</token>
+<token>-&gt;</token>
+<token>e:GitHub.VisualStudio.TeamExplorer.Connect.GitHubConnectSection+SectionStateTracker+SectionState,</token>
+</entry>
+<entry count="5">
+<token>-&gt;</token>
+<token>e:GitHub.Controllers.UIController+Trigger,</token>
+<token>GitHub.App]]+StateConfiguration,OnEntry</token>
+<token>Stateless.StateMachine`2[[TState</token>
+</entry>
+<entry count="1">
+<token>e:GitHub.Exports.UIViewType,</token>
+<token>GitHub.Exports],[TTrigger</token>
+<token>-&gt;</token>
+<token>e:GitHub.Controllers.UIController+Trigger,</token>
+<token>GitHub.App]]+StateConfiguration,SubstateOf</token>
+</entry>
+<entry count="1">
+<token>e:GitHub.Controllers.UIController+Trigger,</token>
+<token>GitHub.App]]+StateConfiguration,SubstateOf</token>
+<token>Stateless.StateMachine`2[[TState</token>
+<token>-&gt;</token>
+<token>e:GitHub.Exports.UIViewType,</token>
+</entry>
+<entry count="1">
+<token>p:string]],new</token>
+<token>Stateless.StateMachine`2[[TState</token>
+</entry>
+<entry count="1">
+<token>e:GitHub.VisualStudio.TeamExplorer.Connect.GitHubConnectSection+SectionStateTracker+SectionState,</token>
+<token>GitHub.VisualStudio],[TTrigger</token>
+<token>-&gt;</token>
+<token>p:string]],new</token>
+</entry>
+</dictionary>

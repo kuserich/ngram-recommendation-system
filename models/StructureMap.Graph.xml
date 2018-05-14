@@ -1,6 +1,394 @@
 <?xml version="1.0" encoding="UTF-8"?><dictionary case_sensitive="false">
+<entry count="2">
+<token>StructureMap.Graph.IAssemblyScanner,AssemblyContainingType</token>
+<token>StructureMap.Graph.IAssemblyScanner,Convention</token>
+</entry>
+<entry count="2">
+<token>StructureMap.Graph.IAssemblyScanner,Include</token>
+<token>StructureMap.Graph.IAssemblyScanner,Convention</token>
+<token>StructureMap.Graph.IAssemblyScanner,Convention</token>
+<token>StructureMap.Graph.IAssemblyScanner,AssemblyContainingType</token>
+<token>StructureMap.Graph.IAssemblyScanner,With</token>
+</entry>
+<entry count="10">
+<token>StructureMap.Graph.IAssemblyScanner,Include</token>
+<token>StructureMap.Graph.IAssemblyScanner,Convention</token>
+</entry>
+<entry count="4">
+<token>StructureMap.Graph.AssemblyScannerExtensions,TheCallingAssembly</token>
+<token>StructureMap.Graph.IAssemblyScanner,ExcludeNamespaceContainingType</token>
+<token>StructureMap.Graph.IAssemblyScanner,WithDefaultConventions</token>
+</entry>
+<entry count="2">
+<token>StructureMap.Graph.IAssemblyScanner,AddAllTypesOf</token>
+<token>StructureMap.Graph.IAssemblyScanner,Include</token>
+<token>StructureMap.Graph.IAssemblyScanner,Convention</token>
+<token>StructureMap.Graph.IAssemblyScanner,AssemblyContainingType</token>
+</entry>
+<entry count="2">
+<token>StructureMap.Graph.PluginGraph,CreateFamily</token>
+<token>StructureMap.Graph.PluginGraph,FindFamily</token>
+<token>StructureMap.Graph.PluginFamily,AddType</token>
+</entry>
+<entry count="4">
+<token>StructureMap.Graph.AssemblyScannerExtensions,TheCallingAssembly</token>
+<token>StructureMap.Graph.IAssemblyScanner,IncludeNamespaceContainingType</token>
+<token>StructureMap.Graph.IAssemblyScanner,WithDefaultConventions</token>
+</entry>
+<entry count="2">
+<token>StructureMap.Graph.IAssemblyScanner,RegisterConcreteTypesAgainstTheFirstInterface</token>
+<token>StructureMap.Graph.IAssemblyScanner,Include</token>
+<token>StructureMap.Graph.IAssemblyScanner,Convention</token>
+<token>StructureMap.Graph.IAssemblyScanner,AssemblyContainingType</token>
+</entry>
+<entry count="2">
+<token>StructureMap.Graph.IAssemblyScanner,AssemblyContainingType</token>
+<token>StructureMap.Graph.IAssemblyScanner,RegisterConcreteTypesAgainstTheFirstInterface</token>
+<token>StructureMap.Graph.IAssemblyScanner,Include</token>
+<token>StructureMap.Graph.IAssemblyScanner,Convention</token>
+<token>StructureMap.Graph.IAssemblyScanner,AssemblyContainingType</token>
+</entry>
+<entry count="4">
+<token>StructureMap.Graph.IAssemblyScanner,Include</token>
+<token>StructureMap.Graph.IAssemblyScanner,Convention</token>
+<token>StructureMap.Graph.IAssemblyScanner,AssemblyContainingType</token>
+</entry>
+<entry count="2">
+<token>StructureMap.Graph.IAssemblyScanner,Convention</token>
+<token>StructureMap.Graph.IAssemblyScanner,AssemblyContainingType</token>
+<token>StructureMap.Graph.IAssemblyScanner,RegisterConcreteTypesAgainstTheFirstInterface</token>
+<token>StructureMap.Graph.IAssemblyScanner,Include</token>
+</entry>
+<entry count="2">
+<token>StructureMap.Graph.IAssemblyScanner,AddAllTypesOf</token>
+<token>StructureMap.Graph.IAssemblyScanner,Convention</token>
+</entry>
+<entry count="2">
+<token>StructureMap.Graph.IAssemblyScanner,AddAllTypesOf</token>
+<token>StructureMap.Graph.IAssemblyScanner,Convention</token>
+<token>StructureMap.Graph.IAssemblyScanner,ExcludeType</token>
+</entry>
+<entry count="8">
+<token>StructureMap.Graph.IAssemblyScanner,Assembly</token>
+<token>StructureMap.Graph.IAssemblyScanner,WithDefaultConventions</token>
+</entry>
+<entry count="2">
+<token>StructureMap.Graph.IAssemblyScanner,AssemblyContainingType</token>
+<token>StructureMap.Graph.IAssemblyScanner,Include</token>
+<token>StructureMap.Graph.IAssemblyScanner,Convention</token>
+<token>StructureMap.Graph.IAssemblyScanner,Convention</token>
+<token>StructureMap.Graph.IAssemblyScanner,AssemblyContainingType</token>
+</entry>
+<entry count="2">
+<token>StructureMap.Graph.IAssemblyScanner,Convention</token>
+<token>StructureMap.Graph.IAssemblyScanner,AssemblyContainingType</token>
+<token>StructureMap.Graph.IAssemblyScanner,Include</token>
+</entry>
+<entry count="4">
+<token>StructureMap.Graph.AssemblyScannerExtensions,TheCallingAssembly</token>
+<token>StructureMap.Graph.IAssemblyScanner,ExcludeType</token>
+</entry>
+<entry count="4">
+<token>StructureMap.Graph.IAssemblyScanner,ExcludeNamespace</token>
+<token>StructureMap.Graph.IAssemblyScanner,WithDefaultConventions</token>
+</entry>
+<entry count="2">
+<token>StructureMap.Graph.IAssemblyScanner,AssemblyContainingType</token>
+<token>StructureMap.Graph.IAssemblyScanner,AddAllTypesOf</token>
+<token>StructureMap.Graph.IAssemblyScanner,Convention</token>
+<token>StructureMap.Graph.IAssemblyScanner,ExcludeType</token>
+</entry>
+<entry count="2">
+<token>StructureMap.Graph.IAssemblyScanner,AssemblyContainingType</token>
+<token>StructureMap.Graph.IAssemblyScanner,AddAllTypesOf</token>
+<token>StructureMap.Graph.IAssemblyScanner,Include</token>
+<token>StructureMap.Graph.IAssemblyScanner,Convention</token>
+<token>StructureMap.Graph.IAssemblyScanner,AssemblyContainingType</token>
+</entry>
+<entry count="4">
+<token>StructureMap.Graph.IAssemblyScanner,AddAllTypesOf</token>
+<token>StructureMap.Graph.IAssemblyScanner,Include</token>
+<token>StructureMap.Graph.IAssemblyScanner,Convention</token>
+<token>StructureMap.Graph.IAssemblyScanner,ExcludeType</token>
+</entry>
+<entry count="6">
+<token>StructureMap.Graph.IAssemblyScanner,AddAllTypesOf</token>
+<token>StructureMap.Graph.IAssemblyScanner,Include</token>
+<token>StructureMap.Graph.IAssemblyScanner,Convention</token>
+</entry>
+<entry count="2">
+<token>StructureMap.Graph.PluginGraph,CreateFamily</token>
+<token>StructureMap.Graph.PluginGraph,FindFamily</token>
+</entry>
+<entry count="2">
+<token>StructureMap.Graph.IAssemblyScanner,Include</token>
+<token>StructureMap.Graph.IAssemblyScanner,Convention</token>
+<token>StructureMap.Graph.IAssemblyScanner,AssemblyContainingType</token>
+<token>StructureMap.Graph.IAssemblyScanner,RegisterConcreteTypesAgainstTheFirstInterface</token>
+</entry>
+<entry count="6">
+<token>StructureMap.Graph.IAssemblyScanner,Convention</token>
+<token>StructureMap.Graph.IAssemblyScanner,ExcludeType</token>
+</entry>
+<entry count="6">
+<token>StructureMap.Graph.AssemblyScannerExtensions,TheCallingAssembly</token>
+<token>StructureMap.Graph.IAssemblyScanner,WithDefaultConventions</token>
+</entry>
+<entry count="4">
+<token>StructureMap.Graph.AssemblyScannerExtensions,TheCallingAssembly</token>
+<token>StructureMap.Graph.IAssemblyScanner,IncludeNamespace</token>
+<token>StructureMap.Graph.IAssemblyScanner,WithDefaultConventions</token>
+</entry>
+<entry count="2">
+<token>StructureMap.Graph.IAssemblyScanner,AssemblyContainingType</token>
+<token>StructureMap.Graph.IAssemblyScanner,RegisterConcreteTypesAgainstTheFirstInterface</token>
+<token>StructureMap.Graph.IAssemblyScanner,Include</token>
+</entry>
+<entry count="6">
+<token>StructureMap.Graph.IAssemblyScanner,AssemblyContainingType</token>
+<token>StructureMap.Graph.IAssemblyScanner,AddAllTypesOf</token>
+<token>StructureMap.Graph.IAssemblyScanner,Include</token>
+<token>StructureMap.Graph.IAssemblyScanner,Convention</token>
+</entry>
+<entry count="4">
+<token>StructureMap.Graph.IAssemblyScanner,ExcludeType</token>
+<token>StructureMap.Graph.IAssemblyScanner,WithDefaultConventions</token>
+</entry>
+<entry count="4">
+<token>StructureMap.Graph.AssemblyScannerExtensions,TheCallingAssembly</token>
+<token>StructureMap.Graph.IAssemblyScanner,ExcludeNamespace</token>
+</entry>
+<entry count="2">
+<token>StructureMap.Graph.IAssemblyScanner,AssemblyContainingType</token>
+<token>StructureMap.Graph.IAssemblyScanner,RegisterConcreteTypesAgainstTheFirstInterface</token>
+</entry>
+<entry count="8">
+<token>StructureMap.Graph.IAssemblyScanner,AssemblyContainingType</token>
+<token>StructureMap.Graph.IAssemblyScanner,WithDefaultConventions</token>
+</entry>
+<entry count="4">
+<token>StructureMap.Graph.AssemblyScannerExtensions,TheCallingAssembly</token>
+<token>StructureMap.Graph.IAssemblyScanner,RegisterConcreteTypesAgainstTheFirstInterface</token>
+</entry>
+<entry count="2">
+<token>StructureMap.Graph.IAssemblyScanner,Convention</token>
+<token>StructureMap.Graph.IAssemblyScanner,AssemblyContainingType</token>
+<token>StructureMap.Graph.IAssemblyScanner,With</token>
+</entry>
+<entry count="2">
+<token>StructureMap.Graph.IAssemblyScanner,Include</token>
+<token>StructureMap.Graph.IAssemblyScanner,Convention</token>
+<token>StructureMap.Graph.IAssemblyScanner,AssemblyContainingType</token>
+<token>StructureMap.Graph.IAssemblyScanner,RegisterConcreteTypesAgainstTheFirstInterface</token>
+<token>StructureMap.Graph.IAssemblyScanner,Include</token>
+</entry>
+<entry count="4">
+<token>StructureMap.Graph.AssemblyScannerExtensions,TheCallingAssembly</token>
+<token>StructureMap.Graph.IAssemblyScanner,ExcludeNamespaceContainingType</token>
+</entry>
+<entry count="2">
+<token>StructureMap.Graph.IAssemblyScanner,AssemblyContainingType</token>
+<token>StructureMap.Graph.IAssemblyScanner,Include</token>
+<token>StructureMap.Graph.IAssemblyScanner,Convention</token>
+</entry>
+<entry count="2">
+<token>StructureMap.Graph.IAssemblyScanner,Convention</token>
+<token>StructureMap.Graph.IAssemblyScanner,AssemblyContainingType</token>
+<token>StructureMap.Graph.IAssemblyScanner,RegisterConcreteTypesAgainstTheFirstInterface</token>
+</entry>
+<entry count="2">
+<token>StructureMap.Graph.IAssemblyScanner,Convention</token>
+<token>StructureMap.Graph.IAssemblyScanner,AssemblyContainingType</token>
+<token>StructureMap.Graph.IAssemblyScanner,Include</token>
+<token>StructureMap.Graph.IAssemblyScanner,Convention</token>
+</entry>
+<entry count="2">
+<token>StructureMap.Graph.IAssemblyScanner,Include</token>
+<token>StructureMap.Graph.IAssemblyScanner,Convention</token>
+<token>StructureMap.Graph.IAssemblyScanner,Convention</token>
+<token>StructureMap.Graph.IAssemblyScanner,AssemblyContainingType</token>
+</entry>
+<entry count="2">
+<token>StructureMap.Graph.IAssemblyScanner,Convention</token>
+<token>StructureMap.Graph.IAssemblyScanner,Convention</token>
+<token>StructureMap.Graph.IAssemblyScanner,AssemblyContainingType</token>
+<token>StructureMap.Graph.IAssemblyScanner,With</token>
+</entry>
 <entry count="1">
 <token>StructureMap.Graph.IAssemblyScanner,TheCallingAssembly</token>
 <token>StructureMap.Graph.IAssemblyScanner,LookForRegistries</token>
+</entry>
+<entry count="4">
+<token>StructureMap.Graph.AssemblyScannerExtensions,TheCallingAssembly</token>
+<token>StructureMap.Graph.IAssemblyScanner,SingleImplementationsOfInterface</token>
+</entry>
+<entry count="4">
+<token>StructureMap.Graph.IAssemblyScanner,IncludeNamespace</token>
+<token>StructureMap.Graph.IAssemblyScanner,WithDefaultConventions</token>
+</entry>
+<entry count="4">
+<token>StructureMap.Graph.IAssemblyScanner,ExcludeNamespaceContainingType</token>
+<token>StructureMap.Graph.IAssemblyScanner,WithDefaultConventions</token>
+</entry>
+<entry count="14">
+<token>StructureMap.Graph.IAssemblyScanner,AssemblyContainingType</token>
+<token>StructureMap.Graph.IAssemblyScanner,AddAllTypesOf</token>
+</entry>
+<entry count="2">
+<token>StructureMap.Graph.IAssemblyScanner,RegisterConcreteTypesAgainstTheFirstInterface</token>
+<token>StructureMap.Graph.IAssemblyScanner,Include</token>
+</entry>
+<entry count="4">
+<token>StructureMap.Graph.AssemblyScannerExtensions,TheCallingAssembly</token>
+<token>StructureMap.Graph.IAssemblyScanner,IncludeNamespace</token>
+</entry>
+<entry count="2">
+<token>StructureMap.Graph.IAssemblyScanner,AssemblyContainingType</token>
+<token>StructureMap.Graph.IAssemblyScanner,With</token>
+</entry>
+<entry count="2">
+<token>StructureMap.Graph.IAssemblyScanner,Include</token>
+<token>StructureMap.Graph.IAssemblyScanner,Convention</token>
+<token>StructureMap.Graph.IAssemblyScanner,AssemblyContainingType</token>
+<token>StructureMap.Graph.IAssemblyScanner,Include</token>
+</entry>
+<entry count="2">
+<token>StructureMap.Graph.IAssemblyScanner,AssemblyContainingType</token>
+<token>StructureMap.Graph.IAssemblyScanner,AddAllTypesOf</token>
+<token>StructureMap.Graph.IAssemblyScanner,Convention</token>
+</entry>
+<entry count="4">
+<token>StructureMap.Graph.IAssemblyScanner,IncludeNamespaceContainingType</token>
+<token>StructureMap.Graph.IAssemblyScanner,WithDefaultConventions</token>
+</entry>
+<entry count="4">
+<token>StructureMap.Graph.IAssemblyScanner,AssemblyContainingType</token>
+<token>StructureMap.Graph.IAssemblyScanner,AddAllTypesOf</token>
+<token>StructureMap.Graph.IAssemblyScanner,Include</token>
+<token>StructureMap.Graph.IAssemblyScanner,Convention</token>
+<token>StructureMap.Graph.IAssemblyScanner,ExcludeType</token>
+</entry>
+<entry count="2">
+<token>StructureMap.Graph.IAssemblyScanner,Convention</token>
+<token>StructureMap.Graph.IAssemblyScanner,Convention</token>
+<token>StructureMap.Graph.IAssemblyScanner,AssemblyContainingType</token>
+</entry>
+<entry count="2">
+<token>StructureMap.Graph.IAssemblyScanner,RegisterConcreteTypesAgainstTheFirstInterface</token>
+<token>StructureMap.Graph.IAssemblyScanner,Include</token>
+<token>StructureMap.Graph.IAssemblyScanner,Convention</token>
+<token>StructureMap.Graph.IAssemblyScanner,AssemblyContainingType</token>
+<token>StructureMap.Graph.IAssemblyScanner,Include</token>
+</entry>
+<entry count="2">
+<token>StructureMap.Graph.IAssemblyScanner,AddAllTypesOf</token>
+<token>StructureMap.Graph.IAssemblyScanner,Include</token>
+<token>StructureMap.Graph.IAssemblyScanner,Convention</token>
+<token>StructureMap.Graph.IAssemblyScanner,AssemblyContainingType</token>
+<token>StructureMap.Graph.IAssemblyScanner,RegisterConcreteTypesAgainstTheFirstInterface</token>
+</entry>
+<entry count="2">
+<token>StructureMap.Graph.IAssemblyScanner,AssemblyContainingType</token>
+<token>StructureMap.Graph.IAssemblyScanner,Include</token>
+</entry>
+<entry count="8">
+<token>StructureMap.Graph.IAssemblyScanner,AssemblyContainingType</token>
+<token>StructureMap.Graph.IAssemblyScanner,AddAllTypesOf</token>
+<token>StructureMap.Graph.IAssemblyScanner,Include</token>
+</entry>
+<entry count="8">
+<token>StructureMap.Graph.IAssemblyScanner,AddAllTypesOf</token>
+<token>StructureMap.Graph.IAssemblyScanner,Include</token>
+</entry>
+<entry count="2">
+<token>StructureMap.Graph.IAssemblyScanner,Convention</token>
+<token>StructureMap.Graph.IAssemblyScanner,Convention</token>
+</entry>
+<entry count="4">
+<token>StructureMap.Graph.IAssemblyScanner,Include</token>
+<token>StructureMap.Graph.IAssemblyScanner,Convention</token>
+<token>StructureMap.Graph.IAssemblyScanner,ExcludeType</token>
+</entry>
+<entry count="4">
+<token>StructureMap.Graph.AssemblyScannerExtensions,TheCallingAssembly</token>
+<token>StructureMap.Graph.IAssemblyScanner,IncludeNamespaceContainingType</token>
+</entry>
+<entry count="2">
+<token>StructureMap.Graph.IAssemblyScanner,Convention</token>
+<token>StructureMap.Graph.IAssemblyScanner,AssemblyContainingType</token>
+<token>StructureMap.Graph.IAssemblyScanner,RegisterConcreteTypesAgainstTheFirstInterface</token>
+<token>StructureMap.Graph.IAssemblyScanner,Include</token>
+<token>StructureMap.Graph.IAssemblyScanner,Convention</token>
+</entry>
+<entry count="10">
+<token>StructureMap.Graph.AssemblyScannerExtensions,TheCallingAssembly</token>
+<token>StructureMap.Graph.IAssemblyScanner,AddAllTypesOf</token>
+</entry>
+<entry count="4">
+<token>StructureMap.Graph.AssemblyScannerExtensions,TheCallingAssembly</token>
+<token>StructureMap.Graph.IAssemblyScanner,ExcludeNamespace</token>
+<token>StructureMap.Graph.IAssemblyScanner,WithDefaultConventions</token>
+</entry>
+<entry count="4">
+<token>StructureMap.Graph.IAssemblyScanner,AddAllTypesOf</token>
+<token>StructureMap.Graph.IAssemblyScanner,ExcludeType</token>
+</entry>
+<entry count="2">
+<token>StructureMap.Graph.IAssemblyScanner,AssemblyContainingType</token>
+<token>StructureMap.Graph.IAssemblyScanner,Include</token>
+<token>StructureMap.Graph.IAssemblyScanner,Convention</token>
+<token>StructureMap.Graph.IAssemblyScanner,Convention</token>
+</entry>
+<entry count="2">
+<token>StructureMap.Graph.IAssemblyScanner,Convention</token>
+<token>StructureMap.Graph.IAssemblyScanner,AssemblyContainingType</token>
+<token>StructureMap.Graph.IAssemblyScanner,Include</token>
+<token>StructureMap.Graph.IAssemblyScanner,Convention</token>
+<token>StructureMap.Graph.IAssemblyScanner,Convention</token>
+</entry>
+<entry count="1">
+<token>StructureMap.Graph.IAssemblyScanner,WithDefaultConventions</token>
+<token>StructureMap.Graph.IAssemblyScanner,TheCallingAssembly</token>
+</entry>
+<entry count="6">
+<token>StructureMap.Graph.IAssemblyScanner,Convention</token>
+<token>StructureMap.Graph.IAssemblyScanner,AssemblyContainingType</token>
+</entry>
+<entry count="2">
+<token>StructureMap.Graph.IAssemblyScanner,Include</token>
+<token>StructureMap.Graph.IAssemblyScanner,Convention</token>
+<token>StructureMap.Graph.IAssemblyScanner,Convention</token>
+</entry>
+<entry count="4">
+<token>StructureMap.Graph.IAssemblyScanner,AssemblyContainingType</token>
+<token>StructureMap.Graph.IAssemblyScanner,AddAllTypesOf</token>
+<token>StructureMap.Graph.IAssemblyScanner,ExcludeType</token>
+</entry>
+<entry count="2">
+<token>StructureMap.Graph.IAssemblyScanner,RegisterConcreteTypesAgainstTheFirstInterface</token>
+<token>StructureMap.Graph.IAssemblyScanner,Include</token>
+<token>StructureMap.Graph.IAssemblyScanner,Convention</token>
+</entry>
+<entry count="2">
+<token>StructureMap.Graph.PluginGraph,FindFamily</token>
+<token>StructureMap.Graph.PluginFamily,AddType</token>
+</entry>
+<entry count="2">
+<token>StructureMap.Graph.IAssemblyScanner,Include</token>
+<token>StructureMap.Graph.IAssemblyScanner,Convention</token>
+<token>StructureMap.Graph.IAssemblyScanner,AssemblyContainingType</token>
+<token>StructureMap.Graph.IAssemblyScanner,Include</token>
+<token>StructureMap.Graph.IAssemblyScanner,Convention</token>
+</entry>
+<entry count="2">
+<token>StructureMap.Graph.IAssemblyScanner,AssemblyContainingType</token>
+<token>StructureMap.Graph.IAssemblyScanner,RegisterConcreteTypesAgainstTheFirstInterface</token>
+<token>StructureMap.Graph.IAssemblyScanner,Include</token>
+<token>StructureMap.Graph.IAssemblyScanner,Convention</token>
+</entry>
+<entry count="4">
+<token>StructureMap.Graph.AssemblyScannerExtensions,TheCallingAssembly</token>
+<token>StructureMap.Graph.IAssemblyScanner,ExcludeType</token>
+<token>StructureMap.Graph.IAssemblyScanner,WithDefaultConventions</token>
 </entry>
 </dictionary>

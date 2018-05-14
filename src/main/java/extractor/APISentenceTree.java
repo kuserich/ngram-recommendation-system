@@ -5,7 +5,7 @@ import java.util.*;
 public class APISentenceTree {
     
     private final int DEFAULT_TOSTRING_INDENT = 2;
-    private final int MAX_SENTENCES = Integer.MAX_VALUE / 16384; // 2^31/2^14 = 131'072
+    private final int MAX_SENTENCES = Integer.MAX_VALUE / 131072; // 2^31/2^17 = 16'384
     
     private List<APIToken> tokens = new ArrayList<>();
     private Map<APIToken, List<APISentenceTree>> branches = new HashMap<>();

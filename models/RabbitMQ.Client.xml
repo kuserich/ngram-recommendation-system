@@ -1,0 +1,957 @@
+<?xml version="1.0" encoding="UTF-8"?><dictionary case_sensitive="false">
+<entry count="2">
+<token>RabbitMQ.Client.QueueingBasicConsumer,new</token>
+<token>RabbitMQ.Client.IModel,BasicConsume</token>
+<token>RabbitMQ.Client.IModel,BasicAck</token>
+</entry>
+<entry count="4">
+<token>RabbitMQ.Client.IModel,QueuePurge</token>
+<token>RabbitMQ.Client.IModel,BasicPublish</token>
+</entry>
+<entry count="1">
+<token>RabbitMQ.Client.IModel,ExchangeDeclare</token>
+<token>RabbitMQ.Client.IModel,ExchangeDeclare</token>
+<token>RabbitMQ.Client.IModel,QueueDeclare</token>
+</entry>
+<entry count="1">
+<token>RabbitMQ.Client.IConnection,CreateModel</token>
+<token>RabbitMQ.Client.IModel,ExchangeDelete</token>
+<token>RabbitMQ.Client.IModel,QueueDelete</token>
+<token>RabbitMQ.Client.IModel,ExchangeDelete</token>
+<token>RabbitMQ.Client.IModel,QueueDelete</token>
+</entry>
+<entry count="1">
+<token>RabbitMQ.Client.IModel,BasicQos</token>
+<token>RabbitMQ.Client.QueueingBasicConsumer,new</token>
+<token>RabbitMQ.Client.IModel,BasicConsume</token>
+<token>RabbitMQ.Client.IModel,BasicAck</token>
+</entry>
+<entry count="1">
+<token>RabbitMQ.Client.IModel,QueuePurge</token>
+<token>RabbitMQ.Client.IModel,BasicPublish</token>
+<token>RabbitMQ.Client.IModel,BasicPublish</token>
+</entry>
+<entry count="1">
+<token>RabbitMQ.Client.IModel,BasicGet</token>
+<token>RabbitMQ.Client.IModel,BasicNack</token>
+<token>RabbitMQ.Client.IModel,BasicGet</token>
+</entry>
+<entry count="2">
+<token>RabbitMQ.Client.IModel,QueueBind</token>
+<token>RabbitMQ.Client.IModel,QueuePurge</token>
+<token>RabbitMQ.Client.IModel,CreateBasicProperties</token>
+</entry>
+<entry count="2">
+<token>RabbitMQ.Client.ConnectionFactory,CreateConnection</token>
+<token>RabbitMQ.Client.IConnection,CreateModel</token>
+<token>RabbitMQ.Client.IModel,BasicGet</token>
+<token>RabbitMQ.Client.IModel,BasicAck</token>
+</entry>
+<entry count="1">
+<token>RabbitMQ.Client.IModel,QueuePurge</token>
+<token>RabbitMQ.Client.IModel,TxSelect</token>
+<token>RabbitMQ.Client.IModel,CreateBasicProperties</token>
+<token>RabbitMQ.Client.IModel,BasicPublish</token>
+<token>RabbitMQ.Client.IModel,TxCommit</token>
+</entry>
+<entry count="3">
+<token>RabbitMQ.Client.IModel,BasicGet</token>
+<token>RabbitMQ.Client.IModel,BasicAck</token>
+</entry>
+<entry count="2">
+<token>RabbitMQ.Client.IModel,BasicConsume</token>
+<token>RabbitMQ.Client.IModel,BasicAck</token>
+</entry>
+<entry count="4">
+<token>RabbitMQ.Client.IModel,BasicQos</token>
+<token>RabbitMQ.Client.IModel,CreateBasicProperties</token>
+</entry>
+<entry count="2">
+<token>RabbitMQ.Client.IConnection,CreateModel</token>
+<token>RabbitMQ.Client.QueueingBasicConsumer,new</token>
+<token>RabbitMQ.Client.IModel,BasicConsume</token>
+<token>RabbitMQ.Client.IModel,Close</token>
+</entry>
+<entry count="1">
+<token>RabbitMQ.Client.IModel,TxSelect</token>
+<token>RabbitMQ.Client.IModel,CreateBasicProperties</token>
+<token>RabbitMQ.Client.IModel,BasicPublish</token>
+<token>RabbitMQ.Client.IModel,TxRollback</token>
+</entry>
+<entry count="1">
+<token>RabbitMQ.Client.IModel,BasicGet</token>
+<token>RabbitMQ.Client.IModel,BasicGet</token>
+<token>RabbitMQ.Client.IModel,BasicNack</token>
+</entry>
+<entry count="6">
+<token>RabbitMQ.Client.IModel,ExchangeDeclare</token>
+<token>RabbitMQ.Client.IModel,QueueBind</token>
+<token>RabbitMQ.Client.IModel,QueuePurge</token>
+</entry>
+<entry count="3">
+<token>RabbitMQ.Client.IModel,ExchangeDelete</token>
+<token>RabbitMQ.Client.IModel,QueueDelete</token>
+<token>RabbitMQ.Client.IModel,ExchangeDelete</token>
+<token>RabbitMQ.Client.IModel,QueueDelete</token>
+</entry>
+<entry count="4">
+<token>RabbitMQ.Client.ConnectionFactory,CreateConnection</token>
+<token>RabbitMQ.Client.IConnection,CreateModel</token>
+<token>RabbitMQ.Client.IModel,BasicGet</token>
+</entry>
+<entry count="1">
+<token>RabbitMQ.Client.IModel,ExchangeDeclare</token>
+<token>RabbitMQ.Client.IModel,ExchangeDeclare</token>
+<token>RabbitMQ.Client.IModel,QueueDeclare</token>
+<token>RabbitMQ.Client.IModel,QueueBind</token>
+</entry>
+<entry count="2">
+<token>RabbitMQ.Client.IModel,QueueBind</token>
+<token>RabbitMQ.Client.IModel,QueuePurge</token>
+<token>RabbitMQ.Client.IModel,CreateBasicProperties</token>
+<token>RabbitMQ.Client.IModel,BasicPublish</token>
+<token>RabbitMQ.Client.IModel,BasicGet</token>
+</entry>
+<entry count="1">
+<token>RabbitMQ.Client.ConnectionFactory,CreateConnection</token>
+<token>RabbitMQ.Client.IConnection,CreateModel</token>
+<token>RabbitMQ.Client.IModel,ExchangeDelete</token>
+<token>RabbitMQ.Client.IModel,QueueDelete</token>
+<token>RabbitMQ.Client.IModel,ExchangeDelete</token>
+</entry>
+<entry count="8">
+<token>RabbitMQ.Client.IModel,QueueDeclare</token>
+<token>RabbitMQ.Client.IModel,ExchangeDeclare</token>
+<token>RabbitMQ.Client.IModel,QueueBind</token>
+</entry>
+<entry count="3">
+<token>RabbitMQ.Client.IModel,QueueDeclare</token>
+<token>RabbitMQ.Client.IModel,QueueBind</token>
+<token>RabbitMQ.Client.IModel,QueuePurge</token>
+<token>RabbitMQ.Client.IModel,BasicPublish</token>
+</entry>
+<entry count="8">
+<token>RabbitMQ.Client.IModel,ExchangeDeclare</token>
+<token>RabbitMQ.Client.IModel,QueueBind</token>
+</entry>
+<entry count="3">
+<token>RabbitMQ.Client.IModel,QueueDelete</token>
+<token>RabbitMQ.Client.IModel,ExchangeDelete</token>
+</entry>
+<entry count="1">
+<token>RabbitMQ.Client.ConnectionFactory,CreateConnection</token>
+<token>RabbitMQ.Client.IConnection,CreateModel</token>
+<token>RabbitMQ.Client.QueueingBasicConsumer,new</token>
+<token>RabbitMQ.Client.IModel,BasicConsume</token>
+<token>RabbitMQ.Client.IModel,BasicAck</token>
+</entry>
+<entry count="1">
+<token>RabbitMQ.Client.IModel,ExchangeDelete</token>
+<token>RabbitMQ.Client.IModel,QueueDelete</token>
+<token>RabbitMQ.Client.IModel,Abort</token>
+<token>RabbitMQ.Client.IConnection,Abort</token>
+</entry>
+<entry count="1">
+<token>RabbitMQ.Client.ConnectionFactory,CreateConnection</token>
+<token>RabbitMQ.Client.IModel,BasicGet</token>
+<token>RabbitMQ.Client.IModel,BasicGet</token>
+</entry>
+<entry count="2">
+<token>RabbitMQ.Client.ConnectionFactory,CreateConnection</token>
+<token>RabbitMQ.Client.IConnection,CreateModel</token>
+<token>RabbitMQ.Client.IModel,CreateBasicProperties</token>
+<token>RabbitMQ.Client.IModel,BasicPublish</token>
+</entry>
+<entry count="3">
+<token>RabbitMQ.Client.IModel,ExchangeDeclare</token>
+<token>RabbitMQ.Client.IModel,QueueDeclare</token>
+<token>RabbitMQ.Client.IModel,QueueBind</token>
+<token>RabbitMQ.Client.IModel,QueuePurge</token>
+</entry>
+<entry count="1">
+<token>RabbitMQ.Client.IModel,QueueDeclare</token>
+<token>RabbitMQ.Client.IModel,ExchangeDeclare</token>
+<token>RabbitMQ.Client.IModel,QueueBind</token>
+<token>RabbitMQ.Client.IModel,BasicPublish</token>
+</entry>
+<entry count="1">
+<token>RabbitMQ.Client.IModel,ExchangeDeclare</token>
+<token>RabbitMQ.Client.IModel,ExchangeDeclare</token>
+<token>RabbitMQ.Client.IModel,ExchangeBind</token>
+</entry>
+<entry count="1">
+<token>RabbitMQ.Client.IModel,CreateBasicProperties</token>
+<token>RabbitMQ.Client.IModel,BasicPublish</token>
+<token>RabbitMQ.Client.IModel,TxCommit</token>
+</entry>
+<entry count="2">
+<token>RabbitMQ.Client.IModel,ExchangeDeclare</token>
+<token>RabbitMQ.Client.IModel,ExchangeBind</token>
+</entry>
+<entry count="1">
+<token>RabbitMQ.Client.IModel,ExchangeDeclare</token>
+<token>RabbitMQ.Client.IModel,ExchangeBind</token>
+<token>RabbitMQ.Client.IModel,ExchangeDeclare</token>
+</entry>
+<entry count="2">
+<token>RabbitMQ.Client.IModel,ExchangeDeclare</token>
+<token>RabbitMQ.Client.IModel,QueueBind</token>
+<token>RabbitMQ.Client.IModel,QueuePurge</token>
+<token>RabbitMQ.Client.IModel,CreateBasicProperties</token>
+<token>RabbitMQ.Client.IModel,BasicPublish</token>
+</entry>
+<entry count="2">
+<token>RabbitMQ.Client.ConnectionFactory,CreateConnection</token>
+<token>RabbitMQ.Client.IConnection,CreateModel</token>
+<token>RabbitMQ.Client.IModel,CreateBasicProperties</token>
+</entry>
+<entry count="1">
+<token>RabbitMQ.Client.IModel,ExchangeDelete</token>
+<token>RabbitMQ.Client.IModel,QueueDelete</token>
+<token>RabbitMQ.Client.IModel,Abort</token>
+</entry>
+<entry count="4">
+<token>RabbitMQ.Client.IConnection,CreateModel</token>
+<token>RabbitMQ.Client.IModel,BasicGet</token>
+</entry>
+<entry count="1">
+<token>RabbitMQ.Client.IModel,BasicGet</token>
+<token>RabbitMQ.Client.IModel,BasicGet</token>
+<token>RabbitMQ.Client.IModel,BasicGet</token>
+<token>RabbitMQ.Client.IModel,BasicNack</token>
+<token>RabbitMQ.Client.IModel,BasicGet</token>
+</entry>
+<entry count="1">
+<token>RabbitMQ.Client.IModel,BasicGet</token>
+<token>RabbitMQ.Client.IModel,BasicGet</token>
+<token>RabbitMQ.Client.IModel,BasicGet</token>
+<token>RabbitMQ.Client.IModel,BasicGet</token>
+</entry>
+<entry count="1">
+<token>RabbitMQ.Client.IModel,ExchangeBind</token>
+<token>RabbitMQ.Client.IModel,ExchangeDeclare</token>
+<token>RabbitMQ.Client.IModel,ExchangeBind</token>
+<token>RabbitMQ.Client.IModel,QueueDeclare</token>
+</entry>
+<entry count="2">
+<token>RabbitMQ.Client.IModel,TxSelect</token>
+<token>RabbitMQ.Client.IModel,CreateBasicProperties</token>
+<token>RabbitMQ.Client.IModel,BasicPublish</token>
+</entry>
+<entry count="11">
+<token>RabbitMQ.Client.IModel,QueueDeclare</token>
+<token>RabbitMQ.Client.IModel,QueueBind</token>
+</entry>
+<entry count="7">
+<token>RabbitMQ.Client.IModel,CreateBasicProperties</token>
+<token>RabbitMQ.Client.IModel,BasicPublish</token>
+</entry>
+<entry count="4">
+<token>RabbitMQ.Client.IConnection,CreateModel</token>
+<token>RabbitMQ.Client.QueueingBasicConsumer,new</token>
+<token>RabbitMQ.Client.IModel,BasicConsume</token>
+</entry>
+<entry count="1">
+<token>RabbitMQ.Client.IModel,QueueBind</token>
+<token>RabbitMQ.Client.IModel,BasicPublish</token>
+</entry>
+<entry count="2">
+<token>RabbitMQ.Client.IModel,QueuePurge</token>
+<token>RabbitMQ.Client.IModel,TxSelect</token>
+<token>RabbitMQ.Client.IModel,CreateBasicProperties</token>
+</entry>
+<entry count="5">
+<token>RabbitMQ.Client.IModel,ExchangeDeclare</token>
+<token>RabbitMQ.Client.IModel,QueueDeclare</token>
+</entry>
+<entry count="10">
+<token>RabbitMQ.Client.IModel,QueueBind</token>
+<token>RabbitMQ.Client.IModel,QueuePurge</token>
+</entry>
+<entry count="2">
+<token>RabbitMQ.Client.IModel,QueuePurge</token>
+<token>RabbitMQ.Client.IModel,TxSelect</token>
+</entry>
+<entry count="1">
+<token>RabbitMQ.Client.IModel,ExchangeDeclare</token>
+<token>RabbitMQ.Client.IModel,QueueBind</token>
+<token>RabbitMQ.Client.IModel,BasicPublish</token>
+</entry>
+<entry count="3">
+<token>RabbitMQ.Client.IModel,CreateBasicProperties</token>
+<token>RabbitMQ.Client.IModel,BasicPublish</token>
+<token>RabbitMQ.Client.IModel,BasicGet</token>
+</entry>
+<entry count="2">
+<token>RabbitMQ.Client.ConnectionFactory,CreateConnection</token>
+<token>RabbitMQ.Client.IConnection,CreateModel</token>
+<token>RabbitMQ.Client.IModel,ExchangeDelete</token>
+</entry>
+<entry count="1">
+<token>RabbitMQ.Client.IModel,BasicNack</token>
+<token>RabbitMQ.Client.IModel,BasicGet</token>
+</entry>
+<entry count="1">
+<token>RabbitMQ.Client.IModel,ExchangeDeclare</token>
+<token>RabbitMQ.Client.IModel,ExchangeDeclare</token>
+<token>RabbitMQ.Client.IModel,QueueDeclare</token>
+<token>RabbitMQ.Client.IModel,QueueBind</token>
+<token>RabbitMQ.Client.IModel,ExchangeBind</token>
+</entry>
+<entry count="1">
+<token>RabbitMQ.Client.IConnection,CreateModel</token>
+<token>RabbitMQ.Client.IModel,ExchangeDelete</token>
+<token>RabbitMQ.Client.IModel,QueueDelete</token>
+<token>RabbitMQ.Client.IModel,ExchangeDelete</token>
+</entry>
+<entry count="2">
+<token>RabbitMQ.Client.IModel,QueueDeclare</token>
+<token>RabbitMQ.Client.IModel,ExchangeDeclare</token>
+<token>RabbitMQ.Client.IModel,QueueBind</token>
+<token>RabbitMQ.Client.IModel,QueuePurge</token>
+<token>RabbitMQ.Client.IModel,CreateBasicProperties</token>
+</entry>
+<entry count="2">
+<token>RabbitMQ.Client.IModel,BasicPublish</token>
+<token>RabbitMQ.Client.IModel,BasicPublish</token>
+</entry>
+<entry count="1">
+<token>RabbitMQ.Client.IModel,QueuePurge</token>
+<token>RabbitMQ.Client.IModel,BasicPublish</token>
+<token>RabbitMQ.Client.IModel,BasicPublish</token>
+<token>RabbitMQ.Client.IModel,BasicPublish</token>
+</entry>
+<entry count="2">
+<token>RabbitMQ.Client.IModel,ExchangeDeclare</token>
+<token>RabbitMQ.Client.IModel,QueueBind</token>
+<token>RabbitMQ.Client.IModel,QueuePurge</token>
+<token>RabbitMQ.Client.IModel,TxSelect</token>
+</entry>
+<entry count="1">
+<token>RabbitMQ.Client.IModel,BasicPublish</token>
+<token>RabbitMQ.Client.IModel,BasicGet</token>
+<token>RabbitMQ.Client.IModel,BasicAck</token>
+</entry>
+<entry count="2">
+<token>RabbitMQ.Client.IConnection,CreateModel</token>
+<token>RabbitMQ.Client.IModel,CreateBasicProperties</token>
+</entry>
+<entry count="2">
+<token>RabbitMQ.Client.IModel,BasicQos</token>
+<token>RabbitMQ.Client.IModel,CreateBasicProperties</token>
+<token>RabbitMQ.Client.IBasicProperties,SetPersistent</token>
+<token>RabbitMQ.Client.IModel,QueueDeclare</token>
+</entry>
+<entry count="2">
+<token>RabbitMQ.Client.IModel,ExchangeDeclare</token>
+<token>RabbitMQ.Client.IModel,ExchangeDeclare</token>
+</entry>
+<entry count="1">
+<token>RabbitMQ.Client.IConnection,CreateModel</token>
+<token>RabbitMQ.Client.IModel,ExchangeDelete</token>
+<token>RabbitMQ.Client.IModel,QueueDelete</token>
+</entry>
+<entry count="1">
+<token>RabbitMQ.Client.IModel,QueueDelete</token>
+<token>RabbitMQ.Client.IModel,Abort</token>
+</entry>
+<entry count="1">
+<token>RabbitMQ.Client.ConnectionFactory,CreateConnection</token>
+<token>RabbitMQ.Client.IConnection,CreateModel</token>
+<token>RabbitMQ.Client.IModel,ExchangeDelete</token>
+<token>RabbitMQ.Client.IModel,QueueDelete</token>
+</entry>
+<entry count="4">
+<token>RabbitMQ.Client.IModel,BasicQos</token>
+<token>RabbitMQ.Client.IModel,CreateBasicProperties</token>
+<token>RabbitMQ.Client.IBasicProperties,SetPersistent</token>
+</entry>
+<entry count="1">
+<token>RabbitMQ.Client.ConnectionFactory,CreateConnection</token>
+<token>RabbitMQ.Client.IConnection,CreateModel</token>
+<token>RabbitMQ.Client.IModel,BasicGet</token>
+<token>RabbitMQ.Client.IModel,BasicGet</token>
+</entry>
+<entry count="1">
+<token>RabbitMQ.Client.IModel,ExchangeBind</token>
+<token>RabbitMQ.Client.IModel,QueueDeclare</token>
+<token>RabbitMQ.Client.IModel,QueueBind</token>
+<token>RabbitMQ.Client.IModel,QueuePurge</token>
+</entry>
+<entry count="2">
+<token>RabbitMQ.Client.IModel,QueuePurge</token>
+<token>RabbitMQ.Client.IModel,CreateBasicProperties</token>
+<token>RabbitMQ.Client.IModel,BasicPublish</token>
+</entry>
+<entry count="1">
+<token>RabbitMQ.Client.IModel,ExchangeDeclare</token>
+<token>RabbitMQ.Client.IModel,ExchangeBind</token>
+<token>RabbitMQ.Client.IModel,ExchangeDeclare</token>
+<token>RabbitMQ.Client.IModel,ExchangeBind</token>
+<token>RabbitMQ.Client.IModel,QueueDeclare</token>
+</entry>
+<entry count="1">
+<token>RabbitMQ.Client.IModel,ExchangeDeclare</token>
+<token>RabbitMQ.Client.IModel,ExchangeBind</token>
+<token>RabbitMQ.Client.IModel,QueueDeclare</token>
+<token>RabbitMQ.Client.IModel,QueueBind</token>
+<token>RabbitMQ.Client.IModel,QueuePurge</token>
+</entry>
+<entry count="4">
+<token>RabbitMQ.Client.ConnectionFactory,CreateConnection</token>
+<token>RabbitMQ.Client.IConnection,CreateModel</token>
+<token>RabbitMQ.Client.QueueingBasicConsumer,new</token>
+</entry>
+<entry count="4">
+<token>RabbitMQ.Client.IModel,BasicPublish</token>
+<token>RabbitMQ.Client.IModel,BasicGet</token>
+</entry>
+<entry count="1">
+<token>RabbitMQ.Client.IModel,ExchangeBind</token>
+<token>RabbitMQ.Client.IModel,ExchangeDeclare</token>
+<token>RabbitMQ.Client.IModel,ExchangeBind</token>
+<token>RabbitMQ.Client.IModel,QueueDeclare</token>
+<token>RabbitMQ.Client.IModel,QueueBind</token>
+</entry>
+<entry count="1">
+<token>RabbitMQ.Client.IModel,QueueDeclare</token>
+<token>RabbitMQ.Client.IModel,QueueBind</token>
+<token>RabbitMQ.Client.IModel,ExchangeBind</token>
+</entry>
+<entry count="1">
+<token>RabbitMQ.Client.ConnectionFactory,CreateConnection</token>
+<token>RabbitMQ.Client.IModel,BasicGet</token>
+</entry>
+<entry count="1">
+<token>RabbitMQ.Client.IModel,ExchangeBind</token>
+<token>RabbitMQ.Client.IModel,QueueDeclare</token>
+<token>RabbitMQ.Client.IModel,QueueBind</token>
+</entry>
+<entry count="4">
+<token>RabbitMQ.Client.IConnection,CreateModel</token>
+<token>RabbitMQ.Client.IModel,BasicQos</token>
+</entry>
+<entry count="4">
+<token>RabbitMQ.Client.IConnection,CreateModel</token>
+<token>RabbitMQ.Client.IModel,BasicQos</token>
+<token>RabbitMQ.Client.IModel,CreateBasicProperties</token>
+</entry>
+<entry count="1">
+<token>RabbitMQ.Client.IModel,BasicGet</token>
+<token>RabbitMQ.Client.IModel,BasicGet</token>
+<token>RabbitMQ.Client.IModel,BasicNack</token>
+<token>RabbitMQ.Client.IModel,BasicGet</token>
+</entry>
+<entry count="1">
+<token>RabbitMQ.Client.IModel,QueueBind</token>
+<token>RabbitMQ.Client.IModel,QueuePurge</token>
+<token>RabbitMQ.Client.IModel,BasicPublish</token>
+<token>RabbitMQ.Client.IModel,BasicPublish</token>
+</entry>
+<entry count="1">
+<token>RabbitMQ.Client.IModel,QueuePurge</token>
+<token>RabbitMQ.Client.IModel,CreateBasicProperties</token>
+<token>RabbitMQ.Client.IModel,BasicPublish</token>
+<token>RabbitMQ.Client.IModel,BasicGet</token>
+<token>RabbitMQ.Client.IModel,BasicAck</token>
+</entry>
+<entry count="1">
+<token>RabbitMQ.Client.IConnection,CreateModel</token>
+<token>RabbitMQ.Client.IModel,CreateBasicProperties</token>
+<token>RabbitMQ.Client.IModel,BasicPublish</token>
+<token>RabbitMQ.Client.IModel,BasicGet</token>
+</entry>
+<entry count="2">
+<token>RabbitMQ.Client.IModel,QueueBind</token>
+<token>RabbitMQ.Client.IModel,QueuePurge</token>
+<token>RabbitMQ.Client.IModel,CreateBasicProperties</token>
+<token>RabbitMQ.Client.IModel,BasicPublish</token>
+</entry>
+<entry count="23">
+<token>RabbitMQ.Client.ConnectionFactory,CreateConnection</token>
+<token>RabbitMQ.Client.IConnection,CreateModel</token>
+</entry>
+<entry count="1">
+<token>RabbitMQ.Client.IModel,QueueBind</token>
+<token>RabbitMQ.Client.IModel,QueuePurge</token>
+<token>RabbitMQ.Client.IModel,BasicPublish</token>
+<token>RabbitMQ.Client.IModel,BasicPublish</token>
+<token>RabbitMQ.Client.IModel,BasicPublish</token>
+</entry>
+<entry count="4">
+<token>RabbitMQ.Client.IConnection,CreateModel</token>
+<token>RabbitMQ.Client.IModel,BasicQos</token>
+<token>RabbitMQ.Client.IModel,CreateBasicProperties</token>
+<token>RabbitMQ.Client.IBasicProperties,SetPersistent</token>
+</entry>
+<entry count="2">
+<token>RabbitMQ.Client.IModel,QueueDeclare</token>
+<token>RabbitMQ.Client.IModel,QueuePurge</token>
+</entry>
+<entry count="4">
+<token>RabbitMQ.Client.ConnectionFactory,CreateConnection</token>
+<token>RabbitMQ.Client.IConnection,CreateModel</token>
+<token>RabbitMQ.Client.QueueingBasicConsumer,new</token>
+<token>RabbitMQ.Client.IModel,BasicConsume</token>
+</entry>
+<entry count="1">
+<token>RabbitMQ.Client.IModel,BasicPublish</token>
+<token>RabbitMQ.Client.IModel,BasicGet</token>
+<token>RabbitMQ.Client.IModel,BasicGet</token>
+</entry>
+<entry count="12">
+<token>RabbitMQ.Client.QueueingBasicConsumer,new</token>
+<token>RabbitMQ.Client.IModel,BasicConsume</token>
+</entry>
+<entry count="2">
+<token>RabbitMQ.Client.IModel,BasicConsume</token>
+<token>RabbitMQ.Client.IModel,Close</token>
+</entry>
+<entry count="1">
+<token>RabbitMQ.Client.IModel,ExchangeDelete</token>
+<token>RabbitMQ.Client.IModel,ExchangeDelete</token>
+</entry>
+<entry count="1">
+<token>RabbitMQ.Client.IModel,ExchangeDeclare</token>
+<token>RabbitMQ.Client.IModel,QueueBind</token>
+<token>RabbitMQ.Client.IModel,QueuePurge</token>
+<token>RabbitMQ.Client.IModel,BasicPublish</token>
+<token>RabbitMQ.Client.IModel,BasicPublish</token>
+</entry>
+<entry count="2">
+<token>RabbitMQ.Client.IModel,TxSelect</token>
+<token>RabbitMQ.Client.IModel,CreateBasicProperties</token>
+</entry>
+<entry count="2">
+<token>RabbitMQ.Client.IModel,BasicNack</token>
+<token>RabbitMQ.Client.IModel,Close</token>
+</entry>
+<entry count="2">
+<token>RabbitMQ.Client.IModel,QueueDelete</token>
+<token>RabbitMQ.Client.IModel,ExchangeDelete</token>
+<token>RabbitMQ.Client.IModel,QueueDelete</token>
+<token>RabbitMQ.Client.IModel,ExchangeDelete</token>
+<token>RabbitMQ.Client.IModel,QueueDelete</token>
+</entry>
+<entry count="1">
+<token>RabbitMQ.Client.IModel,ExchangeBind</token>
+<token>RabbitMQ.Client.IModel,QueueDeclare</token>
+</entry>
+<entry count="6">
+<token>RabbitMQ.Client.IModel,BasicQos</token>
+<token>RabbitMQ.Client.QueueingBasicConsumer,new</token>
+</entry>
+<entry count="4">
+<token>RabbitMQ.Client.IModel,QueueBind</token>
+<token>RabbitMQ.Client.IModel,QueuePurge</token>
+<token>RabbitMQ.Client.IModel,BasicPublish</token>
+</entry>
+<entry count="1">
+<token>RabbitMQ.Client.IModel,ExchangeBind</token>
+<token>RabbitMQ.Client.IModel,QueueDeclare</token>
+<token>RabbitMQ.Client.IModel,QueueBind</token>
+<token>RabbitMQ.Client.IModel,QueuePurge</token>
+<token>RabbitMQ.Client.IModel,BasicPublish</token>
+</entry>
+<entry count="2">
+<token>RabbitMQ.Client.IConnection,CreateModel</token>
+<token>RabbitMQ.Client.IModel,ExchangeDelete</token>
+</entry>
+<entry count="1">
+<token>RabbitMQ.Client.IModel,QueueDelete</token>
+<token>RabbitMQ.Client.IModel,ExchangeDelete</token>
+<token>RabbitMQ.Client.IModel,QueueDelete</token>
+<token>RabbitMQ.Client.IModel,Abort</token>
+<token>RabbitMQ.Client.IConnection,Abort</token>
+</entry>
+<entry count="2">
+<token>RabbitMQ.Client.IBasicProperties,SetPersistent</token>
+<token>RabbitMQ.Client.IModel,QueueDeclare</token>
+</entry>
+<entry count="1">
+<token>RabbitMQ.Client.IModel,CreateBasicProperties</token>
+<token>RabbitMQ.Client.IModel,BasicPublish</token>
+<token>RabbitMQ.Client.IModel,TxRollback</token>
+</entry>
+<entry count="1">
+<token>RabbitMQ.Client.ConnectionFactory,CreateConnection</token>
+<token>RabbitMQ.Client.IModel,BasicGet</token>
+<token>RabbitMQ.Client.IModel,BasicGet</token>
+<token>RabbitMQ.Client.IModel,BasicGet</token>
+</entry>
+<entry count="2">
+<token>RabbitMQ.Client.IModel,ExchangeDelete</token>
+<token>RabbitMQ.Client.IModel,QueueDelete</token>
+<token>RabbitMQ.Client.IModel,ExchangeDelete</token>
+<token>RabbitMQ.Client.IModel,QueueDelete</token>
+<token>RabbitMQ.Client.IModel,ExchangeDelete</token>
+</entry>
+<entry count="1">
+<token>RabbitMQ.Client.ConnectionFactory,CreateConnection</token>
+<token>RabbitMQ.Client.IModel,BasicGet</token>
+<token>RabbitMQ.Client.IModel,BasicGet</token>
+<token>RabbitMQ.Client.IModel,BasicGet</token>
+<token>RabbitMQ.Client.IModel,BasicGet</token>
+</entry>
+<entry count="1">
+<token>RabbitMQ.Client.IModel,TxSelect</token>
+<token>RabbitMQ.Client.IModel,CreateBasicProperties</token>
+<token>RabbitMQ.Client.IModel,BasicPublish</token>
+<token>RabbitMQ.Client.IModel,TxCommit</token>
+</entry>
+<entry count="1">
+<token>RabbitMQ.Client.IModel,ExchangeDeclare</token>
+<token>RabbitMQ.Client.IModel,ExchangeBind</token>
+<token>RabbitMQ.Client.IModel,QueueDeclare</token>
+</entry>
+<entry count="2">
+<token>RabbitMQ.Client.IConnection,CreateModel</token>
+<token>RabbitMQ.Client.IModel,BasicQos</token>
+<token>RabbitMQ.Client.IModel,CreateBasicProperties</token>
+<token>RabbitMQ.Client.IBasicProperties,SetPersistent</token>
+<token>RabbitMQ.Client.IModel,QueueDeclare</token>
+</entry>
+<entry count="2">
+<token>RabbitMQ.Client.IModel,QueueBind</token>
+<token>RabbitMQ.Client.IModel,QueuePurge</token>
+<token>RabbitMQ.Client.IModel,TxSelect</token>
+<token>RabbitMQ.Client.IModel,CreateBasicProperties</token>
+</entry>
+<entry count="1">
+<token>RabbitMQ.Client.IConnection,CreateModel</token>
+<token>RabbitMQ.Client.QueueingBasicConsumer,new</token>
+<token>RabbitMQ.Client.IModel,BasicConsume</token>
+<token>RabbitMQ.Client.IModel,BasicAck</token>
+</entry>
+<entry count="1">
+<token>RabbitMQ.Client.IModel,ExchangeDeclare</token>
+<token>RabbitMQ.Client.IModel,QueueDeclare</token>
+<token>RabbitMQ.Client.IModel,QueueBind</token>
+<token>RabbitMQ.Client.IModel,ExchangeBind</token>
+</entry>
+<entry count="2">
+<token>RabbitMQ.Client.IModel,QueueBind</token>
+<token>RabbitMQ.Client.IModel,QueuePurge</token>
+<token>RabbitMQ.Client.IModel,TxSelect</token>
+</entry>
+<entry count="2">
+<token>RabbitMQ.Client.IModel,QueueDelete</token>
+<token>RabbitMQ.Client.IModel,ExchangeDelete</token>
+<token>RabbitMQ.Client.IModel,QueueDelete</token>
+<token>RabbitMQ.Client.IModel,ExchangeDelete</token>
+</entry>
+<entry count="4">
+<token>RabbitMQ.Client.IConnection,CreateModel</token>
+<token>RabbitMQ.Client.QueueingBasicConsumer,new</token>
+</entry>
+<entry count="1">
+<token>RabbitMQ.Client.IModel,ExchangeDeclare</token>
+<token>RabbitMQ.Client.IModel,QueueBind</token>
+<token>RabbitMQ.Client.IModel,QueuePurge</token>
+<token>RabbitMQ.Client.IModel,BasicPublish</token>
+</entry>
+<entry count="1">
+<token>RabbitMQ.Client.IModel,QueueDeclare</token>
+<token>RabbitMQ.Client.IModel,ExchangeDeclare</token>
+<token>RabbitMQ.Client.IModel,QueueBind</token>
+<token>RabbitMQ.Client.IModel,QueuePurge</token>
+<token>RabbitMQ.Client.IModel,BasicPublish</token>
+</entry>
+<entry count="2">
+<token>RabbitMQ.Client.IModel,QueuePurge</token>
+<token>RabbitMQ.Client.IModel,CreateBasicProperties</token>
+<token>RabbitMQ.Client.IModel,BasicPublish</token>
+<token>RabbitMQ.Client.IModel,BasicGet</token>
+</entry>
+<entry count="4">
+<token>RabbitMQ.Client.IBasicProperties,SetPersistent</token>
+<token>RabbitMQ.Client.IModel,BasicPublish</token>
+</entry>
+<entry count="4">
+<token>RabbitMQ.Client.IModel,ExchangeDelete</token>
+<token>RabbitMQ.Client.IModel,QueueDelete</token>
+</entry>
+<entry count="2">
+<token>RabbitMQ.Client.IModel,QueuePurge</token>
+<token>RabbitMQ.Client.IModel,CreateBasicProperties</token>
+</entry>
+<entry count="1">
+<token>RabbitMQ.Client.IModel,BasicPublish</token>
+<token>RabbitMQ.Client.IModel,TxRollback</token>
+</entry>
+<entry count="1">
+<token>RabbitMQ.Client.IModel,CreateBasicProperties</token>
+<token>RabbitMQ.Client.IModel,BasicPublish</token>
+<token>RabbitMQ.Client.IModel,BasicGet</token>
+<token>RabbitMQ.Client.IModel,BasicAck</token>
+</entry>
+<entry count="1">
+<token>RabbitMQ.Client.IConnection,CreateModel</token>
+<token>RabbitMQ.Client.IModel,BasicGet</token>
+<token>RabbitMQ.Client.IModel,BasicGet</token>
+</entry>
+<entry count="2">
+<token>RabbitMQ.Client.QueueingBasicConsumer,new</token>
+<token>RabbitMQ.Client.IModel,BasicConsume</token>
+<token>RabbitMQ.Client.IModel,Close</token>
+</entry>
+<entry count="1">
+<token>RabbitMQ.Client.IConnection,CreateModel</token>
+<token>RabbitMQ.Client.IModel,Close</token>
+</entry>
+<entry count="1">
+<token>RabbitMQ.Client.IModel,ExchangeDeclare</token>
+<token>RabbitMQ.Client.IModel,ExchangeBind</token>
+<token>RabbitMQ.Client.IModel,ExchangeDeclare</token>
+<token>RabbitMQ.Client.IModel,ExchangeBind</token>
+</entry>
+<entry count="2">
+<token>RabbitMQ.Client.IModel,QueuePurge</token>
+<token>RabbitMQ.Client.IModel,TxSelect</token>
+<token>RabbitMQ.Client.IModel,CreateBasicProperties</token>
+<token>RabbitMQ.Client.IModel,BasicPublish</token>
+</entry>
+<entry count="1">
+<token>RabbitMQ.Client.IModel,BasicPublish</token>
+<token>RabbitMQ.Client.IModel,BasicPublish</token>
+<token>RabbitMQ.Client.IModel,BasicGet</token>
+</entry>
+<entry count="3">
+<token>RabbitMQ.Client.IModel,QueueDelete</token>
+<token>RabbitMQ.Client.IModel,ExchangeDelete</token>
+<token>RabbitMQ.Client.IModel,QueueDelete</token>
+</entry>
+<entry count="4">
+<token>RabbitMQ.Client.IModel,CreateBasicProperties</token>
+<token>RabbitMQ.Client.IBasicProperties,SetPersistent</token>
+<token>RabbitMQ.Client.IModel,BasicPublish</token>
+</entry>
+<entry count="64">
+<token>RabbitMQ.Client.ConnectionFactory,new</token>
+<token>RabbitMQ.Client.ExternalMechanismFactory,new</token>
+</entry>
+<entry count="1">
+<token>RabbitMQ.Client.IModel,Abort</token>
+<token>RabbitMQ.Client.IConnection,Abort</token>
+</entry>
+<entry count="1">
+<token>RabbitMQ.Client.IModel,QueueDelete</token>
+<token>RabbitMQ.Client.IModel,ExchangeDelete</token>
+<token>RabbitMQ.Client.IModel,QueueDelete</token>
+<token>RabbitMQ.Client.IModel,Abort</token>
+</entry>
+<entry count="3">
+<token>RabbitMQ.Client.IModel,ExchangeDelete</token>
+<token>RabbitMQ.Client.IModel,QueueDelete</token>
+<token>RabbitMQ.Client.IModel,ExchangeDelete</token>
+</entry>
+<entry count="1">
+<token>RabbitMQ.Client.IModel,BasicGet</token>
+<token>RabbitMQ.Client.IModel,BasicGet</token>
+<token>RabbitMQ.Client.IModel,BasicGet</token>
+<token>RabbitMQ.Client.IModel,BasicNack</token>
+</entry>
+<entry count="1">
+<token>RabbitMQ.Client.IModel,BasicPublish</token>
+<token>RabbitMQ.Client.IModel,BasicPublish</token>
+<token>RabbitMQ.Client.IModel,BasicPublish</token>
+<token>RabbitMQ.Client.IModel,BasicGet</token>
+</entry>
+<entry count="1">
+<token>RabbitMQ.Client.IModel,ExchangeDeclare</token>
+<token>RabbitMQ.Client.IModel,ExchangeBind</token>
+<token>RabbitMQ.Client.IModel,QueueDeclare</token>
+<token>RabbitMQ.Client.IModel,QueueBind</token>
+</entry>
+<entry count="1">
+<token>RabbitMQ.Client.IModel,ExchangeDeclare</token>
+<token>RabbitMQ.Client.IModel,ExchangeDeclare</token>
+<token>RabbitMQ.Client.IModel,ExchangeBind</token>
+<token>RabbitMQ.Client.IModel,ExchangeDeclare</token>
+<token>RabbitMQ.Client.IModel,ExchangeBind</token>
+</entry>
+<entry count="2">
+<token>RabbitMQ.Client.IConnection,CreateModel</token>
+<token>RabbitMQ.Client.IModel,CreateBasicProperties</token>
+<token>RabbitMQ.Client.IModel,BasicPublish</token>
+</entry>
+<entry count="1">
+<token>RabbitMQ.Client.IModel,BasicGet</token>
+<token>RabbitMQ.Client.IModel,BasicGet</token>
+<token>RabbitMQ.Client.IModel,BasicGet</token>
+<token>RabbitMQ.Client.IModel,BasicGet</token>
+<token>RabbitMQ.Client.IModel,BasicNack</token>
+</entry>
+<entry count="2">
+<token>RabbitMQ.Client.IModel,ExchangeDeclare</token>
+<token>RabbitMQ.Client.IModel,QueueBind</token>
+<token>RabbitMQ.Client.IModel,QueuePurge</token>
+<token>RabbitMQ.Client.IModel,TxSelect</token>
+<token>RabbitMQ.Client.IModel,CreateBasicProperties</token>
+</entry>
+<entry count="1">
+<token>RabbitMQ.Client.ConnectionFactory,CreateConnection</token>
+<token>RabbitMQ.Client.IConnection,CreateModel</token>
+<token>RabbitMQ.Client.IModel,Close</token>
+</entry>
+<entry count="4">
+<token>RabbitMQ.Client.IModel,ExchangeDeclare</token>
+<token>RabbitMQ.Client.IModel,QueueDeclare</token>
+<token>RabbitMQ.Client.IModel,QueueBind</token>
+</entry>
+<entry count="6">
+<token>RabbitMQ.Client.IModel,QueueDeclare</token>
+<token>RabbitMQ.Client.IModel,ExchangeDeclare</token>
+<token>RabbitMQ.Client.IModel,QueueBind</token>
+<token>RabbitMQ.Client.IModel,QueuePurge</token>
+</entry>
+<entry count="2">
+<token>RabbitMQ.Client.ConnectionFactory,CreateConnection</token>
+<token>RabbitMQ.Client.IConnection,CreateModel</token>
+<token>RabbitMQ.Client.QueueingBasicConsumer,new</token>
+<token>RabbitMQ.Client.IModel,BasicConsume</token>
+<token>RabbitMQ.Client.IModel,Close</token>
+</entry>
+<entry count="8">
+<token>RabbitMQ.Client.IModel,QueueDeclare</token>
+<token>RabbitMQ.Client.IModel,ExchangeDeclare</token>
+</entry>
+<entry count="4">
+<token>RabbitMQ.Client.IModel,QueueDeclare</token>
+<token>RabbitMQ.Client.IModel,QueueBind</token>
+<token>RabbitMQ.Client.IModel,QueuePurge</token>
+</entry>
+<entry count="2">
+<token>RabbitMQ.Client.IModel,QueueBind</token>
+<token>RabbitMQ.Client.IModel,QueuePurge</token>
+<token>RabbitMQ.Client.IModel,TxSelect</token>
+<token>RabbitMQ.Client.IModel,CreateBasicProperties</token>
+<token>RabbitMQ.Client.IModel,BasicPublish</token>
+</entry>
+<entry count="1">
+<token>RabbitMQ.Client.IModel,BasicPublish</token>
+<token>RabbitMQ.Client.IModel,BasicPublish</token>
+<token>RabbitMQ.Client.IModel,BasicPublish</token>
+</entry>
+<entry count="1">
+<token>RabbitMQ.Client.IModel,BasicGet</token>
+<token>RabbitMQ.Client.IModel,BasicNack</token>
+</entry>
+<entry count="2">
+<token>RabbitMQ.Client.IModel,CreateBasicProperties</token>
+<token>RabbitMQ.Client.IBasicProperties,SetPersistent</token>
+<token>RabbitMQ.Client.IModel,QueueDeclare</token>
+</entry>
+<entry count="1">
+<token>RabbitMQ.Client.IModel,QueuePurge</token>
+<token>RabbitMQ.Client.IModel,BasicPublish</token>
+<token>RabbitMQ.Client.IModel,BasicPublish</token>
+<token>RabbitMQ.Client.IModel,BasicPublish</token>
+<token>RabbitMQ.Client.IModel,BasicGet</token>
+</entry>
+<entry count="1">
+<token>RabbitMQ.Client.ConnectionFactory,CreateConnection</token>
+<token>RabbitMQ.Client.IConnection,CreateModel</token>
+<token>RabbitMQ.Client.IModel,CreateBasicProperties</token>
+<token>RabbitMQ.Client.IModel,BasicPublish</token>
+<token>RabbitMQ.Client.IModel,BasicGet</token>
+</entry>
+<entry count="2">
+<token>RabbitMQ.Client.IConnection,CreateModel</token>
+<token>RabbitMQ.Client.IModel,BasicGet</token>
+<token>RabbitMQ.Client.IModel,BasicAck</token>
+</entry>
+<entry count="5">
+<token>RabbitMQ.Client.IModel,BasicGet</token>
+<token>RabbitMQ.Client.IModel,BasicGet</token>
+</entry>
+<entry count="1">
+<token>RabbitMQ.Client.IModel,ExchangeBind</token>
+<token>RabbitMQ.Client.IModel,ExchangeDeclare</token>
+</entry>
+<entry count="2">
+<token>RabbitMQ.Client.IModel,BasicGet</token>
+<token>RabbitMQ.Client.IModel,BasicGet</token>
+<token>RabbitMQ.Client.IModel,BasicGet</token>
+</entry>
+<entry count="1">
+<token>RabbitMQ.Client.IModel,QueuePurge</token>
+<token>RabbitMQ.Client.IModel,TxSelect</token>
+<token>RabbitMQ.Client.IModel,CreateBasicProperties</token>
+<token>RabbitMQ.Client.IModel,BasicPublish</token>
+<token>RabbitMQ.Client.IModel,TxRollback</token>
+</entry>
+<entry count="1">
+<token>RabbitMQ.Client.IModel,QueueDelete</token>
+<token>RabbitMQ.Client.IModel,Abort</token>
+<token>RabbitMQ.Client.IConnection,Abort</token>
+</entry>
+<entry count="2">
+<token>RabbitMQ.Client.IModel,ExchangeDeclare</token>
+<token>RabbitMQ.Client.IModel,QueueBind</token>
+<token>RabbitMQ.Client.IModel,QueuePurge</token>
+<token>RabbitMQ.Client.IModel,CreateBasicProperties</token>
+</entry>
+<entry count="1">
+<token>RabbitMQ.Client.IModel,ExchangeDeclare</token>
+<token>RabbitMQ.Client.IModel,ExchangeDeclare</token>
+<token>RabbitMQ.Client.IModel,ExchangeBind</token>
+<token>RabbitMQ.Client.IModel,ExchangeDeclare</token>
+</entry>
+<entry count="1">
+<token>RabbitMQ.Client.IModel,QueueBind</token>
+<token>RabbitMQ.Client.IModel,ExchangeBind</token>
+</entry>
+<entry count="1">
+<token>RabbitMQ.Client.IConnection,CreateModel</token>
+<token>RabbitMQ.Client.IModel,CreateBasicProperties</token>
+<token>RabbitMQ.Client.IModel,BasicPublish</token>
+<token>RabbitMQ.Client.IModel,BasicGet</token>
+<token>RabbitMQ.Client.IModel,BasicGet</token>
+</entry>
+<entry count="8">
+<token>RabbitMQ.Client.IModel,CreateBasicProperties</token>
+<token>RabbitMQ.Client.IBasicProperties,SetPersistent</token>
+</entry>
+<entry count="2">
+<token>RabbitMQ.Client.IModel,QueueDeclare</token>
+<token>RabbitMQ.Client.IModel,ExchangeDeclare</token>
+<token>RabbitMQ.Client.IModel,QueueBind</token>
+<token>RabbitMQ.Client.IModel,QueuePurge</token>
+<token>RabbitMQ.Client.IModel,TxSelect</token>
+</entry>
+<entry count="1">
+<token>RabbitMQ.Client.IModel,ExchangeBind</token>
+<token>RabbitMQ.Client.IModel,ExchangeDeclare</token>
+<token>RabbitMQ.Client.IModel,ExchangeBind</token>
+</entry>
+<entry count="2">
+<token>RabbitMQ.Client.IModel,ExchangeDeclare</token>
+<token>RabbitMQ.Client.IModel,QueueDeclare</token>
+<token>RabbitMQ.Client.IModel,QueueBind</token>
+<token>RabbitMQ.Client.IModel,QueuePurge</token>
+<token>RabbitMQ.Client.IModel,BasicPublish</token>
+</entry>
+<entry count="1">
+<token>RabbitMQ.Client.IModel,ExchangeDelete</token>
+<token>RabbitMQ.Client.IModel,QueueDelete</token>
+<token>RabbitMQ.Client.IModel,ExchangeDelete</token>
+<token>RabbitMQ.Client.IModel,QueueDelete</token>
+<token>RabbitMQ.Client.IModel,Abort</token>
+</entry>
+<entry count="6">
+<token>RabbitMQ.Client.IModel,BasicQos</token>
+<token>RabbitMQ.Client.QueueingBasicConsumer,new</token>
+<token>RabbitMQ.Client.IModel,BasicConsume</token>
+</entry>
+<entry count="1">
+<token>RabbitMQ.Client.IModel,CreateBasicProperties</token>
+<token>RabbitMQ.Client.IModel,BasicPublish</token>
+<token>RabbitMQ.Client.IModel,BasicGet</token>
+<token>RabbitMQ.Client.IModel,BasicGet</token>
+</entry>
+<entry count="1">
+<token>RabbitMQ.Client.IModel,BasicPublish</token>
+<token>RabbitMQ.Client.IModel,TxCommit</token>
+</entry>
+</dictionary>
