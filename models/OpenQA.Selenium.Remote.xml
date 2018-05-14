@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><dictionary case_sensitive="false">
-<entry count="1">
+<entry count="5">
 <token>OpenQA.Selenium.Remote.DesiredCapabilities,new</token>
 <token>OpenQA.Selenium.Remote.DesiredCapabilities,SetCapability</token>
 <token>OpenQA.Selenium.Remote.DesiredCapabilities,SetCapability</token>
 </entry>
-<entry count="1">
+<entry count="9">
 <token>OpenQA.Selenium.Remote.DesiredCapabilities,SetCapability</token>
 <token>OpenQA.Selenium.Remote.DesiredCapabilities,SetCapability</token>
 <token>OpenQA.Selenium.Remote.DesiredCapabilities,SetCapability</token>
@@ -18,17 +18,32 @@
 </entry>
 <entry count="3">
 <token>OpenQA.Selenium.Remote.DesiredCapabilities,SetCapability</token>
+<token>OpenQA.Selenium.Remote.RemoteWebDriver,Quit</token>
+</entry>
+<entry count="1">
+<token>OpenQA.Selenium.Remote.DesiredCapabilities,Android</token>
+<token>OpenQA.Selenium.Remote.RemoteWebDriver,new</token>
+</entry>
+<entry count="21">
+<token>OpenQA.Selenium.Remote.DesiredCapabilities,SetCapability</token>
 <token>OpenQA.Selenium.Remote.DesiredCapabilities,SetCapability</token>
 </entry>
-<entry count="7">
-<token>OpenQA.Selenium.Remote.RemoteWebDriver,FindElementByName</token>
-<token>OpenQA.Selenium.Remote.RemoteWebDriver,FindElementByName</token>
-<token>OpenQA.Selenium.Remote.RemoteWebDriver,FindElementByName</token>
+<entry count="3">
+<token>OpenQA.Selenium.Remote.DesiredCapabilities,new</token>
+<token>OpenQA.Selenium.Remote.DesiredCapabilities,SetCapability</token>
+<token>OpenQA.Selenium.Remote.RemoteWebDriver,Quit</token>
 </entry>
-<entry count="2">
-<token>OpenQA.Selenium.Remote.DesiredCapabilities,SetCapability</token>
-<token>OpenQA.Selenium.Remote.DesiredCapabilities,SetCapability</token>
-<token>OpenQA.Selenium.Remote.DesiredCapabilities,SetCapability</token>
+<entry count="1">
+<token>OpenQA.Selenium.Remote.DesiredCapabilities,PhantomJS</token>
+<token>OpenQA.Selenium.Remote.RemoteWebDriver,new</token>
+</entry>
+<entry count="1">
+<token>OpenQA.Selenium.Remote.RemoteWebElement,SendKeys</token>
+<token>OpenQA.Selenium.Remote.RemoteWebElement,SendKeys</token>
+</entry>
+<entry count="1">
+<token>OpenQA.Selenium.Remote.DesiredCapabilities,Firefox</token>
+<token>OpenQA.Selenium.Remote.RemoteWebDriver,new</token>
 </entry>
 <entry count="1">
 <token>OpenQA.Selenium.Remote.RemoteWebDriver,Navigate</token>
@@ -38,10 +53,70 @@
 <token>OpenQA.Selenium.Remote.RemoteWebDriver,FindElementByName</token>
 </entry>
 <entry count="1">
+<token>OpenQA.Selenium.Remote.DesiredCapabilities,Chrome</token>
+<token>OpenQA.Selenium.Remote.RemoteWebDriver,new</token>
+</entry>
+<entry count="1">
+<token>OpenQA.Selenium.Remote.DesiredCapabilities,IPhone</token>
+<token>OpenQA.Selenium.Remote.RemoteWebDriver,new</token>
+</entry>
+<entry count="1">
+<token>OpenQA.Selenium.Remote.DesiredCapabilities,HtmlUnitWithJavaScript</token>
+<token>OpenQA.Selenium.Remote.RemoteWebDriver,new</token>
+</entry>
+<entry count="1">
+<token>OpenQA.Selenium.Remote.DesiredCapabilities,HtmlUnit</token>
+<token>OpenQA.Selenium.Remote.RemoteWebDriver,new</token>
+</entry>
+<entry count="1">
+<token>OpenQA.Selenium.Remote.DesiredCapabilities,IPad</token>
+<token>OpenQA.Selenium.Remote.RemoteWebDriver,new</token>
+</entry>
+<entry count="1">
+<token>OpenQA.Selenium.Remote.DesiredCapabilities,Safari</token>
+<token>OpenQA.Selenium.Remote.RemoteWebDriver,new</token>
+</entry>
+<entry count="8">
+<token>OpenQA.Selenium.Remote.RemoteWebDriver,ExecuteScript</token>
+<token>OpenQA.Selenium.Remote.RemoteWebDriver,ExecuteScript</token>
+</entry>
+<entry count="3">
+<token>OpenQA.Selenium.Remote.RemoteWebDriver,Navigate</token>
+<token>OpenQA.Selenium.Remote.RemoteWebDriver,FindElementByName</token>
+</entry>
+<entry count="1">
+<token>OpenQA.Selenium.Remote.DesiredCapabilities,Opera</token>
+<token>OpenQA.Selenium.Remote.RemoteWebDriver,new</token>
+</entry>
+<entry count="5">
+<token>OpenQA.Selenium.Remote.DesiredCapabilities,new</token>
+<token>OpenQA.Selenium.Remote.DesiredCapabilities,SetCapability</token>
+<token>OpenQA.Selenium.Remote.DesiredCapabilities,SetCapability</token>
+<token>OpenQA.Selenium.Remote.DesiredCapabilities,SetCapability</token>
+</entry>
+<entry count="10">
+<token>OpenQA.Selenium.Remote.RemoteWebDriver,FindElementByName</token>
+<token>OpenQA.Selenium.Remote.RemoteWebDriver,FindElementByName</token>
+</entry>
+<entry count="7">
+<token>OpenQA.Selenium.Remote.RemoteWebDriver,FindElementByName</token>
+<token>OpenQA.Selenium.Remote.RemoteWebDriver,FindElementByName</token>
+<token>OpenQA.Selenium.Remote.RemoteWebDriver,FindElementByName</token>
+</entry>
+<entry count="2">
+<token>OpenQA.Selenium.Remote.RemoteWebElement,Click</token>
+<token>OpenQA.Selenium.Remote.RemoteWebDriver,SwitchTo</token>
+</entry>
+<entry count="14">
+<token>OpenQA.Selenium.Remote.DesiredCapabilities,SetCapability</token>
+<token>OpenQA.Selenium.Remote.DesiredCapabilities,SetCapability</token>
+<token>OpenQA.Selenium.Remote.DesiredCapabilities,SetCapability</token>
+</entry>
+<entry count="1">
 <token>OpenQA.Selenium.Remote.RemoteWebDriver,FindElementByName</token>
 <token>OpenQA.Selenium.Remote.RemoteWebDriver,FindElementByXPath</token>
 </entry>
-<entry count="1">
+<entry count="4">
 <token>OpenQA.Selenium.Remote.DesiredCapabilities,new</token>
 <token>OpenQA.Selenium.Remote.DesiredCapabilities,SetCapability</token>
 <token>OpenQA.Selenium.Remote.DesiredCapabilities,SetCapability</token>
@@ -53,9 +128,12 @@
 <token>OpenQA.Selenium.Remote.RemoteWebDriver,FindElementByName</token>
 <token>OpenQA.Selenium.Remote.RemoteWebDriver,FindElementByXPath</token>
 </entry>
-<entry count="8">
-<token>OpenQA.Selenium.Remote.RemoteWebDriver,ExecuteScript</token>
-<token>OpenQA.Selenium.Remote.RemoteWebDriver,ExecuteScript</token>
+<entry count="5">
+<token>OpenQA.Selenium.Remote.DesiredCapabilities,SetCapability</token>
+<token>OpenQA.Selenium.Remote.DesiredCapabilities,SetCapability</token>
+<token>OpenQA.Selenium.Remote.DesiredCapabilities,SetCapability</token>
+<token>OpenQA.Selenium.Remote.DesiredCapabilities,SetCapability</token>
+<token>OpenQA.Selenium.Remote.DesiredCapabilities,SetCapability</token>
 </entry>
 <entry count="1">
 <token>OpenQA.Selenium.Remote.RemoteWebDriver,Navigate</token>
@@ -81,23 +159,13 @@
 <token>OpenQA.Selenium.Remote.RemoteWebDriver,FindElementByName</token>
 <token>OpenQA.Selenium.Remote.RemoteWebDriver,FindElementByName</token>
 </entry>
-<entry count="3">
-<token>OpenQA.Selenium.Remote.RemoteWebDriver,Navigate</token>
-<token>OpenQA.Selenium.Remote.RemoteWebDriver,FindElementByName</token>
-</entry>
-<entry count="1">
+<entry count="11">
 <token>OpenQA.Selenium.Remote.DesiredCapabilities,new</token>
 <token>OpenQA.Selenium.Remote.DesiredCapabilities,SetCapability</token>
 </entry>
 <entry count="1">
-<token>OpenQA.Selenium.Remote.DesiredCapabilities,new</token>
-<token>OpenQA.Selenium.Remote.DesiredCapabilities,SetCapability</token>
-<token>OpenQA.Selenium.Remote.DesiredCapabilities,SetCapability</token>
-<token>OpenQA.Selenium.Remote.DesiredCapabilities,SetCapability</token>
-</entry>
-<entry count="10">
-<token>OpenQA.Selenium.Remote.RemoteWebDriver,FindElementByName</token>
-<token>OpenQA.Selenium.Remote.RemoteWebDriver,FindElementByName</token>
+<token>OpenQA.Selenium.Remote.DesiredCapabilities,InternetExplorer</token>
+<token>OpenQA.Selenium.Remote.RemoteWebDriver,new</token>
 </entry>
 <entry count="4">
 <token>OpenQA.Selenium.Remote.RemoteWebDriver,FindElementByName</token>

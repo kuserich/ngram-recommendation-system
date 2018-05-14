@@ -1,10 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?><dictionary case_sensitive="false">
+<entry count="4">
+<token>System.Web.Razor.RazorCodeLanguage,GetLanguageByExtension</token>
+<token>System.Web.Razor.RazorEngineHost,new</token>
+</entry>
+<entry count="54">
+<token>System.Web.Razor.CSharpRazorCodeLanguage,new</token>
+<token>System.Web.Razor.RazorEngineHost,new</token>
+</entry>
 <entry count="1">
 <token>System.Web.Razor.CSharpRazorCodeLanguage,new</token>
 <token>System.Web.Razor.RazorTemplateEngine,new</token>
 </entry>
-<entry count="3">
+<entry count="2">
+<token>System.Web.Razor.CSharpRazorCodeLanguage,new</token>
+<token>System.Web.Razor.RazorEngineHost,new</token>
+<token>System.Web.Razor.RazorTemplateEngine,new</token>
+<token>System.Web.Razor.RazorTemplateEngine,ParseTemplate</token>
+</entry>
+<entry count="12">
 <token>System.Web.Razor.RazorTemplateEngine,new</token>
 <token>System.Web.Razor.RazorTemplateEngine,GenerateCode</token>
+</entry>
+<entry count="5">
+<token>System.Web.Razor.RazorEngineHost,new</token>
+<token>System.Web.Razor.RazorTemplateEngine,new</token>
+</entry>
+<entry count="3">
+<token>System.Web.Razor.RazorEngineHost,new</token>
+<token>System.Web.Razor.RazorTemplateEngine,new</token>
+<token>System.Web.Razor.RazorTemplateEngine,ParseTemplate</token>
+</entry>
+<entry count="3">
+<token>System.Web.Razor.RazorTemplateEngine,ParseTemplateCore</token>
+<token>System.Web.Razor.ParserResults,new</token>
+</entry>
+<entry count="3">
+<token>System.Web.Razor.RazorTemplateEngine,new</token>
+<token>System.Web.Razor.RazorTemplateEngine,ParseTemplate</token>
+</entry>
+<entry count="2">
+<token>System.Web.Razor.RazorTemplateEngine,CreateCodeGenerator</token>
+<token>System.Web.Razor.RazorEngineHost,PostProcessGeneratedCode</token>
+<token>System.Web.Razor.GeneratorResults,new</token>
+</entry>
+<entry count="2">
+<token>System.Web.Razor.RazorEngineHost,PostProcessGeneratedCode</token>
+<token>System.Web.Razor.GeneratorResults,new</token>
+</entry>
+<entry count="4">
+<token>System.Web.Razor.CSharpRazorCodeLanguage,new</token>
+<token>System.Web.Razor.RazorEngineHost,new</token>
+<token>System.Web.Razor.RazorTemplateEngine,new</token>
+</entry>
+<entry count="2">
+<token>System.Web.Razor.RazorTemplateEngine,CreateCodeGenerator</token>
+<token>System.Web.Razor.RazorEngineHost,PostProcessGeneratedCode</token>
 </entry>
 </dictionary>

@@ -5,17 +5,49 @@
 <token>DDay.iCal.iCalDateTime,new</token>
 </entry>
 <entry count="32">
+<token>DDay.iCal.iCalendar,Create</token>
 <token>DDay.iCal.iCalDateTime,new</token>
+</entry>
+<entry count="72">
+<token>DDay.iCal.Event,new</token>
 <token>DDay.iCal.iCalDateTime,new</token>
 </entry>
 <entry count="32">
 <token>DDay.iCal.iCalendar,Create</token>
 <token>DDay.iCal.iCalDateTime,new</token>
+<token>DDay.iCal.iCalDateTime,new</token>
+</entry>
+<entry count="72">
+<token>DDay.iCal.Event,new</token>
+<token>DDay.iCal.iCalDateTime,new</token>
+<token>DDay.iCal.PeriodList,new</token>
+<token>DDay.iCal.iCalendar,new</token>
+</entry>
+<entry count="72">
+<token>DDay.iCal.iCalDateTime,new</token>
+<token>DDay.iCal.PeriodList,new</token>
+<token>DDay.iCal.iCalendar,new</token>
 </entry>
 <entry count="32">
-<token>DDay.iCal.iCalendar,Create</token>
 <token>DDay.iCal.iCalDateTime,new</token>
 <token>DDay.iCal.iCalDateTime,new</token>
+</entry>
+<entry count="72">
+<token>DDay.iCal.PeriodList,new</token>
+<token>DDay.iCal.iCalendar,new</token>
+</entry>
+<entry count="72">
+<token>DDay.iCal.iCalDateTime,new</token>
+<token>DDay.iCal.PeriodList,new</token>
+</entry>
+<entry count="72">
+<token>DDay.iCal.Event,new</token>
+<token>DDay.iCal.iCalDateTime,new</token>
+<token>DDay.iCal.PeriodList,new</token>
+</entry>
+<entry count="1">
+<token>DDay.iCal.iCalendar,LoadFromStream</token>
+<token>DDay.iCal.iCalendar,GetOccurrences</token>
 </entry>
 <entry count="32">
 <token>DDay.iCal.iCalendar,new</token>

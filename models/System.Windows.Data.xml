@@ -1,81 +1,98 @@
 <?xml version="1.0" encoding="UTF-8"?><dictionary case_sensitive="false">
-<entry count="2">
-<token>System.Windows.Data.RelativeSource,new</token>
-<token>System.Windows.Data.Binding,new</token>
-<token>System.Windows.Data.Binding,new</token>
-<token>System.Windows.Data.RelativeSource,new</token>
-<token>System.Windows.Data.Binding,new</token>
+<entry count="12">
+<token>System.Windows.Data.CompositeCollection,Add</token>
+<token>System.Windows.Data.CollectionContainer,new</token>
+<token>System.Windows.Data.CompositeCollection,Add</token>
+<token>System.Windows.Data.CollectionContainer,new</token>
+<token>System.Windows.Data.CompositeCollection,Add</token>
 </entry>
-<entry count="22">
-<token>System.Windows.Data.Binding,new</token>
-<token>System.Windows.Data.Binding,new</token>
-<token>System.Windows.Data.Binding,new</token>
-</entry>
-<entry count="67">
-<token>System.Windows.Data.Binding,new</token>
-<token>System.Windows.Data.Binding,new</token>
-</entry>
-<entry count="2">
-<token>System.Windows.Data.CollectionViewSource,GetDefaultView</token>
+<entry count="26">
+<token>System.Windows.Data.PropertyGroupDescription,new</token>
+<token>System.Windows.Data.ListCollectionView,new</token>
 <token>System.Windows.Data.PropertyGroupDescription,new</token>
 </entry>
-<entry count="9">
-<token>System.Windows.Data.RelativeSource,new</token>
-<token>System.Windows.Data.Binding,new</token>
-<token>System.Windows.Data.Binding,new</token>
+<entry count="16">
+<token>System.Windows.Data.CompositeCollection,new</token>
+<token>System.Windows.Data.CompositeCollection,Clear</token>
+</entry>
+<entry count="88">
+<token>System.Windows.Data.BindingExpression,UpdateSource</token>
+<token>System.Windows.Data.BindingExpression,UpdateTarget</token>
 </entry>
 <entry count="8">
-<token>System.Windows.Data.BindingOperations,IsDataBound</token>
-<token>System.Windows.Data.BindingOperations,GetBindingExpression</token>
+<token>System.Windows.Data.CompositeCollection,new</token>
+<token>System.Windows.Data.CollectionContainer,new</token>
 </entry>
-<entry count="48">
+<entry count="24">
+<token>System.Windows.Data.BindingExpression,UpdateTarget</token>
+<token>System.Windows.Data.BindingExpression,UpdateTarget</token>
+</entry>
+<entry count="12">
+<token>System.Windows.Data.CollectionContainer,new</token>
+<token>System.Windows.Data.CompositeCollection,Add</token>
+<token>System.Windows.Data.CollectionContainer,new</token>
+<token>System.Windows.Data.CompositeCollection,Add</token>
+<token>System.Windows.Data.CollectionContainer,new</token>
+</entry>
+<entry count="2">
+<token>System.Windows.Data.ListCollectionView,new</token>
+<token>System.Windows.Data.PropertyGroupDescription,new</token>
+<token>System.Windows.Data.CollectionView,Refresh</token>
+</entry>
+<entry count="19">
+<token>System.Windows.Data.BindingOperations,SetBinding</token>
 <token>System.Windows.Data.Binding,new</token>
 <token>System.Windows.Data.BindingOperations,SetBinding</token>
 </entry>
-<entry count="2">
+<entry count="11">
 <token>System.Windows.Data.Binding,new</token>
-<token>System.Windows.Data.RelativeSource,new</token>
+<token>System.Windows.Data.BindingOperations,SetBinding</token>
 <token>System.Windows.Data.Binding,new</token>
-<token>System.Windows.Data.Binding,new</token>
-</entry>
-<entry count="2">
-<token>System.Windows.Data.Binding,new</token>
-<token>System.Windows.Data.Binding,new</token>
-<token>System.Windows.Data.RelativeSource,new</token>
-<token>System.Windows.Data.Binding,new</token>
+<token>System.Windows.Data.BindingOperations,SetBinding</token>
 <token>System.Windows.Data.Binding,new</token>
 </entry>
-<entry count="2">
+<entry count="19">
 <token>System.Windows.Data.Binding,new</token>
+<token>System.Windows.Data.BindingOperations,SetBinding</token>
 <token>System.Windows.Data.Binding,new</token>
-<token>System.Windows.Data.RelativeSource,new</token>
+<token>System.Windows.Data.BindingOperations,SetBinding</token>
+</entry>
+<entry count="4">
+<token>System.Windows.Data.CompositeCollection,Add</token>
+<token>System.Windows.Data.CollectionContainer,new</token>
+<token>System.Windows.Data.CompositeCollection,Add</token>
+<token>System.Windows.Data.Binding,new</token>
 <token>System.Windows.Data.Binding,new</token>
 </entry>
 <entry count="4">
-<token>System.Windows.Data.BindingOperations,GetBindingExpression</token>
-<token>System.Windows.Data.BindingExpression,UpdateSource</token>
-</entry>
-<entry count="9">
-<token>System.Windows.Data.RelativeSource,new</token>
-<token>System.Windows.Data.Binding,new</token>
-</entry>
-<entry count="2">
 <token>System.Windows.Data.Binding,new</token>
 <token>System.Windows.Data.Binding,new</token>
 <token>System.Windows.Data.RelativeSource,new</token>
-</entry>
-<entry count="2">
-<token>System.Windows.Data.RelativeSource,new</token>
 <token>System.Windows.Data.Binding,new</token>
 <token>System.Windows.Data.Binding,new</token>
-<token>System.Windows.Data.RelativeSource,new</token>
 </entry>
 <entry count="4">
-<token>System.Windows.Data.BindingOperations,IsDataBound</token>
-<token>System.Windows.Data.BindingOperations,GetBindingExpression</token>
+<token>System.Windows.Data.Binding,new</token>
+<token>System.Windows.Data.Binding,new</token>
+<token>System.Windows.Data.RelativeSource,new</token>
+<token>System.Windows.Data.Binding,new</token>
+</entry>
+<entry count="1">
+<token>System.Windows.Data.IValueConverter,ConvertBack</token>
+<token>System.Windows.Data.IValueConverter,ConvertBack</token>
+</entry>
+<entry count="16">
+<token>System.Windows.Data.BindingExpression,UpdateTarget</token>
 <token>System.Windows.Data.BindingExpression,UpdateSource</token>
 </entry>
-<entry count="2">
+<entry count="8">
+<token>System.Windows.Data.CompositeCollection,new</token>
+<token>System.Windows.Data.CollectionContainer,new</token>
+<token>System.Windows.Data.CompositeCollection,Add</token>
+<token>System.Windows.Data.CollectionContainer,new</token>
+<token>System.Windows.Data.CompositeCollection,Add</token>
+</entry>
+<entry count="4">
 <token>System.Windows.Data.Binding,new</token>
 <token>System.Windows.Data.RelativeSource,new</token>
 <token>System.Windows.Data.Binding,new</token>
@@ -84,8 +101,381 @@
 <token>System.Windows.Data.CollectionViewSource,GetDefaultView</token>
 <token>System.Windows.Data.IValueConverter,Convert</token>
 </entry>
-<entry count="2">
+<entry count="4">
+<token>System.Windows.Data.BindingOperations,ClearAllBindings</token>
+<token>System.Windows.Data.Binding,new</token>
+</entry>
+<entry count="7">
 <token>System.Windows.Data.Binding,new</token>
 <token>System.Windows.Data.RelativeSource,new</token>
+</entry>
+<entry count="1">
+<token>System.Windows.Data.BindingOperations,SetBinding</token>
+<token>System.Windows.Data.Binding,new</token>
+<token>System.Windows.Data.BindingOperations,SetBinding</token>
+<token>System.Windows.Data.BindingOperations,SetBinding</token>
+</entry>
+<entry count="2">
+<token>System.Windows.Data.PropertyGroupDescription,new</token>
+<token>System.Windows.Data.CollectionView,Refresh</token>
+</entry>
+<entry count="834">
+<token>System.Windows.Data.Binding,new</token>
+<token>System.Windows.Data.Binding,new</token>
+</entry>
+<entry count="26">
+<token>System.Windows.Data.PropertyGroupDescription,new</token>
+<token>System.Windows.Data.ListCollectionView,new</token>
+</entry>
+<entry count="19">
+<token>System.Windows.Data.CollectionViewSource,GetDefaultView</token>
+<token>System.Windows.Data.PropertyGroupDescription,new</token>
+</entry>
+<entry count="13">
+<token>System.Windows.Data.RelativeSource,new</token>
+<token>System.Windows.Data.Binding,new</token>
+<token>System.Windows.Data.Binding,new</token>
+</entry>
+<entry count="16">
+<token>System.Windows.Data.PropertyGroupDescription,new</token>
+<token>System.Windows.Data.ListCollectionView,new</token>
+<token>System.Windows.Data.PropertyGroupDescription,new</token>
+<token>System.Windows.Data.ListCollectionView,new</token>
+</entry>
+<entry count="11">
+<token>System.Windows.Data.BindingOperations,SetBinding</token>
+<token>System.Windows.Data.Binding,new</token>
+<token>System.Windows.Data.BindingOperations,SetBinding</token>
+<token>System.Windows.Data.Binding,new</token>
+</entry>
+<entry count="24">
+<token>System.Windows.Data.CollectionView,new</token>
+<token>System.Windows.Data.CollectionView,new</token>
+</entry>
+<entry count="8">
+<token>System.Windows.Data.BindingOperations,IsDataBound</token>
+<token>System.Windows.Data.BindingOperations,GetBindingExpression</token>
+</entry>
+<entry count="4">
+<token>System.Windows.Data.CompositeCollection,Add</token>
+<token>System.Windows.Data.Binding,new</token>
+<token>System.Windows.Data.Binding,new</token>
+</entry>
+<entry count="96">
+<token>System.Windows.Data.Binding,new</token>
+<token>System.Windows.Data.BindingOperations,SetBinding</token>
+</entry>
+<entry count="8">
+<token>System.Windows.Data.CompositeCollection,Clear</token>
+<token>System.Windows.Data.CollectionContainer,new</token>
+<token>System.Windows.Data.CompositeCollection,Add</token>
+</entry>
+<entry count="4">
+<token>System.Windows.Data.MultiBinding,new</token>
+<token>System.Windows.Data.Binding,new</token>
+</entry>
+<entry count="24">
+<token>System.Windows.Data.CollectionView,new</token>
+<token>System.Windows.Data.CollectionView,new</token>
+<token>System.Windows.Data.CollectionView,MoveCurrentTo</token>
+</entry>
+<entry count="16">
+<token>System.Windows.Data.BindingExpression,UpdateTarget</token>
+<token>System.Windows.Data.BindingExpression,UpdateSource</token>
+<token>System.Windows.Data.BindingExpression,UpdateTarget</token>
+</entry>
+<entry count="1">
+<token>System.Windows.Data.BindingExpression,UpdateTarget</token>
+<token>System.Windows.Data.BindingExpression,UpdateTarget</token>
+<token>System.Windows.Data.BindingExpression,UpdateTarget</token>
+<token>System.Windows.Data.BindingExpression,UpdateTarget</token>
+</entry>
+<entry count="4">
+<token>System.Windows.Data.BindingOperations,GetBindingExpression</token>
+<token>System.Windows.Data.BindingExpression,UpdateSource</token>
+</entry>
+<entry count="4">
+<token>System.Windows.Data.CollectionContainer,new</token>
+<token>System.Windows.Data.CompositeCollection,Add</token>
+<token>System.Windows.Data.Binding,new</token>
+<token>System.Windows.Data.Binding,new</token>
+</entry>
+<entry count="8">
+<token>System.Windows.Data.CompositeCollection,Add</token>
+<token>System.Windows.Data.Binding,new</token>
+</entry>
+<entry count="19">
+<token>System.Windows.Data.BindingOperations,SetBinding</token>
+<token>System.Windows.Data.Binding,new</token>
+</entry>
+<entry count="8">
+<token>System.Windows.Data.CollectionContainer,new</token>
+<token>System.Windows.Data.CompositeCollection,Add</token>
+<token>System.Windows.Data.CollectionContainer,new</token>
+<token>System.Windows.Data.CompositeCollection,Add</token>
+<token>System.Windows.Data.Binding,new</token>
+</entry>
+<entry count="24">
+<token>System.Windows.Data.CollectionContainer,new</token>
+<token>System.Windows.Data.CompositeCollection,Add</token>
+<token>System.Windows.Data.CollectionContainer,new</token>
+</entry>
+<entry count="1">
+<token>System.Windows.Data.Binding,new</token>
+<token>System.Windows.Data.BindingOperations,SetBinding</token>
+<token>System.Windows.Data.Binding,new</token>
+<token>System.Windows.Data.BindingOperations,SetBinding</token>
+<token>System.Windows.Data.BindingOperations,SetBinding</token>
+</entry>
+<entry count="24">
+<token>System.Windows.Data.CollectionView,MoveCurrentTo</token>
+<token>System.Windows.Data.CollectionView,MoveCurrentTo</token>
+</entry>
+<entry count="26">
+<token>System.Windows.Data.ListCollectionView,new</token>
+<token>System.Windows.Data.PropertyGroupDescription,new</token>
+<token>System.Windows.Data.ListCollectionView,new</token>
+</entry>
+<entry count="26">
+<token>System.Windows.Data.ListCollectionView,new</token>
+<token>System.Windows.Data.PropertyGroupDescription,new</token>
+<token>System.Windows.Data.ListCollectionView,new</token>
+<token>System.Windows.Data.PropertyGroupDescription,new</token>
+</entry>
+<entry count="4">
+<token>System.Windows.Data.RelativeSource,new</token>
+<token>System.Windows.Data.Binding,new</token>
+<token>System.Windows.Data.Binding,new</token>
+<token>System.Windows.Data.RelativeSource,new</token>
+<token>System.Windows.Data.Binding,new</token>
+</entry>
+<entry count="12">
+<token>System.Windows.Data.CompositeCollection,Add</token>
+<token>System.Windows.Data.CollectionContainer,new</token>
+<token>System.Windows.Data.CompositeCollection,Add</token>
+<token>System.Windows.Data.CollectionContainer,new</token>
+</entry>
+<entry count="9">
+<token>System.Windows.Data.Binding,new</token>
+<token>System.Windows.Data.Binding,new</token>
+<token>System.Windows.Data.Binding,new</token>
+<token>System.Windows.Data.Binding,new</token>
+</entry>
+<entry count="3">
+<token>System.Windows.Data.Binding,new</token>
+<token>System.Windows.Data.BindingOperations,SetBinding</token>
+<token>System.Windows.Data.BindingOperations,SetBinding</token>
+</entry>
+<entry count="209">
+<token>System.Windows.Data.Binding,new</token>
+<token>System.Windows.Data.Binding,new</token>
+<token>System.Windows.Data.Binding,new</token>
+</entry>
+<entry count="8">
+<token>System.Windows.Data.BindingOperations,IsDataBound</token>
+<token>System.Windows.Data.BindingOperations,IsDataBound</token>
+</entry>
+<entry count="6">
+<token>System.Windows.Data.IValueConverter,Convert</token>
+<token>System.Windows.Data.IValueConverter,Convert</token>
+</entry>
+<entry count="16">
+<token>System.Windows.Data.ListCollectionView,new</token>
+<token>System.Windows.Data.PropertyGroupDescription,new</token>
+<token>System.Windows.Data.ListCollectionView,new</token>
+<token>System.Windows.Data.PropertyGroupDescription,new</token>
+<token>System.Windows.Data.ListCollectionView,new</token>
+</entry>
+<entry count="24">
+<token>System.Windows.Data.CollectionView,new</token>
+<token>System.Windows.Data.CollectionView,MoveCurrentTo</token>
+</entry>
+<entry count="19">
+<token>System.Windows.Data.Binding,new</token>
+<token>System.Windows.Data.BindingOperations,SetBinding</token>
+<token>System.Windows.Data.Binding,new</token>
+</entry>
+<entry count="24">
+<token>System.Windows.Data.CompositeCollection,Add</token>
+<token>System.Windows.Data.CollectionContainer,new</token>
+<token>System.Windows.Data.CompositeCollection,Add</token>
+</entry>
+<entry count="38">
+<token>System.Windows.Data.ListCollectionView,new</token>
+<token>System.Windows.Data.PropertyGroupDescription,new</token>
+</entry>
+<entry count="16">
+<token>System.Windows.Data.BindingExpression,UpdateSource</token>
+<token>System.Windows.Data.BindingExpression,UpdateTarget</token>
+<token>System.Windows.Data.BindingExpression,UpdateSource</token>
+<token>System.Windows.Data.BindingExpression,UpdateTarget</token>
+</entry>
+<entry count="11">
+<token>System.Windows.Data.BindingOperations,SetBinding</token>
+<token>System.Windows.Data.Binding,new</token>
+<token>System.Windows.Data.BindingOperations,SetBinding</token>
+<token>System.Windows.Data.Binding,new</token>
+<token>System.Windows.Data.BindingOperations,SetBinding</token>
+</entry>
+<entry count="2">
+<token>System.Windows.Data.Binding,new</token>
+<token>System.Windows.Data.Binding,new</token>
+<token>System.Windows.Data.BindingExpression,UpdateTarget</token>
+</entry>
+<entry count="44">
+<token>System.Windows.Data.CollectionContainer,new</token>
+<token>System.Windows.Data.CompositeCollection,Add</token>
+</entry>
+<entry count="24">
+<token>System.Windows.Data.CompositeCollection,Add</token>
+<token>System.Windows.Data.CollectionContainer,new</token>
+</entry>
+<entry count="2">
+<token>System.Windows.Data.Binding,new</token>
+<token>System.Windows.Data.Binding,new</token>
+<token>System.Windows.Data.Binding,new</token>
+<token>System.Windows.Data.Binding,new</token>
+<token>System.Windows.Data.Binding,new</token>
+</entry>
+<entry count="16">
+<token>System.Windows.Data.BindingExpression,UpdateSource</token>
+<token>System.Windows.Data.BindingExpression,UpdateTarget</token>
+<token>System.Windows.Data.BindingExpression,UpdateTarget</token>
+</entry>
+<entry count="24">
+<token>System.Windows.Data.CollectionContainer,new</token>
+<token>System.Windows.Data.CompositeCollection,Add</token>
+<token>System.Windows.Data.CollectionContainer,new</token>
+<token>System.Windows.Data.CompositeCollection,Add</token>
+</entry>
+<entry count="2">
+<token>System.Windows.Data.Binding,new</token>
+<token>System.Windows.Data.BindingExpression,UpdateTarget</token>
+<token>System.Windows.Data.BindingExpression,UpdateTarget</token>
+</entry>
+<entry count="8">
+<token>System.Windows.Data.CollectionContainer,new</token>
+<token>System.Windows.Data.CompositeCollection,Add</token>
+<token>System.Windows.Data.Binding,new</token>
+</entry>
+<entry count="3">
+<token>System.Windows.Data.BindingOperations,ClearBinding</token>
+<token>System.Windows.Data.Binding,new</token>
+</entry>
+<entry count="24">
+<token>System.Windows.Data.CollectionView,new</token>
+<token>System.Windows.Data.CollectionView,new</token>
+<token>System.Windows.Data.CollectionView,MoveCurrentTo</token>
+<token>System.Windows.Data.CollectionView,MoveCurrentTo</token>
+</entry>
+<entry count="2">
+<token>System.Windows.Data.Binding,new</token>
+<token>System.Windows.Data.Binding,new</token>
+<token>System.Windows.Data.BindingExpression,UpdateTarget</token>
+<token>System.Windows.Data.BindingExpression,UpdateTarget</token>
+</entry>
+<entry count="5">
+<token>System.Windows.Data.BindingOperations,SetBinding</token>
+<token>System.Windows.Data.BindingOperations,SetBinding</token>
+</entry>
+<entry count="8">
+<token>System.Windows.Data.CompositeCollection,new</token>
+<token>System.Windows.Data.CompositeCollection,Clear</token>
+<token>System.Windows.Data.CollectionContainer,new</token>
+</entry>
+<entry count="24">
+<token>System.Windows.Data.CollectionView,new</token>
+<token>System.Windows.Data.CollectionView,MoveCurrentTo</token>
+<token>System.Windows.Data.CollectionView,MoveCurrentTo</token>
+</entry>
+<entry count="7">
+<token>System.Windows.Data.ListCollectionView,new</token>
+<token>System.Windows.Data.ListCollectionView,new</token>
+</entry>
+<entry count="8">
+<token>System.Windows.Data.CompositeCollection,new</token>
+<token>System.Windows.Data.CompositeCollection,Clear</token>
+<token>System.Windows.Data.CollectionContainer,new</token>
+<token>System.Windows.Data.CompositeCollection,Add</token>
+</entry>
+<entry count="8">
+<token>System.Windows.Data.CompositeCollection,new</token>
+<token>System.Windows.Data.CollectionContainer,new</token>
+<token>System.Windows.Data.CompositeCollection,Add</token>
+</entry>
+<entry count="8">
+<token>System.Windows.Data.CompositeCollection,new</token>
+<token>System.Windows.Data.CollectionContainer,new</token>
+<token>System.Windows.Data.CompositeCollection,Add</token>
+<token>System.Windows.Data.CollectionContainer,new</token>
+</entry>
+<entry count="2">
+<token>System.Windows.Data.BindingExpression,UpdateTarget</token>
+<token>System.Windows.Data.BindingExpression,UpdateTarget</token>
+<token>System.Windows.Data.BindingExpression,UpdateTarget</token>
+</entry>
+<entry count="4">
+<token>System.Windows.Data.Binding,new</token>
+<token>System.Windows.Data.RelativeSource,new</token>
+<token>System.Windows.Data.Binding,new</token>
+<token>System.Windows.Data.Binding,new</token>
+</entry>
+<entry count="2">
+<token>System.Windows.Data.CollectionView,Refresh</token>
+<token>System.Windows.Data.CollectionView,Refresh</token>
+</entry>
+<entry count="8">
+<token>System.Windows.Data.CompositeCollection,Add</token>
+<token>System.Windows.Data.CollectionContainer,new</token>
+<token>System.Windows.Data.CompositeCollection,Add</token>
+<token>System.Windows.Data.Binding,new</token>
+</entry>
+<entry count="8">
+<token>System.Windows.Data.CompositeCollection,Clear</token>
+<token>System.Windows.Data.CollectionContainer,new</token>
+</entry>
+<entry count="2">
+<token>System.Windows.Data.Binding,new</token>
+<token>System.Windows.Data.BindingBase,ProvideValue</token>
+</entry>
+<entry count="13">
+<token>System.Windows.Data.RelativeSource,new</token>
+<token>System.Windows.Data.Binding,new</token>
+</entry>
+<entry count="4">
+<token>System.Windows.Data.Binding,new</token>
+<token>System.Windows.Data.Binding,new</token>
+<token>System.Windows.Data.RelativeSource,new</token>
+</entry>
+<entry count="2">
+<token>System.Windows.Data.CollectionViewSource,GetDefaultView</token>
+<token>System.Windows.Data.CollectionViewSource,GetDefaultView</token>
+</entry>
+<entry count="4">
+<token>System.Windows.Data.RelativeSource,new</token>
+<token>System.Windows.Data.Binding,new</token>
+<token>System.Windows.Data.Binding,new</token>
+<token>System.Windows.Data.RelativeSource,new</token>
+</entry>
+<entry count="16">
+<token>System.Windows.Data.PropertyGroupDescription,new</token>
+<token>System.Windows.Data.ListCollectionView,new</token>
+<token>System.Windows.Data.PropertyGroupDescription,new</token>
+<token>System.Windows.Data.ListCollectionView,new</token>
+<token>System.Windows.Data.PropertyGroupDescription,new</token>
+</entry>
+<entry count="4">
+<token>System.Windows.Data.BindingOperations,IsDataBound</token>
+<token>System.Windows.Data.BindingOperations,GetBindingExpression</token>
+<token>System.Windows.Data.BindingExpression,UpdateSource</token>
+</entry>
+<entry count="2">
+<token>System.Windows.Data.Binding,new</token>
+<token>System.Windows.Data.BindingExpression,UpdateTarget</token>
+</entry>
+<entry count="16">
+<token>System.Windows.Data.BindingExpression,UpdateSource</token>
+<token>System.Windows.Data.BindingExpression,UpdateTarget</token>
+<token>System.Windows.Data.BindingExpression,UpdateSource</token>
 </entry>
 </dictionary>

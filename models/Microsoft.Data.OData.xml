@@ -1,126 +1,248 @@
 <?xml version="1.0" encoding="UTF-8"?><dictionary case_sensitive="false">
-<entry count="1">
+<entry count="2">
 <token>Microsoft.Data.OData.ODataMessageWriter,WriteEntityReferenceLink</token>
 <token>Microsoft.Data.OData.ODataMessageReader,new</token>
 </entry>
-<entry count="9">
+<entry count="20">
 <token>Microsoft.Data.OData.ODataMessageWriter,CreateODataBatchWriter</token>
 <token>Microsoft.Data.OData.ODataBatchWriter,WriteStartBatch</token>
 </entry>
-<entry count="1">
+<entry count="2">
+<token>Microsoft.Data.OData.ODataBatchWriter,CreateOperationRequestMessage</token>
+<token>Microsoft.Data.OData.ODataBatchOperationRequestMessage,SetHeader</token>
+<token>Microsoft.Data.OData.ODataMessageWriter,new</token>
+</entry>
+<entry count="2">
 <token>Microsoft.Data.OData.ODataMessageWriterSettings,SetContentType</token>
 <token>Microsoft.Data.OData.ODataMessageWriter,new</token>
 <token>Microsoft.Data.OData.ODataEntityReferenceLink,new</token>
 <token>Microsoft.Data.OData.ODataMessageWriter,WriteEntityReferenceLink</token>
 <token>Microsoft.Data.OData.ODataMessageReaderSettings,new</token>
 </entry>
-<entry count="3">
+<entry count="6">
 <token>Microsoft.Data.OData.ODataCollectionValue,new</token>
 <token>Microsoft.Data.OData.ODataAnnotatable,GetAnnotation</token>
 </entry>
-<entry count="1">
+<entry count="2">
 <token>Microsoft.Data.OData.ODataUtils,SetIsDefaultEntityContainer</token>
 <token>Microsoft.Data.OData.ODataMessageWriterSettings,new</token>
 <token>Microsoft.Data.OData.ODataMessageWriter,new</token>
 </entry>
 <entry count="2">
+<token>Microsoft.Data.OData.ODataEntry,new</token>
+<token>Microsoft.Data.OData.ODataWriter,WriteStart</token>
+<token>Microsoft.Data.OData.ODataWriter,WriteEnd</token>
+</entry>
+<entry count="4">
 <token>Microsoft.Data.OData.ODataMessageReader,new</token>
 <token>Microsoft.Data.OData.ODataMessageReader,ReadEntityReferenceLink</token>
 </entry>
-<entry count="3">
+<entry count="6">
 <token>Microsoft.Data.OData.ODataEntityReferenceLink,new</token>
 <token>Microsoft.Data.OData.ODataMessageWriter,new</token>
 <token>Microsoft.Data.OData.ODataMessageWriter,WriteEntityReferenceLink</token>
 </entry>
-<entry count="1">
+<entry count="2">
 <token>Microsoft.Data.OData.ODataMessageWriterSettings,SetContentType</token>
 <token>Microsoft.Data.OData.ODataMessageWriterSettings,SetMetadataDocumentUri</token>
 </entry>
-<entry count="6">
+<entry count="2">
+<token>Microsoft.Data.OData.ODataMessageWriter,CreateODataEntryWriter</token>
+<token>Microsoft.Data.OData.ODataEntry,new</token>
+<token>Microsoft.Data.OData.ODataWriter,WriteStart</token>
+</entry>
+<entry count="8">
 <token>Microsoft.Data.OData.ODataMessageReader,CreateODataParameterReader</token>
 <token>Microsoft.Data.OData.ODataParameterReader,Read</token>
 </entry>
-<entry count="1">
+<entry count="2">
+<token>Microsoft.Data.OData.ODataMessageWriter,CreateODataBatchWriter</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,WriteStartBatch</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,CreateOperationRequestMessage</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Data.OData.ODataBatchWriter,CreateOperationRequestMessage</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,CreateOperationRequestMessage</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,WriteEndBatch</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,Flush</token>
+<token>Microsoft.Data.OData.ODataMessageReader,new</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Data.OData.ODataBatchWriter,WriteEndChangeset</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,CreateOperationRequestMessage</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,WriteEndBatch</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,Flush</token>
+<token>Microsoft.Data.OData.ODataMessageReader,new</token>
+</entry>
+<entry count="2">
 <token>Microsoft.Data.OData.ODataEntry,new</token>
 <token>Microsoft.Data.OData.ODataNavigationLink,new</token>
 </entry>
-<entry count="1">
+<entry count="2">
 <token>Microsoft.Data.OData.ODataNavigationLink,new</token>
 <token>Microsoft.Data.OData.ODataNavigationLink,new</token>
 </entry>
-<entry count="9">
+<entry count="14">
 <token>Microsoft.Data.OData.ODataMessageWriter,CreateODataBatchWriter</token>
 <token>Microsoft.Data.OData.ODataBatchWriter,WriteStartBatch</token>
 <token>Microsoft.Data.OData.ODataBatchWriter,WriteEndBatch</token>
 </entry>
-<entry count="1">
+<entry count="2">
 <token>Microsoft.Data.OData.ODataEntityReferenceLink,new</token>
 <token>Microsoft.Data.OData.ODataMessageWriter,WriteEntityReferenceLink</token>
 <token>Microsoft.Data.OData.ODataMessageReader,new</token>
 </entry>
-<entry count="1">
+<entry count="2">
 <token>Microsoft.Data.OData.ODataEntityReferenceLink,new</token>
 <token>Microsoft.Data.OData.ODataMessageWriter,WriteEntityReferenceLink</token>
 <token>Microsoft.Data.OData.ODataMessageReaderSettings,new</token>
 </entry>
-<entry count="12">
+<entry count="2">
+<token>Microsoft.Data.OData.ODataBatchWriter,WriteStartBatch</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,CreateOperationRequestMessage</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Data.OData.ODataBatchWriter,WriteStartBatch</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,CreateOperationRequestMessage</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,CreateOperationRequestMessage</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,WriteEndBatch</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,Flush</token>
+</entry>
+<entry count="16">
 <token>Microsoft.Data.OData.ODataMessageReaderSettings,new</token>
 <token>Microsoft.Data.OData.ODataMessageReader,CreateODataBatchReader</token>
 <token>Microsoft.Data.OData.ODataBatchReader,Read</token>
 </entry>
-<entry count="1">
+<entry count="2">
+<token>Microsoft.Data.OData.ODataWriter,WriteEnd</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,WriteEndChangeset</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,CreateOperationRequestMessage</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,WriteEndBatch</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Data.OData.ODataMessageWriter,new</token>
+<token>Microsoft.Data.OData.ODataMessageWriter,CreateODataBatchWriter</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,WriteStartBatch</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,WriteStartChangeset</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,CreateOperationRequestMessage</token>
+</entry>
+<entry count="2">
 <token>Microsoft.Data.OData.ODataFeed,new</token>
 <token>Microsoft.Data.OData.ODataEntry,new</token>
 </entry>
-<entry count="3">
+<entry count="6">
 <token>Microsoft.Data.OData.ODataMessageWriter,new</token>
 <token>Microsoft.Data.OData.ODataMessageWriter,WriteEntityReferenceLink</token>
 </entry>
-<entry count="4">
+<entry count="8">
 <token>Microsoft.Data.OData.ODataMessageWriterSettings,new</token>
 <token>Microsoft.Data.OData.ODataMessageWriter,new</token>
 <token>Microsoft.Data.OData.ODataMessageReaderSettings,new</token>
 <token>Microsoft.Data.OData.ODataMessageReader,new</token>
 </entry>
-<entry count="3">
+<entry count="2">
+<token>Microsoft.Data.OData.ODataMessageWriter,CreateODataEntryWriter</token>
+<token>Microsoft.Data.OData.ODataEntry,new</token>
+<token>Microsoft.Data.OData.ODataWriter,WriteStart</token>
+<token>Microsoft.Data.OData.ODataWriter,WriteEnd</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Data.OData.ODataBatchWriter,WriteStartChangeset</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,CreateOperationRequestMessage</token>
+<token>Microsoft.Data.OData.ODataBatchOperationRequestMessage,SetHeader</token>
+<token>Microsoft.Data.OData.ODataMessageWriter,new</token>
+</entry>
+<entry count="6">
+<token>Microsoft.Data.OData.ODataBatchWriter,WriteEndBatch</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,Flush</token>
+<token>Microsoft.Data.OData.ODataMessageReader,new</token>
+<token>Microsoft.Data.OData.ODataMessageReader,CreateODataBatchReader</token>
+<token>Microsoft.Data.OData.ODataBatchReader,Read</token>
+</entry>
+<entry count="4">
 <token>Microsoft.Data.OData.ODataResourceCollectionInfo,new</token>
 <token>Microsoft.Data.OData.ODataAnnotatable,SetAnnotation</token>
 </entry>
-<entry count="9">
+<entry count="14">
 <token>Microsoft.Data.OData.ODataMessageWriter,new</token>
 <token>Microsoft.Data.OData.ODataMessageWriter,CreateODataBatchWriter</token>
 <token>Microsoft.Data.OData.ODataBatchWriter,WriteStartBatch</token>
 <token>Microsoft.Data.OData.ODataBatchWriter,WriteEndBatch</token>
 </entry>
-<entry count="3">
+<entry count="4">
 <token>Microsoft.Data.OData.ODataBatchWriter,CreateOperationResponseMessage</token>
 <token>Microsoft.Data.OData.ODataBatchOperationResponseMessage,SetHeader</token>
 </entry>
-<entry count="1">
+<entry count="6">
+<token>Microsoft.Data.OData.ODataBatchWriter,Flush</token>
+<token>Microsoft.Data.OData.ODataMessageReader,new</token>
+</entry>
+<entry count="2">
 <token>Microsoft.Data.OData.ODataEntry,new</token>
 <token>Microsoft.Data.OData.ODataNavigationLink,new</token>
 <token>Microsoft.Data.OData.ODataNavigationLink,new</token>
 </entry>
-<entry count="44">
+<entry count="2">
+<token>Microsoft.Data.OData.ODataEntry,new</token>
+<token>Microsoft.Data.OData.ODataWriter,WriteStart</token>
+<token>Microsoft.Data.OData.ODataWriter,WriteEnd</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,WriteEndChangeset</token>
+</entry>
+<entry count="56">
 <token>Microsoft.Data.OData.ODataMessageWriterSettings,SetMetadataDocumentUri</token>
 <token>Microsoft.Data.OData.ODataMessageWriter,new</token>
 </entry>
-<entry count="2">
+<entry count="4">
 <token>Microsoft.Data.OData.ODataNavigationLink,new</token>
 <token>Microsoft.Data.OData.ODataFeed,new</token>
 </entry>
-<entry count="1">
+<entry count="2">
 <token>Microsoft.Data.OData.ODataMessageWriter,WriteEntityReferenceLink</token>
 <token>Microsoft.Data.OData.ODataMessageReaderSettings,new</token>
 <token>Microsoft.Data.OData.ODataMessageReader,new</token>
 </entry>
-<entry count="9">
+<entry count="2">
+<token>Microsoft.Data.OData.ODataMessageWriter,CreateODataEntryWriter</token>
+<token>Microsoft.Data.OData.ODataEntry,new</token>
+</entry>
+<entry count="20">
 <token>Microsoft.Data.OData.ODataMessageWriter,new</token>
 <token>Microsoft.Data.OData.ODataMessageWriter,CreateODataBatchWriter</token>
 </entry>
-<entry count="6">
+<entry count="8">
 <token>Microsoft.Data.OData.ODataCollectionStart,new</token>
 <token>Microsoft.Data.OData.ODataCollectionWriter,WriteStart</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Data.OData.ODataBatchWriter,WriteEndChangeset</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,CreateOperationRequestMessage</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,WriteEndBatch</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Data.OData.ODataBatchWriter,CreateOperationRequestMessage</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,CreateOperationRequestMessage</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Data.OData.ODataBatchOperationRequestMessage,SetHeader</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,WriteEndChangeset</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,CreateOperationRequestMessage</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,WriteEndBatch</token>
+</entry>
+<entry count="6">
+<token>Microsoft.Data.OData.ODataBatchWriter,Flush</token>
+<token>Microsoft.Data.OData.ODataMessageReader,new</token>
+<token>Microsoft.Data.OData.ODataMessageReader,CreateODataBatchReader</token>
+<token>Microsoft.Data.OData.ODataBatchReader,Read</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Data.OData.ODataBatchOperationRequestMessage,SetHeader</token>
+<token>Microsoft.Data.OData.ODataMessageWriter,new</token>
+<token>Microsoft.Data.OData.ODataMessageWriter,CreateODataEntryWriter</token>
+</entry>
+<entry count="6">
+<token>Microsoft.Data.OData.ODataBatchWriter,CreateOperationRequestMessage</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,WriteEndBatch</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,Flush</token>
 </entry>
 <entry count="3">
 <token>Microsoft.Data.OData.ODataMessageReader,new</token>
@@ -131,29 +253,62 @@
 <token>Microsoft.Data.OData.ODataMessageWriterSettings,SetMetadataDocumentUri</token>
 <token>Microsoft.Data.OData.ODataMessageWriterSettings,SetContentType</token>
 </entry>
-<entry count="3">
+<entry count="6">
+<token>Microsoft.Data.OData.ODataBatchWriter,CreateOperationRequestMessage</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,WriteEndBatch</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,Flush</token>
+<token>Microsoft.Data.OData.ODataMessageReader,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Data.OData.ODataBatchWriter,CreateOperationRequestMessage</token>
+<token>Microsoft.Data.OData.ODataBatchOperationRequestMessage,SetHeader</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,WriteEndChangeset</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,CreateOperationRequestMessage</token>
+</entry>
+<entry count="4">
 <token>Microsoft.Data.OData.ODataMessageWriterSettings,new</token>
 <token>Microsoft.Data.OData.ODataMessageQuotas,new</token>
 </entry>
-<entry count="2">
+<entry count="4">
 <token>Microsoft.Data.OData.ODataMessageWriter,new</token>
 <token>Microsoft.Data.OData.ODataMessageWriter,CreateODataCollectionWriter</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Data.OData.ODataBatchWriter,WriteEndChangeset</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,CreateOperationRequestMessage</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Data.OData.ODataBatchOperationRequestMessage,SetHeader</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,WriteEndChangeset</token>
 </entry>
 <entry count="1">
 <token>Microsoft.Data.OData.ODataMessageWriterSettings,SetMetadataDocumentUri</token>
 <token>Microsoft.Data.OData.ODataMessageWriterSettings,SetContentType</token>
 <token>Microsoft.Data.OData.ODataMessageWriter,new</token>
 </entry>
-<entry count="1">
+<entry count="2">
 <token>Microsoft.Data.OData.ODataMessageWriterSettings,SetContentType</token>
 <token>Microsoft.Data.OData.ODataMessageWriter,new</token>
 <token>Microsoft.Data.OData.ODataEntityReferenceLink,new</token>
 </entry>
-<entry count="12">
+<entry count="2">
+<token>Microsoft.Data.OData.ODataBatchWriter,CreateOperationRequestMessage</token>
+<token>Microsoft.Data.OData.ODataBatchOperationRequestMessage,SetHeader</token>
+<token>Microsoft.Data.OData.ODataMessageWriter,new</token>
+<token>Microsoft.Data.OData.ODataMessageWriter,CreateODataEntryWriter</token>
+</entry>
+<entry count="16">
 <token>Microsoft.Data.OData.ODataMessageReaderSettings,new</token>
 <token>Microsoft.Data.OData.ODataMessageReader,CreateODataBatchReader</token>
 </entry>
-<entry count="138">
+<entry count="2">
+<token>Microsoft.Data.OData.ODataWriter,WriteEnd</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,WriteEndChangeset</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,CreateOperationRequestMessage</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,WriteEndBatch</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,Flush</token>
+</entry>
+<entry count="180">
 <token>Microsoft.Data.OData.ODataMessageWriterSettings,new</token>
 <token>Microsoft.Data.OData.ODataMessageWriter,new</token>
 </entry>
@@ -161,102 +316,179 @@
 <token>Microsoft.Data.OData.ODataMessageWriterSettings,SetMetadataDocumentUri</token>
 <token>Microsoft.Data.OData.ODataMessageWriterSettings,SetContentType</token>
 </entry>
-<entry count="15">
+<entry count="4">
+<token>Microsoft.Data.OData.ODataBatchWriter,WriteEndChangeset</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,CreateOperationRequestMessage</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,WriteEndBatch</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,Flush</token>
+</entry>
+<entry count="28">
 <token>Microsoft.Data.OData.ODataMessageReader,CreateODataBatchReader</token>
 <token>Microsoft.Data.OData.ODataBatchReader,Read</token>
 </entry>
-<entry count="6">
+<entry count="2">
+<token>Microsoft.Data.OData.ODataMessageWriter,new</token>
+<token>Microsoft.Data.OData.ODataMessageWriter,CreateODataBatchWriter</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,WriteStartBatch</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,CreateOperationRequestMessage</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,CreateOperationRequestMessage</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Data.OData.ODataBatchWriter,WriteStartBatch</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,WriteStartChangeset</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,CreateOperationRequestMessage</token>
+<token>Microsoft.Data.OData.ODataBatchOperationRequestMessage,SetHeader</token>
+<token>Microsoft.Data.OData.ODataMessageWriter,new</token>
+</entry>
+<entry count="8">
 <token>Microsoft.Data.OData.ODataCollectionStart,new</token>
 <token>Microsoft.Data.OData.ODataCollectionWriter,WriteStart</token>
 <token>Microsoft.Data.OData.ODataCollectionWriter,WriteEnd</token>
 </entry>
-<entry count="38">
+<entry count="52">
 <token>Microsoft.Data.OData.ODataWriter,WriteStart</token>
 <token>Microsoft.Data.OData.ODataWriter,WriteEnd</token>
 </entry>
-<entry count="2">
+<entry count="4">
 <token>Microsoft.Data.OData.ODataPrimitiveValue,new</token>
 <token>Microsoft.Data.OData.ODataAnnotatable,GetAnnotation</token>
 </entry>
-<entry count="3">
+<entry count="4">
 <token>Microsoft.Data.OData.ODataMessageQuotas,new</token>
 <token>Microsoft.Data.OData.ODataMessageReaderSettings,new</token>
 </entry>
-<entry count="6">
+<entry count="8">
 <token>Microsoft.Data.OData.ODataBatchWriter,WriteStartChangeset</token>
 <token>Microsoft.Data.OData.ODataBatchWriter,WriteEndChangeset</token>
 </entry>
-<entry count="6">
+<entry count="8">
 <token>Microsoft.Data.OData.ODataCollectionWriter,WriteStart</token>
 <token>Microsoft.Data.OData.ODataCollectionWriter,WriteEnd</token>
 </entry>
-<entry count="2">
+<entry count="6">
 <token>Microsoft.Data.OData.ODataMessageWriter,new</token>
 <token>Microsoft.Data.OData.ODataMessageWriter,CreateODataEntryWriter</token>
 </entry>
-<entry count="2">
+<entry count="4">
 <token>Microsoft.Data.OData.ODataMessageReader,new</token>
 <token>Microsoft.Data.OData.ODataMessageReader,CreateODataCollectionReader</token>
 </entry>
-<entry count="3">
+<entry count="6">
 <token>Microsoft.Data.OData.ODataMessageReader,new</token>
 <token>Microsoft.Data.OData.ODataMessageReader,ReadProperty</token>
 </entry>
-<entry count="1">
+<entry count="2">
 <token>Microsoft.Data.OData.ODataMessageWriter,new</token>
 <token>Microsoft.Data.OData.ODataComplexValue,new</token>
 </entry>
-<entry count="3">
+<entry count="4">
 <token>Microsoft.Data.OData.ODataMessageQuotas,new</token>
 <token>Microsoft.Data.OData.ODataMessageReaderSettings,new</token>
 <token>Microsoft.Data.OData.ODataMessageQuotas,new</token>
 </entry>
-<entry count="2">
+<entry count="4">
 <token>Microsoft.Data.OData.ODataMessageWriter,new</token>
 <token>Microsoft.Data.OData.ODataMessageWriter,CreateODataFeedWriter</token>
 </entry>
-<entry count="1">
+<entry count="2">
+<token>Microsoft.Data.OData.ODataBatchOperationRequestMessage,SetHeader</token>
+<token>Microsoft.Data.OData.ODataMessageWriter,new</token>
+<token>Microsoft.Data.OData.ODataMessageWriter,CreateODataEntryWriter</token>
+<token>Microsoft.Data.OData.ODataEntry,new</token>
+</entry>
+<entry count="2">
 <token>Microsoft.Data.OData.ODataEntityReferenceLink,new</token>
 <token>Microsoft.Data.OData.ODataMessageWriter,WriteEntityReferenceLink</token>
 <token>Microsoft.Data.OData.ODataMessageReaderSettings,new</token>
 <token>Microsoft.Data.OData.ODataMessageReader,new</token>
 </entry>
-<entry count="3">
+<entry count="6">
 <token>Microsoft.Data.OData.ODataComplexValue,new</token>
 <token>Microsoft.Data.OData.ODataAnnotatable,GetAnnotation</token>
 </entry>
-<entry count="3">
+<entry count="4">
+<token>Microsoft.Data.OData.ODataMessageWriter,CreateODataBatchWriter</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,WriteStartBatch</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,WriteStartChangeset</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,CreateOperationRequestMessage</token>
+</entry>
+<entry count="4">
 <token>Microsoft.Data.OData.ODataMessageWriterSettings,new</token>
 <token>Microsoft.Data.OData.ODataMessageQuotas,new</token>
 <token>Microsoft.Data.OData.ODataMessageReaderSettings,new</token>
 </entry>
 <entry count="2">
+<token>Microsoft.Data.OData.ODataEntry,new</token>
+<token>Microsoft.Data.OData.ODataWriter,WriteStart</token>
+</entry>
+<entry count="4">
 <token>Microsoft.Data.OData.ODataMessageWriter,new</token>
 <token>Microsoft.Data.OData.ODataEntityReferenceLink,new</token>
 </entry>
-<entry count="1">
+<entry count="2">
+<token>Microsoft.Data.OData.ODataBatchWriter,WriteStartChangeset</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,CreateOperationRequestMessage</token>
+<token>Microsoft.Data.OData.ODataBatchOperationRequestMessage,SetHeader</token>
+<token>Microsoft.Data.OData.ODataMessageWriter,new</token>
+<token>Microsoft.Data.OData.ODataMessageWriter,CreateODataEntryWriter</token>
+</entry>
+<entry count="2">
 <token>Microsoft.Data.OData.ODataError,new</token>
 <token>Microsoft.Data.OData.ODataMessageWriter,new</token>
 </entry>
-<entry count="1">
+<entry count="6">
+<token>Microsoft.Data.OData.ODataBatchWriter,WriteEndBatch</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,Flush</token>
+<token>Microsoft.Data.OData.ODataMessageReader,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Data.OData.ODataWriter,WriteEnd</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,WriteEndChangeset</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,CreateOperationRequestMessage</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Data.OData.ODataBatchOperationRequestMessage,SetHeader</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,WriteEndChangeset</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,CreateOperationRequestMessage</token>
+</entry>
+<entry count="6">
+<token>Microsoft.Data.OData.ODataBatchWriter,CreateOperationRequestMessage</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,WriteEndBatch</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,Flush</token>
+<token>Microsoft.Data.OData.ODataMessageReader,new</token>
+<token>Microsoft.Data.OData.ODataMessageReader,CreateODataBatchReader</token>
+</entry>
+<entry count="2">
 <token>Microsoft.Data.OData.ODataMessageWriter,new</token>
 <token>Microsoft.Data.OData.ODataEntityReferenceLink,new</token>
 <token>Microsoft.Data.OData.ODataMessageWriter,WriteEntityReferenceLink</token>
 <token>Microsoft.Data.OData.ODataMessageReaderSettings,new</token>
 </entry>
-<entry count="3">
+<entry count="4">
 <token>Microsoft.Data.OData.ODataBatchWriter,CreateOperationResponseMessage</token>
 <token>Microsoft.Data.OData.ODataBatchOperationResponseMessage,GetStream</token>
 </entry>
-<entry count="2">
+<entry count="4">
 <token>Microsoft.Data.OData.ODataEntityReferenceLink,new</token>
 <token>Microsoft.Data.OData.ODataMessageWriter,WriteEntityReferenceLink</token>
 </entry>
-<entry count="3">
+<entry count="6">
+<token>Microsoft.Data.OData.ODataMessageReader,new</token>
+<token>Microsoft.Data.OData.ODataMessageReader,CreateODataBatchReader</token>
+<token>Microsoft.Data.OData.ODataBatchReader,Read</token>
+</entry>
+<entry count="6">
 <token>Microsoft.Data.OData.ODataEntityReferenceLink,new</token>
 <token>Microsoft.Data.OData.ODataMessageWriter,new</token>
 </entry>
-<entry count="1">
+<entry count="2">
+<token>Microsoft.Data.OData.ODataBatchWriter,WriteStartChangeset</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,CreateOperationRequestMessage</token>
+<token>Microsoft.Data.OData.ODataBatchOperationRequestMessage,SetHeader</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,WriteEndChangeset</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,CreateOperationRequestMessage</token>
+</entry>
+<entry count="2">
 <token>Microsoft.Data.OData.ODataMessageWriterSettings,new</token>
 <token>Microsoft.Data.OData.ODataMessageWriterSettings,SetContentType</token>
 <token>Microsoft.Data.OData.ODataMessageWriter,new</token>
@@ -267,46 +499,111 @@
 <token>Microsoft.Data.OData.IODataRequestMessage,SetHeader</token>
 <token>Microsoft.Data.OData.IODataRequestMessage,SetHeader</token>
 </entry>
-<entry count="1">
+<entry count="2">
 <token>Microsoft.Data.OData.ODataUtils,SetIsDefaultEntityContainer</token>
 <token>Microsoft.Data.OData.ODataMessageWriterSettings,new</token>
 </entry>
-<entry count="45">
+<entry count="2">
+<token>Microsoft.Data.OData.ODataMessageWriter,CreateODataBatchWriter</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,WriteStartBatch</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,CreateOperationRequestMessage</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,CreateOperationRequestMessage</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,WriteEndBatch</token>
+</entry>
+<entry count="57">
 <token>Microsoft.Data.OData.ODataMessageWriterSettings,new</token>
 <token>Microsoft.Data.OData.ODataMessageWriterSettings,SetMetadataDocumentUri</token>
 </entry>
-<entry count="65">
+<entry count="4">
+<token>Microsoft.Data.OData.ODataBatchWriter,WriteStartBatch</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,WriteStartChangeset</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,CreateOperationRequestMessage</token>
+</entry>
+<entry count="66">
 <token>Microsoft.Data.OData.ODataException,new</token>
 <token>Microsoft.Data.OData.ODataException,new</token>
 </entry>
 <entry count="2">
+<token>Microsoft.Data.OData.ODataBatchOperationRequestMessage,SetHeader</token>
+<token>Microsoft.Data.OData.ODataMessageWriter,new</token>
+<token>Microsoft.Data.OData.ODataMessageWriter,CreateODataEntryWriter</token>
+<token>Microsoft.Data.OData.ODataEntry,new</token>
+<token>Microsoft.Data.OData.ODataWriter,WriteStart</token>
+</entry>
+<entry count="2">
 <token>Microsoft.Data.OData.IODataRequestMessage,GetHeader</token>
 <token>Microsoft.Data.OData.IODataRequestMessage,SetHeader</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Data.OData.ODataBatchWriter,CreateOperationRequestMessage</token>
+<token>Microsoft.Data.OData.ODataBatchOperationRequestMessage,SetHeader</token>
+<token>Microsoft.Data.OData.ODataMessageWriter,new</token>
+<token>Microsoft.Data.OData.ODataMessageWriter,CreateODataEntryWriter</token>
+<token>Microsoft.Data.OData.ODataEntry,new</token>
 </entry>
 <entry count="8">
 <token>Microsoft.Data.OData.SerializationTypeNameAnnotation,new</token>
 <token>Microsoft.Data.OData.ODataAnnotatable,SetAnnotation</token>
 </entry>
-<entry count="6">
+<entry count="2">
+<token>Microsoft.Data.OData.ODataBatchWriter,WriteStartBatch</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,CreateOperationRequestMessage</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,CreateOperationRequestMessage</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,WriteEndBatch</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Data.OData.ODataBatchWriter,CreateOperationRequestMessage</token>
+<token>Microsoft.Data.OData.ODataBatchOperationRequestMessage,SetHeader</token>
+</entry>
+<entry count="8">
 <token>Microsoft.Data.OData.ODataCollectionReader,Read</token>
 <token>Microsoft.Data.OData.ODataCollectionValue,new</token>
 </entry>
-<entry count="1">
+<entry count="6">
+<token>Microsoft.Data.OData.ODataBatchWriter,WriteEndBatch</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,Flush</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Data.OData.ODataBatchWriter,WriteStartChangeset</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,CreateOperationRequestMessage</token>
+</entry>
+<entry count="6">
+<token>Microsoft.Data.OData.ODataBatchWriter,Flush</token>
+<token>Microsoft.Data.OData.ODataMessageReader,new</token>
+<token>Microsoft.Data.OData.ODataMessageReader,CreateODataBatchReader</token>
+</entry>
+<entry count="2">
 <token>Microsoft.Data.OData.ODataMessageWriterSettings,new</token>
 <token>Microsoft.Data.OData.ODataMessageWriterSettings,SetContentType</token>
 <token>Microsoft.Data.OData.ODataMessageWriterSettings,SetMetadataDocumentUri</token>
 </entry>
-<entry count="1">
+<entry count="2">
 <token>Microsoft.Data.OData.ODataMessageWriterSettings,new</token>
 <token>Microsoft.Data.OData.ODataMessageWriterSettings,SetContentType</token>
 <token>Microsoft.Data.OData.ODataMessageWriter,new</token>
 </entry>
-<entry count="4">
+<entry count="6">
+<token>Microsoft.Data.OData.ODataBatchWriter,CreateOperationRequestMessage</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,WriteEndBatch</token>
+</entry>
+<entry count="8">
 <token>Microsoft.Data.OData.ODataMessageWriter,new</token>
 <token>Microsoft.Data.OData.ODataMessageReaderSettings,new</token>
 <token>Microsoft.Data.OData.ODataMessageReader,new</token>
 </entry>
+<entry count="2">
+<token>Microsoft.Data.OData.ODataBatchWriter,CreateOperationRequestMessage</token>
+<token>Microsoft.Data.OData.ODataBatchOperationRequestMessage,SetHeader</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,WriteEndChangeset</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,CreateOperationRequestMessage</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,WriteEndBatch</token>
+</entry>
 <entry count="4">
+<token>Microsoft.Data.OData.ODataMessageWriter,CreateODataBatchWriter</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,WriteStartBatch</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,WriteStartChangeset</token>
+</entry>
+<entry count="8">
 <token>Microsoft.Data.OData.ODataMessageWriter,new</token>
 <token>Microsoft.Data.OData.ODataMessageReaderSettings,new</token>
 </entry>
@@ -315,22 +612,56 @@
 <token>Microsoft.Data.OData.IODataRequestMessage,SetHeader</token>
 <token>Microsoft.Data.OData.IODataRequestMessage,SetHeader</token>
 </entry>
-<entry count="1">
+<entry count="2">
 <token>Microsoft.Data.OData.ODataMessageWriter,new</token>
 <token>Microsoft.Data.OData.ODataEntityReferenceLink,new</token>
 <token>Microsoft.Data.OData.ODataMessageWriter,WriteEntityReferenceLink</token>
 <token>Microsoft.Data.OData.ODataMessageReaderSettings,new</token>
 <token>Microsoft.Data.OData.ODataMessageReader,new</token>
 </entry>
-<entry count="1">
+<entry count="2">
 <token>Microsoft.Data.OData.ODataMessageWriterSettings,SetContentType</token>
 <token>Microsoft.Data.OData.ODataMessageWriter,new</token>
 <token>Microsoft.Data.OData.ODataEntityReferenceLink,new</token>
 <token>Microsoft.Data.OData.ODataMessageWriter,WriteEntityReferenceLink</token>
 </entry>
-<entry count="1">
+<entry count="2">
+<token>Microsoft.Data.OData.ODataBatchWriter,CreateOperationRequestMessage</token>
+<token>Microsoft.Data.OData.ODataBatchOperationRequestMessage,SetHeader</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,WriteEndChangeset</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Data.OData.ODataBatchOperationRequestMessage,SetHeader</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,WriteEndChangeset</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,CreateOperationRequestMessage</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,WriteEndBatch</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,Flush</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Data.OData.ODataMessageWriter,new</token>
+<token>Microsoft.Data.OData.ODataMessageWriter,CreateODataBatchWriter</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,WriteStartBatch</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,CreateOperationRequestMessage</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Data.OData.ODataBatchWriter,WriteStartBatch</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,CreateOperationRequestMessage</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,CreateOperationRequestMessage</token>
+</entry>
+<entry count="2">
 <token>Microsoft.Data.OData.ODataMessageWriter,new</token>
 <token>Microsoft.Data.OData.ODataCollectionValue,new</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Data.OData.ODataBatchWriter,WriteStartChangeset</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,CreateOperationRequestMessage</token>
+<token>Microsoft.Data.OData.ODataBatchOperationRequestMessage,SetHeader</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Data.OData.ODataWriter,WriteStart</token>
+<token>Microsoft.Data.OData.ODataWriter,WriteEnd</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,WriteEndChangeset</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,CreateOperationRequestMessage</token>
 </entry>
 <entry count="1">
 <token>Microsoft.Data.OData.ODataMessageWriterSettings,new</token>
@@ -338,118 +669,233 @@
 <token>Microsoft.Data.OData.ODataMessageWriterSettings,SetContentType</token>
 <token>Microsoft.Data.OData.ODataMessageWriter,new</token>
 </entry>
-<entry count="1">
+<entry count="4">
+<token>Microsoft.Data.OData.ODataBatchWriter,WriteStartBatch</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,WriteStartChangeset</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,CreateOperationRequestMessage</token>
+<token>Microsoft.Data.OData.ODataBatchOperationRequestMessage,SetHeader</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Data.OData.ODataWriter,WriteEnd</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,WriteEndChangeset</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Data.OData.ODataMessageWriter,CreateODataEntryWriter</token>
+<token>Microsoft.Data.OData.ODataEntry,new</token>
+<token>Microsoft.Data.OData.ODataWriter,WriteStart</token>
+<token>Microsoft.Data.OData.ODataWriter,WriteEnd</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,WriteEndChangeset</token>
+</entry>
+<entry count="2">
 <token>Microsoft.Data.OData.ODataWorkspace,new</token>
 <token>Microsoft.Data.OData.ODataMessageWriter,new</token>
 </entry>
-<entry count="1">
+<entry count="2">
 <token>Microsoft.Data.OData.ODataMessageWriterSettings,new</token>
 <token>Microsoft.Data.OData.ODataMessageWriter,new</token>
 <token>Microsoft.Data.OData.ODataMessageWriter,WriteMetadataDocument</token>
 </entry>
-<entry count="3">
+<entry count="4">
 <token>Microsoft.Data.OData.ODataMessageWriterSettings,new</token>
 <token>Microsoft.Data.OData.ODataMessageQuotas,new</token>
 <token>Microsoft.Data.OData.ODataMessageReaderSettings,new</token>
 <token>Microsoft.Data.OData.ODataMessageQuotas,new</token>
 </entry>
-<entry count="16">
+<entry count="4">
+<token>Microsoft.Data.OData.ODataBatchWriter,WriteStartBatch</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,WriteStartChangeset</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Data.OData.ODataMessageWriter,CreateODataBatchWriter</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,WriteStartBatch</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,WriteStartChangeset</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,CreateOperationRequestMessage</token>
+<token>Microsoft.Data.OData.ODataBatchOperationRequestMessage,SetHeader</token>
+</entry>
+<entry count="32">
 <token>Microsoft.Data.OData.ODataMessageReaderSettings,new</token>
 <token>Microsoft.Data.OData.ODataMessageReader,new</token>
 </entry>
-<entry count="1">
+<entry count="2">
 <token>Microsoft.Data.OData.ODataMessageWriter,new</token>
 <token>Microsoft.Data.OData.ODataEntityReferenceLink,new</token>
 <token>Microsoft.Data.OData.ODataMessageWriter,WriteEntityReferenceLink</token>
 <token>Microsoft.Data.OData.ODataMessageReader,new</token>
 </entry>
-<entry count="6">
+<entry count="8">
 <token>Microsoft.Data.OData.ODataBatchReader,CreateOperationRequestMessage</token>
 <token>Microsoft.Data.OData.ODataBatchOperationRequestMessage,GetStream</token>
 </entry>
-<entry count="2">
+<entry count="3">
 <token>Microsoft.Data.OData.ODataMessageWriterSettings,SetContentType</token>
 <token>Microsoft.Data.OData.ODataMessageWriter,new</token>
 </entry>
-<entry count="3">
+<entry count="6">
 <token>Microsoft.Data.OData.ODataEntry,new</token>
 <token>Microsoft.Data.OData.ODataAnnotatable,GetAnnotation</token>
 </entry>
-<entry count="44">
+<entry count="2">
+<token>Microsoft.Data.OData.ODataBatchWriter,CreateOperationRequestMessage</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,CreateOperationRequestMessage</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,WriteEndBatch</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Data.OData.ODataMessageWriter,CreateODataBatchWriter</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,WriteStartBatch</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,CreateOperationRequestMessage</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,CreateOperationRequestMessage</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Data.OData.ODataMessageWriter,new</token>
+<token>Microsoft.Data.OData.ODataMessageWriter,CreateODataEntryWriter</token>
+<token>Microsoft.Data.OData.ODataEntry,new</token>
+<token>Microsoft.Data.OData.ODataWriter,WriteStart</token>
+<token>Microsoft.Data.OData.ODataWriter,WriteEnd</token>
+</entry>
+<entry count="56">
 <token>Microsoft.Data.OData.ODataMessageWriterSettings,new</token>
 <token>Microsoft.Data.OData.ODataMessageWriterSettings,SetMetadataDocumentUri</token>
 <token>Microsoft.Data.OData.ODataMessageWriter,new</token>
 </entry>
-<entry count="1">
+<entry count="2">
 <token>Microsoft.Data.OData.ODataEntry,new</token>
 <token>Microsoft.Data.OData.ODataEntry,new</token>
 </entry>
-<entry count="8">
+<entry count="16">
 <token>Microsoft.Data.OData.ODataError,new</token>
 <token>Microsoft.Data.OData.ODataInnerError,new</token>
 </entry>
-<entry count="1">
+<entry count="2">
+<token>Microsoft.Data.OData.ODataBatchWriter,CreateOperationRequestMessage</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,CreateOperationRequestMessage</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,WriteEndBatch</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,Flush</token>
+</entry>
+<entry count="2">
 <token>Microsoft.Data.OData.ODataFeed,new</token>
 <token>Microsoft.Data.OData.ODataEntry,new</token>
 <token>Microsoft.Data.OData.ODataEntry,new</token>
 </entry>
-<entry count="4">
+<entry count="8">
 <token>Microsoft.Data.OData.ODataMessageWriterSettings,new</token>
 <token>Microsoft.Data.OData.ODataMessageWriter,new</token>
 <token>Microsoft.Data.OData.ODataMessageReaderSettings,new</token>
 </entry>
-<entry count="3">
+<entry count="6">
 <token>Microsoft.Data.OData.ODataMessageReader,new</token>
 <token>Microsoft.Data.OData.ODataMessageReader,CreateODataFeedReader</token>
 </entry>
-<entry count="3">
+<entry count="2">
+<token>Microsoft.Data.OData.ODataWriter,WriteStart</token>
+<token>Microsoft.Data.OData.ODataWriter,WriteEnd</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,WriteEndChangeset</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,CreateOperationRequestMessage</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,WriteEndBatch</token>
+</entry>
+<entry count="6">
 <token>Microsoft.Data.OData.ODataMessageReader,new</token>
 <token>Microsoft.Data.OData.ODataMessageReader,CreateODataEntryReader</token>
 </entry>
-<entry count="2">
+<entry count="4">
 <token>Microsoft.Data.OData.ODataMessageWriterSettings,new</token>
 <token>Microsoft.Data.OData.ODataMessageWriterSettings,SetContentType</token>
 </entry>
-<entry count="1">
+<entry count="4">
+<token>Microsoft.Data.OData.ODataMessageWriter,new</token>
+<token>Microsoft.Data.OData.ODataMessageWriter,CreateODataBatchWriter</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,WriteStartBatch</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,WriteStartChangeset</token>
+</entry>
+<entry count="2">
 <token>Microsoft.Data.OData.ODataUtils,SetIsDefaultEntityContainer</token>
 <token>Microsoft.Data.OData.ODataMessageWriterSettings,new</token>
 <token>Microsoft.Data.OData.ODataMessageWriter,new</token>
 <token>Microsoft.Data.OData.ODataMessageWriter,WriteMetadataDocument</token>
 </entry>
-<entry count="9">
+<entry count="20">
 <token>Microsoft.Data.OData.ODataMessageWriter,new</token>
 <token>Microsoft.Data.OData.ODataMessageWriter,CreateODataBatchWriter</token>
 <token>Microsoft.Data.OData.ODataBatchWriter,WriteStartBatch</token>
 </entry>
-<entry count="3">
+<entry count="4">
 <token>Microsoft.Data.OData.ODataMessageReaderSettings,new</token>
 <token>Microsoft.Data.OData.ODataMessageQuotas,new</token>
 </entry>
-<entry count="9">
+<entry count="14">
 <token>Microsoft.Data.OData.ODataBatchWriter,WriteStartBatch</token>
 <token>Microsoft.Data.OData.ODataBatchWriter,WriteEndBatch</token>
 </entry>
 <entry count="2">
+<token>Microsoft.Data.OData.ODataEntry,new</token>
+<token>Microsoft.Data.OData.ODataWriter,WriteStart</token>
+<token>Microsoft.Data.OData.ODataWriter,WriteEnd</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,WriteEndChangeset</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,CreateOperationRequestMessage</token>
+</entry>
+<entry count="6">
+<token>Microsoft.Data.OData.ODataMessageReader,new</token>
+<token>Microsoft.Data.OData.ODataMessageReader,CreateODataBatchReader</token>
+</entry>
+<entry count="4">
 <token>Microsoft.Data.OData.ODataMessageWriter,new</token>
 <token>Microsoft.Data.OData.ODataEntityReferenceLink,new</token>
 <token>Microsoft.Data.OData.ODataMessageWriter,WriteEntityReferenceLink</token>
 </entry>
-<entry count="1">
+<entry count="2">
+<token>Microsoft.Data.OData.ODataMessageWriter,new</token>
+<token>Microsoft.Data.OData.ODataMessageWriter,CreateODataEntryWriter</token>
+<token>Microsoft.Data.OData.ODataEntry,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Data.OData.ODataWriter,WriteStart</token>
+<token>Microsoft.Data.OData.ODataWriter,WriteEnd</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,WriteEndChangeset</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Data.OData.ODataBatchWriter,WriteStartChangeset</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,CreateOperationRequestMessage</token>
+<token>Microsoft.Data.OData.ODataBatchOperationRequestMessage,SetHeader</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,WriteEndChangeset</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Data.OData.ODataBatchOperationRequestMessage,SetHeader</token>
+<token>Microsoft.Data.OData.ODataMessageWriter,new</token>
+</entry>
+<entry count="6">
+<token>Microsoft.Data.OData.ODataBatchWriter,WriteEndBatch</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,Flush</token>
+<token>Microsoft.Data.OData.ODataMessageReader,new</token>
+<token>Microsoft.Data.OData.ODataMessageReader,CreateODataBatchReader</token>
+</entry>
+<entry count="2">
 <token>Microsoft.Data.OData.ODataMessageWriter,WriteEntityReferenceLink</token>
 <token>Microsoft.Data.OData.ODataMessageReaderSettings,new</token>
 </entry>
 <entry count="2">
+<token>Microsoft.Data.OData.ODataMessageWriter,new</token>
+<token>Microsoft.Data.OData.ODataMessageWriter,CreateODataEntryWriter</token>
+<token>Microsoft.Data.OData.ODataEntry,new</token>
+<token>Microsoft.Data.OData.ODataWriter,WriteStart</token>
+</entry>
+<entry count="4">
 <token>Microsoft.Data.OData.ODataNavigationLink,new</token>
 <token>Microsoft.Data.OData.ODataEntry,new</token>
 </entry>
-<entry count="1">
+<entry count="2">
 <token>Microsoft.Data.OData.ODataMessageWriterSettings,new</token>
 <token>Microsoft.Data.OData.ODataMessageWriterSettings,SetContentType</token>
 <token>Microsoft.Data.OData.ODataMessageWriter,new</token>
 <token>Microsoft.Data.OData.ODataEntityReferenceLink,new</token>
 </entry>
-<entry count="1">
+<entry count="2">
 <token>Microsoft.Data.OData.ODataMessageWriter,new</token>
 <token>Microsoft.Data.OData.ODataMessageWriter,WriteMetadataDocument</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Data.OData.ODataBatchWriter,WriteStartBatch</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,WriteStartChangeset</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,CreateOperationRequestMessage</token>
+<token>Microsoft.Data.OData.ODataBatchOperationRequestMessage,SetHeader</token>
+<token>Microsoft.Data.OData.ODataBatchWriter,WriteEndChangeset</token>
 </entry>
 </dictionary>

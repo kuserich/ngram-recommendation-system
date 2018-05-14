@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><dictionary case_sensitive="false">
-<entry count="52">
+<entry count="1">
+<token>System.Windows.Documents.InlineCollection,Add</token>
+<token>System.Windows.Documents.InlineCollection,Add</token>
+<token>System.Windows.Documents.InlineCollection,Add</token>
+<token>System.Windows.Documents.Run,new</token>
+</entry>
+<entry count="62">
 <token>System.Windows.Documents.Hyperlink,new</token>
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
 <token>-&gt;</token>
@@ -9,11 +15,11 @@
 <token>System.Windows.Documents.TextElement,GetFontWeight</token>
 <token>System.Windows.Documents.TextRange,GetPropertyValue</token>
 </entry>
-<entry count="36">
+<entry count="172">
 <token>4.0.0.0]],Clear</token>
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
 </entry>
-<entry count="76">
+<entry count="82">
 <token>System.Windows.Documents.Bold,new</token>
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
 <token>-&gt;</token>
@@ -39,6 +45,11 @@
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
 <token>-&gt;</token>
 </entry>
+<entry count="10">
+<token>PresentationFramework,</token>
+<token>4.0.0.0]],InsertBefore</token>
+<token>System.Windows.Documents.FlowDocument,new</token>
+</entry>
 <entry count="20">
 <token>System.Windows.Documents.FlowDocument,new</token>
 <token>System.Windows.Documents.Run,new</token>
@@ -57,6 +68,13 @@
 <token>System.Windows.Documents.Run,new</token>
 <token>System.Windows.Documents.Hyperlink,new</token>
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
+</entry>
+<entry count="2">
+<token>4.0.0.0]],Clear</token>
+<token>System.Windows.Documents.Run,new</token>
+<token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
+<token>-&gt;</token>
+<token>System.Windows.Documents.Inline,</token>
 </entry>
 <entry count="8">
 <token>4.0.0.0]],Add</token>
@@ -104,6 +122,18 @@
 <token>-&gt;</token>
 <token>System.Windows.Documents.Block,</token>
 </entry>
+<entry count="2">
+<token>System.Windows.Documents.Run,new</token>
+<token>System.Windows.Documents.Run,new</token>
+<token>System.Windows.Documents.Run,new</token>
+<token>System.Windows.Documents.Run,new</token>
+<token>System.Windows.Documents.Run,new</token>
+</entry>
+<entry count="16">
+<token>System.Windows.Documents.TextPointer,GetPositionAtOffset</token>
+<token>System.Windows.Documents.TextRange,new</token>
+<token>System.Windows.Documents.TextRange,ApplyPropertyValue</token>
+</entry>
 <entry count="5">
 <token>System.Windows.Documents.Paragraph,new</token>
 <token>System.Windows.Documents.TableCell,new</token>
@@ -111,12 +141,12 @@
 <token>System.Windows.Documents.Run,new</token>
 <token>System.Windows.Documents.Paragraph,new</token>
 </entry>
-<entry count="5756">
+<entry count="5757">
 <token>-&gt;</token>
 <token>System.Windows.Documents.Block,</token>
 <token>PresentationFramework,</token>
 </entry>
-<entry count="5756">
+<entry count="5757">
 <token>-&gt;</token>
 <token>System.Windows.Documents.Block,</token>
 </entry>
@@ -125,7 +155,7 @@
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
 <token>-&gt;</token>
 </entry>
-<entry count="5">
+<entry count="7">
 <token>System.Windows.Documents.Hyperlink,new</token>
 <token>System.Windows.Documents.InlineCollection,Add</token>
 </entry>
@@ -136,14 +166,14 @@
 <token>System.Windows.Documents.Run,new</token>
 <token>System.Windows.Documents.Paragraph,new</token>
 </entry>
-<entry count="657">
+<entry count="764">
 <token>System.Windows.Documents.Run,new</token>
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
 <token>-&gt;</token>
 <token>System.Windows.Documents.Inline,</token>
 <token>PresentationFramework,</token>
 </entry>
-<entry count="52">
+<entry count="62">
 <token>System.Windows.Documents.Hyperlink,new</token>
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
 </entry>
@@ -188,6 +218,10 @@
 <token>System.Windows.Documents.FlowDocument,new</token>
 <token>System.Windows.Documents.FlowDocument,new</token>
 </entry>
+<entry count="1">
+<token>System.Windows.Documents.PageContent,new</token>
+<token>System.Windows.Documents.FixedPage,new</token>
+</entry>
 <entry count="2">
 <token>-&gt;</token>
 <token>System.Windows.Documents.Block,</token>
@@ -195,7 +229,7 @@
 <token>4.0.0.0]],Remove</token>
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
 </entry>
-<entry count="8">
+<entry count="10">
 <token>PresentationFramework,</token>
 <token>4.0.0.0]],Add</token>
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
@@ -218,7 +252,7 @@
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
 <token>-&gt;</token>
 </entry>
-<entry count="4">
+<entry count="6">
 <token>System.Windows.Documents.Paragraph,new</token>
 <token>System.Windows.Documents.LineBreak,new</token>
 </entry>
@@ -240,6 +274,12 @@
 <token>System.Windows.Documents.TableCell,new</token>
 <token>System.Windows.Documents.TableCellCollection,Add</token>
 <token>System.Windows.Documents.Run,new</token>
+</entry>
+<entry count="51">
+<token>System.Windows.Documents.Inline,</token>
+<token>PresentationFramework,</token>
+<token>4.0.0.0]],Add</token>
+<token>System.Windows.Documents.InlineCollection,Add</token>
 </entry>
 <entry count="28">
 <token>System.Windows.Documents.Paragraph,new</token>
@@ -278,7 +318,7 @@
 <token>System.Windows.Documents.Run,new</token>
 <token>System.Windows.Documents.Bold,new</token>
 </entry>
-<entry count="48">
+<entry count="56">
 <token>System.Windows.Documents.Inline,</token>
 <token>PresentationFramework,</token>
 <token>4.0.0.0]],AddRange</token>
@@ -295,6 +335,11 @@
 <token>4.0.0.0]],Add</token>
 <token>System.Windows.Documents.LineBreak,new</token>
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
+</entry>
+<entry count="6">
+<token>System.Windows.Documents.Adorner,new</token>
+<token>System.Windows.Documents.AdornerLayer,GetAdornerLayer</token>
+<token>System.Windows.Documents.AdornerLayer,Add</token>
 </entry>
 <entry count="160">
 <token>System.Windows.Documents.TextRange,GetPropertyValue</token>
@@ -328,6 +373,13 @@
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
 <token>-&gt;</token>
 </entry>
+<entry count="6">
+<token>System.Windows.Documents.Run,new</token>
+<token>System.Windows.Documents.Paragraph,new</token>
+<token>System.Windows.Documents.Run,new</token>
+<token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
+<token>-&gt;</token>
+</entry>
 <entry count="2">
 <token>System.Windows.Documents.Block,</token>
 <token>PresentationFramework,</token>
@@ -359,12 +411,23 @@
 <token>System.Windows.Documents.Paragraph,new</token>
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
 </entry>
+<entry count="16">
+<token>System.Windows.Documents.TextRange,new</token>
+<token>System.Windows.Documents.TextRange,ClearAllProperties</token>
+<token>System.Windows.Documents.TextPointer,GetPositionAtOffset</token>
+</entry>
 <entry count="160">
 <token>System.Windows.Documents.TextElement,GetFontSize</token>
 <token>System.Windows.Documents.TextRange,GetPropertyValue</token>
 <token>System.Windows.Documents.TextElement,GetFontStyle</token>
 <token>System.Windows.Documents.TextRange,GetPropertyValue</token>
 <token>System.Windows.Documents.TextElement,GetFontWeight</token>
+</entry>
+<entry count="16">
+<token>System.Windows.Documents.TextRange,new</token>
+<token>System.Windows.Documents.TextRange,ClearAllProperties</token>
+<token>System.Windows.Documents.TextPointer,GetPositionAtOffset</token>
+<token>System.Windows.Documents.TextRange,new</token>
 </entry>
 <entry count="20">
 <token>System.Windows.Documents.ListItem,</token>
@@ -401,6 +464,10 @@
 <token>System.Windows.Documents.TableRowGroupCollection,Add</token>
 <token>System.Windows.Documents.FlowDocument,new</token>
 </entry>
+<entry count="16">
+<token>System.Windows.Documents.TextRange,ClearAllProperties</token>
+<token>System.Windows.Documents.TextPointer,GetPositionAtOffset</token>
+</entry>
 <entry count="2">
 <token>System.Windows.Documents.FixedPage,new</token>
 <token>System.Windows.Documents.PageContent,new</token>
@@ -423,7 +490,7 @@
 <token>System.Windows.Documents.Paragraph,new</token>
 <token>System.Windows.Documents.TableCell,new</token>
 </entry>
-<entry count="18">
+<entry count="228">
 <token>-&gt;</token>
 <token>System.Windows.Documents.Inline,</token>
 <token>PresentationFramework,</token>
@@ -443,20 +510,35 @@
 <token>4.0.0.0]],AddRange</token>
 <token>System.Windows.Documents.Paragraph,new</token>
 </entry>
-<entry count="289">
+<entry count="307">
 <token>System.Windows.Documents.Run,new</token>
 <token>System.Windows.Documents.Paragraph,new</token>
+</entry>
+<entry count="10">
+<token>PresentationFramework,</token>
+<token>4.0.0.0]],InsertBefore</token>
 </entry>
 <entry count="1766">
 <token>System.Windows.Documents.BlockUIContainer,new</token>
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
 </entry>
-<entry count="2004">
+<entry count="2005">
 <token>System.Windows.Documents.Paragraph,new</token>
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
 <token>-&gt;</token>
 <token>System.Windows.Documents.Block,</token>
 <token>PresentationFramework,</token>
+</entry>
+<entry count="8">
+<token>System.Windows.Documents.TextPointer,DeleteTextInRun</token>
+<token>System.Windows.Documents.TextRange,new</token>
+<token>System.Windows.Documents.TextRange,ClearAllProperties</token>
+</entry>
+<entry count="8">
+<token>System.Windows.Documents.TextPointer,GetPositionAtOffset</token>
+<token>System.Windows.Documents.TextRange,new</token>
+<token>System.Windows.Documents.TextRange,ClearAllProperties</token>
+<token>System.Windows.Documents.TextPointer,GetPositionAtOffset</token>
 </entry>
 <entry count="44">
 <token>System.Windows.Documents.Section,new</token>
@@ -490,7 +572,7 @@
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
 <token>-&gt;</token>
 </entry>
-<entry count="154">
+<entry count="156">
 <token>System.Windows.Documents.Inline,</token>
 <token>PresentationFramework,</token>
 <token>4.0.0.0]],Add</token>
@@ -505,6 +587,13 @@
 <entry count="5">
 <token>System.Windows.Documents.TableColumnCollection,Add</token>
 <token>System.Windows.Documents.TableColumn,new</token>
+</entry>
+<entry count="8">
+<token>System.Windows.Documents.TextPointer,DeleteTextInRun</token>
+<token>System.Windows.Documents.TextRange,new</token>
+<token>System.Windows.Documents.TextRange,ClearAllProperties</token>
+<token>System.Windows.Documents.TextPointer,GetPositionAtOffset</token>
+<token>System.Windows.Documents.TextRange,new</token>
 </entry>
 <entry count="6">
 <token>System.Windows.Documents.Section,new</token>
@@ -522,12 +611,31 @@
 <token>System.Windows.Documents.TableRowCollection,Add</token>
 <token>System.Windows.Documents.TableRowGroupCollection,Add</token>
 </entry>
+<entry count="12">
+<token>System.Windows.Documents.InlineCollection,Add</token>
+<token>System.Windows.Documents.InlineCollection,Add</token>
+<token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
+<token>-&gt;</token>
+</entry>
+<entry count="10">
+<token>System.Windows.Documents.Inline,</token>
+<token>PresentationFramework,</token>
+<token>4.0.0.0]],Clear</token>
+<token>System.Windows.Documents.Run,new</token>
+</entry>
 <entry count="18">
 <token>-&gt;</token>
 <token>System.Windows.Documents.Block,</token>
 <token>PresentationFramework,</token>
 <token>4.0.0.0]],Clear</token>
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
+</entry>
+<entry count="12">
+<token>System.Windows.Documents.Span,new</token>
+<token>System.Windows.Documents.InlineCollection,Add</token>
+<token>System.Windows.Documents.InlineCollection,Add</token>
+<token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
+<token>-&gt;</token>
 </entry>
 <entry count="5">
 <token>System.Windows.Documents.TableCellCollection,Add</token>
@@ -548,6 +656,11 @@
 <token>System.Windows.Documents.TextPointer,CompareTo</token>
 <token>System.Windows.Documents.TextRange,new</token>
 <token>System.Windows.Documents.TextRange,ApplyPropertyValue</token>
+</entry>
+<entry count="12">
+<token>System.Windows.Documents.InlineCollection,Add</token>
+<token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
+<token>-&gt;</token>
 </entry>
 <entry count="2">
 <token>System.Windows.Documents.TableRowGroup,new</token>
@@ -587,7 +700,7 @@
 <token>System.Windows.Documents.Paragraph,new</token>
 <token>System.Windows.Documents.FlowDocument,new</token>
 </entry>
-<entry count="895">
+<entry count="1029">
 <token>-&gt;</token>
 <token>System.Windows.Documents.Inline,</token>
 <token>PresentationFramework,</token>
@@ -625,12 +738,17 @@
 <token>System.Windows.Documents.PageContent,new</token>
 <token>System.Windows.Documents.PageContentCollection,Add</token>
 </entry>
-<entry count="48">
+<entry count="56">
 <token>System.Windows.Documents.Inline,</token>
 <token>PresentationFramework,</token>
 <token>4.0.0.0]],AddRange</token>
 <token>System.Windows.Documents.Run,new</token>
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
+</entry>
+<entry count="16">
+<token>System.Windows.Documents.TextRange,ClearAllProperties</token>
+<token>System.Windows.Documents.TextPointer,GetPositionAtOffset</token>
+<token>System.Windows.Documents.TextRange,new</token>
 </entry>
 <entry count="4">
 <token>System.Windows.Documents.Run,new</token>
@@ -657,6 +775,20 @@
 <token>System.Windows.Documents.ListItem,</token>
 <token>PresentationFramework,</token>
 </entry>
+<entry count="8">
+<token>System.Windows.Documents.TextRange,new</token>
+<token>System.Windows.Documents.TextPointer,DeleteTextInRun</token>
+<token>System.Windows.Documents.TextRange,new</token>
+<token>System.Windows.Documents.TextRange,ClearAllProperties</token>
+<token>System.Windows.Documents.TextPointer,GetPositionAtOffset</token>
+</entry>
+<entry count="8">
+<token>System.Windows.Documents.Run,new</token>
+<token>System.Windows.Documents.Run,new</token>
+<token>System.Windows.Documents.Run,new</token>
+<token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
+<token>-&gt;</token>
+</entry>
 <entry count="1764">
 <token>System.Windows.Documents.Run,new</token>
 <token>System.Windows.Documents.Hyperlink,new</token>
@@ -671,7 +803,7 @@
 <token>-&gt;</token>
 <token>System.Windows.Documents.Block,</token>
 </entry>
-<entry count="18">
+<entry count="154">
 <token>System.Windows.Documents.Inline,</token>
 <token>PresentationFramework,</token>
 <token>4.0.0.0]],Clear</token>
@@ -682,7 +814,7 @@
 <token>System.Windows.Documents.TableCell,new</token>
 <token>System.Windows.Documents.Run,new</token>
 </entry>
-<entry count="6850">
+<entry count="7232">
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
 <token>-&gt;</token>
 </entry>
@@ -691,24 +823,29 @@
 <token>System.Windows.Documents.Table,new</token>
 <token>System.Windows.Documents.TableRowGroup,new</token>
 </entry>
-<entry count="657">
+<entry count="764">
 <token>System.Windows.Documents.Run,new</token>
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
 <token>-&gt;</token>
 </entry>
-<entry count="4">
+<entry count="6">
 <token>System.Windows.Documents.Paragraph,new</token>
 <token>System.Windows.Documents.LineBreak,new</token>
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
 <token>-&gt;</token>
 <token>System.Windows.Documents.Inline,</token>
 </entry>
-<entry count="76">
+<entry count="82">
 <token>System.Windows.Documents.Run,new</token>
 <token>System.Windows.Documents.Bold,new</token>
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
 <token>-&gt;</token>
 <token>System.Windows.Documents.Inline,</token>
+</entry>
+<entry count="4">
+<token>System.Windows.Documents.TextPointer,GetPositionAtOffset</token>
+<token>System.Windows.Documents.TextPointer,GetPositionAtOffset</token>
+<token>System.Windows.Documents.TextRange,new</token>
 </entry>
 <entry count="5">
 <token>System.Windows.Documents.Table,new</token>
@@ -741,7 +878,7 @@
 <token>System.Windows.Documents.TextPointer,GetNextContextPosition</token>
 <token>System.Windows.Documents.TextPointer,GetPointerContext</token>
 </entry>
-<entry count="161">
+<entry count="188">
 <token>PresentationFramework,</token>
 <token>4.0.0.0]],AddRange</token>
 </entry>
@@ -751,13 +888,13 @@
 <token>System.Windows.Documents.TextPointer,CompareTo</token>
 <token>System.Windows.Documents.TextRange,new</token>
 </entry>
-<entry count="18">
+<entry count="154">
 <token>4.0.0.0]],Clear</token>
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
 <token>-&gt;</token>
 <token>System.Windows.Documents.Inline,</token>
 </entry>
-<entry count="6651">
+<entry count="6786">
 <token>PresentationFramework,</token>
 <token>4.0.0.0]],Add</token>
 </entry>
@@ -768,7 +905,7 @@
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
 <token>-&gt;</token>
 </entry>
-<entry count="8">
+<entry count="10">
 <token>4.0.0.0]],Add</token>
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
 <token>-&gt;</token>
@@ -780,6 +917,12 @@
 <token>4.0.0.0]],Add</token>
 <token>System.Windows.Documents.Paragraph,new</token>
 </entry>
+<entry count="5">
+<token>System.Windows.Documents.Run,new</token>
+<token>System.Windows.Documents.Run,new</token>
+<token>System.Windows.Documents.Run,new</token>
+<token>System.Windows.Documents.Run,new</token>
+</entry>
 <entry count="40">
 <token>System.Windows.Documents.TextPointer,CompareTo</token>
 <token>System.Windows.Documents.TextRange,new</token>
@@ -789,7 +932,14 @@
 <token>System.Windows.Documents.TableRowGroup,new</token>
 <token>System.Windows.Documents.TableRow,new</token>
 </entry>
-<entry count="170">
+<entry count="8">
+<token>PresentationFramework,</token>
+<token>4.0.0.0]],Clear</token>
+<token>System.Windows.Documents.Run,new</token>
+<token>System.Windows.Documents.Hyperlink,new</token>
+<token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
+</entry>
+<entry count="172">
 <token>4.0.0.0]],Add</token>
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
 <token>-&gt;</token>
@@ -801,7 +951,7 @@
 <token>System.Windows.Documents.TableCellCollection,Add</token>
 <token>System.Windows.Documents.Run,new</token>
 </entry>
-<entry count="237">
+<entry count="263">
 <token>System.Windows.Documents.Paragraph,new</token>
 <token>System.Windows.Documents.Run,new</token>
 </entry>
@@ -810,6 +960,11 @@
 <token>PresentationFramework,</token>
 <token>4.0.0.0]],Clear</token>
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
+</entry>
+<entry count="2">
+<token>System.Windows.Documents.TextRange,ApplyPropertyValue</token>
+<token>System.Windows.Documents.TextRange,ApplyPropertyValue</token>
+<token>System.Windows.Documents.TextRange,new</token>
 </entry>
 <entry count="1764">
 <token>-&gt;</token>
@@ -825,7 +980,14 @@
 <token>System.Windows.Documents.Run,new</token>
 <token>System.Windows.Documents.Bold,new</token>
 </entry>
-<entry count="2">
+<entry count="8">
+<token>System.Windows.Documents.Inline,</token>
+<token>PresentationFramework,</token>
+<token>4.0.0.0]],Clear</token>
+<token>System.Windows.Documents.Run,new</token>
+<token>System.Windows.Documents.Hyperlink,new</token>
+</entry>
+<entry count="49">
 <token>System.Windows.Documents.AdornerLayer,GetAdornerLayer</token>
 <token>System.Windows.Documents.AdornerLayer,Remove</token>
 </entry>
@@ -841,6 +1003,13 @@
 <token>-&gt;</token>
 <token>System.Windows.Documents.ListItem,</token>
 </entry>
+<entry count="1">
+<token>4.0.0.0]],Add</token>
+<token>System.Windows.Documents.InlineCollection,Add</token>
+<token>System.Windows.Documents.InlineCollection,Add</token>
+<token>System.Windows.Documents.InlineCollection,Add</token>
+<token>System.Windows.Documents.InlineCollection,Add</token>
+</entry>
 <entry count="172">
 <token>System.Windows.Documents.Run,new</token>
 <token>System.Windows.Documents.Paragraph,new</token>
@@ -853,6 +1022,12 @@
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
 <token>-&gt;</token>
 </entry>
+<entry count="16">
+<token>System.Windows.Documents.TextRange,ClearAllProperties</token>
+<token>System.Windows.Documents.TextPointer,GetPositionAtOffset</token>
+<token>System.Windows.Documents.TextRange,new</token>
+<token>System.Windows.Documents.TextRange,ApplyPropertyValue</token>
+</entry>
 <entry count="1772">
 <token>PresentationFramework,</token>
 <token>4.0.0.0]],Add</token>
@@ -860,13 +1035,18 @@
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
 <token>-&gt;</token>
 </entry>
+<entry count="8">
+<token>System.Windows.Documents.Paragraph,new</token>
+<token>System.Windows.Documents.Run,new</token>
+<token>System.Windows.Documents.Run,new</token>
+</entry>
 <entry count="172">
 <token>System.Windows.Documents.Run,new</token>
 <token>System.Windows.Documents.Paragraph,new</token>
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
 <token>-&gt;</token>
 </entry>
-<entry count="76">
+<entry count="82">
 <token>System.Windows.Documents.Bold,new</token>
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
 </entry>
@@ -877,14 +1057,21 @@
 <token>4.0.0.0]],Add</token>
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
 </entry>
-<entry count="462">
+<entry count="2">
+<token>System.Windows.Documents.Run,new</token>
+<token>System.Windows.Documents.Paragraph,new</token>
+<token>System.Windows.Documents.LineBreak,new</token>
+<token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
+<token>-&gt;</token>
+</entry>
+<entry count="496">
 <token>4.0.0.0]],Add</token>
 <token>System.Windows.Documents.Run,new</token>
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
 <token>-&gt;</token>
 <token>System.Windows.Documents.Inline,</token>
 </entry>
-<entry count="462">
+<entry count="496">
 <token>PresentationFramework,</token>
 <token>4.0.0.0]],Add</token>
 <token>System.Windows.Documents.Run,new</token>
@@ -946,6 +1133,11 @@
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
 <token>-&gt;</token>
 </entry>
+<entry count="12">
+<token>System.Windows.Documents.InlineCollection,Add</token>
+<token>System.Windows.Documents.InlineCollection,Add</token>
+<token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
+</entry>
 <entry count="4">
 <token>System.Windows.Documents.TableRowGroup,new</token>
 <token>System.Windows.Documents.TableRow,new</token>
@@ -997,12 +1189,18 @@
 <token>System.Windows.Documents.InlineUIContainer,new</token>
 <token>System.Windows.Documents.Hyperlink,new</token>
 </entry>
+<entry count="25">
+<token>System.Windows.Documents.Span,new</token>
+<token>System.Windows.Documents.Run,new</token>
+<token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
+<token>-&gt;</token>
+</entry>
 <entry count="22">
 <token>System.Windows.Documents.Paragraph,new</token>
 <token>System.Windows.Documents.Paragraph,new</token>
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
 </entry>
-<entry count="6">
+<entry count="7">
 <token>System.Windows.Documents.TextRange,new</token>
 <token>System.Windows.Documents.TextRange,Save</token>
 </entry>
@@ -1018,6 +1216,15 @@
 <token>System.Windows.Documents.TableRowGroupCollection,Add</token>
 <token>System.Windows.Documents.FlowDocument,new</token>
 </entry>
+<entry count="10">
+<token>PresentationFramework,</token>
+<token>4.0.0.0]],Clear</token>
+<token>System.Windows.Documents.Run,new</token>
+</entry>
+<entry count="8">
+<token>System.Windows.Documents.TextRange,new</token>
+<token>System.Windows.Documents.TextPointer,DeleteTextInRun</token>
+</entry>
 <entry count="2">
 <token>System.Windows.Documents.TableCellCollection,Add</token>
 <token>System.Windows.Documents.TableRowCollection,Add</token>
@@ -1032,23 +1239,23 @@
 <token>System.Windows.Documents.Paragraph,new</token>
 <token>System.Windows.Documents.LineBreak,new</token>
 </entry>
-<entry count="657">
+<entry count="764">
 <token>System.Windows.Documents.Run,new</token>
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
 <token>-&gt;</token>
 <token>System.Windows.Documents.Inline,</token>
 </entry>
-<entry count="1074">
+<entry count="1455">
 <token>-&gt;</token>
 <token>System.Windows.Documents.Inline,</token>
 <token>PresentationFramework,</token>
 </entry>
-<entry count="4">
+<entry count="6">
 <token>System.Windows.Documents.Paragraph,new</token>
 <token>System.Windows.Documents.LineBreak,new</token>
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
 </entry>
-<entry count="2004">
+<entry count="2005">
 <token>System.Windows.Documents.Paragraph,new</token>
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
 <token>-&gt;</token>
@@ -1127,6 +1334,15 @@
 <token>System.Windows.Documents.Run,new</token>
 <token>System.Windows.Documents.Paragraph,new</token>
 </entry>
+<entry count="2">
+<token>4.0.0.0]],Clear</token>
+<token>System.Windows.Documents.Run,new</token>
+<token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
+</entry>
+<entry count="1">
+<token>System.Windows.Documents.Paragraph,new</token>
+<token>System.Windows.Documents.InlineCollection,Add</token>
+</entry>
 <entry count="5">
 <token>System.Windows.Documents.TableColumn,new</token>
 <token>System.Windows.Documents.TableColumnCollection,Add</token>
@@ -1138,11 +1354,23 @@
 <token>4.0.0.0]],Add</token>
 <token>System.Windows.Documents.Paragraph,new</token>
 </entry>
+<entry count="1">
+<token>System.Windows.Documents.TextRange,ApplyPropertyValue</token>
+<token>System.Windows.Documents.TextRange,new</token>
+<token>System.Windows.Documents.TextRange,ApplyPropertyValue</token>
+<token>System.Windows.Documents.TextRange,ApplyPropertyValue</token>
+<token>System.Windows.Documents.TextRange,new</token>
+</entry>
 <entry count="1766">
 <token>System.Windows.Documents.BlockUIContainer,new</token>
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
 <token>-&gt;</token>
 <token>System.Windows.Documents.Block,</token>
+</entry>
+<entry count="8">
+<token>4.0.0.0]],Clear</token>
+<token>System.Windows.Documents.Run,new</token>
+<token>System.Windows.Documents.Hyperlink,new</token>
 </entry>
 <entry count="2">
 <token>System.Windows.Documents.TableRowGroup,new</token>
@@ -1199,6 +1427,10 @@
 <token>System.Windows.Documents.Section,new</token>
 <token>System.Windows.Documents.Paragraph,new</token>
 </entry>
+<entry count="1">
+<token>System.Windows.Documents.Run,new</token>
+<token>System.Windows.Documents.Underline,new</token>
+</entry>
 <entry count="92">
 <token>System.Windows.Documents.Section,new</token>
 <token>System.Windows.Documents.Paragraph,new</token>
@@ -1222,13 +1454,20 @@
 <token>System.Windows.Documents.Block,</token>
 <token>PresentationFramework,</token>
 </entry>
-<entry count="2161">
+<entry count="2174">
 <token>System.Windows.Documents.Paragraph,new</token>
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
 <token>-&gt;</token>
 </entry>
 <entry count="20">
 <token>System.Windows.Documents.FlowDocument,new</token>
+<token>System.Windows.Documents.Run,new</token>
+</entry>
+<entry count="10">
+<token>-&gt;</token>
+<token>System.Windows.Documents.Inline,</token>
+<token>PresentationFramework,</token>
+<token>4.0.0.0]],Clear</token>
 <token>System.Windows.Documents.Run,new</token>
 </entry>
 <entry count="52">
@@ -1240,13 +1479,19 @@
 <token>System.Windows.Documents.Run,new</token>
 <token>System.Windows.Documents.Paragraph,new</token>
 </entry>
+<entry count="8">
+<token>System.Windows.Documents.Paragraph,new</token>
+<token>System.Windows.Documents.Run,new</token>
+<token>System.Windows.Documents.Run,new</token>
+<token>System.Windows.Documents.Run,new</token>
+</entry>
 <entry count="4">
 <token>System.Windows.Documents.Bold,new</token>
 <token>System.Windows.Documents.Paragraph,new</token>
 <token>System.Windows.Documents.LineBreak,new</token>
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
 </entry>
-<entry count="72">
+<entry count="74">
 <token>System.Windows.Documents.LineBreak,new</token>
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
 <token>-&gt;</token>
@@ -1267,6 +1512,13 @@
 <token>System.Windows.Documents.List,new</token>
 <token>System.Windows.Documents.ListItem,new</token>
 </entry>
+<entry count="12">
+<token>System.Windows.Documents.InlineCollection,Add</token>
+<token>System.Windows.Documents.InlineCollection,Add</token>
+<token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
+<token>-&gt;</token>
+<token>System.Windows.Documents.Inline,</token>
+</entry>
 <entry count="8">
 <token>System.Windows.Documents.Inline,</token>
 <token>PresentationFramework,</token>
@@ -1276,6 +1528,11 @@
 <entry count="2">
 <token>System.Windows.Documents.TableRow,new</token>
 <token>System.Windows.Documents.TableCell,new</token>
+</entry>
+<entry count="36">
+<token>System.Windows.Documents.Span,new</token>
+<token>System.Windows.Documents.InlineCollection,Add</token>
+<token>System.Windows.Documents.InlineCollection,Add</token>
 </entry>
 <entry count="20">
 <token>System.Windows.Documents.ListItem,new</token>
@@ -1287,7 +1544,7 @@
 <token>4.0.0.0]],Add</token>
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
 </entry>
-<entry count="76">
+<entry count="82">
 <token>System.Windows.Documents.Run,new</token>
 <token>System.Windows.Documents.Bold,new</token>
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
@@ -1312,6 +1569,11 @@
 <token>System.Windows.Documents.Section,new</token>
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
 </entry>
+<entry count="4">
+<token>System.Windows.Documents.TextPointer,GetPositionAtOffset</token>
+<token>System.Windows.Documents.TextPointer,GetPositionAtOffset</token>
+<token>System.Windows.Documents.TextPointer,GetPositionAtOffset</token>
+</entry>
 <entry count="1776">
 <token>System.Windows.Documents.Section,new</token>
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
@@ -1336,7 +1598,7 @@
 <token>System.Windows.Documents.Run,new</token>
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
 </entry>
-<entry count="170">
+<entry count="172">
 <token>4.0.0.0]],Add</token>
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
 </entry>
@@ -1347,15 +1609,32 @@
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
 <token>-&gt;</token>
 </entry>
+<entry count="1">
+<token>System.Windows.Documents.InlineCollection,Add</token>
+<token>System.Windows.Documents.Run,new</token>
+</entry>
 <entry count="1764">
 <token>System.Windows.Documents.Section,new</token>
 <token>System.Windows.Documents.Run,new</token>
 <token>System.Windows.Documents.Hyperlink,new</token>
 </entry>
+<entry count="12">
+<token>System.Windows.Documents.Span,new</token>
+<token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
+<token>-&gt;</token>
+<token>System.Windows.Documents.Inline,</token>
+<token>PresentationFramework,</token>
+</entry>
 <entry count="26">
 <token>4.0.0.0]],Add</token>
 <token>System.Windows.Documents.Run,new</token>
 <token>System.Windows.Documents.Paragraph,new</token>
+<token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
+</entry>
+<entry count="2">
+<token>System.Windows.Documents.Run,new</token>
+<token>System.Windows.Documents.Paragraph,new</token>
+<token>System.Windows.Documents.LineBreak,new</token>
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
 </entry>
 <entry count="8">
@@ -1375,7 +1654,7 @@
 <token>System.Windows.Documents.Paragraph,new</token>
 <token>System.Windows.Documents.Section,new</token>
 </entry>
-<entry count="48">
+<entry count="56">
 <token>-&gt;</token>
 <token>System.Windows.Documents.Inline,</token>
 <token>PresentationFramework,</token>
@@ -1394,11 +1673,23 @@
 <token>System.Windows.Documents.Block,</token>
 <token>PresentationFramework,</token>
 </entry>
-<entry count="18">
+<entry count="154">
 <token>-&gt;</token>
 <token>System.Windows.Documents.Inline,</token>
 <token>PresentationFramework,</token>
 <token>4.0.0.0]],Clear</token>
+<token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
+</entry>
+<entry count="12">
+<token>System.Windows.Documents.Span,new</token>
+<token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
+<token>-&gt;</token>
+</entry>
+<entry count="2">
+<token>System.Windows.Documents.Run,new</token>
+<token>System.Windows.Documents.Run,new</token>
+<token>System.Windows.Documents.Run,new</token>
+<token>System.Windows.Documents.Run,new</token>
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
 </entry>
 <entry count="32">
@@ -1414,10 +1705,15 @@
 <token>PresentationFramework,</token>
 <token>4.0.0.0]],Add</token>
 </entry>
-<entry count="161">
+<entry count="188">
 <token>System.Windows.Documents.Inline,</token>
 <token>PresentationFramework,</token>
 <token>4.0.0.0]],AddRange</token>
+</entry>
+<entry count="1">
+<token>System.Windows.Documents.InlineCollection,Add</token>
+<token>System.Windows.Documents.InlineCollection,Add</token>
+<token>System.Windows.Documents.Run,new</token>
 </entry>
 <entry count="8">
 <token>System.Windows.Documents.TableRowGroupCollection,Add</token>
@@ -1441,7 +1737,7 @@
 <token>System.Windows.Documents.Section,new</token>
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
 </entry>
-<entry count="66">
+<entry count="100">
 <token>System.Windows.Documents.Inline,</token>
 <token>PresentationFramework,</token>
 <token>4.0.0.0]],Add</token>
@@ -1455,14 +1751,14 @@
 <token>-&gt;</token>
 <token>System.Windows.Documents.Block,</token>
 </entry>
-<entry count="18">
+<entry count="154">
 <token>PresentationFramework,</token>
 <token>4.0.0.0]],Clear</token>
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
 <token>-&gt;</token>
 <token>System.Windows.Documents.Inline,</token>
 </entry>
-<entry count="157">
+<entry count="169">
 <token>System.Windows.Documents.Paragraph,new</token>
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
 <token>-&gt;</token>
@@ -1487,18 +1783,30 @@
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
 <token>-&gt;</token>
 </entry>
-<entry count="462">
+<entry count="12">
+<token>System.Windows.Documents.InlineCollection,Add</token>
+<token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
+<token>-&gt;</token>
+<token>System.Windows.Documents.Inline,</token>
+<token>PresentationFramework,</token>
+</entry>
+<entry count="496">
 <token>4.0.0.0]],Add</token>
 <token>System.Windows.Documents.Run,new</token>
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
 <token>-&gt;</token>
 </entry>
-<entry count="52">
+<entry count="62">
 <token>System.Windows.Documents.Hyperlink,new</token>
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
 <token>-&gt;</token>
 <token>System.Windows.Documents.Inline,</token>
 <token>PresentationFramework,</token>
+</entry>
+<entry count="3">
+<token>4.0.0.0]],Add</token>
+<token>System.Windows.Documents.InlineCollection,Add</token>
+<token>System.Windows.Documents.InlineCollection,Add</token>
 </entry>
 <entry count="5">
 <token>System.Windows.Documents.TextPointer,CompareTo</token>
@@ -1513,6 +1821,10 @@
 <token>System.Windows.Documents.TableCellCollection,Add</token>
 <token>System.Windows.Documents.TableRowCollection,Add</token>
 </entry>
+<entry count="51">
+<token>4.0.0.0]],Add</token>
+<token>System.Windows.Documents.InlineCollection,Add</token>
+</entry>
 <entry count="76">
 <token>System.Windows.Documents.Paragraph,new</token>
 <token>System.Windows.Documents.Run,new</token>
@@ -1524,10 +1836,21 @@
 <token>4.0.0.0]],Add</token>
 <token>System.Windows.Documents.LineBreak,new</token>
 </entry>
+<entry count="3">
+<token>System.Windows.Documents.TextRange,new</token>
+<token>System.Windows.Documents.TextRange,CanLoad</token>
+</entry>
 <entry count="10">
 <token>System.Windows.Documents.TextRange,new</token>
 <token>System.Windows.Documents.TextPointer,CompareTo</token>
 <token>System.Windows.Documents.TextRange,new</token>
+</entry>
+<entry count="1">
+<token>System.Windows.Documents.InlineCollection,Add</token>
+<token>System.Windows.Documents.Run,new</token>
+<token>System.Windows.Documents.Bold,new</token>
+<token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
+<token>-&gt;</token>
 </entry>
 <entry count="76">
 <token>System.Windows.Documents.Paragraph,new</token>
@@ -1536,12 +1859,17 @@
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
 <token>-&gt;</token>
 </entry>
+<entry count="3">
+<token>System.Windows.Documents.InlineCollection,Add</token>
+<token>System.Windows.Documents.InlineCollection,Add</token>
+<token>System.Windows.Documents.InlineCollection,Add</token>
+</entry>
 <entry count="1772">
 <token>4.0.0.0]],Add</token>
 <token>System.Windows.Documents.Section,new</token>
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
 </entry>
-<entry count="562">
+<entry count="596">
 <token>4.0.0.0]],Add</token>
 <token>System.Windows.Documents.Run,new</token>
 </entry>
@@ -1550,7 +1878,7 @@
 <token>System.Windows.Documents.TextRange,GetPropertyValue</token>
 <token>System.Windows.Documents.TextElement,GetFontWeight</token>
 </entry>
-<entry count="48">
+<entry count="56">
 <token>4.0.0.0]],AddRange</token>
 <token>System.Windows.Documents.Run,new</token>
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
@@ -1577,12 +1905,23 @@
 <token>-&gt;</token>
 <token>System.Windows.Documents.Block,</token>
 </entry>
-<entry count="36">
+<entry count="10">
+<token>System.Windows.Documents.TextPointer,GetPositionAtOffset</token>
+<token>System.Windows.Documents.TextPointer,GetPositionAtOffset</token>
+</entry>
+<entry count="172">
 <token>PresentationFramework,</token>
 <token>4.0.0.0]],Clear</token>
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
 </entry>
-<entry count="72">
+<entry count="10">
+<token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
+<token>-&gt;</token>
+<token>System.Windows.Documents.Inline,</token>
+<token>PresentationFramework,</token>
+<token>4.0.0.0]],InsertBefore</token>
+</entry>
+<entry count="74">
 <token>System.Windows.Documents.LineBreak,new</token>
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
 <token>-&gt;</token>
@@ -1595,6 +1934,14 @@
 <token>System.Windows.Documents.TableCellCollection,Add</token>
 <token>System.Windows.Documents.TableRowCollection,Add</token>
 <token>System.Windows.Documents.TableRowGroupCollection,Add</token>
+</entry>
+<entry count="12">
+<token>System.Windows.Documents.InlineCollection,Add</token>
+<token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
+</entry>
+<entry count="42">
+<token>System.Windows.Documents.InlineCollection,Add</token>
+<token>System.Windows.Documents.InlineCollection,Add</token>
 </entry>
 <entry count="20">
 <token>System.Windows.Documents.FlowDocument,new</token>
@@ -1611,13 +1958,30 @@
 <token>System.Windows.Documents.LineBreak,new</token>
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
 </entry>
+<entry count="10">
+<token>System.Windows.Documents.Inline,</token>
+<token>PresentationFramework,</token>
+<token>4.0.0.0]],InsertBefore</token>
+</entry>
 <entry count="4">
 <token>System.Windows.Documents.Inline,</token>
 <token>PresentationFramework,</token>
 <token>4.0.0.0]],AddRange</token>
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
 </entry>
-<entry count="48">
+<entry count="2">
+<token>System.Windows.Documents.TextRange,ApplyPropertyValue</token>
+<token>System.Windows.Documents.TextRange,ApplyPropertyValue</token>
+<token>System.Windows.Documents.TextRange,new</token>
+<token>System.Windows.Documents.TextRange,ApplyPropertyValue</token>
+</entry>
+<entry count="1">
+<token>System.Windows.Documents.FixedDocument,new</token>
+<token>System.Windows.Documents.PageContent,new</token>
+<token>System.Windows.Documents.FixedPage,new</token>
+<token>System.Windows.Documents.PageContentCollection,Add</token>
+</entry>
+<entry count="56">
 <token>PresentationFramework,</token>
 <token>4.0.0.0]],AddRange</token>
 <token>System.Windows.Documents.Run,new</token>
@@ -1651,7 +2015,14 @@
 <token>4.0.0.0]],Add</token>
 <token>System.Windows.Documents.LineBreak,new</token>
 </entry>
-<entry count="1074">
+<entry count="1455">
+<token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
+<token>-&gt;</token>
+<token>System.Windows.Documents.Inline,</token>
+</entry>
+<entry count="25">
+<token>System.Windows.Documents.Span,new</token>
+<token>System.Windows.Documents.Run,new</token>
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
 <token>-&gt;</token>
 <token>System.Windows.Documents.Inline,</token>
@@ -1668,7 +2039,19 @@
 <token>System.Windows.Documents.TableRowGroupCollection,Add</token>
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
 </entry>
-<entry count="76">
+<entry count="1">
+<token>System.Windows.Documents.PageContent,new</token>
+<token>System.Windows.Documents.FixedPage,new</token>
+<token>System.Windows.Documents.PageContentCollection,Add</token>
+</entry>
+<entry count="2">
+<token>System.Windows.Documents.Inline,</token>
+<token>PresentationFramework,</token>
+<token>4.0.0.0]],Clear</token>
+<token>System.Windows.Documents.Run,new</token>
+<token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
+</entry>
+<entry count="82">
 <token>System.Windows.Documents.Bold,new</token>
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
 <token>-&gt;</token>
@@ -1686,6 +2069,19 @@
 <token>System.Windows.Documents.TableColumnCollection,Add</token>
 <token>System.Windows.Documents.TableColumn,new</token>
 <token>System.Windows.Documents.TableColumnCollection,Add</token>
+</entry>
+<entry count="1">
+<token>System.Windows.Documents.FlowDocument,new</token>
+<token>System.Windows.Documents.Paragraph,new</token>
+<token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
+<token>-&gt;</token>
+<token>System.Windows.Documents.Block,</token>
+</entry>
+<entry count="2">
+<token>4.0.0.0]],Clear</token>
+<token>System.Windows.Documents.Run,new</token>
+<token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
+<token>-&gt;</token>
 </entry>
 <entry count="5">
 <token>4.0.0.0]],Add</token>
@@ -1723,6 +2119,25 @@
 <token>System.Windows.Documents.TextRange,ApplyPropertyValue</token>
 <token>System.Windows.Documents.TextPointer,CompareTo</token>
 </entry>
+<entry count="6">
+<token>System.Windows.Documents.Paragraph,new</token>
+<token>System.Windows.Documents.Run,new</token>
+<token>System.Windows.Documents.Run,new</token>
+<token>System.Windows.Documents.Run,new</token>
+<token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
+</entry>
+<entry count="2">
+<token>PresentationFramework,</token>
+<token>4.0.0.0]],Add</token>
+<token>System.Windows.Documents.InlineCollection,Add</token>
+<token>System.Windows.Documents.InlineCollection,Add</token>
+<token>System.Windows.Documents.InlineCollection,Add</token>
+</entry>
+<entry count="2">
+<token>System.Windows.Documents.Paragraph,new</token>
+<token>System.Windows.Documents.Run,new</token>
+<token>System.Windows.Documents.InlineCollection,Add</token>
+</entry>
 <entry count="5">
 <token>PresentationFramework,</token>
 <token>4.0.0.0]],Add</token>
@@ -1734,25 +2149,35 @@
 <token>System.Windows.Documents.Paragraph,new</token>
 <token>System.Windows.Documents.Table,new</token>
 </entry>
-<entry count="18">
+<entry count="154">
 <token>System.Windows.Documents.Inline,</token>
 <token>PresentationFramework,</token>
 <token>4.0.0.0]],Clear</token>
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
 </entry>
-<entry count="462">
+<entry count="496">
 <token>PresentationFramework,</token>
 <token>4.0.0.0]],Add</token>
 <token>System.Windows.Documents.Run,new</token>
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
 <token>-&gt;</token>
 </entry>
-<entry count="161">
+<entry count="188">
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
 <token>-&gt;</token>
 <token>System.Windows.Documents.Inline,</token>
 <token>PresentationFramework,</token>
 <token>4.0.0.0]],AddRange</token>
+</entry>
+<entry count="8">
+<token>System.Windows.Documents.TextPointer,GetPositionAtOffset</token>
+<token>System.Windows.Documents.TextRange,new</token>
+<token>System.Windows.Documents.TextPointer,DeleteTextInRun</token>
+<token>System.Windows.Documents.TextRange,new</token>
+</entry>
+<entry count="12">
+<token>System.Windows.Documents.AdornerLayer,GetAdornerLayer</token>
+<token>System.Windows.Documents.AdornerLayer,GetAdorners</token>
 </entry>
 <entry count="8">
 <token>System.Windows.Documents.InlineUIContainer,new</token>
@@ -1768,7 +2193,7 @@
 <token>System.Windows.Documents.LineBreak,new</token>
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
 </entry>
-<entry count="5756">
+<entry count="5757">
 <token>System.Windows.Documents.Block,</token>
 <token>PresentationFramework,</token>
 </entry>
@@ -1778,6 +2203,12 @@
 <token>System.Windows.Documents.TableRow,new</token>
 <token>System.Windows.Documents.TableRowCollection,Add</token>
 </entry>
+<entry count="10">
+<token>System.Windows.Documents.Inline,</token>
+<token>PresentationFramework,</token>
+<token>4.0.0.0]],InsertBefore</token>
+<token>System.Windows.Documents.FlowDocument,new</token>
+</entry>
 <entry count="6">
 <token>System.Windows.Documents.Paragraph,new</token>
 <token>System.Windows.Documents.Figure,new</token>
@@ -1785,10 +2216,24 @@
 <token>System.Windows.Documents.TableRowGroup,new</token>
 <token>System.Windows.Documents.TableRow,new</token>
 </entry>
+<entry count="8">
+<token>System.Windows.Documents.TextPointer,GetPositionAtOffset</token>
+<token>System.Windows.Documents.TextRange,new</token>
+<token>System.Windows.Documents.TextRange,ClearAllProperties</token>
+<token>System.Windows.Documents.TextPointer,GetPositionAtOffset</token>
+<token>System.Windows.Documents.TextRange,new</token>
+</entry>
 <entry count="6">
 <token>System.Windows.Documents.TableRowCollection,Add</token>
 <token>System.Windows.Documents.TableRowGroupCollection,Add</token>
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
+</entry>
+<entry count="8">
+<token>4.0.0.0]],Clear</token>
+<token>System.Windows.Documents.Run,new</token>
+<token>System.Windows.Documents.Hyperlink,new</token>
+<token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
+<token>-&gt;</token>
 </entry>
 <entry count="34">
 <token>System.Windows.Documents.Section,new</token>
@@ -1831,6 +2276,11 @@
 <token>System.Windows.Documents.TextRange,new</token>
 <token>System.Windows.Documents.TextRange,ApplyPropertyValue</token>
 </entry>
+<entry count="2">
+<token>System.Windows.Documents.Run,new</token>
+<token>System.Windows.Documents.Paragraph,new</token>
+<token>System.Windows.Documents.LineBreak,new</token>
+</entry>
 <entry count="30">
 <token>System.Windows.Documents.TextPointer,CompareTo</token>
 <token>System.Windows.Documents.TextPointer,GetNextContextPosition</token>
@@ -1846,6 +2296,13 @@
 <token>System.Windows.Documents.Figure,new</token>
 <token>System.Windows.Documents.Table,new</token>
 </entry>
+<entry count="10">
+<token>-&gt;</token>
+<token>System.Windows.Documents.Inline,</token>
+<token>PresentationFramework,</token>
+<token>4.0.0.0]],InsertBefore</token>
+<token>System.Windows.Documents.FlowDocument,new</token>
+</entry>
 <entry count="172">
 <token>System.Windows.Documents.Run,new</token>
 <token>System.Windows.Documents.Paragraph,new</token>
@@ -1853,7 +2310,7 @@
 <token>-&gt;</token>
 <token>System.Windows.Documents.Block,</token>
 </entry>
-<entry count="72">
+<entry count="74">
 <token>System.Windows.Documents.LineBreak,new</token>
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
 </entry>
@@ -1881,7 +2338,7 @@
 <token>System.Windows.Documents.Paragraph,new</token>
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
 </entry>
-<entry count="48">
+<entry count="56">
 <token>4.0.0.0]],AddRange</token>
 <token>System.Windows.Documents.Run,new</token>
 </entry>
@@ -1901,12 +2358,12 @@
 <token>System.Windows.Documents.TextRange,new</token>
 <token>System.Windows.Documents.TextRange,Load</token>
 </entry>
-<entry count="107">
+<entry count="123">
 <token>System.Windows.Documents.Paragraph,new</token>
 <token>System.Windows.Documents.Run,new</token>
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
 </entry>
-<entry count="5736">
+<entry count="5737">
 <token>System.Windows.Documents.Block,</token>
 <token>PresentationFramework,</token>
 <token>4.0.0.0]],Add</token>
@@ -1918,12 +2375,18 @@
 <token>System.Windows.Documents.TableCellCollection,Add</token>
 <token>System.Windows.Documents.TableRowCollection,Add</token>
 </entry>
-<entry count="5736">
+<entry count="5737">
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
 <token>-&gt;</token>
 <token>System.Windows.Documents.Block,</token>
 <token>PresentationFramework,</token>
 <token>4.0.0.0]],Add</token>
+</entry>
+<entry count="1">
+<token>System.Windows.Documents.FlowDocument,new</token>
+<token>System.Windows.Documents.Paragraph,new</token>
+<token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
+<token>-&gt;</token>
 </entry>
 <entry count="2">
 <token>System.Windows.Documents.FixedPage,new</token>
@@ -1945,7 +2408,13 @@
 <token>System.Windows.Documents.TableCellCollection,Add</token>
 <token>System.Windows.Documents.TableRowCollection,Add</token>
 </entry>
-<entry count="72">
+<entry count="10">
+<token>-&gt;</token>
+<token>System.Windows.Documents.Inline,</token>
+<token>PresentationFramework,</token>
+<token>4.0.0.0]],InsertBefore</token>
+</entry>
+<entry count="74">
 <token>System.Windows.Documents.LineBreak,new</token>
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
 <token>-&gt;</token>
@@ -1963,6 +2432,11 @@
 <token>PresentationFramework,</token>
 <token>4.0.0.0]],Add</token>
 <token>System.Windows.Documents.InlineUIContainer,new</token>
+</entry>
+<entry count="3">
+<token>System.Windows.Documents.TextRange,new</token>
+<token>System.Windows.Documents.TextRange,ApplyPropertyValue</token>
+<token>System.Windows.Documents.TextRange,ApplyPropertyValue</token>
 </entry>
 <entry count="1828">
 <token>-&gt;</token>
@@ -1984,7 +2458,7 @@
 <token>System.Windows.Documents.Run,new</token>
 <token>System.Windows.Documents.Paragraph,new</token>
 </entry>
-<entry count="8">
+<entry count="10">
 <token>4.0.0.0]],Add</token>
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
 <token>-&gt;</token>
@@ -2018,7 +2492,7 @@
 <token>System.Windows.Documents.TableRowGroup,new</token>
 <token>System.Windows.Documents.TableRowGroupCollection,Add</token>
 </entry>
-<entry count="18">
+<entry count="228">
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
 <token>-&gt;</token>
 <token>System.Windows.Documents.Inline,</token>
@@ -2037,23 +2511,47 @@
 <token>4.0.0.0]],Add</token>
 <token>System.Windows.Documents.InlineUIContainer,new</token>
 </entry>
+<entry count="8">
+<token>System.Windows.Documents.TextPointer,DeleteTextInRun</token>
+<token>System.Windows.Documents.TextRange,new</token>
+</entry>
 <entry count="4">
 <token>System.Windows.Documents.Inline,</token>
 <token>PresentationFramework,</token>
 <token>4.0.0.0]],Add</token>
 <token>System.Windows.Documents.FlowDocument,new</token>
 </entry>
+<entry count="8">
+<token>System.Windows.Documents.TextPointer,GetPositionAtOffset</token>
+<token>System.Windows.Documents.TextRange,new</token>
+<token>System.Windows.Documents.TextPointer,DeleteTextInRun</token>
+</entry>
+<entry count="36">
+<token>System.Windows.Documents.TextPointer,GetPositionAtOffset</token>
+<token>System.Windows.Documents.TextRange,new</token>
+</entry>
 <entry count="15">
 <token>System.Windows.Documents.TextRange,ApplyPropertyValue</token>
 <token>System.Windows.Documents.TextRange,ApplyPropertyValue</token>
 <token>System.Windows.Documents.TextRange,ApplyPropertyValue</token>
 </entry>
-<entry count="48">
+<entry count="1">
+<token>System.Windows.Documents.InlineCollection,Add</token>
+<token>System.Windows.Documents.InlineCollection,Add</token>
+<token>System.Windows.Documents.Run,new</token>
+<token>System.Windows.Documents.Bold,new</token>
+<token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
+</entry>
+<entry count="56">
 <token>4.0.0.0]],AddRange</token>
 <token>System.Windows.Documents.Run,new</token>
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
 </entry>
-<entry count="2161">
+<entry count="6">
+<token>System.Windows.Documents.Adorner,new</token>
+<token>System.Windows.Documents.AdornerLayer,Add</token>
+</entry>
+<entry count="2174">
 <token>System.Windows.Documents.Paragraph,new</token>
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
 </entry>
@@ -2062,13 +2560,30 @@
 <token>System.Windows.Documents.Run,new</token>
 <token>System.Windows.Documents.Paragraph,new</token>
 </entry>
-<entry count="6">
+<entry count="7">
 <token>System.Windows.Documents.TextRange,new</token>
 <token>System.Windows.Documents.TextRange,Load</token>
 </entry>
-<entry count="20">
+<entry count="2">
+<token>PresentationFramework,</token>
+<token>4.0.0.0]],Clear</token>
+<token>System.Windows.Documents.Run,new</token>
+<token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>System.Windows.Documents.TextRange,new</token>
+<token>System.Windows.Documents.TextRange,CanLoad</token>
+<token>System.Windows.Documents.TextRange,Load</token>
+</entry>
+<entry count="23">
 <token>System.Windows.Documents.TextRange,ApplyPropertyValue</token>
 <token>System.Windows.Documents.TextRange,ApplyPropertyValue</token>
+</entry>
+<entry count="51">
+<token>PresentationFramework,</token>
+<token>4.0.0.0]],Add</token>
+<token>System.Windows.Documents.InlineCollection,Add</token>
 </entry>
 <entry count="1764">
 <token>System.Windows.Documents.Block,</token>
@@ -2084,6 +2599,10 @@
 <token>System.Windows.Documents.Run,new</token>
 <token>System.Windows.Documents.Paragraph,new</token>
 <token>System.Windows.Documents.ListItem,new</token>
+</entry>
+<entry count="1">
+<token>System.Windows.Documents.FixedDocument,new</token>
+<token>System.Windows.Documents.PageContent,new</token>
 </entry>
 <entry count="1772">
 <token>4.0.0.0]],Add</token>
@@ -2107,13 +2626,26 @@
 <token>System.Windows.Documents.Paragraph,new</token>
 <token>System.Windows.Documents.Run,new</token>
 </entry>
+<entry count="1">
+<token>System.Windows.Documents.InlineCollection,Add</token>
+<token>System.Windows.Documents.InlineCollection,Add</token>
+<token>System.Windows.Documents.InlineCollection,Add</token>
+<token>System.Windows.Documents.InlineCollection,Add</token>
+<token>System.Windows.Documents.Run,new</token>
+</entry>
+<entry count="1">
+<token>System.Windows.Documents.InlineCollection,Add</token>
+<token>System.Windows.Documents.InlineCollection,Add</token>
+<token>System.Windows.Documents.Run,new</token>
+<token>System.Windows.Documents.Bold,new</token>
+</entry>
 <entry count="22">
 <token>System.Windows.Documents.Run,new</token>
 <token>System.Windows.Documents.Bold,new</token>
 <token>System.Windows.Documents.Paragraph,new</token>
 <token>System.Windows.Documents.Paragraph,new</token>
 </entry>
-<entry count="36">
+<entry count="172">
 <token>4.0.0.0]],Clear</token>
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
 <token>-&gt;</token>
@@ -2131,7 +2663,7 @@
 <token>System.Windows.Documents.TableCell,new</token>
 <token>System.Windows.Documents.TableCellCollection,Add</token>
 </entry>
-<entry count="52">
+<entry count="62">
 <token>System.Windows.Documents.Run,new</token>
 <token>System.Windows.Documents.Hyperlink,new</token>
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
@@ -2142,7 +2674,7 @@
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
 <token>-&gt;</token>
 </entry>
-<entry count="18">
+<entry count="228">
 <token>System.Windows.Documents.Inline,</token>
 <token>PresentationFramework,</token>
 <token>4.0.0.0]],Clear</token>
@@ -2183,6 +2715,11 @@
 <token>4.0.0.0]],Add</token>
 <token>System.Windows.Documents.LineBreak,new</token>
 </entry>
+<entry count="6">
+<token>System.Windows.Documents.Run,new</token>
+<token>System.Windows.Documents.Paragraph,new</token>
+<token>System.Windows.Documents.Run,new</token>
+</entry>
 <entry count="2">
 <token>PresentationFramework,</token>
 <token>4.0.0.0]],Remove</token>
@@ -2196,12 +2733,21 @@
 <token>System.Windows.Documents.TextRange,new</token>
 <token>System.Windows.Documents.TextRange,Load</token>
 </entry>
+<entry count="10">
+<token>4.0.0.0]],Clear</token>
+<token>System.Windows.Documents.Run,new</token>
+</entry>
 <entry count="18">
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
 <token>-&gt;</token>
 <token>System.Windows.Documents.Block,</token>
 <token>PresentationFramework,</token>
 <token>4.0.0.0]],Clear</token>
+</entry>
+<entry count="1">
+<token>System.Windows.Documents.FlowDocument,new</token>
+<token>System.Windows.Documents.Paragraph,new</token>
+<token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
 </entry>
 <entry count="5">
 <token>System.Windows.Documents.TableCellCollection,Add</token>
@@ -2214,12 +2760,24 @@
 <token>System.Windows.Documents.Run,new</token>
 <token>System.Windows.Documents.Paragraph,new</token>
 </entry>
-<entry count="170">
+<entry count="2">
+<token>4.0.0.0]],Add</token>
+<token>System.Windows.Documents.InlineCollection,Add</token>
+<token>System.Windows.Documents.InlineCollection,Add</token>
+<token>System.Windows.Documents.InlineCollection,Add</token>
+</entry>
+<entry count="8">
+<token>PresentationFramework,</token>
+<token>4.0.0.0]],Clear</token>
+<token>System.Windows.Documents.Run,new</token>
+<token>System.Windows.Documents.Hyperlink,new</token>
+</entry>
+<entry count="172">
 <token>PresentationFramework,</token>
 <token>4.0.0.0]],Add</token>
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
 </entry>
-<entry count="107">
+<entry count="123">
 <token>System.Windows.Documents.Paragraph,new</token>
 <token>System.Windows.Documents.Run,new</token>
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
@@ -2279,13 +2837,18 @@
 <token>-&gt;</token>
 <token>System.Windows.Documents.ListItem,</token>
 </entry>
-<entry count="5736">
+<entry count="5737">
 <token>-&gt;</token>
 <token>System.Windows.Documents.Block,</token>
 <token>PresentationFramework,</token>
 <token>4.0.0.0]],Add</token>
 </entry>
-<entry count="1820">
+<entry count="1">
+<token>System.Windows.Documents.InlineCollection,Add</token>
+<token>System.Windows.Documents.Run,new</token>
+<token>System.Windows.Documents.Bold,new</token>
+</entry>
+<entry count="1847">
 <token>System.Windows.Documents.Run,new</token>
 <token>System.Windows.Documents.Hyperlink,new</token>
 </entry>
@@ -2329,14 +2892,14 @@
 <token>System.Windows.Documents.FlowDocument,new</token>
 <token>System.Windows.Documents.Paragraph,new</token>
 </entry>
-<entry count="18">
+<entry count="154">
 <token>4.0.0.0]],Clear</token>
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
 <token>-&gt;</token>
 <token>System.Windows.Documents.Inline,</token>
 <token>PresentationFramework,</token>
 </entry>
-<entry count="5756">
+<entry count="5757">
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
 <token>-&gt;</token>
 <token>System.Windows.Documents.Block,</token>
@@ -2349,13 +2912,19 @@
 <token>System.Windows.Documents.Hyperlink,new</token>
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
 </entry>
-<entry count="48">
+<entry count="4">
+<token>System.Windows.Documents.TextPointer,GetPositionAtOffset</token>
+<token>System.Windows.Documents.TextPointer,GetPositionAtOffset</token>
+<token>System.Windows.Documents.TextPointer,GetPositionAtOffset</token>
+<token>System.Windows.Documents.TextRange,new</token>
+</entry>
+<entry count="56">
 <token>PresentationFramework,</token>
 <token>4.0.0.0]],AddRange</token>
 <token>System.Windows.Documents.Run,new</token>
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
 </entry>
-<entry count="36">
+<entry count="172">
 <token>PresentationFramework,</token>
 <token>4.0.0.0]],Clear</token>
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
@@ -2366,6 +2935,26 @@
 <token>System.Windows.Documents.Run,new</token>
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
 <token>-&gt;</token>
+</entry>
+<entry count="12">
+<token>System.Windows.Documents.Section,new</token>
+<token>System.Windows.Documents.Bold,new</token>
+</entry>
+<entry count="22">
+<token>System.Windows.Documents.AdornerLayer,Add</token>
+<token>System.Windows.Documents.AdornerLayer,Remove</token>
+</entry>
+<entry count="3">
+<token>System.Windows.Documents.Inline,</token>
+<token>PresentationFramework,</token>
+<token>4.0.0.0]],Add</token>
+<token>System.Windows.Documents.InlineCollection,Add</token>
+<token>System.Windows.Documents.InlineCollection,Add</token>
+</entry>
+<entry count="1">
+<token>System.Windows.Documents.FixedDocument,new</token>
+<token>System.Windows.Documents.PageContent,new</token>
+<token>System.Windows.Documents.FixedPage,new</token>
 </entry>
 <entry count="10">
 <token>System.Windows.Documents.Paragraph,new</token>
@@ -2426,7 +3015,13 @@
 <token>System.Windows.Documents.TableRowGroup,new</token>
 <token>System.Windows.Documents.TableRow,new</token>
 </entry>
-<entry count="1074">
+<entry count="2">
+<token>System.Windows.Documents.TextRange,new</token>
+<token>System.Windows.Documents.TextRange,ApplyPropertyValue</token>
+<token>System.Windows.Documents.TextRange,ApplyPropertyValue</token>
+<token>System.Windows.Documents.TextRange,new</token>
+</entry>
+<entry count="1455">
 <token>System.Windows.Documents.Inline,</token>
 <token>PresentationFramework,</token>
 </entry>
@@ -2436,11 +3031,11 @@
 <token>System.Windows.Documents.TableRowGroupCollection,Add</token>
 <token>System.Windows.Documents.FlowDocument,new</token>
 </entry>
-<entry count="1">
+<entry count="2">
 <token>System.Windows.Documents.FlowDocument,new</token>
 <token>System.Windows.Documents.Paragraph,new</token>
 </entry>
-<entry count="154">
+<entry count="156">
 <token>-&gt;</token>
 <token>System.Windows.Documents.Inline,</token>
 <token>PresentationFramework,</token>
@@ -2453,17 +3048,39 @@
 <token>System.Windows.Documents.TableRowCollection,Add</token>
 <token>System.Windows.Documents.TableRowGroupCollection,Add</token>
 </entry>
+<entry count="30">
+<token>System.Windows.Documents.Run,new</token>
+<token>System.Windows.Documents.Run,new</token>
+<token>System.Windows.Documents.Run,new</token>
+</entry>
+<entry count="4">
+<token>System.Windows.Documents.AdornerLayer,GetAdornerLayer</token>
+<token>System.Windows.Documents.AdornerLayer,GetAdorners</token>
+<token>System.Windows.Documents.AdornerLayer,Remove</token>
+</entry>
 <entry count="16">
 <token>System.Windows.Documents.Paragraph,new</token>
 <token>System.Windows.Documents.ListItem,new</token>
 </entry>
-<entry count="157">
+<entry count="169">
 <token>System.Windows.Documents.Paragraph,new</token>
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
 <token>-&gt;</token>
 <token>System.Windows.Documents.Inline,</token>
 </entry>
-<entry count="2">
+<entry count="12">
+<token>System.Windows.Documents.InlineCollection,Add</token>
+<token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
+<token>-&gt;</token>
+<token>System.Windows.Documents.Inline,</token>
+</entry>
+<entry count="12">
+<token>System.Windows.Documents.Span,new</token>
+<token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
+<token>-&gt;</token>
+<token>System.Windows.Documents.Inline,</token>
+</entry>
+<entry count="4">
 <token>System.Windows.Documents.Run,new</token>
 <token>System.Windows.Documents.Paragraph,new</token>
 <token>System.Windows.Documents.FlowDocument,new</token>
@@ -2475,6 +3092,11 @@
 <token>System.Windows.Documents.TextRange,ApplyPropertyValue</token>
 <token>System.Windows.Documents.TextRange,ApplyPropertyValue</token>
 </entry>
+<entry count="8">
+<token>System.Windows.Documents.TextPointer,GetPositionAtOffset</token>
+<token>System.Windows.Documents.TextRange,new</token>
+<token>System.Windows.Documents.TextRange,ClearAllProperties</token>
+</entry>
 <entry count="160">
 <token>System.Windows.Documents.TextRange,GetPropertyValue</token>
 <token>System.Windows.Documents.TextElement,GetFontStyle</token>
@@ -2482,7 +3104,7 @@
 <token>System.Windows.Documents.TextElement,GetFontWeight</token>
 <token>System.Windows.Documents.TextRange,GetPropertyValue</token>
 </entry>
-<entry count="52">
+<entry count="62">
 <token>System.Windows.Documents.Run,new</token>
 <token>System.Windows.Documents.Hyperlink,new</token>
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
@@ -2494,6 +3116,13 @@
 <token>4.0.0.0]],Add</token>
 <token>System.Windows.Documents.Paragraph,new</token>
 </entry>
+<entry count="2">
+<token>System.Windows.Documents.TextRange,ApplyPropertyValue</token>
+<token>System.Windows.Documents.TextRange,ApplyPropertyValue</token>
+<token>System.Windows.Documents.TextRange,new</token>
+<token>System.Windows.Documents.TextRange,ApplyPropertyValue</token>
+<token>System.Windows.Documents.TextRange,ApplyPropertyValue</token>
+</entry>
 <entry count="1764">
 <token>System.Windows.Documents.Hyperlink,new</token>
 <token>System.Windows.Documents.BlockUIContainer,new</token>
@@ -2504,7 +3133,19 @@
 <token>System.Windows.Documents.Bold,new</token>
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
 </entry>
-<entry count="161">
+<entry count="8">
+<token>4.0.0.0]],Clear</token>
+<token>System.Windows.Documents.Run,new</token>
+<token>System.Windows.Documents.Hyperlink,new</token>
+<token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
+</entry>
+<entry count="2">
+<token>System.Windows.Documents.TextRange,ApplyPropertyValue</token>
+<token>System.Windows.Documents.TextRange,new</token>
+<token>System.Windows.Documents.TextRange,ApplyPropertyValue</token>
+<token>System.Windows.Documents.TextRange,ApplyPropertyValue</token>
+</entry>
+<entry count="188">
 <token>-&gt;</token>
 <token>System.Windows.Documents.Inline,</token>
 <token>PresentationFramework,</token>
@@ -2526,7 +3167,13 @@
 <token>System.Windows.Documents.InlineUIContainer,new</token>
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
 </entry>
-<entry count="218">
+<entry count="8">
+<token>System.Windows.Documents.Run,new</token>
+<token>System.Windows.Documents.Run,new</token>
+<token>System.Windows.Documents.Run,new</token>
+<token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
+</entry>
+<entry count="224">
 <token>System.Windows.Documents.Run,new</token>
 <token>System.Windows.Documents.Bold,new</token>
 </entry>
@@ -2548,6 +3195,12 @@
 <entry count="2">
 <token>System.Windows.Documents.TableRowGroup,new</token>
 <token>System.Windows.Documents.TableRowGroupCollection,Add</token>
+<token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
+</entry>
+<entry count="1">
+<token>System.Windows.Documents.InlineCollection,Add</token>
+<token>System.Windows.Documents.Run,new</token>
+<token>System.Windows.Documents.Bold,new</token>
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
 </entry>
 <entry count="22">
@@ -2582,13 +3235,30 @@
 <token>4.0.0.0]],Add</token>
 <token>System.Windows.Documents.FlowDocument,new</token>
 </entry>
+<entry count="8">
+<token>System.Windows.Documents.TextPointer,DeleteTextInRun</token>
+<token>System.Windows.Documents.TextRange,new</token>
+<token>System.Windows.Documents.TextRange,ClearAllProperties</token>
+<token>System.Windows.Documents.TextPointer,GetPositionAtOffset</token>
+</entry>
 <entry count="48">
 <token>System.Windows.Documents.Paragraph,new</token>
 <token>System.Windows.Documents.Section,new</token>
 <token>System.Windows.Documents.Paragraph,new</token>
 <token>System.Windows.Documents.Run,new</token>
 </entry>
-<entry count="76">
+<entry count="25">
+<token>System.Windows.Documents.Span,new</token>
+<token>System.Windows.Documents.Run,new</token>
+<token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
+</entry>
+<entry count="6">
+<token>System.Windows.Documents.Run,new</token>
+<token>System.Windows.Documents.Paragraph,new</token>
+<token>System.Windows.Documents.Run,new</token>
+<token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
+</entry>
+<entry count="82">
 <token>System.Windows.Documents.Bold,new</token>
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
 <token>-&gt;</token>
@@ -2601,7 +3271,14 @@
 <token>System.Windows.Documents.Block,</token>
 <token>PresentationFramework,</token>
 </entry>
-<entry count="170">
+<entry count="2">
+<token>System.Windows.Documents.Paragraph,new</token>
+<token>System.Windows.Documents.Run,new</token>
+<token>System.Windows.Documents.Run,new</token>
+<token>System.Windows.Documents.Run,new</token>
+<token>System.Windows.Documents.Run,new</token>
+</entry>
+<entry count="172">
 <token>PresentationFramework,</token>
 <token>4.0.0.0]],Add</token>
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
@@ -2617,7 +3294,7 @@
 <token>System.Windows.Documents.Run,new</token>
 <token>System.Windows.Documents.Paragraph,new</token>
 </entry>
-<entry count="36">
+<entry count="246">
 <token>PresentationFramework,</token>
 <token>4.0.0.0]],Clear</token>
 </entry>
@@ -2650,6 +3327,12 @@
 <token>-&gt;</token>
 <token>System.Windows.Documents.Block,</token>
 </entry>
+<entry count="2">
+<token>System.Windows.Documents.Paragraph,new</token>
+<token>System.Windows.Documents.Run,new</token>
+<token>System.Windows.Documents.InlineCollection,Add</token>
+<token>System.Windows.Documents.Paragraph,new</token>
+</entry>
 <entry count="4">
 <token>System.Windows.Documents.Bold,new</token>
 <token>System.Windows.Documents.Paragraph,new</token>
@@ -2667,12 +3350,25 @@
 <token>System.Windows.Documents.FlowDocument,new</token>
 <token>System.Windows.Documents.Run,new</token>
 </entry>
+<entry count="51">
+<token>-&gt;</token>
+<token>System.Windows.Documents.Inline,</token>
+<token>PresentationFramework,</token>
+<token>4.0.0.0]],Add</token>
+<token>System.Windows.Documents.InlineCollection,Add</token>
+</entry>
 <entry count="1798">
 <token>4.0.0.0]],Add</token>
 <token>System.Windows.Documents.Paragraph,new</token>
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
 <token>-&gt;</token>
 <token>System.Windows.Documents.Block,</token>
+</entry>
+<entry count="8">
+<token>System.Windows.Documents.Run,new</token>
+<token>System.Windows.Documents.Run,new</token>
+<token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
+<token>-&gt;</token>
 </entry>
 <entry count="2">
 <token>System.Windows.Documents.TableCell,new</token>
@@ -2686,7 +3382,7 @@
 <token>System.Windows.Documents.TextRange,new</token>
 <token>System.Windows.Documents.TextRange,ApplyPropertyValue</token>
 </entry>
-<entry count="5756">
+<entry count="5757">
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
 <token>-&gt;</token>
 <token>System.Windows.Documents.Block,</token>
@@ -2697,6 +3393,18 @@
 <token>System.Windows.Documents.TextElement,GetFontSize</token>
 <token>System.Windows.Documents.TextRange,GetPropertyValue</token>
 <token>System.Windows.Documents.TextElement,GetFontStyle</token>
+</entry>
+<entry count="22">
+<token>System.Windows.Documents.AdornerLayer,GetAdornerLayer</token>
+<token>System.Windows.Documents.AdornerLayer,Add</token>
+<token>System.Windows.Documents.AdornerLayer,Remove</token>
+</entry>
+<entry count="8">
+<token>System.Windows.Documents.TextPointer,GetPositionAtOffset</token>
+<token>System.Windows.Documents.TextRange,new</token>
+<token>System.Windows.Documents.TextPointer,DeleteTextInRun</token>
+<token>System.Windows.Documents.TextRange,new</token>
+<token>System.Windows.Documents.TextRange,ClearAllProperties</token>
 </entry>
 <entry count="20">
 <token>System.Windows.Documents.List,new</token>
@@ -2712,7 +3420,7 @@
 <token>System.Windows.Documents.TableRow,new</token>
 <token>System.Windows.Documents.TableCell,new</token>
 </entry>
-<entry count="48">
+<entry count="56">
 <token>4.0.0.0]],AddRange</token>
 <token>System.Windows.Documents.Run,new</token>
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
@@ -2742,17 +3450,32 @@
 <token>-&gt;</token>
 <token>System.Windows.Documents.Block,</token>
 </entry>
+<entry count="2">
+<token>System.Windows.Documents.TextRange,new</token>
+<token>System.Windows.Documents.TextRange,ApplyPropertyValue</token>
+<token>System.Windows.Documents.TextRange,ApplyPropertyValue</token>
+<token>System.Windows.Documents.TextRange,new</token>
+<token>System.Windows.Documents.TextRange,ApplyPropertyValue</token>
+</entry>
 <entry count="1798">
 <token>4.0.0.0]],Add</token>
 <token>System.Windows.Documents.Paragraph,new</token>
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
 <token>-&gt;</token>
 </entry>
+<entry count="2">
+<token>System.Windows.Documents.TextRange,ApplyPropertyValue</token>
+<token>System.Windows.Documents.TextRange,new</token>
+</entry>
 <entry count="1764">
 <token>System.Windows.Documents.Run,new</token>
 <token>System.Windows.Documents.Hyperlink,new</token>
 <token>System.Windows.Documents.BlockUIContainer,new</token>
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
+</entry>
+<entry count="2">
+<token>System.Windows.Documents.InlineCollection,Add</token>
+<token>System.Windows.Documents.Paragraph,new</token>
 </entry>
 <entry count="160">
 <token>System.Windows.Documents.TextRange,GetPropertyValue</token>
@@ -2765,6 +3488,18 @@
 <token>System.Windows.Documents.Span,new</token>
 <token>System.Windows.Documents.Span,new</token>
 </entry>
+<entry count="1">
+<token>System.Windows.Documents.InlineCollection,Add</token>
+<token>System.Windows.Documents.InlineCollection,Add</token>
+<token>System.Windows.Documents.InlineCollection,Add</token>
+<token>System.Windows.Documents.Run,new</token>
+<token>System.Windows.Documents.Bold,new</token>
+</entry>
+<entry count="2">
+<token>System.Windows.Documents.Run,new</token>
+<token>System.Windows.Documents.InlineCollection,Add</token>
+<token>System.Windows.Documents.Paragraph,new</token>
+</entry>
 <entry count="8">
 <token>System.Windows.Documents.InlineUIContainer,new</token>
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
@@ -2775,12 +3510,12 @@
 <token>4.0.0.0]],Add</token>
 <token>System.Windows.Documents.TableCellCollection,Add</token>
 </entry>
-<entry count="562">
+<entry count="596">
 <token>PresentationFramework,</token>
 <token>4.0.0.0]],Add</token>
 <token>System.Windows.Documents.Run,new</token>
 </entry>
-<entry count="76">
+<entry count="82">
 <token>System.Windows.Documents.Run,new</token>
 <token>System.Windows.Documents.Bold,new</token>
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
@@ -2793,6 +3528,10 @@
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
 <token>-&gt;</token>
 </entry>
+<entry count="7">
+<token>System.Windows.Documents.Adorner,new</token>
+<token>System.Windows.Documents.AdornerLayer,GetAdornerLayer</token>
+</entry>
 <entry count="8">
 <token>4.0.0.0]],Add</token>
 <token>System.Windows.Documents.InlineUIContainer,new</token>
@@ -2801,7 +3540,7 @@
 <token>System.Windows.Documents.Span,new</token>
 <token>System.Windows.Documents.Span,new</token>
 </entry>
-<entry count="154">
+<entry count="156">
 <token>System.Windows.Documents.Inline,</token>
 <token>PresentationFramework,</token>
 <token>4.0.0.0]],Add</token>
@@ -2811,13 +3550,17 @@
 <token>4.0.0.0]],AddRange</token>
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
 </entry>
+<entry count="25">
+<token>System.Windows.Documents.Span,new</token>
+<token>System.Windows.Documents.Run,new</token>
+</entry>
 <entry count="1772">
 <token>PresentationFramework,</token>
 <token>4.0.0.0]],Add</token>
 <token>System.Windows.Documents.Section,new</token>
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
 </entry>
-<entry count="462">
+<entry count="496">
 <token>4.0.0.0]],Add</token>
 <token>System.Windows.Documents.Run,new</token>
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
@@ -2834,11 +3577,11 @@
 <token>System.Windows.Documents.TableRowGroupCollection,Add</token>
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
 </entry>
-<entry count="11">
+<entry count="13">
 <token>System.Windows.Documents.Paragraph,new</token>
 <token>System.Windows.Documents.FlowDocument,new</token>
 </entry>
-<entry count="52">
+<entry count="62">
 <token>System.Windows.Documents.Run,new</token>
 <token>System.Windows.Documents.Hyperlink,new</token>
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
@@ -2848,6 +3591,11 @@
 <entry count="11">
 <token>System.Windows.Documents.FlowDocument,new</token>
 <token>System.Windows.Documents.FlowDocument,new</token>
+</entry>
+<entry count="2">
+<token>System.Windows.Documents.TextRange,ApplyPropertyValue</token>
+<token>System.Windows.Documents.TextRange,new</token>
+<token>System.Windows.Documents.TextRange,ApplyPropertyValue</token>
 </entry>
 <entry count="8">
 <token>4.0.0.0]],Add</token>
@@ -2855,20 +3603,30 @@
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
 </entry>
 <entry count="8">
+<token>System.Windows.Documents.TextRange,new</token>
+<token>System.Windows.Documents.TextPointer,DeleteTextInRun</token>
+<token>System.Windows.Documents.TextRange,new</token>
+<token>System.Windows.Documents.TextRange,ClearAllProperties</token>
+</entry>
+<entry count="8">
 <token>System.Windows.Documents.Paragraph,new</token>
 <token>System.Windows.Documents.Figure,new</token>
 </entry>
-<entry count="1074">
+<entry count="1455">
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
 <token>-&gt;</token>
 <token>System.Windows.Documents.Inline,</token>
 <token>PresentationFramework,</token>
 </entry>
-<entry count="4">
+<entry count="6">
 <token>System.Windows.Documents.Paragraph,new</token>
 <token>System.Windows.Documents.LineBreak,new</token>
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
 <token>-&gt;</token>
+</entry>
+<entry count="36">
+<token>System.Windows.Documents.Span,new</token>
+<token>System.Windows.Documents.InlineCollection,Add</token>
 </entry>
 <entry count="10">
 <token>System.Windows.Documents.Block,</token>
@@ -2876,17 +3634,35 @@
 <token>4.0.0.0]],Add</token>
 <token>System.Windows.Documents.FlowDocument,new</token>
 </entry>
-<entry count="140">
+<entry count="174">
 <token>-&gt;</token>
 <token>System.Windows.Documents.Inline,</token>
 <token>PresentationFramework,</token>
 <token>4.0.0.0]],Add</token>
 <token>System.Windows.Documents.Run,new</token>
 </entry>
-<entry count="895">
+<entry count="8">
+<token>System.Windows.Documents.TextRange,new</token>
+<token>System.Windows.Documents.TextPointer,DeleteTextInRun</token>
+<token>System.Windows.Documents.TextRange,new</token>
+</entry>
+<entry count="8">
+<token>System.Windows.Documents.Run,new</token>
+<token>System.Windows.Documents.Run,new</token>
+<token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
+<token>-&gt;</token>
+<token>System.Windows.Documents.Inline,</token>
+</entry>
+<entry count="1029">
 <token>System.Windows.Documents.Inline,</token>
 <token>PresentationFramework,</token>
 <token>4.0.0.0]],Add</token>
+</entry>
+<entry count="12">
+<token>System.Windows.Documents.Span,new</token>
+<token>System.Windows.Documents.InlineCollection,Add</token>
+<token>System.Windows.Documents.InlineCollection,Add</token>
+<token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
 </entry>
 <entry count="20">
 <token>-&gt;</token>
@@ -2894,16 +3670,20 @@
 <token>PresentationFramework,</token>
 <token>4.0.0.0]],Add</token>
 </entry>
+<entry count="70">
+<token>System.Windows.Documents.Run,new</token>
+<token>System.Windows.Documents.Run,new</token>
+</entry>
 <entry count="4">
 <token>System.Windows.Documents.Run,new</token>
 <token>System.Windows.Documents.Span,new</token>
 </entry>
-<entry count="52">
+<entry count="62">
 <token>System.Windows.Documents.Hyperlink,new</token>
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
 <token>-&gt;</token>
 </entry>
-<entry count="40">
+<entry count="59">
 <token>System.Windows.Documents.TextRange,new</token>
 <token>System.Windows.Documents.TextRange,ApplyPropertyValue</token>
 </entry>
@@ -2914,7 +3694,7 @@
 <token>System.Windows.Documents.Paragraph,new</token>
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
 </entry>
-<entry count="895">
+<entry count="1029">
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
 <token>-&gt;</token>
 <token>System.Windows.Documents.Inline,</token>
@@ -2925,6 +3705,13 @@
 <token>System.Windows.Documents.TableColumnCollection,Add</token>
 <token>System.Windows.Documents.TableRowGroup,new</token>
 <token>System.Windows.Documents.TableRowGroupCollection,Add</token>
+</entry>
+<entry count="16">
+<token>System.Windows.Documents.TextRange,new</token>
+<token>System.Windows.Documents.TextRange,ClearAllProperties</token>
+<token>System.Windows.Documents.TextPointer,GetPositionAtOffset</token>
+<token>System.Windows.Documents.TextRange,new</token>
+<token>System.Windows.Documents.TextRange,ApplyPropertyValue</token>
 </entry>
 <entry count="10">
 <token>System.Windows.Documents.Paragraph,new</token>
@@ -2942,12 +3729,16 @@
 <token>System.Windows.Documents.Hyperlink,new</token>
 <token>System.Windows.Documents.BlockUIContainer,new</token>
 </entry>
-<entry count="48">
+<entry count="56">
 <token>PresentationFramework,</token>
 <token>4.0.0.0]],AddRange</token>
 <token>System.Windows.Documents.Run,new</token>
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
 <token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>System.Windows.Documents.TextRange,CanLoad</token>
+<token>System.Windows.Documents.TextRange,Load</token>
 </entry>
 <entry count="4">
 <token>System.Windows.Documents.Run,new</token>
@@ -2956,11 +3747,21 @@
 <token>System.Windows.Documents.LineBreak,new</token>
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
 </entry>
+<entry count="16">
+<token>System.Windows.Documents.TextRange,new</token>
+<token>System.Windows.Documents.TextRange,ClearAllProperties</token>
+</entry>
 <entry count="4">
 <token>System.Windows.Documents.TableRow,new</token>
 <token>System.Windows.Documents.TableRowCollection,Add</token>
 </entry>
-<entry count="1074">
+<entry count="3">
+<token>PresentationFramework,</token>
+<token>4.0.0.0]],Add</token>
+<token>System.Windows.Documents.InlineCollection,Add</token>
+<token>System.Windows.Documents.InlineCollection,Add</token>
+</entry>
+<entry count="1455">
 <token>-&gt;</token>
 <token>System.Windows.Documents.Inline,</token>
 </entry>
@@ -2991,7 +3792,13 @@
 <token>-&gt;</token>
 <token>System.Windows.Documents.Inline,</token>
 </entry>
-<entry count="140">
+<entry count="2">
+<token>PresentationFramework,</token>
+<token>4.0.0.0]],Clear</token>
+<token>System.Windows.Documents.Run,new</token>
+<token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
+</entry>
+<entry count="174">
 <token>System.Windows.Documents.Inline,</token>
 <token>PresentationFramework,</token>
 <token>4.0.0.0]],Add</token>
@@ -3004,17 +3811,30 @@
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
 <token>-&gt;</token>
 </entry>
+<entry count="12">
+<token>System.Windows.Documents.Span,new</token>
+<token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
+</entry>
 <entry count="22">
 <token>System.Windows.Documents.Paragraph,new</token>
 <token>System.Windows.Documents.Paragraph,new</token>
 </entry>
-<entry count="657">
+<entry count="764">
 <token>System.Windows.Documents.Run,new</token>
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
 </entry>
-<entry count="8">
+<entry count="2">
+<token>System.Windows.Documents.Run,new</token>
+<token>System.Windows.Documents.InlineCollection,Add</token>
+</entry>
+<entry count="231">
 <token>System.Windows.Documents.AdornerLayer,GetAdornerLayer</token>
 <token>System.Windows.Documents.AdornerLayer,Add</token>
+</entry>
+<entry count="8">
+<token>System.Windows.Documents.Run,new</token>
+<token>System.Windows.Documents.Run,new</token>
+<token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
 </entry>
 <entry count="160">
 <token>System.Windows.Documents.TextElement,GetFontSize</token>
@@ -3081,7 +3901,7 @@
 <token>System.Windows.Documents.TableCell,new</token>
 <token>System.Windows.Documents.Run,new</token>
 </entry>
-<entry count="107">
+<entry count="123">
 <token>System.Windows.Documents.Paragraph,new</token>
 <token>System.Windows.Documents.Run,new</token>
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
@@ -3093,6 +3913,10 @@
 <token>System.Windows.Documents.Run,new</token>
 <token>System.Windows.Documents.Paragraph,new</token>
 </entry>
+<entry count="1">
+<token>System.Windows.Documents.FixedPage,new</token>
+<token>System.Windows.Documents.PageContentCollection,Add</token>
+</entry>
 <entry count="40">
 <token>System.Windows.Documents.TextRange,new</token>
 <token>System.Windows.Documents.TextPointer,CompareTo</token>
@@ -3102,10 +3926,20 @@
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
 <token>-&gt;</token>
 </entry>
+<entry count="4">
+<token>System.Windows.Documents.AdornerLayer,GetAdorners</token>
+<token>System.Windows.Documents.AdornerLayer,Remove</token>
+</entry>
 <entry count="22">
 <token>System.Windows.Documents.Bold,new</token>
 <token>System.Windows.Documents.Paragraph,new</token>
 <token>System.Windows.Documents.Paragraph,new</token>
+</entry>
+<entry count="1">
+<token>System.Windows.Documents.InlineCollection,Add</token>
+<token>System.Windows.Documents.InlineCollection,Add</token>
+<token>System.Windows.Documents.InlineCollection,Add</token>
+<token>System.Windows.Documents.InlineCollection,Add</token>
 </entry>
 <entry count="8">
 <token>System.Windows.Documents.TableRowGroupCollection,Add</token>
@@ -3117,5 +3951,9 @@
 <token>4.0.0.0]],AddRange</token>
 <token>System.Windows.Documents.Paragraph,new</token>
 <token>System.Windows.Documents.TextElementCollection`1[[TextElementType</token>
+</entry>
+<entry count="10">
+<token>4.0.0.0]],InsertBefore</token>
+<token>System.Windows.Documents.FlowDocument,new</token>
 </entry>
 </dictionary>

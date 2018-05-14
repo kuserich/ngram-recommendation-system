@@ -1,30 +1,489 @@
 <?xml version="1.0" encoding="UTF-8"?><dictionary case_sensitive="false">
+<entry count="2">
+<token>SharpDX.RectangleF,new</token>
+<token>SharpDX.Vector2,new</token>
+<token>SharpDX.Vector2,new</token>
+<token>SharpDX.DisposeBase,Dispose</token>
+</entry>
+<entry count="2">
+<token>SharpDX.Matrix,new</token>
+<token>SharpDX.Matrix,Invert</token>
+<token>SharpDX.Matrix,Transpose</token>
+</entry>
+<entry count="20">
+<token>SharpDX.Utilities,ReadStream</token>
+<token>SharpDX.DataStream,new</token>
+</entry>
+<entry count="1">
+<token>SharpDX.Vector3,Dot</token>
+<token>SharpDX.Vector3,Dot</token>
+<token>SharpDX.Matrix,new</token>
+</entry>
+<entry count="1">
+<token>SharpDX.Vector3,Cross</token>
+<token>SharpDX.Vector3,Normalize</token>
+<token>SharpDX.Vector3,Cross</token>
+<token>SharpDX.Vector3,Dot</token>
+</entry>
+<entry count="10">
+<token>SharpDX.DataStream,Write</token>
+<token>SharpDX.DataStream,new</token>
+<token>SharpDX.DataStream,Write</token>
+</entry>
+<entry count="2">
+<token>SharpDX.Matrix,Transpose</token>
+<token>SharpDX.Matrix,Transpose</token>
+</entry>
 <entry count="5">
 <token>SharpDX.Vector2,new</token>
 <token>SharpDX.Matrix3x2,TransformPoint</token>
 </entry>
-<entry count="15">
-<token>SharpDX.Matrix3x2,new</token>
-<token>SharpDX.Matrix3x2,Multiply</token>
+<entry count="2">
+<token>SharpDX.Color4,new</token>
+<token>SharpDX.DataStream,Write</token>
+<token>SharpDX.DataStream,Write</token>
+<token>SharpDX.DataStream,Write</token>
+<token>SharpDX.DataStream,Write</token>
 </entry>
-<entry count="5">
+<entry count="2">
+<token>SharpDX.Matrix,new</token>
+<token>SharpDX.Matrix,Invert</token>
+<token>SharpDX.Matrix,Transpose</token>
+<token>SharpDX.Matrix,Transpose</token>
+</entry>
+<entry count="72">
+<token>SharpDX.DataStream,Seek</token>
+<token>SharpDX.DataStream,Read</token>
+<token>SharpDX.DataStream,Seek</token>
+</entry>
+<entry count="48">
+<token>SharpDX.ColorBGRA,new</token>
+<token>SharpDX.DisposeBase,Dispose</token>
+</entry>
+<entry count="2">
+<token>SharpDX.Vector3,Normalize</token>
+<token>SharpDX.Vector3,Cross</token>
+</entry>
+<entry count="1">
+<token>SharpDX.Size2,new</token>
+<token>SharpDX.Size2,new</token>
+</entry>
+<entry count="3">
+<token>SharpDX.Utilities,AllocateClearedMemory</token>
+<token>SharpDX.Utilities,CopyMemory</token>
+</entry>
+<entry count="1">
+<token>SharpDX.Vector3,Normalize</token>
+<token>SharpDX.Vector3,Cross</token>
+<token>SharpDX.Vector3,Normalize</token>
+<token>SharpDX.Vector3,Cross</token>
+</entry>
+<entry count="16">
+<token>SharpDX.DataStream,Write</token>
+<token>SharpDX.DataStream,Write</token>
+<token>SharpDX.Int4,new</token>
+</entry>
+<entry count="6">
+<token>SharpDX.DisposeBase,Dispose</token>
+<token>SharpDX.DisposeBase,Dispose</token>
+<token>SharpDX.DisposeBase,Dispose</token>
+<token>SharpDX.DisposeBase,Dispose</token>
+</entry>
+<entry count="4">
+<token>SharpDX.DataStream,new</token>
+<token>SharpDX.DataStream,ReadRange</token>
+</entry>
+<entry count="4">
+<token>SharpDX.Matrix,new</token>
+<token>SharpDX.Quaternion,RotationMatrix</token>
+</entry>
+<entry count="1">
+<token>SharpDX.Vector3,Cross</token>
+<token>SharpDX.Vector3,Dot</token>
+<token>SharpDX.Vector3,Dot</token>
+<token>SharpDX.Vector3,Dot</token>
+</entry>
+<entry count="148">
+<token>SharpDX.DataStream,Write</token>
+<token>SharpDX.DataStream,Write</token>
+<token>SharpDX.DataStream,Write</token>
+</entry>
+<entry count="2">
+<token>SharpDX.Matrix,Invert</token>
+<token>SharpDX.Matrix,Transpose</token>
+</entry>
+<entry count="144">
+<token>SharpDX.DataStream,Seek</token>
+<token>SharpDX.DataStream,Read</token>
+</entry>
+<entry count="9">
+<token>SharpDX.DataStream,new</token>
+<token>SharpDX.DataStream,WriteRange</token>
+</entry>
+<entry count="24">
+<token>SharpDX.Rectangle,new</token>
+<token>SharpDX.DataStream,Seek</token>
+<token>SharpDX.DataStream,Read</token>
+<token>SharpDX.DataStream,Seek</token>
+</entry>
+<entry count="1">
+<token>SharpDX.Vector3,Cross</token>
+<token>SharpDX.Vector3,Normalize</token>
+</entry>
+<entry count="2">
+<token>SharpDX.Vector3,new</token>
+<token>SharpDX.Matrix,RotationAxis</token>
+</entry>
+<entry count="3">
+<token>SharpDX.Viewport,new</token>
+<token>SharpDX.Viewport,new</token>
+</entry>
+<entry count="17">
 <token>SharpDX.Vector2,new</token>
 <token>SharpDX.Vector2,new</token>
-</entry>
-<entry count="5">
-<token>SharpDX.Matrix3x2,Scaling</token>
-<token>SharpDX.Matrix3x2,Multiply</token>
 </entry>
 <entry count="20">
 <token>SharpDX.Vector2,new</token>
 <token>SharpDX.Size2F,new</token>
 </entry>
 <entry count="5">
+<token>SharpDX.Matrix3x2,Translation</token>
+<token>SharpDX.Matrix3x2,Multiply</token>
+</entry>
+<entry count="16">
+<token>SharpDX.DataStream,Write</token>
+<token>SharpDX.DataStream,Write</token>
+<token>SharpDX.DataStream,Write</token>
+<token>SharpDX.DataStream,Write</token>
+<token>SharpDX.DataStream,Write</token>
+</entry>
+<entry count="12602">
+<token>SharpDX.RectangleF,new</token>
+<token>SharpDX.Vector2,new</token>
+</entry>
+<entry count="2">
+<token>SharpDX.RectangleF,new</token>
+<token>SharpDX.RectangleF,new</token>
+<token>SharpDX.Vector2,new</token>
+</entry>
+<entry count="20">
+<token>SharpDX.DataStream,new</token>
+<token>SharpDX.DataStream,Write</token>
+<token>SharpDX.DataStream,new</token>
+</entry>
+<entry count="1">
+<token>SharpDX.Vector3,Cross</token>
+<token>SharpDX.Vector3,Normalize</token>
+<token>SharpDX.Vector3,Cross</token>
+</entry>
+<entry count="6302">
+<token>SharpDX.Vector2,new</token>
+<token>SharpDX.DisposeBase,Dispose</token>
+</entry>
+<entry count="14">
+<token>SharpDX.Color3,new</token>
+<token>SharpDX.Color4,new</token>
+</entry>
+<entry count="2">
+<token>SharpDX.Color4,new</token>
+<token>SharpDX.DataStream,Write</token>
+</entry>
+<entry count="2">
+<token>SharpDX.RectangleF,new</token>
+<token>SharpDX.RectangleF,new</token>
+</entry>
+<entry count="31">
+<token>SharpDX.DisposeBase,Dispose</token>
+<token>SharpDX.DisposeBase,Dispose</token>
+</entry>
+<entry count="2">
+<token>SharpDX.Matrix,Invert</token>
+<token>SharpDX.Matrix,Transpose</token>
+<token>SharpDX.Matrix,Transpose</token>
+</entry>
+<entry count="4">
+<token>SharpDX.Utilities,CompareMemory</token>
+<token>SharpDX.DataStream,Write</token>
+</entry>
+<entry count="2">
+<token>SharpDX.RectangleF,new</token>
+<token>SharpDX.RectangleF,new</token>
+<token>SharpDX.Vector2,new</token>
+<token>SharpDX.Vector2,new</token>
+</entry>
+<entry count="30">
+<token>SharpDX.DataStream,new</token>
+<token>SharpDX.DataStream,Write</token>
+</entry>
+<entry count="1">
+<token>SharpDX.Vector3,Cross</token>
+<token>SharpDX.Vector3,Dot</token>
+<token>SharpDX.Vector3,Dot</token>
+</entry>
+<entry count="15">
+<token>SharpDX.Matrix3x2,new</token>
+<token>SharpDX.Matrix3x2,Multiply</token>
+</entry>
+<entry count="4">
+<token>SharpDX.RectangleF,new</token>
+<token>SharpDX.DisposeBase,Dispose</token>
+</entry>
+<entry count="2">
+<token>SharpDX.Color4,new</token>
+<token>SharpDX.DataStream,Write</token>
+<token>SharpDX.DataStream,Write</token>
+</entry>
+<entry count="72">
+<token>SharpDX.Rectangle,new</token>
+<token>SharpDX.DataStream,Seek</token>
+</entry>
+<entry count="1">
+<token>SharpDX.Vector3,Dot</token>
+<token>SharpDX.Matrix,new</token>
+</entry>
+<entry count="1544">
+<token>SharpDX.Utilities,CopyMemory</token>
+<token>SharpDX.Utilities,CopyMemory</token>
+</entry>
+<entry count="20">
+<token>SharpDX.DataStream,Write</token>
+<token>SharpDX.DataStream,new</token>
+</entry>
+<entry count="3">
+<token>SharpDX.Viewport,new</token>
+<token>SharpDX.ColorBGRA,new</token>
+</entry>
+<entry count="72">
+<token>SharpDX.DataStream,Read</token>
+<token>SharpDX.DataStream,Seek</token>
+</entry>
+<entry count="10">
+<token>SharpDX.Utilities,ReadStream</token>
+<token>SharpDX.DataStream,new</token>
+<token>SharpDX.DataStream,Write</token>
+<token>SharpDX.DataStream,new</token>
+<token>SharpDX.DataStream,Write</token>
+</entry>
+<entry count="16">
+<token>SharpDX.DataStream,Write</token>
+<token>SharpDX.DataStream,Write</token>
+<token>SharpDX.DataStream,Write</token>
+<token>SharpDX.Int4,new</token>
+</entry>
+<entry count="2">
+<token>SharpDX.RectangleF,new</token>
+<token>SharpDX.Vector2,new</token>
+<token>SharpDX.Vector2,new</token>
+</entry>
+<entry count="1">
+<token>SharpDX.Vector3,Normalize</token>
+<token>SharpDX.Vector3,Cross</token>
+<token>SharpDX.Vector3,Dot</token>
+</entry>
+<entry count="1">
+<token>SharpDX.Vector3,Dot</token>
+<token>SharpDX.Vector3,Dot</token>
+<token>SharpDX.Vector3,Dot</token>
+<token>SharpDX.Matrix,new</token>
+</entry>
+<entry count="5">
+<token>SharpDX.Matrix3x2,Scaling</token>
+<token>SharpDX.Matrix3x2,Multiply</token>
+</entry>
+<entry count="1">
+<token>SharpDX.Vector3,Normalize</token>
+<token>SharpDX.Vector3,Cross</token>
+<token>SharpDX.Vector3,Normalize</token>
+<token>SharpDX.Vector3,Cross</token>
+<token>SharpDX.Vector3,Dot</token>
+</entry>
+<entry count="20">
+<token>SharpDX.Utilities,ReadStream</token>
+<token>SharpDX.DataStream,new</token>
+<token>SharpDX.DataStream,Write</token>
+</entry>
+<entry count="10">
+<token>SharpDX.DataStream,new</token>
+<token>SharpDX.DataStream,Write</token>
+<token>SharpDX.DataStream,new</token>
+<token>SharpDX.DataStream,Write</token>
+</entry>
+<entry count="4">
+<token>SharpDX.RectangleF,new</token>
+<token>SharpDX.DataStream,new</token>
+<token>SharpDX.DataStream,ReadRange</token>
+</entry>
+<entry count="2">
+<token>SharpDX.Viewport,new</token>
+<token>SharpDX.Color4,new</token>
+</entry>
+<entry count="30">
+<token>SharpDX.Vector3,new</token>
+<token>SharpDX.Vector3,new</token>
+</entry>
+<entry count="1">
+<token>SharpDX.Vector3,Cross</token>
+<token>SharpDX.Vector3,Dot</token>
+<token>SharpDX.Vector3,Dot</token>
+<token>SharpDX.Vector3,Dot</token>
+<token>SharpDX.Matrix,new</token>
+</entry>
+<entry count="20">
+<token>SharpDX.Utilities,ReadStream</token>
+<token>SharpDX.DataStream,new</token>
+<token>SharpDX.DataStream,Write</token>
+<token>SharpDX.DataStream,new</token>
+</entry>
+<entry count="2">
+<token>SharpDX.Vector3,Dot</token>
+<token>SharpDX.Vector3,Dot</token>
+</entry>
+<entry count="3">
+<token>SharpDX.Viewport,new</token>
+<token>SharpDX.DisposeBase,Dispose</token>
+</entry>
+<entry count="224">
+<token>SharpDX.DataStream,Write</token>
+<token>SharpDX.DataStream,Write</token>
+</entry>
+<entry count="1">
+<token>SharpDX.Vector3,Normalize</token>
+<token>SharpDX.Vector3,Cross</token>
+<token>SharpDX.Vector3,Dot</token>
+<token>SharpDX.Vector3,Dot</token>
+</entry>
+<entry count="16">
+<token>SharpDX.DataStream,Write</token>
+<token>SharpDX.Int4,new</token>
+</entry>
+<entry count="5">
 <token>SharpDX.Matrix3x2,Rotation</token>
 <token>SharpDX.Matrix3x2,Multiply</token>
 </entry>
+<entry count="2">
+<token>SharpDX.Matrix,new</token>
+<token>SharpDX.Matrix,Invert</token>
+</entry>
+<entry count="6300">
+<token>SharpDX.RectangleF,new</token>
+<token>SharpDX.Vector2,new</token>
+<token>SharpDX.DisposeBase,Dispose</token>
+</entry>
+<entry count="3">
+<token>SharpDX.Utilities,CopyMemory</token>
+<token>SharpDX.Utilities,FreeMemory</token>
+</entry>
+<entry count="1">
+<token>SharpDX.Vector3,Cross</token>
+<token>SharpDX.Vector3,Dot</token>
+</entry>
+<entry count="1">
+<token>SharpDX.Vector3,Cross</token>
+<token>SharpDX.Vector3,Normalize</token>
+<token>SharpDX.Vector3,Cross</token>
+<token>SharpDX.Vector3,Dot</token>
+<token>SharpDX.Vector3,Dot</token>
+</entry>
+<entry count="1">
+<token>SharpDX.Vector3,Normalize</token>
+<token>SharpDX.Vector3,Cross</token>
+<token>SharpDX.Vector3,Dot</token>
+<token>SharpDX.Vector3,Dot</token>
+<token>SharpDX.Vector3,Dot</token>
+</entry>
+<entry count="3">
+<token>SharpDX.Utilities,AllocateClearedMemory</token>
+<token>SharpDX.Utilities,CopyMemory</token>
+<token>SharpDX.Utilities,FreeMemory</token>
+</entry>
+<entry count="3">
+<token>SharpDX.Utilities,SizeOf</token>
+<token>SharpDX.Utilities,SizeOf</token>
+</entry>
+<entry count="3">
+<token>SharpDX.Result,new</token>
+<token>SharpDX.Result,CheckError</token>
+</entry>
+<entry count="16">
+<token>SharpDX.DataStream,Write</token>
+<token>SharpDX.DataStream,Write</token>
+<token>SharpDX.DataStream,Write</token>
+<token>SharpDX.DataStream,Write</token>
+<token>SharpDX.Int4,new</token>
+</entry>
+<entry count="4">
+<token>SharpDX.RectangleF,new</token>
+<token>SharpDX.DataStream,new</token>
+</entry>
+<entry count="6">
+<token>SharpDX.Bool,ToString</token>
+<token>SharpDX.Bool,ToString</token>
+</entry>
+<entry count="9">
+<token>SharpDX.DisposeBase,Dispose</token>
+<token>SharpDX.DisposeBase,Dispose</token>
+<token>SharpDX.DisposeBase,Dispose</token>
+</entry>
 <entry count="5">
-<token>SharpDX.Matrix3x2,Translation</token>
-<token>SharpDX.Matrix3x2,Multiply</token>
+<token>SharpDX.Result,new</token>
+<token>SharpDX.Result,new</token>
+</entry>
+<entry count="6">
+<token>SharpDX.DisposeBase,Dispose</token>
+<token>SharpDX.Component,Dispose</token>
+</entry>
+<entry count="2">
+<token>SharpDX.Vector2,new</token>
+<token>SharpDX.Vector2,new</token>
+<token>SharpDX.DisposeBase,Dispose</token>
+</entry>
+<entry count="2">
+<token>SharpDX.RectangleF,new</token>
+<token>SharpDX.RectangleF,new</token>
+<token>SharpDX.Vector2,new</token>
+<token>SharpDX.Vector2,new</token>
+<token>SharpDX.DisposeBase,Dispose</token>
+</entry>
+<entry count="6">
+<token>SharpDX.Utilities,SizeOf</token>
+<token>SharpDX.Utilities,Write</token>
+</entry>
+<entry count="48">
+<token>SharpDX.Rectangle,new</token>
+<token>SharpDX.DataStream,Seek</token>
+<token>SharpDX.DataStream,Read</token>
+</entry>
+<entry count="2">
+<token>SharpDX.Color4,new</token>
+<token>SharpDX.DataStream,Write</token>
+<token>SharpDX.DataStream,Write</token>
+<token>SharpDX.DataStream,Write</token>
+</entry>
+<entry count="1">
+<token>SharpDX.Matrix,Transpose</token>
+<token>SharpDX.Vector3,TransformCoordinate</token>
+</entry>
+<entry count="82">
+<token>SharpDX.DataStream,Write</token>
+<token>SharpDX.DataStream,Write</token>
+<token>SharpDX.DataStream,Write</token>
+<token>SharpDX.DataStream,Write</token>
+</entry>
+<entry count="1">
+<token>SharpDX.Vector3,Normalize</token>
+<token>SharpDX.Vector3,Cross</token>
+<token>SharpDX.Vector3,Normalize</token>
+</entry>
+<entry count="4">
+<token>SharpDX.DisposeBase,Dispose</token>
+<token>SharpDX.DisposeBase,Dispose</token>
+<token>SharpDX.DisposeBase,Dispose</token>
+<token>SharpDX.DisposeBase,Dispose</token>
+<token>SharpDX.DisposeBase,Dispose</token>
+</entry>
+<entry count="1">
+<token>SharpDX.Vector3,Dot</token>
+<token>SharpDX.Vector3,Dot</token>
+<token>SharpDX.Vector3,Dot</token>
 </entry>
 </dictionary>

@@ -1,53 +1,132 @@
 <?xml version="1.0" encoding="UTF-8"?><dictionary case_sensitive="false">
-<entry count="4">
+<entry count="21">
 <token>System.Net.NetworkInformation.NetworkInterface,GetPhysicalAddress</token>
 <token>System.Net.NetworkInformation.PhysicalAddress,GetAddressBytes</token>
 </entry>
-<entry count="2">
-<token>System.Net.NetworkInformation.NetworkInterface,Supports</token>
-<token>System.Net.NetworkInformation.NetworkInterface,Supports</token>
-<token>System.Net.NetworkInformation.NetworkInterface,GetIPProperties</token>
-</entry>
-<entry count="4">
+<entry count="16">
 <token>System.Net.NetworkInformation.Ping,new</token>
 <token>System.Net.NetworkInformation.PingOptions,new</token>
 </entry>
-<entry count="4">
-<token>System.Net.NetworkInformation.Ping,new</token>
-<token>System.Net.NetworkInformation.PingOptions,new</token>
-<token>System.Net.NetworkInformation.Ping,Send</token>
-</entry>
-<entry count="10">
-<token>System.Net.NetworkInformation.NetworkInterface,GetAllNetworkInterfaces</token>
-<token>System.Net.NetworkInformation.NetworkInterface,GetIPProperties</token>
-</entry>
-<entry count="2">
+<entry count="312">
 <token>System.Net.NetworkInformation.IPGlobalProperties,GetIPGlobalProperties</token>
 <token>System.Net.NetworkInformation.NetworkInterface,GetAllNetworkInterfaces</token>
-</entry>
-<entry count="2">
 <token>System.Net.NetworkInformation.NetworkInterface,Supports</token>
-<token>System.Net.NetworkInformation.NetworkInterface,Supports</token>
+<token>System.Net.NetworkInformation.NetworkInterface,GetIPProperties</token>
 </entry>
-<entry count="1">
+<entry count="8">
 <token>System.Net.NetworkInformation.IPGlobalProperties,GetIPGlobalProperties</token>
 <token>System.Net.NetworkInformation.IPGlobalProperties,GetActiveTcpConnections</token>
 </entry>
-<entry count="4">
-<token>System.Net.NetworkInformation.PingOptions,new</token>
-<token>System.Net.NetworkInformation.Ping,Send</token>
+<entry count="312">
+<token>System.Net.NetworkInformation.IPGlobalProperties,GetIPGlobalProperties</token>
+<token>System.Net.NetworkInformation.NetworkInterface,GetAllNetworkInterfaces</token>
+<token>System.Net.NetworkInformation.NetworkInterface,Supports</token>
 </entry>
 <entry count="2">
+<token>System.Net.NetworkInformation.NetworkInterface,Supports</token>
 <token>System.Net.NetworkInformation.NetworkInterface,Supports</token>
 <token>System.Net.NetworkInformation.NetworkInterface,GetIPProperties</token>
 </entry>
 <entry count="4">
 <token>System.Net.NetworkInformation.NetworkInterface,GetAllNetworkInterfaces</token>
 <token>System.Net.NetworkInformation.NetworkInterface,GetPhysicalAddress</token>
-<token>System.Net.NetworkInformation.PhysicalAddress,GetAddressBytes</token>
+<token>System.Net.NetworkInformation.NetworkInterface,GetIPProperties</token>
+</entry>
+<entry count="312">
+<token>System.Net.NetworkInformation.NetworkInterface,GetAllNetworkInterfaces</token>
+<token>System.Net.NetworkInformation.NetworkInterface,Supports</token>
+</entry>
+<entry count="2">
+<token>System.Net.NetworkInformation.NetworkInterface,GetAllNetworkInterfaces</token>
+<token>System.Net.NetworkInformation.NetworkInterface,GetPhysicalAddress</token>
+<token>System.Net.NetworkInformation.PhysicalAddress,ToString</token>
+</entry>
+<entry count="16">
+<token>System.Net.NetworkInformation.Ping,new</token>
+<token>System.Net.NetworkInformation.PingOptions,new</token>
+<token>System.Net.NetworkInformation.Ping,Send</token>
+</entry>
+<entry count="4777">
+<token>System.Net.NetworkInformation.NetworkInterface,GetAllNetworkInterfaces</token>
+<token>System.Net.NetworkInformation.NetworkInterface,GetIPProperties</token>
+</entry>
+<entry count="4">
+<token>System.Net.NetworkInformation.PingOptions,new</token>
+<token>System.Net.NetworkInformation.Ping,new</token>
+<token>System.Net.NetworkInformation.Ping,Send</token>
+</entry>
+<entry count="56">
+<token>System.Net.NetworkInformation.NetworkInterface,GetIsNetworkAvailable</token>
+<token>System.Net.NetworkInformation.NetworkInterface,GetAllNetworkInterfaces</token>
+<token>System.Net.NetworkInformation.NetworkInterface,GetIPProperties</token>
+</entry>
+<entry count="140">
+<token>System.Net.NetworkInformation.NetworkInterface,GetIsNetworkAvailable</token>
+<token>System.Net.NetworkInformation.NetworkInterface,GetAllNetworkInterfaces</token>
+</entry>
+<entry count="314">
+<token>System.Net.NetworkInformation.NetworkInterface,Supports</token>
+<token>System.Net.NetworkInformation.NetworkInterface,GetIPProperties</token>
+</entry>
+<entry count="2">
+<token>System.Net.NetworkInformation.NetworkInterface,GetPhysicalAddress</token>
+<token>System.Net.NetworkInformation.PhysicalAddress,ToString</token>
+</entry>
+<entry count="12">
+<token>System.Net.NetworkInformation.NetworkInterface,GetAllNetworkInterfaces</token>
+<token>System.Net.NetworkInformation.NetworkInterface,GetPhysicalAddress</token>
+</entry>
+<entry count="312">
+<token>System.Net.NetworkInformation.NetworkInterface,GetAllNetworkInterfaces</token>
+<token>System.Net.NetworkInformation.NetworkInterface,Supports</token>
+<token>System.Net.NetworkInformation.NetworkInterface,GetIPProperties</token>
+</entry>
+<entry count="366">
+<token>System.Net.NetworkInformation.IPGlobalProperties,GetIPGlobalProperties</token>
+<token>System.Net.NetworkInformation.NetworkInterface,GetAllNetworkInterfaces</token>
+</entry>
+<entry count="2">
+<token>System.Net.NetworkInformation.NetworkInterface,Supports</token>
+<token>System.Net.NetworkInformation.NetworkInterface,Supports</token>
+</entry>
+<entry count="4">
+<token>System.Net.NetworkInformation.NetworkInterface,GetPhysicalAddress</token>
+<token>System.Net.NetworkInformation.NetworkInterface,GetIPProperties</token>
+<token>System.Net.NetworkInformation.NetworkInterface,GetIPProperties</token>
+</entry>
+<entry count="27">
+<token>System.Net.NetworkInformation.Ping,new</token>
+<token>System.Net.NetworkInformation.Ping,Send</token>
+</entry>
+<entry count="7">
+<token>System.Net.NetworkInformation.PingOptions,new</token>
+<token>System.Net.NetworkInformation.Ping,new</token>
+</entry>
+<entry count="4">
+<token>System.Net.NetworkInformation.NetworkInterface,GetPhysicalAddress</token>
+<token>System.Net.NetworkInformation.NetworkInterface,GetIPProperties</token>
+</entry>
+<entry count="18">
+<token>System.Net.NetworkInformation.IPGlobalProperties,GetIPGlobalProperties</token>
+<token>System.Net.NetworkInformation.IPGlobalProperties,GetActiveTcpListeners</token>
 </entry>
 <entry count="4">
 <token>System.Net.NetworkInformation.NetworkInterface,GetAllNetworkInterfaces</token>
 <token>System.Net.NetworkInformation.NetworkInterface,GetPhysicalAddress</token>
+<token>System.Net.NetworkInformation.NetworkInterface,GetIPProperties</token>
+<token>System.Net.NetworkInformation.NetworkInterface,GetIPProperties</token>
+</entry>
+<entry count="16">
+<token>System.Net.NetworkInformation.PingOptions,new</token>
+<token>System.Net.NetworkInformation.Ping,Send</token>
+</entry>
+<entry count="4">
+<token>System.Net.NetworkInformation.NetworkInterface,GetIPProperties</token>
+<token>System.Net.NetworkInformation.NetworkInterface,GetIPProperties</token>
+</entry>
+<entry count="6">
+<token>System.Net.NetworkInformation.NetworkInterface,GetAllNetworkInterfaces</token>
+<token>System.Net.NetworkInformation.NetworkInterface,GetPhysicalAddress</token>
+<token>System.Net.NetworkInformation.PhysicalAddress,GetAddressBytes</token>
 </entry>
 </dictionary>

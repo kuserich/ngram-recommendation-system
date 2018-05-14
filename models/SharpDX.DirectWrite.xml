@@ -1,37 +1,155 @@
 <?xml version="1.0" encoding="UTF-8"?><dictionary case_sensitive="false">
-<entry count="5">
+<entry count="2">
+<token>SharpDX.DirectWrite.GlyphRun,new</token>
+<token>SharpDX.DirectWrite.TextLayout,new</token>
+<token>SharpDX.DirectWrite.FontFace,GetGlyphIndices</token>
+</entry>
+<entry count="2">
+<token>SharpDX.DirectWrite.FontFace,new</token>
+<token>SharpDX.DirectWrite.GlyphRun,new</token>
+<token>SharpDX.DirectWrite.TextLayout,new</token>
+<token>SharpDX.DirectWrite.FontFace,GetGlyphIndices</token>
+<token>SharpDX.DirectWrite.FontFace,GetDesignGlyphMetrics</token>
+</entry>
+<entry count="12664">
+<token>SharpDX.DirectWrite.TextFormat,new</token>
+<token>SharpDX.DirectWrite.TextLayout,new</token>
+</entry>
+<entry count="6">
+<token>SharpDX.DirectWrite.FontCollection,new</token>
+<token>SharpDX.DirectWrite.FontCollection,GetFontFamily</token>
+<token>SharpDX.DirectWrite.FontFamily,GetFirstMatchingFont</token>
+</entry>
+<entry count="50">
+<token>SharpDX.DirectWrite.TextLayout,new</token>
+<token>SharpDX.DirectWrite.TextRange,new</token>
+</entry>
+<entry count="6">
+<token>SharpDX.DirectWrite.Factory,GetSystemFontCollection</token>
+<token>SharpDX.DirectWrite.FontCollection,new</token>
+</entry>
+<entry count="2">
+<token>SharpDX.DirectWrite.GlyphRun,new</token>
+<token>SharpDX.DirectWrite.TextLayout,new</token>
+<token>SharpDX.DirectWrite.FontFace,GetGlyphIndices</token>
+<token>SharpDX.DirectWrite.FontFace,GetDesignGlyphMetrics</token>
+</entry>
+<entry count="2">
+<token>SharpDX.DirectWrite.TextLayout,new</token>
+<token>SharpDX.DirectWrite.FontFace,GetGlyphIndices</token>
+</entry>
+<entry count="8">
+<token>SharpDX.DirectWrite.Factory,GetSystemFontCollection</token>
+<token>SharpDX.DirectWrite.FontCollection,FindFamilyName</token>
+<token>SharpDX.DirectWrite.FontCollection,GetFontFamily</token>
+</entry>
+<entry count="25">
 <token>SharpDX.DirectWrite.TextLayout,new</token>
 <token>SharpDX.DirectWrite.TextRange,new</token>
 <token>SharpDX.DirectWrite.TextLayout,SetUnderline</token>
 </entry>
-<entry count="10">
+<entry count="38">
 <token>SharpDX.DirectWrite.FontCollection,FindFamilyName</token>
 <token>SharpDX.DirectWrite.FontCollection,GetFontFamily</token>
+</entry>
+<entry count="2">
+<token>SharpDX.DirectWrite.FontFace,new</token>
+<token>SharpDX.DirectWrite.GlyphRun,new</token>
+<token>SharpDX.DirectWrite.TextLayout,new</token>
 </entry>
 <entry count="5">
 <token>SharpDX.DirectWrite.FontCollection,FindFamilyName</token>
 <token>SharpDX.DirectWrite.FontCollection,GetFontFamily</token>
 <token>SharpDX.DirectWrite.FontFamily,GetFirstMatchingFont</token>
 </entry>
-<entry count="5">
+<entry count="12664">
+<token>SharpDX.DirectWrite.LocalizedStrings,GetString</token>
+<token>SharpDX.DirectWrite.TextFormat,new</token>
+<token>SharpDX.DirectWrite.TextLayout,new</token>
+</entry>
+<entry count="6">
+<token>SharpDX.DirectWrite.FontCollection,new</token>
+<token>SharpDX.DirectWrite.FontCollection,GetFontFamily</token>
+</entry>
+<entry count="8">
+<token>SharpDX.DirectWrite.Factory,GetSystemFontCollection</token>
+<token>SharpDX.DirectWrite.FontCollection,FindFamilyName</token>
+</entry>
+<entry count="30">
 <token>SharpDX.DirectWrite.TextRange,new</token>
 <token>SharpDX.DirectWrite.TextLayout,SetStrikethrough</token>
 </entry>
-<entry count="5">
+<entry count="6">
+<token>SharpDX.DirectWrite.Factory,GetSystemFontCollection</token>
+<token>SharpDX.DirectWrite.FontCollection,new</token>
+<token>SharpDX.DirectWrite.FontCollection,GetFontFamily</token>
+<token>SharpDX.DirectWrite.FontFamily,GetFirstMatchingFont</token>
+</entry>
+<entry count="13">
+<token>SharpDX.DirectWrite.Factory,GetSystemFontCollection</token>
+<token>SharpDX.DirectWrite.FontCollection,GetFontFamily</token>
+</entry>
+<entry count="2">
+<token>SharpDX.DirectWrite.FontFamily,GetFirstMatchingFont</token>
+<token>SharpDX.DirectWrite.LocalizedStrings,GetString</token>
+</entry>
+<entry count="30">
 <token>SharpDX.DirectWrite.TextRange,new</token>
 <token>SharpDX.DirectWrite.TextLayout,SetUnderline</token>
 </entry>
-<entry count="10">
+<entry count="2">
 <token>SharpDX.DirectWrite.TextLayout,new</token>
-<token>SharpDX.DirectWrite.TextRange,new</token>
+<token>SharpDX.DirectWrite.FontFace,GetGlyphIndices</token>
+<token>SharpDX.DirectWrite.FontFace,GetDesignGlyphMetrics</token>
 </entry>
-<entry count="5">
+<entry count="25">
 <token>SharpDX.DirectWrite.TextLayout,new</token>
 <token>SharpDX.DirectWrite.TextRange,new</token>
 <token>SharpDX.DirectWrite.TextLayout,SetStrikethrough</token>
 </entry>
-<entry count="5">
+<entry count="12672">
+<token>SharpDX.DirectWrite.LocalizedStrings,GetString</token>
+<token>SharpDX.DirectWrite.TextFormat,new</token>
+</entry>
+<entry count="2">
+<token>SharpDX.DirectWrite.FontFace,new</token>
+<token>SharpDX.DirectWrite.GlyphRun,new</token>
+<token>SharpDX.DirectWrite.TextLayout,new</token>
+<token>SharpDX.DirectWrite.FontFace,GetGlyphIndices</token>
+</entry>
+<entry count="24">
 <token>SharpDX.DirectWrite.FontCollection,GetFontFamily</token>
 <token>SharpDX.DirectWrite.FontFamily,GetFirstMatchingFont</token>
+</entry>
+<entry count="6">
+<token>SharpDX.DirectWrite.Factory,GetSystemFontCollection</token>
+<token>SharpDX.DirectWrite.FontCollection,new</token>
+<token>SharpDX.DirectWrite.FontCollection,GetFontFamily</token>
+</entry>
+<entry count="2">
+<token>SharpDX.DirectWrite.FontFace,GetGlyphIndices</token>
+<token>SharpDX.DirectWrite.FontFace,GetDesignGlyphMetrics</token>
+</entry>
+<entry count="13">
+<token>SharpDX.DirectWrite.Factory,GetSystemFontCollection</token>
+<token>SharpDX.DirectWrite.FontCollection,GetFontFamily</token>
+<token>SharpDX.DirectWrite.FontFamily,GetFirstMatchingFont</token>
+</entry>
+<entry count="2">
+<token>SharpDX.DirectWrite.GlyphRun,new</token>
+<token>SharpDX.DirectWrite.TextLayout,new</token>
+</entry>
+<entry count="20">
+<token>SharpDX.DirectWrite.Factory,RegisterFontFileLoader</token>
+<token>SharpDX.DirectWrite.Factory,RegisterFontCollectionLoader</token>
+</entry>
+<entry count="2">
+<token>SharpDX.DirectWrite.FontFamily,GetFirstMatchingFont</token>
+<token>SharpDX.DirectWrite.LocalizedStrings,GetString</token>
+<token>SharpDX.DirectWrite.TextFormat,new</token>
+</entry>
+<entry count="10">
+<token>SharpDX.DirectWrite.FontFace,new</token>
+<token>SharpDX.DirectWrite.GlyphRun,new</token>
 </entry>
 </dictionary>

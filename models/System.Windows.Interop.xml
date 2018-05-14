@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?><dictionary case_sensitive="false">
 <entry count="5">
+<token>System.Windows.Interop.WindowInteropHelper,new</token>
+<token>System.Windows.Interop.HwndSource,FromHwnd</token>
+<token>System.Windows.Interop.HwndSource,AddHook</token>
+</entry>
+<entry count="8">
+<token>System.Windows.Interop.WindowInteropHelper,new</token>
+<token>System.Windows.Interop.WindowInteropHelper,new</token>
+</entry>
+<entry count="5">
 <token>System.Windows.Interop.HwndSource,new</token>
 <token>System.Windows.Interop.HwndSource,AddHook</token>
 </entry>
@@ -7,12 +16,53 @@
 <token>System.Windows.Interop.HwndSource,RemoveHook</token>
 <token>System.Windows.Interop.HwndSource,Dispose</token>
 </entry>
+<entry count="1">
+<token>System.Windows.Interop.WindowInteropHelper,new</token>
+<token>System.Windows.Interop.HwndSource,AddHook</token>
+</entry>
+<entry count="6">
+<token>System.Windows.Interop.HwndSource,FromHwnd</token>
+<token>System.Windows.Interop.HwndSourceHook,new</token>
+<token>System.Windows.Interop.HwndSource,AddHook</token>
+</entry>
 <entry count="9">
 <token>System.Windows.Interop.HwndSource,AddHook</token>
 <token>System.Windows.Interop.HwndSource,RemoveHook</token>
 </entry>
-<entry count="15">
+<entry count="6">
 <token>System.Windows.Interop.WindowInteropHelper,new</token>
 <token>System.Windows.Interop.HwndSource,FromHwnd</token>
+<token>System.Windows.Interop.HwndSourceHook,new</token>
+</entry>
+<entry count="5">
+<token>System.Windows.Interop.HwndSource,FromHwnd</token>
+<token>System.Windows.Interop.HwndSource,AddHook</token>
+</entry>
+<entry count="8">
+<token>System.Windows.Interop.WindowInteropHelper,new</token>
+<token>System.Windows.Interop.WindowInteropHelper,new</token>
+<token>System.Windows.Interop.HwndSource,FromHwnd</token>
+</entry>
+<entry count="9">
+<token>System.Windows.Interop.HwndSourceHook,new</token>
+<token>System.Windows.Interop.HwndSource,AddHook</token>
+</entry>
+<entry count="6">
+<token>System.Windows.Interop.WindowInteropHelper,new</token>
+<token>System.Windows.Interop.HwndSource,FromHwnd</token>
+<token>System.Windows.Interop.HwndSourceHook,new</token>
+<token>System.Windows.Interop.HwndSource,AddHook</token>
+</entry>
+<entry count="51">
+<token>System.Windows.Interop.WindowInteropHelper,new</token>
+<token>System.Windows.Interop.HwndSource,FromHwnd</token>
+</entry>
+<entry count="2">
+<token>System.Windows.Interop.HwndSourceParameters,new</token>
+<token>System.Windows.Interop.HwndSource,new</token>
+</entry>
+<entry count="6">
+<token>System.Windows.Interop.HwndSource,FromHwnd</token>
+<token>System.Windows.Interop.HwndSourceHook,new</token>
 </entry>
 </dictionary>

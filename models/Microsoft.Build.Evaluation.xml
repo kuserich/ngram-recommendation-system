@@ -4,9 +4,30 @@
 <token>Microsoft.Build.Evaluation.ProjectItem,SetMetadataValue</token>
 <token>Microsoft.Build.Evaluation.Project,Save</token>
 </entry>
-<entry count="468">
+<entry count="2">
+<token>Microsoft.Build.Evaluation.ProjectCollection,new</token>
+<token>Microsoft.Build.Evaluation.ProjectCollection,LoadProject</token>
+<token>Microsoft.Build.Evaluation.Project,SetProperty</token>
+<token>Microsoft.Build.Evaluation.Project,SetProperty</token>
+<token>Microsoft.Build.Evaluation.Project,Build</token>
+</entry>
+<entry count="470">
 <token>Microsoft.Build.Evaluation.Project,GetProperty</token>
 <token>Microsoft.Build.Evaluation.Project,GetProperty</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Build.Evaluation.Project,Build</token>
+<token>Microsoft.Build.Evaluation.ProjectCollection,UnloadAllProjects</token>
+</entry>
+<entry count="8">
+<token>Microsoft.Build.Evaluation.ProjectCollection,GetLoadedProjects</token>
+<token>Microsoft.Build.Evaluation.Project,SetProperty</token>
+<token>Microsoft.Build.Evaluation.Project,SetProperty</token>
+<token>Microsoft.Build.Evaluation.Project,SetProperty</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Build.Evaluation.Project,new</token>
+<token>Microsoft.Build.Evaluation.Project,Build</token>
 </entry>
 <entry count="5">
 <token>Microsoft.Build.Evaluation.ProjectItem,SetMetadataValue</token>
@@ -27,13 +48,30 @@
 <token>Microsoft.Build.Evaluation.Project,Save</token>
 <token>Microsoft.Build.Evaluation.ProjectCollection,UnloadProject</token>
 </entry>
-<entry count="20">
+<entry count="192">
+<token>Microsoft.Build.Evaluation.Project,new</token>
+<token>Microsoft.Build.Evaluation.Project,GetPropertyValue</token>
+<token>Microsoft.Build.Evaluation.Project,GetPropertyValue</token>
+<token>Microsoft.Build.Evaluation.Project,GetItems</token>
+<token>Microsoft.Build.Evaluation.Project,GetItems</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Build.Evaluation.ProjectCollection,new</token>
+<token>Microsoft.Build.Evaluation.ProjectCollection,LoadProject</token>
+<token>Microsoft.Build.Evaluation.Project,SetProperty</token>
+<token>Microsoft.Build.Evaluation.Project,SetProperty</token>
+</entry>
+<entry count="21">
 <token>Microsoft.Build.Evaluation.ProjectCollection,GetLoadedProjects</token>
 <token>Microsoft.Build.Evaluation.Project,new</token>
 </entry>
 <entry count="23">
 <token>Microsoft.Build.Evaluation.ProjectItem,GetMetadataValue</token>
 <token>Microsoft.Build.Evaluation.ProjectItem,GetMetadataValue</token>
+</entry>
+<entry count="18">
+<token>Microsoft.Build.Evaluation.Project,SetProperty</token>
+<token>Microsoft.Build.Evaluation.Project,SetProperty</token>
 </entry>
 <entry count="13">
 <token>Microsoft.Build.Evaluation.Project,GetItems</token>
@@ -42,6 +80,12 @@
 </entry>
 <entry count="3">
 <token>Microsoft.Build.Evaluation.Project,ReevaluateIfNecessary</token>
+<token>Microsoft.Build.Evaluation.Project,GetItems</token>
+</entry>
+<entry count="192">
+<token>Microsoft.Build.Evaluation.Project,new</token>
+<token>Microsoft.Build.Evaluation.Project,GetPropertyValue</token>
+<token>Microsoft.Build.Evaluation.Project,GetPropertyValue</token>
 <token>Microsoft.Build.Evaluation.Project,GetItems</token>
 </entry>
 <entry count="5">
@@ -61,6 +105,10 @@
 <entry count="2">
 <token>Microsoft.Build.Evaluation.Project,SetProperty</token>
 <token>Microsoft.Build.Evaluation.Project,Save</token>
+</entry>
+<entry count="8">
+<token>Microsoft.Build.Evaluation.ProjectCollection,GetLoadedProjects</token>
+<token>Microsoft.Build.Evaluation.Project,SetProperty</token>
 </entry>
 <entry count="10">
 <token>Microsoft.Build.Evaluation.Project,GetItems</token>
@@ -93,11 +141,29 @@
 <token>Microsoft.Build.Evaluation.Project,GetItems</token>
 <token>Microsoft.Build.Evaluation.ProjectItem,GetMetadataValue</token>
 </entry>
+<entry count="192">
+<token>Microsoft.Build.Evaluation.Project,new</token>
+<token>Microsoft.Build.Evaluation.Project,GetPropertyValue</token>
+</entry>
 <entry count="10">
 <token>Microsoft.Build.Evaluation.Project,new</token>
 <token>Microsoft.Build.Evaluation.Project,GetItems</token>
 <token>Microsoft.Build.Evaluation.Project,Save</token>
 <token>Microsoft.Build.Evaluation.ProjectCollection,UnloadProject</token>
+</entry>
+<entry count="192">
+<token>Microsoft.Build.Evaluation.Project,new</token>
+<token>Microsoft.Build.Evaluation.Project,GetPropertyValue</token>
+<token>Microsoft.Build.Evaluation.Project,GetPropertyValue</token>
+</entry>
+<entry count="5">
+<token>Microsoft.Build.Evaluation.Project,CreateProjectInstance</token>
+<token>Microsoft.Build.Evaluation.Project,SetProperty</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Build.Evaluation.Project,new</token>
+<token>Microsoft.Build.Evaluation.Project,Build</token>
+<token>Microsoft.Build.Evaluation.ProjectCollection,UnloadAllProjects</token>
 </entry>
 <entry count="1344">
 <token>Microsoft.Build.Evaluation.Project,SetGlobalProperty</token>
@@ -108,6 +174,10 @@
 <token>Microsoft.Build.Evaluation.Project,new</token>
 <token>Microsoft.Build.Evaluation.Project,GetItems</token>
 <token>Microsoft.Build.Evaluation.Project,AddItem</token>
+</entry>
+<entry count="21842">
+<token>Microsoft.Build.Evaluation.ProjectCollection,new</token>
+<token>Microsoft.Build.Evaluation.ProjectCollection,LoadProject</token>
 </entry>
 <entry count="16">
 <token>Microsoft.Build.Evaluation.Project,GetItems</token>
@@ -131,6 +201,17 @@
 <token>Microsoft.Build.Evaluation.Project,RemoveItem</token>
 <token>Microsoft.Build.Evaluation.Project,ReevaluateIfNecessary</token>
 </entry>
+<entry count="2">
+<token>Microsoft.Build.Evaluation.ProjectCollection,LoadProject</token>
+<token>Microsoft.Build.Evaluation.Project,SetProperty</token>
+<token>Microsoft.Build.Evaluation.Project,SetProperty</token>
+</entry>
+<entry count="192">
+<token>Microsoft.Build.Evaluation.Project,GetPropertyValue</token>
+<token>Microsoft.Build.Evaluation.Project,GetPropertyValue</token>
+<token>Microsoft.Build.Evaluation.Project,GetItems</token>
+<token>Microsoft.Build.Evaluation.Project,GetItems</token>
+</entry>
 <entry count="19">
 <token>Microsoft.Build.Evaluation.ProjectCollection,UnloadProject</token>
 <token>Microsoft.Build.Evaluation.ProjectCollection,UnloadProject</token>
@@ -142,6 +223,10 @@
 <token>Microsoft.Build.Evaluation.Project,SetGlobalProperty</token>
 <token>Microsoft.Build.Evaluation.Project,SetGlobalProperty</token>
 </entry>
+<entry count="2">
+<token>Microsoft.Build.Evaluation.ProjectCollection,LoadProject</token>
+<token>Microsoft.Build.Evaluation.Project,SetProperty</token>
+</entry>
 <entry count="10">
 <token>Microsoft.Build.Evaluation.Project,new</token>
 <token>Microsoft.Build.Evaluation.Project,GetItems</token>
@@ -152,6 +237,15 @@
 <entry count="8">
 <token>Microsoft.Build.Evaluation.Project,GetItems</token>
 <token>Microsoft.Build.Evaluation.Project,GetItems</token>
+<token>Microsoft.Build.Evaluation.Project,GetItems</token>
+</entry>
+<entry count="192">
+<token>Microsoft.Build.Evaluation.Project,GetPropertyValue</token>
+<token>Microsoft.Build.Evaluation.Project,GetPropertyValue</token>
+</entry>
+<entry count="192">
+<token>Microsoft.Build.Evaluation.Project,GetPropertyValue</token>
+<token>Microsoft.Build.Evaluation.Project,GetPropertyValue</token>
 <token>Microsoft.Build.Evaluation.Project,GetItems</token>
 </entry>
 <entry count="1">
@@ -174,12 +268,26 @@
 <token>Microsoft.Build.Evaluation.ProjectCollection,GetLoadedProjects</token>
 <token>Microsoft.Build.Evaluation.ProjectCollection,LoadProject</token>
 </entry>
+<entry count="192">
+<token>Microsoft.Build.Evaluation.Project,GetPropertyValue</token>
+<token>Microsoft.Build.Evaluation.Project,GetItems</token>
+</entry>
+<entry count="14560">
+<token>Microsoft.Build.Evaluation.ProjectCollection,new</token>
+<token>Microsoft.Build.Evaluation.ProjectCollection,LoadProject</token>
+<token>Microsoft.Build.Evaluation.ProjectCollection,LoadProject</token>
+</entry>
 <entry count="10">
 <token>Microsoft.Build.Evaluation.ProjectItem,GetMetadataValue</token>
 <token>Microsoft.Build.Evaluation.ProjectItem,GetMetadataValue</token>
 <token>Microsoft.Build.Evaluation.ProjectItem,GetMetadataValue</token>
 </entry>
-<entry count="1152">
+<entry count="1344">
+<token>Microsoft.Build.Evaluation.Project,GetItems</token>
+<token>Microsoft.Build.Evaluation.Project,GetItems</token>
+</entry>
+<entry count="192">
+<token>Microsoft.Build.Evaluation.Project,GetPropertyValue</token>
 <token>Microsoft.Build.Evaluation.Project,GetItems</token>
 <token>Microsoft.Build.Evaluation.Project,GetItems</token>
 </entry>
@@ -188,6 +296,15 @@
 <token>Microsoft.Build.Evaluation.ProjectItem,GetMetadataValue</token>
 <token>Microsoft.Build.Evaluation.ProjectItem,GetMetadataValue</token>
 <token>Microsoft.Build.Evaluation.ProjectItem,GetMetadataValue</token>
+</entry>
+<entry count="8">
+<token>Microsoft.Build.Evaluation.ProjectCollection,GetLoadedProjects</token>
+<token>Microsoft.Build.Evaluation.Project,SetProperty</token>
+<token>Microsoft.Build.Evaluation.Project,SetProperty</token>
+</entry>
+<entry count="14560">
+<token>Microsoft.Build.Evaluation.ProjectCollection,LoadProject</token>
+<token>Microsoft.Build.Evaluation.ProjectCollection,LoadProject</token>
 </entry>
 <entry count="26">
 <token>Microsoft.Build.Evaluation.ProjectItem,HasMetadata</token>
@@ -232,9 +349,25 @@
 <token>Microsoft.Build.Evaluation.ProjectItem,SetMetadataValue</token>
 <token>Microsoft.Build.Evaluation.Project,Save</token>
 </entry>
+<entry count="8">
+<token>Microsoft.Build.Evaluation.Project,SetProperty</token>
+<token>Microsoft.Build.Evaluation.Project,SetProperty</token>
+<token>Microsoft.Build.Evaluation.Project,SetProperty</token>
+</entry>
 <entry count="4">
 <token>Microsoft.Build.Evaluation.ProjectCollection,Escape</token>
 <token>Microsoft.Build.Evaluation.Project,AddItem</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Build.Evaluation.ProjectCollection,new</token>
+<token>Microsoft.Build.Evaluation.ProjectCollection,LoadProject</token>
+<token>Microsoft.Build.Evaluation.Project,SetProperty</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Build.Evaluation.ProjectCollection,LoadProject</token>
+<token>Microsoft.Build.Evaluation.Project,SetProperty</token>
+<token>Microsoft.Build.Evaluation.Project,SetProperty</token>
+<token>Microsoft.Build.Evaluation.Project,Build</token>
 </entry>
 <entry count="5">
 <token>Microsoft.Build.Evaluation.Project,GetItems</token>
@@ -246,5 +379,14 @@
 <entry count="10">
 <token>Microsoft.Build.Evaluation.Project,GetItems</token>
 <token>Microsoft.Build.Evaluation.Project,AddItem</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Build.Evaluation.Project,SetProperty</token>
+<token>Microsoft.Build.Evaluation.Project,SetProperty</token>
+<token>Microsoft.Build.Evaluation.Project,Build</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Build.Evaluation.Project,SetProperty</token>
+<token>Microsoft.Build.Evaluation.Project,Build</token>
 </entry>
 </dictionary>

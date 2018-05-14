@@ -18,6 +18,18 @@
 <token>-&gt;</token>
 <token>KaVE.Commons.Model.Events.IDEEvent,</token>
 </entry>
+<entry count="12">
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder,SetBackground</token>
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder,SetDropDups</token>
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder,SetSparse</token>
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder,SetUnique</token>
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder,SetPartialFilterExpression</token>
+</entry>
+<entry count="48">
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder,SetSparse</token>
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder,SetUnique</token>
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder,SetTimeToLive</token>
+</entry>
 <entry count="1">
 <token>KaVE.Commons.Model.Events.IDEEvent,</token>
 <token>KaVE.Commons]],NotExists</token>
@@ -40,30 +52,33 @@
 <token>KaVE.Commons]],EQ</token>
 <token>MongoDB.Driver.Builders.Query,EQ</token>
 </entry>
-<entry count="2">
-<token>-&gt;</token>
-<token>KaVE.Commons.Model.Events.IDEEvent,</token>
-<token>KaVE.Commons]],SetUnique</token>
+<entry count="228">
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder,SetBackground</token>
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder,SetDropDups</token>
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder,SetSparse</token>
 </entry>
-<entry count="2">
-<token>KaVE.Commons.Model.Events.IDEEvent,</token>
-<token>KaVE.Commons]],SetUnique</token>
+<entry count="11">
+<token>MongoDB.Driver.Builders.CollectionOptionsBuilder,new</token>
+<token>MongoDB.Driver.Builders.CollectionOptionsBuilder,SetCapped</token>
+<token>MongoDB.Driver.Builders.CollectionOptionsBuilder,SetMaxSize</token>
 </entry>
-<entry count="2">
-<token>MongoDB.Driver.Builders.IndexOptions`1[[TDocument</token>
-<token>-&gt;</token>
-<token>KaVE.Commons.Model.Events.IDEEvent,</token>
-<token>KaVE.Commons]],SetUnique</token>
+<entry count="228">
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder,new</token>
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder,SetBackground</token>
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder,SetDropDups</token>
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder,SetSparse</token>
 </entry>
-<entry count="2">
-<token>MongoDB.Driver.Builders.IndexOptionsBuilder`1[[TDocument</token>
-<token>-&gt;</token>
+<entry count="3">
+<token>MongoDB.Driver.Builders.CollectionOptionsBuilder,SetMaxSize</token>
+<token>MongoDB.Driver.Builders.CollectionOptionsBuilder,SetMaxDocuments</token>
+<token>MongoDB.Driver.Builders.CollectionOptionsBuilder,SetAutoIndexId</token>
+<token>MongoDB.Driver.Builders.CollectionOptionsBuilder,SetValidator</token>
+<token>MongoDB.Driver.Builders.CollectionOptionsBuilder,SetValidationLevel</token>
 </entry>
 <entry count="1">
-<token>KaVE.Commons.Model.Events.IDEEvent,</token>
-<token>KaVE.Commons]],EQ</token>
-<token>MongoDB.Driver.Builders.Query,Or</token>
-<token>MongoDB.Driver.Builders.Query,NE</token>
+<token>MongoDB.Driver.Builders.IndexKeys,Ascending</token>
+<token>MongoDB.Driver.Builders.IndexOptions,SetName</token>
+<token>MongoDB.Driver.Builders.IndexKeys,Ascending</token>
 </entry>
 <entry count="1">
 <token>MongoDB.Driver.Builders.IndexKeys,Ascending</token>
@@ -71,6 +86,16 @@
 <token>MongoDB.Driver.Builders.IndexKeysBuilder,Ascending</token>
 <token>MongoDB.Driver.Builders.IndexOptions`1[[TDocument</token>
 </entry>
+<entry count="228">
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder,SetDropDups</token>
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder,SetSparse</token>
+</entry>
+<entry count="1">
+<token>MongoDB.Driver.Builders.IndexKeys,Ascending</token>
+<token>MongoDB.Driver.Builders.IndexOptions,SetName</token>
+<token>MongoDB.Driver.Builders.IndexKeys,Descending</token>
+<token>MongoDB.Driver.Builders.IndexOptions,SetName</token>
+</entry>
 <entry count="1">
 <token>MongoDB.Driver.Builders.IndexKeys,Ascending</token>
 <token>MongoDB.Driver.Builders.IndexOptions`1[[TDocument</token>
@@ -80,11 +105,6 @@
 <entry count="1">
 <token>-&gt;</token>
 <token>KaVE.Commons.Model.Events.IDEEvent,</token>
-<token>KaVE.Commons]],EQ</token>
-<token>MongoDB.Driver.Builders.Query`1[[TDocument</token>
-<token>-&gt;</token>
-</entry>
-<entry count="1">
 <token>KaVE.Commons]],EQ</token>
 <token>MongoDB.Driver.Builders.Query`1[[TDocument</token>
 <token>-&gt;</token>
@@ -95,6 +115,16 @@
 <token>MongoDB.Driver.Builders.Query`1[[TDocument</token>
 <token>-&gt;</token>
 </entry>
+<entry count="112">
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder,SetDropDups</token>
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder,SetSparse</token>
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder,SetUnique</token>
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder,SetName</token>
+</entry>
+<entry count="1">
+<token>MongoDB.Driver.Builders.IndexOptions,SetName</token>
+<token>MongoDB.Driver.Builders.IndexKeys,Ascending</token>
+</entry>
 <entry count="1">
 <token>-&gt;</token>
 <token>KaVE.Commons.Model.Events.IDEEvent,</token>
@@ -102,16 +132,14 @@
 <token>MongoDB.Driver.Builders.Query,Or</token>
 <token>MongoDB.Driver.Builders.Query,NE</token>
 </entry>
+<entry count="8">
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder,SetUnique</token>
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder,SetPartialFilterExpression</token>
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder,SetName</token>
+</entry>
 <entry count="1">
 <token>KaVE.Commons]],NotExists</token>
 <token>MongoDB.Driver.Builders.Query`1[[TDocument</token>
-</entry>
-<entry count="1">
-<token>MongoDB.Driver.Builders.Query`1[[TDocument</token>
-<token>-&gt;</token>
-<token>KaVE.Commons.Model.Events.IDEEvent,</token>
-<token>KaVE.Commons]],EQ</token>
-<token>MongoDB.Driver.Builders.Query,Or</token>
 </entry>
 <entry count="1">
 <token>KaVE.Commons.Model.Events.IDEEvent,</token>
@@ -133,22 +161,36 @@
 <token>-&gt;</token>
 <token>KaVE.Commons.Model.Events.IDEEvent,</token>
 <token>KaVE.Commons]],EQ</token>
+</entry>
+<entry count="1">
+<token>MongoDB.Driver.Builders.IndexOptions,SetName</token>
+<token>MongoDB.Driver.Builders.IndexKeys,Descending</token>
+<token>MongoDB.Driver.Builders.IndexOptions,SetName</token>
 </entry>
 <entry count="8">
 <token>-&gt;</token>
 <token>KaVE.Commons.Model.Events.IDEEvent,</token>
 </entry>
 <entry count="1">
-<token>KaVE.Commons]],EQ</token>
-<token>MongoDB.Driver.Builders.Query`1[[TDocument</token>
-<token>-&gt;</token>
-<token>KaVE.Commons.Model.Events.IDEEvent,</token>
+<token>MongoDB.Driver.Builders.IndexOptions,SetName</token>
+<token>MongoDB.Driver.Builders.IndexKeys,Ascending</token>
+<token>MongoDB.Driver.Builders.IndexOptions,SetName</token>
+<token>MongoDB.Driver.Builders.IndexKeys,Descending</token>
 </entry>
-<entry count="2">
-<token>MongoDB.Driver.Builders.IndexOptionsBuilder`1[[TDocument</token>
-<token>-&gt;</token>
-<token>KaVE.Commons.Model.Events.IDEEvent,</token>
-<token>KaVE.Commons]],SetSparse</token>
+<entry count="8">
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder,SetSparse</token>
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder,SetUnique</token>
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder,SetPartialFilterExpression</token>
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder,SetName</token>
+</entry>
+<entry count="1">
+<token>MongoDB.Driver.Builders.IndexOptions,SetName</token>
+<token>MongoDB.Driver.Builders.IndexKeys,Ascending</token>
+<token>MongoDB.Driver.Builders.IndexOptions,SetName</token>
+</entry>
+<entry count="1">
+<token>MongoDB.Driver.Builders.IndexKeys,Descending</token>
+<token>MongoDB.Driver.Builders.IndexOptions,SetName</token>
 </entry>
 <entry count="2">
 <token>KaVE.Commons.Model.Events.IDEEvent,</token>
@@ -170,59 +212,46 @@
 <token>-&gt;</token>
 <token>KaVE.Commons.Model.Events.IDEEvent,</token>
 </entry>
+<entry count="10">
+<token>MongoDB.Driver.Builders.CollectionOptionsBuilder,SetMaxSize</token>
+<token>MongoDB.Driver.Builders.CollectionOptionsBuilder,SetMaxDocuments</token>
+<token>MongoDB.Driver.Builders.CollectionOptionsBuilder,SetAutoIndexId</token>
+<token>MongoDB.Driver.Builders.CollectionOptionsBuilder,SetValidator</token>
+</entry>
+<entry count="2">
+<token>MongoDB.Driver.Builders.CollectionOptionsBuilder,SetMaxSize</token>
+<token>MongoDB.Driver.Builders.CollectionOptionsBuilder,SetMaxDocuments</token>
+<token>MongoDB.Driver.Builders.CollectionOptionsBuilder,SetAutoIndexId</token>
+<token>MongoDB.Driver.Builders.CollectionOptionsBuilder,SetValidator</token>
+<token>MongoDB.Driver.Builders.CollectionOptionsBuilder,SetValidationAction</token>
+</entry>
 <entry count="1">
+<token>KaVE.Commons]],NotExists</token>
+<token>MongoDB.Driver.Builders.Query`1[[TDocument</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>MongoDB.Driver.Builders.IndexOptions,SetName</token>
+<token>MongoDB.Driver.Builders.IndexKeys,Descending</token>
+</entry>
+<entry count="1">
+<token>MongoDB.Driver.Builders.Query`1[[TDocument</token>
+<token>-&gt;</token>
+<token>KaVE.Commons.Model.Events.IDEEvent,</token>
+<token>KaVE.Commons]],EQ</token>
+<token>MongoDB.Driver.Builders.Query`1[[TDocument</token>
+</entry>
+<entry count="1">
+<token>MongoDB.Driver.Builders.IndexKeysBuilder,GeoSpatial</token>
 <token>MongoDB.Driver.Builders.IndexKeysBuilder,Ascending</token>
-<token>MongoDB.Driver.Builders.IndexOptions`1[[TDocument</token>
+<token>MongoDB.Driver.Builders.IndexKeysBuilder,Descending</token>
 </entry>
-<entry count="1">
-<token>KaVE.Commons]],EQ</token>
-<token>MongoDB.Driver.Builders.Query,Or</token>
-<token>MongoDB.Driver.Builders.Query,NE</token>
-</entry>
-<entry count="1">
-<token>KaVE.Commons]],EQ</token>
-<token>MongoDB.Driver.Builders.Query,Or</token>
-<token>MongoDB.Driver.Builders.Query,NE</token>
-<token>MongoDB.Driver.Builders.Query,And</token>
-</entry>
-<entry count="1">
-<token>MongoDB.Driver.Builders.IndexKeys,Ascending</token>
-<token>MongoDB.Driver.Builders.IndexOptions`1[[TDocument</token>
-<token>-&gt;</token>
-</entry>
-<entry count="1">
-<token>KaVE.Commons]],NotExists</token>
-<token>MongoDB.Driver.Builders.Query`1[[TDocument</token>
-<token>-&gt;</token>
-<token>KaVE.Commons.Model.Events.IDEEvent,</token>
-</entry>
-<entry count="1">
-<token>KaVE.Commons]],NotExists</token>
-<token>MongoDB.Driver.Builders.Query`1[[TDocument</token>
-<token>-&gt;</token>
-</entry>
-<entry count="1">
-<token>MongoDB.Driver.Builders.IndexKeys,Ascending</token>
-<token>MongoDB.Driver.Builders.IndexOptions`1[[TDocument</token>
-</entry>
-<entry count="1">
-<token>MongoDB.Driver.Builders.Query`1[[TDocument</token>
-<token>-&gt;</token>
-<token>KaVE.Commons.Model.Events.IDEEvent,</token>
-<token>KaVE.Commons]],EQ</token>
-<token>MongoDB.Driver.Builders.Query`1[[TDocument</token>
-</entry>
-<entry count="1">
-<token>KaVE.Commons]],EQ</token>
-<token>MongoDB.Driver.Builders.Query`1[[TDocument</token>
-<token>-&gt;</token>
-<token>KaVE.Commons.Model.Events.IDEEvent,</token>
-<token>KaVE.Commons]],EQ</token>
-</entry>
-<entry count="2">
-<token>KaVE.Commons]],SetUnique</token>
-<token>MongoDB.Driver.Builders.IndexOptionsBuilder`1[[TDocument</token>
-<token>-&gt;</token>
+<entry count="11">
+<token>MongoDB.Driver.Builders.CollectionOptionsBuilder,new</token>
+<token>MongoDB.Driver.Builders.CollectionOptionsBuilder,SetCapped</token>
+<token>MongoDB.Driver.Builders.CollectionOptionsBuilder,SetMaxSize</token>
+<token>MongoDB.Driver.Builders.CollectionOptionsBuilder,SetMaxDocuments</token>
+<token>MongoDB.Driver.Builders.CollectionOptionsBuilder,SetAutoIndexId</token>
 </entry>
 <entry count="1">
 <token>MongoDB.Driver.Builders.IndexKeys,Ascending</token>
@@ -238,49 +267,37 @@
 <entry count="1">
 <token>KaVE.Commons.Model.Events.IDEEvent,</token>
 <token>KaVE.Commons]],EQ</token>
-<token>MongoDB.Driver.Builders.Query`1[[TDocument</token>
-<token>-&gt;</token>
-</entry>
-<entry count="1">
-<token>MongoDB.Driver.Builders.IndexKeysBuilder,Ascending</token>
-<token>MongoDB.Driver.Builders.IndexOptions`1[[TDocument</token>
-<token>-&gt;</token>
-<token>KaVE.Commons.Model.Events.IDEEvent,</token>
-</entry>
-<entry count="1">
-<token>KaVE.Commons.Model.Events.IDEEvent,</token>
-<token>KaVE.Commons]],EQ</token>
 <token>MongoDB.Driver.Builders.Query,EQ</token>
 <token>MongoDB.Driver.Builders.Query,And</token>
+</entry>
+<entry count="3">
+<token>MongoDB.Driver.Builders.CollectionOptionsBuilder,SetAutoIndexId</token>
+<token>MongoDB.Driver.Builders.CollectionOptionsBuilder,SetValidator</token>
+<token>MongoDB.Driver.Builders.CollectionOptionsBuilder,SetValidationLevel</token>
 </entry>
 <entry count="1">
 <token>KaVE.Commons.Model.Events.IDEEvent,</token>
 <token>KaVE.Commons]],NotExists</token>
 </entry>
 <entry count="1">
+<token>MongoDB.Driver.Builders.IndexOptions,SetName</token>
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder,SetUnique</token>
+</entry>
+<entry count="228">
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder,new</token>
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder,SetBackground</token>
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder,SetDropDups</token>
+</entry>
+<entry count="48">
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder,SetDropDups</token>
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder,SetSparse</token>
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder,SetUnique</token>
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder,SetTimeToLive</token>
+</entry>
+<entry count="1">
 <token>MongoDB.Driver.Builders.IndexKeys,Ascending</token>
 <token>MongoDB.Driver.Builders.IndexKeysBuilder,Ascending</token>
 <token>MongoDB.Driver.Builders.IndexKeysBuilder,Ascending</token>
-<token>MongoDB.Driver.Builders.IndexOptions`1[[TDocument</token>
-<token>-&gt;</token>
-</entry>
-<entry count="1">
-<token>MongoDB.Driver.Builders.IndexKeysBuilder,Ascending</token>
-<token>MongoDB.Driver.Builders.IndexKeysBuilder,Ascending</token>
-<token>MongoDB.Driver.Builders.IndexOptions`1[[TDocument</token>
-<token>-&gt;</token>
-<token>KaVE.Commons.Model.Events.IDEEvent,</token>
-</entry>
-<entry count="1">
-<token>MongoDB.Driver.Builders.IndexKeys,Ascending</token>
-<token>MongoDB.Driver.Builders.IndexKeysBuilder,Ascending</token>
-<token>MongoDB.Driver.Builders.IndexKeysBuilder,Ascending</token>
-</entry>
-<entry count="1">
-<token>MongoDB.Driver.Builders.IndexKeysBuilder,Ascending</token>
-<token>MongoDB.Driver.Builders.IndexKeysBuilder,Ascending</token>
-<token>MongoDB.Driver.Builders.IndexOptions`1[[TDocument</token>
-<token>-&gt;</token>
 </entry>
 <entry count="1">
 <token>MongoDB.Driver.Builders.Query`1[[TDocument</token>
@@ -292,15 +309,20 @@
 <entry count="1">
 <token>MongoDB.Driver.Builders.Query,NE</token>
 <token>MongoDB.Driver.Builders.Query,And</token>
+</entry>
+<entry count="10">
+<token>MongoDB.Driver.Builders.CollectionOptionsBuilder,SetMaxDocuments</token>
+<token>MongoDB.Driver.Builders.CollectionOptionsBuilder,SetAutoIndexId</token>
+<token>MongoDB.Driver.Builders.CollectionOptionsBuilder,SetValidator</token>
 </entry>
 <entry count="3">
 <token>-&gt;</token>
 <token>KaVE.Commons.Model.Events.IDEEvent,</token>
 <token>KaVE.Commons]],EQ</token>
 </entry>
-<entry count="2">
-<token>MongoDB.Driver.Builders.IndexOptions`1[[TDocument</token>
-<token>-&gt;</token>
+<entry count="3">
+<token>MongoDB.Driver.Builders.IndexKeys,Ascending</token>
+<token>MongoDB.Driver.Builders.IndexOptions,SetName</token>
 </entry>
 <entry count="1">
 <token>KaVE.Commons]],EQ</token>
@@ -313,18 +335,19 @@
 <token>KaVE.Commons.Model.Events.IDEEvent,</token>
 </entry>
 <entry count="1">
-<token>-&gt;</token>
-<token>KaVE.Commons.Model.Events.IDEEvent,</token>
-<token>KaVE.Commons]],EQ</token>
-<token>MongoDB.Driver.Builders.Query,EQ</token>
-<token>MongoDB.Driver.Builders.Query,And</token>
+<token>MongoDB.Driver.Builders.IndexKeysBuilder,new</token>
+<token>MongoDB.Driver.Builders.IndexKeysBuilder,GeoSpatial</token>
 </entry>
-<entry count="2">
-<token>KaVE.Commons]],SetUnique</token>
-<token>MongoDB.Driver.Builders.IndexOptionsBuilder`1[[TDocument</token>
-<token>-&gt;</token>
-<token>KaVE.Commons.Model.Events.IDEEvent,</token>
-<token>KaVE.Commons]],SetSparse</token>
+<entry count="112">
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder,SetSparse</token>
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder,SetUnique</token>
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder,SetName</token>
+</entry>
+<entry count="1">
+<token>MongoDB.Driver.Builders.IndexKeys,Descending</token>
+<token>MongoDB.Driver.Builders.IndexOptions,SetName</token>
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder,SetUnique</token>
+<token>MongoDB.Driver.Builders.IndexKeys,Ascending</token>
 </entry>
 <entry count="1">
 <token>MongoDB.Driver.Builders.Query`1[[TDocument</token>
@@ -332,23 +355,23 @@
 <token>KaVE.Commons.Model.Events.IDEEvent,</token>
 <token>KaVE.Commons]],NotExists</token>
 </entry>
-<entry count="2">
-<token>MongoDB.Driver.Builders.IndexOptions`1[[TDocument</token>
-<token>-&gt;</token>
-<token>KaVE.Commons.Model.Events.IDEEvent,</token>
-<token>KaVE.Commons]],SetUnique</token>
-<token>MongoDB.Driver.Builders.IndexOptionsBuilder`1[[TDocument</token>
+<entry count="32">
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder,SetTimeToLive</token>
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder,SetName</token>
 </entry>
 <entry count="1">
 <token>KaVE.Commons.Model.Events.IDEEvent,</token>
 <token>KaVE.Commons]],EQ</token>
 <token>MongoDB.Driver.Builders.Query,EQ</token>
 </entry>
-<entry count="2">
-<token>KaVE.Commons.Model.Events.IDEEvent,</token>
-<token>KaVE.Commons]],SetUnique</token>
-<token>MongoDB.Driver.Builders.IndexOptionsBuilder`1[[TDocument</token>
-<token>-&gt;</token>
+<entry count="11">
+<token>MongoDB.Driver.Builders.CollectionOptionsBuilder,SetMaxSize</token>
+<token>MongoDB.Driver.Builders.CollectionOptionsBuilder,SetMaxDocuments</token>
+<token>MongoDB.Driver.Builders.CollectionOptionsBuilder,SetAutoIndexId</token>
+</entry>
+<entry count="112">
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder,SetUnique</token>
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder,SetName</token>
 </entry>
 <entry count="1">
 <token>KaVE.Commons]],NotExists</token>
@@ -364,13 +387,10 @@
 <token>MongoDB.Driver.Builders.Query,NE</token>
 <token>MongoDB.Driver.Builders.Query,And</token>
 </entry>
-<entry count="1">
-<token>MongoDB.Driver.Builders.Query,EQ</token>
-<token>MongoDB.Driver.Builders.Query,And</token>
-</entry>
-<entry count="1">
-<token>KaVE.Commons]],EQ</token>
-<token>MongoDB.Driver.Builders.Query,Or</token>
+<entry count="32">
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder,SetUnique</token>
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder,SetTimeToLive</token>
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder,SetName</token>
 </entry>
 <entry count="2">
 <token>-&gt;</token>
@@ -388,32 +408,23 @@
 <token>KaVE.Commons]],NotExists</token>
 <token>MongoDB.Driver.Builders.Query`1[[TDocument</token>
 </entry>
-<entry count="2">
-<token>KaVE.Commons]],SetUnique</token>
-<token>MongoDB.Driver.Builders.IndexOptionsBuilder`1[[TDocument</token>
+<entry count="30">
+<token>MongoDB.Driver.Builders.Query,EQ</token>
+<token>MongoDB.Driver.Builders.Query,EQ</token>
+<token>MongoDB.Driver.Builders.Query,And</token>
 </entry>
-<entry count="2">
-<token>-&gt;</token>
-<token>KaVE.Commons.Model.Events.IDEEvent,</token>
-<token>KaVE.Commons]],SetSparse</token>
-</entry>
-<entry count="2">
-<token>-&gt;</token>
-<token>KaVE.Commons.Model.Events.IDEEvent,</token>
-<token>KaVE.Commons]],SetUnique</token>
-<token>MongoDB.Driver.Builders.IndexOptionsBuilder`1[[TDocument</token>
-<token>-&gt;</token>
+<entry count="1">
+<token>MongoDB.Driver.Builders.IndexKeys,Ascending</token>
+<token>MongoDB.Driver.Builders.IndexOptions,SetName</token>
+<token>MongoDB.Driver.Builders.IndexKeys,Ascending</token>
+<token>MongoDB.Driver.Builders.IndexOptions,SetName</token>
+<token>MongoDB.Driver.Builders.IndexKeys,Descending</token>
 </entry>
 <entry count="1">
 <token>-&gt;</token>
 <token>KaVE.Commons.Model.Events.IDEEvent,</token>
 <token>KaVE.Commons]],EQ</token>
 <token>MongoDB.Driver.Builders.Query,Or</token>
-</entry>
-<entry count="2">
-<token>KaVE.Commons.Model.Events.IDEEvent,</token>
-<token>KaVE.Commons]],SetUnique</token>
-<token>MongoDB.Driver.Builders.IndexOptionsBuilder`1[[TDocument</token>
 </entry>
 <entry count="2">
 <token>KaVE.Commons]],SetUnique</token>
@@ -432,21 +443,15 @@
 <token>-&gt;</token>
 <token>KaVE.Commons.Model.Events.IDEEvent,</token>
 </entry>
-<entry count="1">
-<token>KaVE.Commons.Model.Events.IDEEvent,</token>
-<token>KaVE.Commons]],EQ</token>
-<token>MongoDB.Driver.Builders.Query,Or</token>
-</entry>
 <entry count="3">
 <token>KaVE.Commons.Model.Events.IDEEvent,</token>
 <token>KaVE.Commons]],EQ</token>
 </entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>KaVE.Commons.Model.Events.IDEEvent,</token>
-<token>KaVE.Commons]],NotExists</token>
-<token>MongoDB.Driver.Builders.Query`1[[TDocument</token>
-<token>-&gt;</token>
+<entry count="11">
+<token>MongoDB.Driver.Builders.CollectionOptionsBuilder,SetCapped</token>
+<token>MongoDB.Driver.Builders.CollectionOptionsBuilder,SetMaxSize</token>
+<token>MongoDB.Driver.Builders.CollectionOptionsBuilder,SetMaxDocuments</token>
+<token>MongoDB.Driver.Builders.CollectionOptionsBuilder,SetAutoIndexId</token>
 </entry>
 <entry count="4">
 <token>MongoDB.Driver.Builders.Query`1[[TDocument</token>
@@ -458,6 +463,453 @@
 <token>-&gt;</token>
 </entry>
 <entry count="1">
+<token>MongoDB.Driver.Builders.IndexKeys,Descending</token>
+<token>MongoDB.Driver.Builders.IndexOptions,SetName</token>
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder,SetUnique</token>
+</entry>
+<entry count="11">
+<token>MongoDB.Driver.Builders.CollectionOptionsBuilder,SetCapped</token>
+<token>MongoDB.Driver.Builders.CollectionOptionsBuilder,SetMaxSize</token>
+</entry>
+<entry count="228">
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder,SetBackground</token>
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder,SetDropDups</token>
+</entry>
+<entry count="228">
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder,new</token>
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder,SetBackground</token>
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder,SetDropDups</token>
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder,SetSparse</token>
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder,SetUnique</token>
+</entry>
+<entry count="3">
+<token>MongoDB.Driver.Builders.CollectionOptionsBuilder,SetMaxDocuments</token>
+<token>MongoDB.Driver.Builders.CollectionOptionsBuilder,SetAutoIndexId</token>
+<token>MongoDB.Driver.Builders.CollectionOptionsBuilder,SetValidator</token>
+<token>MongoDB.Driver.Builders.CollectionOptionsBuilder,SetValidationLevel</token>
+</entry>
+<entry count="11">
+<token>MongoDB.Driver.Builders.CollectionOptionsBuilder,new</token>
+<token>MongoDB.Driver.Builders.CollectionOptionsBuilder,SetCapped</token>
+</entry>
+<entry count="2">
+<token>-&gt;</token>
+<token>KaVE.Commons.Model.Events.IDEEvent,</token>
+<token>KaVE.Commons]],SetUnique</token>
+</entry>
+<entry count="2">
+<token>KaVE.Commons.Model.Events.IDEEvent,</token>
+<token>KaVE.Commons]],SetUnique</token>
+</entry>
+<entry count="1">
+<token>MongoDB.Driver.Builders.IndexKeys,Descending</token>
+<token>MongoDB.Driver.Builders.IndexOptions,SetName</token>
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder,SetUnique</token>
+<token>MongoDB.Driver.Builders.IndexKeys,Ascending</token>
+<token>MongoDB.Driver.Builders.IndexOptions,SetName</token>
+</entry>
+<entry count="2">
+<token>MongoDB.Driver.Builders.IndexOptions`1[[TDocument</token>
+<token>-&gt;</token>
+<token>KaVE.Commons.Model.Events.IDEEvent,</token>
+<token>KaVE.Commons]],SetUnique</token>
+</entry>
+<entry count="2">
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder`1[[TDocument</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>KaVE.Commons.Model.Events.IDEEvent,</token>
+<token>KaVE.Commons]],EQ</token>
+<token>MongoDB.Driver.Builders.Query,Or</token>
+<token>MongoDB.Driver.Builders.Query,NE</token>
+</entry>
+<entry count="11">
+<token>MongoDB.Driver.Builders.CollectionOptionsBuilder,SetMaxDocuments</token>
+<token>MongoDB.Driver.Builders.CollectionOptionsBuilder,SetAutoIndexId</token>
+</entry>
+<entry count="1">
+<token>KaVE.Commons]],EQ</token>
+<token>MongoDB.Driver.Builders.Query`1[[TDocument</token>
+<token>-&gt;</token>
+</entry>
+<entry count="34">
+<token>MongoDB.Driver.Builders.Query,EQ</token>
+<token>MongoDB.Driver.Builders.Query,EQ</token>
+</entry>
+<entry count="2">
+<token>MongoDB.Driver.Builders.IndexKeysBuilder,Ascending</token>
+<token>MongoDB.Driver.Builders.IndexKeysBuilder,Descending</token>
+</entry>
+<entry count="1">
+<token>MongoDB.Driver.Builders.Query`1[[TDocument</token>
+<token>-&gt;</token>
+<token>KaVE.Commons.Model.Events.IDEEvent,</token>
+<token>KaVE.Commons]],EQ</token>
+<token>MongoDB.Driver.Builders.Query,Or</token>
+</entry>
+<entry count="112">
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder,SetBackground</token>
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder,SetDropDups</token>
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder,SetSparse</token>
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder,SetUnique</token>
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder,SetName</token>
+</entry>
+<entry count="1">
+<token>MongoDB.Driver.Builders.IndexOptions,SetName</token>
+<token>MongoDB.Driver.Builders.IndexKeys,Descending</token>
+<token>MongoDB.Driver.Builders.IndexOptions,SetName</token>
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder,SetUnique</token>
+</entry>
+<entry count="228">
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder,SetSparse</token>
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder,SetUnique</token>
+</entry>
+<entry count="12">
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder,SetDropDups</token>
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder,SetSparse</token>
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder,SetUnique</token>
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder,SetPartialFilterExpression</token>
+</entry>
+<entry count="1">
+<token>MongoDB.Driver.Builders.IndexOptions,SetName</token>
+<token>MongoDB.Driver.Builders.IndexKeys,Descending</token>
+<token>MongoDB.Driver.Builders.IndexOptions,SetName</token>
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder,SetUnique</token>
+<token>MongoDB.Driver.Builders.IndexKeys,Ascending</token>
+</entry>
+<entry count="1">
+<token>KaVE.Commons]],EQ</token>
+<token>MongoDB.Driver.Builders.Query`1[[TDocument</token>
+<token>-&gt;</token>
+<token>KaVE.Commons.Model.Events.IDEEvent,</token>
+</entry>
+<entry count="2">
+<token>MongoDB.Driver.Builders.CollectionOptionsBuilder,SetMaxDocuments</token>
+<token>MongoDB.Driver.Builders.CollectionOptionsBuilder,SetAutoIndexId</token>
+<token>MongoDB.Driver.Builders.CollectionOptionsBuilder,SetValidator</token>
+<token>MongoDB.Driver.Builders.CollectionOptionsBuilder,SetValidationAction</token>
+</entry>
+<entry count="1">
+<token>MongoDB.Driver.Builders.IndexOptions,SetName</token>
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder,SetUnique</token>
+<token>MongoDB.Driver.Builders.IndexKeys,Ascending</token>
+</entry>
+<entry count="2">
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder`1[[TDocument</token>
+<token>-&gt;</token>
+<token>KaVE.Commons.Model.Events.IDEEvent,</token>
+<token>KaVE.Commons]],SetSparse</token>
+</entry>
+<entry count="228">
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder,SetDropDups</token>
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder,SetSparse</token>
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder,SetUnique</token>
+</entry>
+<entry count="1">
+<token>MongoDB.Driver.Builders.IndexOptions,SetName</token>
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder,SetUnique</token>
+<token>MongoDB.Driver.Builders.IndexKeys,Ascending</token>
+<token>MongoDB.Driver.Builders.IndexOptions,SetName</token>
+</entry>
+<entry count="32">
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder,SetSparse</token>
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder,SetUnique</token>
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder,SetTimeToLive</token>
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder,SetName</token>
+</entry>
+<entry count="1">
+<token>MongoDB.Driver.Builders.IndexKeysBuilder,Ascending</token>
+<token>MongoDB.Driver.Builders.IndexOptions`1[[TDocument</token>
+</entry>
+<entry count="1">
+<token>KaVE.Commons]],EQ</token>
+<token>MongoDB.Driver.Builders.Query,Or</token>
+<token>MongoDB.Driver.Builders.Query,NE</token>
+</entry>
+<entry count="1">
+<token>KaVE.Commons]],EQ</token>
+<token>MongoDB.Driver.Builders.Query,Or</token>
+<token>MongoDB.Driver.Builders.Query,NE</token>
+<token>MongoDB.Driver.Builders.Query,And</token>
+</entry>
+<entry count="1">
+<token>MongoDB.Driver.Builders.IndexKeys,Ascending</token>
+<token>MongoDB.Driver.Builders.IndexOptions`1[[TDocument</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>MongoDB.Driver.Builders.IndexKeysBuilder,GeoSpatial</token>
+<token>MongoDB.Driver.Builders.IndexKeysBuilder,Ascending</token>
+</entry>
+<entry count="1">
+<token>KaVE.Commons]],NotExists</token>
+<token>MongoDB.Driver.Builders.Query`1[[TDocument</token>
+<token>-&gt;</token>
+<token>KaVE.Commons.Model.Events.IDEEvent,</token>
+</entry>
+<entry count="8">
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder,SetDropDups</token>
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder,SetSparse</token>
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder,SetUnique</token>
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder,SetPartialFilterExpression</token>
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder,SetName</token>
+</entry>
+<entry count="1">
+<token>MongoDB.Driver.Builders.IndexKeys,Ascending</token>
+<token>MongoDB.Driver.Builders.IndexOptions`1[[TDocument</token>
+</entry>
+<entry count="10">
+<token>MongoDB.Driver.Builders.CollectionOptionsBuilder,SetCapped</token>
+<token>MongoDB.Driver.Builders.CollectionOptionsBuilder,SetMaxSize</token>
+<token>MongoDB.Driver.Builders.CollectionOptionsBuilder,SetMaxDocuments</token>
+<token>MongoDB.Driver.Builders.CollectionOptionsBuilder,SetAutoIndexId</token>
+<token>MongoDB.Driver.Builders.CollectionOptionsBuilder,SetValidator</token>
+</entry>
+<entry count="1">
+<token>KaVE.Commons]],EQ</token>
+<token>MongoDB.Driver.Builders.Query`1[[TDocument</token>
+<token>-&gt;</token>
+<token>KaVE.Commons.Model.Events.IDEEvent,</token>
+<token>KaVE.Commons]],EQ</token>
+</entry>
+<entry count="2">
+<token>KaVE.Commons]],SetUnique</token>
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder`1[[TDocument</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>KaVE.Commons.Model.Events.IDEEvent,</token>
+<token>KaVE.Commons]],EQ</token>
+<token>MongoDB.Driver.Builders.Query`1[[TDocument</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>MongoDB.Driver.Builders.IndexKeysBuilder,Ascending</token>
+<token>MongoDB.Driver.Builders.IndexOptions`1[[TDocument</token>
+<token>-&gt;</token>
+<token>KaVE.Commons.Model.Events.IDEEvent,</token>
+</entry>
+<entry count="1">
+<token>MongoDB.Driver.Builders.IndexKeysBuilder,new</token>
+<token>MongoDB.Driver.Builders.IndexKeysBuilder,GeoSpatial</token>
+<token>MongoDB.Driver.Builders.IndexKeysBuilder,Ascending</token>
+<token>MongoDB.Driver.Builders.IndexKeysBuilder,Descending</token>
+</entry>
+<entry count="48">
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder,SetUnique</token>
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder,SetTimeToLive</token>
+</entry>
+<entry count="1">
+<token>MongoDB.Driver.Builders.Query,EQ</token>
+<token>MongoDB.Driver.Builders.Update,Push</token>
+</entry>
+<entry count="8">
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder,SetPartialFilterExpression</token>
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder,SetName</token>
+</entry>
+<entry count="1">
+<token>MongoDB.Driver.Builders.IndexKeys,Ascending</token>
+<token>MongoDB.Driver.Builders.IndexKeysBuilder,Ascending</token>
+<token>MongoDB.Driver.Builders.IndexKeysBuilder,Ascending</token>
+<token>MongoDB.Driver.Builders.IndexOptions`1[[TDocument</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>MongoDB.Driver.Builders.IndexKeysBuilder,Ascending</token>
+<token>MongoDB.Driver.Builders.IndexKeysBuilder,Ascending</token>
+<token>MongoDB.Driver.Builders.IndexOptions`1[[TDocument</token>
+<token>-&gt;</token>
+<token>KaVE.Commons.Model.Events.IDEEvent,</token>
+</entry>
+<entry count="11">
+<token>MongoDB.Driver.Builders.CollectionOptionsBuilder,SetCapped</token>
+<token>MongoDB.Driver.Builders.CollectionOptionsBuilder,SetMaxSize</token>
+<token>MongoDB.Driver.Builders.CollectionOptionsBuilder,SetMaxDocuments</token>
+</entry>
+<entry count="48">
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder,SetBackground</token>
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder,SetDropDups</token>
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder,SetSparse</token>
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder,SetUnique</token>
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder,SetTimeToLive</token>
+</entry>
+<entry count="1">
+<token>MongoDB.Driver.Builders.IndexKeysBuilder,Ascending</token>
+<token>MongoDB.Driver.Builders.IndexKeysBuilder,Ascending</token>
+<token>MongoDB.Driver.Builders.IndexOptions`1[[TDocument</token>
+<token>-&gt;</token>
+</entry>
+<entry count="12">
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder,SetUnique</token>
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder,SetPartialFilterExpression</token>
+</entry>
+<entry count="12">
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder,SetSparse</token>
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder,SetUnique</token>
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder,SetPartialFilterExpression</token>
+</entry>
+<entry count="32">
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder,SetDropDups</token>
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder,SetSparse</token>
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder,SetUnique</token>
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder,SetTimeToLive</token>
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder,SetName</token>
+</entry>
+<entry count="2">
+<token>MongoDB.Driver.Builders.CollectionOptionsBuilder,SetValidator</token>
+<token>MongoDB.Driver.Builders.CollectionOptionsBuilder,SetValidationAction</token>
+</entry>
+<entry count="2">
+<token>MongoDB.Driver.Builders.IndexOptions`1[[TDocument</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder,SetUnique</token>
+<token>MongoDB.Driver.Builders.IndexKeys,Ascending</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>KaVE.Commons.Model.Events.IDEEvent,</token>
+<token>KaVE.Commons]],EQ</token>
+<token>MongoDB.Driver.Builders.Query,EQ</token>
+<token>MongoDB.Driver.Builders.Query,And</token>
+</entry>
+<entry count="2">
+<token>KaVE.Commons]],SetUnique</token>
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder`1[[TDocument</token>
+<token>-&gt;</token>
+<token>KaVE.Commons.Model.Events.IDEEvent,</token>
+<token>KaVE.Commons]],SetSparse</token>
+</entry>
+<entry count="2">
+<token>MongoDB.Driver.Builders.IndexOptions`1[[TDocument</token>
+<token>-&gt;</token>
+<token>KaVE.Commons.Model.Events.IDEEvent,</token>
+<token>KaVE.Commons]],SetUnique</token>
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder`1[[TDocument</token>
+</entry>
+<entry count="1">
+<token>MongoDB.Driver.Builders.IndexKeysBuilder,new</token>
+<token>MongoDB.Driver.Builders.IndexKeysBuilder,GeoSpatial</token>
+<token>MongoDB.Driver.Builders.IndexKeysBuilder,Ascending</token>
+</entry>
+<entry count="228">
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder,SetBackground</token>
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder,SetDropDups</token>
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder,SetSparse</token>
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder,SetUnique</token>
+</entry>
+<entry count="11">
+<token>MongoDB.Driver.Builders.CollectionOptionsBuilder,new</token>
+<token>MongoDB.Driver.Builders.CollectionOptionsBuilder,SetCapped</token>
+<token>MongoDB.Driver.Builders.CollectionOptionsBuilder,SetMaxSize</token>
+<token>MongoDB.Driver.Builders.CollectionOptionsBuilder,SetMaxDocuments</token>
+</entry>
+<entry count="2">
+<token>MongoDB.Driver.Builders.CollectionOptionsBuilder,SetAutoIndexId</token>
+<token>MongoDB.Driver.Builders.CollectionOptionsBuilder,SetValidator</token>
+<token>MongoDB.Driver.Builders.CollectionOptionsBuilder,SetValidationAction</token>
+</entry>
+<entry count="2">
+<token>KaVE.Commons.Model.Events.IDEEvent,</token>
+<token>KaVE.Commons]],SetUnique</token>
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder`1[[TDocument</token>
+<token>-&gt;</token>
+</entry>
+<entry count="11">
+<token>MongoDB.Driver.Builders.CollectionOptionsBuilder,SetMaxSize</token>
+<token>MongoDB.Driver.Builders.CollectionOptionsBuilder,SetMaxDocuments</token>
+</entry>
+<entry count="1">
+<token>MongoDB.Driver.Builders.IndexKeys,Ascending</token>
+<token>MongoDB.Driver.Builders.IndexOptions,SetName</token>
+<token>MongoDB.Driver.Builders.IndexKeys,Descending</token>
+<token>MongoDB.Driver.Builders.IndexOptions,SetName</token>
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder,SetUnique</token>
+</entry>
+<entry count="31">
+<token>MongoDB.Driver.Builders.Query,EQ</token>
+<token>MongoDB.Driver.Builders.Query,And</token>
+</entry>
+<entry count="1">
+<token>KaVE.Commons]],EQ</token>
+<token>MongoDB.Driver.Builders.Query,Or</token>
+</entry>
+<entry count="1">
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder,SetUnique</token>
+<token>MongoDB.Driver.Builders.IndexKeys,Ascending</token>
+<token>MongoDB.Driver.Builders.IndexOptions,SetName</token>
+</entry>
+<entry count="1">
+<token>MongoDB.Driver.Builders.IndexKeys,Ascending</token>
+<token>MongoDB.Driver.Builders.IndexOptions,SetName</token>
+<token>MongoDB.Driver.Builders.IndexKeys,Ascending</token>
+<token>MongoDB.Driver.Builders.IndexOptions,SetName</token>
+</entry>
+<entry count="3">
+<token>MongoDB.Driver.Builders.CollectionOptionsBuilder,SetValidator</token>
+<token>MongoDB.Driver.Builders.CollectionOptionsBuilder,SetValidationLevel</token>
+</entry>
+<entry count="2">
+<token>KaVE.Commons]],SetUnique</token>
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder`1[[TDocument</token>
+</entry>
+<entry count="2">
+<token>-&gt;</token>
+<token>KaVE.Commons.Model.Events.IDEEvent,</token>
+<token>KaVE.Commons]],SetSparse</token>
+</entry>
+<entry count="2">
+<token>-&gt;</token>
+<token>KaVE.Commons.Model.Events.IDEEvent,</token>
+<token>KaVE.Commons]],SetUnique</token>
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder`1[[TDocument</token>
+<token>-&gt;</token>
+</entry>
+<entry count="2">
+<token>KaVE.Commons.Model.Events.IDEEvent,</token>
+<token>KaVE.Commons]],SetUnique</token>
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder`1[[TDocument</token>
+</entry>
+<entry count="1">
+<token>MongoDB.Driver.Builders.IndexOptions,SetName</token>
+<token>MongoDB.Driver.Builders.IndexKeys,Ascending</token>
+<token>MongoDB.Driver.Builders.IndexOptions,SetName</token>
+<token>MongoDB.Driver.Builders.IndexKeys,Descending</token>
+<token>MongoDB.Driver.Builders.IndexOptions,SetName</token>
+</entry>
+<entry count="1">
+<token>MongoDB.Driver.Builders.IndexKeysBuilder,new</token>
+<token>MongoDB.Driver.Builders.IndexKeysBuilder,Ascending</token>
+</entry>
+<entry count="1">
+<token>KaVE.Commons.Model.Events.IDEEvent,</token>
+<token>KaVE.Commons]],EQ</token>
+<token>MongoDB.Driver.Builders.Query,Or</token>
+</entry>
+<entry count="1">
+<token>MongoDB.Driver.Builders.IndexKeysBuilder,new</token>
+<token>MongoDB.Driver.Builders.IndexKeysBuilder,Ascending</token>
+<token>MongoDB.Driver.Builders.IndexKeysBuilder,Descending</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>KaVE.Commons.Model.Events.IDEEvent,</token>
+<token>KaVE.Commons]],NotExists</token>
+<token>MongoDB.Driver.Builders.Query`1[[TDocument</token>
+<token>-&gt;</token>
+</entry>
+<entry count="228">
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder,new</token>
+<token>MongoDB.Driver.Builders.IndexOptionsBuilder,SetBackground</token>
+</entry>
+<entry count="1">
+<token>MongoDB.Driver.Builders.IndexKeys,Ascending</token>
+<token>MongoDB.Driver.Builders.IndexOptions,SetName</token>
+<token>MongoDB.Driver.Builders.IndexKeys,Descending</token>
+</entry>
+<entry count="1">
 <token>MongoDB.Driver.Builders.IndexKeysBuilder,Ascending</token>
 <token>MongoDB.Driver.Builders.IndexKeysBuilder,Ascending</token>
 </entry>
@@ -467,5 +919,9 @@
 <token>KaVE.Commons.Model.Events.IDEEvent,</token>
 <token>KaVE.Commons]],EQ</token>
 <token>MongoDB.Driver.Builders.Query,EQ</token>
+</entry>
+<entry count="10">
+<token>MongoDB.Driver.Builders.CollectionOptionsBuilder,SetAutoIndexId</token>
+<token>MongoDB.Driver.Builders.CollectionOptionsBuilder,SetValidator</token>
 </entry>
 </dictionary>

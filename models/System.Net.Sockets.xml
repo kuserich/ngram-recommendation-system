@@ -1,18 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?><dictionary case_sensitive="false">
-<entry count="5">
+<entry count="8">
+<token>System.Net.Sockets.SocketAsyncEventArgs,SetBuffer</token>
+<token>System.Net.Sockets.Socket,ReceiveAsync</token>
+<token>System.Net.Sockets.Socket,AcceptAsync</token>
+</entry>
+<entry count="1">
+<token>System.Net.Sockets.TcpListener,new</token>
+<token>System.Net.Sockets.TcpListener,Start</token>
+<token>System.Net.Sockets.TcpListener,Pending</token>
+<token>System.Net.Sockets.TcpListener,AcceptTcpClient</token>
+</entry>
+<entry count="18">
+<token>System.Net.Sockets.Socket,Listen</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.SocketAsyncEventArgs,new</token>
+</entry>
+<entry count="18">
+<token>System.Net.Sockets.Socket,new</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.Socket,Bind</token>
+<token>System.Net.Sockets.Socket,IOControl</token>
+</entry>
+<entry count="2">
+<token>System.Net.Sockets.Socket,Bind</token>
+<token>System.Net.Sockets.Socket,Connect</token>
+</entry>
+<entry count="1">
+<token>System.Net.Sockets.TcpListener,Pending</token>
+<token>System.Net.Sockets.TcpListener,Stop</token>
+</entry>
+<entry count="68">
 <token>System.Net.Sockets.Socket,SetSocketOption</token>
 <token>System.Net.Sockets.Socket,Bind</token>
 </entry>
-<entry count="24">
-<token>System.Net.Sockets.Socket,Receive</token>
-<token>System.Net.Sockets.Socket,Shutdown</token>
+<entry count="1">
+<token>System.Net.Sockets.Socket,Close</token>
+<token>System.Net.Sockets.Socket,Dispose</token>
+</entry>
+<entry count="6">
+<token>System.Net.Sockets.Socket,SendTo</token>
+<token>System.Net.Sockets.Socket,SendTo</token>
+</entry>
+<entry count="12">
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.Socket,new</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.Socket,Bind</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+</entry>
+<entry count="4">
+<token>System.Net.Sockets.Socket,new</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.MulticastOption,new</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
 </entry>
 <entry count="1">
 <token>System.Net.Sockets.Socket,new</token>
-<token>System.Net.Sockets.LingerOption,new</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.Socket,Bind</token>
+<token>System.Net.Sockets.Socket,Listen</token>
+<token>System.Net.Sockets.Socket,BeginAccept</token>
 </entry>
-<entry count="1">
-<token>System.Net.Sockets.Socket,BeginConnect</token>
+<entry count="3">
+<token>System.Net.Sockets.Socket,Connect</token>
+<token>System.Net.Sockets.NetworkStream,new</token>
 <token>System.Net.Sockets.Socket,Close</token>
 </entry>
 <entry count="24">
@@ -20,58 +72,59 @@
 <token>System.Net.Sockets.Socket,Poll</token>
 <token>System.Net.Sockets.Socket,Receive</token>
 </entry>
-<entry count="2">
-<token>System.Net.Sockets.Socket,Send</token>
-<token>System.Net.Sockets.Socket,Send</token>
-<token>System.Net.Sockets.Socket,Send</token>
-</entry>
-<entry count="1">
-<token>System.Net.Sockets.Socket,new</token>
-<token>System.Net.Sockets.LingerOption,new</token>
-<token>System.Net.Sockets.Socket,SetSocketOption</token>
-<token>System.Net.Sockets.Socket,Bind</token>
-</entry>
-<entry count="4">
-<token>System.Net.Sockets.Socket,new</token>
-<token>System.Net.Sockets.Socket,SetSocketOption</token>
-</entry>
-<entry count="9">
+<entry count="155">
 <token>System.Net.Sockets.TcpClient,new</token>
 <token>System.Net.Sockets.TcpClient,Connect</token>
 </entry>
-<entry count="4">
-<token>System.Net.Sockets.SocketAsyncEventArgs,new</token>
-<token>System.Net.Sockets.Socket,ConnectAsync</token>
+<entry count="12">
+<token>System.Net.Sockets.Socket,Send</token>
+<token>System.Net.Sockets.Socket,Bind</token>
 </entry>
-<entry count="6">
-<token>System.Net.Sockets.Socket,new</token>
-<token>System.Net.Sockets.Socket,BeginConnect</token>
+<entry count="47">
+<token>System.Net.Sockets.Socket,Connect</token>
+<token>System.Net.Sockets.Socket,Send</token>
 </entry>
 <entry count="1">
 <token>System.Net.Sockets.Socket,Connect</token>
 <token>System.Net.Sockets.LingerOption,new</token>
 </entry>
-<entry count="8">
-<token>System.Net.Sockets.SocketAsyncEventArgs,new</token>
-<token>System.Net.Sockets.SocketAsyncEventArgs,SetBuffer</token>
-<token>System.Net.Sockets.SocketAsyncEventArgs,new</token>
-<token>System.Net.Sockets.SocketAsyncEventArgs,SetBuffer</token>
+<entry count="2">
+<token>System.Net.Sockets.Socket,new</token>
+<token>System.Net.Sockets.LingerOption,new</token>
+<token>System.Net.Sockets.Socket,BeginConnect</token>
+<token>System.Net.Sockets.Socket,Close</token>
 </entry>
-<entry count="8">
+<entry count="2">
+<token>System.Net.Sockets.MulticastOption,new</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.Socket,Bind</token>
+</entry>
+<entry count="1">
+<token>System.Net.Sockets.Socket,new</token>
+<token>System.Net.Sockets.Socket,Listen</token>
+</entry>
+<entry count="1">
+<token>System.Net.Sockets.UdpClient,new</token>
+<token>System.Net.Sockets.UdpClient,new</token>
+</entry>
+<entry count="14">
 <token>System.Net.Sockets.TcpListener,new</token>
 <token>System.Net.Sockets.TcpListener,Start</token>
 <token>System.Net.Sockets.TcpListener,BeginAcceptSocket</token>
 </entry>
+<entry count="1">
+<token>System.Net.Sockets.TcpListener,AcceptTcpClient</token>
+<token>System.Net.Sockets.TcpListener,Stop</token>
+</entry>
+<entry count="9">
+<token>System.Net.Sockets.TcpClient,GetStream</token>
+<token>System.Net.Sockets.Socket,Shutdown</token>
+</entry>
 <entry count="24">
 <token>System.Net.Sockets.Socket,Receive</token>
 <token>System.Net.Sockets.Socket,Shutdown</token>
 <token>System.Net.Sockets.Socket,Close</token>
-</entry>
-<entry count="2">
-<token>System.Net.Sockets.Socket,new</token>
-<token>System.Net.Sockets.Socket,Connect</token>
-<token>System.Net.Sockets.Socket,Close</token>
-<token>System.Net.Sockets.NetworkStream,new</token>
 </entry>
 <entry count="24">
 <token>System.Net.Sockets.Socket,Poll</token>
@@ -79,18 +132,37 @@
 <token>System.Net.Sockets.Socket,Shutdown</token>
 <token>System.Net.Sockets.Socket,Close</token>
 </entry>
-<entry count="12">
-<token>System.Net.Sockets.Socket,Poll</token>
-<token>System.Net.Sockets.Socket,Shutdown</token>
+<entry count="8">
+<token>System.Net.Sockets.SocketException,new</token>
+<token>System.Net.Sockets.SocketAsyncEventArgs,SetBuffer</token>
+<token>System.Net.Sockets.Socket,SendAsync</token>
+</entry>
+<entry count="48">
+<token>System.Net.Sockets.TcpListener,BeginAcceptSocket</token>
+<token>System.Net.Sockets.TcpListener,EndAcceptSocket</token>
+</entry>
+<entry count="146">
+<token>System.Net.Sockets.TcpClient,new</token>
+<token>System.Net.Sockets.TcpClient,GetStream</token>
+<token>System.Net.Sockets.TcpClient,Close</token>
 </entry>
 <entry count="4">
 <token>System.Net.Sockets.SocketAsyncEventArgs,Dispose</token>
 <token>System.Net.Sockets.SocketAsyncEventArgs,Dispose</token>
 <token>System.Net.Sockets.Socket,Dispose</token>
 </entry>
-<entry count="8">
+<entry count="14">
 <token>System.Net.Sockets.TcpListener,Start</token>
 <token>System.Net.Sockets.TcpListener,BeginAcceptSocket</token>
+</entry>
+<entry count="4">
+<token>System.Net.Sockets.TcpListener,Start</token>
+<token>System.Net.Sockets.SocketAsyncEventArgs,new</token>
+</entry>
+<entry count="28">
+<token>System.Net.Sockets.TcpClient,new</token>
+<token>System.Net.Sockets.TcpClient,EndConnect</token>
+<token>System.Net.Sockets.TcpClient,BeginConnect</token>
 </entry>
 <entry count="1">
 <token>System.Net.Sockets.Socket,Connect</token>
@@ -105,71 +177,87 @@
 <token>System.Net.Sockets.Socket,Shutdown</token>
 </entry>
 <entry count="1">
-<token>System.Net.Sockets.SocketAsyncEventArgs,new</token>
-<token>System.Net.Sockets.SocketAsyncEventArgs,SetBuffer</token>
-<token>System.Net.Sockets.Socket,SendAsync</token>
+<token>System.Net.Sockets.TcpListener,Start</token>
+<token>System.Net.Sockets.TcpListener,new</token>
+</entry>
+<entry count="2">
+<token>System.Net.Sockets.Socket,Bind</token>
+<token>System.Net.Sockets.Socket,Listen</token>
+<token>System.Net.Sockets.Socket,new</token>
+<token>System.Net.Sockets.Socket,Bind</token>
+<token>System.Net.Sockets.Socket,Listen</token>
+</entry>
+<entry count="1">
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.Socket,Bind</token>
+<token>System.Net.Sockets.Socket,Listen</token>
+<token>System.Net.Sockets.Socket,BeginAccept</token>
+</entry>
+<entry count="4">
+<token>System.Net.Sockets.TcpClient,Connect</token>
+<token>System.Net.Sockets.TcpClient,Close</token>
 </entry>
 <entry count="1">
 <token>System.Net.Sockets.Socket,BeginConnect</token>
 <token>System.Net.Sockets.Socket,Close</token>
 <token>System.Net.Sockets.SocketException,new</token>
 </entry>
-<entry count="7">
+<entry count="1">
+<token>System.Net.Sockets.TcpListener,new</token>
+<token>System.Net.Sockets.TcpListener,Start</token>
+<token>System.Net.Sockets.TcpListener,new</token>
+</entry>
+<entry count="6">
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.MulticastOption,new</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+</entry>
+<entry count="9">
 <token>System.Net.Sockets.TcpClient,new</token>
-<token>System.Net.Sockets.TcpClient,Connect</token>
 <token>System.Net.Sockets.TcpClient,GetStream</token>
-</entry>
-<entry count="3">
-<token>System.Net.Sockets.Socket,Connect</token>
-<token>System.Net.Sockets.NetworkStream,new</token>
-</entry>
-<entry count="8">
-<token>System.Net.Sockets.TcpClient,GetStream</token>
-<token>System.Net.Sockets.NetworkStream,Write</token>
-</entry>
-<entry count="4">
-<token>System.Net.Sockets.Socket,BeginAccept</token>
-<token>System.Net.Sockets.Socket,EndAccept</token>
-<token>System.Net.Sockets.LingerOption,new</token>
+<token>System.Net.Sockets.Socket,Shutdown</token>
+<token>System.Net.Sockets.Socket,Dispose</token>
 </entry>
 <entry count="1">
-<token>System.Net.Sockets.TcpClient,Connect</token>
-<token>System.Net.Sockets.TcpClient,GetStream</token>
-<token>System.Net.Sockets.NetworkStream,Write</token>
+<token>System.Net.Sockets.Socket,Send</token>
+<token>System.Net.Sockets.Socket,Shutdown</token>
+<token>System.Net.Sockets.Socket,Close</token>
+<token>System.Net.Sockets.Socket,Dispose</token>
 </entry>
 <entry count="24">
-<token>System.Net.Sockets.NetworkStream,EndRead</token>
-<token>System.Net.Sockets.NetworkStream,BeginRead</token>
+<token>System.Net.Sockets.Socket,Listen</token>
+<token>System.Net.Sockets.Socket,EndAccept</token>
+<token>System.Net.Sockets.Socket,BeginAccept</token>
+</entry>
+<entry count="4">
+<token>System.Net.Sockets.TcpListener,new</token>
+<token>System.Net.Sockets.TcpListener,Start</token>
+<token>System.Net.Sockets.SocketAsyncEventArgs,new</token>
 </entry>
 <entry count="1">
 <token>System.Net.Sockets.TcpListener,EndAcceptSocket</token>
 <token>System.Net.Sockets.TcpListener,BeginAcceptSocket</token>
 </entry>
-<entry count="1">
-<token>System.Net.Sockets.LingerOption,new</token>
-<token>System.Net.Sockets.Socket,SetSocketOption</token>
-<token>System.Net.Sockets.Socket,Bind</token>
-</entry>
 <entry count="24">
 <token>System.Net.Sockets.Socket,Poll</token>
 <token>System.Net.Sockets.Socket,Receive</token>
 <token>System.Net.Sockets.Socket,Shutdown</token>
 </entry>
-<entry count="12">
+<entry count="8">
 <token>System.Net.Sockets.Socket,new</token>
-<token>System.Net.Sockets.Socket,Connect</token>
-<token>System.Net.Sockets.Socket,Poll</token>
-<token>System.Net.Sockets.Socket,Shutdown</token>
-<token>System.Net.Sockets.Socket,Close</token>
+<token>System.Net.Sockets.SocketAsyncEventArgs,new</token>
+<token>System.Net.Sockets.Socket,ConnectAsync</token>
 </entry>
 <entry count="18">
-<token>System.Net.Sockets.SocketAsyncEventArgs,new</token>
-<token>System.Net.Sockets.SocketAsyncEventArgs,SetBuffer</token>
-</entry>
-<entry count="1">
 <token>System.Net.Sockets.Socket,new</token>
-<token>System.Net.Sockets.Socket,BeginConnect</token>
-<token>System.Net.Sockets.Socket,Close</token>
+<token>System.Net.Sockets.Socket,Bind</token>
+<token>System.Net.Sockets.Socket,Listen</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+</entry>
+<entry count="2">
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.Socket,SendTo</token>
 </entry>
 <entry count="24">
 <token>System.Net.Sockets.Socket,new</token>
@@ -178,25 +266,36 @@
 <token>System.Net.Sockets.Socket,Receive</token>
 </entry>
 <entry count="1">
-<token>System.Net.Sockets.Socket,new</token>
-<token>System.Net.Sockets.Socket,Connect</token>
-<token>System.Net.Sockets.LingerOption,new</token>
+<token>System.Net.Sockets.NetworkStream,Write</token>
+<token>System.Net.Sockets.NetworkStream,Write</token>
+<token>System.Net.Sockets.NetworkStream,Write</token>
+<token>System.Net.Sockets.NetworkStream,Write</token>
+<token>System.Net.Sockets.NetworkStream,Write</token>
 </entry>
-<entry count="4">
-<token>System.Net.Sockets.SocketAsyncEventArgs,Dispose</token>
-<token>System.Net.Sockets.Socket,Dispose</token>
-</entry>
-<entry count="21">
-<token>System.Net.Sockets.SocketAsyncEventArgs,SetBuffer</token>
-<token>System.Net.Sockets.Socket,SendAsync</token>
-</entry>
-<entry count="50">
+<entry count="279">
 <token>System.Net.Sockets.Socket,new</token>
 <token>System.Net.Sockets.Socket,Connect</token>
 </entry>
-<entry count="1">
-<token>System.Net.Sockets.NetworkStream,new</token>
-<token>System.Net.Sockets.SocketAsyncEventArgs,new</token>
+<entry count="2">
+<token>System.Net.Sockets.Socket,new</token>
+<token>System.Net.Sockets.Socket,Bind</token>
+<token>System.Net.Sockets.MulticastOption,new</token>
+</entry>
+<entry count="8">
+<token>System.Net.Sockets.TcpListener,new</token>
+<token>System.Net.Sockets.TcpListener,Start</token>
+<token>System.Net.Sockets.Socket,Select</token>
+</entry>
+<entry count="2">
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.Socket,Connect</token>
+<token>System.Net.Sockets.Socket,SendTo</token>
+<token>System.Net.Sockets.Socket,ReceiveFrom</token>
+<token>System.Net.Sockets.Socket,Shutdown</token>
+</entry>
+<entry count="96">
+<token>System.Net.Sockets.TcpListener,Start</token>
+<token>System.Net.Sockets.TcpListener,Stop</token>
 </entry>
 <entry count="1">
 <token>System.Net.Sockets.Socket,new</token>
@@ -205,71 +304,198 @@
 <token>System.Net.Sockets.SocketException,new</token>
 </entry>
 <entry count="2">
-<token>System.Net.Sockets.Socket,Connect</token>
-<token>System.Net.Sockets.Socket,Close</token>
-<token>System.Net.Sockets.NetworkStream,new</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.MulticastOption,new</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
 </entry>
-<entry count="5">
-<token>System.Net.Sockets.TcpClient,new</token>
-<token>System.Net.Sockets.TcpClient,Connect</token>
-<token>System.Net.Sockets.TcpClient,GetStream</token>
-<token>System.Net.Sockets.TcpClient,GetStream</token>
+<entry count="1152">
+<token>System.Net.Sockets.TcpListener,new</token>
+<token>System.Net.Sockets.TcpListener,Pending</token>
+<token>System.Net.Sockets.TcpListener,AcceptTcpClient</token>
+</entry>
+<entry count="3">
+<token>System.Net.Sockets.Socket,EndAccept</token>
+<token>System.Net.Sockets.Socket,BeginAccept</token>
+<token>System.Net.Sockets.Socket,Receive</token>
 </entry>
 <entry count="2">
-<token>System.Net.Sockets.Socket,Close</token>
+<token>System.Net.Sockets.Socket,Shutdown</token>
+<token>System.Net.Sockets.TcpClient,Close</token>
+</entry>
+<entry count="2">
+<token>System.Net.Sockets.Socket,new</token>
+<token>System.Net.Sockets.Socket,Connect</token>
 <token>System.Net.Sockets.NetworkStream,new</token>
+<token>System.Net.Sockets.NetworkStream,Write</token>
 </entry>
-<entry count="8">
-<token>System.Net.Sockets.Socket,Connect</token>
+<entry count="1">
+<token>System.Net.Sockets.TcpClient,GetStream</token>
+<token>System.Net.Sockets.NetworkStream,Flush</token>
+<token>System.Net.Sockets.NetworkStream,Flush</token>
 <token>System.Net.Sockets.Socket,Shutdown</token>
-</entry>
-<entry count="12">
-<token>System.Net.Sockets.Socket,Connect</token>
-<token>System.Net.Sockets.Socket,Poll</token>
-<token>System.Net.Sockets.Socket,Shutdown</token>
-</entry>
-<entry count="12">
-<token>System.Net.Sockets.Socket,Poll</token>
-<token>System.Net.Sockets.Socket,Shutdown</token>
-<token>System.Net.Sockets.Socket,Close</token>
 </entry>
 <entry count="4">
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.MulticastOption,new</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.Socket,Bind</token>
+</entry>
+<entry count="1">
+<token>System.Net.Sockets.TcpListener,Start</token>
+<token>System.Net.Sockets.TcpListener,Pending</token>
+<token>System.Net.Sockets.TcpListener,Stop</token>
+</entry>
+<entry count="9">
+<token>System.Net.Sockets.TcpClient,new</token>
+<token>System.Net.Sockets.TcpClient,GetStream</token>
+<token>System.Net.Sockets.Socket,Shutdown</token>
+</entry>
+<entry count="2">
+<token>System.Net.Sockets.Socket,new</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.MulticastOption,new</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+</entry>
+<entry count="13">
+<token>System.Net.Sockets.Socket,Accept</token>
+<token>System.Net.Sockets.Socket,Close</token>
+</entry>
+<entry count="12">
+<token>System.Net.Sockets.TcpListener,new</token>
+<token>System.Net.Sockets.TcpListener,Start</token>
+<token>System.Net.Sockets.TcpListener,AcceptTcpClient</token>
+<token>System.Net.Sockets.TcpClient,GetStream</token>
+</entry>
+<entry count="12">
+<token>System.Net.Sockets.Socket,Poll</token>
+<token>System.Net.Sockets.Socket,Shutdown</token>
+<token>System.Net.Sockets.Socket,Close</token>
+</entry>
+<entry count="14">
+<token>System.Net.Sockets.TcpListener,new</token>
+<token>System.Net.Sockets.TcpListener,Start</token>
+<token>System.Net.Sockets.TcpListener,AcceptTcpClient</token>
+</entry>
+<entry count="1">
+<token>System.Net.Sockets.TcpListener,EndAcceptTcpClient</token>
+<token>System.Net.Sockets.TcpClient,GetStream</token>
+<token>System.Net.Sockets.TcpListener,BeginAcceptTcpClient</token>
+</entry>
+<entry count="1924">
 <token>System.Net.Sockets.TcpClient,new</token>
 <token>System.Net.Sockets.TcpClient,GetStream</token>
 </entry>
-<entry count="1">
+<entry count="11">
+<token>System.Net.Sockets.Socket,new</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+</entry>
+<entry count="7">
+<token>System.Net.Sockets.Socket,EndReceive</token>
 <token>System.Net.Sockets.Socket,Shutdown</token>
-<token>System.Net.Sockets.Socket,Disconnect</token>
-<token>System.Net.Sockets.Socket,Dispose</token>
+</entry>
+<entry count="1">
+<token>System.Net.Sockets.UdpClient,new</token>
+<token>System.Net.Sockets.UdpClient,new</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+</entry>
+<entry count="2">
+<token>System.Net.Sockets.UdpClient,new</token>
+<token>System.Net.Sockets.UdpClient,Receive</token>
+</entry>
+<entry count="1">
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.Socket,Bind</token>
+<token>System.Net.Sockets.UdpClient,Connect</token>
+</entry>
+<entry count="14">
+<token>System.Net.Sockets.Socket,Bind</token>
+<token>System.Net.Sockets.MulticastOption,new</token>
+</entry>
+<entry count="8">
+<token>System.Net.Sockets.Socket,new</token>
+<token>System.Net.Sockets.Socket,Connect</token>
+<token>System.Net.Sockets.SocketAsyncEventArgs,new</token>
+</entry>
+<entry count="12">
+<token>System.Net.Sockets.Socket,Connect</token>
+<token>System.Net.Sockets.Socket,Send</token>
+<token>System.Net.Sockets.Socket,Bind</token>
+<token>System.Net.Sockets.Socket,Listen</token>
 </entry>
 <entry count="8">
 <token>System.Net.Sockets.SocketAsyncEventArgs,SetBuffer</token>
 <token>System.Net.Sockets.SocketAsyncEventArgs,new</token>
 <token>System.Net.Sockets.SocketAsyncEventArgs,SetBuffer</token>
 </entry>
-<entry count="6">
-<token>System.Net.Sockets.Socket,Select</token>
+<entry count="8">
+<token>System.Net.Sockets.Socket,new</token>
+<token>System.Net.Sockets.Socket,Bind</token>
+<token>System.Net.Sockets.Socket,BeginConnect</token>
+</entry>
+<entry count="5">
+<token>System.Net.Sockets.Socket,EndReceive</token>
+<token>System.Net.Sockets.Socket,BeginReceive</token>
+<token>System.Net.Sockets.Socket,BeginReceive</token>
+</entry>
+<entry count="1">
+<token>System.Net.Sockets.Socket,EndSend</token>
+<token>System.Net.Sockets.Socket,Shutdown</token>
+</entry>
+<entry count="2">
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.MulticastOption,new</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+</entry>
+<entry count="12">
+<token>System.Net.Sockets.Socket,new</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.Socket,new</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.Socket,Bind</token>
+</entry>
+<entry count="20">
+<token>System.Net.Sockets.TcpClient,EndConnect</token>
+<token>System.Net.Sockets.TcpClient,BeginConnect</token>
+<token>System.Net.Sockets.TcpClient,GetStream</token>
+</entry>
+<entry count="1">
+<token>System.Net.Sockets.TcpListener,new</token>
+<token>System.Net.Sockets.TcpListener,Start</token>
+<token>System.Net.Sockets.TcpListener,Pending</token>
+<token>System.Net.Sockets.TcpListener,AcceptTcpClient</token>
 <token>System.Net.Sockets.TcpListener,Stop</token>
 </entry>
-<entry count="1">
-<token>System.Net.Sockets.Socket,Connect</token>
-<token>System.Net.Sockets.NetworkStream,new</token>
+<entry count="2">
+<token>System.Net.Sockets.TcpListener,new</token>
+<token>System.Net.Sockets.TcpListener,Start</token>
+<token>System.Net.Sockets.TcpListener,Pending</token>
+</entry>
+<entry count="18">
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
 <token>System.Net.Sockets.SocketAsyncEventArgs,new</token>
-<token>System.Net.Sockets.SocketAsyncEventArgs,SetBuffer</token>
-<token>System.Net.Sockets.Socket,SendAsync</token>
 </entry>
 <entry count="4">
-<token>System.Net.Sockets.SocketAsyncEventArgs,Dispose</token>
-<token>System.Net.Sockets.SocketAsyncEventArgs,Dispose</token>
-</entry>
-<entry count="4">
-<token>System.Net.Sockets.Socket,BeginAccept</token>
-<token>System.Net.Sockets.Socket,EndAccept</token>
-</entry>
-<entry count="8">
-<token>System.Net.Sockets.Socket,Connect</token>
-<token>System.Net.Sockets.Socket,Shutdown</token>
 <token>System.Net.Sockets.Socket,Close</token>
+<token>System.Net.Sockets.Socket,Close</token>
+<token>System.Net.Sockets.NetworkStream,new</token>
+</entry>
+<entry count="18">
+<token>System.Net.Sockets.Socket,Bind</token>
+<token>System.Net.Sockets.Socket,IOControl</token>
+<token>System.Net.Sockets.Socket,ReceiveFromAsync</token>
+</entry>
+<entry count="12">
+<token>System.Net.Sockets.TcpListener,EndAcceptSocket</token>
+<token>System.Net.Sockets.Socket,Disconnect</token>
+</entry>
+<entry count="3">
+<token>System.Net.Sockets.UdpClient,new</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
 </entry>
 <entry count="36">
 <token>System.Net.Sockets.Socket,new</token>
@@ -277,70 +503,106 @@
 <token>System.Net.Sockets.Socket,Poll</token>
 </entry>
 <entry count="2">
-<token>System.Net.Sockets.Socket,Connect</token>
-<token>System.Net.Sockets.Socket,Close</token>
-</entry>
-<entry count="4">
 <token>System.Net.Sockets.Socket,new</token>
-<token>System.Net.Sockets.Socket,SetSocketOption</token>
 <token>System.Net.Sockets.Socket,Bind</token>
-<token>System.Net.Sockets.Socket,Listen</token>
-</entry>
-<entry count="5">
-<token>System.Net.Sockets.TcpClient,GetStream</token>
-<token>System.Net.Sockets.TcpClient,GetStream</token>
-</entry>
-<entry count="1">
-<token>System.Net.Sockets.Socket,new</token>
-<token>System.Net.Sockets.Socket,BeginConnect</token>
-<token>System.Net.Sockets.Socket,EndConnect</token>
-</entry>
-<entry count="49">
-<token>System.Net.Sockets.Socket,Shutdown</token>
-<token>System.Net.Sockets.Socket,Close</token>
-</entry>
-<entry count="1">
-<token>System.Net.Sockets.Socket,new</token>
-<token>System.Net.Sockets.Socket,Connect</token>
-<token>System.Net.Sockets.LingerOption,new</token>
-<token>System.Net.Sockets.Socket,BeginReceive</token>
-</entry>
-<entry count="1">
-<token>System.Net.Sockets.Socket,BeginConnect</token>
-<token>System.Net.Sockets.Socket,EndConnect</token>
-</entry>
-<entry count="1">
-<token>System.Net.Sockets.LingerOption,new</token>
-<token>System.Net.Sockets.Socket,SetSocketOption</token>
-</entry>
-<entry count="4">
-<token>System.Net.Sockets.Socket,Bind</token>
-<token>System.Net.Sockets.Socket,Listen</token>
-</entry>
-<entry count="1">
-<token>System.Net.Sockets.Socket,new</token>
-<token>System.Net.Sockets.LingerOption,new</token>
+<token>System.Net.Sockets.MulticastOption,new</token>
 <token>System.Net.Sockets.Socket,SetSocketOption</token>
 </entry>
 <entry count="12">
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.Socket,Bind</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+</entry>
+<entry count="7">
+<token>System.Net.Sockets.TcpClient,GetStream</token>
+<token>System.Net.Sockets.NetworkStream,Flush</token>
+</entry>
+<entry count="1">
 <token>System.Net.Sockets.Socket,new</token>
 <token>System.Net.Sockets.Socket,Connect</token>
-<token>System.Net.Sockets.Socket,Poll</token>
-<token>System.Net.Sockets.Socket,Shutdown</token>
-</entry>
-<entry count="1">
-<token>System.Net.Sockets.Socket,EndReceive</token>
+<token>System.Net.Sockets.LingerOption,new</token>
 <token>System.Net.Sockets.Socket,BeginReceive</token>
 </entry>
+<entry count="2">
+<token>System.Net.Sockets.LingerOption,new</token>
+<token>System.Net.Sockets.Socket,BeginConnect</token>
+<token>System.Net.Sockets.Socket,EndConnect</token>
+</entry>
 <entry count="1">
+<token>System.Net.Sockets.Socket,EndAccept</token>
+<token>System.Net.Sockets.Socket,BeginReceive</token>
+</entry>
+<entry count="3">
+<token>System.Net.Sockets.Socket,BeginAccept</token>
+<token>System.Net.Sockets.Socket,Receive</token>
+</entry>
+<entry count="1">
+<token>System.Net.Sockets.TcpListener,Start</token>
+<token>System.Net.Sockets.TcpListener,Pending</token>
+<token>System.Net.Sockets.TcpListener,AcceptTcpClient</token>
+<token>System.Net.Sockets.TcpListener,Stop</token>
+</entry>
+<entry count="3">
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.Socket,Bind</token>
+<token>System.Net.Sockets.Socket,SendTo</token>
+<token>System.Net.Sockets.Socket,Close</token>
+</entry>
+<entry count="2">
+<token>System.Net.Sockets.Socket,Connect</token>
 <token>System.Net.Sockets.NetworkStream,new</token>
+<token>System.Net.Sockets.NetworkStream,Write</token>
+</entry>
+<entry count="243">
+<token>System.Net.Sockets.Socket,Bind</token>
+<token>System.Net.Sockets.Socket,Listen</token>
+</entry>
+<entry count="6">
+<token>System.Net.Sockets.TcpListener,Start</token>
+<token>System.Net.Sockets.TcpListener,BeginAcceptTcpClient</token>
+</entry>
+<entry count="6">
+<token>System.Net.Sockets.TcpClient,Connect</token>
+<token>System.Net.Sockets.TcpClient,GetStream</token>
+<token>System.Net.Sockets.TcpClient,Close</token>
+</entry>
+<entry count="18">
+<token>System.Net.Sockets.Socket,Bind</token>
+<token>System.Net.Sockets.Socket,Listen</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
 <token>System.Net.Sockets.SocketAsyncEventArgs,new</token>
-<token>System.Net.Sockets.SocketAsyncEventArgs,SetBuffer</token>
+</entry>
+<entry count="1">
+<token>System.Net.Sockets.NetworkStream,Flush</token>
+<token>System.Net.Sockets.NetworkStream,Flush</token>
+<token>System.Net.Sockets.Socket,Shutdown</token>
+</entry>
+<entry count="4">
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.Socket,Connect</token>
 </entry>
 <entry count="4">
 <token>System.Net.Sockets.Socket,new</token>
 <token>System.Net.Sockets.Socket,SetSocketOption</token>
-<token>System.Net.Sockets.Socket,Bind</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.Socket,Connect</token>
+<token>System.Net.Sockets.Socket,SendTo</token>
+</entry>
+<entry count="4">
+<token>System.Net.Sockets.SocketAsyncEventArgs,SetBuffer</token>
+<token>System.Net.Sockets.Socket,ReceiveFromAsync</token>
+</entry>
+<entry count="4">
+<token>System.Net.Sockets.Socket,Accept</token>
+<token>System.Net.Sockets.Socket,Disconnect</token>
+<token>System.Net.Sockets.Socket,Close</token>
+</entry>
+<entry count="1">
+<token>System.Net.Sockets.TcpListener,EndAcceptTcpClient</token>
+<token>System.Net.Sockets.TcpClient,GetStream</token>
 </entry>
 <entry count="24">
 <token>System.Net.Sockets.Socket,Connect</token>
@@ -357,19 +619,38 @@
 <token>System.Net.Sockets.SocketAsyncEventArgs,SetBuffer</token>
 </entry>
 <entry count="1">
-<token>System.Net.Sockets.Socket,Connect</token>
-<token>System.Net.Sockets.NetworkStream,new</token>
-<token>System.Net.Sockets.SocketAsyncEventArgs,new</token>
-<token>System.Net.Sockets.SocketAsyncEventArgs,SetBuffer</token>
+<token>System.Net.Sockets.SocketAsyncEventArgs,Dispose</token>
+<token>System.Net.Sockets.SocketAsyncEventArgs,Dispose</token>
+<token>System.Net.Sockets.SocketAsyncEventArgs,Dispose</token>
 </entry>
-<entry count="36">
-<token>System.Net.Sockets.Socket,Connect</token>
-<token>System.Net.Sockets.Socket,Poll</token>
+<entry count="14">
+<token>System.Net.Sockets.MulticastOption,new</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
 </entry>
-<entry count="2">
+<entry count="35">
 <token>System.Net.Sockets.Socket,new</token>
 <token>System.Net.Sockets.Socket,Connect</token>
+<token>System.Net.Sockets.Socket,Send</token>
+</entry>
+<entry count="18">
+<token>System.Net.Sockets.Socket,Bind</token>
+<token>System.Net.Sockets.Socket,ReceiveFromAsync</token>
+</entry>
+<entry count="3">
+<token>System.Net.Sockets.Socket,new</token>
+<token>System.Net.Sockets.Socket,Connect</token>
+<token>System.Net.Sockets.NetworkStream,new</token>
 <token>System.Net.Sockets.Socket,Close</token>
+</entry>
+<entry count="18">
+<token>System.Net.Sockets.Socket,BeginConnect</token>
+<token>System.Net.Sockets.Socket,Close</token>
+<token>System.Net.Sockets.NetworkStream,new</token>
+</entry>
+<entry count="8">
+<token>System.Net.Sockets.Socket,EndSend</token>
+<token>System.Net.Sockets.Socket,BeginSendTo</token>
 </entry>
 <entry count="12">
 <token>System.Net.Sockets.Socket,Connect</token>
@@ -377,53 +658,675 @@
 <token>System.Net.Sockets.Socket,Shutdown</token>
 <token>System.Net.Sockets.Socket,Close</token>
 </entry>
+<entry count="4">
+<token>System.Net.Sockets.Socket,Accept</token>
+<token>System.Net.Sockets.Socket,Disconnect</token>
+<token>System.Net.Sockets.Socket,Close</token>
+<token>System.Net.Sockets.NetworkStream,new</token>
+</entry>
+<entry count="4">
+<token>System.Net.Sockets.TcpListener,Start</token>
+<token>System.Net.Sockets.SocketAsyncEventArgs,new</token>
+<token>System.Net.Sockets.Socket,AcceptAsync</token>
+</entry>
+<entry count="1">
+<token>System.Net.Sockets.Socket,Disconnect</token>
+<token>System.Net.Sockets.Socket,Dispose</token>
+</entry>
+<entry count="14">
+<token>System.Net.Sockets.Socket,Bind</token>
+<token>System.Net.Sockets.MulticastOption,new</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+</entry>
+<entry count="1">
+<token>System.Net.Sockets.Socket,Close</token>
+<token>System.Net.Sockets.Socket,BeginSend</token>
+</entry>
+<entry count="14">
+<token>System.Net.Sockets.TcpListener,AcceptTcpClient</token>
+<token>System.Net.Sockets.TcpClient,GetStream</token>
+</entry>
+<entry count="1">
+<token>System.Net.Sockets.Socket,Connect</token>
+<token>System.Net.Sockets.LingerOption,new</token>
+<token>System.Net.Sockets.Socket,BeginReceive</token>
+</entry>
+<entry count="591">
+<token>System.Net.Sockets.TcpClient,GetStream</token>
+<token>System.Net.Sockets.TcpClient,Close</token>
+</entry>
+<entry count="5">
+<token>System.Net.Sockets.UdpClient,new</token>
+<token>System.Net.Sockets.UdpClient,BeginReceive</token>
+</entry>
+<entry count="48">
+<token>System.Net.Sockets.Socket,BeginReceiveFrom</token>
+<token>System.Net.Sockets.Socket,BeginReceiveFrom</token>
+</entry>
+<entry count="2">
+<token>System.Net.Sockets.Socket,new</token>
+<token>System.Net.Sockets.LingerOption,new</token>
+<token>System.Net.Sockets.Socket,BeginConnect</token>
+<token>System.Net.Sockets.Socket,EndConnect</token>
+</entry>
+<entry count="3">
+<token>System.Net.Sockets.TcpClient,new</token>
+<token>System.Net.Sockets.TcpClient,GetStream</token>
+<token>System.Net.Sockets.NetworkStream,Flush</token>
+</entry>
+<entry count="8">
+<token>System.Net.Sockets.Socket,Bind</token>
+<token>System.Net.Sockets.Socket,Listen</token>
+<token>System.Net.Sockets.SocketAsyncEventArgs,new</token>
+<token>System.Net.Sockets.Socket,AcceptAsync</token>
+</entry>
+<entry count="72">
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+</entry>
+<entry count="18">
+<token>System.Net.Sockets.Socket,new</token>
+<token>System.Net.Sockets.Socket,BeginConnect</token>
+<token>System.Net.Sockets.Socket,Close</token>
+<token>System.Net.Sockets.NetworkStream,new</token>
+</entry>
+<entry count="12">
+<token>System.Net.Sockets.TcpListener,Start</token>
+<token>System.Net.Sockets.TcpListener,AcceptTcpClient</token>
+<token>System.Net.Sockets.TcpClient,GetStream</token>
+</entry>
+<entry count="28">
+<token>System.Net.Sockets.TcpClient,EndConnect</token>
+<token>System.Net.Sockets.TcpClient,BeginConnect</token>
+</entry>
+<entry count="12">
+<token>System.Net.Sockets.Socket,Send</token>
+<token>System.Net.Sockets.Socket,Send</token>
+</entry>
+<entry count="24">
+<token>System.Net.Sockets.Socket,Connect</token>
+<token>System.Net.Sockets.Socket,Poll</token>
+<token>System.Net.Sockets.Socket,Receive</token>
+<token>System.Net.Sockets.Socket,Shutdown</token>
+</entry>
+<entry count="1">
+<token>System.Net.Sockets.UdpClient,new</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.Socket,Bind</token>
+<token>System.Net.Sockets.UdpClient,Connect</token>
+</entry>
+<entry count="94">
+<token>System.Net.Sockets.Socket,new</token>
+<token>System.Net.Sockets.Socket,Connect</token>
+<token>System.Net.Sockets.NetworkStream,new</token>
+</entry>
+<entry count="2">
+<token>System.Net.Sockets.TcpClient,new</token>
+<token>System.Net.Sockets.TcpClient,Connect</token>
+<token>System.Net.Sockets.TcpClient,GetStream</token>
+<token>System.Net.Sockets.TcpClient,Close</token>
+<token>System.Net.Sockets.TcpClient,Close</token>
+</entry>
+<entry count="4">
+<token>System.Net.Sockets.Socket,new</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.Socket,Connect</token>
+</entry>
+<entry count="4">
+<token>System.Net.Sockets.Socket,SendTo</token>
+<token>System.Net.Sockets.Socket,Close</token>
+</entry>
+<entry count="2">
+<token>System.Net.Sockets.TcpClient,GetStream</token>
+<token>System.Net.Sockets.TcpClient,GetStream</token>
+<token>System.Net.Sockets.TcpClient,Close</token>
+</entry>
+<entry count="18">
+<token>System.Net.Sockets.Socket,new</token>
+<token>System.Net.Sockets.Socket,Bind</token>
+<token>System.Net.Sockets.Socket,Listen</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+</entry>
+<entry count="18">
+<token>System.Net.Sockets.Socket,Bind</token>
+<token>System.Net.Sockets.Socket,Listen</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+</entry>
+<entry count="1">
+<token>System.Net.Sockets.Socket,new</token>
+<token>System.Net.Sockets.Socket,Connect</token>
+<token>System.Net.Sockets.Socket,Send</token>
+<token>System.Net.Sockets.Socket,Receive</token>
+</entry>
+<entry count="11">
+<token>System.Net.Sockets.NetworkStream,Write</token>
+<token>System.Net.Sockets.NetworkStream,Write</token>
+</entry>
+<entry count="18">
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.SocketAsyncEventArgs,new</token>
+</entry>
+<entry count="8">
+<token>System.Net.Sockets.Socket,new</token>
+<token>System.Net.Sockets.Socket,Bind</token>
+<token>System.Net.Sockets.Socket,Listen</token>
+<token>System.Net.Sockets.SocketAsyncEventArgs,new</token>
+</entry>
+<entry count="48">
+<token>System.Net.Sockets.Socket,Bind</token>
+<token>System.Net.Sockets.Socket,EndReceiveFrom</token>
+<token>System.Net.Sockets.Socket,BeginReceiveFrom</token>
+</entry>
+<entry count="7">
+<token>System.Net.Sockets.Socket,EndReceive</token>
+<token>System.Net.Sockets.Socket,Shutdown</token>
+<token>System.Net.Sockets.Socket,Close</token>
+</entry>
+<entry count="21">
+<token>System.Net.Sockets.Socket,BeginConnect</token>
+<token>System.Net.Sockets.Socket,Close</token>
+</entry>
+<entry count="5">
+<token>System.Net.Sockets.UdpClient,Send</token>
+<token>System.Net.Sockets.UdpClient,Close</token>
+</entry>
+<entry count="110">
+<token>System.Net.Sockets.Socket,new</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+</entry>
+<entry count="2">
+<token>System.Net.Sockets.Socket,new</token>
+<token>System.Net.Sockets.Socket,BeginReceiveFrom</token>
+</entry>
+<entry count="30">
+<token>System.Net.Sockets.SocketAsyncEventArgs,new</token>
+<token>System.Net.Sockets.Socket,AcceptAsync</token>
+</entry>
+<entry count="2">
+<token>System.Net.Sockets.TcpClient,new</token>
+<token>System.Net.Sockets.TcpClient,Connect</token>
+<token>System.Net.Sockets.Socket,BeginReceive</token>
+</entry>
+<entry count="74">
+<token>System.Net.Sockets.Socket,new</token>
+<token>System.Net.Sockets.Socket,BeginConnect</token>
+</entry>
+<entry count="3">
+<token>System.Net.Sockets.UdpClient,Connect</token>
+<token>System.Net.Sockets.UdpClient,Close</token>
+</entry>
+<entry count="2">
+<token>System.Net.Sockets.TcpClient,GetStream</token>
+<token>System.Net.Sockets.NetworkStream,Write</token>
+<token>System.Net.Sockets.NetworkStream,Write</token>
+</entry>
+<entry count="8">
+<token>System.Net.Sockets.Socket,new</token>
+<token>System.Net.Sockets.SocketAsyncEventArgs,new</token>
+</entry>
+<entry count="5">
+<token>System.Net.Sockets.TcpClient,EndConnect</token>
+<token>System.Net.Sockets.TcpClient,Close</token>
+</entry>
 <entry count="1">
 <token>System.Net.Sockets.TcpClient,new</token>
+<token>System.Net.Sockets.TcpClient,GetStream</token>
+<token>System.Net.Sockets.NetworkStream,Flush</token>
+<token>System.Net.Sockets.TcpClient,Close</token>
+</entry>
+<entry count="4">
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+</entry>
+<entry count="8">
+<token>System.Net.Sockets.Socket,new</token>
+<token>System.Net.Sockets.Socket,Bind</token>
+<token>System.Net.Sockets.Socket,Listen</token>
+<token>System.Net.Sockets.SocketAsyncEventArgs,new</token>
+<token>System.Net.Sockets.Socket,AcceptAsync</token>
+</entry>
+<entry count="19">
+<token>System.Net.Sockets.Socket,Bind</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+</entry>
+<entry count="21">
+<token>System.Net.Sockets.SocketAsyncEventArgs,new</token>
+<token>System.Net.Sockets.SocketAsyncEventArgs,SetBuffer</token>
+<token>System.Net.Sockets.Socket,SendAsync</token>
+</entry>
+<entry count="48">
+<token>System.Net.Sockets.Socket,EndReceiveFrom</token>
+<token>System.Net.Sockets.Socket,BeginReceiveFrom</token>
+<token>System.Net.Sockets.Socket,BeginReceiveFrom</token>
+</entry>
+<entry count="18">
+<token>System.Net.Sockets.Socket,Bind</token>
+<token>System.Net.Sockets.Socket,Listen</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+</entry>
+<entry count="143">
+<token>System.Net.Sockets.TcpClient,new</token>
+<token>System.Net.Sockets.TcpClient,Connect</token>
+<token>System.Net.Sockets.TcpClient,GetStream</token>
+</entry>
+<entry count="1">
+<token>System.Net.Sockets.Socket,new</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.Socket,SendTo</token>
+<token>System.Net.Sockets.Socket,Close</token>
+</entry>
+<entry count="1">
+<token>System.Net.Sockets.Socket,new</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.Socket,Bind</token>
+<token>System.Net.Sockets.Socket,SendTo</token>
+</entry>
+<entry count="98">
+<token>System.Net.Sockets.Socket,Connect</token>
+<token>System.Net.Sockets.NetworkStream,new</token>
+</entry>
+<entry count="1">
+<token>System.Net.Sockets.Socket,Send</token>
+<token>System.Net.Sockets.Socket,Close</token>
+</entry>
+<entry count="19">
+<token>System.Net.Sockets.TcpClient,GetStream</token>
+<token>System.Net.Sockets.NetworkStream,Write</token>
+</entry>
+<entry count="28">
+<token>System.Net.Sockets.TcpClient,new</token>
+<token>System.Net.Sockets.TcpClient,EndConnect</token>
+</entry>
+<entry count="3">
+<token>System.Net.Sockets.UdpClient,new</token>
+<token>System.Net.Sockets.UdpClient,Connect</token>
+<token>System.Net.Sockets.UdpClient,Close</token>
+</entry>
+<entry count="1">
+<token>System.Net.Sockets.Socket,Send</token>
+<token>System.Net.Sockets.Socket,Shutdown</token>
+<token>System.Net.Sockets.Socket,Close</token>
+</entry>
+<entry count="2">
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.MulticastOption,new</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.Socket,Bind</token>
+</entry>
+<entry count="8">
 <token>System.Net.Sockets.TcpClient,Connect</token>
 <token>System.Net.Sockets.TcpClient,GetStream</token>
 <token>System.Net.Sockets.NetworkStream,Write</token>
 </entry>
 <entry count="1">
-<token>System.Net.Sockets.Socket,Close</token>
-<token>System.Net.Sockets.SocketException,new</token>
+<token>System.Net.Sockets.LingerOption,new</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.Socket,Bind</token>
+</entry>
+<entry count="73">
+<token>System.Net.Sockets.SocketAsyncEventArgs,new</token>
+<token>System.Net.Sockets.SocketAsyncEventArgs,SetBuffer</token>
+</entry>
+<entry count="48">
+<token>System.Net.Sockets.Socket,new</token>
+<token>System.Net.Sockets.Socket,Bind</token>
+<token>System.Net.Sockets.Socket,EndReceiveFrom</token>
+</entry>
+<entry count="2">
+<token>System.Net.Sockets.Socket,Bind</token>
+<token>System.Net.Sockets.Socket,EndSend</token>
+<token>System.Net.Sockets.Socket,BeginSendTo</token>
 </entry>
 <entry count="8">
+<token>System.Net.Sockets.Socket,Connect</token>
+<token>System.Net.Sockets.SocketAsyncEventArgs,new</token>
+</entry>
+<entry count="1">
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.Socket,Bind</token>
+<token>System.Net.Sockets.Socket,SendTo</token>
+<token>System.Net.Sockets.Socket,Close</token>
+</entry>
+<entry count="2">
+<token>System.Net.Sockets.TcpClient,EndConnect</token>
+<token>System.Net.Sockets.TcpClient,GetStream</token>
+<token>System.Net.Sockets.NetworkStream,BeginRead</token>
+</entry>
+<entry count="2">
 <token>System.Net.Sockets.Socket,new</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.Socket,Bind</token>
+<token>System.Net.Sockets.Socket,SendTo</token>
+</entry>
+<entry count="140">
+<token>System.Net.Sockets.Socket,Bind</token>
+<token>System.Net.Sockets.Socket,Listen</token>
+<token>System.Net.Sockets.Socket,BeginAccept</token>
+</entry>
+<entry count="2">
+<token>System.Net.Sockets.Socket,new</token>
+<token>System.Net.Sockets.Socket,Bind</token>
+<token>System.Net.Sockets.Socket,Listen</token>
+<token>System.Net.Sockets.Socket,new</token>
+</entry>
+<entry count="18">
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.SocketAsyncEventArgs,new</token>
+<token>System.Net.Sockets.Socket,AcceptAsync</token>
+</entry>
+<entry count="1">
+<token>System.Net.Sockets.Socket,Shutdown</token>
+<token>System.Net.Sockets.SocketAsyncEventArgs,new</token>
+<token>System.Net.Sockets.Socket,DisconnectAsync</token>
+</entry>
+<entry count="2">
+<token>System.Net.Sockets.Socket,new</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.MulticastOption,new</token>
+</entry>
+<entry count="68">
+<token>System.Net.Sockets.Socket,Close</token>
+<token>System.Net.Sockets.Socket,Close</token>
+</entry>
+<entry count="4">
+<token>System.Net.Sockets.Socket,Accept</token>
+<token>System.Net.Sockets.Socket,Close</token>
+<token>System.Net.Sockets.Socket,Close</token>
+<token>System.Net.Sockets.NetworkStream,new</token>
+</entry>
+<entry count="2">
+<token>System.Net.Sockets.Socket,Connect</token>
+<token>System.Net.Sockets.Socket,Close</token>
+<token>System.Net.Sockets.NetworkStream,new</token>
+</entry>
+<entry count="32">
+<token>System.Net.Sockets.Socket,new</token>
+<token>System.Net.Sockets.Socket,Bind</token>
+<token>System.Net.Sockets.Socket,Listen</token>
+<token>System.Net.Sockets.Socket,Close</token>
+</entry>
+<entry count="8">
+<token>System.Net.Sockets.Socket,Receive</token>
+<token>System.Net.Sockets.Socket,Close</token>
+<token>System.Net.Sockets.Socket,Close</token>
+<token>System.Net.Sockets.Socket,Close</token>
+</entry>
+<entry count="30">
+<token>System.Net.Sockets.Socket,new</token>
+<token>System.Net.Sockets.Socket,Shutdown</token>
+</entry>
+<entry count="44">
+<token>System.Net.Sockets.Socket,Connect</token>
+<token>System.Net.Sockets.Socket,Shutdown</token>
+</entry>
+<entry count="3">
+<token>System.Net.Sockets.Socket,Close</token>
+<token>System.Net.Sockets.TcpListener,Stop</token>
+</entry>
+<entry count="56">
+<token>System.Net.Sockets.Socket,Receive</token>
+<token>System.Net.Sockets.Socket,Close</token>
+<token>System.Net.Sockets.Socket,Close</token>
+</entry>
+<entry count="96">
+<token>System.Net.Sockets.Socket,Receive</token>
+<token>System.Net.Sockets.Socket,Close</token>
+</entry>
+<entry count="12">
+<token>System.Net.Sockets.Socket,Bind</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+</entry>
+<entry count="24">
+<token>System.Net.Sockets.Socket,Listen</token>
+<token>System.Net.Sockets.Socket,EndAccept</token>
+</entry>
+<entry count="8">
+<token>System.Net.Sockets.Socket,Connect</token>
+<token>System.Net.Sockets.SocketAsyncEventArgs,new</token>
+<token>System.Net.Sockets.SocketAsyncEventArgs,SetBuffer</token>
+</entry>
+<entry count="1">
+<token>System.Net.Sockets.Socket,Send</token>
+<token>System.Net.Sockets.Socket,Receive</token>
+</entry>
+<entry count="4">
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.Socket,Connect</token>
+<token>System.Net.Sockets.Socket,SendTo</token>
+<token>System.Net.Sockets.Socket,ReceiveFrom</token>
+</entry>
+<entry count="4">
+<token>System.Net.Sockets.LingerOption,new</token>
+<token>System.Net.Sockets.Socket,BeginConnect</token>
+</entry>
+<entry count="20">
+<token>System.Net.Sockets.TcpClient,BeginConnect</token>
+<token>System.Net.Sockets.TcpClient,GetStream</token>
+</entry>
+<entry count="1">
+<token>System.Net.Sockets.Socket,new</token>
+<token>System.Net.Sockets.Socket,Bind</token>
+<token>System.Net.Sockets.Socket,BeginReceiveFrom</token>
+</entry>
+<entry count="1">
+<token>System.Net.Sockets.TcpListener,new</token>
+<token>System.Net.Sockets.TcpListener,Start</token>
+<token>System.Net.Sockets.TcpListener,new</token>
+<token>System.Net.Sockets.TcpListener,Start</token>
+</entry>
+<entry count="8">
+<token>System.Net.Sockets.TcpListener,Start</token>
+<token>System.Net.Sockets.Socket,Select</token>
+<token>System.Net.Sockets.TcpListener,Stop</token>
+</entry>
+<entry count="96">
+<token>System.Net.Sockets.TcpListener,new</token>
+<token>System.Net.Sockets.TcpListener,Start</token>
+<token>System.Net.Sockets.TcpListener,Stop</token>
+</entry>
+<entry count="48">
+<token>System.Net.Sockets.Socket,new</token>
+<token>System.Net.Sockets.Socket,Bind</token>
+<token>System.Net.Sockets.Socket,EndReceiveFrom</token>
+<token>System.Net.Sockets.Socket,BeginReceiveFrom</token>
+<token>System.Net.Sockets.Socket,BeginReceiveFrom</token>
+</entry>
+<entry count="6">
+<token>System.Net.Sockets.SocketAsyncEventArgs,Dispose</token>
+<token>System.Net.Sockets.SocketAsyncEventArgs,Dispose</token>
+</entry>
+<entry count="2">
+<token>System.Net.Sockets.Socket,Connect</token>
+<token>System.Net.Sockets.NetworkStream,new</token>
+<token>System.Net.Sockets.NetworkStream,Write</token>
+<token>System.Net.Sockets.NetworkStream,Write</token>
+</entry>
+<entry count="4">
+<token>System.Net.Sockets.Socket,BeginAccept</token>
+<token>System.Net.Sockets.Socket,EndAccept</token>
+</entry>
+<entry count="36">
+<token>System.Net.Sockets.Socket,Select</token>
+<token>System.Net.Sockets.Socket,Send</token>
+</entry>
+<entry count="44">
 <token>System.Net.Sockets.Socket,Connect</token>
 <token>System.Net.Sockets.Socket,Shutdown</token>
 <token>System.Net.Sockets.Socket,Close</token>
 </entry>
-<entry count="1">
-<token>System.Net.Sockets.Socket,Disconnect</token>
-<token>System.Net.Sockets.Socket,Dispose</token>
+<entry count="64">
+<token>System.Net.Sockets.Socket,Connect</token>
+<token>System.Net.Sockets.Socket,Close</token>
 </entry>
-<entry count="7">
-<token>System.Net.Sockets.TcpClient,Connect</token>
-<token>System.Net.Sockets.TcpClient,GetStream</token>
+<entry count="16">
+<token>System.Net.Sockets.SocketAsyncEventArgs,new</token>
+<token>System.Net.Sockets.SocketAsyncEventArgs,SetBuffer</token>
+<token>System.Net.Sockets.Socket,ReceiveAsync</token>
+</entry>
+<entry count="1">
+<token>System.Net.Sockets.LingerOption,new</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+</entry>
+<entry count="8">
+<token>System.Net.Sockets.SocketException,new</token>
+<token>System.Net.Sockets.SocketAsyncEventArgs,SetBuffer</token>
+</entry>
+<entry count="8">
+<token>System.Net.Sockets.Socket,Bind</token>
+<token>System.Net.Sockets.Socket,BeginConnect</token>
+</entry>
+<entry count="1">
+<token>System.Net.Sockets.Socket,Bind</token>
+<token>System.Net.Sockets.Socket,BeginReceiveFrom</token>
 </entry>
 <entry count="4">
-<token>System.Net.Sockets.Socket,EndAccept</token>
+<token>System.Net.Sockets.Socket,new</token>
 <token>System.Net.Sockets.LingerOption,new</token>
+<token>System.Net.Sockets.Socket,BeginConnect</token>
+</entry>
+<entry count="2">
+<token>System.Net.Sockets.Socket,Listen</token>
+<token>System.Net.Sockets.Socket,new</token>
+<token>System.Net.Sockets.Socket,Bind</token>
+<token>System.Net.Sockets.Socket,Listen</token>
+</entry>
+<entry count="18">
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.SocketAsyncEventArgs,new</token>
+<token>System.Net.Sockets.Socket,AcceptAsync</token>
+</entry>
+<entry count="1">
+<token>System.Net.Sockets.UdpClient,new</token>
+<token>System.Net.Sockets.UdpClient,new</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.Socket,Bind</token>
+<token>System.Net.Sockets.UdpClient,Connect</token>
+</entry>
+<entry count="1">
+<token>System.Net.Sockets.NetworkStream,new</token>
+<token>System.Net.Sockets.SocketAsyncEventArgs,new</token>
+<token>System.Net.Sockets.SocketAsyncEventArgs,SetBuffer</token>
+</entry>
+<entry count="118">
+<token>System.Net.Sockets.Socket,new</token>
+<token>System.Net.Sockets.Socket,Bind</token>
+<token>System.Net.Sockets.Socket,Listen</token>
+</entry>
+<entry count="1">
+<token>System.Net.Sockets.TcpListener,EndAcceptTcpClient</token>
+<token>System.Net.Sockets.TcpListener,BeginAcceptTcpClient</token>
+</entry>
+<entry count="2">
+<token>System.Net.Sockets.Socket,SendTo</token>
+<token>System.Net.Sockets.Socket,ReceiveFrom</token>
+<token>System.Net.Sockets.Socket,Shutdown</token>
+</entry>
+<entry count="1">
+<token>System.Net.Sockets.Socket,new</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.Socket,Bind</token>
+</entry>
+<entry count="4">
+<token>System.Net.Sockets.TcpClient,Connect</token>
+<token>System.Net.Sockets.Socket,BeginReceive</token>
+</entry>
+<entry count="18">
+<token>System.Net.Sockets.Socket,BeginConnect</token>
+<token>System.Net.Sockets.NetworkStream,new</token>
 </entry>
 <entry count="1">
 <token>System.Net.Sockets.Socket,Connect</token>
-<token>System.Net.Sockets.LingerOption,new</token>
-<token>System.Net.Sockets.Socket,BeginReceive</token>
-</entry>
-<entry count="8">
+<token>System.Net.Sockets.NetworkStream,new</token>
 <token>System.Net.Sockets.SocketAsyncEventArgs,new</token>
 <token>System.Net.Sockets.SocketAsyncEventArgs,SetBuffer</token>
-<token>System.Net.Sockets.SocketAsyncEventArgs,new</token>
 </entry>
-<entry count="3">
+<entry count="36">
+<token>System.Net.Sockets.Socket,Connect</token>
+<token>System.Net.Sockets.Socket,Poll</token>
+</entry>
+<entry count="64">
+<token>System.Net.Sockets.Socket,new</token>
+<token>System.Net.Sockets.Socket,Connect</token>
+<token>System.Net.Sockets.Socket,Close</token>
+</entry>
+<entry count="4">
+<token>System.Net.Sockets.TcpClient,GetStream</token>
+<token>System.Net.Sockets.NetworkStream,EndRead</token>
+</entry>
+<entry count="1">
+<token>System.Net.Sockets.Socket,Shutdown</token>
+<token>System.Net.Sockets.Socket,Close</token>
+<token>System.Net.Sockets.Socket,Dispose</token>
+</entry>
+<entry count="2">
+<token>System.Net.Sockets.TcpClient,EndConnect</token>
+<token>System.Net.Sockets.TcpClient,GetStream</token>
+</entry>
+<entry count="18">
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.Socket,Bind</token>
+<token>System.Net.Sockets.Socket,IOControl</token>
+</entry>
+<entry count="24">
+<token>System.Net.Sockets.Socket,Bind</token>
+<token>System.Net.Sockets.Socket,Listen</token>
+<token>System.Net.Sockets.Socket,EndAccept</token>
+<token>System.Net.Sockets.Socket,BeginAccept</token>
+</entry>
+<entry count="2">
+<token>System.Net.Sockets.Socket,new</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.MulticastOption,new</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.Socket,Bind</token>
+</entry>
+<entry count="147">
+<token>System.Net.Sockets.TcpClient,Connect</token>
+<token>System.Net.Sockets.TcpClient,GetStream</token>
+</entry>
+<entry count="2">
+<token>System.Net.Sockets.Socket,new</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.Socket,Bind</token>
+<token>System.Net.Sockets.Socket,SendTo</token>
+<token>System.Net.Sockets.Socket,Close</token>
+</entry>
+<entry count="132">
+<token>System.Net.Sockets.Socket,EndReceiveFrom</token>
+<token>System.Net.Sockets.Socket,BeginReceiveFrom</token>
+</entry>
+<entry count="10">
+<token>System.Net.Sockets.Socket,new</token>
+<token>System.Net.Sockets.Socket,ConnectAsync</token>
+</entry>
+<entry count="1">
+<token>System.Net.Sockets.TcpListener,Start</token>
+<token>System.Net.Sockets.TcpListener,Pending</token>
+<token>System.Net.Sockets.TcpListener,AcceptTcpClient</token>
+</entry>
+<entry count="143">
 <token>System.Net.Sockets.Socket,Listen</token>
 <token>System.Net.Sockets.Socket,BeginAccept</token>
 </entry>
-<entry count="1">
-<token>System.Net.Sockets.LingerOption,new</token>
-<token>System.Net.Sockets.Socket,BeginReceive</token>
+<entry count="8">
+<token>System.Net.Sockets.Socket,Connect</token>
+<token>System.Net.Sockets.SocketAsyncEventArgs,new</token>
+<token>System.Net.Sockets.SocketAsyncEventArgs,SetBuffer</token>
+<token>System.Net.Sockets.Socket,ReceiveAsync</token>
 </entry>
-<entry count="4">
+<entry count="5">
 <token>System.Net.Sockets.Socket,SetSocketOption</token>
 <token>System.Net.Sockets.Socket,Bind</token>
 <token>System.Net.Sockets.Socket,Listen</token>
@@ -434,20 +1337,588 @@
 <token>System.Net.Sockets.SocketAsyncEventArgs,SetBuffer</token>
 <token>System.Net.Sockets.Socket,SendAsync</token>
 </entry>
-<entry count="5">
-<token>System.Net.Sockets.Socket,Send</token>
-<token>System.Net.Sockets.Socket,Send</token>
-</entry>
 <entry count="24">
-<token>System.Net.Sockets.Socket,Connect</token>
-<token>System.Net.Sockets.Socket,Poll</token>
-<token>System.Net.Sockets.Socket,Receive</token>
-<token>System.Net.Sockets.Socket,Shutdown</token>
+<token>System.Net.Sockets.Socket,Bind</token>
+<token>System.Net.Sockets.Socket,Listen</token>
+<token>System.Net.Sockets.Socket,EndAccept</token>
 </entry>
-<entry count="3">
+<entry count="4">
+<token>System.Net.Sockets.TcpClient,new</token>
+<token>System.Net.Sockets.TcpClient,Connect</token>
+<token>System.Net.Sockets.TcpClient,Close</token>
+</entry>
+<entry count="12">
+<token>System.Net.Sockets.Socket,Connect</token>
+<token>System.Net.Sockets.Socket,Send</token>
+<token>System.Net.Sockets.Socket,Bind</token>
+<token>System.Net.Sockets.Socket,Listen</token>
+<token>System.Net.Sockets.Socket,BeginAccept</token>
+</entry>
+<entry count="2">
+<token>System.Net.Sockets.Socket,new</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.Socket,SendTo</token>
+</entry>
+<entry count="1">
+<token>System.Net.Sockets.TcpListener,Start</token>
+<token>System.Net.Sockets.TcpListener,new</token>
+<token>System.Net.Sockets.TcpListener,Start</token>
+</entry>
+<entry count="1">
 <token>System.Net.Sockets.Socket,new</token>
 <token>System.Net.Sockets.Socket,Connect</token>
 <token>System.Net.Sockets.NetworkStream,new</token>
+<token>System.Net.Sockets.SocketAsyncEventArgs,new</token>
+</entry>
+<entry count="8">
+<token>System.Net.Sockets.SocketAsyncEventArgs,SetBuffer</token>
+<token>System.Net.Sockets.SocketAsyncEventArgs,new</token>
+</entry>
+<entry count="2">
+<token>System.Net.Sockets.NetworkStream,Flush</token>
+<token>System.Net.Sockets.Socket,Shutdown</token>
+<token>System.Net.Sockets.TcpClient,Close</token>
+</entry>
+<entry count="2">
+<token>System.Net.Sockets.TcpClient,Connect</token>
+<token>System.Net.Sockets.TcpClient,GetStream</token>
+<token>System.Net.Sockets.NetworkStream,Write</token>
+<token>System.Net.Sockets.NetworkStream,Write</token>
+</entry>
+<entry count="12">
+<token>System.Net.Sockets.Socket,Connect</token>
+<token>System.Net.Sockets.Socket,Send</token>
+<token>System.Net.Sockets.Socket,Bind</token>
+</entry>
+<entry count="1">
+<token>System.Net.Sockets.TcpClient,GetStream</token>
+<token>System.Net.Sockets.NetworkStream,Flush</token>
+<token>System.Net.Sockets.TcpClient,Close</token>
+</entry>
+<entry count="24">
+<token>System.Net.Sockets.Socket,Receive</token>
+<token>System.Net.Sockets.Socket,Shutdown</token>
+</entry>
+<entry count="5">
+<token>System.Net.Sockets.Socket,new</token>
+<token>System.Net.Sockets.LingerOption,new</token>
+</entry>
+<entry count="2">
+<token>System.Net.Sockets.TcpClient,GetStream</token>
+<token>System.Net.Sockets.NetworkStream,Write</token>
+<token>System.Net.Sockets.NetworkStream,Write</token>
+<token>System.Net.Sockets.NetworkStream,Write</token>
+<token>System.Net.Sockets.NetworkStream,Write</token>
+</entry>
+<entry count="48">
+<token>System.Net.Sockets.Socket,Bind</token>
+<token>System.Net.Sockets.Socket,EndReceiveFrom</token>
+</entry>
+<entry count="2">
+<token>System.Net.Sockets.Socket,Send</token>
+<token>System.Net.Sockets.Socket,Send</token>
+<token>System.Net.Sockets.Socket,Send</token>
+</entry>
+<entry count="3">
+<token>System.Net.Sockets.NetworkStream,new</token>
+<token>System.Net.Sockets.Socket,Close</token>
+</entry>
+<entry count="8">
+<token>System.Net.Sockets.TcpListener,new</token>
+<token>System.Net.Sockets.TcpListener,Start</token>
+<token>System.Net.Sockets.Socket,Select</token>
+<token>System.Net.Sockets.TcpListener,Stop</token>
+</entry>
+<entry count="2">
+<token>System.Net.Sockets.TcpClient,GetStream</token>
+<token>System.Net.Sockets.NetworkStream,Write</token>
+<token>System.Net.Sockets.NetworkStream,Write</token>
+<token>System.Net.Sockets.NetworkStream,Write</token>
+</entry>
+<entry count="18">
+<token>System.Net.Sockets.Socket,new</token>
+<token>System.Net.Sockets.Socket,BeginConnect</token>
+<token>System.Net.Sockets.NetworkStream,new</token>
+</entry>
+<entry count="12">
+<token>System.Net.Sockets.Socket,new</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.Socket,new</token>
+</entry>
+<entry count="4">
+<token>System.Net.Sockets.UdpClient,new</token>
+<token>System.Net.Sockets.Socket,IOControl</token>
+</entry>
+<entry count="18">
+<token>System.Net.Sockets.Socket,Listen</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+</entry>
+<entry count="14">
+<token>System.Net.Sockets.Socket,EndSendTo</token>
+<token>System.Net.Sockets.Socket,BeginSendTo</token>
+</entry>
+<entry count="1">
+<token>System.Net.Sockets.NetworkStream,Flush</token>
+<token>System.Net.Sockets.NetworkStream,Flush</token>
+</entry>
+<entry count="8">
+<token>System.Net.Sockets.SocketAsyncEventArgs,new</token>
+<token>System.Net.Sockets.SocketAsyncEventArgs,SetBuffer</token>
+<token>System.Net.Sockets.SocketAsyncEventArgs,new</token>
+<token>System.Net.Sockets.SocketAsyncEventArgs,SetBuffer</token>
+</entry>
+<entry count="1">
+<token>System.Net.Sockets.NetworkStream,Flush</token>
+<token>System.Net.Sockets.TcpClient,Close</token>
+</entry>
+<entry count="4">
+<token>System.Net.Sockets.TcpClient,GetStream</token>
+<token>System.Net.Sockets.NetworkStream,Read</token>
+</entry>
+<entry count="24">
+<token>System.Net.Sockets.Socket,new</token>
+<token>System.Net.Sockets.Socket,Bind</token>
+<token>System.Net.Sockets.Socket,Listen</token>
+<token>System.Net.Sockets.Socket,EndAccept</token>
+</entry>
+<entry count="481">
+<token>System.Net.Sockets.UdpClient,Receive</token>
+<token>System.Net.Sockets.UdpClient,Close</token>
+</entry>
+<entry count="2">
+<token>System.Net.Sockets.NetworkStream,new</token>
+<token>System.Net.Sockets.NetworkStream,Write</token>
+<token>System.Net.Sockets.NetworkStream,Write</token>
+</entry>
+<entry count="5">
+<token>System.Net.Sockets.Socket,BeginReceive</token>
+<token>System.Net.Sockets.Socket,BeginReceive</token>
+</entry>
+<entry count="1">
+<token>System.Net.Sockets.SocketAsyncEventArgs,new</token>
+<token>System.Net.Sockets.SocketAsyncEventArgs,new</token>
+<token>System.Net.Sockets.SocketAsyncEventArgs,new</token>
+</entry>
+<entry count="40">
+<token>System.Net.Sockets.Socket,EndAccept</token>
+<token>System.Net.Sockets.Socket,BeginAccept</token>
+</entry>
+<entry count="1">
+<token>System.Net.Sockets.Socket,Send</token>
+<token>System.Net.Sockets.Socket,Shutdown</token>
+</entry>
+<entry count="5">
+<token>System.Net.Sockets.Socket,Disconnect</token>
+<token>System.Net.Sockets.Socket,Close</token>
+</entry>
+<entry count="4">
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.Socket,Connect</token>
+<token>System.Net.Sockets.Socket,SendTo</token>
+<token>System.Net.Sockets.Socket,ReceiveFrom</token>
+</entry>
+<entry count="1">
+<token>System.Net.Sockets.Socket,EndSend</token>
+<token>System.Net.Sockets.Socket,Close</token>
+</entry>
+<entry count="8">
+<token>System.Net.Sockets.Socket,new</token>
+<token>System.Net.Sockets.Socket,Connect</token>
+<token>System.Net.Sockets.SocketAsyncEventArgs,new</token>
+<token>System.Net.Sockets.SocketAsyncEventArgs,SetBuffer</token>
+<token>System.Net.Sockets.Socket,ReceiveAsync</token>
+</entry>
+<entry count="4">
+<token>System.Net.Sockets.Socket,BeginAccept</token>
+<token>System.Net.Sockets.Socket,EndAccept</token>
+<token>System.Net.Sockets.LingerOption,new</token>
+</entry>
+<entry count="20">
+<token>System.Net.Sockets.MulticastOption,new</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+</entry>
+<entry count="18">
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.Socket,Bind</token>
+<token>System.Net.Sockets.Socket,ReceiveFromAsync</token>
+</entry>
+<entry count="2">
+<token>System.Net.Sockets.TcpClient,Close</token>
+<token>System.Net.Sockets.TcpClient,Close</token>
+</entry>
+<entry count="8">
+<token>System.Net.Sockets.Socket,ReceiveAsync</token>
+<token>System.Net.Sockets.Socket,AcceptAsync</token>
+</entry>
+<entry count="1">
+<token>System.Net.Sockets.TcpClient,GetStream</token>
+<token>System.Net.Sockets.NetworkStream,Flush</token>
+<token>System.Net.Sockets.NetworkStream,Flush</token>
+</entry>
+<entry count="28">
+<token>System.Net.Sockets.NetworkStream,EndRead</token>
+<token>System.Net.Sockets.NetworkStream,BeginRead</token>
+</entry>
+<entry count="1">
+<token>System.Net.Sockets.TcpClient,GetStream</token>
+<token>System.Net.Sockets.TcpListener,BeginAcceptTcpClient</token>
+</entry>
+<entry count="4">
+<token>System.Net.Sockets.SocketAsyncEventArgs,new</token>
+<token>System.Net.Sockets.SocketAsyncEventArgs,SetBuffer</token>
+<token>System.Net.Sockets.Socket,ReceiveFromAsync</token>
+</entry>
+<entry count="19">
+<token>System.Net.Sockets.Socket,new</token>
+<token>System.Net.Sockets.Socket,BeginConnect</token>
+<token>System.Net.Sockets.Socket,Close</token>
+</entry>
+<entry count="4">
+<token>System.Net.Sockets.Socket,Connect</token>
+<token>System.Net.Sockets.Socket,SendTo</token>
+<token>System.Net.Sockets.Socket,ReceiveFrom</token>
+</entry>
+<entry count="4">
+<token>System.Net.Sockets.SocketAsyncEventArgs,Dispose</token>
+<token>System.Net.Sockets.Socket,Dispose</token>
+</entry>
+<entry count="97">
+<token>System.Net.Sockets.SocketAsyncEventArgs,SetBuffer</token>
+<token>System.Net.Sockets.Socket,SendAsync</token>
+</entry>
+<entry count="12">
+<token>System.Net.Sockets.TcpClient,GetStream</token>
+<token>System.Net.Sockets.TcpListener,Stop</token>
+</entry>
+<entry count="8">
+<token>System.Net.Sockets.Socket,Listen</token>
+<token>System.Net.Sockets.SocketAsyncEventArgs,new</token>
+</entry>
+<entry count="2">
+<token>System.Net.Sockets.Socket,Connect</token>
+<token>System.Net.Sockets.Socket,SendTo</token>
+<token>System.Net.Sockets.Socket,ReceiveFrom</token>
+<token>System.Net.Sockets.Socket,Shutdown</token>
+</entry>
+<entry count="1">
+<token>System.Net.Sockets.NetworkStream,new</token>
+<token>System.Net.Sockets.SocketAsyncEventArgs,new</token>
+</entry>
+<entry count="4">
+<token>System.Net.Sockets.TcpClient,GetStream</token>
+<token>System.Net.Sockets.NetworkStream,EndRead</token>
+<token>System.Net.Sockets.NetworkStream,BeginRead</token>
+</entry>
+<entry count="12">
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.Socket,Bind</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+</entry>
+<entry count="3">
+<token>System.Net.Sockets.TcpClient,new</token>
+<token>System.Net.Sockets.TcpClient,BeginConnect</token>
+</entry>
+<entry count="12">
+<token>System.Net.Sockets.TcpListener,Start</token>
+<token>System.Net.Sockets.TcpListener,AcceptTcpClient</token>
+<token>System.Net.Sockets.TcpClient,GetStream</token>
+<token>System.Net.Sockets.TcpListener,Stop</token>
+</entry>
+<entry count="4">
+<token>System.Net.Sockets.Socket,new</token>
+<token>System.Net.Sockets.Socket,Bind</token>
+<token>System.Net.Sockets.Socket,BeginConnect</token>
+<token>System.Net.Sockets.Socket,EndConnect</token>
+</entry>
+<entry count="31">
+<token>System.Net.Sockets.Socket,Bind</token>
+<token>System.Net.Sockets.Socket,IOControl</token>
+</entry>
+<entry count="18">
+<token>System.Net.Sockets.Socket,new</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.Socket,Bind</token>
+<token>System.Net.Sockets.Socket,ReceiveFromAsync</token>
+</entry>
+<entry count="2">
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.MulticastOption,new</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+</entry>
+<entry count="18">
+<token>System.Net.Sockets.Socket,IOControl</token>
+<token>System.Net.Sockets.Socket,ReceiveFromAsync</token>
+</entry>
+<entry count="2">
+<token>System.Net.Sockets.NetworkStream,new</token>
+<token>System.Net.Sockets.NetworkStream,Write</token>
+<token>System.Net.Sockets.NetworkStream,Write</token>
+<token>System.Net.Sockets.NetworkStream,Write</token>
+<token>System.Net.Sockets.NetworkStream,Flush</token>
+</entry>
+<entry count="9">
+<token>System.Net.Sockets.Socket,new</token>
+<token>System.Net.Sockets.Socket,IOControl</token>
+</entry>
+<entry count="2">
+<token>System.Net.Sockets.Socket,new</token>
+<token>System.Net.Sockets.Socket,Connect</token>
+<token>System.Net.Sockets.NetworkStream,new</token>
+<token>System.Net.Sockets.NetworkStream,Write</token>
+<token>System.Net.Sockets.NetworkStream,Write</token>
+</entry>
+<entry count="2">
+<token>System.Net.Sockets.TcpClient,new</token>
+<token>System.Net.Sockets.TcpClient,GetStream</token>
+<token>System.Net.Sockets.TcpClient,GetStream</token>
+<token>System.Net.Sockets.TcpClient,Close</token>
+</entry>
+<entry count="8">
+<token>System.Net.Sockets.Socket,new</token>
+<token>System.Net.Sockets.Socket,new</token>
+</entry>
+<entry count="33">
+<token>System.Net.Sockets.Socket,Listen</token>
+<token>System.Net.Sockets.Socket,Close</token>
+</entry>
+<entry count="8">
+<token>System.Net.Sockets.SocketAsyncEventArgs,new</token>
+<token>System.Net.Sockets.SocketAsyncEventArgs,SetBuffer</token>
+<token>System.Net.Sockets.Socket,ReceiveAsync</token>
+<token>System.Net.Sockets.Socket,AcceptAsync</token>
+</entry>
+<entry count="1">
+<token>System.Net.Sockets.Socket,new</token>
+<token>System.Net.Sockets.Socket,Connect</token>
+<token>System.Net.Sockets.Socket,Send</token>
+<token>System.Net.Sockets.Socket,Close</token>
+</entry>
+<entry count="2">
+<token>System.Net.Sockets.TcpClient,GetStream</token>
+<token>System.Net.Sockets.NetworkStream,EndWrite</token>
+</entry>
+<entry count="8">
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.Socket,BeginConnect</token>
+</entry>
+<entry count="12">
+<token>System.Net.Sockets.Socket,new</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.Socket,Bind</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+</entry>
+<entry count="8">
+<token>System.Net.Sockets.Socket,Listen</token>
+<token>System.Net.Sockets.SocketAsyncEventArgs,new</token>
+<token>System.Net.Sockets.Socket,AcceptAsync</token>
+</entry>
+<entry count="9">
+<token>System.Net.Sockets.TcpClient,GetStream</token>
+<token>System.Net.Sockets.TcpClient,GetStream</token>
+</entry>
+<entry count="11">
+<token>System.Net.Sockets.Socket,new</token>
+<token>System.Net.Sockets.Socket,BeginConnect</token>
+<token>System.Net.Sockets.Socket,EndConnect</token>
+</entry>
+<entry count="166">
+<token>System.Net.Sockets.Socket,Shutdown</token>
+<token>System.Net.Sockets.Socket,Close</token>
+</entry>
+<entry count="193">
+<token>System.Net.Sockets.Socket,new</token>
+<token>System.Net.Sockets.Socket,Bind</token>
+</entry>
+<entry count="2">
+<token>System.Net.Sockets.Socket,new</token>
+<token>System.Net.Sockets.Socket,Bind</token>
+<token>System.Net.Sockets.Socket,Listen</token>
+<token>System.Net.Sockets.Socket,new</token>
+<token>System.Net.Sockets.Socket,Bind</token>
+</entry>
+<entry count="6">
+<token>System.Net.Sockets.TcpClient,new</token>
+<token>System.Net.Sockets.TcpClient,Connect</token>
+<token>System.Net.Sockets.TcpClient,GetStream</token>
+<token>System.Net.Sockets.TcpClient,Close</token>
+</entry>
+<entry count="2">
+<token>System.Net.Sockets.Socket,Bind</token>
+<token>System.Net.Sockets.Socket,Listen</token>
+<token>System.Net.Sockets.Socket,new</token>
+<token>System.Net.Sockets.Socket,Bind</token>
+</entry>
+<entry count="2">
+<token>System.Net.Sockets.NetworkStream,new</token>
+<token>System.Net.Sockets.NetworkStream,Write</token>
+<token>System.Net.Sockets.NetworkStream,Write</token>
+<token>System.Net.Sockets.NetworkStream,Write</token>
+</entry>
+<entry count="1">
+<token>System.Net.Sockets.SocketAsyncEventArgs,new</token>
+<token>System.Net.Sockets.Socket,DisconnectAsync</token>
+</entry>
+<entry count="1">
+<token>System.Net.Sockets.TcpListener,new</token>
+<token>System.Net.Sockets.TcpListener,Start</token>
+<token>System.Net.Sockets.TcpListener,AcceptSocket</token>
+</entry>
+<entry count="2">
+<token>System.Net.Sockets.Socket,Bind</token>
+<token>System.Net.Sockets.Socket,EndSend</token>
+</entry>
+<entry count="4">
+<token>System.Net.Sockets.Socket,new</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.Socket,BeginConnect</token>
+<token>System.Net.Sockets.Socket,EndConnect</token>
+</entry>
+<entry count="2">
+<token>System.Net.Sockets.Socket,Connect</token>
+<token>System.Net.Sockets.NetworkStream,new</token>
+<token>System.Net.Sockets.NetworkStream,Write</token>
+<token>System.Net.Sockets.NetworkStream,Write</token>
+<token>System.Net.Sockets.NetworkStream,Write</token>
+</entry>
+<entry count="7">
+<token>System.Net.Sockets.Socket,new</token>
+<token>System.Net.Sockets.Socket,Bind</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+</entry>
+<entry count="1">
+<token>System.Net.Sockets.Socket,new</token>
+<token>System.Net.Sockets.LingerOption,new</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+</entry>
+<entry count="12">
+<token>System.Net.Sockets.Socket,new</token>
+<token>System.Net.Sockets.Socket,Connect</token>
+<token>System.Net.Sockets.Socket,Poll</token>
+<token>System.Net.Sockets.Socket,Shutdown</token>
+</entry>
+<entry count="12">
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.Socket,new</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+</entry>
+<entry count="50">
+<token>System.Net.Sockets.SocketAsyncEventArgs,SetBuffer</token>
+<token>System.Net.Sockets.Socket,ReceiveAsync</token>
+</entry>
+<entry count="36">
+<token>System.Net.Sockets.Socket,EndReceive</token>
+<token>System.Net.Sockets.Socket,BeginReceive</token>
+</entry>
+<entry count="4">
+<token>System.Net.Sockets.Socket,Bind</token>
+<token>System.Net.Sockets.Socket,BeginConnect</token>
+<token>System.Net.Sockets.Socket,EndConnect</token>
+</entry>
+<entry count="6">
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.MulticastOption,new</token>
+</entry>
+<entry count="3">
+<token>System.Net.Sockets.NetworkStream,Write</token>
+<token>System.Net.Sockets.NetworkStream,Write</token>
+<token>System.Net.Sockets.NetworkStream,Write</token>
+<token>System.Net.Sockets.NetworkStream,Write</token>
+</entry>
+<entry count="1">
+<token>System.Net.Sockets.Socket,Listen</token>
+<token>System.Net.Sockets.Socket,Accept</token>
+</entry>
+<entry count="5">
+<token>System.Net.Sockets.UdpClient,EndReceive</token>
+<token>System.Net.Sockets.UdpClient,BeginReceive</token>
+</entry>
+<entry count="8">
+<token>System.Net.Sockets.Socket,Bind</token>
+<token>System.Net.Sockets.Socket,Listen</token>
+<token>System.Net.Sockets.SocketAsyncEventArgs,new</token>
+</entry>
+<entry count="24">
+<token>System.Net.Sockets.Socket,new</token>
+<token>System.Net.Sockets.Socket,Bind</token>
+<token>System.Net.Sockets.Socket,Listen</token>
+<token>System.Net.Sockets.Socket,EndAccept</token>
+<token>System.Net.Sockets.Socket,BeginAccept</token>
+</entry>
+<entry count="6">
+<token>System.Net.Sockets.TcpClient,new</token>
+<token>System.Net.Sockets.TcpClient,Connect</token>
+<token>System.Net.Sockets.TcpClient,GetStream</token>
+<token>System.Net.Sockets.NetworkStream,Write</token>
+</entry>
+<entry count="9">
+<token>System.Net.Sockets.TcpClient,GetStream</token>
+<token>System.Net.Sockets.Socket,Shutdown</token>
+<token>System.Net.Sockets.Socket,Dispose</token>
+<token>System.Net.Sockets.TcpClient,Close</token>
+</entry>
+<entry count="7">
+<token>System.Net.Sockets.NetworkStream,Write</token>
+<token>System.Net.Sockets.NetworkStream,Write</token>
+<token>System.Net.Sockets.NetworkStream,Write</token>
+</entry>
+<entry count="1">
+<token>System.Net.Sockets.Socket,Connect</token>
+<token>System.Net.Sockets.Socket,Send</token>
+<token>System.Net.Sockets.Socket,Close</token>
+</entry>
+<entry count="8">
+<token>System.Net.Sockets.SocketAsyncEventArgs,new</token>
+<token>System.Net.Sockets.SocketAsyncEventArgs,SetBuffer</token>
+<token>System.Net.Sockets.SocketAsyncEventArgs,new</token>
+</entry>
+<entry count="2">
+<token>System.Net.Sockets.NetworkStream,Write</token>
+<token>System.Net.Sockets.NetworkStream,Write</token>
+<token>System.Net.Sockets.NetworkStream,Write</token>
+<token>System.Net.Sockets.NetworkStream,Flush</token>
+</entry>
+<entry count="4">
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.Socket,BeginConnect</token>
+<token>System.Net.Sockets.Socket,EndConnect</token>
+</entry>
+<entry count="18">
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.Socket,Bind</token>
+<token>System.Net.Sockets.Socket,IOControl</token>
+<token>System.Net.Sockets.Socket,ReceiveFromAsync</token>
+</entry>
+<entry count="3">
+<token>System.Net.Sockets.TcpClient,Connect</token>
+<token>System.Net.Sockets.TcpClient,GetStream</token>
+<token>System.Net.Sockets.NetworkStream,Write</token>
+<token>System.Net.Sockets.NetworkStream,Flush</token>
+</entry>
+<entry count="10">
+<token>System.Net.Sockets.Socket,Shutdown</token>
+<token>System.Net.Sockets.Socket,Dispose</token>
+<token>System.Net.Sockets.TcpClient,Close</token>
+</entry>
+<entry count="8">
+<token>System.Net.Sockets.Socket,new</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.Socket,BeginConnect</token>
+</entry>
+<entry count="44">
+<token>System.Net.Sockets.UdpClient,new</token>
+<token>System.Net.Sockets.UdpClient,Connect</token>
+</entry>
+<entry count="1">
+<token>System.Net.Sockets.Socket,Listen</token>
+<token>System.Net.Sockets.Socket,Accept</token>
+<token>System.Net.Sockets.Socket,Close</token>
+</entry>
+<entry count="2">
+<token>System.Net.Sockets.NetworkStream,Write</token>
+<token>System.Net.Sockets.NetworkStream,Write</token>
+<token>System.Net.Sockets.NetworkStream,Flush</token>
 </entry>
 <entry count="8">
 <token>System.Net.Sockets.Socket,new</token>
@@ -458,27 +1929,605 @@
 <token>System.Net.Sockets.Socket,Poll</token>
 <token>System.Net.Sockets.Socket,Receive</token>
 </entry>
+<entry count="7">
+<token>System.Net.Sockets.TcpClient,Connect</token>
+<token>System.Net.Sockets.TcpClient,GetStream</token>
+<token>System.Net.Sockets.TcpClient,GetStream</token>
+</entry>
+<entry count="1">
+<token>System.Net.Sockets.TcpClient,Close</token>
+<token>System.Net.Sockets.TcpClient,new</token>
+</entry>
+<entry count="1">
+<token>System.Net.Sockets.Socket,Bind</token>
+<token>System.Net.Sockets.UdpClient,Connect</token>
+</entry>
+<entry count="1">
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.Socket,SendTo</token>
+<token>System.Net.Sockets.Socket,Close</token>
+</entry>
+<entry count="4">
+<token>System.Net.Sockets.Socket,Connect</token>
+<token>System.Net.Sockets.Socket,SendTo</token>
+</entry>
+<entry count="12">
+<token>System.Net.Sockets.Socket,Send</token>
+<token>System.Net.Sockets.Socket,Bind</token>
+<token>System.Net.Sockets.Socket,Listen</token>
+</entry>
+<entry count="7">
+<token>System.Net.Sockets.SocketAsyncEventArgs,SetBuffer</token>
+<token>System.Net.Sockets.SocketAsyncEventArgs,Dispose</token>
+</entry>
+<entry count="4">
+<token>System.Net.Sockets.Socket,BeginSend</token>
+<token>System.Net.Sockets.Socket,EndSend</token>
+</entry>
+<entry count="1">
+<token>System.Net.Sockets.Socket,new</token>
+<token>System.Net.Sockets.LingerOption,new</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.Socket,Bind</token>
+</entry>
+<entry count="4">
+<token>System.Net.Sockets.MulticastOption,new</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.Socket,Bind</token>
+</entry>
+<entry count="14">
+<token>System.Net.Sockets.SocketAsyncEventArgs,new</token>
+<token>System.Net.Sockets.Socket,ConnectAsync</token>
+</entry>
+<entry count="2">
+<token>System.Net.Sockets.Socket,Listen</token>
+<token>System.Net.Sockets.Socket,new</token>
+<token>System.Net.Sockets.Socket,Bind</token>
+</entry>
+<entry count="1">
+<token>System.Net.Sockets.TcpClient,GetStream</token>
+<token>System.Net.Sockets.NetworkStream,BeginWrite</token>
+</entry>
+<entry count="8">
+<token>System.Net.Sockets.Socket,new</token>
+<token>System.Net.Sockets.Socket,Connect</token>
+<token>System.Net.Sockets.SocketAsyncEventArgs,new</token>
+<token>System.Net.Sockets.SocketAsyncEventArgs,SetBuffer</token>
+</entry>
+<entry count="1">
+<token>System.Net.Sockets.Socket,EndReceive</token>
+<token>System.Net.Sockets.Socket,Send</token>
+</entry>
+<entry count="2">
+<token>System.Net.Sockets.Socket,new</token>
+<token>System.Net.Sockets.Socket,Connect</token>
+<token>System.Net.Sockets.Socket,Close</token>
+<token>System.Net.Sockets.NetworkStream,new</token>
+</entry>
+<entry count="12">
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.Socket,new</token>
+</entry>
+<entry count="5">
+<token>System.Net.Sockets.TcpListener,new</token>
+<token>System.Net.Sockets.TcpListener,Start</token>
+<token>System.Net.Sockets.TcpListener,BeginAcceptTcpClient</token>
+</entry>
+<entry count="12">
+<token>System.Net.Sockets.Socket,Poll</token>
+<token>System.Net.Sockets.Socket,Shutdown</token>
+</entry>
+<entry count="4">
+<token>System.Net.Sockets.Socket,new</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.MulticastOption,new</token>
+</entry>
+<entry count="1">
+<token>System.Net.Sockets.Socket,EndSend</token>
+<token>System.Net.Sockets.Socket,Shutdown</token>
+<token>System.Net.Sockets.Socket,Close</token>
+</entry>
+<entry count="8">
+<token>System.Net.Sockets.Socket,Accept</token>
+<token>System.Net.Sockets.Socket,Close</token>
+<token>System.Net.Sockets.NetworkStream,new</token>
+</entry>
+<entry count="1">
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.Socket,Bind</token>
+<token>System.Net.Sockets.Socket,SendTo</token>
+</entry>
+<entry count="4">
+<token>System.Net.Sockets.Socket,Accept</token>
+<token>System.Net.Sockets.Socket,Close</token>
+<token>System.Net.Sockets.Socket,Close</token>
+</entry>
+<entry count="3">
+<token>System.Net.Sockets.Socket,Bind</token>
+<token>System.Net.Sockets.Socket,SendTo</token>
+</entry>
+<entry count="9">
+<token>System.Net.Sockets.UdpClient,new</token>
+<token>System.Net.Sockets.UdpClient,Connect</token>
+<token>System.Net.Sockets.UdpClient,Send</token>
+</entry>
+<entry count="18">
+<token>System.Net.Sockets.Socket,Listen</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.SocketAsyncEventArgs,new</token>
+<token>System.Net.Sockets.Socket,AcceptAsync</token>
+</entry>
+<entry count="1">
+<token>System.Net.Sockets.NetworkStream,Flush</token>
+<token>System.Net.Sockets.NetworkStream,Flush</token>
+<token>System.Net.Sockets.Socket,Shutdown</token>
+<token>System.Net.Sockets.TcpClient,Close</token>
+</entry>
+<entry count="208">
+<token>System.Net.Sockets.Socket,Poll</token>
+<token>System.Net.Sockets.Socket,ReceiveFrom</token>
+</entry>
+<entry count="1">
+<token>System.Net.Sockets.Socket,Connect</token>
+<token>System.Net.Sockets.Socket,Send</token>
+<token>System.Net.Sockets.Socket,Receive</token>
+</entry>
+<entry count="12">
+<token>System.Net.Sockets.Socket,Bind</token>
+<token>System.Net.Sockets.MulticastOption,new</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+</entry>
+<entry count="2">
+<token>System.Net.Sockets.Socket,Poll</token>
+<token>System.Net.Sockets.Socket,Accept</token>
+</entry>
+<entry count="10">
+<token>System.Net.Sockets.Socket,Dispose</token>
+<token>System.Net.Sockets.TcpClient,Close</token>
+</entry>
+<entry count="12">
+<token>System.Net.Sockets.Socket,new</token>
+<token>System.Net.Sockets.Socket,Connect</token>
+<token>System.Net.Sockets.Socket,Poll</token>
+<token>System.Net.Sockets.Socket,Shutdown</token>
+<token>System.Net.Sockets.Socket,Close</token>
+</entry>
+<entry count="2">
+<token>System.Net.Sockets.SocketAsyncEventArgs,SetBuffer</token>
+<token>System.Net.Sockets.Socket,AcceptAsync</token>
+</entry>
 <entry count="1">
 <token>System.Net.Sockets.Socket,new</token>
 <token>System.Net.Sockets.Socket,Connect</token>
+<token>System.Net.Sockets.LingerOption,new</token>
+</entry>
+<entry count="9">
+<token>System.Net.Sockets.UdpClient,Connect</token>
+<token>System.Net.Sockets.UdpClient,Send</token>
+</entry>
+<entry count="30">
+<token>System.Net.Sockets.Socket,new</token>
+<token>System.Net.Sockets.Socket,Close</token>
+</entry>
+<entry count="2">
+<token>System.Net.Sockets.Socket,Listen</token>
+<token>System.Net.Sockets.Socket,new</token>
+</entry>
+<entry count="4">
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.Socket,Connect</token>
+</entry>
+<entry count="4">
+<token>System.Net.Sockets.Socket,Disconnect</token>
+<token>System.Net.Sockets.Socket,Close</token>
+<token>System.Net.Sockets.NetworkStream,new</token>
+</entry>
+<entry count="12">
+<token>System.Net.Sockets.Socket,Send</token>
+<token>System.Net.Sockets.Socket,Bind</token>
+<token>System.Net.Sockets.Socket,Listen</token>
+<token>System.Net.Sockets.Socket,BeginAccept</token>
+</entry>
+<entry count="2">
+<token>System.Net.Sockets.TcpClient,new</token>
+<token>System.Net.Sockets.TcpClient,GetStream</token>
+<token>System.Net.Sockets.TcpClient,GetStream</token>
+</entry>
+<entry count="7">
+<token>System.Net.Sockets.TcpClient,new</token>
+<token>System.Net.Sockets.TcpClient,Connect</token>
+<token>System.Net.Sockets.TcpClient,GetStream</token>
+<token>System.Net.Sockets.TcpClient,GetStream</token>
+</entry>
+<entry count="1">
+<token>System.Net.Sockets.TcpClient,GetStream</token>
+<token>System.Net.Sockets.NetworkStream,Flush</token>
+<token>System.Net.Sockets.NetworkStream,Flush</token>
+<token>System.Net.Sockets.Socket,Shutdown</token>
+<token>System.Net.Sockets.TcpClient,Close</token>
+</entry>
+<entry count="36">
+<token>System.Net.Sockets.Socket,Close</token>
+<token>System.Net.Sockets.NetworkStream,new</token>
+</entry>
+<entry count="4">
+<token>System.Net.Sockets.NetworkStream,Read</token>
+<token>System.Net.Sockets.TcpClient,Close</token>
+</entry>
+<entry count="4">
+<token>System.Net.Sockets.TcpClient,GetStream</token>
+<token>System.Net.Sockets.NetworkStream,Write</token>
+<token>System.Net.Sockets.NetworkStream,Flush</token>
+</entry>
+<entry count="7">
+<token>System.Net.Sockets.NetworkStream,Write</token>
+<token>System.Net.Sockets.NetworkStream,Flush</token>
+</entry>
+<entry count="18">
+<token>System.Net.Sockets.Socket,Listen</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+</entry>
+<entry count="12">
+<token>System.Net.Sockets.Socket,Connect</token>
+<token>System.Net.Sockets.Socket,Poll</token>
+<token>System.Net.Sockets.Socket,Shutdown</token>
+</entry>
+<entry count="4">
+<token>System.Net.Sockets.Socket,new</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+</entry>
+<entry count="3">
+<token>System.Net.Sockets.Socket,Bind</token>
+<token>System.Net.Sockets.Socket,SendTo</token>
+<token>System.Net.Sockets.Socket,Close</token>
+</entry>
+<entry count="1152">
+<token>System.Net.Sockets.TcpListener,new</token>
+<token>System.Net.Sockets.TcpListener,Pending</token>
+</entry>
+<entry count="12">
+<token>System.Net.Sockets.Socket,new</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.Socket,new</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+</entry>
+<entry count="12">
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.Socket,new</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.Socket,Bind</token>
+</entry>
+<entry count="1">
+<token>System.Net.Sockets.Socket,Shutdown</token>
+<token>System.Net.Sockets.Socket,Disconnect</token>
+<token>System.Net.Sockets.Socket,Dispose</token>
+</entry>
+<entry count="3">
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.Socket,Bind</token>
+</entry>
+<entry count="23">
+<token>System.Net.Sockets.Socket,new</token>
+<token>System.Net.Sockets.Socket,Bind</token>
+<token>System.Net.Sockets.Socket,Listen</token>
+<token>System.Net.Sockets.Socket,BeginAccept</token>
+</entry>
+<entry count="14">
+<token>System.Net.Sockets.Socket,Select</token>
+<token>System.Net.Sockets.TcpListener,Stop</token>
+</entry>
+<entry count="1153">
+<token>System.Net.Sockets.TcpListener,Pending</token>
+<token>System.Net.Sockets.TcpListener,AcceptTcpClient</token>
+</entry>
+<entry count="1">
+<token>System.Net.Sockets.Socket,Shutdown</token>
+<token>System.Net.Sockets.SocketAsyncEventArgs,new</token>
+</entry>
+<entry count="4">
+<token>System.Net.Sockets.TcpListener,new</token>
+<token>System.Net.Sockets.TcpListener,Start</token>
+<token>System.Net.Sockets.SocketAsyncEventArgs,new</token>
+<token>System.Net.Sockets.Socket,AcceptAsync</token>
+</entry>
+<entry count="3">
+<token>System.Net.Sockets.TcpClient,new</token>
+<token>System.Net.Sockets.TcpClient,Connect</token>
+<token>System.Net.Sockets.TcpClient,GetStream</token>
+<token>System.Net.Sockets.NetworkStream,Write</token>
+<token>System.Net.Sockets.NetworkStream,Flush</token>
+</entry>
+<entry count="1">
+<token>System.Net.Sockets.Socket,Connect</token>
 <token>System.Net.Sockets.NetworkStream,new</token>
 <token>System.Net.Sockets.SocketAsyncEventArgs,new</token>
+<token>System.Net.Sockets.SocketAsyncEventArgs,SetBuffer</token>
+<token>System.Net.Sockets.Socket,SendAsync</token>
+</entry>
+<entry count="2">
+<token>System.Net.Sockets.NetworkStream,Flush</token>
+<token>System.Net.Sockets.Socket,Shutdown</token>
+</entry>
+<entry count="12">
+<token>System.Net.Sockets.TcpListener,BeginAcceptSocket</token>
+<token>System.Net.Sockets.TcpListener,EndAcceptSocket</token>
+<token>System.Net.Sockets.Socket,Disconnect</token>
+</entry>
+<entry count="8">
+<token>System.Net.Sockets.TcpListener,Start</token>
+<token>System.Net.Sockets.Socket,Select</token>
+</entry>
+<entry count="18">
+<token>System.Net.Sockets.SocketAsyncEventArgs,SetBuffer</token>
+<token>System.Net.Sockets.Socket,SendToAsync</token>
+</entry>
+<entry count="2">
+<token>System.Net.Sockets.TcpClient,GetStream</token>
+<token>System.Net.Sockets.TcpClient,Close</token>
+<token>System.Net.Sockets.TcpClient,Close</token>
+</entry>
+<entry count="2">
+<token>System.Net.Sockets.Socket,Bind</token>
+<token>System.Net.Sockets.Socket,Listen</token>
+<token>System.Net.Sockets.Socket,new</token>
+</entry>
+<entry count="1">
+<token>System.Net.Sockets.TcpListener,Pending</token>
+<token>System.Net.Sockets.TcpListener,AcceptTcpClient</token>
+<token>System.Net.Sockets.TcpListener,Stop</token>
+</entry>
+<entry count="3">
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.Socket,Bind</token>
+<token>System.Net.Sockets.Socket,SendTo</token>
+</entry>
+<entry count="5">
+<token>System.Net.Sockets.Socket,new</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.Socket,Bind</token>
+<token>System.Net.Sockets.Socket,Listen</token>
+</entry>
+<entry count="1">
+<token>System.Net.Sockets.TcpClient,GetStream</token>
+<token>System.Net.Sockets.NetworkStream,Flush</token>
+<token>System.Net.Sockets.Socket,Shutdown</token>
+<token>System.Net.Sockets.TcpClient,Close</token>
+</entry>
+<entry count="12">
+<token>System.Net.Sockets.TcpListener,AcceptTcpClient</token>
+<token>System.Net.Sockets.TcpClient,GetStream</token>
+<token>System.Net.Sockets.TcpListener,Stop</token>
+</entry>
+<entry count="18">
+<token>System.Net.Sockets.Socket,new</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.Socket,Bind</token>
+<token>System.Net.Sockets.Socket,IOControl</token>
+<token>System.Net.Sockets.Socket,ReceiveFromAsync</token>
+</entry>
+<entry count="12">
+<token>System.Net.Sockets.TcpListener,new</token>
+<token>System.Net.Sockets.TcpListener,Start</token>
+<token>System.Net.Sockets.TcpListener,AcceptTcpClient</token>
+<token>System.Net.Sockets.TcpClient,GetStream</token>
+<token>System.Net.Sockets.TcpListener,Stop</token>
+</entry>
+<entry count="21">
+<token>System.Net.Sockets.Socket,BeginConnect</token>
+<token>System.Net.Sockets.Socket,EndConnect</token>
+</entry>
+<entry count="1">
+<token>System.Net.Sockets.UdpClient,new</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.Socket,Bind</token>
+</entry>
+<entry count="48">
+<token>System.Net.Sockets.Socket,Bind</token>
+<token>System.Net.Sockets.Socket,EndReceiveFrom</token>
+<token>System.Net.Sockets.Socket,BeginReceiveFrom</token>
+<token>System.Net.Sockets.Socket,BeginReceiveFrom</token>
+</entry>
+<entry count="2">
+<token>System.Net.Sockets.TcpClient,Connect</token>
+<token>System.Net.Sockets.TcpClient,GetStream</token>
+<token>System.Net.Sockets.NetworkStream,Write</token>
+<token>System.Net.Sockets.NetworkStream,Write</token>
+<token>System.Net.Sockets.NetworkStream,Write</token>
+</entry>
+<entry count="5">
+<token>System.Net.Sockets.UdpClient,Connect</token>
+<token>System.Net.Sockets.UdpClient,Send</token>
+<token>System.Net.Sockets.UdpClient,Close</token>
+</entry>
+<entry count="4">
+<token>System.Net.Sockets.Socket,Accept</token>
+<token>System.Net.Sockets.Socket,Disconnect</token>
+</entry>
+<entry count="8">
+<token>System.Net.Sockets.Socket,Close</token>
+<token>System.Net.Sockets.Socket,Close</token>
+<token>System.Net.Sockets.Socket,Close</token>
+</entry>
+<entry count="4">
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.Socket,Connect</token>
+<token>System.Net.Sockets.Socket,SendTo</token>
+</entry>
+<entry count="5">
+<token>System.Net.Sockets.UdpClient,new</token>
+<token>System.Net.Sockets.UdpClient,Connect</token>
+<token>System.Net.Sockets.UdpClient,Send</token>
+<token>System.Net.Sockets.UdpClient,Close</token>
+</entry>
+<entry count="1">
+<token>System.Net.Sockets.TcpListener,Start</token>
+<token>System.Net.Sockets.TcpListener,AcceptSocket</token>
+</entry>
+<entry count="1">
+<token>System.Net.Sockets.TcpClient,GetStream</token>
+<token>System.Net.Sockets.NetworkStream,Flush</token>
+<token>System.Net.Sockets.Socket,Shutdown</token>
+</entry>
+<entry count="32">
+<token>System.Net.Sockets.Socket,Bind</token>
+<token>System.Net.Sockets.Socket,Listen</token>
+<token>System.Net.Sockets.Socket,Close</token>
+</entry>
+<entry count="2">
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.MulticastOption,new</token>
+</entry>
+<entry count="2">
+<token>System.Net.Sockets.SocketAsyncEventArgs,new</token>
+<token>System.Net.Sockets.SocketAsyncEventArgs,new</token>
+</entry>
+<entry count="20">
+<token>System.Net.Sockets.TcpClient,new</token>
+<token>System.Net.Sockets.TcpClient,EndConnect</token>
+<token>System.Net.Sockets.TcpClient,BeginConnect</token>
+<token>System.Net.Sockets.TcpClient,GetStream</token>
+</entry>
+<entry count="59">
+<token>System.Net.Sockets.Socket,new</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.Socket,Bind</token>
+</entry>
+<entry count="2">
+<token>System.Net.Sockets.Socket,EndReceive</token>
+<token>System.Net.Sockets.Socket,BeginReceiveFrom</token>
+</entry>
+<entry count="19">
+<token>System.Net.Sockets.TcpListener,Start</token>
+<token>System.Net.Sockets.TcpListener,AcceptTcpClient</token>
+</entry>
+<entry count="48">
+<token>System.Net.Sockets.Socket,new</token>
+<token>System.Net.Sockets.Socket,Bind</token>
+<token>System.Net.Sockets.Socket,EndReceiveFrom</token>
+<token>System.Net.Sockets.Socket,BeginReceiveFrom</token>
+</entry>
+<entry count="4">
+<token>System.Net.Sockets.Socket,SendTo</token>
+<token>System.Net.Sockets.Socket,ReceiveFrom</token>
+</entry>
+<entry count="2">
+<token>System.Net.Sockets.NetworkStream,new</token>
+<token>System.Net.Sockets.NetworkStream,Write</token>
+</entry>
+<entry count="2">
+<token>System.Net.Sockets.TcpListener,Start</token>
+<token>System.Net.Sockets.TcpListener,Pending</token>
+</entry>
+<entry count="1">
+<token>System.Net.Sockets.UdpClient,new</token>
+<token>System.Net.Sockets.UdpClient,new</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.Socket,Bind</token>
+</entry>
+<entry count="2">
+<token>System.Net.Sockets.TcpClient,Connect</token>
+<token>System.Net.Sockets.TcpClient,GetStream</token>
+<token>System.Net.Sockets.NetworkStream,BeginRead</token>
+</entry>
+<entry count="10">
+<token>System.Net.Sockets.Socket,Shutdown</token>
+<token>System.Net.Sockets.Socket,Dispose</token>
+</entry>
+<entry count="1">
+<token>System.Net.Sockets.Socket,Close</token>
+<token>System.Net.Sockets.SocketException,new</token>
+</entry>
+<entry count="9">
+<token>System.Net.Sockets.TcpClient,GetStream</token>
+<token>System.Net.Sockets.Socket,Shutdown</token>
+<token>System.Net.Sockets.Socket,Dispose</token>
+</entry>
+<entry count="8">
+<token>System.Net.Sockets.Socket,new</token>
+<token>System.Net.Sockets.Socket,Connect</token>
+<token>System.Net.Sockets.Socket,Shutdown</token>
+<token>System.Net.Sockets.Socket,Close</token>
+</entry>
+<entry count="2">
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.MulticastOption,new</token>
+</entry>
+<entry count="2">
+<token>System.Net.Sockets.TcpClient,Connect</token>
+<token>System.Net.Sockets.TcpClient,GetStream</token>
+<token>System.Net.Sockets.TcpClient,Close</token>
+<token>System.Net.Sockets.TcpClient,Close</token>
+</entry>
+<entry count="4">
+<token>System.Net.Sockets.Socket,EndAccept</token>
+<token>System.Net.Sockets.LingerOption,new</token>
+</entry>
+<entry count="1">
+<token>System.Net.Sockets.LingerOption,new</token>
+<token>System.Net.Sockets.Socket,BeginReceive</token>
+</entry>
+<entry count="2">
+<token>System.Net.Sockets.LingerOption,new</token>
+<token>System.Net.Sockets.Socket,BeginConnect</token>
+<token>System.Net.Sockets.Socket,Close</token>
+</entry>
+<entry count="12">
+<token>System.Net.Sockets.Socket,new</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.Socket,Bind</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+</entry>
+<entry count="4">
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.Socket,Connect</token>
+<token>System.Net.Sockets.Socket,SendTo</token>
+</entry>
+<entry count="9">
+<token>System.Net.Sockets.TcpClient,new</token>
+<token>System.Net.Sockets.TcpClient,GetStream</token>
+<token>System.Net.Sockets.Socket,Shutdown</token>
+<token>System.Net.Sockets.Socket,Dispose</token>
+<token>System.Net.Sockets.TcpClient,Close</token>
+</entry>
+<entry count="1">
+<token>System.Net.Sockets.TcpListener,new</token>
+<token>System.Net.Sockets.TcpListener,Start</token>
+<token>System.Net.Sockets.TcpListener,Pending</token>
+<token>System.Net.Sockets.TcpListener,Stop</token>
+</entry>
+<entry count="4">
+<token>System.Net.Sockets.TcpClient,GetStream</token>
+<token>System.Net.Sockets.NetworkStream,BeginRead</token>
 </entry>
 <entry count="1">
 <token>System.Net.Sockets.Socket,Shutdown</token>
 <token>System.Net.Sockets.Socket,Disconnect</token>
 </entry>
-<entry count="8">
-<token>System.Net.Sockets.SocketAsyncEventArgs,SetBuffer</token>
-<token>System.Net.Sockets.SocketAsyncEventArgs,new</token>
+<entry count="2">
+<token>System.Net.Sockets.Socket,ReceiveFrom</token>
+<token>System.Net.Sockets.Socket,Shutdown</token>
 </entry>
-<entry count="29">
+<entry count="2">
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.MulticastOption,new</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.Socket,SetSocketOption</token>
+<token>System.Net.Sockets.Socket,Bind</token>
+</entry>
+<entry count="179">
 <token>System.Net.Sockets.TcpListener,new</token>
 <token>System.Net.Sockets.TcpListener,Start</token>
-</entry>
-<entry count="5">
-<token>System.Net.Sockets.TcpClient,Connect</token>
-<token>System.Net.Sockets.TcpClient,GetStream</token>
-<token>System.Net.Sockets.TcpClient,GetStream</token>
 </entry>
 </dictionary>

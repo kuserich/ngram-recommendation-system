@@ -1,34 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?><dictionary case_sensitive="false">
 <entry count="1">
+<token>Ninject.StandardKernel,new</token>
+<token>Ninject.KernelBase,GetBindings</token>
+<token>Ninject.KernelBase,GetBindings</token>
+</entry>
+<entry count="15">
 <token>Ninject.ResolutionExtensions,Get</token>
 <token>Ninject.ResolutionExtensions,Get</token>
 <token>Ninject.ResolutionExtensions,Get</token>
 <token>Ninject.ResolutionExtensions,Get</token>
 </entry>
-<entry count="1">
+<entry count="3">
 <token>Ninject.StandardKernel,new</token>
+<token>Ninject.ModuleLoadExtensions,Load</token>
+<token>Ninject.KernelBase,GetBindings</token>
+</entry>
+<entry count="16">
+<token>Ninject.StandardKernel,new</token>
+<token>Ninject.ResolutionExtensions,Get</token>
 <token>Ninject.ResolutionExtensions,Get</token>
 </entry>
 <entry count="1">
 <token>Ninject.ModuleLoadExtensions,Load</token>
+<token>Ninject.ResolutionExtensions,Get</token>
+<token>Ninject.ResolutionExtensions,Get</token>
+<token>Ninject.ResolutionExtensions,Get</token>
+</entry>
+<entry count="9">
+<token>Ninject.ResolutionExtensions,Get</token>
+<token>Ninject.ResolutionExtensions,Get</token>
 <token>Ninject.ResolutionExtensions,Get</token>
 <token>Ninject.ResolutionExtensions,Get</token>
 <token>Ninject.ResolutionExtensions,Get</token>
 </entry>
 <entry count="2">
 <token>Ninject.ResolutionExtensions,Get</token>
-<token>Ninject.ResolutionExtensions,Get</token>
-<token>Ninject.ResolutionExtensions,Get</token>
-</entry>
-<entry count="1">
-<token>Ninject.ModuleLoadExtensions,Load</token>
-<token>Ninject.ModuleLoadExtensions,Load</token>
-</entry>
-<entry count="1">
-<token>Ninject.ModuleLoadExtensions,Load</token>
+<token>Ninject.NinjectSettings,new</token>
+<token>Ninject.StandardKernel,new</token>
 <token>Ninject.ResolutionExtensions,Get</token>
 </entry>
 <entry count="2">
+<token>Ninject.ModuleLoadExtensions,Load</token>
+<token>Ninject.ResolutionExtensions,Get</token>
+</entry>
+<entry count="1">
+<token>Ninject.StandardKernel,new</token>
+<token>Ninject.ModuleLoadExtensions,Load</token>
+<token>Ninject.KernelBase,GetModules</token>
+</entry>
+<entry count="11">
 <token>Ninject.StandardKernel,new</token>
 <token>Ninject.ModuleLoadExtensions,Load</token>
 </entry>
@@ -37,51 +57,169 @@
 <token>Ninject.ResolutionExtensions,Get</token>
 <token>Ninject.ResolutionExtensions,Get</token>
 </entry>
+<entry count="3">
+<token>Ninject.StandardKernel,new</token>
+<token>Ninject.KernelBase,GetBindings</token>
+</entry>
+<entry count="2">
+<token>Ninject.NinjectSettings,new</token>
+<token>Ninject.StandardKernel,new</token>
+<token>Ninject.ModuleLoadExtensions,Load</token>
+</entry>
+<entry count="1">
+<token>Ninject.ModuleLoadExtensions,Load</token>
+<token>Ninject.KernelBase,GetModules</token>
+</entry>
 <entry count="1">
 <token>Ninject.StandardKernel,new</token>
 <token>Ninject.ModuleLoadExtensions,Load</token>
 <token>Ninject.ModuleLoadExtensions,Load</token>
 <token>Ninject.ResolutionExtensions,Get</token>
+<token>Ninject.ResolutionExtensions,Get</token>
+</entry>
+<entry count="1">
+<token>Ninject.NinjectSettings,new</token>
+<token>Ninject.StandardKernel,new</token>
+<token>Ninject.ResolutionExtensions,Get</token>
+<token>Ninject.NinjectSettings,new</token>
+</entry>
+<entry count="7">
+<token>Ninject.NinjectSettings,new</token>
+<token>Ninject.StandardKernel,new</token>
+<token>Ninject.ResolutionExtensions,Get</token>
+</entry>
+<entry count="1">
+<token>Ninject.ModuleLoadExtensions,Load</token>
+<token>Ninject.ModuleLoadExtensions,Load</token>
+<token>Ninject.ResolutionExtensions,Get</token>
+<token>Ninject.ResolutionExtensions,Get</token>
+</entry>
+<entry count="2">
+<token>Ninject.ResolutionExtensions,Get</token>
+<token>Ninject.NinjectSettings,new</token>
 </entry>
 <entry count="1">
 <token>Ninject.StandardKernel,new</token>
-<token>Ninject.ModuleLoadExtensions,Load</token>
-<token>Ninject.ModuleLoadExtensions,Load</token>
+<token>Ninject.KernelBase,Inject</token>
 </entry>
 <entry count="1">
-<token>Ninject.ModuleLoadExtensions,Load</token>
-<token>Ninject.ModuleLoadExtensions,Load</token>
+<token>Ninject.KernelBase,GetBindings</token>
+<token>Ninject.KernelBase,GetBindings</token>
+</entry>
+<entry count="54">
+<token>Ninject.ResolutionExtensions,Get</token>
 <token>Ninject.ResolutionExtensions,Get</token>
 </entry>
 <entry count="1">
+<token>Ninject.NinjectSettings,new</token>
 <token>Ninject.StandardKernel,new</token>
-<token>Ninject.ModuleLoadExtensions,Load</token>
-<token>Ninject.ModuleLoadExtensions,Load</token>
 <token>Ninject.ResolutionExtensions,Get</token>
+<token>Ninject.NinjectSettings,new</token>
+<token>Ninject.StandardKernel,new</token>
+</entry>
+<entry count="2">
+<token>Ninject.StandardKernel,new</token>
+<token>Ninject.ResolutionExtensions,Get</token>
+<token>Ninject.NinjectSettings,new</token>
+<token>Ninject.StandardKernel,new</token>
 <token>Ninject.ResolutionExtensions,Get</token>
 </entry>
-<entry count="1">
-<token>Ninject.ModuleLoadExtensions,Load</token>
-<token>Ninject.ResolutionExtensions,Get</token>
-<token>Ninject.ResolutionExtensions,Get</token>
-<token>Ninject.ResolutionExtensions,Get</token>
-<token>Ninject.ResolutionExtensions,Get</token>
+<entry count="12">
+<token>Ninject.NinjectSettings,new</token>
+<token>Ninject.StandardKernel,new</token>
 </entry>
-<entry count="1">
-<token>Ninject.ModuleLoadExtensions,Load</token>
-<token>Ninject.ModuleLoadExtensions,Load</token>
+<entry count="2">
+<token>Ninject.StandardKernel,new</token>
 <token>Ninject.ResolutionExtensions,Get</token>
-<token>Ninject.ResolutionExtensions,Get</token>
+<token>Ninject.NinjectSettings,new</token>
+<token>Ninject.StandardKernel,new</token>
 </entry>
-<entry count="1">
-<token>Ninject.ModuleLoadExtensions,Load</token>
-<token>Ninject.ModuleLoadExtensions,Load</token>
-<token>Ninject.ResolutionExtensions,Get</token>
-<token>Ninject.ResolutionExtensions,Get</token>
+<entry count="57">
+<token>Ninject.StandardKernel,new</token>
 <token>Ninject.ResolutionExtensions,Get</token>
 </entry>
 <entry count="5">
+<token>Ninject.StandardKernel,new</token>
 <token>Ninject.ResolutionExtensions,Get</token>
 <token>Ninject.ResolutionExtensions,Get</token>
+<token>Ninject.ResolutionExtensions,Get</token>
+</entry>
+<entry count="24">
+<token>Ninject.ResolutionExtensions,Get</token>
+<token>Ninject.ResolutionExtensions,Get</token>
+<token>Ninject.ResolutionExtensions,Get</token>
+</entry>
+<entry count="2">
+<token>Ninject.ResolutionExtensions,Get</token>
+<token>Ninject.NinjectSettings,new</token>
+<token>Ninject.StandardKernel,new</token>
+</entry>
+<entry count="1">
+<token>Ninject.NinjectSettings,new</token>
+<token>Ninject.StandardKernel,new</token>
+<token>Ninject.ResolutionExtensions,Get</token>
+<token>Ninject.ResolutionExtensions,Get</token>
+</entry>
+<entry count="1">
+<token>Ninject.ModuleLoadExtensions,Load</token>
+<token>Ninject.ModuleLoadExtensions,Load</token>
+</entry>
+<entry count="2">
+<token>Ninject.StandardKernel,new</token>
+<token>Ninject.ResolutionExtensions,Get</token>
+<token>Ninject.ResolutionExtensions,Get</token>
+<token>Ninject.ResolutionExtensions,Get</token>
+<token>Ninject.ResolutionExtensions,Get</token>
+</entry>
+<entry count="3">
+<token>Ninject.ModuleLoadExtensions,Load</token>
+<token>Ninject.KernelBase,GetBindings</token>
+</entry>
+<entry count="1">
+<token>Ninject.StandardKernel,new</token>
+<token>Ninject.ModuleLoadExtensions,Load</token>
+<token>Ninject.ModuleLoadExtensions,Load</token>
+<token>Ninject.ResolutionExtensions,Get</token>
+</entry>
+<entry count="1">
+<token>Ninject.StandardKernel,new</token>
+<token>Ninject.ModuleLoadExtensions,Load</token>
+<token>Ninject.ResolutionExtensions,Get</token>
+</entry>
+<entry count="1">
+<token>Ninject.StandardKernel,new</token>
+<token>Ninject.ModuleLoadExtensions,Load</token>
+<token>Ninject.ModuleLoadExtensions,Load</token>
+</entry>
+<entry count="1">
+<token>Ninject.ModuleLoadExtensions,Load</token>
+<token>Ninject.ModuleLoadExtensions,Load</token>
+<token>Ninject.ResolutionExtensions,Get</token>
+</entry>
+<entry count="1">
+<token>Ninject.NinjectSettings,new</token>
+<token>Ninject.StandardKernel,new</token>
+<token>Ninject.ResolutionExtensions,Get</token>
+<token>Ninject.ResolutionExtensions,Get</token>
+<token>Ninject.ResolutionExtensions,Get</token>
+</entry>
+<entry count="1">
+<token>Ninject.ModuleLoadExtensions,Load</token>
+<token>Ninject.ResolutionExtensions,Get</token>
+<token>Ninject.ResolutionExtensions,Get</token>
+<token>Ninject.ResolutionExtensions,Get</token>
+<token>Ninject.ResolutionExtensions,Get</token>
+</entry>
+<entry count="1">
+<token>Ninject.ModuleLoadExtensions,Load</token>
+<token>Ninject.ModuleLoadExtensions,Load</token>
+<token>Ninject.ResolutionExtensions,Get</token>
+<token>Ninject.ResolutionExtensions,Get</token>
+<token>Ninject.ResolutionExtensions,Get</token>
+</entry>
+<entry count="2">
+<token>Ninject.StandardKernel,new</token>
+<token>Ninject.ResolutionExtensions,Get</token>
+<token>Ninject.NinjectSettings,new</token>
 </entry>
 </dictionary>

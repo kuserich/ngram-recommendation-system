@@ -1,84 +1,1494 @@
 <?xml version="1.0" encoding="UTF-8"?><dictionary case_sensitive="false">
+<entry count="1">
+<token>System.Data.Common.DbDataReader,GetProviderSpecificFieldType</token>
+<token>System.Data.Common.DbDataReader,GetDataTypeName</token>
+<token>System.Data.Common.DbDataReader,GetName</token>
+</entry>
+<entry count="1">
+<token>System.Data.Common.DbCommand,ExecuteScalar</token>
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbCommand,ExecuteScalar</token>
+<token>System.Data.Common.DbProviderFactory,CreateConnection</token>
+<token>System.Data.Common.DbConnection,Open</token>
+</entry>
+<entry count="12">
+<token>System.Data.Common.DbConnection,BeginTransaction</token>
+<token>System.Data.Common.DbTransaction,Commit</token>
+</entry>
+<entry count="27">
+<token>System.Data.Common.DbProviderFactories,GetFactory</token>
+<token>System.Data.Common.DbProviderFactory,CreateConnection</token>
+<token>System.Data.Common.DbConnection,Open</token>
+</entry>
+<entry count="7">
+<token>System.Data.Common.DbParameterCollection,Clear</token>
+<token>System.Data.Common.DbParameterCollection,Add</token>
+<token>System.Data.Common.DbCommand,ExecuteNonQuery</token>
+</entry>
+<entry count="33">
+<token>System.Data.Common.DbProviderFactory,CreateDataAdapter</token>
+<token>System.Data.Common.DbDataAdapter,Fill</token>
+</entry>
 <entry count="4">
+<token>System.Data.Common.DbParameterCollection,Clear</token>
+<token>System.Data.Common.DbParameterCollection,Add</token>
+<token>System.Data.Common.DbCommand,ExecuteReader</token>
+<token>System.Data.Common.DbDataReader,Read</token>
+<token>System.Data.Common.DbDataReader,Close</token>
+</entry>
+<entry count="32">
+<token>System.Data.Common.DbConnection,BeginTransaction</token>
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbCommand,ExecuteReader</token>
+</entry>
+<entry count="14">
+<token>System.Data.Common.DataColumnMappingCollection,Add</token>
+<token>System.Data.Common.DataTableMappingCollection,Add</token>
+</entry>
+<entry count="66">
+<token>System.Data.Common.DbConnection,Open</token>
+<token>System.Data.Common.DbCommand,ExecuteNonQuery</token>
+</entry>
+<entry count="3">
+<token>System.Data.Common.DbConnection,Open</token>
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbCommand,ExecuteScalar</token>
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbCommand,ExecuteScalar</token>
+</entry>
+<entry count="8">
+<token>System.Data.Common.DbProviderFactory,CreateConnectionStringBuilder</token>
+<token>System.Data.Common.DbConnectionStringBuilder,ContainsKey</token>
+<token>System.Data.Common.DbConnectionStringBuilder,ContainsKey</token>
+<token>System.Data.Common.DbConnectionStringBuilder,ContainsKey</token>
+<token>System.Data.Common.DbConnectionStringBuilder,ContainsKey</token>
+</entry>
+<entry count="64">
+<token>System.Data.Common.DbCommandBuilder,QuoteIdentifier</token>
+<token>System.Data.Common.DbCommand,CreateParameter</token>
+</entry>
+<entry count="92">
+<token>System.Data.Common.DbConnection,BeginTransaction</token>
+<token>System.Data.Common.DbTransaction,Rollback</token>
+</entry>
+<entry count="2">
+<token>System.Data.Common.DbProviderFactory,CreateCommand</token>
+<token>System.Data.Common.DbProviderFactory,CreateDataAdapter</token>
+<token>System.Data.Common.DbDataAdapter,Fill</token>
+</entry>
+<entry count="4">
+<token>System.Data.Common.DbDataReader,GetFieldType</token>
+<token>System.Data.Common.DbDataReader,GetProviderSpecificFieldType</token>
+</entry>
+<entry count="1">
+<token>System.Data.Common.DbConnection,Open</token>
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbCommand,ExecuteReader</token>
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbCommand,ExecuteReader</token>
+</entry>
+<entry count="32">
+<token>System.Data.Common.DbConnection,Open</token>
+<token>System.Data.Common.DbConnection,BeginTransaction</token>
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbCommand,ExecuteReader</token>
+<token>System.Data.Common.DbDataReader,Read</token>
+</entry>
+<entry count="13">
+<token>System.Data.Common.DataColumnMappingCollection,Add</token>
+<token>System.Data.Common.DataColumnMappingCollection,Add</token>
+<token>System.Data.Common.DataColumnMappingCollection,Add</token>
+<token>System.Data.Common.DataTableMappingCollection,Add</token>
+</entry>
+<entry count="8">
+<token>System.Data.Common.DbParameterCollection,Add</token>
+<token>System.Data.Common.DbConnection,Open</token>
+<token>System.Data.Common.DbCommand,ExecuteReader</token>
+<token>System.Data.Common.DbDataReader,Read</token>
+</entry>
+<entry count="1">
+<token>System.Data.Common.DbCommand,ExecuteScalar</token>
+<token>System.Data.Common.DbTransaction,Commit</token>
+</entry>
+<entry count="1">
+<token>System.Data.Common.DataTableMapping,new</token>
+<token>System.Data.Common.DataColumnMappingCollection,Add</token>
+<token>System.Data.Common.DataColumnMappingCollection,Add</token>
+<token>System.Data.Common.DataTableMappingCollection,Add</token>
+</entry>
+<entry count="8">
+<token>System.Data.Common.DbProviderFactory,CreateConnection</token>
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbProviderFactory,CreateDataAdapter</token>
+</entry>
+<entry count="2">
+<token>System.Data.Common.DbProviderFactory,CreateConnection</token>
+<token>System.Data.Common.DbConnection,Open</token>
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbCommand,ExecuteNonQuery</token>
+<token>System.Data.Common.DbCommand,ExecuteNonQuery</token>
+</entry>
+<entry count="32">
+<token>System.Data.Common.DbConnection,Open</token>
+<token>System.Data.Common.DbConnection,BeginTransaction</token>
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+</entry>
+<entry count="4">
+<token>System.Data.Common.DbParameterCollection,Add</token>
+<token>System.Data.Common.DbCommand,ExecuteReader</token>
+<token>System.Data.Common.DbDataReader,Read</token>
+<token>System.Data.Common.DbDataReader,Close</token>
+</entry>
+<entry count="16">
+<token>System.Data.Common.DbConnection,CreateCommand</token>
 <token>System.Data.Common.DbCommand,CreateParameter</token>
 <token>System.Data.Common.DbParameterCollection,Add</token>
+<token>System.Data.Common.DbConnection,Open</token>
+</entry>
+<entry count="64">
+<token>System.Data.Common.DbCommand,CreateParameter</token>
+<token>System.Data.Common.DbParameterCollection,Add</token>
+<token>System.Data.Common.DbCommand,ExecuteNonQuery</token>
+</entry>
+<entry count="11">
+<token>System.Data.Common.DbParameterCollection,Clear</token>
+<token>System.Data.Common.DbCommand,ExecuteNonQuery</token>
+</entry>
+<entry count="2">
+<token>System.Data.Common.DataTableMapping,new</token>
+<token>System.Data.Common.DataColumnMappingCollection,Add</token>
+<token>System.Data.Common.DataColumnMappingCollection,Add</token>
+<token>System.Data.Common.DataColumnMappingCollection,Add</token>
+<token>System.Data.Common.DataTableMappingCollection,Add</token>
+</entry>
+<entry count="4">
+<token>System.Data.Common.DbParameterCollection,Clear</token>
+<token>System.Data.Common.DbParameterCollection,Add</token>
+<token>System.Data.Common.DbCommand,ExecuteReader</token>
+</entry>
+<entry count="32">
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbCommand,ExecuteNonQuery</token>
+<token>System.Data.Common.DbTransaction,Commit</token>
+</entry>
+<entry count="6">
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbCommand,CreateParameter</token>
+<token>System.Data.Common.DbParameterCollection,Add</token>
+<token>System.Data.Common.DbCommand,ExecuteScalar</token>
+</entry>
+<entry count="24">
+<token>System.Data.Common.DbProviderFactory,CreateDataAdapter</token>
+<token>System.Data.Common.DbDataAdapter,Update</token>
+</entry>
+<entry count="4">
+<token>System.Data.Common.DbParameterCollection,AddRange</token>
+<token>System.Data.Common.DbCommand,ExecuteReader</token>
+</entry>
+<entry count="1">
+<token>System.Data.Common.DbCommand,ExecuteScalar</token>
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbCommand,ExecuteScalar</token>
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+</entry>
+<entry count="1">
+<token>System.Data.Common.DbCommand,ExecuteScalar</token>
+<token>System.Data.Common.DbTransaction,Commit</token>
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbCommand,ExecuteScalar</token>
+</entry>
+<entry count="4">
+<token>System.Data.Common.DbCommand,ExecuteReader</token>
+<token>System.Data.Common.DbDataReader,Close</token>
+</entry>
+<entry count="71">
+<token>System.Data.Common.DbParameterCollection,Add</token>
+<token>System.Data.Common.DbCommand,ExecuteNonQuery</token>
+</entry>
+<entry count="4">
+<token>System.Data.Common.DbDataReader,GetProviderSpecificFieldType</token>
+<token>System.Data.Common.DbDataReader,GetDataTypeName</token>
+</entry>
+<entry count="32">
+<token>System.Data.Common.DbParameterCollection,Clear</token>
+<token>System.Data.Common.DbCommandBuilder,QuoteIdentifier</token>
+</entry>
+<entry count="14">
+<token>System.Data.Common.DbProviderFactory,CreateConnection</token>
+<token>System.Data.Common.DbConnection,Open</token>
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbCommand,ExecuteScalar</token>
+<token>System.Data.Common.DbCommand,ExecuteScalar</token>
+</entry>
+<entry count="17">
+<token>System.Data.Common.DbCommand,ExecuteScalar</token>
+<token>System.Data.Common.DbCommand,ExecuteScalar</token>
+</entry>
+<entry count="2">
+<token>System.Data.Common.DbCommand,ExecuteScalar</token>
+<token>System.Data.Common.DbConnection,BeginTransaction</token>
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbCommand,ExecuteScalar</token>
+</entry>
+<entry count="1">
+<token>System.Data.Common.DbParameterCollection,Add</token>
+<token>System.Data.Common.DbParameterCollection,Add</token>
+<token>System.Data.Common.DbParameterCollection,Add</token>
+</entry>
+<entry count="9">
+<token>System.Data.Common.DbProviderFactory,CreateConnection</token>
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+</entry>
+<entry count="4">
+<token>System.Data.Common.DbProviderFactories,GetFactory</token>
+<token>System.Data.Common.DbProviderFactory,CreateCommandBuilder</token>
+</entry>
+<entry count="1">
+<token>System.Data.Common.DbDataReader,GetDataTypeName</token>
+<token>System.Data.Common.DbDataReader,GetName</token>
+</entry>
+<entry count="2">
+<token>System.Data.Common.DbCommand,ExecuteScalar</token>
+<token>System.Data.Common.DbConnection,BeginTransaction</token>
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+</entry>
+<entry count="31">
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbCommand,ExecuteScalar</token>
+</entry>
+<entry count="2">
+<token>System.Data.Common.DbCommand,ExecuteScalar</token>
+<token>System.Data.Common.DbConnection,BeginTransaction</token>
+</entry>
+<entry count="32">
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbParameterCollection,Clear</token>
 </entry>
 <entry count="1">
 <token>System.Data.Common.DbCommand,ExecuteNonQuery</token>
 <token>System.Data.Common.DbCommand,ExecuteNonQuery</token>
 <token>System.Data.Common.DbCommand,ExecuteNonQuery</token>
-<token>System.Data.Common.DbTransaction,Commit</token>
+</entry>
+<entry count="8">
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbCommand,CreateParameter</token>
+<token>System.Data.Common.DbParameterCollection,Add</token>
+<token>System.Data.Common.DbCommand,CreateParameter</token>
+</entry>
+<entry count="66">
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbConnection,Open</token>
+</entry>
+<entry count="32">
+<token>System.Data.Common.DbCommandBuilder,QuoteIdentifier</token>
+<token>System.Data.Common.DbCommand,CreateParameter</token>
+<token>System.Data.Common.DbParameterCollection,Add</token>
+<token>System.Data.Common.DbCommand,CreateParameter</token>
+<token>System.Data.Common.DbParameterCollection,Add</token>
+</entry>
+<entry count="10">
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbProviderFactory,CreateDataAdapter</token>
+</entry>
+<entry count="56">
+<token>System.Data.Common.DbConnectionStringBuilder,ContainsKey</token>
+<token>System.Data.Common.DbConnectionStringBuilder,ContainsKey</token>
+</entry>
+<entry count="3">
+<token>System.Data.Common.DbProviderFactories,GetFactory</token>
+<token>System.Data.Common.DbProviderFactory,CreateCommand</token>
 </entry>
 <entry count="4">
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbParameterCollection,AddRange</token>
+<token>System.Data.Common.DbCommand,ExecuteReader</token>
+<token>System.Data.Common.DbDataReader,Close</token>
+</entry>
+<entry count="10">
+<token>System.Data.Common.DbConnection,Open</token>
+<token>System.Data.Common.DbCommand,ExecuteReader</token>
+</entry>
+<entry count="4">
+<token>System.Data.Common.DbParameterCollection,Clear</token>
+<token>System.Data.Common.DbCommand,ExecuteReader</token>
+</entry>
+<entry count="32">
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbCommandBuilder,QuoteIdentifier</token>
+<token>System.Data.Common.DbCommandBuilder,QuoteIdentifier</token>
+<token>System.Data.Common.DbCommand,CreateParameter</token>
+<token>System.Data.Common.DbParameterCollection,Add</token>
+</entry>
+<entry count="1">
+<token>System.Data.Common.DbProviderFactory,CreateCommand</token>
+<token>System.Data.Common.DbProviderFactory,CreateConnection</token>
+</entry>
+<entry count="4">
+<token>System.Data.Common.DbParameterCollection,Add</token>
+<token>System.Data.Common.DbCommand,ExecuteReader</token>
+</entry>
+<entry count="50">
+<token>System.Data.Common.DataColumnMappingCollection,Add</token>
+<token>System.Data.Common.DataColumnMappingCollection,Add</token>
+<token>System.Data.Common.DataColumnMappingCollection,Add</token>
+</entry>
+<entry count="22">
+<token>System.Data.Common.DbProviderFactories,GetFactory</token>
+<token>System.Data.Common.DbProviderFactory,CreateConnection</token>
+<token>System.Data.Common.DbConnection,Open</token>
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+</entry>
+<entry count="8">
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbCommand,CreateParameter</token>
+<token>System.Data.Common.DbParameterCollection,Add</token>
+<token>System.Data.Common.DbCommand,CreateParameter</token>
+<token>System.Data.Common.DbParameterCollection,Add</token>
+</entry>
+<entry count="6">
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbCommand,ExecuteScalar</token>
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+</entry>
+<entry count="32">
+<token>System.Data.Common.DbCommand,CreateParameter</token>
+<token>System.Data.Common.DbParameterCollection,Add</token>
+<token>System.Data.Common.DbCommand,CreateParameter</token>
+<token>System.Data.Common.DbParameterCollection,Add</token>
+<token>System.Data.Common.DbCommand,ExecuteNonQuery</token>
+</entry>
+<entry count="1">
+<token>System.Data.Common.DbTransaction,Commit</token>
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbCommand,ExecuteScalar</token>
+</entry>
+<entry count="40">
+<token>System.Data.Common.DbParameterCollection,Add</token>
+<token>System.Data.Common.DbCommand,CreateParameter</token>
+<token>System.Data.Common.DbParameterCollection,Add</token>
+</entry>
+<entry count="8">
+<token>System.Data.Common.DbProviderFactories,GetFactory</token>
+<token>System.Data.Common.DbProviderFactories,GetFactory</token>
+</entry>
+<entry count="32">
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbParameterCollection,Clear</token>
+<token>System.Data.Common.DbCommandBuilder,QuoteIdentifier</token>
+</entry>
+<entry count="2">
+<token>System.Data.Common.DbConnection,BeginTransaction</token>
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbCommand,ExecuteScalar</token>
+</entry>
+<entry count="34">
+<token>System.Data.Common.DbCommand,ExecuteNonQuery</token>
+<token>System.Data.Common.DbTransaction,Commit</token>
+</entry>
+<entry count="34">
+<token>System.Data.Common.DbConnection,BeginTransaction</token>
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+</entry>
+<entry count="4">
+<token>System.Data.Common.DbParameterCollection,Clear</token>
+<token>System.Data.Common.DbCommand,ExecuteReader</token>
+<token>System.Data.Common.DbDataReader,Read</token>
+</entry>
+<entry count="32">
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbCommand,ExecuteReader</token>
+<token>System.Data.Common.DbDataReader,Read</token>
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+</entry>
+<entry count="2">
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbCommand,ExecuteScalar</token>
+<token>System.Data.Common.DbConnection,BeginTransaction</token>
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+</entry>
+<entry count="11">
+<token>System.Data.Common.DbDataReader,Close</token>
+<token>System.Data.Common.DbDataReader,Close</token>
+</entry>
+<entry count="14">
+<token>System.Data.Common.DataTableMapping,new</token>
+<token>System.Data.Common.DataColumnMappingCollection,Add</token>
+<token>System.Data.Common.DataColumnMappingCollection,Add</token>
+</entry>
+<entry count="1">
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbCommand,ExecuteScalar</token>
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbCommand,ExecuteScalar</token>
+<token>System.Data.Common.DbConnection,BeginTransaction</token>
+</entry>
+<entry count="1">
+<token>System.Data.Common.DbProviderFactory,CreateConnection</token>
+<token>System.Data.Common.DbConnection,Open</token>
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbCommand,ExecuteReader</token>
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+</entry>
+<entry count="4">
+<token>System.Data.Common.DbConnectionStringBuilder,new</token>
+<token>System.Data.Common.DbConnectionStringBuilder,TryGetValue</token>
+<token>System.Data.Common.DbConnectionStringBuilder,TryGetValue</token>
+</entry>
+<entry count="32">
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbCommandBuilder,QuoteIdentifier</token>
+<token>System.Data.Common.DbCommand,CreateParameter</token>
+</entry>
+<entry count="32">
+<token>System.Data.Common.DbDataReader,Read</token>
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbCommand,ExecuteNonQuery</token>
+</entry>
+<entry count="33">
+<token>System.Data.Common.DbProviderFactory,CreateConnection</token>
+<token>System.Data.Common.DbConnection,Open</token>
+</entry>
+<entry count="4">
+<token>System.Data.Common.DbParameterCollection,Add</token>
+<token>System.Data.Common.DbCommand,CreateParameter</token>
+<token>System.Data.Common.DbParameterCollection,Add</token>
+<token>System.Data.Common.DbConnection,Open</token>
+</entry>
+<entry count="1">
+<token>System.Data.Common.DbProviderFactory,CreateConnection</token>
+<token>System.Data.Common.DbProviderFactory,CreateDataAdapter</token>
+</entry>
+<entry count="1">
+<token>System.Data.Common.DbConnectionStringBuilder,ToString</token>
+<token>System.Data.Common.DbProviderFactory,CreateConnection</token>
+</entry>
+<entry count="4">
+<token>System.Data.Common.DbProviderFactory,CreateCommandBuilder</token>
+<token>System.Data.Common.DbProviderFactory,CreateConnection</token>
+</entry>
+<entry count="32">
+<token>System.Data.Common.DbCommand,ExecuteReader</token>
+<token>System.Data.Common.DbDataReader,Read</token>
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbCommand,ExecuteNonQuery</token>
+</entry>
+<entry count="8">
+<token>System.Data.Common.DbProviderFactories,GetFactory</token>
+<token>System.Data.Common.DbProviderFactory,CreateConnection</token>
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbProviderFactory,CreateDataAdapter</token>
+<token>System.Data.Common.DbDataAdapter,Fill</token>
+</entry>
+<entry count="1">
+<token>System.Data.Common.DbProviderFactory,CreateCommand</token>
+<token>System.Data.Common.DbProviderFactory,CreateConnection</token>
+<token>System.Data.Common.DbProviderFactory,CreateDataAdapter</token>
+</entry>
+<entry count="8">
+<token>System.Data.Common.DbConnectionStringBuilder,ContainsKey</token>
+<token>System.Data.Common.DbConnectionStringBuilder,ContainsKey</token>
+<token>System.Data.Common.DbConnectionStringBuilder,ContainsKey</token>
+<token>System.Data.Common.DbConnectionStringBuilder,ContainsKey</token>
+</entry>
+<entry count="32">
+<token>System.Data.Common.DbCommandBuilder,QuoteIdentifier</token>
+<token>System.Data.Common.DbCommandBuilder,QuoteIdentifier</token>
+<token>System.Data.Common.DbCommand,CreateParameter</token>
+<token>System.Data.Common.DbParameterCollection,Add</token>
+</entry>
+<entry count="146">
+<token>System.Data.Common.DbCommand,CreateParameter</token>
+<token>System.Data.Common.DbParameterCollection,Add</token>
+</entry>
+<entry count="32">
+<token>System.Data.Common.DbCommand,ExecuteReader</token>
+<token>System.Data.Common.DbDataReader,Read</token>
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbCommand,ExecuteNonQuery</token>
+<token>System.Data.Common.DbTransaction,Commit</token>
+</entry>
+<entry count="40">
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbCommand,ExecuteReader</token>
+</entry>
+<entry count="32">
+<token>System.Data.Common.DbConnection,Open</token>
+<token>System.Data.Common.DbConnection,BeginTransaction</token>
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbCommand,ExecuteReader</token>
+</entry>
+<entry count="1">
+<token>System.Data.Common.DbCommand,ExecuteScalar</token>
+<token>System.Data.Common.DbTransaction,Commit</token>
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+</entry>
+<entry count="4">
+<token>System.Data.Common.DbConnectionStringBuilder,TryGetValue</token>
+<token>System.Data.Common.DbConnectionStringBuilder,TryGetValue</token>
+</entry>
+<entry count="2">
+<token>System.Data.Common.DbDataAdapter,Fill</token>
+<token>System.Data.Common.DbDataAdapter,Update</token>
+</entry>
+<entry count="1">
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbCommand,ExecuteScalar</token>
+<token>System.Data.Common.DbTransaction,Commit</token>
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbCommand,ExecuteScalar</token>
+</entry>
+<entry count="1">
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbCommand,ExecuteScalar</token>
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbCommand,ExecuteScalar</token>
+<token>System.Data.Common.DbProviderFactory,CreateConnection</token>
+</entry>
+<entry count="1">
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbCommand,ExecuteScalar</token>
+<token>System.Data.Common.DbTransaction,Commit</token>
+</entry>
+<entry count="12">
+<token>System.Data.Common.DbCommand,CreateParameter</token>
+<token>System.Data.Common.DbParameterCollection,Add</token>
+<token>System.Data.Common.DbCommand,ExecuteScalar</token>
+</entry>
+<entry count="2">
+<token>System.Data.Common.DbProviderFactories,GetFactory</token>
+<token>System.Data.Common.DbProviderFactory,CreateConnection</token>
+<token>System.Data.Common.DbConnection,Open</token>
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbCommand,ExecuteNonQuery</token>
+</entry>
+<entry count="2">
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbCommand,ExecuteScalar</token>
+<token>System.Data.Common.DbConnection,BeginTransaction</token>
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbCommand,ExecuteScalar</token>
+</entry>
+<entry count="10">
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbProviderFactory,CreateDataAdapter</token>
+<token>System.Data.Common.DbDataAdapter,Fill</token>
+</entry>
+<entry count="32">
+<token>System.Data.Common.DbConnection,BeginTransaction</token>
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbCommand,ExecuteReader</token>
+<token>System.Data.Common.DbDataReader,Read</token>
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+</entry>
+<entry count="40">
+<token>System.Data.Common.DbParameterCollection,Add</token>
+<token>System.Data.Common.DbCommand,CreateParameter</token>
+</entry>
+<entry count="10">
+<token>System.Data.Common.DbParameterCollection,Add</token>
+<token>System.Data.Common.DbConnection,Open</token>
+<token>System.Data.Common.DbCommand,ExecuteScalar</token>
+</entry>
+<entry count="32">
+<token>System.Data.Common.DbConnection,BeginTransaction</token>
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbCommand,ExecuteReader</token>
+<token>System.Data.Common.DbDataReader,Read</token>
+</entry>
+<entry count="1">
+<token>System.Data.Common.DbConnection,Open</token>
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbCommand,Prepare</token>
+</entry>
+<entry count="2">
+<token>System.Data.Common.DbConnection,BeginTransaction</token>
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbCommand,ExecuteScalar</token>
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+</entry>
+<entry count="6">
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbCommand,ExecuteScalar</token>
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbCommand,ExecuteScalar</token>
+</entry>
+<entry count="1">
+<token>System.Data.Common.DbProviderFactories,GetFactory</token>
+<token>System.Data.Common.DbProviderFactory,CreateCommand</token>
+<token>System.Data.Common.DbProviderFactory,CreateConnection</token>
+<token>System.Data.Common.DbProviderFactory,CreateDataAdapter</token>
+</entry>
+<entry count="18">
+<token>System.Data.Common.DbDataAdapter,Update</token>
+<token>System.Data.Common.DbDataAdapter,Update</token>
+</entry>
+<entry count="32">
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbCommand,CreateParameter</token>
+</entry>
+<entry count="4">
+<token>System.Data.Common.DbCommand,CreateParameter</token>
+<token>System.Data.Common.DbParameterCollection,Add</token>
+<token>System.Data.Common.DbCommand,CreateParameter</token>
+<token>System.Data.Common.DbParameterCollection,Add</token>
+<token>System.Data.Common.DbConnection,Open</token>
+</entry>
+<entry count="4">
+<token>System.Data.Common.DbProviderFactory,CreateConnection</token>
+<token>System.Data.Common.DbConnection,Open</token>
+<token>System.Data.Common.DbConnection,BeginTransaction</token>
+</entry>
+<entry count="2">
+<token>System.Data.Common.DbProviderFactory,CreateConnectionStringBuilder</token>
+<token>System.Data.Common.DbConnectionStringBuilder,new</token>
+<token>System.Data.Common.DbConnectionStringBuilder,ContainsKey</token>
+</entry>
+<entry count="1">
+<token>System.Data.Common.DbTransaction,Commit</token>
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+</entry>
+<entry count="1">
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbCommand,ExecuteScalar</token>
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbCommand,ExecuteScalar</token>
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+</entry>
+<entry count="32">
+<token>System.Data.Common.DbCommandBuilder,QuoteIdentifier</token>
+<token>System.Data.Common.DbCommand,CreateParameter</token>
+<token>System.Data.Common.DbParameterCollection,Add</token>
+<token>System.Data.Common.DbCommand,CreateParameter</token>
+</entry>
+<entry count="32">
+<token>System.Data.Common.DbParameterCollection,Add</token>
+<token>System.Data.Common.DbCommand,CreateParameter</token>
+<token>System.Data.Common.DbParameterCollection,Add</token>
+<token>System.Data.Common.DbCommand,ExecuteNonQuery</token>
+</entry>
+<entry count="11">
+<token>System.Data.Common.DataTableMapping,new</token>
+<token>System.Data.Common.DataColumnMappingCollection,Add</token>
+<token>System.Data.Common.DataColumnMappingCollection,Add</token>
+<token>System.Data.Common.DataColumnMappingCollection,Add</token>
+<token>System.Data.Common.DataColumnMappingCollection,Add</token>
+</entry>
+<entry count="32">
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbCommandBuilder,QuoteIdentifier</token>
+<token>System.Data.Common.DbCommand,CreateParameter</token>
+<token>System.Data.Common.DbParameterCollection,Add</token>
+</entry>
+<entry count="2">
+<token>System.Data.Common.DbProviderFactories,GetFactory</token>
+<token>System.Data.Common.DbProviderFactory,CreateCommand</token>
+<token>System.Data.Common.DbProviderFactory,CreateDataAdapter</token>
+</entry>
+<entry count="3">
+<token>System.Data.Common.DbConnection,Open</token>
+<token>System.Data.Common.DbConnection,BeginTransaction</token>
+<token>System.Data.Common.DbTransaction,Commit</token>
+</entry>
+<entry count="7">
+<token>System.Data.Common.DbCommand,ExecuteReader</token>
+<token>System.Data.Common.DbDataReader,Read</token>
+<token>System.Data.Common.DbDataReader,Close</token>
+<token>System.Data.Common.DbDataReader,Close</token>
+</entry>
+<entry count="44">
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbCommand,ExecuteNonQuery</token>
+</entry>
+<entry count="2">
+<token>System.Data.Common.DbProviderFactory,CreateConnectionStringBuilder</token>
+<token>System.Data.Common.DbConnectionStringBuilder,new</token>
+</entry>
+<entry count="1">
+<token>System.Data.Common.DbCommand,ExecuteScalar</token>
+<token>System.Data.Common.DbTransaction,Commit</token>
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbCommand,ExecuteScalar</token>
+<token>System.Data.Common.DbConnection,BeginTransaction</token>
+</entry>
+<entry count="2">
+<token>System.Data.Common.DbProviderFactory,CreateCommand</token>
+<token>System.Data.Common.DbProviderFactory,CreateDataAdapter</token>
+</entry>
+<entry count="32">
+<token>System.Data.Common.DbDataReader,Read</token>
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+</entry>
+<entry count="1">
+<token>System.Data.Common.DbCommand,ExecuteScalar</token>
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbCommand,ExecuteScalar</token>
+<token>System.Data.Common.DbTransaction,Commit</token>
+</entry>
+<entry count="32">
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbParameterCollection,Clear</token>
+<token>System.Data.Common.DbCommandBuilder,QuoteIdentifier</token>
+<token>System.Data.Common.DbCommand,ExecuteNonQuery</token>
+</entry>
+<entry count="1">
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbCommand,ExecuteReader</token>
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+</entry>
+<entry count="12">
+<token>System.Data.Common.DbParameterCollection,Clear</token>
+<token>System.Data.Common.DbParameterCollection,Add</token>
+</entry>
+<entry count="1">
+<token>System.Data.Common.DbCommand,ExecuteScalar</token>
+<token>System.Data.Common.DbProviderFactory,CreateConnection</token>
+<token>System.Data.Common.DbConnection,Open</token>
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbCommand,ExecuteReader</token>
+</entry>
+<entry count="32">
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbCommandBuilder,QuoteIdentifier</token>
+<token>System.Data.Common.DbCommandBuilder,QuoteIdentifier</token>
+<token>System.Data.Common.DbCommand,CreateParameter</token>
+</entry>
+<entry count="4">
+<token>System.Data.Common.DbDataReader,GetFieldType</token>
+<token>System.Data.Common.DbDataReader,GetProviderSpecificFieldType</token>
+<token>System.Data.Common.DbDataReader,GetDataTypeName</token>
+</entry>
+<entry count="7">
+<token>System.Data.Common.DbTransaction,Rollback</token>
+<token>System.Data.Common.DbConnection,Close</token>
+</entry>
+<entry count="10">
+<token>System.Data.Common.DbCommand,CreateParameter</token>
+<token>System.Data.Common.DbParameterCollection,Add</token>
+<token>System.Data.Common.DbConnection,Open</token>
+<token>System.Data.Common.DbCommand,ExecuteScalar</token>
+</entry>
+<entry count="32">
+<token>System.Data.Common.DbCommandBuilder,QuoteIdentifier</token>
+<token>System.Data.Common.DbCommand,CreateParameter</token>
+<token>System.Data.Common.DbParameterCollection,Add</token>
+<token>System.Data.Common.DbCommand,ExecuteNonQuery</token>
+</entry>
+<entry count="1">
+<token>System.Data.Common.DbParameterCollection,Clear</token>
+<token>System.Data.Common.DbCommand,ExecuteReader</token>
+<token>System.Data.Common.DbDataReader,Read</token>
+<token>System.Data.Common.DbDataReader,Close</token>
+<token>System.Data.Common.DbDataReader,Close</token>
+</entry>
+<entry count="3">
+<token>System.Data.Common.DbProviderFactory,CreateConnection</token>
+<token>System.Data.Common.DbConnection,Open</token>
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbCommand,ExecuteScalar</token>
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+</entry>
+<entry count="2">
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbCommand,ExecuteNonQuery</token>
+<token>System.Data.Common.DbCommand,ExecuteNonQuery</token>
+</entry>
+<entry count="4">
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbParameterCollection,AddRange</token>
+</entry>
+<entry count="1">
+<token>System.Data.Common.DbProviderFactories,GetFactory</token>
+<token>System.Data.Common.DbProviderFactory,CreateCommand</token>
+<token>System.Data.Common.DbProviderFactory,CreateConnection</token>
+</entry>
+<entry count="1">
+<token>System.Data.Common.DbCommand,ExecuteNonQueryAsync</token>
+<token>System.Data.Common.DbConnection,OpenAsync</token>
+</entry>
+<entry count="4">
+<token>System.Data.Common.DbConnection,Open</token>
+<token>System.Data.Common.DbConnection,GetSchema</token>
+</entry>
+<entry count="16">
+<token>System.Data.Common.DbProviderFactories,GetFactory</token>
+<token>System.Data.Common.DbProviderFactory,CreateConnectionStringBuilder</token>
+</entry>
+<entry count="12">
+<token>System.Data.Common.DbConnectionStringBuilder,ToString</token>
+<token>System.Data.Common.DbConnectionStringBuilder,ToString</token>
+</entry>
+<entry count="10">
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbCommand,CreateParameter</token>
+<token>System.Data.Common.DbParameterCollection,Add</token>
+<token>System.Data.Common.DbConnection,Open</token>
+<token>System.Data.Common.DbCommand,ExecuteReader</token>
+</entry>
+<entry count="8">
+<token>System.Data.Common.DbConnection,Open</token>
+<token>System.Data.Common.DbCommand,ExecuteReader</token>
+<token>System.Data.Common.DbDataReader,Read</token>
+</entry>
+<entry count="32">
+<token>System.Data.Common.DbCommandBuilder,QuoteIdentifier</token>
+<token>System.Data.Common.DbCommandBuilder,QuoteIdentifier</token>
+</entry>
+<entry count="64">
+<token>System.Data.Common.DataColumnMappingCollection,Add</token>
+<token>System.Data.Common.DataColumnMappingCollection,Add</token>
+</entry>
+<entry count="1">
+<token>System.Data.Common.DbCommand,ExecuteReader</token>
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+</entry>
+<entry count="1">
+<token>System.Data.Common.DbCommand,ExecuteScalar</token>
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbCommand,ExecuteScalar</token>
+<token>System.Data.Common.DbConnection,BeginTransaction</token>
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+</entry>
+<entry count="1">
+<token>System.Data.Common.DbCommand,ExecuteScalar</token>
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbCommand,ExecuteScalar</token>
+<token>System.Data.Common.DbProviderFactory,CreateConnection</token>
+</entry>
+<entry count="14">
+<token>System.Data.Common.DbProviderFactory,CreateConnectionStringBuilder</token>
+<token>System.Data.Common.DbConnectionStringBuilder,ContainsKey</token>
+</entry>
+<entry count="52">
+<token>System.Data.Common.DbCommand,ExecuteReader</token>
 <token>System.Data.Common.DbDataReader,Read</token>
 <token>System.Data.Common.DbDataReader,Close</token>
 </entry>
 <entry count="2">
-<token>System.Data.Common.DbCommand,ExecuteNonQuery</token>
-<token>System.Data.Common.DbCommand,ExecuteNonQuery</token>
+<token>System.Data.Common.DbConnection,BeginTransaction</token>
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbCommand,ExecuteScalar</token>
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbCommand,ExecuteScalar</token>
 </entry>
-<entry count="16">
-<token>System.Data.Common.DbConnectionStringBuilder,new</token>
-<token>System.Data.Common.DbConnectionStringBuilder,ToString</token>
-</entry>
-<entry count="24">
+<entry count="1">
+<token>System.Data.Common.DbParameterCollection,Add</token>
 <token>System.Data.Common.DbCommand,ExecuteReader</token>
 <token>System.Data.Common.DbDataReader,Read</token>
+<token>System.Data.Common.DbDataReader,Close</token>
+<token>System.Data.Common.DbDataReader,Close</token>
+</entry>
+<entry count="1">
+<token>System.Data.Common.DbCommand,ExecuteScalar</token>
+<token>System.Data.Common.DbProviderFactory,CreateConnection</token>
+<token>System.Data.Common.DbConnection,Open</token>
+</entry>
+<entry count="32">
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbCommand,ExecuteReader</token>
+<token>System.Data.Common.DbDataReader,Read</token>
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbCommand,ExecuteNonQuery</token>
+</entry>
+<entry count="20">
+<token>System.Data.Common.DbParameterCollection,Add</token>
+<token>System.Data.Common.DbConnection,Open</token>
+</entry>
+<entry count="1">
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbCommand,ExecuteScalar</token>
+<token>System.Data.Common.DbProviderFactory,CreateConnection</token>
+</entry>
+<entry count="30">
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbCommand,CreateParameter</token>
+<token>System.Data.Common.DbParameterCollection,Add</token>
 </entry>
 <entry count="2">
+<token>System.Data.Common.DataTableMappingCollection,new</token>
+<token>System.Data.Common.DataTableMappingCollection,Add</token>
+</entry>
+<entry count="1">
+<token>System.Data.Common.DbCommand,ExecuteNonQuery</token>
 <token>System.Data.Common.DbCommand,ExecuteNonQuery</token>
 <token>System.Data.Common.DbTransaction,Commit</token>
 </entry>
-<entry count="16">
+<entry count="40">
+<token>System.Data.Common.DbCommand,CreateParameter</token>
+<token>System.Data.Common.DbParameterCollection,Add</token>
+<token>System.Data.Common.DbCommand,CreateParameter</token>
+</entry>
+<entry count="1">
+<token>System.Data.Common.DbCommand,ExecuteScalar</token>
+<token>System.Data.Common.DbProviderFactory,CreateConnection</token>
+<token>System.Data.Common.DbConnection,Open</token>
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+</entry>
+<entry count="32">
+<token>System.Data.Common.DbCommandBuilder,QuoteIdentifier</token>
+<token>System.Data.Common.DbCommand,ExecuteNonQuery</token>
+</entry>
+<entry count="1">
+<token>System.Data.Common.DbCommand,ExecuteScalar</token>
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbCommand,ExecuteScalar</token>
+<token>System.Data.Common.DbConnection,BeginTransaction</token>
+</entry>
+<entry count="37">
+<token>System.Data.Common.DataColumnMappingCollection,Add</token>
+<token>System.Data.Common.DataColumnMappingCollection,Add</token>
+<token>System.Data.Common.DataColumnMappingCollection,Add</token>
+<token>System.Data.Common.DataColumnMappingCollection,Add</token>
+</entry>
+<entry count="4">
+<token>System.Data.Common.DbParameterCollection,Clear</token>
+<token>System.Data.Common.DbCommand,ExecuteReader</token>
+<token>System.Data.Common.DbDataReader,Read</token>
+<token>System.Data.Common.DbDataReader,Close</token>
+</entry>
+<entry count="13">
+<token>System.Data.Common.DataTableMapping,new</token>
+<token>System.Data.Common.DataColumnMappingCollection,Add</token>
+<token>System.Data.Common.DataColumnMappingCollection,Add</token>
+<token>System.Data.Common.DataColumnMappingCollection,Add</token>
+</entry>
+<entry count="6">
+<token>System.Data.Common.DbConnection,BeginTransaction</token>
+<token>System.Data.Common.DbTransaction,Commit</token>
+<token>System.Data.Common.DbConnection,Close</token>
+</entry>
+<entry count="2">
+<token>System.Data.Common.DbConnection,Open</token>
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbCommand,ExecuteNonQuery</token>
+<token>System.Data.Common.DbCommand,ExecuteNonQuery</token>
+</entry>
+<entry count="2">
+<token>System.Data.Common.DbProviderFactories,GetFactory</token>
+<token>System.Data.Common.DbProviderFactory,CreateCommand</token>
 <token>System.Data.Common.DbProviderFactory,CreateDataAdapter</token>
 <token>System.Data.Common.DbDataAdapter,Fill</token>
 </entry>
 <entry count="1">
 <token>System.Data.Common.DbCommand,ExecuteScalar</token>
+<token>System.Data.Common.DbConnection,CreateCommand</token>
 <token>System.Data.Common.DbCommand,ExecuteScalar</token>
+<token>System.Data.Common.DbTransaction,Commit</token>
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+</entry>
+<entry count="13">
+<token>System.Data.Common.DbParameterCollection,Add</token>
+<token>System.Data.Common.DbCommand,ExecuteScalar</token>
+</entry>
+<entry count="14">
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbCommand,ExecuteScalar</token>
+<token>System.Data.Common.DbCommand,ExecuteScalar</token>
+</entry>
+<entry count="4">
+<token>System.Data.Common.DbParameterCollection,Add</token>
+<token>System.Data.Common.DbCommand,ExecuteReader</token>
+<token>System.Data.Common.DbDataReader,Read</token>
+</entry>
+<entry count="8">
+<token>System.Data.Common.DbProviderFactories,GetFactory</token>
+<token>System.Data.Common.DbProviderFactory,CreateConnection</token>
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+</entry>
+<entry count="1">
+<token>System.Data.Common.DbParameterCollection,Clear</token>
+<token>System.Data.Common.DbConnection,Close</token>
+</entry>
+<entry count="40">
+<token>System.Data.Common.DbCommand,CreateParameter</token>
+<token>System.Data.Common.DbParameterCollection,Add</token>
+<token>System.Data.Common.DbCommand,CreateParameter</token>
+<token>System.Data.Common.DbParameterCollection,Add</token>
+</entry>
+<entry count="32">
+<token>System.Data.Common.DbDataReader,Read</token>
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbCommand,ExecuteNonQuery</token>
+<token>System.Data.Common.DbTransaction,Commit</token>
+</entry>
+<entry count="1">
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbCommand,ExecuteReader</token>
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbCommand,ExecuteReader</token>
+</entry>
+<entry count="1">
+<token>System.Data.Common.DbConnection,Open</token>
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbCommand,ExecuteReader</token>
+</entry>
+<entry count="1">
+<token>System.Data.Common.DbConnection,Open</token>
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbCommand,ExecuteReader</token>
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+</entry>
+<entry count="20">
+<token>System.Data.Common.DbProviderFactory,CreateConnection</token>
+<token>System.Data.Common.DbConnection,Open</token>
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbCommand,ExecuteScalar</token>
+</entry>
+<entry count="1">
+<token>System.Data.Common.DbParameterCollection,Clear</token>
+<token>System.Data.Common.DbParameterCollection,Add</token>
+<token>System.Data.Common.DbCommand,ExecuteScalar</token>
+</entry>
+<entry count="92">
+<token>System.Data.Common.DbConnection,Open</token>
+<token>System.Data.Common.DbConnection,BeginTransaction</token>
+<token>System.Data.Common.DbTransaction,Rollback</token>
+</entry>
+<entry count="20">
+<token>System.Data.Common.DbConnection,Open</token>
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbCommand,ExecuteScalar</token>
+</entry>
+<entry count="16">
+<token>System.Data.Common.DbConnectionStringBuilder,new</token>
+<token>System.Data.Common.DbConnectionStringBuilder,ToString</token>
+</entry>
+<entry count="6">
+<token>System.Data.Common.DbConnection,Open</token>
+<token>System.Data.Common.DbConnection,Close</token>
+</entry>
+<entry count="14">
+<token>System.Data.Common.DataColumnMappingCollection,Add</token>
+<token>System.Data.Common.DataColumnMappingCollection,Add</token>
+<token>System.Data.Common.DataTableMappingCollection,Add</token>
+</entry>
+<entry count="8">
+<token>System.Data.Common.DbProviderFactory,CreateConnection</token>
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbProviderFactory,CreateDataAdapter</token>
+<token>System.Data.Common.DbDataAdapter,Fill</token>
+</entry>
+<entry count="32">
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbCommand,ExecuteReader</token>
+<token>System.Data.Common.DbDataReader,Read</token>
+</entry>
+<entry count="1">
+<token>System.Data.Common.DbDataReader,NextResult</token>
+<token>System.Data.Common.DbDataReader,GetDouble</token>
+</entry>
+<entry count="4">
+<token>System.Data.Common.DbParameterCollection,AddRange</token>
+<token>System.Data.Common.DbCommand,ExecuteReader</token>
+<token>System.Data.Common.DbDataReader,Close</token>
+</entry>
+<entry count="5">
+<token>System.Data.Common.DbConnectionStringBuilder,new</token>
+<token>System.Data.Common.DbConnectionStringBuilder,ContainsKey</token>
+</entry>
+<entry count="11">
+<token>System.Data.Common.DbDataReader,Read</token>
+<token>System.Data.Common.DbDataReader,Close</token>
+<token>System.Data.Common.DbDataReader,Close</token>
+</entry>
+<entry count="153">
+<token>System.Data.Common.DbConnection,Open</token>
+<token>System.Data.Common.DbConnection,BeginTransaction</token>
+</entry>
+<entry count="23">
+<token>System.Data.Common.DbProviderFactory,CreateConnection</token>
+<token>System.Data.Common.DbConnection,Open</token>
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+</entry>
+<entry count="4">
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbParameterCollection,AddRange</token>
+<token>System.Data.Common.DbCommand,ExecuteReader</token>
+</entry>
+<entry count="20">
+<token>System.Data.Common.DbConnectionStringBuilder,ContainsKey</token>
+<token>System.Data.Common.DbConnectionStringBuilder,ContainsKey</token>
+<token>System.Data.Common.DbConnectionStringBuilder,ContainsKey</token>
+</entry>
+<entry count="6">
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbCommand,CreateParameter</token>
+<token>System.Data.Common.DbParameterCollection,Add</token>
+<token>System.Data.Common.DbConnection,Open</token>
+<token>System.Data.Common.DbCommand,ExecuteScalar</token>
+</entry>
+<entry count="1">
+<token>System.Data.Common.DbParameterCollection,Clear</token>
+<token>System.Data.Common.DbCommand,ExecuteScalar</token>
+</entry>
+<entry count="4">
+<token>System.Data.Common.DbCommand,ExecuteNonQuery</token>
+<token>System.Data.Common.DbCommand,ExecuteNonQuery</token>
+</entry>
+<entry count="8">
+<token>System.Data.Common.DbConnection,Open</token>
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbCommand,ExecuteNonQuery</token>
+</entry>
+<entry count="11">
+<token>System.Data.Common.DbConnection,GetSchema</token>
+<token>System.Data.Common.DbConnection,GetSchema</token>
+</entry>
+<entry count="1">
+<token>System.Data.Common.DbTransaction,Commit</token>
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbCommand,ExecuteScalar</token>
+<token>System.Data.Common.DbConnection,BeginTransaction</token>
+</entry>
+<entry count="16">
+<token>System.Data.Common.DbCommandBuilder,QuoteIdentifier</token>
+<token>System.Data.Common.DbCommandBuilder,QuoteIdentifier</token>
+<token>System.Data.Common.DbCommand,CreateParameter</token>
+<token>System.Data.Common.DbParameterCollection,Add</token>
+<token>System.Data.Common.DbCommand,ExecuteNonQuery</token>
+</entry>
+<entry count="3">
+<token>System.Data.Common.DbConnection,Open</token>
+<token>System.Data.Common.DbConnection,BeginTransaction</token>
+<token>System.Data.Common.DbTransaction,Commit</token>
+<token>System.Data.Common.DbConnection,Close</token>
+</entry>
+<entry count="14">
+<token>System.Data.Common.DbConnection,Open</token>
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbCommand,ExecuteScalar</token>
+<token>System.Data.Common.DbCommand,ExecuteScalar</token>
+</entry>
+<entry count="26">
+<token>System.Data.Common.DataColumnMappingCollection,Add</token>
+<token>System.Data.Common.DataColumnMappingCollection,Add</token>
+<token>System.Data.Common.DataColumnMappingCollection,Add</token>
+<token>System.Data.Common.DataColumnMappingCollection,Add</token>
+<token>System.Data.Common.DataColumnMappingCollection,Add</token>
+</entry>
+<entry count="9">
+<token>System.Data.Common.DbTransaction,Commit</token>
+<token>System.Data.Common.DbConnection,Close</token>
+</entry>
+<entry count="18">
+<token>System.Data.Common.DbParameterCollection,Add</token>
+<token>System.Data.Common.DbParameterCollection,Add</token>
+</entry>
+<entry count="16">
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbCommandBuilder,QuoteIdentifier</token>
+<token>System.Data.Common.DbCommand,CreateParameter</token>
+<token>System.Data.Common.DbParameterCollection,Add</token>
+<token>System.Data.Common.DbCommand,ExecuteNonQuery</token>
+</entry>
+<entry count="11">
+<token>System.Data.Common.DataColumnMappingCollection,Add</token>
+<token>System.Data.Common.DataColumnMappingCollection,Add</token>
+<token>System.Data.Common.DataColumnMappingCollection,Add</token>
+<token>System.Data.Common.DataColumnMappingCollection,Add</token>
+<token>System.Data.Common.DataTableMappingCollection,Add</token>
+</entry>
+<entry count="1">
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbCommand,ExecuteNonQueryAsync</token>
+<token>System.Data.Common.DbConnection,OpenAsync</token>
+</entry>
+<entry count="66">
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbConnection,Open</token>
+<token>System.Data.Common.DbCommand,ExecuteNonQuery</token>
+</entry>
+<entry count="2">
+<token>System.Data.Common.DbProviderFactory,CreateConnection</token>
+<token>System.Data.Common.DbConnection,Open</token>
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbCommand,ExecuteNonQuery</token>
+</entry>
+<entry count="1">
+<token>System.Data.Common.DbCommand,ExecuteReader</token>
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbCommand,ExecuteReader</token>
+</entry>
+<entry count="4">
+<token>System.Data.Common.DbParameterCollection,Add</token>
+<token>System.Data.Common.DbCommand,CreateParameter</token>
+<token>System.Data.Common.DbParameterCollection,Add</token>
+<token>System.Data.Common.DbCommand,ExecuteScalar</token>
+</entry>
+<entry count="12">
+<token>System.Data.Common.DbDataAdapter,FillSchema</token>
+<token>System.Data.Common.DbDataAdapter,Fill</token>
+</entry>
+<entry count="1">
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbCommand,ExecuteScalar</token>
+<token>System.Data.Common.DbTransaction,Commit</token>
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+</entry>
+<entry count="8">
+<token>System.Data.Common.DbCommand,CreateParameter</token>
+<token>System.Data.Common.DbParameterCollection,Add</token>
+<token>System.Data.Common.DbConnection,Open</token>
+<token>System.Data.Common.DbCommand,ExecuteReader</token>
+<token>System.Data.Common.DbDataReader,Read</token>
+</entry>
+<entry count="8">
+<token>System.Data.Common.DbProviderFactories,GetFactory</token>
+<token>System.Data.Common.DbProviderFactory,CreateConnection</token>
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbProviderFactory,CreateDataAdapter</token>
+</entry>
+<entry count="1">
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbCommand,ExecuteScalar</token>
+<token>System.Data.Common.DbProviderFactory,CreateConnection</token>
+<token>System.Data.Common.DbConnection,Open</token>
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+</entry>
+<entry count="3">
+<token>System.Data.Common.DbConnection,Open</token>
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbCommand,ExecuteScalar</token>
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+</entry>
+<entry count="2">
+<token>System.Data.Common.DbCommand,ExecuteScalar</token>
+<token>System.Data.Common.DbConnection,BeginTransaction</token>
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbCommand,ExecuteScalar</token>
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+</entry>
+<entry count="1">
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbCommand,ExecuteScalar</token>
+<token>System.Data.Common.DbProviderFactory,CreateConnection</token>
+<token>System.Data.Common.DbConnection,Open</token>
+</entry>
+<entry count="64">
+<token>System.Data.Common.DbCommandBuilder,QuoteIdentifier</token>
+<token>System.Data.Common.DbCommand,CreateParameter</token>
+<token>System.Data.Common.DbParameterCollection,Add</token>
+</entry>
+<entry count="10">
+<token>System.Data.Common.DbConnection,Open</token>
+<token>System.Data.Common.DbCommand,ExecuteScalar</token>
+</entry>
+<entry count="20">
+<token>System.Data.Common.DbProviderFactories,GetFactory</token>
+<token>System.Data.Common.DbProviderFactory,CreateConnection</token>
+<token>System.Data.Common.DbConnection,Open</token>
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbCommand,ExecuteScalar</token>
+</entry>
+<entry count="6">
+<token>System.Data.Common.DbConnectionStringBuilder,new</token>
+<token>System.Data.Common.DbConnectionStringBuilder,TryGetValue</token>
+</entry>
+<entry count="6">
+<token>System.Data.Common.DbCommand,ExecuteScalar</token>
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbCommand,ExecuteScalar</token>
+</entry>
+<entry count="3">
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbCommand,ExecuteNonQueryAsync</token>
+</entry>
+<entry count="1">
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbCommand,Prepare</token>
+</entry>
+<entry count="20">
+<token>System.Data.Common.DbCommand,CreateParameter</token>
+<token>System.Data.Common.DbParameterCollection,Add</token>
+<token>System.Data.Common.DbConnection,Open</token>
+</entry>
+<entry count="32">
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbCommandBuilder,QuoteIdentifier</token>
+<token>System.Data.Common.DbCommandBuilder,QuoteIdentifier</token>
+</entry>
+<entry count="1">
+<token>System.Data.Common.DbCommand,ExecuteScalar</token>
+<token>System.Data.Common.DbProviderFactory,CreateConnection</token>
+</entry>
+<entry count="4">
+<token>System.Data.Common.DbParameterCollection,Add</token>
+<token>System.Data.Common.DbCommand,CreateParameter</token>
+<token>System.Data.Common.DbParameterCollection,Add</token>
+<token>System.Data.Common.DbConnection,Open</token>
+<token>System.Data.Common.DbCommand,ExecuteScalar</token>
+</entry>
+<entry count="10">
+<token>System.Data.Common.DbCommand,CreateParameter</token>
+<token>System.Data.Common.DbParameterCollection,Add</token>
+<token>System.Data.Common.DbConnection,Open</token>
+<token>System.Data.Common.DbCommand,ExecuteReader</token>
+</entry>
+<entry count="32">
+<token>System.Data.Common.DbCommand,ExecuteReader</token>
+<token>System.Data.Common.DbDataReader,Read</token>
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+</entry>
+<entry count="12">
+<token>System.Data.Common.DbProviderFactory,CreateConnectionStringBuilder</token>
+<token>System.Data.Common.DbConnectionStringBuilder,ContainsKey</token>
+<token>System.Data.Common.DbConnectionStringBuilder,ContainsKey</token>
+</entry>
+<entry count="4">
+<token>System.Data.Common.DbProviderFactory,CreateCommandBuilder</token>
+<token>System.Data.Common.DbProviderFactory,CreateConnection</token>
+<token>System.Data.Common.DbConnection,Open</token>
+</entry>
+<entry count="1">
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbCommand,ExecuteScalar</token>
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbCommand,ExecuteScalar</token>
+<token>System.Data.Common.DbTransaction,Commit</token>
+</entry>
+<entry count="28">
+<token>System.Data.Common.DbDataAdapter,Fill</token>
+<token>System.Data.Common.DbDataAdapter,Fill</token>
+</entry>
+<entry count="14">
+<token>System.Data.Common.DataTableMapping,new</token>
+<token>System.Data.Common.DataColumnMappingCollection,Add</token>
 </entry>
 <entry count="1">
 <token>System.Data.Common.DbDataReader,GetOrdinal</token>
 <token>System.Data.Common.DbDataReader,GetValue</token>
 </entry>
 <entry count="1">
+<token>System.Data.Common.DbTransaction,Commit</token>
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbCommand,ExecuteScalar</token>
+<token>System.Data.Common.DbConnection,BeginTransaction</token>
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+</entry>
+<entry count="64">
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbCommandBuilder,QuoteIdentifier</token>
+</entry>
+<entry count="16">
+<token>System.Data.Common.DbCommandBuilder,QuoteIdentifier</token>
+<token>System.Data.Common.DbCommandBuilder,QuoteIdentifier</token>
+<token>System.Data.Common.DbCommand,CreateParameter</token>
 <token>System.Data.Common.DbParameterCollection,Add</token>
-<token>System.Data.Common.DbParameterCollection,Add</token>
-<token>System.Data.Common.DbParameterCollection,Add</token>
+<token>System.Data.Common.DbCommand,CreateParameter</token>
 </entry>
 <entry count="1">
-<token>System.Data.Common.DbParameterCollection,Clear</token>
-<token>System.Data.Common.DbConnection,Close</token>
+<token>System.Data.Common.DbProviderFactory,CreateConnection</token>
+<token>System.Data.Common.DbConnection,Open</token>
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbCommand,ExecuteReader</token>
+</entry>
+<entry count="6">
+<token>System.Data.Common.DbCommand,ExecuteScalar</token>
+<token>System.Data.Common.DbConnection,CreateCommand</token>
 </entry>
 <entry count="1">
+<token>System.Data.Common.DbCommand,ExecuteNonQuery</token>
 <token>System.Data.Common.DbCommand,ExecuteNonQuery</token>
 <token>System.Data.Common.DbCommand,ExecuteNonQuery</token>
 <token>System.Data.Common.DbTransaction,Commit</token>
 </entry>
-<entry count="1">
-<token>System.Data.Common.DbProviderFactory,CreateConnection</token>
+<entry count="65">
+<token>System.Data.Common.DbDataReader,Read</token>
+<token>System.Data.Common.DbDataReader,Close</token>
+</entry>
+<entry count="4">
+<token>System.Data.Common.DbCommand,CreateParameter</token>
+<token>System.Data.Common.DbParameterCollection,Add</token>
+<token>System.Data.Common.DbCommand,CreateParameter</token>
+<token>System.Data.Common.DbParameterCollection,Add</token>
+<token>System.Data.Common.DbCommand,ExecuteScalar</token>
+</entry>
+<entry count="16">
 <token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbCommandBuilder,QuoteIdentifier</token>
+<token>System.Data.Common.DbCommand,CreateParameter</token>
+<token>System.Data.Common.DbParameterCollection,Add</token>
+<token>System.Data.Common.DbCommand,CreateParameter</token>
+</entry>
+<entry count="112">
+<token>System.Data.Common.DbCommand,ExecuteReader</token>
+<token>System.Data.Common.DbDataReader,Read</token>
 </entry>
 <entry count="2">
-<token>System.Data.Common.DbParameterCollection,Add</token>
-<token>System.Data.Common.DbParameterCollection,Add</token>
+<token>System.Data.Common.DbProviderFactories,GetFactory</token>
+<token>System.Data.Common.DbProviderFactory,CreateConnection</token>
+<token>System.Data.Common.DbConnection,Open</token>
+<token>System.Data.Common.DbConnection,Close</token>
 </entry>
-<entry count="24">
-<token>System.Data.Common.DbProviderFactory,CreateDataAdapter</token>
-<token>System.Data.Common.DbDataAdapter,Update</token>
+<entry count="32">
+<token>System.Data.Common.DbCommandBuilder,QuoteIdentifier</token>
+<token>System.Data.Common.DbCommandBuilder,QuoteIdentifier</token>
+<token>System.Data.Common.DbCommand,CreateParameter</token>
+</entry>
+<entry count="4">
+<token>System.Data.Common.DbConnectionStringBuilder,new</token>
+<token>System.Data.Common.DbConnectionStringBuilder,Add</token>
+</entry>
+<entry count="4">
+<token>System.Data.Common.DbParameterCollection,Clear</token>
+<token>System.Data.Common.DbParameterCollection,Add</token>
+<token>System.Data.Common.DbCommand,ExecuteReader</token>
+<token>System.Data.Common.DbDataReader,Read</token>
+</entry>
+<entry count="2">
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbCommand,ExecuteScalar</token>
+<token>System.Data.Common.DbConnection,BeginTransaction</token>
+</entry>
+<entry count="10">
+<token>System.Data.Common.DbParameterCollection,Add</token>
+<token>System.Data.Common.DbConnection,Open</token>
+<token>System.Data.Common.DbCommand,ExecuteReader</token>
+</entry>
+<entry count="30">
+<token>System.Data.Common.DbConnection,Open</token>
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+</entry>
+<entry count="1">
+<token>System.Data.Common.DbDataReader,GetFieldType</token>
+<token>System.Data.Common.DbDataReader,GetProviderSpecificFieldType</token>
+<token>System.Data.Common.DbDataReader,GetDataTypeName</token>
+<token>System.Data.Common.DbDataReader,GetName</token>
+</entry>
+<entry count="2">
+<token>System.Data.Common.DbProviderFactory,CreateConnection</token>
+<token>System.Data.Common.DbConnection,Open</token>
+<token>System.Data.Common.DbConnection,Close</token>
 </entry>
 <entry count="1">
 <token>System.Data.Common.DbProviderFactories,GetFactoryClasses</token>
 <token>System.Data.Common.DbProviderFactories,GetFactory</token>
 </entry>
-<entry count="4">
-<token>System.Data.Common.DbCommand,ExecuteReader</token>
-<token>System.Data.Common.DbDataReader,Read</token>
-<token>System.Data.Common.DbDataReader,Close</token>
+<entry count="44">
+<token>System.Data.Common.DbProviderFactories,GetFactory</token>
+<token>System.Data.Common.DbProviderFactory,CreateConnection</token>
 </entry>
 <entry count="1">
+<token>System.Data.Common.DbCommand,ExecuteScalar</token>
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbCommand,ExecuteScalar</token>
+<token>System.Data.Common.DbConnection,CreateCommand</token>
+<token>System.Data.Common.DbCommand,ExecuteScalar</token>
+</entry>
+<entry count="4">
+<token>System.Data.Common.DbProviderFactory,CreateCommandBuilder</token>
+<token>System.Data.Common.DbProviderFactory,CreateConnection</token>
+<token>System.Data.Common.DbConnection,Open</token>
+<token>System.Data.Common.DbConnection,BeginTransaction</token>
+</entry>
+<entry count="32">
+<token>System.Data.Common.DbParameterCollection,Clear</token>
+<token>System.Data.Common.DbCommandBuilder,QuoteIdentifier</token>
 <token>System.Data.Common.DbCommand,ExecuteNonQuery</token>
-<token>System.Data.Common.DbCommand,ExecuteNonQuery</token>
-<token>System.Data.Common.DbCommand,ExecuteNonQuery</token>
+</entry>
+<entry count="12">
+<token>System.Data.Common.DbProviderFactory,CreateConnectionStringBuilder</token>
+<token>System.Data.Common.DbConnectionStringBuilder,ContainsKey</token>
+<token>System.Data.Common.DbConnectionStringBuilder,ContainsKey</token>
+<token>System.Data.Common.DbConnectionStringBuilder,ContainsKey</token>
 </entry>
 </dictionary>

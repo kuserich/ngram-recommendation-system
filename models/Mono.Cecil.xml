@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><dictionary case_sensitive="false">
-<entry count="95">
+<entry count="288">
 <token>Mono.Cecil.ReaderParameters,new</token>
 <token>Mono.Cecil.AssemblyDefinition,ReadAssembly</token>
 </entry>
@@ -14,9 +14,184 @@
 <token>Mono.Cecil.ModuleDefinition,GetTypes</token>
 <token>Mono.Cecil.WriterParameters,new</token>
 </entry>
+<entry count="2">
+<token>Mono.Cecil.ModuleDefinition,Import</token>
+<token>Mono.Cecil.ByReferenceType,new</token>
+</entry>
+<entry count="72">
+<token>Mono.Cecil.ModuleDefinition,GetTypes</token>
+<token>Mono.Cecil.WriterParameters,new</token>
+</entry>
+<entry count="16">
+<token>Mono.Cecil.ModuleDefinition,ReadModule</token>
+<token>Mono.Cecil.ModuleDefinition,GetType</token>
+</entry>
+<entry count="24">
+<token>Mono.Cecil.ReaderParameters,new</token>
+<token>Mono.Cecil.WriterParameters,new</token>
+</entry>
+<entry count="224">
+<token>Mono.Cecil.ReaderParameters,new</token>
+<token>Mono.Cecil.AssemblyDefinition,ReadAssembly</token>
+<token>Mono.Cecil.BaseAssemblyResolver,AddSearchDirectory</token>
+</entry>
+<entry count="32">
+<token>Mono.Cecil.AssemblyDefinition,ReadAssembly</token>
+<token>Mono.Cecil.BaseAssemblyResolver,AddSearchDirectory</token>
+<token>Mono.Cecil.ModuleDefinition,GetTypes</token>
+<token>Mono.Cecil.WriterParameters,new</token>
+<token>Mono.Cecil.AssemblyDefinition,Write</token>
+</entry>
+<entry count="40">
+<token>Mono.Cecil.ReaderParameters,new</token>
+<token>Mono.Cecil.AssemblyDefinition,ReadAssembly</token>
+<token>Mono.Cecil.ModuleDefinition,GetTypes</token>
+<token>Mono.Cecil.WriterParameters,new</token>
+</entry>
+<entry count="32">
+<token>Mono.Cecil.BaseAssemblyResolver,AddSearchDirectory</token>
+<token>Mono.Cecil.ModuleDefinition,GetTypes</token>
+<token>Mono.Cecil.WriterParameters,new</token>
+<token>Mono.Cecil.AssemblyDefinition,Write</token>
+</entry>
+<entry count="4">
+<token>Mono.Cecil.WriterParameters,new</token>
+<token>Mono.Cecil.AssemblyDefinition,ReadAssembly</token>
+<token>Mono.Cecil.BaseAssemblyResolver,AddSearchDirectory</token>
+<token>Mono.Cecil.IAssemblyResolver,Resolve</token>
+</entry>
+<entry count="192">
+<token>Mono.Cecil.WriterParameters,new</token>
+<token>Mono.Cecil.ReaderParameters,new</token>
+</entry>
+<entry count="32">
+<token>Mono.Cecil.ReaderParameters,new</token>
+<token>Mono.Cecil.AssemblyDefinition,ReadAssembly</token>
+<token>Mono.Cecil.BaseAssemblyResolver,AddSearchDirectory</token>
+<token>Mono.Cecil.ModuleDefinition,GetTypes</token>
+</entry>
+<entry count="2">
+<token>Mono.Cecil.ByReferenceType,new</token>
+<token>Mono.Cecil.PinnedType,new</token>
+</entry>
+<entry count="96">
+<token>Mono.Cecil.WriterParameters,new</token>
+<token>Mono.Cecil.ReaderParameters,new</token>
+<token>Mono.Cecil.AssemblyDefinition,ReadAssembly</token>
+<token>Mono.Cecil.BaseAssemblyResolver,AddSearchDirectory</token>
+<token>Mono.Cecil.AssemblyDefinition,Write</token>
+</entry>
+<entry count="12">
+<token>Mono.Cecil.AssemblyDefinition,ReadAssembly</token>
+<token>Mono.Cecil.AssemblyDefinition,ReadAssembly</token>
+<token>Mono.Cecil.AssemblyDefinition,ReadAssembly</token>
+</entry>
+<entry count="2">
+<token>Mono.Cecil.ModuleDefinition,Import</token>
+<token>Mono.Cecil.ByReferenceType,new</token>
+<token>Mono.Cecil.PinnedType,new</token>
+</entry>
+<entry count="82">
+<token>Mono.Cecil.ModuleDefinition,Import</token>
+<token>Mono.Cecil.ModuleDefinition,Import</token>
+</entry>
+<entry count="32">
+<token>Mono.Cecil.BaseAssemblyResolver,AddSearchDirectory</token>
+<token>Mono.Cecil.ModuleDefinition,GetTypes</token>
+<token>Mono.Cecil.WriterParameters,new</token>
+</entry>
+<entry count="4">
+<token>Mono.Cecil.BaseAssemblyResolver,AddSearchDirectory</token>
+<token>Mono.Cecil.IAssemblyResolver,Resolve</token>
+</entry>
+<entry count="4">
+<token>Mono.Cecil.ModuleDefinition,Import</token>
+<token>Mono.Cecil.ModuleDefinition,Import</token>
+<token>Mono.Cecil.ModuleDefinition,Import</token>
+<token>Mono.Cecil.ModuleDefinition,Import</token>
+</entry>
+<entry count="192">
+<token>Mono.Cecil.WriterParameters,new</token>
+<token>Mono.Cecil.ReaderParameters,new</token>
+<token>Mono.Cecil.AssemblyDefinition,ReadAssembly</token>
+<token>Mono.Cecil.BaseAssemblyResolver,AddSearchDirectory</token>
+</entry>
+<entry count="4">
+<token>Mono.Cecil.ReaderParameters,new</token>
+<token>Mono.Cecil.AssemblyDefinition,ReadAssembly</token>
+<token>Mono.Cecil.AssemblyDefinition,ReadAssembly</token>
+<token>Mono.Cecil.AssemblyDefinition,ReadAssembly</token>
+<token>Mono.Cecil.AssemblyDefinition,ReadAssembly</token>
+</entry>
+<entry count="4">
+<token>Mono.Cecil.AssemblyDefinition,ReadAssembly</token>
+<token>Mono.Cecil.BaseAssemblyResolver,AddSearchDirectory</token>
+<token>Mono.Cecil.IAssemblyResolver,Resolve</token>
+<token>Mono.Cecil.AssemblyDefinition,Write</token>
+</entry>
+<entry count="2">
+<token>Mono.Cecil.TypeReference,GetElementType</token>
+<token>Mono.Cecil.MethodReference,Resolve</token>
+</entry>
+<entry count="96">
+<token>Mono.Cecil.ReaderParameters,new</token>
+<token>Mono.Cecil.AssemblyDefinition,ReadAssembly</token>
+<token>Mono.Cecil.BaseAssemblyResolver,AddSearchDirectory</token>
+<token>Mono.Cecil.AssemblyDefinition,Write</token>
+</entry>
+<entry count="40">
+<token>Mono.Cecil.AssemblyDefinition,ReadAssembly</token>
+<token>Mono.Cecil.ModuleDefinition,GetTypes</token>
+<token>Mono.Cecil.WriterParameters,new</token>
+<token>Mono.Cecil.AssemblyDefinition,Write</token>
+</entry>
+<entry count="2">
+<token>Mono.Cecil.TypeReference,new</token>
+<token>Mono.Cecil.GenericInstanceType,new</token>
+</entry>
+<entry count="24">
+<token>Mono.Cecil.ReaderParameters,new</token>
+<token>Mono.Cecil.WriterParameters,new</token>
+<token>Mono.Cecil.AssemblyDefinition,ReadAssembly</token>
+</entry>
+<entry count="24">
+<token>Mono.Cecil.WriterParameters,new</token>
+<token>Mono.Cecil.AssemblyDefinition,ReadAssembly</token>
+<token>Mono.Cecil.BaseAssemblyResolver,AddSearchDirectory</token>
+</entry>
+<entry count="4">
+<token>Mono.Cecil.IAssemblyResolver,Resolve</token>
+<token>Mono.Cecil.AssemblyDefinition,Write</token>
+</entry>
+<entry count="24">
+<token>Mono.Cecil.AssemblyDefinition,ReadAssembly</token>
+<token>Mono.Cecil.AssemblyDefinition,ReadAssembly</token>
+</entry>
+<entry count="2">
+<token>Mono.Cecil.PointerType,new</token>
+<token>Mono.Cecil.PointerType,new</token>
+</entry>
+<entry count="12">
+<token>Mono.Cecil.TypeReference,Resolve</token>
+<token>Mono.Cecil.TypeReference,Resolve</token>
+</entry>
+<entry count="24">
+<token>Mono.Cecil.WriterParameters,new</token>
+<token>Mono.Cecil.AssemblyDefinition,ReadAssembly</token>
+</entry>
+<entry count="116">
+<token>Mono.Cecil.AssemblyDefinition,ReadAssembly</token>
+<token>Mono.Cecil.BaseAssemblyResolver,AddSearchDirectory</token>
+<token>Mono.Cecil.AssemblyDefinition,Write</token>
+</entry>
 <entry count="64">
 <token>Mono.Cecil.ModuleDefinition,ReadModule</token>
 <token>Mono.Cecil.TypeDefinition,Resolve</token>
+</entry>
+<entry count="4">
+<token>Mono.Cecil.BaseAssemblyResolver,AddSearchDirectory</token>
+<token>Mono.Cecil.IAssemblyResolver,Resolve</token>
+<token>Mono.Cecil.AssemblyDefinition,Write</token>
 </entry>
 <entry count="4">
 <token>Mono.Cecil.ReaderParameters,new</token>
@@ -37,56 +212,37 @@
 <entry count="72">
 <token>Mono.Cecil.ModuleDefinition,GetTypes</token>
 <token>Mono.Cecil.WriterParameters,new</token>
-</entry>
-<entry count="72">
-<token>Mono.Cecil.ModuleDefinition,GetTypes</token>
-<token>Mono.Cecil.WriterParameters,new</token>
 <token>Mono.Cecil.AssemblyDefinition,Write</token>
 </entry>
-<entry count="16">
-<token>Mono.Cecil.ModuleDefinition,ReadModule</token>
-<token>Mono.Cecil.ModuleDefinition,GetType</token>
-</entry>
-<entry count="12">
+<entry count="24">
 <token>Mono.Cecil.TypeReference,new</token>
 <token>Mono.Cecil.TypeReference,Resolve</token>
-</entry>
-<entry count="32">
-<token>Mono.Cecil.ReaderParameters,new</token>
-<token>Mono.Cecil.AssemblyDefinition,ReadAssembly</token>
-<token>Mono.Cecil.BaseAssemblyResolver,AddSearchDirectory</token>
-</entry>
-<entry count="32">
-<token>Mono.Cecil.AssemblyDefinition,ReadAssembly</token>
-<token>Mono.Cecil.BaseAssemblyResolver,AddSearchDirectory</token>
-<token>Mono.Cecil.ModuleDefinition,GetTypes</token>
-<token>Mono.Cecil.WriterParameters,new</token>
-<token>Mono.Cecil.AssemblyDefinition,Write</token>
-</entry>
-<entry count="40">
-<token>Mono.Cecil.ReaderParameters,new</token>
-<token>Mono.Cecil.AssemblyDefinition,ReadAssembly</token>
-<token>Mono.Cecil.ModuleDefinition,GetTypes</token>
-<token>Mono.Cecil.WriterParameters,new</token>
-</entry>
-<entry count="32">
-<token>Mono.Cecil.BaseAssemblyResolver,AddSearchDirectory</token>
-<token>Mono.Cecil.ModuleDefinition,GetTypes</token>
-<token>Mono.Cecil.WriterParameters,new</token>
-<token>Mono.Cecil.AssemblyDefinition,Write</token>
-</entry>
-<entry count="32">
-<token>Mono.Cecil.ReaderParameters,new</token>
-<token>Mono.Cecil.AssemblyDefinition,ReadAssembly</token>
-<token>Mono.Cecil.BaseAssemblyResolver,AddSearchDirectory</token>
-<token>Mono.Cecil.ModuleDefinition,GetTypes</token>
 </entry>
 <entry count="56">
 <token>Mono.Cecil.ReaderParameters,new</token>
 <token>Mono.Cecil.AssemblyDefinition,ReadAssembly</token>
 <token>Mono.Cecil.ModuleDefinition,GetTypes</token>
 </entry>
-<entry count="3">
+<entry count="24">
+<token>Mono.Cecil.ReaderParameters,new</token>
+<token>Mono.Cecil.WriterParameters,new</token>
+<token>Mono.Cecil.AssemblyDefinition,ReadAssembly</token>
+<token>Mono.Cecil.BaseAssemblyResolver,AddSearchDirectory</token>
+</entry>
+<entry count="20">
+<token>Mono.Cecil.WriterParameters,new</token>
+<token>Mono.Cecil.AssemblyDefinition,ReadAssembly</token>
+<token>Mono.Cecil.BaseAssemblyResolver,AddSearchDirectory</token>
+<token>Mono.Cecil.AssemblyDefinition,Write</token>
+</entry>
+<entry count="4">
+<token>Mono.Cecil.WriterParameters,new</token>
+<token>Mono.Cecil.AssemblyDefinition,ReadAssembly</token>
+<token>Mono.Cecil.BaseAssemblyResolver,AddSearchDirectory</token>
+<token>Mono.Cecil.IAssemblyResolver,Resolve</token>
+<token>Mono.Cecil.AssemblyDefinition,Write</token>
+</entry>
+<entry count="6">
 <token>Mono.Cecil.MethodReference,Resolve</token>
 <token>Mono.Cecil.MethodReference,Resolve</token>
 </entry>
@@ -97,26 +253,23 @@
 <token>Mono.Cecil.WriterParameters,new</token>
 <token>Mono.Cecil.AssemblyDefinition,Write</token>
 </entry>
-<entry count="12">
-<token>Mono.Cecil.AssemblyDefinition,ReadAssembly</token>
-<token>Mono.Cecil.AssemblyDefinition,ReadAssembly</token>
-<token>Mono.Cecil.AssemblyDefinition,ReadAssembly</token>
-</entry>
-<entry count="32">
-<token>Mono.Cecil.AssemblyDefinition,ReadAssembly</token>
-<token>Mono.Cecil.BaseAssemblyResolver,AddSearchDirectory</token>
-<token>Mono.Cecil.ModuleDefinition,GetTypes</token>
-</entry>
-<entry count="82">
-<token>Mono.Cecil.ModuleDefinition,Import</token>
-<token>Mono.Cecil.ModuleDefinition,Import</token>
-</entry>
-<entry count="32">
-<token>Mono.Cecil.BaseAssemblyResolver,AddSearchDirectory</token>
-<token>Mono.Cecil.ModuleDefinition,GetTypes</token>
+<entry count="20">
+<token>Mono.Cecil.ReaderParameters,new</token>
 <token>Mono.Cecil.WriterParameters,new</token>
+<token>Mono.Cecil.AssemblyDefinition,ReadAssembly</token>
+<token>Mono.Cecil.BaseAssemblyResolver,AddSearchDirectory</token>
+<token>Mono.Cecil.AssemblyDefinition,Write</token>
 </entry>
-<entry count="1">
+<entry count="116">
+<token>Mono.Cecil.BaseAssemblyResolver,AddSearchDirectory</token>
+<token>Mono.Cecil.AssemblyDefinition,Write</token>
+</entry>
+<entry count="32">
+<token>Mono.Cecil.AssemblyDefinition,ReadAssembly</token>
+<token>Mono.Cecil.BaseAssemblyResolver,AddSearchDirectory</token>
+<token>Mono.Cecil.ModuleDefinition,GetTypes</token>
+</entry>
+<entry count="2">
 <token>Mono.Cecil.TypeReference,GetElementType</token>
 <token>Mono.Cecil.TypeReference,Resolve</token>
 </entry>
@@ -125,7 +278,7 @@
 <token>Mono.Cecil.AssemblyDefinition,ReadAssembly</token>
 <token>Mono.Cecil.AssemblyDefinition,ReadAssembly</token>
 </entry>
-<entry count="1">
+<entry count="2">
 <token>Mono.Cecil.TypeReference,new</token>
 <token>Mono.Cecil.TypeReference,new</token>
 </entry>
@@ -134,21 +287,11 @@
 <token>Mono.Cecil.AssemblyDefinition,Write</token>
 </entry>
 <entry count="4">
-<token>Mono.Cecil.ModuleDefinition,Import</token>
-<token>Mono.Cecil.ModuleDefinition,Import</token>
-<token>Mono.Cecil.ModuleDefinition,Import</token>
-<token>Mono.Cecil.ModuleDefinition,Import</token>
-</entry>
-<entry count="4">
 <token>Mono.Cecil.ReaderParameters,new</token>
+<token>Mono.Cecil.WriterParameters,new</token>
 <token>Mono.Cecil.AssemblyDefinition,ReadAssembly</token>
-<token>Mono.Cecil.AssemblyDefinition,ReadAssembly</token>
-<token>Mono.Cecil.AssemblyDefinition,ReadAssembly</token>
-<token>Mono.Cecil.AssemblyDefinition,ReadAssembly</token>
-</entry>
-<entry count="1">
-<token>Mono.Cecil.TypeReference,GetElementType</token>
-<token>Mono.Cecil.MethodReference,Resolve</token>
+<token>Mono.Cecil.BaseAssemblyResolver,AddSearchDirectory</token>
+<token>Mono.Cecil.IAssemblyResolver,Resolve</token>
 </entry>
 <entry count="32">
 <token>Mono.Cecil.AssemblyDefinition,ReadAssembly</token>
@@ -156,25 +299,20 @@
 <token>Mono.Cecil.ModuleDefinition,GetTypes</token>
 <token>Mono.Cecil.WriterParameters,new</token>
 </entry>
+<entry count="4">
+<token>Mono.Cecil.AssemblyDefinition,ReadAssembly</token>
+<token>Mono.Cecil.BaseAssemblyResolver,AddSearchDirectory</token>
+<token>Mono.Cecil.IAssemblyResolver,Resolve</token>
+</entry>
 <entry count="56">
 <token>Mono.Cecil.AssemblyDefinition,ReadAssembly</token>
 <token>Mono.Cecil.ModuleDefinition,GetTypes</token>
-</entry>
-<entry count="40">
-<token>Mono.Cecil.AssemblyDefinition,ReadAssembly</token>
-<token>Mono.Cecil.ModuleDefinition,GetTypes</token>
-<token>Mono.Cecil.WriterParameters,new</token>
-<token>Mono.Cecil.AssemblyDefinition,Write</token>
 </entry>
 <entry count="22">
 <token>Mono.Cecil.ModuleDefinition,Import</token>
 <token>Mono.Cecil.ModuleDefinition,Import</token>
 <token>Mono.Cecil.ModuleDefinition,Import</token>
 </entry>
-<entry count="1">
-<token>Mono.Cecil.TypeReference,new</token>
-<token>Mono.Cecil.GenericInstanceType,new</token>
-</entry>
 <entry count="4">
 <token>Mono.Cecil.AssemblyDefinition,ReadAssembly</token>
 <token>Mono.Cecil.AssemblyDefinition,ReadAssembly</token>
@@ -182,27 +320,15 @@
 <token>Mono.Cecil.AssemblyDefinition,ReadAssembly</token>
 <token>Mono.Cecil.AssemblyDefinition,ReadAssembly</token>
 </entry>
-<entry count="32">
+<entry count="248">
 <token>Mono.Cecil.AssemblyDefinition,ReadAssembly</token>
 <token>Mono.Cecil.BaseAssemblyResolver,AddSearchDirectory</token>
 </entry>
-<entry count="24">
-<token>Mono.Cecil.AssemblyDefinition,ReadAssembly</token>
-<token>Mono.Cecil.AssemblyDefinition,ReadAssembly</token>
-</entry>
-<entry count="1">
-<token>Mono.Cecil.PointerType,new</token>
-<token>Mono.Cecil.PointerType,new</token>
-</entry>
-<entry count="6">
-<token>Mono.Cecil.TypeReference,Resolve</token>
-<token>Mono.Cecil.TypeReference,Resolve</token>
-</entry>
-<entry count="2">
+<entry count="4">
 <token>Mono.Cecil.MethodReference,Resolve</token>
 <token>Mono.Cecil.TypeReference,GetElementType</token>
 </entry>
-<entry count="1">
+<entry count="2">
 <token>Mono.Cecil.TypeReference,GetElementType</token>
 <token>Mono.Cecil.FieldReference,Resolve</token>
 </entry>
@@ -210,5 +336,10 @@
 <token>Mono.Cecil.AssemblyDefinition,ReadAssembly</token>
 <token>Mono.Cecil.ModuleDefinition,GetTypes</token>
 <token>Mono.Cecil.WriterParameters,new</token>
+</entry>
+<entry count="192">
+<token>Mono.Cecil.WriterParameters,new</token>
+<token>Mono.Cecil.ReaderParameters,new</token>
+<token>Mono.Cecil.AssemblyDefinition,ReadAssembly</token>
 </entry>
 </dictionary>

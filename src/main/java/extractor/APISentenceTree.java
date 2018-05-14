@@ -5,7 +5,7 @@ import java.util.*;
 public class APISentenceTree {
     
     private final int DEFAULT_TOSTRING_INDENT = 2;
-    private final int MAX_SENTENCES = 200000;
+    private final int MAX_SENTENCES = Integer.MAX_VALUE / 131072; // 2^31/2^17 = 16'384
     
     private List<APIToken> tokens = new ArrayList<>();
     private Map<APIToken, List<APISentenceTree>> branches = new HashMap<>();
@@ -36,6 +36,12 @@ public class APISentenceTree {
         sentenceList.add(new ArrayList<>());
         return flatten(sentenceList);
     }
+    
+    public List<List<APIToken>> flatten(int maxDepth) {
+        List<List<APIToken>> sentenceList = new ArrayList<>();
+        sentenceList.add(new ArrayList<>());
+        return flatten(sentenceList, 0, maxDepth);
+    }
 
     public List<List<APIToken>> flatten(List<List<APIToken>> sentenceList) {
         for(APIToken token : tokens) {
@@ -48,7 +54,7 @@ public class APISentenceTree {
             if(branches.containsKey(token) && sentenceList.size() < MAX_SENTENCES) {
                 List<List<APIToken>> copiedSentenceLists = copySentenceList(sentenceList);
                 List<List<APIToken>> newSentenceList = new ArrayList<>();
-                
+
                 int numberOfBranches = branches.get(token).size();
                 for(int i=0; i<numberOfBranches; i++) {
                     if(numberOfBranches > 1) {
@@ -60,6 +66,41 @@ public class APISentenceTree {
                         }
                     } else {
                         sentenceList.addAll(branches.get(token).get(i).flatten(copySentenceList(copiedSentenceLists)));
+                    }
+                }
+            }
+        }
+        return sentenceList;
+    }
+
+    public List<List<APIToken>> flatten(List<List<APIToken>> sentenceList, int depth, int maxDepth) {
+        for(APIToken token : tokens) {
+            for(List<APIToken> sentence : sentenceList) {
+                if(!token.isEmpty()) {
+                    sentence.add(token);
+                }
+            }
+
+            if(branches.containsKey(token) && sentenceList.size() < MAX_SENTENCES && depth <= maxDepth) {
+                List<List<APIToken>> copiedSentenceLists = copySentenceList(sentenceList);
+                List<List<APIToken>> newSentenceList = new ArrayList<>();
+
+                int numberOfBranches = branches.get(token).size();
+                for(int i=0; i<numberOfBranches; i++) {
+                    APISentenceTree innerTree = branches.get(token).get(i);
+                    if(numberOfBranches > 1) {
+                        if(i == numberOfBranches-1) {
+                            newSentenceList.addAll(innerTree.flatten(sentenceList, depth+1, maxDepth));
+                            sentenceList = newSentenceList;
+                        } else {
+                            newSentenceList.addAll(
+                                    innerTree.flatten(
+                                            copySentenceList(copiedSentenceLists), depth+1, maxDepth));
+                        }
+                    } else {
+                        sentenceList.addAll(
+                                innerTree.flatten(
+                                        copySentenceList(copiedSentenceLists), depth+1, maxDepth));
                     }
                 }
             }

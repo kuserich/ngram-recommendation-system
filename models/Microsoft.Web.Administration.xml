@@ -65,6 +65,10 @@
 <token>Microsoft.Web.Administration.Configuration,GetSection</token>
 <token>Microsoft.Web.Administration.ConfigurationElement,SetAttributeValue</token>
 </entry>
+<entry count="2">
+<token>Microsoft.Web.Administration.ServerManager,new</token>
+<token>Microsoft.Web.Administration.ServerManager,CommitChanges</token>
+</entry>
 <entry count="18">
 <token>Microsoft.Web.Administration.ApplicationCollection,Add</token>
 <token>Microsoft.Web.Administration.ServerManager,CommitChanges</token>

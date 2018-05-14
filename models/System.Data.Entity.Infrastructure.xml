@@ -1,12 +1,114 @@
 <?xml version="1.0" encoding="UTF-8"?><dictionary case_sensitive="false">
+<entry count="4">
+<token>JabbR],[TElement</token>
+<token>-&gt;</token>
+</entry>
+<entry count="2">
+<token>TEntity]],Collection</token>
+<token>System.Data.Entity.Infrastructure.DbCollectionEntry`2[[TEntity</token>
+</entry>
+<entry count="3">
+<token>-&gt;</token>
+<token>TAggregateRoot]],Include</token>
+<token>System.Data.Entity.Infrastructure.DbQuery`1[[TResult</token>
+<token>-&gt;</token>
+</entry>
+<entry count="2">
+<token>-&gt;</token>
+<token>JabbR.Models.ChatUser,</token>
+<token>JabbR],[TElement</token>
+<token>-&gt;</token>
+<token>JabbR.Models.ChatRoom,</token>
+</entry>
+<entry count="2">
+<token>-&gt;</token>
+<token>TEntity]],Collection</token>
+<token>System.Data.Entity.Infrastructure.DbCollectionEntry`2[[TEntity</token>
+</entry>
+<entry count="4">
+<token>TEntity]],Reference</token>
+<token>System.Data.Entity.Infrastructure.DbReferenceEntry`2[[TEntity</token>
+<token>-&gt;</token>
+<token>TEntity],[TProperty</token>
+<token>-&gt;</token>
+</entry>
+<entry count="2">
+<token>System.Data.Entity.Infrastructure.DbQuery`1[[TResult</token>
+<token>-&gt;</token>
+<token>Voat.Data.Models.Comment,</token>
+</entry>
+<entry count="4">
+<token>System.Data.Entity.Infrastructure.DbReferenceEntry`2[[TEntity</token>
+<token>-&gt;</token>
+</entry>
+<entry count="3">
+<token>TAggregateRoot]],Include</token>
+<token>System.Data.Entity.Infrastructure.DbQuery`1[[TResult</token>
+<token>-&gt;</token>
+<token>TAggregateRoot]],Include</token>
+</entry>
+<entry count="22">
+<token>-&gt;</token>
+<token>WebApi.Hal.Web.Models.Beer,</token>
+</entry>
+<entry count="4">
+<token>JabbR]],Collection</token>
+<token>System.Data.Entity.Infrastructure.DbCollectionEntry`2[[TEntity</token>
+</entry>
+<entry count="6">
+<token>System.Data.Entity.Infrastructure.DbEntityEntry`1[[TEntity</token>
+<token>-&gt;</token>
+<token>TEntity]],Reference</token>
+</entry>
 <entry count="1">
 <token>System.Data.Entity.Infrastructure.DbEntityEntry`1[[TEntity</token>
 <token>-&gt;</token>
 <token>Models.Movies.Show,</token>
-</entry>
-<entry count="1">
-<token>Models.Movies.Movie,</token>
 <token>Models]],Property</token>
+</entry>
+<entry count="2">
+<token>-&gt;</token>
+<token>TEntity]],Collection</token>
+<token>System.Data.Entity.Infrastructure.DbCollectionEntry`2[[TEntity</token>
+<token>-&gt;</token>
+<token>TEntity],[TElement</token>
+</entry>
+<entry count="2">
+<token>System.Data.Entity.Infrastructure.DbCollectionEntry`2[[TEntity</token>
+<token>-&gt;</token>
+<token>JabbR.Models.ChatUser,</token>
+</entry>
+<entry count="6">
+<token>System.Data.Entity.Infrastructure.DbQuery`1[[TResult</token>
+<token>-&gt;</token>
+<token>TAggregateRoot]],Include</token>
+</entry>
+<entry count="11">
+<token>System.Data.Entity.Infrastructure.DbQuery`1[[TResult</token>
+<token>-&gt;</token>
+<token>WebApi.Hal.Web.Models.Beer,</token>
+<token>WebApi.Hal.Web]],Include</token>
+<token>System.Data.Entity.Infrastructure.DbQuery`1[[TResult</token>
+</entry>
+<entry count="2">
+<token>-&gt;</token>
+<token>TCollection]],Query</token>
+</entry>
+<entry count="22">
+<token>-&gt;</token>
+<token>WebApi.Hal.Web.Models.Beer,</token>
+<token>WebApi.Hal.Web]],Include</token>
+</entry>
+<entry count="2">
+<token>System.Data.Entity.Infrastructure.DbCollectionEntry`2[[TEntity</token>
+<token>-&gt;</token>
+<token>JabbR.Models.ChatUser,</token>
+<token>JabbR],[TElement</token>
+</entry>
+<entry count="2">
+<token>-&gt;</token>
+<token>JabbR.Models.ChatRoom,</token>
+<token>JabbR]],Query</token>
 </entry>
 <entry count="1">
 <token>System.Data.Entity.Infrastructure.DbPropertyValues,SetValues</token>
@@ -16,52 +118,406 @@
 <token>Models]],Property</token>
 </entry>
 <entry count="2">
+<token>System.Data.Entity.Infrastructure.DbPropertyValues,SetValues</token>
 <token>System.Data.Entity.Infrastructure.DbEntityEntry`1[[TEntity</token>
 <token>-&gt;</token>
 </entry>
+<entry count="10">
+<token>System.Data.Entity.Infrastructure.DbChangeTracker,Entries</token>
+<token>System.Data.Entity.Infrastructure.DbChangeTracker,Entries</token>
+</entry>
+<entry count="6">
+<token>System.Data.Entity.Infrastructure.DbCollectionEntry`2[[TEntity</token>
+<token>-&gt;</token>
+</entry>
+<entry count="2">
+<token>-&gt;</token>
+<token>TEntity],[TProperty</token>
+<token>-&gt;</token>
+<token>TProperty]],Query</token>
+</entry>
+<entry count="4">
+<token>System.Data.Entity.Infrastructure.DbReferenceEntry`2[[TEntity</token>
+<token>-&gt;</token>
+<token>TEntity],[TProperty</token>
+<token>-&gt;</token>
+</entry>
+<entry count="2">
+<token>JabbR.Models.ChatRoom,</token>
+<token>JabbR]],Query</token>
+</entry>
+<entry count="2">
+<token>TEntity]],Collection</token>
+<token>System.Data.Entity.Infrastructure.DbCollectionEntry`2[[TEntity</token>
+<token>-&gt;</token>
+<token>TEntity],[TElement</token>
+<token>-&gt;</token>
+</entry>
 <entry count="1">
+<token>System.Data.Entity.Infrastructure.DbPropertyValues,SetValues</token>
+<token>System.Data.Entity.Infrastructure.DbEntityEntry`1[[TEntity</token>
 <token>-&gt;</token>
 <token>Models.Movies.Movie,</token>
+</entry>
+<entry count="1">
+<token>Voat.Data]],Include</token>
+<token>System.Data.Entity.Infrastructure.DbQuery`1[[TResult</token>
+<token>-&gt;</token>
+</entry>
+<entry count="2">
+<token>JabbR.Models.ChatRoom,</token>
+<token>JabbR],[TElement</token>
+<token>-&gt;</token>
+<token>JabbR.Models.ChatUser,</token>
+</entry>
+<entry count="2">
+<token>System.Data.Entity.Infrastructure.DbEntityEntry`1[[TEntity</token>
+<token>-&gt;</token>
+<token>JabbR.Models.ChatRoom,</token>
+<token>JabbR]],Collection</token>
+</entry>
+<entry count="11">
+<token>WebApi.Hal.Web]],Include</token>
+<token>System.Data.Entity.Infrastructure.DbQuery`1[[TResult</token>
+<token>-&gt;</token>
+<token>WebApi.Hal.Web.Models.Beer,</token>
+</entry>
+<entry count="2">
+<token>System.Data.Entity.Infrastructure.DbCollectionEntry`2[[TEntity</token>
+<token>-&gt;</token>
+<token>TEntity],[TElement</token>
+<token>-&gt;</token>
+</entry>
+<entry count="2">
+<token>System.Data.Entity.Infrastructure.DbEntityEntry`1[[TEntity</token>
+<token>-&gt;</token>
+<token>TEntity]],Collection</token>
+<token>System.Data.Entity.Infrastructure.DbCollectionEntry`2[[TEntity</token>
+<token>-&gt;</token>
+</entry>
+<entry count="2">
+<token>TEntity],[TProperty</token>
+<token>-&gt;</token>
+<token>TProperty]],Query</token>
+</entry>
+<entry count="1">
+<token>Models.Movies.Movie,</token>
+<token>Models]],Property</token>
 </entry>
 <entry count="1">
 <token>-&gt;</token>
 <token>Models.Movies.Show,</token>
 <token>Models]],Property</token>
 </entry>
-<entry count="1">
-<token>System.Data.Entity.Infrastructure.DbEntityEntry`1[[TEntity</token>
+<entry count="2">
+<token>TEntity],[TProperty</token>
 <token>-&gt;</token>
-<token>Models.Movies.Movie,</token>
-<token>Models]],Property</token>
+<token>TProperty]],Load</token>
+</entry>
+<entry count="2">
+<token>-&gt;</token>
+<token>TEntity]],Collection</token>
+<token>System.Data.Entity.Infrastructure.DbCollectionEntry,Query</token>
+</entry>
+<entry count="2">
+<token>JabbR.Models.ChatRoom,</token>
+<token>JabbR],[TElement</token>
+</entry>
+<entry count="2">
+<token>JabbR.Models.ChatRoom,</token>
+<token>JabbR]],Collection</token>
+<token>System.Data.Entity.Infrastructure.DbCollectionEntry`2[[TEntity</token>
+<token>-&gt;</token>
+<token>JabbR.Models.ChatRoom,</token>
+</entry>
+<entry count="3">
+<token>System.Data.Entity.Infrastructure.DbQuery`1[[TResult</token>
+<token>-&gt;</token>
+<token>TAggregateRoot]],Include</token>
+<token>System.Data.Entity.Infrastructure.DbQuery`1[[TResult</token>
+<token>-&gt;</token>
+</entry>
+<entry count="2">
+<token>TEntity],[TElement</token>
+<token>-&gt;</token>
+<token>TCollection]],Query</token>
+</entry>
+<entry count="2">
+<token>-&gt;</token>
+<token>TProperty]],Query</token>
 </entry>
 <entry count="1">
+<token>Models.Movies.Show,</token>
+<token>Models]],Property</token>
+</entry>
+<entry count="11">
+<token>WebApi.Hal.Web]],Include</token>
+<token>System.Data.Entity.Infrastructure.DbQuery`1[[TResult</token>
+<token>-&gt;</token>
+<token>WebApi.Hal.Web.Models.Beer,</token>
+<token>WebApi.Hal.Web]],Include</token>
+</entry>
+<entry count="2">
+<token>-&gt;</token>
+<token>JabbR.Models.ChatRoom,</token>
+<token>JabbR]],Collection</token>
+</entry>
+<entry count="11">
+<token>WebApi.Hal.Web.Models.Beer,</token>
+<token>WebApi.Hal.Web]],Include</token>
+<token>System.Data.Entity.Infrastructure.DbQuery`1[[TResult</token>
+<token>-&gt;</token>
+<token>WebApi.Hal.Web.Models.Beer,</token>
+</entry>
+<entry count="2">
 <token>System.Data.Entity.Infrastructure.DbEntityEntry`1[[TEntity</token>
+<token>-&gt;</token>
+<token>JabbR.Models.ChatRoom,</token>
+<token>JabbR]],Collection</token>
+<token>System.Data.Entity.Infrastructure.DbCollectionEntry`2[[TEntity</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>Voat.Data.Models.Comment,</token>
+<token>Voat.Data]],Include</token>
+<token>System.Data.Entity.Infrastructure.DbQuery`1[[TResult</token>
+<token>-&gt;</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>Models.Movies.Show,</token>
+</entry>
+<entry count="2">
+<token>-&gt;</token>
+<token>TEntity],[TElement</token>
+</entry>
+<entry count="2">
+<token>-&gt;</token>
+<token>TProperty]],Load</token>
+</entry>
+<entry count="2">
+<token>System.Data.Entity.Infrastructure.DbCollectionEntry`2[[TEntity</token>
+<token>-&gt;</token>
+<token>JabbR.Models.ChatRoom,</token>
+</entry>
+<entry count="1">
+<token>Voat.Data]],Include</token>
+<token>System.Data.Entity.Infrastructure.DbQuery`1[[TResult</token>
+<token>-&gt;</token>
+<token>Voat.Data.Models.Comment,</token>
+</entry>
+<entry count="2">
+<token>System.Data.Entity.Infrastructure.DbEntityEntry`1[[TEntity</token>
+<token>-&gt;</token>
+<token>JabbR.Models.ChatUser,</token>
+</entry>
+<entry count="3">
+<token>TAggregateRoot]],Include</token>
+<token>System.Data.Entity.Infrastructure.DbQuery`1[[TResult</token>
+<token>-&gt;</token>
+</entry>
+<entry count="3">
+<token>-&gt;</token>
+<token>TAggregateRoot]],Include</token>
+<token>System.Data.Entity.Infrastructure.DbQuery`1[[TResult</token>
+</entry>
+<entry count="6">
+<token>-&gt;</token>
+<token>TEntity]],Reference</token>
+</entry>
+<entry count="1">
+<token>Voat.Data.Models.Comment,</token>
+<token>Voat.Data]],Include</token>
+<token>System.Data.Entity.Infrastructure.DbQuery`1[[TResult</token>
+<token>-&gt;</token>
+<token>Voat.Data.Models.Comment,</token>
+</entry>
+<entry count="2">
+<token>System.Data.Entity.Infrastructure.DbCollectionEntry`2[[TEntity</token>
+<token>-&gt;</token>
+<token>TEntity],[TElement</token>
+<token>-&gt;</token>
+<token>TCollection]],Query</token>
+</entry>
+<entry count="2">
+<token>JabbR.Models.ChatRoom,</token>
+<token>JabbR],[TElement</token>
+<token>-&gt;</token>
+<token>JabbR.Models.ChatUser,</token>
+<token>JabbR]],Query</token>
+</entry>
+<entry count="2">
+<token>System.Data.Entity.Infrastructure.DbEntityEntry`1[[TEntity</token>
+<token>-&gt;</token>
+<token>JabbR.Models.ChatUser,</token>
+<token>JabbR]],Collection</token>
+<token>System.Data.Entity.Infrastructure.DbCollectionEntry`2[[TEntity</token>
+</entry>
+<entry count="2">
+<token>TEntity]],Reference</token>
+<token>System.Data.Entity.Infrastructure.DbReferenceEntry,Query</token>
+</entry>
+<entry count="1">
 <token>-&gt;</token>
 <token>Models.Movies.Movie,</token>
 </entry>
 <entry count="2">
-<token>System.Data.Entity.Infrastructure.DbPropertyValues,SetValues</token>
+<token>JabbR.Models.ChatRoom,</token>
+<token>JabbR]],Collection</token>
+<token>System.Data.Entity.Infrastructure.DbCollectionEntry`2[[TEntity</token>
+<token>-&gt;</token>
+</entry>
+<entry count="11">
+<token>WebApi.Hal.Web.Models.Beer,</token>
+<token>WebApi.Hal.Web]],Include</token>
+<token>System.Data.Entity.Infrastructure.DbQuery`1[[TResult</token>
+</entry>
+<entry count="2">
+<token>JabbR]],Collection</token>
+<token>System.Data.Entity.Infrastructure.DbCollectionEntry`2[[TEntity</token>
+<token>-&gt;</token>
+<token>JabbR.Models.ChatUser,</token>
+<token>JabbR],[TElement</token>
+</entry>
+<entry count="2">
 <token>System.Data.Entity.Infrastructure.DbEntityEntry`1[[TEntity</token>
 <token>-&gt;</token>
-</entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>Models.Movies.Movie,</token>
-<token>Models]],Property</token>
-</entry>
-<entry count="1">
-<token>Models.Movies.Show,</token>
-<token>Models]],Property</token>
+<token>TEntity]],Collection</token>
+<token>System.Data.Entity.Infrastructure.DbCollectionEntry,Query</token>
 </entry>
 <entry count="2">
 <token>System.Data.Entity.Infrastructure.DbPropertyValues,SetValues</token>
 <token>System.Data.Entity.Infrastructure.DbEntityEntry`1[[TEntity</token>
 </entry>
+<entry count="2">
+<token>JabbR.Models.ChatUser,</token>
+<token>JabbR]],Collection</token>
+<token>System.Data.Entity.Infrastructure.DbCollectionEntry`2[[TEntity</token>
+<token>-&gt;</token>
+<token>JabbR.Models.ChatUser,</token>
+</entry>
+<entry count="4">
+<token>JabbR]],Collection</token>
+<token>System.Data.Entity.Infrastructure.DbCollectionEntry`2[[TEntity</token>
+<token>-&gt;</token>
+</entry>
+<entry count="2">
+<token>JabbR.Models.ChatUser,</token>
+<token>JabbR],[TElement</token>
+<token>-&gt;</token>
+</entry>
+<entry count="2">
+<token>JabbR.Models.ChatRoom,</token>
+<token>JabbR]],Collection</token>
+</entry>
+<entry count="3">
+<token>-&gt;</token>
+<token>TAggregateRoot]],Include</token>
+<token>System.Data.Entity.Infrastructure.DbQuery`1[[TResult</token>
+<token>-&gt;</token>
+<token>TAggregateRoot]],Include</token>
+</entry>
+<entry count="6">
+<token>-&gt;</token>
+<token>TAggregateRoot]],Include</token>
+</entry>
+<entry count="1">
+<token>Voat.Data]],Include</token>
+<token>System.Data.Entity.Infrastructure.DbQuery`1[[TResult</token>
+<token>-&gt;</token>
+<token>Voat.Data.Models.Comment,</token>
+<token>Voat.Data]],Include</token>
+</entry>
+<entry count="2">
+<token>-&gt;</token>
+<token>JabbR.Models.ChatUser,</token>
+<token>JabbR]],Query</token>
+</entry>
+<entry count="2">
+<token>JabbR.Models.ChatRoom,</token>
+<token>JabbR],[TElement</token>
+<token>-&gt;</token>
+</entry>
+<entry count="2">
+<token>System.Data.Entity.Infrastructure.DbCollectionEntry`2[[TEntity</token>
+<token>-&gt;</token>
+<token>JabbR.Models.ChatRoom,</token>
+<token>JabbR],[TElement</token>
+</entry>
+<entry count="4">
+<token>-&gt;</token>
+<token>TEntity]],Reference</token>
+<token>System.Data.Entity.Infrastructure.DbReferenceEntry`2[[TEntity</token>
+<token>-&gt;</token>
+</entry>
 <entry count="1">
 <token>System.Data.Entity.Infrastructure.DbEntityEntry`1[[TEntity</token>
 <token>-&gt;</token>
 <token>Models.Movies.Show,</token>
-<token>Models]],Property</token>
+</entry>
+<entry count="1">
+<token>Voat.Data.Models.Comment,</token>
+<token>Voat.Data]],Include</token>
+<token>System.Data.Entity.Infrastructure.DbQuery`1[[TResult</token>
+</entry>
+<entry count="2">
+<token>System.Data.Entity.Infrastructure.DbCollectionEntry`2[[TEntity</token>
+<token>-&gt;</token>
+<token>JabbR.Models.ChatUser,</token>
+<token>JabbR],[TElement</token>
+<token>-&gt;</token>
+</entry>
+<entry count="2">
+<token>JabbR],[TElement</token>
+<token>-&gt;</token>
+<token>JabbR.Models.ChatRoom,</token>
+</entry>
+<entry count="2">
+<token>TEntity],[TElement</token>
+<token>-&gt;</token>
+</entry>
+<entry count="2">
+<token>JabbR.Models.ChatUser,</token>
+<token>JabbR]],Collection</token>
+<token>System.Data.Entity.Infrastructure.DbCollectionEntry`2[[TEntity</token>
+</entry>
+<entry count="6">
+<token>-&gt;</token>
+<token>JabbR.Models.ChatUser,</token>
+</entry>
+<entry count="2">
+<token>-&gt;</token>
+<token>Voat.Data.Models.Comment,</token>
+<token>Voat.Data]],Include</token>
+</entry>
+<entry count="2">
+<token>-&gt;</token>
+<token>TEntity],[TElement</token>
+<token>-&gt;</token>
+</entry>
+<entry count="2">
+<token>-&gt;</token>
+<token>TEntity],[TElement</token>
+<token>-&gt;</token>
+<token>TCollection]],Query</token>
+</entry>
+<entry count="2">
+<token>JabbR.Models.ChatUser,</token>
+<token>JabbR],[TElement</token>
+<token>-&gt;</token>
+<token>JabbR.Models.ChatRoom,</token>
+</entry>
+<entry count="4">
+<token>-&gt;</token>
+<token>TEntity],[TProperty</token>
+<token>-&gt;</token>
+</entry>
+<entry count="2">
+<token>-&gt;</token>
+<token>JabbR.Models.ChatRoom,</token>
+<token>JabbR]],Collection</token>
+<token>System.Data.Entity.Infrastructure.DbCollectionEntry`2[[TEntity</token>
+<token>-&gt;</token>
 </entry>
 <entry count="1">
 <token>System.Data.Entity.Infrastructure.DbPropertyValues,SetValues</token>
@@ -69,21 +525,395 @@
 <token>-&gt;</token>
 <token>Models.Movies.Show,</token>
 </entry>
+<entry count="6">
+<token>-&gt;</token>
+<token>JabbR.Models.ChatRoom,</token>
+</entry>
+<entry count="2">
+<token>-&gt;</token>
+<token>JabbR.Models.ChatRoom,</token>
+<token>JabbR],[TElement</token>
+<token>-&gt;</token>
+<token>JabbR.Models.ChatUser,</token>
+</entry>
+<entry count="8">
+<token>System.Data.Entity.Infrastructure.DbPropertyValues,SetValues</token>
+<token>System.Data.Entity.Infrastructure.DbPropertyValues,SetValues</token>
+</entry>
+<entry count="2">
+<token>JabbR]],Collection</token>
+<token>System.Data.Entity.Infrastructure.DbCollectionEntry`2[[TEntity</token>
+<token>-&gt;</token>
+<token>JabbR.Models.ChatRoom,</token>
+</entry>
+<entry count="2">
+<token>JabbR.Models.ChatRoom,</token>
+<token>JabbR]],Collection</token>
+<token>System.Data.Entity.Infrastructure.DbCollectionEntry`2[[TEntity</token>
+</entry>
+<entry count="2">
+<token>JabbR]],Collection</token>
+<token>System.Data.Entity.Infrastructure.DbCollectionEntry`2[[TEntity</token>
+<token>-&gt;</token>
+<token>JabbR.Models.ChatUser,</token>
+</entry>
+<entry count="2">
+<token>System.Data.Entity.Infrastructure.DbCollectionEntry`2[[TEntity</token>
+<token>-&gt;</token>
+<token>JabbR.Models.ChatRoom,</token>
+<token>JabbR],[TElement</token>
+<token>-&gt;</token>
+</entry>
+<entry count="2">
+<token>-&gt;</token>
+<token>JabbR.Models.ChatUser,</token>
+<token>JabbR]],Collection</token>
+</entry>
+<entry count="1">
+<token>System.Data.Entity.Infrastructure.DbQuery`1[[TResult</token>
+<token>-&gt;</token>
+<token>Voat.Data.Models.Comment,</token>
+<token>Voat.Data]],Include</token>
+<token>System.Data.Entity.Infrastructure.DbQuery`1[[TResult</token>
+</entry>
+<entry count="1">
+<token>Voat.Data.Models.Comment,</token>
+<token>Voat.Data]],Include</token>
+<token>System.Data.Entity.Infrastructure.DbQuery`1[[TResult</token>
+<token>-&gt;</token>
+</entry>
+<entry count="22">
+<token>System.Data.Entity.Infrastructure.DbQuery`1[[TResult</token>
+<token>-&gt;</token>
+<token>WebApi.Hal.Web.Models.Beer,</token>
+<token>WebApi.Hal.Web]],Include</token>
+</entry>
+<entry count="2">
+<token>-&gt;</token>
+<token>JabbR.Models.ChatRoom,</token>
+<token>JabbR]],Collection</token>
+<token>System.Data.Entity.Infrastructure.DbCollectionEntry`2[[TEntity</token>
+</entry>
+<entry count="11">
+<token>WebApi.Hal.Web]],Include</token>
+<token>System.Data.Entity.Infrastructure.DbQuery`1[[TResult</token>
+</entry>
+<entry count="4">
+<token>TEntity]],Reference</token>
+<token>System.Data.Entity.Infrastructure.DbReferenceEntry`2[[TEntity</token>
+</entry>
+<entry count="2">
+<token>TEntity]],Collection</token>
+<token>System.Data.Entity.Infrastructure.DbCollectionEntry`2[[TEntity</token>
+<token>-&gt;</token>
+</entry>
+<entry count="4">
+<token>System.Data.Entity.Infrastructure.DbReferenceEntry`2[[TEntity</token>
+<token>-&gt;</token>
+<token>TEntity],[TProperty</token>
+</entry>
+<entry count="11">
+<token>-&gt;</token>
+<token>WebApi.Hal.Web.Models.Beer,</token>
+<token>WebApi.Hal.Web]],Include</token>
+<token>System.Data.Entity.Infrastructure.DbQuery`1[[TResult</token>
+<token>-&gt;</token>
+</entry>
+<entry count="2">
+<token>JabbR.Models.ChatUser,</token>
+<token>JabbR]],Collection</token>
+<token>System.Data.Entity.Infrastructure.DbCollectionEntry`2[[TEntity</token>
+<token>-&gt;</token>
+</entry>
+<entry count="2">
+<token>-&gt;</token>
+<token>TEntity]],Collection</token>
+<token>System.Data.Entity.Infrastructure.DbCollectionEntry`2[[TEntity</token>
+<token>-&gt;</token>
+</entry>
+<entry count="2">
+<token>-&gt;</token>
+<token>TEntity]],Reference</token>
+<token>System.Data.Entity.Infrastructure.DbReferenceEntry,Query</token>
+</entry>
+<entry count="4">
+<token>-&gt;</token>
+<token>TEntity]],Reference</token>
+<token>System.Data.Entity.Infrastructure.DbReferenceEntry`2[[TEntity</token>
+</entry>
+<entry count="2">
+<token>JabbR],[TElement</token>
+<token>-&gt;</token>
+<token>JabbR.Models.ChatUser,</token>
+</entry>
+<entry count="4">
+<token>TEntity]],Reference</token>
+<token>System.Data.Entity.Infrastructure.DbReferenceEntry`2[[TEntity</token>
+<token>-&gt;</token>
+</entry>
+<entry count="2">
+<token>JabbR]],Collection</token>
+<token>System.Data.Entity.Infrastructure.DbCollectionEntry`2[[TEntity</token>
+<token>-&gt;</token>
+<token>JabbR.Models.ChatRoom,</token>
+<token>JabbR],[TElement</token>
+</entry>
+<entry count="4">
+<token>TEntity],[TProperty</token>
+<token>-&gt;</token>
+</entry>
+<entry count="4">
+<token>System.Data.Entity.Infrastructure.DbEntityEntry`1[[TEntity</token>
+<token>-&gt;</token>
+<token>TEntity]],Reference</token>
+<token>System.Data.Entity.Infrastructure.DbReferenceEntry`2[[TEntity</token>
+<token>-&gt;</token>
+</entry>
+<entry count="2">
+<token>-&gt;</token>
+<token>Voat.Data.Models.Comment,</token>
+</entry>
+<entry count="2">
+<token>Voat.Data.Models.Comment,</token>
+<token>Voat.Data]],Include</token>
+</entry>
+<entry count="2">
+<token>-&gt;</token>
+<token>TEntity],[TProperty</token>
+<token>-&gt;</token>
+<token>TProperty]],Load</token>
+</entry>
+<entry count="22">
+<token>System.Data.Entity.Infrastructure.DbQuery`1[[TResult</token>
+<token>-&gt;</token>
+<token>WebApi.Hal.Web.Models.Beer,</token>
+</entry>
+<entry count="4">
+<token>System.Data.Entity.Infrastructure.DbEntityEntry`1[[TEntity</token>
+<token>-&gt;</token>
+<token>TEntity]],Collection</token>
+</entry>
+<entry count="2">
+<token>JabbR.Models.ChatUser,</token>
+<token>JabbR]],Collection</token>
+</entry>
+<entry count="30">
+<token>System.Data.Entity.Infrastructure.DbQuery`1[[TResult</token>
+<token>-&gt;</token>
+</entry>
+<entry count="2">
+<token>JabbR.Models.ChatUser,</token>
+<token>JabbR],[TElement</token>
+<token>-&gt;</token>
+<token>JabbR.Models.ChatRoom,</token>
+<token>JabbR]],Query</token>
+</entry>
+<entry count="2">
+<token>TEntity]],Collection</token>
+<token>System.Data.Entity.Infrastructure.DbCollectionEntry`2[[TEntity</token>
+<token>-&gt;</token>
+<token>TEntity],[TElement</token>
+</entry>
+<entry count="3">
+<token>TAggregateRoot]],Include</token>
+<token>System.Data.Entity.Infrastructure.DbQuery`1[[TResult</token>
+</entry>
+<entry count="4">
+<token>-&gt;</token>
+<token>TEntity]],Collection</token>
+</entry>
+<entry count="2">
+<token>System.Data.Entity.Infrastructure.DbEntityEntry`1[[TEntity</token>
+<token>-&gt;</token>
+<token>JabbR.Models.ChatRoom,</token>
+</entry>
+<entry count="2">
+<token>System.Data.Entity.Infrastructure.DbEntityEntry`1[[TEntity</token>
+<token>-&gt;</token>
+<token>TEntity]],Reference</token>
+<token>System.Data.Entity.Infrastructure.DbReferenceEntry,Query</token>
+</entry>
+<entry count="11">
+<token>-&gt;</token>
+<token>WebApi.Hal.Web.Models.Beer,</token>
+<token>WebApi.Hal.Web]],Include</token>
+<token>System.Data.Entity.Infrastructure.DbQuery`1[[TResult</token>
+</entry>
+<entry count="4">
+<token>-&gt;</token>
+<token>TEntity]],Reference</token>
+<token>System.Data.Entity.Infrastructure.DbReferenceEntry`2[[TEntity</token>
+<token>-&gt;</token>
+<token>TEntity],[TProperty</token>
+</entry>
+<entry count="16">
+<token>System.Data.Entity.Infrastructure.DbEntityEntry`1[[TEntity</token>
+<token>-&gt;</token>
+</entry>
+<entry count="4">
+<token>-&gt;</token>
+<token>TEntity],[TProperty</token>
+</entry>
+<entry count="4">
+<token>TEntity]],Reference</token>
+<token>System.Data.Entity.Infrastructure.DbReferenceEntry`2[[TEntity</token>
+<token>-&gt;</token>
+<token>TEntity],[TProperty</token>
+</entry>
+<entry count="4">
+<token>System.Data.Entity.Infrastructure.DbEntityEntry`1[[TEntity</token>
+<token>-&gt;</token>
+<token>TEntity]],Reference</token>
+<token>System.Data.Entity.Infrastructure.DbReferenceEntry`2[[TEntity</token>
+</entry>
+<entry count="1">
+<token>System.Data.Entity.Infrastructure.DbEntityEntry`1[[TEntity</token>
+<token>-&gt;</token>
+<token>Models.Movies.Movie,</token>
+</entry>
 <entry count="1">
 <token>-&gt;</token>
-<token>Models.Movies.Show,</token>
+<token>Models.Movies.Movie,</token>
+<token>Models]],Property</token>
+</entry>
+<entry count="2">
+<token>JabbR],[TElement</token>
+<token>-&gt;</token>
+<token>JabbR.Models.ChatUser,</token>
+<token>JabbR]],Query</token>
+</entry>
+<entry count="2">
+<token>-&gt;</token>
+<token>JabbR.Models.ChatRoom,</token>
+<token>JabbR],[TElement</token>
+</entry>
+<entry count="2">
+<token>-&gt;</token>
+<token>JabbR.Models.ChatUser,</token>
+<token>JabbR],[TElement</token>
+</entry>
+<entry count="11">
+<token>WebApi.Hal.Web.Models.Beer,</token>
+<token>WebApi.Hal.Web]],Include</token>
+<token>System.Data.Entity.Infrastructure.DbQuery`1[[TResult</token>
+<token>-&gt;</token>
+</entry>
+<entry count="2">
+<token>TEntity]],Collection</token>
+<token>System.Data.Entity.Infrastructure.DbCollectionEntry,Query</token>
+</entry>
+<entry count="11">
+<token>WebApi.Hal.Web]],Include</token>
+<token>System.Data.Entity.Infrastructure.DbQuery`1[[TResult</token>
+<token>-&gt;</token>
+</entry>
+<entry count="2">
+<token>-&gt;</token>
+<token>JabbR.Models.ChatUser,</token>
+<token>JabbR]],Collection</token>
+<token>System.Data.Entity.Infrastructure.DbCollectionEntry`2[[TEntity</token>
+</entry>
+<entry count="1">
+<token>Voat.Data]],Include</token>
+<token>System.Data.Entity.Infrastructure.DbQuery`1[[TResult</token>
 </entry>
 <entry count="1">
 <token>System.Data.Entity.Infrastructure.DbPropertyValues,SetValues</token>
 <token>System.Data.Entity.Infrastructure.DbEntityEntry`1[[TEntity</token>
 <token>-&gt;</token>
 <token>Models.Movies.Movie,</token>
+<token>Models]],Property</token>
+</entry>
+<entry count="2">
+<token>System.Data.Entity.Infrastructure.DbCollectionEntry`2[[TEntity</token>
+<token>-&gt;</token>
+<token>TEntity],[TElement</token>
 </entry>
 <entry count="1">
-<token>System.Data.Entity.Infrastructure.DbPropertyValues,SetValues</token>
 <token>System.Data.Entity.Infrastructure.DbEntityEntry`1[[TEntity</token>
 <token>-&gt;</token>
 <token>Models.Movies.Movie,</token>
 <token>Models]],Property</token>
+</entry>
+<entry count="2">
+<token>JabbR],[TElement</token>
+<token>-&gt;</token>
+<token>JabbR.Models.ChatRoom,</token>
+<token>JabbR]],Query</token>
+</entry>
+<entry count="2">
+<token>JabbR.Models.ChatUser,</token>
+<token>JabbR],[TElement</token>
+</entry>
+<entry count="2">
+<token>System.Data.Entity.Infrastructure.DbEntityEntry`1[[TEntity</token>
+<token>-&gt;</token>
+<token>TEntity]],Collection</token>
+<token>System.Data.Entity.Infrastructure.DbCollectionEntry`2[[TEntity</token>
+</entry>
+<entry count="2">
+<token>-&gt;</token>
+<token>JabbR.Models.ChatRoom,</token>
+<token>JabbR],[TElement</token>
+<token>-&gt;</token>
+</entry>
+<entry count="2">
+<token>System.Data.Entity.Infrastructure.DbReferenceEntry`2[[TEntity</token>
+<token>-&gt;</token>
+<token>TEntity],[TProperty</token>
+<token>-&gt;</token>
+<token>TProperty]],Query</token>
+</entry>
+<entry count="2">
+<token>System.Data.Entity.Infrastructure.DbReferenceEntry`2[[TEntity</token>
+<token>-&gt;</token>
+<token>TEntity],[TProperty</token>
+<token>-&gt;</token>
+<token>TProperty]],Load</token>
+</entry>
+<entry count="22">
+<token>WebApi.Hal.Web.Models.Beer,</token>
+<token>WebApi.Hal.Web]],Include</token>
+</entry>
+<entry count="2">
+<token>JabbR.Models.ChatUser,</token>
+<token>JabbR]],Query</token>
+</entry>
+<entry count="2">
+<token>System.Data.Entity.Infrastructure.DbEntityEntry`1[[TEntity</token>
+<token>-&gt;</token>
+<token>JabbR.Models.ChatUser,</token>
+<token>JabbR]],Collection</token>
+</entry>
+<entry count="1">
+<token>-&gt;</token>
+<token>Voat.Data.Models.Comment,</token>
+<token>Voat.Data]],Include</token>
+<token>System.Data.Entity.Infrastructure.DbQuery`1[[TResult</token>
+</entry>
+<entry count="2">
+<token>-&gt;</token>
+<token>JabbR.Models.ChatUser,</token>
+<token>JabbR],[TElement</token>
+<token>-&gt;</token>
+</entry>
+<entry count="3">
+<token>System.Data.Entity.Infrastructure.DbQuery`1[[TResult</token>
+<token>-&gt;</token>
+<token>TAggregateRoot]],Include</token>
+<token>System.Data.Entity.Infrastructure.DbQuery`1[[TResult</token>
+</entry>
+<entry count="2">
+<token>System.Data.Entity.Infrastructure.DbQuery`1[[TResult</token>
+<token>-&gt;</token>
+<token>Voat.Data.Models.Comment,</token>
+<token>Voat.Data]],Include</token>
+</entry>
+<entry count="2">
+<token>-&gt;</token>
+<token>JabbR.Models.ChatUser,</token>
+<token>JabbR]],Collection</token>
+<token>System.Data.Entity.Infrastructure.DbCollectionEntry`2[[TEntity</token>
+<token>-&gt;</token>
 </entry>
 </dictionary>
