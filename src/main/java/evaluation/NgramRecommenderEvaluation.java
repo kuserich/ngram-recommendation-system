@@ -81,21 +81,21 @@ public class NgramRecommenderEvaluation {
             // if the correct type is identified, you can cast it...
             CompletionEvent ce = (CompletionEvent) event;
             List<IProposal> proposals = ce.proposalCollection;
-            List<IProposalSelection> selections = ce.selections;
+            List<IProposalSelection> selections = ce.selections; // positive: last
             
             if(proposals.size() > 0) {
-                System.out.println("Proposals: "+proposals.size());
+//                System.out.println("Proposals: "+proposals.size());
                 
                 if(selections.size() > 0) {
-                    System.out.println("Selections: "+selections.size());
+//                    System.out.println("Selections: "+selections.size());
                     
-                    System.out.println("Events: "+ce.context.getSST().getEvents());
+//                    System.out.println("Events: "+ce.context.getSST().getEvents());
                     APISentenceTree asp = new APISentenceTree();
                     for(IMethodDeclaration method : ce.context.getSST().getMethods()) {
                         method.accept(new APIVisitor(), asp);
-                        System.out.println(asp.toString(2));
+//                        System.out.println(asp.toString(2));
                         if(asp.getTokens().size() > 0 || asp.getBranches().size() > 0) {
-                            System.out.println("here i guess");
+//                            System.out.println("here i guess");
                         }
                     }
                 }

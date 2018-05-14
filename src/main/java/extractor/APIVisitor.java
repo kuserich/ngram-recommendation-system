@@ -304,8 +304,8 @@ public class APIVisitor implements ISSTNodeVisitor<APISentenceTree, APIToken> {
 
     @Override
     public APIToken visit(ICompletionExpression statement, APISentenceTree context) {
-        System.out.println("CompletionExpression");
-        statement.getVariableReference().accept(this, context);
+        System.out.println("COMPLETION EXPRESSION FROM VISITOR");
+//        statement.getVariableReference().accept(this, context);
         return null;
     }
 
@@ -476,6 +476,7 @@ public class APIVisitor implements ISSTNodeVisitor<APISentenceTree, APIToken> {
 
     @Override
     public APIToken visit(ILambdaExpression statement, APISentenceTree context) {
+        // TODO: perhaps as new sentencetree
         return this.visit(statement.getBody(), context);
     }
 

@@ -19,23 +19,23 @@ public class RunExample {
     public static String eventsDir = "Events-170301-2";
 
     public static void main(String[] args) throws IOException {
-        System.out.println("\n+-----------------------------------------------------------+");
+        /*System.out.println("\n+-----------------------------------------------------------+");
         System.out.println("|                                                           |");
         System.out.println("| Stepwise API usage assistance using ngram language models |");
         System.out.println("|                                                           |");
-     /*   System.out.println("+-----------------------------------------------------------+");
+        System.out.println("+-----------------------------------------------------------+");
         System.out.println("| SENTENCE EXTRACTION                                       |");
         System.out.println("+-----------------------------------------------------------+");
 
-        extractSentences();*/
+        extractSentences();
 
         System.out.println("+-----------------------------------------------------------+");
         System.out.println("| MDOEL TRAINING                                            |");
         System.out.println("+-----------------------------------------------------------+");
         
-        trainModels();
+        trainModels();*/
 //        predictionExample();
-//        evaluationExample();
+        evaluationExample();
     }
 
     /**
