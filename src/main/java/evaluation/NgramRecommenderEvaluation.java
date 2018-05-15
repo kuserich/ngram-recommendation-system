@@ -84,29 +84,37 @@ public class NgramRecommenderEvaluation {
             List<IProposalSelection> selections = ce.selections; // positive: last
 
             if (proposals.size() > 0) {
-               //System.out.println("Proposals: "+proposals.size());
+                //System.out.println("Proposals: "+proposals.size());
 
                 if (selections.size() > 0) {
-                    // Last of selection is selected event if it is a completion event
-                    System.out.println("=================================");
-                    System.out.println("Selected Event: " + selections.get(selections.size() - 1));
-                    System.out.println("=================================");
-                    System.out.println("Kontext " +ce.context);
-                    System.out.println("=================================");
-                    System.out.println("=================================");
+                    // Last of selection is selected event
 
+                    String name = selections.get(selections.size() - 1).getProposal().getName().toString();
 
+                    if (!name.contains("LocalVariableName")) {
+                        System.out.println("=================================");
+                        System.out.println("************ Active Document, could be API Name ************");
+                        System.out.println(ce.ActiveDocument);
+                        System.out.println("************EnclosingType: typename of the type under edit ************");
+                        System.out.println(ce.context.getSST().getEnclosingType());
+                        System.out.println("************ Selection Event ************");
+                        System.out.println(selections.get(selections.size() - 1).getProposal());
+                        System.out.println("=================================");
+                        System.out.println("=================================");
+
+                    }
+                    //System.out.println("Kontext " +ce.context.getSST().getEntryPoints());
 
 
                     //System.out.println("Events: "+ce.context.getSST().getEvents());
                     //APISentenceTree asp = new APISentenceTree();
 
                     //for (IMethodDeclaration method : ce.context.getSST().getMethods()) {
-                        //method.accept(new APIVisitor(), asp);
-                        //                       System.out.println(asp.toString(2));
-                        //if (asp.getTokens().size() > 0 || asp.getBranches().size() > 0) {
+                    //method.accept(new APIVisitor(), asp);
+                    //                       System.out.println(asp.toString(2));
+                    //if (asp.getTokens().size() > 0 || asp.getBranches().size() > 0) {
 //                            System.out.println("here i guess");
-                      //  }
+                    //  }
                     //}
                 }
             }
