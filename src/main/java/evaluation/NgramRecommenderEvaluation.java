@@ -23,7 +23,7 @@ public class NgramRecommenderEvaluation {
         // .zip file in the dataset corresponds to one user.
 
         List<String> zips = Lists.newLinkedList();
-        for (File f : FileUtils.listFiles(new File(inputDirectory), new String[] { "zip" }, true)) {
+        for (File f : FileUtils.listFiles(new File(inputDirectory), new String[]{"zip"}, true)) {
             zips.add(f.getAbsolutePath());
         }
         return zips;
@@ -77,27 +77,37 @@ public class NgramRecommenderEvaluation {
         // once you have access to the instantiated event you can dispatch the
         // type. As the events are not nested, we did not implement the visitor
         // pattern, but resorted to instanceof checks.
-        if(event instanceof CompletionEvent) {
+        if (event instanceof CompletionEvent) {
             // if the correct type is identified, you can cast it...
             CompletionEvent ce = (CompletionEvent) event;
             List<IProposal> proposals = ce.proposalCollection;
             List<IProposalSelection> selections = ce.selections; // positive: last
-            
-            if(proposals.size() > 0) {
-//                System.out.println("Proposals: "+proposals.size());
-                
-                if(selections.size() > 0) {
-//                    System.out.println("Selections: "+selections.size());
-                    
-//                    System.out.println("Events: "+ce.context.getSST().getEvents());
-                    APISentenceTree asp = new APISentenceTree();
-                    for(IMethodDeclaration method : ce.context.getSST().getMethods()) {
-                        method.accept(new APIVisitor(), asp);
-//                        System.out.println(asp.toString(2));
-                        if(asp.getTokens().size() > 0 || asp.getBranches().size() > 0) {
+
+            if (proposals.size() > 0) {
+               //System.out.println("Proposals: "+proposals.size());
+
+                if (selections.size() > 0) {
+                    // Last of selection is selected event if it is a completion event
+                    System.out.println("=================================");
+                    System.out.println("Selected Event: " + selections.get(selections.size() - 1));
+                    System.out.println("=================================");
+                    System.out.println("Kontext " +ce.context);
+                    System.out.println("=================================");
+                    System.out.println("=================================");
+
+
+
+
+                    //System.out.println("Events: "+ce.context.getSST().getEvents());
+                    //APISentenceTree asp = new APISentenceTree();
+
+                    //for (IMethodDeclaration method : ce.context.getSST().getMethods()) {
+                        //method.accept(new APIVisitor(), asp);
+                        //                       System.out.println(asp.toString(2));
+                        //if (asp.getTokens().size() > 0 || asp.getBranches().size() > 0) {
 //                            System.out.println("here i guess");
-                        }
-                    }
+                      //  }
+                    //}
                 }
             }
             // ...and access the special context for this kind of event
@@ -108,5 +118,5 @@ public class NgramRecommenderEvaluation {
             // website for the documentation of the semantics of each event...
         }
     }
-    
+
 }
