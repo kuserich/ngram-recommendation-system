@@ -119,7 +119,7 @@ public class RunExample {
 
     }
     
-    public static void evaluationExample() {
+    public static void evaluationExample() throws IOException {
         NgramRecommenderEvaluation.readAllEvents(eventsDir);
     }
 }

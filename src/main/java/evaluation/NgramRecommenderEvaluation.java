@@ -1,22 +1,30 @@
 package evaluation;
 
-import cc.kave.commons.model.events.CommandEvent;
 import cc.kave.commons.model.events.IIDEEvent;
 import cc.kave.commons.model.events.completionevents.CompletionEvent;
 import cc.kave.commons.model.events.completionevents.IProposal;
 import cc.kave.commons.model.events.completionevents.IProposalSelection;
-import cc.kave.commons.model.ssts.declarations.IMethodDeclaration;
+import cc.kave.commons.model.naming.codeelements.IMethodName;
+import cc.kave.commons.model.typeshapes.IMemberHierarchy;
+import cc.kave.commons.utils.io.Directory;
 import cc.kave.commons.utils.io.ReadingArchive;
 import cc.kave.commons.utils.io.json.JsonUtils;
 import com.google.common.collect.Lists;
-import extractor.APISentenceTree;
-import extractor.APIVisitor;
+import ngram.NgramRecommenderClient;
+import opennlp.tools.util.StringList;
 import org.apache.commons.io.FileUtils;
+import org.apache.commons.lang.ObjectUtils;
 
 import java.io.File;
-import java.util.List;
+import java.io.IOException;
+import java.util.*;
+
 
 public class NgramRecommenderEvaluation {
+    private static String modelsDir = "models/";
+    private static Set<String> inputFiles = new Directory(modelsDir).findFiles(s -> s.endsWith(".xml"));
+    private static int coutner = 0;
+
 
     private static List<String> findAllUsers(String inputDirectory) {
         // This step is straight forward, as events are grouped by user. Each
@@ -29,7 +37,7 @@ public class NgramRecommenderEvaluation {
         return zips;
     }
 
-    public static void readAllEvents(String inputDirectory) {
+    public static void readAllEvents(String inputDirectory) throws IOException {
         // each .zip file corresponds to a user
         List<String> userZips = findAllUsers(inputDirectory);
 
@@ -50,7 +58,7 @@ public class NgramRecommenderEvaluation {
     /**
      * 3: Reading the plain JSON representation
      */
-    public static void readPlainEvents(String inputDirectory) {
+    public static void readPlainEvents(String inputDirectory) throws IOException {
         // the example is basically the same as before, but...
         List<String> userZips = findAllUsers(inputDirectory);
 
@@ -73,7 +81,7 @@ public class NgramRecommenderEvaluation {
     /**
      * 4: Processing events
      */
-    private static void process(IIDEEvent event) {
+    private static void process(IIDEEvent event) throws IOException {
         // once you have access to the instantiated event you can dispatch the
         // type. As the events are not nested, we did not implement the visitor
         // pattern, but resorted to instanceof checks.
@@ -91,31 +99,57 @@ public class NgramRecommenderEvaluation {
 
                     String name = selections.get(selections.size() - 1).getProposal().getName().toString();
 
+
                     if (!name.contains("LocalVariableName")) {
-                        System.out.println("=================================");
-                        System.out.println("************ Active Document, could be API Name ************");
-                        System.out.println(ce.ActiveDocument);
-                        System.out.println("************EnclosingType: typename of the type under edit ************");
-                        System.out.println(ce.context.getSST().getEnclosingType());
-                        System.out.println("************ Selection Event ************");
-                        System.out.println(selections.get(selections.size() - 1).getProposal());
-                        System.out.println("=================================");
-                        System.out.println("=================================");
+                        /*if (ce.context.getTypeShape().getMethodHierarchies().iterator().hasNext()) {
+
+                            IMemberHierarchy<IMethodName> entry = ce.context.getTypeShape().getMethodHierarchies().iterator().next();
+                            String identifier = entry.getElement().getDeclaringType().getNamespace().getIdentifier();
+
+
+                            if (namespaceExists(identifier)) {
+                                Set<String> ns = getNamespaces(identifier);
+
+                                String operation = ce.context.getSST().getEnclosingType().getName();
+                                String type = ce.context.getSST().getEnclosingType().getFullName();
+
+                                System.out.println("==================================================================");
+                                System.out.println("************ Active Document, could be API Name ************");
+                                System.out.println("[INFO] XML NAMESPACE / S " + ns.toString() + " EXIST!!");
+                                System.out.println("==================================================================");
+                                System.out.println("************ EnclosingType: typename of the type under edit ************");
+                                System.out.println("[INFO] Type,operation: " + type + "," + operation);
+                                System.out.println("\n");
+                                testWithModel(ns, type, operation);
+                                System.out.println("\n");
+                                System.out.println("************************************************************************");
+                            }
+                        }*/
+
+                        System.out.println("************ Selection Event from the User ************");
+
+                        String selection = selections.get(selections.size() - 1).getProposal().getName().getIdentifier();
+                        System.out.println(selection);
+
+                        System.out.printf("getname %s%n", selections.get(selections.size() - 1).getProposal().getName().getIdentifier());
+                        System.out.printf("getname %s%n", selections.get(selections.size() - 1).getProposal().getName().getIdentifier());
+
+                        System.out.println("==================================================================");
 
                     }
                     //System.out.println("Kontext " +ce.context.getSST().getEntryPoints());
 
 
-                    //System.out.println("Events: "+ce.context.getSST().getEvents());
-                    //APISentenceTree asp = new APISentenceTree();
+                    //System.out.println("Events: " + ce.context.getSST().getEvents());
+//                    APISentenceTree asp = new APISentenceTree();
 
                     //for (IMethodDeclaration method : ce.context.getSST().getMethods()) {
                     //method.accept(new APIVisitor(), asp);
-                    //                       System.out.println(asp.toString(2));
+
                     //if (asp.getTokens().size() > 0 || asp.getBranches().size() > 0) {
-//                            System.out.println("here i guess");
-                    //  }
+                    //  System.out.println(asp);
                     //}
+                    // }
                 }
             }
             // ...and access the special context for this kind of event
@@ -125,6 +159,43 @@ public class NgramRecommenderEvaluation {
             // that you browse the package to see all types and consult the
             // website for the documentation of the semantics of each event...
         }
+    }
+
+    private static void testWithModel(Set<String> ns, String type, String operation) throws IOException {
+
+        for (String s : ns) {
+            NgramRecommenderClient nrc = new NgramRecommenderClient(s);
+
+            System.out.println("************Model Predicts Next Tokens ************");
+            try {
+                System.out.println("[INFO] " + nrc.query(new StringList(type + "," + operation)));
+
+            } catch (IndexOutOfBoundsException e) {
+                System.out.println(e);
+            }
+        }
+
+    }
+
+    private static boolean namespaceExists(String s) {
+        boolean found = false;
+        for (String entry : inputFiles) {
+            if (s.length() > 0 && entry.contains(s)) {
+                found = true;
+            }
+        }
+        return found;
+    }
+
+    private static Set<String> getNamespaces(String s) {
+        Set<String> namespaces = new HashSet<String>();
+
+        for (String entry : inputFiles) {
+            if (s.length() > 0 && entry.contains(s)) {
+                namespaces.add("models/" + entry);
+            }
+        }
+        return namespaces;
     }
 
 }
