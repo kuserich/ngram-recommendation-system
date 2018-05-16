@@ -97,10 +97,12 @@ public class NgramRecommenderEvaluation {
                 if (selections.size() > 0) {
                     // Last of selection is selected event
 
-                    String name = selections.get(selections.size() - 1).getProposal().getName().toString();
+                    String selected = selections.get(selections.size() - 1).getProposal().getName().getIdentifier();
+                    //System.out.println(selections.get(selections.size() - 1).getProposal().getName());
 
 
-                    if (!name.contains("LocalVariableName")) {
+                    // Remove the events that dont matter from my view
+                    if (!selected.contains("LocalVariableName") && !selected.contains("LookupItem") && !selected.contains("???")) {
                         /*if (ce.context.getTypeShape().getMethodHierarchies().iterator().hasNext()) {
 
                             IMemberHierarchy<IMethodName> entry = ce.context.getTypeShape().getMethodHierarchies().iterator().next();
@@ -126,15 +128,14 @@ public class NgramRecommenderEvaluation {
                             }
                         }*/
 
-                        System.out.println("************ Selection Event from the User ************");
 
-                        String selection = selections.get(selections.size() - 1).getProposal().getName().getIdentifier();
-                        System.out.println(selection);
+                        constructSelected(selected);
+                        //String selection = selections.get(selections.size() - 1).getProposal().getName().getIdentifier();
 
-                        System.out.printf("getname %s%n", selections.get(selections.size() - 1).getProposal().getName().getIdentifier());
-                        System.out.printf("getname %s%n", selections.get(selections.size() - 1).getProposal().getName().getIdentifier());
 
-                        System.out.println("==================================================================");
+                        //System.out.printf("getname %s%n", selections.get(selections.size() - 1).getProposal().getName().getIdentifier());
+                        //System.out.printf("getname %s%n", selections.get(selections.size() - 1).getProposal().getName().getIdentifier());
+
 
                     }
                     //System.out.println("Kontext " +ce.context.getSST().getEntryPoints());
@@ -159,6 +160,21 @@ public class NgramRecommenderEvaluation {
             // that you browse the package to see all types and consult the
             // website for the documentation of the semantics of each event...
         }
+    }
+
+    private static void constructSelected(String selected) {
+        // Possible starts with:   set get, get, static, directly, [], [?], numbers alsways most of the time at the end, 2 arrays in each other, -> problems
+
+        String operation = "";
+        if(selected.contains("..ctor()")) {
+            operation = "new";
+        } else {
+            System.out.println("************ Selection Event from the User ************");
+            System.out.println(selected);
+            System.out.println("==================================================================");
+
+        }
+        //System.out.println("[INFO] Type,operation: " + type + "," + operation);
     }
 
     private static void testWithModel(Set<String> ns, String type, String operation) throws IOException {
