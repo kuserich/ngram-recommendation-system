@@ -166,12 +166,18 @@ public class NgramRecommenderEvaluation {
         // Possible starts with:   set get, get, static, directly, [], [?], numbers alsways most of the time at the end, 2 arrays in each other, -> problems
 
         String operation = "";
-        if(selected.contains("..ctor()")) {
+        if (selected.contains("..ctor()")) {
             operation = "new";
+        } else if (selected.startsWith("static")) {
+            //System.out.println(selected);
+        } else if (selected.startsWith("set get")) {
+            //System.out.println(selected);
+        } else if (selected.startsWith("get")) {
+            System.out.println(selected.split("").toString());
         } else {
-            System.out.println("************ Selection Event from the User ************");
-            System.out.println(selected);
-            System.out.println("==================================================================");
+            //System.out.println("************ Selection Event from the User ************");
+            //System.out.println(selected);
+            //System.out.println("==================================================================");
 
         }
         //System.out.println("[INFO] Type,operation: " + type + "," + operation);
