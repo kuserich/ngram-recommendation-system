@@ -1,6 +1,7 @@
 package evaluation;
 
 import opennlp.tools.util.StringList;
+
 import java.util.ArrayList;
 
 public class ProposalParser {
@@ -16,7 +17,6 @@ public class ProposalParser {
         parseSelectedProposal();
         return tokens;
     }
-
 
 
     private void parseSelectedProposal() {
@@ -37,14 +37,10 @@ public class ProposalParser {
     /**
      * Cleanes starting strings
      *
-     * @param selected
-     *          Give Selected Input
-     * @return
-     *      String
+     * @param selected Give Selected Input
+     * @return String
      */
     private String replaceStartingStrings(String selected) {
-        System.out.println("BEFORE CLEANING");
-        System.out.println(selected);
         return selected.replace("get ", "")
                 .replace("static ", "")
                 .replace("directly ", "")
@@ -55,13 +51,11 @@ public class ProposalParser {
      * Removes type declarations,
      * Splites with lookback regex
      * Ignores unwanted entry parts
-     *
+     * <p>
      * returns null if the parsing was not possible
      *
-     * @param replaced
-     *          Given to Replace INput
-     * @return
-     *       Returns stringlist for input into model
+     * @param replaced Given to Replace Input
+     * @return Returns stringlist for input into model
      */
     private StringList splitAndCleane(String replaced) {
         ArrayList<String> cleaned = removeTypeDeclarations(replaced);
@@ -94,11 +88,8 @@ public class ProposalParser {
     /**
      * StringList output builder
      *
-     * @param tokenList
-     *          List that has the built tokens
-     * @return
-     *      StringList with concat tokens
-     *
+     * @param tokenList List that has the built tokens
+     * @return StringList with concat tokens
      */
     private StringList getOutput(ArrayList<String> tokenList) {
         StringBuilder tokenString = new StringBuilder();
@@ -113,10 +104,8 @@ public class ProposalParser {
     /**
      * Explode the string with lookback
      *
-     * @param e
-     *         Part of Selected String
-     * @return
-     *      Returns splitted Returns splitted String[]
+     * @param e Part of Selected String
+     * @return Returns splitted Returns splitted String[]
      */
     private String[] lookBehindSplit(String e) {
         return e.split("(?<=\\])|(?=\\[)");
@@ -125,12 +114,9 @@ public class ProposalParser {
     /**
      * Build the Token with type and operation
      *
-     * @param type
-     *          Type of the Proposal
-     * @param operation
-     *          Operation String of Proposal
-     * @return
-     *      Concated Token in form for Model
+     * @param type      Type of the Proposal
+     * @param operation Operation String of Proposal
+     * @return Concated Token in form for Model
      */
     private String buildToken(String type, String operation) {
         return type + "," + operation;
@@ -139,10 +125,8 @@ public class ProposalParser {
     /**
      * Split and Remove Type declaraions from given string
      *
-     * @param replaced
-     *          Preprocesed input
-     * @return
-     *      Removed Type declaration from String
+     * @param replaced Preprocesed input
+     * @return Removed Type declaration from String
      */
     private ArrayList<String> removeTypeDeclarations(String replaced) {
         ArrayList<String> output = new ArrayList<>();
