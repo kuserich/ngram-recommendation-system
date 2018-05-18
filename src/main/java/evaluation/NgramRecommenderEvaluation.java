@@ -13,7 +13,6 @@ import com.google.common.collect.Lists;
 import ngram.NgramRecommenderClient;
 import opennlp.tools.util.StringList;
 import org.apache.commons.io.FileUtils;
-import org.apache.commons.lang.ObjectUtils;
 
 import java.io.File;
 import java.io.IOException;
@@ -103,7 +102,7 @@ public class NgramRecommenderEvaluation {
 
                     // Remove the events that dont matter from my view
                     if (!selected.contains("LocalVariableName") && !selected.contains("LookupItem") && !selected.contains("???")) {
-                        /*if (ce.context.getTypeShape().getMethodHierarchies().iterator().hasNext()) {
+                        if (ce.context.getTypeShape().getMethodHierarchies().iterator().hasNext()) {
 
                             IMemberHierarchy<IMethodName> entry = ce.context.getTypeShape().getMethodHierarchies().iterator().next();
                             String identifier = entry.getElement().getDeclaringType().getNamespace().getIdentifier();
@@ -122,14 +121,20 @@ public class NgramRecommenderEvaluation {
                                 System.out.println("************ EnclosingType: typename of the type under edit ************");
                                 System.out.println("[INFO] Type,operation: " + type + "," + operation);
                                 System.out.println("\n");
-                                testWithModel(ns, type, operation);
+                                ProposalParser bunchOfTokens = new ProposalParser(selected);
+                                StringList tokens = bunchOfTokens.getTokens();
+                                if (tokens != null) {
+                                    testWithModel(ns, type, operation);
+
+                                    System.out.println("************ Actuall Output ************");
+                                    System.out.println(tokens);
+
+                                }
                                 System.out.println("\n");
                                 System.out.println("************************************************************************");
                             }
-                        }*/
+                        }
 
-
-                        constructSelected(selected);
                         //String selection = selections.get(selections.size() - 1).getProposal().getName().getIdentifier();
 
 
@@ -162,26 +167,6 @@ public class NgramRecommenderEvaluation {
         }
     }
 
-    private static void constructSelected(String selected) {
-        // Possible starts with:   set get, get, static, directly, [], [?], numbers alsways most of the time at the end, 2 arrays in each other, -> problems
-
-        String operation = "";
-        if (selected.contains("..ctor()")) {
-            operation = "new";
-        } else if (selected.startsWith("static")) {
-            //System.out.println(selected);
-        } else if (selected.startsWith("set get")) {
-            //System.out.println(selected);
-        } else if (selected.startsWith("get")) {
-            System.out.println(selected.split("").toString());
-        } else {
-            //System.out.println("************ Selection Event from the User ************");
-            //System.out.println(selected);
-            //System.out.println("==================================================================");
-
-        }
-        //System.out.println("[INFO] Type,operation: " + type + "," + operation);
-    }
 
     private static void testWithModel(Set<String> ns, String type, String operation) throws IOException {
 
