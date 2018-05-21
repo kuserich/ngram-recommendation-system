@@ -57,6 +57,12 @@ public class NgramRecommenderEvaluation {
             }
             ra.close();
         }
+        System.out.println("************ Number of found NameSpaces ************");
+        System.out.println("[INFO] Possible Namespaces " + possibleNameSpaceCounter);
+        System.out.println("[INFO] Hitted Namespaces " + NameSpaceCoutner);
+        System.out.println("[INFO] #Correctly Predicted" + correctlyPredicted);
+        System.out.println("[INFO] All Predictions " + allPredictions);
+        System.out.println("[INFO] Precision" + correctlyPredicted / allPredictions);
     }
 
     /**
@@ -80,13 +86,6 @@ public class NgramRecommenderEvaluation {
             }
             ra.close();
         }
-        System.out.println("************ Number of found NameSpaces ************");
-        System.out.println("[INFO] Possible Namespaces " + possibleNameSpaceCounter);
-        System.out.println("[INFO] Hitted Namespaces " + NameSpaceCoutner);
-        System.out.println("[INFO] #Correctly Predicted" + correctlyPredicted);
-        System.out.println("[INFO] All Predictions " + allPredictions);
-        System.out.println("[INFO] Precision" + correctlyPredicted / allPredictions);
-
     }
 
     /**
@@ -103,13 +102,11 @@ public class NgramRecommenderEvaluation {
             List<IProposalSelection> selections = ce.selections; // positive: last
 
             if (proposals.size() > 0) {
-                //System.out.println("Proposals: "+proposals.size());
 
                 if (selections.size() > 0) {
                     // Last of selection is selected event
 
                     String selected = selections.get(selections.size() - 1).getProposal().getName().getIdentifier();
-                    //System.out.println(selections.get(selections.size() - 1).getProposal().getName());
 
                     // Remove the events that dont matter from my view
                     if (!selected.contains("LocalVariableName") && !selected.contains("???")) {
@@ -168,14 +165,12 @@ public class NgramRecommenderEvaluation {
                     }
                 }
             }
-        } else {
-            // there a many different event types to process, it is recommended
-            // that you browse the package to see all types and consult the
-            // website for the documentation of the semantics of each event...
         }
     }
 
-
+    /**
+     * Compare the selected with the model
+     */
     private static void testWithModel(Set<String> ns, String type, String operation, String selected) throws IOException {
 
         //TODO: only return the one with highest proba
@@ -207,6 +202,12 @@ public class NgramRecommenderEvaluation {
         return one.contains(two) || two.contains(one);
     }
 
+    /**
+     * Check if namespace exists
+     *
+     * @param s
+     * @return
+     */
     private static boolean namespaceExists(String s) {
         boolean found = false;
         for (String entry : inputFiles) {
@@ -217,6 +218,12 @@ public class NgramRecommenderEvaluation {
         return found;
     }
 
+    /**
+     * Get Namespaces for each entry
+     *
+     * @param s
+     * @return
+     */
     private static Set<String> getNamespaces(String s) {
         Set<String> namespaces = new HashSet<String>();
 

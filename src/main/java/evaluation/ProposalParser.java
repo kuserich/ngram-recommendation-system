@@ -20,15 +20,6 @@ public class ProposalParser {
 
 
     private void parseSelectedProposal() {
-        //TODO:
-        // Possible starts with:   set get, get, static, directly, [], [?], numbers alsways most of the time at the end, 2 arrays in each other, -> problems
-
-        // AWARE: ..ctor() was not replaced with new,
-        //set get [T] [i:System.Collections.Generic.IList`1[[T]], mscorlib, 4.0.0.0].Item([p:int] index)
-        //static [TSource] [System.Linq.Enumerable, System.Core, 4.0.0.0].FirstOrDefault`1[[TSource]](this [i:System.Collections.Generic.IEnumerable`1[[T]], mscorlib, 4.0.0.0] source)
-        //klammern sind ein problem
-        //  handle !item.contains("->")
-        // Still lots of null returns
 
         String cleanedInput = replaceStartingStrings(selected);
         tokens = splitAndCleane(cleanedInput);
