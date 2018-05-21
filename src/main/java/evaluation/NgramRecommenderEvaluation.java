@@ -11,7 +11,6 @@ import cc.kave.commons.utils.io.ReadingArchive;
 import cc.kave.commons.utils.io.json.JsonUtils;
 import cc.kave.rsse.calls.datastructures.Tuple;
 import com.google.common.collect.Lists;
-import com.sun.org.apache.xml.internal.utils.NameSpace;
 import ngram.NgramRecommenderClient;
 import opennlp.tools.util.StringList;
 import org.apache.commons.io.FileUtils;
@@ -25,6 +24,10 @@ public class NgramRecommenderEvaluation {
     private static String modelsDir = "models/";
     private static Set<String> inputFiles = new Directory(modelsDir).findFiles(s -> s.endsWith(".xml"));
     private static int NameSpaceCoutner = 0;
+    private static int possibleNameSpaceCounter = 0;
+
+    private static int correctlyPredicted = 0;
+    private static int allPredictions = 0;
 
 
     private static List<String> findAllUsers(String inputDirectory) {
@@ -78,7 +81,11 @@ public class NgramRecommenderEvaluation {
             ra.close();
         }
         System.out.println("************ Number of found NameSpaces ************");
-        System.out.println(NameSpaceCoutner);
+        System.out.println("[INFO] Possible Namespaces " + possibleNameSpaceCounter);
+        System.out.println("[INFO] Hitted Namespaces " + NameSpaceCoutner);
+        System.out.println("[INFO] #Correctly Predicted" + correctlyPredicted);
+        System.out.println("[INFO] All Predictions " + allPredictions);
+        System.out.println("[INFO] Precision" + correctlyPredicted / allPredictions);
 
     }
 
@@ -104,14 +111,14 @@ public class NgramRecommenderEvaluation {
                     String selected = selections.get(selections.size() - 1).getProposal().getName().getIdentifier();
                     //System.out.println(selections.get(selections.size() - 1).getProposal().getName());
 
-
                     // Remove the events that dont matter from my view
-                    if (!selected.contains("LocalVariableName") && !selected.contains("LookupItem") && !selected.contains("???")) {
+                    if (!selected.contains("LocalVariableName") && !selected.contains("???")) {
                         if (ce.context.getTypeShape().getMethodHierarchies().iterator().hasNext()) {
 
                             IMemberHierarchy<IMethodName> entry = ce.context.getTypeShape().getMethodHierarchies().iterator().next();
                             String identifier = entry.getElement().getDeclaringType().getNamespace().getIdentifier();
 
+                            possibleNameSpaceCounter = possibleNameSpaceCounter + 1;
 
                             if (namespaceExists(identifier)) {
                                 Set<String> ns = getNamespaces(identifier);
@@ -138,6 +145,8 @@ public class NgramRecommenderEvaluation {
                                     System.out.println("************ Actuall Output ************");
                                     System.out.println("[INFO] Uncleaned: " + selected);
                                     System.out.println("[INFO] Parsed Token: " + tokens);
+                                    testWithModel(ns, type, operation, tokens.toString());
+
 
                                 } else {
 
@@ -145,10 +154,11 @@ public class NgramRecommenderEvaluation {
 
                                     System.out.println("************ Actuall Output ************");
                                     System.out.println("[INFO] Unparsed: " + selected);
+                                    testWithModel(ns, type, operation, selected);
 
                                 }
-                                testWithModel(ns, type, operation);
-
+                                NameSpaceCoutner = NameSpaceCoutner + 1;
+                                System.out.println(NameSpaceCoutner);
 
                                 System.out.println("\n");
                                 System.out.println("\n");
@@ -166,7 +176,7 @@ public class NgramRecommenderEvaluation {
     }
 
 
-    private static void testWithModel(Set<String> ns, String type, String operation) throws IOException {
+    private static void testWithModel(Set<String> ns, String type, String operation, String selected) throws IOException {
 
         //TODO: only return the one with highest proba
 
@@ -175,12 +185,26 @@ public class NgramRecommenderEvaluation {
 
             try {
                 System.out.println("[INFO] " + nrc.query(new StringList(type + "," + operation)));
+                Set<Tuple<IMethodName, Double>> predictions = nrc.query(new StringList(type + "," + operation));
+
+
+                if (compareStrings(predictions.toString(), selected)) {
+                    correctlyPredicted = correctlyPredicted + 1;
+                    allPredictions = allPredictions + 1;
+                } else {
+                    allPredictions = allPredictions + 1;
+                }
 
 
             } catch (IndexOutOfBoundsException e) {
                 System.out.println(e);
             }
         }
+    }
+
+    private static boolean compareStrings(String one, String two) {
+
+        return one.contains(two) || two.contains(one);
     }
 
     private static boolean namespaceExists(String s) {
@@ -199,8 +223,7 @@ public class NgramRecommenderEvaluation {
         for (String entry : inputFiles) {
             if (s.length() > 0 && entry.contains(s)) {
                 namespaces.add("models/" + entry);
-                NameSpaceCoutner = NameSpaceCoutner + 1;
-                System.out.println(NameSpaceCoutner);
+
 
             }
         }
