@@ -62,7 +62,7 @@ public class NgramRecommenderEvaluation {
         System.out.println("[INFO] Hitted Namespaces " + NameSpaceCoutner);
         System.out.println("[INFO] #Correctly Predicted " + correctlyPredicted);
         System.out.println("[INFO] All Predictions " + allPredictions);
-        System.out.println("[INFO] Precision " + correctlyPredicted / allPredictions);
+        System.out.println("[INFO] Precision " + (double) correctlyPredicted / allPredictions);
     }
 
     /**
