@@ -23,6 +23,7 @@ import opennlp.tools.util.StringList;
 import org.apache.commons.io.FileUtils;
 import util.Utilities;
 
+import javax.xml.bind.SchemaOutputResolver;
 import java.io.File;
 import java.io.IOException;
 import java.util.*;
@@ -189,6 +190,8 @@ public class NgramRecommenderEvaluation {
                     System.out.println("[INFO]\tNo CompletionExpression and/or APITokens found.");
                 }
             }
+
+            System.out.println("[INFO]\tPredictions: "+correctlyPredicted + "/" + allPredictions + "  - (correct/all)");
         }
     }
     
@@ -282,8 +285,11 @@ public class NgramRecommenderEvaluation {
         try {
             NgramRecommenderClient nrc = new NgramRecommenderClient(modelsDir+getModelForNamespace(expected.getNamespace()));
             Set<Tuple<IMethodName, Double>> predictions = nrc.query(Utilities.apiSentenceToStringList(sentence));
-
-            if (compareStrings(predictions.toString(), expected.getType()+","+expected.getOperation())) {
+            System.out.println("============= PREDICTION =============");
+            System.out.println(predictions);
+            System.out.println("============= ACTUAL =============");
+            System.out.println(expected.toString());
+            if(compareStrings(predictions.toString(), expected.getType()+","+expected.getOperation())) {
                 correctlyPredicted = correctlyPredicted + 1;
                 allPredictions = allPredictions + 1;
                 System.out.println("IS CORRECT");
