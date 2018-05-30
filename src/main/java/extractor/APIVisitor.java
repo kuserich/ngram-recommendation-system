@@ -15,7 +15,9 @@ import cc.kave.commons.model.ssts.expressions.simple.IReferenceExpression;
 import cc.kave.commons.model.ssts.expressions.simple.IUnknownExpression;
 import cc.kave.commons.model.ssts.references.*;
 import cc.kave.commons.model.ssts.statements.*;
+import cc.kave.commons.model.ssts.visitor.ISSTNode;
 import cc.kave.commons.model.ssts.visitor.ISSTNodeVisitor;
+import util.Utilities;
 
 import java.util.List;
 
@@ -304,8 +306,6 @@ public class APIVisitor implements ISSTNodeVisitor<APISentenceTree, APIToken> {
 
     @Override
     public APIToken visit(ICompletionExpression statement, APISentenceTree context) {
-        System.out.println("COMPLETION EXPRESSION FROM VISITOR " + context);
-//        statement.getVariableReference().accept(this, context);
         return null;
     }
 
@@ -343,7 +343,7 @@ public class APIVisitor implements ISSTNodeVisitor<APISentenceTree, APIToken> {
         
         IMethodName methodName = statement.getMethodName();
         if(methodName.getDeclaringType().getAssembly().isLocalProject() 
-                || hasIllegalMethodName(methodName)) {
+                || Utilities.hasIllegalMethodName(methodName)) {
             return null;
         }
 
@@ -393,6 +393,12 @@ public class APIVisitor implements ISSTNodeVisitor<APISentenceTree, APIToken> {
     public APIToken visit(ILoopHeaderBlockExpression statement, APISentenceTree context) {
         return this.visit(statement.getBody(), context);
     }
+
+    @Override
+    public APIToken visit(ILambdaExpression statement, APISentenceTree context) {
+        // TODO: perhaps as new sentencetree
+        return this.visit(statement.getBody(), context);
+    }
     
     // Generic
 
@@ -421,31 +427,6 @@ public class APIVisitor implements ISSTNodeVisitor<APISentenceTree, APIToken> {
         }
         return null;
     }
-
-    // Utilities
-
-    /**
-     * Returns whether the given method name contains illegal name or namespace.
-     *
-     * We have noticed during development that there are a lot of method names 
-     * that only contain question marks. As we cannot use this in any meaningful
-     * way we have decided to remove them.
-     *
-     * @see #visit(IInvocationExpression, APISentenceTree)
-     *          the function that uses {@link #hasIllegalMethodName(IMethodName)}
-     *
-     * @param methodName
-     *          Method name of a statement (usually an {@link IInvocationExpression}
-     * @return
-     *          boolean statement whether the given method name has an 'illegal'
-     *          name. We consider a method name 'illegal' if it contains only
-     *          question marks.
-     */
-    private boolean hasIllegalMethodName(IMethodName methodName) {
-        // we check both the name of the declaring type as well as the namespace
-        return methodName.getDeclaringType().getName().equals("???")
-                || methodName.getDeclaringType().getNamespace().getIdentifier().equals("???");
-    }
     
     // Unused visits
 
@@ -472,12 +453,6 @@ public class APIVisitor implements ISSTNodeVisitor<APISentenceTree, APIToken> {
     @Override
     public APIToken visit(IVariableDeclaration statement, APISentenceTree context) {
         return null;
-    }
-
-    @Override
-    public APIToken visit(ILambdaExpression statement, APISentenceTree context) {
-        // TODO: perhaps as new sentencetree
-        return this.visit(statement.getBody(), context);
     }
 
     @Override

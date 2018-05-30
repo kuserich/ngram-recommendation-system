@@ -50,9 +50,10 @@ public class RunExample {
     /**
      * Trains all models in {@link #extractionOutputDir} and stores them in {@link #modelsDir}.
      *
-     * @throws IOException thrown if there is an error with reading or writing the files
+     * @throws IOException 
+     *          thrown if there is an error with reading or writing the files
      * @see #trainModel(String, String)
-     * method that trains a single model
+     *          method that trains a single model
      */
     public static void trainModels() throws IOException {
         IoHelper.createDirectoryIfNotExists(modelsDir);
@@ -68,9 +69,12 @@ public class RunExample {
     /**
      * Trains the given model and stores it to the given output directory.
      *
-     * @param inputFile       file containing the API sentences to train a model
-     * @param outputDirectory directory into which the trained model will be stored
-     * @throws IOException thrown if there is an error with reading or writing the files
+     * @param inputFile       
+     *          file containing the API sentences to train a model
+     * @param outputDirectory 
+     *          directory into which the trained model will be stored
+     * @throws IOException 
+     *          thrown if there is an error with reading or writing the files
      */
     private static void trainModel(String inputFile, String outputDirectory) throws IOException {
         String modelName = inputFile.split("/")[1].replace(".txt", "");

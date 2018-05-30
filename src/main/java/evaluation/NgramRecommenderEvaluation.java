@@ -4,16 +4,23 @@ import cc.kave.commons.model.events.IIDEEvent;
 import cc.kave.commons.model.events.completionevents.CompletionEvent;
 import cc.kave.commons.model.events.completionevents.IProposal;
 import cc.kave.commons.model.events.completionevents.IProposalSelection;
+import cc.kave.commons.model.naming.IName;
 import cc.kave.commons.model.naming.codeelements.IMethodName;
+import cc.kave.commons.model.naming.impl.v0.codeelements.MethodName;
+import cc.kave.commons.model.ssts.ISST;
+import cc.kave.commons.model.ssts.declarations.IMethodDeclaration;
 import cc.kave.commons.model.typeshapes.IMemberHierarchy;
 import cc.kave.commons.utils.io.Directory;
 import cc.kave.commons.utils.io.ReadingArchive;
 import cc.kave.commons.utils.io.json.JsonUtils;
 import cc.kave.rsse.calls.datastructures.Tuple;
 import com.google.common.collect.Lists;
+import extractor.APISentenceTree;
+import extractor.APIToken;
 import ngram.NgramRecommenderClient;
 import opennlp.tools.util.StringList;
 import org.apache.commons.io.FileUtils;
+import util.Utilities;
 
 import java.io.File;
 import java.io.IOException;
@@ -21,6 +28,7 @@ import java.util.*;
 
 
 public class NgramRecommenderEvaluation {
+
     private static String modelsDir = "models/";
     private static Set<String> inputFiles = new Directory(modelsDir).findFiles(s -> s.endsWith(".xml"));
     private static int NameSpaceCoutner = 0;
@@ -87,11 +95,96 @@ public class NgramRecommenderEvaluation {
             ra.close();
         }
     }
+    
+    private static void process(IIDEEvent event) throws IOException {
+        // once you have access to the instantiated event you can dispatch the
+        // type. As the events are not nested, we did not implement the visitor
+        // pattern, but resorted to instanceof checks.
+        if(event instanceof CompletionEvent) {
+            // if the correct type is identified, you can cast it...
+            CompletionEvent ce = (CompletionEvent) event;
+            List<IProposal> proposals = ce.proposalCollection;
+            List<IProposalSelection> selections = ce.selections; // positive: last
 
+            // we can skip processing if there are no proposals
+            // as we compare our proposals against these
+            // TODO: can we really?
+            if(proposals.size() > 0) {
+
+                // if there was no selection made, we can simply skip this event
+                
+                if(selections.size() == 0) {
+                    return;
+                }
+                
+                // Last of selection is selected event
+
+                // TODO: we should be able to move this to after traversal
+                IProposalSelection selected = selections.get(selections.size() - 1);
+                IName selectionName = selected.getProposal().getName();
+                
+                if(!(selectionName instanceof MethodName)) {
+                    return;
+                }
+
+
+                IMethodName methodName = (IMethodName) selectionName;
+                
+                if((methodName.getDeclaringType().getAssembly().isLocalProject()
+                        || Utilities.hasIllegalMethodName(methodName))) {
+                    return;
+                }
+
+//                System.out.println("thats what we're looking for");
+
+                String operation;
+
+                if(methodName.isConstructor()) {
+                    operation = "new";
+//                    invocation = Invocation.CLASS_CONSTRUCTOR;
+                } else {
+                    operation = methodName.getName();
+//                    if(methodName.getIdentifier().startsWith("static")) {
+//                        invocation = Invocation.STATIC_OPERATION;
+//                    } else {
+//                        invocation = Invocation.INSTANCE_OPERATION;
+//                    }
+                }
+
+                APIToken selectedAPIToken = new APIToken();
+                selectedAPIToken.setOperation(operation);
+//                apiToken.setInvocation(Invocation.CLASS_CONSTRUCTOR);
+                // TODO: use only the name
+//        apiToken.setType(methodName.getDeclaringType().getName());
+                selectedAPIToken.setType(methodName.getDeclaringType().getFullName());
+                selectedAPIToken.setNamespace(methodName.getDeclaringType().getNamespace().getIdentifier());
+
+                System.out.println(selectedAPIToken.toString());
+                ISST sst = ce.context.getSST();
+
+
+//                System.out.println();
+//                System.out.println("========== NEW EVENT ==========");
+//                System.out.println();
+                for(IMethodDeclaration md : sst.getMethods()) {
+                    APISentenceTree sentence = new APISentenceTree();
+                    md.accept(new EventVisitor(), sentence);
+                    // TODO: and only if contains a CompletionExpression
+                    if(!sentence.isEmpty()) {
+                        // TODO: flatten; evaluate
+                        break;
+                    }
+                }
+            }
+        }
+    }
+    
+    
+    
     /**
      * 4: Processing events
      */
-    private static void process(IIDEEvent event) throws IOException {
+    private static void process_old(IIDEEvent event) throws IOException {
         // once you have access to the instantiated event you can dispatch the
         // type. As the events are not nested, we did not implement the visitor
         // pattern, but resorted to instanceof checks.
@@ -106,20 +199,24 @@ public class NgramRecommenderEvaluation {
                 if (selections.size() > 0) {
                     // Last of selection is selected event
 
+                    // TODO: we should be able to move this to after traversal
                     String selected = selections.get(selections.size() - 1).getProposal().getName().getIdentifier();
 
                     // Remove the events that dont matter from my view
+                    // TODO: what does this LocalVariableName thing do?
                     if (!selected.contains("LocalVariableName") && !selected.contains("???")) {
-                        if (ce.context.getTypeShape().getMethodHierarchies().iterator().hasNext()) {
+                        // TODO: why typeShape and methodHierarchies?
+                        if(ce.context.getTypeShape().getMethodHierarchies().iterator().hasNext()) {
 
+                            // TODO: this is almost certainly wrong
                             IMemberHierarchy<IMethodName> entry = ce.context.getTypeShape().getMethodHierarchies().iterator().next();
                             String identifier = entry.getElement().getDeclaringType().getNamespace().getIdentifier();
+//                            identifier = entry.getElement().getDeclaringType().getNamespace().toString();
 
                             possibleNameSpaceCounter = possibleNameSpaceCounter + 1;
 
                             if (namespaceExists(identifier)) {
                                 Set<String> ns = getNamespaces(identifier);
-
 
                                 String operation = ce.context.getSST().getEnclosingType().getName();
                                 String type = ce.context.getSST().getEnclosingType().getFullName();
@@ -211,7 +308,7 @@ public class NgramRecommenderEvaluation {
     private static boolean namespaceExists(String s) {
         boolean found = false;
         for (String entry : inputFiles) {
-            if (s.length() > 0 && entry.contains(s)) {
+            if (s.length() > 0 && entry.toLowerCase().contains(s.toLowerCase())) {
                 found = true;
             }
         }
