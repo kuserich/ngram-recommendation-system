@@ -99,28 +99,6 @@ public class NgramRecommenderClient extends NGramLanguageModel implements ICalls
             } catch(ArrayIndexOutOfBoundsException e) { 
                 System.out.println(e);
             }
-            
-            /*
-            TODO: None of this makes sense for calculateProbability()...
-            
-            String tokenString = iter.next();
-
-            String[] predictedSentence = new String[stringToCompare.size()+1];
-            for(int i=0;i<stringToCompare.size();i++) {
-                predictedSentence[i] = stringToCompare.getToken(i);
-            }
-            predictedSentence[stringToCompare.size()] = tokenString;
-            
-            String type = tokenString.split(",")[0];
-            String operation = tokenString.split(",")[1];
-
-            APIToken token = new APIToken();
-            token.setNamespace(modelName);
-            token.setOperation(operation);
-            token.setType(type);
-            Tuple<IMethodName, Double> prediction = Tuple.newTuple(token, calculateProbability(new StringList(predictedSentence)));
-            recommendation.add(prediction);
-             */
         }
         return recommendation;
     }
