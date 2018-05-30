@@ -3,6 +3,10 @@ package util;
 import cc.kave.commons.model.naming.codeelements.IMethodName;
 import cc.kave.commons.model.ssts.expressions.assignable.IInvocationExpression;
 import extractor.APISentenceTree;
+import extractor.APIToken;
+import opennlp.tools.util.StringList;
+
+import java.util.List;
 
 public class Utilities {
 
@@ -27,6 +31,15 @@ public class Utilities {
         // we check both the name of the declaring type as well as the namespace
         return methodName.getDeclaringType().getName().equals("???")
                 || methodName.getDeclaringType().getNamespace().getIdentifier().equals("???");
+    }
+    
+    public static StringList apiSentenceToStringList(List<APIToken> sentence) {
+        String[] strings = new String[sentence.size()];
+        for(int i=0;i<sentence.size();i++) {
+            APIToken token = sentence.get(i);
+            strings[i] = token.getType()+","+token.getOperation();
+        }
+        return new StringList(strings);
     }
     
 }

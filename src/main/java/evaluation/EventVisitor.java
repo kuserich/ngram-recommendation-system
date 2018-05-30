@@ -21,8 +21,29 @@ import java.util.List;
 
 public class EventVisitor extends APIVisitor {
     
+    private APIToken selection;
     private boolean hasEventFired = false;
+    
+    public EventVisitor() {
+        super();
+    }
+    
+    public EventVisitor(APIToken selection) {
+        setSelection(selection);
+    }
 
+
+    public APIToken getSelection() {
+        return selection;
+    }
+
+    public void setSelection(APIToken selection) {
+        this.selection = selection;
+    }
+
+    public boolean hasEventFired() {
+        return hasEventFired;
+    }
 
     /**
      * Entry level declaration. 
@@ -310,7 +331,7 @@ public class EventVisitor extends APIVisitor {
     }
     @Override
     public APIToken visit(ICompletionExpression statement, APISentenceTree context) {
-        System.out.println("COMPLETION EXPRESSION FROM EVENTVISITOR");
+        /*System.out.println("COMPLETION EXPRESSION FROM EVENTVISITOR");
         System.out.println("\t"+statement.getToken());
         Iterable<ISSTNode> children = statement.getChildren();
         if(statement.getVariableReference() != null) {
@@ -318,8 +339,9 @@ public class EventVisitor extends APIVisitor {
         }
         if(statement.getTypeReference() != null) {
             System.out.println("\t"+statement.getTypeReference().getFullName());
-        }
+        }*/
 //        statement.getVariableReference().accept(this, context);
+        context.addToken(selection);
         this.hasEventFired = true;
         return null;
     }
@@ -350,10 +372,10 @@ public class EventVisitor extends APIVisitor {
      */
     @Override
     public APIToken visit(IInvocationExpression statement, APISentenceTree context) {
-        if(!hasEventFired) {
+        String tokenNamespace = statement.getMethodName().getDeclaringType().getNamespace().getIdentifier();
+        if(!hasEventFired && tokenNamespace.equals(selection.getNamespace())) {
             return super.visit(statement, context);
         }
-
         return null;
     }
 
@@ -415,5 +437,4 @@ public class EventVisitor extends APIVisitor {
 
         return null;
     }
-    
 }

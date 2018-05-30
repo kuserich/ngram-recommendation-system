@@ -173,7 +173,3 @@ public class APIToken implements IName, IMethodName {
         return 0;
     }
 }
-
-enum Invocation {
-    STATIC_OPERATION, INSTANCE_OPERATION, CLASS_CONSTRUCTOR
-}

@@ -17,6 +17,7 @@ import cc.kave.rsse.calls.datastructures.Tuple;
 import com.google.common.collect.Lists;
 import extractor.APISentenceTree;
 import extractor.APIToken;
+import extractor.Invocation;
 import ngram.NgramRecommenderClient;
 import opennlp.tools.util.StringList;
 import org.apache.commons.io.FileUtils;
@@ -106,74 +107,86 @@ public class NgramRecommenderEvaluation {
             List<IProposal> proposals = ce.proposalCollection;
             List<IProposalSelection> selections = ce.selections; // positive: last
 
+            // if there was no selection made, we can simply skip this event
+
             // we can skip processing if there are no proposals
             // as we compare our proposals against these
-            // TODO: can we really?
-            if(proposals.size() > 0) {
+            if(selections.size() == 0 || proposals.size() == 0) {
+                return;
+            }
+            
+            // Last of selection is selected event
 
-                // if there was no selection made, we can simply skip this event
-                
-                if(selections.size() == 0) {
-                    return;
-                }
-                
-                // Last of selection is selected event
-
-                // TODO: we should be able to move this to after traversal
-                IProposalSelection selected = selections.get(selections.size() - 1);
-                IName selectionName = selected.getProposal().getName();
-                
-                if(!(selectionName instanceof MethodName)) {
-                    return;
-                }
+            // TODO: we should be able to move this to after traversal
+            IProposalSelection selected = selections.get(selections.size() - 1);
+            IName selectionName = selected.getProposal().getName();
+            
+            if(!(selectionName instanceof MethodName)) {
+                return;
+            }
 
 
-                IMethodName methodName = (IMethodName) selectionName;
-                
-                if((methodName.getDeclaringType().getAssembly().isLocalProject()
-                        || Utilities.hasIllegalMethodName(methodName))) {
-                    return;
-                }
+            IMethodName methodName = (IMethodName) selectionName;
+            
+            if((methodName.getDeclaringType().getAssembly().isLocalProject()
+                    || Utilities.hasIllegalMethodName(methodName))) {
+                return;
+            }
 
 //                System.out.println("thats what we're looking for");
 
-                String operation;
+            String operation;
+            Invocation invocation;
 
-                if(methodName.isConstructor()) {
-                    operation = "new";
-//                    invocation = Invocation.CLASS_CONSTRUCTOR;
+            if(methodName.isConstructor()) {
+                operation = "new";
+                invocation = Invocation.CLASS_CONSTRUCTOR;
+            } else {
+                operation = methodName.getName();
+                if(methodName.getIdentifier().startsWith("static")) {
+                    invocation = Invocation.STATIC_OPERATION;
                 } else {
-                    operation = methodName.getName();
-//                    if(methodName.getIdentifier().startsWith("static")) {
-//                        invocation = Invocation.STATIC_OPERATION;
-//                    } else {
-//                        invocation = Invocation.INSTANCE_OPERATION;
-//                    }
+                    invocation = Invocation.INSTANCE_OPERATION;
                 }
+            }
 
-                APIToken selectedAPIToken = new APIToken();
-                selectedAPIToken.setOperation(operation);
-//                apiToken.setInvocation(Invocation.CLASS_CONSTRUCTOR);
-                // TODO: use only the name
-//        apiToken.setType(methodName.getDeclaringType().getName());
-                selectedAPIToken.setType(methodName.getDeclaringType().getFullName());
-                selectedAPIToken.setNamespace(methodName.getDeclaringType().getNamespace().getIdentifier());
+            APIToken selectedAPIToken = new APIToken();
+            selectedAPIToken.setOperation(operation);
+            selectedAPIToken.setInvocation(invocation);
+            selectedAPIToken.setType(methodName.getDeclaringType().getFullName());
+            selectedAPIToken.setNamespace(methodName.getDeclaringType().getNamespace().getIdentifier());
 
-                System.out.println(selectedAPIToken.toString());
-                ISST sst = ce.context.getSST();
+            String modelFile;
+            if((modelFile = getModelForNamespace(selectedAPIToken.getNamespace())) == null) {
+                System.out.println("[INFO]\tNo model found for "+selectedAPIToken.getNamespace());
+                return;
+            }
+            System.out.println("[INFO]\tModel found for " + modelFile + ".");
+            System.out.println("[INFO]\t...Processing context");
+            
+            ISST sst = ce.context.getSST();
 
-
-//                System.out.println();
-//                System.out.println("========== NEW EVENT ==========");
-//                System.out.println();
-                for(IMethodDeclaration md : sst.getMethods()) {
-                    APISentenceTree sentence = new APISentenceTree();
-                    md.accept(new EventVisitor(), sentence);
-                    // TODO: and only if contains a CompletionExpression
-                    if(!sentence.isEmpty()) {
-                        // TODO: flatten; evaluate
-                        break;
+            for(IMethodDeclaration md : sst.getMethods()) {
+                EventVisitor visitor = new EventVisitor(selectedAPIToken);
+                APISentenceTree sentenceTree = new APISentenceTree();
+                md.accept(visitor, sentenceTree);
+                // TODO: and only if contains a CompletionExpression
+                if(sentenceTree.size() > 1 && visitor.hasEventFired()) {
+                    // TODO: flatten; evaluate
+                    List<List<APIToken>> sentences = sentenceTree.flatten();
+                    for(List<APIToken> sentence : sentences) {
+                        if(sentence.get(sentence.size()-1).getType().equals(selectedAPIToken.getType())) {
+                            sentence.remove(sentence.size()-1);
+                            System.out.println(selectedAPIToken.toString());
+                            System.out.println("\t"+sentence.toString());
+                            
+                            testWithModel(selectedAPIToken, sentence);
+                            
+                        }
                     }
+                    break;
+                } else {
+                    System.out.println("[INFO]\tNo CompletionExpression and/or APITokens found.");
                 }
             }
         }
@@ -239,7 +252,7 @@ public class NgramRecommenderEvaluation {
                                     System.out.println("************ Actuall Output ************");
                                     System.out.println("[INFO] Uncleaned: " + selected);
                                     System.out.println("[INFO] Parsed Token: " + tokens);
-                                    testWithModel(ns, type, operation, tokens.toString());
+                                    testWithModel_old(ns, type, operation, tokens.toString());
 
 
                                 } else {
@@ -248,7 +261,7 @@ public class NgramRecommenderEvaluation {
 
                                     System.out.println("************ Actuall Output ************");
                                     System.out.println("[INFO] Unparsed: " + selected);
-                                    testWithModel(ns, type, operation, selected);
+                                    testWithModel_old(ns, type, operation, selected);
 
                                 }
                                 NameSpaceCoutner = NameSpaceCoutner + 1;
@@ -265,10 +278,31 @@ public class NgramRecommenderEvaluation {
         }
     }
 
-    /**
-     * Compare the selected with the model
-     */
-    private static void testWithModel(Set<String> ns, String type, String operation, String selected) throws IOException {
+    private static void testWithModel(APIToken expected, List<APIToken> sentence) {
+        try {
+            NgramRecommenderClient nrc = new NgramRecommenderClient(modelsDir+getModelForNamespace(expected.getNamespace()));
+            Set<Tuple<IMethodName, Double>> predictions = nrc.query(Utilities.apiSentenceToStringList(sentence));
+
+            if (compareStrings(predictions.toString(), expected.getType()+","+expected.getOperation())) {
+                correctlyPredicted = correctlyPredicted + 1;
+                allPredictions = allPredictions + 1;
+                System.out.println("IS CORRECT");
+            } else {
+                allPredictions = allPredictions + 1;
+                System.out.println("IS NOT CORRECT");
+            }
+
+            
+        } catch(IOException e) {
+            System.out.println("No model found for "+expected.getNamespace());
+//            e.printStackTrace();
+        }
+    }
+
+        /**
+         * Compare the selected with the model
+         */
+    private static void testWithModel_old(Set<String> ns, String type, String operation, String selected) throws IOException {
 
         //TODO: only return the one with highest proba
 
@@ -293,12 +327,27 @@ public class NgramRecommenderEvaluation {
             }
         }
     }
+    
+    
 
     private static boolean compareStrings(String one, String two) {
 
         return one.contains(two) || two.contains(one);
     }
 
+    private static String getModelForNamespace(String namespace) {
+        for(String entry : inputFiles) {
+            if(entry.toLowerCase().substring(0, entry.length()-4).equals(namespace.toLowerCase())) {
+                return entry;
+            }
+        }
+        return null;
+    }
+    
+    private static boolean modelForNamespaceExists(String namespace) {
+        return getModelForNamespace(namespace) != null;
+    }
+    
     /**
      * Check if namespace exists
      *

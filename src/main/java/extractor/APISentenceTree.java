@@ -179,6 +179,11 @@ public class APISentenceTree {
         return tokens.size() == 0;
     }
 
+
+    public int size() {
+        return tokens.size();
+    }
+    
     /**
      * Return the string representation of an extractor.APISentenceTree.
      * This includes all tokens in this tree as well as all tokens in 
