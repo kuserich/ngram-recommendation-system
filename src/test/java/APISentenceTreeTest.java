@@ -1,9 +1,15 @@
 import extractor.APISentenceTree;
 import extractor.APIToken;
+import extractor.Invocation;
+import org.hamcrest.collection.IsArray;
+import org.hamcrest.collection.IsArrayContaining;
+import org.hamcrest.collection.IsMapContaining;
 import org.junit.Test;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertEquals;
@@ -531,5 +537,67 @@ public class APISentenceTreeTest {
         asp.addToken(t41);
 
         assertEquals(28, asp.flatten(2).size());
+    }
+    
+    @Test
+    public void addToken() {
+        APISentenceTree asp = new APISentenceTree();
+        APIToken token = new APIToken();
+        token.setType("type");
+        token.setInvocation(Invocation.INSTANCE_OPERATION);
+        token.setNamespace("namespace");
+        token.setOperation("operation");
+        asp.addToken(token);
+        
+        assertEquals(1, asp.getTokens().size());
+        assertThat(asp.getTokens().get(0), is(token));
+    }
+    
+    @Test
+    public void getTokens() {
+        APISentenceTree asp = new APISentenceTree();
+        APIToken token = new APIToken();
+        List<APIToken> tokenList = new ArrayList();
+        
+        token.setType("type");
+        token.setInvocation(Invocation.INSTANCE_OPERATION);
+        token.setNamespace("namespace");
+        token.setOperation("operation");
+        asp.addToken(token);
+        tokenList.add(token);
+
+        assertThat(asp.getTokens(), is(tokenList));
+    }
+    
+    @Test
+    public void getBranches() {
+        APISentenceTree asp = new APISentenceTree();
+
+        APIToken t1 = new APIToken();
+        t1.setNamespace("System");
+        t1.setOperation("M1");
+        APIToken t2 = new APIToken();
+        t2.setNamespace("System");
+        t2.setOperation("M2");
+        APIToken t3 = new APIToken();
+        t3.setNamespace("System");
+        t3.setOperation("M3");
+        APIToken t4 = new APIToken();
+        t4.setNamespace("System");
+        t4.setOperation("M4");
+
+        asp.addToken(t1);
+        APISentenceTree aspB = asp.branch(t2);
+        aspB.addToken(t3);
+        aspB.addToken(t4);
+
+        Map<APIToken, List<APISentenceTree>> branches = new HashMap<>();
+        branches.put(t2, new ArrayList<APISentenceTree>());
+        branches.get(t2).add(new APISentenceTree());
+        branches.get(t2).get(0).addToken(t3);
+        branches.get(t2).get(0).addToken(t4);
+
+        assertThat(asp.getBranches(), IsMapContaining.hasKey(t2));
+//        assertThat(asp.getBranches(), IsMapContaining.hasEntry(t2, branches.get(t2)));
     }
 }

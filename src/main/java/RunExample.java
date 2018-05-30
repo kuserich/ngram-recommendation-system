@@ -34,7 +34,7 @@ public class RunExample {
         System.out.println("+-----------------------------------------------------------+");
         
         trainModels();*/
-//        predictionExample();
+        predictionExample();
         evaluationExample();
     }
 
@@ -85,6 +85,10 @@ public class RunExample {
         nrc.serialize(new FileOutputStream(outputDirectory + modelName + ".xml"));
     }
 
+    /**
+     * 
+     * @throws IOException
+     */
     public static void predictionExample() throws IOException {
         NgramRecommenderClient nrc = new NgramRecommenderClient("models/NUnit.Framework.xml");
         System.out.println(nrc.query(new StringList("NUnit.Framework.Assert,AreEqual")));
@@ -93,6 +97,11 @@ public class RunExample {
                 new StringList(
                         "NUnit.Framework.Assert,AreEqual",
                         "NUnit.Framework.Assert,AreEqual"
+                )));
+        System.out.println(nrc.query(
+                new StringList(
+                        "eifach öppis",
+                        "Ngfjkghfert,gfjgf"
                 )));
         System.out.println(nrc.query(
                 new StringList(
@@ -117,6 +126,10 @@ public class RunExample {
 
     }
 
+    /**
+     * 
+     * @throws IOException
+     */
     public static void evaluationExample() throws IOException {
         NgramRecommenderEvaluation.readAllEvents(eventsDir);
     }

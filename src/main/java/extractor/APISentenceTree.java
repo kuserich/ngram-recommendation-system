@@ -180,6 +180,10 @@ public class APISentenceTree {
     }
 
 
+    /**
+     * 
+     * @return
+     */
     public int size() {
         return tokens.size();
     }

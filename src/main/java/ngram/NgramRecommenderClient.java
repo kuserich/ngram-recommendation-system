@@ -83,10 +83,11 @@ public class NgramRecommenderClient extends NGramLanguageModel implements ICalls
         StringList predictedTokenStrings = predictNextTokens(stringToCompare);
         
         Iterator<String> iter = predictedTokenStrings.iterator();
-        while(iter.hasNext()) {
-            String tokenString = iter.next();
-            String type = tokenString.split(",")[0];
+        // add only the first APIToken of all predicted tokens
+        if(iter.hasNext()) {
             try {
+                String tokenString = iter.next();
+                String type = tokenString.split(",")[0];
                 String operation = tokenString.split(",")[1];
 
                 APIToken token = new APIToken();
@@ -96,9 +97,11 @@ public class NgramRecommenderClient extends NGramLanguageModel implements ICalls
                 Tuple<IMethodName, Double> prediction = Tuple.newTuple(token, calculateProbability(predictedTokenStrings));
                 recommendation.add(prediction);
 
-            } catch(ArrayIndexOutOfBoundsException e) { 
-                System.out.println(e);
+            } catch(ArrayIndexOutOfBoundsException e) {
+                System.out.println("[WARN]\tInvalid tokenString, skipping result");
+//                System.out.println(e);
             }
+            
         }
         return recommendation;
     }

@@ -21,6 +21,7 @@ import extractor.Invocation;
 import ngram.NgramRecommenderClient;
 import opennlp.tools.util.StringList;
 import org.apache.commons.io.FileUtils;
+import util.IoHelper;
 import util.Utilities;
 
 import javax.xml.bind.SchemaOutputResolver;
@@ -35,9 +36,12 @@ public class NgramRecommenderEvaluation {
     private static Set<String> inputFiles = new Directory(modelsDir).findFiles(s -> s.endsWith(".xml"));
     private static int NameSpaceCoutner = 0;
     private static int possibleNameSpaceCounter = 0;
+    
+    private static final int MAX_PROXIMITY = 5;
 
     private static int correctlyPredicted = 0;
     private static int allPredictions = 0;
+    private static int numberOfEvents = 0;
 
 
     private static List<String> findAllUsers(String inputDirectory) {
@@ -64,6 +68,7 @@ public class NgramRecommenderEvaluation {
                 IIDEEvent e = ra.getNext(IIDEEvent.class);
                 // afterwards, you can process it as a Java object
                 process(e);
+                numberOfEvents++;
             }
             ra.close();
         }
@@ -73,6 +78,8 @@ public class NgramRecommenderEvaluation {
         System.out.println("[INFO] #Correctly Predicted " + correctlyPredicted);
         System.out.println("[INFO] All Predictions " + allPredictions);
         System.out.println("[INFO] Precision " + (double) correctlyPredicted / allPredictions);
+        
+        IoHelper.writeEvaluationResultsToFile(numberOfEvents, correctlyPredicted, allPredictions);
     }
 
     /**
@@ -158,12 +165,13 @@ public class NgramRecommenderEvaluation {
             selectedAPIToken.setNamespace(methodName.getDeclaringType().getNamespace().getIdentifier());
 
             String modelFile;
-            if((modelFile = getModelForNamespace(selectedAPIToken.getNamespace())) == null) {
-                System.out.println("[INFO]\tNo model found for "+selectedAPIToken.getNamespace());
+            if(selectedAPIToken.getNamespace().equals("System.Collections.Generic") 
+                    || (modelFile = getModelForNamespace(selectedAPIToken.getNamespace())) == null) {
+//                System.out.println("[INFO]\tNo model found for "+selectedAPIToken.getNamespace());
                 return;
             }
-            System.out.println("[INFO]\tModel found for " + modelFile + ".");
-            System.out.println("[INFO]\t...Processing context");
+//            System.out.println("[INFO]\tModel found for " + modelFile + ".");
+//            System.out.println("[INFO]\t...Processing context");
             
             ISST sst = ce.context.getSST();
 
@@ -171,23 +179,29 @@ public class NgramRecommenderEvaluation {
                 EventVisitor visitor = new EventVisitor(selectedAPIToken);
                 APISentenceTree sentenceTree = new APISentenceTree();
                 md.accept(visitor, sentenceTree);
-                // TODO: and only if contains a CompletionExpression
+                // we only process the sentence tree if there was a CompletionExpression (hasEventFired)
+                // and if there is at least one other token next to the prediction token
                 if(sentenceTree.size() > 1 && visitor.hasEventFired()) {
-                    // TODO: flatten; evaluate
                     List<List<APIToken>> sentences = sentenceTree.flatten();
                     for(List<APIToken> sentence : sentences) {
+                        System.out.println("[INFO]\t"+sentences.size()+" sentences");
                         if(sentence.get(sentence.size()-1).getType().equals(selectedAPIToken.getType())) {
                             sentence.remove(sentence.size()-1);
+                            
                             System.out.println(selectedAPIToken.toString());
                             System.out.println("\t"+sentence.toString());
                             
-                            testWithModel(selectedAPIToken, sentence);
-                            
+                            testWithModel(selectedAPIToken,
+                                    sentence.subList(
+                                            Math.max(0, sentence.size()-MAX_PROXIMITY),
+                                            sentence.size()
+                                    ));
+                            break;
                         }
                     }
                     break;
                 } else {
-                    System.out.println("[INFO]\tNo CompletionExpression and/or APITokens found.");
+//                    System.out.println("[INFO]\tNo CompletionExpression and/or APITokens found.");
                 }
             }
 
@@ -285,10 +299,21 @@ public class NgramRecommenderEvaluation {
         try {
             NgramRecommenderClient nrc = new NgramRecommenderClient(modelsDir+getModelForNamespace(expected.getNamespace()));
             Set<Tuple<IMethodName, Double>> predictions = nrc.query(Utilities.apiSentenceToStringList(sentence));
+            
+            if(predictions.size() == 0) {
+//                System.out.println("[INFO]\tNo prediction found.");
+                return;
+            }
+            
             System.out.println("============= PREDICTION =============");
             System.out.println(predictions);
             System.out.println("============= ACTUAL =============");
             System.out.println(expected.toString());
+
+            IoHelper.appendClassificationToFile("evaluation.txt", 
+                    expected, 
+                    (APIToken) predictions.iterator().next().getFirst());
+            
             if(compareStrings(predictions.toString(), expected.getType()+","+expected.getOperation())) {
                 correctlyPredicted = correctlyPredicted + 1;
                 allPredictions = allPredictions + 1;

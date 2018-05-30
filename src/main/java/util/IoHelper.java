@@ -141,6 +141,32 @@ public class IoHelper {
 		removeFileIfEmpty(filename);
 	}
 	
+	public static void appendClassificationToFile(String filename, APIToken expected, APIToken actual) throws IOException {
+		FileWriter fw = new FileWriter(filename, true);
+		BufferedWriter bw = new BufferedWriter(fw);
+		PrintWriter out = new PrintWriter(bw);
+		out.print(expected.toString());
+		out.print(" ");
+		out.print(actual.toString());
+		out.println();
+		out.close();
+		bw.close();
+		fw.close();
+	}
+	
+	public static void writeEvaluationResultsToFile(int events, int positives, int total) throws IOException {
+		FileWriter fw = new FileWriter("evalnums.txt");
+		BufferedWriter bw = new BufferedWriter(fw);
+		PrintWriter out = new PrintWriter(bw);
+		out.println("events: "+events);
+		out.println("positives: "+positives);
+		out.println("total: "+total);
+		out.println("precision: "+((double) positives/ (double) total));
+		out.close();
+		bw.close();
+		fw.close();
+	}
+	
 	public static void removeFileIfEmpty(String filename) throws IOException {
 		BufferedReader br = new BufferedReader(new FileReader(filename));
 		if(br.readLine() == null) {
