@@ -86,15 +86,19 @@ public class NgramRecommenderClient extends NGramLanguageModel implements ICalls
         while(iter.hasNext()) {
             String tokenString = iter.next();
             String type = tokenString.split(",")[0];
-            String operation = tokenString.split(",")[1];
+            try {
+                String operation = tokenString.split(",")[1];
 
-            APIToken token = new APIToken();
-            token.setNamespace(modelName);
-            token.setOperation(operation);
-            token.setType(type);
-            Tuple<IMethodName, Double> prediction = Tuple.newTuple(token, calculateProbability(predictedTokenStrings));
-            recommendation.add(prediction);
-            
+                APIToken token = new APIToken();
+                token.setNamespace(modelName);
+                token.setOperation(operation);
+                token.setType(type);
+                Tuple<IMethodName, Double> prediction = Tuple.newTuple(token, calculateProbability(predictedTokenStrings));
+                recommendation.add(prediction);
+
+            } catch(ArrayIndexOutOfBoundsException e) { 
+                System.out.println(e);
+            }
             
             /*
             TODO: None of this makes sense for calculateProbability()...
