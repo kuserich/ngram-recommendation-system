@@ -3,6 +3,7 @@
 Implementation of a Recommendation System for Software Engineering using n-gram language models as described by [Santos et al. (2016)](https://www.sciencedirect.com/science/article/pii/S0164121216300917?via%3Dihub). The recommender has been implemented with the help of the [KaVE Project](http://www.kave.cc/).
 
 ---
+
 ## Disclaimer
 
 This project is part of the course [Advanced Software Engineering - FS 18](http://www.ifi.uzh.ch/en/seal/teaching/courses/ase.html) and follows a given [project description](/Project%20Description.md). For the final report of the project, please refer to the corresponing [repository](https://github.com/kuserich/ngram-recommendation-system-docs).
@@ -72,9 +73,42 @@ After you have run the commands the .jar file should be available and can be add
 
 ## Usage of Recommender <a name="usage-of-recommender"></a>
 
+The n-gram sentences recommender has been trained with the context and event dataset provided by the [KaVE Project](http://www.kave.cc/datasets).
+
 ### Train/Prepare Recommender <a name="usage-of-recommender-train"></a>
 
+Teh training/preparation of the recommender can be done through 2 ways. The first option is to train the recommender with own scratched data, or with the data already available.
+
+**Own Training Set**
+
+The user has the possible to add its own API sentences, this is specially from interest if has his own projects which are not open for the public.
+```java
+public void train(String trainFile) throws IOException {
+    ...
+}
+```
+
+**Trained Set**
+The user has the possibility to use a model file, which is mostly used by widely used libraries.
+```java
+public void setModelNameFromFileName(String modelFile) {
+    ...
+}
+```
+
+
 ### Call Recommender <a name="usage-of-recommende-callr"></a>
+
+After the NgramReocmmenderClient has been trained the recommender can accept inputs and predict the next word. Normally this is based on 3-grams.
+```java
+public Set<Tuple<IMethodNAme, Double>> query(StringList stringToCompare) {
+    Set<Tuple<IMethodName, Double>> recommendation = new HashSet<>();
+    ...
+    return recommendation;
+}
+```
+
+The returned set is ordered in an ascending order, based on the prediction of the model.
 
 ---
 ## Continuous Development <a name="continouos-development"></a>
