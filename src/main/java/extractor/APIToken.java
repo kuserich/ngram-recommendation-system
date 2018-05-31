@@ -26,7 +26,10 @@ public class APIToken extends MethodName {
     
     public String getType() {
         // or only getDeclaringType().getName()
-        return getNamespace()+"."+Utilities.capitalize(getDeclaringType().getName());
+        if(getNamespace() != null && getNamespace().length() > 0) {
+            return getNamespace()+"."+Utilities.capitalize(getDeclaringType().getName());
+        }
+        return Utilities.capitalize(getDeclaringType().getName());
 //        return getDeclaringType().getFullName();
     }
     

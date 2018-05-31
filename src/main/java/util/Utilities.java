@@ -8,6 +8,9 @@ import opennlp.tools.util.StringList;
 
 import java.util.List;
 
+/**
+ * This class collects a number of useful functions that we use across the entire project.
+ */
 public class Utilities {
 
     /**
@@ -54,7 +57,7 @@ public class Utilities {
         String[] strings = new String[sentence.size()];
         for(int i=0;i<sentence.size();i++) {
             APIToken token = sentence.get(i);
-            strings[i] = token.toString();
+            strings[i] = token.getType()+","+token.getOperation();
         }
         return new StringList(strings);
     }

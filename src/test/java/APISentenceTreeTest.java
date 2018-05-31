@@ -18,19 +18,19 @@ public class APISentenceTreeTest {
     public void flatten() {
         APISentenceTree asp = new APISentenceTree();
 
-        APIToken t1 = new APIToken("[?] [type, namespace].operation1()");
-        APIToken t2 = new APIToken("[?] [type, namespace].operation2()");
-        APIToken t3 = new APIToken("[?] [type, namespace].operation3()");
-        APIToken t4 = new APIToken("[?] [type, namespace].operation4()");
-        APIToken t5 = new APIToken("[?] [type, namespace].operation5()");
-        APIToken t6 = new APIToken("[?] [type, namespace].operation6()");
-        APIToken t7 = new APIToken("[?] [type, namespace].operation7()");
-        APIToken t8 = new APIToken("[?] [type, namespace].operation8()");
-        APIToken t9 = new APIToken("[?] [type, namespace].operation9()");
-        APIToken t10 = new APIToken("[?] [type, namespace].operation10()");
-        APIToken t11 = new APIToken("[?] [type, namespace].operation11()");
-        APIToken t12 = new APIToken("[?] [type, namespace].operation12()");
-        APIToken t13 = new APIToken("[?] [type, namespace].operation13()");
+        APIToken t1 = new APIToken("[?] [Some.Namespace.Type, Some.Namespace].Operation1()");
+        APIToken t2 = new APIToken("[?] [Some.Namespace.Type, Some.Namespace].Operation2()");
+        APIToken t3 = new APIToken("[?] [Some.Namespace.Type, Some.Namespace].Operation3()");
+        APIToken t4 = new APIToken("[?] [Some.Namespace.Type, Some.Namespace].Operation4()");
+        APIToken t5 = new APIToken("[?] [Some.Namespace.Type, Some.Namespace].Operation5()");
+        APIToken t6 = new APIToken("[?] [Some.Namespace.Type, Some.Namespace].Operation6()");
+        APIToken t7 = new APIToken("[?] [Some.Namespace.Type, Some.Namespace].Operation7()");
+        APIToken t8 = new APIToken("[?] [Some.Namespace.Type, Some.Namespace].Operation8()");
+        APIToken t9 = new APIToken("[?] [Some.Namespace.Type, Some.Namespace].Operation9()");
+        APIToken t10 = new APIToken("[?] [Some.Namespace.Type, Some.Namespace].Operation10()");
+        APIToken t11 = new APIToken("[?] [Some.Namespace.Type, Some.Namespace].Operation11()");
+        APIToken t12 = new APIToken("[?] [Some.Namespace.Type, Some.Namespace].Operation12()");
+        APIToken t13 = new APIToken("[?] [Some.Namespace.Type, Some.Namespace].Operation13()");
 
         asp.addToken(t1);
         asp.addToken(t2);
@@ -102,10 +102,10 @@ public class APISentenceTreeTest {
     public void branch() {
         APISentenceTree asp = new APISentenceTree();
 
-        APIToken t1 = new APIToken("[?] [type, namespace].operation1()");
-        APIToken t2 = new APIToken("[?] [type, namespace].operation2()");
-        APIToken t3 = new APIToken("[?] [type, namespace].operation3()");
-        APIToken t4 = new APIToken("[?] [type, namespace].operation4()");
+        APIToken t1 = new APIToken("[?] [Some.Namespace.Type, Some.Namespace].Operation1()");
+        APIToken t2 = new APIToken("[?] [Some.Namespace.Type, Some.Namespace].Operation2()");
+        APIToken t3 = new APIToken("[?] [Some.Namespace.Type, Some.Namespace].Operation3()");
+        APIToken t4 = new APIToken("[?] [Some.Namespace.Type, Some.Namespace].Operation4()");
         
         asp.addToken(t1);
         APISentenceTree aspB = asp.branch(t2);
@@ -120,47 +120,47 @@ public class APISentenceTreeTest {
     public void numberOfSentences() {
         APISentenceTree asp = new APISentenceTree();
 
-        APIToken t1 = new APIToken("[?] [type, namespace].operation1()");
-        APIToken t2 = new APIToken("[?] [type, namespace].operation2()");
-        APIToken t3 = new APIToken("[?] [type, namespace].operation3()");
-        APIToken t4 = new APIToken("[?] [type, namespace].operation4()");
-        APIToken t5 = new APIToken("[?] [type, namespace].operation5()");
-        APIToken t6 = new APIToken("[?] [type, namespace].operation6()");
-        APIToken t7 = new APIToken("[?] [type, namespace].operation7()");
-        APIToken t8 = new APIToken("[?] [type, namespace].operation8()");
-        APIToken t9 = new APIToken("[?] [type, namespace].operation9()");
-        APIToken t10 = new APIToken("[?] [type, namespace].operation10()");
-        APIToken t11 = new APIToken("[?] [type, namespace].operation11()");
-        APIToken t12 = new APIToken("[?] [type, namespace].operation12()");
-        APIToken t13 = new APIToken("[?] [type, namespace].operation13()");
-        APIToken t14 = new APIToken("[?] [type, namespace].operation14()");
-        APIToken t15 = new APIToken("[?] [type, namespace].operation15()");
-        APIToken t16 = new APIToken("[?] [type, namespace].operation16()");
-        APIToken t17 = new APIToken("[?] [type, namespace].operation17()");
-        APIToken t18 = new APIToken("[?] [type, namespace].operation18()");
-        APIToken t19 = new APIToken("[?] [type, namespace].operation19()");
-        APIToken t20 = new APIToken("[?] [type, namespace].operation20()");
-        APIToken t21 = new APIToken("[?] [type, namespace].operation21()");
-        APIToken t22 = new APIToken("[?] [type, namespace].operation22()");
-        APIToken t23 = new APIToken("[?] [type, namespace].operation23()");
-        APIToken t24 = new APIToken("[?] [type, namespace].operation24()");
-        APIToken t25 = new APIToken("[?] [type, namespace].operation25()");
-        APIToken t26 = new APIToken("[?] [type, namespace].operation26()");
-        APIToken t27 = new APIToken("[?] [type, namespace].operation27()");
-        APIToken t28 = new APIToken("[?] [type, namespace].operation28()");
-        APIToken t29 = new APIToken("[?] [type, namespace].operation29()");
-        APIToken t30 = new APIToken("[?] [type, namespace].operation30()");
-        APIToken t31 = new APIToken("[?] [type, namespace].operation31()");
-        APIToken t32 = new APIToken("[?] [type, namespace].operation32()");
-        APIToken t33 = new APIToken("[?] [type, namespace].operation33()");
-        APIToken t34 = new APIToken("[?] [type, namespace].operation34()");
-        APIToken t35 = new APIToken("[?] [type, namespace].operation35()");
-        APIToken t36 = new APIToken("[?] [type, namespace].operation36()");
-        APIToken t37 = new APIToken("[?] [type, namespace].operation37()");
-        APIToken t38 = new APIToken("[?] [type, namespace].operation38()");
-        APIToken t39 = new APIToken("[?] [type, namespace].operation39()");
-        APIToken t40 = new APIToken("[?] [type, namespace].operation40()");
-        APIToken t41 = new APIToken("[?] [type, namespace].operation41()");
+        APIToken t1 = new APIToken("[?] [Some.Namespace.Type, Some.Namespace].Operation1()");
+        APIToken t2 = new APIToken("[?] [Some.Namespace.Type, Some.Namespace].Operation2()");
+        APIToken t3 = new APIToken("[?] [Some.Namespace.Type, Some.Namespace].Operation3()");
+        APIToken t4 = new APIToken("[?] [Some.Namespace.Type, Some.Namespace].Operation4()");
+        APIToken t5 = new APIToken("[?] [Some.Namespace.Type, Some.Namespace].Operation5()");
+        APIToken t6 = new APIToken("[?] [Some.Namespace.Type, Some.Namespace].Operation6()");
+        APIToken t7 = new APIToken("[?] [Some.Namespace.Type, Some.Namespace].Operation7()");
+        APIToken t8 = new APIToken("[?] [Some.Namespace.Type, Some.Namespace].Operation8()");
+        APIToken t9 = new APIToken("[?] [Some.Namespace.Type, Some.Namespace].Operation9()");
+        APIToken t10 = new APIToken("[?] [Some.Namespace.Type, Some.Namespace].Operation10()");
+        APIToken t11 = new APIToken("[?] [Some.Namespace.Type, Some.Namespace].Operation11()");
+        APIToken t12 = new APIToken("[?] [Some.Namespace.Type, Some.Namespace].Operation12()");
+        APIToken t13 = new APIToken("[?] [Some.Namespace.Type, Some.Namespace].Operation13()");
+        APIToken t14 = new APIToken("[?] [Some.Namespace.Type, Some.Namespace].Operation14()");
+        APIToken t15 = new APIToken("[?] [Some.Namespace.Type, Some.Namespace].Operation15()");
+        APIToken t16 = new APIToken("[?] [Some.Namespace.Type, Some.Namespace].Operation16()");
+        APIToken t17 = new APIToken("[?] [Some.Namespace.Type, Some.Namespace].Operation17()");
+        APIToken t18 = new APIToken("[?] [Some.Namespace.Type, Some.Namespace].Operation18()");
+        APIToken t19 = new APIToken("[?] [Some.Namespace.Type, Some.Namespace].Operation19()");
+        APIToken t20 = new APIToken("[?] [Some.Namespace.Type, Some.Namespace].Operation20()");
+        APIToken t21 = new APIToken("[?] [Some.Namespace.Type, Some.Namespace].Operation21()");
+        APIToken t22 = new APIToken("[?] [Some.Namespace.Type, Some.Namespace].Operation22()");
+        APIToken t23 = new APIToken("[?] [Some.Namespace.Type, Some.Namespace].Operation23()");
+        APIToken t24 = new APIToken("[?] [Some.Namespace.Type, Some.Namespace].Operation24()");
+        APIToken t25 = new APIToken("[?] [Some.Namespace.Type, Some.Namespace].Operation25()");
+        APIToken t26 = new APIToken("[?] [Some.Namespace.Type, Some.Namespace].Operation26()");
+        APIToken t27 = new APIToken("[?] [Some.Namespace.Type, Some.Namespace].Operation27()");
+        APIToken t28 = new APIToken("[?] [Some.Namespace.Type, Some.Namespace].Operation28()");
+        APIToken t29 = new APIToken("[?] [Some.Namespace.Type, Some.Namespace].Operation29()");
+        APIToken t30 = new APIToken("[?] [Some.Namespace.Type, Some.Namespace].Operation30()");
+        APIToken t31 = new APIToken("[?] [Some.Namespace.Type, Some.Namespace].Operation31()");
+        APIToken t32 = new APIToken("[?] [Some.Namespace.Type, Some.Namespace].Operation32()");
+        APIToken t33 = new APIToken("[?] [Some.Namespace.Type, Some.Namespace].Operation33()");
+        APIToken t34 = new APIToken("[?] [Some.Namespace.Type, Some.Namespace].Operation34()");
+        APIToken t35 = new APIToken("[?] [Some.Namespace.Type, Some.Namespace].Operation35()");
+        APIToken t36 = new APIToken("[?] [Some.Namespace.Type, Some.Namespace].Operation36()");
+        APIToken t37 = new APIToken("[?] [Some.Namespace.Type, Some.Namespace].Operation37()");
+        APIToken t38 = new APIToken("[?] [Some.Namespace.Type, Some.Namespace].Operation38()");
+        APIToken t39 = new APIToken("[?] [Some.Namespace.Type, Some.Namespace].Operation39()");
+        APIToken t40 = new APIToken("[?] [Some.Namespace.Type, Some.Namespace].Operation40()");
+        APIToken t41 = new APIToken("[?] [Some.Namespace.Type, Some.Namespace].Operation41()");
 
         asp.addToken(t1);
         asp.addToken(t2);
@@ -234,47 +234,47 @@ public class APISentenceTreeTest {
     public void flattenWithDepth() {
         APISentenceTree asp = new APISentenceTree();
 
-        APIToken t1 = new APIToken("[?] [type, namespace].operation1()");
-        APIToken t2 = new APIToken("[?] [type, namespace].operation2()");
-        APIToken t3 = new APIToken("[?] [type, namespace].operation3()");
-        APIToken t4 = new APIToken("[?] [type, namespace].operation4()");
-        APIToken t5 = new APIToken("[?] [type, namespace].operation5()");
-        APIToken t6 = new APIToken("[?] [type, namespace].operation6()");
-        APIToken t7 = new APIToken("[?] [type, namespace].operation7()");
-        APIToken t8 = new APIToken("[?] [type, namespace].operation8()");
-        APIToken t9 = new APIToken("[?] [type, namespace].operation9()");
-        APIToken t10 = new APIToken("[?] [type, namespace].operation10()");
-        APIToken t11 = new APIToken("[?] [type, namespace].operation11()");
-        APIToken t12 = new APIToken("[?] [type, namespace].operation12()");
-        APIToken t13 = new APIToken("[?] [type, namespace].operation13()");
-        APIToken t14 = new APIToken("[?] [type, namespace].operation14()");
-        APIToken t15 = new APIToken("[?] [type, namespace].operation15()");
-        APIToken t16 = new APIToken("[?] [type, namespace].operation16()");
-        APIToken t17 = new APIToken("[?] [type, namespace].operation17()");
-        APIToken t18 = new APIToken("[?] [type, namespace].operation18()");
-        APIToken t19 = new APIToken("[?] [type, namespace].operation19()");
-        APIToken t20 = new APIToken("[?] [type, namespace].operation20()");
-        APIToken t21 = new APIToken("[?] [type, namespace].operation21()");
-        APIToken t22 = new APIToken("[?] [type, namespace].operation22()");
-        APIToken t23 = new APIToken("[?] [type, namespace].operation23()");
-        APIToken t24 = new APIToken("[?] [type, namespace].operation24()");
-        APIToken t25 = new APIToken("[?] [type, namespace].operation25()");
-        APIToken t26 = new APIToken("[?] [type, namespace].operation26()");
-        APIToken t27 = new APIToken("[?] [type, namespace].operation27()");
-        APIToken t28 = new APIToken("[?] [type, namespace].operation28()");
-        APIToken t29 = new APIToken("[?] [type, namespace].operation29()");
-        APIToken t30 = new APIToken("[?] [type, namespace].operation30()");
-        APIToken t31 = new APIToken("[?] [type, namespace].operation31()");
-        APIToken t32 = new APIToken("[?] [type, namespace].operation32()");
-        APIToken t33 = new APIToken("[?] [type, namespace].operation33()");
-        APIToken t34 = new APIToken("[?] [type, namespace].operation34()");
-        APIToken t35 = new APIToken("[?] [type, namespace].operation35()");
-        APIToken t36 = new APIToken("[?] [type, namespace].operation36()");
-        APIToken t37 = new APIToken("[?] [type, namespace].operation37()");
-        APIToken t38 = new APIToken("[?] [type, namespace].operation38()");
-        APIToken t39 = new APIToken("[?] [type, namespace].operation39()");
-        APIToken t40 = new APIToken("[?] [type, namespace].operation40()");
-        APIToken t41 = new APIToken("[?] [type, namespace].operation41()");
+        APIToken t1 = new APIToken("[?] [Some.Namespace.Type, Some.Namespace].Operation1()");
+        APIToken t2 = new APIToken("[?] [Some.Namespace.Type, Some.Namespace].Operation2()");
+        APIToken t3 = new APIToken("[?] [Some.Namespace.Type, Some.Namespace].Operation3()");
+        APIToken t4 = new APIToken("[?] [Some.Namespace.Type, Some.Namespace].Operation4()");
+        APIToken t5 = new APIToken("[?] [Some.Namespace.Type, Some.Namespace].Operation5()");
+        APIToken t6 = new APIToken("[?] [Some.Namespace.Type, Some.Namespace].Operation6()");
+        APIToken t7 = new APIToken("[?] [Some.Namespace.Type, Some.Namespace].Operation7()");
+        APIToken t8 = new APIToken("[?] [Some.Namespace.Type, Some.Namespace].Operation8()");
+        APIToken t9 = new APIToken("[?] [Some.Namespace.Type, Some.Namespace].Operation9()");
+        APIToken t10 = new APIToken("[?] [Some.Namespace.Type, Some.Namespace].Operation10()");
+        APIToken t11 = new APIToken("[?] [Some.Namespace.Type, Some.Namespace].Operation11()");
+        APIToken t12 = new APIToken("[?] [Some.Namespace.Type, Some.Namespace].Operation12()");
+        APIToken t13 = new APIToken("[?] [Some.Namespace.Type, Some.Namespace].Operation13()");
+        APIToken t14 = new APIToken("[?] [Some.Namespace.Type, Some.Namespace].Operation14()");
+        APIToken t15 = new APIToken("[?] [Some.Namespace.Type, Some.Namespace].Operation15()");
+        APIToken t16 = new APIToken("[?] [Some.Namespace.Type, Some.Namespace].Operation16()");
+        APIToken t17 = new APIToken("[?] [Some.Namespace.Type, Some.Namespace].Operation17()");
+        APIToken t18 = new APIToken("[?] [Some.Namespace.Type, Some.Namespace].Operation18()");
+        APIToken t19 = new APIToken("[?] [Some.Namespace.Type, Some.Namespace].Operation19()");
+        APIToken t20 = new APIToken("[?] [Some.Namespace.Type, Some.Namespace].Operation20()");
+        APIToken t21 = new APIToken("[?] [Some.Namespace.Type, Some.Namespace].Operation21()");
+        APIToken t22 = new APIToken("[?] [Some.Namespace.Type, Some.Namespace].Operation22()");
+        APIToken t23 = new APIToken("[?] [Some.Namespace.Type, Some.Namespace].Operation23()");
+        APIToken t24 = new APIToken("[?] [Some.Namespace.Type, Some.Namespace].Operation24()");
+        APIToken t25 = new APIToken("[?] [Some.Namespace.Type, Some.Namespace].Operation25()");
+        APIToken t26 = new APIToken("[?] [Some.Namespace.Type, Some.Namespace].Operation26()");
+        APIToken t27 = new APIToken("[?] [Some.Namespace.Type, Some.Namespace].Operation27()");
+        APIToken t28 = new APIToken("[?] [Some.Namespace.Type, Some.Namespace].Operation28()");
+        APIToken t29 = new APIToken("[?] [Some.Namespace.Type, Some.Namespace].Operation29()");
+        APIToken t30 = new APIToken("[?] [Some.Namespace.Type, Some.Namespace].Operation30()");
+        APIToken t31 = new APIToken("[?] [Some.Namespace.Type, Some.Namespace].Operation31()");
+        APIToken t32 = new APIToken("[?] [Some.Namespace.Type, Some.Namespace].Operation32()");
+        APIToken t33 = new APIToken("[?] [Some.Namespace.Type, Some.Namespace].Operation33()");
+        APIToken t34 = new APIToken("[?] [Some.Namespace.Type, Some.Namespace].Operation34()");
+        APIToken t35 = new APIToken("[?] [Some.Namespace.Type, Some.Namespace].Operation35()");
+        APIToken t36 = new APIToken("[?] [Some.Namespace.Type, Some.Namespace].Operation36()");
+        APIToken t37 = new APIToken("[?] [Some.Namespace.Type, Some.Namespace].Operation37()");
+        APIToken t38 = new APIToken("[?] [Some.Namespace.Type, Some.Namespace].Operation38()");
+        APIToken t39 = new APIToken("[?] [Some.Namespace.Type, Some.Namespace].Operation39()");
+        APIToken t40 = new APIToken("[?] [Some.Namespace.Type, Some.Namespace].Operation40()");
+        APIToken t41 = new APIToken("[?] [Some.Namespace.Type, Some.Namespace].Operation41()");
 
         asp.addToken(t1);
         asp.addToken(t2);
@@ -341,7 +341,7 @@ public class APISentenceTreeTest {
     @Test
     public void addToken() {
         APISentenceTree asp = new APISentenceTree();
-        APIToken token = new APIToken("[?] [type, namespace].operation()");
+        APIToken token = new APIToken("[?] [Some.Namespace.Type, Some.Namespace].Operation()");
         asp.addToken(token);
         
         assertEquals(1, asp.getTokens().size());
@@ -351,7 +351,7 @@ public class APISentenceTreeTest {
     @Test
     public void getTokens() {
         APISentenceTree asp = new APISentenceTree();
-        APIToken token = new APIToken("[?] [type, namespace].operation()");
+        APIToken token = new APIToken("[?] [Some.Namespace.Type, Some.Namespace].Operation()");
         List<APIToken> tokenList = new ArrayList();
         asp.addToken(token);
         tokenList.add(token);
@@ -363,10 +363,10 @@ public class APISentenceTreeTest {
     public void getBranches() {
         APISentenceTree asp = new APISentenceTree();
 
-        APIToken t1 = new APIToken("[?] [type, namespace].operation1()");
-        APIToken t2 = new APIToken("[?] [type, namespace].operation2()");
-        APIToken t3 = new APIToken("[?] [type, namespace].operation3()");
-        APIToken t4 = new APIToken("[?] [type, namespace].operation4()");
+        APIToken t1 = new APIToken("[?] [Some.Namespace.Type, Some.Namespace].Operation1()");
+        APIToken t2 = new APIToken("[?] [Some.Namespace.Type, Some.Namespace].Operation2()");
+        APIToken t3 = new APIToken("[?] [Some.Namespace.Type, Some.Namespace].Operation3()");
+        APIToken t4 = new APIToken("[?] [Some.Namespace.Type, Some.Namespace].Operation4()");
 
         asp.addToken(t1);
         APISentenceTree aspB = asp.branch(t2);

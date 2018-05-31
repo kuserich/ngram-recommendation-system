@@ -18,7 +18,7 @@ public class EventVisitorTest {
 
     @Test
     public void EventVisitorGetSelection() {
-        APIToken t1 = new APIToken("[?] [type, namespace].operation1()");
+        APIToken t1 = new APIToken("[?] [Some.Namespace.Type, Some.Namespace].Operation1()");
         EventVisitor ev = new EventVisitor();
         ev.setSelection(t1);
         assertEquals(ev.getSelection(), t1);
@@ -26,14 +26,14 @@ public class EventVisitorTest {
 
     @Test
     public void EventVisitorConstructor() {
-        APIToken t1 = new APIToken("[?] [type, namespace].operation1()");
+        APIToken t1 = new APIToken("[?] [Some.Namespace.Type, Some.Namespace].Operation1()");
         EventVisitor ev = new EventVisitor(t1);
         assertEquals(ev.getSelection(), t1);
     }
 
     @Test
     public void EventVisitorSetSelection () {
-        APIToken t1 = new APIToken("[?] [type, namespace].operation1()");
+        APIToken t1 = new APIToken("[?] [Some.Namespace.Type, Some.Namespace].Operation1()");
         EventVisitor ev1 = new EventVisitor(t1);
         EventVisitor ev2 = new EventVisitor();
         ev2.setSelection(t1);
@@ -245,7 +245,7 @@ public class EventVisitorTest {
 
     private APISentenceTree setupTokenHelper () {
         APISentenceTree asp = new APISentenceTree();
-        APIToken t1 = new APIToken("[?] [type, namespace].operation1()");
+        APIToken t1 = new APIToken("[?] [Some.Namespace.Type, Some.Namespace].Operation1()");
         asp.addToken(t1);
         return asp;
     }
