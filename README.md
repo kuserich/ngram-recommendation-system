@@ -78,7 +78,7 @@ After you have run the commands the .jar file should be available and can be add
 
 ---
 ## Continuous Development <a name="continouos-development"></a>
-In order for the development process, the team chose to use Travis CI to have automated tests and publishing of the artifacts, to be used by other parties. Sharing is carying. ;)
+In order for the development process, the team chose to use Travis CI to have automated tests and publishing of the artifacts, to be used by other parties. Sharing is caring. ;)
 
 ### Building <a name="continouos-development-building"></a>
 Thanks to the commitment to open-source the Travis-CI takes care of the building, testing, deployment, and test coverage sharing of the project. The currenty build processes can be found [here](https://travis-ci.org/kuserich/ngram-recommendation-system).
@@ -130,6 +130,7 @@ The artifacts are deployed to [packagecloud.io](https://packagecloud.io/sebastia
 ```
 
 **env.TRAVIS_BUILD_NUMBER:** Every build in Travis CI gets a number, starting with 1.
+
 **env.TRAVIS_BRANCH:** As we build every commit, the branch name is added to the artifacts name.
 
 ### Test Coverage <a name="continouos-development-test-coverage"></a>
