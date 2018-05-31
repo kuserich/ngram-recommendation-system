@@ -7,12 +7,17 @@ import java.util.ArrayList;
 import java.util.List;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
 
 public class UtilitiesTest {
 
     @Test
     public void hasIllegalMethodName() {
-        
+        APIToken t1 = new APIToken();
+        APIToken t2 = new APIToken("[?] [Some.Namespace.Type, Some.Namespace].Operation1()");
+        assertTrue(Utilities.hasIllegalMethodName(t1));
+        assertFalse(Utilities.hasIllegalMethodName(t2));
     }
     
     @Test

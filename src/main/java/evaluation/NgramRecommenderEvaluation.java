@@ -143,8 +143,7 @@ public class NgramRecommenderEvaluation {
             APIToken selectedAPIToken = new APIToken(methodName.getIdentifier());
 
             String modelFile;
-            if(selectedAPIToken.getNamespace().equals("System.Collections.Generic") 
-                    || (modelFile = getModelForNamespace(selectedAPIToken.getNamespace())) == null) {
+            if((modelFile = getModelForNamespace(selectedAPIToken.getNamespace())) == null) {
 //                System.out.println("[INFO]\tNo model found for "+selectedAPIToken.getNamespace());
                 return;
             }
@@ -230,6 +229,15 @@ public class NgramRecommenderEvaluation {
         return one.contains(two) || two.contains(one);
     }
 
+    /**
+     * Return the file path of the matching model for the given namespace.
+     * 
+     * @param namespace
+     *          namespace from an {@link IName}
+     *          
+     * @return
+     *          model that fits the namespace in {@link #inputFiles} from {@link #modelsDir} 
+     */
     private static String getModelForNamespace(String namespace) {
         for(String entry : inputFiles) {
             if(entry.toLowerCase().substring(0, entry.length()-4).equals(namespace.toLowerCase())) {
@@ -237,43 +245,6 @@ public class NgramRecommenderEvaluation {
             }
         }
         return null;
-    }
-    
-    private static boolean modelForNamespaceExists(String namespace) {
-        return getModelForNamespace(namespace) != null;
-    }
-    
-    /**
-     * Check if namespace exists
-     *
-     * @param s
-     * @return
-     */
-    private static boolean namespaceExists(String s) {
-        boolean found = false;
-        for (String entry : inputFiles) {
-            if (s.length() > 0 && entry.toLowerCase().contains(s.toLowerCase())) {
-                found = true;
-            }
-        }
-        return found;
-    }
-
-    /**
-     * Get Namespaces for each entry
-     *
-     * @param s
-     * @return
-     */
-    private static Set<String> getNamespaces(String s) {
-        Set<String> namespaces = new HashSet<String>();
-
-        for (String entry : inputFiles) {
-            if (s.length() > 0 && entry.contains(s)) {
-                namespaces.add("models/" + entry);
-            }
-        }
-        return namespaces;
     }
 
 }

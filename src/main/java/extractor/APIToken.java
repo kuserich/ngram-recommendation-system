@@ -2,13 +2,10 @@ package extractor;
 
 import cc.kave.commons.model.naming.impl.v0.codeelements.MethodName;
 import cc.kave.commons.model.ssts.ISST;
-import opennlp.tools.util.StringList;
 import util.Utilities;
 
 public class APIToken extends MethodName {
     
-    private String namespace;
-
     public APIToken() {
         super();
     }
@@ -26,11 +23,11 @@ public class APIToken extends MethodName {
     
     public String getType() {
         // or only getDeclaringType().getName()
+        // return getDeclaringType().getFullName();
         if(getNamespace() != null && getNamespace().length() > 0) {
             return getNamespace()+"."+Utilities.capitalize(getDeclaringType().getName());
         }
         return Utilities.capitalize(getDeclaringType().getName());
-//        return getDeclaringType().getFullName();
     }
     
     public String getOperation() {
