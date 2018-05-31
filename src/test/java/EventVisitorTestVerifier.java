@@ -1,11 +1,15 @@
+import cc.kave.commons.model.events.IIDEEvent;
+import cc.kave.commons.model.events.completionevents.ICompletionEvent;
 import cc.kave.commons.model.ssts.IStatement;
 import cc.kave.commons.model.ssts.blocks.*;
 import cc.kave.commons.model.ssts.declarations.IMethodDeclaration;
 import cc.kave.commons.model.ssts.declarations.IPropertyDeclaration;
 import cc.kave.commons.model.ssts.expressions.assignable.*;
 import cc.kave.commons.model.ssts.expressions.loopheader.ILoopHeaderBlockExpression;
+import cc.kave.commons.model.ssts.impl.expressions.assignable.CompletionExpression;
 import cc.kave.commons.model.ssts.impl.expressions.assignable.InvocationExpression;
 import cc.kave.commons.model.ssts.statements.*;
+import evaluation.EvaluationVisitor;
 import evaluation.EventVisitor;
 import extractor.APISentenceTree;
 import extractor.APIToken;
@@ -24,6 +28,10 @@ public class EventVisitorTestVerifier {
         _context = context;
     }
 
+    public EventVisitorTestVerifier(EvaluationVisitor node, APISentenceTree context) {
+        _context = context;
+    }
+
     public void verify(Object obj) {
         EventVisitor ev = new EventVisitor();
         //EventVisitor visitor = mock(EventVisitor.class);
@@ -34,9 +42,10 @@ public class EventVisitorTestVerifier {
             assertEquals(ev.hasEventFired(), true);
         } else if (obj instanceof IInvocationExpression) {
 
-            APIToken t1 = new APIToken("[?] [type, namespace].operation1()");
+            APIToken t1 = new APIToken();
             ev.setSelection(t1);
             assertEquals(ev.visit((IInvocationExpression) obj, _context), null);
+            
         }
         else if (obj instanceof IMethodDeclaration)
             assertEquals(ev.visit((IMethodDeclaration) obj, _context), null);
@@ -106,6 +115,17 @@ public class EventVisitorTestVerifier {
 
          else if (obj instanceof ILambdaExpression)
             assertEquals(ev.visit((ILambdaExpression) obj, _context), null);
+
+         else if (obj instanceof ICompletionEvent) {
+            EvaluationVisitor eval = new EvaluationVisitor();
+            assertEquals(eval.visit((ICompletionEvent) obj, null), null);
+        }
+
+         else if (obj instanceof IIDEEvent) {
+            EvaluationVisitor eval = new EvaluationVisitor();
+            assertEquals(eval.visit((IIDEEvent) obj, null), null);
+        }
+
 
          else if (obj instanceof IStatement) {
              System.out.println("istatement");
