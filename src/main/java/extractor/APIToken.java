@@ -1,57 +1,42 @@
 package extractor;
 
-import cc.kave.commons.model.naming.IName;
-import cc.kave.commons.model.naming.codeelements.IMethodName;
-import cc.kave.commons.model.naming.codeelements.IParameterName;
-import cc.kave.commons.model.naming.types.ITypeName;
-import cc.kave.commons.model.naming.types.ITypeParameterName;
+import cc.kave.commons.model.naming.impl.v0.codeelements.MethodName;
 import cc.kave.commons.model.ssts.ISST;
 import opennlp.tools.util.StringList;
 
-import java.util.List;
-
-public class APIToken implements IName, IMethodName {
-    
-    private Invocation invocation;
-    private String type;
-    private String operation;
+public class APIToken extends MethodName {
     
     private String namespace;
 
+    public APIToken() {
+        super();
+    }
+    
+    public APIToken(String identifier) {
+        super(identifier);
+    }
+
     public Invocation getInvocation() {
-        return invocation;
+        if(getIdentifier().startsWith("static")) {
+            return Invocation.STATIC_OPERATION;
+        }
+        return Invocation.INSTANCE_OPERATION;
     }
-
-    public void setInvocation(Invocation invocation) {
-        this.invocation = invocation;
-    }
-
+    
     public String getType() {
-        return type;
-    }
-
-    public void setType(String type) {
-        this.type = type;
+        // or only getDeclaringType().getName()
+        return getDeclaringType().getFullName();
     }
     
     public String getOperation() {
-        return operation;
-    }
-
-    public void setOperation(String operation) {
-        this.operation = operation;
-    }
-
-    public void setOperation(StringList operationList) {
-        this.operation = String.valueOf(operationList);
+        if(isConstructor()) {
+            return "new";
+        }
+        return getName();
     }
     
     public String getNamespace() {
-        return namespace;
-    }
-    
-    public void setNamespace(String namespace) {
-        this.namespace = namespace;
+        return getDeclaringType().getNamespace().getIdentifier();
     }
 
     /**
@@ -77,99 +62,11 @@ public class APIToken implements IName, IMethodName {
      *          true if this token is empty, false otherwise
      */
     public boolean isEmpty() {
-        return (invocation == null)
-                && (type == null || type.length() == 0)
-                && (operation == null || operation.length() == 0)
-                && (namespace == null || namespace.length() == 0);
-    }
-
-    @Override
-    public String getIdentifier() {
-        return null;
-    }
-
-    @Override
-    public boolean isUnknown() {
-        return false;
-    }
-
-    @Override
-    public boolean isHashed() {
-        return false;
+        return isUnknown();
     }
 
     @Override
     public String toString() {
-        return "<"+type+","+operation+">";
-    }
-
-    @Override
-    public boolean isConstructor() {
-        return false;
-    }
-
-    @Override
-    public boolean isInit() {
-        return false;
-    }
-
-    @Override
-    public ITypeName getReturnType() {
-        return null;
-    }
-
-    @Override
-    public boolean isExtensionMethod() {
-        return false;
-    }
-
-    @Override
-    public boolean hasTypeParameters() {
-        return false;
-    }
-
-    @Override
-    public List<ITypeParameterName> getTypeParameters() {
-        return null;
-    }
-
-    @Override
-    public List<IParameterName> getParameters() {
-        return null;
-    }
-
-    @Override
-    public boolean hasParameters() {
-        return false;
-    }
-
-    @Override
-    public ITypeName getDeclaringType() {
-        return null;
-    }
-
-    @Override
-    public ITypeName getValueType() {
-        return null;
-    }
-
-    @Override
-    public boolean isStatic() {
-        return false;
-    }
-
-    @Override
-    public String getName() {
-        return null;
-    }
-
-    @Override
-    public String getFullName() {
-        return null;
-    }
-
-    @Override
-    public int compareTo(IMethodName o) {
-        return 0;
+        return "<"+getType()+","+getOperation()+">";
     }
 }

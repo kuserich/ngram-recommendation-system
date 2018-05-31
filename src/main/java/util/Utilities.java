@@ -41,5 +41,4 @@ public class Utilities {
         }
         return new StringList(strings);
     }
-    
 }

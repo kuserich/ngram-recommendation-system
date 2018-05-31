@@ -13,7 +13,6 @@ public class NgramRecommenderEvaluationTest {
     @Test
     public void findAllUsers() {
         List<String> zips = NgramRecommenderEvaluation.findAllUsers("MockData");
-
         assertEquals(zips.size(), 1);
     }
 

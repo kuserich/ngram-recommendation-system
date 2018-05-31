@@ -90,10 +90,17 @@ public class NgramRecommenderClient extends NGramLanguageModel implements ICalls
                 String type = tokenString.split(",")[0];
                 String operation = tokenString.split(",")[1];
 
-                APIToken token = new APIToken();
-                token.setNamespace(modelName);
-                token.setOperation(operation);
-                token.setType(type);
+                StringBuilder tokenStringBuilder = new StringBuilder(); 
+                tokenStringBuilder.append("[?] [");
+                tokenStringBuilder.append(type);
+                tokenStringBuilder.append(", ");
+                tokenStringBuilder.append(modelName, 0, modelName.length()-4);
+                tokenStringBuilder.append("].");
+                tokenStringBuilder.append(operation);
+                tokenStringBuilder.append("()");
+                
+                APIToken token = new APIToken(tokenStringBuilder.toString());
+                
                 Tuple<IMethodName, Double> prediction = Tuple.newTuple(token, calculateProbability(predictedTokenStrings));
                 recommendation.add(prediction);
 

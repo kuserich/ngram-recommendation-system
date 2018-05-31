@@ -13,9 +13,7 @@ public class EventVisitorTest {
 
     @Test
     public void EventVisitorConstructor() {
-        APIToken t1 = new APIToken();
-        t1.setNamespace("System");
-        t1.setOperation("M1");
+        APIToken t1 = new APIToken("[?] [type, namespace].operation1()");
         EventVisitor ev = new EventVisitor();
         ev.setSelection(t1);
         assertEquals(ev.getSelection(), t1);
@@ -23,9 +21,7 @@ public class EventVisitorTest {
 
     @Test
     public void EventVisitorGetSelection() {
-        APIToken t1 = new APIToken();
-        t1.setNamespace("System");
-        t1.setOperation("M1");
+        APIToken t1 = new APIToken("[?] [type, namespace].operation1()");
         EventVisitor ev = new EventVisitor(t1);
         assertEquals(ev.getSelection(), t1);
     }
@@ -35,9 +31,7 @@ public class EventVisitorTest {
     public void EventVisitorCompletionExpressionHasEventFired() {
         EventVisitor sut = new EventVisitor();
         APISentenceTree asp = new APISentenceTree();
-        APIToken t1 = new APIToken();
-        t1.setNamespace("System");
-        t1.setOperation("M1");
+        APIToken t1 = new APIToken("[?] [type, namespace].operation1()");
         asp.addToken(t1);
 
         EventVisitorTestHelper.accept(sut, asp).verify(new CompletionExpression());
@@ -47,9 +41,7 @@ public class EventVisitorTest {
     public void EventVisitorHasIInvocationExpression() {
         EventVisitor sut = new EventVisitor();
         APISentenceTree asp = new APISentenceTree();
-        APIToken t1 = new APIToken();
-        t1.setNamespace("System");
-        t1.setOperation("M1");
+        APIToken t1 = new APIToken("[?] [type, namespace].operation1()");
         asp.addToken(t1);
 
         EventVisitorTestHelper.accept(sut, asp).verify(new InvocationExpression());

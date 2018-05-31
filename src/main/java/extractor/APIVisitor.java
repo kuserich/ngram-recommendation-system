@@ -346,30 +346,13 @@ public class APIVisitor implements ISSTNodeVisitor<APISentenceTree, APIToken> {
                 || Utilities.hasIllegalMethodName(methodName)) {
             return null;
         }
+        
+        
+        APIToken apiToken = new APIToken(methodName.getIdentifier());
 
-        
-        String operation;
-        Invocation invocation;
-        
-        if(methodName.isConstructor()) {
-            operation = "new";
-            invocation = Invocation.CLASS_CONSTRUCTOR;
-        } else {
-            operation = methodName.getName();
-            if(methodName.getIdentifier().startsWith("static")) {
-                invocation = Invocation.STATIC_OPERATION;
-            } else {
-                invocation = Invocation.INSTANCE_OPERATION;
-            }
-        }
-        
-        APIToken apiToken = new APIToken();
-        apiToken.setOperation(operation);
-        apiToken.setInvocation(invocation);
-        // TODO: use only the name
-//        apiToken.setType(methodName.getDeclaringType().getName());
-        apiToken.setType(methodName.getDeclaringType().getFullName());
-        apiToken.setNamespace(methodName.getDeclaringType().getNamespace().getIdentifier());
+        System.out.println();
+        System.out.println(apiToken.toString());
+        System.out.println();
 
         // it is very important that we add our tokens within the visit methods.
         // particularly, we will only add any tokens in this visit method as we

@@ -140,29 +140,8 @@ public class NgramRecommenderEvaluation {
                     || Utilities.hasIllegalMethodName(methodName))) {
                 return;
             }
-
-//                System.out.println("thats what we're looking for");
-
-            String operation;
-            Invocation invocation;
-
-            if(methodName.isConstructor()) {
-                operation = "new";
-                invocation = Invocation.CLASS_CONSTRUCTOR;
-            } else {
-                operation = methodName.getName();
-                if(methodName.getIdentifier().startsWith("static")) {
-                    invocation = Invocation.STATIC_OPERATION;
-                } else {
-                    invocation = Invocation.INSTANCE_OPERATION;
-                }
-            }
-
-            APIToken selectedAPIToken = new APIToken();
-            selectedAPIToken.setOperation(operation);
-            selectedAPIToken.setInvocation(invocation);
-            selectedAPIToken.setType(methodName.getDeclaringType().getFullName());
-            selectedAPIToken.setNamespace(methodName.getDeclaringType().getNamespace().getIdentifier());
+            
+            APIToken selectedAPIToken = new APIToken(methodName.getIdentifier());
 
             String modelFile;
             if(selectedAPIToken.getNamespace().equals("System.Collections.Generic") 

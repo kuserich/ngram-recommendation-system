@@ -86,15 +86,9 @@ public class SentenceExtractor {
         List<APISentenceTree> apiSentenceTrees = process(context.getSST());
         
         for(APISentenceTree asp : apiSentenceTrees) {
-            Long n = 4*asp.numberOfSentences();
-//            System.out.print(" expected: "+n);
-//            System.out.print(" nbranches: "+asp.totalNumberOfBranches());
-//            System.out.print(" in pow: "+Math.pow(2, asp.totalNumberOfBranches()));
             if(asp.numberOfSentences() < 100000L) {
                 List<List<APIToken>> apiSentences = asp.flatten(MAX_FLATTEN_DEPTH);
-//                System.out.print(" actual : "+apiSentences.size());
                 Map<String, List<List<APIToken>>> bucketizedSentences = bucketizeApiSentences(apiSentences);
-                
                 try {
                     if(apiSentences.size() > 0) {
                         for(String key : bucketizedSentences.keySet()) {
