@@ -350,10 +350,6 @@ public class APIVisitor implements ISSTNodeVisitor<APISentenceTree, APIToken> {
         
         APIToken apiToken = new APIToken(methodName.getIdentifier());
 
-        System.out.println();
-        System.out.println(apiToken.toString());
-        System.out.println();
-
         // it is very important that we add our tokens within the visit methods.
         // particularly, we will only add any tokens in this visit method as we
         // are only interested in invocation expressions.

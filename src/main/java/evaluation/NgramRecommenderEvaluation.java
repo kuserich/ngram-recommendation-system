@@ -17,17 +17,17 @@ import cc.kave.rsse.calls.datastructures.Tuple;
 import com.google.common.collect.Lists;
 import extractor.APISentenceTree;
 import extractor.APIToken;
-import extractor.Invocation;
 import ngram.NgramRecommenderClient;
 import opennlp.tools.util.StringList;
 import org.apache.commons.io.FileUtils;
 import util.IoHelper;
 import util.Utilities;
 
-import javax.xml.bind.SchemaOutputResolver;
 import java.io.File;
 import java.io.IOException;
-import java.util.*;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
 
 
 public class NgramRecommenderEvaluation {

@@ -30,7 +30,8 @@ public class Utilities {
     public static boolean hasIllegalMethodName(IMethodName methodName) {
         // we check both the name of the declaring type as well as the namespace
         return methodName.getDeclaringType().getName().equals("???")
-                || methodName.getDeclaringType().getNamespace().getIdentifier().equals("???");
+                || methodName.getDeclaringType().getNamespace().getIdentifier().equals("???")
+                || methodName.getDeclaringType().getNamespace().getIdentifier().contains("`1[[");
     }
     
     public static StringList apiSentenceToStringList(List<APIToken> sentence) {
@@ -40,5 +41,9 @@ public class Utilities {
             strings[i] = token.getType()+","+token.getOperation();
         }
         return new StringList(strings);
+    }
+    
+    public static String capitalize(String str) {
+        return str.substring(0, 1).toUpperCase() + str.substring(1);
     }
 }

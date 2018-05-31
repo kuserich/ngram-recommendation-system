@@ -27,13 +27,13 @@ public class RunExample {
         System.out.println("| SENTENCE EXTRACTION                                       |");
         System.out.println("+-----------------------------------------------------------+");
 
-//        extractSentences();
+        extractSentences();
 
         System.out.println("+-----------------------------------------------------------+");
         System.out.println("| MDOEL TRAINING                                            |");
         System.out.println("+-----------------------------------------------------------+");
         
-//        trainModels();
+        trainModels();
         predictionExample();
         evaluationExample();
     }
