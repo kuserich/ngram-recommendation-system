@@ -10,7 +10,7 @@ import java.util.List;
 import static org.junit.Assert.assertEquals;
 
 public class NgramRecommenderEvaluationTest {
-    private static String mockDir = "MockData";
+    private static String mockDir = "MockData/event";
 
     @Test
     public void findAllUsers() {
