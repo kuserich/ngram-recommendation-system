@@ -81,10 +81,60 @@ After you have run the commands the .jar file should be available and can be add
 In order for the development process, the team chose to use Travis CI to have automated tests and publishing of the artifacts, to be used by other parties. Sharing is carying. ;)
 
 ### Building <a name="continouos-development-building"></a>
+Thanks to the commitment to open-source the Travis-CI takes care of the building, testing, deployment, and test coverage sharing of the project. The currenty build processes can be found [here](https://travis-ci.org/kuserich/ngram-recommendation-system).
+
+```yml
+language: java
+jdk: oraclejdk8
+
+(1)install:
+  - "mvn -N io.takari:maven:wrapper -Dmaven=3.3.9"
+  - "./mvnw --show-version --errors --batch-mode test-compile dependency:go-offline"
+
+(2)script: "./mvnw --show-version --errors --batch-mode -Prun-its clean verify"
+
+(3)test:
+  - mvn test -B -q
+
+(4)cache:
+  directories:
+  - $HOME/.m2
+
+(5)deploy:
+  provider: script
+  script: "cp .travis.settings.xml $HOME/.m2/settings.xml && mvn deploy"
+  skip_cleanup: true
+  on:
+    all_branches: true
+
+(6)after_success:
+  - mvn clean -DTRAVIS_JOB_ID=$TRAVIS_JOB_ID cobertura:cobertura coveralls:report
+```
+(1) - This steps installs all the dependencies, if they are not locally avaialable.
+
+(2) - This step ensures a clean setup.
+
+(3) - This steps runs the test and adds a report.
+
+(4) - This is not really a build step, it just saves dependencies and other needed fragments for the maven build in cache.
+
+(5) - The deployment step pushes the artifact to the [Maven Repository](https://packagecloud.io/sebastian/ngram-recommender) at packeclou.io.
+
+(6) - The last step of the build script deploy the [Coveralls](https://coveralls.io/github/kuserich/ngram-recommendation-system). Important to note is that the Travis CI job id is added to the coverall report.
 
 ### Artifacts <a name="continouos-development-artifacts"></a>
+The artifacts are deployed to [packagecloud.io](https://packagecloud.io/sebastian/ngram-recommender) and versioned in the following manner:
+
+```
+0.1.${env.TRAVIS_BUILD_NUMBER}-${env.TRAVIS_BRANCH}
+```
+
+**env.TRAVIS_BUILD_NUMBER:** Every build in Travis CI gets a number, starting with 1.
+**env.TRAVIS_BRANCH:** As we build every commit, the branch name is added to the artifacts name.
 
 ### Test Coverage <a name="continouos-development-test-coverage"></a>
+
+As outline in the sixth build step at the sub chapter [Building](#continouos-development-building) the test report is pushed to [Coveralls](https://coveralls.io/github/kuserich/ngram-recommendation-system). The build number as well the branch of the build are the same as of the Travis CI task.
 
 ---
 
