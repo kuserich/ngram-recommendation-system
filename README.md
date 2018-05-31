@@ -89,6 +89,7 @@ public void train(String trainFile) throws IOException {
 ```
 
 **Trained Set**
+
 The user has the possibility to use a model file, which is mostly used by widely used libraries.
 ```java
 public void setModelNameFromFileName(String modelFile) {
