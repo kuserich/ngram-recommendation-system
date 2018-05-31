@@ -133,7 +133,6 @@ public class NgramRecommenderEvaluation {
                 return;
             }
 
-
             IMethodName methodName = (IMethodName) selectionName;
             
             if((methodName.getDeclaringType().getAssembly().isLocalProject()
@@ -170,7 +169,7 @@ public class NgramRecommenderEvaluation {
                             System.out.println(selectedAPIToken.toString());
                             System.out.println("\t"+sentence.toString());
                             
-                            testWithModel(selectedAPIToken,
+                            testWithModel(modelFile, selectedAPIToken,
                                     sentence.subList(
                                             Math.max(0, sentence.size()-MAX_PROXIMITY),
                                             sentence.size()
@@ -274,9 +273,9 @@ public class NgramRecommenderEvaluation {
         }
     }
 
-    private static void testWithModel(APIToken expected, List<APIToken> sentence) {
+    private static void testWithModel(String modelFile, APIToken expected, List<APIToken> sentence) {
         try {
-            NgramRecommenderClient nrc = new NgramRecommenderClient(modelsDir+getModelForNamespace(expected.getNamespace()));
+            NgramRecommenderClient nrc = new NgramRecommenderClient(modelFile);
             Set<Tuple<IMethodName, Double>> predictions = nrc.query(Utilities.apiSentenceToStringList(sentence));
             
             if(predictions.size() == 0) {
@@ -341,7 +340,6 @@ public class NgramRecommenderEvaluation {
     
 
     private static boolean compareStrings(String one, String two) {
-
         return one.contains(two) || two.contains(one);
     }
 
@@ -386,8 +384,6 @@ public class NgramRecommenderEvaluation {
         for (String entry : inputFiles) {
             if (s.length() > 0 && entry.contains(s)) {
                 namespaces.add("models/" + entry);
-
-
             }
         }
         return namespaces;
