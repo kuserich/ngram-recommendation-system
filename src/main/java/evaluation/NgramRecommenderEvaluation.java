@@ -44,7 +44,7 @@ public class NgramRecommenderEvaluation {
     private static int numberOfEvents = 0;
 
 
-    private static List<String> findAllUsers(String inputDirectory) {
+    public static List<String> findAllUsers(String inputDirectory) {
         // This step is straight forward, as events are grouped by user. Each
         // .zip file in the dataset corresponds to one user.
 

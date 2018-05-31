@@ -97,6 +97,14 @@
             <artifactId>cc.kave.commons</artifactId>
             <version>0.0.4</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/org.mockito/mockito-all -->
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-all</artifactId>
+            <version>1.9.5</version>
+            <scope>test</scope>
+        </dependency>
+
         <!-- we might not need this -->
         <dependency>
             <groupId>cc.kave</groupId>
