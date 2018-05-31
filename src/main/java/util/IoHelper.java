@@ -1,21 +1,21 @@
 /**
  * Copyright 2016 Technische Universität Darmstadt
- * 
+ *
  * Licensed under the Apache License, Version 2.0 (the "License"); you may not
  * use this file except in compliance with the License. You may obtain a copy of
  * the License at
- * 
+ *
  * http://www.apache.org/licenses/LICENSE-2.0
- * 
+ *
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
  * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
  * License for the specific language governing permissions and limitations under
  * the License.
- * 
- * 
+ *
+ *
  * Copyright 2018 Universität Zürich (UZH)
- * 
+ *
  * Parts of this file were created by members of UZH.
  * The same license applies.
  */
@@ -56,7 +56,7 @@ public class IoHelper {
 		}
 		return res;
 	}
-	
+
 	public static void createDirectoryIfNotExists(String path) {
 		File directory = new File(path);
 		if (! directory.exists()){
@@ -68,18 +68,18 @@ public class IoHelper {
 	 * Given a filename and list of API sentences, this method creates a new file with the given filename
 	 * and writes all API sentences to that file such that one line contains one sentence.
 	 * Sentences are only written to the file if they contain at least as many tokens as defined by minLength.
-	 * 
+	 *
 	 * @see #removeFile(String)
 	 * 			the file with filename is created also if no API sentences are added (due to minLength).
-	 * 			Hence, those files must be removed afterwards.	
-	 * 
+	 * 			Hence, those files must be removed afterwards.
+	 *
 	 * @param filename
 	 * 			file to create and write to
 	 * @param apiSentences
 	 * 			API sentences that are written to the file
 	 * @param minLength
 	 * 			minimal length an API sentence must be to be written to the file
-	 * 			
+	 *
 	 * @throws IOException
 	 * 			thrown if there is an error with writing or deleting files
 	 */
@@ -115,10 +115,10 @@ public class IoHelper {
 	 * @throws IOException
 	 * 			thrown if there is an error with writing or deleting files
 	 */
-	public static void appendAPISentencesToFile(String filename, List<List<APIToken>> apiSentences, int minLength) 
+	public static void appendAPISentencesToFile(String filename, List<List<APIToken>> apiSentences, int minLength)
 			throws IOException {
 		FileWriter fw = new FileWriter(filename, true);
-		BufferedWriter bw = new BufferedWriter(fw);	
+		BufferedWriter bw = new BufferedWriter(fw);
 		PrintWriter out = new PrintWriter(bw);
 		for(List<APIToken> sentence : apiSentences) {
 			if(sentence.size() >= minLength) {
@@ -138,7 +138,7 @@ public class IoHelper {
 		fw.close();
 		removeFileIfEmpty(filename);
 	}
-	
+
 	public static void appendClassificationToFile(String filename, APIToken expected, APIToken actual) throws IOException {
 		FileWriter fw = new FileWriter(filename, true);
 		BufferedWriter bw = new BufferedWriter(fw);
@@ -151,7 +151,7 @@ public class IoHelper {
 		bw.close();
 		fw.close();
 	}
-	
+
 	public static void writeEvaluationResultsToFile(int events, int positives, int total) throws IOException {
 		FileWriter fw = new FileWriter("evalnums.txt");
 		BufferedWriter bw = new BufferedWriter(fw);
@@ -164,7 +164,7 @@ public class IoHelper {
 		bw.close();
 		fw.close();
 	}
-	
+
 	public static void removeFileIfEmpty(String filename) throws IOException {
 		BufferedReader br = new BufferedReader(new FileReader(filename));
 		if(br.readLine() == null) {
@@ -174,23 +174,23 @@ public class IoHelper {
 
 	/**
 	 * Deletes the file with given path.
-	 * 
+	 *
 	 * @param filePath
 	 * 			path and name of the file
-	 * 			
+	 *
 	 * @throws IOException
 	 * 			thrown if there is an error with deleting the file
 	 */
 	public static void removeFile(String filePath) throws IOException {
 		Files.deleteIfExists(new File(filePath).toPath());
 	}
-	
+
 	public static String pathToFileName(String filePath) {
 		return filePath.replaceAll("//","+")
 				.replaceAll("/", "+")
 				.replaceAll("\\.", "+");
 	}
-	
+
 	public static List<Context> read(String zipFile) {
 		LinkedList<Context> res = Lists.newLinkedList();
 		try {
