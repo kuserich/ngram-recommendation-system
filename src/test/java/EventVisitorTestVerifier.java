@@ -45,7 +45,7 @@ public class EventVisitorTestVerifier {
             APIToken t1 = new APIToken();
             ev.setSelection(t1);
             assertEquals(ev.visit((IInvocationExpression) obj, _context), null);
-            
+
         }
         else if (obj instanceof IMethodDeclaration)
             assertEquals(ev.visit((IMethodDeclaration) obj, _context), null);
