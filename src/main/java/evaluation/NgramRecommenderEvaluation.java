@@ -187,91 +187,7 @@ public class NgramRecommenderEvaluation {
         }
     }
     
-    
-    
-    /**
-     * 4: Processing events
-     */
-    private static void process_old(IIDEEvent event) throws IOException {
-        // once you have access to the instantiated event you can dispatch the
-        // type. As the events are not nested, we did not implement the visitor
-        // pattern, but resorted to instanceof checks.
-        if (event instanceof CompletionEvent) {
-            // if the correct type is identified, you can cast it...
-            CompletionEvent ce = (CompletionEvent) event;
-            List<IProposal> proposals = ce.proposalCollection;
-            List<IProposalSelection> selections = ce.selections; // positive: last
 
-            if (proposals.size() > 0) {
-
-                if (selections.size() > 0) {
-                    // Last of selection is selected event
-
-                    // TODO: we should be able to move this to after traversal
-                    String selected = selections.get(selections.size() - 1).getProposal().getName().getIdentifier();
-
-                    // Remove the events that dont matter from my view
-                    // TODO: what does this LocalVariableName thing do?
-                    if (!selected.contains("LocalVariableName") && !selected.contains("???")) {
-                        // TODO: why typeShape and methodHierarchies?
-                        if(ce.context.getTypeShape().getMethodHierarchies().iterator().hasNext()) {
-
-                            // TODO: this is almost certainly wrong
-                            IMemberHierarchy<IMethodName> entry = ce.context.getTypeShape().getMethodHierarchies().iterator().next();
-                            String identifier = entry.getElement().getDeclaringType().getNamespace().getIdentifier();
-//                            identifier = entry.getElement().getDeclaringType().getNamespace().toString();
-
-                            possibleNameSpaceCounter = possibleNameSpaceCounter + 1;
-
-                            if (namespaceExists(identifier)) {
-                                Set<String> ns = getNamespaces(identifier);
-
-                                String operation = ce.context.getSST().getEnclosingType().getName();
-                                String type = ce.context.getSST().getEnclosingType().getFullName();
-
-                                System.out.println("==================================================================");
-                                System.out.println("************ Active Document, could be API Name ************");
-                                System.out.println("[INFO] XML NAMESPACE / S " + ns.toString() + " EXIST!!");
-                                System.out.println("==================================================================");
-                                System.out.println("************ EnclosingType: typename of the type under edit ************");
-                                System.out.println("[INFO] Type,operation: " + type + "," + operation);
-                                System.out.println("\n");
-
-                                ProposalParser bunchOfTokens = new ProposalParser(selected);
-                                StringList tokens = bunchOfTokens.getTokens();
-
-                                if (tokens != null) {
-
-                                    //if a parseing token is present, the tokens are compared
-
-                                    System.out.println("************ Actuall Output ************");
-                                    System.out.println("[INFO] Uncleaned: " + selected);
-                                    System.out.println("[INFO] Parsed Token: " + tokens);
-                                    testWithModel_old(ns, type, operation, tokens.toString());
-
-
-                                } else {
-
-                                    // If not, the contents of the model output and proposal are string compared
-
-                                    System.out.println("************ Actuall Output ************");
-                                    System.out.println("[INFO] Unparsed: " + selected);
-                                    testWithModel_old(ns, type, operation, selected);
-
-                                }
-                                NameSpaceCoutner = NameSpaceCoutner + 1;
-                                System.out.println(NameSpaceCoutner);
-
-                                System.out.println("\n");
-                                System.out.println("\n");
-                                System.out.println("************************************************************************");
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }
 
     private static void testWithModel(String modelFile, APIToken expected, List<APIToken> sentence) {
         try {
@@ -308,36 +224,7 @@ public class NgramRecommenderEvaluation {
         }
     }
 
-        /**
-         * Compare the selected with the model
-         */
-    private static void testWithModel_old(Set<String> ns, String type, String operation, String selected) throws IOException {
 
-        //TODO: only return the one with highest proba
-
-        for (String s : ns) {
-            NgramRecommenderClient nrc = new NgramRecommenderClient(s);
-
-            try {
-                System.out.println("[INFO] " + nrc.query(new StringList(type + "," + operation)));
-                Set<Tuple<IMethodName, Double>> predictions = nrc.query(new StringList(type + "," + operation));
-
-
-                if (compareStrings(predictions.toString(), selected)) {
-                    correctlyPredicted = correctlyPredicted + 1;
-                    allPredictions = allPredictions + 1;
-                } else {
-                    allPredictions = allPredictions + 1;
-                }
-
-
-            } catch (IndexOutOfBoundsException e) {
-                System.out.println(e);
-            }
-        }
-    }
-    
-    
 
     private static boolean compareStrings(String one, String two) {
         return one.contains(two) || two.contains(one);
