@@ -49,7 +49,7 @@ public class NgramRecommenderClient extends NGramLanguageModel implements ICalls
     public void train(String trainFile) throws IOException {
         BufferedReader br = new BufferedReader(new FileReader(trainFile));
         String line;
-        while((line = br.readLine()) != null) {
+        while((line = br.readLine()) != null && line.length() > 0) {
             add(new StringList(WhitespaceTokenizer.INSTANCE.tokenize(line)), 
                     NGRAM_MIN_LENGTH, NGRAM_MAX_LENGTH);
         }
