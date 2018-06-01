@@ -26,20 +26,12 @@ public class SentenceExtractorTest {
 
     @Test
     public void extractSentencesFilesCreatedTest() {
-
         SentenceExtractor se = new SentenceExtractor();
         se.extract(mockContextsDir, mockExtractionOutputDir);
 
         File dir = new File(mockExtractionOutputDir);
-        if (dir.isDirectory()) {
-
+        if(dir.isDirectory()) {
             assertEquals(dir.listFiles().length, fileOutputSize);
-
-            //for (File file : dir.listFiles())
-            //if (!file.isDirectory())
-            //if(file.getName() == "System.ComponentModel.txt") {
-
-            //}
         }
     }
 }
