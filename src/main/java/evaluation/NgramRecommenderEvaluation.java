@@ -118,11 +118,11 @@ public class NgramRecommenderEvaluation {
 
             String modelFile;
             if((modelFile = getModelForNamespace(selectedAPIToken.getNamespace())) == null) {
-//                System.out.println("[INFO]\tNo model found for "+selectedAPIToken.getNamespace());
+                System.out.println("[INFO]\tNo model found for "+selectedAPIToken.getNamespace());
                 return;
             }
-//            System.out.println("[INFO]\tModel found for " + modelFile + ".");
-//            System.out.println("[INFO]\t...Processing context");
+            System.out.println("[INFO]\tModel found for " + modelFile + ".");
+            System.out.println("[INFO]\t...Processing context");
 
             ISST sst = ce.context.getSST();
 
@@ -140,11 +140,6 @@ public class NgramRecommenderEvaluation {
                         if(sentence.get(sentence.size() - 1).getType().equals(selectedAPIToken.getType())) {
                             sentence.remove(sentence.size() - 1);
                             sentencesWithExpectedToken.add(sentence);
-
-//                            System.out.println(selectedAPIToken.toString());
-//                            System.out.println("\t"+sentence.toString());
-
-
                             break;
                         }
                     }
