@@ -3,7 +3,7 @@
 <token>Castle.DynamicProxy.ProxyGenerationOptions,new</token>
 <token>Castle.DynamicProxy.ProxyGenerationOptions,AddMixinInstance</token>
 </entry>
-<entry count="4">
+<entry count="12">
 <token>Castle.DynamicProxy.ProxyGenerationOptions,new</token>
 <token>Castle.DynamicProxy.ProxyGenerator,CreateInterfaceProxyWithTarget</token>
 </entry>
@@ -102,7 +102,12 @@
 <token>Castle.DynamicProxy.ProxyGenerator,new</token>
 <token>Castle.DynamicProxy.ProxyGenerator,CreateClassProxyWithTarget</token>
 </entry>
-<entry count="8">
+<entry count="4">
+<token>Castle.DynamicProxy.ProxyGenerationOptions,new</token>
+<token>Castle.DynamicProxy.ProxyGenerator,CreateInterfaceProxyWithTarget</token>
+<token>Castle.DynamicProxy.ProxyGenerator,CreateInterfaceProxyWithTarget</token>
+</entry>
+<entry count="12">
 <token>Castle.DynamicProxy.ProxyGenerator,CreateInterfaceProxyWithTarget</token>
 <token>Castle.DynamicProxy.ProxyGenerator,CreateInterfaceProxyWithTarget</token>
 </entry>

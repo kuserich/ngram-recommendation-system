@@ -5,6 +5,11 @@
 <token>System.ServiceModel.Description.ServiceEndpoint,new</token>
 <token>System.ServiceModel.Description.WsdlExporter,new</token>
 </entry>
+<entry count="1024">
+<token>System.ServiceModel.Description.ServiceAuthorizationBehavior,new</token>
+<token>System.ServiceModel.Description.ServiceThrottlingBehavior,new</token>
+<token>System.ServiceModel.Description.ServiceAuthorizationBehavior,new</token>
+</entry>
 <entry count="1">
 <token>System.ServiceModel.Description.WsdlImporter,ImportAllEndpoints</token>
 <token>System.ServiceModel.Description.ServiceContractGenerator,new</token>
@@ -34,6 +39,11 @@
 <token>System.ServiceModel.Description.WsdlImporter,new</token>
 <token>System.ServiceModel.Description.WsdlImporter,ImportEndpoint</token>
 </entry>
+<entry count="128">
+<token>System.ServiceModel.Description.ServiceAuthorizationBehavior,new</token>
+<token>System.ServiceModel.Description.ServiceThrottlingBehavior,new</token>
+<token>System.ServiceModel.Description.MetadataExchangeBindings,CreateMexHttpBinding</token>
+</entry>
 <entry count="1">
 <token>System.ServiceModel.Description.WsdlImporter,ImportAllBindings</token>
 <token>System.ServiceModel.Description.WsdlImporter,ImportBinding</token>
@@ -41,6 +51,10 @@
 <entry count="2">
 <token>System.ServiceModel.Description.WsdlImporter,ImportEndpoints</token>
 <token>System.ServiceModel.Description.WsdlImporter,ImportEndpoints</token>
+</entry>
+<entry count="1664">
+<token>System.ServiceModel.Description.ServiceAuthorizationBehavior,new</token>
+<token>System.ServiceModel.Description.ServiceThrottlingBehavior,new</token>
 </entry>
 <entry count="1">
 <token>System.ServiceModel.Description.MetadataSet,new</token>
@@ -292,6 +306,12 @@
 <token>System.ServiceModel.Description.WsdlExporter,ExportEndpoint</token>
 <token>System.ServiceModel.Description.WsdlExporter,ExportEndpoint</token>
 </entry>
+<entry count="16">
+<token>System.ServiceModel.Description.ServiceMetadataBehavior,new</token>
+<token>System.ServiceModel.Description.MetadataExchangeBindings,CreateMexHttpBinding</token>
+<token>System.ServiceModel.Description.ServiceThrottlingBehavior,new</token>
+<token>System.ServiceModel.Description.MetadataExchangeBindings,CreateMexHttpBinding</token>
+</entry>
 <entry count="2">
 <token>System.ServiceModel.Description.WsdlExporter,ExportEndpoint</token>
 <token>System.ServiceModel.Description.ServiceEndpoint,new</token>
@@ -322,6 +342,12 @@
 <token>System.ServiceModel.Description.WsdlExporter,ExportEndpoint</token>
 <token>System.ServiceModel.Description.WsdlExporter,ExportEndpoint</token>
 </entry>
+<entry count="1024">
+<token>System.ServiceModel.Description.ServiceMetadataBehavior,new</token>
+<token>System.ServiceModel.Description.ServiceAuthorizationBehavior,new</token>
+<token>System.ServiceModel.Description.ServiceThrottlingBehavior,new</token>
+<token>System.ServiceModel.Description.ServiceAuthorizationBehavior,new</token>
+</entry>
 <entry count="2">
 <token>System.ServiceModel.Description.ServiceEndpoint,new</token>
 <token>System.ServiceModel.Description.WsdlExporter,ExportEndpoint</token>
@@ -331,7 +357,13 @@
 <token>System.ServiceModel.Description.WsdlImporter,ImportBinding</token>
 <token>System.ServiceModel.Description.WsdlImporter,ImportAllBindings</token>
 </entry>
-<entry count="32">
+<entry count="128">
+<token>System.ServiceModel.Description.ServiceMetadataBehavior,new</token>
+<token>System.ServiceModel.Description.ServiceAuthorizationBehavior,new</token>
+<token>System.ServiceModel.Description.ServiceThrottlingBehavior,new</token>
+<token>System.ServiceModel.Description.MetadataExchangeBindings,CreateMexHttpBinding</token>
+</entry>
+<entry count="512">
 <token>System.ServiceModel.Description.ServiceMetadataBehavior,new</token>
 <token>System.ServiceModel.Description.ServiceThrottlingBehavior,new</token>
 <token>System.ServiceModel.Description.ServiceAuthorizationBehavior,new</token>
@@ -343,7 +375,7 @@
 <token>System.ServiceModel.Description.WsdlExporter,ExportEndpoint</token>
 <token>System.ServiceModel.Description.WsdlExporter,ExportEndpoint</token>
 </entry>
-<entry count="8">
+<entry count="64">
 <token>System.ServiceModel.Description.ServiceMetadataBehavior,new</token>
 <token>System.ServiceModel.Description.ServiceThrottlingBehavior,new</token>
 <token>System.ServiceModel.Description.MetadataExchangeBindings,CreateMexHttpBinding</token>
@@ -356,6 +388,10 @@
 <entry count="1">
 <token>System.ServiceModel.Description.ServiceEndpoint,new</token>
 <token>System.ServiceModel.Description.ServiceEndpoint,new</token>
+</entry>
+<entry count="208">
+<token>System.ServiceModel.Description.MetadataExchangeBindings,CreateMexHttpBinding</token>
+<token>System.ServiceModel.Description.ServiceThrottlingBehavior,new</token>
 </entry>
 <entry count="2">
 <token>System.ServiceModel.Description.WsdlImporter,new</token>
@@ -369,7 +405,7 @@
 <token>System.ServiceModel.Description.MetadataReference,new</token>
 <token>System.ServiceModel.Description.MetadataSection,new</token>
 </entry>
-<entry count="32">
+<entry count="1664">
 <token>System.ServiceModel.Description.ServiceThrottlingBehavior,new</token>
 <token>System.ServiceModel.Description.ServiceAuthorizationBehavior,new</token>
 </entry>
@@ -385,7 +421,7 @@
 <token>System.ServiceModel.Description.WsdlImporter,ImportEndpoints</token>
 <token>System.ServiceModel.Description.WsdlImporter,ImportEndpoints</token>
 </entry>
-<entry count="8">
+<entry count="208">
 <token>System.ServiceModel.Description.ServiceThrottlingBehavior,new</token>
 <token>System.ServiceModel.Description.MetadataExchangeBindings,CreateMexHttpBinding</token>
 </entry>
@@ -419,6 +455,10 @@
 <token>System.ServiceModel.Description.ServiceEndpoint,new</token>
 <token>System.ServiceModel.Description.WsdlExporter,new</token>
 <token>System.ServiceModel.Description.WsdlExporter,ExportEndpoint</token>
+</entry>
+<entry count="1664">
+<token>System.ServiceModel.Description.ServiceMetadataBehavior,new</token>
+<token>System.ServiceModel.Description.ServiceAuthorizationBehavior,new</token>
 </entry>
 <entry count="6">
 <token>System.ServiceModel.Description.ServiceEndpoint,new</token>
@@ -445,6 +485,11 @@
 <entry count="1">
 <token>System.ServiceModel.Description.WsdlImporter,new</token>
 <token>System.ServiceModel.Description.WsdlImporter,ImportEndpoints</token>
+</entry>
+<entry count="208">
+<token>System.ServiceModel.Description.ServiceMetadataBehavior,new</token>
+<token>System.ServiceModel.Description.MetadataExchangeBindings,CreateMexHttpBinding</token>
+<token>System.ServiceModel.Description.ServiceThrottlingBehavior,new</token>
 </entry>
 <entry count="1">
 <token>System.ServiceModel.Description.WsdlExporter,new</token>
@@ -477,7 +522,7 @@
 <token>System.ServiceModel.Description.WsdlExporter,ExportEndpoint</token>
 <token>System.ServiceModel.Description.ServiceEndpoint,new</token>
 </entry>
-<entry count="72">
+<entry count="832">
 <token>System.ServiceModel.Description.ServiceMetadataBehavior,new</token>
 <token>System.ServiceModel.Description.ServiceThrottlingBehavior,new</token>
 </entry>
@@ -501,6 +546,16 @@
 <token>System.ServiceModel.Description.ServiceEndpoint,new</token>
 <token>System.ServiceModel.Description.WsdlExporter,new</token>
 <token>System.ServiceModel.Description.WsdlExporter,ExportContract</token>
+</entry>
+<entry count="128">
+<token>System.ServiceModel.Description.MetadataExchangeBindings,CreateMexHttpBinding</token>
+<token>System.ServiceModel.Description.ServiceThrottlingBehavior,new</token>
+<token>System.ServiceModel.Description.ServiceAuthorizationBehavior,new</token>
+</entry>
+<entry count="16">
+<token>System.ServiceModel.Description.MetadataExchangeBindings,CreateMexHttpBinding</token>
+<token>System.ServiceModel.Description.ServiceThrottlingBehavior,new</token>
+<token>System.ServiceModel.Description.MetadataExchangeBindings,CreateMexHttpBinding</token>
 </entry>
 <entry count="1">
 <token>System.ServiceModel.Description.WsdlImporter,ImportBinding</token>
@@ -596,6 +651,10 @@
 <token>System.ServiceModel.Description.WsdlExporter,new</token>
 <token>System.ServiceModel.Description.WsdlExporter,ExportEndpoint</token>
 </entry>
+<entry count="208">
+<token>System.ServiceModel.Description.ServiceMetadataBehavior,new</token>
+<token>System.ServiceModel.Description.MetadataExchangeBindings,CreateMexHttpBinding</token>
+</entry>
 <entry count="1">
 <token>System.ServiceModel.Description.WsdlImporter,ImportEndpoint</token>
 <token>System.ServiceModel.Description.WsdlImporter,new</token>
@@ -612,6 +671,11 @@
 <token>System.ServiceModel.Description.ServiceEndpoint,new</token>
 <token>System.ServiceModel.Description.WsdlExporter,ExportEndpoint</token>
 <token>System.ServiceModel.Description.WsdlExporter,GetGeneratedMetadata</token>
+</entry>
+<entry count="1664">
+<token>System.ServiceModel.Description.ServiceMetadataBehavior,new</token>
+<token>System.ServiceModel.Description.ServiceAuthorizationBehavior,new</token>
+<token>System.ServiceModel.Description.ServiceThrottlingBehavior,new</token>
 </entry>
 <entry count="2">
 <token>System.ServiceModel.Description.WsdlExporter,ExportContract</token>
@@ -639,6 +703,12 @@
 <entry count="8">
 <token>System.ServiceModel.Description.ContractDescription,GetContract</token>
 <token>System.ServiceModel.Description.ServiceEndpoint,new</token>
+</entry>
+<entry count="128">
+<token>System.ServiceModel.Description.ServiceMetadataBehavior,new</token>
+<token>System.ServiceModel.Description.MetadataExchangeBindings,CreateMexHttpBinding</token>
+<token>System.ServiceModel.Description.ServiceThrottlingBehavior,new</token>
+<token>System.ServiceModel.Description.ServiceAuthorizationBehavior,new</token>
 </entry>
 <entry count="20">
 <token>System.ServiceModel.Description.XmlSerializerMessageContractImporter,new</token>

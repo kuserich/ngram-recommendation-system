@@ -6,16 +6,18 @@
 <token>System.ComponentModel.ISupportInitialize,EndInit</token>
 <token>System.ComponentModel.ISupportInitialize,EndInit</token>
 </entry>
-<entry count="177">
+<entry count="256">
+<token>System.ComponentModel.TypeConverter,ConvertFrom</token>
+<token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
+<token>System.ComponentModel.TypeDescriptor,GetConverter</token>
+<token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
+<token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
+</entry>
+<entry count="1">
 <token>System.ComponentModel.TypeConverter,ConvertFrom</token>
 <token>System.ComponentModel.TypeDescriptor,GetConverter</token>
 <token>System.ComponentModel.TypeConverter,CanConvertTo</token>
 <token>System.ComponentModel.TypeConverter,ConvertTo</token>
-</entry>
-<entry count="1">
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-<token>Gestures.HMMs.Sequence,</token>
 </entry>
 <entry count="6">
 <token>System.ComponentModel.ISupportInitialize,BeginInit</token>
@@ -48,10 +50,6 @@
 <token>System.ComponentModel.ExpandableObjectConverter,GetProperties</token>
 <token>System.ComponentModel.PropertyDescriptorCollection,CopyTo</token>
 </entry>
-<entry count="22">
-<token>System.ComponentModel.ListChangedEventArgs,new</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
-</entry>
 <entry count="2">
 <token>System.ComponentModel.PropertyDescriptorCollection,Find</token>
 <token>System.ComponentModel.PropertyDescriptor,GetValue</token>
@@ -74,6 +72,24 @@
 <token>System.ComponentModel.EnumConverter,new</token>
 <token>System.ComponentModel.PropertyDescriptorCollection,new</token>
 </entry>
+<entry count="16">
+<token>System.ComponentModel.DependencyPropertyDescriptor,GetValue</token>
+<token>System.ComponentModel.DependencyPropertyDescriptor,GetValue</token>
+<token>System.ComponentModel.DependencyPropertyDescriptor,GetValue</token>
+<token>System.ComponentModel.DependencyPropertyDescriptor,GetValue</token>
+</entry>
+<entry count="1">
+<token>System.ComponentModel.ProgressChangedEventHandler,new</token>
+<token>System.ComponentModel.RunWorkerCompletedEventHandler,new</token>
+<token>System.ComponentModel.BackgroundWorker,RunWorkerAsync</token>
+<token>System.ComponentModel.BackgroundWorker,new</token>
+<token>System.ComponentModel.DoWorkEventHandler,new</token>
+</entry>
+<entry count="544">
+<token>System.ComponentModel.TypeConverter,ConvertFrom</token>
+<token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
+<token>System.ComponentModel.TypeDescriptor,GetConverter</token>
+</entry>
 <entry count="12">
 <token>System.ComponentModel.TypeConverter,CanConvertTo</token>
 <token>System.ComponentModel.TypeConverter,CanConvertTo</token>
@@ -89,7 +105,7 @@
 <token>System.ComponentModel.TypeConverter,CanConvertTo</token>
 <token>System.ComponentModel.TypeConverter,ConvertToString</token>
 </entry>
-<entry count="191">
+<entry count="101790">
 <token>System.ComponentModel.Component,Dispose</token>
 <token>System.ComponentModel.Component,Dispose</token>
 </entry>
@@ -97,28 +113,14 @@
 <token>System.ComponentModel.TypeDescriptor,GetProperties</token>
 <token>System.ComponentModel.TypeDescriptor,GetAttributes</token>
 </entry>
-<entry count="22">
-<token>Sandcastle.Core]],new</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-<token>Sandcastle.Core.Reflection.ReflectionDataSet+StringWrapper,</token>
-<token>Sandcastle.Core]],new</token>
-</entry>
-<entry count="136">
+<entry count="346">
 <token>System.ComponentModel.BackgroundWorker,ReportProgress</token>
 <token>System.ComponentModel.BackgroundWorker,ReportProgress</token>
 <token>System.ComponentModel.BackgroundWorker,ReportProgress</token>
 </entry>
-<entry count="67200">
+<entry count="262440">
 <token>System.ComponentModel.TypeConverter,ConvertFromString</token>
 <token>System.ComponentModel.EnumConverter,new</token>
-</entry>
-<entry count="64">
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-<token>Rock.Client.FinancialTransaction,</token>
-<token>Rock.Client]],new</token>
-<token>System.ComponentModel.BackgroundWorker,RunWorkerAsync</token>
 </entry>
 <entry count="5">
 <token>System.ComponentModel.DoWorkEventHandler,new</token>
@@ -137,7 +139,7 @@
 <token>System.ComponentModel.DependencyPropertyDescriptor,AddValueChanged</token>
 <token>System.ComponentModel.DependencyPropertyDescriptor,AddValueChanged</token>
 </entry>
-<entry count="1639">
+<entry count="64659">
 <token>System.ComponentModel.TypeDescriptor,GetConverter</token>
 <token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
 </entry>
@@ -161,22 +163,11 @@
 <token>System.ComponentModel.TypeConverter,ConvertFromString</token>
 <token>System.ComponentModel.TypeConverter,ConvertFromString</token>
 </entry>
-<entry count="512">
-<token>-&gt;</token>
-<token>SandcastleBuilder.Utils.ConceptualContent.ResourceItem,</token>
-<token>SandcastleBuilderUtils]],new</token>
-</entry>
-<entry count="450">
+<entry count="57698">
 <token>System.ComponentModel.TypeDescriptor,GetConverter</token>
 <token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
 <token>System.ComponentModel.TypeDescriptor,GetConverter</token>
 <token>System.ComponentModel.TypeConverter,CanConvertTo</token>
-</entry>
-<entry count="2">
-<token>-&gt;</token>
-<token>VVVV.Nodes.ProcessControl,</token>
-<token>Remoter]],new</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
 </entry>
 <entry count="8">
 <token>System.ComponentModel.TypeConverter,ConvertTo</token>
@@ -185,7 +176,7 @@
 <token>System.ComponentModel.TypeConverter,CanConvertTo</token>
 <token>System.ComponentModel.TypeConverter,CanConvertTo</token>
 </entry>
-<entry count="40">
+<entry count="576">
 <token>System.ComponentModel.TypeDescriptor,GetProperties</token>
 <token>System.ComponentModel.TypeDescriptor,GetProperties</token>
 <token>System.ComponentModel.PropertyDescriptor,GetValue</token>
@@ -197,35 +188,56 @@
 <token>System.ComponentModel.PropertyDescriptor,ShouldSerializeValue</token>
 <token>System.ComponentModel.PropertyDescriptor,CanResetValue</token>
 </entry>
-<entry count="5">
-<token>CataclysmModder]],new</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
+<entry count="8192">
+<token>System.ComponentModel.TypeConverter,ConvertFrom</token>
+<token>System.ComponentModel.TypeConverter,ConvertFromInvariantString</token>
+<token>System.ComponentModel.TypeConverter,ConvertFrom</token>
 </entry>
-<entry count="24">
+<entry count="25">
 <token>System.ComponentModel.PropertyChangedEventHandler,Invoke</token>
 <token>System.ComponentModel.PropertyChangedEventArgs,new</token>
 </entry>
-<entry count="2">
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-<token>p:string]],new</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
+<entry count="60">
+<token>System.ComponentModel.PropertyDescriptorCollection,IndexOf</token>
+<token>System.ComponentModel.PropertyDescriptor,SetValue</token>
+<token>System.ComponentModel.PropertyDescriptorCollection,Find</token>
 </entry>
-<entry count="33600">
+<entry count="131220">
 <token>System.ComponentModel.TypeConverter,IsValid</token>
 <token>System.ComponentModel.EnumConverter,new</token>
 <token>System.ComponentModel.TypeConverter,IsValid</token>
 <token>System.ComponentModel.TypeConverter,ConvertFromString</token>
 </entry>
-<entry count="1">
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-<token>SuperPutty.Data.LayoutData,</token>
-<token>SuperPutty]],new</token>
+<entry count="4">
+<token>System.ComponentModel.PropertyDescriptorCollection,Find</token>
+<token>System.ComponentModel.TypeDescriptor,GetProperties</token>
+<token>System.ComponentModel.PropertyDescriptorCollection,Find</token>
+<token>System.ComponentModel.PropertyDescriptor,GetValue</token>
+<token>System.ComponentModel.PropertyDescriptor,SetValue</token>
 </entry>
 <entry count="1">
 <token>System.ComponentModel.BindableAttribute,new</token>
 <token>System.ComponentModel.EditorAttribute,new</token>
+</entry>
+<entry count="36">
+<token>System.ComponentModel.PropertyDescriptorCollection,Find</token>
+<token>System.ComponentModel.PropertyDescriptor,SetValue</token>
+<token>System.ComponentModel.PropertyDescriptorCollection,Find</token>
+<token>System.ComponentModel.PropertyDescriptorCollection,IndexOf</token>
+</entry>
+<entry count="8">
+<token>System.ComponentModel.TypeDescriptor,GetProperties</token>
+<token>System.ComponentModel.PropertyDescriptorCollection,Find</token>
+<token>System.ComponentModel.TypeDescriptor,GetProperties</token>
+<token>System.ComponentModel.PropertyDescriptorCollection,Find</token>
+<token>System.ComponentModel.PropertyDescriptor,GetValue</token>
+</entry>
+<entry count="7">
+<token>System.ComponentModel.TypeDescriptor,GetProperties</token>
+<token>System.ComponentModel.PropertyDescriptorCollection,Find</token>
+<token>System.ComponentModel.PropertyDescriptor,GetValue</token>
+<token>System.ComponentModel.PropertyDescriptor,SetValue</token>
+<token>System.ComponentModel.TypeDescriptor,GetProperties</token>
 </entry>
 <entry count="19">
 <token>System.ComponentModel.ISupportInitialize,BeginInit</token>
@@ -239,13 +251,9 @@
 <token>System.ComponentModel.PropertyDescriptorCollection,Sort</token>
 <token>System.ComponentModel.PropertyDescriptorCollection,new</token>
 </entry>
-<entry count="20">
+<entry count="33">
 <token>System.ComponentModel.PropertyDescriptor,GetValue</token>
 <token>System.ComponentModel.PropertyDescriptor,SetValue</token>
-</entry>
-<entry count="731">
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
 </entry>
 <entry count="1">
 <token>System.ComponentModel.ICustomTypeDescriptor,GetDefaultEvent</token>
@@ -254,11 +262,9 @@
 <token>System.ComponentModel.ICustomTypeDescriptor,GetEditor</token>
 <token>System.ComponentModel.ICustomTypeDescriptor,GetEvents</token>
 </entry>
-<entry count="22">
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-<token>Sandcastle.Core.Reflection.ReflectionDataSet+StringWrapper,</token>
-<token>Sandcastle.Core]],new</token>
+<entry count="2560">
+<token>System.ComponentModel.PropertyDescriptor,CanResetValue</token>
+<token>System.ComponentModel.PropertyDescriptor,CanResetValue</token>
 </entry>
 <entry count="1">
 <token>System.ComponentModel.RunWorkerCompletedEventHandler,new</token>
@@ -266,13 +272,13 @@
 <token>System.ComponentModel.DoWorkEventHandler,new</token>
 <token>System.ComponentModel.RunWorkerCompletedEventHandler,new</token>
 </entry>
-<entry count="33600">
+<entry count="131220">
 <token>System.ComponentModel.TypeConverter,ConvertFromString</token>
 <token>System.ComponentModel.EnumConverter,new</token>
 <token>System.ComponentModel.TypeConverter,IsValid</token>
 <token>System.ComponentModel.TypeConverter,ConvertFromString</token>
 </entry>
-<entry count="9">
+<entry count="1284">
 <token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
 <token>System.ComponentModel.TypeConverter,ConvertFrom</token>
 <token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
@@ -281,10 +287,6 @@
 <entry count="1">
 <token>System.ComponentModel.TypeDescriptor,GetProvider</token>
 <token>System.ComponentModel.TypeDescriptionProvider,GetTypeDescriptor</token>
-</entry>
-<entry count="5">
-<token>CataclysmModder.GroupedData,</token>
-<token>CataclysmModder]],new</token>
 </entry>
 <entry count="96">
 <token>System.ComponentModel.Container,new</token>
@@ -308,11 +310,18 @@
 <token>System.ComponentModel.PropertyDescriptorCollection,CopyTo</token>
 <token>System.ComponentModel.PropertyDescriptorCollection,new</token>
 </entry>
-<entry count="352">
+<entry count="1">
+<token>System.ComponentModel.PropertyDescriptor,SetValue</token>
+<token>System.ComponentModel.TypeDescriptor,GetProperties</token>
+<token>System.ComponentModel.PropertyDescriptorCollection,Find</token>
+<token>System.ComponentModel.PropertyDescriptor,GetValue</token>
+<token>System.ComponentModel.PropertyDescriptor,SetValue</token>
+</entry>
+<entry count="140704">
 <token>System.ComponentModel.BackgroundWorker,new</token>
 <token>System.ComponentModel.BackgroundWorker,new</token>
 </entry>
-<entry count="33600">
+<entry count="131220">
 <token>System.ComponentModel.EnumConverter,new</token>
 <token>System.ComponentModel.TypeConverter,IsValid</token>
 <token>System.ComponentModel.EnumConverter,new</token>
@@ -329,21 +338,17 @@
 <token>System.ComponentModel.PropertyDescriptorCollection,CopyTo</token>
 <token>System.ComponentModel.PropertyDescriptorCollection,new</token>
 </entry>
-<entry count="512">
-<token>-&gt;</token>
-<token>SandcastleBuilder.Utils.ConceptualContent.ResourceItem,</token>
-</entry>
 <entry count="254">
 <token>System.ComponentModel.Container,new</token>
 <token>System.ComponentModel.ComponentResourceManager,new</token>
 <token>System.ComponentModel.ISupportInitialize,BeginInit</token>
 </entry>
-<entry count="71">
+<entry count="281">
 <token>System.ComponentModel.BackgroundWorker,ReportProgress</token>
 <token>System.ComponentModel.BackgroundWorker,ReportProgress</token>
 <token>System.ComponentModel.BackgroundWorker,RunWorkerAsync</token>
 </entry>
-<entry count="4">
+<entry count="7">
 <token>System.ComponentModel.DoWorkEventHandler,new</token>
 <token>System.ComponentModel.ProgressChangedEventHandler,new</token>
 <token>System.ComponentModel.RunWorkerCompletedEventHandler,new</token>
@@ -354,12 +359,12 @@
 <token>System.ComponentModel.ISupportInitialize,BeginInit</token>
 <token>System.ComponentModel.ISupportInitialize,BeginInit</token>
 </entry>
-<entry count="3">
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-<token>CataclysmModder.GroupedData,</token>
-<token>CataclysmModder]],new</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
+<entry count="512">
+<token>System.ComponentModel.TypeDescriptor,GetConverter</token>
+<token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
+<token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
+<token>System.ComponentModel.TypeDescriptor,GetConverter</token>
+<token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
 </entry>
 <entry count="104">
 <token>System.ComponentModel.EnumConverter,new</token>
@@ -379,16 +384,31 @@
 <token>System.ComponentModel.PropertyDescriptor,GetValue</token>
 <token>System.ComponentModel.PropertyDescriptor,SetValue</token>
 </entry>
-<entry count="6">
-<token>CataclysmModder.ItemDataWrapper,</token>
-<token>CataclysmModder]],new</token>
+<entry count="36">
+<token>System.ComponentModel.PropertyDescriptorCollection,Find</token>
+<token>System.ComponentModel.PropertyDescriptor,SetValue</token>
+<token>System.ComponentModel.PropertyDescriptorCollection,Find</token>
+<token>System.ComponentModel.PropertyDescriptorCollection,IndexOf</token>
+<token>System.ComponentModel.PropertyDescriptor,SetValue</token>
 </entry>
-<entry count="2">
+<entry count="6144">
+<token>System.ComponentModel.TypeConverter,ConvertFromInvariantString</token>
+<token>System.ComponentModel.TypeConverter,ConvertFrom</token>
+<token>System.ComponentModel.TypeConverter,ConvertFrom</token>
+</entry>
+<entry count="32">
 <token>System.ComponentModel.DependencyPropertyDescriptor,FromProperty</token>
 <token>System.ComponentModel.DependencyPropertyDescriptor,FromProperty</token>
 <token>System.ComponentModel.DependencyPropertyDescriptor,RemoveValueChanged</token>
 <token>System.ComponentModel.DependencyPropertyDescriptor,RemoveValueChanged</token>
 <token>System.ComponentModel.DependencyPropertyDescriptor,RemoveValueChanged</token>
+</entry>
+<entry count="256">
+<token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
+<token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
+<token>System.ComponentModel.TypeDescriptor,GetConverter</token>
+<token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
+<token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
 </entry>
 <entry count="2">
 <token>System.ComponentModel.BackgroundWorker,new</token>
@@ -397,20 +417,24 @@
 <token>System.ComponentModel.DoWorkEventHandler,new</token>
 <token>System.ComponentModel.ProgressChangedEventHandler,new</token>
 </entry>
-<entry count="9">
+<entry count="39">
 <token>System.ComponentModel.DependencyPropertyDescriptor,FromProperty</token>
 <token>System.ComponentModel.DependencyPropertyDescriptor,FromProperty</token>
+</entry>
+<entry count="14016">
+<token>System.ComponentModel.ToolboxItemFilterAttribute,new</token>
+<token>System.ComponentModel.ToolboxItemAttribute,Equals</token>
+</entry>
+<entry count="256">
+<token>System.ComponentModel.TypeConverter,ConvertFrom</token>
+<token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
+<token>System.ComponentModel.TypeDescriptor,GetConverter</token>
+<token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
+<token>System.ComponentModel.TypeConverter,ConvertFrom</token>
 </entry>
 <entry count="103">
 <token>System.ComponentModel.TypeConverter,CanConvertTo</token>
 <token>System.ComponentModel.TypeConverter,ConvertToString</token>
-</entry>
-<entry count="4">
-<token>SetupTv]],new</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-<token>SetupTv.Sections.ScanSettings+DisplaySoftwareEncoder,</token>
-<token>SetupTv]],new</token>
 </entry>
 <entry count="33">
 <token>System.ComponentModel.PropertyDescriptor,CanResetValue</token>
@@ -445,12 +469,6 @@
 <token>System.ComponentModel.PropertyDescriptorCollection,new</token>
 <token>System.ComponentModel.PropertyDescriptorCollection,Add</token>
 </entry>
-<entry count="6">
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-<token>CataclysmModder.ItemDataWrapper,</token>
-<token>CataclysmModder]],new</token>
-</entry>
 <entry count="1309">
 <token>System.ComponentModel.ISupportInitialize,BeginInit</token>
 <token>System.ComponentModel.ISupportInitialize,BeginInit</token>
@@ -462,25 +480,14 @@
 <token>System.ComponentModel.ICustomTypeDescriptor,GetEvents</token>
 <token>System.ComponentModel.ICustomTypeDescriptor,GetPropertyOwner</token>
 </entry>
-<entry count="1">
-<token>SuperPutty.Data.LayoutData,</token>
-<token>SuperPutty]],new</token>
-</entry>
-<entry count="2">
-<token>-&gt;</token>
-<token>VVVV.Nodes.ProcessControl,</token>
-<token>Remoter]],new</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-</entry>
-<entry count="9600">
+<entry count="22680">
 <token>System.ComponentModel.TypeConverter,IsValid</token>
 <token>System.ComponentModel.EnumConverter,new</token>
 <token>System.ComponentModel.TypeConverter,IsValid</token>
 <token>System.ComponentModel.EnumConverter,new</token>
 <token>System.ComponentModel.TypeConverter,IsValid</token>
 </entry>
-<entry count="227">
+<entry count="739">
 <token>System.ComponentModel.TypeDescriptor,GetConverter</token>
 <token>System.ComponentModel.TypeConverter,CanConvertTo</token>
 <token>System.ComponentModel.TypeDescriptor,GetConverter</token>
@@ -497,14 +504,14 @@
 <token>System.ComponentModel.TypeConverter,ConvertToString</token>
 <token>System.ComponentModel.TypeConverter,ConvertToString</token>
 </entry>
-<entry count="9600">
+<entry count="22680">
 <token>System.ComponentModel.TypeConverter,IsValid</token>
 <token>System.ComponentModel.TypeConverter,ConvertFromString</token>
 <token>System.ComponentModel.EnumConverter,new</token>
 <token>System.ComponentModel.TypeConverter,IsValid</token>
 <token>System.ComponentModel.EnumConverter,new</token>
 </entry>
-<entry count="26">
+<entry count="66">
 <token>System.ComponentModel.TypeConverter,CanConvertTo</token>
 <token>System.ComponentModel.TypeDescriptor,GetConverter</token>
 <token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
@@ -523,15 +530,18 @@
 <token>System.ComponentModel.PropertyDescriptor,GetChildProperties</token>
 <token>System.ComponentModel.PropertyDescriptorCollection,new</token>
 </entry>
-<entry count="11">
-<token>Sandcastle.Core.Reflection.AssemblyLocation,</token>
-<token>Sandcastle.Core]],new</token>
+<entry count="256">
+<token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
+<token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
+<token>System.ComponentModel.TypeDescriptor,GetConverter</token>
+<token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
+<token>System.ComponentModel.TypeConverter,ConvertFrom</token>
 </entry>
 <entry count="9">
 <token>System.ComponentModel.TypeDescriptor,GetConverter</token>
 <token>System.ComponentModel.TypeConverter,ConvertFrom</token>
 </entry>
-<entry count="2">
+<entry count="32">
 <token>System.ComponentModel.DependencyPropertyDescriptor,AddValueChanged</token>
 <token>System.ComponentModel.DependencyPropertyDescriptor,RemoveValueChanged</token>
 <token>System.ComponentModel.DependencyPropertyDescriptor,FromProperty</token>
@@ -544,16 +554,16 @@
 <token>System.ComponentModel.ISupportInitialize,EndInit</token>
 </entry>
 <entry count="22">
-<token>Sandcastle.Core.Reflection.ReflectionDataSet+StringWrapper,</token>
-<token>Sandcastle.Core]],new</token>
+<token>System.ComponentModel.ListChangedEventArgs,new</token>
+<token>System.ComponentModel.BindingList,OnListChanged</token>
 </entry>
-<entry count="2">
+<entry count="32">
 <token>System.ComponentModel.DependencyPropertyDescriptor,RemoveValueChanged</token>
 <token>System.ComponentModel.DependencyPropertyDescriptor,FromProperty</token>
 <token>System.ComponentModel.DependencyPropertyDescriptor,FromProperty</token>
 <token>System.ComponentModel.DependencyPropertyDescriptor,RemoveValueChanged</token>
 </entry>
-<entry count="64">
+<entry count="4096">
 <token>System.ComponentModel.EnumConverter,new</token>
 <token>System.ComponentModel.TypeConverter,ConvertFromInvariantString</token>
 <token>System.ComponentModel.TypeConverter,ConvertFrom</token>
@@ -570,7 +580,7 @@
 <token>System.ComponentModel.ISupportInitialize,EndInit</token>
 <token>System.ComponentModel.ISupportInitialize,EndInit</token>
 </entry>
-<entry count="354">
+<entry count="2">
 <token>System.ComponentModel.TypeDescriptor,GetConverter</token>
 <token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
 <token>System.ComponentModel.TypeConverter,ConvertFrom</token>
@@ -580,6 +590,12 @@
 <entry count="4">
 <token>System.ComponentModel.CustomTypeDescriptor,GetProperties</token>
 <token>System.ComponentModel.PropertyDescriptorCollection,new</token>
+</entry>
+<entry count="1024">
+<token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
+<token>System.ComponentModel.TypeConverter,ConvertFrom</token>
+<token>System.ComponentModel.TypeDescriptor,GetConverter</token>
+<token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
 </entry>
 <entry count="5">
 <token>System.ComponentModel.ComponentResourceManager,new</token>
@@ -598,9 +614,11 @@
 <token>System.ComponentModel.RunWorkerCompletedEventHandler,new</token>
 <token>System.ComponentModel.ISupportInitialize,EndInit</token>
 </entry>
-<entry count="4">
-<token>-&gt;</token>
-<token>p:string]],new</token>
+<entry count="5580">
+<token>System.ComponentModel.TypeConverter,ConvertFromInvariantString</token>
+<token>System.ComponentModel.TypeConverter,ConvertFromInvariantString</token>
+<token>System.ComponentModel.TypeConverter,ConvertFromInvariantString</token>
+<token>System.ComponentModel.TypeConverter,ConvertFromInvariantString</token>
 </entry>
 <entry count="96">
 <token>System.ComponentModel.TypeDescriptor,GetConverter</token>
@@ -625,10 +643,6 @@
 <token>System.ComponentModel.DoWorkEventHandler,new</token>
 <token>System.ComponentModel.RunWorkerCompletedEventHandler,new</token>
 </entry>
-<entry count="2">
-<token>p:string]],new</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
-</entry>
 <entry count="5">
 <token>System.ComponentModel.SingleConverter,new</token>
 <token>System.ComponentModel.BaseNumberConverter,ConvertTo</token>
@@ -638,19 +652,7 @@
 <token>System.ComponentModel.TypeConverter,ConvertToString</token>
 <token>System.ComponentModel.TypeConverter,ConvertToString</token>
 </entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>SampleApp.Sequence,</token>
-<token>Gestures__SVM-DTW_]],new</token>
-</entry>
-<entry count="64">
-<token>System.ComponentModel.BackgroundWorker,new</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-<token>Rock.Client.FinancialTransaction,</token>
-<token>Rock.Client]],new</token>
-</entry>
-<entry count="221">
+<entry count="12465">
 <token>System.ComponentModel.TypeDescriptor,GetConverter</token>
 <token>System.ComponentModel.TypeConverter,ConvertFromString</token>
 </entry>
@@ -704,17 +706,23 @@
 <token>System.ComponentModel.PropertyDescriptorCollection,Add</token>
 <token>System.ComponentModel.PropertyDescriptorCollection,Find</token>
 </entry>
-<entry count="246">
+<entry count="44844">
 <token>System.ComponentModel.TypeConverter,ConvertFromInvariantString</token>
 <token>System.ComponentModel.TypeConverter,ConvertFromInvariantString</token>
 <token>System.ComponentModel.TypeConverter,ConvertFromInvariantString</token>
+</entry>
+<entry count="8">
+<token>System.ComponentModel.PropertyDescriptorCollection,Find</token>
+<token>System.ComponentModel.TypeDescriptor,GetProperties</token>
+<token>System.ComponentModel.PropertyDescriptorCollection,Find</token>
+<token>System.ComponentModel.PropertyDescriptor,GetValue</token>
 </entry>
 <entry count="101">
 <token>System.ComponentModel.Container,new</token>
 <token>System.ComponentModel.ISupportInitialize,BeginInit</token>
 <token>System.ComponentModel.ISupportInitialize,EndInit</token>
 </entry>
-<entry count="27">
+<entry count="30">
 <token>System.ComponentModel.RunWorkerCompletedEventHandler,new</token>
 <token>System.ComponentModel.BackgroundWorker,RunWorkerAsync</token>
 </entry>
@@ -722,11 +730,15 @@
 <token>System.ComponentModel.TypeConverter,ConvertTo</token>
 <token>System.ComponentModel.TypeConverter,ConvertFrom</token>
 </entry>
-<entry count="40">
+<entry count="576">
 <token>System.ComponentModel.TypeDescriptor,GetProperties</token>
 <token>System.ComponentModel.TypeDescriptor,GetProperties</token>
 <token>System.ComponentModel.PropertyDescriptor,GetValue</token>
 <token>System.ComponentModel.PropertyDescriptor,GetValue</token>
+</entry>
+<entry count="16">
+<token>System.ComponentModel.TypeDescriptor,AddProvider</token>
+<token>System.ComponentModel.TypeDescriptor,GetProvider</token>
 </entry>
 <entry count="1">
 <token>System.ComponentModel.ISupportInitialize,BeginInit</token>
@@ -734,7 +746,7 @@
 <token>System.ComponentModel.ISupportInitialize,BeginInit</token>
 <token>System.ComponentModel.DoWorkEventHandler,new</token>
 </entry>
-<entry count="24">
+<entry count="25">
 <token>System.ComponentModel.PropertyChangedEventHandler,Invoke</token>
 <token>System.ComponentModel.PropertyChangedEventArgs,new</token>
 <token>System.ComponentModel.PropertyChangedEventHandler,Invoke</token>
@@ -751,11 +763,6 @@
 <token>System.ComponentModel.DoWorkEventHandler,new</token>
 <token>System.ComponentModel.RunWorkerCompletedEventHandler,new</token>
 <token>System.ComponentModel.DoWorkEventHandler,new</token>
-</entry>
-<entry count="1">
-<token>System.ComponentModel.PropertyDescriptor,GetValue</token>
-<token>System.ComponentModel.ListChangedEventArgs,new</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
 </entry>
 <entry count="10">
 <token>System.ComponentModel.Container,new</token>
@@ -792,11 +799,12 @@
 <token>System.ComponentModel.TypeConverter,CanConvertTo</token>
 <token>System.ComponentModel.TypeConverter,CanConvertTo</token>
 </entry>
-<entry count="11">
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-<token>Sandcastle.Core.Reflection.ReflectionDataSet+BindingRedirection,</token>
-<token>Sandcastle.Core]],new</token>
+<entry count="180">
+<token>System.ComponentModel.TypeDescriptor,GetConverter</token>
+<token>System.ComponentModel.TypeConverter,ConvertFromString</token>
+<token>System.ComponentModel.TypeDescriptor,GetConverter</token>
+<token>System.ComponentModel.TypeConverter,ConvertFromString</token>
+<token>System.ComponentModel.TypeDescriptor,GetConverter</token>
 </entry>
 <entry count="6639">
 <token>System.ComponentModel.ComponentResourceManager,ApplyResources</token>
@@ -809,46 +817,24 @@
 <token>System.ComponentModel.TypeDescriptor,AddAttributes</token>
 <token>System.ComponentModel.TypeDescriptor,AddAttributes</token>
 </entry>
-<entry count="4">
-<token>System.ComponentModel.ListChangedEventArgs,new</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-<token>SandcastleBuilder.Utils.ConceptualContent.Topic,</token>
-<token>SandcastleBuilderUtils]],OnListChanged</token>
-</entry>
-<entry count="8">
-<token>FindLargeFiles.GitObject,</token>
-<token>FindLargeFiles]],ResetItem</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-<token>FindLargeFiles.GitObject,</token>
-</entry>
 <entry count="1">
 <token>System.ComponentModel.ICustomTypeDescriptor,GetPropertyOwner</token>
 <token>System.ComponentModel.ICustomTypeDescriptor,GetProperties</token>
 <token>System.ComponentModel.ICustomTypeDescriptor,GetProperties</token>
+</entry>
+<entry count="136">
+<token>System.ComponentModel.TypeDescriptor,GetConverter</token>
+<token>System.ComponentModel.TypeDescriptor,GetConverter</token>
 </entry>
 <entry count="1">
 <token>System.ComponentModel.ICustomTypeDescriptor,GetEditor</token>
 <token>System.ComponentModel.ICustomTypeDescriptor,GetEvents</token>
 <token>System.ComponentModel.ICustomTypeDescriptor,GetEvents</token>
 </entry>
-<entry count="4">
-<token>CataclysmModder]],new</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-<token>CataclysmModder.GroupedData,</token>
-</entry>
-<entry count="2">
-<token>-&gt;</token>
-<token>CataclysmModder.RecipeControl+ComponentGroup,</token>
-<token>CataclysmModder]],new</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-</entry>
-<entry count="1">
-<token>SuperPutty.Data.SessionData,</token>
-<token>SuperPutty]],new</token>
+<entry count="630">
+<token>System.ComponentModel.BackgroundWorker,RunWorkerAsync</token>
+<token>System.ComponentModel.BackgroundWorker,RunWorkerAsync</token>
+<token>System.ComponentModel.BackgroundWorker,RunWorkerAsync</token>
 </entry>
 <entry count="23">
 <token>System.ComponentModel.ComponentResourceManager,ApplyResources</token>
@@ -857,17 +843,25 @@
 <token>System.ComponentModel.ComponentResourceManager,ApplyResources</token>
 <token>System.ComponentModel.CancelEventHandler,new</token>
 </entry>
+<entry count="24">
+<token>System.ComponentModel.TypeDescriptor,GetProperties</token>
+<token>System.ComponentModel.PropertyDescriptorCollection,Find</token>
+<token>System.ComponentModel.TypeDescriptor,GetProperties</token>
+<token>System.ComponentModel.PropertyDescriptorCollection,Find</token>
+</entry>
 <entry count="1">
 <token>System.ComponentModel.PropertyDescriptor,GetValue</token>
 <token>System.ComponentModel.PropertyDescriptor,GetValue</token>
 <token>System.ComponentModel.PropertyDescriptor,ShouldSerializeValue</token>
 </entry>
-<entry count="512">
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-<token>SandcastleBuilder.Utils.ConceptualContent.ResourceItem,</token>
+<entry count="6">
+<token>System.ComponentModel.TypeDescriptor,GetProperties</token>
+<token>System.ComponentModel.PropertyDescriptorCollection,Find</token>
+<token>System.ComponentModel.PropertyDescriptor,GetValue</token>
+<token>System.ComponentModel.TypeDescriptor,GetProperties</token>
+<token>System.ComponentModel.PropertyDescriptorCollection,Find</token>
 </entry>
-<entry count="4">
+<entry count="64">
 <token>System.ComponentModel.DependencyPropertyDescriptor,RemoveValueChanged</token>
 <token>System.ComponentModel.DependencyPropertyDescriptor,RemoveValueChanged</token>
 <token>System.ComponentModel.DependencyPropertyDescriptor,RemoveValueChanged</token>
@@ -888,7 +882,7 @@
 <token>System.ComponentModel.PropertyDescriptorCollection,Find</token>
 <token>System.ComponentModel.PropertyDescriptor,GetValue</token>
 </entry>
-<entry count="67200">
+<entry count="262440">
 <token>System.ComponentModel.TypeConverter,ConvertFromString</token>
 <token>System.ComponentModel.EnumConverter,new</token>
 <token>System.ComponentModel.TypeConverter,IsValid</token>
@@ -909,28 +903,23 @@
 <token>System.ComponentModel.RunWorkerCompletedEventHandler,new</token>
 <token>System.ComponentModel.ProgressChangedEventHandler,new</token>
 </entry>
-<entry count="2">
+<entry count="32">
 <token>System.ComponentModel.DependencyPropertyDescriptor,AddValueChanged</token>
 <token>System.ComponentModel.DependencyPropertyDescriptor,RemoveValueChanged</token>
 <token>System.ComponentModel.DependencyPropertyDescriptor,FromProperty</token>
 <token>System.ComponentModel.DependencyPropertyDescriptor,FromProperty</token>
 <token>System.ComponentModel.DependencyPropertyDescriptor,RemoveValueChanged</token>
 </entry>
-<entry count="11">
-<token>-&gt;</token>
-<token>Sandcastle.Core.Reflection.AssemblyLocation,</token>
-<token>Sandcastle.Core]],new</token>
+<entry count="1">
+<token>System.ComponentModel.PropertyDescriptor,GetValue</token>
+<token>System.ComponentModel.ListChangedEventArgs,new</token>
+<token>System.ComponentModel.BindingList,OnListChanged</token>
 </entry>
 <entry count="11">
 <token>System.ComponentModel.PropertyChangedEventArgs,new</token>
 <token>System.ComponentModel.PropertyChangedEventArgs,new</token>
 <token>System.ComponentModel.PropertyChangedEventArgs,new</token>
 <token>System.ComponentModel.PropertyChangedEventArgs,new</token>
-</entry>
-<entry count="32">
-<token>-&gt;</token>
-<token>?]],new</token>
-<token>System.ComponentModel.BackgroundWorker,RunWorkerAsync</token>
 </entry>
 <entry count="132">
 <token>System.ComponentModel.ComponentResourceManager,new</token>
@@ -938,6 +927,11 @@
 <token>System.ComponentModel.ComponentResourceManager,ApplyResources</token>
 <token>System.ComponentModel.ComponentResourceManager,ApplyResources</token>
 <token>System.ComponentModel.ComponentResourceManager,ApplyResources</token>
+</entry>
+<entry count="128">
+<token>System.ComponentModel.TypeDescriptor,GetConverter</token>
+<token>System.ComponentModel.TypeDescriptor,GetConverter</token>
+<token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
 </entry>
 <entry count="3">
 <token>System.ComponentModel.ComponentResourceManager,new</token>
@@ -953,12 +947,12 @@
 <token>System.ComponentModel.ICustomTypeDescriptor,GetClassName</token>
 <token>System.ComponentModel.ICustomTypeDescriptor,GetConverter</token>
 </entry>
-<entry count="9">
+<entry count="1284">
 <token>System.ComponentModel.TypeConverter,ConvertFrom</token>
 <token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
 <token>System.ComponentModel.TypeConverter,ConvertFrom</token>
 </entry>
-<entry count="9">
+<entry count="1284">
 <token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
 <token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
 <token>System.ComponentModel.TypeConverter,ConvertFrom</token>
@@ -982,7 +976,7 @@
 <token>System.ComponentModel.TypeConverter,ConvertToString</token>
 <token>System.ComponentModel.TypeConverter,ConvertToString</token>
 </entry>
-<entry count="14">
+<entry count="40">
 <token>System.ComponentModel.PropertyDescriptorCollection,Find</token>
 <token>System.ComponentModel.PropertyDescriptor,GetValue</token>
 </entry>
@@ -992,16 +986,6 @@
 <token>System.ComponentModel.ComponentResourceManager,ApplyResources</token>
 <token>System.ComponentModel.ComponentResourceManager,ApplyResources</token>
 <token>System.ComponentModel.ComponentResourceManager,ApplyResources</token>
-</entry>
-<entry count="8">
-<token>-&gt;</token>
-<token>FindLargeFiles.GitObject,</token>
-<token>FindLargeFiles]],ResetItem</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
-</entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>SampleApp.Sequence,</token>
 </entry>
 <entry count="1">
 <token>System.ComponentModel.Container,new</token>
@@ -1023,23 +1007,6 @@
 <token>System.ComponentModel.ISynchronizeInvoke,BeginInvoke</token>
 <token>System.ComponentModel.ISynchronizeInvoke,EndInvoke</token>
 </entry>
-<entry count="2">
-<token>System.ComponentModel.ListChangedEventArgs,new</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-<token>SandcastleBuilder.Utils.MSHelpKeyword,</token>
-<token>HtmlToMaml]],OnListChanged</token>
-</entry>
-<entry count="33">
-<token>Sandcastle.Core]],new</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
-</entry>
-<entry count="11">
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-<token>Sandcastle.Core.Reflection.AssemblyLocation,</token>
-<token>Sandcastle.Core]],new</token>
-</entry>
 <entry count="14">
 <token>System.ComponentModel.TypeDescriptor,GetAttributes</token>
 <token>System.ComponentModel.AttributeCollection,new</token>
@@ -1056,6 +1023,11 @@
 <token>System.ComponentModel.TypeConverter,ConvertFrom</token>
 <token>System.ComponentModel.PropertyDescriptor,SetValue</token>
 </entry>
+<entry count="25">
+<token>System.ComponentModel.BindingList,new</token>
+<token>System.ComponentModel.BindingList,new</token>
+<token>System.ComponentModel.BindingList,new</token>
+</entry>
 <entry count="62">
 <token>System.ComponentModel.TypeConverter,ConvertToString</token>
 <token>System.ComponentModel.TypeConverter,ConvertToString</token>
@@ -1071,6 +1043,25 @@
 <token>System.ComponentModel.PropertyDescriptor,ShouldSerializeValue</token>
 <token>System.ComponentModel.PropertyDescriptor,CanResetValue</token>
 </entry>
+<entry count="544">
+<token>System.ComponentModel.TypeConverter,ConvertFrom</token>
+<token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
+<token>System.ComponentModel.TypeConverter,ConvertFrom</token>
+<token>System.ComponentModel.TypeDescriptor,GetConverter</token>
+</entry>
+<entry count="544">
+<token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
+<token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
+<token>System.ComponentModel.TypeConverter,ConvertFrom</token>
+<token>System.ComponentModel.TypeDescriptor,GetConverter</token>
+</entry>
+<entry count="24">
+<token>System.ComponentModel.PropertyDescriptorCollection,Find</token>
+<token>System.ComponentModel.PropertyDescriptorCollection,IndexOf</token>
+<token>System.ComponentModel.PropertyDescriptor,SetValue</token>
+<token>System.ComponentModel.PropertyDescriptorCollection,Find</token>
+<token>System.ComponentModel.PropertyDescriptorCollection,IndexOf</token>
+</entry>
 <entry count="20">
 <token>System.ComponentModel.PropertyDescriptor,GetValue</token>
 <token>System.ComponentModel.Component,Dispose</token>
@@ -1080,6 +1071,12 @@
 <token>System.ComponentModel.ISupportInitialize,BeginInit</token>
 <token>System.ComponentModel.ISupportInitialize,BeginInit</token>
 <token>System.ComponentModel.ISupportInitialize,BeginInit</token>
+</entry>
+<entry count="544">
+<token>System.ComponentModel.TypeDescriptor,GetConverter</token>
+<token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
+<token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
+<token>System.ComponentModel.TypeDescriptor,GetConverter</token>
 </entry>
 <entry count="8">
 <token>System.ComponentModel.TypeConverter,ConvertFrom</token>
@@ -1095,7 +1092,7 @@
 <token>System.ComponentModel.DoWorkEventHandler,new</token>
 <token>System.ComponentModel.DoWorkEventHandler,new</token>
 </entry>
-<entry count="176">
+<entry count="14016">
 <token>System.ComponentModel.ToolboxItemAttribute,Equals</token>
 <token>System.ComponentModel.ToolboxItemFilterAttribute,new</token>
 </entry>
@@ -1105,7 +1102,7 @@
 <token>System.ComponentModel.ComponentResourceManager,ApplyResources</token>
 <token>System.ComponentModel.CancelEventHandler,new</token>
 </entry>
-<entry count="46">
+<entry count="189">
 <token>System.ComponentModel.IListSource,GetList</token>
 <token>System.ComponentModel.IListSource,GetList</token>
 </entry>
@@ -1139,20 +1136,17 @@
 <token>System.ComponentModel.TypeConverter,ConvertTo</token>
 <token>System.ComponentModel.TypeConverter,ConvertTo</token>
 </entry>
-<entry count="271">
+<entry count="8207">
 <token>System.ComponentModel.TypeConverter,CanConvertTo</token>
 <token>System.ComponentModel.TypeConverter,ConvertToInvariantString</token>
 </entry>
-<entry count="13">
+<entry count="43">
 <token>System.ComponentModel.DependencyPropertyDescriptor,FromProperty</token>
 <token>System.ComponentModel.DependencyPropertyDescriptor,RemoveValueChanged</token>
 </entry>
-<entry count="6">
-<token>System.ComponentModel.ListChangedEventArgs,new</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-<token>SandcastleBuilder.Utils.ConceptualContent.TocEntry,</token>
-<token>SandcastleBuilderUtils]],OnListChanged</token>
+<entry count="63">
+<token>System.ComponentModel.BindingList,new</token>
+<token>System.ComponentModel.BindingList,new</token>
 </entry>
 <entry count="6">
 <token>System.ComponentModel.EnumConverter,new</token>
@@ -1164,7 +1158,7 @@
 <token>System.ComponentModel.NullableConverter,new</token>
 <token>System.ComponentModel.TypeConverter,ConvertFromString</token>
 </entry>
-<entry count="354">
+<entry count="2">
 <token>System.ComponentModel.TypeConverter,ConvertFrom</token>
 <token>System.ComponentModel.TypeDescriptor,GetConverter</token>
 <token>System.ComponentModel.TypeConverter,CanConvertTo</token>
@@ -1172,6 +1166,10 @@
 <entry count="10">
 <token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
 <token>System.ComponentModel.PropertyDescriptor,GetValue</token>
+</entry>
+<entry count="179712">
+<token>System.ComponentModel.TypeConverter,ConvertFrom</token>
+<token>System.ComponentModel.EnumConverter,new</token>
 </entry>
 <entry count="8">
 <token>System.ComponentModel.TypeConverter,ConvertFrom</token>
@@ -1185,20 +1183,14 @@
 <token>System.ComponentModel.ISupportInitialize,BeginInit</token>
 <token>System.ComponentModel.ISupportInitialize,EndInit</token>
 </entry>
-<entry count="358">
+<entry count="30019">
 <token>System.ComponentModel.BackgroundWorker,new</token>
 <token>System.ComponentModel.BackgroundWorker,RunWorkerAsync</token>
 </entry>
-<entry count="22">
-<token>Sandcastle.Core]],new</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-<token>Sandcastle.Core.Reflection.ReflectionDataSet+StringWrapper,</token>
-</entry>
-<entry count="8">
-<token>-&gt;</token>
-<token>SetupTv.Sections.ScanSettings+DisplaySoftwareEncoder,</token>
-<token>SetupTv]],new</token>
+<entry count="64">
+<token>System.ComponentModel.DependencyPropertyDescriptor,GetValue</token>
+<token>System.ComponentModel.DependencyPropertyDescriptor,GetValue</token>
+<token>System.ComponentModel.DependencyPropertyDescriptor,GetValue</token>
 </entry>
 <entry count="10">
 <token>System.ComponentModel.TypeDescriptor,GetConverter</token>
@@ -1210,6 +1202,10 @@
 <token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
 <token>System.ComponentModel.TypeConverter,GetStandardValues</token>
 <token>System.ComponentModel.TypeConverter,ConvertToString</token>
+</entry>
+<entry count="28">
+<token>System.ComponentModel.PropertyDescriptorCollection,Find</token>
+<token>System.ComponentModel.TypeDescriptor,GetProperties</token>
 </entry>
 <entry count="6">
 <token>System.ComponentModel.ComponentResourceManager,new</token>
@@ -1230,32 +1226,20 @@
 <token>System.ComponentModel.DependencyPropertyDescriptor,AddValueChanged</token>
 <token>System.ComponentModel.DependencyPropertyDescriptor,FromProperty</token>
 </entry>
-<entry count="5">
-<token>-&gt;</token>
-<token>T]],SetItem</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-</entry>
-<entry count="5">
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-<token>CataclysmModder.GroupedData,</token>
-<token>CataclysmModder]],new</token>
-</entry>
-<entry count="108">
+<entry count="4620">
 <token>System.ComponentModel.EnumConverter,new</token>
 <token>System.ComponentModel.TypeConverter,ConvertFromInvariantString</token>
+</entry>
+<entry count="544">
+<token>System.ComponentModel.TypeDescriptor,GetConverter</token>
+<token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
+<token>System.ComponentModel.TypeConverter,ConvertFrom</token>
+<token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
+<token>System.ComponentModel.TypeDescriptor,GetConverter</token>
 </entry>
 <entry count="5">
 <token>System.ComponentModel.ByteConverter,new</token>
 <token>System.ComponentModel.BaseNumberConverter,ConvertTo</token>
-</entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>p:string]],new</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-<token>Gestures.HMMs.Sequence,</token>
 </entry>
 <entry count="1">
 <token>System.ComponentModel.ICustomTypeDescriptor,GetComponentName</token>
@@ -1279,15 +1263,21 @@
 <token>System.ComponentModel.PropertyDescriptor,GetValue</token>
 <token>System.ComponentModel.PropertyDescriptor,SetValue</token>
 </entry>
-<entry count="2">
-<token>Remoter]],new</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
+<entry count="1024">
+<token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
+<token>System.ComponentModel.TypeDescriptor,GetConverter</token>
+<token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
 </entry>
 <entry count="600">
 <token>System.ComponentModel.TypeDescriptor,GetConverter</token>
 <token>System.ComponentModel.TypeConverter,IsValid</token>
 <token>System.ComponentModel.TypeConverter,ConvertFromInvariantString</token>
+</entry>
+<entry count="6024">
+<token>System.ComponentModel.BackgroundWorker,new</token>
+<token>System.ComponentModel.BackgroundWorker,new</token>
+<token>System.ComponentModel.BackgroundWorker,RunWorkerAsync</token>
+<token>System.ComponentModel.BackgroundWorker,RunWorkerAsync</token>
 </entry>
 <entry count="140">
 <token>System.ComponentModel.ISupportInitialize,BeginInit</token>
@@ -1303,15 +1293,15 @@
 <token>System.ComponentModel.CancelEventHandler,new</token>
 <token>System.ComponentModel.ISupportInitialize,EndInit</token>
 </entry>
+<entry count="7">
+<token>System.ComponentModel.PropertyDescriptor,SetValue</token>
+<token>System.ComponentModel.TypeDescriptor,GetProperties</token>
+</entry>
 <entry count="22">
 <token>System.ComponentModel.CancelEventHandler,new</token>
 <token>System.ComponentModel.CancelEventHandler,new</token>
 <token>System.ComponentModel.CancelEventHandler,new</token>
 <token>System.ComponentModel.ISupportInitialize,EndInit</token>
-</entry>
-<entry count="11">
-<token>Sandcastle.Core.Reflection.ReflectionDataSet+BindingRedirection,</token>
-<token>Sandcastle.Core]],new</token>
 </entry>
 <entry count="8">
 <token>System.ComponentModel.CancelEventHandler,new</token>
@@ -1320,24 +1310,13 @@
 <token>System.ComponentModel.CancelEventHandler,new</token>
 <token>System.ComponentModel.ComponentResourceManager,ApplyResources</token>
 </entry>
-<entry count="76">
+<entry count="84">
 <token>System.ComponentModel.TypeConverter,ConvertToString</token>
 <token>System.ComponentModel.TypeConverter,ConvertToString</token>
 </entry>
-<entry count="11">
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-<token>Sandcastle.Core.Reflection.AssemblyLocation,</token>
-<token>Sandcastle.Core]],new</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
-</entry>
-<entry count="12">
+<entry count="168">
 <token>System.ComponentModel.PropertyDescriptorCollection,IndexOf</token>
 <token>System.ComponentModel.PropertyDescriptor,SetValue</token>
-</entry>
-<entry count="2">
-<token>Remoter]],new</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
 </entry>
 <entry count="1">
 <token>System.ComponentModel.MarshalByValueComponent,Dispose</token>
@@ -1357,9 +1336,15 @@
 <token>System.ComponentModel.TypeDescriptor,GetConverter</token>
 <token>System.ComponentModel.TypeConverter,CanConvertTo</token>
 </entry>
-<entry count="206580">
+<entry count="657362">
 <token>System.ComponentModel.ProgressChangedEventArgs,new</token>
 <token>System.ComponentModel.ProgressChangedEventArgs,new</token>
+</entry>
+<entry count="12">
+<token>System.ComponentModel.BindingList,new</token>
+<token>System.ComponentModel.BindingList,new</token>
+<token>System.ComponentModel.BindingList,new</token>
+<token>System.ComponentModel.BindingList,new</token>
 </entry>
 <entry count="1">
 <token>System.ComponentModel.ISupportInitialize,BeginInit</token>
@@ -1389,7 +1374,7 @@
 <token>System.ComponentModel.PropertyDescriptor,GetValue</token>
 <token>System.ComponentModel.TypeConverter,CanConvertTo</token>
 </entry>
-<entry count="2892">
+<entry count="20916">
 <token>System.ComponentModel.TypeConverter,CanConvertTo</token>
 <token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
 </entry>
@@ -1399,25 +1384,11 @@
 <token>System.ComponentModel.ISupportInitialize,BeginInit</token>
 <token>System.ComponentModel.ComponentResourceManager,ApplyResources</token>
 </entry>
-<entry count="67200">
+<entry count="262440">
 <token>System.ComponentModel.TypeConverter,IsValid</token>
 <token>System.ComponentModel.TypeConverter,ConvertFromString</token>
 <token>System.ComponentModel.EnumConverter,new</token>
 <token>System.ComponentModel.TypeConverter,IsValid</token>
-</entry>
-<entry count="22">
-<token>-&gt;</token>
-<token>Sandcastle.Core.Reflection.ReflectionDataSet+StringWrapper,</token>
-<token>Sandcastle.Core]],new</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-</entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>SuperPutty.Data.LayoutData,</token>
-<token>SuperPutty]],new</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
 </entry>
 <entry count="4">
 <token>System.ComponentModel.DependencyPropertyDescriptor,AddValueChanged</token>
@@ -1436,6 +1407,11 @@
 <token>System.ComponentModel.ComponentResourceManager,ApplyResources</token>
 <token>System.ComponentModel.CancelEventHandler,new</token>
 </entry>
+<entry count="1752">
+<token>System.ComponentModel.ToolboxItemFilterAttribute,new</token>
+<token>System.ComponentModel.ToolboxItemAttribute,Equals</token>
+<token>System.ComponentModel.ToolboxItemFilterAttribute,new</token>
+</entry>
 <entry count="9">
 <token>System.ComponentModel.Container,new</token>
 <token>System.ComponentModel.ComponentResourceManager,new</token>
@@ -1448,13 +1424,17 @@
 <token>System.ComponentModel.CancelEventHandler,new</token>
 <token>System.ComponentModel.CancelEventHandler,new</token>
 </entry>
+<entry count="7">
+<token>System.ComponentModel.PropertyDescriptor,GetValue</token>
+<token>System.ComponentModel.TypeDescriptor,GetProperties</token>
+</entry>
 <entry count="8">
 <token>System.ComponentModel.DependencyPropertyDescriptor,FromProperty</token>
 <token>System.ComponentModel.DependencyPropertyDescriptor,AddValueChanged</token>
 <token>System.ComponentModel.DependencyPropertyDescriptor,FromProperty</token>
 <token>System.ComponentModel.DependencyPropertyDescriptor,AddValueChanged</token>
 </entry>
-<entry count="90">
+<entry count="55775">
 <token>System.ComponentModel.Component,Dispose</token>
 <token>System.ComponentModel.Component,Dispose</token>
 <token>System.ComponentModel.Component,Dispose</token>
@@ -1462,19 +1442,6 @@
 <entry count="2">
 <token>System.ComponentModel.PropertyDescriptor,GetValue</token>
 <token>System.ComponentModel.TypeConverter,GetProperties</token>
-</entry>
-<entry count="5">
-<token>-&gt;</token>
-<token>T]],SetItem</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-<token>T]],ResetBindings</token>
-</entry>
-<entry count="8">
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-<token>SetupTv.Sections.ScanSettings+DisplaySoftwareEncoder,</token>
-<token>SetupTv]],new</token>
 </entry>
 <entry count="1">
 <token>System.ComponentModel.ICustomTypeDescriptor,GetConverter</token>
@@ -1494,6 +1461,12 @@
 <token>System.ComponentModel.ComponentResourceManager,ApplyResources</token>
 <token>System.ComponentModel.ComponentResourceManager,ApplyResources</token>
 </entry>
+<entry count="2048">
+<token>System.ComponentModel.EnumConverter,new</token>
+<token>System.ComponentModel.TypeConverter,ConvertFromInvariantString</token>
+<token>System.ComponentModel.TypeConverter,ConvertFrom</token>
+<token>System.ComponentModel.TypeConverter,ConvertFrom</token>
+</entry>
 <entry count="6">
 <token>System.ComponentModel.TypeDescriptor,GetAttributes</token>
 <token>System.ComponentModel.TypeDescriptor,GetAttributes</token>
@@ -1503,11 +1476,11 @@
 <token>System.ComponentModel.PropertyDescriptor,GetValue</token>
 <token>System.ComponentModel.PropertyDescriptor,ShouldSerializeValue</token>
 </entry>
-<entry count="470">
+<entry count="58806">
 <token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
 <token>System.ComponentModel.TypeDescriptor,GetConverter</token>
 </entry>
-<entry count="64">
+<entry count="12288">
 <token>System.ComponentModel.TypeConverter,ConvertFromInvariantString</token>
 <token>System.ComponentModel.TypeConverter,ConvertFrom</token>
 </entry>
@@ -1538,33 +1511,23 @@
 <token>System.ComponentModel.ListChangedEventArgs,new</token>
 <token>System.ComponentModel.ListChangedEventArgs,new</token>
 </entry>
-<entry count="2">
-<token>-&gt;</token>
-<token>CataclysmModder.RecipeControl+ComponentGroup,</token>
-</entry>
 <entry count="1">
 <token>System.ComponentModel.ICustomTypeDescriptor,GetDefaultProperty</token>
 <token>System.ComponentModel.ICustomTypeDescriptor,GetEditor</token>
 <token>System.ComponentModel.ICustomTypeDescriptor,GetEvents</token>
 </entry>
-<entry count="354">
+<entry count="2">
 <token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
 <token>System.ComponentModel.TypeConverter,ConvertFrom</token>
 <token>System.ComponentModel.TypeDescriptor,GetConverter</token>
 <token>System.ComponentModel.TypeConverter,CanConvertTo</token>
 </entry>
-<entry count="22">
-<token>-&gt;</token>
-<token>Sandcastle.Core.Reflection.ReflectionDataSet+StringWrapper,</token>
-<token>Sandcastle.Core]],new</token>
+<entry count="2118">
+<token>System.ComponentModel.TypeDescriptor,GetConverter</token>
+<token>System.ComponentModel.TypeConverter,ConvertFromString</token>
+<token>System.ComponentModel.TypeDescriptor,GetConverter</token>
 </entry>
-<entry count="2">
-<token>-&gt;</token>
-<token>CataclysmModder.RecipeControl+ComponentGroup,</token>
-<token>CataclysmModder]],new</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
-</entry>
-<entry count="2">
+<entry count="32">
 <token>System.ComponentModel.DependencyPropertyDescriptor,RemoveValueChanged</token>
 <token>System.ComponentModel.DependencyPropertyDescriptor,FromProperty</token>
 </entry>
@@ -1577,10 +1540,10 @@
 <token>System.ComponentModel.ICustomTypeDescriptor,GetAttributes</token>
 <token>System.ComponentModel.ICustomTypeDescriptor,GetClassName</token>
 </entry>
-<entry count="2">
-<token>-&gt;</token>
-<token>SandcastleBuilder.Utils.MSHelpKeyword,</token>
-<token>HtmlToMaml]],OnListChanged</token>
+<entry count="7">
+<token>System.ComponentModel.PropertyDescriptor,GetValue</token>
+<token>System.ComponentModel.PropertyDescriptor,SetValue</token>
+<token>System.ComponentModel.TypeDescriptor,GetProperties</token>
 </entry>
 <entry count="3">
 <token>System.ComponentModel.Container,new</token>
@@ -1588,10 +1551,6 @@
 <token>System.ComponentModel.ComponentResourceManager,ApplyResources</token>
 <token>System.ComponentModel.CancelEventHandler,new</token>
 <token>System.ComponentModel.ComponentResourceManager,ApplyResources</token>
-</entry>
-<entry count="4">
-<token>SandcastleBuilder.Utils.ConceptualContent.Topic,</token>
-<token>SandcastleBuilderUtils]],OnListChanged</token>
 </entry>
 <entry count="1">
 <token>System.ComponentModel.ICustomTypeDescriptor,GetAttributes</token>
@@ -1606,7 +1565,7 @@
 <token>System.ComponentModel.ICustomTypeDescriptor,GetProperties</token>
 <token>System.ComponentModel.ICustomTypeDescriptor,GetProperties</token>
 </entry>
-<entry count="10">
+<entry count="36">
 <token>System.ComponentModel.TypeDescriptor,GetProperties</token>
 <token>System.ComponentModel.PropertyDescriptorCollection,Find</token>
 <token>System.ComponentModel.PropertyDescriptor,GetValue</token>
@@ -1634,10 +1593,17 @@
 <token>System.ComponentModel.ComponentResourceManager,ApplyResources</token>
 </entry>
 <entry count="2">
+<token>System.ComponentModel.PropertyDescriptor,GetValue</token>
+<token>System.ComponentModel.PropertyDescriptor,SetValue</token>
+<token>System.ComponentModel.TypeDescriptor,GetProperties</token>
+<token>System.ComponentModel.PropertyDescriptorCollection,Find</token>
+<token>System.ComponentModel.PropertyDescriptor,GetValue</token>
+</entry>
+<entry count="2">
 <token>System.ComponentModel.TypeConverter,CanConvertTo</token>
 <token>System.ComponentModel.PropertyDescriptor,GetValue</token>
 </entry>
-<entry count="9">
+<entry count="186507">
 <token>System.ComponentModel.TypeConverter,ConvertFrom</token>
 <token>System.ComponentModel.TypeConverter,ConvertFrom</token>
 <token>System.ComponentModel.TypeConverter,ConvertFrom</token>
@@ -1649,27 +1615,12 @@
 <token>System.ComponentModel.ComponentResourceManager,ApplyResources</token>
 <token>System.ComponentModel.CancelEventHandler,new</token>
 </entry>
-<entry count="11">
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-<token>Sandcastle.Core.Reflection.AssemblyLocation,</token>
-</entry>
 <entry count="6">
 <token>System.ComponentModel.EnumConverter,new</token>
 <token>System.ComponentModel.PropertyDescriptorCollection,new</token>
 <token>System.ComponentModel.PropertyDescriptorCollection,Add</token>
 <token>System.ComponentModel.PropertyDescriptorCollection,Add</token>
 <token>System.ComponentModel.PropertyDescriptorCollection,Add</token>
-</entry>
-<entry count="5">
-<token>-&gt;</token>
-<token>T]],ResetBindings</token>
-</entry>
-<entry count="6">
-<token>System.ComponentModel.ListChangedEventArgs,new</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-<token>SandcastleBuilder.Utils.ConceptualContent.TocEntry,</token>
 </entry>
 <entry count="6">
 <token>System.ComponentModel.ISupportInitialize,BeginInit</token>
@@ -1691,12 +1642,12 @@
 <token>System.ComponentModel.BackgroundWorker,new</token>
 <token>System.ComponentModel.DoWorkEventHandler,new</token>
 </entry>
-<entry count="12">
+<entry count="168">
 <token>System.ComponentModel.PropertyDescriptorCollection,Find</token>
 <token>System.ComponentModel.PropertyDescriptorCollection,IndexOf</token>
 <token>System.ComponentModel.PropertyDescriptor,SetValue</token>
 </entry>
-<entry count="177">
+<entry count="1">
 <token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
 <token>System.ComponentModel.TypeDescriptor,GetConverter</token>
 <token>System.ComponentModel.TypeConverter,CanConvertTo</token>
@@ -1719,42 +1670,33 @@
 <token>System.ComponentModel.ICustomTypeDescriptor,GetConverter</token>
 <token>System.ComponentModel.ICustomTypeDescriptor,GetDefaultEvent</token>
 </entry>
-<entry count="9">
+<entry count="1284">
 <token>System.ComponentModel.TypeDescriptor,GetConverter</token>
 <token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
 <token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
 <token>System.ComponentModel.TypeConverter,ConvertFrom</token>
 </entry>
-<entry count="8">
-<token>SetupTv.Sections.ScanSettings+DisplaySoftwareEncoder,</token>
-<token>SetupTv]],new</token>
+<entry count="2054">
+<token>System.ComponentModel.BindingList,new</token>
+<token>System.ComponentModel.ListChangedEventArgs,new</token>
 </entry>
-<entry count="1">
+<entry count="53275">
 <token>System.ComponentModel.TypeConverter,ConvertFrom</token>
 <token>System.ComponentModel.TypeConverter,ConvertFrom</token>
 <token>System.ComponentModel.TypeConverter,ConvertFrom</token>
 <token>System.ComponentModel.TypeConverter,ConvertFrom</token>
 </entry>
-<entry count="16">
-<token>-&gt;</token>
-<token>FindLargeFiles.GitObject,</token>
-<token>FindLargeFiles]],ResetItem</token>
-</entry>
-<entry count="5">
+<entry count="35">
 <token>System.ComponentModel.DependencyPropertyDescriptor,FromProperty</token>
 <token>System.ComponentModel.DependencyPropertyDescriptor,FromProperty</token>
 <token>System.ComponentModel.DependencyPropertyDescriptor,RemoveValueChanged</token>
 </entry>
-<entry count="67200">
+<entry count="262440">
 <token>System.ComponentModel.EnumConverter,new</token>
 <token>System.ComponentModel.TypeConverter,IsValid</token>
 <token>System.ComponentModel.TypeConverter,ConvertFromString</token>
 <token>System.ComponentModel.EnumConverter,new</token>
 <token>System.ComponentModel.TypeConverter,IsValid</token>
-</entry>
-<entry count="4">
-<token>-&gt;</token>
-<token>SandcastleBuilder.Utils.ConceptualContent.Topic,</token>
 </entry>
 <entry count="1">
 <token>System.ComponentModel.TypeDescriptor,GetProperties</token>
@@ -1762,12 +1704,6 @@
 <token>System.ComponentModel.PropertyDescriptorCollection,Find</token>
 <token>System.ComponentModel.PropertyDescriptor,GetValue</token>
 <token>System.ComponentModel.PropertyDescriptor,SetValue</token>
-</entry>
-<entry count="22">
-<token>Sandcastle.Core.Reflection.ReflectionDataSet+StringWrapper,</token>
-<token>Sandcastle.Core]],new</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
 </entry>
 <entry count="34">
 <token>System.ComponentModel.CancelEventHandler,new</token>
@@ -1781,14 +1717,16 @@
 <token>System.ComponentModel.ICustomTypeDescriptor,GetEvents</token>
 <token>System.ComponentModel.ICustomTypeDescriptor,GetEvents</token>
 </entry>
+<entry count="6024">
+<token>System.ComponentModel.BackgroundWorker,new</token>
+<token>System.ComponentModel.BackgroundWorker,new</token>
+<token>System.ComponentModel.BackgroundWorker,new</token>
+<token>System.ComponentModel.BackgroundWorker,RunWorkerAsync</token>
+<token>System.ComponentModel.BackgroundWorker,RunWorkerAsync</token>
+</entry>
 <entry count="2">
 <token>System.ComponentModel.BackgroundWorker,CancelAsync</token>
 <token>System.ComponentModel.Component,Dispose</token>
-</entry>
-<entry count="5">
-<token>T]],SetItem</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
 </entry>
 <entry count="1">
 <token>System.ComponentModel.RunWorkerCompletedEventHandler,new</token>
@@ -1814,11 +1752,6 @@
 <token>System.ComponentModel.ComponentResourceManager,ApplyResources</token>
 <token>System.ComponentModel.CancelEventHandler,new</token>
 <token>System.ComponentModel.ComponentResourceManager,ApplyResources</token>
-</entry>
-<entry count="5">
-<token>-&gt;</token>
-<token>CataclysmModder.GroupedData,</token>
-<token>CataclysmModder]],new</token>
 </entry>
 <entry count="8">
 <token>System.ComponentModel.CancelEventArgs,new</token>
@@ -1847,7 +1780,7 @@
 <token>System.ComponentModel.ISupportInitialize,EndInit</token>
 <token>System.ComponentModel.ISupportInitialize,EndInit</token>
 </entry>
-<entry count="16">
+<entry count="32">
 <token>System.ComponentModel.TypeDescriptor,GetProperties</token>
 <token>System.ComponentModel.IBindingList,ApplySort</token>
 </entry>
@@ -1887,7 +1820,7 @@
 <token>System.ComponentModel.ComponentResourceManager,ApplyResources</token>
 <token>System.ComponentModel.ISupportInitialize,EndInit</token>
 </entry>
-<entry count="37">
+<entry count="115">
 <token>System.ComponentModel.TypeDescriptor,GetProperties</token>
 <token>System.ComponentModel.PropertyDescriptorCollection,Find</token>
 </entry>
@@ -1897,30 +1830,38 @@
 <token>System.ComponentModel.ICustomTypeDescriptor,GetProperties</token>
 <token>System.ComponentModel.ICustomTypeDescriptor,GetProperties</token>
 </entry>
-<entry count="4">
+<entry count="24">
 <token>System.ComponentModel.TypeDescriptor,GetProvider</token>
 <token>System.ComponentModel.TypeDescriptor,AddProvider</token>
 </entry>
-<entry count="12">
+<entry count="24">
 <token>System.ComponentModel.TypeConverter,ConvertToInvariantString</token>
 <token>System.ComponentModel.TypeDescriptor,GetConverter</token>
 <token>System.ComponentModel.TypeConverter,ConvertToInvariantString</token>
 </entry>
-<entry count="4">
+<entry count="7">
 <token>System.ComponentModel.ProgressChangedEventHandler,new</token>
 <token>System.ComponentModel.RunWorkerCompletedEventHandler,new</token>
 <token>System.ComponentModel.BackgroundWorker,RunWorkerAsync</token>
 </entry>
-<entry count="2">
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-<token>SandcastleBuilder.Utils.MSHelpKeyword,</token>
+<entry count="159744">
+<token>System.ComponentModel.TypeConverter,ConvertFrom</token>
+<token>System.ComponentModel.TypeConverter,ConvertFrom</token>
+<token>System.ComponentModel.EnumConverter,new</token>
+<token>System.ComponentModel.TypeConverter,ConvertFrom</token>
 </entry>
 <entry count="96">
 <token>System.ComponentModel.TypeDescriptor,GetConverter</token>
 <token>System.ComponentModel.TypeConverter,CanConvertTo</token>
 <token>System.ComponentModel.TypeConverter,ConvertFrom</token>
 <token>System.ComponentModel.TypeConverter,ConvertTo</token>
+</entry>
+<entry count="512">
+<token>System.ComponentModel.TypeConverter,ConvertFrom</token>
+<token>System.ComponentModel.TypeDescriptor,GetConverter</token>
+<token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
+<token>System.ComponentModel.TypeConverter,ConvertFrom</token>
+<token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
 </entry>
 <entry count="2">
 <token>System.ComponentModel.TypeDescriptor,GetProperties</token>
@@ -1963,23 +1904,18 @@
 <token>System.ComponentModel.PropertyDescriptorCollection,new</token>
 <token>System.ComponentModel.PropertyDescriptorCollection,Add</token>
 </entry>
-<entry count="3">
-<token>-&gt;</token>
-<token>CataclysmModder.GroupedData,</token>
-<token>CataclysmModder]],new</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
-</entry>
-<entry count="11">
-<token>Sandcastle.Core.Reflection.AssemblyLocation,</token>
-<token>Sandcastle.Core]],new</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-</entry>
 <entry count="38">
 <token>System.ComponentModel.CancelEventHandler,new</token>
 <token>System.ComponentModel.ComponentResourceManager,ApplyResources</token>
 <token>System.ComponentModel.ComponentResourceManager,ApplyResources</token>
 <token>System.ComponentModel.ComponentResourceManager,ApplyResources</token>
+</entry>
+<entry count="600">
+<token>System.ComponentModel.BackgroundWorker,new</token>
+<token>System.ComponentModel.BackgroundWorker,new</token>
+<token>System.ComponentModel.BackgroundWorker,RunWorkerAsync</token>
+<token>System.ComponentModel.BackgroundWorker,RunWorkerAsync</token>
+<token>System.ComponentModel.BackgroundWorker,RunWorkerAsync</token>
 </entry>
 <entry count="1">
 <token>System.ComponentModel.TypeDescriptor,GetProperties</token>
@@ -1991,39 +1927,34 @@
 <token>System.ComponentModel.Component,Dispose</token>
 <token>System.ComponentModel.BackgroundWorker,new</token>
 </entry>
-<entry count="1">
-<token>CataclysmModder]],new</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-<token>CataclysmModder.RecipeControl+ComponentGroup,</token>
-<token>CataclysmModder]],new</token>
-</entry>
-<entry count="9600">
+<entry count="22680">
 <token>System.ComponentModel.TypeConverter,IsValid</token>
 <token>System.ComponentModel.EnumConverter,new</token>
 <token>System.ComponentModel.TypeConverter,IsValid</token>
 <token>System.ComponentModel.EnumConverter,new</token>
 </entry>
-<entry count="210">
+<entry count="53248">
+<token>System.ComponentModel.EnumConverter,new</token>
+<token>System.ComponentModel.TypeConverter,ConvertFrom</token>
+<token>System.ComponentModel.TypeConverter,ConvertFrom</token>
+<token>System.ComponentModel.TypeConverter,ConvertFrom</token>
+<token>System.ComponentModel.TypeConverter,ConvertFrom</token>
+</entry>
+<entry count="54">
+<token>System.ComponentModel.PropertyDescriptorCollection,Find</token>
+<token>System.ComponentModel.PropertyDescriptor,SetValue</token>
+<token>System.ComponentModel.PropertyDescriptorCollection,Find</token>
+<token>System.ComponentModel.PropertyDescriptor,SetValue</token>
+</entry>
+<entry count="722">
 <token>System.ComponentModel.TypeConverter,ConvertTo</token>
 <token>System.ComponentModel.TypeDescriptor,GetConverter</token>
-</entry>
-<entry count="1">
-<token>SuperPutty]],new</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-</entry>
-<entry count="64">
-<token>-&gt;</token>
-<token>Rock.Client.FinancialTransaction,</token>
-<token>Rock.Client]],new</token>
-<token>System.ComponentModel.BackgroundWorker,RunWorkerAsync</token>
 </entry>
 <entry count="11">
 <token>System.ComponentModel.ICustomTypeDescriptor,GetProperties</token>
 <token>System.ComponentModel.PropertyDescriptor,CanResetValue</token>
 </entry>
-<entry count="61">
+<entry count="387">
 <token>System.ComponentModel.Win32Exception,new</token>
 <token>System.ComponentModel.Win32Exception,new</token>
 </entry>
@@ -2047,15 +1978,10 @@
 <token>System.ComponentModel.CancelEventHandler,new</token>
 <token>System.ComponentModel.CancelEventHandler,new</token>
 </entry>
-<entry count="468">
+<entry count="2746">
 <token>System.ComponentModel.TypeDescriptor,GetConverter</token>
 <token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
 <token>System.ComponentModel.TypeConverter,ConvertFrom</token>
-</entry>
-<entry count="64">
-<token>-&gt;</token>
-<token>Rock.Client.FinancialTransaction,</token>
-<token>Rock.Client]],new</token>
 </entry>
 <entry count="1">
 <token>System.ComponentModel.ComponentResourceManager,new</token>
@@ -2070,26 +1996,13 @@
 <token>System.ComponentModel.TypeConverter,CanConvertTo</token>
 <token>System.ComponentModel.TypeConverter,ConvertTo</token>
 </entry>
-<entry count="1">
-<token>CataclysmModder]],new</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-<token>CataclysmModder.RecipeControl+ComponentGroup,</token>
-</entry>
-<entry count="1">
-<token>System.ComponentModel.PropertyDescriptor,GetValue</token>
-<token>System.ComponentModel.ListChangedEventArgs,new</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-<token>T]],OnListChanged</token>
-</entry>
 <entry count="6">
 <token>System.ComponentModel.PropertyDescriptorCollection,new</token>
 <token>System.ComponentModel.PropertyDescriptorCollection,Add</token>
 <token>System.ComponentModel.PropertyDescriptorCollection,Add</token>
 <token>System.ComponentModel.PropertyDescriptorCollection,Add</token>
 </entry>
-<entry count="129609">
+<entry count="829449">
 <token>System.ComponentModel.TypeConverter,IsValid</token>
 <token>System.ComponentModel.TypeConverter,ConvertFromString</token>
 </entry>
@@ -2098,7 +2011,7 @@
 <token>System.ComponentModel.ISupportInitialize,BeginInit</token>
 <token>System.ComponentModel.ISupportInitialize,EndInit</token>
 </entry>
-<entry count="12">
+<entry count="24">
 <token>System.ComponentModel.TypeConverter,ConvertFromInvariantString</token>
 <token>System.ComponentModel.TypeDescriptor,GetConverter</token>
 <token>System.ComponentModel.TypeConverter,ConvertFromInvariantString</token>
@@ -2109,7 +2022,7 @@
 <token>System.ComponentModel.DoWorkEventHandler,new</token>
 <token>System.ComponentModel.RunWorkerCompletedEventHandler,new</token>
 </entry>
-<entry count="157">
+<entry count="181">
 <token>System.ComponentModel.TypeDescriptor,GetConverter</token>
 <token>System.ComponentModel.TypeConverter,ConvertFromInvariantString</token>
 </entry>
@@ -2122,18 +2035,6 @@
 <entry count="21">
 <token>System.ComponentModel.ListChangedEventArgs,new</token>
 <token>System.ComponentModel.ListChangedEventHandler,Invoke</token>
-</entry>
-<entry count="6">
-<token>-&gt;</token>
-<token>CataclysmModder.ItemDataWrapper,</token>
-<token>CataclysmModder]],new</token>
-<token>System.ComponentModel.ListChangedEventArgs,new</token>
-</entry>
-<entry count="512">
-<token>-&gt;</token>
-<token>SandcastleBuilder.Utils.ConceptualContent.ResourceItem,</token>
-<token>SandcastleBuilderUtils]],new</token>
-<token>System.ComponentModel.ListChangedEventArgs,new</token>
 </entry>
 <entry count="4">
 <token>System.ComponentModel.BackgroundWorker,new</token>
@@ -2155,29 +2056,23 @@
 <token>System.ComponentModel.ISupportInitialize,EndInit</token>
 <token>System.ComponentModel.ISupportInitialize,EndInit</token>
 </entry>
-<entry count="8">
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-<token>FindLargeFiles.GitObject,</token>
-<token>FindLargeFiles]],ResetItem</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
-</entry>
 <entry count="4">
 <token>System.ComponentModel.DependencyPropertyDescriptor,FromProperty</token>
 <token>System.ComponentModel.DependencyPropertyDescriptor,AddValueChanged</token>
 <token>System.ComponentModel.DependencyPropertyDescriptor,AddValueChanged</token>
 </entry>
-<entry count="60">
-<token>System.ComponentModel.PropertyDescriptorCollection,new</token>
-<token>System.ComponentModel.PropertyDescriptorCollection,new</token>
-<token>System.ComponentModel.PropertyDescriptorCollection,new</token>
-<token>System.ComponentModel.PropertyDescriptorCollection,new</token>
-<token>System.ComponentModel.PropertyDescriptorCollection,new</token>
+<entry count="7">
+<token>System.ComponentModel.PropertyDescriptorCollection,Find</token>
+<token>System.ComponentModel.PropertyDescriptor,GetValue</token>
+<token>System.ComponentModel.PropertyDescriptor,SetValue</token>
+<token>System.ComponentModel.TypeDescriptor,GetProperties</token>
 </entry>
-<entry count="22">
-<token>System.ComponentModel.ListChangedEventArgs,new</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
+<entry count="76800">
+<token>System.ComponentModel.PropertyDescriptorCollection,new</token>
+<token>System.ComponentModel.PropertyDescriptorCollection,new</token>
+<token>System.ComponentModel.PropertyDescriptorCollection,new</token>
+<token>System.ComponentModel.PropertyDescriptorCollection,new</token>
+<token>System.ComponentModel.PropertyDescriptorCollection,new</token>
 </entry>
 <entry count="17">
 <token>System.ComponentModel.ISupportInitialize,BeginInit</token>
@@ -2190,36 +2085,26 @@
 <token>System.ComponentModel.PropertyDescriptorCollection,Add</token>
 <token>System.ComponentModel.PropertyDescriptorCollection,Remove</token>
 </entry>
-<entry count="2816">
+<entry count="20840">
 <token>System.ComponentModel.TypeConverter,CanConvertTo</token>
 <token>System.ComponentModel.TypeConverter,ConvertTo</token>
 <token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
-</entry>
-<entry count="8">
-<token>-&gt;</token>
-<token>SetupTv.Sections.ScanSettings+DisplaySoftwareEncoder,</token>
-</entry>
-<entry count="2">
-<token>System.ComponentModel.ListChangedEventArgs,new</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-<token>SandcastleBuilder.Utils.MSHelpKeyword,</token>
 </entry>
 <entry count="4">
 <token>System.ComponentModel.RunWorkerCompletedEventHandler,new</token>
 <token>System.ComponentModel.DoWorkEventHandler,new</token>
 </entry>
-<entry count="450">
+<entry count="57698">
 <token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
 <token>System.ComponentModel.TypeDescriptor,GetConverter</token>
 <token>System.ComponentModel.TypeConverter,CanConvertTo</token>
 </entry>
-<entry count="1">
-<token>SuperPutty.Data.LayoutData,</token>
-<token>SuperPutty]],new</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-<token>SuperPutty.Data.SessionData,</token>
+<entry count="79872">
+<token>System.ComponentModel.EnumConverter,new</token>
+<token>System.ComponentModel.TypeConverter,ConvertFrom</token>
+<token>System.ComponentModel.TypeConverter,ConvertFrom</token>
+<token>System.ComponentModel.TypeConverter,ConvertFrom</token>
+<token>System.ComponentModel.EnumConverter,new</token>
 </entry>
 <entry count="4">
 <token>System.ComponentModel.PropertyDescriptorCollection,new</token>
@@ -2232,19 +2117,31 @@
 <token>System.ComponentModel.ISupportInitialize,EndInit</token>
 <token>System.ComponentModel.ISupportInitialize,EndInit</token>
 </entry>
+<entry count="512">
+<token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
+<token>System.ComponentModel.TypeDescriptor,GetConverter</token>
+<token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
+<token>System.ComponentModel.TypeConverter,ConvertFrom</token>
+<token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
+</entry>
 <entry count="1">
 <token>System.ComponentModel.ICustomTypeDescriptor,GetEvents</token>
 <token>System.ComponentModel.ICustomTypeDescriptor,GetEvents</token>
 <token>System.ComponentModel.ICustomTypeDescriptor,GetPropertyOwner</token>
 <token>System.ComponentModel.ICustomTypeDescriptor,GetProperties</token>
 </entry>
-<entry count="67200">
+<entry count="90">
+<token>System.ComponentModel.PropertyDescriptorCollection,Find</token>
+<token>System.ComponentModel.PropertyDescriptor,SetValue</token>
+<token>System.ComponentModel.PropertyDescriptorCollection,Find</token>
+</entry>
+<entry count="262440">
 <token>System.ComponentModel.EnumConverter,new</token>
 <token>System.ComponentModel.TypeConverter,IsValid</token>
 <token>System.ComponentModel.TypeConverter,ConvertFromString</token>
 <token>System.ComponentModel.EnumConverter,new</token>
 </entry>
-<entry count="9600">
+<entry count="22680">
 <token>System.ComponentModel.TypeConverter,ConvertFromString</token>
 <token>System.ComponentModel.EnumConverter,new</token>
 <token>System.ComponentModel.TypeConverter,IsValid</token>
@@ -2257,16 +2154,6 @@
 <token>System.ComponentModel.SortDescription,new</token>
 <token>System.ComponentModel.SortDescription,new</token>
 <token>System.ComponentModel.SortDescription,new</token>
-</entry>
-<entry count="2">
-<token>VVVV.Nodes.ProcessControl,</token>
-<token>Remoter]],new</token>
-</entry>
-<entry count="11">
-<token>Sandcastle.Core]],new</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-<token>Sandcastle.Core.Reflection.ReflectionDataSet+BindingRedirection,</token>
 </entry>
 <entry count="1">
 <token>System.ComponentModel.ProgressChangedEventHandler,new</token>
@@ -2290,22 +2177,19 @@
 <token>System.ComponentModel.TypeConverter,CanConvertTo</token>
 <token>System.ComponentModel.TypeConverter,ConvertFrom</token>
 </entry>
-<entry count="257">
+<entry count="8193">
 <token>System.ComponentModel.TypeDescriptor,GetConverter</token>
 <token>System.ComponentModel.TypeConverter,CanConvertTo</token>
 <token>System.ComponentModel.TypeConverter,ConvertToInvariantString</token>
 </entry>
-<entry count="4">
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-<token>p:string]],new</token>
+<entry count="64">
+<token>System.ComponentModel.TypeDescriptor,GetConverter</token>
+<token>System.ComponentModel.TypeDescriptor,GetConverter</token>
+<token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
+<token>System.ComponentModel.TypeConverter,ConvertFrom</token>
+<token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
 </entry>
-<entry count="512">
-<token>SandcastleBuilder.Utils.ConceptualContent.ResourceItem,</token>
-<token>SandcastleBuilderUtils]],new</token>
-<token>System.ComponentModel.ListChangedEventArgs,new</token>
-</entry>
-<entry count="185">
+<entry count="697">
 <token>System.ComponentModel.TypeDescriptor,GetConverter</token>
 <token>System.ComponentModel.TypeConverter,CanConvertTo</token>
 <token>System.ComponentModel.TypeConverter,ConvertTo</token>
@@ -2316,11 +2200,6 @@
 <token>System.ComponentModel.ComponentResourceManager,new</token>
 <token>System.ComponentModel.BackgroundWorker,new</token>
 <token>System.ComponentModel.DoWorkEventHandler,new</token>
-</entry>
-<entry count="6">
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-<token>CataclysmModder.ItemDataWrapper,</token>
 </entry>
 <entry count="569">
 <token>System.ComponentModel.ComponentResourceManager,new</token>
@@ -2344,10 +2223,17 @@
 <token>System.ComponentModel.ISupportInitialize,BeginInit</token>
 <token>System.ComponentModel.CancelEventHandler,new</token>
 </entry>
-<entry count="96">
-<token>System.ComponentModel.BackgroundWorker,new</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
+<entry count="2">
+<token>System.ComponentModel.PropertyDescriptorCollection,Find</token>
+<token>System.ComponentModel.PropertyDescriptor,GetValue</token>
+<token>System.ComponentModel.TypeDescriptor,GetProperties</token>
+<token>System.ComponentModel.PropertyDescriptorCollection,Find</token>
+<token>System.ComponentModel.PropertyDescriptor,GetValue</token>
+</entry>
+<entry count="165888">
+<token>System.ComponentModel.TypeConverter,ConvertFrom</token>
+<token>System.ComponentModel.EnumConverter,new</token>
+<token>System.ComponentModel.TypeConverter,ConvertFrom</token>
 </entry>
 <entry count="27">
 <token>System.ComponentModel.ISupportInitialize,BeginInit</token>
@@ -2367,14 +2253,6 @@
 <token>System.ComponentModel.TypeDescriptor,GetConverter</token>
 <token>System.ComponentModel.TypeConverter,CanConvertTo</token>
 </entry>
-<entry count="6">
-<token>-&gt;</token>
-<token>SandcastleBuilder.Utils.ConceptualContent.TocEntry,</token>
-</entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>SuperPutty.Data.LayoutData,</token>
-</entry>
 <entry count="1">
 <token>System.ComponentModel.ComponentResourceManager,new</token>
 <token>System.ComponentModel.CancelEventHandler,new</token>
@@ -2385,12 +2263,6 @@
 <token>System.ComponentModel.TypeDescriptor,AddAttributes</token>
 <token>System.ComponentModel.TypeDescriptor,AddAttributes</token>
 <token>System.ComponentModel.TypeDescriptor,AddAttributes</token>
-</entry>
-<entry count="1">
-<token>System.ComponentModel.PropertyDescriptor,GetValue</token>
-<token>System.ComponentModel.ListChangedEventArgs,new</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
 </entry>
 <entry count="37">
 <token>System.ComponentModel.ComponentResourceManager,ApplyResources</token>
@@ -2406,22 +2278,12 @@
 <token>System.ComponentModel.AttributeCollection,Contains</token>
 <token>System.ComponentModel.PropertyDescriptorCollection,Sort</token>
 </entry>
-<entry count="4">
-<token>SetupTv]],new</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
-</entry>
-<entry count="4">
-<token>-&gt;</token>
-<token>?]],OnListChanged</token>
-</entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>Gestures.HMMs.Sequence,</token>
-</entry>
-<entry count="16">
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-<token>FindLargeFiles.GitObject,</token>
+<entry count="24">
+<token>System.ComponentModel.BackgroundWorker,new</token>
+<token>System.ComponentModel.BackgroundWorker,RunWorkerAsync</token>
+<token>System.ComponentModel.BackgroundWorker,RunWorkerAsync</token>
+<token>System.ComponentModel.BackgroundWorker,RunWorkerAsync</token>
+<token>System.ComponentModel.BackgroundWorker,RunWorkerAsync</token>
 </entry>
 <entry count="1">
 <token>System.ComponentModel.BackgroundWorker,new</token>
@@ -2430,17 +2292,10 @@
 <token>System.ComponentModel.RunWorkerCompletedEventHandler,new</token>
 <token>System.ComponentModel.DoWorkEventHandler,new</token>
 </entry>
-<entry count="1">
-<token>CataclysmModder.RecipeControl+ComponentGroup,</token>
-<token>CataclysmModder]],new</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-<token>CataclysmModder.RecipeControl+ComponentGroup,</token>
-</entry>
-<entry count="64">
-<token>Rock.Client.FinancialTransaction,</token>
-<token>Rock.Client]],new</token>
-<token>System.ComponentModel.BackgroundWorker,RunWorkerAsync</token>
+<entry count="173056">
+<token>System.ComponentModel.TypeConverter,ConvertFrom</token>
+<token>System.ComponentModel.TypeConverter,ConvertFrom</token>
+<token>System.ComponentModel.EnumConverter,new</token>
 </entry>
 <entry count="38">
 <token>System.ComponentModel.ComponentResourceManager,ApplyResources</token>
@@ -2452,6 +2307,12 @@
 <entry count="1">
 <token>System.ComponentModel.PropertyDescriptorCollection,Find</token>
 <token>System.ComponentModel.PropertyDescriptorCollection,Find</token>
+</entry>
+<entry count="133120">
+<token>System.ComponentModel.TypeConverter,ConvertFrom</token>
+<token>System.ComponentModel.TypeConverter,ConvertFrom</token>
+<token>System.ComponentModel.TypeConverter,ConvertFrom</token>
+<token>System.ComponentModel.EnumConverter,new</token>
 </entry>
 <entry count="2">
 <token>System.ComponentModel.ISupportInitialize,BeginInit</token>
@@ -2470,16 +2331,6 @@
 <token>System.ComponentModel.ISupportInitialize,BeginInit</token>
 <token>System.ComponentModel.CancelEventHandler,new</token>
 </entry>
-<entry count="3">
-<token>CataclysmModder.GroupedData,</token>
-<token>CataclysmModder]],new</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
-</entry>
-<entry count="6">
-<token>CataclysmModder.ItemDataWrapper,</token>
-<token>CataclysmModder]],new</token>
-<token>System.ComponentModel.ListChangedEventArgs,new</token>
-</entry>
 <entry count="25">
 <token>System.ComponentModel.Container,new</token>
 <token>System.ComponentModel.ISupportInitialize,BeginInit</token>
@@ -2492,12 +2343,17 @@
 <token>System.ComponentModel.TypeDescriptor,GetProperties</token>
 <token>System.ComponentModel.PropertyDescriptorCollection,Find</token>
 </entry>
+<entry count="4">
+<token>System.ComponentModel.Win32Exception,new</token>
+<token>System.ComponentModel.Win32Exception,new</token>
+<token>System.ComponentModel.Win32Exception,new</token>
+<token>System.ComponentModel.Win32Exception,new</token>
+</entry>
 <entry count="1">
-<token>p:string]],new</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-<token>Gestures.HMMs.Sequence,</token>
-<token>Gestures__HMM_]],new</token>
+<token>System.ComponentModel.PropertyDescriptor,GetValue</token>
+<token>System.ComponentModel.PropertyDescriptor,GetValue</token>
+<token>System.ComponentModel.ListChangedEventArgs,new</token>
+<token>System.ComponentModel.BindingList,OnListChanged</token>
 </entry>
 <entry count="1">
 <token>System.ComponentModel.ComponentResourceManager,new</token>
@@ -2506,32 +2362,14 @@
 <token>System.ComponentModel.ProgressChangedEventHandler,new</token>
 <token>System.ComponentModel.RunWorkerCompletedEventHandler,new</token>
 </entry>
-<entry count="32">
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-<token>?]],new</token>
-</entry>
-<entry count="4">
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-<token>SandcastleBuilder.Utils.ConceptualContent.Topic,</token>
-<token>SandcastleBuilderUtils]],OnListChanged</token>
-</entry>
-<entry count="5">
-<token>T]],SetItem</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-<token>T]],ResetBindings</token>
-</entry>
 <entry count="4">
 <token>System.ComponentModel.TypeDescriptor,RemoveProvider</token>
 <token>System.ComponentModel.TypeDescriptor,AddProvider</token>
 </entry>
 <entry count="1">
-<token>SuperPutty.Data.LayoutData,</token>
-<token>SuperPutty]],new</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
+<token>System.ComponentModel.BackgroundWorker,RunWorkerAsync</token>
+<token>System.ComponentModel.BackgroundWorker,new</token>
+<token>System.ComponentModel.DoWorkEventHandler,new</token>
 </entry>
 <entry count="1">
 <token>System.ComponentModel.TypeDescriptor,GetProperties</token>
@@ -2563,7 +2401,11 @@
 <token>System.ComponentModel.CancelEventHandler,new</token>
 <token>System.ComponentModel.CancelEventHandler,new</token>
 </entry>
-<entry count="6">
+<entry count="69632">
+<token>System.ComponentModel.TypeConverter,ConvertToInvariantString</token>
+<token>System.ComponentModel.TypeConverter,ConvertToInvariantString</token>
+</entry>
+<entry count="29640">
 <token>System.ComponentModel.BackgroundWorker,new</token>
 <token>System.ComponentModel.BackgroundWorker,new</token>
 <token>System.ComponentModel.BackgroundWorker,RunWorkerAsync</token>
@@ -2579,52 +2421,45 @@
 <token>System.ComponentModel.Container,new</token>
 <token>System.ComponentModel.ISupportInitialize,BeginInit</token>
 </entry>
-<entry count="2">
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-<token>SandcastleBuilder.Utils.MSHelpKeyword,</token>
-<token>HtmlToMaml]],OnListChanged</token>
-</entry>
-<entry count="1">
-<token>p:string]],new</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-<token>SampleApp.Sequence,</token>
-<token>Gestures__SVM-DTW_]],new</token>
-</entry>
-<entry count="9600">
+<entry count="22680">
 <token>System.ComponentModel.EnumConverter,new</token>
 <token>System.ComponentModel.TypeConverter,IsValid</token>
 <token>System.ComponentModel.EnumConverter,new</token>
 <token>System.ComponentModel.TypeConverter,IsValid</token>
 <token>System.ComponentModel.EnumConverter,new</token>
 </entry>
-<entry count="67200">
+<entry count="600">
+<token>System.ComponentModel.BackgroundWorker,new</token>
+<token>System.ComponentModel.BackgroundWorker,RunWorkerAsync</token>
+<token>System.ComponentModel.BackgroundWorker,RunWorkerAsync</token>
+<token>System.ComponentModel.BackgroundWorker,RunWorkerAsync</token>
+</entry>
+<entry count="262440">
 <token>System.ComponentModel.EnumConverter,new</token>
 <token>System.ComponentModel.TypeConverter,IsValid</token>
 <token>System.ComponentModel.EnumConverter,new</token>
 </entry>
-<entry count="1">
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-<token>SuperPutty.Data.SessionData,</token>
-</entry>
-<entry count="2">
+<entry count="32">
 <token>System.ComponentModel.DependencyPropertyDescriptor,RemoveValueChanged</token>
 <token>System.ComponentModel.DependencyPropertyDescriptor,RemoveValueChanged</token>
 <token>System.ComponentModel.DependencyPropertyDescriptor,RemoveValueChanged</token>
 <token>System.ComponentModel.DependencyPropertyDescriptor,RemoveValueChanged</token>
 </entry>
-<entry count="9">
+<entry count="1284">
 <token>System.ComponentModel.TypeDescriptor,GetConverter</token>
 <token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
 <token>System.ComponentModel.TypeConverter,ConvertFrom</token>
 <token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
 <token>System.ComponentModel.TypeConverter,ConvertFrom</token>
 </entry>
-<entry count="246">
+<entry count="307206">
 <token>System.ComponentModel.PropertyDescriptorCollection,new</token>
 <token>System.ComponentModel.PropertyDescriptorCollection,new</token>
+</entry>
+<entry count="6024">
+<token>System.ComponentModel.BackgroundWorker,new</token>
+<token>System.ComponentModel.BackgroundWorker,RunWorkerAsync</token>
+<token>System.ComponentModel.BackgroundWorker,RunWorkerAsync</token>
 </entry>
 <entry count="102">
 <token>System.ComponentModel.Container,new</token>
@@ -2632,23 +2467,11 @@
 <token>System.ComponentModel.ISupportInitialize,BeginInit</token>
 <token>System.ComponentModel.ISupportInitialize,EndInit</token>
 </entry>
-<entry count="2">
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-<token>VVVV.Nodes.ProcessControl,</token>
-<token>Remoter]],new</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
-</entry>
-<entry count="12">
+<entry count="24">
 <token>System.ComponentModel.TypeDescriptor,GetConverter</token>
 <token>System.ComponentModel.TypeConverter,ConvertFromInvariantString</token>
 <token>System.ComponentModel.TypeDescriptor,GetConverter</token>
 <token>System.ComponentModel.TypeConverter,ConvertFromInvariantString</token>
-</entry>
-<entry count="2">
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-<token>VVVV.Nodes.ProcessControl,</token>
 </entry>
 <entry count="13">
 <token>System.ComponentModel.TypeDescriptor,GetConverter</token>
@@ -2661,15 +2484,24 @@
 <token>System.ComponentModel.CancelEventHandler,new</token>
 <token>System.ComponentModel.ISupportInitialize,EndInit</token>
 </entry>
-<entry count="67200">
+<entry count="36864">
+<token>System.ComponentModel.EnumConverter,new</token>
+<token>System.ComponentModel.TypeConverter,ConvertFrom</token>
+<token>System.ComponentModel.TypeConverter,ConvertFrom</token>
+<token>System.ComponentModel.EnumConverter,new</token>
+<token>System.ComponentModel.TypeConverter,ConvertFrom</token>
+</entry>
+<entry count="512">
+<token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
+<token>System.ComponentModel.TypeConverter,ConvertFrom</token>
+<token>System.ComponentModel.TypeDescriptor,GetConverter</token>
+<token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
+<token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
+</entry>
+<entry count="262440">
 <token>System.ComponentModel.TypeConverter,IsValid</token>
 <token>System.ComponentModel.EnumConverter,new</token>
 <token>System.ComponentModel.TypeConverter,IsValid</token>
-</entry>
-<entry count="2">
-<token>p:string]],new</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
 </entry>
 <entry count="9">
 <token>System.ComponentModel.TypeConverter,ConvertTo</token>
@@ -2677,18 +2509,15 @@
 <token>System.ComponentModel.TypeDescriptor,GetConverter</token>
 <token>System.ComponentModel.TypeConverter,CanConvertTo</token>
 </entry>
-<entry count="22">
-<token>-&gt;</token>
-<token>Sandcastle.Core.Reflection.ReflectionDataSet+StringWrapper,</token>
-</entry>
-<entry count="67200">
+<entry count="262440">
 <token>System.ComponentModel.TypeConverter,IsValid</token>
 <token>System.ComponentModel.EnumConverter,new</token>
 </entry>
-<entry count="6">
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-<token>T]],OnListChanged</token>
+<entry count="24">
+<token>System.ComponentModel.BackgroundWorker,RunWorkerAsync</token>
+<token>System.ComponentModel.BackgroundWorker,RunWorkerAsync</token>
+<token>System.ComponentModel.BackgroundWorker,RunWorkerAsync</token>
+<token>System.ComponentModel.BackgroundWorker,RunWorkerAsync</token>
 </entry>
 <entry count="14">
 <token>System.ComponentModel.EventDescriptorCollection,new</token>
@@ -2704,7 +2533,7 @@
 <token>System.ComponentModel.CustomTypeDescriptor,GetProperties</token>
 <token>System.ComponentModel.PropertyDescriptorCollection,Add</token>
 </entry>
-<entry count="4">
+<entry count="7">
 <token>System.ComponentModel.BackgroundWorker,new</token>
 <token>System.ComponentModel.DoWorkEventHandler,new</token>
 <token>System.ComponentModel.ProgressChangedEventHandler,new</token>
@@ -2729,15 +2558,18 @@
 <token>System.ComponentModel.ComponentResourceManager,ApplyResources</token>
 <token>System.ComponentModel.ComponentResourceManager,ApplyResources</token>
 </entry>
-<entry count="64">
-<token>-&gt;</token>
-<token>Rock.Client.FinancialTransaction,</token>
-</entry>
 <entry count="1">
 <token>System.ComponentModel.ICustomTypeDescriptor,GetEvents</token>
 <token>System.ComponentModel.ICustomTypeDescriptor,GetPropertyOwner</token>
 <token>System.ComponentModel.ICustomTypeDescriptor,GetProperties</token>
 <token>System.ComponentModel.ICustomTypeDescriptor,GetProperties</token>
+</entry>
+<entry count="544">
+<token>System.ComponentModel.TypeDescriptor,GetConverter</token>
+<token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
+<token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
+<token>System.ComponentModel.TypeConverter,ConvertFrom</token>
+<token>System.ComponentModel.TypeDescriptor,GetConverter</token>
 </entry>
 <entry count="1">
 <token>System.ComponentModel.ICustomTypeDescriptor,GetEvents</token>
@@ -2747,13 +2579,14 @@
 <token>System.ComponentModel.PropertyDescriptor,SetValue</token>
 <token>System.ComponentModel.PropertyDescriptor,ResetValue</token>
 </entry>
-<entry count="2">
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-<token>VVVV.Nodes.ProcessControl,</token>
-<token>Remoter]],new</token>
+<entry count="106496">
+<token>System.ComponentModel.TypeConverter,ConvertFrom</token>
+<token>System.ComponentModel.TypeConverter,ConvertFrom</token>
+<token>System.ComponentModel.EnumConverter,new</token>
+<token>System.ComponentModel.TypeConverter,ConvertFrom</token>
+<token>System.ComponentModel.TypeConverter,ConvertFrom</token>
 </entry>
-<entry count="9">
+<entry count="36">
 <token>System.ComponentModel.BackgroundWorker,new</token>
 <token>System.ComponentModel.BackgroundWorker,CancelAsync</token>
 </entry>
@@ -2762,26 +2595,21 @@
 <token>System.ComponentModel.DoWorkEventHandler,new</token>
 <token>System.ComponentModel.DoWorkEventHandler,new</token>
 </entry>
-<entry count="1">
-<token>SuperPutty]],new</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-<token>SuperPutty.Data.SessionData,</token>
-</entry>
-<entry count="38">
+<entry count="2588">
 <token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
 <token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
 </entry>
-<entry count="12">
+<entry count="24">
 <token>System.ComponentModel.TypeDescriptor,GetConverter</token>
 <token>System.ComponentModel.TypeConverter,ConvertToInvariantString</token>
 <token>System.ComponentModel.TypeDescriptor,GetConverter</token>
 <token>System.ComponentModel.TypeConverter,ConvertToInvariantString</token>
 </entry>
-<entry count="11">
-<token>-&gt;</token>
-<token>Sandcastle.Core.Reflection.ReflectionDataSet+BindingRedirection,</token>
-<token>Sandcastle.Core]],new</token>
+<entry count="512">
+<token>System.ComponentModel.TypeConverter,ConvertFrom</token>
+<token>System.ComponentModel.TypeDescriptor,GetConverter</token>
+<token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
+<token>System.ComponentModel.TypeConverter,ConvertFrom</token>
 </entry>
 <entry count="2">
 <token>System.ComponentModel.BackgroundWorker,ReportProgress</token>
@@ -2801,13 +2629,19 @@
 <token>System.ComponentModel.ISupportInitialize,BeginInit</token>
 <token>System.ComponentModel.CancelEventHandler,new</token>
 </entry>
+<entry count="1">
+<token>System.ComponentModel.BackgroundWorker,RunWorkerAsync</token>
+<token>System.ComponentModel.BackgroundWorker,new</token>
+<token>System.ComponentModel.DoWorkEventHandler,new</token>
+<token>System.ComponentModel.ProgressChangedEventHandler,new</token>
+</entry>
 <entry count="222">
 <token>System.ComponentModel.ISupportInitialize,BeginInit</token>
 <token>System.ComponentModel.ISupportInitialize,BeginInit</token>
 <token>System.ComponentModel.ISupportInitialize,BeginInit</token>
 <token>System.ComponentModel.ISupportInitialize,EndInit</token>
 </entry>
-<entry count="69">
+<entry count="72">
 <token>System.ComponentModel.BackgroundWorker,new</token>
 <token>System.ComponentModel.DoWorkEventHandler,new</token>
 </entry>
@@ -2815,13 +2649,6 @@
 <token>System.ComponentModel.ICollectionView,MoveCurrentToFirst</token>
 <token>System.ComponentModel.ICollectionView,Refresh</token>
 <token>System.ComponentModel.ICollectionView,MoveCurrentToFirst</token>
-</entry>
-<entry count="11">
-<token>Sandcastle.Core.Reflection.ReflectionDataSet+StringWrapper,</token>
-<token>Sandcastle.Core]],new</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-<token>Sandcastle.Core.Reflection.ReflectionDataSet+BindingRedirection,</token>
 </entry>
 <entry count="26">
 <token>System.ComponentModel.ICustomTypeDescriptor,GetProperties</token>
@@ -2836,6 +2663,12 @@
 <token>System.ComponentModel.BindableAttribute,new</token>
 <token>System.ComponentModel.EditorAttribute,new</token>
 <token>System.ComponentModel.AttributeCollection,new</token>
+</entry>
+<entry count="1">
+<token>System.ComponentModel.ProgressChangedEventHandler,new</token>
+<token>System.ComponentModel.RunWorkerCompletedEventHandler,new</token>
+<token>System.ComponentModel.BackgroundWorker,RunWorkerAsync</token>
+<token>System.ComponentModel.BackgroundWorker,new</token>
 </entry>
 <entry count="10">
 <token>System.ComponentModel.ISupportInitialize,BeginInit</token>
@@ -2855,18 +2688,17 @@
 <token>System.ComponentModel.ICustomTypeDescriptor,GetEvents</token>
 <token>System.ComponentModel.ICustomTypeDescriptor,GetPropertyOwner</token>
 </entry>
-<entry count="117">
+<entry count="287">
 <token>System.ComponentModel.TypeConverter,ConvertFromString</token>
 <token>System.ComponentModel.TypeConverter,ConvertFromString</token>
 </entry>
-<entry count="4">
-<token>SetupTv.Sections.ScanSettings+DisplaySoftwareEncoder,</token>
-<token>SetupTv]],new</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-<token>SetupTv.Sections.ScanSettings+DisplaySoftwareEncoder,</token>
+<entry count="64">
+<token>System.ComponentModel.TypeDescriptor,GetConverter</token>
+<token>System.ComponentModel.TypeDescriptor,GetConverter</token>
+<token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
+<token>System.ComponentModel.TypeConverter,ConvertFrom</token>
 </entry>
-<entry count="2">
+<entry count="32">
 <token>System.ComponentModel.DependencyPropertyDescriptor,AddValueChanged</token>
 <token>System.ComponentModel.DependencyPropertyDescriptor,RemoveValueChanged</token>
 </entry>
@@ -2876,26 +2708,24 @@
 <token>System.ComponentModel.TypeConverter,CanConvertTo</token>
 <token>System.ComponentModel.TypeConverter,ConvertTo</token>
 </entry>
-<entry count="13">
+<entry count="103">
 <token>System.ComponentModel.DependencyPropertyDescriptor,RemoveValueChanged</token>
 <token>System.ComponentModel.DependencyPropertyDescriptor,RemoveValueChanged</token>
+</entry>
+<entry count="28">
+<token>System.ComponentModel.TypeDescriptor,GetProperties</token>
+<token>System.ComponentModel.PropertyDescriptorCollection,Find</token>
+<token>System.ComponentModel.TypeDescriptor,GetProperties</token>
 </entry>
 <entry count="1">
 <token>System.ComponentModel.ICustomTypeDescriptor,GetEvents</token>
 <token>System.ComponentModel.ICustomTypeDescriptor,GetPropertyOwner</token>
 </entry>
-<entry count="11">
-<token>Sandcastle.Core]],new</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-<token>Sandcastle.Core.Reflection.ReflectionDataSet+BindingRedirection,</token>
-<token>Sandcastle.Core]],new</token>
-</entry>
 <entry count="10">
 <token>System.ComponentModel.ICustomTypeDescriptor,GetProperties</token>
 <token>System.ComponentModel.ICustomTypeDescriptor,GetAttributes</token>
 </entry>
-<entry count="106">
+<entry count="652">
 <token>System.ComponentModel.PropertyDescriptor,GetValue</token>
 <token>System.ComponentModel.PropertyDescriptor,GetValue</token>
 </entry>
@@ -2912,15 +2742,10 @@
 <token>System.ComponentModel.PropertyChangedEventArgs,new</token>
 <token>System.ComponentModel.PropertyChangedEventArgs,new</token>
 </entry>
-<entry count="182">
+<entry count="230402">
 <token>System.ComponentModel.PropertyDescriptorCollection,new</token>
 <token>System.ComponentModel.PropertyDescriptorCollection,new</token>
 <token>System.ComponentModel.PropertyDescriptorCollection,new</token>
-</entry>
-<entry count="22">
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-<token>Sandcastle.Core.Reflection.ReflectionDataSet+StringWrapper,</token>
 </entry>
 <entry count="96">
 <token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
@@ -2938,7 +2763,7 @@
 <token>System.ComponentModel.ISupportInitialize,EndInit</token>
 <token>System.ComponentModel.ISupportInitialize,EndInit</token>
 </entry>
-<entry count="12">
+<entry count="24">
 <token>System.ComponentModel.TypeDescriptor,GetConverter</token>
 <token>System.ComponentModel.TypeConverter,ConvertFromInvariantString</token>
 <token>System.ComponentModel.TypeDescriptor,GetConverter</token>
@@ -2949,22 +2774,15 @@
 <token>System.ComponentModel.ISupportInitialize,EndInit</token>
 <token>System.ComponentModel.ISupportInitialize,EndInit</token>
 </entry>
-<entry count="64">
-<token>Rock.Client]],new</token>
-<token>System.ComponentModel.BackgroundWorker,RunWorkerAsync</token>
-</entry>
 <entry count="27">
 <token>System.ComponentModel.ComponentResourceManager,ApplyResources</token>
 <token>System.ComponentModel.ComponentResourceManager,ApplyResources</token>
 <token>System.ComponentModel.ComponentResourceManager,ApplyResources</token>
 <token>System.ComponentModel.CancelEventHandler,new</token>
 </entry>
-<entry count="6">
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-<token>CataclysmModder.ItemDataWrapper,</token>
-<token>CataclysmModder]],new</token>
-<token>System.ComponentModel.ListChangedEventArgs,new</token>
+<entry count="19937">
+<token>System.ComponentModel.BindingList,new</token>
+<token>System.ComponentModel.BackgroundWorker,RunWorkerAsync</token>
 </entry>
 <entry count="1">
 <token>System.ComponentModel.RunWorkerCompletedEventHandler,new</token>
@@ -2988,15 +2806,6 @@
 <token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
 <token>System.ComponentModel.TypeConverter,GetStandardValues</token>
 </entry>
-<entry count="6">
-<token>-&gt;</token>
-<token>SandcastleBuilder.Utils.ConceptualContent.TocEntry,</token>
-<token>SandcastleBuilderUtils]],OnListChanged</token>
-</entry>
-<entry count="16">
-<token>FindLargeFiles.GitObject,</token>
-<token>FindLargeFiles]],ResetItem</token>
-</entry>
 <entry count="1">
 <token>System.ComponentModel.DoWorkEventHandler,new</token>
 <token>System.ComponentModel.RunWorkerCompletedEventHandler,new</token>
@@ -3004,10 +2813,13 @@
 <token>System.ComponentModel.RunWorkerCompletedEventHandler,new</token>
 <token>System.ComponentModel.ProgressChangedEventHandler,new</token>
 </entry>
-<entry count="22">
-<token>Sandcastle.Core.Reflection.ReflectionDataSet+StringWrapper,</token>
-<token>Sandcastle.Core]],new</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
+<entry count="10976">
+<token>System.ComponentModel.ToolboxItemFilterAttribute,new</token>
+<token>System.ComponentModel.ToolboxItemFilterAttribute,new</token>
+</entry>
+<entry count="1">
+<token>System.ComponentModel.StandardValuesCollection,new</token>
+<token>System.ComponentModel.StandardValuesCollection,new</token>
 </entry>
 <entry count="40">
 <token>System.ComponentModel.BackgroundWorker,ReportProgress</token>
@@ -3015,12 +2827,6 @@
 <token>System.ComponentModel.BackgroundWorker,ReportProgress</token>
 <token>System.ComponentModel.BackgroundWorker,ReportProgress</token>
 <token>System.ComponentModel.BackgroundWorker,RunWorkerAsync</token>
-</entry>
-<entry count="64">
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-<token>Rock.Client.FinancialTransaction,</token>
-<token>Rock.Client]],new</token>
 </entry>
 <entry count="1">
 <token>System.ComponentModel.ISupportInitialize,BeginInit</token>
@@ -3046,41 +2852,46 @@
 <token>System.ComponentModel.ICustomTypeDescriptor,GetDefaultProperty</token>
 <token>System.ComponentModel.ICustomTypeDescriptor,GetEditor</token>
 </entry>
+<entry count="9216">
+<token>System.ComponentModel.EnumConverter,new</token>
+<token>System.ComponentModel.TypeConverter,ConvertFrom</token>
+<token>System.ComponentModel.TypeConverter,ConvertFromInvariantString</token>
+</entry>
+<entry count="8">
+<token>System.ComponentModel.BindingList,ResetItem</token>
+<token>System.ComponentModel.BindingList,ResetItem</token>
+</entry>
 <entry count="1">
 <token>System.ComponentModel.TypeDescriptor,GetConverter</token>
 <token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
 <token>System.ComponentModel.TypeConverter,IsValid</token>
 <token>System.ComponentModel.TypeConverter,ConvertFromString</token>
 </entry>
-<entry count="16">
-<token>-&gt;</token>
-<token>FindLargeFiles.GitObject,</token>
-</entry>
 <entry count="5">
 <token>System.ComponentModel.ComponentResourceManager,new</token>
 <token>System.ComponentModel.BackgroundWorker,new</token>
 </entry>
-<entry count="4">
-<token>-&gt;</token>
-<token>SandcastleBuilder.Utils.ConceptualContent.Topic,</token>
-<token>SandcastleBuilderUtils]],OnListChanged</token>
+<entry count="1">
+<token>System.ComponentModel.RunWorkerCompletedEventHandler,new</token>
+<token>System.ComponentModel.BackgroundWorker,RunWorkerAsync</token>
+<token>System.ComponentModel.BackgroundWorker,new</token>
+<token>System.ComponentModel.DoWorkEventHandler,new</token>
 </entry>
-<entry count="583">
+<entry count="743">
 <token>System.ComponentModel.TypeDescriptor,GetConverter</token>
 <token>System.ComponentModel.TypeConverter,CanConvertTo</token>
 <token>System.ComponentModel.TypeConverter,ConvertTo</token>
 </entry>
-<entry count="1">
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-<token>Gestures.HMMs.Sequence,</token>
-<token>Gestures__HMM_]],new</token>
+<entry count="8">
+<token>System.ComponentModel.TypeDescriptor,GetProvider</token>
+<token>System.ComponentModel.TypeDescriptor,AddProvider</token>
+<token>System.ComponentModel.TypeDescriptor,AddProvider</token>
 </entry>
 <entry count="1">
 <token>System.ComponentModel.ISupportInitialize,BeginInit</token>
 <token>System.ComponentModel.AsyncCompletedEventHandler,new</token>
 </entry>
-<entry count="1866">
+<entry count="218006">
 <token>System.ComponentModel.TypeConverter,ConvertFromInvariantString</token>
 <token>System.ComponentModel.TypeConverter,ConvertFromInvariantString</token>
 </entry>
@@ -3094,18 +2905,18 @@
 <token>System.ComponentModel.DoWorkEventHandler,new</token>
 <token>System.ComponentModel.BackgroundWorker,RunWorkerAsync</token>
 </entry>
-<entry count="4">
-<token>SetupTv]],new</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-<token>SetupTv.Sections.ScanSettings+DisplaySoftwareEncoder,</token>
+<entry count="2">
+<token>System.ComponentModel.PropertyDescriptor,GetValue</token>
+<token>System.ComponentModel.TypeDescriptor,GetProperties</token>
+<token>System.ComponentModel.PropertyDescriptorCollection,Find</token>
+<token>System.ComponentModel.PropertyDescriptor,GetValue</token>
 </entry>
-<entry count="374">
+<entry count="2627">
 <token>System.ComponentModel.TypeConverter,ConvertTo</token>
 <token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
 <token>System.ComponentModel.TypeConverter,ConvertFrom</token>
 </entry>
-<entry count="18">
+<entry count="10569">
 <token>System.ComponentModel.Component,Dispose</token>
 <token>System.ComponentModel.Component,Dispose</token>
 <token>System.ComponentModel.Component,Dispose</token>
@@ -3124,6 +2935,26 @@
 <token>System.ComponentModel.PropertyDescriptor,GetValue</token>
 <token>System.ComponentModel.PropertyDescriptorCollection,Find</token>
 </entry>
+<entry count="4096">
+<token>System.ComponentModel.EnumConverter,new</token>
+<token>System.ComponentModel.TypeConverter,ConvertFrom</token>
+<token>System.ComponentModel.TypeConverter,ConvertFromInvariantString</token>
+<token>System.ComponentModel.TypeConverter,ConvertFrom</token>
+<token>System.ComponentModel.TypeConverter,ConvertFrom</token>
+</entry>
+<entry count="180">
+<token>System.ComponentModel.TypeConverter,ConvertFromString</token>
+<token>System.ComponentModel.TypeDescriptor,GetConverter</token>
+<token>System.ComponentModel.TypeConverter,ConvertFromString</token>
+<token>System.ComponentModel.TypeDescriptor,GetConverter</token>
+<token>System.ComponentModel.TypeConverter,ConvertFromString</token>
+</entry>
+<entry count="2118">
+<token>System.ComponentModel.TypeDescriptor,GetConverter</token>
+<token>System.ComponentModel.TypeConverter,ConvertFromString</token>
+<token>System.ComponentModel.TypeDescriptor,GetConverter</token>
+<token>System.ComponentModel.TypeConverter,ConvertFromString</token>
+</entry>
 <entry count="208">
 <token>System.ComponentModel.ComponentResourceManager,new</token>
 <token>System.ComponentModel.ISupportInitialize,BeginInit</token>
@@ -3134,17 +2965,7 @@
 <token>System.ComponentModel.CancelEventHandler,new</token>
 <token>System.ComponentModel.CancelEventHandler,new</token>
 </entry>
-<entry count="2">
-<token>SandcastleBuilder.Utils.MSHelpKeyword,</token>
-<token>HtmlToMaml]],OnListChanged</token>
-</entry>
-<entry count="32">
-<token>System.ComponentModel.BackgroundWorker,new</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-<token>?]],new</token>
-</entry>
-<entry count="374">
+<entry count="2627">
 <token>System.ComponentModel.TypeConverter,CanConvertTo</token>
 <token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
 <token>System.ComponentModel.TypeConverter,ConvertFrom</token>
@@ -3156,6 +2977,12 @@
 <token>System.ComponentModel.ICustomTypeDescriptor,GetEvents</token>
 <token>System.ComponentModel.ICustomTypeDescriptor,GetPropertyOwner</token>
 </entry>
+<entry count="6144">
+<token>System.ComponentModel.EnumConverter,new</token>
+<token>System.ComponentModel.TypeConverter,ConvertFrom</token>
+<token>System.ComponentModel.EnumConverter,new</token>
+<token>System.ComponentModel.TypeConverter,ConvertFrom</token>
+</entry>
 <entry count="1">
 <token>System.ComponentModel.PropertyDescriptorCollection,Find</token>
 <token>System.ComponentModel.PropertyDescriptor,SetValue</token>
@@ -3166,7 +2993,7 @@
 <token>System.ComponentModel.ISupportInitialize,BeginInit</token>
 <token>System.ComponentModel.ComponentResourceManager,ApplyResources</token>
 </entry>
-<entry count="210">
+<entry count="288">
 <token>System.ComponentModel.TypeDescriptor,GetConverter</token>
 <token>System.ComponentModel.TypeConverter,ConvertToInvariantString</token>
 </entry>
@@ -3174,6 +3001,12 @@
 <token>System.ComponentModel.Container,new</token>
 <token>System.ComponentModel.ComponentResourceManager,new</token>
 <token>System.ComponentModel.ComponentResourceManager,ApplyResources</token>
+</entry>
+<entry count="512">
+<token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
+<token>System.ComponentModel.TypeDescriptor,GetConverter</token>
+<token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
+<token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
 </entry>
 <entry count="44">
 <token>System.ComponentModel.PropertyChangedEventArgs,new</token>
@@ -3227,22 +3060,28 @@
 <token>System.ComponentModel.PropertyDescriptor,GetValue</token>
 <token>System.ComponentModel.PropertyDescriptor,GetValue</token>
 </entry>
-<entry count="129600">
+<entry count="829440">
 <token>System.ComponentModel.EnumConverter,new</token>
 <token>System.ComponentModel.TypeConverter,IsValid</token>
 <token>System.ComponentModel.TypeConverter,ConvertFromString</token>
 </entry>
-<entry count="71">
+<entry count="281">
 <token>System.ComponentModel.BackgroundWorker,ReportProgress</token>
 <token>System.ComponentModel.BackgroundWorker,ReportProgress</token>
 <token>System.ComponentModel.BackgroundWorker,ReportProgress</token>
 <token>System.ComponentModel.BackgroundWorker,RunWorkerAsync</token>
 </entry>
+<entry count="60">
+<token>System.ComponentModel.PropertyDescriptorCollection,Find</token>
+<token>System.ComponentModel.PropertyDescriptorCollection,IndexOf</token>
+<token>System.ComponentModel.PropertyDescriptor,SetValue</token>
+<token>System.ComponentModel.PropertyDescriptorCollection,Find</token>
+</entry>
 <entry count="44">
 <token>System.ComponentModel.PropertyDescriptor,CanResetValue</token>
 <token>System.ComponentModel.PropertyDescriptor,ShouldSerializeValue</token>
 </entry>
-<entry count="12">
+<entry count="24">
 <token>System.ComponentModel.TypeDescriptor,GetConverter</token>
 <token>System.ComponentModel.TypeConverter,ConvertToInvariantString</token>
 <token>System.ComponentModel.TypeDescriptor,GetConverter</token>
@@ -3251,9 +3090,10 @@
 <token>System.ComponentModel.DependencyPropertyDescriptor,AddValueChanged</token>
 <token>System.ComponentModel.DependencyPropertyDescriptor,AddValueChanged</token>
 </entry>
-<entry count="1">
-<token>SuperPutty]],new</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
+<entry count="6">
+<token>System.ComponentModel.PropertyDescriptor,GetValue</token>
+<token>System.ComponentModel.TypeDescriptor,GetProperties</token>
+<token>System.ComponentModel.PropertyDescriptorCollection,Find</token>
 </entry>
 <entry count="17">
 <token>System.ComponentModel.CancelEventHandler,new</token>
@@ -3285,12 +3125,6 @@
 <token>System.ComponentModel.DoWorkEventHandler,new</token>
 <token>System.ComponentModel.RunWorkerCompletedEventHandler,new</token>
 </entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>SuperPutty.Data.LayoutData,</token>
-<token>SuperPutty]],new</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
-</entry>
 <entry count="2">
 <token>System.ComponentModel.ICustomTypeDescriptor,GetProperties</token>
 <token>System.ComponentModel.ICustomTypeDescriptor,GetProperties</token>
@@ -3302,23 +3136,10 @@
 <token>System.ComponentModel.ISupportInitialize,EndInit</token>
 <token>System.ComponentModel.ISupportInitialize,EndInit</token>
 </entry>
-<entry count="227">
+<entry count="739">
 <token>System.ComponentModel.TypeDescriptor,GetConverter</token>
 <token>System.ComponentModel.TypeConverter,CanConvertTo</token>
 <token>System.ComponentModel.TypeDescriptor,GetConverter</token>
-</entry>
-<entry count="2">
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-<token>CataclysmModder.RecipeControl+ComponentGroup,</token>
-<token>CataclysmModder]],new</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
-</entry>
-<entry count="16">
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-<token>FindLargeFiles.GitObject,</token>
-<token>FindLargeFiles]],ResetItem</token>
 </entry>
 <entry count="1">
 <token>System.ComponentModel.ICustomTypeDescriptor,GetProperties</token>
@@ -3331,13 +3152,6 @@
 <token>System.ComponentModel.TypeConverter,ConvertTo</token>
 <token>System.ComponentModel.TypeDescriptor,GetConverter</token>
 <token>System.ComponentModel.TypeConverter,CanConvertTo</token>
-</entry>
-<entry count="4">
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-<token>SetupTv.Sections.ScanSettings+DisplaySoftwareEncoder,</token>
-<token>SetupTv]],new</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
 </entry>
 <entry count="1">
 <token>System.ComponentModel.ICustomTypeDescriptor,GetEvents</token>
@@ -3364,40 +3178,11 @@
 <token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
 <token>System.ComponentModel.TypeConverter,ConvertFromInvariantString</token>
 </entry>
-<entry count="2">
-<token>-&gt;</token>
-<token>p:string]],new</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-</entry>
-<entry count="5">
-<token>CataclysmModder]],new</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-</entry>
-<entry count="2">
-<token>-&gt;</token>
-<token>SandcastleBuilder.Utils.MSHelpKeyword,</token>
-</entry>
-<entry count="120">
+<entry count="153600">
 <token>System.ComponentModel.PropertyDescriptorCollection,new</token>
 <token>System.ComponentModel.PropertyDescriptorCollection,new</token>
 <token>System.ComponentModel.PropertyDescriptorCollection,new</token>
 <token>System.ComponentModel.PropertyDescriptorCollection,new</token>
-</entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>p:string]],new</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-<token>SampleApp.Sequence,</token>
-</entry>
-<entry count="512">
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-<token>SandcastleBuilder.Utils.ConceptualContent.ResourceItem,</token>
-<token>SandcastleBuilderUtils]],new</token>
-<token>System.ComponentModel.ListChangedEventArgs,new</token>
 </entry>
 <entry count="64">
 <token>System.ComponentModel.EnumConverter,new</token>
@@ -3411,7 +3196,7 @@
 <token>System.ComponentModel.ICustomTypeDescriptor,GetComponentName</token>
 <token>System.ComponentModel.ICustomTypeDescriptor,GetDefaultProperty</token>
 </entry>
-<entry count="89">
+<entry count="476561">
 <token>System.ComponentModel.TypeConverter,ConvertFrom</token>
 <token>System.ComponentModel.TypeConverter,ConvertFrom</token>
 </entry>
@@ -3425,7 +3210,7 @@
 <token>System.ComponentModel.ISupportInitialize,BeginInit</token>
 <token>System.ComponentModel.DoWorkEventHandler,new</token>
 </entry>
-<entry count="12">
+<entry count="24">
 <token>System.ComponentModel.TypeConverter,ConvertFromInvariantString</token>
 <token>System.ComponentModel.TypeDescriptor,GetConverter</token>
 </entry>
@@ -3438,13 +3223,6 @@
 <token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
 <token>System.ComponentModel.TypeConverter,IsValid</token>
 </entry>
-<entry count="8">
-<token>FindLargeFiles]],ResetItem</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-<token>FindLargeFiles.GitObject,</token>
-<token>FindLargeFiles]],ResetItem</token>
-</entry>
 <entry count="6">
 <token>System.ComponentModel.TypeDescriptor,GetConverter</token>
 <token>System.ComponentModel.TypeConverter,ConvertToInvariantString</token>
@@ -3455,19 +3233,31 @@
 <token>System.ComponentModel.RunWorkerCompletedEventHandler,new</token>
 <token>System.ComponentModel.DoWorkEventHandler,new</token>
 </entry>
+<entry count="1">
+<token>System.ComponentModel.RunWorkerCompletedEventHandler,new</token>
+<token>System.ComponentModel.BackgroundWorker,RunWorkerAsync</token>
+<token>System.ComponentModel.BackgroundWorker,new</token>
+</entry>
 <entry count="2">
 <token>System.ComponentModel.TypeConverter,GetPropertiesSupported</token>
 <token>System.ComponentModel.PropertyDescriptor,GetValue</token>
 </entry>
-<entry count="18">
+<entry count="2568">
 <token>System.ComponentModel.TypeConverter,ConvertFrom</token>
+<token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
+</entry>
+<entry count="512">
+<token>System.ComponentModel.TypeConverter,ConvertFrom</token>
+<token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
+<token>System.ComponentModel.TypeConverter,ConvertFrom</token>
+<token>System.ComponentModel.TypeDescriptor,GetConverter</token>
 <token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
 </entry>
 <entry count="8">
 <token>System.ComponentModel.TypeDescriptor,GetProvider</token>
 <token>System.ComponentModel.TypeDescriptionProvider,new</token>
 </entry>
-<entry count="5">
+<entry count="35">
 <token>System.ComponentModel.DependencyPropertyDescriptor,FromProperty</token>
 <token>System.ComponentModel.DependencyPropertyDescriptor,RemoveValueChanged</token>
 <token>System.ComponentModel.DependencyPropertyDescriptor,RemoveValueChanged</token>
@@ -3480,6 +3270,12 @@
 <token>System.ComponentModel.ComponentResourceManager,ApplyResources</token>
 <token>System.ComponentModel.ISupportInitialize,EndInit</token>
 </entry>
+<entry count="512">
+<token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
+<token>System.ComponentModel.TypeDescriptor,GetConverter</token>
+<token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
+<token>System.ComponentModel.TypeConverter,ConvertFrom</token>
+</entry>
 <entry count="3">
 <token>System.ComponentModel.CategoryAttribute,new</token>
 <token>System.ComponentModel.DescriptionAttribute,new</token>
@@ -3488,6 +3284,12 @@
 <entry count="10">
 <token>System.ComponentModel.TypeDescriptor,GetProperties</token>
 <token>System.ComponentModel.PropertyDescriptorCollection,new</token>
+</entry>
+<entry count="512">
+<token>System.ComponentModel.TypeConverter,ConvertFrom</token>
+<token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
+<token>System.ComponentModel.TypeDescriptor,GetConverter</token>
+<token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
 </entry>
 <entry count="59">
 <token>System.ComponentModel.ISupportInitialize,BeginInit</token>
@@ -3500,14 +3302,6 @@
 <token>System.ComponentModel.DependencyPropertyDescriptor,AddValueChanged</token>
 <token>System.ComponentModel.DependencyPropertyDescriptor,AddValueChanged</token>
 <token>System.ComponentModel.DependencyPropertyDescriptor,AddValueChanged</token>
-</entry>
-<entry count="64">
-<token>Rock.Client.FinancialTransaction,</token>
-<token>Rock.Client]],new</token>
-</entry>
-<entry count="1">
-<token>Gestures.HMMs.Sequence,</token>
-<token>Gestures__HMM_]],new</token>
 </entry>
 <entry count="2">
 <token>System.ComponentModel.Container,new</token>
@@ -3522,35 +3316,23 @@
 <token>System.ComponentModel.ISupportInitialize,BeginInit</token>
 <token>System.ComponentModel.ISupportInitialize,EndInit</token>
 </entry>
-<entry count="4">
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-<token>SandcastleBuilder.Utils.ConceptualContent.Topic,</token>
+<entry count="512">
+<token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
+<token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
+<token>System.ComponentModel.TypeConverter,ConvertFrom</token>
+<token>System.ComponentModel.TypeDescriptor,GetConverter</token>
+<token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
 </entry>
-<entry count="12">
+<entry count="15">
 <token>System.ComponentModel.BackgroundWorker,new</token>
 <token>System.ComponentModel.DoWorkEventHandler,new</token>
 <token>System.ComponentModel.ProgressChangedEventHandler,new</token>
 <token>System.ComponentModel.RunWorkerCompletedEventHandler,new</token>
 </entry>
-<entry count="11">
-<token>-&gt;</token>
-<token>Sandcastle.Core.Reflection.AssemblyLocation,</token>
-<token>Sandcastle.Core]],new</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-</entry>
-<entry count="8">
-<token>FindLargeFiles]],ResetItem</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-<token>FindLargeFiles.GitObject,</token>
-</entry>
-<entry count="2">
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-<token>CataclysmModder.RecipeControl+ComponentGroup,</token>
-<token>CataclysmModder]],new</token>
+<entry count="19937">
+<token>System.ComponentModel.BackgroundWorker,new</token>
+<token>System.ComponentModel.BindingList,new</token>
+<token>System.ComponentModel.BackgroundWorker,RunWorkerAsync</token>
 </entry>
 <entry count="25">
 <token>System.ComponentModel.ISupportInitialize,BeginInit</token>
@@ -3586,12 +3368,7 @@
 <token>System.ComponentModel.ProgressChangedEventHandler,new</token>
 <token>System.ComponentModel.ISupportInitialize,EndInit</token>
 </entry>
-<entry count="2">
-<token>-&gt;</token>
-<token>VVVV.Nodes.ProcessControl,</token>
-<token>Remoter]],new</token>
-</entry>
-<entry count="76652">
+<entry count="462126">
 <token>System.ComponentModel.ProgressChangedEventArgs,new</token>
 <token>System.ComponentModel.ProgressChangedEventArgs,new</token>
 <token>System.ComponentModel.ProgressChangedEventArgs,new</token>
@@ -3604,21 +3381,16 @@
 <token>System.ComponentModel.ISupportInitialize,BeginInit</token>
 <token>System.ComponentModel.CancelEventHandler,new</token>
 </entry>
-<entry count="2">
-<token>CataclysmModder.RecipeControl+ComponentGroup,</token>
-<token>CataclysmModder]],new</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
-</entry>
 <entry count="1">
 <token>System.ComponentModel.ICustomTypeDescriptor,GetPropertyOwner</token>
 <token>System.ComponentModel.ICustomTypeDescriptor,GetProperties</token>
 </entry>
-<entry count="3">
-<token>CataclysmModder.GroupedData,</token>
-<token>CataclysmModder]],new</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-<token>CataclysmModder.GroupedData,</token>
+<entry count="122880">
+<token>System.ComponentModel.TypeConverter,ConvertFrom</token>
+<token>System.ComponentModel.TypeConverter,ConvertFrom</token>
+<token>System.ComponentModel.TypeConverter,ConvertFrom</token>
+<token>System.ComponentModel.EnumConverter,new</token>
+<token>System.ComponentModel.TypeConverter,ConvertFrom</token>
 </entry>
 <entry count="15">
 <token>System.ComponentModel.ISupportInitialize,BeginInit</token>
@@ -3633,13 +3405,7 @@
 <token>System.ComponentModel.RunWorkerCompletedEventHandler,new</token>
 <token>System.ComponentModel.BackgroundWorker,RunWorkerAsync</token>
 </entry>
-<entry count="4">
-<token>System.ComponentModel.ListChangedEventArgs,new</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-<token>?]],OnListChanged</token>
-</entry>
-<entry count="8">
+<entry count="168">
 <token>System.ComponentModel.DependencyPropertyDescriptor,GetValue</token>
 <token>System.ComponentModel.DependencyPropertyDescriptor,GetValue</token>
 </entry>
@@ -3656,7 +3422,7 @@
 <token>System.ComponentModel.DoWorkEventHandler,new</token>
 <token>System.ComponentModel.DoWorkEventHandler,new</token>
 </entry>
-<entry count="177">
+<entry count="1">
 <token>System.ComponentModel.TypeDescriptor,GetConverter</token>
 <token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
 <token>System.ComponentModel.TypeDescriptor,GetConverter</token>
@@ -3682,23 +3448,13 @@
 <token>System.ComponentModel.DoWorkEventHandler,new</token>
 <token>System.ComponentModel.RunWorkerCompletedEventHandler,new</token>
 </entry>
-<entry count="6">
-<token>System.ComponentModel.ListChangedEventArgs,new</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-<token>T]],OnListChanged</token>
-</entry>
-<entry count="5">
-<token>-&gt;</token>
-<token>T]],SetItem</token>
-</entry>
-<entry count="90">
-<token>System.ComponentModel.TypeDescriptor,GetProperties</token>
-<token>System.ComponentModel.TypeDescriptor,GetProperties</token>
-</entry>
-<entry count="354">
+<entry count="1090">
 <token>System.ComponentModel.TypeConverter,ConvertFrom</token>
 <token>System.ComponentModel.TypeDescriptor,GetConverter</token>
+</entry>
+<entry count="628">
+<token>System.ComponentModel.TypeDescriptor,GetProperties</token>
+<token>System.ComponentModel.TypeDescriptor,GetProperties</token>
 </entry>
 <entry count="1">
 <token>System.ComponentModel.BackgroundWorker,new</token>
@@ -3721,11 +3477,11 @@
 <token>System.ComponentModel.RunWorkerCompletedEventHandler,new</token>
 <token>System.ComponentModel.ProgressChangedEventHandler,new</token>
 </entry>
-<entry count="1">
-<token>System.ComponentModel.PropertyDescriptor,GetValue</token>
-<token>System.ComponentModel.PropertyDescriptor,GetValue</token>
-<token>System.ComponentModel.ListChangedEventArgs,new</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
+<entry count="133120">
+<token>System.ComponentModel.EnumConverter,new</token>
+<token>System.ComponentModel.TypeConverter,ConvertFrom</token>
+<token>System.ComponentModel.TypeConverter,ConvertFrom</token>
+<token>System.ComponentModel.TypeConverter,ConvertFrom</token>
 </entry>
 <entry count="1">
 <token>System.ComponentModel.BackgroundWorker,new</token>
@@ -3733,7 +3489,7 @@
 <token>System.ComponentModel.ISupportInitialize,BeginInit</token>
 <token>System.ComponentModel.ISupportInitialize,BeginInit</token>
 </entry>
-<entry count="152">
+<entry count="155">
 <token>System.ComponentModel.PropertyChangedEventArgs,new</token>
 <token>System.ComponentModel.PropertyChangedEventHandler,Invoke</token>
 </entry>
@@ -3743,16 +3499,11 @@
 <token>System.ComponentModel.CancelEventHandler,new</token>
 <token>System.ComponentModel.ISupportInitialize,EndInit</token>
 </entry>
-<entry count="95">
+<entry count="97">
 <token>System.ComponentModel.TypeConverter,ConvertTo</token>
 <token>System.ComponentModel.TypeConverter,ConvertTo</token>
 </entry>
-<entry count="1">
-<token>SuperPutty.Data.LayoutData,</token>
-<token>SuperPutty]],new</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
-</entry>
-<entry count="66">
+<entry count="602">
 <token>System.ComponentModel.TypeDescriptor,GetProperties</token>
 <token>System.ComponentModel.PropertyDescriptor,GetValue</token>
 <token>System.ComponentModel.PropertyDescriptor,GetValue</token>
@@ -3761,17 +3512,9 @@
 <token>System.ComponentModel.PropertyDescriptorCollection,Remove</token>
 <token>System.ComponentModel.PropertyDescriptorCollection,Add</token>
 </entry>
-<entry count="11">
-<token>-&gt;</token>
-<token>Sandcastle.Core.Reflection.ReflectionDataSet+BindingRedirection,</token>
-</entry>
 <entry count="50">
 <token>System.ComponentModel.CancelEventHandler,new</token>
 <token>System.ComponentModel.ComponentResourceManager,ApplyResources</token>
-</entry>
-<entry count="512">
-<token>SandcastleBuilderUtils]],new</token>
-<token>System.ComponentModel.ListChangedEventArgs,new</token>
 </entry>
 <entry count="203">
 <token>System.ComponentModel.ISupportInitialize,BeginInit</token>
@@ -3784,24 +3527,22 @@
 <token>System.ComponentModel.CancelEventHandler,new</token>
 <token>System.ComponentModel.CancelEventHandler,new</token>
 </entry>
-<entry count="1">
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-<token>SuperPutty.Data.LayoutData,</token>
-<token>SuperPutty]],new</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
+<entry count="784">
+<token>System.ComponentModel.ToolboxItemFilterAttribute,new</token>
+<token>System.ComponentModel.ToolboxItemFilterAttribute,new</token>
+<token>System.ComponentModel.ToolboxItemFilterAttribute,new</token>
 </entry>
-<entry count="2">
+<entry count="6752">
 <token>System.ComponentModel.BackgroundWorker,RunWorkerAsync</token>
 <token>System.ComponentModel.BackgroundWorker,RunWorkerAsync</token>
 </entry>
-<entry count="2">
+<entry count="32">
 <token>System.ComponentModel.DependencyPropertyDescriptor,FromProperty</token>
 <token>System.ComponentModel.DependencyPropertyDescriptor,RemoveValueChanged</token>
 <token>System.ComponentModel.DependencyPropertyDescriptor,RemoveValueChanged</token>
 <token>System.ComponentModel.DependencyPropertyDescriptor,RemoveValueChanged</token>
 </entry>
-<entry count="227">
+<entry count="739">
 <token>System.ComponentModel.TypeConverter,CanConvertTo</token>
 <token>System.ComponentModel.TypeDescriptor,GetConverter</token>
 </entry>
@@ -3812,11 +3553,11 @@
 <token>System.ComponentModel.ISupportInitialize,BeginInit</token>
 <token>System.ComponentModel.ComponentResourceManager,ApplyResources</token>
 </entry>
-<entry count="421">
+<entry count="890">
 <token>System.ComponentModel.BackgroundWorker,ReportProgress</token>
 <token>System.ComponentModel.BackgroundWorker,ReportProgress</token>
 </entry>
-<entry count="256">
+<entry count="16648">
 <token>System.ComponentModel.CancelEventHandler,new</token>
 <token>System.ComponentModel.CancelEventHandler,new</token>
 </entry>
@@ -3839,6 +3580,13 @@
 <token>System.ComponentModel.ComponentResourceManager,ApplyResources</token>
 <token>System.ComponentModel.CancelEventHandler,new</token>
 </entry>
+<entry count="256">
+<token>System.ComponentModel.TypeConverter,ConvertFrom</token>
+<token>System.ComponentModel.TypeDescriptor,GetConverter</token>
+<token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
+<token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
+<token>System.ComponentModel.TypeConverter,ConvertFrom</token>
+</entry>
 <entry count="1">
 <token>System.ComponentModel.Container,new</token>
 <token>System.ComponentModel.BackgroundWorker,new</token>
@@ -3856,13 +3604,6 @@
 <token>System.ComponentModel.ComponentResourceManager,ApplyResources</token>
 <token>System.ComponentModel.ComponentResourceManager,ApplyResources</token>
 <token>System.ComponentModel.ISupportInitialize,EndInit</token>
-</entry>
-<entry count="22">
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-<token>Sandcastle.Core.Reflection.ReflectionDataSet+StringWrapper,</token>
-<token>Sandcastle.Core]],new</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
 </entry>
 <entry count="491">
 <token>System.ComponentModel.Container,new</token>
@@ -3888,16 +3629,15 @@
 <token>System.ComponentModel.DependencyPropertyDescriptor,AddValueChanged</token>
 <token>System.ComponentModel.DependencyPropertyDescriptor,AddValueChanged</token>
 </entry>
-<entry count="374">
+<entry count="2627">
 <token>System.ComponentModel.TypeConverter,CanConvertTo</token>
 <token>System.ComponentModel.TypeConverter,ConvertTo</token>
 <token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
 <token>System.ComponentModel.TypeConverter,ConvertFrom</token>
 </entry>
-<entry count="33">
-<token>Sandcastle.Core]],new</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
+<entry count="2">
+<token>System.ComponentModel.RunWorkerCompletedEventHandler,Invoke</token>
+<token>System.ComponentModel.RunWorkerCompletedEventHandler,Invoke</token>
 </entry>
 <entry count="2">
 <token>System.ComponentModel.BackgroundWorker,new</token>
@@ -3906,7 +3646,7 @@
 <token>System.ComponentModel.DoWorkEventHandler,new</token>
 <token>System.ComponentModel.DoWorkEventHandler,new</token>
 </entry>
-<entry count="354">
+<entry count="2">
 <token>System.ComponentModel.TypeDescriptor,GetConverter</token>
 <token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
 <token>System.ComponentModel.TypeConverter,ConvertFrom</token>
@@ -3916,10 +3656,18 @@
 <token>System.ComponentModel.RunWorkerCompletedEventHandler,new</token>
 <token>System.ComponentModel.ISupportInitialize,EndInit</token>
 </entry>
-<entry count="11">
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-<token>Sandcastle.Core.Reflection.ReflectionDataSet+BindingRedirection,</token>
+<entry count="24">
+<token>System.ComponentModel.PropertyDescriptorCollection,IndexOf</token>
+<token>System.ComponentModel.PropertyDescriptor,SetValue</token>
+<token>System.ComponentModel.PropertyDescriptorCollection,Find</token>
+<token>System.ComponentModel.PropertyDescriptorCollection,IndexOf</token>
+</entry>
+<entry count="4096">
+<token>System.ComponentModel.EnumConverter,new</token>
+<token>System.ComponentModel.TypeConverter,ConvertFrom</token>
+<token>System.ComponentModel.EnumConverter,new</token>
+<token>System.ComponentModel.TypeConverter,ConvertFrom</token>
+<token>System.ComponentModel.TypeConverter,ConvertFrom</token>
 </entry>
 <entry count="175">
 <token>System.ComponentModel.ComponentResourceManager,ApplyResources</token>
@@ -3934,6 +3682,13 @@
 <token>System.ComponentModel.ISupportInitialize,BeginInit</token>
 <token>System.ComponentModel.ISupportInitialize,BeginInit</token>
 <token>System.ComponentModel.ISupportInitialize,BeginInit</token>
+</entry>
+<entry count="32">
+<token>System.ComponentModel.TypeDescriptor,GetConverter</token>
+<token>System.ComponentModel.TypeDescriptor,GetConverter</token>
+<token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
+<token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
+<token>System.ComponentModel.TypeConverter,ConvertFrom</token>
 </entry>
 <entry count="12">
 <token>System.ComponentModel.ISupportInitialize,BeginInit</token>
@@ -3952,15 +3707,11 @@
 <token>System.ComponentModel.PropertyDescriptor,CanResetValue</token>
 <token>System.ComponentModel.PropertyDescriptor,ShouldSerializeValue</token>
 </entry>
-<entry count="11">
-<token>-&gt;</token>
-<token>Sandcastle.Core.Reflection.AssemblyLocation,</token>
-</entry>
 <entry count="3">
 <token>System.ComponentModel.TypeDescriptionProvider,GetTypeDescriptor</token>
 <token>System.ComponentModel.ICustomTypeDescriptor,GetProperties</token>
 </entry>
-<entry count="12">
+<entry count="168">
 <token>System.ComponentModel.PropertyDescriptorCollection,Find</token>
 <token>System.ComponentModel.PropertyDescriptorCollection,IndexOf</token>
 </entry>
@@ -3968,11 +3719,6 @@
 <token>System.ComponentModel.ISupportInitialize,BeginInit</token>
 <token>System.ComponentModel.ISupportInitialize,BeginInit</token>
 <token>System.ComponentModel.CancelEventHandler,new</token>
-</entry>
-<entry count="4">
-<token>SetupTv]],new</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
 </entry>
 <entry count="2">
 <token>System.ComponentModel.ICollectionView,MoveCurrentToFirst</token>
@@ -3987,11 +3733,16 @@
 <token>System.ComponentModel.Component,Dispose</token>
 <token>System.ComponentModel.BackgroundWorker,new</token>
 </entry>
-<entry count="2">
+<entry count="32">
 <token>System.ComponentModel.DependencyPropertyDescriptor,AddValueChanged</token>
 <token>System.ComponentModel.DependencyPropertyDescriptor,RemoveValueChanged</token>
 <token>System.ComponentModel.DependencyPropertyDescriptor,FromProperty</token>
 <token>System.ComponentModel.DependencyPropertyDescriptor,FromProperty</token>
+</entry>
+<entry count="90">
+<token>System.ComponentModel.PropertyDescriptor,SetValue</token>
+<token>System.ComponentModel.PropertyDescriptorCollection,Find</token>
+<token>System.ComponentModel.PropertyDescriptor,SetValue</token>
 </entry>
 <entry count="26">
 <token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
@@ -4009,13 +3760,6 @@
 <token>System.ComponentModel.PropertyDescriptor,SetValue</token>
 <token>System.ComponentModel.PropertyDescriptor,ResetValue</token>
 </entry>
-<entry count="1">
-<token>CataclysmModder.RecipeControl+ComponentGroup,</token>
-<token>CataclysmModder]],new</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-<token>CataclysmModder.GroupedData,</token>
-</entry>
 <entry count="20">
 <token>System.ComponentModel.PropertyChangedEventArgs,new</token>
 <token>System.ComponentModel.PropertyChangedEventArgs,new</token>
@@ -4026,7 +3770,7 @@
 <token>System.ComponentModel.TypeConverter,ConvertTo</token>
 <token>System.ComponentModel.TypeDescriptor,GetConverter</token>
 </entry>
-<entry count="26">
+<entry count="66">
 <token>System.ComponentModel.TypeDescriptor,GetConverter</token>
 <token>System.ComponentModel.TypeConverter,CanConvertTo</token>
 <token>System.ComponentModel.TypeDescriptor,GetConverter</token>
@@ -4039,11 +3783,18 @@
 <token>System.ComponentModel.CancelEventHandler,new</token>
 <token>System.ComponentModel.ComponentResourceManager,ApplyResources</token>
 </entry>
+<entry count="1">
+<token>System.ComponentModel.RunWorkerCompletedEventHandler,new</token>
+<token>System.ComponentModel.BackgroundWorker,RunWorkerAsync</token>
+<token>System.ComponentModel.BackgroundWorker,new</token>
+<token>System.ComponentModel.DoWorkEventHandler,new</token>
+<token>System.ComponentModel.ProgressChangedEventHandler,new</token>
+</entry>
 <entry count="84">
 <token>System.ComponentModel.TypeConverter,CanConvertTo</token>
 <token>System.ComponentModel.TypeConverter,GetStandardValuesSupported</token>
 </entry>
-<entry count="33600">
+<entry count="131220">
 <token>System.ComponentModel.TypeConverter,IsValid</token>
 <token>System.ComponentModel.TypeConverter,ConvertFromString</token>
 <token>System.ComponentModel.EnumConverter,new</token>
@@ -4071,16 +3822,22 @@
 <token>System.ComponentModel.ISupportInitialize,BeginInit</token>
 </entry>
 <entry count="7">
+<token>System.ComponentModel.PropertyDescriptorCollection,Find</token>
+<token>System.ComponentModel.PropertyDescriptor,GetValue</token>
+<token>System.ComponentModel.TypeDescriptor,GetProperties</token>
+</entry>
+<entry count="7">
 <token>System.ComponentModel.ComponentResourceManager,new</token>
 <token>System.ComponentModel.ISupportInitialize,BeginInit</token>
 <token>System.ComponentModel.CancelEventHandler,new</token>
 <token>System.ComponentModel.CancelEventHandler,new</token>
 </entry>
-<entry count="2">
-<token>Remoter]],new</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-<token>p:string]],new</token>
+<entry count="1">
+<token>System.ComponentModel.BackgroundWorker,RunWorkerAsync</token>
+<token>System.ComponentModel.BackgroundWorker,new</token>
+<token>System.ComponentModel.DoWorkEventHandler,new</token>
+<token>System.ComponentModel.ProgressChangedEventHandler,new</token>
+<token>System.ComponentModel.RunWorkerCompletedEventHandler,new</token>
 </entry>
 <entry count="64">
 <token>System.ComponentModel.ListChangedEventArgs,new</token>
@@ -4097,43 +3854,23 @@
 <token>System.ComponentModel.TypeConverter,ConvertTo</token>
 </entry>
 <entry count="6">
-<token>CataclysmModder]],new</token>
-<token>System.ComponentModel.ListChangedEventArgs,new</token>
-</entry>
-<entry count="6">
 <token>System.ComponentModel.TypeConverter,ConvertToInvariantString</token>
 <token>System.ComponentModel.TypeConverter,ConvertFromInvariantString</token>
 </entry>
-<entry count="185">
+<entry count="697">
 <token>System.ComponentModel.TypeConverter,ConvertTo</token>
 <token>System.ComponentModel.TypeDescriptor,GetConverter</token>
 <token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
-</entry>
-<entry count="1">
-<token>System.ComponentModel.PropertyDescriptor,GetValue</token>
-<token>System.ComponentModel.PropertyDescriptor,GetValue</token>
-<token>System.ComponentModel.ListChangedEventArgs,new</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
 </entry>
 <entry count="1788">
 <token>System.ComponentModel.ISupportInitialize,EndInit</token>
 <token>System.ComponentModel.ISupportInitialize,EndInit</token>
 </entry>
-<entry count="192">
+<entry count="359008">
 <token>System.ComponentModel.EnumConverter,new</token>
 <token>System.ComponentModel.TypeConverter,ConvertFrom</token>
 </entry>
-<entry count="5">
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-<token>CataclysmModder.GroupedData,</token>
-</entry>
-<entry count="2">
-<token>CataclysmModder.RecipeControl+ComponentGroup,</token>
-<token>CataclysmModder]],new</token>
-</entry>
-<entry count="201">
+<entry count="713">
 <token>System.ComponentModel.TypeConverter,CanConvertTo</token>
 <token>System.ComponentModel.TypeConverter,ConvertTo</token>
 <token>System.ComponentModel.TypeDescriptor,GetConverter</token>
@@ -4154,7 +3891,7 @@
 <token>System.ComponentModel.DependencyPropertyDescriptor,FromProperty</token>
 <token>System.ComponentModel.DependencyPropertyDescriptor,AddValueChanged</token>
 </entry>
-<entry count="24">
+<entry count="25">
 <token>System.ComponentModel.PropertyChangedEventArgs,new</token>
 <token>System.ComponentModel.PropertyChangedEventHandler,Invoke</token>
 <token>System.ComponentModel.PropertyChangedEventArgs,new</token>
@@ -4193,6 +3930,12 @@
 <token>System.ComponentModel.TypeConverter,CanConvertTo</token>
 <token>System.ComponentModel.TypeConverter,ConvertFrom</token>
 </entry>
+<entry count="512">
+<token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
+<token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
+<token>System.ComponentModel.TypeDescriptor,GetConverter</token>
+<token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
+</entry>
 <entry count="1">
 <token>System.ComponentModel.EditorAttribute,new</token>
 <token>System.ComponentModel.AttributeCollection,new</token>
@@ -4201,22 +3944,23 @@
 <token>System.ComponentModel.ICustomTypeDescriptor,GetProperties</token>
 <token>System.ComponentModel.PropertyDescriptor,GetValue</token>
 </entry>
+<entry count="4096">
+<token>System.ComponentModel.TypeConverter,ConvertFrom</token>
+<token>System.ComponentModel.TypeConverter,ConvertFromInvariantString</token>
+<token>System.ComponentModel.TypeConverter,ConvertFrom</token>
+<token>System.ComponentModel.TypeConverter,ConvertFrom</token>
+</entry>
 <entry count="1">
-<token>p:string]],new</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-<token>Gestures.HMMs.Sequence,</token>
+<token>System.ComponentModel.PropertyDescriptor,GetValue</token>
+<token>System.ComponentModel.TypeDescriptor,GetProperties</token>
+<token>System.ComponentModel.PropertyDescriptorCollection,Find</token>
+<token>System.ComponentModel.PropertyDescriptor,GetValue</token>
+<token>System.ComponentModel.PropertyDescriptor,SetValue</token>
 </entry>
 <entry count="2">
 <token>System.ComponentModel.CancelEventHandler,new</token>
 <token>System.ComponentModel.ComponentResourceManager,ApplyResources</token>
 <token>System.ComponentModel.CancelEventHandler,new</token>
-</entry>
-<entry count="64">
-<token>System.ComponentModel.BackgroundWorker,new</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-<token>Rock.Client.FinancialTransaction,</token>
 </entry>
 <entry count="2">
 <token>System.ComponentModel.ComponentResourceManager,ApplyResources</token>
@@ -4225,17 +3969,13 @@
 <token>System.ComponentModel.CancelEventHandler,new</token>
 <token>System.ComponentModel.ComponentResourceManager,ApplyResources</token>
 </entry>
-<entry count="6">
+<entry count="29640">
 <token>System.ComponentModel.BackgroundWorker,new</token>
 <token>System.ComponentModel.BackgroundWorker,new</token>
 <token>System.ComponentModel.BackgroundWorker,new</token>
 <token>System.ComponentModel.BackgroundWorker,RunWorkerAsync</token>
 </entry>
-<entry count="5">
-<token>T]],SetItem</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
-</entry>
-<entry count="227">
+<entry count="739">
 <token>System.ComponentModel.TypeConverter,CanConvertTo</token>
 <token>System.ComponentModel.TypeDescriptor,GetConverter</token>
 <token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
@@ -4253,21 +3993,34 @@
 <token>System.ComponentModel.BackgroundWorker,ReportProgress</token>
 <token>System.ComponentModel.BackgroundWorker,ReportProgress</token>
 </entry>
+<entry count="60">
+<token>System.ComponentModel.PropertyDescriptor,SetValue</token>
+<token>System.ComponentModel.PropertyDescriptorCollection,Find</token>
+<token>System.ComponentModel.PropertyDescriptorCollection,IndexOf</token>
+<token>System.ComponentModel.PropertyDescriptor,SetValue</token>
+</entry>
 <entry count="1">
 <token>System.ComponentModel.ICustomTypeDescriptor,GetDefaultProperty</token>
 <token>System.ComponentModel.ICustomTypeDescriptor,GetEditor</token>
 <token>System.ComponentModel.ICustomTypeDescriptor,GetEvents</token>
 <token>System.ComponentModel.ICustomTypeDescriptor,GetEvents</token>
 </entry>
-<entry count="185">
+<entry count="6656">
+<token>System.ComponentModel.EnumConverter,new</token>
+<token>System.ComponentModel.TypeConverter,ConvertFrom</token>
+<token>System.ComponentModel.EnumConverter,new</token>
+</entry>
+<entry count="110592">
+<token>System.ComponentModel.TypeConverter,ConvertFrom</token>
+<token>System.ComponentModel.EnumConverter,new</token>
+<token>System.ComponentModel.TypeConverter,ConvertFrom</token>
+<token>System.ComponentModel.TypeConverter,ConvertFrom</token>
+</entry>
+<entry count="697">
 <token>System.ComponentModel.TypeConverter,CanConvertTo</token>
 <token>System.ComponentModel.TypeConverter,ConvertTo</token>
 <token>System.ComponentModel.TypeDescriptor,GetConverter</token>
 <token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
-</entry>
-<entry count="5">
-<token>-&gt;</token>
-<token>CataclysmModder.GroupedData,</token>
 </entry>
 <entry count="1">
 <token>System.ComponentModel.BackgroundWorker,new</token>
@@ -4299,22 +4052,6 @@
 <token>System.ComponentModel.ComponentResourceManager,ApplyResources</token>
 <token>System.ComponentModel.ComponentResourceManager,ApplyResources</token>
 </entry>
-<entry count="8">
-<token>FindLargeFiles]],ResetItem</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-</entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>Gestures.HMMs.Sequence,</token>
-<token>Gestures__HMM_]],new</token>
-</entry>
-<entry count="8">
-<token>FindLargeFiles.GitObject,</token>
-<token>FindLargeFiles]],ResetItem</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-</entry>
 <entry count="11">
 <token>System.ComponentModel.SortDescription,new</token>
 <token>System.ComponentModel.SortDescription,new</token>
@@ -4324,30 +4061,21 @@
 <token>System.ComponentModel.Container,new</token>
 <token>System.ComponentModel.BackgroundWorker,new</token>
 </entry>
-<entry count="512">
-<token>SandcastleBuilder.Utils.ConceptualContent.ResourceItem,</token>
-<token>SandcastleBuilderUtils]],new</token>
-</entry>
 <entry count="20">
 <token>System.ComponentModel.AttributeCollection,Matches</token>
 <token>System.ComponentModel.AttributeCollection,Contains</token>
 <token>System.ComponentModel.PropertyDescriptorCollection,Sort</token>
 <token>System.ComponentModel.PropertyDescriptorCollection,new</token>
 </entry>
-<entry count="64">
+<entry count="12">
+<token>System.ComponentModel.TypeDescriptor,AddProvider</token>
+<token>System.ComponentModel.TypeDescriptor,GetProvider</token>
+<token>System.ComponentModel.TypeDescriptor,AddProvider</token>
+</entry>
+<entry count="283712">
 <token>System.ComponentModel.EnumConverter,new</token>
 <token>System.ComponentModel.TypeConverter,ConvertFrom</token>
 <token>System.ComponentModel.TypeConverter,ConvertFrom</token>
-</entry>
-<entry count="1">
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-<token>SampleApp.Sequence,</token>
-</entry>
-<entry count="2">
-<token>-&gt;</token>
-<token>p:string]],new</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
 </entry>
 <entry count="1">
 <token>System.ComponentModel.ICustomTypeDescriptor,GetConverter</token>
@@ -4366,6 +4094,12 @@
 <token>System.ComponentModel.ComponentResourceManager,ApplyResources</token>
 <token>System.ComponentModel.CancelEventHandler,new</token>
 </entry>
+<entry count="180">
+<token>System.ComponentModel.TypeConverter,ConvertFromString</token>
+<token>System.ComponentModel.TypeDescriptor,GetConverter</token>
+<token>System.ComponentModel.TypeConverter,ConvertFromString</token>
+<token>System.ComponentModel.TypeDescriptor,GetConverter</token>
+</entry>
 <entry count="1">
 <token>System.ComponentModel.DoWorkEventHandler,new</token>
 <token>System.ComponentModel.RunWorkerCompletedEventHandler,new</token>
@@ -4377,21 +4111,12 @@
 <token>System.ComponentModel.ISupportInitialize,BeginInit</token>
 <token>System.ComponentModel.ISupportInitialize,BeginInit</token>
 <token>System.ComponentModel.DoWorkEventHandler,new</token>
-</entry>
-<entry count="96">
-<token>System.ComponentModel.BackgroundWorker,new</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
-</entry>
-<entry count="11">
-<token>Sandcastle.Core.Reflection.AssemblyLocation,</token>
-<token>Sandcastle.Core]],new</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
 </entry>
 <entry count="21">
 <token>System.ComponentModel.ICustomTypeDescriptor,GetEvents</token>
 <token>System.ComponentModel.EventDescriptorCollection,new</token>
 </entry>
-<entry count="5">
+<entry count="35">
 <token>System.ComponentModel.DependencyPropertyDescriptor,FromProperty</token>
 <token>System.ComponentModel.DependencyPropertyDescriptor,FromProperty</token>
 <token>System.ComponentModel.DependencyPropertyDescriptor,RemoveValueChanged</token>
@@ -4408,6 +4133,11 @@
 <token>System.ComponentModel.ISupportInitialize,BeginInit</token>
 <token>System.ComponentModel.ISupportInitialize,EndInit</token>
 </entry>
+<entry count="1024">
+<token>System.ComponentModel.TypeConverter,ConvertFrom</token>
+<token>System.ComponentModel.TypeDescriptor,GetConverter</token>
+<token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
+</entry>
 <entry count="8">
 <token>System.ComponentModel.TypeConverter,GetStandardValuesSupported</token>
 <token>System.ComponentModel.TypeConverter,GetStandardValuesExclusive</token>
@@ -4417,7 +4147,7 @@
 <token>System.ComponentModel.ListChangedEventArgs,new</token>
 <token>System.ComponentModel.ListChangedEventArgs,new</token>
 </entry>
-<entry count="67200">
+<entry count="262440">
 <token>System.ComponentModel.TypeConverter,IsValid</token>
 <token>System.ComponentModel.TypeConverter,ConvertFromString</token>
 <token>System.ComponentModel.EnumConverter,new</token>
@@ -4435,11 +4165,11 @@
 <token>System.ComponentModel.PropertyDescriptor,Equals</token>
 <token>System.ComponentModel.ListSortDescriptionCollection,new</token>
 </entry>
-<entry count="4">
-<token>-&gt;</token>
-<token>SetupTv.Sections.ScanSettings+DisplaySoftwareEncoder,</token>
-<token>SetupTv]],new</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
+<entry count="2">
+<token>System.ComponentModel.PropertyDescriptor,SetValue</token>
+<token>System.ComponentModel.TypeDescriptor,GetProperties</token>
+<token>System.ComponentModel.PropertyDescriptorCollection,Find</token>
+<token>System.ComponentModel.PropertyDescriptor,GetValue</token>
 </entry>
 <entry count="830">
 <token>System.ComponentModel.ISupportInitialize,BeginInit</token>
@@ -4451,6 +4181,10 @@
 <entry count="4">
 <token>System.ComponentModel.PropertyChangedEventHandler,new</token>
 <token>System.ComponentModel.PropertyChangedEventHandler,new</token>
+</entry>
+<entry count="5">
+<token>System.ComponentModel.BindingList,SetItem</token>
+<token>System.ComponentModel.BindingList,ResetBindings</token>
 </entry>
 <entry count="52">
 <token>System.ComponentModel.MaskedTextProvider,FindEditPositionFrom</token>
@@ -4468,7 +4202,11 @@
 <token>System.ComponentModel.DoWorkEventHandler,new</token>
 <token>System.ComponentModel.RunWorkerCompletedEventHandler,new</token>
 </entry>
-<entry count="18">
+<entry count="9216">
+<token>System.ComponentModel.TypeConverter,ConvertFrom</token>
+<token>System.ComponentModel.TypeConverter,ConvertFromInvariantString</token>
+</entry>
+<entry count="2568">
 <token>System.ComponentModel.TypeDescriptor,GetConverter</token>
 <token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
 <token>System.ComponentModel.TypeConverter,ConvertFrom</token>
@@ -4495,27 +4233,10 @@
 <token>System.ComponentModel.ISupportInitialize,BeginInit</token>
 <token>System.ComponentModel.ISupportInitialize,EndInit</token>
 </entry>
-<entry count="32">
-<token>-&gt;</token>
-<token>?]],new</token>
-</entry>
-<entry count="6">
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-<token>SandcastleBuilder.Utils.ConceptualContent.TocEntry,</token>
-<token>SandcastleBuilderUtils]],OnListChanged</token>
-</entry>
-<entry count="24">
+<entry count="25">
 <token>System.ComponentModel.PropertyChangedEventArgs,new</token>
 <token>System.ComponentModel.PropertyChangedEventHandler,Invoke</token>
 <token>System.ComponentModel.PropertyChangedEventArgs,new</token>
-</entry>
-<entry count="2">
-<token>VVVV.Nodes.ProcessControl,</token>
-<token>Remoter]],new</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-<token>p:string]],new</token>
 </entry>
 <entry count="6">
 <token>System.ComponentModel.ComponentResourceManager,new</token>
@@ -4524,24 +4245,11 @@
 <token>System.ComponentModel.ComponentResourceManager,ApplyResources</token>
 <token>System.ComponentModel.CancelEventHandler,new</token>
 </entry>
-<entry count="4">
-<token>SetupTv.Sections.ScanSettings+DisplaySoftwareEncoder,</token>
-<token>SetupTv]],new</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-</entry>
 <entry count="6">
 <token>System.ComponentModel.TypeDescriptor,GetConverter</token>
 <token>System.ComponentModel.TypeConverter,ConvertToString</token>
 <token>System.ComponentModel.TypeConverter,ConvertToString</token>
 <token>System.ComponentModel.TypeConverter,ConvertToString</token>
-</entry>
-<entry count="11">
-<token>Sandcastle.Core.Reflection.ReflectionDataSet+StringWrapper,</token>
-<token>Sandcastle.Core]],new</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-<token>Sandcastle.Core.Reflection.ReflectionDataSet+StringWrapper,</token>
 </entry>
 <entry count="826">
 <token>System.ComponentModel.ISupportInitialize,EndInit</token>
@@ -4549,6 +4257,12 @@
 <token>System.ComponentModel.ISupportInitialize,EndInit</token>
 <token>System.ComponentModel.ISupportInitialize,EndInit</token>
 <token>System.ComponentModel.ISupportInitialize,EndInit</token>
+</entry>
+<entry count="544">
+<token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
+<token>System.ComponentModel.TypeConverter,ConvertFrom</token>
+<token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
+<token>System.ComponentModel.TypeDescriptor,GetConverter</token>
 </entry>
 <entry count="2">
 <token>System.ComponentModel.BackgroundWorker,new</token>
@@ -4565,7 +4279,14 @@
 <token>System.ComponentModel.TypeConverter,ConvertTo</token>
 <token>System.ComponentModel.TypeConverter,ConvertTo</token>
 </entry>
-<entry count="2069">
+<entry count="544">
+<token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
+<token>System.ComponentModel.TypeConverter,ConvertFrom</token>
+<token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
+<token>System.ComponentModel.TypeConverter,ConvertFrom</token>
+<token>System.ComponentModel.TypeDescriptor,GetConverter</token>
+</entry>
+<entry count="75861">
 <token>System.ComponentModel.TypeDescriptor,GetConverter</token>
 <token>System.ComponentModel.TypeConverter,CanConvertTo</token>
 </entry>
@@ -4593,29 +4314,20 @@
 <token>System.ComponentModel.TypeConverter,CanConvertTo</token>
 <token>System.ComponentModel.TypeConverter,ConvertTo</token>
 </entry>
-<entry count="16">
+<entry count="19">
 <token>System.ComponentModel.ProgressChangedEventHandler,new</token>
 <token>System.ComponentModel.RunWorkerCompletedEventHandler,new</token>
-</entry>
-<entry count="6">
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-<token>SandcastleBuilder.Utils.ConceptualContent.TocEntry,</token>
 </entry>
 <entry count="192">
 <token>System.ComponentModel.TypeConverter,CanConvertTo</token>
 <token>System.ComponentModel.TypeConverter,ConvertFrom</token>
 </entry>
-<entry count="12">
+<entry count="15">
 <token>System.ComponentModel.BackgroundWorker,new</token>
 <token>System.ComponentModel.DoWorkEventHandler,new</token>
 <token>System.ComponentModel.ProgressChangedEventHandler,new</token>
 </entry>
-<entry count="2">
-<token>-&gt;</token>
-<token>VVVV.Nodes.ProcessControl,</token>
-</entry>
-<entry count="21">
+<entry count="255">
 <token>System.ComponentModel.PropertyDescriptorCollection,Find</token>
 <token>System.ComponentModel.PropertyDescriptor,SetValue</token>
 </entry>
@@ -4625,11 +4337,6 @@
 <token>System.ComponentModel.ISupportInitialize,BeginInit</token>
 <token>System.ComponentModel.ISupportInitialize,EndInit</token>
 <token>System.ComponentModel.ISupportInitialize,EndInit</token>
-</entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>SuperPutty.Data.LayoutData,</token>
-<token>SuperPutty]],new</token>
 </entry>
 <entry count="1">
 <token>System.ComponentModel.ISupportInitialize,BeginInit</token>
@@ -4646,39 +4353,46 @@
 <token>System.ComponentModel.TypeDescriptor,GetEvents</token>
 <token>System.ComponentModel.TypeDescriptor,GetEvents</token>
 </entry>
-<entry count="2816">
+<entry count="20840">
 <token>System.ComponentModel.TypeConverter,ConvertTo</token>
 <token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
 </entry>
-<entry count="470">
+<entry count="57718">
 <token>System.ComponentModel.TypeDescriptor,GetConverter</token>
 <token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
 <token>System.ComponentModel.TypeDescriptor,GetConverter</token>
-</entry>
-<entry count="5">
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-<token>T]],SetItem</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
 </entry>
 <entry count="14">
 <token>System.ComponentModel.ICustomTypeDescriptor,GetAttributes</token>
 <token>System.ComponentModel.AttributeCollection,new</token>
 </entry>
+<entry count="36">
+<token>System.ComponentModel.PropertyDescriptorCollection,Find</token>
+<token>System.ComponentModel.PropertyDescriptorCollection,IndexOf</token>
+<token>System.ComponentModel.PropertyDescriptor,SetValue</token>
+<token>System.ComponentModel.PropertyDescriptorCollection,Find</token>
+<token>System.ComponentModel.PropertyDescriptor,SetValue</token>
+</entry>
 <entry count="44">
 <token>System.ComponentModel.DoWorkEventHandler,new</token>
 <token>System.ComponentModel.RunWorkerCompletedEventHandler,new</token>
+</entry>
+<entry count="7">
+<token>System.ComponentModel.TypeDescriptor,GetProperties</token>
+<token>System.ComponentModel.PropertyDescriptorCollection,Find</token>
+<token>System.ComponentModel.PropertyDescriptor,GetValue</token>
+<token>System.ComponentModel.TypeDescriptor,GetProperties</token>
 </entry>
 <entry count="1">
 <token>System.ComponentModel.ICustomTypeDescriptor,GetClassName</token>
 <token>System.ComponentModel.ICustomTypeDescriptor,GetConverter</token>
 </entry>
-<entry count="354">
+<entry count="1090">
 <token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
 <token>System.ComponentModel.TypeConverter,ConvertFrom</token>
 <token>System.ComponentModel.TypeDescriptor,GetConverter</token>
 </entry>
-<entry count="174">
+<entry count="70350">
 <token>System.ComponentModel.BackgroundWorker,new</token>
 <token>System.ComponentModel.BackgroundWorker,new</token>
 <token>System.ComponentModel.BackgroundWorker,new</token>
@@ -4694,12 +4408,6 @@
 <token>System.ComponentModel.TypeDescriptor,GetConverter</token>
 <token>System.ComponentModel.TypeConverter,CanConvertTo</token>
 </entry>
-<entry count="2">
-<token>CataclysmModder.RecipeControl+ComponentGroup,</token>
-<token>CataclysmModder]],new</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-</entry>
 <entry count="1218">
 <token>System.ComponentModel.TypeDescriptor,GetConverter</token>
 <token>System.ComponentModel.TypeConverter,IsValid</token>
@@ -4709,12 +4417,23 @@
 <token>System.ComponentModel.RunWorkerCompletedEventHandler,new</token>
 <token>System.ComponentModel.BackgroundWorker,RunWorkerAsync</token>
 </entry>
-<entry count="5">
+<entry count="53248">
+<token>System.ComponentModel.TypeConverter,ConvertFrom</token>
+<token>System.ComponentModel.TypeConverter,ConvertFrom</token>
+<token>System.ComponentModel.TypeConverter,ConvertFrom</token>
+<token>System.ComponentModel.TypeConverter,ConvertFrom</token>
+<token>System.ComponentModel.EnumConverter,new</token>
+</entry>
+<entry count="1039">
 <token>System.ComponentModel.Component,Dispose</token>
 <token>System.ComponentModel.Component,Dispose</token>
 <token>System.ComponentModel.Component,Dispose</token>
 <token>System.ComponentModel.Component,Dispose</token>
 <token>System.ComponentModel.Component,Dispose</token>
+</entry>
+<entry count="19937">
+<token>System.ComponentModel.BackgroundWorker,new</token>
+<token>System.ComponentModel.BindingList,new</token>
 </entry>
 <entry count="1">
 <token>System.ComponentModel.ISupportInitialize,BeginInit</token>
@@ -4733,22 +4452,16 @@
 <token>System.ComponentModel.TypeConverter,CanConvertTo</token>
 <token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
 </entry>
-<entry count="1">
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-<token>SuperPutty.Data.LayoutData,</token>
-</entry>
-<entry count="5">
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-<token>T]],ResetBindings</token>
-</entry>
-<entry count="2">
+<entry count="32">
 <token>System.ComponentModel.DependencyPropertyDescriptor,RemoveValueChanged</token>
 <token>System.ComponentModel.DependencyPropertyDescriptor,FromProperty</token>
 <token>System.ComponentModel.DependencyPropertyDescriptor,FromProperty</token>
 <token>System.ComponentModel.DependencyPropertyDescriptor,RemoveValueChanged</token>
 <token>System.ComponentModel.DependencyPropertyDescriptor,RemoveValueChanged</token>
+</entry>
+<entry count="8">
+<token>System.ComponentModel.TypeDescriptor,AddProvider</token>
+<token>System.ComponentModel.TypeDescriptor,AddProvider</token>
 </entry>
 <entry count="4">
 <token>System.ComponentModel.CustomTypeDescriptor,GetEvents</token>
@@ -4764,13 +4477,6 @@
 <token>System.ComponentModel.TypeConverter,CanConvertTo</token>
 <token>System.ComponentModel.TypeConverter,ConvertTo</token>
 <token>System.ComponentModel.TypeConverter,ConvertTo</token>
-</entry>
-<entry count="8">
-<token>-&gt;</token>
-<token>FindLargeFiles.GitObject,</token>
-<token>FindLargeFiles]],ResetItem</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
 </entry>
 <entry count="4">
 <token>System.ComponentModel.TypeConverter,GetStandardValues</token>
@@ -4788,7 +4494,7 @@
 <token>System.ComponentModel.RunWorkerCompletedEventHandler,new</token>
 <token>System.ComponentModel.DoWorkEventHandler,new</token>
 </entry>
-<entry count="16">
+<entry count="19">
 <token>System.ComponentModel.DoWorkEventHandler,new</token>
 <token>System.ComponentModel.ProgressChangedEventHandler,new</token>
 <token>System.ComponentModel.RunWorkerCompletedEventHandler,new</token>
@@ -4804,19 +4510,17 @@
 <token>System.ComponentModel.ComponentResourceManager,ApplyResources</token>
 <token>System.ComponentModel.CancelEventHandler,new</token>
 </entry>
-<entry count="1">
-<token>SampleApp.Sequence,</token>
-<token>Gestures__SVM-DTW_]],new</token>
-</entry>
-<entry count="71">
+<entry count="281">
 <token>System.ComponentModel.BackgroundWorker,ReportProgress</token>
 <token>System.ComponentModel.BackgroundWorker,RunWorkerAsync</token>
 </entry>
+<entry count="150">
+<token>System.ComponentModel.PropertyDescriptor,SetValue</token>
+<token>System.ComponentModel.PropertyDescriptorCollection,Find</token>
+</entry>
 <entry count="1">
-<token>p:string]],new</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-<token>SampleApp.Sequence,</token>
+<token>System.ComponentModel.BackgroundWorker,RunWorkerAsync</token>
+<token>System.ComponentModel.BackgroundWorker,new</token>
 </entry>
 <entry count="1">
 <token>System.ComponentModel.ICustomTypeDescriptor,GetComponentName</token>
@@ -4827,17 +4531,6 @@
 <token>System.ComponentModel.PropertyDescriptor,GetValue</token>
 <token>System.ComponentModel.PropertyDescriptor,ShouldSerializeValue</token>
 <token>System.ComponentModel.PropertyDescriptor,CanResetValue</token>
-</entry>
-<entry count="5">
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-<token>T]],SetItem</token>
-</entry>
-<entry count="4">
-<token>System.ComponentModel.ListChangedEventArgs,new</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-<token>SandcastleBuilder.Utils.ConceptualContent.Topic,</token>
 </entry>
 <entry count="5">
 <token>System.ComponentModel.ComponentResourceManager,new</token>
@@ -4869,17 +4562,11 @@
 <token>System.ComponentModel.CancelEventHandler,new</token>
 <token>System.ComponentModel.ISupportInitialize,EndInit</token>
 </entry>
-<entry count="2">
-<token>VVVV.Nodes.ProcessControl,</token>
-<token>Remoter]],new</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-</entry>
 <entry count="7">
 <token>System.ComponentModel.EventDescriptorCollection,new</token>
 <token>System.ComponentModel.EventDescriptorCollection,Add</token>
 </entry>
-<entry count="201">
+<entry count="713">
 <token>System.ComponentModel.TypeDescriptor,GetConverter</token>
 <token>System.ComponentModel.TypeConverter,CanConvertTo</token>
 <token>System.ComponentModel.TypeConverter,ConvertTo</token>
@@ -4901,7 +4588,7 @@
 <token>System.ComponentModel.TypeDescriptor,GetEvents</token>
 <token>System.ComponentModel.TypeDescriptor,GetEvents</token>
 </entry>
-<entry count="18">
+<entry count="2568">
 <token>System.ComponentModel.TypeDescriptor,GetConverter</token>
 <token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
 <token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
@@ -4929,6 +4616,13 @@
 <token>System.ComponentModel.CollectionChangeEventHandler,new</token>
 <token>System.ComponentModel.CollectionChangeEventHandler,new</token>
 </entry>
+<entry count="512">
+<token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
+<token>System.ComponentModel.TypeConverter,ConvertFrom</token>
+<token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
+<token>System.ComponentModel.TypeDescriptor,GetConverter</token>
+<token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
+</entry>
 <entry count="374">
 <token>System.ComponentModel.ISupportInitialize,BeginInit</token>
 <token>System.ComponentModel.ISupportInitialize,EndInit</token>
@@ -4938,19 +4632,12 @@
 <token>System.ComponentModel.RunWorkerCompletedEventHandler,new</token>
 <token>System.ComponentModel.BackgroundWorker,new</token>
 </entry>
-<entry count="1">
-<token>SuperPutty]],new</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-<token>SuperPutty.Data.SessionData,</token>
-<token>SuperPutty]],new</token>
-</entry>
-<entry count="141594">
+<entry count="559688">
 <token>System.ComponentModel.ProgressChangedEventArgs,new</token>
 <token>System.ComponentModel.ProgressChangedEventArgs,new</token>
 <token>System.ComponentModel.ProgressChangedEventArgs,new</token>
 </entry>
-<entry count="16">
+<entry count="64">
 <token>System.ComponentModel.InvalidEnumArgumentException,new</token>
 <token>System.ComponentModel.InvalidEnumArgumentException,new</token>
 </entry>
@@ -4960,29 +4647,10 @@
 <token>System.ComponentModel.RunWorkerCompletedEventHandler,new</token>
 <token>System.ComponentModel.BackgroundWorker,new</token>
 </entry>
-<entry count="1">
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-<token>SampleApp.Sequence,</token>
-<token>Gestures__SVM-DTW_]],new</token>
-</entry>
 <entry count="13">
 <token>System.ComponentModel.TypeDescriptor,GetConverter</token>
 <token>System.ComponentModel.TypeConverter,CanConvertTo</token>
 <token>System.ComponentModel.TypeConverter,CanConvertTo</token>
-</entry>
-<entry count="5">
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-<token>T]],SetItem</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-</entry>
-<entry count="22">
-<token>-&gt;</token>
-<token>Sandcastle.Core.Reflection.ReflectionDataSet+StringWrapper,</token>
-<token>Sandcastle.Core]],new</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
 </entry>
 <entry count="8">
 <token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
@@ -4998,14 +4666,7 @@
 <token>System.ComponentModel.ProgressChangedEventHandler,new</token>
 <token>System.ComponentModel.ISupportInitialize,EndInit</token>
 </entry>
-<entry count="4">
-<token>CataclysmModder]],new</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-<token>CataclysmModder.GroupedData,</token>
-<token>CataclysmModder]],new</token>
-</entry>
-<entry count="18">
+<entry count="21">
 <token>System.ComponentModel.DoWorkEventHandler,new</token>
 <token>System.ComponentModel.ProgressChangedEventHandler,new</token>
 </entry>
@@ -5014,7 +4675,7 @@
 <token>System.ComponentModel.EventDescriptorCollection,new</token>
 <token>System.ComponentModel.EventDescriptorCollection,Add</token>
 </entry>
-<entry count="21">
+<entry count="61">
 <token>System.ComponentModel.TypeConverter,CanConvertTo</token>
 <token>System.ComponentModel.TypeConverter,ConvertTo</token>
 <token>System.ComponentModel.TypeDescriptor,GetConverter</token>
@@ -5027,10 +4688,11 @@
 <token>System.ComponentModel.ICollectionView,Refresh</token>
 <token>System.ComponentModel.ICollectionView,MoveCurrentToFirst</token>
 </entry>
-<entry count="2">
-<token>VVVV.Nodes.ProcessControl,</token>
-<token>Remoter]],new</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
+<entry count="64">
+<token>System.ComponentModel.TypeDescriptor,GetConverter</token>
+<token>System.ComponentModel.TypeDescriptor,GetConverter</token>
+<token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
+<token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
 </entry>
 <entry count="7">
 <token>System.ComponentModel.ComponentResourceManager,new</token>
@@ -5039,11 +4701,7 @@
 <token>System.ComponentModel.ISupportInitialize,BeginInit</token>
 <token>System.ComponentModel.ComponentResourceManager,ApplyResources</token>
 </entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>SuperPutty.Data.SessionData,</token>
-</entry>
-<entry count="82">
+<entry count="618">
 <token>System.ComponentModel.TypeDescriptor,GetProperties</token>
 <token>System.ComponentModel.PropertyDescriptor,GetValue</token>
 </entry>
@@ -5054,18 +4712,12 @@
 <token>System.ComponentModel.CancelEventHandler,new</token>
 <token>System.ComponentModel.CancelEventHandler,new</token>
 </entry>
-<entry count="2">
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-<token>p:string]],new</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-</entry>
-<entry count="1">
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-<token>SuperPutty.Data.SessionData,</token>
-<token>SuperPutty]],new</token>
+<entry count="24">
+<token>System.ComponentModel.PropertyDescriptorCollection,IndexOf</token>
+<token>System.ComponentModel.PropertyDescriptor,SetValue</token>
+<token>System.ComponentModel.PropertyDescriptorCollection,Find</token>
+<token>System.ComponentModel.PropertyDescriptorCollection,IndexOf</token>
+<token>System.ComponentModel.PropertyDescriptor,SetValue</token>
 </entry>
 <entry count="8">
 <token>System.ComponentModel.TypeDescriptor,GetConverter</token>
@@ -5101,6 +4753,12 @@
 <token>System.ComponentModel.ProgressChangedEventHandler,new</token>
 <token>System.ComponentModel.ISupportInitialize,EndInit</token>
 </entry>
+<entry count="4">
+<token>System.ComponentModel.TypeDescriptor,AddProvider</token>
+<token>System.ComponentModel.TypeDescriptor,GetProvider</token>
+<token>System.ComponentModel.TypeDescriptor,AddProvider</token>
+<token>System.ComponentModel.TypeDescriptor,AddProvider</token>
+</entry>
 <entry count="1">
 <token>System.ComponentModel.PropertyDescriptor,ShouldSerializeValue</token>
 <token>System.ComponentModel.PropertyDescriptor,GetValue</token>
@@ -5115,6 +4773,12 @@
 <token>System.ComponentModel.ComponentResourceManager,ApplyResources</token>
 <token>System.ComponentModel.ComponentResourceManager,ApplyResources</token>
 </entry>
+<entry count="6">
+<token>System.ComponentModel.PropertyDescriptor,GetValue</token>
+<token>System.ComponentModel.PropertyDescriptor,SetValue</token>
+<token>System.ComponentModel.TypeDescriptor,GetProperties</token>
+<token>System.ComponentModel.PropertyDescriptorCollection,Find</token>
+</entry>
 <entry count="4">
 <token>System.ComponentModel.TypeDescriptor,GetConverter</token>
 <token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
@@ -5124,22 +4788,10 @@
 <token>System.ComponentModel.ICustomTypeDescriptor,GetProperties</token>
 <token>System.ComponentModel.ICustomTypeDescriptor,GetProperties</token>
 </entry>
-<entry count="4">
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-<token>?]],OnListChanged</token>
-</entry>
-<entry count="32">
-<token>System.ComponentModel.BackgroundWorker,new</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-<token>?]],new</token>
-<token>System.ComponentModel.BackgroundWorker,RunWorkerAsync</token>
-</entry>
-<entry count="4">
-<token>SetupTv.Sections.ScanSettings+DisplaySoftwareEncoder,</token>
-<token>SetupTv]],new</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
+<entry count="24">
+<token>System.ComponentModel.PropertyDescriptorCollection,Find</token>
+<token>System.ComponentModel.TypeDescriptor,GetProperties</token>
+<token>System.ComponentModel.PropertyDescriptorCollection,Find</token>
 </entry>
 <entry count="47">
 <token>System.ComponentModel.ComponentResourceManager,ApplyResources</token>
@@ -5147,14 +4799,16 @@
 <token>System.ComponentModel.ComponentResourceManager,ApplyResources</token>
 <token>System.ComponentModel.ComponentResourceManager,ApplyResources</token>
 </entry>
-<entry count="2">
-<token>-&gt;</token>
-<token>CataclysmModder.RecipeControl+ComponentGroup,</token>
-<token>CataclysmModder]],new</token>
+<entry count="2118">
+<token>System.ComponentModel.TypeConverter,ConvertFromString</token>
+<token>System.ComponentModel.TypeDescriptor,GetConverter</token>
+<token>System.ComponentModel.TypeConverter,ConvertFromString</token>
 </entry>
-<entry count="6">
-<token>-&gt;</token>
-<token>T]],OnListChanged</token>
+<entry count="39936">
+<token>System.ComponentModel.EnumConverter,new</token>
+<token>System.ComponentModel.TypeConverter,ConvertFrom</token>
+<token>System.ComponentModel.TypeConverter,ConvertFrom</token>
+<token>System.ComponentModel.EnumConverter,new</token>
 </entry>
 <entry count="127">
 <token>System.ComponentModel.ComponentResourceManager,new</token>
@@ -5172,10 +4826,6 @@
 <token>System.ComponentModel.ISupportInitialize,BeginInit</token>
 <token>System.ComponentModel.ISupportInitialize,BeginInit</token>
 <token>System.ComponentModel.CancelEventHandler,new</token>
-</entry>
-<entry count="6">
-<token>-&gt;</token>
-<token>CataclysmModder.ItemDataWrapper,</token>
 </entry>
 <entry count="16">
 <token>System.ComponentModel.NullableConverter,new</token>
@@ -5228,14 +4878,6 @@
 <token>System.ComponentModel.ISupportInitialize,EndInit</token>
 </entry>
 <entry count="1">
-<token>System.ComponentModel.TypeConverter+StandardValuesCollection,new</token>
-<token>System.ComponentModel.TypeConverter+StandardValuesCollection,new</token>
-</entry>
-<entry count="8">
-<token>FindLargeFiles]],ResetItem</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
-</entry>
-<entry count="1">
 <token>System.ComponentModel.SortDescription,new</token>
 <token>System.ComponentModel.ICollectionView,Refresh</token>
 </entry>
@@ -5245,38 +4887,35 @@
 <token>System.ComponentModel.TypeConverter,ConvertTo</token>
 </entry>
 <entry count="1">
-<token>-&gt;</token>
-<token>SuperPutty.Data.SessionData,</token>
-<token>SuperPutty]],new</token>
-</entry>
-<entry count="1">
 <token>System.ComponentModel.ICustomTypeDescriptor,GetEditor</token>
 <token>System.ComponentModel.ICustomTypeDescriptor,GetEvents</token>
 <token>System.ComponentModel.ICustomTypeDescriptor,GetEvents</token>
 <token>System.ComponentModel.ICustomTypeDescriptor,GetPropertyOwner</token>
 <token>System.ComponentModel.ICustomTypeDescriptor,GetProperties</token>
 </entry>
+<entry count="256">
+<token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
+<token>System.ComponentModel.TypeDescriptor,GetConverter</token>
+<token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
+<token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
+<token>System.ComponentModel.TypeConverter,ConvertFrom</token>
+</entry>
 <entry count="1">
 <token>System.ComponentModel.TypeDescriptor,GetAttributes</token>
 <token>System.ComponentModel.TypeConverterAttribute,new</token>
 </entry>
-<entry count="6">
-<token>-&gt;</token>
-<token>CataclysmModder.ItemDataWrapper,</token>
-<token>CataclysmModder]],new</token>
-</entry>
-<entry count="18">
+<entry count="2568">
 <token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
 <token>System.ComponentModel.TypeConverter,ConvertFrom</token>
 <token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
 </entry>
-<entry count="1">
+<entry count="14">
 <token>System.ComponentModel.TypeDescriptor,GetProperties</token>
 <token>System.ComponentModel.PropertyDescriptorCollection,Find</token>
 <token>System.ComponentModel.PropertyDescriptor,GetValue</token>
 <token>System.ComponentModel.PropertyDescriptor,SetValue</token>
 </entry>
-<entry count="177">
+<entry count="1">
 <token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
 <token>System.ComponentModel.TypeConverter,ConvertFrom</token>
 <token>System.ComponentModel.TypeDescriptor,GetConverter</token>
@@ -5289,10 +4928,6 @@
 <token>System.ComponentModel.TypeDescriptor,GetConverter</token>
 <token>System.ComponentModel.TypeConverter,CanConvertTo</token>
 <token>System.ComponentModel.TypeConverter,ConvertTo</token>
-</entry>
-<entry count="32">
-<token>?]],new</token>
-<token>System.ComponentModel.BackgroundWorker,RunWorkerAsync</token>
 </entry>
 <entry count="56">
 <token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
@@ -5309,17 +4944,12 @@
 <token>System.ComponentModel.PropertyDescriptorCollection,Find</token>
 <token>System.ComponentModel.PropertyDescriptor,GetValue</token>
 </entry>
-<entry count="9600">
+<entry count="22680">
 <token>System.ComponentModel.TypeConverter,IsValid</token>
 <token>System.ComponentModel.EnumConverter,new</token>
 <token>System.ComponentModel.TypeConverter,IsValid</token>
 <token>System.ComponentModel.TypeConverter,ConvertFromString</token>
 <token>System.ComponentModel.EnumConverter,new</token>
-</entry>
-<entry count="8">
-<token>FindLargeFiles.GitObject,</token>
-<token>FindLargeFiles]],ResetItem</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
 </entry>
 <entry count="1">
 <token>System.ComponentModel.DoWorkEventHandler,new</token>
@@ -5328,12 +4958,12 @@
 <token>System.ComponentModel.ISupportInitialize,EndInit</token>
 <token>System.ComponentModel.ISupportInitialize,EndInit</token>
 </entry>
-<entry count="1">
+<entry count="14">
 <token>System.ComponentModel.PropertyDescriptorCollection,Find</token>
 <token>System.ComponentModel.PropertyDescriptor,GetValue</token>
 <token>System.ComponentModel.PropertyDescriptor,SetValue</token>
 </entry>
-<entry count="3513">
+<entry count="21697">
 <token>System.ComponentModel.TypeConverter,CanConvertTo</token>
 <token>System.ComponentModel.TypeConverter,ConvertTo</token>
 </entry>
@@ -5344,23 +4974,27 @@
 <token>System.ComponentModel.ProgressChangedEventHandler,new</token>
 <token>System.ComponentModel.ISupportInitialize,EndInit</token>
 </entry>
-<entry count="4">
+<entry count="62">
 <token>System.ComponentModel.Win32Exception,new</token>
 <token>System.ComponentModel.Win32Exception,new</token>
 <token>System.ComponentModel.Win32Exception,new</token>
 </entry>
-<entry count="8">
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-<token>SetupTv.Sections.ScanSettings+DisplaySoftwareEncoder,</token>
+<entry count="544">
+<token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
+<token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
+<token>System.ComponentModel.TypeDescriptor,GetConverter</token>
 </entry>
-<entry count="32">
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-<token>?]],new</token>
-<token>System.ComponentModel.BackgroundWorker,RunWorkerAsync</token>
+<entry count="512">
+<token>System.ComponentModel.TypeConverter,ConvertFrom</token>
+<token>System.ComponentModel.TypeDescriptor,GetConverter</token>
+<token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
+<token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
 </entry>
-<entry count="11718">
+<entry count="2118">
+<token>System.ComponentModel.TypeConverter,ConvertFromString</token>
+<token>System.ComponentModel.TypeDescriptor,GetConverter</token>
+</entry>
+<entry count="364612">
 <token>System.ComponentModel.ProgressChangedEventArgs,new</token>
 <token>System.ComponentModel.ProgressChangedEventArgs,new</token>
 <token>System.ComponentModel.ProgressChangedEventArgs,new</token>
@@ -5374,6 +5008,18 @@
 <token>System.ComponentModel.ISupportInitialize,BeginInit</token>
 <token>System.ComponentModel.DoWorkEventHandler,new</token>
 </entry>
+<entry count="60">
+<token>System.ComponentModel.PropertyDescriptor,SetValue</token>
+<token>System.ComponentModel.PropertyDescriptorCollection,Find</token>
+<token>System.ComponentModel.PropertyDescriptorCollection,IndexOf</token>
+</entry>
+<entry count="6">
+<token>System.ComponentModel.PropertyDescriptorCollection,Find</token>
+<token>System.ComponentModel.PropertyDescriptor,GetValue</token>
+<token>System.ComponentModel.PropertyDescriptor,SetValue</token>
+<token>System.ComponentModel.TypeDescriptor,GetProperties</token>
+<token>System.ComponentModel.PropertyDescriptorCollection,Find</token>
+</entry>
 <entry count="22">
 <token>System.ComponentModel.SortDescription,new</token>
 <token>System.ComponentModel.SortDescription,new</token>
@@ -5383,24 +5029,22 @@
 <token>System.ComponentModel.DoWorkEventHandler,new</token>
 <token>System.ComponentModel.RunWorkerCompletedEventHandler,new</token>
 </entry>
-<entry count="4">
-<token>-&gt;</token>
-<token>SetupTv.Sections.ScanSettings+DisplaySoftwareEncoder,</token>
-<token>SetupTv]],new</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-</entry>
 <entry count="3">
 <token>System.ComponentModel.ComponentResourceManager,new</token>
 <token>System.ComponentModel.BackgroundWorker,new</token>
 <token>System.ComponentModel.DoWorkEventHandler,new</token>
 <token>System.ComponentModel.RunWorkerCompletedEventHandler,new</token>
 </entry>
-<entry count="1262">
+<entry count="10596">
 <token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
 <token>System.ComponentModel.TypeConverter,ConvertFrom</token>
 </entry>
-<entry count="9600">
+<entry count="6">
+<token>System.ComponentModel.PropertyDescriptor,SetValue</token>
+<token>System.ComponentModel.TypeDescriptor,GetProperties</token>
+<token>System.ComponentModel.PropertyDescriptorCollection,Find</token>
+</entry>
+<entry count="22680">
 <token>System.ComponentModel.TypeConverter,ConvertFromString</token>
 <token>System.ComponentModel.EnumConverter,new</token>
 <token>System.ComponentModel.TypeConverter,IsValid</token>
@@ -5418,6 +5062,12 @@
 <token>System.ComponentModel.ComponentResourceManager,new</token>
 <token>System.ComponentModel.CancelEventHandler,new</token>
 </entry>
+<entry count="8192">
+<token>System.ComponentModel.EnumConverter,new</token>
+<token>System.ComponentModel.TypeConverter,ConvertFrom</token>
+<token>System.ComponentModel.TypeConverter,ConvertFromInvariantString</token>
+<token>System.ComponentModel.TypeConverter,ConvertFrom</token>
+</entry>
 <entry count="3">
 <token>System.ComponentModel.ComponentResourceManager,new</token>
 <token>System.ComponentModel.ISupportInitialize,BeginInit</token>
@@ -5429,28 +5079,36 @@
 <token>System.ComponentModel.CategoryAttribute,new</token>
 <token>System.ComponentModel.DescriptionAttribute,new</token>
 </entry>
+<entry count="1">
+<token>System.ComponentModel.DoWorkEventHandler,new</token>
+<token>System.ComponentModel.ProgressChangedEventHandler,new</token>
+<token>System.ComponentModel.RunWorkerCompletedEventHandler,new</token>
+<token>System.ComponentModel.BackgroundWorker,RunWorkerAsync</token>
+<token>System.ComponentModel.BackgroundWorker,new</token>
+</entry>
+<entry count="512">
+<token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
+<token>System.ComponentModel.TypeConverter,ConvertFrom</token>
+<token>System.ComponentModel.TypeDescriptor,GetConverter</token>
+<token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
+<token>System.ComponentModel.TypeConverter,ConvertFrom</token>
+</entry>
 <entry count="22">
 <token>System.ComponentModel.PropertyDescriptor,ShouldSerializeValue</token>
 <token>System.ComponentModel.PropertyDescriptor,CanResetValue</token>
 <token>System.ComponentModel.PropertyDescriptor,ShouldSerializeValue</token>
 <token>System.ComponentModel.PropertyDescriptor,CanResetValue</token>
 </entry>
-<entry count="2">
+<entry count="32">
 <token>System.ComponentModel.DependencyPropertyDescriptor,FromProperty</token>
 <token>System.ComponentModel.DependencyPropertyDescriptor,RemoveValueChanged</token>
 <token>System.ComponentModel.DependencyPropertyDescriptor,RemoveValueChanged</token>
 <token>System.ComponentModel.DependencyPropertyDescriptor,RemoveValueChanged</token>
 <token>System.ComponentModel.DependencyPropertyDescriptor,RemoveValueChanged</token>
 </entry>
-<entry count="12">
+<entry count="24">
 <token>System.ComponentModel.TypeConverter,ConvertToInvariantString</token>
 <token>System.ComponentModel.TypeDescriptor,GetConverter</token>
-</entry>
-<entry count="11">
-<token>-&gt;</token>
-<token>Sandcastle.Core.Reflection.AssemblyLocation,</token>
-<token>Sandcastle.Core]],new</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
 </entry>
 <entry count="1">
 <token>System.ComponentModel.DoWorkEventHandler,new</token>
@@ -5458,23 +5116,11 @@
 <token>System.ComponentModel.BackgroundWorker,new</token>
 <token>System.ComponentModel.DoWorkEventHandler,new</token>
 </entry>
-<entry count="3">
-<token>-&gt;</token>
-<token>CataclysmModder.GroupedData,</token>
-<token>CataclysmModder]],new</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-</entry>
-<entry count="21">
+<entry count="61">
 <token>System.ComponentModel.TypeConverter,ConvertTo</token>
 <token>System.ComponentModel.TypeDescriptor,GetConverter</token>
 <token>System.ComponentModel.TypeConverter,CanConvertFrom</token>
 <token>System.ComponentModel.TypeConverter,ConvertFrom</token>
-</entry>
-<entry count="2">
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-<token>CataclysmModder.RecipeControl+ComponentGroup,</token>
 </entry>
 <entry count="1">
 <token>System.ComponentModel.ICustomTypeDescriptor,GetAttributes</token>
@@ -5490,7 +5136,13 @@
 <token>System.ComponentModel.CancelEventHandler,new</token>
 <token>System.ComponentModel.CancelEventHandler,new</token>
 </entry>
-<entry count="12">
+<entry count="6">
+<token>System.ComponentModel.PropertyDescriptorCollection,Find</token>
+<token>System.ComponentModel.PropertyDescriptor,GetValue</token>
+<token>System.ComponentModel.TypeDescriptor,GetProperties</token>
+<token>System.ComponentModel.PropertyDescriptorCollection,Find</token>
+</entry>
+<entry count="48">
 <token>System.ComponentModel.DesignerProperties,GetIsInDesignMode</token>
 <token>System.ComponentModel.DesignerProperties,GetIsInDesignMode</token>
 </entry>
@@ -5500,11 +5152,6 @@
 <token>System.ComponentModel.CancelEventHandler,new</token>
 <token>System.ComponentModel.ISupportInitialize,EndInit</token>
 <token>System.ComponentModel.ISupportInitialize,EndInit</token>
-</entry>
-<entry count="5">
-<token>-&gt;</token>
-<token>T]],SetItem</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
 </entry>
 <entry count="1016">
 <token>System.ComponentModel.ISupportInitialize,EndInit</token>
@@ -5528,17 +5175,12 @@
 <token>System.ComponentModel.BackgroundWorker,new</token>
 <token>System.ComponentModel.DoWorkEventHandler,new</token>
 </entry>
-<entry count="9600">
+<entry count="22680">
 <token>System.ComponentModel.TypeConverter,ConvertFromString</token>
 <token>System.ComponentModel.EnumConverter,new</token>
 <token>System.ComponentModel.TypeConverter,IsValid</token>
 <token>System.ComponentModel.EnumConverter,new</token>
 <token>System.ComponentModel.TypeConverter,IsValid</token>
-</entry>
-<entry count="64">
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-<token>Rock.Client.FinancialTransaction,</token>
 </entry>
 <entry count="8">
 <token>System.ComponentModel.DependencyPropertyDescriptor,FromProperty</token>
@@ -5555,14 +5197,7 @@
 <token>System.ComponentModel.ISupportInitialize,BeginInit</token>
 <token>System.ComponentModel.ISupportInitialize,BeginInit</token>
 </entry>
-<entry count="11">
-<token>Sandcastle.Core.Reflection.AssemblyLocation,</token>
-<token>Sandcastle.Core]],new</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-<token>Sandcastle.Core.Reflection.ReflectionDataSet+StringWrapper,</token>
-</entry>
-<entry count="2">
+<entry count="32">
 <token>System.ComponentModel.DependencyPropertyDescriptor,RemoveValueChanged</token>
 <token>System.ComponentModel.DependencyPropertyDescriptor,FromProperty</token>
 <token>System.ComponentModel.DependencyPropertyDescriptor,FromProperty</token>
@@ -5585,11 +5220,11 @@
 <token>System.ComponentModel.ComponentResourceManager,ApplyResources</token>
 <token>System.ComponentModel.ComponentResourceManager,ApplyResources</token>
 </entry>
-<entry count="259200">
+<entry count="1658880">
 <token>System.ComponentModel.EnumConverter,new</token>
 <token>System.ComponentModel.TypeConverter,IsValid</token>
 </entry>
-<entry count="67200">
+<entry count="262440">
 <token>System.ComponentModel.EnumConverter,new</token>
 <token>System.ComponentModel.TypeConverter,IsValid</token>
 <token>System.ComponentModel.EnumConverter,new</token>
@@ -5602,27 +5237,17 @@
 <token>System.ComponentModel.PropertyDescriptor,ShouldSerializeValue</token>
 <token>System.ComponentModel.PropertyDescriptor,CanResetValue</token>
 </entry>
-<entry count="6">
-<token>SandcastleBuilder.Utils.ConceptualContent.TocEntry,</token>
-<token>SandcastleBuilderUtils]],OnListChanged</token>
-</entry>
 <entry count="1">
 <token>System.ComponentModel.PropertyDescriptorCollection,Find</token>
 <token>System.ComponentModel.PropertyDescriptor,GetValue</token>
 <token>System.ComponentModel.PropertyDescriptor,GetValue</token>
 <token>System.ComponentModel.PropertyDescriptor,ShouldSerializeValue</token>
 </entry>
-<entry count="512">
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
-<token>SandcastleBuilder.Utils.ConceptualContent.ResourceItem,</token>
-<token>SandcastleBuilderUtils]],new</token>
-</entry>
-<entry count="3">
-<token>CataclysmModder.GroupedData,</token>
-<token>CataclysmModder]],new</token>
-<token>System.ComponentModel.BindingList`1[[T</token>
-<token>-&gt;</token>
+<entry count="36">
+<token>System.ComponentModel.PropertyDescriptorCollection,IndexOf</token>
+<token>System.ComponentModel.PropertyDescriptor,SetValue</token>
+<token>System.ComponentModel.PropertyDescriptorCollection,Find</token>
+<token>System.ComponentModel.PropertyDescriptor,SetValue</token>
 </entry>
 <entry count="56">
 <token>System.ComponentModel.AttributeCollection,Matches</token>

@@ -7,7 +7,11 @@
 <token>NuGet.PhysicalFileSystem,GetFiles</token>
 <token>NuGet.PhysicalFileSystem,DeleteDirectory</token>
 </entry>
-<entry count="480">
+<entry count="496">
+<token>NuGet.OptimizedZipPackage,new</token>
+<token>NuGet.OptimizedZipPackage,new</token>
+</entry>
+<entry count="2400">
 <token>NuGet.OptimizedZipPackage,new</token>
 <token>NuGet.PackageRepositoryExtensions,FindPackage</token>
 <token>NuGet.PackageRepositoryExtensions,FindPackage</token>
@@ -17,11 +21,7 @@
 <token>NuGet.SemanticVersion,ToString</token>
 <token>NuGet.SemanticVersion,ToString</token>
 </entry>
-<entry count="1">
-<token>NuGet.Core,</token>
-<token>2.8.7.0]],new</token>
-</entry>
-<entry count="16">
+<entry count="256">
 <token>NuGet.IPackageRepository,GetPackages</token>
 <token>NuGet.PackageExtensions,IsListed</token>
 <token>NuGet.PackageExtensions,IsReleaseVersion</token>
@@ -31,6 +31,11 @@
 <token>NuGet.SemanticVersion,new</token>
 <token>NuGet.SemanticVersion,new</token>
 <token>NuGet.SemanticVersion,new</token>
+</entry>
+<entry count="480">
+<token>NuGet.OptimizedZipPackage,new</token>
+<token>NuGet.OptimizedZipPackage,new</token>
+<token>NuGet.PackageRepositoryExtensions,FindPackage</token>
 </entry>
 <entry count="1">
 <token>NuGet.PackageRepositoryExtensions,FindPackagesById</token>
@@ -50,7 +55,7 @@
 <token>NuGet.IProjectManager,AddPackageReference</token>
 <token>NuGet.SemanticVersion,new</token>
 </entry>
-<entry count="576">
+<entry count="960">
 <token>NuGet.SemanticVersion,new</token>
 <token>NuGet.PackageRepositoryExtensions,FindPackage</token>
 <token>NuGet.PackageRepositoryExtensions,FindPackage</token>
@@ -74,6 +79,12 @@
 <token>NuGet.IFileSystem,OpenFile</token>
 <token>NuGet.IFileSystem,AddFile</token>
 </entry>
+<entry count="480">
+<token>NuGet.OptimizedZipPackage,new</token>
+<token>NuGet.OptimizedZipPackage,new</token>
+<token>NuGet.PackageRepositoryExtensions,FindPackage</token>
+<token>NuGet.PackageRepositoryExtensions,FindPackage</token>
+</entry>
 <entry count="3">
 <token>NuGet.PackageRepositoryFactory,CreateRepository</token>
 <token>NuGet.SemanticVersion,new</token>
@@ -87,13 +98,13 @@
 <token>NuGet.PackageExtensions,IsReleaseVersion</token>
 <token>NuGet.SemanticVersion,ToString</token>
 </entry>
-<entry count="5">
+<entry count="17">
 <token>NuGet.PackageRepositoryFactory,CreateRepository</token>
 <token>NuGet.DefaultPackagePathResolver,new</token>
 <token>NuGet.PackageRepositoryFactory,CreateRepository</token>
 <token>NuGet.ProjectManager,new</token>
 </entry>
-<entry count="192">
+<entry count="49152">
 <token>NuGet.PackageManager,InstallPackage</token>
 <token>NuGet.IPackageRepository,GetPackages</token>
 </entry>
@@ -102,12 +113,12 @@
 <token>NuGet.PackageRepositoryExtensions,FindPackage</token>
 <token>NuGet.PackageRepositoryExtensions,FindPackagesById</token>
 </entry>
-<entry count="1">
-<token>NuGet.BufferedEnumerable`1[[TElement</token>
-<token>-&gt;</token>
-<token>i:NuGet.IPackage,</token>
-<token>NuGet.Core,</token>
-<token>2.8.60723.765]],new</token>
+<entry count="4096">
+<token>NuGet.IPackageRepository,GetPackages</token>
+<token>NuGet.SemanticVersion,new</token>
+<token>NuGet.PackageRepositoryFactory,CreateRepository</token>
+<token>NuGet.IPackageRepository,GetPackages</token>
+<token>NuGet.SemanticVersion,new</token>
 </entry>
 <entry count="2">
 <token>NuGet.ProgressEventArgs,new</token>
@@ -129,7 +140,7 @@
 <token>NuGet.PackageManager,UninstallPackage</token>
 <token>NuGet.IPackageRepository,RemovePackage</token>
 </entry>
-<entry count="1920">
+<entry count="4800">
 <token>NuGet.SemanticVersion,ToString</token>
 <token>NuGet.PackageRepositoryExtensions,StartOperation</token>
 <token>NuGet.IPackageManager,InstallPackage</token>
@@ -139,12 +150,7 @@
 <token>NuGet.IFileSystem,FileExists</token>
 <token>NuGet.IFileSystem,OpenFile</token>
 </entry>
-<entry count="2">
-<token>NuGet.PackageExtensions,Find</token>
-<token>NuGet.BufferedEnumerable`1[[TElement</token>
-<token>-&gt;</token>
-</entry>
-<entry count="1152">
+<entry count="2880">
 <token>NuGet.PackageRepositoryExtensions,FindPackage</token>
 <token>NuGet.SemanticVersion,ToString</token>
 <token>NuGet.PackageRepositoryExtensions,StartOperation</token>
@@ -163,19 +169,19 @@
 <token>NuGet.PackageBuilder,Save</token>
 <token>NuGet.OptimizedZipPackage,new</token>
 </entry>
-<entry count="576">
+<entry count="960">
 <token>NuGet.SemanticVersion,new</token>
 <token>NuGet.PackageRepositoryExtensions,FindPackage</token>
 <token>NuGet.PackageRepositoryExtensions,FindPackage</token>
 <token>NuGet.IPackageManager,UninstallPackage</token>
 <token>NuGet.SemanticVersion,ToString</token>
 </entry>
-<entry count="1152">
+<entry count="2880">
 <token>NuGet.PackageRepositoryExtensions,FindPackage</token>
 <token>NuGet.SemanticVersion,ToString</token>
 <token>NuGet.PackageRepositoryExtensions,StartOperation</token>
 </entry>
-<entry count="768">
+<entry count="1920">
 <token>NuGet.PackageRepositoryExtensions,FindPackage</token>
 <token>NuGet.IPackageManager,UninstallPackage</token>
 <token>NuGet.SemanticVersion,ToString</token>
@@ -193,7 +199,7 @@
 <token>NuGet.PackageRepositoryExtensions,FindPackagesById</token>
 <token>NuGet.PackageExtensions,IsReleaseVersion</token>
 </entry>
-<entry count="4">
+<entry count="8">
 <token>NuGet.ProxyCache,Override</token>
 <token>NuGet.AggregateRepository,new</token>
 </entry>
@@ -211,13 +217,13 @@
 <token>NuGet.PackageRepositoryExtensions,FindPackagesById</token>
 <token>NuGet.PackageExtensions,IsReleaseVersion</token>
 </entry>
-<entry count="192">
+<entry count="960">
 <token>NuGet.OptimizedZipPackage,new</token>
 <token>NuGet.PackageRepositoryExtensions,FindPackage</token>
 <token>NuGet.PackageRepositoryExtensions,FindPackage</token>
 <token>NuGet.IPackageManager,UninstallPackage</token>
 </entry>
-<entry count="5">
+<entry count="17">
 <token>NuGet.DefaultPackagePathResolver,new</token>
 <token>NuGet.PackageRepositoryFactory,CreateRepository</token>
 </entry>
@@ -227,29 +233,33 @@
 <token>NuGet.DefaultConstraintProvider,new</token>
 <token>NuGet.DefaultConstraintProvider,AddConstraint</token>
 </entry>
-<entry count="2">
-<token>NuGet.PackageExtensions,Find</token>
-<token>NuGet.BufferedEnumerable`1[[TElement</token>
-<token>-&gt;</token>
-<token>i:NuGet.IPackage,</token>
-<token>NuGet.Core,</token>
-</entry>
-<entry count="480">
+<entry count="1920">
 <token>NuGet.SemanticVersion,new</token>
 <token>NuGet.OptimizedZipPackage,new</token>
 <token>NuGet.PackageRepositoryExtensions,FindPackage</token>
 <token>NuGet.PackageRepositoryExtensions,FindPackage</token>
 </entry>
-<entry count="5">
+<entry count="17">
 <token>NuGet.PackageRepositoryFactory,CreateRepository</token>
 <token>NuGet.DefaultPackagePathResolver,new</token>
 <token>NuGet.PackageRepositoryFactory,CreateRepository</token>
+</entry>
+<entry count="128">
+<token>NuGet.PackageExtensions,IsReleaseVersion</token>
+<token>NuGet.SemanticVersion,new</token>
+<token>NuGet.PackageExtensions,IsListed</token>
 </entry>
 <entry count="1">
 <token>NuGet.SemanticVersion,new</token>
 <token>NuGet.IProjectManager,AddPackageReference</token>
 </entry>
-<entry count="3520">
+<entry count="8">
+<token>NuGet.IPackageFile,GetStream</token>
+<token>NuGet.IPackage,GetFiles</token>
+<token>NuGet.IPackageFile,GetStream</token>
+<token>NuGet.IPackageFile,GetStream</token>
+</entry>
+<entry count="4992">
 <token>NuGet.SemanticVersion,new</token>
 <token>NuGet.PackageRepositoryExtensions,FindPackage</token>
 <token>NuGet.PackageRepositoryExtensions,FindPackage</token>
@@ -267,7 +277,14 @@
 <token>NuGet.PackageReferenceRepository,new</token>
 <token>NuGet.PackageReferenceRepository,RegisterIfNecessary</token>
 </entry>
-<entry count="5">
+<entry count="128">
+<token>NuGet.PackageExtensions,IsListed</token>
+<token>NuGet.PackageExtensions,IsReleaseVersion</token>
+<token>NuGet.SemanticVersion,new</token>
+<token>NuGet.PackageExtensions,IsListed</token>
+<token>NuGet.PackageExtensions,IsReleaseVersion</token>
+</entry>
+<entry count="17">
 <token>NuGet.PackageRepositoryFactory,CreateRepository</token>
 <token>NuGet.ProjectManager,new</token>
 </entry>
@@ -296,12 +313,6 @@
 <token>NuGet.IFileSystem,AddFile</token>
 <token>NuGet.StreamExtensions,ReadToEnd</token>
 </entry>
-<entry count="2">
-<token>NuGet.BufferedEnumerable`1[[TElement</token>
-<token>-&gt;</token>
-<token>i:NuGet.IPackage,</token>
-<token>NuGet.Core,</token>
-</entry>
 <entry count="5">
 <token>NuGet.IFileSystem,FileExists</token>
 <token>NuGet.IFileSystem,OpenFile</token>
@@ -310,21 +321,16 @@
 <token>NuGet.PackageRepositoryFactory,CreateRepository</token>
 <token>NuGet.PackageRepositoryExtensions,FindPackage</token>
 </entry>
-<entry count="4010">
+<entry count="7402">
 <token>NuGet.PackageRepositoryExtensions,FindPackage</token>
 <token>NuGet.PackageRepositoryExtensions,FindPackage</token>
-</entry>
-<entry count="1">
-<token>i:NuGet.IPackage,</token>
-<token>NuGet.Core,</token>
-<token>2.8.7.0]],new</token>
 </entry>
 <entry count="3">
 <token>NuGet.SemanticVersion,new</token>
 <token>NuGet.DefaultConstraintProvider,new</token>
 <token>NuGet.DefaultConstraintProvider,AddConstraint</token>
 </entry>
-<entry count="16">
+<entry count="256">
 <token>NuGet.IPackageRepository,GetPackages</token>
 <token>NuGet.PackageExtensions,IsListed</token>
 <token>NuGet.PackageExtensions,IsReleaseVersion</token>
@@ -333,7 +339,7 @@
 <token>NuGet.PackageName,new</token>
 <token>NuGet.PackageName,Equals</token>
 </entry>
-<entry count="1920">
+<entry count="4800">
 <token>NuGet.PackageRepositoryExtensions,StartOperation</token>
 <token>NuGet.IPackageManager,InstallPackage</token>
 </entry>
@@ -341,7 +347,7 @@
 <token>NuGet.IFileSystem,FileExists</token>
 <token>NuGet.IFileSystem,AddFile</token>
 </entry>
-<entry count="768">
+<entry count="1920">
 <token>NuGet.PackageRepositoryExtensions,FindPackage</token>
 <token>NuGet.IPackageManager,UninstallPackage</token>
 <token>NuGet.SemanticVersion,ToString</token>
@@ -351,7 +357,7 @@
 <token>NuGet.SemanticVersion,new</token>
 <token>NuGet.PackageManager,InstallPackage</token>
 </entry>
-<entry count="5">
+<entry count="17">
 <token>NuGet.DefaultPackagePathResolver,new</token>
 <token>NuGet.PackageRepositoryFactory,CreateRepository</token>
 <token>NuGet.ProjectManager,new</token>
@@ -396,7 +402,7 @@
 <token>NuGet.PackageSorter,new</token>
 <token>NuGet.PackageSorter,GetPackagesByDependencyOrder</token>
 </entry>
-<entry count="4155">
+<entry count="5627">
 <token>NuGet.SemanticVersion,new</token>
 <token>NuGet.PackageRepositoryExtensions,FindPackage</token>
 </entry>
@@ -417,10 +423,6 @@
 <token>NuGet.DataServicePackageRepository,new</token>
 <token>NuGet.AggregateRepository,new</token>
 </entry>
-<entry count="2">
-<token>NuGet.PackageExtensions,Find</token>
-<token>NuGet.BufferedEnumerable`1[[TElement</token>
-</entry>
 <entry count="1">
 <token>NuGet.IProjectManager,RemovePackageReference</token>
 <token>NuGet.PackageManager,UninstallPackage</token>
@@ -434,12 +436,6 @@
 <token>NuGet.PackageManager,new</token>
 <token>NuGet.IPackageRepository,GetPackages</token>
 <token>NuGet.SemanticVersion,ToString</token>
-</entry>
-<entry count="2">
-<token>NuGet.PackageExtensions,Find</token>
-<token>NuGet.BufferedEnumerable`1[[TElement</token>
-<token>-&gt;</token>
-<token>i:NuGet.IPackage,</token>
 </entry>
 <entry count="2">
 <token>NuGet.PhysicalFileSystem,new</token>
@@ -464,7 +460,7 @@
 <token>NuGet.IPackageFile,GetStream</token>
 <token>NuGet.StreamExtensions,ReadToEnd</token>
 </entry>
-<entry count="480">
+<entry count="1920">
 <token>NuGet.SemanticVersion,new</token>
 <token>NuGet.OptimizedZipPackage,new</token>
 <token>NuGet.PackageRepositoryExtensions,FindPackage</token>
@@ -524,30 +520,34 @@
 <token>NuGet.PackageManager,new</token>
 <token>NuGet.PackageManager,UpdatePackage</token>
 </entry>
+<entry count="16">
+<token>NuGet.IPackageFile,GetStream</token>
+<token>NuGet.IPackage,GetFiles</token>
+<token>NuGet.IPackageFile,GetStream</token>
+</entry>
 <entry count="4">
 <token>NuGet.Manifest,new</token>
 <token>NuGet.ManifestMetadata,new</token>
 <token>NuGet.Manifest,Save</token>
 <token>NuGet.PackageBuilder,new</token>
 </entry>
+<entry count="6">
+<token>NuGet.PhysicalFileSystem,AddFile</token>
+<token>NuGet.PhysicalFileSystem,AddFile</token>
+</entry>
 <entry count="4">
 <token>NuGet.PackageRepositoryFactory,CreateRepository</token>
 <token>NuGet.SemanticVersion,TryParse</token>
 </entry>
-<entry count="1920">
+<entry count="4800">
 <token>NuGet.SemanticVersion,ToString</token>
 <token>NuGet.PackageRepositoryExtensions,StartOperation</token>
-</entry>
-<entry count="2">
-<token>NuGet.BufferedEnumerable`1[[TElement</token>
-<token>-&gt;</token>
-<token>i:NuGet.IPackage,</token>
 </entry>
 <entry count="1">
 <token>NuGet.PackageName,new</token>
 <token>NuGet.SemanticVersion,new</token>
 </entry>
-<entry count="480">
+<entry count="2400">
 <token>NuGet.OptimizedZipPackage,new</token>
 <token>NuGet.PackageRepositoryExtensions,FindPackage</token>
 </entry>
@@ -563,7 +563,7 @@
 <token>NuGet.PackageHelper,ResolvePackage</token>
 <token>NuGet.IPackageManager,InstallPackage</token>
 </entry>
-<entry count="768">
+<entry count="1920">
 <token>NuGet.IPackageManager,UninstallPackage</token>
 <token>NuGet.SemanticVersion,ToString</token>
 <token>NuGet.PackageRepositoryExtensions,StartOperation</token>
@@ -579,7 +579,7 @@
 <token>NuGet.PackageBuilder,new</token>
 <token>NuGet.PackageBuilder,Save</token>
 </entry>
-<entry count="2">
+<entry count="4">
 <token>NuGet.PackageExtensions,GetContentFiles</token>
 <token>NuGet.IPackageFile,GetStream</token>
 </entry>
@@ -607,11 +607,6 @@
 <token>NuGet.DefaultConstraintProvider,new</token>
 </entry>
 <entry count="1">
-<token>i:NuGet.IPackage,</token>
-<token>NuGet.Core,</token>
-<token>2.8.60723.765]],new</token>
-</entry>
-<entry count="1">
 <token>NuGet.IProjectManager,AddPackageReference</token>
 <token>NuGet.SemanticVersion,new</token>
 <token>NuGet.IPackage,GetFiles</token>
@@ -620,10 +615,15 @@
 <token>NuGet.LocalPackageRepository,new</token>
 <token>NuGet.LocalPackageRepository,GetPackageLookupPaths</token>
 </entry>
-<entry count="192">
+<entry count="49152">
 <token>NuGet.PackageRepositoryExtensions,FindPackagesById</token>
 <token>NuGet.PackageManager,new</token>
 <token>NuGet.PackageManager,InstallPackage</token>
+<token>NuGet.IPackageRepository,GetPackages</token>
+</entry>
+<entry count="4096">
+<token>NuGet.SemanticVersion,new</token>
+<token>NuGet.PackageRepositoryFactory,CreateRepository</token>
 <token>NuGet.IPackageRepository,GetPackages</token>
 </entry>
 <entry count="4">
@@ -644,7 +644,7 @@
 <token>NuGet.SemanticVersion,new</token>
 <token>NuGet.DefaultConstraintProvider,new</token>
 </entry>
-<entry count="7">
+<entry count="8451">
 <token>NuGet.PackageRepositoryFactory,CreateRepository</token>
 <token>NuGet.IPackageRepository,GetPackages</token>
 </entry>
@@ -677,6 +677,11 @@
 <entry count="1">
 <token>NuGet.PackageRepositoryFactory,CreateRepository</token>
 <token>NuGet.LocalPackageRepository,new</token>
+</entry>
+<entry count="12">
+<token>NuGet.IPackage,GetFiles</token>
+<token>NuGet.IPackageFile,GetStream</token>
+<token>NuGet.IPackageFile,GetStream</token>
 </entry>
 <entry count="4">
 <token>NuGet.SemanticVersion,new</token>
@@ -715,16 +720,17 @@
 <token>NuGet.PackageExtensions,IsListed</token>
 <token>NuGet.PackageExtensions,IsReleaseVersion</token>
 </entry>
+<entry count="2">
+<token>NuGet.PackageRepositoryExtensions,FindPackagesById</token>
+<token>NuGet.IPackageManager,InstallPackage</token>
+<token>NuGet.PackageRepositoryExtensions,FindPackagesById</token>
+<token>NuGet.IPackageManager,InstallPackage</token>
+</entry>
 <entry count="1">
 <token>NuGet.IPackageRepository,GetPackages</token>
 <token>NuGet.CollectionExtensions,AddRange</token>
 </entry>
-<entry count="2">
-<token>-&gt;</token>
-<token>i:NuGet.IPackage,</token>
-<token>NuGet.Core,</token>
-</entry>
-<entry count="16">
+<entry count="384">
 <token>NuGet.PackageExtensions,IsReleaseVersion</token>
 <token>NuGet.SemanticVersion,new</token>
 </entry>
@@ -737,7 +743,11 @@
 <token>NuGet.PackageServer,PushPackage</token>
 <token>NuGet.PackageExtensions,GetFullName</token>
 </entry>
-<entry count="192">
+<entry count="4096">
+<token>NuGet.SemanticVersion,new</token>
+<token>NuGet.PackageRepositoryFactory,CreateRepository</token>
+</entry>
+<entry count="49152">
 <token>NuGet.PackageRepositoryExtensions,FindPackagesById</token>
 <token>NuGet.PackageManager,new</token>
 </entry>
@@ -751,11 +761,9 @@
 <token>NuGet.SemanticVersion,Parse</token>
 <token>NuGet.SemanticVersion,Parse</token>
 </entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>i:NuGet.IPackage,</token>
-<token>NuGet.Core,</token>
-<token>2.8.7.0]],new</token>
+<entry count="4">
+<token>NuGet.IPackageManager,InstallPackage</token>
+<token>NuGet.PackageRepositoryExtensions,FindPackagesById</token>
 </entry>
 <entry count="8">
 <token>NuGet.SemanticVersion,new</token>
@@ -767,7 +775,7 @@
 <token>NuGet.PackageManager,new</token>
 <token>NuGet.IPackageRepository,GetPackages</token>
 </entry>
-<entry count="768">
+<entry count="1920">
 <token>NuGet.PackageRepositoryExtensions,FindPackage</token>
 <token>NuGet.IPackageManager,UninstallPackage</token>
 <token>NuGet.SemanticVersion,ToString</token>
@@ -782,23 +790,23 @@
 <token>NuGet.StreamExtensions,AsStream</token>
 <token>NuGet.IFileSystem,FileExists</token>
 </entry>
-<entry count="16">
+<entry count="256">
 <token>NuGet.IPackageRepository,GetPackages</token>
 <token>NuGet.PackageExtensions,IsListed</token>
+</entry>
+<entry count="32">
+<token>NuGet.PackageBuilder,Save</token>
+<token>NuGet.PackageBuilder,Save</token>
 </entry>
 <entry count="1">
 <token>NuGet.PackageExtensions,Find</token>
 <token>NuGet.PackageExtensions,FilterByPrerelease</token>
 </entry>
 <entry count="2">
-<token>i:NuGet.IPackage,</token>
-<token>NuGet.Core,</token>
-</entry>
-<entry count="2">
 <token>NuGet.IPackageFile,GetStream</token>
 <token>NuGet.StreamExtensions,ReadAllBytes</token>
 </entry>
-<entry count="17">
+<entry count="25">
 <token>NuGet.SemanticVersion,new</token>
 <token>NuGet.SemanticVersion,new</token>
 </entry>
@@ -811,6 +819,12 @@
 <token>NuGet.PackageServer,new</token>
 <token>NuGet.OptimizedZipPackage,new</token>
 <token>NuGet.PackageServer,PushPackage</token>
+</entry>
+<entry count="1">
+<token>NuGet.SemanticVersion,new</token>
+<token>NuGet.SemanticVersion,new</token>
+<token>NuGet.PackageBuilder,new</token>
+<token>NuGet.SemanticVersion,new</token>
 </entry>
 <entry count="2">
 <token>NuGet.IPackageRepository,GetPackages</token>
@@ -844,14 +858,18 @@
 <token>NuGet.PackageSource,new</token>
 <token>NuGet.PackageSource,new</token>
 </entry>
-<entry count="496">
+<entry count="2480">
 <token>NuGet.SemanticVersion,new</token>
 <token>NuGet.OptimizedZipPackage,new</token>
 </entry>
-<entry count="16">
+<entry count="384">
 <token>NuGet.PackageExtensions,IsListed</token>
 <token>NuGet.PackageExtensions,IsReleaseVersion</token>
 <token>NuGet.SemanticVersion,new</token>
+</entry>
+<entry count="12">
+<token>NuGet.IPackageFile,GetStream</token>
+<token>NuGet.IPackageFile,GetStream</token>
 </entry>
 <entry count="1">
 <token>NuGet.PackageExtensions,IsReleaseVersion</token>
@@ -861,12 +879,22 @@
 <token>NuGet.PackageManager,new</token>
 <token>NuGet.PackageRepositoryExtensions,FindPackagesById</token>
 </entry>
+<entry count="496">
+<token>NuGet.SemanticVersion,new</token>
+<token>NuGet.OptimizedZipPackage,new</token>
+<token>NuGet.OptimizedZipPackage,new</token>
+</entry>
+<entry count="4096">
+<token>NuGet.IPackageRepository,GetPackages</token>
+<token>NuGet.SemanticVersion,new</token>
+<token>NuGet.PackageRepositoryFactory,CreateRepository</token>
+</entry>
 <entry count="1">
 <token>NuGet.DefaultPackagePathResolver,new</token>
 <token>NuGet.LocalPackageRepository,new</token>
 <token>NuGet.LocalPackageRepository,GetPackageLookupPaths</token>
 </entry>
-<entry count="4">
+<entry count="8448">
 <token>NuGet.IPackageRepository,GetPackages</token>
 <token>NuGet.SemanticVersion,new</token>
 </entry>
@@ -882,7 +910,7 @@
 <token>NuGet.CryptoHashProvider,new</token>
 <token>NuGet.CryptoHashProvider,CalculateHash</token>
 </entry>
-<entry count="193">
+<entry count="49153">
 <token>NuGet.PackageManager,new</token>
 <token>NuGet.PackageManager,InstallPackage</token>
 </entry>
@@ -891,7 +919,7 @@
 <token>NuGet.SemanticVersion,new</token>
 <token>NuGet.PhysicalPackageFile,new</token>
 </entry>
-<entry count="768">
+<entry count="1920">
 <token>NuGet.PackageRepositoryExtensions,FindPackage</token>
 <token>NuGet.PackageRepositoryExtensions,FindPackage</token>
 <token>NuGet.IPackageManager,UninstallPackage</token>
@@ -909,6 +937,20 @@
 <token>NuGet.PackageManager,new</token>
 <token>NuGet.PackageRepositoryExtensions,FindPackage</token>
 </entry>
+<entry count="480">
+<token>NuGet.SemanticVersion,new</token>
+<token>NuGet.OptimizedZipPackage,new</token>
+<token>NuGet.OptimizedZipPackage,new</token>
+<token>NuGet.PackageRepositoryExtensions,FindPackage</token>
+<token>NuGet.PackageRepositoryExtensions,FindPackage</token>
+</entry>
+<entry count="128">
+<token>NuGet.PackageExtensions,IsReleaseVersion</token>
+<token>NuGet.SemanticVersion,new</token>
+<token>NuGet.PackageExtensions,IsListed</token>
+<token>NuGet.PackageExtensions,IsReleaseVersion</token>
+<token>NuGet.SemanticVersion,new</token>
+</entry>
 <entry count="4">
 <token>NuGet.SemanticVersion,Parse</token>
 <token>NuGet.SemanticVersion,Parse</token>
@@ -917,6 +959,10 @@
 <token>NuGet.Manifest,new</token>
 <token>NuGet.ManifestMetadata,new</token>
 <token>NuGet.Manifest,Save</token>
+</entry>
+<entry count="120">
+<token>NuGet.SemanticVersion,new</token>
+<token>NuGet.PackageBuilder,new</token>
 </entry>
 <entry count="1">
 <token>NuGet.PackageRepositoryFactory,CreateRepository</token>
@@ -936,15 +982,33 @@
 <token>NuGet.PackageExtensions,IsReleaseVersion</token>
 <token>NuGet.SemanticVersion,ToString</token>
 </entry>
-<entry count="768">
+<entry count="4096">
+<token>NuGet.PackageRepositoryFactory,CreateRepository</token>
+<token>NuGet.IPackageRepository,GetPackages</token>
+<token>NuGet.SemanticVersion,new</token>
+<token>NuGet.PackageRepositoryFactory,CreateRepository</token>
+<token>NuGet.IPackageRepository,GetPackages</token>
+</entry>
+<entry count="2">
+<token>NuGet.PackageExtensions,Find</token>
+<token>NuGet.BufferedEnumerable,new</token>
+</entry>
+<entry count="128">
+<token>NuGet.IPackageRepository,GetPackages</token>
+<token>NuGet.PackageExtensions,IsListed</token>
+<token>NuGet.PackageExtensions,IsReleaseVersion</token>
+<token>NuGet.SemanticVersion,new</token>
+<token>NuGet.PackageExtensions,IsListed</token>
+</entry>
+<entry count="1920">
 <token>NuGet.IPackageManager,UninstallPackage</token>
 <token>NuGet.SemanticVersion,ToString</token>
 </entry>
-<entry count="1152">
+<entry count="2880">
 <token>NuGet.PackageRepositoryExtensions,FindPackage</token>
 <token>NuGet.SemanticVersion,ToString</token>
 </entry>
-<entry count="768">
+<entry count="1920">
 <token>NuGet.PackageRepositoryExtensions,FindPackage</token>
 <token>NuGet.IPackageManager,UninstallPackage</token>
 </entry>
@@ -952,23 +1016,16 @@
 <token>NuGet.DefaultConstraintProvider,new</token>
 <token>NuGet.DefaultConstraintProvider,AddConstraint</token>
 </entry>
-<entry count="192">
+<entry count="49152">
 <token>NuGet.PackageRepositoryExtensions,FindPackagesById</token>
 <token>NuGet.PackageManager,new</token>
 <token>NuGet.PackageManager,InstallPackage</token>
 </entry>
 <entry count="1">
-<token>NuGet.BufferedEnumerable`1[[TElement</token>
-<token>-&gt;</token>
-<token>i:NuGet.IPackage,</token>
-<token>NuGet.Core,</token>
-<token>2.8.7.0]],new</token>
-</entry>
-<entry count="1">
 <token>NuGet.InstallWalker,new</token>
 <token>NuGet.PackageWalker,Walk</token>
 </entry>
-<entry count="768">
+<entry count="1920">
 <token>NuGet.PackageRepositoryExtensions,FindPackage</token>
 <token>NuGet.PackageRepositoryExtensions,FindPackage</token>
 <token>NuGet.IPackageManager,UninstallPackage</token>
@@ -989,7 +1046,7 @@
 <token>NuGet.SemanticVersion,TryParse</token>
 <token>NuGet.PackageRepositoryExtensions,FindPackage</token>
 </entry>
-<entry count="2">
+<entry count="8">
 <token>NuGet.PackageRepositoryExtensions,FindPackagesById</token>
 <token>NuGet.IPackageManager,InstallPackage</token>
 </entry>
@@ -1039,7 +1096,7 @@
 <token>NuGet.PackageRepositoryExtensions,FindPackagesById</token>
 <token>NuGet.PackageExtensions,IsListed</token>
 </entry>
-<entry count="1152">
+<entry count="2880">
 <token>NuGet.PackageRepositoryExtensions,FindPackage</token>
 <token>NuGet.PackageRepositoryExtensions,FindPackage</token>
 <token>NuGet.SemanticVersion,ToString</token>
@@ -1050,11 +1107,11 @@
 <token>NuGet.SemanticVersion,new</token>
 <token>NuGet.PackageName,new</token>
 </entry>
-<entry count="28">
+<entry count="420">
 <token>NuGet.PackageBuilder,new</token>
 <token>NuGet.PackageBuilder,Save</token>
 </entry>
-<entry count="192">
+<entry count="49152">
 <token>NuGet.PackageManager,new</token>
 <token>NuGet.PackageManager,InstallPackage</token>
 <token>NuGet.IPackageRepository,GetPackages</token>
@@ -1064,7 +1121,7 @@
 <token>NuGet.PackageRepositoryExtensions,Search</token>
 <token>NuGet.PackageRepositoryExtensions,Search</token>
 </entry>
-<entry count="768">
+<entry count="1920">
 <token>NuGet.IPackageManager,UninstallPackage</token>
 <token>NuGet.SemanticVersion,ToString</token>
 <token>NuGet.PackageRepositoryExtensions,StartOperation</token>
@@ -1075,6 +1132,11 @@
 <token>NuGet.PackageManager,new</token>
 </entry>
 <entry count="2">
+<token>NuGet.IPackageManager,InstallPackage</token>
+<token>NuGet.PackageRepositoryExtensions,FindPackagesById</token>
+<token>NuGet.IPackageManager,InstallPackage</token>
+</entry>
+<entry count="2">
 <token>NuGet.PathValidator,IsValidUrl</token>
 <token>NuGet.PathValidator,IsValidSource</token>
 <token>NuGet.PackageRepositoryFactory,CreateRepository</token>
@@ -1083,7 +1145,7 @@
 <token>NuGet.PackageExtensions,GetContentFiles</token>
 <token>NuGet.ProjectManager,ExtractPackageFilesToProject</token>
 </entry>
-<entry count="192">
+<entry count="768">
 <token>NuGet.SemanticVersion,new</token>
 <token>NuGet.OptimizedZipPackage,new</token>
 <token>NuGet.PackageRepositoryExtensions,FindPackage</token>
@@ -1103,39 +1165,50 @@
 <token>NuGet.PackageServer,PushPackage</token>
 <token>NuGet.PackageExtensions,GetFullName</token>
 </entry>
+<entry count="128">
+<token>NuGet.PackageExtensions,IsReleaseVersion</token>
+<token>NuGet.SemanticVersion,new</token>
+<token>NuGet.PackageExtensions,IsListed</token>
+<token>NuGet.PackageExtensions,IsReleaseVersion</token>
+</entry>
 <entry count="6">
 <token>NuGet.PackageSource,new</token>
 <token>NuGet.SettingValue,new</token>
 </entry>
-<entry count="1152">
+<entry count="2880">
 <token>NuGet.PackageRepositoryExtensions,FindPackage</token>
 <token>NuGet.PackageRepositoryExtensions,FindPackage</token>
 <token>NuGet.SemanticVersion,ToString</token>
 </entry>
-<entry count="17">
+<entry count="385">
 <token>NuGet.PackageExtensions,IsListed</token>
 <token>NuGet.PackageExtensions,IsReleaseVersion</token>
-</entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>i:NuGet.IPackage,</token>
-<token>NuGet.Core,</token>
-<token>2.8.60723.765]],new</token>
 </entry>
 <entry count="1">
 <token>NuGet.PackageSource,new</token>
 <token>NuGet.SemanticVersion,ToString</token>
 </entry>
-<entry count="2">
+<entry count="4096">
+<token>NuGet.SemanticVersion,new</token>
+<token>NuGet.PackageRepositoryFactory,CreateRepository</token>
+<token>NuGet.IPackageRepository,GetPackages</token>
+<token>NuGet.SemanticVersion,new</token>
+</entry>
+<entry count="4">
 <token>NuGet.PackageExtensions,GetContentFiles</token>
 <token>NuGet.IPackageFile,GetStream</token>
 <token>NuGet.ProjectManager,ExtractPackageFilesToProject</token>
 </entry>
 <entry count="4">
+<token>NuGet.PackageRepositoryExtensions,FindPackagesById</token>
+<token>NuGet.IPackageManager,InstallPackage</token>
+<token>NuGet.PackageRepositoryExtensions,FindPackagesById</token>
+</entry>
+<entry count="4">
 <token>NuGet.PackageServer,new</token>
 <token>NuGet.OptimizedZipPackage,new</token>
 </entry>
-<entry count="1152">
+<entry count="2880">
 <token>NuGet.PackageRepositoryExtensions,FindPackage</token>
 <token>NuGet.PackageRepositoryExtensions,FindPackage</token>
 <token>NuGet.SemanticVersion,ToString</token>
@@ -1147,6 +1220,12 @@
 <token>NuGet.SemanticVersion,new</token>
 <token>NuGet.PackageName,new</token>
 </entry>
+<entry count="480">
+<token>NuGet.SemanticVersion,new</token>
+<token>NuGet.OptimizedZipPackage,new</token>
+<token>NuGet.OptimizedZipPackage,new</token>
+<token>NuGet.PackageRepositoryExtensions,FindPackage</token>
+</entry>
 <entry count="2">
 <token>NuGet.PathValidator,IsValidSource</token>
 <token>NuGet.PackageRepositoryFactory,CreateRepository</token>
@@ -1155,11 +1234,7 @@
 <token>NuGet.ProjectManager,new</token>
 <token>NuGet.ProjectManager,AddPackageReference</token>
 </entry>
-<entry count="1">
-<token>NuGet.Core,</token>
-<token>2.8.60723.765]],new</token>
-</entry>
-<entry count="192">
+<entry count="960">
 <token>NuGet.OptimizedZipPackage,new</token>
 <token>NuGet.PackageRepositoryExtensions,FindPackage</token>
 <token>NuGet.PackageRepositoryExtensions,FindPackage</token>
@@ -1171,7 +1246,7 @@
 <token>NuGet.SemanticVersion,new</token>
 <token>NuGet.PackageName,new</token>
 </entry>
-<entry count="4">
+<entry count="8448">
 <token>NuGet.PackageRepositoryFactory,CreateRepository</token>
 <token>NuGet.IPackageRepository,GetPackages</token>
 <token>NuGet.SemanticVersion,new</token>
@@ -1182,24 +1257,29 @@
 <token>NuGet.PackageRepositoryFactory,CreateRepository</token>
 <token>NuGet.IPackageRepository,GetPackages</token>
 </entry>
+<entry count="8">
+<token>NuGet.SemanticVersion,new</token>
+<token>NuGet.SemanticVersion,new</token>
+<token>NuGet.PackageBuilder,new</token>
+</entry>
+<entry count="18">
+<token>NuGet.IPackageFile,GetStream</token>
+<token>NuGet.IPackage,GetFiles</token>
+</entry>
 <entry count="2">
 <token>NuGet.RedirectedHttpClient,new</token>
 <token>NuGet.DataServicePackageRepository,new</token>
 <token>NuGet.AggregateRepository,new</token>
 </entry>
-<entry count="288">
+<entry count="1440">
 <token>NuGet.OptimizedZipPackage,new</token>
 <token>NuGet.PackageRepositoryExtensions,FindPackage</token>
 <token>NuGet.PackageRepositoryExtensions,FindPackage</token>
 <token>NuGet.SemanticVersion,ToString</token>
 </entry>
-<entry count="48">
+<entry count="64">
 <token>NuGet.SemanticVersion,Parse</token>
 <token>NuGet.PackageRepositoryExtensions,FindPackage</token>
-</entry>
-<entry count="2">
-<token>-&gt;</token>
-<token>i:NuGet.IPackage,</token>
 </entry>
 <entry count="1">
 <token>NuGet.PackageRepositoryFactory,CreateRepository</token>
@@ -1217,7 +1297,7 @@
 <token>NuGet.DefaultPackagePathResolver,new</token>
 <token>NuGet.LocalPackageRepository,new</token>
 </entry>
-<entry count="864">
+<entry count="1440">
 <token>NuGet.SemanticVersion,new</token>
 <token>NuGet.PackageRepositoryExtensions,FindPackage</token>
 <token>NuGet.PackageRepositoryExtensions,FindPackage</token>
@@ -1237,7 +1317,13 @@
 <token>NuGet.SemanticVersion,new</token>
 <token>NuGet.DefaultConstraintProvider,AddConstraint</token>
 </entry>
-<entry count="5">
+<entry count="4096">
+<token>NuGet.PackageRepositoryFactory,CreateRepository</token>
+<token>NuGet.IPackageRepository,GetPackages</token>
+<token>NuGet.SemanticVersion,new</token>
+<token>NuGet.PackageRepositoryFactory,CreateRepository</token>
+</entry>
+<entry count="17">
 <token>NuGet.PackageRepositoryFactory,CreateRepository</token>
 <token>NuGet.DefaultPackagePathResolver,new</token>
 </entry>
@@ -1258,19 +1344,19 @@
 <token>NuGet.SemanticVersion,new</token>
 <token>NuGet.IPackage,GetFiles</token>
 </entry>
-<entry count="16">
+<entry count="72">
 <token>NuGet.PackageBuilder,new</token>
 <token>NuGet.SemanticVersion,new</token>
 </entry>
-<entry count="2">
-<token>NuGet.BufferedEnumerable`1[[TElement</token>
-<token>-&gt;</token>
+<entry count="128">
+<token>NuGet.SemanticVersion,new</token>
+<token>NuGet.PackageExtensions,IsListed</token>
 </entry>
 <entry count="2">
 <token>NuGet.IPackageConstraintProvider,GetConstraint</token>
 <token>NuGet.PackageRepositoryExtensions,GetUpdates</token>
 </entry>
-<entry count="864">
+<entry count="1440">
 <token>NuGet.SemanticVersion,new</token>
 <token>NuGet.PackageRepositoryExtensions,FindPackage</token>
 <token>NuGet.PackageRepositoryExtensions,FindPackage</token>
@@ -1290,14 +1376,14 @@
 <token>NuGet.PackageRepositoryExtensions,FindPackage</token>
 <token>NuGet.PackageRepositoryExtensions,FindPackagesById</token>
 </entry>
-<entry count="288">
+<entry count="1440">
 <token>NuGet.OptimizedZipPackage,new</token>
 <token>NuGet.PackageRepositoryExtensions,FindPackage</token>
 <token>NuGet.PackageRepositoryExtensions,FindPackage</token>
 <token>NuGet.SemanticVersion,ToString</token>
 <token>NuGet.PackageRepositoryExtensions,StartOperation</token>
 </entry>
-<entry count="6">
+<entry count="28">
 <token>NuGet.IPackage,GetFiles</token>
 <token>NuGet.IPackageFile,GetStream</token>
 </entry>
@@ -1308,6 +1394,19 @@
 <entry count="3">
 <token>NuGet.PackageRepositoryFactory,CreateRepository</token>
 <token>NuGet.PackageRepositoryExtensions,FindPackagesById</token>
+</entry>
+<entry count="128">
+<token>NuGet.PackageExtensions,IsListed</token>
+<token>NuGet.PackageExtensions,IsReleaseVersion</token>
+<token>NuGet.SemanticVersion,new</token>
+<token>NuGet.PackageExtensions,IsListed</token>
+</entry>
+<entry count="288">
+<token>NuGet.OptimizedZipPackage,new</token>
+<token>NuGet.OptimizedZipPackage,new</token>
+<token>NuGet.PackageRepositoryExtensions,FindPackage</token>
+<token>NuGet.PackageRepositoryExtensions,FindPackage</token>
+<token>NuGet.SemanticVersion,ToString</token>
 </entry>
 <entry count="4">
 <token>NuGet.ManifestMetadata,new</token>
@@ -1321,7 +1420,7 @@
 <token>NuGet.SemanticVersion,new</token>
 <token>NuGet.PackageManager,InstallPackage</token>
 </entry>
-<entry count="288">
+<entry count="1152">
 <token>NuGet.SemanticVersion,new</token>
 <token>NuGet.OptimizedZipPackage,new</token>
 <token>NuGet.PackageRepositoryExtensions,FindPackage</token>
@@ -1333,11 +1432,29 @@
 <token>NuGet.ProjectManager,new</token>
 <token>NuGet.ProjectManager,AddPackageReference</token>
 </entry>
+<entry count="128">
+<token>NuGet.SemanticVersion,new</token>
+<token>NuGet.PackageExtensions,IsListed</token>
+<token>NuGet.PackageExtensions,IsReleaseVersion</token>
+</entry>
+<entry count="192">
+<token>NuGet.OptimizedZipPackage,new</token>
+<token>NuGet.OptimizedZipPackage,new</token>
+<token>NuGet.PackageRepositoryExtensions,FindPackage</token>
+<token>NuGet.PackageRepositoryExtensions,FindPackage</token>
+<token>NuGet.IPackageManager,UninstallPackage</token>
+</entry>
 <entry count="1">
 <token>NuGet.ZipPackage,new</token>
 <token>NuGet.LocalPackage,GetFiles</token>
 <token>NuGet.IPackageFile,GetStream</token>
 <token>NuGet.StreamExtensions,ReadToEnd</token>
+</entry>
+<entry count="128">
+<token>NuGet.SemanticVersion,new</token>
+<token>NuGet.PackageExtensions,IsListed</token>
+<token>NuGet.PackageExtensions,IsReleaseVersion</token>
+<token>NuGet.SemanticVersion,new</token>
 </entry>
 <entry count="1">
 <token>NuGet.PackageManager,new</token>
@@ -1349,13 +1466,29 @@
 <token>NuGet.PackageHelper,ResolvePackage</token>
 <token>NuGet.IPackageManager,InstallPackage</token>
 </entry>
-<entry count="768">
+<entry count="1920">
 <token>NuGet.PackageRepositoryExtensions,FindPackage</token>
 <token>NuGet.PackageRepositoryExtensions,FindPackage</token>
 <token>NuGet.IPackageManager,UninstallPackage</token>
 </entry>
-<entry count="2">
+<entry count="4">
 <token>NuGet.IPackageFile,GetStream</token>
 <token>NuGet.ProjectManager,ExtractPackageFilesToProject</token>
+</entry>
+<entry count="15">
+<token>NuGet.SemanticVersion,new</token>
+<token>NuGet.PackageBuilder,new</token>
+<token>NuGet.SemanticVersion,new</token>
+</entry>
+<entry count="32">
+<token>NuGet.PackageBuilder,new</token>
+<token>NuGet.PackageBuilder,Save</token>
+<token>NuGet.PackageBuilder,Save</token>
+</entry>
+<entry count="4096">
+<token>NuGet.IPackageRepository,GetPackages</token>
+<token>NuGet.SemanticVersion,new</token>
+<token>NuGet.PackageRepositoryFactory,CreateRepository</token>
+<token>NuGet.IPackageRepository,GetPackages</token>
 </entry>
 </dictionary>

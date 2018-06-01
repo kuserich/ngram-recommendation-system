@@ -4,7 +4,7 @@
 <token>TSettings.Settings,Delete</token>
 <token>TSettings.Settings,Save</token>
 </entry>
-<entry count="64">
+<entry count="256">
 <token>TSettings.Settings,Init</token>
 <token>TSettings.Settings,Get</token>
 <token>TSettings.Settings,Get</token>
@@ -14,11 +14,11 @@
 <token>TSettings.Settings,Set</token>
 <token>TSettings.Settings,Set</token>
 </entry>
-<entry count="64">
+<entry count="256">
 <token>TSettings.Settings,Get</token>
 <token>TSettings.Settings,Exist</token>
 </entry>
-<entry count="64">
+<entry count="256">
 <token>TSettings.Settings,Get</token>
 <token>TSettings.Settings,Get</token>
 <token>TSettings.Settings,Set</token>
@@ -29,11 +29,18 @@
 <token>TSettings.Settings,Delete</token>
 <token>TSettings.Settings,Save</token>
 </entry>
-<entry count="32">
+<entry count="16">
+<token>TSettings.Settings,Get</token>
+<token>TSettings.Settings,Set</token>
+<token>TSettings.Settings,Save</token>
+<token>TSettings.Settings,Set</token>
+<token>TSettings.Settings,Save</token>
+</entry>
+<entry count="128">
 <token>TSettings.Settings,Exist</token>
 <token>TSettings.Settings,Get</token>
 </entry>
-<entry count="96">
+<entry count="368">
 <token>TSettings.Settings,Get</token>
 <token>TSettings.Settings,Set</token>
 <token>TSettings.Settings,Save</token>
@@ -44,204 +51,257 @@
 <token>TSettings.Settings,Set</token>
 <token>TSettings.Settings,Save</token>
 </entry>
-<entry count="64">
+<entry count="256">
 <token>TSettings.Settings,Init</token>
 <token>TSettings.Settings,Get</token>
 </entry>
-<entry count="64">
+<entry count="256">
 <token>TSettings.Settings,Set</token>
 <token>TSettings.Settings,Save</token>
 <token>TSettings.Settings,Get</token>
 <token>TSettings.Settings,Get</token>
 </entry>
-<entry count="32">
+<entry count="72">
+<token>TSettings.Settings,Get</token>
+<token>TSettings.Settings,Get</token>
+<token>TSettings.Settings,Get</token>
+<token>TSettings.Settings,Exist</token>
+<token>TSettings.Settings,Get</token>
+</entry>
+<entry count="112">
 <token>TSettings.Settings,Set</token>
 <token>TSettings.Settings,Save</token>
+<token>TSettings.Settings,Get</token>
+<token>TSettings.Settings,Set</token>
+</entry>
+<entry count="36">
+<token>TSettings.Settings,Get</token>
+<token>TSettings.Settings,Set</token>
+<token>TSettings.Settings,Set</token>
+</entry>
+<entry count="477">
+<token>TSettings.Settings,Set</token>
+<token>TSettings.Settings,Save</token>
+</entry>
+<entry count="1">
+<token>TSettings.Settings,Delete</token>
+<token>TSettings.Settings,Set</token>
+<token>TSettings.Settings,Save</token>
+</entry>
+<entry count="56">
+<token>TSettings.Settings,Save</token>
+<token>TSettings.Settings,Get</token>
+<token>TSettings.Settings,Get</token>
+<token>TSettings.Settings,Exist</token>
+<token>TSettings.Settings,Get</token>
+</entry>
+<entry count="112">
+<token>TSettings.Settings,Save</token>
+<token>TSettings.Settings,Get</token>
+<token>TSettings.Settings,Get</token>
+<token>TSettings.Settings,Exist</token>
+</entry>
+<entry count="16">
+<token>TSettings.Settings,Set</token>
+<token>TSettings.Settings,Save</token>
+<token>TSettings.Settings,Set</token>
+<token>TSettings.Settings,Save</token>
+</entry>
+<entry count="144">
+<token>TSettings.Settings,Set</token>
+<token>TSettings.Settings,Save</token>
+<token>TSettings.Settings,Get</token>
+<token>TSettings.Settings,Get</token>
+<token>TSettings.Settings,Get</token>
+</entry>
+<entry count="16">
+<token>TSettings.Settings,Save</token>
+<token>TSettings.Settings,Set</token>
+<token>TSettings.Settings,Save</token>
+</entry>
+<entry count="1">
+<token>TSettings.Settings,Delete</token>
+<token>TSettings.Settings,Set</token>
+</entry>
+<entry count="128">
+<token>TSettings.Settings,Get</token>
+<token>TSettings.Settings,Exist</token>
+<token>TSettings.Settings,Get</token>
+</entry>
+<entry count="16">
+<token>TSettings.Settings,Get</token>
+<token>TSettings.Settings,Set</token>
+<token>TSettings.Settings,Save</token>
+<token>TSettings.Settings,Set</token>
+</entry>
+<entry count="16">
+<token>TSettings.Settings,Save</token>
+<token>TSettings.Settings,Get</token>
+<token>TSettings.Settings,Set</token>
+<token>TSettings.Settings,Save</token>
+<token>TSettings.Settings,Set</token>
+</entry>
+<entry count="112">
+<token>TSettings.Settings,Set</token>
+<token>TSettings.Settings,Save</token>
+<token>TSettings.Settings,Get</token>
+<token>TSettings.Settings,Get</token>
+<token>TSettings.Settings,Exist</token>
+</entry>
+<entry count="16">
+<token>TSettings.Settings,Save</token>
+<token>TSettings.Settings,Set</token>
+<token>TSettings.Settings,Save</token>
+<token>TSettings.Settings,Get</token>
+</entry>
+<entry count="16">
+<token>TSettings.Settings,Set</token>
+<token>TSettings.Settings,Save</token>
+<token>TSettings.Settings,Set</token>
+<token>TSettings.Settings,Save</token>
+<token>TSettings.Settings,Get</token>
+</entry>
+<entry count="352">
+<token>TSettings.Settings,Get</token>
+<token>TSettings.Settings,Set</token>
+<token>TSettings.Settings,Save</token>
+<token>TSettings.Settings,Get</token>
+</entry>
+<entry count="36">
+<token>TSettings.Settings,Get</token>
+<token>TSettings.Settings,Set</token>
+<token>TSettings.Settings,Set</token>
+<token>TSettings.Settings,Set</token>
+<token>TSettings.Settings,Save</token>
+</entry>
+<entry count="144">
+<token>TSettings.Settings,Save</token>
+<token>TSettings.Settings,Get</token>
+<token>TSettings.Settings,Get</token>
+<token>TSettings.Settings,Get</token>
+</entry>
+<entry count="144">
+<token>TSettings.Settings,Get</token>
+<token>TSettings.Settings,Get</token>
+<token>TSettings.Settings,Get</token>
+<token>TSettings.Settings,Exist</token>
+</entry>
+<entry count="256">
+<token>TSettings.Settings,Get</token>
+<token>TSettings.Settings,Get</token>
+<token>TSettings.Settings,Set</token>
+</entry>
+<entry count="96">
+<token>TSettings.Settings,Save</token>
+<token>TSettings.Settings,Get</token>
+<token>TSettings.Settings,Set</token>
+<token>TSettings.Settings,Save</token>
+<token>TSettings.Settings,Get</token>
+</entry>
+<entry count="240">
+<token>TSettings.Settings,Get</token>
+<token>TSettings.Settings,Set</token>
+<token>TSettings.Settings,Save</token>
+<token>TSettings.Settings,Get</token>
+<token>TSettings.Settings,Get</token>
+</entry>
+<entry count="128">
+<token>TSettings.Settings,Get</token>
+<token>TSettings.Settings,Get</token>
+<token>TSettings.Settings,Exist</token>
+<token>TSettings.Settings,Get</token>
+</entry>
+<entry count="16">
+<token>TSettings.Settings,Save</token>
+<token>TSettings.Settings,Set</token>
+</entry>
+<entry count="112">
+<token>TSettings.Settings,Get</token>
+<token>TSettings.Settings,Set</token>
+<token>TSettings.Settings,Save</token>
+<token>TSettings.Settings,Get</token>
+<token>TSettings.Settings,Set</token>
+</entry>
+<entry count="147">
+<token>TSettings.Settings,Get</token>
+<token>TSettings.Settings,Get</token>
+<token>TSettings.Settings,Get</token>
+</entry>
+<entry count="404">
 <token>TSettings.Settings,Get</token>
 <token>TSettings.Settings,Set</token>
 </entry>
 <entry count="16">
+<token>TSettings.Settings,Set</token>
+<token>TSettings.Settings,Save</token>
+<token>TSettings.Settings,Set</token>
+</entry>
+<entry count="112">
+<token>TSettings.Settings,Save</token>
+<token>TSettings.Settings,Get</token>
+<token>TSettings.Settings,Set</token>
+</entry>
+<entry count="256">
+<token>TSettings.Settings,Init</token>
 <token>TSettings.Settings,Get</token>
 <token>TSettings.Settings,Get</token>
+<token>TSettings.Settings,Set</token>
+<token>TSettings.Settings,Save</token>
+</entry>
+<entry count="256">
+<token>TSettings.Settings,Init</token>
 <token>TSettings.Settings,Get</token>
-<token>TSettings.Settings,Exist</token>
 <token>TSettings.Settings,Get</token>
+<token>TSettings.Settings,Set</token>
+</entry>
+<entry count="112">
+<token>TSettings.Settings,Save</token>
+<token>TSettings.Settings,Get</token>
+<token>TSettings.Settings,Set</token>
+<token>TSettings.Settings,Save</token>
 </entry>
 <entry count="36">
 <token>TSettings.Settings,Get</token>
 <token>TSettings.Settings,Set</token>
 <token>TSettings.Settings,Set</token>
+<token>TSettings.Settings,Set</token>
 </entry>
-<entry count="159">
+<entry count="112">
+<token>TSettings.Settings,Set</token>
+<token>TSettings.Settings,Save</token>
+<token>TSettings.Settings,Get</token>
 <token>TSettings.Settings,Set</token>
 <token>TSettings.Settings,Save</token>
 </entry>
-<entry count="1">
-<token>TSettings.Settings,Delete</token>
+<entry count="662">
+<token>TSettings.Settings,Get</token>
+<token>TSettings.Settings,Get</token>
+</entry>
+<entry count="256">
+<token>TSettings.Settings,Get</token>
+<token>TSettings.Settings,Get</token>
 <token>TSettings.Settings,Set</token>
 <token>TSettings.Settings,Save</token>
+</entry>
+<entry count="144">
+<token>TSettings.Settings,Save</token>
+<token>TSettings.Settings,Get</token>
+<token>TSettings.Settings,Get</token>
+<token>TSettings.Settings,Get</token>
+<token>TSettings.Settings,Exist</token>
+</entry>
+<entry count="368">
+<token>TSettings.Settings,Save</token>
+<token>TSettings.Settings,Get</token>
 </entry>
 <entry count="16">
 <token>TSettings.Settings,Save</token>
-<token>TSettings.Settings,Get</token>
-<token>TSettings.Settings,Get</token>
-<token>TSettings.Settings,Exist</token>
-<token>TSettings.Settings,Get</token>
-</entry>
-<entry count="32">
-<token>TSettings.Settings,Save</token>
-<token>TSettings.Settings,Get</token>
-<token>TSettings.Settings,Get</token>
-<token>TSettings.Settings,Exist</token>
-</entry>
-<entry count="32">
-<token>TSettings.Settings,Set</token>
-<token>TSettings.Settings,Save</token>
-<token>TSettings.Settings,Get</token>
-<token>TSettings.Settings,Get</token>
-<token>TSettings.Settings,Get</token>
-</entry>
-<entry count="1">
-<token>TSettings.Settings,Delete</token>
-<token>TSettings.Settings,Set</token>
-</entry>
-<entry count="32">
-<token>TSettings.Settings,Get</token>
-<token>TSettings.Settings,Exist</token>
-<token>TSettings.Settings,Get</token>
-</entry>
-<entry count="32">
-<token>TSettings.Settings,Set</token>
-<token>TSettings.Settings,Save</token>
-<token>TSettings.Settings,Get</token>
-<token>TSettings.Settings,Get</token>
-<token>TSettings.Settings,Exist</token>
-</entry>
-<entry count="96">
-<token>TSettings.Settings,Get</token>
-<token>TSettings.Settings,Set</token>
-<token>TSettings.Settings,Save</token>
-<token>TSettings.Settings,Get</token>
-</entry>
-<entry count="36">
-<token>TSettings.Settings,Get</token>
-<token>TSettings.Settings,Set</token>
-<token>TSettings.Settings,Set</token>
-<token>TSettings.Settings,Set</token>
-<token>TSettings.Settings,Save</token>
-</entry>
-<entry count="32">
-<token>TSettings.Settings,Save</token>
-<token>TSettings.Settings,Get</token>
-<token>TSettings.Settings,Get</token>
-<token>TSettings.Settings,Get</token>
-</entry>
-<entry count="32">
-<token>TSettings.Settings,Get</token>
-<token>TSettings.Settings,Get</token>
-<token>TSettings.Settings,Get</token>
-<token>TSettings.Settings,Exist</token>
-</entry>
-<entry count="64">
-<token>TSettings.Settings,Get</token>
-<token>TSettings.Settings,Get</token>
-<token>TSettings.Settings,Set</token>
-</entry>
-<entry count="32">
-<token>TSettings.Settings,Save</token>
-<token>TSettings.Settings,Get</token>
-<token>TSettings.Settings,Set</token>
-<token>TSettings.Settings,Save</token>
-<token>TSettings.Settings,Get</token>
-</entry>
-<entry count="64">
-<token>TSettings.Settings,Get</token>
 <token>TSettings.Settings,Set</token>
 <token>TSettings.Settings,Save</token>
 <token>TSettings.Settings,Get</token>
 <token>TSettings.Settings,Get</token>
 </entry>
-<entry count="32">
-<token>TSettings.Settings,Get</token>
-<token>TSettings.Settings,Get</token>
-<token>TSettings.Settings,Exist</token>
-<token>TSettings.Settings,Get</token>
-</entry>
-<entry count="32">
-<token>TSettings.Settings,Get</token>
-<token>TSettings.Settings,Set</token>
-<token>TSettings.Settings,Save</token>
-<token>TSettings.Settings,Get</token>
-<token>TSettings.Settings,Set</token>
-</entry>
-<entry count="35">
-<token>TSettings.Settings,Get</token>
-<token>TSettings.Settings,Get</token>
-<token>TSettings.Settings,Get</token>
-</entry>
-<entry count="132">
-<token>TSettings.Settings,Get</token>
-<token>TSettings.Settings,Set</token>
-</entry>
-<entry count="32">
-<token>TSettings.Settings,Save</token>
-<token>TSettings.Settings,Get</token>
-<token>TSettings.Settings,Set</token>
-</entry>
-<entry count="64">
-<token>TSettings.Settings,Init</token>
-<token>TSettings.Settings,Get</token>
-<token>TSettings.Settings,Get</token>
-<token>TSettings.Settings,Set</token>
-<token>TSettings.Settings,Save</token>
-</entry>
-<entry count="64">
-<token>TSettings.Settings,Init</token>
-<token>TSettings.Settings,Get</token>
-<token>TSettings.Settings,Get</token>
-<token>TSettings.Settings,Set</token>
-</entry>
-<entry count="32">
-<token>TSettings.Settings,Save</token>
-<token>TSettings.Settings,Get</token>
-<token>TSettings.Settings,Set</token>
-<token>TSettings.Settings,Save</token>
-</entry>
-<entry count="36">
-<token>TSettings.Settings,Get</token>
-<token>TSettings.Settings,Set</token>
-<token>TSettings.Settings,Set</token>
-<token>TSettings.Settings,Set</token>
-</entry>
-<entry count="32">
-<token>TSettings.Settings,Set</token>
-<token>TSettings.Settings,Save</token>
-<token>TSettings.Settings,Get</token>
-<token>TSettings.Settings,Set</token>
-<token>TSettings.Settings,Save</token>
-</entry>
-<entry count="166">
-<token>TSettings.Settings,Get</token>
-<token>TSettings.Settings,Get</token>
-</entry>
-<entry count="64">
-<token>TSettings.Settings,Get</token>
-<token>TSettings.Settings,Get</token>
-<token>TSettings.Settings,Set</token>
-<token>TSettings.Settings,Save</token>
-</entry>
-<entry count="32">
-<token>TSettings.Settings,Save</token>
-<token>TSettings.Settings,Get</token>
-<token>TSettings.Settings,Get</token>
-<token>TSettings.Settings,Get</token>
-<token>TSettings.Settings,Exist</token>
-</entry>
-<entry count="96">
-<token>TSettings.Settings,Save</token>
-<token>TSettings.Settings,Get</token>
-</entry>
-<entry count="64">
+<entry count="256">
 <token>TSettings.Settings,Save</token>
 <token>TSettings.Settings,Get</token>
 <token>TSettings.Settings,Get</token>
@@ -259,12 +319,12 @@
 <token>TSettings.Settings,Set</token>
 <token>TSettings.Settings,Set</token>
 </entry>
-<entry count="96">
+<entry count="368">
 <token>TSettings.Settings,Set</token>
 <token>TSettings.Settings,Save</token>
 <token>TSettings.Settings,Get</token>
 </entry>
-<entry count="64">
+<entry count="256">
 <token>TSettings.Settings,Get</token>
 <token>TSettings.Settings,Get</token>
 <token>TSettings.Settings,Exist</token>

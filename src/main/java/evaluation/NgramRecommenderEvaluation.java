@@ -25,6 +25,7 @@ import util.Utilities;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
@@ -160,35 +161,74 @@ public class NgramRecommenderEvaluation {
                 // and if there is at least one other token next to the prediction token
                 if(sentenceTree.size() > 1 && visitor.hasEventFired()) {
                     List<List<APIToken>> sentences = sentenceTree.flatten();
+                    List<List<APIToken>> sentencesWithExpectedToken = new ArrayList<>();
                     for(List<APIToken> sentence : sentences) {
-                        System.out.println("[INFO]\t"+sentences.size()+" sentences");
+//                        System.out.println("[INFO]\t"+sentences.size()+" sentences");
                         if(sentence.get(sentence.size()-1).getType().equals(selectedAPIToken.getType())) {
                             sentence.remove(sentence.size()-1);
+                            sentencesWithExpectedToken.add(sentence);
                             
-                            System.out.println(selectedAPIToken.toString());
-                            System.out.println("\t"+sentence.toString());
+//                            System.out.println(selectedAPIToken.toString());
+//                            System.out.println("\t"+sentence.toString());
                             
-                            testWithModel(modelFile, selectedAPIToken,
-                                    sentence.subList(
-                                            Math.max(0, sentence.size()-MAX_PROXIMITY),
-                                            sentence.size()
-                                    ));
+                                    
                             break;
                         }
                     }
+                    
+                    if(sentencesWithExpectedToken.size() > 0) {
+                        List<List<APIToken>> positives = testWithModel(modelsDir+modelFile, selectedAPIToken, sentencesWithExpectedToken);
+                        System.out.println("\tfound in "+positives.size()+"/"+sentencesWithExpectedToken.size()+" ("+sentences.size()+")");
+                        for(List<APIToken> pos : positives) {
+                            System.out.println("\t\t"+pos.size());
+                        }
+                        System.out.println("[INFO]\tPredictions: "+correctlyPredicted + "/" + allPredictions + "  - (correct/all)");
+                    }
+
                     break;
                 } else {
 //                    System.out.println("[INFO]\tNo CompletionExpression and/or APITokens found.");
                 }
-            }
-
-            System.out.println("[INFO]\tPredictions: "+correctlyPredicted + "/" + allPredictions + "  - (correct/all)");
+            } 
         }
     }
     
+    private static List<List<APIToken>> testWithModel(String modelFile, APIToken expected, List<List<APIToken>> sentences) {
+        try {
+            NgramRecommenderClient nrc = new NgramRecommenderClient(modelFile);
+            List<List<APIToken>> found = new ArrayList<>();
+            for(List<APIToken> sentence : sentences) {
+                Set<Tuple<IMethodName, Double>> predictions = nrc.query(
+                        Utilities.apiSentenceToStringList(
+                                sentence.subList(
+                                    Math.max(0, sentence.size()-MAX_PROXIMITY),
+                                    sentence.size())));
+                if(predictions.size() > 0) {
+
+                    IoHelper.appendClassificationToFile("evaluation.txt",
+                            expected,
+                            (APIToken) predictions.iterator().next().getFirst());
+                    
+                    if(((APIToken) predictions.iterator().next().getFirst()).toString().equals(expected.toString())) {
+                        found.add(sentence);
+                    }
+                }
+            }
+            if(found.size() > 0) {
+                correctlyPredicted++;
+            }
+            
+            allPredictions++;
+            return found;
+        } catch(IOException e) {
+            e.printStackTrace();
+        }
+        
+        return new ArrayList<>();
+    }
 
 
-    private static void testWithModel(String modelFile, APIToken expected, List<APIToken> sentence) {
+    private static void testWithModel(String modelFile, APIToken expected, List<APIToken> sentence, boolean old) {
         try {
             NgramRecommenderClient nrc = new NgramRecommenderClient(modelFile);
             Set<Tuple<IMethodName, Double>> predictions = nrc.query(Utilities.apiSentenceToStringList(sentence));

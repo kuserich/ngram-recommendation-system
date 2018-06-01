@@ -15,7 +15,7 @@
 <token>OpenQA.Selenium.IWebElement,Click</token>
 <token>OpenQA.Selenium.By,LinkText</token>
 </entry>
-<entry count="10">
+<entry count="34">
 <token>OpenQA.Selenium.IWebDriver,Manage</token>
 <token>OpenQA.Selenium.IWebDriver,Manage</token>
 </entry>
@@ -84,7 +84,7 @@
 <token>OpenQA.Selenium.ITargetLocator,Alert</token>
 <token>OpenQA.Selenium.IAlert,Accept</token>
 </entry>
-<entry count="15">
+<entry count="41">
 <token>OpenQA.Selenium.IWebDriver,Manage</token>
 <token>OpenQA.Selenium.IOptions,Timeouts</token>
 <token>OpenQA.Selenium.ITimeouts,ImplicitlyWait</token>
@@ -116,7 +116,7 @@
 <token>OpenQA.Selenium.ISearchContext,FindElement</token>
 <token>OpenQA.Selenium.IWebElement,Click</token>
 </entry>
-<entry count="8">
+<entry count="32">
 <token>OpenQA.Selenium.IWebDriver,Manage</token>
 <token>OpenQA.Selenium.IOptions,Timeouts</token>
 <token>OpenQA.Selenium.ITimeouts,ImplicitlyWait</token>
@@ -192,7 +192,7 @@
 <token>OpenQA.Selenium.ISearchContext,FindElements</token>
 <token>OpenQA.Selenium.IWebElement,GetAttribute</token>
 </entry>
-<entry count="8">
+<entry count="32">
 <token>OpenQA.Selenium.ITimeouts,ImplicitlyWait</token>
 <token>OpenQA.Selenium.IWebDriver,Manage</token>
 <token>OpenQA.Selenium.IWebDriver,Manage</token>
@@ -298,7 +298,7 @@
 <token>OpenQA.Selenium.By,TagName</token>
 <token>OpenQA.Selenium.ISearchContext,FindElements</token>
 </entry>
-<entry count="10">
+<entry count="34">
 <token>OpenQA.Selenium.ICookieJar,DeleteAllCookies</token>
 <token>OpenQA.Selenium.IWebDriver,Manage</token>
 </entry>
@@ -443,7 +443,7 @@
 <token>OpenQA.Selenium.IWebElement,GetAttribute</token>
 <token>OpenQA.Selenium.IWebDriver,SwitchTo</token>
 </entry>
-<entry count="33">
+<entry count="59">
 <token>OpenQA.Selenium.IOptions,Timeouts</token>
 <token>OpenQA.Selenium.ITimeouts,ImplicitlyWait</token>
 </entry>
@@ -473,7 +473,7 @@
 <token>OpenQA.Selenium.IWebElement,Click</token>
 <token>OpenQA.Selenium.By,TagName</token>
 </entry>
-<entry count="8">
+<entry count="32">
 <token>OpenQA.Selenium.IOptions,Timeouts</token>
 <token>OpenQA.Selenium.ITimeouts,ImplicitlyWait</token>
 <token>OpenQA.Selenium.IWebDriver,Manage</token>
@@ -579,7 +579,7 @@
 <token>OpenQA.Selenium.By,CssSelector</token>
 <token>OpenQA.Selenium.IWebElement,Click</token>
 </entry>
-<entry count="8">
+<entry count="32">
 <token>OpenQA.Selenium.ICookieJar,DeleteAllCookies</token>
 <token>OpenQA.Selenium.IWebDriver,Manage</token>
 <token>OpenQA.Selenium.IOptions,Timeouts</token>
@@ -616,7 +616,7 @@
 <token>OpenQA.Selenium.By,Id</token>
 <token>OpenQA.Selenium.ISearchContext,FindElement</token>
 </entry>
-<entry count="15">
+<entry count="41">
 <token>OpenQA.Selenium.IWebDriver,Manage</token>
 <token>OpenQA.Selenium.IOptions,Timeouts</token>
 </entry>
@@ -632,7 +632,7 @@
 <token>OpenQA.Selenium.INavigation,GoToUrl</token>
 <token>OpenQA.Selenium.By,LinkText</token>
 </entry>
-<entry count="11">
+<entry count="35">
 <token>OpenQA.Selenium.IWebDriver,Manage</token>
 <token>OpenQA.Selenium.ICookieJar,DeleteAllCookies</token>
 </entry>
@@ -648,7 +648,7 @@
 <token>OpenQA.Selenium.By,LinkText</token>
 <token>OpenQA.Selenium.ISearchContext,FindElement</token>
 </entry>
-<entry count="9">
+<entry count="33">
 <token>OpenQA.Selenium.IWebDriver,Manage</token>
 <token>OpenQA.Selenium.IWindow,Maximize</token>
 </entry>
@@ -672,6 +672,13 @@
 <token>OpenQA.Selenium.IWebElement,SendKeys</token>
 <token>OpenQA.Selenium.IWebElement,SendKeys</token>
 </entry>
+<entry count="512">
+<token>OpenQA.Selenium.IWebElement,GetAttribute</token>
+<token>OpenQA.Selenium.IWebElement,GetAttribute</token>
+<token>OpenQA.Selenium.IWebElement,GetAttribute</token>
+<token>OpenQA.Selenium.IWebElement,GetAttribute</token>
+<token>OpenQA.Selenium.IWebElement,GetAttribute</token>
+</entry>
 <entry count="2">
 <token>OpenQA.Selenium.ISearchContext,FindElement</token>
 <token>OpenQA.Selenium.IWebElement,Click</token>
@@ -688,7 +695,7 @@
 <token>OpenQA.Selenium.ISearchContext,FindElement</token>
 <token>OpenQA.Selenium.IWebElement,Click</token>
 </entry>
-<entry count="12">
+<entry count="432">
 <token>OpenQA.Selenium.Platform,IsPlatformType</token>
 <token>OpenQA.Selenium.Platform,IsPlatformType</token>
 </entry>
@@ -751,7 +758,7 @@
 <token>OpenQA.Selenium.IWebElement,SendKeys</token>
 <token>OpenQA.Selenium.IWebElement,SendKeys</token>
 </entry>
-<entry count="8">
+<entry count="32">
 <token>OpenQA.Selenium.ITimeouts,ImplicitlyWait</token>
 <token>OpenQA.Selenium.IWebDriver,Manage</token>
 </entry>
@@ -813,7 +820,7 @@
 <token>OpenQA.Selenium.ITargetLocator,Alert</token>
 <token>OpenQA.Selenium.IAlert,Dismiss</token>
 </entry>
-<entry count="10">
+<entry count="34">
 <token>OpenQA.Selenium.ICookieJar,DeleteAllCookies</token>
 <token>OpenQA.Selenium.IWebDriver,Manage</token>
 <token>OpenQA.Selenium.IOptions,Timeouts</token>
@@ -842,7 +849,7 @@
 <token>OpenQA.Selenium.NotFoundException,new</token>
 <token>OpenQA.Selenium.IJavaScriptExecutor,ExecuteScript</token>
 </entry>
-<entry count="8">
+<entry count="32">
 <token>OpenQA.Selenium.IOptions,Timeouts</token>
 <token>OpenQA.Selenium.ITimeouts,ImplicitlyWait</token>
 <token>OpenQA.Selenium.IWebDriver,Manage</token>
@@ -876,12 +883,12 @@
 <token>OpenQA.Selenium.ISearchContext,FindElement</token>
 <token>OpenQA.Selenium.IWebElement,Click</token>
 </entry>
-<entry count="20">
+<entry count="1348">
 <token>OpenQA.Selenium.IWebElement,GetAttribute</token>
 <token>OpenQA.Selenium.IWebElement,GetAttribute</token>
 <token>OpenQA.Selenium.IWebElement,GetAttribute</token>
 </entry>
-<entry count="10">
+<entry count="34">
 <token>OpenQA.Selenium.IWebDriver,Manage</token>
 <token>OpenQA.Selenium.ICookieJar,DeleteAllCookies</token>
 <token>OpenQA.Selenium.IWebDriver,Manage</token>
@@ -896,7 +903,7 @@
 <token>OpenQA.Selenium.IWebDriver,SwitchTo</token>
 <token>OpenQA.Selenium.ITargetLocator,Frame</token>
 </entry>
-<entry count="39">
+<entry count="1794">
 <token>OpenQA.Selenium.IWebElement,GetAttribute</token>
 <token>OpenQA.Selenium.IWebElement,GetAttribute</token>
 </entry>
@@ -920,7 +927,7 @@
 <token>OpenQA.Selenium.INavigation,GoToUrl</token>
 <token>OpenQA.Selenium.IWebElement,SendKeys</token>
 </entry>
-<entry count="8">
+<entry count="32">
 <token>OpenQA.Selenium.IOptions,Timeouts</token>
 <token>OpenQA.Selenium.ITimeouts,ImplicitlyWait</token>
 <token>OpenQA.Selenium.IWebDriver,Manage</token>
@@ -935,7 +942,7 @@
 <token>OpenQA.Selenium.ISearchContext,FindElements</token>
 <token>OpenQA.Selenium.IWebElement,Click</token>
 </entry>
-<entry count="8">
+<entry count="32">
 <token>OpenQA.Selenium.ITimeouts,ImplicitlyWait</token>
 <token>OpenQA.Selenium.IWebDriver,Manage</token>
 <token>OpenQA.Selenium.IWebDriver,Manage</token>
@@ -975,7 +982,7 @@
 <token>OpenQA.Selenium.IWebElement,Click</token>
 <token>OpenQA.Selenium.By,Id</token>
 </entry>
-<entry count="8">
+<entry count="32">
 <token>OpenQA.Selenium.IWebDriver,Manage</token>
 <token>OpenQA.Selenium.IOptions,Timeouts</token>
 <token>OpenQA.Selenium.ITimeouts,ImplicitlyWait</token>
@@ -1039,7 +1046,7 @@
 <token>OpenQA.Selenium.IWebElement,Click</token>
 <token>OpenQA.Selenium.IWebElement,SendKeys</token>
 </entry>
-<entry count="8">
+<entry count="32">
 <token>OpenQA.Selenium.IWebDriver,Manage</token>
 <token>OpenQA.Selenium.IWebDriver,Manage</token>
 <token>OpenQA.Selenium.IWindow,Maximize</token>
@@ -1048,7 +1055,7 @@
 <token>OpenQA.Selenium.ITargetLocator,Alert</token>
 <token>OpenQA.Selenium.IAlert,Dismiss</token>
 </entry>
-<entry count="10">
+<entry count="34">
 <token>OpenQA.Selenium.IWebDriver,Manage</token>
 <token>OpenQA.Selenium.ICookieJar,DeleteAllCookies</token>
 <token>OpenQA.Selenium.IWebDriver,Manage</token>
@@ -1067,7 +1074,7 @@
 <token>OpenQA.Selenium.IWebElement,Click</token>
 <token>OpenQA.Selenium.By,LinkText</token>
 </entry>
-<entry count="10">
+<entry count="930">
 <token>OpenQA.Selenium.IWebElement,GetAttribute</token>
 <token>OpenQA.Selenium.IWebElement,GetAttribute</token>
 <token>OpenQA.Selenium.IWebElement,GetAttribute</token>
@@ -1079,7 +1086,7 @@
 <token>OpenQA.Selenium.ISearchContext,FindElements</token>
 <token>OpenQA.Selenium.IWebElement,GetAttribute</token>
 </entry>
-<entry count="6">
+<entry count="216">
 <token>OpenQA.Selenium.Platform,IsPlatformType</token>
 <token>OpenQA.Selenium.Platform,IsPlatformType</token>
 <token>OpenQA.Selenium.Platform,IsPlatformType</token>
@@ -1092,7 +1099,7 @@
 <token>OpenQA.Selenium.IWebElement,Clear</token>
 <token>OpenQA.Selenium.By,Id</token>
 </entry>
-<entry count="10">
+<entry count="34">
 <token>OpenQA.Selenium.IWebDriver,Manage</token>
 <token>OpenQA.Selenium.ICookieJar,DeleteAllCookies</token>
 <token>OpenQA.Selenium.IWebDriver,Manage</token>
@@ -1113,7 +1120,7 @@
 <token>OpenQA.Selenium.ISearchContext,FindElements</token>
 <token>OpenQA.Selenium.By,ToString</token>
 </entry>
-<entry count="10">
+<entry count="34">
 <token>OpenQA.Selenium.ICookieJar,DeleteAllCookies</token>
 <token>OpenQA.Selenium.IWebDriver,Manage</token>
 <token>OpenQA.Selenium.IOptions,Timeouts</token>

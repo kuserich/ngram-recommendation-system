@@ -3,15 +3,40 @@
 <token>Microsoft.Azure.Common.Authentication.ServicePrincipalKeyStore,GetKey</token>
 <token>Microsoft.Azure.Common.Authentication.ServicePrincipalKeyStore,DeleteKey</token>
 </entry>
-<entry count="114">
+<entry count="38">
+<token>Microsoft.Azure.Common.Authentication.FileUtilities,IsValidDirectoryPath</token>
+<token>Microsoft.Azure.Common.Authentication.IDataStore,CreateDirectory</token>
+<token>Microsoft.Azure.Common.Authentication.FileUtilities,IsValidDirectoryPath</token>
+<token>Microsoft.Azure.Common.Authentication.IDataStore,CreateDirectory</token>
+<token>Microsoft.Azure.Common.Authentication.IDataStore,WriteFile</token>
+</entry>
+<entry count="38">
+<token>Microsoft.Azure.Common.Authentication.IDataStore,CreateDirectory</token>
+<token>Microsoft.Azure.Common.Authentication.FileUtilities,IsValidDirectoryPath</token>
+<token>Microsoft.Azure.Common.Authentication.IDataStore,CreateDirectory</token>
+<token>Microsoft.Azure.Common.Authentication.IDataStore,WriteFile</token>
+</entry>
+<entry count="672">
+<token>Microsoft.Azure.Common.Authentication.IDataStore,ReadFileAsText</token>
+<token>Microsoft.Azure.Common.Authentication.IDataStore,ReadFileAsText</token>
+<token>Microsoft.Azure.Common.Authentication.IDataStore,ReadFileAsText</token>
+</entry>
+<entry count="190">
 <token>Microsoft.Azure.Common.Authentication.IDataStore,CreateDirectory</token>
 <token>Microsoft.Azure.Common.Authentication.FileUtilities,IsValidDirectoryPath</token>
 </entry>
-<entry count="114">
+<entry count="38">
+<token>Microsoft.Azure.Common.Authentication.IDataStore,CreateDirectory</token>
+<token>Microsoft.Azure.Common.Authentication.FileUtilities,IsValidDirectoryPath</token>
+<token>Microsoft.Azure.Common.Authentication.IDataStore,CreateDirectory</token>
+<token>Microsoft.Azure.Common.Authentication.IDataStore,WriteFile</token>
+<token>Microsoft.Azure.Common.Authentication.IDataStore,FileExists</token>
+</entry>
+<entry count="380">
 <token>Microsoft.Azure.Common.Authentication.FileUtilities,IsValidDirectoryPath</token>
 <token>Microsoft.Azure.Common.Authentication.IDataStore,CreateDirectory</token>
 </entry>
-<entry count="228">
+<entry count="760">
 <token>Microsoft.Azure.Common.Authentication.FileUtilities,IsValidDirectoryPath</token>
 <token>Microsoft.Azure.Common.Authentication.IDataStore,WriteFile</token>
 </entry>
@@ -48,7 +73,7 @@
 <token>Microsoft.Azure.Common.Authentication.Validate,ValidateDirectoryFull</token>
 <token>Microsoft.Azure.Common.Authentication.IDataStore,WriteFile</token>
 </entry>
-<entry count="4">
+<entry count="8">
 <token>Microsoft.Azure.Common.Authentication.Validate,ValidateNullArgument</token>
 <token>Microsoft.Azure.Common.Authentication.Validate,ValidateStringIsNullOrEmpty</token>
 <token>Microsoft.Azure.Common.Authentication.Validate,ValidateFileFull</token>
@@ -57,7 +82,7 @@
 <token>Microsoft.Azure.Common.Authentication.IDataStore,WriteFile</token>
 <token>Microsoft.Azure.Common.Authentication.IDataStore,WriteFile</token>
 </entry>
-<entry count="121">
+<entry count="767">
 <token>Microsoft.Azure.Common.Authentication.FileUtilities,IsValidDirectoryPath</token>
 <token>Microsoft.Azure.Common.Authentication.FileUtilities,IsValidDirectoryPath</token>
 </entry>
@@ -66,7 +91,7 @@
 <token>Microsoft.Azure.Common.Authentication.IDataStore,CreateDirectory</token>
 <token>Microsoft.Azure.Common.Authentication.IDataStore,WriteFile</token>
 </entry>
-<entry count="48">
+<entry count="72">
 <token>Microsoft.Azure.Common.Authentication.IAuthenticationFactory,GetSubscriptionCloudCredentials</token>
 <token>Microsoft.Azure.Common.Authentication.IClientFactory,CreateCustomClient</token>
 </entry>
@@ -76,7 +101,7 @@
 <token>Microsoft.Azure.Common.Authentication.ServicePrincipalKeyStore,GetKey</token>
 <token>Microsoft.Azure.Common.Authentication.ServicePrincipalKeyStore,GetKey</token>
 </entry>
-<entry count="4">
+<entry count="8">
 <token>Microsoft.Azure.Common.Authentication.Validate,ValidateStringIsNullOrEmpty</token>
 <token>Microsoft.Azure.Common.Authentication.Validate,ValidateFileFull</token>
 <token>Microsoft.Azure.Common.Authentication.Validate,ValidateStringIsNullOrEmpty</token>
@@ -134,13 +159,13 @@
 <token>Microsoft.Azure.Common.Authentication.Validate,ValidateFileFull</token>
 <token>Microsoft.Azure.Common.Authentication.IDataStore,ReadFileAsText</token>
 </entry>
-<entry count="114">
+<entry count="152">
 <token>Microsoft.Azure.Common.Authentication.FileUtilities,IsValidDirectoryPath</token>
 <token>Microsoft.Azure.Common.Authentication.IDataStore,CreateDirectory</token>
 <token>Microsoft.Azure.Common.Authentication.FileUtilities,IsValidDirectoryPath</token>
 <token>Microsoft.Azure.Common.Authentication.IDataStore,WriteFile</token>
 </entry>
-<entry count="228">
+<entry count="760">
 <token>Microsoft.Azure.Common.Authentication.FileUtilities,IsValidDirectoryPath</token>
 <token>Microsoft.Azure.Common.Authentication.IDataStore,WriteFile</token>
 <token>Microsoft.Azure.Common.Authentication.IDataStore,FileExists</token>
@@ -156,16 +181,16 @@
 <token>Microsoft.Azure.Common.Authentication.Validate,ValidateFileFull</token>
 <token>Microsoft.Azure.Common.Authentication.XmlUtilities,DeserializeXmlFile</token>
 </entry>
-<entry count="114">
+<entry count="608">
 <token>Microsoft.Azure.Common.Authentication.FileUtilities,IsValidDirectoryPath</token>
 <token>Microsoft.Azure.Common.Authentication.FileUtilities,IsValidDirectoryPath</token>
 <token>Microsoft.Azure.Common.Authentication.IDataStore,WriteFile</token>
 </entry>
-<entry count="127">
+<entry count="10948">
 <token>Microsoft.Azure.Common.Authentication.IDataStore,ReadFileAsText</token>
 <token>Microsoft.Azure.Common.Authentication.IDataStore,ReadFileAsText</token>
 </entry>
-<entry count="4">
+<entry count="8">
 <token>Microsoft.Azure.Common.Authentication.Validate,ValidateNullArgument</token>
 <token>Microsoft.Azure.Common.Authentication.Validate,ValidateStringIsNullOrEmpty</token>
 <token>Microsoft.Azure.Common.Authentication.Validate,ValidateFileFull</token>
@@ -188,9 +213,26 @@
 <token>Microsoft.Azure.Common.Authentication.IDataStore,CopyFile</token>
 <token>Microsoft.Azure.Common.Authentication.IDataStore,DeleteFile</token>
 </entry>
+<entry count="38">
+<token>Microsoft.Azure.Common.Authentication.IDataStore,CreateDirectory</token>
+<token>Microsoft.Azure.Common.Authentication.FileUtilities,IsValidDirectoryPath</token>
+<token>Microsoft.Azure.Common.Authentication.IDataStore,CreateDirectory</token>
+</entry>
 <entry count="100">
 <token>Microsoft.Azure.Common.Authentication.IDataStore,DirectoryExists</token>
 <token>Microsoft.Azure.Common.Authentication.IDataStore,CreateDirectory</token>
+</entry>
+<entry count="190">
+<token>Microsoft.Azure.Common.Authentication.FileUtilities,IsValidDirectoryPath</token>
+<token>Microsoft.Azure.Common.Authentication.IDataStore,CreateDirectory</token>
+<token>Microsoft.Azure.Common.Authentication.IDataStore,WriteFile</token>
+<token>Microsoft.Azure.Common.Authentication.IDataStore,FileExists</token>
+</entry>
+<entry count="16">
+<token>Microsoft.Azure.Common.Authentication.IDataStore,ReadFileAsText</token>
+<token>Microsoft.Azure.Common.Authentication.IDataStore,ReadFileAsText</token>
+<token>Microsoft.Azure.Common.Authentication.IDataStore,ReadFileAsText</token>
+<token>Microsoft.Azure.Common.Authentication.IDataStore,ReadFileAsText</token>
 </entry>
 <entry count="2">
 <token>Microsoft.Azure.Common.Authentication.IClientFactory,CreateClient</token>
@@ -236,7 +278,7 @@
 <token>Microsoft.Azure.Common.Authentication.XmlUtilities,DeserializeXmlFile</token>
 <token>Microsoft.Azure.Common.Authentication.XmlUtilities,DeserializeXmlFile</token>
 </entry>
-<entry count="114">
+<entry count="152">
 <token>Microsoft.Azure.Common.Authentication.IDataStore,CreateDirectory</token>
 <token>Microsoft.Azure.Common.Authentication.FileUtilities,IsValidDirectoryPath</token>
 <token>Microsoft.Azure.Common.Authentication.IDataStore,WriteFile</token>
@@ -246,9 +288,14 @@
 <token>Microsoft.Azure.Common.Authentication.IDataStore,FileExists</token>
 <token>Microsoft.Azure.Common.Authentication.IDataStore,ReadFileAsText</token>
 </entry>
-<entry count="8">
+<entry count="1296">
 <token>Microsoft.Azure.Common.Authentication.FileUtilities,GetContentFilePath</token>
 <token>Microsoft.Azure.Common.Authentication.FileUtilities,DirectoryCopy</token>
+</entry>
+<entry count="190">
+<token>Microsoft.Azure.Common.Authentication.FileUtilities,IsValidDirectoryPath</token>
+<token>Microsoft.Azure.Common.Authentication.IDataStore,CreateDirectory</token>
+<token>Microsoft.Azure.Common.Authentication.IDataStore,WriteFile</token>
 </entry>
 <entry count="2">
 <token>Microsoft.Azure.Common.Authentication.Validate,ValidateStringIsNullOrEmpty</token>
@@ -264,6 +311,17 @@
 <token>Microsoft.Azure.Common.Authentication.ServicePrincipalKeyStore,GetKey</token>
 <token>Microsoft.Azure.Common.Authentication.ServicePrincipalKeyStore,DeleteKey</token>
 </entry>
+<entry count="5">
+<token>Microsoft.Azure.Common.Authentication.FileUtilities,GetAssemblyDirectory</token>
+<token>Microsoft.Azure.Common.Authentication.FileUtilities,GetAssemblyDirectory</token>
+</entry>
+<entry count="152">
+<token>Microsoft.Azure.Common.Authentication.FileUtilities,IsValidDirectoryPath</token>
+<token>Microsoft.Azure.Common.Authentication.FileUtilities,IsValidDirectoryPath</token>
+<token>Microsoft.Azure.Common.Authentication.IDataStore,CreateDirectory</token>
+<token>Microsoft.Azure.Common.Authentication.IDataStore,WriteFile</token>
+<token>Microsoft.Azure.Common.Authentication.IDataStore,FileExists</token>
+</entry>
 <entry count="330">
 <token>Microsoft.Azure.Common.Authentication.IDataStore,CopyFile</token>
 <token>Microsoft.Azure.Common.Authentication.IDataStore,FileExists</token>
@@ -276,7 +334,7 @@
 <token>Microsoft.Azure.Common.Authentication.FileUtilities,GetAssemblyDirectory</token>
 <token>Microsoft.Azure.Common.Authentication.FileUtilities,GetWithProgramFilesPath</token>
 </entry>
-<entry count="4">
+<entry count="8">
 <token>Microsoft.Azure.Common.Authentication.Validate,ValidateStringIsNullOrEmpty</token>
 <token>Microsoft.Azure.Common.Authentication.Validate,ValidateFileFull</token>
 </entry>
@@ -327,7 +385,7 @@
 <token>Microsoft.Azure.Common.Authentication.IDataStore,FileExists</token>
 <token>Microsoft.Azure.Common.Authentication.IDataStore,RenameFile</token>
 </entry>
-<entry count="4">
+<entry count="5">
 <token>Microsoft.Azure.Common.Authentication.IClientFactory,CreateClient</token>
 <token>Microsoft.Azure.Common.Authentication.IClientFactory,CreateClient</token>
 <token>Microsoft.Azure.Common.Authentication.IClientFactory,CreateClient</token>
@@ -352,7 +410,7 @@
 <token>Microsoft.Azure.Common.Authentication.IDataStore,DirectoryExists</token>
 <token>Microsoft.Azure.Common.Authentication.IDataStore,WriteFile</token>
 </entry>
-<entry count="114">
+<entry count="190">
 <token>Microsoft.Azure.Common.Authentication.FileUtilities,IsValidDirectoryPath</token>
 <token>Microsoft.Azure.Common.Authentication.IDataStore,CreateDirectory</token>
 <token>Microsoft.Azure.Common.Authentication.FileUtilities,IsValidDirectoryPath</token>
@@ -372,13 +430,19 @@
 <token>Microsoft.Azure.Common.Authentication.XmlUtilities,DeserializeXmlFile</token>
 <token>Microsoft.Azure.Common.Authentication.XmlUtilities,DeserializeXmlFile</token>
 </entry>
+<entry count="152">
+<token>Microsoft.Azure.Common.Authentication.FileUtilities,IsValidDirectoryPath</token>
+<token>Microsoft.Azure.Common.Authentication.FileUtilities,IsValidDirectoryPath</token>
+<token>Microsoft.Azure.Common.Authentication.IDataStore,CreateDirectory</token>
+<token>Microsoft.Azure.Common.Authentication.IDataStore,WriteFile</token>
+</entry>
 <entry count="2">
 <token>Microsoft.Azure.Common.Authentication.Validate,ValidateDirectoryFull</token>
 <token>Microsoft.Azure.Common.Authentication.Validate,ValidateStringIsNullOrEmpty</token>
 <token>Microsoft.Azure.Common.Authentication.Validate,ValidateFileName</token>
 <token>Microsoft.Azure.Common.Authentication.Validate,ValidateDnsName</token>
 </entry>
-<entry count="114">
+<entry count="152">
 <token>Microsoft.Azure.Common.Authentication.FileUtilities,IsValidDirectoryPath</token>
 <token>Microsoft.Azure.Common.Authentication.IDataStore,CreateDirectory</token>
 <token>Microsoft.Azure.Common.Authentication.FileUtilities,IsValidDirectoryPath</token>
@@ -396,13 +460,17 @@
 <token>Microsoft.Azure.Common.Authentication.IDataStore,FileExists</token>
 <token>Microsoft.Azure.Common.Authentication.IDataStore,RenameFile</token>
 </entry>
-<entry count="114">
+<entry count="33">
+<token>Microsoft.Azure.Common.Authentication.ProtectedFileTokenCache,new</token>
+<token>Microsoft.Azure.Common.Authentication.ProtectedFileTokenCache,new</token>
+</entry>
+<entry count="608">
 <token>Microsoft.Azure.Common.Authentication.FileUtilities,IsValidDirectoryPath</token>
 <token>Microsoft.Azure.Common.Authentication.FileUtilities,IsValidDirectoryPath</token>
 <token>Microsoft.Azure.Common.Authentication.IDataStore,WriteFile</token>
 <token>Microsoft.Azure.Common.Authentication.IDataStore,FileExists</token>
 </entry>
-<entry count="114">
+<entry count="152">
 <token>Microsoft.Azure.Common.Authentication.IDataStore,CreateDirectory</token>
 <token>Microsoft.Azure.Common.Authentication.FileUtilities,IsValidDirectoryPath</token>
 <token>Microsoft.Azure.Common.Authentication.IDataStore,WriteFile</token>
@@ -436,14 +504,25 @@
 <token>Microsoft.Azure.Common.Authentication.ServicePrincipalKeyStore,GetKey</token>
 <token>Microsoft.Azure.Common.Authentication.ServicePrincipalKeyStore,GetKey</token>
 </entry>
+<entry count="38">
+<token>Microsoft.Azure.Common.Authentication.FileUtilities,IsValidDirectoryPath</token>
+<token>Microsoft.Azure.Common.Authentication.IDataStore,CreateDirectory</token>
+<token>Microsoft.Azure.Common.Authentication.FileUtilities,IsValidDirectoryPath</token>
+<token>Microsoft.Azure.Common.Authentication.IDataStore,CreateDirectory</token>
+</entry>
 <entry count="1">
 <token>Microsoft.Azure.Common.Authentication.ServicePrincipalKeyStore,GetKey</token>
 <token>Microsoft.Azure.Common.Authentication.ServicePrincipalKeyStore,DeleteKey</token>
 <token>Microsoft.Azure.Common.Authentication.ServicePrincipalKeyStore,DeleteKey</token>
 </entry>
-<entry count="158">
+<entry count="38508">
 <token>Microsoft.Azure.Common.Authentication.IClientFactory,CreateClient</token>
 <token>Microsoft.Azure.Common.Authentication.IClientFactory,CreateClient</token>
+</entry>
+<entry count="190">
+<token>Microsoft.Azure.Common.Authentication.IDataStore,CreateDirectory</token>
+<token>Microsoft.Azure.Common.Authentication.IDataStore,WriteFile</token>
+<token>Microsoft.Azure.Common.Authentication.IDataStore,FileExists</token>
 </entry>
 <entry count="1">
 <token>Microsoft.Azure.Common.Authentication.Validate,ValidateNullArgument</token>
@@ -483,6 +562,11 @@
 <token>Microsoft.Azure.Common.Authentication.Validate,ValidateFileFull</token>
 <token>Microsoft.Azure.Common.Authentication.XmlUtilities,DeserializeXmlFile</token>
 <token>Microsoft.Azure.Common.Authentication.XmlUtilities,DeserializeXmlFile</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Azure.Common.Authentication.FileUtilities,GetAssemblyDirectory</token>
+<token>Microsoft.Azure.Common.Authentication.FileUtilities,GetAssemblyDirectory</token>
+<token>Microsoft.Azure.Common.Authentication.FileUtilities,GetAssemblyDirectory</token>
 </entry>
 <entry count="6">
 <token>Microsoft.Azure.Common.Authentication.IDataStore,GetFiles</token>
@@ -498,11 +582,11 @@
 <token>Microsoft.Azure.Common.Authentication.ServicePrincipalKeyStore,SaveKey</token>
 <token>Microsoft.Azure.Common.Authentication.ServicePrincipalKeyStore,GetKey</token>
 </entry>
-<entry count="4">
+<entry count="8">
 <token>Microsoft.Azure.Common.Authentication.Validate,ValidateNullArgument</token>
 <token>Microsoft.Azure.Common.Authentication.Validate,ValidateStringIsNullOrEmpty</token>
 </entry>
-<entry count="2">
+<entry count="37513">
 <token>Microsoft.Azure.Common.Authentication.IClientFactory,CreateCustomClient</token>
 <token>Microsoft.Azure.Common.Authentication.IClientFactory,CreateCustomClient</token>
 </entry>
@@ -524,7 +608,7 @@
 <token>Microsoft.Azure.Common.Authentication.Validate,ValidateStringIsNullOrEmpty</token>
 <token>Microsoft.Azure.Common.Authentication.Validate,ValidatePathName</token>
 </entry>
-<entry count="4">
+<entry count="8">
 <token>Microsoft.Azure.Common.Authentication.Validate,ValidateFileFull</token>
 <token>Microsoft.Azure.Common.Authentication.Validate,ValidateStringIsNullOrEmpty</token>
 </entry>
@@ -574,7 +658,7 @@
 <token>Microsoft.Azure.Common.Authentication.Validate,ValidateNullArgument</token>
 <token>Microsoft.Azure.Common.Authentication.Validate,ValidateNullArgument</token>
 </entry>
-<entry count="65">
+<entry count="255">
 <token>Microsoft.Azure.Common.Authentication.IDataStore,CreateDirectory</token>
 <token>Microsoft.Azure.Common.Authentication.IDataStore,WriteFile</token>
 </entry>
@@ -589,9 +673,18 @@
 <token>Microsoft.Azure.Common.Authentication.ServicePrincipalKeyStore,DeleteKey</token>
 <token>Microsoft.Azure.Common.Authentication.ServicePrincipalKeyStore,DeleteKey</token>
 </entry>
-<entry count="229">
+<entry count="951">
 <token>Microsoft.Azure.Common.Authentication.IDataStore,WriteFile</token>
 <token>Microsoft.Azure.Common.Authentication.IDataStore,FileExists</token>
+</entry>
+<entry count="152">
+<token>Microsoft.Azure.Common.Authentication.FileUtilities,IsValidDirectoryPath</token>
+<token>Microsoft.Azure.Common.Authentication.FileUtilities,IsValidDirectoryPath</token>
+<token>Microsoft.Azure.Common.Authentication.IDataStore,CreateDirectory</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Azure.Common.Authentication.IAuthenticationFactory,Authenticate</token>
+<token>Microsoft.Azure.Common.Authentication.IAuthenticationFactory,Authenticate</token>
 </entry>
 <entry count="4">
 <token>Microsoft.Azure.Common.Authentication.IDataStore,GetFiles</token>

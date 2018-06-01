@@ -4,10 +4,31 @@
 <token>SchwabenCode.QuickIO.QuickIOFile,Exists</token>
 <token>SchwabenCode.QuickIO.QuickIOFile,Delete</token>
 </entry>
-<entry count="21">
+<entry count="54">
+<token>SchwabenCode.QuickIO.QuickIOFile,Create</token>
+<token>SchwabenCode.QuickIO.QuickIOFile,Open</token>
+<token>SchwabenCode.QuickIO.QuickIODirectory,Exists</token>
+<token>SchwabenCode.QuickIO.QuickIOFile,Exists</token>
+<token>SchwabenCode.QuickIO.QuickIOFile,SetAttributes</token>
+</entry>
+<entry count="255">
 <token>SchwabenCode.QuickIO.QuickIOFile,Exists</token>
 <token>SchwabenCode.QuickIO.QuickIOFile,SetAttributes</token>
 <token>SchwabenCode.QuickIO.QuickIOFile,Delete</token>
+</entry>
+<entry count="63">
+<token>SchwabenCode.QuickIO.QuickIOFile,Delete</token>
+<token>SchwabenCode.QuickIO.QuickIOFile,Create</token>
+<token>SchwabenCode.QuickIO.QuickIOFile,Open</token>
+<token>SchwabenCode.QuickIO.QuickIODirectory,Exists</token>
+<token>SchwabenCode.QuickIO.QuickIODirectory,Create</token>
+</entry>
+<entry count="54">
+<token>SchwabenCode.QuickIO.QuickIOFile,Open</token>
+<token>SchwabenCode.QuickIO.QuickIODirectory,Exists</token>
+<token>SchwabenCode.QuickIO.QuickIOFile,Exists</token>
+<token>SchwabenCode.QuickIO.QuickIOFile,Create</token>
+<token>SchwabenCode.QuickIO.QuickIOFile,Open</token>
 </entry>
 <entry count="24">
 <token>SchwabenCode.QuickIO.QuickIODirectory,Exists</token>
@@ -16,26 +37,33 @@
 <token>SchwabenCode.QuickIO.QuickIODirectory,EnumerateFilePaths</token>
 <token>SchwabenCode.QuickIO.QuickIODirectory,Delete</token>
 </entry>
-<entry count="9">
+<entry count="63">
 <token>SchwabenCode.QuickIO.QuickIODirectory,Create</token>
 <token>SchwabenCode.QuickIO.QuickIOFile,Exists</token>
 <token>SchwabenCode.QuickIO.QuickIOFile,SetAttributes</token>
 </entry>
-<entry count="9">
+<entry count="63">
 <token>SchwabenCode.QuickIO.QuickIODirectory,Exists</token>
 <token>SchwabenCode.QuickIO.QuickIODirectory,Create</token>
 <token>SchwabenCode.QuickIO.QuickIOFile,Exists</token>
 <token>SchwabenCode.QuickIO.QuickIOFile,SetAttributes</token>
 </entry>
-<entry count="18">
+<entry count="252">
 <token>SchwabenCode.QuickIO.QuickIOFile,Delete</token>
 <token>SchwabenCode.QuickIO.QuickIOFile,Create</token>
 </entry>
-<entry count="18">
+<entry count="252">
 <token>SchwabenCode.QuickIO.QuickIOFile,SetAttributes</token>
 <token>SchwabenCode.QuickIO.QuickIOFile,Delete</token>
 <token>SchwabenCode.QuickIO.QuickIOFile,Create</token>
 <token>SchwabenCode.QuickIO.QuickIOFile,Open</token>
+</entry>
+<entry count="54">
+<token>SchwabenCode.QuickIO.QuickIOFile,Open</token>
+<token>SchwabenCode.QuickIO.QuickIODirectory,Exists</token>
+<token>SchwabenCode.QuickIO.QuickIODirectory,Create</token>
+<token>SchwabenCode.QuickIO.QuickIOFile,Exists</token>
+<token>SchwabenCode.QuickIO.QuickIOFile,Create</token>
 </entry>
 <entry count="24">
 <token>SchwabenCode.QuickIO.QuickIODirectoryInfo,new</token>
@@ -48,7 +76,7 @@
 <token>SchwabenCode.QuickIO.QuickIODirectoryInfo,new</token>
 <token>SchwabenCode.QuickIO.QuickIODirectory,EnumerateFilePaths</token>
 </entry>
-<entry count="18">
+<entry count="126">
 <token>SchwabenCode.QuickIO.QuickIODirectory,Exists</token>
 <token>SchwabenCode.QuickIO.QuickIOFile,Exists</token>
 </entry>
@@ -56,33 +84,51 @@
 <token>SchwabenCode.QuickIO.QuickIODirectoryInfo,new</token>
 <token>SchwabenCode.QuickIO.QuickIODirectory,EnumerateFilePaths</token>
 </entry>
-<entry count="18">
+<entry count="252">
 <token>SchwabenCode.QuickIO.QuickIOFile,Delete</token>
 <token>SchwabenCode.QuickIO.QuickIOFile,Create</token>
 <token>SchwabenCode.QuickIO.QuickIOFile,Open</token>
 </entry>
-<entry count="9">
+<entry count="126">
+<token>SchwabenCode.QuickIO.QuickIOFile,Open</token>
+<token>SchwabenCode.QuickIO.QuickIODirectory,Exists</token>
+<token>SchwabenCode.QuickIO.QuickIODirectory,Create</token>
+</entry>
+<entry count="63">
 <token>SchwabenCode.QuickIO.QuickIODirectory,Exists</token>
 <token>SchwabenCode.QuickIO.QuickIODirectory,Create</token>
 <token>SchwabenCode.QuickIO.QuickIOFile,Exists</token>
 <token>SchwabenCode.QuickIO.QuickIOFile,Create</token>
 </entry>
-<entry count="9">
+<entry count="63">
 <token>SchwabenCode.QuickIO.QuickIODirectory,Create</token>
 <token>SchwabenCode.QuickIO.QuickIOFile,Exists</token>
 <token>SchwabenCode.QuickIO.QuickIOFile,Create</token>
 <token>SchwabenCode.QuickIO.QuickIOFile,Open</token>
 </entry>
-<entry count="21">
+<entry count="63">
+<token>SchwabenCode.QuickIO.QuickIOFile,Exists</token>
+<token>SchwabenCode.QuickIO.QuickIOFile,Create</token>
+<token>SchwabenCode.QuickIO.QuickIOFile,Open</token>
+<token>SchwabenCode.QuickIO.QuickIODirectory,Exists</token>
+<token>SchwabenCode.QuickIO.QuickIODirectory,Create</token>
+</entry>
+<entry count="255">
 <token>SchwabenCode.QuickIO.QuickIOFile,SetAttributes</token>
 <token>SchwabenCode.QuickIO.QuickIOFile,Delete</token>
 </entry>
-<entry count="9">
+<entry count="63">
 <token>SchwabenCode.QuickIO.QuickIODirectory,Exists</token>
 <token>SchwabenCode.QuickIO.QuickIOFile,Exists</token>
 <token>SchwabenCode.QuickIO.QuickIOFile,SetAttributes</token>
 </entry>
-<entry count="9">
+<entry count="54">
+<token>SchwabenCode.QuickIO.QuickIOFile,Open</token>
+<token>SchwabenCode.QuickIO.QuickIODirectory,Exists</token>
+<token>SchwabenCode.QuickIO.QuickIOFile,Exists</token>
+<token>SchwabenCode.QuickIO.QuickIOFile,SetAttributes</token>
+</entry>
+<entry count="63">
 <token>SchwabenCode.QuickIO.QuickIODirectory,Exists</token>
 <token>SchwabenCode.QuickIO.QuickIOFile,Exists</token>
 <token>SchwabenCode.QuickIO.QuickIOFile,Create</token>
@@ -94,33 +140,55 @@
 <token>SchwabenCode.QuickIO.QuickIODirectoryInfo,new</token>
 <token>SchwabenCode.QuickIO.QuickIODirectoryInfo,new</token>
 </entry>
-<entry count="9">
+<entry count="63">
 <token>SchwabenCode.QuickIO.QuickIODirectory,Exists</token>
 <token>SchwabenCode.QuickIO.QuickIOFile,Exists</token>
 <token>SchwabenCode.QuickIO.QuickIOFile,SetAttributes</token>
 <token>SchwabenCode.QuickIO.QuickIOFile,Delete</token>
 <token>SchwabenCode.QuickIO.QuickIOFile,Create</token>
 </entry>
-<entry count="9">
+<entry count="63">
 <token>SchwabenCode.QuickIO.QuickIODirectory,Create</token>
 <token>SchwabenCode.QuickIO.QuickIOFile,Exists</token>
 <token>SchwabenCode.QuickIO.QuickIOFile,SetAttributes</token>
 <token>SchwabenCode.QuickIO.QuickIOFile,Delete</token>
+</entry>
+<entry count="252">
+<token>SchwabenCode.QuickIO.QuickIOFile,Open</token>
+<token>SchwabenCode.QuickIO.QuickIODirectory,Exists</token>
 </entry>
 <entry count="12">
 <token>SchwabenCode.QuickIO.QuickIOFile,Exists</token>
 <token>SchwabenCode.QuickIO.QuickIOFile,Exists</token>
 </entry>
-<entry count="9">
+<entry count="63">
 <token>SchwabenCode.QuickIO.QuickIODirectory,Create</token>
 <token>SchwabenCode.QuickIO.QuickIOFile,Exists</token>
 <token>SchwabenCode.QuickIO.QuickIOFile,SetAttributes</token>
 <token>SchwabenCode.QuickIO.QuickIOFile,Delete</token>
 <token>SchwabenCode.QuickIO.QuickIOFile,Create</token>
 </entry>
-<entry count="21">
+<entry count="126">
+<token>SchwabenCode.QuickIO.QuickIOFile,Delete</token>
+<token>SchwabenCode.QuickIO.QuickIOFile,Create</token>
+<token>SchwabenCode.QuickIO.QuickIOFile,Open</token>
+<token>SchwabenCode.QuickIO.QuickIODirectory,Exists</token>
+</entry>
+<entry count="147">
 <token>SchwabenCode.QuickIO.QuickIODirectory,Exists</token>
 <token>SchwabenCode.QuickIO.QuickIODirectory,Create</token>
+</entry>
+<entry count="252">
+<token>SchwabenCode.QuickIO.QuickIOFile,Create</token>
+<token>SchwabenCode.QuickIO.QuickIOFile,Open</token>
+<token>SchwabenCode.QuickIO.QuickIODirectory,Exists</token>
+</entry>
+<entry count="54">
+<token>SchwabenCode.QuickIO.QuickIOFile,Open</token>
+<token>SchwabenCode.QuickIO.QuickIODirectory,Exists</token>
+<token>SchwabenCode.QuickIO.QuickIOFile,Exists</token>
+<token>SchwabenCode.QuickIO.QuickIOFile,SetAttributes</token>
+<token>SchwabenCode.QuickIO.QuickIOFile,Delete</token>
 </entry>
 <entry count="12">
 <token>SchwabenCode.QuickIO.QuickIODirectoryInfo,new</token>
@@ -131,7 +199,7 @@
 <token>SchwabenCode.QuickIO.QuickIODirectoryInfo,new</token>
 <token>SchwabenCode.QuickIO.QuickIODirectory,EnumerateFilePaths</token>
 </entry>
-<entry count="18">
+<entry count="252">
 <token>SchwabenCode.QuickIO.QuickIOFile,SetAttributes</token>
 <token>SchwabenCode.QuickIO.QuickIOFile,Delete</token>
 <token>SchwabenCode.QuickIO.QuickIOFile,Create</token>
@@ -140,33 +208,60 @@
 <token>SchwabenCode.QuickIO.QuickIOFile,Exists</token>
 <token>SchwabenCode.QuickIO.QuickIOFile,Delete</token>
 </entry>
-<entry count="18">
+<entry count="54">
+<token>SchwabenCode.QuickIO.QuickIOFile,Exists</token>
+<token>SchwabenCode.QuickIO.QuickIOFile,Create</token>
+<token>SchwabenCode.QuickIO.QuickIOFile,Open</token>
+<token>SchwabenCode.QuickIO.QuickIODirectory,Exists</token>
+<token>SchwabenCode.QuickIO.QuickIOFile,Exists</token>
+</entry>
+<entry count="54">
+<token>SchwabenCode.QuickIO.QuickIOFile,Create</token>
+<token>SchwabenCode.QuickIO.QuickIOFile,Open</token>
+<token>SchwabenCode.QuickIO.QuickIODirectory,Exists</token>
+<token>SchwabenCode.QuickIO.QuickIOFile,Exists</token>
+<token>SchwabenCode.QuickIO.QuickIOFile,Create</token>
+</entry>
+<entry count="54">
+<token>SchwabenCode.QuickIO.QuickIOFile,Delete</token>
+<token>SchwabenCode.QuickIO.QuickIOFile,Create</token>
+<token>SchwabenCode.QuickIO.QuickIOFile,Open</token>
+<token>SchwabenCode.QuickIO.QuickIODirectory,Exists</token>
+<token>SchwabenCode.QuickIO.QuickIOFile,Exists</token>
+</entry>
+<entry count="126">
 <token>SchwabenCode.QuickIO.QuickIODirectory,Create</token>
 <token>SchwabenCode.QuickIO.QuickIOFile,Exists</token>
+</entry>
+<entry count="54">
+<token>SchwabenCode.QuickIO.QuickIOFile,Open</token>
+<token>SchwabenCode.QuickIO.QuickIODirectory,Exists</token>
+<token>SchwabenCode.QuickIO.QuickIOFile,Exists</token>
+<token>SchwabenCode.QuickIO.QuickIOFile,Create</token>
 </entry>
 <entry count="12">
 <token>SchwabenCode.QuickIO.QuickIODirectoryInfo,new</token>
 <token>SchwabenCode.QuickIO.QuickIODirectoryInfo,new</token>
 <token>SchwabenCode.QuickIO.QuickIODirectory,EnumerateFilePaths</token>
 </entry>
-<entry count="9">
+<entry count="63">
 <token>SchwabenCode.QuickIO.QuickIODirectory,Exists</token>
 <token>SchwabenCode.QuickIO.QuickIOFile,Exists</token>
 <token>SchwabenCode.QuickIO.QuickIOFile,Create</token>
 </entry>
-<entry count="18">
+<entry count="252">
 <token>SchwabenCode.QuickIO.QuickIOFile,Exists</token>
 <token>SchwabenCode.QuickIO.QuickIOFile,SetAttributes</token>
 <token>SchwabenCode.QuickIO.QuickIOFile,Delete</token>
 <token>SchwabenCode.QuickIO.QuickIOFile,Create</token>
 <token>SchwabenCode.QuickIO.QuickIOFile,Open</token>
 </entry>
-<entry count="18">
+<entry count="126">
 <token>SchwabenCode.QuickIO.QuickIODirectory,Exists</token>
 <token>SchwabenCode.QuickIO.QuickIODirectory,Create</token>
 <token>SchwabenCode.QuickIO.QuickIOFile,Exists</token>
 </entry>
-<entry count="18">
+<entry count="252">
 <token>SchwabenCode.QuickIO.QuickIOFile,Exists</token>
 <token>SchwabenCode.QuickIO.QuickIOFile,Create</token>
 </entry>
@@ -183,30 +278,62 @@
 <token>SchwabenCode.QuickIO.QuickIODirectory,EnumerateFilePaths</token>
 <token>SchwabenCode.QuickIO.QuickIODirectory,Delete</token>
 </entry>
-<entry count="18">
+<entry count="252">
 <token>SchwabenCode.QuickIO.QuickIOFile,Exists</token>
 <token>SchwabenCode.QuickIO.QuickIOFile,Create</token>
 <token>SchwabenCode.QuickIO.QuickIOFile,Open</token>
+</entry>
+<entry count="126">
+<token>SchwabenCode.QuickIO.QuickIOFile,Exists</token>
+<token>SchwabenCode.QuickIO.QuickIOFile,Create</token>
+<token>SchwabenCode.QuickIO.QuickIOFile,Open</token>
+<token>SchwabenCode.QuickIO.QuickIODirectory,Exists</token>
 </entry>
 <entry count="24">
 <token>SchwabenCode.QuickIO.QuickIODirectory,EnumerateFilePaths</token>
 <token>SchwabenCode.QuickIO.QuickIODirectory,Delete</token>
 </entry>
-<entry count="30">
+<entry count="264">
 <token>SchwabenCode.QuickIO.QuickIOFile,Exists</token>
 <token>SchwabenCode.QuickIO.QuickIOFile,SetAttributes</token>
 </entry>
-<entry count="9">
+<entry count="126">
+<token>SchwabenCode.QuickIO.QuickIOFile,SetAttributes</token>
+<token>SchwabenCode.QuickIO.QuickIOFile,Delete</token>
+<token>SchwabenCode.QuickIO.QuickIOFile,Create</token>
+<token>SchwabenCode.QuickIO.QuickIOFile,Open</token>
+<token>SchwabenCode.QuickIO.QuickIODirectory,Exists</token>
+</entry>
+<entry count="108">
+<token>SchwabenCode.QuickIO.QuickIOFile,Open</token>
+<token>SchwabenCode.QuickIO.QuickIODirectory,Exists</token>
+<token>SchwabenCode.QuickIO.QuickIODirectory,Create</token>
+<token>SchwabenCode.QuickIO.QuickIOFile,Exists</token>
+</entry>
+<entry count="63">
 <token>SchwabenCode.QuickIO.QuickIODirectory,Exists</token>
 <token>SchwabenCode.QuickIO.QuickIODirectory,Create</token>
 <token>SchwabenCode.QuickIO.QuickIOFile,Exists</token>
 <token>SchwabenCode.QuickIO.QuickIOFile,SetAttributes</token>
 <token>SchwabenCode.QuickIO.QuickIOFile,Delete</token>
 </entry>
-<entry count="9">
+<entry count="63">
 <token>SchwabenCode.QuickIO.QuickIODirectory,Create</token>
 <token>SchwabenCode.QuickIO.QuickIOFile,Exists</token>
 <token>SchwabenCode.QuickIO.QuickIOFile,Create</token>
+</entry>
+<entry count="126">
+<token>SchwabenCode.QuickIO.QuickIOFile,Create</token>
+<token>SchwabenCode.QuickIO.QuickIOFile,Open</token>
+<token>SchwabenCode.QuickIO.QuickIODirectory,Exists</token>
+<token>SchwabenCode.QuickIO.QuickIODirectory,Create</token>
+</entry>
+<entry count="108">
+<token>SchwabenCode.QuickIO.QuickIOFile,Create</token>
+<token>SchwabenCode.QuickIO.QuickIOFile,Open</token>
+<token>SchwabenCode.QuickIO.QuickIODirectory,Exists</token>
+<token>SchwabenCode.QuickIO.QuickIODirectory,Create</token>
+<token>SchwabenCode.QuickIO.QuickIOFile,Exists</token>
 </entry>
 <entry count="30">
 <token>SchwabenCode.QuickIO.QuickIODirectory,Exists</token>
@@ -219,14 +346,19 @@
 <token>SchwabenCode.QuickIO.QuickIODirectory,EnumerateDirectoryPaths</token>
 <token>SchwabenCode.QuickIO.QuickIODirectoryInfo,new</token>
 </entry>
-<entry count="9">
+<entry count="108">
+<token>SchwabenCode.QuickIO.QuickIOFile,Open</token>
+<token>SchwabenCode.QuickIO.QuickIODirectory,Exists</token>
+<token>SchwabenCode.QuickIO.QuickIOFile,Exists</token>
+</entry>
+<entry count="63">
 <token>SchwabenCode.QuickIO.QuickIODirectory,Exists</token>
 <token>SchwabenCode.QuickIO.QuickIODirectory,Create</token>
 <token>SchwabenCode.QuickIO.QuickIOFile,Exists</token>
 <token>SchwabenCode.QuickIO.QuickIOFile,Create</token>
 <token>SchwabenCode.QuickIO.QuickIOFile,Open</token>
 </entry>
-<entry count="36">
+<entry count="504">
 <token>SchwabenCode.QuickIO.QuickIOFile,Create</token>
 <token>SchwabenCode.QuickIO.QuickIOFile,Open</token>
 </entry>
@@ -243,17 +375,24 @@
 <token>SchwabenCode.QuickIO.QuickIOFile,SetAttributes</token>
 <token>SchwabenCode.QuickIO.QuickIOFile,Copy</token>
 </entry>
-<entry count="9">
+<entry count="63">
 <token>SchwabenCode.QuickIO.QuickIODirectory,Exists</token>
 <token>SchwabenCode.QuickIO.QuickIOFile,Exists</token>
 <token>SchwabenCode.QuickIO.QuickIOFile,SetAttributes</token>
 <token>SchwabenCode.QuickIO.QuickIOFile,Delete</token>
 </entry>
-<entry count="18">
+<entry count="252">
 <token>SchwabenCode.QuickIO.QuickIOFile,Exists</token>
 <token>SchwabenCode.QuickIO.QuickIOFile,SetAttributes</token>
 <token>SchwabenCode.QuickIO.QuickIOFile,Delete</token>
 <token>SchwabenCode.QuickIO.QuickIOFile,Create</token>
+</entry>
+<entry count="54">
+<token>SchwabenCode.QuickIO.QuickIOFile,Open</token>
+<token>SchwabenCode.QuickIO.QuickIODirectory,Exists</token>
+<token>SchwabenCode.QuickIO.QuickIODirectory,Create</token>
+<token>SchwabenCode.QuickIO.QuickIOFile,Exists</token>
+<token>SchwabenCode.QuickIO.QuickIOFile,SetAttributes</token>
 </entry>
 <entry count="3">
 <token>SchwabenCode.QuickIO.QuickIOFile,Exists</token>
@@ -267,5 +406,11 @@
 <token>SchwabenCode.QuickIO.QuickIODirectory,EnumerateDirectoryPaths</token>
 <token>SchwabenCode.QuickIO.QuickIODirectoryInfo,new</token>
 <token>SchwabenCode.QuickIO.QuickIODirectoryInfo,new</token>
+</entry>
+<entry count="108">
+<token>SchwabenCode.QuickIO.QuickIOFile,Create</token>
+<token>SchwabenCode.QuickIO.QuickIOFile,Open</token>
+<token>SchwabenCode.QuickIO.QuickIODirectory,Exists</token>
+<token>SchwabenCode.QuickIO.QuickIOFile,Exists</token>
 </entry>
 </dictionary>

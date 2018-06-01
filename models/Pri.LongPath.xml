@@ -18,12 +18,19 @@
 <token>Pri.LongPath.File,ReadAllText</token>
 <token>Pri.LongPath.DirectoryInfo,GetFileSystemInfos</token>
 </entry>
+<entry count="2">
+<token>Pri.LongPath.Directory,GetDirectories</token>
+<token>Pri.LongPath.Directory,Delete</token>
+<token>Pri.LongPath.Directory,GetFiles</token>
+<token>Pri.LongPath.Directory,GetDirectories</token>
+<token>Pri.LongPath.Directory,GetFiles</token>
+</entry>
 <entry count="24">
 <token>Pri.LongPath.Directory,Exists</token>
 <token>Pri.LongPath.DirectoryInfo,MoveTo</token>
 <token>Pri.LongPath.DirectoryInfo,GetFileSystemInfos</token>
 </entry>
-<entry count="2">
+<entry count="11">
 <token>Pri.LongPath.Directory,GetDirectories</token>
 <token>Pri.LongPath.Directory,GetFiles</token>
 <token>Pri.LongPath.File,Delete</token>
@@ -45,6 +52,13 @@
 <token>Pri.LongPath.Directory,Exists</token>
 <token>Pri.LongPath.DirectoryInfo,MoveTo</token>
 </entry>
+<entry count="4">
+<token>Pri.LongPath.Directory,GetDirectories</token>
+<token>Pri.LongPath.Directory,Delete</token>
+<token>Pri.LongPath.Directory,GetFiles</token>
+<token>Pri.LongPath.File,Delete</token>
+<token>Pri.LongPath.Directory,GetDirectories</token>
+</entry>
 <entry count="24">
 <token>Pri.LongPath.File,ReadAllText</token>
 <token>Pri.LongPath.Path,Combine</token>
@@ -56,6 +70,10 @@
 <token>Pri.LongPath.File,ReadAllText</token>
 <token>Pri.LongPath.Path,Combine</token>
 <token>Pri.LongPath.Directory,Exists</token>
+</entry>
+<entry count="8">
+<token>Pri.LongPath.Directory,GetFiles</token>
+<token>Pri.LongPath.Directory,GetDirectories</token>
 </entry>
 <entry count="12">
 <token>Pri.LongPath.File,Exists</token>
@@ -72,10 +90,22 @@
 <token>Pri.LongPath.DirectoryInfo,MoveTo</token>
 </entry>
 <entry count="2">
+<token>Pri.LongPath.Directory,GetDirectories</token>
+<token>Pri.LongPath.Directory,GetFiles</token>
+<token>Pri.LongPath.File,Delete</token>
+<token>Pri.LongPath.Directory,GetDirectories</token>
+<token>Pri.LongPath.Directory,GetFiles</token>
+</entry>
+<entry count="2">
 <token>Pri.LongPath.File,Delete</token>
 <token>Pri.LongPath.File,Exists</token>
 <token>Pri.LongPath.File,Delete</token>
 <token>Pri.LongPath.File,Move</token>
+</entry>
+<entry count="4">
+<token>Pri.LongPath.Directory,GetFiles</token>
+<token>Pri.LongPath.Directory,GetDirectories</token>
+<token>Pri.LongPath.Directory,Delete</token>
 </entry>
 <entry count="4">
 <token>Pri.LongPath.File,ReadAllText</token>
@@ -86,11 +116,22 @@
 <token>Pri.LongPath.Directory,Exists</token>
 </entry>
 <entry count="8">
+<token>Pri.LongPath.Directory,GetFiles</token>
+<token>Pri.LongPath.File,Delete</token>
+<token>Pri.LongPath.Directory,GetDirectories</token>
+</entry>
+<entry count="4">
+<token>Pri.LongPath.Directory,GetFiles</token>
+<token>Pri.LongPath.File,Delete</token>
+<token>Pri.LongPath.Directory,GetDirectories</token>
+<token>Pri.LongPath.Directory,Delete</token>
+</entry>
+<entry count="8">
 <token>Pri.LongPath.File,WriteAllText</token>
 <token>Pri.LongPath.File,ReadAllText</token>
 <token>Pri.LongPath.DirectoryInfo,GetFileSystemInfos</token>
 </entry>
-<entry count="4">
+<entry count="22">
 <token>Pri.LongPath.Directory,Delete</token>
 <token>Pri.LongPath.Directory,GetFiles</token>
 </entry>
@@ -106,6 +147,13 @@
 <token>Pri.LongPath.DirectoryInfo,GetFileSystemInfos</token>
 </entry>
 <entry count="2">
+<token>Pri.LongPath.Directory,GetDirectories</token>
+<token>Pri.LongPath.Directory,GetFiles</token>
+<token>Pri.LongPath.File,Delete</token>
+<token>Pri.LongPath.Directory,GetDirectories</token>
+<token>Pri.LongPath.Directory,Delete</token>
+</entry>
+<entry count="2">
 <token>Pri.LongPath.File,Exists</token>
 <token>Pri.LongPath.File,Move</token>
 </entry>
@@ -118,6 +166,12 @@
 <token>Pri.LongPath.Directory,CreateDirectory</token>
 <token>Pri.LongPath.File,WriteAllText</token>
 <token>Pri.LongPath.File,WriteAllText</token>
+</entry>
+<entry count="2">
+<token>Pri.LongPath.Directory,Delete</token>
+<token>Pri.LongPath.Directory,GetFiles</token>
+<token>Pri.LongPath.Directory,GetDirectories</token>
+<token>Pri.LongPath.Directory,Delete</token>
 </entry>
 <entry count="1">
 <token>Pri.LongPath.DirectoryInfo,EnumerateDirectories</token>
@@ -151,6 +205,19 @@
 <token>Pri.LongPath.File,Exists</token>
 <token>Pri.LongPath.File,ReadAllText</token>
 <token>Pri.LongPath.Directory,Exists</token>
+</entry>
+<entry count="2">
+<token>Pri.LongPath.Directory,GetFiles</token>
+<token>Pri.LongPath.File,Delete</token>
+<token>Pri.LongPath.Directory,GetDirectories</token>
+<token>Pri.LongPath.Directory,GetFiles</token>
+<token>Pri.LongPath.File,Delete</token>
+</entry>
+<entry count="2">
+<token>Pri.LongPath.Directory,Delete</token>
+<token>Pri.LongPath.Directory,GetFiles</token>
+<token>Pri.LongPath.Directory,GetDirectories</token>
+<token>Pri.LongPath.Directory,GetFiles</token>
 </entry>
 <entry count="36">
 <token>Pri.LongPath.File,Exists</token>
@@ -189,6 +256,13 @@
 <token>Pri.LongPath.DirectoryInfo,GetFileSystemInfos</token>
 <token>Pri.LongPath.DirectoryInfo,Delete</token>
 </entry>
+<entry count="2">
+<token>Pri.LongPath.Directory,Delete</token>
+<token>Pri.LongPath.Directory,GetFiles</token>
+<token>Pri.LongPath.File,Delete</token>
+<token>Pri.LongPath.Directory,GetDirectories</token>
+<token>Pri.LongPath.Directory,GetFiles</token>
+</entry>
 <entry count="4">
 <token>Pri.LongPath.File,WriteAllText</token>
 <token>Pri.LongPath.File,ReadAllText</token>
@@ -212,6 +286,11 @@
 <entry count="2">
 <token>Pri.LongPath.File,Exists</token>
 <token>Pri.LongPath.File,Delete</token>
+</entry>
+<entry count="4">
+<token>Pri.LongPath.Directory,Delete</token>
+<token>Pri.LongPath.Directory,GetFiles</token>
+<token>Pri.LongPath.Directory,GetDirectories</token>
 </entry>
 <entry count="24">
 <token>Pri.LongPath.Directory,Exists</token>
@@ -283,6 +362,12 @@
 <token>Pri.LongPath.DirectoryInfo,MoveTo</token>
 <token>Pri.LongPath.DirectoryInfo,GetFileSystemInfos</token>
 </entry>
+<entry count="2">
+<token>Pri.LongPath.Directory,GetDirectories</token>
+<token>Pri.LongPath.Directory,GetFiles</token>
+<token>Pri.LongPath.Directory,GetDirectories</token>
+<token>Pri.LongPath.Directory,GetFiles</token>
+</entry>
 <entry count="16">
 <token>Pri.LongPath.File,WriteAllText</token>
 <token>Pri.LongPath.File,WriteAllText</token>
@@ -337,7 +422,7 @@
 <token>Pri.LongPath.Directory,Exists</token>
 <token>Pri.LongPath.DirectoryInfo,MoveTo</token>
 </entry>
-<entry count="4">
+<entry count="22">
 <token>Pri.LongPath.Directory,GetDirectories</token>
 <token>Pri.LongPath.Directory,GetFiles</token>
 </entry>
@@ -351,6 +436,11 @@
 <token>Pri.LongPath.File,ReadAllText</token>
 <token>Pri.LongPath.File,ReadAllText</token>
 <token>Pri.LongPath.DirectoryInfo,GetFileSystemInfos</token>
+</entry>
+<entry count="4">
+<token>Pri.LongPath.Directory,GetFiles</token>
+<token>Pri.LongPath.Directory,GetDirectories</token>
+<token>Pri.LongPath.Directory,GetFiles</token>
 </entry>
 <entry count="24">
 <token>Pri.LongPath.File,ReadAllText</token>
@@ -366,6 +456,13 @@
 <token>Pri.LongPath.Path,Combine</token>
 <token>Pri.LongPath.Directory,Exists</token>
 <token>Pri.LongPath.File,ReadAllText</token>
+</entry>
+<entry count="1">
+<token>Pri.LongPath.Directory,GetDirectories</token>
+<token>Pri.LongPath.Directory,GetFiles</token>
+<token>Pri.LongPath.Directory,GetDirectories</token>
+<token>Pri.LongPath.Directory,GetFiles</token>
+<token>Pri.LongPath.File,Delete</token>
 </entry>
 <entry count="32">
 <token>Pri.LongPath.File,Exists</token>
@@ -442,6 +539,12 @@
 <token>Pri.LongPath.DirectoryInfo,Delete</token>
 <token>Pri.LongPath.DirectoryInfo,MoveTo</token>
 </entry>
+<entry count="2">
+<token>Pri.LongPath.Directory,GetDirectories</token>
+<token>Pri.LongPath.Directory,GetFiles</token>
+<token>Pri.LongPath.Directory,GetDirectories</token>
+<token>Pri.LongPath.Directory,Delete</token>
+</entry>
 <entry count="12">
 <token>Pri.LongPath.File,ReadAllText</token>
 <token>Pri.LongPath.File,ReadAllText</token>
@@ -453,6 +556,13 @@
 <token>Pri.LongPath.File,ReadAllText</token>
 <token>Pri.LongPath.Path,Combine</token>
 <token>Pri.LongPath.File,WriteAllText</token>
+</entry>
+<entry count="2">
+<token>Pri.LongPath.Directory,GetDirectories</token>
+<token>Pri.LongPath.Directory,GetFiles</token>
+<token>Pri.LongPath.Directory,GetDirectories</token>
+<token>Pri.LongPath.Directory,Delete</token>
+<token>Pri.LongPath.Directory,GetFiles</token>
 </entry>
 <entry count="48">
 <token>Pri.LongPath.File,ReadAllText</token>
@@ -469,6 +579,13 @@
 <token>Pri.LongPath.Directory,Exists</token>
 <token>Pri.LongPath.Directory,CreateDirectory</token>
 <token>Pri.LongPath.File,WriteAllText</token>
+</entry>
+<entry count="1">
+<token>Pri.LongPath.Directory,Delete</token>
+<token>Pri.LongPath.Directory,GetFiles</token>
+<token>Pri.LongPath.Directory,GetDirectories</token>
+<token>Pri.LongPath.Directory,GetFiles</token>
+<token>Pri.LongPath.File,Delete</token>
 </entry>
 <entry count="24">
 <token>Pri.LongPath.Path,Combine</token>
@@ -507,6 +624,11 @@
 <token>Pri.LongPath.File,ReadAllText</token>
 <token>Pri.LongPath.File,ReadAllText</token>
 <token>Pri.LongPath.DirectoryInfo,GetFileSystemInfos</token>
+</entry>
+<entry count="4">
+<token>Pri.LongPath.File,Delete</token>
+<token>Pri.LongPath.Directory,GetDirectories</token>
+<token>Pri.LongPath.Directory,Delete</token>
 </entry>
 <entry count="96">
 <token>Pri.LongPath.Path,Combine</token>
@@ -559,9 +681,32 @@
 <token>Pri.LongPath.Directory,Exists</token>
 <token>Pri.LongPath.Directory,CreateDirectory</token>
 </entry>
+<entry count="8">
+<token>Pri.LongPath.File,Delete</token>
+<token>Pri.LongPath.Directory,GetDirectories</token>
+</entry>
 <entry count="4">
 <token>Pri.LongPath.Directory,GetDirectories</token>
+<token>Pri.LongPath.Directory,GetFiles</token>
+<token>Pri.LongPath.Directory,GetDirectories</token>
+</entry>
+<entry count="2">
+<token>Pri.LongPath.File,Delete</token>
+<token>Pri.LongPath.Directory,GetDirectories</token>
 <token>Pri.LongPath.Directory,Delete</token>
+<token>Pri.LongPath.Directory,GetFiles</token>
+<token>Pri.LongPath.File,Delete</token>
+</entry>
+<entry count="22">
+<token>Pri.LongPath.Directory,GetDirectories</token>
+<token>Pri.LongPath.Directory,Delete</token>
+</entry>
+<entry count="2">
+<token>Pri.LongPath.Directory,Delete</token>
+<token>Pri.LongPath.Directory,GetFiles</token>
+<token>Pri.LongPath.Directory,GetDirectories</token>
+<token>Pri.LongPath.Directory,Delete</token>
+<token>Pri.LongPath.Directory,GetFiles</token>
 </entry>
 <entry count="2">
 <token>Pri.LongPath.FileInfo,new</token>
@@ -592,6 +737,12 @@
 <token>Pri.LongPath.DirectoryInfo,GetFileSystemInfos</token>
 <token>Pri.LongPath.DirectoryInfo,Delete</token>
 </entry>
+<entry count="4">
+<token>Pri.LongPath.Directory,GetFiles</token>
+<token>Pri.LongPath.Directory,GetDirectories</token>
+<token>Pri.LongPath.Directory,Delete</token>
+<token>Pri.LongPath.Directory,GetFiles</token>
+</entry>
 <entry count="2">
 <token>Pri.LongPath.File,ReadAllText</token>
 <token>Pri.LongPath.File,Delete</token>
@@ -610,6 +761,12 @@
 <token>Pri.LongPath.File,ReadAllText</token>
 <token>Pri.LongPath.DirectoryInfo,GetFileSystemInfos</token>
 <token>Pri.LongPath.DirectoryInfo,Delete</token>
+</entry>
+<entry count="4">
+<token>Pri.LongPath.Directory,GetDirectories</token>
+<token>Pri.LongPath.Directory,GetFiles</token>
+<token>Pri.LongPath.File,Delete</token>
+<token>Pri.LongPath.Directory,GetDirectories</token>
 </entry>
 <entry count="2">
 <token>Pri.LongPath.DirectoryInfo,new</token>
@@ -633,6 +790,31 @@
 <entry count="4">
 <token>Pri.LongPath.Directory,GetDirectories</token>
 <token>Pri.LongPath.Directory,Delete</token>
+<token>Pri.LongPath.Directory,GetFiles</token>
+<token>Pri.LongPath.Directory,GetDirectories</token>
+</entry>
+<entry count="4">
+<token>Pri.LongPath.Directory,Delete</token>
+<token>Pri.LongPath.Directory,GetFiles</token>
+<token>Pri.LongPath.File,Delete</token>
+<token>Pri.LongPath.Directory,GetDirectories</token>
+</entry>
+<entry count="22">
+<token>Pri.LongPath.Directory,GetDirectories</token>
+<token>Pri.LongPath.Directory,Delete</token>
+<token>Pri.LongPath.Directory,GetFiles</token>
+</entry>
+<entry count="2">
+<token>Pri.LongPath.Directory,GetFiles</token>
+<token>Pri.LongPath.Directory,GetDirectories</token>
+<token>Pri.LongPath.Directory,Delete</token>
+<token>Pri.LongPath.Directory,GetFiles</token>
+<token>Pri.LongPath.File,Delete</token>
+</entry>
+<entry count="4">
+<token>Pri.LongPath.Directory,GetFiles</token>
+<token>Pri.LongPath.File,Delete</token>
+<token>Pri.LongPath.Directory,GetDirectories</token>
 <token>Pri.LongPath.Directory,GetFiles</token>
 </entry>
 <entry count="4">
@@ -659,7 +841,7 @@
 <token>Pri.LongPath.DirectoryInfo,MoveTo</token>
 <token>Pri.LongPath.DirectoryInfo,GetFileSystemInfos</token>
 </entry>
-<entry count="4">
+<entry count="22">
 <token>Pri.LongPath.Directory,GetFiles</token>
 <token>Pri.LongPath.File,Delete</token>
 </entry>
@@ -674,10 +856,17 @@
 <token>Pri.LongPath.File,Exists</token>
 <token>Pri.LongPath.File,Delete</token>
 </entry>
-<entry count="2">
+<entry count="11">
 <token>Pri.LongPath.Directory,Delete</token>
 <token>Pri.LongPath.Directory,GetFiles</token>
 <token>Pri.LongPath.File,Delete</token>
+</entry>
+<entry count="4">
+<token>Pri.LongPath.Directory,GetFiles</token>
+<token>Pri.LongPath.File,Delete</token>
+<token>Pri.LongPath.Directory,GetDirectories</token>
+<token>Pri.LongPath.Directory,Delete</token>
+<token>Pri.LongPath.Directory,GetFiles</token>
 </entry>
 <entry count="24">
 <token>Pri.LongPath.File,WriteAllText</token>
@@ -695,10 +884,23 @@
 <token>Pri.LongPath.DirectoryInfo,GetFileSystemInfos</token>
 </entry>
 <entry count="2">
+<token>Pri.LongPath.Directory,GetDirectories</token>
+<token>Pri.LongPath.Directory,Delete</token>
+<token>Pri.LongPath.Directory,GetFiles</token>
+<token>Pri.LongPath.Directory,GetDirectories</token>
+<token>Pri.LongPath.Directory,Delete</token>
+</entry>
+<entry count="2">
 <token>Pri.LongPath.FileInfo,new</token>
 <token>Pri.LongPath.File,ReadAllText</token>
 <token>Pri.LongPath.File,Delete</token>
 <token>Pri.LongPath.File,Exists</token>
+<token>Pri.LongPath.File,Delete</token>
+</entry>
+<entry count="2">
+<token>Pri.LongPath.File,Delete</token>
+<token>Pri.LongPath.Directory,GetDirectories</token>
+<token>Pri.LongPath.Directory,GetFiles</token>
 <token>Pri.LongPath.File,Delete</token>
 </entry>
 <entry count="96">
@@ -721,6 +923,18 @@
 <token>Pri.LongPath.File,ReadAllText</token>
 <token>Pri.LongPath.DirectoryInfo,GetFileSystemInfos</token>
 <token>Pri.LongPath.DirectoryInfo,Delete</token>
+</entry>
+<entry count="4">
+<token>Pri.LongPath.File,Delete</token>
+<token>Pri.LongPath.Directory,GetDirectories</token>
+<token>Pri.LongPath.Directory,Delete</token>
+<token>Pri.LongPath.Directory,GetFiles</token>
+</entry>
+<entry count="2">
+<token>Pri.LongPath.Directory,GetFiles</token>
+<token>Pri.LongPath.Directory,GetDirectories</token>
+<token>Pri.LongPath.Directory,GetFiles</token>
+<token>Pri.LongPath.File,Delete</token>
 </entry>
 <entry count="16">
 <token>Pri.LongPath.Path,Combine</token>
@@ -750,12 +964,24 @@
 <token>Pri.LongPath.File,ReadAllText</token>
 <token>Pri.LongPath.Path,Combine</token>
 </entry>
+<entry count="4">
+<token>Pri.LongPath.File,Delete</token>
+<token>Pri.LongPath.Directory,GetDirectories</token>
+<token>Pri.LongPath.Directory,GetFiles</token>
+</entry>
 <entry count="32">
 <token>Pri.LongPath.File,ReadAllText</token>
 <token>Pri.LongPath.Path,Combine</token>
 <token>Pri.LongPath.File,WriteAllText</token>
 </entry>
 <entry count="2">
+<token>Pri.LongPath.Directory,Delete</token>
+<token>Pri.LongPath.Directory,GetFiles</token>
+<token>Pri.LongPath.File,Delete</token>
+<token>Pri.LongPath.Directory,GetDirectories</token>
+<token>Pri.LongPath.Directory,Delete</token>
+</entry>
+<entry count="11">
 <token>Pri.LongPath.Directory,GetDirectories</token>
 <token>Pri.LongPath.Directory,Delete</token>
 <token>Pri.LongPath.Directory,GetFiles</token>

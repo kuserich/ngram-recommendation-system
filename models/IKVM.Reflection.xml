@@ -1,4 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><dictionary case_sensitive="false">
+<entry count="576">
+<token>IKVM.Reflection.Type,GetGenericArguments</token>
+<token>IKVM.Reflection.Type,__GetDeclaredInterfaces</token>
+</entry>
+<entry count="20700">
+<token>IKVM.Reflection.MethodBase,GetMethodImplementationFlags</token>
+<token>IKVM.Reflection.MemberInfo,__GetCustomAttributes</token>
+<token>IKVM.Reflection.MethodBase,GetGenericArguments</token>
+</entry>
 <entry count="3">
 <token>IKVM.Reflection.Universe,Import</token>
 <token>IKVM.Reflection.Universe,OpenRawModule</token>
@@ -10,7 +19,7 @@
 <token>IKVM.Reflection.FieldInfo,__GetCustomModifiers</token>
 <token>IKVM.Reflection.MemberInfo,__GetCustomAttributes</token>
 </entry>
-<entry count="8">
+<entry count="16">
 <token>IKVM.Reflection.Module,__ReadDataFromRVA</token>
 <token>IKVM.Reflection.Module,__ReadDataFromRVA</token>
 <token>IKVM.Reflection.Module,__ReadDataFromRVA</token>
@@ -21,13 +30,20 @@
 <token>IKVM.Reflection.PropertyInfo,GetIndexParameters</token>
 <token>IKVM.Reflection.MemberInfo,__GetCustomAttributes</token>
 </entry>
+<entry count="11250">
+<token>IKVM.Reflection.Assembly,GetName</token>
+<token>IKVM.Reflection.Assembly,GetName</token>
+<token>IKVM.Reflection.Assembly,__GetCustomAttributes</token>
+<token>IKVM.Reflection.CustomAttributeData,__GetDeclarativeSecurity</token>
+<token>IKVM.Reflection.Assembly,GetName</token>
+</entry>
 <entry count="2">
 <token>IKVM.Reflection.FieldInfo,__TryGetFieldMarshal</token>
 <token>IKVM.Reflection.FieldInfo,__GetCustomModifiers</token>
 <token>IKVM.Reflection.Module,__GetSectionInfo</token>
 <token>IKVM.Reflection.MemberInfo,__GetCustomAttributes</token>
 </entry>
-<entry count="8">
+<entry count="16">
 <token>IKVM.Reflection.Module,__GetDataDirectoryEntry</token>
 <token>IKVM.Reflection.Module,__ReadDataFromRVA</token>
 <token>IKVM.Reflection.Module,__ReadDataFromRVA</token>
@@ -45,7 +61,7 @@
 <token>IKVM.Reflection.Module,__GetReferencedAssemblies</token>
 <token>IKVM.Reflection.Universe,CreateMissingAssembly</token>
 </entry>
-<entry count="36">
+<entry count="18750">
 <token>IKVM.Reflection.Assembly,__GetCustomAttributes</token>
 <token>IKVM.Reflection.CustomAttributeData,__GetDeclarativeSecurity</token>
 </entry>
@@ -64,6 +80,10 @@
 <token>IKVM.Reflection.Universe,DefineDynamicAssembly</token>
 <token>IKVM.Reflection.Module,__GetReferencedAssemblies</token>
 </entry>
+<entry count="17480">
+<token>IKVM.Reflection.ParameterInfo,__GetCustomModifiers</token>
+<token>IKVM.Reflection.ParameterInfo,__TryGetFieldMarshal</token>
+</entry>
 <entry count="2">
 <token>IKVM.Reflection.FieldInfo,__TryGetFieldOffset</token>
 <token>IKVM.Reflection.FieldInfo,__TryGetFieldMarshal</token>
@@ -76,8 +96,32 @@
 <token>IKVM.Reflection.Universe,CreateMissingAssembly</token>
 <token>IKVM.Reflection.Module,__ResolveReferencedAssemblies</token>
 </entry>
+<entry count="768">
+<token>IKVM.Reflection.Type,__GetDeclaredTypes</token>
+<token>IKVM.Reflection.Type,__GetDeclaredFields</token>
+</entry>
+<entry count="1840">
+<token>IKVM.Reflection.ParameterInfo,__TryGetFieldMarshal</token>
+<token>IKVM.Reflection.MethodBase,GetParameters</token>
+<token>IKVM.Reflection.MethodBase,GetMethodImplementationFlags</token>
+<token>IKVM.Reflection.MemberInfo,__GetCustomAttributes</token>
+</entry>
 <entry count="1">
 <token>IKVM.Reflection.EventInfo,GetRemoveMethod</token>
+<token>IKVM.Reflection.MethodBase,GetParameters</token>
+</entry>
+<entry count="11250">
+<token>IKVM.Reflection.Assembly,GetName</token>
+<token>IKVM.Reflection.Assembly,__GetCustomAttributes</token>
+<token>IKVM.Reflection.CustomAttributeData,__GetDeclarativeSecurity</token>
+<token>IKVM.Reflection.Assembly,GetName</token>
+<token>IKVM.Reflection.Assembly,GetName</token>
+</entry>
+<entry count="12420">
+<token>IKVM.Reflection.ParameterInfo,__GetCustomModifiers</token>
+<token>IKVM.Reflection.MethodBase,GetMethodImplementationFlags</token>
+<token>IKVM.Reflection.MemberInfo,__GetCustomAttributes</token>
+<token>IKVM.Reflection.MethodBase,GetGenericArguments</token>
 <token>IKVM.Reflection.MethodBase,GetParameters</token>
 </entry>
 <entry count="114">
@@ -90,7 +134,14 @@
 <token>IKVM.Reflection.MemberInfo,__GetCustomAttributes</token>
 <token>IKVM.Reflection.PropertyInfo,GetAccessors</token>
 </entry>
-<entry count="186">
+<entry count="12420">
+<token>IKVM.Reflection.MemberInfo,__GetCustomAttributes</token>
+<token>IKVM.Reflection.MethodBase,GetGenericArguments</token>
+<token>IKVM.Reflection.MethodBase,GetParameters</token>
+<token>IKVM.Reflection.ParameterInfo,__GetCustomModifiers</token>
+<token>IKVM.Reflection.CustomAttributeData,__GetDeclarativeSecurity</token>
+</entry>
+<entry count="108750">
 <token>IKVM.Reflection.Assembly,GetName</token>
 <token>IKVM.Reflection.Assembly,GetName</token>
 <token>IKVM.Reflection.Assembly,GetName</token>
@@ -106,10 +157,35 @@
 <token>IKVM.Reflection.EventInfo,GetRemoveMethod</token>
 <token>IKVM.Reflection.MethodBase,GetParameters</token>
 </entry>
+<entry count="192">
+<token>IKVM.Reflection.Type,GetGenericArguments</token>
+<token>IKVM.Reflection.Type,__GetDeclaredInterfaces</token>
+<token>IKVM.Reflection.Type,__GetDeclaredTypes</token>
+<token>IKVM.Reflection.Type,__GetDeclaredFields</token>
+<token>IKVM.Reflection.Type,__GetDeclaredMethods</token>
+</entry>
+<entry count="192">
+<token>IKVM.Reflection.MemberInfo,__GetCustomAttributes</token>
+<token>IKVM.Reflection.CustomAttributeData,__GetDeclarativeSecurity</token>
+<token>IKVM.Reflection.Type,GetGenericArguments</token>
+<token>IKVM.Reflection.Type,__GetDeclaredTypes</token>
+</entry>
 <entry count="2">
 <token>IKVM.Reflection.Module,__GetReferencedAssemblies</token>
 <token>IKVM.Reflection.Module,__ResolveReferencedAssemblies</token>
 <token>IKVM.Reflection.Module,__GetReferencedTypes</token>
+</entry>
+<entry count="4140">
+<token>IKVM.Reflection.ParameterInfo,__GetCustomModifiers</token>
+<token>IKVM.Reflection.ParameterInfo,__TryGetFieldMarshal</token>
+<token>IKVM.Reflection.MethodBase,GetMethodImplementationFlags</token>
+</entry>
+<entry count="11250">
+<token>IKVM.Reflection.Assembly,GetName</token>
+<token>IKVM.Reflection.Assembly,GetName</token>
+<token>IKVM.Reflection.AssemblyName,GetPublicKey</token>
+<token>IKVM.Reflection.Assembly,GetName</token>
+<token>IKVM.Reflection.Assembly,GetName</token>
 </entry>
 <entry count="4">
 <token>IKVM.Reflection.Module,__GetReferencedAssemblies</token>
@@ -133,6 +209,31 @@
 <token>IKVM.Reflection.Universe,Import</token>
 <token>IKVM.Reflection.Universe,OpenRawModule</token>
 </entry>
+<entry count="768">
+<token>IKVM.Reflection.Type,__GetLayout</token>
+<token>IKVM.Reflection.MemberInfo,__GetCustomAttributes</token>
+<token>IKVM.Reflection.CustomAttributeData,__GetDeclarativeSecurity</token>
+</entry>
+<entry count="192">
+<token>IKVM.Reflection.Type,__GetLayout</token>
+<token>IKVM.Reflection.MemberInfo,__GetCustomAttributes</token>
+<token>IKVM.Reflection.CustomAttributeData,__GetDeclarativeSecurity</token>
+<token>IKVM.Reflection.Type,GetGenericArguments</token>
+<token>IKVM.Reflection.Type,__GetDeclaredTypes</token>
+</entry>
+<entry count="4140">
+<token>IKVM.Reflection.MethodBase,GetParameters</token>
+<token>IKVM.Reflection.ParameterInfo,__GetCustomModifiers</token>
+<token>IKVM.Reflection.ParameterInfo,__TryGetFieldMarshal</token>
+<token>IKVM.Reflection.CustomAttributeData,__GetDeclarativeSecurity</token>
+</entry>
+<entry count="384">
+<token>IKVM.Reflection.CustomAttributeData,__GetCustomAttributes</token>
+<token>IKVM.Reflection.Type,__GetDeclaredTypes</token>
+<token>IKVM.Reflection.Type,__GetDeclaredFields</token>
+<token>IKVM.Reflection.Type,__GetDeclaredMethods</token>
+<token>IKVM.Reflection.Type,__GetDeclaredEvents</token>
+</entry>
 <entry count="3">
 <token>IKVM.Reflection.Universe,Import</token>
 <token>IKVM.Reflection.Universe,Import</token>
@@ -143,6 +244,22 @@
 <entry count="1">
 <token>IKVM.Reflection.ParameterInfo,__GetCustomModifiers</token>
 <token>IKVM.Reflection.CustomModifiers,Equals</token>
+</entry>
+<entry count="192">
+<token>IKVM.Reflection.Type,GetGenericArguments</token>
+<token>IKVM.Reflection.Type,__GetDeclaredInterfaces</token>
+<token>IKVM.Reflection.Type,__GetDeclaredTypes</token>
+</entry>
+<entry count="460">
+<token>IKVM.Reflection.MethodBase,GetGenericArguments</token>
+<token>IKVM.Reflection.MethodBase,GetParameters</token>
+<token>IKVM.Reflection.MethodBase,GetMethodImplementationFlags</token>
+<token>IKVM.Reflection.MemberInfo,__GetCustomAttributes</token>
+<token>IKVM.Reflection.MethodBase,GetGenericArguments</token>
+</entry>
+<entry count="768">
+<token>IKVM.Reflection.Type,__GetLayout</token>
+<token>IKVM.Reflection.MemberInfo,__GetCustomAttributes</token>
 </entry>
 <entry count="1">
 <token>IKVM.Reflection.Universe,Import</token>
@@ -157,12 +274,41 @@
 <token>IKVM.Reflection.PropertyInfo,GetSetMethod</token>
 <token>IKVM.Reflection.ParameterInfo,__GetCustomModifiers</token>
 </entry>
+<entry count="384">
+<token>IKVM.Reflection.Type,__GetDeclaredInterfaces</token>
+<token>IKVM.Reflection.CustomAttributeData,__GetCustomAttributes</token>
+<token>IKVM.Reflection.Type,__GetDeclaredTypes</token>
+<token>IKVM.Reflection.Type,__GetDeclaredFields</token>
+</entry>
 <entry count="2">
 <token>IKVM.Reflection.MemberInfo,__GetCustomAttributes</token>
 <token>IKVM.Reflection.PropertyInfo,GetAccessors</token>
 <token>IKVM.Reflection.PropertyInfo,GetGetMethod</token>
 <token>IKVM.Reflection.ParameterInfo,__GetCustomModifiers</token>
 <token>IKVM.Reflection.MethodBase,GetParameters</token>
+</entry>
+<entry count="4140">
+<token>IKVM.Reflection.MemberInfo,__GetCustomAttributes</token>
+<token>IKVM.Reflection.MethodBase,GetGenericArguments</token>
+<token>IKVM.Reflection.MethodBase,GetParameters</token>
+<token>IKVM.Reflection.CustomAttributeData,__GetDeclarativeSecurity</token>
+</entry>
+<entry count="768">
+<token>IKVM.Reflection.MemberInfo,__GetCustomAttributes</token>
+<token>IKVM.Reflection.CustomAttributeData,__GetDeclarativeSecurity</token>
+</entry>
+<entry count="384">
+<token>IKVM.Reflection.CustomAttributeData,__GetDeclarativeSecurity</token>
+<token>IKVM.Reflection.Type,GetGenericArguments</token>
+<token>IKVM.Reflection.Type,__GetDeclaredInterfaces</token>
+<token>IKVM.Reflection.CustomAttributeData,__GetCustomAttributes</token>
+</entry>
+<entry count="12420">
+<token>IKVM.Reflection.MethodBase,GetGenericArguments</token>
+<token>IKVM.Reflection.MethodBase,GetParameters</token>
+<token>IKVM.Reflection.ParameterInfo,__GetCustomModifiers</token>
+<token>IKVM.Reflection.CustomAttributeData,__GetDeclarativeSecurity</token>
+<token>IKVM.Reflection.MethodBase,GetMethodBody</token>
 </entry>
 <entry count="4">
 <token>IKVM.Reflection.PropertyInfo,GetIndexParameters</token>
@@ -171,11 +317,34 @@
 <token>IKVM.Reflection.PropertyInfo,GetGetMethod</token>
 <token>IKVM.Reflection.PropertyInfo,GetSetMethod</token>
 </entry>
+<entry count="20700">
+<token>IKVM.Reflection.CustomAttributeData,__GetDeclarativeSecurity</token>
+<token>IKVM.Reflection.MethodBase,GetMethodBody</token>
+</entry>
+<entry count="768">
+<token>IKVM.Reflection.Type,__GetDeclaredFields</token>
+<token>IKVM.Reflection.Type,__GetDeclaredMethods</token>
+<token>IKVM.Reflection.Type,__GetDeclaredEvents</token>
+<token>IKVM.Reflection.Type,__GetDeclaredProperties</token>
+</entry>
+<entry count="384">
+<token>IKVM.Reflection.CustomAttributeData,__GetCustomAttributes</token>
+<token>IKVM.Reflection.Type,__GetDeclaredTypes</token>
+</entry>
 <entry count="1">
 <token>IKVM.Reflection.Universe,DefineDynamicAssembly</token>
 <token>IKVM.Reflection.Module,__GetReferencedAssemblies</token>
 <token>IKVM.Reflection.Module,__ResolveReferencedAssemblies</token>
 <token>IKVM.Reflection.Module,__GetReferencedTypes</token>
+</entry>
+<entry count="4140">
+<token>IKVM.Reflection.ParameterInfo,__TryGetFieldMarshal</token>
+<token>IKVM.Reflection.MethodBase,GetMethodImplementationFlags</token>
+</entry>
+<entry count="12420">
+<token>IKVM.Reflection.ParameterInfo,__GetCustomModifiers</token>
+<token>IKVM.Reflection.CustomAttributeData,__GetDeclarativeSecurity</token>
+<token>IKVM.Reflection.MethodBase,GetMethodBody</token>
 </entry>
 <entry count="26">
 <token>IKVM.Reflection.FieldInfo,__GetCustomModifiers</token>
@@ -194,6 +363,22 @@
 <token>IKVM.Reflection.Module,__ResolveReferencedAssemblies</token>
 <token>IKVM.Reflection.Module,__GetReferencedTypes</token>
 </entry>
+<entry count="192">
+<token>IKVM.Reflection.CustomAttributeData,__GetDeclarativeSecurity</token>
+<token>IKVM.Reflection.Type,GetGenericArguments</token>
+<token>IKVM.Reflection.Type,__GetDeclaredTypes</token>
+<token>IKVM.Reflection.Type,__GetDeclaredFields</token>
+</entry>
+<entry count="2300">
+<token>IKVM.Reflection.ParameterInfo,__GetCustomModifiers</token>
+<token>IKVM.Reflection.MethodBase,GetGenericArguments</token>
+<token>IKVM.Reflection.MethodBase,GetParameters</token>
+</entry>
+<entry count="9200">
+<token>IKVM.Reflection.ParameterInfo,__GetCustomModifiers</token>
+<token>IKVM.Reflection.ParameterInfo,__TryGetFieldMarshal</token>
+<token>IKVM.Reflection.MethodBase,GetParameters</token>
+</entry>
 <entry count="5">
 <token>IKVM.Reflection.FieldInfo,__TryGetFieldOffset</token>
 <token>IKVM.Reflection.FieldInfo,__TryGetFieldMarshal</token>
@@ -209,7 +394,28 @@
 <token>IKVM.Reflection.FieldInfo,__GetCustomModifiers</token>
 <token>IKVM.Reflection.CustomModifiers,Equals</token>
 </entry>
-<entry count="36">
+<entry count="4140">
+<token>IKVM.Reflection.MethodBase,GetParameters</token>
+<token>IKVM.Reflection.ParameterInfo,__GetCustomModifiers</token>
+<token>IKVM.Reflection.ParameterInfo,__TryGetFieldMarshal</token>
+<token>IKVM.Reflection.MethodBase,GetMethodImplementationFlags</token>
+</entry>
+<entry count="4140">
+<token>IKVM.Reflection.MethodBase,GetParameters</token>
+<token>IKVM.Reflection.ParameterInfo,__GetCustomModifiers</token>
+<token>IKVM.Reflection.ParameterInfo,__TryGetFieldMarshal</token>
+<token>IKVM.Reflection.CustomAttributeData,__GetDeclarativeSecurity</token>
+<token>IKVM.Reflection.MethodBase,GetMethodBody</token>
+</entry>
+<entry count="12420">
+<token>IKVM.Reflection.ParameterInfo,__GetCustomModifiers</token>
+<token>IKVM.Reflection.MethodBase,GetMethodImplementationFlags</token>
+</entry>
+<entry count="4140">
+<token>IKVM.Reflection.MethodBase,GetParameters</token>
+<token>IKVM.Reflection.CustomAttributeData,__GetDeclarativeSecurity</token>
+</entry>
+<entry count="18750">
 <token>IKVM.Reflection.AssemblyName,GetPublicKey</token>
 <token>IKVM.Reflection.Assembly,GetName</token>
 <token>IKVM.Reflection.Assembly,GetName</token>
@@ -220,6 +426,11 @@
 <token>IKVM.Reflection.FieldInfo,__TryGetFieldOffset</token>
 <token>IKVM.Reflection.FieldInfo,__TryGetFieldMarshal</token>
 <token>IKVM.Reflection.FieldInfo,__GetCustomModifiers</token>
+</entry>
+<entry count="192">
+<token>IKVM.Reflection.CustomAttributeData,__GetDeclarativeSecurity</token>
+<token>IKVM.Reflection.Type,GetGenericArguments</token>
+<token>IKVM.Reflection.Type,__GetDeclaredTypes</token>
 </entry>
 <entry count="26">
 <token>IKVM.Reflection.FieldInfo,GetRawConstantValue</token>
@@ -252,6 +463,13 @@
 <token>IKVM.Reflection.PropertyInfo,GetGetMethod</token>
 <token>IKVM.Reflection.ParameterInfo,__GetCustomModifiers</token>
 </entry>
+<entry count="192">
+<token>IKVM.Reflection.MemberInfo,__GetCustomAttributes</token>
+<token>IKVM.Reflection.CustomAttributeData,__GetDeclarativeSecurity</token>
+<token>IKVM.Reflection.Type,GetGenericArguments</token>
+<token>IKVM.Reflection.Type,__GetDeclaredTypes</token>
+<token>IKVM.Reflection.Type,__GetDeclaredFields</token>
+</entry>
 <entry count="125">
 <token>IKVM.Reflection.FieldInfo,__TryGetFieldOffset</token>
 <token>IKVM.Reflection.FieldInfo,__GetCustomModifiers</token>
@@ -261,10 +479,28 @@
 <token>IKVM.Reflection.PropertyInfo,GetGetMethod</token>
 <token>IKVM.Reflection.PropertyInfo,GetSetMethod</token>
 </entry>
+<entry count="1840">
+<token>IKVM.Reflection.ParameterInfo,__GetCustomModifiers</token>
+<token>IKVM.Reflection.MethodBase,GetParameters</token>
+<token>IKVM.Reflection.MethodBase,GetMethodImplementationFlags</token>
+<token>IKVM.Reflection.MemberInfo,__GetCustomAttributes</token>
+<token>IKVM.Reflection.MethodBase,GetGenericArguments</token>
+</entry>
 <entry count="3">
 <token>IKVM.Reflection.AssemblyName,new</token>
 <token>IKVM.Reflection.Universe,DefineDynamicAssembly</token>
 <token>IKVM.Reflection.Module,__GetReferencedAssemblies</token>
+</entry>
+<entry count="384">
+<token>IKVM.Reflection.CustomAttributeData,__GetCustomAttributes</token>
+<token>IKVM.Reflection.Type,__GetDeclaredTypes</token>
+<token>IKVM.Reflection.Type,__GetDeclaredFields</token>
+<token>IKVM.Reflection.Type,__GetDeclaredMethods</token>
+</entry>
+<entry count="4140">
+<token>IKVM.Reflection.ParameterInfo,__TryGetFieldMarshal</token>
+<token>IKVM.Reflection.CustomAttributeData,__GetDeclarativeSecurity</token>
+<token>IKVM.Reflection.MethodBase,GetMethodBody</token>
 </entry>
 <entry count="1">
 <token>IKVM.Reflection.MethodBase,GetParameters</token>
@@ -272,16 +508,28 @@
 <token>IKVM.Reflection.MethodBase,GetGenericArguments</token>
 <token>IKVM.Reflection.MethodBase,GetGenericArguments</token>
 </entry>
+<entry count="768">
+<token>IKVM.Reflection.Type,__GetDeclaredMethods</token>
+<token>IKVM.Reflection.Type,__GetDeclaredEvents</token>
+<token>IKVM.Reflection.Type,__GetDeclaredProperties</token>
+</entry>
 <entry count="50">
 <token>IKVM.Reflection.FieldInfo,__TryGetFieldOffset</token>
 <token>IKVM.Reflection.FieldInfo,__GetCustomModifiers</token>
 <token>IKVM.Reflection.Module,__GetSectionInfo</token>
 <token>IKVM.Reflection.MemberInfo,__GetCustomAttributes</token>
 </entry>
-<entry count="36">
+<entry count="18750">
 <token>IKVM.Reflection.AssemblyName,GetPublicKey</token>
 <token>IKVM.Reflection.Assembly,GetName</token>
 <token>IKVM.Reflection.Assembly,GetName</token>
+</entry>
+<entry count="460">
+<token>IKVM.Reflection.MethodBase,GetGenericArguments</token>
+<token>IKVM.Reflection.MethodBase,GetParameters</token>
+<token>IKVM.Reflection.ParameterInfo,__GetCustomModifiers</token>
+<token>IKVM.Reflection.ParameterInfo,__TryGetFieldMarshal</token>
+<token>IKVM.Reflection.MethodBase,GetMethodImplementationFlags</token>
 </entry>
 <entry count="2">
 <token>IKVM.Reflection.AssemblyName,new</token>
@@ -296,11 +544,22 @@
 <token>IKVM.Reflection.EventInfo,GetRemoveMethod</token>
 <token>IKVM.Reflection.MethodBase,GetParameters</token>
 </entry>
+<entry count="12420">
+<token>IKVM.Reflection.MethodBase,GetParameters</token>
+<token>IKVM.Reflection.ParameterInfo,__GetCustomModifiers</token>
+<token>IKVM.Reflection.MethodBase,GetMethodImplementationFlags</token>
+</entry>
+<entry count="11250">
+<token>IKVM.Reflection.CustomAttributeData,__GetDeclarativeSecurity</token>
+<token>IKVM.Reflection.Assembly,GetName</token>
+<token>IKVM.Reflection.Assembly,GetName</token>
+<token>IKVM.Reflection.AssemblyName,GetPublicKey</token>
+</entry>
 <entry count="10">
 <token>IKVM.Reflection.PropertyInfo,__GetCustomModifiers</token>
 <token>IKVM.Reflection.PropertyInfo,GetIndexParameters</token>
 </entry>
-<entry count="4">
+<entry count="64">
 <token>IKVM.Reflection.Module,GetPEKind</token>
 <token>IKVM.Reflection.Module,__ReadDataFromRVA</token>
 </entry>
@@ -308,6 +567,20 @@
 <token>IKVM.Reflection.Universe,OpenRawModule</token>
 <token>IKVM.Reflection.AssemblyName,new</token>
 <token>IKVM.Reflection.Universe,DefineDynamicAssembly</token>
+</entry>
+<entry count="4140">
+<token>IKVM.Reflection.MethodBase,GetMethodImplementationFlags</token>
+<token>IKVM.Reflection.MemberInfo,__GetCustomAttributes</token>
+<token>IKVM.Reflection.MethodBase,GetGenericArguments</token>
+<token>IKVM.Reflection.MethodBase,GetParameters</token>
+<token>IKVM.Reflection.CustomAttributeData,__GetDeclarativeSecurity</token>
+</entry>
+<entry count="12420">
+<token>IKVM.Reflection.MethodBase,GetParameters</token>
+<token>IKVM.Reflection.ParameterInfo,__GetCustomModifiers</token>
+<token>IKVM.Reflection.MethodBase,GetMethodImplementationFlags</token>
+<token>IKVM.Reflection.MemberInfo,__GetCustomAttributes</token>
+<token>IKVM.Reflection.MethodBase,GetGenericArguments</token>
 </entry>
 <entry count="1">
 <token>IKVM.Reflection.Universe,DefineDynamicAssembly</token>
@@ -318,6 +591,10 @@
 <token>IKVM.Reflection.PropertyInfo,GetSetMethod</token>
 <token>IKVM.Reflection.ParameterInfo,__GetCustomModifiers</token>
 <token>IKVM.Reflection.MethodBase,GetParameters</token>
+</entry>
+<entry count="12420">
+<token>IKVM.Reflection.ParameterInfo,__GetCustomModifiers</token>
+<token>IKVM.Reflection.CustomAttributeData,__GetDeclarativeSecurity</token>
 </entry>
 <entry count="3">
 <token>IKVM.Reflection.AssemblyName,new</token>
@@ -332,12 +609,23 @@
 <token>IKVM.Reflection.Module,__GetReferencedAssemblies</token>
 <token>IKVM.Reflection.AssemblyName,GetPublicKeyToken</token>
 </entry>
+<entry count="1840">
+<token>IKVM.Reflection.ParameterInfo,__GetCustomModifiers</token>
+<token>IKVM.Reflection.ParameterInfo,__TryGetFieldMarshal</token>
+<token>IKVM.Reflection.MethodBase,GetParameters</token>
+<token>IKVM.Reflection.MethodBase,GetMethodImplementationFlags</token>
+<token>IKVM.Reflection.MemberInfo,__GetCustomAttributes</token>
+</entry>
 <entry count="4">
 <token>IKVM.Reflection.MemberInfo,__GetCustomAttributes</token>
 <token>IKVM.Reflection.PropertyInfo,GetAccessors</token>
 <token>IKVM.Reflection.PropertyInfo,GetGetMethod</token>
 <token>IKVM.Reflection.PropertyInfo,GetSetMethod</token>
 <token>IKVM.Reflection.ParameterInfo,__GetCustomModifiers</token>
+</entry>
+<entry count="20700">
+<token>IKVM.Reflection.MethodBase,GetMethodImplementationFlags</token>
+<token>IKVM.Reflection.MemberInfo,__GetCustomAttributes</token>
 </entry>
 <entry count="1">
 <token>IKVM.Reflection.Universe,OpenRawModule</token>
@@ -355,10 +643,45 @@
 <token>IKVM.Reflection.Module,__GetReferencedAssemblies</token>
 <token>IKVM.Reflection.Universe,CreateMissingAssembly</token>
 </entry>
+<entry count="192">
+<token>IKVM.Reflection.CustomAttributeData,__GetDeclarativeSecurity</token>
+<token>IKVM.Reflection.Type,GetGenericArguments</token>
+<token>IKVM.Reflection.Type,__GetDeclaredInterfaces</token>
+<token>IKVM.Reflection.Type,__GetDeclaredTypes</token>
+<token>IKVM.Reflection.Type,__GetDeclaredFields</token>
+</entry>
+<entry count="768">
+<token>IKVM.Reflection.Type,__GetDeclaredTypes</token>
+<token>IKVM.Reflection.Type,__GetDeclaredFields</token>
+<token>IKVM.Reflection.Type,__GetDeclaredMethods</token>
+</entry>
+<entry count="768">
+<token>IKVM.Reflection.Type,__GetDeclaredInterfaces</token>
+<token>IKVM.Reflection.Type,__GetLayout</token>
+<token>IKVM.Reflection.MemberInfo,__GetCustomAttributes</token>
+<token>IKVM.Reflection.CustomAttributeData,__GetDeclarativeSecurity</token>
+<token>IKVM.Reflection.Type,GetGenericArguments</token>
+</entry>
+<entry count="12420">
+<token>IKVM.Reflection.ParameterInfo,__GetCustomModifiers</token>
+<token>IKVM.Reflection.MethodBase,GetMethodImplementationFlags</token>
+<token>IKVM.Reflection.MemberInfo,__GetCustomAttributes</token>
+</entry>
+<entry count="460">
+<token>IKVM.Reflection.MethodBase,GetGenericArguments</token>
+<token>IKVM.Reflection.MethodBase,GetParameters</token>
+<token>IKVM.Reflection.MethodBase,GetMethodImplementationFlags</token>
+<token>IKVM.Reflection.MemberInfo,__GetCustomAttributes</token>
+</entry>
 <entry count="2">
 <token>IKVM.Reflection.ConstructorInfo,GetParameters</token>
 <token>IKVM.Reflection.ParameterInfo,__GetCustomModifiers</token>
 <token>IKVM.Reflection.CustomAttributeData,__GetBlob</token>
+</entry>
+<entry count="768">
+<token>IKVM.Reflection.Type,__GetDeclaredFields</token>
+<token>IKVM.Reflection.Type,__GetDeclaredMethods</token>
+<token>IKVM.Reflection.Type,__GetDeclaredEvents</token>
 </entry>
 <entry count="5">
 <token>IKVM.Reflection.Assembly,GetManifestResourceNames</token>
@@ -370,10 +693,30 @@
 <token>IKVM.Reflection.Universe,Import</token>
 <token>IKVM.Reflection.Universe,Import</token>
 </entry>
+<entry count="768">
+<token>IKVM.Reflection.Type,__GetDeclaredTypes</token>
+<token>IKVM.Reflection.Type,__GetDeclaredFields</token>
+<token>IKVM.Reflection.Type,__GetDeclaredMethods</token>
+<token>IKVM.Reflection.Type,__GetDeclaredEvents</token>
+</entry>
+<entry count="1840">
+<token>IKVM.Reflection.ParameterInfo,__TryGetFieldMarshal</token>
+<token>IKVM.Reflection.MethodBase,GetParameters</token>
+<token>IKVM.Reflection.ParameterInfo,__GetCustomModifiers</token>
+<token>IKVM.Reflection.ParameterInfo,__TryGetFieldMarshal</token>
+<token>IKVM.Reflection.MethodBase,GetMethodImplementationFlags</token>
+</entry>
 <entry count="2">
 <token>IKVM.Reflection.FieldInfo,__TryGetFieldMarshal</token>
 <token>IKVM.Reflection.FieldInfo,__GetCustomModifiers</token>
 <token>IKVM.Reflection.MemberInfo,__GetCustomAttributes</token>
+</entry>
+<entry count="460">
+<token>IKVM.Reflection.ParameterInfo,__GetCustomModifiers</token>
+<token>IKVM.Reflection.MethodBase,GetGenericArguments</token>
+<token>IKVM.Reflection.MethodBase,GetParameters</token>
+<token>IKVM.Reflection.ParameterInfo,__GetCustomModifiers</token>
+<token>IKVM.Reflection.ParameterInfo,__TryGetFieldMarshal</token>
 </entry>
 <entry count="3">
 <token>IKVM.Reflection.Universe,OpenRawModule</token>
@@ -387,18 +730,46 @@
 <token>IKVM.Reflection.EventInfo,GetAddMethod</token>
 <token>IKVM.Reflection.EventInfo,GetRemoveMethod</token>
 </entry>
+<entry count="11250">
+<token>IKVM.Reflection.Assembly,__GetCustomAttributes</token>
+<token>IKVM.Reflection.CustomAttributeData,__GetDeclarativeSecurity</token>
+<token>IKVM.Reflection.Assembly,GetName</token>
+<token>IKVM.Reflection.Assembly,GetName</token>
+<token>IKVM.Reflection.AssemblyName,GetPublicKey</token>
+</entry>
+<entry count="20700">
+<token>IKVM.Reflection.MemberInfo,__GetCustomAttributes</token>
+<token>IKVM.Reflection.MethodBase,GetGenericArguments</token>
+<token>IKVM.Reflection.MethodBase,GetParameters</token>
+</entry>
+<entry count="1840">
+<token>IKVM.Reflection.ParameterInfo,__GetCustomModifiers</token>
+<token>IKVM.Reflection.MethodBase,GetParameters</token>
+<token>IKVM.Reflection.ParameterInfo,__GetCustomModifiers</token>
+<token>IKVM.Reflection.ParameterInfo,__TryGetFieldMarshal</token>
+<token>IKVM.Reflection.MethodBase,GetMethodImplementationFlags</token>
+</entry>
 <entry count="2">
 <token>IKVM.Reflection.FieldInfo,__GetFieldOnTypeDefinition</token>
 <token>IKVM.Reflection.FieldInfo,__GetCustomModifiers</token>
+</entry>
+<entry count="4140">
+<token>IKVM.Reflection.ParameterInfo,__TryGetFieldMarshal</token>
+<token>IKVM.Reflection.MethodBase,GetMethodImplementationFlags</token>
+<token>IKVM.Reflection.MemberInfo,__GetCustomAttributes</token>
 </entry>
 <entry count="10">
 <token>IKVM.Reflection.PropertyInfo,GetIndexParameters</token>
 <token>IKVM.Reflection.MemberInfo,__GetCustomAttributes</token>
 </entry>
-<entry count="36">
+<entry count="18750">
 <token>IKVM.Reflection.Assembly,GetName</token>
 <token>IKVM.Reflection.AssemblyName,GetPublicKey</token>
 <token>IKVM.Reflection.Assembly,GetName</token>
+</entry>
+<entry count="9200">
+<token>IKVM.Reflection.ParameterInfo,__TryGetFieldMarshal</token>
+<token>IKVM.Reflection.MethodBase,GetParameters</token>
 </entry>
 <entry count="2">
 <token>IKVM.Reflection.ConstructorInfo,GetParameters</token>
@@ -420,6 +791,12 @@
 <token>IKVM.Reflection.EventInfo,GetRemoveMethod</token>
 <token>IKVM.Reflection.MethodBase,GetParameters</token>
 </entry>
+<entry count="4140">
+<token>IKVM.Reflection.ParameterInfo,__GetCustomModifiers</token>
+<token>IKVM.Reflection.ParameterInfo,__TryGetFieldMarshal</token>
+<token>IKVM.Reflection.CustomAttributeData,__GetDeclarativeSecurity</token>
+<token>IKVM.Reflection.MethodBase,GetMethodBody</token>
+</entry>
 <entry count="52">
 <token>IKVM.Reflection.FieldInfo,__GetCustomModifiers</token>
 <token>IKVM.Reflection.MemberInfo,__GetCustomAttributes</token>
@@ -431,7 +808,7 @@
 <token>IKVM.Reflection.Module,__ResolveReferencedAssemblies</token>
 <token>IKVM.Reflection.Module,__GetReferencedTypes</token>
 </entry>
-<entry count="114">
+<entry count="71250">
 <token>IKVM.Reflection.Assembly,GetName</token>
 <token>IKVM.Reflection.Assembly,GetName</token>
 <token>IKVM.Reflection.Assembly,GetName</token>
@@ -442,7 +819,12 @@
 <token>IKVM.Reflection.PropertyInfo,GetSetMethod</token>
 <token>IKVM.Reflection.ParameterInfo,__GetCustomModifiers</token>
 </entry>
-<entry count="36">
+<entry count="8280">
+<token>IKVM.Reflection.MethodBase,GetParameters</token>
+<token>IKVM.Reflection.ParameterInfo,__GetCustomModifiers</token>
+<token>IKVM.Reflection.ParameterInfo,__TryGetFieldMarshal</token>
+</entry>
+<entry count="18750">
 <token>IKVM.Reflection.Assembly,GetName</token>
 <token>IKVM.Reflection.Assembly,__GetCustomAttributes</token>
 <token>IKVM.Reflection.CustomAttributeData,__GetDeclarativeSecurity</token>
@@ -455,6 +837,12 @@
 <token>IKVM.Reflection.MethodBase,GetGenericArguments</token>
 <token>IKVM.Reflection.MethodBase,GetGenericArguments</token>
 </entry>
+<entry count="384">
+<token>IKVM.Reflection.Type,GetGenericArguments</token>
+<token>IKVM.Reflection.Type,__GetDeclaredInterfaces</token>
+<token>IKVM.Reflection.CustomAttributeData,__GetCustomAttributes</token>
+<token>IKVM.Reflection.Type,__GetDeclaredTypes</token>
+</entry>
 <entry count="4">
 <token>IKVM.Reflection.Universe,CreateMissingAssembly</token>
 <token>IKVM.Reflection.Module,__ResolveReferencedAssemblies</token>
@@ -471,27 +859,44 @@
 <token>IKVM.Reflection.Module,__GetSectionInfo</token>
 <token>IKVM.Reflection.MemberInfo,__GetCustomAttributes</token>
 </entry>
-<entry count="36">
+<entry count="18750">
 <token>IKVM.Reflection.Assembly,GetName</token>
 <token>IKVM.Reflection.AssemblyName,GetPublicKey</token>
 <token>IKVM.Reflection.Assembly,GetName</token>
 <token>IKVM.Reflection.Assembly,GetName</token>
 </entry>
-<entry count="36">
+<entry count="192">
+<token>IKVM.Reflection.MemberInfo,__GetCustomAttributes</token>
+<token>IKVM.Reflection.CustomAttributeData,__GetDeclarativeSecurity</token>
+<token>IKVM.Reflection.Type,GetGenericArguments</token>
+<token>IKVM.Reflection.Type,__GetDeclaredInterfaces</token>
+<token>IKVM.Reflection.Type,__GetDeclaredTypes</token>
+</entry>
+<entry count="4140">
+<token>IKVM.Reflection.MethodBase,GetParameters</token>
+<token>IKVM.Reflection.CustomAttributeData,__GetDeclarativeSecurity</token>
+<token>IKVM.Reflection.MethodBase,GetMethodBody</token>
+</entry>
+<entry count="18750">
 <token>IKVM.Reflection.Assembly,GetName</token>
 <token>IKVM.Reflection.Assembly,__GetCustomAttributes</token>
 </entry>
-<entry count="4">
+<entry count="64">
 <token>IKVM.Reflection.Module,GetPEKind</token>
 <token>IKVM.Reflection.Module,__ReadDataFromRVA</token>
 <token>IKVM.Reflection.Module,__ReadDataFromRVA</token>
+</entry>
+<entry count="12420">
+<token>IKVM.Reflection.MethodBase,GetParameters</token>
+<token>IKVM.Reflection.ParameterInfo,__GetCustomModifiers</token>
+<token>IKVM.Reflection.CustomAttributeData,__GetDeclarativeSecurity</token>
 </entry>
 <entry count="10">
 <token>IKVM.Reflection.PropertyInfo,GetIndexParameters</token>
 <token>IKVM.Reflection.MemberInfo,__GetCustomAttributes</token>
 <token>IKVM.Reflection.PropertyInfo,GetAccessors</token>
 </entry>
-<entry count="4">
+<entry count="64">
 <token>IKVM.Reflection.Module,GetPEKind</token>
 <token>IKVM.Reflection.Module,__ReadDataFromRVA</token>
 <token>IKVM.Reflection.Module,__ReadDataFromRVA</token>
@@ -504,6 +909,17 @@
 <token>IKVM.Reflection.ParameterInfo,__GetCustomModifiers</token>
 <token>IKVM.Reflection.MethodBase,GetParameters</token>
 </entry>
+<entry count="1840">
+<token>IKVM.Reflection.ParameterInfo,__GetCustomModifiers</token>
+<token>IKVM.Reflection.MethodBase,GetGenericArguments</token>
+<token>IKVM.Reflection.MethodBase,GetParameters</token>
+<token>IKVM.Reflection.ParameterInfo,__GetCustomModifiers</token>
+</entry>
+<entry count="768">
+<token>IKVM.Reflection.MemberInfo,__GetCustomAttributes</token>
+<token>IKVM.Reflection.CustomAttributeData,__GetDeclarativeSecurity</token>
+<token>IKVM.Reflection.Type,GetGenericArguments</token>
+</entry>
 <entry count="6">
 <token>IKVM.Reflection.PropertyInfo,GetAccessors</token>
 <token>IKVM.Reflection.PropertyInfo,GetGetMethod</token>
@@ -515,12 +931,23 @@
 <token>IKVM.Reflection.Module,__GetReferencedAssemblies</token>
 <token>IKVM.Reflection.Universe,CreateMissingAssembly</token>
 </entry>
+<entry count="576">
+<token>IKVM.Reflection.Type,__GetLayout</token>
+<token>IKVM.Reflection.MemberInfo,__GetCustomAttributes</token>
+<token>IKVM.Reflection.CustomAttributeData,__GetDeclarativeSecurity</token>
+<token>IKVM.Reflection.Type,GetGenericArguments</token>
+<token>IKVM.Reflection.Type,__GetDeclaredInterfaces</token>
+</entry>
 <entry count="2">
 <token>IKVM.Reflection.PropertyInfo,GetIndexParameters</token>
 <token>IKVM.Reflection.MemberInfo,__GetCustomAttributes</token>
 <token>IKVM.Reflection.PropertyInfo,GetAccessors</token>
 <token>IKVM.Reflection.PropertyInfo,GetGetMethod</token>
 <token>IKVM.Reflection.ParameterInfo,__GetCustomModifiers</token>
+</entry>
+<entry count="768">
+<token>IKVM.Reflection.Type,__GetDeclaredFields</token>
+<token>IKVM.Reflection.Type,__GetDeclaredMethods</token>
 </entry>
 <entry count="2">
 <token>IKVM.Reflection.EventInfo,GetRemoveMethod</token>
@@ -536,10 +963,21 @@
 <token>IKVM.Reflection.EventInfo,__GetMethods</token>
 <token>IKVM.Reflection.EventInfo,GetAddMethod</token>
 </entry>
+<entry count="4140">
+<token>IKVM.Reflection.MethodBase,GetParameters</token>
+<token>IKVM.Reflection.ParameterInfo,__GetCustomModifiers</token>
+<token>IKVM.Reflection.ParameterInfo,__TryGetFieldMarshal</token>
+<token>IKVM.Reflection.MethodBase,GetMethodImplementationFlags</token>
+<token>IKVM.Reflection.MemberInfo,__GetCustomAttributes</token>
+</entry>
 <entry count="6">
 <token>IKVM.Reflection.Universe,new</token>
 <token>IKVM.Reflection.ResolveEventHandler,new</token>
 <token>IKVM.Reflection.Universe,Import</token>
+</entry>
+<entry count="2300">
+<token>IKVM.Reflection.ParameterInfo,__GetCustomModifiers</token>
+<token>IKVM.Reflection.MethodBase,GetGenericArguments</token>
 </entry>
 <entry count="6">
 <token>IKVM.Reflection.PropertyInfo,__GetCustomModifiers</token>
@@ -548,18 +986,57 @@
 <token>IKVM.Reflection.PropertyInfo,GetAccessors</token>
 <token>IKVM.Reflection.PropertyInfo,GetGetMethod</token>
 </entry>
+<entry count="460">
+<token>IKVM.Reflection.ParameterInfo,__GetCustomModifiers</token>
+<token>IKVM.Reflection.MethodBase,GetGenericArguments</token>
+<token>IKVM.Reflection.MethodBase,GetParameters</token>
+<token>IKVM.Reflection.MethodBase,GetMethodImplementationFlags</token>
+<token>IKVM.Reflection.MemberInfo,__GetCustomAttributes</token>
+</entry>
 <entry count="25">
 <token>IKVM.Reflection.FieldInfo,__TryGetFieldOffset</token>
 <token>IKVM.Reflection.FieldInfo,__GetCustomModifiers</token>
 <token>IKVM.Reflection.FieldInfo,GetRawConstantValue</token>
 <token>IKVM.Reflection.MemberInfo,__GetCustomAttributes</token>
 </entry>
+<entry count="1380">
+<token>IKVM.Reflection.MethodBase,GetGenericArguments</token>
+<token>IKVM.Reflection.MethodBase,GetParameters</token>
+<token>IKVM.Reflection.ParameterInfo,__GetCustomModifiers</token>
+<token>IKVM.Reflection.MethodBase,GetMethodImplementationFlags</token>
+<token>IKVM.Reflection.MemberInfo,__GetCustomAttributes</token>
+</entry>
+<entry count="5520">
+<token>IKVM.Reflection.ParameterInfo,__TryGetFieldMarshal</token>
+<token>IKVM.Reflection.MethodBase,GetParameters</token>
+<token>IKVM.Reflection.ParameterInfo,__GetCustomModifiers</token>
+<token>IKVM.Reflection.MethodBase,GetMethodImplementationFlags</token>
+<token>IKVM.Reflection.MemberInfo,__GetCustomAttributes</token>
+</entry>
+<entry count="192">
+<token>IKVM.Reflection.CustomAttributeData,__GetDeclarativeSecurity</token>
+<token>IKVM.Reflection.Type,GetGenericArguments</token>
+<token>IKVM.Reflection.Type,__GetDeclaredInterfaces</token>
+<token>IKVM.Reflection.Type,__GetDeclaredTypes</token>
+</entry>
+<entry count="4600">
+<token>IKVM.Reflection.MethodBase,GetGenericArguments</token>
+<token>IKVM.Reflection.MethodBase,GetParameters</token>
+<token>IKVM.Reflection.ParameterInfo,__GetCustomModifiers</token>
+<token>IKVM.Reflection.ParameterInfo,__TryGetFieldMarshal</token>
+</entry>
 <entry count="1">
 <token>IKVM.Reflection.MethodBase,GetParameters</token>
 <token>IKVM.Reflection.MethodBase,GetParameters</token>
 <token>IKVM.Reflection.MethodBase,GetGenericArguments</token>
 </entry>
-<entry count="36">
+<entry count="4140">
+<token>IKVM.Reflection.ParameterInfo,__TryGetFieldMarshal</token>
+<token>IKVM.Reflection.MethodBase,GetMethodImplementationFlags</token>
+<token>IKVM.Reflection.MemberInfo,__GetCustomAttributes</token>
+<token>IKVM.Reflection.MethodBase,GetGenericArguments</token>
+</entry>
+<entry count="7500">
 <token>IKVM.Reflection.Assembly,__GetCustomAttributes</token>
 <token>IKVM.Reflection.CustomAttributeData,__GetDeclarativeSecurity</token>
 <token>IKVM.Reflection.Assembly,GetName</token>
@@ -585,6 +1062,23 @@
 <token>IKVM.Reflection.PropertyInfo,GetGetMethod</token>
 <token>IKVM.Reflection.PropertyInfo,GetSetMethod</token>
 </entry>
+<entry count="16560">
+<token>IKVM.Reflection.MemberInfo,__GetCustomAttributes</token>
+<token>IKVM.Reflection.MethodBase,GetGenericArguments</token>
+<token>IKVM.Reflection.MethodBase,GetParameters</token>
+<token>IKVM.Reflection.ParameterInfo,__GetCustomModifiers</token>
+</entry>
+<entry count="5520">
+<token>IKVM.Reflection.ParameterInfo,__GetCustomModifiers</token>
+<token>IKVM.Reflection.MethodBase,GetParameters</token>
+<token>IKVM.Reflection.ParameterInfo,__GetCustomModifiers</token>
+<token>IKVM.Reflection.MethodBase,GetMethodImplementationFlags</token>
+</entry>
+<entry count="7360">
+<token>IKVM.Reflection.ParameterInfo,__GetCustomModifiers</token>
+<token>IKVM.Reflection.MethodBase,GetParameters</token>
+<token>IKVM.Reflection.ParameterInfo,__GetCustomModifiers</token>
+</entry>
 <entry count="2">
 <token>IKVM.Reflection.FieldInfo,__TryGetFieldOffset</token>
 <token>IKVM.Reflection.FieldInfo,__TryGetFieldMarshal</token>
@@ -602,11 +1096,23 @@
 <token>IKVM.Reflection.EventInfo,GetAddMethod</token>
 <token>IKVM.Reflection.EventInfo,GetRemoveMethod</token>
 </entry>
-<entry count="150">
+<entry count="90000">
 <token>IKVM.Reflection.Assembly,GetName</token>
 <token>IKVM.Reflection.Assembly,GetName</token>
 <token>IKVM.Reflection.Assembly,GetName</token>
 <token>IKVM.Reflection.Assembly,GetName</token>
+</entry>
+<entry count="11250">
+<token>IKVM.Reflection.CustomAttributeData,__GetDeclarativeSecurity</token>
+<token>IKVM.Reflection.Assembly,GetName</token>
+<token>IKVM.Reflection.Assembly,GetName</token>
+<token>IKVM.Reflection.AssemblyName,GetPublicKey</token>
+<token>IKVM.Reflection.Assembly,GetName</token>
+</entry>
+<entry count="4140">
+<token>IKVM.Reflection.MethodBase,GetParameters</token>
+<token>IKVM.Reflection.MethodBase,GetMethodImplementationFlags</token>
+<token>IKVM.Reflection.MemberInfo,__GetCustomAttributes</token>
 </entry>
 <entry count="1">
 <token>IKVM.Reflection.Universe,OpenRawModule</token>
@@ -614,6 +1120,17 @@
 <token>IKVM.Reflection.Module,__GetReferencedAssemblies</token>
 <token>IKVM.Reflection.Module,__ResolveReferencedAssemblies</token>
 <token>IKVM.Reflection.Module,__GetReferencedTypes</token>
+</entry>
+<entry count="576">
+<token>IKVM.Reflection.CustomAttributeData,__GetDeclarativeSecurity</token>
+<token>IKVM.Reflection.Type,GetGenericArguments</token>
+<token>IKVM.Reflection.Type,__GetDeclaredInterfaces</token>
+</entry>
+<entry count="192">
+<token>IKVM.Reflection.Type,GetGenericArguments</token>
+<token>IKVM.Reflection.Type,__GetDeclaredTypes</token>
+<token>IKVM.Reflection.Type,__GetDeclaredFields</token>
+<token>IKVM.Reflection.Type,__GetDeclaredMethods</token>
 </entry>
 <entry count="2">
 <token>IKVM.Reflection.PropertyInfo,GetGetMethod</token>
@@ -624,11 +1141,28 @@
 <token>IKVM.Reflection.FieldInfo,__TryGetFieldMarshal</token>
 <token>IKVM.Reflection.FieldInfo,__GetCustomModifiers</token>
 </entry>
-<entry count="23">
+<entry count="31">
 <token>IKVM.Reflection.Module,__GetDataDirectoryEntry</token>
 <token>IKVM.Reflection.Module,__ReadDataFromRVA</token>
 </entry>
-<entry count="36">
+<entry count="192">
+<token>IKVM.Reflection.Type,GetGenericArguments</token>
+<token>IKVM.Reflection.Type,__GetDeclaredTypes</token>
+<token>IKVM.Reflection.Type,__GetDeclaredFields</token>
+<token>IKVM.Reflection.Type,__GetDeclaredMethods</token>
+<token>IKVM.Reflection.Type,__GetDeclaredEvents</token>
+</entry>
+<entry count="460">
+<token>IKVM.Reflection.MethodBase,GetGenericArguments</token>
+<token>IKVM.Reflection.MethodBase,GetParameters</token>
+<token>IKVM.Reflection.MethodBase,GetMethodImplementationFlags</token>
+</entry>
+<entry count="384">
+<token>IKVM.Reflection.Type,__GetDeclaredInterfaces</token>
+<token>IKVM.Reflection.CustomAttributeData,__GetCustomAttributes</token>
+<token>IKVM.Reflection.Type,__GetDeclaredTypes</token>
+</entry>
+<entry count="7500">
 <token>IKVM.Reflection.CustomAttributeData,__GetDeclarativeSecurity</token>
 <token>IKVM.Reflection.Assembly,GetName</token>
 <token>IKVM.Reflection.AssemblyName,GetPublicKey</token>
@@ -644,6 +1178,23 @@
 <token>IKVM.Reflection.Universe,Import</token>
 <token>IKVM.Reflection.Universe,OpenRawModule</token>
 <token>IKVM.Reflection.AssemblyName,new</token>
+</entry>
+<entry count="384">
+<token>IKVM.Reflection.MemberInfo,__GetCustomAttributes</token>
+<token>IKVM.Reflection.CustomAttributeData,__GetDeclarativeSecurity</token>
+<token>IKVM.Reflection.Type,GetGenericArguments</token>
+<token>IKVM.Reflection.Type,__GetDeclaredInterfaces</token>
+<token>IKVM.Reflection.CustomAttributeData,__GetCustomAttributes</token>
+</entry>
+<entry count="192">
+<token>IKVM.Reflection.Type,GetGenericArguments</token>
+<token>IKVM.Reflection.Type,__GetDeclaredInterfaces</token>
+<token>IKVM.Reflection.Type,__GetDeclaredTypes</token>
+<token>IKVM.Reflection.Type,__GetDeclaredFields</token>
+</entry>
+<entry count="768">
+<token>IKVM.Reflection.Type,__GetDeclaredMethods</token>
+<token>IKVM.Reflection.Type,__GetDeclaredEvents</token>
 </entry>
 <entry count="1">
 <token>IKVM.Reflection.AssemblyName,new</token>
@@ -662,9 +1213,28 @@
 <token>IKVM.Reflection.EventInfo,GetRaiseMethod</token>
 <token>IKVM.Reflection.MethodBase,GetParameters</token>
 </entry>
+<entry count="11250">
+<token>IKVM.Reflection.CustomAttributeData,__GetDeclarativeSecurity</token>
+<token>IKVM.Reflection.Assembly,GetName</token>
+<token>IKVM.Reflection.Assembly,GetName</token>
+</entry>
 <entry count="1">
 <token>IKVM.Reflection.FieldInfo,__GetCustomModifiers</token>
 <token>IKVM.Reflection.FieldInfo,__GetCustomModifiers</token>
+</entry>
+<entry count="4140">
+<token>IKVM.Reflection.MethodBase,GetGenericArguments</token>
+<token>IKVM.Reflection.MethodBase,GetParameters</token>
+<token>IKVM.Reflection.CustomAttributeData,__GetDeclarativeSecurity</token>
+<token>IKVM.Reflection.MethodBase,GetMethodBody</token>
+</entry>
+<entry count="768">
+<token>IKVM.Reflection.Type,__GetDeclaredEvents</token>
+<token>IKVM.Reflection.Type,__GetDeclaredProperties</token>
+</entry>
+<entry count="192">
+<token>IKVM.Reflection.Type,GetGenericArguments</token>
+<token>IKVM.Reflection.Type,__GetDeclaredTypes</token>
 </entry>
 <entry count="1">
 <token>IKVM.Reflection.FieldInfo,__TryGetFieldOffset</token>
@@ -673,16 +1243,48 @@
 <token>IKVM.Reflection.FieldInfo,GetRawConstantValue</token>
 <token>IKVM.Reflection.MemberInfo,__GetCustomAttributes</token>
 </entry>
-<entry count="36">
+<entry count="768">
+<token>IKVM.Reflection.Type,__GetDeclaredInterfaces</token>
+<token>IKVM.Reflection.Type,__GetLayout</token>
+</entry>
+<entry count="1840">
+<token>IKVM.Reflection.ParameterInfo,__GetCustomModifiers</token>
+<token>IKVM.Reflection.ParameterInfo,__TryGetFieldMarshal</token>
+<token>IKVM.Reflection.MethodBase,GetParameters</token>
+<token>IKVM.Reflection.ParameterInfo,__GetCustomModifiers</token>
+<token>IKVM.Reflection.ParameterInfo,__TryGetFieldMarshal</token>
+</entry>
+<entry count="1840">
+<token>IKVM.Reflection.ParameterInfo,__GetCustomModifiers</token>
+<token>IKVM.Reflection.MethodBase,GetParameters</token>
+<token>IKVM.Reflection.ParameterInfo,__GetCustomModifiers</token>
+<token>IKVM.Reflection.ParameterInfo,__TryGetFieldMarshal</token>
+</entry>
+<entry count="7500">
 <token>IKVM.Reflection.CustomAttributeData,__GetDeclarativeSecurity</token>
 <token>IKVM.Reflection.Assembly,GetName</token>
 <token>IKVM.Reflection.AssemblyName,GetPublicKey</token>
 <token>IKVM.Reflection.Assembly,GetName</token>
 </entry>
-<entry count="20">
+<entry count="384">
+<token>IKVM.Reflection.Type,GetGenericArguments</token>
+<token>IKVM.Reflection.Type,__GetDeclaredInterfaces</token>
+<token>IKVM.Reflection.CustomAttributeData,__GetCustomAttributes</token>
+</entry>
+<entry count="7360">
+<token>IKVM.Reflection.ParameterInfo,__TryGetFieldMarshal</token>
+<token>IKVM.Reflection.MethodBase,GetParameters</token>
+<token>IKVM.Reflection.ParameterInfo,__GetCustomModifiers</token>
+</entry>
+<entry count="28">
 <token>IKVM.Reflection.Module,__GetDataDirectoryEntry</token>
 <token>IKVM.Reflection.Module,__ReadDataFromRVA</token>
 <token>IKVM.Reflection.Module,__ReadDataFromRVA</token>
+</entry>
+<entry count="384">
+<token>IKVM.Reflection.CustomAttributeData,__GetCustomAttributes</token>
+<token>IKVM.Reflection.Type,__GetDeclaredTypes</token>
+<token>IKVM.Reflection.Type,__GetDeclaredFields</token>
 </entry>
 <entry count="2">
 <token>IKVM.Reflection.Universe,Import</token>
@@ -691,19 +1293,62 @@
 <token>IKVM.Reflection.Module,__GetReferencedAssemblies</token>
 <token>IKVM.Reflection.Universe,CreateMissingAssembly</token>
 </entry>
+<entry count="18400">
+<token>IKVM.Reflection.MethodBase,GetGenericArguments</token>
+<token>IKVM.Reflection.MethodBase,GetParameters</token>
+<token>IKVM.Reflection.ParameterInfo,__GetCustomModifiers</token>
+</entry>
+<entry count="1840">
+<token>IKVM.Reflection.ParameterInfo,__GetCustomModifiers</token>
+<token>IKVM.Reflection.ParameterInfo,__TryGetFieldMarshal</token>
+<token>IKVM.Reflection.MethodBase,GetParameters</token>
+<token>IKVM.Reflection.MethodBase,GetMethodImplementationFlags</token>
+</entry>
 <entry count="6">
 <token>IKVM.Reflection.ResolveEventHandler,new</token>
 <token>IKVM.Reflection.Universe,Import</token>
 <token>IKVM.Reflection.Universe,Import</token>
 </entry>
-<entry count="20">
+<entry count="4140">
+<token>IKVM.Reflection.ParameterInfo,__TryGetFieldMarshal</token>
+<token>IKVM.Reflection.MethodBase,GetMethodImplementationFlags</token>
+<token>IKVM.Reflection.MemberInfo,__GetCustomAttributes</token>
+<token>IKVM.Reflection.MethodBase,GetGenericArguments</token>
+<token>IKVM.Reflection.MethodBase,GetParameters</token>
+</entry>
+<entry count="96">
 <token>IKVM.Reflection.Module,__ReadDataFromRVA</token>
 <token>IKVM.Reflection.Module,__ReadDataFromRVA</token>
 <token>IKVM.Reflection.Module,__ReadDataFromRVA</token>
 </entry>
-<entry count="36">
+<entry count="192">
+<token>IKVM.Reflection.Type,__GetDeclaredInterfaces</token>
+<token>IKVM.Reflection.Type,__GetDeclaredTypes</token>
+<token>IKVM.Reflection.Type,__GetDeclaredFields</token>
+<token>IKVM.Reflection.Type,__GetDeclaredMethods</token>
+</entry>
+<entry count="18750">
 <token>IKVM.Reflection.Assembly,GetName</token>
 <token>IKVM.Reflection.AssemblyName,GetPublicKey</token>
+</entry>
+<entry count="4140">
+<token>IKVM.Reflection.ParameterInfo,__GetCustomModifiers</token>
+<token>IKVM.Reflection.ParameterInfo,__TryGetFieldMarshal</token>
+<token>IKVM.Reflection.MethodBase,GetMethodImplementationFlags</token>
+<token>IKVM.Reflection.MemberInfo,__GetCustomAttributes</token>
+</entry>
+<entry count="16560">
+<token>IKVM.Reflection.MethodBase,GetMethodImplementationFlags</token>
+<token>IKVM.Reflection.MemberInfo,__GetCustomAttributes</token>
+<token>IKVM.Reflection.MethodBase,GetGenericArguments</token>
+<token>IKVM.Reflection.MethodBase,GetParameters</token>
+<token>IKVM.Reflection.ParameterInfo,__GetCustomModifiers</token>
+</entry>
+<entry count="11250">
+<token>IKVM.Reflection.Assembly,GetName</token>
+<token>IKVM.Reflection.Assembly,GetName</token>
+<token>IKVM.Reflection.Assembly,__GetCustomAttributes</token>
+<token>IKVM.Reflection.CustomAttributeData,__GetDeclarativeSecurity</token>
 </entry>
 <entry count="4">
 <token>IKVM.Reflection.Module,__GetReferencedAssemblies</token>
@@ -719,6 +1364,13 @@
 <token>IKVM.Reflection.MethodBase,GetParameters</token>
 <token>IKVM.Reflection.MethodBase,GetParameters</token>
 </entry>
+<entry count="1840">
+<token>IKVM.Reflection.ParameterInfo,__TryGetFieldMarshal</token>
+<token>IKVM.Reflection.MethodBase,GetParameters</token>
+<token>IKVM.Reflection.MethodBase,GetMethodImplementationFlags</token>
+<token>IKVM.Reflection.MemberInfo,__GetCustomAttributes</token>
+<token>IKVM.Reflection.MethodBase,GetGenericArguments</token>
+</entry>
 <entry count="1">
 <token>IKVM.Reflection.AssemblyName,new</token>
 <token>IKVM.Reflection.Universe,DefineDynamicAssembly</token>
@@ -736,24 +1388,46 @@
 <token>IKVM.Reflection.Universe,CreateMissingAssembly</token>
 <token>IKVM.Reflection.Module,__ResolveReferencedAssemblies</token>
 </entry>
-<entry count="36">
+<entry count="768">
+<token>IKVM.Reflection.Type,__GetDeclaredInterfaces</token>
+<token>IKVM.Reflection.Type,__GetLayout</token>
+<token>IKVM.Reflection.MemberInfo,__GetCustomAttributes</token>
+<token>IKVM.Reflection.CustomAttributeData,__GetDeclarativeSecurity</token>
+</entry>
+<entry count="12420">
+<token>IKVM.Reflection.MethodBase,GetParameters</token>
+<token>IKVM.Reflection.ParameterInfo,__GetCustomModifiers</token>
+<token>IKVM.Reflection.CustomAttributeData,__GetDeclarativeSecurity</token>
+<token>IKVM.Reflection.MethodBase,GetMethodBody</token>
+</entry>
+<entry count="18750">
 <token>IKVM.Reflection.AssemblyName,GetPublicKey</token>
 <token>IKVM.Reflection.Assembly,GetName</token>
 </entry>
-<entry count="36">
+<entry count="7500">
 <token>IKVM.Reflection.Assembly,GetName</token>
 <token>IKVM.Reflection.Assembly,__GetCustomAttributes</token>
 <token>IKVM.Reflection.CustomAttributeData,__GetDeclarativeSecurity</token>
 <token>IKVM.Reflection.Assembly,GetName</token>
 <token>IKVM.Reflection.AssemblyName,GetPublicKey</token>
 </entry>
+<entry count="33121">
+<token>IKVM.Reflection.MethodBase,GetParameters</token>
+<token>IKVM.Reflection.ParameterInfo,__GetCustomModifiers</token>
+</entry>
 <entry count="2">
 <token>IKVM.Reflection.ParameterInfo,__GetCustomModifiers</token>
 <token>IKVM.Reflection.CustomAttributeData,__GetBlob</token>
 </entry>
-<entry count="1">
-<token>IKVM.Reflection.MethodBase,GetParameters</token>
+<entry count="12420">
 <token>IKVM.Reflection.ParameterInfo,__GetCustomModifiers</token>
+<token>IKVM.Reflection.MethodBase,GetMethodImplementationFlags</token>
+<token>IKVM.Reflection.MemberInfo,__GetCustomAttributes</token>
+<token>IKVM.Reflection.MethodBase,GetGenericArguments</token>
+</entry>
+<entry count="4140">
+<token>IKVM.Reflection.ParameterInfo,__TryGetFieldMarshal</token>
+<token>IKVM.Reflection.CustomAttributeData,__GetDeclarativeSecurity</token>
 </entry>
 <entry count="3">
 <token>IKVM.Reflection.Universe,Import</token>
@@ -762,11 +1436,16 @@
 <token>IKVM.Reflection.Universe,LoadAssembly</token>
 <token>IKVM.Reflection.Module,__GetReferencedAssemblies</token>
 </entry>
+<entry count="4140">
+<token>IKVM.Reflection.MethodBase,GetGenericArguments</token>
+<token>IKVM.Reflection.MethodBase,GetParameters</token>
+<token>IKVM.Reflection.CustomAttributeData,__GetDeclarativeSecurity</token>
+</entry>
 <entry count="6">
 <token>IKVM.Reflection.MemberInfo,__GetCustomAttributes</token>
 <token>IKVM.Reflection.EventInfo,__GetMethods</token>
 </entry>
-<entry count="36">
+<entry count="18750">
 <token>IKVM.Reflection.Assembly,__GetCustomAttributes</token>
 <token>IKVM.Reflection.CustomAttributeData,__GetDeclarativeSecurity</token>
 <token>IKVM.Reflection.Assembly,GetName</token>
@@ -780,16 +1459,106 @@
 <token>IKVM.Reflection.Module,__GetReferencedAssemblies</token>
 <token>IKVM.Reflection.AssemblyName,GetPublicKeyToken</token>
 </entry>
+<entry count="4140">
+<token>IKVM.Reflection.MethodBase,GetGenericArguments</token>
+<token>IKVM.Reflection.MethodBase,GetParameters</token>
+<token>IKVM.Reflection.ParameterInfo,__GetCustomModifiers</token>
+<token>IKVM.Reflection.ParameterInfo,__TryGetFieldMarshal</token>
+<token>IKVM.Reflection.CustomAttributeData,__GetDeclarativeSecurity</token>
+</entry>
+<entry count="20700">
+<token>IKVM.Reflection.MethodBase,GetMethodImplementationFlags</token>
+<token>IKVM.Reflection.MemberInfo,__GetCustomAttributes</token>
+<token>IKVM.Reflection.MethodBase,GetGenericArguments</token>
+<token>IKVM.Reflection.MethodBase,GetParameters</token>
+</entry>
+<entry count="4140">
+<token>IKVM.Reflection.MethodBase,GetParameters</token>
+<token>IKVM.Reflection.MethodBase,GetMethodImplementationFlags</token>
+<token>IKVM.Reflection.MemberInfo,__GetCustomAttributes</token>
+<token>IKVM.Reflection.MethodBase,GetGenericArguments</token>
+<token>IKVM.Reflection.MethodBase,GetParameters</token>
+</entry>
+<entry count="192">
+<token>IKVM.Reflection.Type,__GetDeclaredInterfaces</token>
+<token>IKVM.Reflection.Type,__GetDeclaredTypes</token>
+<token>IKVM.Reflection.Type,__GetDeclaredFields</token>
+</entry>
+<entry count="20700">
+<token>IKVM.Reflection.MemberInfo,__GetCustomAttributes</token>
+<token>IKVM.Reflection.MethodBase,GetGenericArguments</token>
+</entry>
+<entry count="4140">
+<token>IKVM.Reflection.MemberInfo,__GetCustomAttributes</token>
+<token>IKVM.Reflection.MethodBase,GetGenericArguments</token>
+<token>IKVM.Reflection.MethodBase,GetParameters</token>
+<token>IKVM.Reflection.CustomAttributeData,__GetDeclarativeSecurity</token>
+<token>IKVM.Reflection.MethodBase,GetMethodBody</token>
+</entry>
+<entry count="11250">
+<token>IKVM.Reflection.Assembly,GetName</token>
+<token>IKVM.Reflection.Assembly,GetName</token>
+<token>IKVM.Reflection.Assembly,__GetCustomAttributes</token>
+</entry>
+<entry count="768">
+<token>IKVM.Reflection.Type,__GetDeclaredInterfaces</token>
+<token>IKVM.Reflection.Type,__GetLayout</token>
+<token>IKVM.Reflection.MemberInfo,__GetCustomAttributes</token>
+</entry>
+<entry count="4140">
+<token>IKVM.Reflection.MethodBase,GetParameters</token>
+<token>IKVM.Reflection.MethodBase,GetMethodImplementationFlags</token>
+</entry>
 <entry count="2">
 <token>IKVM.Reflection.Universe,DefineDynamicAssembly</token>
 <token>IKVM.Reflection.Module,__GetReferencedAssemblies</token>
 <token>IKVM.Reflection.Universe,CreateMissingAssembly</token>
 </entry>
+<entry count="384">
+<token>IKVM.Reflection.Type,__GetDeclaredInterfaces</token>
+<token>IKVM.Reflection.CustomAttributeData,__GetCustomAttributes</token>
+</entry>
 <entry count="1">
 <token>IKVM.Reflection.__StandAloneMethodSig,GetReturnTypeCustomModifiers</token>
 <token>IKVM.Reflection.__StandAloneMethodSig,GetParameterCustomModifiers</token>
 </entry>
-<entry count="36">
+<entry count="12420">
+<token>IKVM.Reflection.MethodBase,GetGenericArguments</token>
+<token>IKVM.Reflection.MethodBase,GetParameters</token>
+<token>IKVM.Reflection.ParameterInfo,__GetCustomModifiers</token>
+<token>IKVM.Reflection.CustomAttributeData,__GetDeclarativeSecurity</token>
+</entry>
+<entry count="1380">
+<token>IKVM.Reflection.ParameterInfo,__GetCustomModifiers</token>
+<token>IKVM.Reflection.MethodBase,GetGenericArguments</token>
+<token>IKVM.Reflection.MethodBase,GetParameters</token>
+<token>IKVM.Reflection.ParameterInfo,__GetCustomModifiers</token>
+<token>IKVM.Reflection.MethodBase,GetMethodImplementationFlags</token>
+</entry>
+<entry count="11250">
+<token>IKVM.Reflection.Assembly,GetName</token>
+<token>IKVM.Reflection.Assembly,GetName</token>
+<token>IKVM.Reflection.AssemblyName,GetPublicKey</token>
+</entry>
+<entry count="4140">
+<token>IKVM.Reflection.ParameterInfo,__GetCustomModifiers</token>
+<token>IKVM.Reflection.ParameterInfo,__TryGetFieldMarshal</token>
+<token>IKVM.Reflection.MethodBase,GetMethodImplementationFlags</token>
+<token>IKVM.Reflection.MemberInfo,__GetCustomAttributes</token>
+<token>IKVM.Reflection.MethodBase,GetGenericArguments</token>
+</entry>
+<entry count="576">
+<token>IKVM.Reflection.MemberInfo,__GetCustomAttributes</token>
+<token>IKVM.Reflection.CustomAttributeData,__GetDeclarativeSecurity</token>
+<token>IKVM.Reflection.Type,GetGenericArguments</token>
+<token>IKVM.Reflection.Type,__GetDeclaredInterfaces</token>
+</entry>
+<entry count="4140">
+<token>IKVM.Reflection.ParameterInfo,__GetCustomModifiers</token>
+<token>IKVM.Reflection.ParameterInfo,__TryGetFieldMarshal</token>
+<token>IKVM.Reflection.CustomAttributeData,__GetDeclarativeSecurity</token>
+</entry>
+<entry count="18750">
 <token>IKVM.Reflection.CustomAttributeData,__GetDeclarativeSecurity</token>
 <token>IKVM.Reflection.Assembly,GetName</token>
 </entry>
@@ -814,7 +1583,13 @@
 <token>IKVM.Reflection.ResolveEventHandler,new</token>
 <token>IKVM.Reflection.Universe,Import</token>
 </entry>
-<entry count="36">
+<entry count="460">
+<token>IKVM.Reflection.ParameterInfo,__GetCustomModifiers</token>
+<token>IKVM.Reflection.MethodBase,GetGenericArguments</token>
+<token>IKVM.Reflection.MethodBase,GetParameters</token>
+<token>IKVM.Reflection.MethodBase,GetMethodImplementationFlags</token>
+</entry>
+<entry count="18750">
 <token>IKVM.Reflection.Assembly,GetName</token>
 <token>IKVM.Reflection.AssemblyName,GetPublicKey</token>
 <token>IKVM.Reflection.Assembly,GetName</token>
@@ -833,7 +1608,14 @@
 <token>IKVM.Reflection.EventInfo,GetAddMethod</token>
 <token>IKVM.Reflection.EventInfo,GetRemoveMethod</token>
 </entry>
-<entry count="6">
+<entry count="4140">
+<token>IKVM.Reflection.MemberInfo,__GetCustomAttributes</token>
+<token>IKVM.Reflection.MethodBase,GetGenericArguments</token>
+<token>IKVM.Reflection.MethodBase,GetParameters</token>
+<token>IKVM.Reflection.ParameterInfo,__GetCustomModifiers</token>
+<token>IKVM.Reflection.ParameterInfo,__TryGetFieldMarshal</token>
+</entry>
+<entry count="9206">
 <token>IKVM.Reflection.ParameterInfo,__GetCustomModifiers</token>
 <token>IKVM.Reflection.MethodBase,GetParameters</token>
 </entry>
@@ -843,7 +1625,38 @@
 <token>IKVM.Reflection.ParameterInfo,__GetCustomModifiers</token>
 <token>IKVM.Reflection.MethodBase,GetParameters</token>
 </entry>
-<entry count="36">
+<entry count="7360">
+<token>IKVM.Reflection.ParameterInfo,__GetCustomModifiers</token>
+<token>IKVM.Reflection.ParameterInfo,__TryGetFieldMarshal</token>
+<token>IKVM.Reflection.MethodBase,GetParameters</token>
+<token>IKVM.Reflection.ParameterInfo,__GetCustomModifiers</token>
+</entry>
+<entry count="384">
+<token>IKVM.Reflection.Type,__GetDeclaredInterfaces</token>
+<token>IKVM.Reflection.CustomAttributeData,__GetCustomAttributes</token>
+<token>IKVM.Reflection.Type,__GetDeclaredTypes</token>
+<token>IKVM.Reflection.Type,__GetDeclaredFields</token>
+<token>IKVM.Reflection.Type,__GetDeclaredMethods</token>
+</entry>
+<entry count="1840">
+<token>IKVM.Reflection.ParameterInfo,__GetCustomModifiers</token>
+<token>IKVM.Reflection.MethodBase,GetParameters</token>
+<token>IKVM.Reflection.MethodBase,GetMethodImplementationFlags</token>
+<token>IKVM.Reflection.MemberInfo,__GetCustomAttributes</token>
+</entry>
+<entry count="1840">
+<token>IKVM.Reflection.ParameterInfo,__GetCustomModifiers</token>
+<token>IKVM.Reflection.MethodBase,GetParameters</token>
+<token>IKVM.Reflection.MethodBase,GetMethodImplementationFlags</token>
+</entry>
+<entry count="5520">
+<token>IKVM.Reflection.ParameterInfo,__GetCustomModifiers</token>
+<token>IKVM.Reflection.MethodBase,GetParameters</token>
+<token>IKVM.Reflection.ParameterInfo,__GetCustomModifiers</token>
+<token>IKVM.Reflection.MethodBase,GetMethodImplementationFlags</token>
+<token>IKVM.Reflection.MemberInfo,__GetCustomAttributes</token>
+</entry>
+<entry count="7500">
 <token>IKVM.Reflection.Assembly,__GetCustomAttributes</token>
 <token>IKVM.Reflection.CustomAttributeData,__GetDeclarativeSecurity</token>
 <token>IKVM.Reflection.Assembly,GetName</token>
@@ -863,6 +1676,10 @@
 <token>IKVM.Reflection.Universe,OpenRawModule</token>
 <token>IKVM.Reflection.AssemblyName,new</token>
 </entry>
+<entry count="192">
+<token>IKVM.Reflection.Type,__GetDeclaredInterfaces</token>
+<token>IKVM.Reflection.Type,__GetDeclaredTypes</token>
+</entry>
 <entry count="2">
 <token>IKVM.Reflection.FieldInfo,__TryGetFieldMarshal</token>
 <token>IKVM.Reflection.FieldInfo,__GetCustomModifiers</token>
@@ -872,6 +1689,19 @@
 <token>IKVM.Reflection.ConstructorInfo,GetParameters</token>
 <token>IKVM.Reflection.ParameterInfo,__GetCustomModifiers</token>
 </entry>
+<entry count="384">
+<token>IKVM.Reflection.CustomAttributeData,__GetDeclarativeSecurity</token>
+<token>IKVM.Reflection.Type,GetGenericArguments</token>
+<token>IKVM.Reflection.Type,__GetDeclaredInterfaces</token>
+<token>IKVM.Reflection.CustomAttributeData,__GetCustomAttributes</token>
+<token>IKVM.Reflection.Type,__GetDeclaredTypes</token>
+</entry>
+<entry count="4140">
+<token>IKVM.Reflection.MethodBase,GetParameters</token>
+<token>IKVM.Reflection.MethodBase,GetMethodImplementationFlags</token>
+<token>IKVM.Reflection.MemberInfo,__GetCustomAttributes</token>
+<token>IKVM.Reflection.MethodBase,GetGenericArguments</token>
+</entry>
 <entry count="2">
 <token>IKVM.Reflection.Universe,OpenRawModule</token>
 <token>IKVM.Reflection.Universe,LoadAssembly</token>
@@ -879,11 +1709,30 @@
 <token>IKVM.Reflection.Universe,CreateMissingAssembly</token>
 <token>IKVM.Reflection.Module,__ResolveReferencedAssemblies</token>
 </entry>
-<entry count="44">
+<entry count="384">
+<token>IKVM.Reflection.Type,GetGenericArguments</token>
+<token>IKVM.Reflection.Type,__GetDeclaredInterfaces</token>
+<token>IKVM.Reflection.CustomAttributeData,__GetCustomAttributes</token>
+<token>IKVM.Reflection.Type,__GetDeclaredTypes</token>
+<token>IKVM.Reflection.Type,__GetDeclaredFields</token>
+</entry>
+<entry count="5520">
+<token>IKVM.Reflection.ParameterInfo,__TryGetFieldMarshal</token>
+<token>IKVM.Reflection.MethodBase,GetParameters</token>
+<token>IKVM.Reflection.ParameterInfo,__GetCustomModifiers</token>
+<token>IKVM.Reflection.MethodBase,GetMethodImplementationFlags</token>
+</entry>
+<entry count="11250">
+<token>IKVM.Reflection.Assembly,GetName</token>
+<token>IKVM.Reflection.Assembly,GetName</token>
+<token>IKVM.Reflection.AssemblyName,GetPublicKey</token>
+<token>IKVM.Reflection.Assembly,GetName</token>
+</entry>
+<entry count="188">
 <token>IKVM.Reflection.Module,__ReadDataFromRVA</token>
 <token>IKVM.Reflection.Module,__ReadDataFromRVA</token>
 </entry>
-<entry count="8">
+<entry count="16">
 <token>IKVM.Reflection.Module,__GetDataDirectoryEntry</token>
 <token>IKVM.Reflection.Module,__ReadDataFromRVA</token>
 <token>IKVM.Reflection.Module,__ReadDataFromRVA</token>
@@ -915,16 +1764,28 @@
 <token>IKVM.Reflection.Universe,Import</token>
 <token>IKVM.Reflection.Universe,Import</token>
 </entry>
+<entry count="192">
+<token>IKVM.Reflection.Type,GetGenericArguments</token>
+<token>IKVM.Reflection.Type,__GetDeclaredTypes</token>
+<token>IKVM.Reflection.Type,__GetDeclaredFields</token>
+</entry>
 <entry count="4">
 <token>IKVM.Reflection.PropertyInfo,GetGetMethod</token>
 <token>IKVM.Reflection.PropertyInfo,GetSetMethod</token>
 <token>IKVM.Reflection.ParameterInfo,__GetCustomModifiers</token>
 </entry>
+<entry count="192">
+<token>IKVM.Reflection.CustomAttributeData,__GetDeclarativeSecurity</token>
+<token>IKVM.Reflection.Type,GetGenericArguments</token>
+<token>IKVM.Reflection.Type,__GetDeclaredTypes</token>
+<token>IKVM.Reflection.Type,__GetDeclaredFields</token>
+<token>IKVM.Reflection.Type,__GetDeclaredMethods</token>
+</entry>
 <entry count="2">
 <token>IKVM.Reflection.PropertyInfo,GetGetMethod</token>
 <token>IKVM.Reflection.ParameterInfo,__GetCustomModifiers</token>
 </entry>
-<entry count="36">
+<entry count="18750">
 <token>IKVM.Reflection.Assembly,GetName</token>
 <token>IKVM.Reflection.Assembly,__GetCustomAttributes</token>
 <token>IKVM.Reflection.CustomAttributeData,__GetDeclarativeSecurity</token>
@@ -936,7 +1797,12 @@
 <token>IKVM.Reflection.PropertyInfo,GetGetMethod</token>
 <token>IKVM.Reflection.PropertyInfo,GetSetMethod</token>
 </entry>
-<entry count="36">
+<entry count="1840">
+<token>IKVM.Reflection.ParameterInfo,__TryGetFieldMarshal</token>
+<token>IKVM.Reflection.MethodBase,GetParameters</token>
+<token>IKVM.Reflection.MethodBase,GetMethodImplementationFlags</token>
+</entry>
+<entry count="7500">
 <token>IKVM.Reflection.CustomAttributeData,__GetDeclarativeSecurity</token>
 <token>IKVM.Reflection.Assembly,GetName</token>
 <token>IKVM.Reflection.AssemblyName,GetPublicKey</token>
@@ -947,6 +1813,12 @@
 <token>IKVM.Reflection.FieldInfo,GetRawConstantValue</token>
 <token>IKVM.Reflection.MemberInfo,__GetCustomAttributes</token>
 </entry>
+<entry count="11250">
+<token>IKVM.Reflection.Assembly,__GetCustomAttributes</token>
+<token>IKVM.Reflection.CustomAttributeData,__GetDeclarativeSecurity</token>
+<token>IKVM.Reflection.Assembly,GetName</token>
+<token>IKVM.Reflection.Assembly,GetName</token>
+</entry>
 <entry count="25">
 <token>IKVM.Reflection.FieldInfo,__TryGetFieldOffset</token>
 <token>IKVM.Reflection.FieldInfo,__GetCustomModifiers</token>
@@ -956,16 +1828,33 @@
 <token>IKVM.Reflection.FieldInfo,__GetCustomModifiers</token>
 <token>IKVM.Reflection.Module,__GetSectionInfo</token>
 </entry>
+<entry count="768">
+<token>IKVM.Reflection.Type,__GetDeclaredTypes</token>
+<token>IKVM.Reflection.Type,__GetDeclaredFields</token>
+<token>IKVM.Reflection.Type,__GetDeclaredMethods</token>
+<token>IKVM.Reflection.Type,__GetDeclaredEvents</token>
+<token>IKVM.Reflection.Type,__GetDeclaredProperties</token>
+</entry>
 <entry count="3">
 <token>IKVM.Reflection.Universe,OpenRawModule</token>
 <token>IKVM.Reflection.Universe,LoadAssembly</token>
 <token>IKVM.Reflection.Module,__GetReferencedAssemblies</token>
 </entry>
-<entry count="36">
+<entry count="768">
+<token>IKVM.Reflection.CustomAttributeData,__GetDeclarativeSecurity</token>
+<token>IKVM.Reflection.Type,GetGenericArguments</token>
+</entry>
+<entry count="18750">
 <token>IKVM.Reflection.AssemblyName,GetPublicKey</token>
 <token>IKVM.Reflection.Assembly,GetName</token>
 <token>IKVM.Reflection.Assembly,GetName</token>
 <token>IKVM.Reflection.Assembly,GetName</token>
+</entry>
+<entry count="1840">
+<token>IKVM.Reflection.ParameterInfo,__TryGetFieldMarshal</token>
+<token>IKVM.Reflection.MethodBase,GetParameters</token>
+<token>IKVM.Reflection.ParameterInfo,__GetCustomModifiers</token>
+<token>IKVM.Reflection.ParameterInfo,__TryGetFieldMarshal</token>
 </entry>
 <entry count="2">
 <token>IKVM.Reflection.Module,__GetReferencedAssemblies</token>
@@ -994,9 +1883,21 @@
 <token>IKVM.Reflection.Module,__GetReferencedAssemblies</token>
 <token>IKVM.Reflection.Universe,CreateMissingAssembly</token>
 </entry>
+<entry count="768">
+<token>IKVM.Reflection.Type,__GetLayout</token>
+<token>IKVM.Reflection.MemberInfo,__GetCustomAttributes</token>
+<token>IKVM.Reflection.CustomAttributeData,__GetDeclarativeSecurity</token>
+<token>IKVM.Reflection.Type,GetGenericArguments</token>
+</entry>
 <entry count="26">
 <token>IKVM.Reflection.FieldInfo,__GetCustomModifiers</token>
 <token>IKVM.Reflection.FieldInfo,GetRawConstantValue</token>
+</entry>
+<entry count="1380">
+<token>IKVM.Reflection.MethodBase,GetGenericArguments</token>
+<token>IKVM.Reflection.MethodBase,GetParameters</token>
+<token>IKVM.Reflection.ParameterInfo,__GetCustomModifiers</token>
+<token>IKVM.Reflection.MethodBase,GetMethodImplementationFlags</token>
 </entry>
 <entry count="1">
 <token>IKVM.Reflection.ParameterInfo,__GetCustomModifiers</token>
@@ -1013,9 +1914,16 @@
 <token>IKVM.Reflection.EventInfo,GetRemoveMethod</token>
 <token>IKVM.Reflection.EventInfo,GetRaiseMethod</token>
 </entry>
-<entry count="222">
+<entry count="150000">
 <token>IKVM.Reflection.Assembly,GetName</token>
 <token>IKVM.Reflection.Assembly,GetName</token>
+</entry>
+<entry count="5520">
+<token>IKVM.Reflection.ParameterInfo,__GetCustomModifiers</token>
+<token>IKVM.Reflection.ParameterInfo,__TryGetFieldMarshal</token>
+<token>IKVM.Reflection.MethodBase,GetParameters</token>
+<token>IKVM.Reflection.ParameterInfo,__GetCustomModifiers</token>
+<token>IKVM.Reflection.MethodBase,GetMethodImplementationFlags</token>
 </entry>
 <entry count="6">
 <token>IKVM.Reflection.Module,__ResolveReferencedAssemblies</token>
@@ -1039,12 +1947,29 @@
 <token>IKVM.Reflection.EventInfo,__GetMethods</token>
 <token>IKVM.Reflection.EventInfo,GetAddMethod</token>
 </entry>
+<entry count="23000">
+<token>IKVM.Reflection.MethodBase,GetGenericArguments</token>
+<token>IKVM.Reflection.MethodBase,GetParameters</token>
+</entry>
+<entry count="12420">
+<token>IKVM.Reflection.MethodBase,GetParameters</token>
+<token>IKVM.Reflection.ParameterInfo,__GetCustomModifiers</token>
+<token>IKVM.Reflection.MethodBase,GetMethodImplementationFlags</token>
+<token>IKVM.Reflection.MemberInfo,__GetCustomAttributes</token>
+</entry>
 <entry count="2">
 <token>IKVM.Reflection.Universe,LoadAssembly</token>
 <token>IKVM.Reflection.Module,__GetReferencedAssemblies</token>
 <token>IKVM.Reflection.Universe,CreateMissingAssembly</token>
 <token>IKVM.Reflection.Module,__ResolveReferencedAssemblies</token>
 <token>IKVM.Reflection.Module,__GetReferencedTypes</token>
+</entry>
+<entry count="192">
+<token>IKVM.Reflection.Type,__GetDeclaredInterfaces</token>
+<token>IKVM.Reflection.Type,__GetDeclaredTypes</token>
+<token>IKVM.Reflection.Type,__GetDeclaredFields</token>
+<token>IKVM.Reflection.Type,__GetDeclaredMethods</token>
+<token>IKVM.Reflection.Type,__GetDeclaredEvents</token>
 </entry>
 <entry count="6">
 <token>IKVM.Reflection.MemberInfo,__GetCustomAttributes</token>

@@ -1,20 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?><dictionary case_sensitive="false">
-<entry count="1036">
+<entry count="4096">
+<token>Ionic.Zip.ZipFile,AddDirectory</token>
+<token>Ionic.Zip.ZipFile,AddFile</token>
 <token>Ionic.Zip.ZipFile,AddFile</token>
 <token>Ionic.Zip.ZipFile,Save</token>
 </entry>
-<entry count="4">
+<entry count="4100">
 <token>Ionic.Zip.ZipFile,new</token>
 <token>Ionic.Zip.ZipFile,AddFile</token>
 <token>Ionic.Zip.ZipFile,AddFile</token>
 <token>Ionic.Zip.ZipFile,Save</token>
 </entry>
-<entry count="4">
-<token>Ionic.Zip.ZipFile,new</token>
-<token>Ionic.Zip.WriteDelegate,new</token>
-<token>Ionic.Zip.ZipFile,AddEntry</token>
-</entry>
-<entry count="20">
+<entry count="12500">
 <token>Ionic.Zip.ZipFile,CheckZip</token>
 <token>Ionic.Zip.ZipFile,Read</token>
 </entry>
@@ -22,15 +19,11 @@
 <token>Ionic.Zip.ZipFile,AddEntry</token>
 <token>Ionic.Zip.ZipFile,Save</token>
 </entry>
-<entry count="512">
+<entry count="3072">
 <token>Ionic.Zip.ZipFile,new</token>
 <token>Ionic.Zip.ZipFile,AddDirectory</token>
 <token>Ionic.Zip.ZipFile,AddFile</token>
 <token>Ionic.Zip.ZipFile,Save</token>
-</entry>
-<entry count="2">
-<token>Ionic.Zip.ZipFile,Save</token>
-<token>Ionic.Zip.ZipFile,Read</token>
 </entry>
 <entry count="24">
 <token>Ionic.Zip.ZipFile,Save</token>
@@ -40,6 +33,12 @@
 <token>Ionic.Zip.ReadOptions,new</token>
 <token>Ionic.Zip.ZipFile,Read</token>
 </entry>
+<entry count="4096">
+<token>Ionic.Zip.ZipFile,new</token>
+<token>Ionic.Zip.ZipFile,AddDirectory</token>
+<token>Ionic.Zip.ZipFile,AddFile</token>
+<token>Ionic.Zip.ZipFile,AddFile</token>
+</entry>
 <entry count="4">
 <token>Ionic.Zip.ZipFile,new</token>
 <token>Ionic.Zip.WriteDelegate,new</token>
@@ -48,13 +47,7 @@
 <token>Ionic.Zip.ZipFile,new</token>
 <token>Ionic.Zip.ZipFile,AddEntry</token>
 </entry>
-<entry count="4">
-<token>Ionic.Zip.ZipFile,new</token>
-<token>Ionic.Zip.WriteDelegate,new</token>
-<token>Ionic.Zip.ZipFile,AddEntry</token>
-<token>Ionic.Zip.ZipFile,Save</token>
-</entry>
-<entry count="8">
+<entry count="16">
 <token>Ionic.Zip.ZipFile,new</token>
 <token>Ionic.Zip.ZipFile,ExtractAll</token>
 </entry>
@@ -63,17 +56,18 @@
 <token>Ionic.Zip.ZipFile,new</token>
 <token>Ionic.Zip.ZipFile,AddEntry</token>
 </entry>
-<entry count="16">
-<token>Ionic.Zip.ZipFile,new</token>
+<entry count="4096">
 <token>Ionic.Zip.ZipFile,AddDirectory</token>
+<token>Ionic.Zip.ZipFile,AddFile</token>
+<token>Ionic.Zip.ZipFile,AddDirectory</token>
+<token>Ionic.Zip.ZipFile,AddFile</token>
 <token>Ionic.Zip.ZipFile,Save</token>
-<token>Ionic.Zip.ZipFile,Dispose</token>
 </entry>
-<entry count="20">
+<entry count="12500">
 <token>Ionic.Zip.ZipFile,IsZipFile</token>
 <token>Ionic.Zip.ZipFile,CheckZip</token>
 </entry>
-<entry count="20">
+<entry count="12500">
 <token>Ionic.Zip.ZipFile,IsZipFile</token>
 <token>Ionic.Zip.ZipFile,CheckZip</token>
 <token>Ionic.Zip.ZipFile,Read</token>
@@ -82,10 +76,130 @@
 <token>Ionic.Zip.ZipFile,AddDirectory</token>
 <token>Ionic.Zip.ZipFile,Save</token>
 </entry>
+<entry count="4096">
+<token>Ionic.Zip.ZipFile,new</token>
+<token>Ionic.Zip.ZipFile,AddDirectory</token>
+<token>Ionic.Zip.ZipFile,AddFile</token>
+<token>Ionic.Zip.ZipFile,AddDirectory</token>
+<token>Ionic.Zip.ZipFile,AddFile</token>
+</entry>
+<entry count="4096">
+<token>Ionic.Zip.ZipFile,new</token>
+<token>Ionic.Zip.ZipFile,AddFile</token>
+<token>Ionic.Zip.ZipFile,AddDirectory</token>
+<token>Ionic.Zip.ZipFile,AddFile</token>
+<token>Ionic.Zip.ZipFile,Save</token>
+</entry>
+<entry count="4096">
+<token>Ionic.Zip.ZipFile,new</token>
+<token>Ionic.Zip.ZipFile,AddFile</token>
+<token>Ionic.Zip.ZipFile,AddDirectory</token>
+</entry>
+<entry count="4100">
+<token>Ionic.Zip.ZipFile,new</token>
+<token>Ionic.Zip.ZipFile,AddFile</token>
+<token>Ionic.Zip.ZipFile,AddFile</token>
+</entry>
+<entry count="11283">
+<token>Ionic.Zip.ZipFile,new</token>
+<token>Ionic.Zip.ZipFile,AddDirectory</token>
+</entry>
+<entry count="11276">
+<token>Ionic.Zip.ZipFile,new</token>
+<token>Ionic.Zip.ZipFile,AddFile</token>
+</entry>
+<entry count="4096">
+<token>Ionic.Zip.ZipFile,AddDirectory</token>
+<token>Ionic.Zip.ZipFile,AddFile</token>
+<token>Ionic.Zip.ZipFile,AddDirectory</token>
+<token>Ionic.Zip.ZipFile,AddFile</token>
+</entry>
+<entry count="1">
+<token>Ionic.Zip.ZipFile,new</token>
+<token>Ionic.Zip.ZipEntry,OpenReader</token>
+</entry>
+<entry count="19456">
+<token>Ionic.Zip.ZipFile,AddDirectory</token>
+<token>Ionic.Zip.ZipFile,AddFile</token>
+</entry>
+<entry count="11264">
+<token>Ionic.Zip.ZipFile,AddDirectory</token>
+<token>Ionic.Zip.ZipFile,AddFile</token>
+<token>Ionic.Zip.ZipFile,Save</token>
+</entry>
+<entry count="8192">
+<token>Ionic.Zip.ZipFile,AddFile</token>
+<token>Ionic.Zip.ZipFile,AddDirectory</token>
+<token>Ionic.Zip.ZipFile,AddFile</token>
+<token>Ionic.Zip.ZipFile,Save</token>
+</entry>
+<entry count="8">
+<token>Ionic.Zip.ZipFile,new</token>
+<token>Ionic.Zip.ZipFile,Save</token>
+<token>Ionic.Zip.ZipFile,Dispose</token>
+</entry>
+<entry count="19">
+<token>Ionic.Zip.ZipFile,new</token>
+<token>Ionic.Zip.ZipFile,AddDirectory</token>
+<token>Ionic.Zip.ZipFile,Save</token>
+</entry>
+<entry count="19">
+<token>Ionic.Zip.ZipFile,Read</token>
+<token>Ionic.Zip.ZipEntry,Extract</token>
+</entry>
+<entry count="22540">
+<token>Ionic.Zip.ZipFile,AddFile</token>
+<token>Ionic.Zip.ZipFile,Save</token>
+</entry>
+<entry count="4">
+<token>Ionic.Zip.ZipFile,new</token>
+<token>Ionic.Zip.WriteDelegate,new</token>
+<token>Ionic.Zip.ZipFile,AddEntry</token>
+</entry>
+<entry count="2">
+<token>Ionic.Zip.ZipFile,Save</token>
+<token>Ionic.Zip.ZipFile,Read</token>
+</entry>
+<entry count="4096">
+<token>Ionic.Zip.ZipFile,new</token>
+<token>Ionic.Zip.ZipFile,AddDirectory</token>
+<token>Ionic.Zip.ZipFile,AddFile</token>
+<token>Ionic.Zip.ZipFile,AddDirectory</token>
+</entry>
+<entry count="4096">
+<token>Ionic.Zip.ZipFile,new</token>
+<token>Ionic.Zip.ZipFile,AddDirectory</token>
+<token>Ionic.Zip.ZipFile,AddFile</token>
+<token>Ionic.Zip.ZipFile,AddFile</token>
+<token>Ionic.Zip.ZipFile,Save</token>
+</entry>
+<entry count="4096">
+<token>Ionic.Zip.ZipFile,new</token>
+<token>Ionic.Zip.ZipFile,AddFile</token>
+<token>Ionic.Zip.ZipFile,AddDirectory</token>
+<token>Ionic.Zip.ZipFile,AddFile</token>
+</entry>
+<entry count="4">
+<token>Ionic.Zip.ZipFile,new</token>
+<token>Ionic.Zip.WriteDelegate,new</token>
+<token>Ionic.Zip.ZipFile,AddEntry</token>
+<token>Ionic.Zip.ZipFile,Save</token>
+</entry>
+<entry count="16">
+<token>Ionic.Zip.ZipFile,new</token>
+<token>Ionic.Zip.ZipFile,AddDirectory</token>
+<token>Ionic.Zip.ZipFile,Save</token>
+<token>Ionic.Zip.ZipFile,Dispose</token>
+</entry>
 <entry count="1">
 <token>Ionic.Zip.ZipFile,AddEntry</token>
 <token>Ionic.Zip.ZipFile,Save</token>
 <token>Ionic.Zip.ZipFile,Read</token>
+</entry>
+<entry count="32">
+<token>Ionic.Zip.ZipEntry,Extract</token>
+<token>Ionic.Zip.ZipEntry,Extract</token>
+<token>Ionic.Zip.ZipEntry,Extract</token>
 </entry>
 <entry count="4">
 <token>Ionic.Zip.ReadOptions,new</token>
@@ -101,7 +215,7 @@
 <token>Ionic.Zip.WriteDelegate,new</token>
 <token>Ionic.Zip.ZipFile,AddEntry</token>
 </entry>
-<entry count="152">
+<entry count="536">
 <token>Ionic.Zip.ZipFile,new</token>
 <token>Ionic.Zip.ZipFile,Save</token>
 </entry>
@@ -109,55 +223,43 @@
 <token>Ionic.Zip.ZipFile,Read</token>
 <token>Ionic.Zip.ZipFile,ExtractAll</token>
 </entry>
-<entry count="4">
-<token>Ionic.Zip.ZipFile,new</token>
-<token>Ionic.Zip.ZipFile,AddFile</token>
-<token>Ionic.Zip.ZipFile,AddFile</token>
-</entry>
-<entry count="531">
-<token>Ionic.Zip.ZipFile,new</token>
-<token>Ionic.Zip.ZipFile,AddDirectory</token>
-</entry>
 <entry count="5">
 <token>Ionic.Zip.ZipFile,new</token>
 <token>Ionic.Zip.ZipFile,AddEntry</token>
 <token>Ionic.Zip.ZipFile,Save</token>
 </entry>
+<entry count="4096">
+<token>Ionic.Zip.ZipFile,AddDirectory</token>
+<token>Ionic.Zip.ZipFile,AddFile</token>
+<token>Ionic.Zip.ZipFile,AddDirectory</token>
+</entry>
 <entry count="2">
 <token>Ionic.Zip.ZipFile,Read</token>
 <token>Ionic.Zip.ZipFile,new</token>
 </entry>
-<entry count="512">
+<entry count="8192">
+<token>Ionic.Zip.ZipFile,AddFile</token>
+<token>Ionic.Zip.ZipFile,AddDirectory</token>
+<token>Ionic.Zip.ZipFile,AddFile</token>
+</entry>
+<entry count="4096">
+<token>Ionic.Zip.ZipFile,AddDirectory</token>
+<token>Ionic.Zip.ZipFile,AddFile</token>
+<token>Ionic.Zip.ZipFile,AddFile</token>
+</entry>
+<entry count="11264">
 <token>Ionic.Zip.ZipFile,new</token>
 <token>Ionic.Zip.ZipFile,AddDirectory</token>
 <token>Ionic.Zip.ZipFile,AddFile</token>
 </entry>
-<entry count="524">
-<token>Ionic.Zip.ZipFile,new</token>
-<token>Ionic.Zip.ZipFile,AddFile</token>
+<entry count="160">
+<token>Ionic.Zip.ZipEntry,Extract</token>
+<token>Ionic.Zip.ZipEntry,Extract</token>
 </entry>
-<entry count="1">
-<token>Ionic.Zip.ZipFile,new</token>
-<token>Ionic.Zip.ZipEntry,OpenReader</token>
-</entry>
-<entry count="512">
-<token>Ionic.Zip.ZipFile,AddDirectory</token>
-<token>Ionic.Zip.ZipFile,AddFile</token>
-</entry>
-<entry count="520">
+<entry count="3080">
 <token>Ionic.Zip.ZipFile,new</token>
 <token>Ionic.Zip.ZipFile,AddFile</token>
 <token>Ionic.Zip.ZipFile,Save</token>
-</entry>
-<entry count="512">
-<token>Ionic.Zip.ZipFile,AddDirectory</token>
-<token>Ionic.Zip.ZipFile,AddFile</token>
-<token>Ionic.Zip.ZipFile,Save</token>
-</entry>
-<entry count="8">
-<token>Ionic.Zip.ZipFile,new</token>
-<token>Ionic.Zip.ZipFile,Save</token>
-<token>Ionic.Zip.ZipFile,Dispose</token>
 </entry>
 <entry count="2">
 <token>Ionic.Zip.ZipFile,Read</token>
@@ -165,23 +267,14 @@
 <token>Ionic.Zip.ZipFile,AddEntry</token>
 <token>Ionic.Zip.ZipFile,Save</token>
 </entry>
-<entry count="19">
-<token>Ionic.Zip.ZipFile,new</token>
-<token>Ionic.Zip.ZipFile,AddDirectory</token>
-<token>Ionic.Zip.ZipFile,Save</token>
-</entry>
-<entry count="19">
-<token>Ionic.Zip.ZipFile,Read</token>
-<token>Ionic.Zip.ZipEntry,Extract</token>
+<entry count="8196">
+<token>Ionic.Zip.ZipFile,AddFile</token>
+<token>Ionic.Zip.ZipFile,AddFile</token>
 </entry>
 <entry count="4">
 <token>Ionic.Zip.WriteDelegate,new</token>
 <token>Ionic.Zip.ZipFile,AddEntry</token>
 <token>Ionic.Zip.ZipFile,Save</token>
-</entry>
-<entry count="4">
-<token>Ionic.Zip.ZipFile,AddFile</token>
-<token>Ionic.Zip.ZipFile,AddFile</token>
 </entry>
 <entry count="16">
 <token>Ionic.Zip.ZipFile,AddDirectory</token>
@@ -192,7 +285,11 @@
 <token>Ionic.Zip.ZipEntry,OpenReader</token>
 <token>Ionic.Zip.ZipFile,AddEntry</token>
 </entry>
-<entry count="4">
+<entry count="8192">
+<token>Ionic.Zip.ZipFile,AddFile</token>
+<token>Ionic.Zip.ZipFile,AddDirectory</token>
+</entry>
+<entry count="8196">
 <token>Ionic.Zip.ZipFile,AddFile</token>
 <token>Ionic.Zip.ZipFile,AddFile</token>
 <token>Ionic.Zip.ZipFile,Save</token>

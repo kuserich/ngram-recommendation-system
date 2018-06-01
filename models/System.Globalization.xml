@@ -3,6 +3,13 @@
 <token>System.Globalization.CultureInfo,GetConsoleFallbackUICulture</token>
 <token>System.Globalization.CultureInfo,new</token>
 </entry>
+<entry count="6">
+<token>System.Globalization.HebrewCalendar,new</token>
+<token>System.Globalization.HebrewCalendar,GetYear</token>
+<token>System.Globalization.Calendar,GetMonthsInYear</token>
+<token>System.Globalization.Calendar,GetDaysInMonth</token>
+<token>System.Globalization.HebrewCalendar,GetYear</token>
+</entry>
 <entry count="2">
 <token>System.Globalization.HebrewCalendar,GetYear</token>
 <token>System.Globalization.HebrewCalendar,GetYear</token>
@@ -16,57 +23,27 @@
 <token>System.Globalization.CultureInfo,Clone</token>
 <token>System.Globalization.CultureInfo,ReadOnly</token>
 </entry>
-<entry count="40">
-<token>System.Globalization.Calendar,GetDayOfMonth</token>
-<token>System.Globalization.Calendar,GetYear</token>
-</entry>
-<entry count="12">
-<token>System.Globalization.CultureInfo,new</token>
-<token>System.Globalization.CultureInfo,ReadOnly</token>
-<token>System.Globalization.CultureInfo,new</token>
-<token>System.Globalization.CultureInfo,ReadOnly</token>
-</entry>
-<entry count="16">
-<token>System.Globalization.Calendar,GetDayOfMonth</token>
-<token>System.Globalization.Calendar,GetDaysInMonth</token>
-<token>System.Globalization.Calendar,ToDateTime</token>
-</entry>
-<entry count="2">
-<token>System.Globalization.TextElementEnumerator,GetTextElement</token>
-<token>System.Globalization.StringInfo,ParseCombiningCharacters</token>
-</entry>
-<entry count="1">
-<token>System.Globalization.CultureInfo,ToString</token>
-<token>System.Globalization.CultureInfo,CreateSpecificCulture</token>
-<token>System.Globalization.CultureInfo,GetCultureInfo</token>
-<token>System.Globalization.CultureInfo,ToString</token>
-</entry>
-<entry count="124">
-<token>System.Globalization.CultureInfo,GetCultureInfo</token>
-<token>System.Globalization.CultureInfo,GetCultureInfo</token>
-<token>System.Globalization.CultureInfo,GetCultureInfo</token>
-<token>System.Globalization.CultureInfo,GetCultureInfo</token>
-<token>System.Globalization.CultureInfo,GetCultureInfo</token>
+<entry count="6">
+<token>System.Globalization.HebrewCalendar,GetYear</token>
+<token>System.Globalization.Calendar,GetMonthsInYear</token>
+<token>System.Globalization.HebrewCalendar,GetYear</token>
 </entry>
 <entry count="4">
-<token>System.Globalization.CultureInfo,GetCultures</token>
-<token>System.Globalization.CultureInfo,ReadOnly</token>
-<token>System.Globalization.CultureInfo,new</token>
-<token>System.Globalization.CultureInfo,ReadOnly</token>
-<token>System.Globalization.CultureInfo,new</token>
+<token>System.Globalization.HebrewCalendar,GetYear</token>
+<token>System.Globalization.Calendar,GetMonthsInYear</token>
+<token>System.Globalization.HebrewCalendar,GetYear</token>
+<token>System.Globalization.Calendar,GetMonthsInYear</token>
 </entry>
-<entry count="24">
+<entry count="48">
 <token>System.Globalization.Calendar,GetMonth</token>
 <token>System.Globalization.Calendar,GetDayOfMonth</token>
 <token>System.Globalization.Calendar,GetDaysInMonth</token>
 <token>System.Globalization.Calendar,GetDaysInYear</token>
 </entry>
-<entry count="24">
-<token>System.Globalization.Calendar,GetYear</token>
-<token>System.Globalization.Calendar,GetMonth</token>
-<token>System.Globalization.Calendar,GetDayOfMonth</token>
-<token>System.Globalization.Calendar,GetDaysInMonth</token>
-<token>System.Globalization.Calendar,GetDaysInYear</token>
+<entry count="4">
+<token>System.Globalization.Calendar,GetMonthsInYear</token>
+<token>System.Globalization.HebrewCalendar,GetYear</token>
+<token>System.Globalization.Calendar,GetMonthsInYear</token>
 </entry>
 <entry count="4">
 <token>System.Globalization.CultureInfo,GetCultures</token>
@@ -81,59 +58,68 @@
 <token>System.Globalization.CultureInfo,ReadOnly</token>
 <token>System.Globalization.CultureInfo,new</token>
 </entry>
-<entry count="16">
+<entry count="32">
 <token>System.Globalization.Calendar,GetMonth</token>
 <token>System.Globalization.Calendar,GetDayOfMonth</token>
 <token>System.Globalization.Calendar,GetDaysInMonth</token>
 <token>System.Globalization.Calendar,GetDaysInYear</token>
 <token>System.Globalization.Calendar,GetDaysInMonth</token>
 </entry>
-<entry count="494">
-<token>System.Globalization.CultureInfo,GetCultures</token>
-<token>System.Globalization.CultureInfo,GetCultures</token>
+<entry count="6">
+<token>System.Globalization.Calendar,GetMonthsInYear</token>
+<token>System.Globalization.Calendar,GetDaysInMonth</token>
+<token>System.Globalization.HebrewCalendar,GetYear</token>
 </entry>
-<entry count="2">
-<token>System.Globalization.CultureInfo,ToString</token>
-<token>System.Globalization.CultureInfo,CreateSpecificCulture</token>
+<entry count="6">
+<token>System.Globalization.HebrewCalendar,GetYear</token>
+<token>System.Globalization.Calendar,GetMonthsInYear</token>
+<token>System.Globalization.Calendar,GetDaysInMonth</token>
+<token>System.Globalization.HebrewCalendar,GetYear</token>
 </entry>
 <entry count="2">
 <token>System.Globalization.TextElementEnumerator,MoveNext</token>
 <token>System.Globalization.TextElementEnumerator,GetTextElement</token>
 </entry>
 <entry count="4">
-<token>System.Globalization.Calendar,GetDaysInMonth</token>
-<token>System.Globalization.Calendar,GetDaysInMonth</token>
-</entry>
-<entry count="419">
-<token>System.Globalization.CultureInfo,new</token>
-<token>System.Globalization.CultureInfo,new</token>
-</entry>
-<entry count="2">
+<token>System.Globalization.HebrewCalendar,new</token>
 <token>System.Globalization.HebrewCalendar,GetYear</token>
-<token>System.Globalization.Calendar,GetDaysInYear</token>
+<token>System.Globalization.Calendar,GetMonthsInYear</token>
+<token>System.Globalization.HebrewCalendar,GetYear</token>
+<token>System.Globalization.Calendar,GetMonthsInYear</token>
+</entry>
+<entry count="96">
+<token>System.Globalization.Calendar,GetDaysInMonth</token>
+<token>System.Globalization.Calendar,GetDaysInMonth</token>
+</entry>
+<entry count="2016">
+<token>System.Globalization.TextInfo,ToTitleCase</token>
+<token>System.Globalization.TextInfo,ToTitleCase</token>
+<token>System.Globalization.TextInfo,ToTitleCase</token>
+</entry>
+<entry count="1488">
+<token>System.Globalization.CultureInfo,Clone</token>
+<token>System.Globalization.CultureInfo,Clone</token>
+<token>System.Globalization.CultureInfo,Clone</token>
+<token>System.Globalization.CultureInfo,Clone</token>
 </entry>
 <entry count="4">
 <token>System.Globalization.CultureInfo,GetCultures</token>
 <token>System.Globalization.CultureInfo,ReadOnly</token>
 <token>System.Globalization.CultureInfo,new</token>
 </entry>
-<entry count="40">
+<entry count="80">
 <token>System.Globalization.Calendar,GetDayOfMonth</token>
 <token>System.Globalization.Calendar,GetYear</token>
 <token>System.Globalization.Calendar,GetMonth</token>
 </entry>
-<entry count="173">
-<token>System.Globalization.CultureInfo,ToString</token>
-<token>System.Globalization.CultureInfo,ToString</token>
-</entry>
-<entry count="40">
+<entry count="80">
 <token>System.Globalization.UmAlQuraCalendar,new</token>
 <token>System.Globalization.Calendar,GetYear</token>
 <token>System.Globalization.Calendar,GetMonth</token>
 <token>System.Globalization.Calendar,GetDayOfMonth</token>
 <token>System.Globalization.Calendar,GetYear</token>
 </entry>
-<entry count="128">
+<entry count="6250">
 <token>System.Globalization.CultureInfo,GetCultureInfo</token>
 <token>System.Globalization.CultureInfo,GetCultureInfo</token>
 <token>System.Globalization.CultureInfo,GetCultureInfo</token>
@@ -146,29 +132,42 @@
 <token>System.Globalization.Calendar,GetMonthsInYear</token>
 <token>System.Globalization.Calendar,GetDaysInMonth</token>
 </entry>
-<entry count="44">
+<entry count="68">
+<token>System.Globalization.RegionInfo,new</token>
+<token>System.Globalization.DateTimeFormatInfo,GetAbbreviatedDayName</token>
+<token>System.Globalization.DateTimeFormatInfo,GetAbbreviatedDayName</token>
+</entry>
+<entry count="2">
+<token>System.Globalization.CultureInfo,ToString</token>
+<token>System.Globalization.CultureInfo,ToString</token>
+<token>System.Globalization.CultureInfo,ToString</token>
+<token>System.Globalization.CultureInfo,ToString</token>
+</entry>
+<entry count="104">
 <token>System.Globalization.Calendar,GetMonth</token>
 <token>System.Globalization.Calendar,GetDayOfMonth</token>
 <token>System.Globalization.Calendar,GetDaysInMonth</token>
 </entry>
-<entry count="10">
-<token>System.Globalization.HebrewCalendar,new</token>
-<token>System.Globalization.Calendar,GetYear</token>
+<entry count="4">
+<token>System.Globalization.Calendar,GetDaysInMonth</token>
+<token>System.Globalization.HebrewCalendar,GetYear</token>
+<token>System.Globalization.Calendar,GetMonthsInYear</token>
 </entry>
-<entry count="16">
+<entry count="2">
+<token>System.Globalization.HebrewCalendar,GetYear</token>
+<token>System.Globalization.Calendar,GetMonthsInYear</token>
+<token>System.Globalization.HebrewCalendar,GetYear</token>
+<token>System.Globalization.Calendar,GetMonthsInYear</token>
+<token>System.Globalization.Calendar,GetDaysInMonth</token>
+</entry>
+<entry count="32">
 <token>System.Globalization.Calendar,GetDayOfMonth</token>
 <token>System.Globalization.Calendar,GetDaysInMonth</token>
 <token>System.Globalization.Calendar,GetDaysInYear</token>
 <token>System.Globalization.Calendar,GetDaysInMonth</token>
 <token>System.Globalization.Calendar,ToDateTime</token>
 </entry>
-<entry count="208">
-<token>System.Globalization.CultureInfo,GetCultureInfo</token>
-<token>System.Globalization.CultureInfo,GetCultureInfo</token>
-<token>System.Globalization.CultureInfo,GetCultures</token>
-<token>System.Globalization.CultureInfo,GetCultures</token>
-</entry>
-<entry count="4">
+<entry count="24">
 <token>System.Globalization.Calendar,GetDayOfMonth</token>
 <token>System.Globalization.Calendar,GetDaysInMonth</token>
 <token>System.Globalization.Calendar,IsLeapYear</token>
@@ -177,119 +176,112 @@
 <token>System.Globalization.TextElementEnumerator,MoveNext</token>
 <token>System.Globalization.StringInfo,ParseCombiningCharacters</token>
 </entry>
-<entry count="2">
-<token>System.Globalization.StringInfo,GetTextElementEnumerator</token>
-<token>System.Globalization.TextElementEnumerator,MoveNext</token>
-<token>System.Globalization.TextElementEnumerator,GetTextElement</token>
+<entry count="64">
+<token>System.Globalization.Calendar,GetDaysInMonth</token>
+<token>System.Globalization.Calendar,ToDateTime</token>
+</entry>
+<entry count="12">
+<token>System.Globalization.HebrewCalendar,GetYear</token>
+<token>System.Globalization.Calendar,GetMonthsInYear</token>
+<token>System.Globalization.Calendar,GetDaysInMonth</token>
+</entry>
+<entry count="4">
+<token>System.Globalization.Calendar,GetDaysInYear</token>
+<token>System.Globalization.Calendar,GetMonthsInYear</token>
+<token>System.Globalization.Calendar,GetYear</token>
+<token>System.Globalization.Calendar,GetMonth</token>
+<token>System.Globalization.Calendar,GetDayOfMonth</token>
+</entry>
+<entry count="135">
+<token>System.Globalization.NumberFormatInfo,new</token>
+<token>System.Globalization.NumberFormatInfo,new</token>
+<token>System.Globalization.NumberFormatInfo,new</token>
+</entry>
+<entry count="8">
+<token>System.Globalization.Calendar,GetMonthsInYear</token>
+<token>System.Globalization.Calendar,GetYear</token>
+<token>System.Globalization.Calendar,GetMonthsInYear</token>
+<token>System.Globalization.Calendar,GetDaysInMonth</token>
+<token>System.Globalization.Calendar,GetDaysInMonth</token>
+</entry>
+<entry count="80">
+<token>System.Globalization.Calendar,GetYear</token>
+<token>System.Globalization.Calendar,GetMonth</token>
+<token>System.Globalization.Calendar,GetDayOfMonth</token>
+<token>System.Globalization.Calendar,GetYear</token>
 </entry>
 <entry count="32">
 <token>System.Globalization.Calendar,GetDaysInMonth</token>
-<token>System.Globalization.Calendar,ToDateTime</token>
-</entry>
-<entry count="2">
-<token>System.Globalization.HebrewCalendar,GetYear</token>
-<token>System.Globalization.Calendar,GetMonthsInYear</token>
+<token>System.Globalization.Calendar,GetDaysInYear</token>
 <token>System.Globalization.Calendar,GetDaysInMonth</token>
+<token>System.Globalization.Calendar,ToDateTime</token>
 </entry>
 <entry count="6">
-<token>System.Globalization.Calendar,GetYear</token>
-<token>System.Globalization.Calendar,GetYear</token>
-<token>System.Globalization.Calendar,GetMonthsInYear</token>
-</entry>
-<entry count="4">
-<token>System.Globalization.Calendar,GetDaysInYear</token>
-<token>System.Globalization.Calendar,GetMonthsInYear</token>
-<token>System.Globalization.Calendar,GetYear</token>
-<token>System.Globalization.Calendar,GetMonth</token>
-<token>System.Globalization.Calendar,GetDayOfMonth</token>
-</entry>
-<entry count="84">
-<token>System.Globalization.Calendar,GetYear</token>
-<token>System.Globalization.Calendar,GetMonth</token>
-<token>System.Globalization.Calendar,GetDayOfMonth</token>
-</entry>
-<entry count="18">
-<token>System.Globalization.CultureInfo,new</token>
-<token>System.Globalization.CultureInfo,ToString</token>
-</entry>
-<entry count="40">
-<token>System.Globalization.Calendar,GetYear</token>
-<token>System.Globalization.Calendar,GetMonth</token>
-<token>System.Globalization.Calendar,GetDayOfMonth</token>
-<token>System.Globalization.Calendar,GetYear</token>
-</entry>
-<entry count="16">
-<token>System.Globalization.Calendar,GetDaysInMonth</token>
-<token>System.Globalization.Calendar,GetDaysInYear</token>
-<token>System.Globalization.Calendar,GetDaysInMonth</token>
-<token>System.Globalization.Calendar,ToDateTime</token>
-</entry>
-<entry count="84">
-<token>System.Globalization.Calendar,GetYear</token>
-<token>System.Globalization.Calendar,GetMonth</token>
-</entry>
-<entry count="4">
-<token>System.Globalization.Calendar,GetDaysInYear</token>
-<token>System.Globalization.Calendar,GetMonthsInYear</token>
-<token>System.Globalization.Calendar,GetYear</token>
-<token>System.Globalization.Calendar,GetMonth</token>
-</entry>
-<entry count="1536">
-<token>System.Globalization.TextInfo,ToTitleCase</token>
-<token>System.Globalization.TextInfo,ToTitleCase</token>
-</entry>
-<entry count="10">
 <token>System.Globalization.HebrewCalendar,new</token>
-<token>System.Globalization.Calendar,GetYear</token>
-<token>System.Globalization.Calendar,GetYear</token>
-</entry>
-<entry count="12">
-<token>System.Globalization.CultureInfo,new</token>
-<token>System.Globalization.CultureInfo,ReadOnly</token>
-<token>System.Globalization.CultureInfo,new</token>
-</entry>
-<entry count="40">
-<token>System.Globalization.CultureInfo,GetCultureInfoByIetfLanguageTag</token>
-<token>System.Globalization.CultureInfo,Equals</token>
-</entry>
-<entry count="28784">
-<token>System.Globalization.DateTimeFormatInfo,GetMonthName</token>
-<token>System.Globalization.DateTimeFormatInfo,GetMonthName</token>
-<token>System.Globalization.DateTimeFormatInfo,GetDayName</token>
-</entry>
-<entry count="28784">
-<token>System.Globalization.DateTimeFormatInfo,GetMonthName</token>
-<token>System.Globalization.DateTimeFormatInfo,GetDayName</token>
-</entry>
-<entry count="8">
-<token>System.Globalization.Calendar,GetMonth</token>
-<token>System.Globalization.Calendar,GetDayOfMonth</token>
-<token>System.Globalization.Calendar,GetDaysInMonth</token>
-<token>System.Globalization.Calendar,GetDaysInYear</token>
-<token>System.Globalization.Calendar,ToDateTime</token>
-</entry>
-<entry count="40">
-<token>System.Globalization.CultureInfo,GetCultureInfoByIetfLanguageTag</token>
-<token>System.Globalization.CultureInfo,GetCultureInfoByIetfLanguageTag</token>
-<token>System.Globalization.CultureInfo,Equals</token>
-</entry>
-<entry count="4">
+<token>System.Globalization.HebrewCalendar,GetYear</token>
 <token>System.Globalization.Calendar,GetMonthsInYear</token>
-<token>System.Globalization.Calendar,GetYear</token>
-<token>System.Globalization.Calendar,GetMonth</token>
-<token>System.Globalization.Calendar,GetDayOfMonth</token>
+<token>System.Globalization.HebrewCalendar,GetYear</token>
 </entry>
 <entry count="2">
+<token>System.Globalization.Calendar,GetDaysInMonth</token>
+<token>System.Globalization.HebrewCalendar,GetYear</token>
+<token>System.Globalization.Calendar,GetMonthsInYear</token>
+<token>System.Globalization.Calendar,GetDaysInMonth</token>
+</entry>
+<entry count="12">
+<token>System.Globalization.Calendar,GetMonth</token>
+<token>System.Globalization.Calendar,GetDayOfMonth</token>
+<token>System.Globalization.Calendar,GetDaysInMonth</token>
+<token>System.Globalization.Calendar,IsLeapYear</token>
+<token>System.Globalization.Calendar,GetMonthsInYear</token>
+</entry>
+<entry count="6">
+<token>System.Globalization.Calendar,GetDaysInMonth</token>
+<token>System.Globalization.HebrewCalendar,GetYear</token>
+</entry>
+<entry count="32784">
+<token>System.Globalization.TextInfo,ToTitleCase</token>
+<token>System.Globalization.TextInfo,ToTitleCase</token>
+</entry>
+<entry count="14">
 <token>System.Globalization.HebrewCalendar,new</token>
-<token>System.Globalization.HebrewCalendar,GetYear</token>
-<token>System.Globalization.HebrewCalendar,GetYear</token>
+<token>System.Globalization.Calendar,GetYear</token>
+<token>System.Globalization.Calendar,GetYear</token>
+</entry>
+<entry count="18144">
+<token>System.Globalization.DateTimeFormatInfo,GetMonthName</token>
+<token>System.Globalization.DateTimeFormatInfo,GetDayName</token>
+</entry>
+<entry count="16">
+<token>System.Globalization.Calendar,GetMonth</token>
+<token>System.Globalization.Calendar,GetDayOfMonth</token>
+<token>System.Globalization.Calendar,GetDaysInMonth</token>
 <token>System.Globalization.Calendar,GetDaysInYear</token>
+<token>System.Globalization.Calendar,ToDateTime</token>
+</entry>
+<entry count="320">
+<token>System.Globalization.CultureInfo,GetCultureInfoByIetfLanguageTag</token>
+<token>System.Globalization.CultureInfo,GetCultureInfoByIetfLanguageTag</token>
+<token>System.Globalization.CultureInfo,Equals</token>
+</entry>
+<entry count="12">
+<token>System.Globalization.Calendar,GetDaysInYear</token>
+<token>System.Globalization.Calendar,GetYear</token>
+<token>System.Globalization.Calendar,GetMonth</token>
+<token>System.Globalization.Calendar,GetDayOfMonth</token>
+<token>System.Globalization.Calendar,GetDaysInMonth</token>
+</entry>
+<entry count="12">
+<token>System.Globalization.Calendar,GetMonthsInYear</token>
+<token>System.Globalization.Calendar,GetYear</token>
+<token>System.Globalization.Calendar,GetMonth</token>
+<token>System.Globalization.Calendar,GetDayOfMonth</token>
 </entry>
 <entry count="79">
 <token>System.Globalization.RegionInfo,new</token>
 <token>System.Globalization.RegionInfo,new</token>
 </entry>
-<entry count="10">
+<entry count="14">
 <token>System.Globalization.Calendar,GetYear</token>
 <token>System.Globalization.Calendar,GetYear</token>
 </entry>
@@ -298,68 +290,44 @@
 <token>System.Globalization.Calendar,GetMonthsInYear</token>
 <token>System.Globalization.Calendar,GetYear</token>
 </entry>
-<entry count="1">
-<token>System.Globalization.CultureInfo,CreateSpecificCulture</token>
-<token>System.Globalization.CultureInfo,GetCultureInfo</token>
-<token>System.Globalization.CultureInfo,ToString</token>
+<entry count="1536">
+<token>System.Globalization.CultureInfo,GetCultures</token>
+<token>System.Globalization.CultureInfo,GetCultures</token>
+<token>System.Globalization.CultureInfo,GetCultures</token>
+<token>System.Globalization.CultureInfo,GetCultures</token>
 </entry>
-<entry count="14">
-<token>System.Globalization.HebrewCalendar,GetYear</token>
-<token>System.Globalization.HebrewCalendar,GetYear</token>
-</entry>
-<entry count="28784">
-<token>System.Globalization.DateTimeFormatInfo,GetMonthName</token>
-<token>System.Globalization.DateTimeFormatInfo,GetMonthName</token>
-<token>System.Globalization.DateTimeFormatInfo,GetDayName</token>
-<token>System.Globalization.DateTimeFormatInfo,GetDayName</token>
-</entry>
-<entry count="30">
-<token>System.Globalization.CultureInfo,new</token>
-<token>System.Globalization.CultureInfo,new</token>
-<token>System.Globalization.CultureInfo,new</token>
-<token>System.Globalization.CultureInfo,new</token>
-<token>System.Globalization.CultureInfo,new</token>
-</entry>
-<entry count="28784">
-<token>System.Globalization.DateTimeFormatInfo,GetMonthName</token>
-<token>System.Globalization.DateTimeFormatInfo,GetDayName</token>
-<token>System.Globalization.DateTimeFormatInfo,GetDayName</token>
-</entry>
-<entry count="2">
-<token>System.Globalization.HebrewCalendar,GetYear</token>
-<token>System.Globalization.Calendar,IsLeapYear</token>
-</entry>
-<entry count="95">
-<token>System.Globalization.CultureInfo,new</token>
-<token>System.Globalization.CultureInfo,new</token>
-<token>System.Globalization.CultureInfo,new</token>
+<entry count="60">
+<token>System.Globalization.HebrewCalendar,new</token>
+<token>System.Globalization.Calendar,GetYear</token>
+<token>System.Globalization.Calendar,GetMonthsInYear</token>
 </entry>
 <entry count="4">
 <token>System.Globalization.StringInfo,GetTextElementEnumerator</token>
 <token>System.Globalization.TextElementEnumerator,MoveNext</token>
 </entry>
-<entry count="44">
+<entry count="104">
 <token>System.Globalization.Calendar,GetYear</token>
 <token>System.Globalization.Calendar,GetMonth</token>
 <token>System.Globalization.Calendar,GetDayOfMonth</token>
 <token>System.Globalization.Calendar,GetDaysInMonth</token>
 </entry>
-<entry count="1">
-<token>System.Globalization.CultureInfo,CreateSpecificCulture</token>
-<token>System.Globalization.CultureInfo,GetCultureInfo</token>
-<token>System.Globalization.CultureInfo,ToString</token>
-<token>System.Globalization.CultureInfo,CreateSpecificCulture</token>
+<entry count="32">
+<token>System.Globalization.Calendar,GetDaysInMonth</token>
+<token>System.Globalization.Calendar,GetDaysInMonth</token>
+<token>System.Globalization.Calendar,GetYear</token>
+<token>System.Globalization.Calendar,GetMonthsInYear</token>
+<token>System.Globalization.Calendar,GetDaysInMonth</token>
 </entry>
-<entry count="40">
+<entry count="80">
 <token>System.Globalization.UmAlQuraCalendar,new</token>
 <token>System.Globalization.Calendar,GetYear</token>
 <token>System.Globalization.Calendar,GetMonth</token>
 </entry>
-<entry count="384">
+<entry count="7680">
 <token>System.Globalization.CompareInfo,Compare</token>
 <token>System.Globalization.CompareInfo,IsPrefix</token>
 </entry>
-<entry count="128">
+<entry count="17680">
 <token>System.Globalization.CultureInfo,Clone</token>
 <token>System.Globalization.CultureInfo,new</token>
 </entry>
@@ -370,33 +338,662 @@
 <token>System.Globalization.Calendar,GetMonthsInYear</token>
 <token>System.Globalization.Calendar,GetDaysInMonth</token>
 </entry>
+<entry count="40">
+<token>System.Globalization.Calendar,GetMonthsInYear</token>
+<token>System.Globalization.Calendar,GetDaysInMonth</token>
+<token>System.Globalization.Calendar,GetDaysInMonth</token>
+<token>System.Globalization.Calendar,GetYear</token>
+<token>System.Globalization.Calendar,GetMonthsInYear</token>
+</entry>
+<entry count="6">
+<token>System.Globalization.HebrewCalendar,new</token>
+<token>System.Globalization.HebrewCalendar,GetYear</token>
+<token>System.Globalization.Calendar,GetMonthsInYear</token>
+<token>System.Globalization.Calendar,GetDaysInMonth</token>
+</entry>
+<entry count="18144">
+<token>System.Globalization.DateTimeFormatInfo,GetDayName</token>
+<token>System.Globalization.DateTimeFormatInfo,GetDayName</token>
+</entry>
+<entry count="32">
+<token>System.Globalization.Calendar,GetMonth</token>
+<token>System.Globalization.Calendar,GetDayOfMonth</token>
+<token>System.Globalization.Calendar,GetDaysInMonth</token>
+<token>System.Globalization.Calendar,ToDateTime</token>
+</entry>
 <entry count="16">
+<token>System.Globalization.Calendar,GetDayOfMonth</token>
+<token>System.Globalization.Calendar,GetDaysInMonth</token>
+<token>System.Globalization.Calendar,GetDaysInYear</token>
+<token>System.Globalization.Calendar,ToDateTime</token>
+</entry>
+<entry count="48">
+<token>System.Globalization.Calendar,GetDaysInMonth</token>
+<token>System.Globalization.Calendar,GetDaysInMonth</token>
+<token>System.Globalization.Calendar,GetYear</token>
+</entry>
+<entry count="2">
+<token>System.Globalization.Calendar,GetMonthsInYear</token>
+<token>System.Globalization.HebrewCalendar,GetYear</token>
+<token>System.Globalization.Calendar,GetMonthsInYear</token>
+<token>System.Globalization.Calendar,GetDaysInMonth</token>
+</entry>
+<entry count="4">
+<token>System.Globalization.HebrewCalendar,new</token>
+<token>System.Globalization.HebrewCalendar,GetYear</token>
+<token>System.Globalization.Calendar,IsLeapYear</token>
+</entry>
+<entry count="48">
+<token>System.Globalization.Calendar,GetDaysInMonth</token>
+<token>System.Globalization.Calendar,GetDaysInYear</token>
+</entry>
+<entry count="48">
+<token>System.Globalization.Calendar,GetDaysInMonth</token>
+<token>System.Globalization.Calendar,GetYear</token>
+</entry>
+<entry count="1">
+<token>System.Globalization.Calendar,GetWeekOfYear</token>
+<token>System.Globalization.Calendar,GetWeekOfYear</token>
+</entry>
+<entry count="37">
+<token>System.Globalization.CultureInfo,ToString</token>
+<token>System.Globalization.CultureInfo,ToString</token>
+<token>System.Globalization.CultureInfo,ToString</token>
+</entry>
+<entry count="4480">
+<token>System.Globalization.CultureInfo,Clone</token>
+<token>System.Globalization.CultureInfo,Clone</token>
+<token>System.Globalization.CultureInfo,Clone</token>
+</entry>
+<entry count="18144">
+<token>System.Globalization.DateTimeFormatInfo,GetMonthName</token>
+<token>System.Globalization.DateTimeFormatInfo,GetMonthName</token>
+</entry>
+<entry count="48">
+<token>System.Globalization.HebrewCalendar,new</token>
+<token>System.Globalization.Calendar,GetYear</token>
+<token>System.Globalization.Calendar,GetMonthsInYear</token>
+<token>System.Globalization.Calendar,GetDaysInMonth</token>
+<token>System.Globalization.Calendar,GetDaysInMonth</token>
+</entry>
+<entry count="16">
+<token>System.Globalization.CultureInfo,ReadOnly</token>
+<token>System.Globalization.CultureInfo,new</token>
+</entry>
+<entry count="80">
+<token>System.Globalization.Calendar,GetYear</token>
+<token>System.Globalization.Calendar,GetMonth</token>
+<token>System.Globalization.Calendar,GetDayOfMonth</token>
+<token>System.Globalization.Calendar,GetYear</token>
+<token>System.Globalization.Calendar,GetMonth</token>
+</entry>
+<entry count="8">
+<token>System.Globalization.Calendar,GetYear</token>
+<token>System.Globalization.Calendar,GetMonthsInYear</token>
+<token>System.Globalization.Calendar,GetYear</token>
+<token>System.Globalization.Calendar,GetMonthsInYear</token>
+<token>System.Globalization.Calendar,GetDaysInMonth</token>
+</entry>
+<entry count="12">
+<token>System.Globalization.Calendar,GetMonthsInYear</token>
+<token>System.Globalization.Calendar,GetYear</token>
+<token>System.Globalization.Calendar,GetMonth</token>
+<token>System.Globalization.Calendar,GetDayOfMonth</token>
+<token>System.Globalization.Calendar,GetDaysInMonth</token>
+</entry>
+<entry count="17818">
+<token>System.Globalization.CultureInfo,new</token>
+<token>System.Globalization.CultureInfo,new</token>
+<token>System.Globalization.CultureInfo,new</token>
+<token>System.Globalization.CultureInfo,new</token>
+</entry>
+<entry count="12">
+<token>System.Globalization.Calendar,GetMonthsInYear</token>
+<token>System.Globalization.Calendar,GetYear</token>
+<token>System.Globalization.Calendar,GetMonth</token>
+</entry>
+<entry count="976">
+<token>System.Globalization.CompareInfo,Compare</token>
+<token>System.Globalization.CompareInfo,Compare</token>
+</entry>
+<entry count="2">
+<token>System.Globalization.CultureInfo,CreateSpecificCulture</token>
+<token>System.Globalization.CultureInfo,CreateSpecificCulture</token>
+<token>System.Globalization.CultureInfo,CreateSpecificCulture</token>
+<token>System.Globalization.CultureInfo,CreateSpecificCulture</token>
+</entry>
+<entry count="12">
+<token>System.Globalization.Calendar,IsLeapYear</token>
+<token>System.Globalization.Calendar,GetMonthsInYear</token>
+</entry>
+<entry count="8">
+<token>System.Globalization.Calendar,GetMonthsInYear</token>
+<token>System.Globalization.Calendar,GetYear</token>
+<token>System.Globalization.Calendar,GetMonthsInYear</token>
+<token>System.Globalization.Calendar,GetDaysInMonth</token>
+</entry>
+<entry count="1">
+<token>System.Globalization.StringInfo,new</token>
+<token>System.Globalization.StringInfo,SubstringByTextElements</token>
+</entry>
+<entry count="2992">
+<token>System.Globalization.CultureInfo,Clone</token>
+<token>System.Globalization.CultureInfo,Clone</token>
+<token>System.Globalization.CultureInfo,Clone</token>
+<token>System.Globalization.CultureInfo,new</token>
+</entry>
+<entry count="68">
+<token>System.Globalization.DateTimeFormatInfo,GetAbbreviatedDayName</token>
+<token>System.Globalization.DateTimeFormatInfo,GetAbbreviatedDayName</token>
+</entry>
+<entry count="32">
+<token>System.Globalization.Calendar,GetDaysInMonth</token>
+<token>System.Globalization.Calendar,GetDaysInYear</token>
+<token>System.Globalization.Calendar,GetDaysInMonth</token>
+</entry>
+<entry count="8">
+<token>System.Globalization.Calendar,GetYear</token>
+<token>System.Globalization.Calendar,GetYear</token>
+<token>System.Globalization.Calendar,GetMonthsInYear</token>
+<token>System.Globalization.Calendar,GetDaysInMonth</token>
+</entry>
+<entry count="80">
+<token>System.Globalization.Calendar,GetMonth</token>
+<token>System.Globalization.Calendar,GetDayOfMonth</token>
+<token>System.Globalization.Calendar,GetYear</token>
+<token>System.Globalization.Calendar,GetMonth</token>
+</entry>
+<entry count="6">
+<token>System.Globalization.CultureInfo,GetCultureInfo</token>
+<token>System.Globalization.TextInfo,ToTitleCase</token>
+</entry>
+<entry count="2">
+<token>System.Globalization.Calendar,IsLeapYear</token>
+<token>System.Globalization.HebrewCalendar,GetYear</token>
+<token>System.Globalization.Calendar,IsLeapYear</token>
+</entry>
+<entry count="25">
+<token>System.Globalization.RegionInfo,new</token>
+<token>System.Globalization.CultureInfo,new</token>
+</entry>
+<entry count="6">
+<token>System.Globalization.Calendar,GetMonthsInYear</token>
+<token>System.Globalization.HebrewCalendar,GetYear</token>
+</entry>
+<entry count="48">
+<token>System.Globalization.TextInfo,ToTitleCase</token>
+<token>System.Globalization.TextInfo,ToTitleCase</token>
+<token>System.Globalization.TextInfo,ToTitleCase</token>
+<token>System.Globalization.TextInfo,ToTitleCase</token>
+</entry>
+<entry count="80">
+<token>System.Globalization.Calendar,GetMonth</token>
+<token>System.Globalization.Calendar,GetDayOfMonth</token>
+<token>System.Globalization.Calendar,GetYear</token>
+<token>System.Globalization.Calendar,GetMonth</token>
+<token>System.Globalization.Calendar,GetDayOfMonth</token>
+</entry>
+<entry count="15248">
+<token>System.Globalization.CultureInfo,Clone</token>
+<token>System.Globalization.CultureInfo,Clone</token>
+</entry>
+<entry count="4">
+<token>System.Globalization.CultureInfo,Equals</token>
+<token>System.Globalization.CultureInfo,GetCultureInfo</token>
+<token>System.Globalization.CultureInfo,GetCultureInfo</token>
+</entry>
+<entry count="111598">
+<token>System.Globalization.CompareInfo,IndexOf</token>
+<token>System.Globalization.CompareInfo,IndexOf</token>
+</entry>
+<entry count="3840">
+<token>System.Globalization.CompareInfo,IsPrefix</token>
+<token>System.Globalization.CompareInfo,Compare</token>
+</entry>
+<entry count="48">
+<token>System.Globalization.Calendar,GetMonthsInYear</token>
+<token>System.Globalization.Calendar,GetDaysInMonth</token>
+<token>System.Globalization.Calendar,GetDaysInMonth</token>
+<token>System.Globalization.Calendar,GetYear</token>
+</entry>
+<entry count="18750">
+<token>System.Globalization.CultureInfo,GetCultureInfo</token>
+<token>System.Globalization.CultureInfo,GetCultures</token>
+<token>System.Globalization.CultureInfo,GetCultures</token>
+</entry>
+<entry count="12">
+<token>System.Globalization.CultureInfo,ReadOnly</token>
+<token>System.Globalization.CultureInfo,new</token>
+<token>System.Globalization.CultureInfo,ReadOnly</token>
+<token>System.Globalization.CultureInfo,new</token>
+<token>System.Globalization.CultureInfo,ReadOnly</token>
+</entry>
+<entry count="2">
+<token>System.Globalization.StringInfo,GetTextElementEnumerator</token>
+<token>System.Globalization.TextElementEnumerator,MoveNext</token>
+<token>System.Globalization.TextElementEnumerator,GetTextElement</token>
+<token>System.Globalization.StringInfo,ParseCombiningCharacters</token>
+</entry>
+<entry count="8">
+<token>System.Globalization.Calendar,GetDaysInMonth</token>
+<token>System.Globalization.Calendar,IsLeapYear</token>
+<token>System.Globalization.Calendar,GetMonthsInYear</token>
+<token>System.Globalization.Calendar,GetYear</token>
+</entry>
+<entry count="12">
+<token>System.Globalization.CultureInfo,ReadOnly</token>
+<token>System.Globalization.CultureInfo,new</token>
+<token>System.Globalization.CultureInfo,ReadOnly</token>
+<token>System.Globalization.CultureInfo,new</token>
+</entry>
+<entry count="32">
+<token>System.Globalization.Calendar,GetDaysInMonth</token>
+<token>System.Globalization.Calendar,GetYear</token>
+<token>System.Globalization.Calendar,GetMonthsInYear</token>
+<token>System.Globalization.Calendar,GetDaysInMonth</token>
+<token>System.Globalization.Calendar,GetDaysInMonth</token>
+</entry>
+<entry count="24">
+<token>System.Globalization.Calendar,GetDaysInMonth</token>
+<token>System.Globalization.Calendar,IsLeapYear</token>
+</entry>
+<entry count="2">
+<token>System.Globalization.HebrewCalendar,new</token>
+<token>System.Globalization.HebrewCalendar,GetYear</token>
+<token>System.Globalization.HebrewCalendar,GetYear</token>
+<token>System.Globalization.Calendar,IsLeapYear</token>
+</entry>
+<entry count="2">
+<token>System.Globalization.CultureInfo,new</token>
+<token>System.Globalization.CultureInfo,Clone</token>
+<token>System.Globalization.CultureInfo,ReadOnly</token>
+</entry>
+<entry count="4">
+<token>System.Globalization.CultureInfo,CreateSpecificCulture</token>
+<token>System.Globalization.CultureInfo,CreateSpecificCulture</token>
+<token>System.Globalization.CultureInfo,CreateSpecificCulture</token>
+</entry>
+<entry count="4">
+<token>System.Globalization.Calendar,GetDaysInYear</token>
+<token>System.Globalization.HebrewCalendar,GetYear</token>
+</entry>
+<entry count="16">
+<token>System.Globalization.Calendar,GetDaysInMonth</token>
+<token>System.Globalization.Calendar,GetDaysInYear</token>
+<token>System.Globalization.Calendar,ToDateTime</token>
+</entry>
+<entry count="80">
+<token>System.Globalization.Calendar,GetMonth</token>
+<token>System.Globalization.Calendar,GetDayOfMonth</token>
+<token>System.Globalization.Calendar,GetYear</token>
+</entry>
+<entry count="41392">
+<token>System.Globalization.CultureInfo,Equals</token>
+<token>System.Globalization.CultureInfo,Equals</token>
+</entry>
+<entry count="32">
+<token>System.Globalization.Calendar,GetDayOfMonth</token>
+<token>System.Globalization.Calendar,GetDaysInMonth</token>
+<token>System.Globalization.Calendar,GetDaysInYear</token>
+<token>System.Globalization.Calendar,GetDaysInMonth</token>
+</entry>
+<entry count="1">
+<token>System.Globalization.CultureInfo,new</token>
+<token>System.Globalization.CultureInfo,CreateSpecificCulture</token>
+</entry>
+<entry count="272">
+<token>System.Globalization.CultureInfo,Clone</token>
+<token>System.Globalization.CultureInfo,Clone</token>
+<token>System.Globalization.CultureInfo,Clone</token>
+<token>System.Globalization.CultureInfo,Clone</token>
+<token>System.Globalization.CultureInfo,Clone</token>
+</entry>
+<entry count="2">
+<token>System.Globalization.HebrewCalendar,GetYear</token>
+<token>System.Globalization.Calendar,GetDaysInYear</token>
+<token>System.Globalization.HebrewCalendar,GetYear</token>
+<token>System.Globalization.Calendar,GetDaysInYear</token>
+</entry>
+<entry count="32">
+<token>System.Globalization.Calendar,GetDaysInYear</token>
+<token>System.Globalization.Calendar,GetDaysInMonth</token>
+<token>System.Globalization.Calendar,ToDateTime</token>
+</entry>
+<entry count="8">
+<token>System.Globalization.RegionInfo,new</token>
+<token>System.Globalization.RegionInfo,new</token>
+<token>System.Globalization.RegionInfo,new</token>
+</entry>
+<entry count="12">
+<token>System.Globalization.HebrewCalendar,new</token>
+<token>System.Globalization.HebrewCalendar,GetYear</token>
+<token>System.Globalization.Calendar,GetMonthsInYear</token>
+</entry>
+<entry count="48">
+<token>System.Globalization.Calendar,GetYear</token>
+<token>System.Globalization.Calendar,GetMonthsInYear</token>
+<token>System.Globalization.Calendar,GetDaysInMonth</token>
+<token>System.Globalization.Calendar,GetDaysInMonth</token>
+<token>System.Globalization.Calendar,GetYear</token>
+</entry>
+<entry count="96">
+<token>System.Globalization.Calendar,GetMonthsInYear</token>
+<token>System.Globalization.Calendar,GetDaysInMonth</token>
+<token>System.Globalization.Calendar,GetDaysInMonth</token>
+</entry>
+<entry count="8">
+<token>System.Globalization.PersianCalendar,new</token>
+<token>System.Globalization.Calendar,IsLeapYear</token>
+</entry>
+<entry count="2">
+<token>System.Globalization.CultureInfo,Clone</token>
+<token>System.Globalization.CultureInfo,ReadOnly</token>
+<token>System.Globalization.CultureInfo,ReadOnly</token>
+</entry>
+<entry count="3840">
+<token>System.Globalization.CompareInfo,Compare</token>
+<token>System.Globalization.CompareInfo,IsPrefix</token>
+<token>System.Globalization.CompareInfo,Compare</token>
+</entry>
+<entry count="1">
+<token>System.Globalization.RegionInfo,new</token>
+<token>System.Globalization.RegionInfo,new</token>
+<token>System.Globalization.RegionInfo,new</token>
+<token>System.Globalization.RegionInfo,new</token>
+</entry>
+<entry count="8">
+<token>System.Globalization.Calendar,IsLeapYear</token>
+<token>System.Globalization.Calendar,GetMonthsInYear</token>
+<token>System.Globalization.Calendar,GetYear</token>
+<token>System.Globalization.Calendar,GetMonth</token>
+</entry>
+<entry count="1">
+<token>System.Globalization.IdnMapping,new</token>
+<token>System.Globalization.IdnMapping,GetAscii</token>
+</entry>
+<entry count="80">
+<token>System.Globalization.Calendar,GetDayOfMonth</token>
+<token>System.Globalization.Calendar,GetYear</token>
+</entry>
+<entry count="12">
+<token>System.Globalization.CultureInfo,new</token>
+<token>System.Globalization.CultureInfo,ReadOnly</token>
+<token>System.Globalization.CultureInfo,new</token>
+<token>System.Globalization.CultureInfo,ReadOnly</token>
+</entry>
+<entry count="32">
+<token>System.Globalization.Calendar,GetDayOfMonth</token>
+<token>System.Globalization.Calendar,GetDaysInMonth</token>
+<token>System.Globalization.Calendar,ToDateTime</token>
+</entry>
+<entry count="8">
+<token>System.Globalization.Calendar,IsLeapYear</token>
+<token>System.Globalization.Calendar,GetMonthsInYear</token>
+<token>System.Globalization.Calendar,GetYear</token>
+<token>System.Globalization.Calendar,GetMonth</token>
+<token>System.Globalization.Calendar,GetDayOfMonth</token>
+</entry>
+<entry count="2">
+<token>System.Globalization.TextElementEnumerator,GetTextElement</token>
+<token>System.Globalization.StringInfo,ParseCombiningCharacters</token>
+</entry>
+<entry count="1">
+<token>System.Globalization.CultureInfo,ToString</token>
+<token>System.Globalization.CultureInfo,CreateSpecificCulture</token>
+<token>System.Globalization.CultureInfo,GetCultureInfo</token>
+<token>System.Globalization.CultureInfo,ToString</token>
+</entry>
+<entry count="12">
+<token>System.Globalization.Calendar,GetYear</token>
+<token>System.Globalization.Calendar,GetMonthsInYear</token>
+<token>System.Globalization.Calendar,GetYear</token>
+</entry>
+<entry count="10">
+<token>System.Globalization.Calendar,GetMonthsInYear</token>
+<token>System.Globalization.Calendar,GetYear</token>
+<token>System.Globalization.Calendar,GetMonthsInYear</token>
+</entry>
+<entry count="46700">
+<token>System.Globalization.CultureInfo,GetCultureInfo</token>
+<token>System.Globalization.CultureInfo,GetCultureInfo</token>
+<token>System.Globalization.CultureInfo,GetCultureInfo</token>
+<token>System.Globalization.CultureInfo,GetCultureInfo</token>
+<token>System.Globalization.CultureInfo,GetCultureInfo</token>
+</entry>
+<entry count="4">
+<token>System.Globalization.CultureInfo,GetCultures</token>
+<token>System.Globalization.CultureInfo,ReadOnly</token>
+<token>System.Globalization.CultureInfo,new</token>
+<token>System.Globalization.CultureInfo,ReadOnly</token>
+<token>System.Globalization.CultureInfo,new</token>
+</entry>
+<entry count="48">
+<token>System.Globalization.Calendar,GetYear</token>
+<token>System.Globalization.Calendar,GetMonth</token>
+<token>System.Globalization.Calendar,GetDayOfMonth</token>
+<token>System.Globalization.Calendar,GetDaysInMonth</token>
+<token>System.Globalization.Calendar,GetDaysInYear</token>
+</entry>
+<entry count="4">
+<token>System.Globalization.Calendar,IsLeapYear</token>
+<token>System.Globalization.HebrewCalendar,GetYear</token>
+</entry>
+<entry count="179372">
+<token>System.Globalization.CultureInfo,GetCultures</token>
+<token>System.Globalization.CultureInfo,GetCultures</token>
+</entry>
+<entry count="2">
+<token>System.Globalization.CultureInfo,ToString</token>
+<token>System.Globalization.CultureInfo,CreateSpecificCulture</token>
+</entry>
+<entry count="167978">
+<token>System.Globalization.CultureInfo,new</token>
+<token>System.Globalization.CultureInfo,new</token>
+</entry>
+<entry count="8">
+<token>System.Globalization.HebrewCalendar,GetYear</token>
+<token>System.Globalization.Calendar,GetDaysInYear</token>
+</entry>
+<entry count="1173">
+<token>System.Globalization.CultureInfo,ToString</token>
+<token>System.Globalization.CultureInfo,ToString</token>
+</entry>
+<entry count="74">
+<token>System.Globalization.HebrewCalendar,new</token>
+<token>System.Globalization.Calendar,GetYear</token>
+</entry>
+<entry count="4">
+<token>System.Globalization.HebrewCalendar,new</token>
+<token>System.Globalization.HebrewCalendar,GetYear</token>
+<token>System.Globalization.Calendar,GetDaysInYear</token>
+<token>System.Globalization.HebrewCalendar,GetYear</token>
+</entry>
+<entry count="40">
+<token>System.Globalization.Calendar,GetDaysInMonth</token>
+<token>System.Globalization.Calendar,GetYear</token>
+<token>System.Globalization.Calendar,GetMonthsInYear</token>
+</entry>
+<entry count="13750">
+<token>System.Globalization.CultureInfo,GetCultureInfo</token>
+<token>System.Globalization.CultureInfo,GetCultureInfo</token>
+<token>System.Globalization.CultureInfo,GetCultures</token>
+<token>System.Globalization.CultureInfo,GetCultures</token>
+</entry>
+<entry count="2">
+<token>System.Globalization.StringInfo,GetTextElementEnumerator</token>
+<token>System.Globalization.TextElementEnumerator,MoveNext</token>
+<token>System.Globalization.TextElementEnumerator,GetTextElement</token>
+</entry>
+<entry count="10">
+<token>System.Globalization.Calendar,GetYear</token>
+<token>System.Globalization.Calendar,GetYear</token>
+<token>System.Globalization.Calendar,GetMonthsInYear</token>
+</entry>
+<entry count="184">
+<token>System.Globalization.Calendar,GetYear</token>
+<token>System.Globalization.Calendar,GetMonth</token>
+<token>System.Globalization.Calendar,GetDayOfMonth</token>
+</entry>
+<entry count="18">
+<token>System.Globalization.CultureInfo,new</token>
+<token>System.Globalization.CultureInfo,ToString</token>
+</entry>
+<entry count="768">
+<token>System.Globalization.CompareInfo,Compare</token>
+<token>System.Globalization.CompareInfo,Compare</token>
+<token>System.Globalization.CompareInfo,IsPrefix</token>
+</entry>
+<entry count="3072">
+<token>System.Globalization.CompareInfo,IsPrefix</token>
+<token>System.Globalization.CompareInfo,Compare</token>
+<token>System.Globalization.CompareInfo,IsPrefix</token>
+</entry>
+<entry count="184">
+<token>System.Globalization.Calendar,GetYear</token>
+<token>System.Globalization.Calendar,GetMonth</token>
+</entry>
+<entry count="4">
+<token>System.Globalization.Calendar,GetDaysInYear</token>
+<token>System.Globalization.Calendar,GetMonthsInYear</token>
+<token>System.Globalization.Calendar,GetYear</token>
+<token>System.Globalization.Calendar,GetMonth</token>
+</entry>
+<entry count="12">
+<token>System.Globalization.HebrewCalendar,new</token>
+<token>System.Globalization.Calendar,GetYear</token>
+<token>System.Globalization.Calendar,GetMonthsInYear</token>
+<token>System.Globalization.Calendar,GetYear</token>
+</entry>
+<entry count="5">
+<token>System.Globalization.NumberFormatInfo,new</token>
+<token>System.Globalization.NumberFormatInfo,new</token>
+<token>System.Globalization.NumberFormatInfo,new</token>
+<token>System.Globalization.NumberFormatInfo,new</token>
+</entry>
+<entry count="12">
+<token>System.Globalization.CultureInfo,new</token>
+<token>System.Globalization.CultureInfo,ReadOnly</token>
+<token>System.Globalization.CultureInfo,new</token>
+</entry>
+<entry count="320">
+<token>System.Globalization.CultureInfo,GetCultureInfoByIetfLanguageTag</token>
+<token>System.Globalization.CultureInfo,Equals</token>
+</entry>
+<entry count="18144">
+<token>System.Globalization.DateTimeFormatInfo,GetMonthName</token>
+<token>System.Globalization.DateTimeFormatInfo,GetMonthName</token>
+<token>System.Globalization.DateTimeFormatInfo,GetDayName</token>
+</entry>
+<entry count="2">
+<token>System.Globalization.HebrewCalendar,new</token>
+<token>System.Globalization.HebrewCalendar,GetYear</token>
+<token>System.Globalization.Calendar,GetDaysInYear</token>
+<token>System.Globalization.HebrewCalendar,GetYear</token>
+<token>System.Globalization.Calendar,GetDaysInYear</token>
+</entry>
+<entry count="12">
+<token>System.Globalization.Calendar,GetDaysInYear</token>
+<token>System.Globalization.Calendar,GetYear</token>
+</entry>
+<entry count="2">
+<token>System.Globalization.HebrewCalendar,new</token>
+<token>System.Globalization.HebrewCalendar,GetYear</token>
+<token>System.Globalization.HebrewCalendar,GetYear</token>
+<token>System.Globalization.Calendar,GetDaysInYear</token>
+</entry>
+<entry count="1">
+<token>System.Globalization.CultureInfo,CreateSpecificCulture</token>
+<token>System.Globalization.CultureInfo,GetCultureInfo</token>
+<token>System.Globalization.CultureInfo,ToString</token>
+</entry>
+<entry count="14">
+<token>System.Globalization.HebrewCalendar,GetYear</token>
+<token>System.Globalization.HebrewCalendar,GetYear</token>
+</entry>
+<entry count="18144">
+<token>System.Globalization.DateTimeFormatInfo,GetMonthName</token>
+<token>System.Globalization.DateTimeFormatInfo,GetMonthName</token>
+<token>System.Globalization.DateTimeFormatInfo,GetDayName</token>
+<token>System.Globalization.DateTimeFormatInfo,GetDayName</token>
+</entry>
+<entry count="5662">
+<token>System.Globalization.CultureInfo,new</token>
+<token>System.Globalization.CultureInfo,new</token>
+<token>System.Globalization.CultureInfo,new</token>
+<token>System.Globalization.CultureInfo,new</token>
+<token>System.Globalization.CultureInfo,new</token>
+</entry>
+<entry count="18144">
+<token>System.Globalization.DateTimeFormatInfo,GetMonthName</token>
+<token>System.Globalization.DateTimeFormatInfo,GetDayName</token>
+<token>System.Globalization.DateTimeFormatInfo,GetDayName</token>
+</entry>
+<entry count="8">
+<token>System.Globalization.HebrewCalendar,GetYear</token>
+<token>System.Globalization.Calendar,IsLeapYear</token>
+</entry>
+<entry count="40">
+<token>System.Globalization.Calendar,GetDaysInMonth</token>
+<token>System.Globalization.Calendar,GetDaysInMonth</token>
+<token>System.Globalization.Calendar,GetYear</token>
+<token>System.Globalization.Calendar,GetMonthsInYear</token>
+</entry>
+<entry count="51233">
+<token>System.Globalization.CultureInfo,new</token>
+<token>System.Globalization.CultureInfo,new</token>
+<token>System.Globalization.CultureInfo,new</token>
+</entry>
+<entry count="18432">
+<token>System.Globalization.CultureInfo,GetCultures</token>
+<token>System.Globalization.CultureInfo,GetCultures</token>
+<token>System.Globalization.CultureInfo,GetCultures</token>
+</entry>
+<entry count="2">
+<token>System.Globalization.HebrewCalendar,new</token>
+<token>System.Globalization.HebrewCalendar,GetYear</token>
+<token>System.Globalization.Calendar,IsLeapYear</token>
+<token>System.Globalization.HebrewCalendar,GetYear</token>
+<token>System.Globalization.Calendar,IsLeapYear</token>
+</entry>
+<entry count="1">
+<token>System.Globalization.CultureInfo,CreateSpecificCulture</token>
+<token>System.Globalization.CultureInfo,GetCultureInfo</token>
+<token>System.Globalization.CultureInfo,ToString</token>
+<token>System.Globalization.CultureInfo,CreateSpecificCulture</token>
+</entry>
+<entry count="32">
 <token>System.Globalization.Calendar,GetYear</token>
 <token>System.Globalization.Calendar,GetMonth</token>
 <token>System.Globalization.Calendar,GetDayOfMonth</token>
 <token>System.Globalization.Calendar,GetDaysInMonth</token>
 <token>System.Globalization.Calendar,ToDateTime</token>
 </entry>
-<entry count="28784">
-<token>System.Globalization.DateTimeFormatInfo,GetDayName</token>
-<token>System.Globalization.DateTimeFormatInfo,GetDayName</token>
+<entry count="12">
+<token>System.Globalization.Calendar,GetDaysInYear</token>
+<token>System.Globalization.Calendar,GetYear</token>
+<token>System.Globalization.Calendar,GetMonth</token>
+</entry>
+<entry count="4">
+<token>System.Globalization.HebrewCalendar,GetYear</token>
+<token>System.Globalization.Calendar,GetDaysInYear</token>
+<token>System.Globalization.HebrewCalendar,GetYear</token>
 </entry>
 <entry count="1">
 <token>System.Globalization.CultureInfo,ToString</token>
 <token>System.Globalization.CultureInfo,CreateSpecificCulture</token>
 <token>System.Globalization.CultureInfo,GetCultureInfo</token>
 </entry>
-<entry count="16">
-<token>System.Globalization.Calendar,GetMonth</token>
-<token>System.Globalization.Calendar,GetDayOfMonth</token>
-<token>System.Globalization.Calendar,GetDaysInMonth</token>
-<token>System.Globalization.Calendar,ToDateTime</token>
-</entry>
-<entry count="14">
+<entry count="34">
 <token>System.Globalization.HebrewCalendar,new</token>
 <token>System.Globalization.HebrewCalendar,GetYear</token>
 </entry>
-<entry count="208">
+<entry count="10">
+<token>System.Globalization.Calendar,GetYear</token>
+<token>System.Globalization.Calendar,GetMonthsInYear</token>
+<token>System.Globalization.Calendar,GetYear</token>
+<token>System.Globalization.Calendar,GetMonthsInYear</token>
+</entry>
+<entry count="13750">
 <token>System.Globalization.CultureInfo,GetCultureInfo</token>
 <token>System.Globalization.CultureInfo,GetCultureInfo</token>
 <token>System.Globalization.CultureInfo,GetCultures</token>
@@ -405,29 +1002,27 @@
 <token>System.Globalization.CultureInfo,CreateSpecificCulture</token>
 <token>System.Globalization.CultureInfo,GetCultureInfo</token>
 </entry>
-<entry count="8">
-<token>System.Globalization.Calendar,GetDayOfMonth</token>
+<entry count="4">
+<token>System.Globalization.Calendar,GetMonthsInYear</token>
 <token>System.Globalization.Calendar,GetDaysInMonth</token>
-<token>System.Globalization.Calendar,GetDaysInYear</token>
-<token>System.Globalization.Calendar,ToDateTime</token>
+<token>System.Globalization.HebrewCalendar,GetYear</token>
+<token>System.Globalization.Calendar,GetMonthsInYear</token>
 </entry>
 <entry count="16">
 <token>System.Globalization.CultureInfo,ReadOnly</token>
 <token>System.Globalization.CultureInfo,new</token>
 <token>System.Globalization.CultureInfo,ReadOnly</token>
 </entry>
-<entry count="24">
+<entry count="32">
 <token>System.Globalization.Calendar,GetDaysInMonth</token>
-<token>System.Globalization.Calendar,GetDaysInYear</token>
+<token>System.Globalization.Calendar,GetYear</token>
+<token>System.Globalization.Calendar,GetMonthsInYear</token>
+<token>System.Globalization.Calendar,GetDaysInMonth</token>
 </entry>
 <entry count="14">
 <token>System.Globalization.HebrewCalendar,new</token>
 <token>System.Globalization.HebrewCalendar,GetYear</token>
 <token>System.Globalization.HebrewCalendar,GetYear</token>
-</entry>
-<entry count="1">
-<token>System.Globalization.Calendar,GetWeekOfYear</token>
-<token>System.Globalization.Calendar,GetWeekOfYear</token>
 </entry>
 <entry count="3">
 <token>System.Globalization.CultureInfo,GetCultureInfo</token>
@@ -438,90 +1033,53 @@
 <token>System.Globalization.HebrewCalendar,GetYear</token>
 <token>System.Globalization.Calendar,GetMonthsInYear</token>
 </entry>
-<entry count="28784">
-<token>System.Globalization.DateTimeFormatInfo,GetMonthName</token>
-<token>System.Globalization.DateTimeFormatInfo,GetMonthName</token>
-</entry>
-<entry count="16">
-<token>System.Globalization.CultureInfo,ReadOnly</token>
-<token>System.Globalization.CultureInfo,new</token>
-</entry>
-<entry count="40">
-<token>System.Globalization.Calendar,GetYear</token>
-<token>System.Globalization.Calendar,GetMonth</token>
-<token>System.Globalization.Calendar,GetDayOfMonth</token>
-<token>System.Globalization.Calendar,GetYear</token>
-<token>System.Globalization.Calendar,GetMonth</token>
-</entry>
-<entry count="4">
+<entry count="24">
 <token>System.Globalization.Calendar,GetMonth</token>
 <token>System.Globalization.Calendar,GetDayOfMonth</token>
 <token>System.Globalization.Calendar,GetDaysInMonth</token>
 <token>System.Globalization.Calendar,IsLeapYear</token>
 </entry>
-<entry count="4">
-<token>System.Globalization.Calendar,GetYear</token>
-<token>System.Globalization.Calendar,GetYear</token>
-<token>System.Globalization.Calendar,GetMonthsInYear</token>
-<token>System.Globalization.Calendar,GetDaysInMonth</token>
-<token>System.Globalization.Calendar,GetDaysInMonth</token>
-</entry>
-<entry count="4">
-<token>System.Globalization.Calendar,GetMonthsInYear</token>
-<token>System.Globalization.Calendar,GetYear</token>
-<token>System.Globalization.Calendar,GetMonth</token>
-<token>System.Globalization.Calendar,GetDayOfMonth</token>
-<token>System.Globalization.Calendar,GetDaysInMonth</token>
-</entry>
-<entry count="61">
-<token>System.Globalization.CultureInfo,new</token>
-<token>System.Globalization.CultureInfo,new</token>
-<token>System.Globalization.CultureInfo,new</token>
-<token>System.Globalization.CultureInfo,new</token>
-</entry>
-<entry count="40">
-<token>System.Globalization.Calendar,GetDayOfMonth</token>
-<token>System.Globalization.Calendar,GetYear</token>
-<token>System.Globalization.Calendar,GetMonth</token>
-<token>System.Globalization.Calendar,GetDayOfMonth</token>
-<token>System.Globalization.Calendar,GetDaysInMonth</token>
-</entry>
-<entry count="4">
-<token>System.Globalization.Calendar,GetMonthsInYear</token>
-<token>System.Globalization.Calendar,GetYear</token>
-<token>System.Globalization.Calendar,GetMonth</token>
-</entry>
 <entry count="8">
-<token>System.Globalization.CompareInfo,Compare</token>
-<token>System.Globalization.CompareInfo,Compare</token>
+<token>System.Globalization.Calendar,GetYear</token>
+<token>System.Globalization.Calendar,GetYear</token>
+<token>System.Globalization.Calendar,GetMonthsInYear</token>
+<token>System.Globalization.Calendar,GetDaysInMonth</token>
+<token>System.Globalization.Calendar,GetDaysInMonth</token>
 </entry>
-<entry count="2">
-<token>System.Globalization.CultureInfo,CreateSpecificCulture</token>
-<token>System.Globalization.CultureInfo,CreateSpecificCulture</token>
-<token>System.Globalization.CultureInfo,CreateSpecificCulture</token>
-<token>System.Globalization.CultureInfo,CreateSpecificCulture</token>
+<entry count="80">
+<token>System.Globalization.Calendar,GetDayOfMonth</token>
+<token>System.Globalization.Calendar,GetYear</token>
+<token>System.Globalization.Calendar,GetMonth</token>
+<token>System.Globalization.Calendar,GetDayOfMonth</token>
+<token>System.Globalization.Calendar,GetDaysInMonth</token>
 </entry>
-<entry count="24">
+<entry count="48">
 <token>System.Globalization.Calendar,GetDayOfMonth</token>
 <token>System.Globalization.Calendar,GetDaysInMonth</token>
 <token>System.Globalization.Calendar,GetDaysInYear</token>
 </entry>
-<entry count="84">
+<entry count="184">
 <token>System.Globalization.Calendar,GetMonth</token>
 <token>System.Globalization.Calendar,GetDayOfMonth</token>
 </entry>
-<entry count="4">
+<entry count="24">
 <token>System.Globalization.Calendar,GetYear</token>
 <token>System.Globalization.Calendar,GetMonth</token>
 <token>System.Globalization.Calendar,GetDayOfMonth</token>
 <token>System.Globalization.Calendar,GetDaysInMonth</token>
 <token>System.Globalization.Calendar,IsLeapYear</token>
 </entry>
-<entry count="4">
+<entry count="96">
 <token>System.Globalization.Calendar,GetYear</token>
 <token>System.Globalization.Calendar,GetMonthsInYear</token>
 <token>System.Globalization.Calendar,GetDaysInMonth</token>
 <token>System.Globalization.Calendar,GetDaysInMonth</token>
+</entry>
+<entry count="4">
+<token>System.Globalization.HebrewCalendar,new</token>
+<token>System.Globalization.HebrewCalendar,GetYear</token>
+<token>System.Globalization.Calendar,IsLeapYear</token>
+<token>System.Globalization.HebrewCalendar,GetYear</token>
 </entry>
 <entry count="5">
 <token>System.Globalization.NumberFormatInfo,GetInstance</token>
@@ -531,17 +1089,19 @@
 <token>System.Globalization.GregorianCalendar,new</token>
 <token>System.Globalization.Calendar,GetWeekOfYear</token>
 </entry>
-<entry count="4">
+<entry count="12">
+<token>System.Globalization.Calendar,GetDaysInYear</token>
+<token>System.Globalization.Calendar,GetYear</token>
+<token>System.Globalization.Calendar,GetMonth</token>
+<token>System.Globalization.Calendar,GetDayOfMonth</token>
+</entry>
+<entry count="8">
 <token>System.Globalization.HebrewCalendar,new</token>
 <token>System.Globalization.Calendar,GetYear</token>
 <token>System.Globalization.Calendar,GetYear</token>
 <token>System.Globalization.Calendar,GetMonthsInYear</token>
 <token>System.Globalization.Calendar,GetDaysInMonth</token>
 </entry>
-<entry count="1">
-<token>System.Globalization.StringInfo,new</token>
-<token>System.Globalization.StringInfo,SubstringByTextElements</token>
-</entry>
 <entry count="2">
 <token>System.Globalization.CultureInfo,ReadOnly</token>
 <token>System.Globalization.CultureInfo,ReadOnly</token>
@@ -551,44 +1111,42 @@
 <token>System.Globalization.HebrewCalendar,GetYear</token>
 <token>System.Globalization.Calendar,GetDaysInYear</token>
 </entry>
-<entry count="16">
-<token>System.Globalization.Calendar,GetDaysInMonth</token>
-<token>System.Globalization.Calendar,GetDaysInYear</token>
-<token>System.Globalization.Calendar,GetDaysInMonth</token>
-</entry>
-<entry count="492">
+<entry count="147560">
 <token>System.Globalization.CultureInfo,GetCultureInfo</token>
 <token>System.Globalization.CultureInfo,GetCultureInfo</token>
 <token>System.Globalization.CultureInfo,GetCultureInfo</token>
 </entry>
-<entry count="640">
+<entry count="20480">
 <token>System.Globalization.CultureInfo,Equals</token>
 <token>System.Globalization.CultureInfo,Equals</token>
 <token>System.Globalization.CultureInfo,Equals</token>
 </entry>
-<entry count="106">
+<entry count="18156">
 <token>System.Globalization.CultureInfo,CreateSpecificCulture</token>
 <token>System.Globalization.CultureInfo,CreateSpecificCulture</token>
+</entry>
+<entry count="8">
+<token>System.Globalization.Calendar,IsLeapYear</token>
+<token>System.Globalization.Calendar,GetMonthsInYear</token>
+<token>System.Globalization.Calendar,GetYear</token>
 </entry>
 <entry count="4">
-<token>System.Globalization.Calendar,GetYear</token>
-<token>System.Globalization.Calendar,GetYear</token>
+<token>System.Globalization.HebrewCalendar,GetYear</token>
 <token>System.Globalization.Calendar,GetMonthsInYear</token>
 <token>System.Globalization.Calendar,GetDaysInMonth</token>
+<token>System.Globalization.HebrewCalendar,GetYear</token>
+<token>System.Globalization.Calendar,GetMonthsInYear</token>
 </entry>
-<entry count="40">
-<token>System.Globalization.Calendar,GetMonth</token>
-<token>System.Globalization.Calendar,GetDayOfMonth</token>
-<token>System.Globalization.Calendar,GetYear</token>
-<token>System.Globalization.Calendar,GetMonth</token>
+<entry count="2">
+<token>System.Globalization.HebrewCalendar,GetYear</token>
+<token>System.Globalization.Calendar,IsLeapYear</token>
+<token>System.Globalization.HebrewCalendar,GetYear</token>
+<token>System.Globalization.Calendar,IsLeapYear</token>
 </entry>
-<entry count="6">
-<token>System.Globalization.CultureInfo,GetCultureInfo</token>
-<token>System.Globalization.TextInfo,ToTitleCase</token>
-</entry>
-<entry count="25">
-<token>System.Globalization.RegionInfo,new</token>
-<token>System.Globalization.CultureInfo,new</token>
+<entry count="12">
+<token>System.Globalization.Calendar,GetDaysInMonth</token>
+<token>System.Globalization.Calendar,IsLeapYear</token>
+<token>System.Globalization.Calendar,GetMonthsInYear</token>
 </entry>
 <entry count="2">
 <token>System.Globalization.CultureInfo,new</token>
@@ -596,53 +1154,33 @@
 <token>System.Globalization.CultureInfo,ReadOnly</token>
 <token>System.Globalization.CultureInfo,ReadOnly</token>
 </entry>
-<entry count="16">
+<entry count="32">
 <token>System.Globalization.Calendar,GetDaysInYear</token>
 <token>System.Globalization.Calendar,GetDaysInMonth</token>
 </entry>
-<entry count="40">
-<token>System.Globalization.Calendar,GetMonth</token>
-<token>System.Globalization.Calendar,GetDayOfMonth</token>
+<entry count="2">
+<token>System.Globalization.CultureInfo,new</token>
+<token>System.Globalization.CultureInfo,Clone</token>
+</entry>
+<entry count="4">
+<token>System.Globalization.HebrewCalendar,new</token>
+<token>System.Globalization.HebrewCalendar,GetYear</token>
+<token>System.Globalization.Calendar,GetDaysInYear</token>
+</entry>
+<entry count="16">
+<token>System.Globalization.NumberFormatInfo,Clone</token>
+<token>System.Globalization.NumberFormatInfo,Clone</token>
+</entry>
+<entry count="4">
+<token>System.Globalization.CultureInfo,Equals</token>
+<token>System.Globalization.CultureInfo,GetCultureInfo</token>
+</entry>
+<entry count="10">
+<token>System.Globalization.HebrewCalendar,new</token>
 <token>System.Globalization.Calendar,GetYear</token>
-<token>System.Globalization.Calendar,GetMonth</token>
-<token>System.Globalization.Calendar,GetDayOfMonth</token>
-</entry>
-<entry count="2">
-<token>System.Globalization.CultureInfo,new</token>
-<token>System.Globalization.CultureInfo,Clone</token>
-</entry>
-<entry count="64">
-<token>System.Globalization.CultureInfo,Clone</token>
-<token>System.Globalization.CultureInfo,Clone</token>
-</entry>
-<entry count="4">
-<token>System.Globalization.CultureInfo,Equals</token>
-<token>System.Globalization.CultureInfo,GetCultureInfo</token>
-<token>System.Globalization.CultureInfo,GetCultureInfo</token>
-</entry>
-<entry count="31138">
-<token>System.Globalization.CompareInfo,IndexOf</token>
-<token>System.Globalization.CompareInfo,IndexOf</token>
-</entry>
-<entry count="2">
-<token>System.Globalization.NumberFormatInfo,Clone</token>
-<token>System.Globalization.NumberFormatInfo,Clone</token>
-</entry>
-<entry count="248">
-<token>System.Globalization.CultureInfo,GetCultureInfo</token>
-<token>System.Globalization.CultureInfo,GetCultures</token>
-<token>System.Globalization.CultureInfo,GetCultures</token>
-</entry>
-<entry count="4">
-<token>System.Globalization.CultureInfo,Equals</token>
-<token>System.Globalization.CultureInfo,GetCultureInfo</token>
-</entry>
-<entry count="12">
-<token>System.Globalization.CultureInfo,ReadOnly</token>
-<token>System.Globalization.CultureInfo,new</token>
-<token>System.Globalization.CultureInfo,ReadOnly</token>
-<token>System.Globalization.CultureInfo,new</token>
-<token>System.Globalization.CultureInfo,ReadOnly</token>
+<token>System.Globalization.Calendar,GetMonthsInYear</token>
+<token>System.Globalization.Calendar,GetYear</token>
+<token>System.Globalization.Calendar,GetMonthsInYear</token>
 </entry>
 <entry count="1">
 <token>System.Globalization.CultureInfo,ToString</token>
@@ -651,21 +1189,15 @@
 <token>System.Globalization.CultureInfo,ToString</token>
 <token>System.Globalization.CultureInfo,CreateSpecificCulture</token>
 </entry>
-<entry count="40">
+<entry count="476">
 <token>System.Globalization.RegionInfo,new</token>
 <token>System.Globalization.DateTimeFormatInfo,GetAbbreviatedDayName</token>
 </entry>
-<entry count="6">
+<entry count="120">
 <token>System.Globalization.Calendar,GetYear</token>
 <token>System.Globalization.Calendar,GetMonthsInYear</token>
 </entry>
-<entry count="2">
-<token>System.Globalization.StringInfo,GetTextElementEnumerator</token>
-<token>System.Globalization.TextElementEnumerator,MoveNext</token>
-<token>System.Globalization.TextElementEnumerator,GetTextElement</token>
-<token>System.Globalization.StringInfo,ParseCombiningCharacters</token>
-</entry>
-<entry count="4">
+<entry count="24">
 <token>System.Globalization.HebrewCalendar,GetYear</token>
 <token>System.Globalization.Calendar,GetMonthsInYear</token>
 </entry>
@@ -675,92 +1207,57 @@
 <token>System.Globalization.HebrewCalendar,GetYear</token>
 <token>System.Globalization.Calendar,GetMonthsInYear</token>
 </entry>
-<entry count="40">
+<entry count="80">
 <token>System.Globalization.UmAlQuraCalendar,new</token>
 <token>System.Globalization.Calendar,GetYear</token>
 </entry>
-<entry count="8">
-<token>System.Globalization.Calendar,GetDaysInYear</token>
-<token>System.Globalization.Calendar,ToDateTime</token>
-</entry>
-<entry count="12">
-<token>System.Globalization.CultureInfo,ReadOnly</token>
-<token>System.Globalization.CultureInfo,new</token>
-<token>System.Globalization.CultureInfo,ReadOnly</token>
-<token>System.Globalization.CultureInfo,new</token>
-</entry>
-<entry count="64">
-<token>System.Globalization.CultureInfo,Clone</token>
-<token>System.Globalization.CultureInfo,Clone</token>
-<token>System.Globalization.CultureInfo,new</token>
-</entry>
-<entry count="4">
-<token>System.Globalization.Calendar,GetDaysInMonth</token>
-<token>System.Globalization.Calendar,IsLeapYear</token>
-</entry>
-<entry count="2">
-<token>System.Globalization.HebrewCalendar,new</token>
-<token>System.Globalization.HebrewCalendar,GetYear</token>
-<token>System.Globalization.HebrewCalendar,GetYear</token>
-<token>System.Globalization.Calendar,IsLeapYear</token>
-</entry>
-<entry count="2">
-<token>System.Globalization.CultureInfo,new</token>
-<token>System.Globalization.CultureInfo,Clone</token>
-<token>System.Globalization.CultureInfo,ReadOnly</token>
-</entry>
-<entry count="4">
-<token>System.Globalization.CultureInfo,CreateSpecificCulture</token>
-<token>System.Globalization.CultureInfo,CreateSpecificCulture</token>
-<token>System.Globalization.CultureInfo,CreateSpecificCulture</token>
-</entry>
-<entry count="8">
-<token>System.Globalization.Calendar,GetDaysInMonth</token>
-<token>System.Globalization.Calendar,GetDaysInYear</token>
-<token>System.Globalization.Calendar,ToDateTime</token>
-</entry>
-<entry count="40">
-<token>System.Globalization.Calendar,GetMonth</token>
-<token>System.Globalization.Calendar,GetDayOfMonth</token>
-<token>System.Globalization.Calendar,GetYear</token>
-</entry>
-<entry count="1420">
-<token>System.Globalization.CultureInfo,Equals</token>
-<token>System.Globalization.CultureInfo,Equals</token>
-</entry>
 <entry count="16">
-<token>System.Globalization.Calendar,GetDayOfMonth</token>
-<token>System.Globalization.Calendar,GetDaysInMonth</token>
 <token>System.Globalization.Calendar,GetDaysInYear</token>
-<token>System.Globalization.Calendar,GetDaysInMonth</token>
+<token>System.Globalization.Calendar,ToDateTime</token>
+</entry>
+<entry count="10768">
+<token>System.Globalization.CultureInfo,Clone</token>
+<token>System.Globalization.CultureInfo,Clone</token>
+<token>System.Globalization.CultureInfo,new</token>
+</entry>
+<entry count="2824">
+<token>System.Globalization.NumberFormatInfo,new</token>
+<token>System.Globalization.NumberFormatInfo,new</token>
 </entry>
 <entry count="4">
 <token>System.Globalization.CultureInfo,GetCultures</token>
 <token>System.Globalization.CultureInfo,ReadOnly</token>
 </entry>
-<entry count="1">
-<token>System.Globalization.CultureInfo,new</token>
-<token>System.Globalization.CultureInfo,CreateSpecificCulture</token>
-</entry>
-<entry count="260">
+<entry count="18762">
 <token>System.Globalization.CultureInfo,GetCultureInfo</token>
 <token>System.Globalization.CultureInfo,GetCultures</token>
 </entry>
+<entry count="1216">
+<token>System.Globalization.CultureInfo,Clone</token>
+<token>System.Globalization.CultureInfo,Clone</token>
+<token>System.Globalization.CultureInfo,Clone</token>
+<token>System.Globalization.CultureInfo,Clone</token>
+<token>System.Globalization.CultureInfo,new</token>
+</entry>
 <entry count="6">
 <token>System.Globalization.Calendar,GetDaysInYear</token>
 <token>System.Globalization.Calendar,GetMonthsInYear</token>
 </entry>
-<entry count="16">
-<token>System.Globalization.CultureInfo,Clone</token>
-<token>System.Globalization.CultureInfo,Clone</token>
-<token>System.Globalization.CultureInfo,new</token>
-<token>System.Globalization.CultureInfo,new</token>
+<entry count="2">
+<token>System.Globalization.Calendar,GetDaysInYear</token>
+<token>System.Globalization.HebrewCalendar,GetYear</token>
+<token>System.Globalization.Calendar,GetDaysInYear</token>
 </entry>
-<entry count="6">
+<entry count="108">
 <token>System.Globalization.Calendar,GetMonthsInYear</token>
 <token>System.Globalization.Calendar,GetDaysInMonth</token>
 </entry>
-<entry count="40">
+<entry count="4">
+<token>System.Globalization.HebrewCalendar,GetYear</token>
+<token>System.Globalization.Calendar,IsLeapYear</token>
+<token>System.Globalization.HebrewCalendar,GetYear</token>
+</entry>
+<entry count="320">
 <token>System.Globalization.CultureInfo,GetCultureInfoByIetfLanguageTag</token>
 <token>System.Globalization.CultureInfo,Equals</token>
 <token>System.Globalization.CultureInfo,Equals</token>
@@ -769,52 +1266,53 @@
 <token>System.Globalization.StringInfo,GetTextElementEnumerator</token>
 <token>System.Globalization.TextElementEnumerator,MoveNext</token>
 <token>System.Globalization.StringInfo,ParseCombiningCharacters</token>
-</entry>
-<entry count="16">
-<token>System.Globalization.Calendar,GetDaysInYear</token>
-<token>System.Globalization.Calendar,GetDaysInMonth</token>
-<token>System.Globalization.Calendar,ToDateTime</token>
 </entry>
 <entry count="18">
 <token>System.Globalization.CultureInfo,new</token>
 <token>System.Globalization.CultureInfo,ReadOnly</token>
 </entry>
+<entry count="94630">
+<token>System.Globalization.CultureInfo,GetCultureInfo</token>
+<token>System.Globalization.CultureInfo,GetCultureInfo</token>
+<token>System.Globalization.CultureInfo,GetCultureInfo</token>
+<token>System.Globalization.CultureInfo,GetCultureInfo</token>
+</entry>
 <entry count="8">
-<token>System.Globalization.RegionInfo,new</token>
-<token>System.Globalization.RegionInfo,new</token>
-<token>System.Globalization.RegionInfo,new</token>
+<token>System.Globalization.Calendar,GetDayOfMonth</token>
+<token>System.Globalization.Calendar,GetDaysInMonth</token>
+<token>System.Globalization.Calendar,IsLeapYear</token>
+<token>System.Globalization.Calendar,GetMonthsInYear</token>
+<token>System.Globalization.Calendar,GetYear</token>
 </entry>
-<entry count="268">
-<token>System.Globalization.CultureInfo,GetCultureInfo</token>
-<token>System.Globalization.CultureInfo,GetCultureInfo</token>
-<token>System.Globalization.CultureInfo,GetCultureInfo</token>
-<token>System.Globalization.CultureInfo,GetCultureInfo</token>
+<entry count="48">
+<token>System.Globalization.HebrewCalendar,new</token>
+<token>System.Globalization.Calendar,GetYear</token>
+<token>System.Globalization.Calendar,GetMonthsInYear</token>
+<token>System.Globalization.Calendar,GetDaysInMonth</token>
 </entry>
-<entry count="44">
+<entry count="8">
+<token>System.Globalization.Calendar,GetDaysInMonth</token>
+<token>System.Globalization.Calendar,IsLeapYear</token>
+<token>System.Globalization.Calendar,GetMonthsInYear</token>
+<token>System.Globalization.Calendar,GetYear</token>
+<token>System.Globalization.Calendar,GetMonth</token>
+</entry>
+<entry count="104">
 <token>System.Globalization.Calendar,GetDayOfMonth</token>
 <token>System.Globalization.Calendar,GetDaysInMonth</token>
 </entry>
-<entry count="40">
+<entry count="80">
 <token>System.Globalization.UmAlQuraCalendar,new</token>
 <token>System.Globalization.Calendar,GetYear</token>
 <token>System.Globalization.Calendar,GetMonth</token>
 <token>System.Globalization.Calendar,GetDayOfMonth</token>
 </entry>
-<entry count="4">
+<entry count="96">
 <token>System.Globalization.Calendar,GetYear</token>
 <token>System.Globalization.Calendar,GetMonthsInYear</token>
 <token>System.Globalization.Calendar,GetDaysInMonth</token>
 </entry>
-<entry count="4">
-<token>System.Globalization.Calendar,GetMonthsInYear</token>
-<token>System.Globalization.Calendar,GetDaysInMonth</token>
-<token>System.Globalization.Calendar,GetDaysInMonth</token>
-</entry>
-<entry count="8">
-<token>System.Globalization.PersianCalendar,new</token>
-<token>System.Globalization.Calendar,IsLeapYear</token>
-</entry>
-<entry count="40">
+<entry count="320">
 <token>System.Globalization.CultureInfo,GetCultureInfoByIetfLanguageTag</token>
 <token>System.Globalization.CultureInfo,GetCultureInfoByIetfLanguageTag</token>
 <token>System.Globalization.CultureInfo,Equals</token>
@@ -826,27 +1324,17 @@
 <token>System.Globalization.CultureInfo,CreateSpecificCulture</token>
 <token>System.Globalization.CultureInfo,GetCultureInfo</token>
 </entry>
-<entry count="4">
+<entry count="24">
 <token>System.Globalization.Calendar,GetMonthsInYear</token>
 <token>System.Globalization.Calendar,GetYear</token>
 </entry>
-<entry count="32">
-<token>System.Globalization.CultureInfo,Clone</token>
-<token>System.Globalization.CultureInfo,new</token>
-<token>System.Globalization.CultureInfo,new</token>
-</entry>
-<entry count="2">
-<token>System.Globalization.CultureInfo,Clone</token>
-<token>System.Globalization.CultureInfo,ReadOnly</token>
-<token>System.Globalization.CultureInfo,ReadOnly</token>
-</entry>
-<entry count="6">
+<entry count="10">
 <token>System.Globalization.HebrewCalendar,new</token>
 <token>System.Globalization.Calendar,GetYear</token>
 <token>System.Globalization.Calendar,GetYear</token>
 <token>System.Globalization.Calendar,GetMonthsInYear</token>
 </entry>
-<entry count="128">
+<entry count="6250">
 <token>System.Globalization.CultureInfo,GetCultureInfo</token>
 <token>System.Globalization.CultureInfo,GetCultureInfo</token>
 <token>System.Globalization.CultureInfo,GetCultureInfo</token>
@@ -861,12 +1349,18 @@
 <token>System.Globalization.IdnMapping,new</token>
 <token>System.Globalization.IdnMapping,GetUnicode</token>
 </entry>
-<entry count="15552">
+<entry count="55728">
 <token>System.Globalization.CompareInfo,IndexOf</token>
 <token>System.Globalization.CompareInfo,IndexOf</token>
 <token>System.Globalization.CompareInfo,IndexOf</token>
 </entry>
-<entry count="40">
+<entry count="12">
+<token>System.Globalization.Calendar,GetDayOfMonth</token>
+<token>System.Globalization.Calendar,GetDaysInMonth</token>
+<token>System.Globalization.Calendar,IsLeapYear</token>
+<token>System.Globalization.Calendar,GetMonthsInYear</token>
+</entry>
+<entry count="80">
 <token>System.Globalization.Calendar,GetDayOfMonth</token>
 <token>System.Globalization.Calendar,GetYear</token>
 <token>System.Globalization.Calendar,GetMonth</token>
@@ -879,17 +1373,11 @@
 <token>System.Globalization.CultureInfo,GetCultureInfo</token>
 <token>System.Globalization.CultureInfo,ToString</token>
 </entry>
-<entry count="1">
-<token>System.Globalization.RegionInfo,new</token>
-<token>System.Globalization.RegionInfo,new</token>
-<token>System.Globalization.RegionInfo,new</token>
-<token>System.Globalization.RegionInfo,new</token>
-</entry>
-<entry count="856">
+<entry count="208052">
 <token>System.Globalization.CultureInfo,GetCultureInfo</token>
 <token>System.Globalization.CultureInfo,GetCultureInfo</token>
 </entry>
-<entry count="40">
+<entry count="320">
 <token>System.Globalization.CultureInfo,GetCultureInfoByIetfLanguageTag</token>
 <token>System.Globalization.CultureInfo,GetCultureInfoByIetfLanguageTag</token>
 </entry>
@@ -898,15 +1386,24 @@
 <token>System.Globalization.TextElementEnumerator,GetTextElement</token>
 <token>System.Globalization.StringInfo,ParseCombiningCharacters</token>
 </entry>
-<entry count="1">
-<token>System.Globalization.IdnMapping,new</token>
-<token>System.Globalization.IdnMapping,GetAscii</token>
+<entry count="3072">
+<token>System.Globalization.CompareInfo,Compare</token>
+<token>System.Globalization.CompareInfo,IsPrefix</token>
+<token>System.Globalization.CompareInfo,Compare</token>
+<token>System.Globalization.CompareInfo,IsPrefix</token>
 </entry>
-<entry count="48">
+<entry count="1250">
 <token>System.Globalization.CultureInfo,GetCultureInfo</token>
 <token>System.Globalization.CultureInfo,GetCultureInfo</token>
 <token>System.Globalization.CultureInfo,GetCultureInfo</token>
 <token>System.Globalization.CultureInfo,GetCultureInfo</token>
 <token>System.Globalization.CultureInfo,GetCultures</token>
+</entry>
+<entry count="2">
+<token>System.Globalization.Calendar,GetMonthsInYear</token>
+<token>System.Globalization.Calendar,GetDaysInMonth</token>
+<token>System.Globalization.HebrewCalendar,GetYear</token>
+<token>System.Globalization.Calendar,GetMonthsInYear</token>
+<token>System.Globalization.Calendar,GetDaysInMonth</token>
 </entry>
 </dictionary>

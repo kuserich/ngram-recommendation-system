@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><dictionary case_sensitive="false">
-<entry count="33">
+<entry count="160823">
 <token>Microsoft.VisualStudio.Text.ITextSnapshot,GetLineFromLineNumber</token>
+<token>Microsoft.VisualStudio.Text.ITextSnapshot,GetLineFromLineNumber</token>
+</entry>
+<entry count="338">
+<token>Microsoft.VisualStudio.Text.ITextSnapshot,GetLineFromLineNumber</token>
+<token>Microsoft.VisualStudio.Text.SnapshotSpan,new</token>
+<token>Microsoft.VisualStudio.Text.ITextSnapshot,GetText</token>
+<token>Microsoft.VisualStudio.Text.SnapshotPoint,GetContainingLine</token>
 <token>Microsoft.VisualStudio.Text.ITextSnapshot,GetLineFromLineNumber</token>
 </entry>
 <entry count="4">
@@ -17,7 +24,7 @@
 <token>Microsoft.VisualStudio.Text.SnapshotPoint,GetContainingLine</token>
 <token>Microsoft.VisualStudio.Text.ITextSnapshot,GetLineFromLineNumber</token>
 </entry>
-<entry count="2">
+<entry count="4">
 <token>Microsoft.VisualStudio.Text.SnapshotSpan,new</token>
 <token>Microsoft.VisualStudio.Text.Span,new</token>
 </entry>
@@ -33,10 +40,16 @@
 <token>Microsoft.VisualStudio.Text.SnapshotSpan,new</token>
 <token>Microsoft.VisualStudio.Text.SnapshotPoint,new</token>
 </entry>
-<entry count="26">
+<entry count="728">
 <token>Microsoft.VisualStudio.Text.SnapshotPoint,GetContainingLine</token>
 <token>Microsoft.VisualStudio.Text.ITextSnapshot,GetLineFromLineNumber</token>
 <token>Microsoft.VisualStudio.Text.SnapshotSpan,new</token>
+</entry>
+<entry count="364">
+<token>Microsoft.VisualStudio.Text.ITextSnapshot,GetLineFromLineNumber</token>
+<token>Microsoft.VisualStudio.Text.SnapshotSpan,new</token>
+<token>Microsoft.VisualStudio.Text.ITextSnapshot,GetText</token>
+<token>Microsoft.VisualStudio.Text.SnapshotPoint,GetContainingLine</token>
 </entry>
 <entry count="8">
 <token>Microsoft.VisualStudio.Text.SnapshotPoint,new</token>
@@ -48,7 +61,7 @@
 <token>Microsoft.VisualStudio.Text.NormalizedSnapshotSpanCollection,new</token>
 <token>Microsoft.VisualStudio.Text.NormalizedSnapshotSpanCollection,OverlapsWith</token>
 </entry>
-<entry count="2">
+<entry count="4">
 <token>Microsoft.VisualStudio.Text.SnapshotPoint,GetContainingLine</token>
 <token>Microsoft.VisualStudio.Text.ITextBuffer,CreateEdit</token>
 <token>Microsoft.VisualStudio.Text.ITextBufferEdit,Apply</token>
@@ -78,8 +91,13 @@
 <token>Microsoft.VisualStudio.Text.SnapshotSpan,TranslateTo</token>
 <token>Microsoft.VisualStudio.Text.NormalizedSpanCollection,new</token>
 </entry>
-<entry count="4780">
+<entry count="75052">
 <token>Microsoft.VisualStudio.Text.ITextSnapshotLine,GetText</token>
+<token>Microsoft.VisualStudio.Text.ITextSnapshot,CreateTrackingSpan</token>
+</entry>
+<entry count="4096">
+<token>Microsoft.VisualStudio.Text.ITextSnapshot,CreateTrackingSpan</token>
+<token>Microsoft.VisualStudio.Text.ITextSnapshot,CreateTrackingSpan</token>
 <token>Microsoft.VisualStudio.Text.ITextSnapshot,CreateTrackingSpan</token>
 </entry>
 <entry count="6">
@@ -176,7 +194,7 @@
 <token>Microsoft.VisualStudio.Text.ITextSnapshot,GetLineFromLineNumber</token>
 <token>Microsoft.VisualStudio.Text.SnapshotSpan,new</token>
 </entry>
-<entry count="20">
+<entry count="22">
 <token>Microsoft.VisualStudio.Text.SnapshotSpan,new</token>
 <token>Microsoft.VisualStudio.Text.NormalizedSnapshotSpanCollection,new</token>
 </entry>
@@ -199,13 +217,13 @@
 <token>Microsoft.VisualStudio.Text.Span,FromBounds</token>
 <token>Microsoft.VisualStudio.Text.ITextSnapshot,CreateTrackingSpan</token>
 </entry>
-<entry count="2">
+<entry count="4">
 <token>Microsoft.VisualStudio.Text.SnapshotPoint,GetContainingLine</token>
 <token>Microsoft.VisualStudio.Text.SnapshotPoint,GetContainingLine</token>
 <token>Microsoft.VisualStudio.Text.ITextBuffer,CreateEdit</token>
 <token>Microsoft.VisualStudio.Text.Span,new</token>
 </entry>
-<entry count="2">
+<entry count="4">
 <token>Microsoft.VisualStudio.Text.SnapshotPoint,GetContainingLine</token>
 <token>Microsoft.VisualStudio.Text.SnapshotPoint,GetContainingLine</token>
 <token>Microsoft.VisualStudio.Text.ITextBuffer,CreateEdit</token>
@@ -220,7 +238,7 @@
 <token>Microsoft.VisualStudio.Text.ITextSnapshot,GetLineFromLineNumber</token>
 <token>Microsoft.VisualStudio.Text.Span,new</token>
 </entry>
-<entry count="40">
+<entry count="160">
 <token>Microsoft.VisualStudio.Text.SnapshotSpan,GetText</token>
 <token>Microsoft.VisualStudio.Text.SnapshotSpan,new</token>
 <token>Microsoft.VisualStudio.Text.SnapshotSpan,new</token>
@@ -250,22 +268,28 @@
 <token>Microsoft.VisualStudio.Text.NormalizedSnapshotSpanCollection,new</token>
 <token>Microsoft.VisualStudio.Text.SnapshotSpan,TranslateTo</token>
 </entry>
-<entry count="4">
+<entry count="8">
 <token>Microsoft.VisualStudio.Text.ITextSnapshot,GetText</token>
 <token>Microsoft.VisualStudio.Text.SnapshotPoint,GetContainingLine</token>
 <token>Microsoft.VisualStudio.Text.SnapshotPoint,GetContainingLine</token>
 <token>Microsoft.VisualStudio.Text.ITextBuffer,CreateEdit</token>
 </entry>
-<entry count="1792">
+<entry count="338">
+<token>Microsoft.VisualStudio.Text.SnapshotSpan,new</token>
+<token>Microsoft.VisualStudio.Text.ITextSnapshot,GetText</token>
+<token>Microsoft.VisualStudio.Text.SnapshotPoint,GetContainingLine</token>
+<token>Microsoft.VisualStudio.Text.ITextSnapshot,GetLineFromLineNumber</token>
+</entry>
+<entry count="35328">
 <token>Microsoft.VisualStudio.Text.ITextSnapshotLine,GetText</token>
 <token>Microsoft.VisualStudio.Text.ITextSnapshot,CreateTrackingSpan</token>
 <token>Microsoft.VisualStudio.Text.ITextSnapshot,CreateTrackingSpan</token>
 </entry>
-<entry count="4">
+<entry count="8">
 <token>Microsoft.VisualStudio.Text.SnapshotSpan,Contains</token>
 <token>Microsoft.VisualStudio.Text.ITextSnapshot,GetText</token>
 </entry>
-<entry count="10">
+<entry count="20">
 <token>Microsoft.VisualStudio.Text.SnapshotSpan,new</token>
 <token>Microsoft.VisualStudio.Text.SnapshotSpan,TranslateTo</token>
 <token>Microsoft.VisualStudio.Text.SnapshotPoint,GetContainingLine</token>
@@ -280,7 +304,7 @@
 <token>Microsoft.VisualStudio.Text.ITextSnapshot,GetLineFromPosition</token>
 <token>Microsoft.VisualStudio.Text.ITextSnapshotLine,GetText</token>
 </entry>
-<entry count="48">
+<entry count="96">
 <token>Microsoft.VisualStudio.Text.ITextSnapshotLine,GetText</token>
 <token>Microsoft.VisualStudio.Text.SnapshotPoint,GetChar</token>
 </entry>
@@ -294,7 +318,7 @@
 <token>Microsoft.VisualStudio.Text.SnapshotPoint,GetContainingLine</token>
 <token>Microsoft.VisualStudio.Text.Span,new</token>
 </entry>
-<entry count="2">
+<entry count="4">
 <token>Microsoft.VisualStudio.Text.Span,FromBounds</token>
 <token>Microsoft.VisualStudio.Text.SnapshotSpan,new</token>
 <token>Microsoft.VisualStudio.Text.Span,new</token>
@@ -318,7 +342,7 @@
 <token>Microsoft.VisualStudio.Text.ITextEdit,Delete</token>
 <token>Microsoft.VisualStudio.Text.ITextBufferEdit,Apply</token>
 </entry>
-<entry count="11">
+<entry count="69">
 <token>Microsoft.VisualStudio.Text.ITextBuffer,CreateEdit</token>
 <token>Microsoft.VisualStudio.Text.Span,new</token>
 </entry>
@@ -348,19 +372,19 @@
 <token>Microsoft.VisualStudio.Text.ITextBuffer,Replace</token>
 <token>Microsoft.VisualStudio.Text.Span,new</token>
 </entry>
-<entry count="48">
+<entry count="96">
 <token>Microsoft.VisualStudio.Text.SnapshotPoint,GetContainingLine</token>
 <token>Microsoft.VisualStudio.Text.ITextSnapshotLine,GetText</token>
 <token>Microsoft.VisualStudio.Text.SnapshotPoint,GetChar</token>
 <token>Microsoft.VisualStudio.Text.SnapshotSpan,new</token>
 <token>Microsoft.VisualStudio.Text.ITextSnapshot,CreateTrackingSpan</token>
 </entry>
-<entry count="26">
+<entry count="728">
 <token>Microsoft.VisualStudio.Text.ITextSnapshot,GetLineFromLineNumber</token>
 <token>Microsoft.VisualStudio.Text.SnapshotSpan,new</token>
 <token>Microsoft.VisualStudio.Text.ITextSnapshot,GetText</token>
 </entry>
-<entry count="2">
+<entry count="4">
 <token>Microsoft.VisualStudio.Text.ITextSnapshot,GetText</token>
 <token>Microsoft.VisualStudio.Text.SnapshotPoint,GetContainingLine</token>
 <token>Microsoft.VisualStudio.Text.SnapshotPoint,GetContainingLine</token>
@@ -372,7 +396,7 @@
 <token>Microsoft.VisualStudio.Text.ITrackingSpan,GetSpan</token>
 <token>Microsoft.VisualStudio.Text.ITextBuffer,Insert</token>
 </entry>
-<entry count="48">
+<entry count="96">
 <token>Microsoft.VisualStudio.Text.SnapshotPoint,GetContainingLine</token>
 <token>Microsoft.VisualStudio.Text.ITextSnapshotLine,GetText</token>
 <token>Microsoft.VisualStudio.Text.SnapshotPoint,GetChar</token>
@@ -383,7 +407,7 @@
 <token>Microsoft.VisualStudio.Text.ITextBufferEdit,Apply</token>
 <token>Microsoft.VisualStudio.Text.SnapshotPoint,new</token>
 </entry>
-<entry count="48">
+<entry count="96">
 <token>Microsoft.VisualStudio.Text.SnapshotPoint,GetChar</token>
 <token>Microsoft.VisualStudio.Text.SnapshotSpan,new</token>
 <token>Microsoft.VisualStudio.Text.ITextSnapshot,CreateTrackingSpan</token>
@@ -433,6 +457,13 @@
 <token>Microsoft.VisualStudio.Text.ITextSnapshot,GetLineFromLineNumber</token>
 <token>Microsoft.VisualStudio.Text.ITextSnapshotLine,GetLineBreakText</token>
 </entry>
+<entry count="338">
+<token>Microsoft.VisualStudio.Text.SnapshotSpan,new</token>
+<token>Microsoft.VisualStudio.Text.ITextSnapshot,GetText</token>
+<token>Microsoft.VisualStudio.Text.SnapshotPoint,GetContainingLine</token>
+<token>Microsoft.VisualStudio.Text.ITextSnapshot,GetLineFromLineNumber</token>
+<token>Microsoft.VisualStudio.Text.SnapshotSpan,new</token>
+</entry>
 <entry count="4">
 <token>Microsoft.VisualStudio.Text.Span,new</token>
 <token>Microsoft.VisualStudio.Text.ITextSnapshot,GetText</token>
@@ -449,7 +480,7 @@
 <token>Microsoft.VisualStudio.Text.ITrackingSpan,GetStartPoint</token>
 <token>Microsoft.VisualStudio.Text.ITextSnapshot,GetLineNumberFromPosition</token>
 </entry>
-<entry count="2">
+<entry count="4">
 <token>Microsoft.VisualStudio.Text.Span,FromBounds</token>
 <token>Microsoft.VisualStudio.Text.SnapshotSpan,new</token>
 <token>Microsoft.VisualStudio.Text.Span,new</token>
@@ -482,7 +513,12 @@
 <token>Microsoft.VisualStudio.Text.ITextSnapshot,GetLineFromPosition</token>
 <token>Microsoft.VisualStudio.Text.ITextSnapshot,GetLineFromPosition</token>
 </entry>
-<entry count="32">
+<entry count="338">
+<token>Microsoft.VisualStudio.Text.ITextSnapshot,GetText</token>
+<token>Microsoft.VisualStudio.Text.SnapshotPoint,GetContainingLine</token>
+<token>Microsoft.VisualStudio.Text.ITextSnapshot,GetLineFromLineNumber</token>
+</entry>
+<entry count="64">
 <token>Microsoft.VisualStudio.Text.SnapshotSpan,GetText</token>
 <token>Microsoft.VisualStudio.Text.Span,FromBounds</token>
 </entry>
@@ -508,7 +544,7 @@
 <token>Microsoft.VisualStudio.Text.ITextEdit,Replace</token>
 <token>Microsoft.VisualStudio.Text.ITextBufferEdit,Apply</token>
 </entry>
-<entry count="2">
+<entry count="4">
 <token>Microsoft.VisualStudio.Text.ITextSnapshot,GetText</token>
 <token>Microsoft.VisualStudio.Text.SnapshotPoint,GetContainingLine</token>
 <token>Microsoft.VisualStudio.Text.SnapshotPoint,GetContainingLine</token>
@@ -552,7 +588,7 @@
 <token>Microsoft.VisualStudio.Text.ITextEdit,Insert</token>
 <token>Microsoft.VisualStudio.Text.ITextEdit,Insert</token>
 </entry>
-<entry count="11">
+<entry count="69">
 <token>Microsoft.VisualStudio.Text.ITextBuffer,CreateEdit</token>
 <token>Microsoft.VisualStudio.Text.Span,new</token>
 <token>Microsoft.VisualStudio.Text.ITextEdit,Replace</token>
@@ -561,12 +597,12 @@
 <token>Microsoft.VisualStudio.Text.SnapshotPoint,new</token>
 <token>Microsoft.VisualStudio.Text.SnapshotPoint,GetContainingLine</token>
 </entry>
-<entry count="10">
+<entry count="20">
 <token>Microsoft.VisualStudio.Text.SnapshotSpan,new</token>
 <token>Microsoft.VisualStudio.Text.SnapshotSpan,TranslateTo</token>
 <token>Microsoft.VisualStudio.Text.SnapshotPoint,GetContainingLine</token>
 </entry>
-<entry count="10">
+<entry count="20">
 <token>Microsoft.VisualStudio.Text.SnapshotSpan,new</token>
 <token>Microsoft.VisualStudio.Text.SnapshotSpan,TranslateTo</token>
 </entry>
@@ -603,11 +639,11 @@
 <token>Microsoft.VisualStudio.Text.ITextBuffer,Insert</token>
 <token>Microsoft.VisualStudio.Text.SnapshotPoint,new</token>
 </entry>
-<entry count="8">
+<entry count="208">
 <token>Microsoft.VisualStudio.Text.ITextSnapshot,GetText</token>
 <token>Microsoft.VisualStudio.Text.ITextSnapshot,GetText</token>
 </entry>
-<entry count="2">
+<entry count="4">
 <token>Microsoft.VisualStudio.Text.SnapshotPoint,GetContainingLine</token>
 <token>Microsoft.VisualStudio.Text.ITextBuffer,CreateEdit</token>
 <token>Microsoft.VisualStudio.Text.Span,new</token>
@@ -623,11 +659,25 @@
 <token>Microsoft.VisualStudio.Text.SnapshotPoint,GetContainingLine</token>
 <token>Microsoft.VisualStudio.Text.ITextSnapshot,GetLineFromPosition</token>
 </entry>
+<entry count="338">
+<token>Microsoft.VisualStudio.Text.ITextSnapshot,GetText</token>
+<token>Microsoft.VisualStudio.Text.SnapshotPoint,GetContainingLine</token>
+<token>Microsoft.VisualStudio.Text.ITextSnapshot,GetLineFromLineNumber</token>
+<token>Microsoft.VisualStudio.Text.SnapshotSpan,new</token>
+<token>Microsoft.VisualStudio.Text.ITextSnapshot,GetText</token>
+</entry>
 <entry count="4">
 <token>Microsoft.VisualStudio.Text.ITextBuffer,CreateEdit</token>
 <token>Microsoft.VisualStudio.Text.SnapshotSpan,new</token>
 <token>Microsoft.VisualStudio.Text.SnapshotSpan,GetText</token>
 <token>Microsoft.VisualStudio.Text.ITextEdit,Replace</token>
+</entry>
+<entry count="8">
+<token>Microsoft.VisualStudio.Text.SnapshotSpan,GetText</token>
+<token>Microsoft.VisualStudio.Text.SnapshotSpan,new</token>
+<token>Microsoft.VisualStudio.Text.SnapshotSpan,new</token>
+<token>Microsoft.VisualStudio.Text.SnapshotSpan,new</token>
+<token>Microsoft.VisualStudio.Text.SnapshotSpan,new</token>
 </entry>
 <entry count="2">
 <token>Microsoft.VisualStudio.Text.ITextEdit,Delete</token>
@@ -648,14 +698,14 @@
 <token>Microsoft.VisualStudio.Text.NormalizedSpanCollection,new</token>
 <token>Microsoft.VisualStudio.Text.NormalizedSpanCollection,Difference</token>
 </entry>
-<entry count="2">
+<entry count="4">
 <token>Microsoft.VisualStudio.Text.SnapshotPoint,GetContainingLine</token>
 <token>Microsoft.VisualStudio.Text.ITextBuffer,CreateEdit</token>
 <token>Microsoft.VisualStudio.Text.Span,new</token>
 <token>Microsoft.VisualStudio.Text.ITextEdit,Replace</token>
 <token>Microsoft.VisualStudio.Text.ITextBufferEdit,Apply</token>
 </entry>
-<entry count="2">
+<entry count="4">
 <token>Microsoft.VisualStudio.Text.SnapshotSpan,new</token>
 <token>Microsoft.VisualStudio.Text.Span,new</token>
 <token>Microsoft.VisualStudio.Text.SnapshotSpan,new</token>
@@ -680,7 +730,7 @@
 <token>Microsoft.VisualStudio.Text.ITextSnapshotLine,GetText</token>
 <token>Microsoft.VisualStudio.Text.ITextSnapshot,CreateTrackingSpan</token>
 </entry>
-<entry count="48">
+<entry count="96">
 <token>Microsoft.VisualStudio.Text.ITextSnapshotLine,GetText</token>
 <token>Microsoft.VisualStudio.Text.SnapshotPoint,GetChar</token>
 <token>Microsoft.VisualStudio.Text.SnapshotSpan,new</token>
@@ -696,17 +746,17 @@
 <token>Microsoft.VisualStudio.Text.NormalizedSnapshotSpanCollection,new</token>
 <token>Microsoft.VisualStudio.Text.SnapshotSpan,TranslateTo</token>
 </entry>
-<entry count="4">
+<entry count="8">
 <token>Microsoft.VisualStudio.Text.ITextSnapshot,GetText</token>
 <token>Microsoft.VisualStudio.Text.SnapshotPoint,GetContainingLine</token>
 <token>Microsoft.VisualStudio.Text.SnapshotPoint,GetContainingLine</token>
 </entry>
-<entry count="12">
+<entry count="14">
 <token>Microsoft.VisualStudio.Text.Span,new</token>
 <token>Microsoft.VisualStudio.Text.SnapshotSpan,new</token>
 <token>Microsoft.VisualStudio.Text.NormalizedSnapshotSpanCollection,new</token>
 </entry>
-<entry count="48">
+<entry count="96">
 <token>Microsoft.VisualStudio.Text.ITextSnapshotLine,GetText</token>
 <token>Microsoft.VisualStudio.Text.SnapshotPoint,GetChar</token>
 <token>Microsoft.VisualStudio.Text.SnapshotSpan,new</token>
@@ -715,7 +765,7 @@
 <token>Microsoft.VisualStudio.Text.SnapshotSpan,new</token>
 <token>Microsoft.VisualStudio.Text.SnapshotPoint,new</token>
 </entry>
-<entry count="25">
+<entry count="83">
 <token>Microsoft.VisualStudio.Text.ITextEdit,Replace</token>
 <token>Microsoft.VisualStudio.Text.ITextBufferEdit,Apply</token>
 </entry>
@@ -733,7 +783,7 @@
 <token>Microsoft.VisualStudio.Text.ITextSnapshotLine,GetText</token>
 <token>Microsoft.VisualStudio.Text.SnapshotSpan,TranslateTo</token>
 </entry>
-<entry count="11">
+<entry count="69">
 <token>Microsoft.VisualStudio.Text.Span,new</token>
 <token>Microsoft.VisualStudio.Text.ITextEdit,Replace</token>
 </entry>
@@ -751,17 +801,17 @@
 <token>Microsoft.VisualStudio.Text.ITextBuffer,Insert</token>
 <token>Microsoft.VisualStudio.Text.ITextBuffer,Insert</token>
 </entry>
-<entry count="11">
+<entry count="69">
 <token>Microsoft.VisualStudio.Text.ITextBuffer,CreateEdit</token>
 <token>Microsoft.VisualStudio.Text.Span,new</token>
 <token>Microsoft.VisualStudio.Text.ITextEdit,Replace</token>
 <token>Microsoft.VisualStudio.Text.ITextBufferEdit,Apply</token>
 </entry>
-<entry count="1792">
+<entry count="39424">
 <token>Microsoft.VisualStudio.Text.ITextSnapshot,CreateTrackingSpan</token>
 <token>Microsoft.VisualStudio.Text.ITextSnapshot,CreateTrackingSpan</token>
 </entry>
-<entry count="51">
+<entry count="763">
 <token>Microsoft.VisualStudio.Text.ITextSnapshot,GetLineFromLineNumber</token>
 <token>Microsoft.VisualStudio.Text.SnapshotSpan,new</token>
 </entry>
@@ -776,7 +826,7 @@
 <token>Microsoft.VisualStudio.Text.ITextEdit,Replace</token>
 <token>Microsoft.VisualStudio.Text.ITextBufferEdit,Apply</token>
 </entry>
-<entry count="82">
+<entry count="290">
 <token>Microsoft.VisualStudio.Text.SnapshotSpan,new</token>
 <token>Microsoft.VisualStudio.Text.SnapshotSpan,new</token>
 </entry>
@@ -795,11 +845,11 @@
 <token>Microsoft.VisualStudio.Text.Span,FromBounds</token>
 <token>Microsoft.VisualStudio.Text.ITextSnapshot,CreateTrackingSpan</token>
 </entry>
-<entry count="28">
+<entry count="56">
 <token>Microsoft.VisualStudio.Text.ITrackingSpan,GetSpan</token>
 <token>Microsoft.VisualStudio.Text.ITextBuffer,Replace</token>
 </entry>
-<entry count="17">
+<entry count="129">
 <token>Microsoft.VisualStudio.Text.ITextBuffer,CreateEdit</token>
 <token>Microsoft.VisualStudio.Text.ITextEdit,Insert</token>
 </entry>
@@ -812,18 +862,18 @@
 <token>Microsoft.VisualStudio.Text.NormalizedSpanCollection,new</token>
 <token>Microsoft.VisualStudio.Text.NormalizedSpanCollection,new</token>
 </entry>
-<entry count="17">
+<entry count="129">
 <token>Microsoft.VisualStudio.Text.ITextEdit,Insert</token>
 <token>Microsoft.VisualStudio.Text.ITextBufferEdit,Apply</token>
 </entry>
-<entry count="2">
+<entry count="4">
 <token>Microsoft.VisualStudio.Text.Span,FromBounds</token>
 <token>Microsoft.VisualStudio.Text.SnapshotSpan,new</token>
 <token>Microsoft.VisualStudio.Text.Span,new</token>
 <token>Microsoft.VisualStudio.Text.SnapshotSpan,new</token>
 <token>Microsoft.VisualStudio.Text.NormalizedSnapshotSpanCollection,new</token>
 </entry>
-<entry count="102">
+<entry count="138">
 <token>Microsoft.VisualStudio.Text.ITextSnapshot,GetText</token>
 <token>Microsoft.VisualStudio.Text.SnapshotSpan,new</token>
 </entry>
@@ -835,6 +885,12 @@
 <entry count="18">
 <token>Microsoft.VisualStudio.Text.SnapshotPoint,new</token>
 <token>Microsoft.VisualStudio.Text.ITextSnapshot,GetText</token>
+</entry>
+<entry count="338">
+<token>Microsoft.VisualStudio.Text.ITextSnapshot,GetText</token>
+<token>Microsoft.VisualStudio.Text.SnapshotPoint,GetContainingLine</token>
+<token>Microsoft.VisualStudio.Text.ITextSnapshot,GetLineFromLineNumber</token>
+<token>Microsoft.VisualStudio.Text.SnapshotSpan,new</token>
 </entry>
 <entry count="2">
 <token>Microsoft.VisualStudio.Text.ITrackingSpan,GetSpan</token>
@@ -848,7 +904,7 @@
 <token>Microsoft.VisualStudio.Text.SnapshotSpan,GetText</token>
 <token>Microsoft.VisualStudio.Text.SnapshotSpan,GetText</token>
 </entry>
-<entry count="42">
+<entry count="44">
 <token>Microsoft.VisualStudio.Text.Span,new</token>
 <token>Microsoft.VisualStudio.Text.SnapshotSpan,new</token>
 </entry>
@@ -865,7 +921,7 @@
 <token>Microsoft.VisualStudio.Text.SnapshotSpan,new</token>
 <token>Microsoft.VisualStudio.Text.NormalizedSnapshotSpanCollection,new</token>
 </entry>
-<entry count="22">
+<entry count="80">
 <token>Microsoft.VisualStudio.Text.ITextBuffer,CreateEdit</token>
 <token>Microsoft.VisualStudio.Text.ITextBufferEdit,Apply</token>
 </entry>
@@ -883,7 +939,7 @@
 <token>Microsoft.VisualStudio.Text.NormalizedSnapshotSpanCollection,new</token>
 <token>Microsoft.VisualStudio.Text.SnapshotSpan,GetText</token>
 </entry>
-<entry count="4">
+<entry count="8">
 <token>Microsoft.VisualStudio.Text.SnapshotSpan,Contains</token>
 <token>Microsoft.VisualStudio.Text.ITextSnapshot,GetText</token>
 <token>Microsoft.VisualStudio.Text.SnapshotSpan,new</token>
@@ -906,7 +962,7 @@
 <token>Microsoft.VisualStudio.Text.ITextBuffer,Insert</token>
 <token>Microsoft.VisualStudio.Text.ITextBuffer,Insert</token>
 </entry>
-<entry count="2">
+<entry count="4">
 <token>Microsoft.VisualStudio.Text.SnapshotPoint,GetContainingLine</token>
 <token>Microsoft.VisualStudio.Text.ITextBuffer,CreateEdit</token>
 <token>Microsoft.VisualStudio.Text.Span,new</token>
@@ -916,7 +972,7 @@
 <token>Microsoft.VisualStudio.Text.ITextSnapshot,GetLineFromPosition</token>
 <token>Microsoft.VisualStudio.Text.SnapshotSpan,new</token>
 </entry>
-<entry count="8">
+<entry count="10">
 <token>Microsoft.VisualStudio.Text.Span,FromBounds</token>
 <token>Microsoft.VisualStudio.Text.SnapshotSpan,new</token>
 </entry>
@@ -926,7 +982,7 @@
 <token>Microsoft.VisualStudio.Text.Span,FromBounds</token>
 <token>Microsoft.VisualStudio.Text.ITextEdit,Delete</token>
 </entry>
-<entry count="34">
+<entry count="736">
 <token>Microsoft.VisualStudio.Text.SnapshotPoint,GetContainingLine</token>
 <token>Microsoft.VisualStudio.Text.ITextSnapshot,GetLineFromLineNumber</token>
 </entry>
@@ -940,15 +996,15 @@
 <token>Microsoft.VisualStudio.Text.ITextBufferEdit,Apply</token>
 <token>Microsoft.VisualStudio.Text.SnapshotPoint,new</token>
 </entry>
-<entry count="114">
+<entry count="290">
 <token>Microsoft.VisualStudio.Text.SnapshotSpan,GetText</token>
 <token>Microsoft.VisualStudio.Text.SnapshotSpan,new</token>
 </entry>
-<entry count="26">
+<entry count="728">
 <token>Microsoft.VisualStudio.Text.SnapshotSpan,new</token>
 <token>Microsoft.VisualStudio.Text.ITextSnapshot,GetText</token>
 </entry>
-<entry count="4">
+<entry count="372">
 <token>Microsoft.VisualStudio.Text.ITextSnapshot,GetText</token>
 <token>Microsoft.VisualStudio.Text.SnapshotPoint,GetContainingLine</token>
 </entry>
@@ -956,11 +1012,11 @@
 <token>Microsoft.VisualStudio.Text.SnapshotSpan,GetText</token>
 <token>Microsoft.VisualStudio.Text.SnapshotPoint,GetContainingLine</token>
 </entry>
-<entry count="4">
+<entry count="8">
 <token>Microsoft.VisualStudio.Text.SnapshotPoint,GetContainingLine</token>
 <token>Microsoft.VisualStudio.Text.ITextBuffer,CreateEdit</token>
 </entry>
-<entry count="4">
+<entry count="8">
 <token>Microsoft.VisualStudio.Text.SnapshotPoint,GetContainingLine</token>
 <token>Microsoft.VisualStudio.Text.SnapshotPoint,GetContainingLine</token>
 <token>Microsoft.VisualStudio.Text.ITextBuffer,CreateEdit</token>
@@ -983,7 +1039,7 @@
 <token>Microsoft.VisualStudio.Text.Span,new</token>
 <token>Microsoft.VisualStudio.Text.ITextBuffer,Replace</token>
 </entry>
-<entry count="48">
+<entry count="96">
 <token>Microsoft.VisualStudio.Text.SnapshotPoint,GetContainingLine</token>
 <token>Microsoft.VisualStudio.Text.ITextSnapshotLine,GetText</token>
 <token>Microsoft.VisualStudio.Text.SnapshotPoint,GetChar</token>
@@ -1003,17 +1059,17 @@
 <token>Microsoft.VisualStudio.Text.ITextSnapshot,GetText</token>
 <token>Microsoft.VisualStudio.Text.ITextBuffer,CreateEdit</token>
 </entry>
-<entry count="48">
+<entry count="96">
 <token>Microsoft.VisualStudio.Text.SnapshotSpan,new</token>
 <token>Microsoft.VisualStudio.Text.ITextSnapshot,CreateTrackingSpan</token>
 </entry>
-<entry count="2">
+<entry count="4">
 <token>Microsoft.VisualStudio.Text.SnapshotPoint,GetContainingLine</token>
 <token>Microsoft.VisualStudio.Text.SnapshotPoint,GetContainingLine</token>
 <token>Microsoft.VisualStudio.Text.ITextBuffer,CreateEdit</token>
 <token>Microsoft.VisualStudio.Text.ITextBufferEdit,Apply</token>
 </entry>
-<entry count="10">
+<entry count="20">
 <token>Microsoft.VisualStudio.Text.ITextSnapshot,GetLineFromLineNumber</token>
 <token>Microsoft.VisualStudio.Text.ITextSnapshot,GetLineFromLineNumber</token>
 <token>Microsoft.VisualStudio.Text.SnapshotSpan,new</token>
@@ -1041,12 +1097,12 @@
 <token>Microsoft.VisualStudio.Text.ITextSnapshot,GetLineFromLineNumber</token>
 <token>Microsoft.VisualStudio.Text.Span,FromBounds</token>
 </entry>
-<entry count="16">
+<entry count="128">
 <token>Microsoft.VisualStudio.Text.ITextBuffer,CreateEdit</token>
 <token>Microsoft.VisualStudio.Text.ITextEdit,Insert</token>
 <token>Microsoft.VisualStudio.Text.ITextBufferEdit,Apply</token>
 </entry>
-<entry count="10">
+<entry count="20">
 <token>Microsoft.VisualStudio.Text.SnapshotSpan,TranslateTo</token>
 <token>Microsoft.VisualStudio.Text.SnapshotPoint,GetContainingLine</token>
 </entry>
@@ -1054,6 +1110,13 @@
 <token>Microsoft.VisualStudio.Text.ITextSnapshot,GetLineFromLineNumber</token>
 <token>Microsoft.VisualStudio.Text.Span,FromBounds</token>
 <token>Microsoft.VisualStudio.Text.ITextBufferEdit,Apply</token>
+</entry>
+<entry count="364">
+<token>Microsoft.VisualStudio.Text.SnapshotPoint,GetContainingLine</token>
+<token>Microsoft.VisualStudio.Text.ITextSnapshot,GetLineFromLineNumber</token>
+<token>Microsoft.VisualStudio.Text.SnapshotSpan,new</token>
+<token>Microsoft.VisualStudio.Text.ITextSnapshot,GetText</token>
+<token>Microsoft.VisualStudio.Text.SnapshotPoint,GetContainingLine</token>
 </entry>
 <entry count="8">
 <token>Microsoft.VisualStudio.Text.ITextSnapshot,GetText</token>
@@ -1102,13 +1165,13 @@
 <token>Microsoft.VisualStudio.Text.SnapshotPoint,GetContainingLine</token>
 <token>Microsoft.VisualStudio.Text.SnapshotSpan,new</token>
 </entry>
-<entry count="8">
+<entry count="56">
 <token>Microsoft.VisualStudio.Text.SnapshotSpan,GetText</token>
 <token>Microsoft.VisualStudio.Text.SnapshotSpan,new</token>
 <token>Microsoft.VisualStudio.Text.SnapshotSpan,new</token>
 <token>Microsoft.VisualStudio.Text.SnapshotSpan,new</token>
 </entry>
-<entry count="42">
+<entry count="56">
 <token>Microsoft.VisualStudio.Text.SnapshotPoint,GetContainingLine</token>
 <token>Microsoft.VisualStudio.Text.SnapshotPoint,GetContainingLine</token>
 </entry>
@@ -1128,7 +1191,7 @@
 <token>Microsoft.VisualStudio.Text.SnapshotSpan,new</token>
 <token>Microsoft.VisualStudio.Text.ITextSnapshot,GetText</token>
 </entry>
-<entry count="11">
+<entry count="69">
 <token>Microsoft.VisualStudio.Text.Span,new</token>
 <token>Microsoft.VisualStudio.Text.ITextEdit,Replace</token>
 <token>Microsoft.VisualStudio.Text.ITextBufferEdit,Apply</token>
@@ -1161,6 +1224,12 @@
 <token>Microsoft.VisualStudio.Text.NormalizedSnapshotSpanCollection,new</token>
 <token>Microsoft.VisualStudio.Text.SnapshotSpan,GetText</token>
 </entry>
+<entry count="8">
+<token>Microsoft.VisualStudio.Text.SnapshotSpan,new</token>
+<token>Microsoft.VisualStudio.Text.SnapshotSpan,new</token>
+<token>Microsoft.VisualStudio.Text.SnapshotSpan,new</token>
+<token>Microsoft.VisualStudio.Text.SnapshotSpan,new</token>
+</entry>
 <entry count="1">
 <token>Microsoft.VisualStudio.Text.ITextSnapshot,GetLineFromLineNumber</token>
 <token>Microsoft.VisualStudio.Text.ITextSnapshot,GetLineFromLineNumber</token>
@@ -1176,6 +1245,10 @@
 <token>Microsoft.VisualStudio.Text.ITextSnapshot,GetLineFromPosition</token>
 <token>Microsoft.VisualStudio.Text.ITextSnapshotLine,GetText</token>
 </entry>
+<entry count="3">
+<token>Microsoft.VisualStudio.Text.IMappingSpan,GetSpans</token>
+<token>Microsoft.VisualStudio.Text.IMappingSpan,GetSpans</token>
+</entry>
 <entry count="60">
 <token>Microsoft.VisualStudio.Text.ITextSnapshotLine,GetText</token>
 <token>Microsoft.VisualStudio.Text.SnapshotSpan,TranslateTo</token>
@@ -1188,7 +1261,7 @@
 <token>Microsoft.VisualStudio.Text.SnapshotPoint,new</token>
 <token>Microsoft.VisualStudio.Text.SnapshotSpan,new</token>
 </entry>
-<entry count="2">
+<entry count="4">
 <token>Microsoft.VisualStudio.Text.SnapshotSpan,new</token>
 <token>Microsoft.VisualStudio.Text.Span,new</token>
 <token>Microsoft.VisualStudio.Text.SnapshotSpan,new</token>
@@ -1211,6 +1284,11 @@
 <entry count="2">
 <token>Microsoft.VisualStudio.Text.ITextBuffer,Insert</token>
 <token>Microsoft.VisualStudio.Text.SnapshotSpan,new</token>
+</entry>
+<entry count="364">
+<token>Microsoft.VisualStudio.Text.SnapshotSpan,new</token>
+<token>Microsoft.VisualStudio.Text.ITextSnapshot,GetText</token>
+<token>Microsoft.VisualStudio.Text.SnapshotPoint,GetContainingLine</token>
 </entry>
 <entry count="1">
 <token>Microsoft.VisualStudio.Text.ITextEdit,Insert</token>
@@ -1232,7 +1310,7 @@
 <token>Microsoft.VisualStudio.Text.SnapshotSpan,new</token>
 <token>Microsoft.VisualStudio.Text.SnapshotPoint,new</token>
 </entry>
-<entry count="104">
+<entry count="152">
 <token>Microsoft.VisualStudio.Text.SnapshotPoint,GetContainingLine</token>
 <token>Microsoft.VisualStudio.Text.ITextSnapshotLine,GetText</token>
 </entry>
@@ -1249,6 +1327,10 @@
 <token>Microsoft.VisualStudio.Text.ITextSnapshot,GetText</token>
 <token>Microsoft.VisualStudio.Text.Span,new</token>
 </entry>
+<entry count="32">
+<token>Microsoft.VisualStudio.Text.Span,FromBounds</token>
+<token>Microsoft.VisualStudio.Text.Span,FromBounds</token>
+</entry>
 <entry count="8">
 <token>Microsoft.VisualStudio.Text.SnapshotSpan,new</token>
 <token>Microsoft.VisualStudio.Text.NormalizedSnapshotSpanCollection,new</token>
@@ -1259,7 +1341,7 @@
 <token>Microsoft.VisualStudio.Text.ITextSnapshot,GetLineFromLineNumber</token>
 <token>Microsoft.VisualStudio.Text.ITextSnapshot,GetLineFromLineNumber</token>
 </entry>
-<entry count="8">
+<entry count="64">
 <token>Microsoft.VisualStudio.Text.SnapshotSpan,new</token>
 <token>Microsoft.VisualStudio.Text.SnapshotSpan,new</token>
 <token>Microsoft.VisualStudio.Text.SnapshotSpan,new</token>
@@ -1268,7 +1350,7 @@
 <token>Microsoft.VisualStudio.Text.ITextSnapshot,GetText</token>
 <token>Microsoft.VisualStudio.Text.ITextEdit,Delete</token>
 </entry>
-<entry count="48">
+<entry count="96">
 <token>Microsoft.VisualStudio.Text.SnapshotPoint,GetChar</token>
 <token>Microsoft.VisualStudio.Text.SnapshotSpan,new</token>
 </entry>
@@ -1285,12 +1367,12 @@
 <token>Microsoft.VisualStudio.Text.SnapshotPoint,new</token>
 <token>Microsoft.VisualStudio.Text.ITextSnapshot,CreateTrackingPoint</token>
 </entry>
-<entry count="10">
+<entry count="20">
 <token>Microsoft.VisualStudio.Text.SnapshotSpan,TranslateTo</token>
 <token>Microsoft.VisualStudio.Text.SnapshotPoint,GetContainingLine</token>
 <token>Microsoft.VisualStudio.Text.SnapshotPoint,GetContainingLine</token>
 </entry>
-<entry count="26">
+<entry count="728">
 <token>Microsoft.VisualStudio.Text.SnapshotPoint,GetContainingLine</token>
 <token>Microsoft.VisualStudio.Text.ITextSnapshot,GetLineFromLineNumber</token>
 <token>Microsoft.VisualStudio.Text.SnapshotSpan,new</token>
@@ -1300,7 +1382,7 @@
 <token>Microsoft.VisualStudio.Text.ITrackingSpan,GetSpan</token>
 <token>Microsoft.VisualStudio.Text.Span,IntersectsWith</token>
 </entry>
-<entry count="18">
+<entry count="22">
 <token>Microsoft.VisualStudio.Text.ITextBuffer,Insert</token>
 <token>Microsoft.VisualStudio.Text.SnapshotPoint,new</token>
 </entry>
@@ -1359,6 +1441,12 @@
 <token>Microsoft.VisualStudio.Text.SnapshotSpan,new</token>
 <token>Microsoft.VisualStudio.Text.ITextSnapshot,GetLineFromLineNumber</token>
 <token>Microsoft.VisualStudio.Text.SnapshotSpan,new</token>
+</entry>
+<entry count="4096">
+<token>Microsoft.VisualStudio.Text.ITextSnapshotLine,GetText</token>
+<token>Microsoft.VisualStudio.Text.ITextSnapshot,CreateTrackingSpan</token>
+<token>Microsoft.VisualStudio.Text.ITextSnapshot,CreateTrackingSpan</token>
+<token>Microsoft.VisualStudio.Text.ITextSnapshot,CreateTrackingSpan</token>
 </entry>
 <entry count="8">
 <token>Microsoft.VisualStudio.Text.ITextSnapshot,ToCharArray</token>

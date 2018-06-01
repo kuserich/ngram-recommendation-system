@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><dictionary case_sensitive="false">
-<entry count="7">
+<entry count="25">
 <token>System.Windows.Automation.TreeWalker,GetFirstChild</token>
 <token>System.Windows.Automation.TreeWalker,GetNextSibling</token>
 </entry>
@@ -70,7 +70,7 @@
 <token>System.Windows.Automation.AutomationElement,GetSupportedPatterns</token>
 <token>System.Windows.Automation.AutomationElement,GetCurrentPattern</token>
 </entry>
-<entry count="5">
+<entry count="81">
 <token>System.Windows.Automation.AutomationIdentifier,Equals</token>
 <token>System.Windows.Automation.AutomationIdentifier,Equals</token>
 <token>System.Windows.Automation.AutomationIdentifier,Equals</token>
@@ -110,6 +110,10 @@
 <token>System.Windows.Automation.ExpandCollapsePattern,Collapse</token>
 <token>System.Windows.Automation.PropertyCondition,new</token>
 <token>System.Windows.Automation.AutomationElement,FindFirst</token>
+</entry>
+<entry count="1">
+<token>System.Windows.Automation.AutomationElement,GetCurrentPattern</token>
+<token>System.Windows.Automation.SelectionPatternInformation,GetSelection</token>
 </entry>
 <entry count="2">
 <token>System.Windows.Automation.AutomationElement,GetSupportedProperties</token>
@@ -168,6 +172,13 @@
 <token>System.Windows.Automation.AutomationElement,FindFirst</token>
 <token>System.Windows.Automation.PropertyCondition,new</token>
 </entry>
+<entry count="28">
+<token>System.Windows.Automation.AutomationIdentifier,Equals</token>
+<token>System.Windows.Automation.AutomationIdentifier,Equals</token>
+<token>System.Windows.Automation.AutomationIdentifier,Equals</token>
+<token>System.Windows.Automation.AutomationIdentifier,Equals</token>
+<token>System.Windows.Automation.AutomationIdentifier,Equals</token>
+</entry>
 <entry count="2">
 <token>System.Windows.Automation.AutomationElement,SetFocus</token>
 <token>System.Windows.Automation.AutomationElement,GetCurrentPropertyValue</token>
@@ -239,13 +250,13 @@
 <token>System.Windows.Automation.AndCondition,new</token>
 <token>System.Windows.Automation.AutomationElement,FindFirst</token>
 </entry>
-<entry count="2">
+<entry count="54">
 <token>System.Windows.Automation.AutomationIdentifier,Equals</token>
 <token>System.Windows.Automation.AutomationIdentifier,Equals</token>
 <token>System.Windows.Automation.AutomationIdentifier,Equals</token>
 <token>System.Windows.Automation.AutomationIdentifier,Equals</token>
 </entry>
-<entry count="8">
+<entry count="108">
 <token>System.Windows.Automation.AutomationIdentifier,Equals</token>
 <token>System.Windows.Automation.AutomationIdentifier,Equals</token>
 </entry>
@@ -265,7 +276,7 @@
 <token>System.Windows.Automation.AutomationElement,FindAll</token>
 <token>System.Windows.Automation.AutomationElement,GetSupportedPatterns</token>
 </entry>
-<entry count="22">
+<entry count="228">
 <token>System.Windows.Automation.TreeWalker,GetParent</token>
 <token>System.Windows.Automation.TreeWalker,GetParent</token>
 </entry>
@@ -313,13 +324,9 @@
 <token>System.Windows.Automation.PropertyCondition,new</token>
 <token>System.Windows.Automation.AutomationElement,FindFirst</token>
 </entry>
-<entry count="9">
+<entry count="27">
 <token>System.Windows.Automation.TreeWalker,GetParent</token>
 <token>System.Windows.Automation.TreeWalker,GetFirstChild</token>
-</entry>
-<entry count="1">
-<token>System.Windows.Automation.AutomationElement,GetCurrentPattern</token>
-<token>System.Windows.Automation.SelectionPattern+SelectionPatternInformation,GetSelection</token>
 </entry>
 <entry count="2">
 <token>System.Windows.Automation.PropertyCondition,new</token>
@@ -350,7 +357,7 @@
 <token>System.Windows.Automation.AndCondition,new</token>
 <token>System.Windows.Automation.AutomationElement,FindFirst</token>
 </entry>
-<entry count="6">
+<entry count="24">
 <token>System.Windows.Automation.TreeWalker,GetParent</token>
 <token>System.Windows.Automation.TreeWalker,GetFirstChild</token>
 <token>System.Windows.Automation.TreeWalker,GetNextSibling</token>

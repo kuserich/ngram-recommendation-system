@@ -5,15 +5,15 @@
 <token>System.CodeDom.Compiler.TempFileCollection,AddFile</token>
 <token>System.CodeDom.Compiler.CodeDomProvider,CompileAssemblyFromSource</token>
 </entry>
-<entry count="200">
+<entry count="25600">
 <token>System.CodeDom.Compiler.CodeDomProvider,CompileAssemblyFromFile</token>
 <token>System.CodeDom.Compiler.CodeDomProvider,CompileAssemblyFromSource</token>
 </entry>
-<entry count="20">
+<entry count="48">
 <token>System.CodeDom.Compiler.TempFileCollection,new</token>
 <token>System.CodeDom.Compiler.CompilerResults,new</token>
 </entry>
-<entry count="32">
+<entry count="128">
 <token>System.CodeDom.Compiler.CodeDomProvider,Parse</token>
 <token>System.CodeDom.Compiler.CodeGeneratorOptions,new</token>
 </entry>
@@ -29,7 +29,7 @@
 <token>System.CodeDom.Compiler.CompilerParameters,new</token>
 <token>System.CodeDom.Compiler.CodeDomProvider,CompileAssemblyFromFile</token>
 </entry>
-<entry count="281239">
+<entry count="607336">
 <token>System.CodeDom.Compiler.IndentedTextWriter,Write</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,Write</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,WriteLine</token>
@@ -42,7 +42,12 @@
 <token>System.CodeDom.Compiler.CodeDomProvider,GenerateCodeFromCompileUnit</token>
 <token>System.CodeDom.Compiler.CodeDomProvider,CompileAssemblyFromDom</token>
 </entry>
-<entry count="32">
+<entry count="4096">
+<token>System.CodeDom.Compiler.CodeDomProvider,CreateProvider</token>
+<token>System.CodeDom.Compiler.CodeDomProvider,GenerateCodeFromExpression</token>
+<token>System.CodeDom.Compiler.CodeDomProvider,CreateProvider</token>
+</entry>
+<entry count="256">
 <token>System.CodeDom.Compiler.CodeDomProvider,IsValidIdentifier</token>
 <token>System.CodeDom.Compiler.CodeDomProvider,IsValidIdentifier</token>
 <token>System.CodeDom.Compiler.CodeDomProvider,IsValidIdentifier</token>
@@ -54,33 +59,33 @@
 <token>System.CodeDom.Compiler.CodeDomProvider,GenerateCodeFromCompileUnit</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,Close</token>
 </entry>
-<entry count="208">
+<entry count="3312">
 <token>System.CodeDom.Compiler.IndentedTextWriter,Write</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,WriteLine</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,WriteLine</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,Write</token>
 </entry>
-<entry count="48">
+<entry count="384">
 <token>System.CodeDom.Compiler.CodeDomProvider,IsValidIdentifier</token>
 <token>System.CodeDom.Compiler.CodeDomProvider,IsValidIdentifier</token>
 <token>System.CodeDom.Compiler.CodeDomProvider,Supports</token>
 <token>System.CodeDom.Compiler.CodeDomProvider,Supports</token>
 <token>System.CodeDom.Compiler.CodeGenerator,ValidateIdentifiers</token>
 </entry>
-<entry count="1">
+<entry count="7">
 <token>System.CodeDom.Compiler.IndentedTextWriter,WriteLine</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,WriteLine</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,WriteLine</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,Write</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,WriteLine</token>
 </entry>
-<entry count="160">
+<entry count="20480">
 <token>System.CodeDom.Compiler.CompilerParameters,new</token>
 <token>System.CodeDom.Compiler.TempFileCollection,new</token>
 <token>System.CodeDom.Compiler.CodeDomProvider,CompileAssemblyFromFile</token>
 <token>System.CodeDom.Compiler.CodeDomProvider,CompileAssemblyFromSource</token>
 </entry>
-<entry count="866">
+<entry count="2066">
 <token>System.CodeDom.Compiler.CodeGeneratorOptions,new</token>
 <token>System.CodeDom.Compiler.CodeDomProvider,GenerateCodeFromCompileUnit</token>
 </entry>
@@ -90,12 +95,12 @@
 <token>System.CodeDom.Compiler.CompilerParameters,new</token>
 <token>System.CodeDom.Compiler.CodeDomProvider,CompileAssemblyFromFile</token>
 </entry>
-<entry count="70808">
+<entry count="136725">
 <token>System.CodeDom.Compiler.IndentedTextWriter,WriteLine</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,Write</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,Write</token>
 </entry>
-<entry count="1">
+<entry count="1690">
 <token>System.CodeDom.Compiler.IndentedTextWriter,WriteLine</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,WriteLine</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,Write</token>
@@ -113,15 +118,15 @@
 <token>System.CodeDom.Compiler.CodeDomProvider,CompileAssemblyFromDom</token>
 <token>System.CodeDom.Compiler.TempFileCollection,new</token>
 </entry>
-<entry count="1525208">
+<entry count="12842419">
 <token>System.CodeDom.Compiler.IndentedTextWriter,WriteLine</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,WriteLine</token>
 </entry>
-<entry count="1">
+<entry count="2">
 <token>System.CodeDom.Compiler.CodeGenerator,OutputExpressionList</token>
 <token>System.CodeDom.Compiler.CodeGenerator,GenerateStatements</token>
 </entry>
-<entry count="114614">
+<entry count="368324">
 <token>System.CodeDom.Compiler.IndentedTextWriter,Write</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,Write</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,WriteLine</token>
@@ -143,7 +148,7 @@
 <token>System.CodeDom.Compiler.TempFileCollection,AddFile</token>
 <token>System.CodeDom.Compiler.CodeDomProvider,CompileAssemblyFromSource</token>
 </entry>
-<entry count="1280">
+<entry count="21600">
 <token>System.CodeDom.Compiler.TempFileCollection,new</token>
 <token>System.CodeDom.Compiler.CodeDomProvider,CompileAssemblyFromFile</token>
 </entry>
@@ -151,7 +156,7 @@
 <token>System.CodeDom.Compiler.CodeDomProvider,CompileAssemblyFromSource</token>
 <token>System.CodeDom.Compiler.TempFileCollection,Delete</token>
 </entry>
-<entry count="1486735">
+<entry count="4559658">
 <token>System.CodeDom.Compiler.IndentedTextWriter,Write</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,Write</token>
 </entry>
@@ -159,7 +164,7 @@
 <token>System.CodeDom.Compiler.TempFileCollection,new</token>
 <token>System.CodeDom.Compiler.TempFileCollection,AddFile</token>
 </entry>
-<entry count="8">
+<entry count="216">
 <token>System.CodeDom.Compiler.CodeDomProvider,IsValidIdentifier</token>
 <token>System.CodeDom.Compiler.CodeDomProvider,CreateValidIdentifier</token>
 </entry>
@@ -172,7 +177,7 @@
 <token>System.CodeDom.Compiler.CompilerErrorCollection,AddRange</token>
 <token>System.CodeDom.Compiler.CodeDomProvider,CreateValidIdentifier</token>
 </entry>
-<entry count="8">
+<entry count="216">
 <token>System.CodeDom.Compiler.CodeDomProvider,CreateValidIdentifier</token>
 <token>System.CodeDom.Compiler.CodeDomProvider,IsValidIdentifier</token>
 <token>System.CodeDom.Compiler.CodeDomProvider,IsValidIdentifier</token>
@@ -188,16 +193,12 @@
 <token>System.CodeDom.Compiler.CodeDomProvider,GenerateCodeFromCompileUnit</token>
 <token>System.CodeDom.Compiler.CodeDomProvider,CompileAssemblyFromFile</token>
 </entry>
-<entry count="21">
-<token>System.CodeDom.Compiler.CodeDomProvider,CompileAssemblyFromFile</token>
-<token>System.CodeDom.Compiler.CompilerError,ToString</token>
-</entry>
 <entry count="1">
 <token>System.CodeDom.Compiler.CompilerParameters,new</token>
 <token>System.CodeDom.Compiler.CodeDomProvider,CreateProvider</token>
 <token>System.CodeDom.Compiler.CodeDomProvider,CompileAssemblyFromDom</token>
 </entry>
-<entry count="1">
+<entry count="2">
 <token>System.CodeDom.Compiler.CodeGenerator,OutputParameters</token>
 <token>System.CodeDom.Compiler.CodeGenerator,OutputExpressionList</token>
 </entry>
@@ -207,12 +208,19 @@
 <token>System.CodeDom.Compiler.CompilerErrorCollection,AddRange</token>
 </entry>
 <entry count="8">
+<token>System.CodeDom.Compiler.IndentedTextWriter,Write</token>
+<token>System.CodeDom.Compiler.IndentedTextWriter,WriteLine</token>
+<token>System.CodeDom.Compiler.IndentedTextWriter,WriteLine</token>
+<token>System.CodeDom.Compiler.IndentedTextWriter,Write</token>
+<token>System.CodeDom.Compiler.IndentedTextWriter,WriteLine</token>
+</entry>
+<entry count="8">
 <token>System.CodeDom.Compiler.CodeDomProvider,CreateValidIdentifier</token>
 <token>System.CodeDom.Compiler.CompilerErrorCollection,AddRange</token>
 <token>System.CodeDom.Compiler.CodeGeneratorOptions,new</token>
 <token>System.CodeDom.Compiler.CodeDomProvider,GenerateCodeFromCompileUnit</token>
 </entry>
-<entry count="15622">
+<entry count="953">
 <token>System.CodeDom.Compiler.IndentedTextWriter,WriteLine</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,Write</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,WriteLine</token>
@@ -231,7 +239,7 @@
 <token>System.CodeDom.Compiler.CodeGenerator,GenerateStatements</token>
 <token>System.CodeDom.Compiler.CodeGenerator,GenerateStatements</token>
 </entry>
-<entry count="3">
+<entry count="39">
 <token>System.CodeDom.Compiler.IndentedTextWriter,WriteLine</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,WriteLine</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,WriteLine</token>
@@ -241,13 +249,18 @@
 <token>System.CodeDom.Compiler.CodeDomProvider,CreateProvider</token>
 <token>System.CodeDom.Compiler.CodeDomProvider,CompileAssemblyFromFile</token>
 </entry>
-<entry count="24">
+<entry count="4">
+<token>System.CodeDom.Compiler.CompilerError,new</token>
+<token>System.CodeDom.Compiler.CompilerError,new</token>
+<token>System.CodeDom.Compiler.CompilerError,new</token>
+</entry>
+<entry count="64">
 <token>System.CodeDom.Compiler.CodeDomProvider,CreateProvider</token>
 <token>System.CodeDom.Compiler.CodeGeneratorOptions,new</token>
 <token>System.CodeDom.Compiler.CodeDomProvider,GenerateCodeFromCompileUnit</token>
 <token>System.CodeDom.Compiler.CompilerParameters,new</token>
 </entry>
-<entry count="32">
+<entry count="256">
 <token>System.CodeDom.Compiler.CodeDomProvider,IsValidIdentifier</token>
 <token>System.CodeDom.Compiler.CodeDomProvider,IsValidIdentifier</token>
 <token>System.CodeDom.Compiler.CodeDomProvider,IsValidIdentifier</token>
@@ -266,7 +279,7 @@
 <token>System.CodeDom.Compiler.CodeGenerator,GenerateStatements</token>
 <token>System.CodeDom.Compiler.CodeGenerator,GenerateStatements</token>
 </entry>
-<entry count="48">
+<entry count="384">
 <token>System.CodeDom.Compiler.CodeDomProvider,IsValidIdentifier</token>
 <token>System.CodeDom.Compiler.CodeDomProvider,IsValidIdentifier</token>
 <token>System.CodeDom.Compiler.CodeDomProvider,Supports</token>
@@ -302,7 +315,7 @@
 <token>System.CodeDom.Compiler.CodeGeneratorOptions,new</token>
 <token>System.CodeDom.Compiler.CodeDomProvider,GenerateCodeFromStatement</token>
 </entry>
-<entry count="173">
+<entry count="22224">
 <token>System.CodeDom.Compiler.CompilerParameters,new</token>
 <token>System.CodeDom.Compiler.CodeDomProvider,CompileAssemblyFromFile</token>
 </entry>
@@ -310,7 +323,14 @@
 <token>System.CodeDom.Compiler.CodeDomProvider,CreateGenerator</token>
 <token>System.CodeDom.Compiler.ICodeGenerator,GenerateCodeFromCompileUnit</token>
 </entry>
-<entry count="11200">
+<entry count="8">
+<token>System.CodeDom.Compiler.IndentedTextWriter,WriteLine</token>
+<token>System.CodeDom.Compiler.IndentedTextWriter,Write</token>
+<token>System.CodeDom.Compiler.IndentedTextWriter,WriteLine</token>
+<token>System.CodeDom.Compiler.IndentedTextWriter,WriteLine</token>
+<token>System.CodeDom.Compiler.IndentedTextWriter,Write</token>
+</entry>
+<entry count="20">
 <token>System.CodeDom.Compiler.IndentedTextWriter,WriteLine</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,Write</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,Write</token>
@@ -320,6 +340,12 @@
 <entry count="2">
 <token>System.CodeDom.Compiler.CodeGenerator,GenerateExpression</token>
 <token>System.CodeDom.Compiler.CodeGenerator,OutputExpressionList</token>
+</entry>
+<entry count="4096">
+<token>System.CodeDom.Compiler.CodeDomProvider,CreateProvider</token>
+<token>System.CodeDom.Compiler.CodeDomProvider,GenerateCodeFromExpression</token>
+<token>System.CodeDom.Compiler.CodeDomProvider,CreateProvider</token>
+<token>System.CodeDom.Compiler.CodeDomProvider,GenerateCodeFromExpression</token>
 </entry>
 <entry count="1">
 <token>System.CodeDom.Compiler.IndentedTextWriter,WriteLine</token>
@@ -335,9 +361,15 @@
 <token>System.CodeDom.Compiler.CodeGenerator,OutputIdentifier</token>
 <token>System.CodeDom.Compiler.CodeGenerator,OutputIdentifier</token>
 </entry>
-<entry count="136">
+<entry count="952">
 <token>System.CodeDom.Compiler.CodeDomProvider,IsValidIdentifier</token>
 <token>System.CodeDom.Compiler.CodeDomProvider,IsValidIdentifier</token>
+</entry>
+<entry count="1">
+<token>System.CodeDom.Compiler.CodeGenerator,OutputParameters</token>
+<token>System.CodeDom.Compiler.CodeGenerator,OutputExpressionList</token>
+<token>System.CodeDom.Compiler.CodeGenerator,GenerateStatements</token>
+<token>System.CodeDom.Compiler.CodeGenerator,OutputExpressionList</token>
 </entry>
 <entry count="6">
 <token>System.CodeDom.Compiler.CodeDomProvider,CreateProvider</token>
@@ -350,14 +382,14 @@
 <token>System.CodeDom.Compiler.CodeDomProvider,GenerateCodeFromCompileUnit</token>
 <token>System.CodeDom.Compiler.CodeDomProvider,CompileAssemblyFromSource</token>
 </entry>
-<entry count="62400">
+<entry count="123330">
 <token>System.CodeDom.Compiler.IndentedTextWriter,Write</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,Write</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,WriteLine</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,Write</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,Write</token>
 </entry>
-<entry count="104018">
+<entry count="115338">
 <token>System.CodeDom.Compiler.IndentedTextWriter,WriteLine</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,Write</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,WriteLine</token>
@@ -371,45 +403,52 @@
 <token>System.CodeDom.Compiler.CodeDomProvider,GenerateCodeFromCompileUnit</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,Close</token>
 </entry>
-<entry count="218816">
+<entry count="606725">
 <token>System.CodeDom.Compiler.IndentedTextWriter,Write</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,Write</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,Write</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,Write</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,WriteLine</token>
 </entry>
-<entry count="48">
+<entry count="384">
 <token>System.CodeDom.Compiler.CodeDomProvider,Supports</token>
 <token>System.CodeDom.Compiler.CodeGenerator,ValidateIdentifiers</token>
 </entry>
-<entry count="104000">
+<entry count="115448">
 <token>System.CodeDom.Compiler.IndentedTextWriter,Write</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,Write</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,WriteLine</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,Write</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,WriteLine</token>
 </entry>
-<entry count="22403">
+<entry count="66">
 <token>System.CodeDom.Compiler.IndentedTextWriter,WriteLine</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,Write</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,Write</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,WriteLine</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,WriteLine</token>
 </entry>
-<entry count="103934">
+<entry count="78">
 <token>System.CodeDom.Compiler.IndentedTextWriter,WriteLine</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,Write</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,WriteLine</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,WriteLine</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,WriteLine</token>
 </entry>
-<entry count="14292">
+<entry count="36">
 <token>System.CodeDom.Compiler.CompilerParameters,new</token>
 <token>System.CodeDom.Compiler.CodeDomProvider,CreateProvider</token>
 </entry>
 <entry count="1">
 <token>System.CodeDom.Compiler.CodeGeneratorOptions,new</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,new</token>
+</entry>
+<entry count="3304">
+<token>System.CodeDom.Compiler.IndentedTextWriter,Write</token>
+<token>System.CodeDom.Compiler.IndentedTextWriter,WriteLine</token>
+<token>System.CodeDom.Compiler.IndentedTextWriter,WriteLine</token>
+<token>System.CodeDom.Compiler.IndentedTextWriter,Write</token>
+<token>System.CodeDom.Compiler.IndentedTextWriter,Write</token>
 </entry>
 <entry count="10">
 <token>System.CodeDom.Compiler.CompilerParameters,new</token>
@@ -423,7 +462,7 @@
 <token>System.CodeDom.Compiler.CodeDomProvider,GenerateCodeFromCompileUnit</token>
 <token>System.CodeDom.Compiler.CodeDomProvider,CompileAssemblyFromSource</token>
 </entry>
-<entry count="28801">
+<entry count="122010">
 <token>System.CodeDom.Compiler.IndentedTextWriter,Write</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,WriteLine</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,Write</token>
@@ -434,12 +473,12 @@
 <token>System.CodeDom.Compiler.CodeGeneratorOptions,new</token>
 <token>System.CodeDom.Compiler.CodeDomProvider,GenerateCodeFromExpression</token>
 </entry>
-<entry count="8">
+<entry count="216">
 <token>System.CodeDom.Compiler.CodeDomProvider,IsValidIdentifier</token>
 <token>System.CodeDom.Compiler.CodeDomProvider,CreateValidIdentifier</token>
 <token>System.CodeDom.Compiler.CodeDomProvider,IsValidIdentifier</token>
 </entry>
-<entry count="4">
+<entry count="13">
 <token>System.CodeDom.Compiler.IndentedTextWriter,WriteLine</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,WriteLine</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,Write</token>
@@ -467,7 +506,7 @@
 <token>System.CodeDom.Compiler.CodeDomProvider,CompileAssemblyFromSource</token>
 <token>System.CodeDom.Compiler.CompilerError,ToString</token>
 </entry>
-<entry count="1079953">
+<entry count="12087280">
 <token>System.CodeDom.Compiler.IndentedTextWriter,WriteLine</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,WriteLine</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,WriteLine</token>
@@ -477,14 +516,14 @@
 <token>System.CodeDom.Compiler.CompilerParameters,new</token>
 <token>System.CodeDom.Compiler.CodeDomProvider,GenerateCodeFromCompileUnit</token>
 </entry>
-<entry count="1">
+<entry count="9">
 <token>System.CodeDom.Compiler.IndentedTextWriter,WriteLine</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,WriteLine</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,WriteLine</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,WriteLine</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,Write</token>
 </entry>
-<entry count="14260">
+<entry count="4">
 <token>System.CodeDom.Compiler.CompilerParameters,new</token>
 <token>System.CodeDom.Compiler.CodeDomProvider,CreateProvider</token>
 <token>System.CodeDom.Compiler.CodeDomProvider,CompileAssemblyFromSource</token>
@@ -499,17 +538,17 @@
 <token>System.CodeDom.Compiler.CodeDomProvider,CompileAssemblyFromSource</token>
 <token>System.CodeDom.Compiler.TempFileCollection,Delete</token>
 </entry>
-<entry count="178">
+<entry count="10818">
 <token>System.CodeDom.Compiler.CompilerResults,new</token>
 <token>System.CodeDom.Compiler.CompilerError,new</token>
 <token>System.CodeDom.Compiler.CompilerErrorCollection,Add</token>
 </entry>
-<entry count="1205385">
+<entry count="3944667">
 <token>System.CodeDom.Compiler.IndentedTextWriter,Write</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,Write</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,Write</token>
 </entry>
-<entry count="178">
+<entry count="10818">
 <token>System.CodeDom.Compiler.CompilerResults,new</token>
 <token>System.CodeDom.Compiler.CompilerError,new</token>
 </entry>
@@ -522,7 +561,7 @@
 <token>System.CodeDom.Compiler.CodeGenerator,GenerateStatements</token>
 <token>System.CodeDom.Compiler.CodeGenerator,GenerateStatement</token>
 </entry>
-<entry count="48">
+<entry count="384">
 <token>System.CodeDom.Compiler.CodeDomProvider,Supports</token>
 <token>System.CodeDom.Compiler.CodeDomProvider,Supports</token>
 <token>System.CodeDom.Compiler.CodeGenerator,ValidateIdentifiers</token>
@@ -537,12 +576,7 @@
 <token>System.CodeDom.Compiler.TempFileCollection,AddExtension</token>
 <token>System.CodeDom.Compiler.CompilerError,new</token>
 </entry>
-<entry count="21">
-<token>System.CodeDom.Compiler.CompilerParameters,new</token>
-<token>System.CodeDom.Compiler.CodeDomProvider,CompileAssemblyFromFile</token>
-<token>System.CodeDom.Compiler.CompilerError,ToString</token>
-</entry>
-<entry count="738742">
+<entry count="2725060">
 <token>System.CodeDom.Compiler.IndentedTextWriter,Write</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,Write</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,Write</token>
@@ -554,15 +588,15 @@
 <token>System.CodeDom.Compiler.CodeDomProvider,CreateValidIdentifier</token>
 <token>System.CodeDom.Compiler.CompilerErrorCollection,AddRange</token>
 </entry>
-<entry count="16">
+<entry count="16384">
 <token>System.CodeDom.Compiler.CodeDomProvider,CreateProvider</token>
 <token>System.CodeDom.Compiler.CodeDomProvider,GenerateCodeFromExpression</token>
 </entry>
-<entry count="400940">
+<entry count="725813">
 <token>System.CodeDom.Compiler.IndentedTextWriter,Write</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,WriteLine</token>
 </entry>
-<entry count="7671">
+<entry count="127023">
 <token>System.CodeDom.Compiler.CompilerParameters,new</token>
 <token>System.CodeDom.Compiler.CodeDomProvider,CompileAssemblyFromSource</token>
 </entry>
@@ -570,7 +604,7 @@
 <token>System.CodeDom.Compiler.CompilerErrorCollection,Add</token>
 <token>System.CodeDom.Compiler.CodeDomProvider,GenerateCodeFromCompileUnit</token>
 </entry>
-<entry count="119654">
+<entry count="117403">
 <token>System.CodeDom.Compiler.IndentedTextWriter,WriteLine</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,Write</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,WriteLine</token>
@@ -584,7 +618,12 @@
 <token>System.CodeDom.Compiler.CodeGeneratorOptions,new</token>
 <token>System.CodeDom.Compiler.CodeDomProvider,CompileAssemblyFromSource</token>
 </entry>
-<entry count="1304">
+<entry count="1">
+<token>System.CodeDom.Compiler.CodeGenerator,OutputExpressionList</token>
+<token>System.CodeDom.Compiler.CodeGenerator,GenerateStatements</token>
+<token>System.CodeDom.Compiler.CodeGenerator,OutputExpressionList</token>
+</entry>
+<entry count="21872">
 <token>System.CodeDom.Compiler.CompilerParameters,new</token>
 <token>System.CodeDom.Compiler.TempFileCollection,new</token>
 </entry>
@@ -594,7 +633,7 @@
 <token>System.CodeDom.Compiler.IndentedTextWriter,WriteLine</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,Close</token>
 </entry>
-<entry count="1">
+<entry count="2">
 <token>System.CodeDom.Compiler.CodeGenerator,OutputParameters</token>
 <token>System.CodeDom.Compiler.CodeGenerator,OutputExpressionList</token>
 <token>System.CodeDom.Compiler.CodeGenerator,GenerateStatements</token>
@@ -603,20 +642,24 @@
 <token>System.CodeDom.Compiler.CodeDomProvider,GenerateCodeFromCompileUnit</token>
 <token>System.CodeDom.Compiler.CodeDomProvider,CompileAssemblyFromFile</token>
 </entry>
-<entry count="24">
+<entry count="64">
 <token>System.CodeDom.Compiler.CodeGeneratorOptions,new</token>
 <token>System.CodeDom.Compiler.CodeDomProvider,GenerateCodeFromCompileUnit</token>
 <token>System.CodeDom.Compiler.CompilerParameters,new</token>
 </entry>
-<entry count="218032">
+<entry count="142">
 <token>System.CodeDom.Compiler.IndentedTextWriter,Write</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,WriteLine</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,WriteLine</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,WriteLine</token>
 </entry>
-<entry count="410">
+<entry count="65970">
 <token>System.CodeDom.Compiler.CodeDomProvider,CreateProvider</token>
 <token>System.CodeDom.Compiler.CompilerParameters,new</token>
+</entry>
+<entry count="2">
+<token>System.CodeDom.Compiler.IndentedTextWriter,new</token>
+<token>System.CodeDom.Compiler.IndentedTextWriter,new</token>
 </entry>
 <entry count="1">
 <token>System.CodeDom.Compiler.CodeDomProvider,CreateProvider</token>
@@ -633,7 +676,7 @@
 <token>System.CodeDom.Compiler.CompilerErrorCollection,new</token>
 <token>System.CodeDom.Compiler.CompilerError,new</token>
 </entry>
-<entry count="33600">
+<entry count="20">
 <token>System.CodeDom.Compiler.IndentedTextWriter,Write</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,WriteLine</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,Write</token>
@@ -656,24 +699,24 @@
 <token>System.CodeDom.Compiler.CodeDomProvider,CreateProvider</token>
 <token>System.CodeDom.Compiler.CodeDomProvider,CompileAssemblyFromDom</token>
 </entry>
-<entry count="861526">
+<entry count="11951634">
 <token>System.CodeDom.Compiler.IndentedTextWriter,WriteLine</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,WriteLine</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,WriteLine</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,WriteLine</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,WriteLine</token>
 </entry>
-<entry count="48">
+<entry count="384">
 <token>System.CodeDom.Compiler.CodeDomProvider,IsValidIdentifier</token>
 <token>System.CodeDom.Compiler.CodeDomProvider,Supports</token>
 <token>System.CodeDom.Compiler.CodeDomProvider,Supports</token>
 <token>System.CodeDom.Compiler.CodeGenerator,ValidateIdentifiers</token>
 </entry>
-<entry count="48">
+<entry count="384">
 <token>System.CodeDom.Compiler.CodeDomProvider,Supports</token>
 <token>System.CodeDom.Compiler.CodeDomProvider,Supports</token>
 </entry>
-<entry count="28804">
+<entry count="466">
 <token>System.CodeDom.Compiler.IndentedTextWriter,WriteLine</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,Write</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,Write</token>
@@ -689,7 +732,7 @@
 <token>System.CodeDom.Compiler.CodeDomProvider,CreateProvider</token>
 <token>System.CodeDom.Compiler.CodeDomProvider,CompileAssemblyFromFile</token>
 </entry>
-<entry count="14260">
+<entry count="4">
 <token>System.CodeDom.Compiler.CodeDomProvider,CreateProvider</token>
 <token>System.CodeDom.Compiler.CodeDomProvider,CompileAssemblyFromSource</token>
 </entry>
@@ -716,7 +759,7 @@
 <token>System.CodeDom.Compiler.CodeGeneratorOptions,new</token>
 <token>System.CodeDom.Compiler.CodeDomProvider,GenerateCodeFromNamespace</token>
 </entry>
-<entry count="2">
+<entry count="32">
 <token>System.CodeDom.Compiler.IndentedTextWriter,WriteLine</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,WriteLine</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,WriteLine</token>
@@ -742,7 +785,7 @@
 <token>System.CodeDom.Compiler.CompilerParameters,new</token>
 <token>System.CodeDom.Compiler.CodeGeneratorOptions,new</token>
 </entry>
-<entry count="1">
+<entry count="200">
 <token>System.CodeDom.Compiler.IndentedTextWriter,WriteLine</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,Write</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,WriteLine</token>
@@ -753,7 +796,7 @@
 <token>System.CodeDom.Compiler.CompilerParameters,new</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,new</token>
 </entry>
-<entry count="166608">
+<entry count="238778">
 <token>System.CodeDom.Compiler.IndentedTextWriter,Write</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,Write</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,WriteLine</token>
@@ -784,19 +827,19 @@
 <token>System.CodeDom.Compiler.TempFileCollection,AddFile</token>
 <token>System.CodeDom.Compiler.TempFileCollection,AddFile</token>
 </entry>
-<entry count="190878">
+<entry count="254128">
 <token>System.CodeDom.Compiler.IndentedTextWriter,WriteLine</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,Write</token>
 </entry>
-<entry count="70">
+<entry count="334">
 <token>System.CodeDom.Compiler.CodeDomProvider,CreateProvider</token>
 <token>System.CodeDom.Compiler.CodeGeneratorOptions,new</token>
 </entry>
-<entry count="48">
+<entry count="384">
 <token>System.CodeDom.Compiler.CodeDomProvider,IsValidIdentifier</token>
 <token>System.CodeDom.Compiler.CodeDomProvider,Supports</token>
 </entry>
-<entry count="32">
+<entry count="128">
 <token>System.CodeDom.Compiler.CodeDomProvider,Parse</token>
 <token>System.CodeDom.Compiler.CodeGeneratorOptions,new</token>
 <token>System.CodeDom.Compiler.CodeDomProvider,GenerateCodeFromCompileUnit</token>
@@ -815,13 +858,13 @@
 <token>System.CodeDom.Compiler.CodeDomProvider,GenerateCodeFromCompileUnit</token>
 <token>System.CodeDom.Compiler.CodeDomProvider,CompileAssemblyFromSource</token>
 </entry>
-<entry count="15623">
+<entry count="1153">
 <token>System.CodeDom.Compiler.IndentedTextWriter,WriteLine</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,Write</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,WriteLine</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,Write</token>
 </entry>
-<entry count="2">
+<entry count="44">
 <token>System.CodeDom.Compiler.CompilerError,new</token>
 <token>System.CodeDom.Compiler.CompilerError,new</token>
 </entry>
@@ -829,16 +872,16 @@
 <token>System.CodeDom.Compiler.CompilerErrorCollection,Add</token>
 <token>System.CodeDom.Compiler.CompilerErrorCollection,AddRange</token>
 </entry>
-<entry count="967">
+<entry count="1431">
 <token>System.CodeDom.Compiler.CompilerParameters,new</token>
 <token>System.CodeDom.Compiler.CodeDomProvider,CompileAssemblyFromDom</token>
 </entry>
-<entry count="48">
+<entry count="384">
 <token>System.CodeDom.Compiler.CodeDomProvider,IsValidIdentifier</token>
 <token>System.CodeDom.Compiler.CodeDomProvider,Supports</token>
 <token>System.CodeDom.Compiler.CodeDomProvider,Supports</token>
 </entry>
-<entry count="3">
+<entry count="84">
 <token>System.CodeDom.Compiler.IndentedTextWriter,WriteLine</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,WriteLine</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,Write</token>
@@ -850,12 +893,12 @@
 <token>System.CodeDom.Compiler.TempFileCollection,AddFile</token>
 <token>System.CodeDom.Compiler.CodeDomProvider,CompileAssemblyFromSource</token>
 </entry>
-<entry count="16">
+<entry count="56">
 <token>System.CodeDom.Compiler.CodeDomProvider,CreateProvider</token>
 <token>System.CodeDom.Compiler.CompilerParameters,new</token>
 <token>System.CodeDom.Compiler.CodeDomProvider,CompileAssemblyFromDom</token>
 </entry>
-<entry count="160">
+<entry count="20480">
 <token>System.CodeDom.Compiler.TempFileCollection,new</token>
 <token>System.CodeDom.Compiler.CodeDomProvider,CompileAssemblyFromFile</token>
 <token>System.CodeDom.Compiler.CodeDomProvider,CompileAssemblyFromSource</token>
@@ -872,7 +915,7 @@
 <token>System.CodeDom.Compiler.CodeDomProvider,GenerateCodeFromCompileUnit</token>
 <token>System.CodeDom.Compiler.CodeDomProvider,CompileAssemblyFromDom</token>
 </entry>
-<entry count="33603">
+<entry count="129">
 <token>System.CodeDom.Compiler.IndentedTextWriter,WriteLine</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,Write</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,Write</token>
@@ -882,18 +925,23 @@
 <token>System.CodeDom.Compiler.CodeDomProvider,CreateProvider</token>
 <token>System.CodeDom.Compiler.CodeDomProvider,GetTypeOutput</token>
 </entry>
-<entry count="4">
+<entry count="21">
 <token>System.CodeDom.Compiler.IndentedTextWriter,WriteLine</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,WriteLine</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,Write</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,WriteLine</token>
 </entry>
-<entry count="1280">
+<entry count="4096">
+<token>System.CodeDom.Compiler.CodeDomProvider,GenerateCodeFromExpression</token>
+<token>System.CodeDom.Compiler.CodeDomProvider,CreateProvider</token>
+<token>System.CodeDom.Compiler.CodeDomProvider,GenerateCodeFromExpression</token>
+</entry>
+<entry count="21600">
 <token>System.CodeDom.Compiler.CompilerParameters,new</token>
 <token>System.CodeDom.Compiler.TempFileCollection,new</token>
 <token>System.CodeDom.Compiler.CodeDomProvider,CompileAssemblyFromFile</token>
 </entry>
-<entry count="2">
+<entry count="9">
 <token>System.CodeDom.Compiler.CodeGenerator,GenerateExpression</token>
 <token>System.CodeDom.Compiler.CodeGenerator,GenerateExpression</token>
 </entry>
@@ -904,7 +952,7 @@
 <token>System.CodeDom.Compiler.CodeDomProvider,GenerateCodeFromStatement</token>
 <token>System.CodeDom.Compiler.CodeDomProvider,CompileAssemblyFromSource</token>
 </entry>
-<entry count="92211">
+<entry count="368258">
 <token>System.CodeDom.Compiler.IndentedTextWriter,Write</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,Write</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,Write</token>
@@ -915,7 +963,7 @@
 <token>System.CodeDom.Compiler.CodeGeneratorOptions,new</token>
 <token>System.CodeDom.Compiler.ICodeGenerator,GenerateCodeFromNamespace</token>
 </entry>
-<entry count="114096">
+<entry count="62">
 <token>System.CodeDom.Compiler.IndentedTextWriter,Write</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,Write</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,WriteLine</token>
@@ -932,11 +980,11 @@
 <token>System.CodeDom.Compiler.CodeGenerator,GenerateExpression</token>
 <token>System.CodeDom.Compiler.CodeGenerator,GenerateStatements</token>
 </entry>
-<entry count="24">
+<entry count="64">
 <token>System.CodeDom.Compiler.CodeDomProvider,GenerateCodeFromCompileUnit</token>
 <token>System.CodeDom.Compiler.CompilerParameters,new</token>
 </entry>
-<entry count="208">
+<entry count="3304">
 <token>System.CodeDom.Compiler.IndentedTextWriter,Write</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,Write</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,WriteLine</token>
@@ -956,7 +1004,11 @@
 <token>System.CodeDom.Compiler.TempFileCollection,new</token>
 <token>System.CodeDom.Compiler.CodeDomProvider,CompileAssemblyFromSource</token>
 </entry>
-<entry count="341">
+<entry count="2">
+<token>System.CodeDom.Compiler.CodeGenerator,GenerateStatements</token>
+<token>System.CodeDom.Compiler.CodeGenerator,OutputExpressionList</token>
+</entry>
+<entry count="65861">
 <token>System.CodeDom.Compiler.CodeDomProvider,CreateProvider</token>
 <token>System.CodeDom.Compiler.CompilerParameters,new</token>
 <token>System.CodeDom.Compiler.CodeDomProvider,CompileAssemblyFromSource</token>
@@ -970,12 +1022,17 @@
 <token>System.CodeDom.Compiler.CodeGeneratorOptions,new</token>
 <token>System.CodeDom.Compiler.ICodeGenerator,GenerateCodeFromCompileUnit</token>
 </entry>
+<entry count="1">
+<token>System.CodeDom.Compiler.CodeGenerator,GenerateExpression</token>
+<token>System.CodeDom.Compiler.CodeGenerator,GenerateExpression</token>
+<token>System.CodeDom.Compiler.CodeGenerator,GenerateExpression</token>
+</entry>
 <entry count="8">
 <token>System.CodeDom.Compiler.CompilerErrorCollection,AddRange</token>
 <token>System.CodeDom.Compiler.CodeGeneratorOptions,new</token>
 <token>System.CodeDom.Compiler.CodeDomProvider,GenerateCodeFromCompileUnit</token>
 </entry>
-<entry count="16">
+<entry count="56">
 <token>System.CodeDom.Compiler.CodeDomProvider,GenerateCodeFromCompileUnit</token>
 <token>System.CodeDom.Compiler.CompilerParameters,new</token>
 <token>System.CodeDom.Compiler.CodeDomProvider,CompileAssemblyFromDom</token>
@@ -985,7 +1042,7 @@
 <token>System.CodeDom.Compiler.CompilerParameters,new</token>
 <token>System.CodeDom.Compiler.CodeDomProvider,CompileAssemblyFromFile</token>
 </entry>
-<entry count="37204">
+<entry count="133395">
 <token>System.CodeDom.Compiler.IndentedTextWriter,WriteLine</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,Write</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,Write</token>
@@ -996,7 +1053,7 @@
 <token>System.CodeDom.Compiler.CodeGenerator,GenerateCommentStatements</token>
 <token>System.CodeDom.Compiler.CodeGenerator,GenerateTypes</token>
 </entry>
-<entry count="155408">
+<entry count="238758">
 <token>System.CodeDom.Compiler.IndentedTextWriter,Write</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,Write</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,Write</token>
@@ -1007,31 +1064,35 @@
 <token>System.CodeDom.Compiler.CodeGenerator,GenerateStatement</token>
 <token>System.CodeDom.Compiler.CodeGenerator,GenerateExpression</token>
 </entry>
-<entry count="8400">
+<entry count="129729">
 <token>System.CodeDom.Compiler.IndentedTextWriter,WriteLine</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,Write</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,Write</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,Write</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,Write</token>
 </entry>
-<entry count="15623">
+<entry count="4096">
+<token>System.CodeDom.Compiler.CodeDomProvider,GenerateCodeFromExpression</token>
+<token>System.CodeDom.Compiler.CodeDomProvider,CreateProvider</token>
+</entry>
+<entry count="1149">
 <token>System.CodeDom.Compiler.IndentedTextWriter,Write</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,WriteLine</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,Write</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,WriteLine</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,Write</token>
 </entry>
-<entry count="957661">
+<entry count="3333030">
 <token>System.CodeDom.Compiler.IndentedTextWriter,Write</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,Write</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,Write</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,Write</token>
 </entry>
-<entry count="313">
+<entry count="10953">
 <token>System.CodeDom.Compiler.CompilerError,new</token>
 <token>System.CodeDom.Compiler.CompilerErrorCollection,Add</token>
 </entry>
-<entry count="216">
+<entry count="3395">
 <token>System.CodeDom.Compiler.IndentedTextWriter,WriteLine</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,WriteLine</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,Write</token>
@@ -1057,7 +1118,7 @@
 <token>System.CodeDom.Compiler.CodeGeneratorOptions,new</token>
 <token>System.CodeDom.Compiler.CodeDomProvider,GenerateCodeFromStatement</token>
 </entry>
-<entry count="182257">
+<entry count="240984">
 <token>System.CodeDom.Compiler.IndentedTextWriter,Write</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,WriteLine</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,Write</token>
@@ -1070,18 +1131,18 @@
 <token>System.CodeDom.Compiler.CodeDomProvider,CreateProvider</token>
 <token>System.CodeDom.Compiler.CodeDomProvider,GetConverter</token>
 </entry>
-<entry count="8">
+<entry count="216">
 <token>System.CodeDom.Compiler.CodeDomProvider,IsValidIdentifier</token>
 <token>System.CodeDom.Compiler.CodeDomProvider,CreateValidIdentifier</token>
 <token>System.CodeDom.Compiler.CodeDomProvider,IsValidIdentifier</token>
 <token>System.CodeDom.Compiler.CodeDomProvider,IsValidIdentifier</token>
 </entry>
-<entry count="66">
+<entry count="330">
 <token>System.CodeDom.Compiler.CodeDomProvider,CreateProvider</token>
 <token>System.CodeDom.Compiler.CodeGeneratorOptions,new</token>
 <token>System.CodeDom.Compiler.CodeDomProvider,GenerateCodeFromCompileUnit</token>
 </entry>
-<entry count="1302265">
+<entry count="12223035">
 <token>System.CodeDom.Compiler.IndentedTextWriter,WriteLine</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,WriteLine</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,WriteLine</token>
@@ -1095,30 +1156,30 @@
 <token>System.CodeDom.Compiler.CodeGeneratorOptions,new</token>
 <token>System.CodeDom.Compiler.CodeDomProvider,GenerateCodeFromType</token>
 </entry>
-<entry count="214149">
-<token>System.CodeDom.Compiler.IndentedTextWriter,Write</token>
-<token>System.CodeDom.Compiler.IndentedTextWriter,WriteLine</token>
-<token>System.CodeDom.Compiler.IndentedTextWriter,WriteLine</token>
-<token>System.CodeDom.Compiler.IndentedTextWriter,WriteLine</token>
-<token>System.CodeDom.Compiler.IndentedTextWriter,WriteLine</token>
-</entry>
-<entry count="8">
+<entry count="216">
 <token>System.CodeDom.Compiler.CodeDomProvider,CreateValidIdentifier</token>
 <token>System.CodeDom.Compiler.CodeDomProvider,IsValidIdentifier</token>
 </entry>
-<entry count="62401">
+<entry count="40">
+<token>System.CodeDom.Compiler.IndentedTextWriter,Write</token>
+<token>System.CodeDom.Compiler.IndentedTextWriter,WriteLine</token>
+<token>System.CodeDom.Compiler.IndentedTextWriter,WriteLine</token>
+<token>System.CodeDom.Compiler.IndentedTextWriter,WriteLine</token>
+<token>System.CodeDom.Compiler.IndentedTextWriter,WriteLine</token>
+</entry>
+<entry count="123630">
 <token>System.CodeDom.Compiler.IndentedTextWriter,Write</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,WriteLine</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,Write</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,Write</token>
 </entry>
-<entry count="119648">
+<entry count="117354">
 <token>System.CodeDom.Compiler.IndentedTextWriter,Write</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,WriteLine</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,Write</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,WriteLine</token>
 </entry>
-<entry count="16">
+<entry count="56">
 <token>System.CodeDom.Compiler.CodeGeneratorOptions,new</token>
 <token>System.CodeDom.Compiler.CodeDomProvider,GenerateCodeFromCompileUnit</token>
 <token>System.CodeDom.Compiler.CompilerParameters,new</token>
@@ -1128,6 +1189,13 @@
 <token>System.CodeDom.Compiler.CompilerErrorCollection,new</token>
 <token>System.CodeDom.Compiler.CodeDomProvider,GenerateCodeFromCompileUnit</token>
 </entry>
+<entry count="23">
+<token>System.CodeDom.Compiler.IndentedTextWriter,Write</token>
+<token>System.CodeDom.Compiler.IndentedTextWriter,WriteLine</token>
+<token>System.CodeDom.Compiler.IndentedTextWriter,WriteLine</token>
+<token>System.CodeDom.Compiler.IndentedTextWriter,WriteLine</token>
+<token>System.CodeDom.Compiler.IndentedTextWriter,Write</token>
+</entry>
 <entry count="4">
 <token>System.CodeDom.Compiler.CompilerErrorCollection,AddRange</token>
 <token>System.CodeDom.Compiler.CodeDomProvider,CreateValidIdentifier</token>
@@ -1135,34 +1203,39 @@
 <token>System.CodeDom.Compiler.CodeGeneratorOptions,new</token>
 <token>System.CodeDom.Compiler.CodeDomProvider,GenerateCodeFromCompileUnit</token>
 </entry>
-<entry count="16">
+<entry count="56">
 <token>System.CodeDom.Compiler.CodeDomProvider,CreateProvider</token>
 <token>System.CodeDom.Compiler.CodeGeneratorOptions,new</token>
 <token>System.CodeDom.Compiler.CodeDomProvider,GenerateCodeFromCompileUnit</token>
 <token>System.CodeDom.Compiler.CompilerParameters,new</token>
 <token>System.CodeDom.Compiler.CodeDomProvider,CompileAssemblyFromDom</token>
 </entry>
-<entry count="32">
+<entry count="256">
 <token>System.CodeDom.Compiler.CodeDomProvider,IsValidIdentifier</token>
 <token>System.CodeDom.Compiler.CodeDomProvider,IsValidIdentifier</token>
 <token>System.CodeDom.Compiler.CodeDomProvider,IsValidIdentifier</token>
 <token>System.CodeDom.Compiler.CodeDomProvider,Supports</token>
 </entry>
+<entry count="1">
+<token>System.CodeDom.Compiler.CodeGenerator,OutputParameters</token>
+<token>System.CodeDom.Compiler.CodeGenerator,GenerateStatements</token>
+<token>System.CodeDom.Compiler.CodeGenerator,OutputExpressionList</token>
+</entry>
 <entry count="540">
 <token>System.CodeDom.Compiler.CodeDomProvider,CompileAssemblyFromDom</token>
 <token>System.CodeDom.Compiler.TempFileCollection,new</token>
+</entry>
+<entry count="3374">
+<token>System.CodeDom.Compiler.IndentedTextWriter,WriteLine</token>
+<token>System.CodeDom.Compiler.IndentedTextWriter,WriteLine</token>
+<token>System.CodeDom.Compiler.IndentedTextWriter,Write</token>
+<token>System.CodeDom.Compiler.IndentedTextWriter,Write</token>
 </entry>
 <entry count="8">
 <token>System.CodeDom.Compiler.CompilerParameters,new</token>
 <token>System.CodeDom.Compiler.CodeGeneratorOptions,new</token>
 <token>System.CodeDom.Compiler.CodeDomProvider,GenerateCodeFromStatement</token>
 <token>System.CodeDom.Compiler.CodeDomProvider,CompileAssemblyFromSource</token>
-</entry>
-<entry count="4">
-<token>System.CodeDom.Compiler.IndentedTextWriter,WriteLine</token>
-<token>System.CodeDom.Compiler.IndentedTextWriter,WriteLine</token>
-<token>System.CodeDom.Compiler.IndentedTextWriter,Write</token>
-<token>System.CodeDom.Compiler.IndentedTextWriter,Write</token>
 </entry>
 <entry count="1">
 <token>System.CodeDom.Compiler.CompilerParameters,new</token>
@@ -1177,13 +1250,13 @@
 <token>System.CodeDom.Compiler.CodeGeneratorOptions,new</token>
 <token>System.CodeDom.Compiler.CodeDomProvider,CompileAssemblyFromSource</token>
 </entry>
-<entry count="247620">
+<entry count="607191">
 <token>System.CodeDom.Compiler.IndentedTextWriter,Write</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,Write</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,Write</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,WriteLine</token>
 </entry>
-<entry count="40">
+<entry count="5120">
 <token>System.CodeDom.Compiler.CompilerParameters,new</token>
 <token>System.CodeDom.Compiler.CodeDomProvider,CompileAssemblyFromFile</token>
 <token>System.CodeDom.Compiler.CodeDomProvider,CompileAssemblyFromSource</token>
@@ -1196,23 +1269,23 @@
 <token>System.CodeDom.Compiler.CodeGenerator,GenerateExpression</token>
 <token>System.CodeDom.Compiler.CodeGenerator,GenerateStatements</token>
 </entry>
-<entry count="104012">
+<entry count="115301">
 <token>System.CodeDom.Compiler.IndentedTextWriter,Write</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,WriteLine</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,Write</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,WriteLine</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,WriteLine</token>
 </entry>
-<entry count="218645">
+<entry count="483675">
 <token>System.CodeDom.Compiler.IndentedTextWriter,Write</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,WriteLine</token>
 <token>System.CodeDom.Compiler.IndentedTextWriter,WriteLine</token>
 </entry>
-<entry count="1">
+<entry count="2">
 <token>System.CodeDom.Compiler.CodeGenerator,OutputParameters</token>
 <token>System.CodeDom.Compiler.CodeGenerator,GenerateStatements</token>
 </entry>
-<entry count="48">
+<entry count="384">
 <token>System.CodeDom.Compiler.CodeDomProvider,IsValidIdentifier</token>
 <token>System.CodeDom.Compiler.CodeDomProvider,IsValidIdentifier</token>
 <token>System.CodeDom.Compiler.CodeDomProvider,Supports</token>

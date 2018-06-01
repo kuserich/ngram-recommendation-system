@@ -1,0 +1,1202 @@
+<?xml version="1.0" encoding="UTF-8"?><dictionary case_sensitive="false">
+<entry count="4">
+<token>Sigil.Emit,Box</token>
+<token>Sigil.Emit,StoreIndirect</token>
+</entry>
+<entry count="4">
+<token>Sigil.Emit,CreateMethod</token>
+<token>Sigil.Emit,BuildInstanceMethod</token>
+</entry>
+<entry count="4">
+<token>Sigil.Emit,CreateMethod</token>
+<token>Sigil.Emit,BuildInstanceMethod</token>
+<token>Sigil.Emit,LoadConstant</token>
+</entry>
+<entry count="2">
+<token>Sigil.Emit,UnboxAny</token>
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,CastClass</token>
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,CastClass</token>
+</entry>
+<entry count="4">
+<token>Sigil.Emit,Unbox</token>
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,UnboxAny</token>
+<token>Sigil.Emit,LoadArgument</token>
+</entry>
+<entry count="2">
+<token>Sigil.Emit,CastClass</token>
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,UnboxAny</token>
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,CastClass</token>
+</entry>
+<entry count="4">
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,Unbox</token>
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,UnboxAny</token>
+</entry>
+<entry count="8">
+<token>Sigil.Emit,BuildInstanceMethod</token>
+<token>Sigil.Emit,LoadConstant</token>
+<token>Sigil.Emit,Convert</token>
+<token>Sigil.Emit,Return</token>
+</entry>
+<entry count="4">
+<token>Sigil.Emit,NewDynamicMethod</token>
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,UnboxAny</token>
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,CastClass</token>
+</entry>
+<entry count="12">
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,UnboxAny</token>
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,UnboxAny</token>
+</entry>
+<entry count="8">
+<token>Sigil.Emit,Convert</token>
+<token>Sigil.Emit,Return</token>
+</entry>
+<entry count="4">
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,UnboxAny</token>
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,CastClass</token>
+<token>Sigil.Emit,LoadArgument</token>
+</entry>
+<entry count="4">
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,UnboxAny</token>
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,UnboxAny</token>
+<token>Sigil.Emit,Or</token>
+</entry>
+<entry count="4">
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,UnboxAny</token>
+<token>Sigil.Emit,Or</token>
+<token>Sigil.Emit,StoreObject</token>
+</entry>
+<entry count="2">
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,Or</token>
+<token>Sigil.Emit,Return</token>
+</entry>
+<entry count="32">
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,CastClass</token>
+<token>Sigil.Emit,LoadFieldAddress</token>
+<token>Sigil.Emit,Convert</token>
+<token>Sigil.Emit,StoreElement</token>
+</entry>
+<entry count="4">
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,UnboxAny</token>
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,UnboxAny</token>
+<token>Sigil.Emit,Call</token>
+</entry>
+<entry count="32">
+<token>Sigil.Emit,LoadFieldAddress</token>
+<token>Sigil.Emit,Convert</token>
+<token>Sigil.Emit,StoreElement</token>
+<token>Sigil.Emit,LoadLocal</token>
+</entry>
+<entry count="32">
+<token>Sigil.Emit,LoadLocal</token>
+<token>Sigil.Emit,LoadConstant</token>
+<token>Sigil.Emit,LoadArgument</token>
+</entry>
+<entry count="32">
+<token>Sigil.Emit,LoadFieldAddress</token>
+<token>Sigil.Emit,Convert</token>
+<token>Sigil.Emit,StoreElement</token>
+</entry>
+<entry count="8">
+<token>Sigil.Emit,NewDynamicMethod</token>
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,UnboxAny</token>
+</entry>
+<entry count="4">
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,LoadLocal</token>
+<token>Sigil.Emit,Box</token>
+<token>Sigil.Emit,StoreIndirect</token>
+</entry>
+<entry count="64">
+<token>Sigil.Emit,LoadConstant</token>
+<token>Sigil.Emit,NewArray</token>
+<token>Sigil.Emit,StoreLocal</token>
+<token>Sigil.Emit,LoadLocal</token>
+</entry>
+<entry count="4">
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,LoadLocal</token>
+</entry>
+<entry count="4">
+<token>Sigil.Emit,NewDynamicMethod</token>
+<token>Sigil.Emit,DeclareLocal</token>
+<token>Sigil.Emit,LoadArgument</token>
+</entry>
+<entry count="4">
+<token>Sigil.Emit,NewDynamicMethod</token>
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,Unbox</token>
+</entry>
+<entry count="4">
+<token>Sigil.Emit,LoadLocal</token>
+<token>Sigil.Emit,Box</token>
+</entry>
+<entry count="4">
+<token>Sigil.Emit,NewDynamicMethod</token>
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,CastClass</token>
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,UnboxAny</token>
+</entry>
+<entry count="64">
+<token>Sigil.Emit,NewDynamicMethod</token>
+<token>Sigil.Emit,DeclareLocal</token>
+<token>Sigil.Emit,LoadConstant</token>
+</entry>
+<entry count="64">
+<token>Sigil.Emit,NewDynamicMethod</token>
+<token>Sigil.Emit,DeclareLocal</token>
+<token>Sigil.Emit,LoadConstant</token>
+<token>Sigil.Emit,NewArray</token>
+</entry>
+<entry count="32">
+<token>Sigil.Emit,LoadConstant</token>
+<token>Sigil.Emit,NewArray</token>
+<token>Sigil.Emit,StoreLocal</token>
+<token>Sigil.Emit,LoadLocal</token>
+<token>Sigil.Emit,LoadConstant</token>
+</entry>
+<entry count="4">
+<token>Sigil.Emit,CastClass</token>
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,UnboxAny</token>
+<token>Sigil.Emit,Call</token>
+</entry>
+<entry count="4">
+<token>Sigil.Emit,LoadLocalAddress</token>
+<token>Sigil.Emit,Call</token>
+</entry>
+<entry count="4">
+<token>Sigil.Emit,DeclareLocal</token>
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,LoadLocalAddress</token>
+<token>Sigil.Emit,Call</token>
+</entry>
+<entry count="32">
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,CastClass</token>
+<token>Sigil.Emit,LoadFieldAddress</token>
+</entry>
+<entry count="4">
+<token>Sigil.Emit,Unbox</token>
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,UnboxAny</token>
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,UnboxAny</token>
+</entry>
+<entry count="8">
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,CastClass</token>
+<token>Sigil.Emit,Call</token>
+<token>Sigil.Emit,Return</token>
+<token>Sigil.Emit,CreateDelegate</token>
+</entry>
+<entry count="64">
+<token>Sigil.Emit,StoreLocal</token>
+<token>Sigil.Emit,LoadLocal</token>
+</entry>
+<entry count="4">
+<token>Sigil.Emit,Box</token>
+<token>Sigil.Emit,StoreIndirect</token>
+<token>Sigil.Emit,Return</token>
+<token>Sigil.Emit,CreateDelegate</token>
+</entry>
+<entry count="32">
+<token>Sigil.Emit,StoreLocal</token>
+<token>Sigil.Emit,LoadLocal</token>
+<token>Sigil.Emit,LoadConstant</token>
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,CastClass</token>
+</entry>
+<entry count="4">
+<token>Sigil.Emit,StoreIndirect</token>
+<token>Sigil.Emit,Return</token>
+<token>Sigil.Emit,CreateDelegate</token>
+</entry>
+<entry count="4">
+<token>Sigil.Emit,LoadLocalAddress</token>
+<token>Sigil.Emit,Call</token>
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,LoadLocal</token>
+</entry>
+<entry count="4">
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,Unbox</token>
+</entry>
+<entry count="4">
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,CastClass</token>
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,UnboxAny</token>
+<token>Sigil.Emit,Call</token>
+</entry>
+<entry count="4">
+<token>Sigil.Emit,NewDynamicMethod</token>
+<token>Sigil.Emit,DeclareLocal</token>
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,LoadLocalAddress</token>
+</entry>
+<entry count="8">
+<token>Sigil.Emit,BuildInstanceMethod</token>
+<token>Sigil.Emit,LoadConstant</token>
+</entry>
+<entry count="4">
+<token>Sigil.Emit,DeclareLocal</token>
+<token>Sigil.Emit,LoadArgument</token>
+</entry>
+<entry count="20352">
+<token>Sigil.Local,Dispose</token>
+<token>Sigil.Local,Dispose</token>
+<token>Sigil.Local,Dispose</token>
+<token>Sigil.Local,Dispose</token>
+<token>Sigil.Local,Dispose</token>
+</entry>
+<entry count="2">
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,Or</token>
+</entry>
+<entry count="8">
+<token>Sigil.Emit,LoadConstant</token>
+<token>Sigil.Emit,Convert</token>
+</entry>
+<entry count="4">
+<token>Sigil.Emit,CastClass</token>
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,CastClass</token>
+<token>Sigil.Emit,LoadArgument</token>
+</entry>
+<entry count="4">
+<token>Sigil.Emit,UnboxAny</token>
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,CastClass</token>
+<token>Sigil.Emit,Call</token>
+<token>Sigil.Emit,Return</token>
+</entry>
+<entry count="4">
+<token>Sigil.Emit,Convert</token>
+<token>Sigil.Emit,Return</token>
+<token>Sigil.Emit,CreateMethod</token>
+<token>Sigil.Emit,BuildInstanceMethod</token>
+</entry>
+<entry count="32">
+<token>Sigil.Emit,Convert</token>
+<token>Sigil.Emit,StoreElement</token>
+</entry>
+<entry count="32">
+<token>Sigil.Emit,Convert</token>
+<token>Sigil.Emit,StoreElement</token>
+<token>Sigil.Emit,LoadLocal</token>
+</entry>
+<entry count="4">
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,CastClass</token>
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,CastClass</token>
+<token>Sigil.Emit,LoadArgument</token>
+</entry>
+<entry count="4">
+<token>Sigil.Emit,LoadConstant</token>
+<token>Sigil.Emit,Convert</token>
+<token>Sigil.Emit,Return</token>
+<token>Sigil.Emit,CreateMethod</token>
+<token>Sigil.Emit,BuildInstanceMethod</token>
+</entry>
+<entry count="64">
+<token>Sigil.Emit,LoadConstant</token>
+<token>Sigil.Emit,NewArray</token>
+<token>Sigil.Emit,StoreLocal</token>
+</entry>
+<entry count="4">
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,UnboxAny</token>
+<token>Sigil.Emit,Or</token>
+</entry>
+<entry count="2">
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,Or</token>
+<token>Sigil.Emit,Return</token>
+</entry>
+<entry count="8">
+<token>Sigil.Emit,UnboxAny</token>
+<token>Sigil.Emit,Call</token>
+</entry>
+<entry count="16">
+<token>Sigil.Emit,CastClass</token>
+<token>Sigil.Emit,LoadArgument</token>
+</entry>
+<entry count="4">
+<token>Sigil.Emit,Call</token>
+<token>Sigil.Emit,LoadArgument</token>
+</entry>
+<entry count="4">
+<token>Sigil.Emit,NewDynamicMethod</token>
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,UnboxAny</token>
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,UnboxAny</token>
+</entry>
+<entry count="8">
+<token>Sigil.Emit,Return</token>
+<token>Sigil.Emit,CreateMethod</token>
+</entry>
+<entry count="32">
+<token>Sigil.Emit,NewArray</token>
+<token>Sigil.Emit,StoreLocal</token>
+<token>Sigil.Emit,LoadLocal</token>
+<token>Sigil.Emit,LoadConstant</token>
+</entry>
+<entry count="4">
+<token>Sigil.Emit,UnboxAny</token>
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,UnboxAny</token>
+<token>Sigil.Emit,Or</token>
+</entry>
+<entry count="2">
+<token>Sigil.Emit,CastClass</token>
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,UnboxAny</token>
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,UnboxAny</token>
+</entry>
+<entry count="64">
+<token>Sigil.Emit,NewArray</token>
+<token>Sigil.Emit,StoreLocal</token>
+<token>Sigil.Emit,LoadLocal</token>
+</entry>
+<entry count="4">
+<token>Sigil.Emit,UnboxAny</token>
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,UnboxAny</token>
+<token>Sigil.Emit,Call</token>
+</entry>
+<entry count="64">
+<token>Sigil.Emit,LoadLocal</token>
+<token>Sigil.Emit,Return</token>
+</entry>
+<entry count="32">
+<token>Sigil.Emit,LoadFieldAddress</token>
+<token>Sigil.Emit,Convert</token>
+<token>Sigil.Emit,StoreElement</token>
+<token>Sigil.Emit,LoadLocal</token>
+<token>Sigil.Emit,Return</token>
+</entry>
+<entry count="8">
+<token>Sigil.Emit,UnboxAny</token>
+<token>Sigil.Emit,Call</token>
+<token>Sigil.Emit,Return</token>
+</entry>
+<entry count="4">
+<token>Sigil.Emit,UnboxAny</token>
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,CastClass</token>
+<token>Sigil.Emit,Call</token>
+</entry>
+<entry count="4">
+<token>Sigil.Emit,Convert</token>
+<token>Sigil.Emit,Return</token>
+<token>Sigil.Emit,CreateMethod</token>
+<token>Sigil.Emit,BuildInstanceMethod</token>
+<token>Sigil.Emit,LoadConstant</token>
+</entry>
+<entry count="4">
+<token>Sigil.Emit,UnboxAny</token>
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,UnboxAny</token>
+<token>Sigil.Emit,Or</token>
+<token>Sigil.Emit,StoreObject</token>
+</entry>
+<entry count="4">
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,LoadLocalAddress</token>
+<token>Sigil.Emit,Call</token>
+</entry>
+<entry count="4">
+<token>Sigil.Emit,LoadLocalAddress</token>
+<token>Sigil.Emit,Call</token>
+<token>Sigil.Emit,LoadArgument</token>
+</entry>
+<entry count="32">
+<token>Sigil.Emit,LoadLocal</token>
+<token>Sigil.Emit,LoadConstant</token>
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,CastClass</token>
+<token>Sigil.Emit,LoadFieldAddress</token>
+</entry>
+<entry count="8">
+<token>Sigil.Emit,BuildInstanceMethod</token>
+<token>Sigil.Emit,LoadConstant</token>
+<token>Sigil.Emit,Convert</token>
+</entry>
+<entry count="32">
+<token>Sigil.Emit,LoadConstant</token>
+<token>Sigil.Emit,LoadArgument</token>
+</entry>
+<entry count="64">
+<token>Sigil.Emit,DeclareLocal</token>
+<token>Sigil.Emit,LoadConstant</token>
+<token>Sigil.Emit,NewArray</token>
+<token>Sigil.Emit,StoreLocal</token>
+</entry>
+<entry count="4">
+<token>Sigil.Emit,UnboxAny</token>
+<token>Sigil.Emit,Or</token>
+<token>Sigil.Emit,StoreObject</token>
+<token>Sigil.Emit,Return</token>
+<token>Sigil.Emit,CreateDelegate</token>
+</entry>
+<entry count="8">
+<token>Sigil.Emit,NewDynamicMethod</token>
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,CastClass</token>
+<token>Sigil.Emit,LoadArgument</token>
+</entry>
+<entry count="4">
+<token>Sigil.Emit,UnboxAny</token>
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,CastClass</token>
+<token>Sigil.Emit,LoadArgument</token>
+</entry>
+<entry count="2">
+<token>Sigil.Emit,NewDynamicMethod</token>
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,LoadArgument</token>
+</entry>
+<entry count="45312">
+<token>Sigil.Local,Dispose</token>
+<token>Sigil.Local,Dispose</token>
+<token>Sigil.Local,Dispose</token>
+<token>Sigil.Local,Dispose</token>
+</entry>
+<entry count="8">
+<token>Sigil.Emit,UnboxAny</token>
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,CastClass</token>
+</entry>
+<entry count="8">
+<token>Sigil.Emit,LoadConstant</token>
+<token>Sigil.Emit,Convert</token>
+<token>Sigil.Emit,Return</token>
+</entry>
+<entry count="32">
+<token>Sigil.Emit,LoadFieldAddress</token>
+<token>Sigil.Emit,Convert</token>
+</entry>
+<entry count="2">
+<token>Sigil.Emit,CastClass</token>
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,CastClass</token>
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,UnboxAny</token>
+</entry>
+<entry count="8">
+<token>Sigil.Emit,CastClass</token>
+<token>Sigil.Emit,Call</token>
+<token>Sigil.Emit,Return</token>
+</entry>
+<entry count="32">
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,UnboxAny</token>
+</entry>
+<entry count="4">
+<token>Sigil.Emit,UnboxAny</token>
+<token>Sigil.Emit,Or</token>
+<token>Sigil.Emit,StoreObject</token>
+</entry>
+<entry count="32">
+<token>Sigil.Emit,LoadLocal</token>
+<token>Sigil.Emit,LoadConstant</token>
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,CastClass</token>
+</entry>
+<entry count="4">
+<token>Sigil.Emit,Return</token>
+<token>Sigil.Emit,CreateMethod</token>
+<token>Sigil.Emit,BuildInstanceMethod</token>
+<token>Sigil.Emit,LoadConstant</token>
+</entry>
+<entry count="32">
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,CastClass</token>
+<token>Sigil.Emit,LoadFieldAddress</token>
+<token>Sigil.Emit,Convert</token>
+</entry>
+<entry count="4">
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,LoadLocalAddress</token>
+</entry>
+<entry count="90">
+<token>Sigil.Emit,Return</token>
+<token>Sigil.Emit,CreateDelegate</token>
+</entry>
+<entry count="4">
+<token>Sigil.Emit,StoreObject</token>
+<token>Sigil.Emit,Return</token>
+<token>Sigil.Emit,CreateDelegate</token>
+</entry>
+<entry count="8">
+<token>Sigil.Emit,NewDynamicMethod</token>
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,UnboxAny</token>
+<token>Sigil.Emit,LoadArgument</token>
+</entry>
+<entry count="4">
+<token>Sigil.Emit,NewDynamicMethod</token>
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,Unbox</token>
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,UnboxAny</token>
+</entry>
+<entry count="64">
+<token>Sigil.Emit,NewArray</token>
+<token>Sigil.Emit,StoreLocal</token>
+</entry>
+<entry count="32">
+<token>Sigil.Emit,Convert</token>
+<token>Sigil.Emit,StoreElement</token>
+<token>Sigil.Emit,LoadLocal</token>
+<token>Sigil.Emit,Return</token>
+<token>Sigil.Emit,CreateDelegate</token>
+</entry>
+<entry count="32">
+<token>Sigil.Emit,StoreElement</token>
+<token>Sigil.Emit,LoadLocal</token>
+</entry>
+<entry count="32">
+<token>Sigil.Emit,LoadConstant</token>
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,CastClass</token>
+<token>Sigil.Emit,LoadFieldAddress</token>
+<token>Sigil.Emit,Convert</token>
+</entry>
+<entry count="4">
+<token>Sigil.Emit,NewDynamicMethod</token>
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,Unbox</token>
+<token>Sigil.Emit,LoadArgument</token>
+</entry>
+<entry count="32">
+<token>Sigil.Emit,LoadLocal</token>
+<token>Sigil.Emit,LoadConstant</token>
+</entry>
+<entry count="2">
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,Or</token>
+<token>Sigil.Emit,Return</token>
+<token>Sigil.Emit,CreateDelegate</token>
+</entry>
+<entry count="4">
+<token>Sigil.Emit,LoadLocal</token>
+<token>Sigil.Emit,Box</token>
+<token>Sigil.Emit,StoreIndirect</token>
+<token>Sigil.Emit,Return</token>
+</entry>
+<entry count="16">
+<token>Sigil.Emit,Call</token>
+<token>Sigil.Emit,Return</token>
+</entry>
+<entry count="4">
+<token>Sigil.Emit,StoreIndirect</token>
+<token>Sigil.Emit,Return</token>
+</entry>
+<entry count="32">
+<token>Sigil.Emit,StoreLocal</token>
+<token>Sigil.Emit,LoadLocal</token>
+<token>Sigil.Emit,LoadConstant</token>
+</entry>
+<entry count="4">
+<token>Sigil.Emit,CreateMethod</token>
+<token>Sigil.Emit,BuildInstanceMethod</token>
+<token>Sigil.Emit,LoadConstant</token>
+<token>Sigil.Emit,Convert</token>
+</entry>
+<entry count="4">
+<token>Sigil.Emit,UnboxAny</token>
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,UnboxAny</token>
+<token>Sigil.Emit,LoadArgument</token>
+</entry>
+<entry count="2">
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,LoadArgument</token>
+</entry>
+<entry count="32">
+<token>Sigil.Emit,NewArray</token>
+<token>Sigil.Emit,StoreLocal</token>
+<token>Sigil.Emit,LoadLocal</token>
+<token>Sigil.Emit,Return</token>
+<token>Sigil.Emit,CreateDelegate</token>
+</entry>
+<entry count="64">
+<token>Sigil.Emit,NewDynamicMethod</token>
+<token>Sigil.Emit,DeclareLocal</token>
+<token>Sigil.Emit,LoadConstant</token>
+<token>Sigil.Emit,NewArray</token>
+<token>Sigil.Emit,StoreLocal</token>
+</entry>
+<entry count="4">
+<token>Sigil.Emit,CastClass</token>
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,UnboxAny</token>
+<token>Sigil.Emit,LoadArgument</token>
+</entry>
+<entry count="32">
+<token>Sigil.Emit,Convert</token>
+<token>Sigil.Emit,StoreElement</token>
+<token>Sigil.Emit,LoadLocal</token>
+<token>Sigil.Emit,Return</token>
+</entry>
+<entry count="8">
+<token>Sigil.Emit,UnboxAny</token>
+<token>Sigil.Emit,Call</token>
+<token>Sigil.Emit,Return</token>
+<token>Sigil.Emit,CreateDelegate</token>
+</entry>
+<entry count="32">
+<token>Sigil.Emit,StoreElement</token>
+<token>Sigil.Emit,LoadLocal</token>
+<token>Sigil.Emit,Return</token>
+<token>Sigil.Emit,CreateDelegate</token>
+</entry>
+<entry count="8">
+<token>Sigil.Emit,CastClass</token>
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,CastClass</token>
+</entry>
+<entry count="4">
+<token>Sigil.Emit,NewDynamicMethod</token>
+<token>Sigil.Emit,DeclareLocal</token>
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,LoadLocalAddress</token>
+<token>Sigil.Emit,Call</token>
+</entry>
+<entry count="4">
+<token>Sigil.Emit,Call</token>
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,LoadLocal</token>
+</entry>
+<entry count="4">
+<token>Sigil.Emit,UnboxAny</token>
+<token>Sigil.Emit,Or</token>
+<token>Sigil.Emit,StoreObject</token>
+<token>Sigil.Emit,Return</token>
+</entry>
+<entry count="4">
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,CastClass</token>
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,CastClass</token>
+<token>Sigil.Emit,Call</token>
+</entry>
+<entry count="2">
+<token>Sigil.Emit,NewDynamicMethod</token>
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,Or</token>
+</entry>
+<entry count="32">
+<token>Sigil.Emit,NewArray</token>
+<token>Sigil.Emit,StoreLocal</token>
+<token>Sigil.Emit,LoadLocal</token>
+<token>Sigil.Emit,Return</token>
+</entry>
+<entry count="8">
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,CastClass</token>
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,UnboxAny</token>
+</entry>
+<entry count="79680">
+<token>Sigil.Local,Dispose</token>
+<token>Sigil.Local,Dispose</token>
+<token>Sigil.Local,Dispose</token>
+</entry>
+<entry count="4">
+<token>Sigil.Emit,Box</token>
+<token>Sigil.Emit,StoreIndirect</token>
+<token>Sigil.Emit,Return</token>
+</entry>
+<entry count="4">
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,UnboxAny</token>
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,CastClass</token>
+<token>Sigil.Emit,Call</token>
+</entry>
+<entry count="4">
+<token>Sigil.Emit,Or</token>
+<token>Sigil.Emit,StoreObject</token>
+<token>Sigil.Emit,Return</token>
+</entry>
+<entry count="4">
+<token>Sigil.Emit,StoreObject</token>
+<token>Sigil.Emit,Return</token>
+</entry>
+<entry count="64">
+<token>Sigil.Emit,DeclareLocal</token>
+<token>Sigil.Emit,LoadConstant</token>
+<token>Sigil.Emit,NewArray</token>
+</entry>
+<entry count="4">
+<token>Sigil.Emit,LoadLocalAddress</token>
+<token>Sigil.Emit,Call</token>
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,LoadLocal</token>
+<token>Sigil.Emit,Box</token>
+</entry>
+<entry count="8">
+<token>Sigil.Emit,CastClass</token>
+<token>Sigil.Emit,Call</token>
+</entry>
+<entry count="4">
+<token>Sigil.Emit,Or</token>
+<token>Sigil.Emit,StoreObject</token>
+<token>Sigil.Emit,Return</token>
+<token>Sigil.Emit,CreateDelegate</token>
+</entry>
+<entry count="8">
+<token>Sigil.Emit,CastClass</token>
+<token>Sigil.Emit,Call</token>
+<token>Sigil.Emit,Return</token>
+<token>Sigil.Emit,CreateDelegate</token>
+</entry>
+<entry count="4">
+<token>Sigil.Emit,DeclareLocal</token>
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,LoadLocalAddress</token>
+</entry>
+<entry count="2">
+<token>Sigil.Emit,UnboxAny</token>
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,UnboxAny</token>
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,CastClass</token>
+</entry>
+<entry count="2">
+<token>Sigil.Emit,UnboxAny</token>
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,UnboxAny</token>
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,UnboxAny</token>
+</entry>
+<entry count="32">
+<token>Sigil.Emit,LoadConstant</token>
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,CastClass</token>
+</entry>
+<entry count="32">
+<token>Sigil.Emit,CastClass</token>
+<token>Sigil.Emit,LoadFieldAddress</token>
+<token>Sigil.Emit,Convert</token>
+<token>Sigil.Emit,StoreElement</token>
+<token>Sigil.Emit,LoadLocal</token>
+</entry>
+<entry count="8">
+<token>Sigil.Emit,Convert</token>
+<token>Sigil.Emit,Return</token>
+<token>Sigil.Emit,CreateMethod</token>
+</entry>
+<entry count="8">
+<token>Sigil.Emit,BuildInstanceMethod</token>
+<token>Sigil.Emit,LoadConstant</token>
+<token>Sigil.Emit,Convert</token>
+<token>Sigil.Emit,Return</token>
+<token>Sigil.Emit,CreateMethod</token>
+</entry>
+<entry count="22">
+<token>Sigil.Emit,NewDynamicMethod</token>
+<token>Sigil.Emit,LoadArgument</token>
+</entry>
+<entry count="4">
+<token>Sigil.Emit,UnboxAny</token>
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,UnboxAny</token>
+<token>Sigil.Emit,Call</token>
+<token>Sigil.Emit,Return</token>
+</entry>
+<entry count="4">
+<token>Sigil.Emit,DeclareLocal</token>
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,LoadLocalAddress</token>
+<token>Sigil.Emit,Call</token>
+<token>Sigil.Emit,LoadArgument</token>
+</entry>
+<entry count="4">
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,LoadLocalAddress</token>
+<token>Sigil.Emit,Call</token>
+<token>Sigil.Emit,LoadArgument</token>
+</entry>
+<entry count="8">
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,UnboxAny</token>
+<token>Sigil.Emit,Call</token>
+<token>Sigil.Emit,Return</token>
+<token>Sigil.Emit,CreateDelegate</token>
+</entry>
+<entry count="68">
+<token>Sigil.Emit,NewDynamicMethod</token>
+<token>Sigil.Emit,DeclareLocal</token>
+</entry>
+<entry count="16">
+<token>Sigil.Emit,Call</token>
+<token>Sigil.Emit,Return</token>
+<token>Sigil.Emit,CreateDelegate</token>
+</entry>
+<entry count="4">
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,CastClass</token>
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,UnboxAny</token>
+<token>Sigil.Emit,LoadArgument</token>
+</entry>
+<entry count="4">
+<token>Sigil.Emit,LoadLocal</token>
+<token>Sigil.Emit,Box</token>
+<token>Sigil.Emit,StoreIndirect</token>
+</entry>
+<entry count="8">
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,CastClass</token>
+<token>Sigil.Emit,Call</token>
+<token>Sigil.Emit,Return</token>
+</entry>
+<entry count="2">
+<token>Sigil.Emit,UnboxAny</token>
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,CastClass</token>
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,UnboxAny</token>
+</entry>
+<entry count="32">
+<token>Sigil.Emit,StoreElement</token>
+<token>Sigil.Emit,LoadLocal</token>
+<token>Sigil.Emit,Return</token>
+</entry>
+<entry count="32">
+<token>Sigil.Emit,NewArray</token>
+<token>Sigil.Emit,StoreLocal</token>
+<token>Sigil.Emit,LoadLocal</token>
+<token>Sigil.Emit,LoadConstant</token>
+<token>Sigil.Emit,LoadArgument</token>
+</entry>
+<entry count="4">
+<token>Sigil.Emit,CastClass</token>
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,CastClass</token>
+<token>Sigil.Emit,Call</token>
+</entry>
+<entry count="4">
+<token>Sigil.Emit,Call</token>
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,LoadLocal</token>
+<token>Sigil.Emit,Box</token>
+<token>Sigil.Emit,StoreIndirect</token>
+</entry>
+<entry count="4">
+<token>Sigil.Emit,LoadLocal</token>
+<token>Sigil.Emit,Box</token>
+<token>Sigil.Emit,StoreIndirect</token>
+<token>Sigil.Emit,Return</token>
+<token>Sigil.Emit,CreateDelegate</token>
+</entry>
+<entry count="4">
+<token>Sigil.Emit,Return</token>
+<token>Sigil.Emit,CreateMethod</token>
+<token>Sigil.Emit,BuildInstanceMethod</token>
+</entry>
+<entry count="4">
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,LoadLocalAddress</token>
+<token>Sigil.Emit,Call</token>
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,LoadLocal</token>
+</entry>
+<entry count="64">
+<token>Sigil.Emit,DeclareLocal</token>
+<token>Sigil.Emit,LoadConstant</token>
+<token>Sigil.Emit,NewArray</token>
+<token>Sigil.Emit,StoreLocal</token>
+<token>Sigil.Emit,LoadLocal</token>
+</entry>
+<entry count="2">
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,Or</token>
+<token>Sigil.Emit,Return</token>
+<token>Sigil.Emit,CreateDelegate</token>
+</entry>
+<entry count="4">
+<token>Sigil.Emit,Unbox</token>
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,UnboxAny</token>
+</entry>
+<entry count="4">
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,Unbox</token>
+<token>Sigil.Emit,LoadArgument</token>
+</entry>
+<entry count="20">
+<token>Sigil.Emit,UnboxAny</token>
+<token>Sigil.Emit,LoadArgument</token>
+</entry>
+<entry count="32">
+<token>Sigil.Emit,StoreLocal</token>
+<token>Sigil.Emit,LoadLocal</token>
+<token>Sigil.Emit,Return</token>
+<token>Sigil.Emit,CreateDelegate</token>
+</entry>
+<entry count="20">
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,UnboxAny</token>
+<token>Sigil.Emit,LoadArgument</token>
+</entry>
+<entry count="4">
+<token>Sigil.Emit,Unbox</token>
+<token>Sigil.Emit,LoadArgument</token>
+</entry>
+<entry count="8">
+<token>Sigil.Emit,LoadConstant</token>
+<token>Sigil.Emit,Convert</token>
+<token>Sigil.Emit,Return</token>
+<token>Sigil.Emit,CreateMethod</token>
+</entry>
+<entry count="4">
+<token>Sigil.Emit,Or</token>
+<token>Sigil.Emit,StoreObject</token>
+</entry>
+<entry count="2">
+<token>Sigil.Emit,Or</token>
+<token>Sigil.Emit,Return</token>
+<token>Sigil.Emit,CreateDelegate</token>
+</entry>
+<entry count="32">
+<token>Sigil.Emit,CastClass</token>
+<token>Sigil.Emit,LoadFieldAddress</token>
+<token>Sigil.Emit,Convert</token>
+<token>Sigil.Emit,StoreElement</token>
+</entry>
+<entry count="4">
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,LoadLocal</token>
+<token>Sigil.Emit,Box</token>
+<token>Sigil.Emit,StoreIndirect</token>
+<token>Sigil.Emit,Return</token>
+</entry>
+<entry count="32">
+<token>Sigil.Emit,LoadConstant</token>
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,CastClass</token>
+<token>Sigil.Emit,LoadFieldAddress</token>
+</entry>
+<entry count="64">
+<token>Sigil.Emit,DeclareLocal</token>
+<token>Sigil.Emit,LoadConstant</token>
+</entry>
+<entry count="32">
+<token>Sigil.Emit,CastClass</token>
+<token>Sigil.Emit,LoadFieldAddress</token>
+<token>Sigil.Emit,Convert</token>
+</entry>
+<entry count="4">
+<token>Sigil.Emit,NewDynamicMethod</token>
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,CastClass</token>
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,CastClass</token>
+</entry>
+<entry count="8">
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,CastClass</token>
+<token>Sigil.Emit,Call</token>
+</entry>
+<entry count="32">
+<token>Sigil.Emit,LoadConstant</token>
+<token>Sigil.Emit,NewArray</token>
+<token>Sigil.Emit,StoreLocal</token>
+<token>Sigil.Emit,LoadLocal</token>
+<token>Sigil.Emit,Return</token>
+</entry>
+<entry count="64">
+<token>Sigil.Emit,LoadConstant</token>
+<token>Sigil.Emit,NewArray</token>
+</entry>
+<entry count="2">
+<token>Sigil.Emit,NewDynamicMethod</token>
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,Or</token>
+<token>Sigil.Emit,Return</token>
+</entry>
+<entry count="4">
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,UnboxAny</token>
+<token>Sigil.Emit,Or</token>
+<token>Sigil.Emit,StoreObject</token>
+<token>Sigil.Emit,Return</token>
+</entry>
+<entry count="8">
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,UnboxAny</token>
+<token>Sigil.Emit,Call</token>
+<token>Sigil.Emit,Return</token>
+</entry>
+<entry count="56">
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,CastClass</token>
+</entry>
+<entry count="118976">
+<token>Sigil.Local,Dispose</token>
+<token>Sigil.Local,Dispose</token>
+</entry>
+<entry count="4">
+<token>Sigil.Emit,Call</token>
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,LoadLocal</token>
+<token>Sigil.Emit,Box</token>
+</entry>
+<entry count="4">
+<token>Sigil.Emit,Return</token>
+<token>Sigil.Emit,CreateMethod</token>
+<token>Sigil.Emit,BuildInstanceMethod</token>
+<token>Sigil.Emit,LoadConstant</token>
+<token>Sigil.Emit,Convert</token>
+</entry>
+<entry count="2">
+<token>Sigil.Emit,CastClass</token>
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,CastClass</token>
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,CastClass</token>
+</entry>
+<entry count="32">
+<token>Sigil.Emit,CastClass</token>
+<token>Sigil.Emit,LoadFieldAddress</token>
+</entry>
+<entry count="8">
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,UnboxAny</token>
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,CastClass</token>
+</entry>
+<entry count="4">
+<token>Sigil.Emit,CreateMethod</token>
+<token>Sigil.Emit,BuildInstanceMethod</token>
+<token>Sigil.Emit,LoadConstant</token>
+<token>Sigil.Emit,Convert</token>
+<token>Sigil.Emit,Return</token>
+</entry>
+<entry count="2">
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,Or</token>
+</entry>
+<entry count="4">
+<token>Sigil.Emit,CastClass</token>
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,CastClass</token>
+<token>Sigil.Emit,Call</token>
+<token>Sigil.Emit,Return</token>
+</entry>
+<entry count="8">
+<token>Sigil.Emit,CastClass</token>
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,UnboxAny</token>
+</entry>
+<entry count="4">
+<token>Sigil.Emit,CastClass</token>
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,UnboxAny</token>
+<token>Sigil.Emit,Call</token>
+<token>Sigil.Emit,Return</token>
+</entry>
+<entry count="4">
+<token>Sigil.Emit,UnboxAny</token>
+<token>Sigil.Emit,Or</token>
+</entry>
+<entry count="12">
+<token>Sigil.Emit,UnboxAny</token>
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,UnboxAny</token>
+</entry>
+<entry count="8">
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,UnboxAny</token>
+<token>Sigil.Emit,Call</token>
+</entry>
+<entry count="8">
+<token>Sigil.Emit,NewDynamicMethod</token>
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,CastClass</token>
+</entry>
+<entry count="4">
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,Unbox</token>
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,UnboxAny</token>
+<token>Sigil.Emit,LoadArgument</token>
+</entry>
+<entry count="32">
+<token>Sigil.Emit,StoreLocal</token>
+<token>Sigil.Emit,LoadLocal</token>
+<token>Sigil.Emit,LoadConstant</token>
+<token>Sigil.Emit,LoadArgument</token>
+</entry>
+<entry count="4">
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,LoadLocal</token>
+<token>Sigil.Emit,Box</token>
+</entry>
+<entry count="64">
+<token>Sigil.Emit,LoadLocal</token>
+<token>Sigil.Emit,Return</token>
+<token>Sigil.Emit,CreateDelegate</token>
+</entry>
+<entry count="2">
+<token>Sigil.Emit,Or</token>
+<token>Sigil.Emit,Return</token>
+</entry>
+<entry count="16">
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,CastClass</token>
+<token>Sigil.Emit,LoadArgument</token>
+</entry>
+<entry count="32">
+<token>Sigil.Emit,StoreLocal</token>
+<token>Sigil.Emit,LoadLocal</token>
+<token>Sigil.Emit,Return</token>
+</entry>
+<entry count="4">
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,UnboxAny</token>
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,UnboxAny</token>
+<token>Sigil.Emit,LoadArgument</token>
+</entry>
+<entry count="8">
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,CastClass</token>
+<token>Sigil.Emit,LoadArgument</token>
+<token>Sigil.Emit,CastClass</token>
+</entry>
+</dictionary>

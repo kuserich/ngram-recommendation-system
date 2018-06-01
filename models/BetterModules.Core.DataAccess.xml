@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><dictionary case_sensitive="false">
-<entry count="48">
+<entry count="96">
 <token>BetterModules.Core.DataAccess.IRepository,Detach</token>
 <token>BetterModules.Core.DataAccess.IRepository,Save</token>
 <token>BetterModules.Core.DataAccess.IRepository,Save</token>
@@ -16,15 +16,15 @@
 <token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
 <token>BetterModules.Core.DataAccess.IRepository,Save</token>
 </entry>
-<entry count="4">
+<entry count="32">
 <token>BetterModules.Core.DataAccess.IRepository,Save</token>
 <token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
 </entry>
-<entry count="192">
+<entry count="384">
 <token>BetterModules.Core.DataAccess.IRepository,Detach</token>
 <token>BetterModules.Core.DataAccess.IRepository,Detach</token>
 </entry>
-<entry count="705">
+<entry count="5477">
 <token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
 <token>BetterModules.Core.DataAccess.IRepository,AsProxy</token>
 <token>BetterModules.Core.DataAccess.IRepository,Save</token>
@@ -34,12 +34,12 @@
 <token>BetterModules.Core.DataAccess.IRepository,AsProxy</token>
 <token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
 </entry>
-<entry count="22468">
+<entry count="13880">
 <token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
 <token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
 <token>BetterModules.Core.DataAccess.IRepository,UnProxy</token>
 </entry>
-<entry count="49828">
+<entry count="116886">
 <token>BetterModules.Core.DataAccess.IRepository,AsProxy</token>
 <token>BetterModules.Core.DataAccess.IRepository,AsProxy</token>
 <token>BetterModules.Core.DataAccess.IRepository,AsProxy</token>
@@ -51,17 +51,24 @@
 <token>BetterModules.Core.DataAccess.IRepository,Save</token>
 <token>BetterModules.Core.DataAccess.IRepository,Save</token>
 </entry>
-<entry count="696">
+<entry count="5216">
 <token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
 <token>BetterModules.Core.DataAccess.IRepository,Save</token>
 <token>BetterModules.Core.DataAccess.IRepository,AsProxy</token>
 </entry>
-<entry count="20736">
+<entry count="12288">
 <token>BetterModules.Core.DataAccess.IRepository,UnProxy</token>
 <token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
 <token>BetterModules.Core.DataAccess.IRepository,Delete</token>
 </entry>
-<entry count="456">
+<entry count="16">
+<token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
+<token>BetterModules.Core.DataAccess.IRepository,AsProxy</token>
+<token>BetterModules.Core.DataAccess.IRepository,AsProxy</token>
+<token>BetterModules.Core.DataAccess.IRepository,AsProxy</token>
+<token>BetterModules.Core.DataAccess.IRepository,AsProxy</token>
+</entry>
+<entry count="6940">
 <token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
 <token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
 <token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
@@ -80,7 +87,7 @@
 <token>BetterModules.Core.DataAccess.IRepository,AsProxy</token>
 <token>BetterModules.Core.DataAccess.IRepository,Save</token>
 </entry>
-<entry count="28">
+<entry count="224">
 <token>BetterModules.Core.DataAccess.PredicateBuilder,Or</token>
 <token>BetterModules.Core.DataAccess.PredicateBuilder,Or</token>
 <token>BetterModules.Core.DataAccess.PredicateBuilder,Or</token>
@@ -90,20 +97,39 @@
 <token>BetterModules.Core.DataAccess.DefaultRepository,new</token>
 <token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
 </entry>
-<entry count="17">
+<entry count="169">
 <token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
 <token>BetterModules.Core.DataAccess.IRepository,AsProxy</token>
 <token>BetterModules.Core.DataAccess.IRepository,AsProxy</token>
 <token>BetterModules.Core.DataAccess.IRepository,Save</token>
+</entry>
+<entry count="4">
+<token>BetterModules.Core.DataAccess.IRepository,AsProxy</token>
+<token>BetterModules.Core.DataAccess.PredicateBuilder,False</token>
+<token>BetterModules.Core.DataAccess.PredicateBuilder,Or</token>
+<token>BetterModules.Core.DataAccess.IRepository,AsProxy</token>
 </entry>
 <entry count="8">
 <token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
 <token>BetterModules.Core.DataAccess.IRepository,Delete</token>
 <token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
 </entry>
+<entry count="40">
+<token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
+<token>BetterModules.Core.DataAccess.PredicateBuilder,False</token>
+<token>BetterModules.Core.DataAccess.PredicateBuilder,Or</token>
+<token>BetterModules.Core.DataAccess.IRepository,AsProxy</token>
+</entry>
 <entry count="16">
 <token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
 <token>BetterModules.Core.DataAccess.IRepository,First</token>
+<token>BetterModules.Core.DataAccess.IRepository,Delete</token>
+</entry>
+<entry count="144">
+<token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
+<token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
+<token>BetterModules.Core.DataAccess.IRepository,Save</token>
+<token>BetterModules.Core.DataAccess.IRepository,Save</token>
 <token>BetterModules.Core.DataAccess.IRepository,Delete</token>
 </entry>
 <entry count="1">
@@ -113,18 +139,23 @@
 <token>BetterModules.Core.DataAccess.IRepository,AsProxy</token>
 <token>BetterModules.Core.DataAccess.IRepository,AsProxy</token>
 </entry>
-<entry count="1728">
+<entry count="192">
+<token>BetterModules.Core.DataAccess.IRepository,Save</token>
+<token>BetterModules.Core.DataAccess.IRepository,Save</token>
+<token>BetterModules.Core.DataAccess.IRepository,Delete</token>
+</entry>
+<entry count="1536">
 <token>BetterModules.Core.DataAccess.IRepository,UnProxy</token>
 <token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
 <token>BetterModules.Core.DataAccess.IRepository,Save</token>
 <token>BetterModules.Core.DataAccess.IRepository,Delete</token>
 </entry>
-<entry count="6937">
+<entry count="6179">
 <token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
 <token>BetterModules.Core.DataAccess.IRepository,Save</token>
 <token>BetterModules.Core.DataAccess.IRepository,Delete</token>
 </entry>
-<entry count="16">
+<entry count="88">
 <token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
 <token>BetterModules.Core.DataAccess.IRepository,AsProxy</token>
 <token>BetterModules.Core.DataAccess.PredicateBuilder,False</token>
@@ -147,17 +178,67 @@
 <token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
 <token>BetterModules.Core.DataAccess.IRepository,Save</token>
 </entry>
-<entry count="12">
+<entry count="66">
 <token>BetterModules.Core.DataAccess.IRepository,AsProxy</token>
 <token>BetterModules.Core.DataAccess.PredicateBuilder,False</token>
 <token>BetterModules.Core.DataAccess.PredicateBuilder,Or</token>
 </entry>
-<entry count="696">
+<entry count="5216">
 <token>BetterModules.Core.DataAccess.IRepository,Save</token>
 <token>BetterModules.Core.DataAccess.IRepository,AsProxy</token>
 </entry>
 <entry count="4">
 <token>BetterModules.Core.DataAccess.IRepository,First</token>
+<token>BetterModules.Core.DataAccess.IRepository,AsProxy</token>
+<token>BetterModules.Core.DataAccess.IRepository,Save</token>
+</entry>
+<entry count="192">
+<token>BetterModules.Core.DataAccess.IRepository,Detach</token>
+<token>BetterModules.Core.DataAccess.IRepository,Detach</token>
+<token>BetterModules.Core.DataAccess.IRepository,Detach</token>
+<token>BetterModules.Core.DataAccess.IRepository,Save</token>
+</entry>
+<entry count="30949">
+<token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
+<token>BetterModules.Core.DataAccess.IRepository,Save</token>
+</entry>
+<entry count="107">
+<token>BetterModules.Core.DataAccess.IRepository,First</token>
+<token>BetterModules.Core.DataAccess.IRepository,Save</token>
+</entry>
+<entry count="22">
+<token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
+<token>BetterModules.Core.DataAccess.IRepository,AsProxy</token>
+<token>BetterModules.Core.DataAccess.PredicateBuilder,False</token>
+<token>BetterModules.Core.DataAccess.PredicateBuilder,Or</token>
+<token>BetterModules.Core.DataAccess.PredicateBuilder,Or</token>
+</entry>
+<entry count="17383">
+<token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
+<token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
+<token>BetterModules.Core.DataAccess.IRepository,Save</token>
+</entry>
+<entry count="6406">
+<token>BetterModules.Core.DataAccess.IRepository,Save</token>
+<token>BetterModules.Core.DataAccess.IRepository,Delete</token>
+</entry>
+<entry count="20">
+<token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
+<token>BetterModules.Core.DataAccess.PredicateBuilder,False</token>
+<token>BetterModules.Core.DataAccess.PredicateBuilder,Or</token>
+<token>BetterModules.Core.DataAccess.PredicateBuilder,Or</token>
+<token>BetterModules.Core.DataAccess.IRepository,AsProxy</token>
+</entry>
+<entry count="48">
+<token>BetterModules.Core.DataAccess.IRepository,UnProxy</token>
+<token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
+<token>BetterModules.Core.DataAccess.IRepository,Save</token>
+<token>BetterModules.Core.DataAccess.IRepository,Save</token>
+</entry>
+<entry count="46834">
+<token>BetterModules.Core.DataAccess.IRepository,AsProxy</token>
+<token>BetterModules.Core.DataAccess.IRepository,AsProxy</token>
+<token>BetterModules.Core.DataAccess.IRepository,AsProxy</token>
 <token>BetterModules.Core.DataAccess.IRepository,AsProxy</token>
 <token>BetterModules.Core.DataAccess.IRepository,Save</token>
 </entry>
@@ -166,51 +247,14 @@
 <token>BetterModules.Core.DataAccess.IRepository,Detach</token>
 <token>BetterModules.Core.DataAccess.IRepository,Detach</token>
 <token>BetterModules.Core.DataAccess.IRepository,Save</token>
-</entry>
-<entry count="16367">
-<token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
 <token>BetterModules.Core.DataAccess.IRepository,Save</token>
 </entry>
-<entry count="107">
-<token>BetterModules.Core.DataAccess.IRepository,First</token>
-<token>BetterModules.Core.DataAccess.IRepository,Save</token>
-</entry>
-<entry count="4">
-<token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
-<token>BetterModules.Core.DataAccess.IRepository,AsProxy</token>
-<token>BetterModules.Core.DataAccess.PredicateBuilder,False</token>
-<token>BetterModules.Core.DataAccess.PredicateBuilder,Or</token>
-<token>BetterModules.Core.DataAccess.PredicateBuilder,Or</token>
-</entry>
-<entry count="5731">
-<token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
-<token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
-<token>BetterModules.Core.DataAccess.IRepository,Save</token>
-</entry>
-<entry count="6962">
-<token>BetterModules.Core.DataAccess.IRepository,Save</token>
-<token>BetterModules.Core.DataAccess.IRepository,Delete</token>
-</entry>
-<entry count="3744">
-<token>BetterModules.Core.DataAccess.IRepository,AsProxy</token>
-<token>BetterModules.Core.DataAccess.IRepository,AsProxy</token>
-<token>BetterModules.Core.DataAccess.IRepository,AsProxy</token>
-<token>BetterModules.Core.DataAccess.IRepository,AsProxy</token>
-<token>BetterModules.Core.DataAccess.IRepository,Save</token>
-</entry>
-<entry count="48">
-<token>BetterModules.Core.DataAccess.IRepository,Detach</token>
-<token>BetterModules.Core.DataAccess.IRepository,Detach</token>
-<token>BetterModules.Core.DataAccess.IRepository,Detach</token>
-<token>BetterModules.Core.DataAccess.IRepository,Save</token>
-<token>BetterModules.Core.DataAccess.IRepository,Save</token>
-</entry>
-<entry count="25">
+<entry count="35">
 <token>BetterModules.Core.DataAccess.IRepository,AsProxy</token>
 <token>BetterModules.Core.DataAccess.IRepository,Save</token>
 <token>BetterModules.Core.DataAccess.IRepository,Delete</token>
 </entry>
-<entry count="1728">
+<entry count="1584">
 <token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
 <token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
 <token>BetterModules.Core.DataAccess.IRepository,UnProxy</token>
@@ -229,16 +273,16 @@
 <token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
 <token>BetterModules.Core.DataAccess.IRepository,Save</token>
 </entry>
-<entry count="96">
+<entry count="192">
 <token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
 <token>BetterModules.Core.DataAccess.IRepository,Detach</token>
 <token>BetterModules.Core.DataAccess.IRepository,Detach</token>
 </entry>
-<entry count="15">
+<entry count="71">
 <token>BetterModules.Core.DataAccess.DefaultRepository,new</token>
 <token>BetterModules.Core.DataAccess.DefaultRepository,AsQueryable</token>
 </entry>
-<entry count="4">
+<entry count="32">
 <token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
 <token>BetterModules.Core.DataAccess.IRepository,Save</token>
 <token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
@@ -247,11 +291,11 @@
 <token>BetterModules.Core.DataAccess.IRepository,First</token>
 <token>BetterModules.Core.DataAccess.IRepository,Delete</token>
 </entry>
-<entry count="1711">
+<entry count="2920">
 <token>BetterModules.Core.DataAccess.IRepository,Save</token>
 <token>BetterModules.Core.DataAccess.IRepository,Save</token>
 </entry>
-<entry count="53572">
+<entry count="163720">
 <token>BetterModules.Core.DataAccess.IRepository,AsProxy</token>
 <token>BetterModules.Core.DataAccess.IRepository,AsProxy</token>
 <token>BetterModules.Core.DataAccess.IRepository,AsProxy</token>
@@ -266,7 +310,7 @@
 <token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
 <token>BetterModules.Core.DataAccess.IRepository,Save</token>
 </entry>
-<entry count="18">
+<entry count="434">
 <token>BetterModules.Core.DataAccess.PredicateBuilder,Or</token>
 <token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
 </entry>
@@ -291,40 +335,53 @@
 <token>BetterModules.Core.DataAccess.IRepository,AsProxy</token>
 <token>BetterModules.Core.DataAccess.IRepository,Save</token>
 </entry>
+<entry count="22">
+<token>BetterModules.Core.DataAccess.PredicateBuilder,False</token>
+<token>BetterModules.Core.DataAccess.PredicateBuilder,Or</token>
+<token>BetterModules.Core.DataAccess.PredicateBuilder,Or</token>
+<token>BetterModules.Core.DataAccess.IRepository,AsProxy</token>
+</entry>
+<entry count="146">
+<token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
+<token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
+<token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
+<token>BetterModules.Core.DataAccess.IRepository,Save</token>
+<token>BetterModules.Core.DataAccess.IRepository,Save</token>
+</entry>
 <entry count="1">
 <token>BetterModules.Core.DataAccess.DefaultRepository,new</token>
 <token>BetterModules.Core.DataAccess.DefaultRepository,AsQueryable</token>
 <token>BetterModules.Core.DataAccess.DefaultRepository,AsQueryable</token>
 </entry>
-<entry count="2">
-<token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
-<token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
-<token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
-<token>BetterModules.Core.DataAccess.IRepository,Save</token>
-<token>BetterModules.Core.DataAccess.IRepository,Save</token>
-</entry>
-<entry count="1728">
+<entry count="1584">
 <token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
 <token>BetterModules.Core.DataAccess.IRepository,UnProxy</token>
 <token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
 <token>BetterModules.Core.DataAccess.IRepository,Save</token>
 </entry>
-<entry count="103612">
+<entry count="281034">
 <token>BetterModules.Core.DataAccess.IRepository,AsProxy</token>
 <token>BetterModules.Core.DataAccess.IRepository,AsProxy</token>
 </entry>
-<entry count="22468">
+<entry count="13880">
 <token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
 <token>BetterModules.Core.DataAccess.IRepository,UnProxy</token>
 </entry>
-<entry count="25">
+<entry count="48">
+<token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
+<token>BetterModules.Core.DataAccess.IRepository,UnProxy</token>
+<token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
+<token>BetterModules.Core.DataAccess.IRepository,Save</token>
+<token>BetterModules.Core.DataAccess.IRepository,Save</token>
+</entry>
+<entry count="35">
 <token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
 <token>BetterModules.Core.DataAccess.IRepository,Save</token>
 <token>BetterModules.Core.DataAccess.IRepository,AsProxy</token>
 <token>BetterModules.Core.DataAccess.IRepository,Save</token>
 <token>BetterModules.Core.DataAccess.IRepository,Delete</token>
 </entry>
-<entry count="48">
+<entry count="96">
 <token>BetterModules.Core.DataAccess.IRepository,Detach</token>
 <token>BetterModules.Core.DataAccess.IRepository,Detach</token>
 <token>BetterModules.Core.DataAccess.IRepository,Save</token>
@@ -345,14 +402,21 @@
 <token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
 <token>BetterModules.Core.DataAccess.IRepository,Delete</token>
 </entry>
-<entry count="46080">
+<entry count="70048">
 <token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
 <token>BetterModules.Core.DataAccess.IRepository,AsProxy</token>
 <token>BetterModules.Core.DataAccess.IRepository,AsProxy</token>
 <token>BetterModules.Core.DataAccess.IRepository,AsProxy</token>
 <token>BetterModules.Core.DataAccess.IRepository,Save</token>
 </entry>
-<entry count="22464">
+<entry count="4">
+<token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
+<token>BetterModules.Core.DataAccess.IRepository,AsProxy</token>
+<token>BetterModules.Core.DataAccess.PredicateBuilder,False</token>
+<token>BetterModules.Core.DataAccess.PredicateBuilder,Or</token>
+<token>BetterModules.Core.DataAccess.IRepository,AsProxy</token>
+</entry>
+<entry count="13872">
 <token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
 <token>BetterModules.Core.DataAccess.IRepository,UnProxy</token>
 <token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
@@ -364,55 +428,62 @@
 <token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
 <token>BetterModules.Core.DataAccess.IRepository,Save</token>
 </entry>
-<entry count="96">
+<entry count="192">
 <token>BetterModules.Core.DataAccess.IRepository,Detach</token>
 <token>BetterModules.Core.DataAccess.IRepository,Detach</token>
 <token>BetterModules.Core.DataAccess.IRepository,Save</token>
 </entry>
-<entry count="22464">
+<entry count="13872">
 <token>BetterModules.Core.DataAccess.IRepository,UnProxy</token>
 <token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
 </entry>
-<entry count="4">
+<entry count="64">
+<token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
+<token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
+<token>BetterModules.Core.DataAccess.IRepository,AsProxy</token>
+<token>BetterModules.Core.DataAccess.IRepository,AsProxy</token>
+<token>BetterModules.Core.DataAccess.IRepository,AsProxy</token>
+</entry>
+<entry count="148">
 <token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
 <token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
 <token>BetterModules.Core.DataAccess.IRepository,Save</token>
 <token>BetterModules.Core.DataAccess.IRepository,Save</token>
 </entry>
-<entry count="46080">
+<entry count="70064">
 <token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
 <token>BetterModules.Core.DataAccess.IRepository,AsProxy</token>
 <token>BetterModules.Core.DataAccess.IRepository,AsProxy</token>
 <token>BetterModules.Core.DataAccess.IRepository,AsProxy</token>
 </entry>
-<entry count="96">
+<entry count="192">
 <token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
 <token>BetterModules.Core.DataAccess.IRepository,Detach</token>
 <token>BetterModules.Core.DataAccess.IRepository,Detach</token>
 <token>BetterModules.Core.DataAccess.IRepository,Detach</token>
 </entry>
-<entry count="120">
+<entry count="914">
 <token>BetterModules.Core.DataAccess.PredicateBuilder,Or</token>
 <token>BetterModules.Core.DataAccess.PredicateBuilder,Or</token>
 </entry>
-<entry count="330">
+<entry count="1483">
 <token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
 <token>BetterModules.Core.DataAccess.IRepository,Save</token>
 <token>BetterModules.Core.DataAccess.IRepository,Save</token>
 </entry>
-<entry count="656">
+<entry count="18404">
 <token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
 <token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
 <token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
 <token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
 </entry>
-<entry count="3744">
+<entry count="46834">
 <token>BetterModules.Core.DataAccess.IRepository,AsProxy</token>
 <token>BetterModules.Core.DataAccess.IRepository,AsProxy</token>
 <token>BetterModules.Core.DataAccess.IRepository,AsProxy</token>
 <token>BetterModules.Core.DataAccess.IRepository,AsProxy</token>
 </entry>
-<entry count="22464">
+<entry count="13872">
 <token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
 <token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
 <token>BetterModules.Core.DataAccess.IRepository,UnProxy</token>
@@ -429,28 +500,28 @@
 <token>BetterModules.Core.DataAccess.IRepository,First</token>
 <token>BetterModules.Core.DataAccess.IRepository,Save</token>
 </entry>
-<entry count="83108">
+<entry count="49318">
 <token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
 <token>BetterModules.Core.DataAccess.IRepository,Delete</token>
 </entry>
-<entry count="60">
+<entry count="444">
 <token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
 <token>BetterModules.Core.DataAccess.PredicateBuilder,False</token>
 <token>BetterModules.Core.DataAccess.PredicateBuilder,Or</token>
 <token>BetterModules.Core.DataAccess.PredicateBuilder,Or</token>
 </entry>
-<entry count="96">
+<entry count="192">
 <token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
 <token>BetterModules.Core.DataAccess.IRepository,Detach</token>
 </entry>
-<entry count="96">
+<entry count="192">
 <token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
 <token>BetterModules.Core.DataAccess.IRepository,Detach</token>
 <token>BetterModules.Core.DataAccess.IRepository,Detach</token>
 <token>BetterModules.Core.DataAccess.IRepository,Detach</token>
 <token>BetterModules.Core.DataAccess.IRepository,Save</token>
 </entry>
-<entry count="162112">
+<entry count="215075">
 <token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
 <token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
 </entry>
@@ -458,16 +529,23 @@
 <token>BetterModules.Core.DataAccess.DefaultRepository,AsQueryable</token>
 <token>BetterModules.Core.DataAccess.DefaultRepository,AsQueryable</token>
 </entry>
+<entry count="2">
+<token>BetterModules.Core.DataAccess.IRepository,AsProxy</token>
+<token>BetterModules.Core.DataAccess.PredicateBuilder,False</token>
+<token>BetterModules.Core.DataAccess.PredicateBuilder,Or</token>
+<token>BetterModules.Core.DataAccess.PredicateBuilder,Or</token>
+<token>BetterModules.Core.DataAccess.IRepository,AsProxy</token>
+</entry>
 <entry count="48">
 <token>BetterModules.Core.DataAccess.IRepository,Delete</token>
 <token>BetterModules.Core.DataAccess.IRepository,Delete</token>
 </entry>
-<entry count="46097">
+<entry count="70297">
 <token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
 <token>BetterModules.Core.DataAccess.IRepository,AsProxy</token>
 <token>BetterModules.Core.DataAccess.IRepository,AsProxy</token>
 </entry>
-<entry count="4">
+<entry count="22">
 <token>BetterModules.Core.DataAccess.IRepository,AsProxy</token>
 <token>BetterModules.Core.DataAccess.PredicateBuilder,False</token>
 <token>BetterModules.Core.DataAccess.PredicateBuilder,Or</token>
@@ -483,7 +561,7 @@
 <token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
 <token>BetterModules.Core.DataAccess.IRepository,Delete</token>
 </entry>
-<entry count="62214">
+<entry count="36870">
 <token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
 <token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
 <token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
@@ -495,24 +573,24 @@
 <token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
 <token>BetterModules.Core.DataAccess.IRepository,AsProxy</token>
 </entry>
-<entry count="18">
+<entry count="434">
 <token>BetterModules.Core.DataAccess.PredicateBuilder,False</token>
 <token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
 </entry>
-<entry count="28">
+<entry count="224">
 <token>BetterModules.Core.DataAccess.PredicateBuilder,False</token>
 <token>BetterModules.Core.DataAccess.PredicateBuilder,Or</token>
 <token>BetterModules.Core.DataAccess.PredicateBuilder,Or</token>
 <token>BetterModules.Core.DataAccess.PredicateBuilder,Or</token>
 </entry>
-<entry count="5189">
+<entry count="4613">
 <token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
 <token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
 <token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
 <token>BetterModules.Core.DataAccess.IRepository,Save</token>
 <token>BetterModules.Core.DataAccess.IRepository,Delete</token>
 </entry>
-<entry count="62235">
+<entry count="36892">
 <token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
 <token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
 <token>BetterModules.Core.DataAccess.IRepository,Delete</token>
@@ -522,7 +600,7 @@
 <token>BetterModules.Core.DataAccess.IRepository,AsProxy</token>
 <token>BetterModules.Core.DataAccess.IRepository,AsProxy</token>
 </entry>
-<entry count="46866">
+<entry count="75966">
 <token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
 <token>BetterModules.Core.DataAccess.IRepository,AsProxy</token>
 </entry>
@@ -530,7 +608,13 @@
 <token>BetterModules.Core.DataAccess.IRepository,First</token>
 <token>BetterModules.Core.DataAccess.IRepository,AsProxy</token>
 </entry>
-<entry count="25">
+<entry count="192">
+<token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
+<token>BetterModules.Core.DataAccess.IRepository,Save</token>
+<token>BetterModules.Core.DataAccess.IRepository,Save</token>
+<token>BetterModules.Core.DataAccess.IRepository,Delete</token>
+</entry>
+<entry count="35">
 <token>BetterModules.Core.DataAccess.IRepository,Save</token>
 <token>BetterModules.Core.DataAccess.IRepository,AsProxy</token>
 <token>BetterModules.Core.DataAccess.IRepository,Save</token>
@@ -540,19 +624,19 @@
 <token>BetterModules.Core.DataAccess.IRepository,AsProxy</token>
 <token>BetterModules.Core.DataAccess.IRepository,First</token>
 </entry>
-<entry count="8">
+<entry count="11232">
 <token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
 <token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
 <token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
 <token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
 <token>BetterModules.Core.DataAccess.IRepository,Save</token>
 </entry>
-<entry count="18">
+<entry count="434">
 <token>BetterModules.Core.DataAccess.PredicateBuilder,False</token>
 <token>BetterModules.Core.DataAccess.PredicateBuilder,Or</token>
 <token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
 </entry>
-<entry count="696">
+<entry count="5208">
 <token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
 <token>BetterModules.Core.DataAccess.IRepository,Save</token>
 <token>BetterModules.Core.DataAccess.IRepository,AsProxy</token>
@@ -564,7 +648,7 @@
 <token>BetterModules.Core.DataAccess.IRepository,Save</token>
 <token>BetterModules.Core.DataAccess.IRepository,Save</token>
 </entry>
-<entry count="1728">
+<entry count="1584">
 <token>BetterModules.Core.DataAccess.IRepository,UnProxy</token>
 <token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
 <token>BetterModules.Core.DataAccess.IRepository,Save</token>
@@ -575,14 +659,14 @@
 <token>BetterModules.Core.DataAccess.IRepository,Delete</token>
 <token>BetterModules.Core.DataAccess.IRepository,Delete</token>
 </entry>
-<entry count="4">
+<entry count="8">
 <token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
 <token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
 <token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
 <token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
 <token>BetterModules.Core.DataAccess.IRepository,UnProxy</token>
 </entry>
-<entry count="16">
+<entry count="88">
 <token>BetterModules.Core.DataAccess.IRepository,AsProxy</token>
 <token>BetterModules.Core.DataAccess.PredicateBuilder,False</token>
 </entry>
@@ -591,9 +675,20 @@
 <token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
 <token>BetterModules.Core.DataAccess.IRepository,Delete</token>
 </entry>
-<entry count="62">
+<entry count="2">
+<token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
+<token>BetterModules.Core.DataAccess.IRepository,AsProxy</token>
+<token>BetterModules.Core.DataAccess.PredicateBuilder,False</token>
+<token>BetterModules.Core.DataAccess.IRepository,AsProxy</token>
+</entry>
+<entry count="158">
 <token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
 <token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
+<token>BetterModules.Core.DataAccess.IRepository,AsProxy</token>
+</entry>
+<entry count="20">
+<token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
+<token>BetterModules.Core.DataAccess.PredicateBuilder,False</token>
 <token>BetterModules.Core.DataAccess.IRepository,AsProxy</token>
 </entry>
 <entry count="6">
@@ -601,7 +696,11 @@
 <token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
 <token>BetterModules.Core.DataAccess.IRepository,Delete</token>
 </entry>
-<entry count="20736">
+<entry count="22">
+<token>BetterModules.Core.DataAccess.PredicateBuilder,False</token>
+<token>BetterModules.Core.DataAccess.IRepository,AsProxy</token>
+</entry>
+<entry count="12288">
 <token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
 <token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
 <token>BetterModules.Core.DataAccess.IRepository,UnProxy</token>
@@ -629,12 +728,12 @@
 <token>BetterModules.Core.DataAccess.IRepository,Save</token>
 <token>BetterModules.Core.DataAccess.IRepository,Save</token>
 </entry>
-<entry count="50013">
+<entry count="117223">
 <token>BetterModules.Core.DataAccess.IRepository,AsProxy</token>
 <token>BetterModules.Core.DataAccess.IRepository,AsProxy</token>
 <token>BetterModules.Core.DataAccess.IRepository,Save</token>
 </entry>
-<entry count="28">
+<entry count="224">
 <token>BetterModules.Core.DataAccess.PredicateBuilder,False</token>
 <token>BetterModules.Core.DataAccess.PredicateBuilder,Or</token>
 <token>BetterModules.Core.DataAccess.PredicateBuilder,Or</token>
@@ -652,7 +751,7 @@
 <token>BetterModules.Core.DataAccess.IRepository,Save</token>
 <token>BetterModules.Core.DataAccess.IRepository,AsProxy</token>
 </entry>
-<entry count="64">
+<entry count="466">
 <token>BetterModules.Core.DataAccess.PredicateBuilder,False</token>
 <token>BetterModules.Core.DataAccess.PredicateBuilder,Or</token>
 <token>BetterModules.Core.DataAccess.PredicateBuilder,Or</token>
@@ -662,23 +761,30 @@
 <token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
 <token>BetterModules.Core.DataAccess.IRepository,AsProxy</token>
 </entry>
-<entry count="56">
+<entry count="48">
+<token>BetterModules.Core.DataAccess.IRepository,UnProxy</token>
+<token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
+<token>BetterModules.Core.DataAccess.IRepository,Save</token>
+<token>BetterModules.Core.DataAccess.IRepository,Save</token>
+<token>BetterModules.Core.DataAccess.IRepository,Delete</token>
+</entry>
+<entry count="448">
 <token>BetterModules.Core.DataAccess.PredicateBuilder,Or</token>
 <token>BetterModules.Core.DataAccess.PredicateBuilder,Or</token>
 <token>BetterModules.Core.DataAccess.PredicateBuilder,Or</token>
 </entry>
-<entry count="4">
+<entry count="8">
 <token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
 <token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
 <token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
 <token>BetterModules.Core.DataAccess.IRepository,UnProxy</token>
 </entry>
-<entry count="696">
+<entry count="5208">
 <token>BetterModules.Core.DataAccess.IRepository,Save</token>
 <token>BetterModules.Core.DataAccess.IRepository,AsProxy</token>
 <token>BetterModules.Core.DataAccess.IRepository,Save</token>
 </entry>
-<entry count="5614">
+<entry count="17206">
 <token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
 <token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
 <token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
@@ -688,17 +794,17 @@
 <token>BetterModules.Core.DataAccess.IRepository,FirstOrDefault</token>
 <token>BetterModules.Core.DataAccess.IRepository,Save</token>
 </entry>
-<entry count="17">
+<entry count="113">
 <token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
 <token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
 <token>BetterModules.Core.DataAccess.IRepository,AsProxy</token>
 <token>BetterModules.Core.DataAccess.IRepository,AsProxy</token>
 </entry>
-<entry count="96">
+<entry count="192">
 <token>BetterModules.Core.DataAccess.IRepository,Detach</token>
 <token>BetterModules.Core.DataAccess.IRepository,Save</token>
 </entry>
-<entry count="20736">
+<entry count="12288">
 <token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
 <token>BetterModules.Core.DataAccess.IRepository,UnProxy</token>
 <token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
@@ -715,7 +821,7 @@
 <token>BetterModules.Core.DataAccess.IRepository,AsQueryOver</token>
 <token>BetterModules.Core.DataAccess.IRepository,AsQueryOver</token>
 </entry>
-<entry count="51722">
+<entry count="128216">
 <token>BetterModules.Core.DataAccess.IRepository,AsProxy</token>
 <token>BetterModules.Core.DataAccess.IRepository,Save</token>
 </entry>
@@ -729,11 +835,11 @@
 <token>BetterModules.Core.DataAccess.IRepository,Delete</token>
 <token>BetterModules.Core.DataAccess.IRepository,Delete</token>
 </entry>
-<entry count="156">
+<entry count="1104">
 <token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
 <token>BetterModules.Core.DataAccess.PredicateBuilder,False</token>
 </entry>
-<entry count="96">
+<entry count="192">
 <token>BetterModules.Core.DataAccess.IRepository,Detach</token>
 <token>BetterModules.Core.DataAccess.IRepository,Detach</token>
 <token>BetterModules.Core.DataAccess.IRepository,Detach</token>
@@ -743,7 +849,7 @@
 <token>BetterModules.Core.DataAccess.IRepository,Delete</token>
 <token>BetterModules.Core.DataAccess.IRepository,Delete</token>
 </entry>
-<entry count="68716">
+<entry count="72760">
 <token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
 <token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
 <token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
@@ -753,24 +859,43 @@
 <token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
 <token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
 </entry>
-<entry count="1728">
+<entry count="66">
+<token>BetterModules.Core.DataAccess.PredicateBuilder,Or</token>
+<token>BetterModules.Core.DataAccess.IRepository,AsProxy</token>
+</entry>
+<entry count="1536">
 <token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
 <token>BetterModules.Core.DataAccess.IRepository,UnProxy</token>
 <token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
 <token>BetterModules.Core.DataAccess.IRepository,Save</token>
 <token>BetterModules.Core.DataAccess.IRepository,Delete</token>
 </entry>
-<entry count="5189">
+<entry count="4613">
 <token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
 <token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
 <token>BetterModules.Core.DataAccess.IRepository,Save</token>
 <token>BetterModules.Core.DataAccess.IRepository,Delete</token>
 </entry>
-<entry count="12">
+<entry count="66">
 <token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
 <token>BetterModules.Core.DataAccess.IRepository,AsProxy</token>
 <token>BetterModules.Core.DataAccess.PredicateBuilder,False</token>
 <token>BetterModules.Core.DataAccess.PredicateBuilder,Or</token>
+</entry>
+<entry count="44">
+<token>BetterModules.Core.DataAccess.PredicateBuilder,False</token>
+<token>BetterModules.Core.DataAccess.PredicateBuilder,Or</token>
+<token>BetterModules.Core.DataAccess.IRepository,AsProxy</token>
+</entry>
+<entry count="22">
+<token>BetterModules.Core.DataAccess.PredicateBuilder,Or</token>
+<token>BetterModules.Core.DataAccess.PredicateBuilder,Or</token>
+<token>BetterModules.Core.DataAccess.IRepository,AsProxy</token>
+</entry>
+<entry count="2">
+<token>BetterModules.Core.DataAccess.IRepository,AsProxy</token>
+<token>BetterModules.Core.DataAccess.PredicateBuilder,False</token>
+<token>BetterModules.Core.DataAccess.IRepository,AsProxy</token>
 </entry>
 <entry count="8">
 <token>BetterModules.Core.DataAccess.IRepository,AsProxy</token>
@@ -785,25 +910,25 @@
 <token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
 <token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
 </entry>
-<entry count="154">
+<entry count="1384">
 <token>BetterModules.Core.DataAccess.PredicateBuilder,False</token>
 <token>BetterModules.Core.DataAccess.PredicateBuilder,Or</token>
 </entry>
-<entry count="28">
+<entry count="224">
 <token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
 <token>BetterModules.Core.DataAccess.PredicateBuilder,False</token>
 <token>BetterModules.Core.DataAccess.PredicateBuilder,Or</token>
 <token>BetterModules.Core.DataAccess.PredicateBuilder,Or</token>
 <token>BetterModules.Core.DataAccess.PredicateBuilder,Or</token>
 </entry>
-<entry count="17">
+<entry count="49">
 <token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
 <token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
 <token>BetterModules.Core.DataAccess.IRepository,AsProxy</token>
 <token>BetterModules.Core.DataAccess.IRepository,AsProxy</token>
 <token>BetterModules.Core.DataAccess.IRepository,Save</token>
 </entry>
-<entry count="124">
+<entry count="884">
 <token>BetterModules.Core.DataAccess.IRepository,AsQueryable</token>
 <token>BetterModules.Core.DataAccess.PredicateBuilder,False</token>
 <token>BetterModules.Core.DataAccess.PredicateBuilder,Or</token>

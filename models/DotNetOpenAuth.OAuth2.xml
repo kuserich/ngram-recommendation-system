@@ -12,7 +12,7 @@
 <token>DotNetOpenAuth.OAuth2.ClientCredentialApplicator,PostParameter</token>
 <token>DotNetOpenAuth.OAuth2.WebServerClient,ProcessUserAuthorization</token>
 </entry>
-<entry count="21">
+<entry count="37">
 <token>DotNetOpenAuth.OAuth2.AuthorizationServerDescription,new</token>
 <token>DotNetOpenAuth.OAuth2.WebServerClient,new</token>
 </entry>
@@ -20,7 +20,7 @@
 <token>DotNetOpenAuth.OAuth2.WebServerClient,ProcessUserAuthorization</token>
 <token>DotNetOpenAuth.OAuth2.WebServerClient,PrepareRequestUserAuthorization</token>
 </entry>
-<entry count="4">
+<entry count="8">
 <token>DotNetOpenAuth.OAuth2.ClientCredentialApplicator,PostParameter</token>
 <token>DotNetOpenAuth.OAuth2.WebServerClient,PrepareRequestUserAuthorization</token>
 </entry>
@@ -48,16 +48,16 @@
 <token>DotNetOpenAuth.OAuth2.AuthorizationServer,ReadAuthorizationRequest</token>
 <token>DotNetOpenAuth.OAuth2.AuthorizationServer,PrepareApproveAuthorizationRequest</token>
 </entry>
-<entry count="21">
+<entry count="37">
 <token>DotNetOpenAuth.OAuth2.AuthorizationServerDescription,new</token>
 <token>DotNetOpenAuth.OAuth2.WebServerClient,new</token>
 <token>DotNetOpenAuth.OAuth2.ClientCredentialApplicator,PostParameter</token>
 </entry>
-<entry count="2">
+<entry count="4">
 <token>DotNetOpenAuth.OAuth2.WebServerClient,ProcessUserAuthorization</token>
 <token>DotNetOpenAuth.OAuth2.WebServerClient,ProcessUserAuthorization</token>
 </entry>
-<entry count="4">
+<entry count="8">
 <token>DotNetOpenAuth.OAuth2.AuthorizationServerDescription,new</token>
 <token>DotNetOpenAuth.OAuth2.WebServerClient,new</token>
 <token>DotNetOpenAuth.OAuth2.ClientCredentialApplicator,PostParameter</token>
@@ -71,7 +71,7 @@
 <token>DotNetOpenAuth.OAuth2.AuthorizationServer,ReadAuthorizationRequest</token>
 <token>DotNetOpenAuth.OAuth2.WebServerClient,PrepareRequestUserAuthorization</token>
 </entry>
-<entry count="4">
+<entry count="8">
 <token>DotNetOpenAuth.OAuth2.WebServerClient,new</token>
 <token>DotNetOpenAuth.OAuth2.ClientCredentialApplicator,PostParameter</token>
 <token>DotNetOpenAuth.OAuth2.WebServerClient,PrepareRequestUserAuthorization</token>
@@ -85,7 +85,7 @@
 <token>DotNetOpenAuth.OAuth2.ClientCredentialApplicator,PostParameter</token>
 <token>DotNetOpenAuth.OAuth2.WebServerClient,new</token>
 </entry>
-<entry count="21">
+<entry count="37">
 <token>DotNetOpenAuth.OAuth2.WebServerClient,new</token>
 <token>DotNetOpenAuth.OAuth2.ClientCredentialApplicator,PostParameter</token>
 </entry>

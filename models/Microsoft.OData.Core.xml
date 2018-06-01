@@ -21,13 +21,19 @@
 <token>Microsoft.OData.Core.ODataMessageWriter,WriteEntityReferenceLink</token>
 <token>Microsoft.OData.Core.ODataMessageReaderSettings,new</token>
 </entry>
+<entry count="1">
+<token>Microsoft.OData.Core.ODataFeed,new</token>
+<token>Microsoft.OData.Core.ODataWriter,WriteStart</token>
+<token>Microsoft.OData.Core.ODataWriter,WriteEnd</token>
+<token>Microsoft.OData.Core.ODataWriter,WriteStart</token>
+</entry>
 <entry count="4">
 <token>Microsoft.OData.Core.ODataEntityReferenceLink,new</token>
 <token>Microsoft.OData.Core.ODataMessageWriter,WriteEntityReferenceLink</token>
 <token>Microsoft.OData.Core.ODataMessageReaderSettings,new</token>
 <token>Microsoft.OData.Core.ODataMessageReader,new</token>
 </entry>
-<entry count="57">
+<entry count="67">
 <token>Microsoft.OData.Core.ODataWriter,WriteStart</token>
 <token>Microsoft.OData.Core.ODataWriter,WriteEnd</token>
 </entry>
@@ -66,6 +72,12 @@
 <entry count="4">
 <token>Microsoft.OData.Core.ODataMessageWriter,new</token>
 <token>Microsoft.OData.Core.ODataMessageWriter,CreateODataFeedWriter</token>
+</entry>
+<entry count="1">
+<token>Microsoft.OData.Core.ODataFeed,new</token>
+<token>Microsoft.OData.Core.ODataWriter,WriteStart</token>
+<token>Microsoft.OData.Core.ODataWriter,WriteEnd</token>
+<token>Microsoft.OData.Core.ODataFeed,new</token>
 </entry>
 <entry count="3">
 <token>Microsoft.OData.Core.ODataBatchWriter,CreateOperationResponseMessage</token>
@@ -122,7 +134,12 @@
 <token>Microsoft.OData.Core.IODataRequestMessage,GetHeader</token>
 <token>Microsoft.OData.Core.IODataRequestMessage,SetHeader</token>
 </entry>
-<entry count="1">
+<entry count="2">
+<token>Microsoft.OData.Core.ODataWriter,WriteEnd</token>
+<token>Microsoft.OData.Core.ODataWriter,WriteStart</token>
+<token>Microsoft.OData.Core.ODataWriter,WriteEnd</token>
+</entry>
+<entry count="21">
 <token>Microsoft.OData.Core.ODataException,new</token>
 <token>Microsoft.OData.Core.ODataException,new</token>
 </entry>
@@ -139,10 +156,20 @@
 <token>Microsoft.OData.Core.ODataEnumValue,new</token>
 <token>Microsoft.OData.Core.ODataCollectionValue,new</token>
 </entry>
+<entry count="2">
+<token>Microsoft.OData.Core.ODataWriter,WriteEnd</token>
+<token>Microsoft.OData.Core.ODataFeed,new</token>
+<token>Microsoft.OData.Core.ODataWriter,WriteStart</token>
+</entry>
 <entry count="10">
 <token>Microsoft.OData.Core.ODataMessageWriterSettings,SetContentType</token>
 <token>Microsoft.OData.Core.ODataMessageWriter,new</token>
 <token>Microsoft.OData.Core.ODataMessageReaderSettings,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.OData.Core.ODataWriter,WriteStart</token>
+<token>Microsoft.OData.Core.ODataWriter,WriteEnd</token>
+<token>Microsoft.OData.Core.ODataFeed,new</token>
 </entry>
 <entry count="803">
 <token>Microsoft.OData.Core.ODataMessageWriterSettings,new</token>
@@ -242,7 +269,7 @@
 <token>Microsoft.OData.Core.IODataRequestMessage,SetHeader</token>
 <token>Microsoft.OData.Core.IODataRequestMessage,SetHeader</token>
 </entry>
-<entry count="1">
+<entry count="6">
 <token>Microsoft.OData.Core.ODataFeed,new</token>
 <token>Microsoft.OData.Core.ODataWriter,WriteStart</token>
 </entry>
@@ -264,6 +291,13 @@
 <entry count="144">
 <token>Microsoft.OData.Core.ODataMessageExtensions,PreferHeader</token>
 <token>Microsoft.OData.Core.ODataMessageWriterSettings,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.OData.Core.ODataFeed,new</token>
+<token>Microsoft.OData.Core.ODataWriter,WriteStart</token>
+<token>Microsoft.OData.Core.ODataWriter,WriteEnd</token>
+<token>Microsoft.OData.Core.ODataFeed,new</token>
+<token>Microsoft.OData.Core.ODataWriter,WriteStart</token>
 </entry>
 <entry count="2">
 <token>Microsoft.OData.Core.ODataEnumValue,new</token>
@@ -348,6 +382,12 @@
 <token>Microsoft.OData.Core.ODataCollectionValue,new</token>
 </entry>
 <entry count="2">
+<token>Microsoft.OData.Core.ODataWriter,WriteStart</token>
+<token>Microsoft.OData.Core.ODataWriter,WriteEnd</token>
+<token>Microsoft.OData.Core.ODataFeed,new</token>
+<token>Microsoft.OData.Core.ODataWriter,WriteStart</token>
+</entry>
+<entry count="2">
 <token>Microsoft.OData.Core.ODataMessageWriterSettings,SetContentType</token>
 <token>Microsoft.OData.Core.ODataMessageWriter,new</token>
 <token>Microsoft.OData.Core.ODataServiceDocument,new</token>
@@ -425,7 +465,7 @@
 <token>Microsoft.OData.Core.ODataEntry,new</token>
 <token>Microsoft.OData.Core.ODataNavigationLink,new</token>
 </entry>
-<entry count="1">
+<entry count="6">
 <token>Microsoft.OData.Core.ODataFeed,new</token>
 <token>Microsoft.OData.Core.ODataWriter,WriteStart</token>
 <token>Microsoft.OData.Core.ODataWriter,WriteEnd</token>
@@ -433,6 +473,10 @@
 <entry count="4">
 <token>Microsoft.OData.Core.ODataMessageReader,new</token>
 <token>Microsoft.OData.Core.ODataMessageReader,CreateODataCollectionReader</token>
+</entry>
+<entry count="2">
+<token>Microsoft.OData.Core.ODataWriter,WriteEnd</token>
+<token>Microsoft.OData.Core.ODataWriter,WriteStart</token>
 </entry>
 <entry count="144">
 <token>Microsoft.OData.Core.ODataMessageExtensions,PreferenceAppliedHeader</token>
@@ -478,6 +522,11 @@
 <token>Microsoft.OData.Core.ODataMessageWriterSettings,new</token>
 <token>Microsoft.OData.Core.ODataMessageWriterSettings,SetContentType</token>
 <token>Microsoft.OData.Core.ODataMessageWriter,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.OData.Core.ODataException,new</token>
+<token>Microsoft.OData.Core.ODataException,new</token>
+<token>Microsoft.OData.Core.ODataException,new</token>
 </entry>
 <entry count="12">
 <token>Microsoft.OData.Core.ODataMessageReaderSettings,new</token>
@@ -568,6 +617,10 @@
 <token>Microsoft.OData.Core.ODataMessageWriter,new</token>
 </entry>
 <entry count="2">
+<token>Microsoft.OData.Core.ODataWriter,WriteEnd</token>
+<token>Microsoft.OData.Core.ODataFeed,new</token>
+</entry>
+<entry count="2">
 <token>Microsoft.OData.Core.ODataMessageWriter,new</token>
 <token>Microsoft.OData.Core.ODataCollectionValue,new</token>
 </entry>
@@ -644,6 +697,12 @@
 <token>Microsoft.OData.Core.ODataMessageWriter,new</token>
 </entry>
 <entry count="2">
+<token>Microsoft.OData.Core.ODataWriter,WriteEnd</token>
+<token>Microsoft.OData.Core.ODataFeed,new</token>
+<token>Microsoft.OData.Core.ODataWriter,WriteStart</token>
+<token>Microsoft.OData.Core.ODataWriter,WriteEnd</token>
+</entry>
+<entry count="2">
 <token>Microsoft.OData.Core.ODataMessageWriterSettings,new</token>
 <token>Microsoft.OData.Core.ODataMessageWriterSettings,SetContentType</token>
 <token>Microsoft.OData.Core.ODataMessageWriter,new</token>
@@ -654,7 +713,7 @@
 <token>Microsoft.OData.Core.ODataMessageWriter,new</token>
 <token>Microsoft.OData.Core.ODataEntityReferenceLink,new</token>
 </entry>
-<entry count="69">
+<entry count="99">
 <token>Microsoft.OData.Core.ODataMessageReaderSettings,new</token>
 <token>Microsoft.OData.Core.ODataMessageReader,new</token>
 </entry>
@@ -680,13 +739,20 @@
 <token>Microsoft.OData.Core.ODataEnumValue,new</token>
 <token>Microsoft.OData.Core.ODataComplexValue,new</token>
 </entry>
-<entry count="12">
+<entry count="522">
 <token>Microsoft.OData.Core.ODataMessageReader,new</token>
 <token>Microsoft.OData.Core.ODataMessageReader,ReadMetadataDocument</token>
 </entry>
 <entry count="4">
 <token>Microsoft.OData.Core.ODataMessageReader,new</token>
 <token>Microsoft.OData.Core.ODataMessageReader,ReadEntityReferenceLink</token>
+</entry>
+<entry count="1">
+<token>Microsoft.OData.Core.ODataFeed,new</token>
+<token>Microsoft.OData.Core.ODataWriter,WriteStart</token>
+<token>Microsoft.OData.Core.ODataWriter,WriteEnd</token>
+<token>Microsoft.OData.Core.ODataWriter,WriteStart</token>
+<token>Microsoft.OData.Core.ODataWriter,WriteEnd</token>
 </entry>
 <entry count="6">
 <token>Microsoft.OData.Core.ODataComplexValue,new</token>
@@ -781,6 +847,11 @@
 <token>Microsoft.OData.Core.ODataBatchWriter,WriteEndChangeset</token>
 <token>Microsoft.OData.Core.ODataBatchWriter,WriteEndBatch</token>
 </entry>
+<entry count="2">
+<token>Microsoft.OData.Core.ODataWriter,WriteStart</token>
+<token>Microsoft.OData.Core.ODataWriter,WriteEnd</token>
+<token>Microsoft.OData.Core.ODataWriter,WriteStart</token>
+</entry>
 <entry count="6">
 <token>Microsoft.OData.Core.ODataMessageReader,new</token>
 <token>Microsoft.OData.Core.ODataMessageReader,CreateODataEntryReader</token>
@@ -799,6 +870,12 @@
 <token>Microsoft.OData.Core.ODataCollectionStart,new</token>
 <token>Microsoft.OData.Core.ODataCollectionWriter,WriteStart</token>
 </entry>
+<entry count="2">
+<token>Microsoft.OData.Core.ODataWriter,WriteStart</token>
+<token>Microsoft.OData.Core.ODataWriter,WriteEnd</token>
+<token>Microsoft.OData.Core.ODataWriter,WriteStart</token>
+<token>Microsoft.OData.Core.ODataWriter,WriteEnd</token>
+</entry>
 <entry count="4">
 <token>Microsoft.OData.Core.ODataMessageWriterSettings,new</token>
 <token>Microsoft.OData.Core.ODataUri,new</token>
@@ -808,6 +885,13 @@
 <entry count="6">
 <token>Microsoft.OData.Core.ODataPrimitiveValue,new</token>
 <token>Microsoft.OData.Core.ODataInstanceAnnotation,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.OData.Core.ODataWriter,WriteStart</token>
+<token>Microsoft.OData.Core.ODataWriter,WriteEnd</token>
+<token>Microsoft.OData.Core.ODataFeed,new</token>
+<token>Microsoft.OData.Core.ODataWriter,WriteStart</token>
+<token>Microsoft.OData.Core.ODataWriter,WriteEnd</token>
 </entry>
 <entry count="6">
 <token>Microsoft.OData.Core.ODataFeedAndEntrySerializationInfo,new</token>

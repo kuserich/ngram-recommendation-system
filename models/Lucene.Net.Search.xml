@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><dictionary case_sensitive="false">
-<entry count="48">
+<entry count="6240">
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
@@ -9,47 +9,74 @@
 <token>Lucene.Net.Search.Searcher,Search</token>
 <token>Lucene.Net.Search.IndexSearcher,SetDefaultFieldSortScoring</token>
 </entry>
-<entry count="84">
-<token>Lucene.Net.Search.BooleanQuery,Add</token>
-<token>Lucene.Net.Search.TermQuery,new</token>
-<token>Lucene.Net.Search.BooleanQuery,Add</token>
-<token>Lucene.Net.Search.TermQuery,new</token>
-<token>Lucene.Net.Search.BooleanQuery,Add</token>
-</entry>
-<entry count="276">
-<token>Lucene.Net.Search.BooleanQuery,new</token>
-<token>Lucene.Net.Search.BooleanQuery,new</token>
-<token>Lucene.Net.Search.BooleanQuery,Add</token>
-<token>Lucene.Net.Search.BooleanQuery,new</token>
+<entry count="2">
 <token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
+<token>Lucene.Net.Search.NumericRangeQuery,NewFloatRange</token>
 </entry>
-<entry count="36">
-<token>Lucene.Net.Search.BooleanQuery,new</token>
-<token>Lucene.Net.Search.BooleanQuery,new</token>
-<token>Lucene.Net.Search.BooleanQuery,new</token>
-</entry>
-<entry count="12">
-<token>Lucene.Net.Search.TermQuery,new</token>
-<token>Lucene.Net.Search.QueryWrapperFilter,new</token>
-<token>Lucene.Net.Search.TopDocsCollector`1[[T</token>
-</entry>
-<entry count="36">
+<entry count="7200">
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
-<token>Lucene.Net.Search.BooleanQuery,new</token>
-<token>Lucene.Net.Search.BooleanQuery,new</token>
-</entry>
-<entry count="1152">
-<token>Lucene.Net.Search.Searcher,Search</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.TopScoreDocCollector,Create</token>
-<token>Lucene.Net.Search.Searcher,Search</token>
-<token>Lucene.Net.Search.TopDocsCollector`1[[T</token>
-<token>-&gt;</token>
 </entry>
-<entry count="144">
+<entry count="2016">
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.TermQuery,new</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.TermQuery,new</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+</entry>
+<entry count="684">
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
+</entry>
+<entry count="216">
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+</entry>
+<entry count="120">
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+</entry>
+<entry count="432">
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+</entry>
+<entry count="240">
+<token>Lucene.Net.Search.NumericRangeQuery,NewLongRange</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+</entry>
+<entry count="240">
+<token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.TermQuery,new</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+</entry>
+<entry count="1200">
 <token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.TermQuery,new</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+</entry>
+<entry count="42">
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.TermQuery,new</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 </entry>
 <entry count="3">
@@ -58,32 +85,32 @@
 <token>Lucene.Net.Search.IndexSearcher,Doc</token>
 <token>Lucene.Net.Search.Explanation,ToString</token>
 </entry>
-<entry count="384">
+<entry count="3600">
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.Searcher,Search</token>
 <token>Lucene.Net.Search.TopScoreDocCollector,Create</token>
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 </entry>
-<entry count="4764">
+<entry count="57804">
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 </entry>
-<entry count="36">
+<entry count="120">
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.NumericRangeQuery,NewLongRange</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
 </entry>
-<entry count="72">
+<entry count="240">
 <token>Lucene.Net.Search.NumericRangeQuery,NewLongRange</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 </entry>
-<entry count="48">
+<entry count="480">
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,new</token>
@@ -95,47 +122,63 @@
 <token>Lucene.Net.Search.Searcher,Explain</token>
 <token>Lucene.Net.Search.IndexSearcher,Doc</token>
 </entry>
-<entry count="1152">
+<entry count="2880">
+<token>Lucene.Net.Search.TermQuery,new</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.Searcher,Search</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+</entry>
+<entry count="7200">
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.Searcher,Search</token>
 </entry>
-<entry count="36">
-<token>Lucene.Net.Search.IndexSearcher,new</token>
-<token>Lucene.Net.Search.TopDocsCollector`1[[T</token>
-<token>-&gt;</token>
-</entry>
-<entry count="1152">
+<entry count="6000">
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.TopScoreDocCollector,Create</token>
 <token>Lucene.Net.Search.Searcher,Search</token>
-<token>Lucene.Net.Search.TopDocsCollector`1[[T</token>
+<token>Lucene.Net.Search.TopDocsCollector,TopDocs</token>
 </entry>
 <entry count="1344">
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.Searcher,Search</token>
 <token>Lucene.Net.Search.IndexSearcher,Doc</token>
 </entry>
-<entry count="24">
+<entry count="6000">
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.TopScoreDocCollector,Create</token>
+<token>Lucene.Net.Search.Searcher,Search</token>
+</entry>
+<entry count="108">
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+</entry>
+<entry count="144">
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.TermQuery,new</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 </entry>
-<entry count="1443">
+<entry count="16323">
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 </entry>
-<entry count="36">
+<entry count="1440">
 <token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
 </entry>
-<entry count="24">
+<entry count="60">
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
@@ -148,67 +191,67 @@
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
 </entry>
-<entry count="12">
+<entry count="216">
 <token>Lucene.Net.Search.IndexSearcher,Doc</token>
 <token>Lucene.Net.Search.IndexSearcher,Doc</token>
 </entry>
-<entry count="384">
-<token>Lucene.Net.Search.BooleanQuery,new</token>
-<token>Lucene.Net.Search.Searcher,Search</token>
-<token>Lucene.Net.Search.TopScoreDocCollector,Create</token>
-<token>Lucene.Net.Search.Searcher,Search</token>
-<token>Lucene.Net.Search.TopDocsCollector`1[[T</token>
-</entry>
-<entry count="300">
+<entry count="1440">
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 </entry>
-<entry count="84">
+<entry count="6">
+<token>Lucene.Net.Search.IndexSearcher,new</token>
+<token>Lucene.Net.Search.TermQuery,new</token>
+<token>Lucene.Net.Search.QueryWrapperFilter,new</token>
+<token>Lucene.Net.Search.TopDocsCollector,TopDocs</token>
+<token>Lucene.Net.Search.IndexSearcher,Doc</token>
+</entry>
+<entry count="2016">
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.TermQuery,new</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.TermQuery,new</token>
-</entry>
-<entry count="444">
-<token>Lucene.Net.Search.BooleanQuery,new</token>
-<token>Lucene.Net.Search.BooleanQuery,new</token>
-<token>Lucene.Net.Search.BooleanQuery,Add</token>
-<token>Lucene.Net.Search.BooleanQuery,new</token>
-</entry>
-<entry count="1536">
-<token>Lucene.Net.Search.BooleanQuery,Add</token>
-<token>Lucene.Net.Search.Searcher,Search</token>
-<token>Lucene.Net.Search.TopScoreDocCollector,Create</token>
-</entry>
-<entry count="24">
-<token>Lucene.Net.Search.BooleanQuery,Add</token>
-<token>Lucene.Net.Search.BooleanQuery,new</token>
-<token>Lucene.Net.Search.BooleanQuery,Add</token>
-<token>Lucene.Net.Search.BooleanQuery,new</token>
 </entry>
 <entry count="1152">
 <token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+</entry>
+<entry count="14400">
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.Searcher,Search</token>
+<token>Lucene.Net.Search.TopScoreDocCollector,Create</token>
+</entry>
+<entry count="1368">
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+</entry>
+<entry count="14799">
+<token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 </entry>
-<entry count="24">
+<entry count="120">
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.NumericRangeQuery,NewLongRange</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 </entry>
-<entry count="144">
+<entry count="480">
 <token>Lucene.Net.Search.TermQuery,new</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 </entry>
-<entry count="36">
+<entry count="72">
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.BooleanQuery,new</token>
@@ -220,7 +263,7 @@
 <token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 </entry>
-<entry count="1605">
+<entry count="21807">
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
@@ -229,6 +272,13 @@
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
+</entry>
+<entry count="480">
+<token>Lucene.Net.Search.TermQuery,new</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
 </entry>
 <entry count="4">
 <token>Lucene.Net.Search.Query,ToString</token>
@@ -238,13 +288,18 @@
 <token>Lucene.Net.Search.TermQuery,new</token>
 <token>Lucene.Net.Search.TermQuery,new</token>
 </entry>
-<entry count="48">
+<entry count="10368">
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.Searcher,Search</token>
+</entry>
+<entry count="240">
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.TermQuery,new</token>
 </entry>
-<entry count="636">
+<entry count="3840">
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
@@ -256,132 +311,195 @@
 <token>Lucene.Net.Search.FuzzyQuery,new</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 </entry>
-<entry count="36">
+<entry count="360">
 <token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.NumericRangeQuery,NewLongRange</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 </entry>
-<entry count="24">
+<entry count="576">
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+</entry>
+<entry count="120">
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.NumericRangeQuery,NewLongRange</token>
 </entry>
-<entry count="1152">
+<entry count="6912">
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
-<token>Lucene.Net.Search.BooleanQuery,Add</token>
-<token>Lucene.Net.Search.Searcher,Search</token>
-<token>Lucene.Net.Search.TopDocsCollector`1[[T</token>
-<token>-&gt;</token>
-</entry>
-<entry count="1940">
-<token>Lucene.Net.Search.BooleanQuery,new</token>
-<token>Lucene.Net.Search.TermQuery,new</token>
-</entry>
-<entry count="1536">
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.TermQuery,new</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.Searcher,Search</token>
 </entry>
-<entry count="24">
-<token>3.0.3.0]],TopDocs</token>
-<token>Lucene.Net.Search.IndexSearcher,Doc</token>
+<entry count="23906">
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.TermQuery,new</token>
 </entry>
-<entry count="24">
+<entry count="17280">
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.TermQuery,new</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.Searcher,Search</token>
+</entry>
+<entry count="120">
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 </entry>
-<entry count="48">
+<entry count="288">
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+</entry>
+<entry count="144">
+<token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+</entry>
+<entry count="480">
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.NumericRangeQuery,NewLongRange</token>
+</entry>
+<entry count="480">
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.TermQuery,new</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
 </entry>
 <entry count="12">
 <token>Lucene.Net.Search.TopScoreDocCollector,Create</token>
 <token>Lucene.Net.Search.IndexSearcher,new</token>
 <token>Lucene.Net.Search.TermQuery,new</token>
 </entry>
-<entry count="36">
+<entry count="7200">
+<token>Lucene.Net.Search.Searcher,Search</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+</entry>
+<entry count="480">
+<token>Lucene.Net.Search.TermQuery,new</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
+</entry>
+<entry count="6174">
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.TermQuery,new</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+</entry>
+<entry count="1200">
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.TopScoreDocCollector,Create</token>
-<token>Lucene.Net.Search.IndexSearcher,new</token>
-<token>Lucene.Net.Search.TopDocsCollector`1[[T</token>
-<token>-&gt;</token>
-</entry>
-<entry count="144">
-<token>Lucene.Net.Search.TermQuery,new</token>
-<token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,new</token>
-<token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
 </entry>
-<entry count="252">
-<token>Lucene.Net.Search.BooleanQuery,new</token>
-<token>Lucene.Net.Search.BooleanQuery,Add</token>
-<token>Lucene.Net.Search.TermQuery,new</token>
-<token>Lucene.Net.Search.BooleanQuery,Add</token>
-</entry>
-<entry count="2352">
-<token>Lucene.Net.Search.ScoreDoc,</token>
-<token>Lucene.Net,</token>
-<token>3.0.3.0]],TopDocs</token>
-</entry>
-<entry count="144">
+<entry count="1200">
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.TermQuery,new</token>
 </entry>
-<entry count="48">
+<entry count="3960">
+<token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+</entry>
+<entry count="480">
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.NumericRangeQuery,NewLongRange</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
+</entry>
+<entry count="120">
+<token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.NumericRangeQuery,NewLongRange</token>
 </entry>
 <entry count="18">
 <token>Lucene.Net.Search.Sort,GetSort</token>
 <token>Lucene.Net.Search.IndexSearcher,Doc</token>
 </entry>
-<entry count="12">
+<entry count="7200">
+<token>Lucene.Net.Search.Searcher,Search</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+</entry>
+<entry count="72">
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.NumericRangeQuery,NewLongRange</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 </entry>
-<entry count="144">
+<entry count="240">
+<token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.TermQuery,new</token>
+</entry>
+<entry count="1200">
 <token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.TermQuery,new</token>
 </entry>
-<entry count="432">
+<entry count="1080">
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 </entry>
-<entry count="84">
+<entry count="1008">
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.TermQuery,new</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 </entry>
-<entry count="24">
+<entry count="120">
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.NumericRangeQuery,NewLongRange</token>
+</entry>
+<entry count="7200">
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.Searcher,Search</token>
+<token>Lucene.Net.Search.TopScoreDocCollector,Create</token>
+<token>Lucene.Net.Search.Searcher,Search</token>
+</entry>
+<entry count="120">
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.NumericRangeQuery,NewLongRange</token>
 </entry>
-<entry count="2688">
+<entry count="24480">
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.Searcher,Search</token>
 </entry>
@@ -392,7 +510,7 @@
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 </entry>
-<entry count="2504">
+<entry count="53096">
 <token>Lucene.Net.Search.TermQuery,new</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 </entry>
@@ -400,75 +518,85 @@
 <token>Lucene.Net.Search.IndexSearcher,new</token>
 <token>Lucene.Net.Search.Searcher,Search</token>
 </entry>
-<entry count="384">
+<entry count="18000">
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.Searcher,Search</token>
 <token>Lucene.Net.Search.TopScoreDocCollector,Create</token>
 <token>Lucene.Net.Search.Searcher,Search</token>
 </entry>
-<entry count="2352">
-<token>Lucene.Net.Search.TopDocsCollector`1[[T</token>
-<token>-&gt;</token>
-<token>Lucene.Net.Search.ScoreDoc,</token>
-<token>Lucene.Net,</token>
-<token>3.0.3.0]],TopDocs</token>
-</entry>
-<entry count="1152">
+<entry count="7200">
 <token>Lucene.Net.Search.TopScoreDocCollector,Create</token>
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 </entry>
-<entry count="24">
+<entry count="18">
+<token>Lucene.Net.Search.IndexSearcher,new</token>
+<token>Lucene.Net.Search.TopDocsCollector,TopDocs</token>
+<token>Lucene.Net.Search.IndexSearcher,Doc</token>
+</entry>
+<entry count="756">
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
-</entry>
-<entry count="24">
-<token>Lucene.Net,</token>
-<token>3.0.3.0]],TopDocs</token>
-<token>Lucene.Net.Search.IndexSearcher,Doc</token>
 </entry>
 <entry count="2">
 <token>Lucene.Net.Search.MatchAllDocsQuery,new</token>
 <token>Lucene.Net.Search.IndexSearcher,Doc</token>
 </entry>
-<entry count="1152">
+<entry count="7200">
 <token>Lucene.Net.Search.TopScoreDocCollector,Create</token>
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 </entry>
-<entry count="72">
+<entry count="42">
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.TermQuery,new</token>
+</entry>
+<entry count="600">
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.NumericRangeQuery,NewLongRange</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 </entry>
-<entry count="468">
+<entry count="7200">
+<token>Lucene.Net.Search.Searcher,Search</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+</entry>
+<entry count="4680">
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 </entry>
-<entry count="72">
+<entry count="720">
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 </entry>
-<entry count="2304">
+<entry count="36000">
 <token>Lucene.Net.Search.Searcher,Search</token>
 <token>Lucene.Net.Search.TopScoreDocCollector,Create</token>
 </entry>
-<entry count="8">
+<entry count="68">
 <token>Lucene.Net.Search.NumericRangeQuery,NewLongRange</token>
 <token>Lucene.Net.Search.NumericRangeQuery,NewLongRange</token>
 </entry>
-<entry count="648">
+<entry count="84">
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.TermQuery,new</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.TermQuery,new</token>
+</entry>
+<entry count="4320">
 <token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
@@ -479,55 +607,52 @@
 <token>Lucene.Net.Search.IndexSearcher,Doc</token>
 <token>Lucene.Net.Search.ScoreDoc,ToString</token>
 </entry>
-<entry count="768">
-<token>Lucene.Net.Search.BooleanQuery,Add</token>
-<token>Lucene.Net.Search.Searcher,Search</token>
-<token>Lucene.Net.Search.TopScoreDocCollector,Create</token>
-<token>Lucene.Net.Search.Searcher,Search</token>
-<token>Lucene.Net.Search.TopDocsCollector`1[[T</token>
-</entry>
-<entry count="48">
+<entry count="480">
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.TermQuery,new</token>
 </entry>
-<entry count="1152">
+<entry count="7200">
 <token>Lucene.Net.Search.TopScoreDocCollector,Create</token>
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 </entry>
-<entry count="36">
-<token>Lucene.Net.Search.IndexSearcher,new</token>
-<token>Lucene.Net.Search.TopDocsCollector`1[[T</token>
-<token>-&gt;</token>
-<token>Lucene.Net.Search.ScoreDoc,</token>
-<token>Lucene.Net,</token>
-</entry>
-<entry count="1536">
+<entry count="14400">
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.TermQuery,new</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.Searcher,Search</token>
 <token>Lucene.Net.Search.TopScoreDocCollector,Create</token>
 </entry>
-<entry count="96">
+<entry count="64">
+<token>Lucene.Net.Search.Searcher,Search</token>
+<token>Lucene.Net.Search.IndexSearcher,Doc</token>
+<token>Lucene.Net.Search.IndexSearcher,Doc</token>
+</entry>
+<entry count="7872">
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.TermQuery,new</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 </entry>
-<entry count="372">
+<entry count="2760">
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
 </entry>
-<entry count="144">
+<entry count="7200">
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.TopScoreDocCollector,Create</token>
+</entry>
+<entry count="18720">
 <token>Lucene.Net.Search.TermQuery,new</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 </entry>
-<entry count="2160">
+<entry count="27312">
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.Searcher,Search</token>
 </entry>
@@ -536,158 +661,236 @@
 <token>Lucene.Net.Search.IndexSearcher,Doc</token>
 <token>Lucene.Net.Search.Explanation,ToString</token>
 </entry>
-<entry count="2352">
-<token>Lucene.Net,</token>
-<token>3.0.3.0]],TopDocs</token>
+<entry count="2">
+<token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
+<token>Lucene.Net.Search.NumericRangeQuery,NewDoubleRange</token>
+</entry>
+<entry count="6000">
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.TopScoreDocCollector,Create</token>
+<token>Lucene.Net.Search.Searcher,Search</token>
+</entry>
+<entry count="8640">
+<token>Lucene.Net.Search.TermQuery,new</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.Searcher,Search</token>
+<token>Lucene.Net.Search.TopScoreDocCollector,Create</token>
 </entry>
 <entry count="3">
 <token>Lucene.Net.Search.Query,ToString</token>
 <token>Lucene.Net.Search.Searcher,Explain</token>
 </entry>
-<entry count="72">
+<entry count="600">
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.NumericRangeQuery,NewLongRange</token>
+</entry>
+<entry count="2">
+<token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
+<token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
 </entry>
 <entry count="4">
 <token>Lucene.Net.Search.TermQuery,new</token>
 <token>Lucene.Net.Search.BooleanClause,new</token>
 </entry>
+<entry count="7200">
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.Searcher,Search</token>
+<token>Lucene.Net.Search.TopDocsCollector,TopDocs</token>
+</entry>
 <entry count="3">
 <token>Lucene.Net.Search.Scorer,Score</token>
 <token>Lucene.Net.Search.ScoreDoc,new</token>
 </entry>
-<entry count="795">
+<entry count="84">
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.TermQuery,new</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.TermQuery,new</token>
+</entry>
+<entry count="5523">
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
 </entry>
-<entry count="168">
+<entry count="3528">
 <token>Lucene.Net.Search.TermQuery,new</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.TermQuery,new</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 </entry>
-<entry count="24">
+<entry count="120">
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.NumericRangeQuery,NewLongRange</token>
 </entry>
-<entry count="24">
+<entry count="120">
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 </entry>
-<entry count="768">
+<entry count="2400">
 <token>Lucene.Net.Search.TermQuery,new</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.Searcher,Search</token>
 <token>Lucene.Net.Search.TopScoreDocCollector,Create</token>
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 </entry>
+<entry count="480">
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.TermQuery,new</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+</entry>
 <entry count="3">
 <token>Lucene.Net.Search.IndexSearcher,Doc</token>
 <token>Lucene.Net.Search.Explanation,ToString</token>
 </entry>
-<entry count="36">
+<entry count="1728">
+<token>Lucene.Net.Search.TermQuery,new</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.Searcher,Search</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+</entry>
+<entry count="216">
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 </entry>
-<entry count="792">
+<entry count="5520">
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+</entry>
+<entry count="1008">
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.TermQuery,new</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 </entry>
 <entry count="2">
 <token>Lucene.Net.Search.ScoreDoc,new</token>
 <token>Lucene.Net.Search.TopDocs,new</token>
 </entry>
-<entry count="24">
+<entry count="288">
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.NumericRangeQuery,NewLongRange</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 </entry>
-<entry count="36">
+<entry count="1728">
 <token>Lucene.Net.Search.SortField,new</token>
 <token>Lucene.Net.Search.SortField,new</token>
 </entry>
-<entry count="2352">
-<token>Lucene.Net.Search.TopDocsCollector`1[[T</token>
-<token>-&gt;</token>
-</entry>
-<entry count="12">
-<token>Lucene.Net.Search.IndexSearcher,new</token>
-<token>Lucene.Net.Search.TermQuery,new</token>
-<token>Lucene.Net.Search.QueryWrapperFilter,new</token>
-<token>Lucene.Net.Search.TopDocsCollector`1[[T</token>
-</entry>
-<entry count="24">
-<token>-&gt;</token>
-<token>Lucene.Net.Search.ScoreDoc,</token>
-<token>Lucene.Net,</token>
-<token>3.0.3.0]],TopDocs</token>
-<token>Lucene.Net.Search.IndexSearcher,Doc</token>
-</entry>
-<entry count="36">
-<token>Lucene.Net.Search.BooleanQuery,Add</token>
-<token>Lucene.Net.Search.NumericRangeQuery,NewLongRange</token>
-<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<entry count="4320">
 <token>Lucene.Net.Search.BooleanQuery,new</token>
-</entry>
-<entry count="2304">
 <token>Lucene.Net.Search.Searcher,Search</token>
-<token>Lucene.Net.Search.TopDocsCollector`1[[T</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+</entry>
+<entry count="480">
+<token>Lucene.Net.Search.NumericRangeQuery,NewLongRange</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+</entry>
+<entry count="360">
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.NumericRangeQuery,NewLongRange</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+</entry>
+<entry count="1440">
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.Searcher,Search</token>
+<token>Lucene.Net.Search.TopScoreDocCollector,Create</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+</entry>
+<entry count="2">
+<token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
+<token>Lucene.Net.Search.NumericRangeQuery,NewLongRange</token>
 </entry>
 <entry count="36">
+<token>Lucene.Net.Search.TopScoreDocCollector,Create</token>
+<token>Lucene.Net.Search.IndexSearcher,new</token>
+<token>Lucene.Net.Search.TopDocsCollector,TopDocs</token>
+</entry>
+<entry count="120">
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.NumericRangeQuery,NewLongRange</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
 </entry>
-<entry count="72">
+<entry count="7200">
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.Searcher,Search</token>
+<token>Lucene.Net.Search.TopDocsCollector,TopDocs</token>
+</entry>
+<entry count="720">
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.TermQuery,new</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 </entry>
-<entry count="2352">
-<token>Lucene.Net.Search.TopDocsCollector`1[[T</token>
-<token>-&gt;</token>
-<token>Lucene.Net.Search.ScoreDoc,</token>
-<token>Lucene.Net,</token>
+<entry count="216">
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
 </entry>
-<entry count="1405">
+<entry count="4320">
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.Searcher,Search</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+</entry>
+<entry count="6481">
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.BooleanQuery,new</token>
+</entry>
+<entry count="480">
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+</entry>
+<entry count="2">
+<token>Lucene.Net.Search.NumericRangeQuery,NewFloatRange</token>
+<token>Lucene.Net.Search.NumericRangeQuery,NewDoubleRange</token>
 </entry>
 <entry count="2">
 <token>Lucene.Net.Search.FuzzyQuery,new</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 </entry>
-<entry count="726">
+<entry count="4926">
 <token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 </entry>
-<entry count="12">
-<token>Lucene.Net.Search.TermQuery,new</token>
-<token>Lucene.Net.Search.QueryWrapperFilter,new</token>
-<token>Lucene.Net.Search.TopDocsCollector`1[[T</token>
-<token>-&gt;</token>
-<token>Lucene.Net.Search.ScoreDoc,</token>
+<entry count="1200">
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.TopScoreDocCollector,Create</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
 </entry>
 <entry count="3">
 <token>Lucene.Net.Search.Searcher,Explain</token>
 <token>Lucene.Net.Search.IndexSearcher,Doc</token>
 </entry>
-<entry count="432">
+<entry count="1440">
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
@@ -697,207 +900,255 @@
 <token>Lucene.Net.Search.TermQuery,new</token>
 <token>Lucene.Net.Search.PrefixQuery,new</token>
 </entry>
-<entry count="72">
+<entry count="360">
+<token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+</entry>
+<entry count="600">
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.NumericRangeQuery,NewLongRange</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 </entry>
-<entry count="72">
+<entry count="240">
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
 </entry>
-<entry count="156">
+<entry count="2880">
 <token>Lucene.Net.Search.BooleanQuery,new</token>
-<token>Lucene.Net.Search.BooleanQuery,new</token>
-<token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
+<token>Lucene.Net.Search.TermQuery,new</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
-<token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
+<token>Lucene.Net.Search.Searcher,Search</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
 </entry>
-<entry count="180">
+<entry count="7200">
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,new</token>
+</entry>
+<entry count="1680">
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
 </entry>
 <entry count="12">
 <token>Lucene.Net.Search.IndexSearcher,new</token>
 <token>Lucene.Net.Search.TermQuery,new</token>
 <token>Lucene.Net.Search.QueryWrapperFilter,new</token>
 </entry>
-<entry count="1152">
-<token>Lucene.Net.Search.TopScoreDocCollector,Create</token>
-<token>Lucene.Net.Search.Searcher,Search</token>
-<token>Lucene.Net.Search.TopDocsCollector`1[[T</token>
-<token>-&gt;</token>
-<token>Lucene.Net.Search.ScoreDoc,</token>
+<entry count="2160">
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
 </entry>
-<entry count="72">
+<entry count="2880">
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.Searcher,Search</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+</entry>
+<entry count="18">
+<token>Lucene.Net.Search.TopScoreDocCollector,Create</token>
+<token>Lucene.Net.Search.IndexSearcher,new</token>
+<token>Lucene.Net.Search.TopDocsCollector,TopDocs</token>
+<token>Lucene.Net.Search.IndexSearcher,Doc</token>
+</entry>
+<entry count="288">
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
 </entry>
-<entry count="72">
+<entry count="6">
+<token>Lucene.Net.Search.QueryWrapperFilter,new</token>
+<token>Lucene.Net.Search.TopDocsCollector,TopDocs</token>
+<token>Lucene.Net.Search.IndexSearcher,Doc</token>
+</entry>
+<entry count="720">
 <token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.TermQuery,new</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 </entry>
-<entry count="1152">
-<token>Lucene.Net.Search.BooleanQuery,Add</token>
-<token>Lucene.Net.Search.Searcher,Search</token>
-<token>Lucene.Net.Search.TopDocsCollector`1[[T</token>
-<token>-&gt;</token>
+<entry count="12">
+<token>Lucene.Net.Search.QueryWrapperFilter,new</token>
+<token>Lucene.Net.Search.TopDocsCollector,TopDocs</token>
 </entry>
-<entry count="24">
-<token>Lucene.Net.Search.ScoreDoc,</token>
-<token>Lucene.Net,</token>
-<token>3.0.3.0]],TopDocs</token>
-<token>Lucene.Net.Search.IndexSearcher,Doc</token>
+<entry count="2">
+<token>Lucene.Net.Search.NumericRangeQuery,NewDoubleRange</token>
+<token>Lucene.Net.Search.NumericRangeQuery,NewFloatRange</token>
 </entry>
 <entry count="2">
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.FuzzyQuery,new</token>
 </entry>
-<entry count="768">
+<entry count="12000">
 <token>Lucene.Net.Search.TermQuery,new</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.Searcher,Search</token>
 <token>Lucene.Net.Search.TopScoreDocCollector,Create</token>
 <token>Lucene.Net.Search.Searcher,Search</token>
 </entry>
-<entry count="72">
+<entry count="240">
 <token>Lucene.Net.Search.NumericRangeQuery,NewLongRange</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
 </entry>
-<entry count="888">
+<entry count="3000">
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
-</entry>
-<entry count="2352">
-<token>-&gt;</token>
-<token>Lucene.Net.Search.ScoreDoc,</token>
-<token>Lucene.Net,</token>
-<token>3.0.3.0]],TopDocs</token>
 </entry>
 <entry count="48">
 <token>Lucene.Net.Search.TopScoreDocCollector,Create</token>
 <token>Lucene.Net.Search.IndexSearcher,new</token>
 </entry>
-<entry count="36">
+<entry count="1152">
+<token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+</entry>
+<entry count="144">
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
 </entry>
-<entry count="1152">
-<token>Lucene.Net.Search.BooleanQuery,Add</token>
-<token>Lucene.Net.Search.Searcher,Search</token>
-<token>Lucene.Net.Search.TopDocsCollector`1[[T</token>
-<token>-&gt;</token>
-<token>Lucene.Net.Search.ScoreDoc,</token>
-</entry>
-<entry count="24">
+<entry count="108">
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 </entry>
-<entry count="252">
+<entry count="6174">
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.TermQuery,new</token>
 </entry>
-<entry count="36">
+<entry count="1456">
 <token>Lucene.Net.Search.SortField,new</token>
 <token>Lucene.Net.Search.SortField,new</token>
 <token>Lucene.Net.Search.Sort,new</token>
 </entry>
+<entry count="1440">
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+</entry>
+<entry count="32">
+<token>Lucene.Net.Search.NumericRangeQuery,NewLongRange</token>
+<token>Lucene.Net.Search.NumericRangeQuery,NewLongRange</token>
+<token>Lucene.Net.Search.NumericRangeQuery,NewLongRange</token>
+</entry>
+<entry count="2520">
+<token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+</entry>
+<entry count="600">
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.NumericRangeQuery,NewLongRange</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+</entry>
 <entry count="120">
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,new</token>
-<token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.TermQuery,new</token>
 </entry>
-<entry count="4">
-<token>Lucene.Net.Search.NumericRangeQuery,NewLongRange</token>
-<token>Lucene.Net.Search.NumericRangeQuery,NewLongRange</token>
-<token>Lucene.Net.Search.NumericRangeQuery,NewLongRange</token>
+<entry count="6912">
+<token>Lucene.Net.Search.TermQuery,new</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.TermQuery,new</token>
 </entry>
-<entry count="36">
+<entry count="3600">
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.Searcher,Search</token>
+<token>Lucene.Net.Search.TopScoreDocCollector,Create</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+</entry>
+<entry count="7200">
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.Searcher,Search</token>
+<token>Lucene.Net.Search.TopDocsCollector,TopDocs</token>
+</entry>
+<entry count="2760">
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
+</entry>
+<entry count="21849">
 <token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
+</entry>
+<entry count="144">
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 </entry>
 <entry count="72">
+<token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
-<token>Lucene.Net.Search.NumericRangeQuery,NewLongRange</token>
-<token>Lucene.Net.Search.BooleanQuery,Add</token>
-</entry>
-<entry count="384">
 <token>Lucene.Net.Search.BooleanQuery,new</token>
-<token>Lucene.Net.Search.Searcher,Search</token>
-<token>Lucene.Net.Search.TopScoreDocCollector,Create</token>
-<token>Lucene.Net.Search.BooleanQuery,new</token>
-</entry>
-<entry count="300">
-<token>Lucene.Net.Search.BooleanQuery,Add</token>
-<token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
 </entry>
-<entry count="2241">
-<token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
-<token>Lucene.Net.Search.BooleanQuery,Add</token>
-</entry>
-<entry count="12">
-<token>Lucene.Net.Search.BooleanQuery,Add</token>
-<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<entry count="18000">
 <token>Lucene.Net.Search.BooleanQuery,new</token>
-<token>Lucene.Net.Search.BooleanQuery,Add</token>
-<token>Lucene.Net.Search.BooleanQuery,new</token>
-</entry>
-<entry count="1152">
+<token>Lucene.Net.Search.Searcher,Search</token>
 <token>Lucene.Net.Search.TopScoreDocCollector,Create</token>
 <token>Lucene.Net.Search.Searcher,Search</token>
-<token>Lucene.Net.Search.TopDocsCollector`1[[T</token>
-<token>-&gt;</token>
+<token>Lucene.Net.Search.TopDocsCollector,TopDocs</token>
 </entry>
 <entry count="2">
 <token>Lucene.Net.Search.IndexSearcher,new</token>
 <token>Lucene.Net.Search.TermQuery,new</token>
 <token>Lucene.Net.Search.Searcher,Search</token>
 </entry>
-<entry count="372">
+<entry count="2760">
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 </entry>
-<entry count="252">
+<entry count="3240">
 <token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
 </entry>
-<entry count="42">
+<entry count="756">
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.TermQuery,new</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 </entry>
-<entry count="48">
+<entry count="480">
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.NumericRangeQuery,NewLongRange</token>
@@ -907,14 +1158,19 @@
 <token>Lucene.Net.Search.IndexSearcher,Doc</token>
 <token>Lucene.Net.Search.ScoreDoc,ToString</token>
 </entry>
-<entry count="36">
-<token>Lucene.Net.Search.TopScoreDocCollector,Create</token>
-<token>Lucene.Net.Search.IndexSearcher,new</token>
-<token>Lucene.Net.Search.TopDocsCollector`1[[T</token>
-<token>-&gt;</token>
-<token>Lucene.Net.Search.ScoreDoc,</token>
+<entry count="272">
+<token>Lucene.Net.Search.SortField,new</token>
+<token>Lucene.Net.Search.SortField,new</token>
+<token>Lucene.Net.Search.SortField,new</token>
 </entry>
-<entry count="24">
+<entry count="252">
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+</entry>
+<entry count="120">
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,new</token>
@@ -925,10 +1181,6 @@
 <token>Lucene.Net.Search.BooleanClause,new</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 </entry>
-<entry count="36">
-<token>Lucene.Net.Search.IndexSearcher,new</token>
-<token>Lucene.Net.Search.TopDocsCollector`1[[T</token>
-</entry>
 <entry count="3">
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
@@ -936,124 +1188,157 @@
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
 </entry>
-<entry count="651">
+<entry count="4323">
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 </entry>
-<entry count="300">
+<entry count="1440">
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
 </entry>
-<entry count="1152">
+<entry count="2">
+<token>Lucene.Net.Search.NumericRangeQuery,NewFloatRange</token>
+<token>Lucene.Net.Search.NumericRangeQuery,NewLongRange</token>
+</entry>
+<entry count="6000">
 <token>Lucene.Net.Search.Searcher,Search</token>
 <token>Lucene.Net.Search.TopScoreDocCollector,Create</token>
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 </entry>
-<entry count="432">
+<entry count="1008">
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.TermQuery,new</token>
+</entry>
+<entry count="2160">
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 </entry>
-<entry count="2304">
-<token>Lucene.Net.Search.Searcher,Search</token>
-<token>Lucene.Net.Search.TopDocsCollector`1[[T</token>
-<token>-&gt;</token>
-<token>Lucene.Net.Search.ScoreDoc,</token>
+<entry count="240">
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.NumericRangeQuery,NewLongRange</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
 </entry>
-<entry count="36">
+<entry count="6">
+<token>Lucene.Net.Search.TermQuery,new</token>
+<token>Lucene.Net.Search.QueryWrapperFilter,new</token>
+<token>Lucene.Net.Search.TopDocsCollector,TopDocs</token>
+<token>Lucene.Net.Search.IndexSearcher,Doc</token>
+</entry>
+<entry count="360">
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.NumericRangeQuery,NewLongRange</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 </entry>
-<entry count="144">
+<entry count="1200">
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.TermQuery,new</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 </entry>
-<entry count="24">
+<entry count="84">
+<token>Lucene.Net.Search.TermQuery,new</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+</entry>
+<entry count="120">
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.NumericRangeQuery,NewLongRange</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 </entry>
-<entry count="1068">
+<entry count="8160">
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+</entry>
+<entry count="3528">
+<token>Lucene.Net.Search.TermQuery,new</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.TermQuery,new</token>
+</entry>
+<entry count="720">
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.TermQuery,new</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+</entry>
+<entry count="14421">
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+</entry>
+<entry count="288">
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+</entry>
+<entry count="3480">
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+</entry>
+<entry count="864">
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+</entry>
+<entry count="480">
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+</entry>
+<entry count="600">
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.NumericRangeQuery,NewLongRange</token>
+</entry>
+<entry count="24">
+<token>Lucene.Net.Search.TopDocsCollector,TopDocs</token>
+<token>Lucene.Net.Search.IndexSearcher,Doc</token>
+</entry>
+<entry count="72">
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+</entry>
+<entry count="798">
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.TermQuery,new</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 </entry>
 <entry count="168">
 <token>Lucene.Net.Search.TermQuery,new</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.TermQuery,new</token>
-</entry>
-<entry count="72">
-<token>Lucene.Net.Search.BooleanQuery,new</token>
-<token>Lucene.Net.Search.TermQuery,new</token>
-<token>Lucene.Net.Search.BooleanQuery,Add</token>
-<token>Lucene.Net.Search.BooleanQuery,new</token>
-</entry>
-<entry count="1152">
-<token>Lucene.Net.Search.BooleanQuery,new</token>
-<token>Lucene.Net.Search.BooleanQuery,Add</token>
-<token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 </entry>
-<entry count="72">
-<token>Lucene.Net.Search.BooleanQuery,Add</token>
-<token>Lucene.Net.Search.BooleanQuery,new</token>
-<token>Lucene.Net.Search.BooleanQuery,new</token>
-<token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
-<token>Lucene.Net.Search.BooleanQuery,Add</token>
-</entry>
-<entry count="72">
-<token>Lucene.Net.Search.BooleanQuery,Add</token>
-<token>Lucene.Net.Search.BooleanQuery,new</token>
-<token>Lucene.Net.Search.BooleanQuery,new</token>
-</entry>
-<entry count="24">
-<token>Lucene.Net.Search.BooleanQuery,Add</token>
-<token>Lucene.Net.Search.BooleanQuery,Add</token>
-<token>Lucene.Net.Search.BooleanQuery,new</token>
-<token>Lucene.Net.Search.BooleanQuery,Add</token>
-</entry>
-<entry count="72">
-<token>Lucene.Net.Search.BooleanQuery,new</token>
-<token>Lucene.Net.Search.NumericRangeQuery,NewLongRange</token>
-</entry>
-<entry count="12">
-<token>Lucene.Net.Search.BooleanQuery,new</token>
-<token>Lucene.Net.Search.BooleanQuery,Add</token>
-<token>Lucene.Net.Search.BooleanQuery,new</token>
-<token>Lucene.Net.Search.BooleanQuery,Add</token>
-<token>Lucene.Net.Search.BooleanQuery,new</token>
-</entry>
-<entry count="42">
-<token>Lucene.Net.Search.BooleanQuery,new</token>
-<token>Lucene.Net.Search.BooleanQuery,Add</token>
-<token>Lucene.Net.Search.TermQuery,new</token>
-<token>Lucene.Net.Search.BooleanQuery,Add</token>
-<token>Lucene.Net.Search.BooleanQuery,Add</token>
-</entry>
-<entry count="42">
-<token>Lucene.Net.Search.TermQuery,new</token>
-<token>Lucene.Net.Search.BooleanQuery,Add</token>
-<token>Lucene.Net.Search.TermQuery,new</token>
-<token>Lucene.Net.Search.BooleanQuery,Add</token>
-<token>Lucene.Net.Search.BooleanQuery,Add</token>
-</entry>
-<entry count="36">
+<entry count="216">
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
@@ -1064,34 +1349,72 @@
 <token>Lucene.Net.Search.IndexSearcher,SetDefaultFieldSortScoring</token>
 <token>Lucene.Net.Search.Searcher,Search</token>
 </entry>
+<entry count="1200">
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.TopScoreDocCollector,Create</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+</entry>
+<entry count="2880">
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+</entry>
+<entry count="2880">
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.Searcher,Search</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+</entry>
 <entry count="4">
 <token>Lucene.Net.Search.TermQuery,new</token>
 <token>Lucene.Net.Search.Searcher,Search</token>
 <token>Lucene.Net.Search.IndexSearcher,Doc</token>
 </entry>
-<entry count="12">
-<token>Lucene.Net.Search.QueryWrapperFilter,new</token>
-<token>Lucene.Net.Search.TopDocsCollector`1[[T</token>
-<token>-&gt;</token>
-<token>Lucene.Net.Search.ScoreDoc,</token>
-<token>Lucene.Net,</token>
+<entry count="12000">
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.Searcher,Search</token>
+<token>Lucene.Net.Search.TopScoreDocCollector,Create</token>
+<token>Lucene.Net.Search.Searcher,Search</token>
+<token>Lucene.Net.Search.TopDocsCollector,TopDocs</token>
 </entry>
-<entry count="1404">
+<entry count="36000">
+<token>Lucene.Net.Search.TopScoreDocCollector,Create</token>
+<token>Lucene.Net.Search.Searcher,Search</token>
+<token>Lucene.Net.Search.TopDocsCollector,TopDocs</token>
+</entry>
+<entry count="34560">
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 </entry>
-<entry count="72">
+<entry count="240">
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.TermQuery,new</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
 </entry>
-<entry count="1443">
+<entry count="84">
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.TermQuery,new</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.TermQuery,new</token>
+</entry>
+<entry count="12">
+<token>Lucene.Net.Search.TopScoreDocCollector,Create</token>
+<token>Lucene.Net.Search.IndexSearcher,new</token>
+<token>Lucene.Net.Search.TermQuery,new</token>
+<token>Lucene.Net.Search.QueryWrapperFilter,new</token>
+<token>Lucene.Net.Search.TopDocsCollector,TopDocs</token>
+</entry>
+<entry count="16323">
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
 </entry>
-<entry count="144">
+<entry count="1200">
 <token>Lucene.Net.Search.NumericRangeQuery,NewLongRange</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 </entry>
@@ -1101,74 +1424,77 @@
 <token>Lucene.Net.Search.IndexSearcher,SetDefaultFieldSortScoring</token>
 <token>Lucene.Net.Search.Searcher,Search</token>
 </entry>
-<entry count="1152">
+<entry count="7200">
 <token>Lucene.Net.Search.TopScoreDocCollector,Create</token>
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 </entry>
-<entry count="48">
+<entry count="120">
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.TermQuery,new</token>
 </entry>
-<entry count="792">
+<entry count="5520">
 <token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
 </entry>
-<entry count="1152">
-<token>Lucene.Net.Search.Searcher,Search</token>
-<token>Lucene.Net.Search.TopScoreDocCollector,Create</token>
-<token>Lucene.Net.Search.Searcher,Search</token>
-<token>Lucene.Net.Search.TopDocsCollector`1[[T</token>
+<entry count="288">
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
 </entry>
-<entry count="2352">
-<token>Lucene.Net.Search.ScoreDoc,</token>
-<token>Lucene.Net,</token>
-</entry>
-<entry count="4">
+<entry count="8">
 <token>Lucene.Net.Search.IndexSearcher,Doc</token>
 <token>Lucene.Net.Search.IndexSearcher,Doc</token>
 <token>Lucene.Net.Search.IndexSearcher,Doc</token>
 </entry>
-<entry count="48">
+<entry count="240">
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.TermQuery,new</token>
 </entry>
-<entry count="1536">
+<entry count="240">
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.TermQuery,new</token>
+</entry>
+<entry count="17280">
 <token>Lucene.Net.Search.TermQuery,new</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.Searcher,Search</token>
 </entry>
-<entry count="36">
-<token>Lucene.Net.Search.IndexSearcher,new</token>
-<token>Lucene.Net.Search.TopDocsCollector`1[[T</token>
-<token>-&gt;</token>
-<token>Lucene.Net.Search.ScoreDoc,</token>
-</entry>
-<entry count="84">
+<entry count="1596">
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.TermQuery,new</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.TermQuery,new</token>
 </entry>
-<entry count="768">
+<entry count="21600">
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.Searcher,Search</token>
 <token>Lucene.Net.Search.TopScoreDocCollector,Create</token>
 </entry>
-<entry count="1152">
+<entry count="42">
+<token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
-<token>Lucene.Net.Search.Searcher,Search</token>
-<token>Lucene.Net.Search.TopDocsCollector`1[[T</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.TermQuery,new</token>
 </entry>
-<entry count="72">
+<entry count="2">
+<token>Lucene.Net.Search.NumericRangeQuery,NewDoubleRange</token>
+<token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
+</entry>
+<entry count="600">
 <token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.NumericRangeQuery,NewLongRange</token>
@@ -1182,114 +1508,191 @@
 <token>Lucene.Net.Search.IndexSearcher,new</token>
 <token>Lucene.Net.Search.TermQuery,new</token>
 </entry>
-<entry count="72">
+<entry count="2">
+<token>Lucene.Net.Search.NumericRangeQuery,NewLongRange</token>
+<token>Lucene.Net.Search.NumericRangeQuery,NewFloatRange</token>
+</entry>
+<entry count="120">
+<token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.NumericRangeQuery,NewLongRange</token>
+</entry>
+<entry count="240">
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.TermQuery,new</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
 </entry>
-<entry count="2307">
+<entry count="336">
+<token>Lucene.Net.Search.TermQuery,new</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.TermQuery,new</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.TermQuery,new</token>
+</entry>
+<entry count="29307">
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 </entry>
-<entry count="96">
+<entry count="4320">
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.Searcher,Search</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+</entry>
+<entry count="960">
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.TermQuery,new</token>
 </entry>
-<entry count="795">
+<entry count="5523">
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 </entry>
-<entry count="72">
+<entry count="1728">
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.Searcher,Search</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+</entry>
+<entry count="720">
 <token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 </entry>
-<entry count="468">
+<entry count="2520">
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 </entry>
-<entry count="1152">
+<entry count="4">
+<token>Lucene.Net.Search.NumericRangeQuery,NewLongRange</token>
+<token>Lucene.Net.Search.NumericRangeQuery,NewDoubleRange</token>
+</entry>
+<entry count="120">
+<token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.NumericRangeQuery,NewLongRange</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+</entry>
+<entry count="30000">
 <token>Lucene.Net.Search.Searcher,Search</token>
 <token>Lucene.Net.Search.TopScoreDocCollector,Create</token>
 <token>Lucene.Net.Search.Searcher,Search</token>
 </entry>
-<entry count="12">
-<token>Lucene.Net.Search.TermQuery,new</token>
-<token>Lucene.Net.Search.QueryWrapperFilter,new</token>
-<token>Lucene.Net.Search.TopDocsCollector`1[[T</token>
-<token>-&gt;</token>
-</entry>
-<entry count="72">
+<entry count="600">
 <token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.NumericRangeQuery,NewLongRange</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 </entry>
-<entry count="1152">
+<entry count="7200">
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.Searcher,Search</token>
 </entry>
-<entry count="24">
+<entry count="7200">
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.TopScoreDocCollector,Create</token>
+</entry>
+<entry count="240">
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.NumericRangeQuery,NewLongRange</token>
 </entry>
-<entry count="48">
+<entry count="6000">
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.TopScoreDocCollector,Create</token>
+<token>Lucene.Net.Search.Searcher,Search</token>
+</entry>
+<entry count="240">
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.TermQuery,new</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 </entry>
-<entry count="1068">
+<entry count="2">
+<token>Lucene.Net.Search.NumericRangeQuery,NewFloatRange</token>
+<token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
+</entry>
+<entry count="8160">
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
 </entry>
+<entry count="144">
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+</entry>
+<entry count="240">
+<token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.TermQuery,new</token>
+</entry>
+<entry count="1080">
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+</entry>
 <entry count="12">
-<token>Lucene.Net.Search.TopScoreDocCollector,Create</token>
 <token>Lucene.Net.Search.IndexSearcher,new</token>
 <token>Lucene.Net.Search.TermQuery,new</token>
 <token>Lucene.Net.Search.QueryWrapperFilter,new</token>
-<token>Lucene.Net.Search.TopDocsCollector`1[[T</token>
+<token>Lucene.Net.Search.TopDocsCollector,TopDocs</token>
 </entry>
-<entry count="1152">
-<token>Lucene.Net.Search.TopScoreDocCollector,Create</token>
-<token>Lucene.Net.Search.Searcher,Search</token>
-<token>Lucene.Net.Search.TopDocsCollector`1[[T</token>
-</entry>
-<entry count="24">
+<entry count="240">
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.NumericRangeQuery,NewLongRange</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 </entry>
-<entry count="12">
-<token>Lucene.Net.Search.QueryWrapperFilter,new</token>
-<token>Lucene.Net.Search.TopDocsCollector`1[[T</token>
-<token>-&gt;</token>
+<entry count="36">
+<token>Lucene.Net.Search.IndexSearcher,new</token>
+<token>Lucene.Net.Search.TopDocsCollector,TopDocs</token>
 </entry>
-<entry count="72">
+<entry count="1200">
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.TopScoreDocCollector,Create</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+</entry>
+<entry count="600">
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.NumericRangeQuery,NewLongRange</token>
 </entry>
-<entry count="300">
+<entry count="42">
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.TermQuery,new</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+</entry>
+<entry count="2760">
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,new</token>
@@ -1301,37 +1704,39 @@
 <token>Lucene.Net.Search.IndexSearcher,SetDefaultFieldSortScoring</token>
 <token>Lucene.Net.Search.Searcher,Search</token>
 </entry>
-<entry count="48">
+<entry count="240">
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.TermQuery,new</token>
 </entry>
-<entry count="2352">
-<token>Lucene.Net.Search.TopDocsCollector`1[[T</token>
-<token>-&gt;</token>
-<token>Lucene.Net.Search.ScoreDoc,</token>
+<entry count="1920">
+<token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
 </entry>
-<entry count="36">
+<entry count="108">
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 </entry>
-<entry count="36">
+<entry count="72">
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 </entry>
-<entry count="84">
+<entry count="1512">
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.TermQuery,new</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.TermQuery,new</token>
 </entry>
-<entry count="24">
+<entry count="360">
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,new</token>
@@ -1349,14 +1754,14 @@
 <token>Lucene.Net.Search.TermQuery,new</token>
 <token>Lucene.Net.Search.QueryWrapperFilter,new</token>
 </entry>
-<entry count="48">
+<entry count="240">
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.TermQuery,new</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 </entry>
-<entry count="48">
+<entry count="576">
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.TermQuery,new</token>
@@ -1370,100 +1775,167 @@
 <token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 </entry>
-<entry count="108">
+<entry count="3456">
 <token>Lucene.Net.Search.SortField,new</token>
 <token>Lucene.Net.Search.Sort,new</token>
 </entry>
-<entry count="1536">
+<entry count="14400">
 <token>Lucene.Net.Search.TermQuery,new</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.Searcher,Search</token>
 <token>Lucene.Net.Search.TopScoreDocCollector,Create</token>
 </entry>
-<entry count="768">
+<entry count="6000">
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.TopScoreDocCollector,Create</token>
+<token>Lucene.Net.Search.Searcher,Search</token>
+<token>Lucene.Net.Search.TopDocsCollector,TopDocs</token>
+</entry>
+<entry count="7200">
+<token>Lucene.Net.Search.Searcher,Search</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+</entry>
+<entry count="2400">
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.Searcher,Search</token>
 <token>Lucene.Net.Search.TopScoreDocCollector,Create</token>
 <token>Lucene.Net.Search.BooleanQuery,new</token>
+</entry>
+<entry count="42">
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.TermQuery,new</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
 </entry>
 <entry count="4">
 <token>Lucene.Net.Search.BooleanClause,new</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 </entry>
-<entry count="12">
-<token>Lucene.Net.Search.QueryWrapperFilter,new</token>
-<token>Lucene.Net.Search.TopDocsCollector`1[[T</token>
-</entry>
-<entry count="768">
+<entry count="2400">
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.Searcher,Search</token>
 <token>Lucene.Net.Search.TopScoreDocCollector,Create</token>
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 </entry>
-<entry count="48">
+<entry count="798">
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.TermQuery,new</token>
+</entry>
+<entry count="798">
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.TermQuery,new</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+</entry>
+<entry count="240">
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.TermQuery,new</token>
 </entry>
-<entry count="2304">
-<token>Lucene.Net.Search.Searcher,Search</token>
-<token>Lucene.Net.Search.TopDocsCollector`1[[T</token>
-<token>-&gt;</token>
-<token>Lucene.Net.Search.ScoreDoc,</token>
-<token>Lucene.Net,</token>
+<entry count="168">
+<token>Lucene.Net.Search.TermQuery,new</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.TermQuery,new</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
 </entry>
-<entry count="2304">
+<entry count="16">
+<token>Lucene.Net.Search.SortField,new</token>
+<token>Lucene.Net.Search.SortField,new</token>
+<token>Lucene.Net.Search.SortField,new</token>
+<token>Lucene.Net.Search.SortField,new</token>
+<token>Lucene.Net.Search.Sort,new</token>
+</entry>
+<entry count="1728">
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.Searcher,Search</token>
-<token>Lucene.Net.Search.TopDocsCollector`1[[T</token>
-<token>-&gt;</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+</entry>
+<entry count="120">
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+</entry>
+<entry count="10368">
+<token>Lucene.Net.Search.TermQuery,new</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.Searcher,Search</token>
+</entry>
+<entry count="2880">
+<token>Lucene.Net.Search.TermQuery,new</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.Searcher,Search</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+</entry>
+<entry count="12">
+<token>Lucene.Net.Search.TermQuery,new</token>
+<token>Lucene.Net.Search.QueryWrapperFilter,new</token>
+<token>Lucene.Net.Search.TopDocsCollector,TopDocs</token>
 </entry>
 <entry count="2">
 <token>Lucene.Net.Search.Searcher,Search</token>
 <token>Lucene.Net.Search.IndexSearcher,SetDefaultFieldSortScoring</token>
 </entry>
-<entry count="126">
+<entry count="1764">
 <token>Lucene.Net.Search.TermQuery,new</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 </entry>
-<entry count="75">
+<entry count="603">
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 </entry>
-<entry count="72">
+<entry count="720">
 <token>Lucene.Net.Search.NumericRangeQuery,NewLongRange</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 </entry>
-<entry count="252">
+<entry count="3240">
 <token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 </entry>
-<entry count="564">
+<entry count="11910">
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.TermQuery,new</token>
 </entry>
-<entry count="1152">
+<entry count="216">
+<token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
-<token>Lucene.Net.Search.BooleanQuery,Add</token>
-<token>Lucene.Net.Search.BooleanQuery,Add</token>
-<token>Lucene.Net.Search.Searcher,Search</token>
-<token>Lucene.Net.Search.TopDocsCollector`1[[T</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
 </entry>
-<entry count="1152">
+<entry count="16">
+<token>Lucene.Net.Search.SortField,new</token>
+<token>Lucene.Net.Search.SortField,new</token>
+<token>Lucene.Net.Search.SortField,new</token>
+<token>Lucene.Net.Search.SortField,new</token>
+</entry>
+<entry count="6000">
 <token>Lucene.Net.Search.Searcher,Search</token>
 <token>Lucene.Net.Search.TopScoreDocCollector,Create</token>
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 </entry>
-<entry count="792">
+<entry count="5520">
 <token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
@@ -1473,20 +1945,14 @@
 <token>Lucene.Net.Search.TermQuery,new</token>
 <token>Lucene.Net.Search.QueryWrapperFilter,new</token>
 </entry>
-<entry count="12">
-<token>Lucene.Net.Search.IndexSearcher,new</token>
-<token>Lucene.Net.Search.TermQuery,new</token>
-<token>Lucene.Net.Search.QueryWrapperFilter,new</token>
-<token>Lucene.Net.Search.TopDocsCollector`1[[T</token>
-<token>-&gt;</token>
+<entry count="240">
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.NumericRangeQuery,NewLongRange</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
 </entry>
-<entry count="12">
-<token>Lucene.Net.Search.QueryWrapperFilter,new</token>
-<token>Lucene.Net.Search.TopDocsCollector`1[[T</token>
-<token>-&gt;</token>
-<token>Lucene.Net.Search.ScoreDoc,</token>
-</entry>
-<entry count="1940">
+<entry count="23906">
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.TermQuery,new</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
@@ -1499,105 +1965,184 @@
 <token>Lucene.Net.Search.PhraseQuery,GetTerms</token>
 <token>Lucene.Net.Search.PhraseQuery,GetTerms</token>
 </entry>
-<entry count="36">
+<entry count="960">
+<token>Lucene.Net.Search.TermQuery,new</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+</entry>
+<entry count="6912">
+<token>Lucene.Net.Search.TermQuery,new</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.TermQuery,new</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+</entry>
+<entry count="2880">
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.Searcher,Search</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+</entry>
+<entry count="1200">
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.TopScoreDocCollector,Create</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+</entry>
+<entry count="72">
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
 </entry>
-<entry count="768">
+<entry count="2">
+<token>Lucene.Net.Search.NumericRangeQuery,NewFloatRange</token>
+<token>Lucene.Net.Search.NumericRangeQuery,NewFloatRange</token>
+</entry>
+<entry count="7200">
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.TopScoreDocCollector,Create</token>
+</entry>
+<entry count="12000">
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.Searcher,Search</token>
 <token>Lucene.Net.Search.TopScoreDocCollector,Create</token>
 <token>Lucene.Net.Search.Searcher,Search</token>
 </entry>
-<entry count="48">
+<entry count="480">
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 </entry>
-<entry count="792">
+<entry count="5520">
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
 </entry>
-<entry count="1376">
+<entry count="42">
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.TermQuery,new</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+</entry>
+<entry count="1456">
 <token>Lucene.Net.Search.Searcher,Search</token>
 <token>Lucene.Net.Search.IndexSearcher,Doc</token>
 </entry>
-<entry count="1152">
+<entry count="7200">
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.Searcher,Search</token>
-</entry>
-<entry count="2352">
-<token>-&gt;</token>
-<token>Lucene.Net.Search.ScoreDoc,</token>
 </entry>
 <entry count="10">
 <token>Lucene.Net.Search.TermQuery,new</token>
 <token>Lucene.Net.Search.Searcher,Search</token>
 </entry>
-<entry count="1152">
+<entry count="14421">
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 </entry>
-<entry count="564">
+<entry count="11910">
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.TermQuery,new</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 </entry>
-<entry count="60">
+<entry count="168">
+<token>Lucene.Net.Search.TermQuery,new</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.TermQuery,new</token>
+</entry>
+<entry count="360">
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 </entry>
-<entry count="2352">
-<token>-&gt;</token>
-<token>Lucene.Net.Search.ScoreDoc,</token>
-<token>Lucene.Net,</token>
-</entry>
-<entry count="1152">
+<entry count="36000">
 <token>Lucene.Net.Search.TopScoreDocCollector,Create</token>
 <token>Lucene.Net.Search.Searcher,Search</token>
 </entry>
-<entry count="96">
+<entry count="144">
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+</entry>
+<entry count="7872">
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.TermQuery,new</token>
 </entry>
-<entry count="264">
+<entry count="72">
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+</entry>
+<entry count="2">
+<token>Lucene.Net.Search.NumericRangeQuery,NewLongRange</token>
+<token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
+</entry>
+<entry count="4">
+<token>Lucene.Net.Search.NumericRangeQuery,NewDoubleRange</token>
+<token>Lucene.Net.Search.NumericRangeQuery,NewDoubleRange</token>
+</entry>
+<entry count="1200">
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.TopScoreDocCollector,Create</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+</entry>
+<entry count="1320">
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
 </entry>
-<entry count="2463">
+<entry count="37119">
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 </entry>
-<entry count="1152">
+<entry count="8640">
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.Searcher,Search</token>
+<token>Lucene.Net.Search.TopScoreDocCollector,Create</token>
+</entry>
+<entry count="6000">
 <token>Lucene.Net.Search.Searcher,Search</token>
 <token>Lucene.Net.Search.TopScoreDocCollector,Create</token>
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 </entry>
-<entry count="84">
+<entry count="1512">
 <token>Lucene.Net.Search.BooleanQuery,new</token>
 <token>Lucene.Net.Search.TermQuery,new</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.TermQuery,new</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
+</entry>
+<entry count="216">
+<token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
 </entry>
 <entry count="3">
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
@@ -1606,28 +2151,50 @@
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 </entry>
-<entry count="36">
+<entry count="7920">
+<token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+</entry>
+<entry count="256">
+<token>Lucene.Net.Search.SortField,new</token>
+<token>Lucene.Net.Search.SortField,new</token>
+<token>Lucene.Net.Search.SortField,new</token>
+<token>Lucene.Net.Search.Sort,new</token>
+</entry>
+<entry count="3000">
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
+</entry>
+<entry count="360">
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+</entry>
+<entry count="30000">
+<token>Lucene.Net.Search.Searcher,Search</token>
 <token>Lucene.Net.Search.TopScoreDocCollector,Create</token>
-<token>Lucene.Net.Search.IndexSearcher,new</token>
-<token>Lucene.Net.Search.TopDocsCollector`1[[T</token>
+<token>Lucene.Net.Search.Searcher,Search</token>
+<token>Lucene.Net.Search.TopDocsCollector,TopDocs</token>
 </entry>
-<entry count="252">
-<token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
+<entry count="60">
 <token>Lucene.Net.Search.BooleanQuery,Add</token>
 <token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.BooleanQuery,Add</token>
+<token>Lucene.Net.Search.BooleanQuery,new</token>
+<token>Lucene.Net.Search.NumericRangeQuery,NewLongRange</token>
 </entry>
-<entry count="180">
-<token>Lucene.Net.Search.BooleanQuery,new</token>
-<token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
-<token>Lucene.Net.Search.BooleanQuery,Add</token>
-<token>Lucene.Net.Search.BooleanQuery,new</token>
-<token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
+<entry count="43200">
+<token>Lucene.Net.Search.Searcher,Search</token>
+<token>Lucene.Net.Search.TopDocsCollector,TopDocs</token>
 </entry>
-<entry count="36">
-<token>Lucene.Net.Search.BooleanQuery,new</token>
-<token>Lucene.Net.Search.NumericRangeQuery,NewIntRange</token>
-<token>Lucene.Net.Search.BooleanQuery,Add</token>
-<token>Lucene.Net.Search.BooleanQuery,Add</token>
-<token>Lucene.Net.Search.BooleanQuery,new</token>
+<entry count="4">
+<token>Lucene.Net.Search.NumericRangeQuery,NewDoubleRange</token>
+<token>Lucene.Net.Search.NumericRangeQuery,NewLongRange</token>
 </entry>
 </dictionary>

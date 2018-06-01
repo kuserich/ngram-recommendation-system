@@ -17,11 +17,6 @@
 <token>OpenCvSharp.Cv,EqualizeHist</token>
 <token>OpenCvSharp.CvMemStorage,new</token>
 </entry>
-<entry count="3">
-<token>OpenCvSharp.CvSeq`1[[T</token>
-<token>-&gt;</token>
-<token>s:OpenCvSharp.CvAvgComp,</token>
-</entry>
 <entry count="24">
 <token>OpenCvSharp.CvMemStorage,new</token>
 <token>OpenCvSharp.CvMemStorage,Clear</token>
@@ -50,10 +45,6 @@
 <token>OpenCvSharp.IplImage,new</token>
 <token>OpenCvSharp.Cv,Resize</token>
 </entry>
-<entry count="3">
-<token>1.0.0.0]],ToArray</token>
-<token>OpenCvSharp.DisposableObject,Dispose</token>
-</entry>
 <entry count="24">
 <token>OpenCvSharp.Cv,Resize</token>
 <token>OpenCvSharp.Cv,EqualizeHist</token>
@@ -70,12 +61,6 @@
 <token>OpenCvSharp.Cv,Round</token>
 <token>OpenCvSharp.IplImage,SetROI</token>
 </entry>
-<entry count="3">
-<token>s:OpenCvSharp.CvAvgComp,</token>
-<token>OpenCvSharp,</token>
-<token>1.0.0.0]],ToArray</token>
-<token>OpenCvSharp.DisposableObject,Dispose</token>
-</entry>
 <entry count="24">
 <token>OpenCvSharp.CvSize,new</token>
 <token>OpenCvSharp.IplImage,new</token>
@@ -84,10 +69,6 @@
 <entry count="24">
 <token>OpenCvSharp.Cv,Round</token>
 <token>OpenCvSharp.CvSize,new</token>
-</entry>
-<entry count="3">
-<token>OpenCvSharp.CvSeq`1[[T</token>
-<token>-&gt;</token>
 </entry>
 <entry count="6">
 <token>OpenCvSharp.CvSize,new</token>
@@ -119,17 +100,6 @@
 <token>OpenCvSharp.CvSize,new</token>
 <token>OpenCvSharp.Cv,HaarDetectObjects</token>
 </entry>
-<entry count="3">
-<token>s:OpenCvSharp.CvAvgComp,</token>
-<token>OpenCvSharp,</token>
-<token>1.0.0.0]],ToArray</token>
-</entry>
-<entry count="3">
-<token>OpenCvSharp.CvSeq`1[[T</token>
-<token>-&gt;</token>
-<token>s:OpenCvSharp.CvAvgComp,</token>
-<token>OpenCvSharp,</token>
-</entry>
 <entry count="6">
 <token>OpenCvSharp.CvSize,new</token>
 <token>OpenCvSharp.Cv,HaarDetectObjects</token>
@@ -152,16 +122,6 @@
 <entry count="60">
 <token>OpenCvSharp.CvMemStorage,Clear</token>
 <token>OpenCvSharp.Cv,Round</token>
-</entry>
-<entry count="3">
-<token>-&gt;</token>
-<token>s:OpenCvSharp.CvAvgComp,</token>
-<token>OpenCvSharp,</token>
-<token>1.0.0.0]],ToArray</token>
-</entry>
-<entry count="3">
-<token>-&gt;</token>
-<token>s:OpenCvSharp.CvAvgComp,</token>
 </entry>
 <entry count="24">
 <token>OpenCvSharp.Cv,CvtColor</token>
@@ -178,91 +138,77 @@
 <token>OpenCvSharp.CvSize,new</token>
 <token>OpenCvSharp.CvSize,new</token>
 </entry>
+<entry count="6">
+<token>OpenCvSharp.CvSize,new</token>
+<token>OpenCvSharp.CvSize,new</token>
+<token>OpenCvSharp.Cv,HaarDetectObjects</token>
+<token>OpenCvSharp.CvSize,new</token>
+</entry>
+<entry count="24">
+<token>OpenCvSharp.IplImage,new</token>
+<token>OpenCvSharp.Cv,Resize</token>
+<token>OpenCvSharp.Cv,EqualizeHist</token>
+</entry>
+<entry count="60">
+<token>OpenCvSharp.IplImage,SetROI</token>
+<token>OpenCvSharp.CvSize,new</token>
+<token>OpenCvSharp.CvSize,new</token>
+</entry>
+<entry count="24">
+<token>OpenCvSharp.Cv,CvtColor</token>
+<token>OpenCvSharp.Cv,Round</token>
+<token>OpenCvSharp.Cv,Round</token>
+<token>OpenCvSharp.CvSize,new</token>
+</entry>
+<entry count="24">
+<token>OpenCvSharp.Cv,Round</token>
+<token>OpenCvSharp.Cv,Round</token>
+</entry>
+<entry count="24">
+<token>OpenCvSharp.Cv,Resize</token>
+<token>OpenCvSharp.Cv,EqualizeHist</token>
+<token>OpenCvSharp.CvMemStorage,new</token>
+<token>OpenCvSharp.CvMemStorage,Clear</token>
+</entry>
+<entry count="6">
+<token>OpenCvSharp.CvSize,new</token>
+<token>OpenCvSharp.CvSize,new</token>
+<token>OpenCvSharp.Cv,HaarDetectObjects</token>
+<token>OpenCvSharp.CvSize,new</token>
+<token>OpenCvSharp.CvSize,new</token>
+</entry>
+<entry count="24">
+<token>OpenCvSharp.IplImage,new</token>
+<token>OpenCvSharp.Cv,CvtColor</token>
+</entry>
+<entry count="24">
+<token>OpenCvSharp.IplImage,new</token>
+<token>OpenCvSharp.Cv,Resize</token>
+<token>OpenCvSharp.Cv,EqualizeHist</token>
+<token>OpenCvSharp.CvMemStorage,new</token>
+<token>OpenCvSharp.CvMemStorage,Clear</token>
+</entry>
+<entry count="60">
+<token>OpenCvSharp.IplImage,SetROI</token>
+<token>OpenCvSharp.CvSize,new</token>
+<token>OpenCvSharp.CvSize,new</token>
+<token>OpenCvSharp.Cv,HaarDetectObjects</token>
+</entry>
+<entry count="60">
+<token>OpenCvSharp.Cv,Round</token>
+<token>OpenCvSharp.IplImage,SetROI</token>
+<token>OpenCvSharp.CvSize,new</token>
+<token>OpenCvSharp.CvSize,new</token>
+<token>OpenCvSharp.Cv,HaarDetectObjects</token>
+</entry>
+<entry count="24">
+<token>OpenCvSharp.Cv,EqualizeHist</token>
+<token>OpenCvSharp.CvMemStorage,new</token>
+<token>OpenCvSharp.CvMemStorage,Clear</token>
+</entry>
 <entry count="3">
-<token>OpenCvSharp,</token>
-<token>1.0.0.0]],ToArray</token>
+<token>OpenCvSharp.CvSeq,ToArray</token>
 <token>OpenCvSharp.DisposableObject,Dispose</token>
-</entry>
-<entry count="6">
-<token>OpenCvSharp.CvSize,new</token>
-<token>OpenCvSharp.CvSize,new</token>
-<token>OpenCvSharp.Cv,HaarDetectObjects</token>
-<token>OpenCvSharp.CvSize,new</token>
-</entry>
-<entry count="24">
-<token>OpenCvSharp.IplImage,new</token>
-<token>OpenCvSharp.Cv,Resize</token>
-<token>OpenCvSharp.Cv,EqualizeHist</token>
-</entry>
-<entry count="60">
-<token>OpenCvSharp.IplImage,SetROI</token>
-<token>OpenCvSharp.CvSize,new</token>
-<token>OpenCvSharp.CvSize,new</token>
-</entry>
-<entry count="24">
-<token>OpenCvSharp.Cv,CvtColor</token>
-<token>OpenCvSharp.Cv,Round</token>
-<token>OpenCvSharp.Cv,Round</token>
-<token>OpenCvSharp.CvSize,new</token>
-</entry>
-<entry count="3">
-<token>OpenCvSharp,</token>
-<token>1.0.0.0]],ToArray</token>
-</entry>
-<entry count="24">
-<token>OpenCvSharp.Cv,Round</token>
-<token>OpenCvSharp.Cv,Round</token>
-</entry>
-<entry count="24">
-<token>OpenCvSharp.Cv,Resize</token>
-<token>OpenCvSharp.Cv,EqualizeHist</token>
-<token>OpenCvSharp.CvMemStorage,new</token>
-<token>OpenCvSharp.CvMemStorage,Clear</token>
-</entry>
-<entry count="6">
-<token>OpenCvSharp.CvSize,new</token>
-<token>OpenCvSharp.CvSize,new</token>
-<token>OpenCvSharp.Cv,HaarDetectObjects</token>
-<token>OpenCvSharp.CvSize,new</token>
-<token>OpenCvSharp.CvSize,new</token>
-</entry>
-<entry count="3">
-<token>-&gt;</token>
-<token>s:OpenCvSharp.CvAvgComp,</token>
-<token>OpenCvSharp,</token>
-</entry>
-<entry count="24">
-<token>OpenCvSharp.IplImage,new</token>
-<token>OpenCvSharp.Cv,CvtColor</token>
-</entry>
-<entry count="24">
-<token>OpenCvSharp.IplImage,new</token>
-<token>OpenCvSharp.Cv,Resize</token>
-<token>OpenCvSharp.Cv,EqualizeHist</token>
-<token>OpenCvSharp.CvMemStorage,new</token>
-<token>OpenCvSharp.CvMemStorage,Clear</token>
-</entry>
-<entry count="60">
-<token>OpenCvSharp.IplImage,SetROI</token>
-<token>OpenCvSharp.CvSize,new</token>
-<token>OpenCvSharp.CvSize,new</token>
-<token>OpenCvSharp.Cv,HaarDetectObjects</token>
-</entry>
-<entry count="60">
-<token>OpenCvSharp.Cv,Round</token>
-<token>OpenCvSharp.IplImage,SetROI</token>
-<token>OpenCvSharp.CvSize,new</token>
-<token>OpenCvSharp.CvSize,new</token>
-<token>OpenCvSharp.Cv,HaarDetectObjects</token>
-</entry>
-<entry count="24">
-<token>OpenCvSharp.Cv,EqualizeHist</token>
-<token>OpenCvSharp.CvMemStorage,new</token>
-<token>OpenCvSharp.CvMemStorage,Clear</token>
-</entry>
-<entry count="3">
-<token>s:OpenCvSharp.CvAvgComp,</token>
-<token>OpenCvSharp,</token>
 </entry>
 <entry count="24">
 <token>OpenCvSharp.Cv,EqualizeHist</token>
@@ -314,13 +260,6 @@
 <token>OpenCvSharp.CvSize,new</token>
 <token>OpenCvSharp.IplImage,new</token>
 </entry>
-<entry count="3">
-<token>OpenCvSharp.CvSeq`1[[T</token>
-<token>-&gt;</token>
-<token>s:OpenCvSharp.CvAvgComp,</token>
-<token>OpenCvSharp,</token>
-<token>1.0.0.0]],ToArray</token>
-</entry>
 <entry count="60">
 <token>OpenCvSharp.CvMemStorage,Clear</token>
 <token>OpenCvSharp.Cv,Round</token>
@@ -359,13 +298,6 @@
 <entry count="24">
 <token>OpenCvSharp.Cv,Resize</token>
 <token>OpenCvSharp.Cv,EqualizeHist</token>
-</entry>
-<entry count="3">
-<token>-&gt;</token>
-<token>s:OpenCvSharp.CvAvgComp,</token>
-<token>OpenCvSharp,</token>
-<token>1.0.0.0]],ToArray</token>
-<token>OpenCvSharp.DisposableObject,Dispose</token>
 </entry>
 <entry count="12">
 <token>OpenCvSharp.Cv,HaarDetectObjects</token>

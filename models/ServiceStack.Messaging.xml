@@ -1,0 +1,919 @@
+<?xml version="1.0" encoding="UTF-8"?><dictionary case_sensitive="false">
+<entry count="3">
+<token>ServiceStack.Messaging.QueueNames,GetTempQueueName</token>
+<token>ServiceStack.Messaging.QueueNames,IsTempQueue</token>
+</entry>
+<entry count="2">
+<token>ServiceStack.Messaging.IMessage,GetBody</token>
+<token>ServiceStack.Messaging.IMessageQueueClientFactory,CreateMessageQueueClient</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,GetAsync</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,Ack</token>
+<token>ServiceStack.Messaging.IMessage,GetBody</token>
+</entry>
+<entry count="16">
+<token>ServiceStack.Messaging.QueueNames,new</token>
+<token>ServiceStack.Messaging.QueueNames,new</token>
+</entry>
+<entry count="1">
+<token>ServiceStack.Messaging.Message,new</token>
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,Get</token>
+<token>ServiceStack.Messaging.IMessage,GetBody</token>
+</entry>
+<entry count="1">
+<token>ServiceStack.Messaging.QueueNames,SetQueuePrefix</token>
+<token>ServiceStack.Messaging.QueueNames,GetTempQueueName</token>
+<token>ServiceStack.Messaging.QueueNames,IsTempQueue</token>
+</entry>
+<entry count="2">
+<token>ServiceStack.Messaging.IMessageHandler,GetStats</token>
+<token>ServiceStack.Messaging.MessageHandlerStats,Add</token>
+</entry>
+<entry count="2">
+<token>ServiceStack.Messaging.IMessageFactory,CreateMessageProducer</token>
+<token>ServiceStack.Messaging.IMessageQueueClientFactory,CreateMessageQueueClient</token>
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+</entry>
+<entry count="1">
+<token>ServiceStack.Messaging.IMessage,GetBody</token>
+<token>ServiceStack.Messaging.Message,new</token>
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,Get</token>
+</entry>
+<entry count="5">
+<token>ServiceStack.Messaging.IMessageQueueClientFactory,CreateMessageQueueClient</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,Get</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,Ack</token>
+<token>ServiceStack.Messaging.IMessage,GetBody</token>
+</entry>
+<entry count="25">
+<token>ServiceStack.Messaging.IMessageQueueClient,Ack</token>
+<token>ServiceStack.Messaging.IMessage,GetBody</token>
+</entry>
+<entry count="1">
+<token>ServiceStack.Messaging.IMessageQueueClient,Ack</token>
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,Get</token>
+</entry>
+<entry count="51">
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+</entry>
+<entry count="2">
+<token>ServiceStack.Messaging.IMessageQueueClient,GetAsync</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,Ack</token>
+<token>ServiceStack.Messaging.IMessage,GetBody</token>
+</entry>
+<entry count="2">
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+<token>ServiceStack.Messaging.IMessage,GetBody</token>
+<token>ServiceStack.Messaging.IMessageQueueClientFactory,CreateMessageQueueClient</token>
+</entry>
+<entry count="1">
+<token>ServiceStack.Messaging.IMessageQueueClient,Ack</token>
+<token>ServiceStack.Messaging.IMessage,GetBody</token>
+<token>ServiceStack.Messaging.Message,new</token>
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,Get</token>
+</entry>
+<entry count="1">
+<token>ServiceStack.Messaging.Message,new</token>
+<token>ServiceStack.Messaging.Message,new</token>
+</entry>
+<entry count="3">
+<token>ServiceStack.Messaging.IMessageFactory,CreateMessageProducer</token>
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+<token>ServiceStack.Messaging.IMessageQueueClientFactory,CreateMessageQueueClient</token>
+</entry>
+<entry count="2">
+<token>ServiceStack.Messaging.IMessageQueueClientFactory,CreateMessageQueueClient</token>
+<token>ServiceStack.Messaging.Message,new</token>
+</entry>
+<entry count="1">
+<token>ServiceStack.Messaging.IMessage,GetBody</token>
+<token>ServiceStack.Messaging.Message,new</token>
+</entry>
+<entry count="2">
+<token>ServiceStack.Messaging.IMessageQueueClientFactory,CreateMessageQueueClient</token>
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,Get</token>
+</entry>
+<entry count="1">
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,Get</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,Ack</token>
+<token>ServiceStack.Messaging.IMessage,GetBody</token>
+<token>ServiceStack.Messaging.Message,new</token>
+</entry>
+<entry count="3">
+<token>ServiceStack.Messaging.IMessage,GetBody</token>
+<token>ServiceStack.Messaging.IMessageQueueClientFactory,CreateMessageQueueClient</token>
+</entry>
+<entry count="1">
+<token>ServiceStack.Messaging.IMessageQueueClientFactory,CreateMessageQueueClient</token>
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,Get</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,Ack</token>
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+</entry>
+<entry count="2">
+<token>ServiceStack.Messaging.IMessage,GetBody</token>
+<token>ServiceStack.Messaging.IMessageService,RegisterHandler</token>
+<token>ServiceStack.Messaging.IMessageService,Start</token>
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+</entry>
+<entry count="12">
+<token>ServiceStack.Messaging.MessageFactory,Create</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,Publish</token>
+</entry>
+<entry count="1">
+<token>ServiceStack.Messaging.IMessageQueueClient,Get</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,Ack</token>
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+</entry>
+<entry count="9">
+<token>ServiceStack.Messaging.Message,new</token>
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,Get</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,Ack</token>
+</entry>
+<entry count="2">
+<token>ServiceStack.Messaging.IMessageFactory,CreateMessageProducer</token>
+<token>ServiceStack.Messaging.IMessageQueueClientFactory,CreateMessageQueueClient</token>
+<token>ServiceStack.Messaging.Message,new</token>
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,Get</token>
+</entry>
+<entry count="1">
+<token>ServiceStack.Messaging.IMessageService,RegisterHandler</token>
+<token>ServiceStack.Messaging.IMessage,GetBody</token>
+<token>ServiceStack.Messaging.IMessageService,RegisterHandler</token>
+</entry>
+<entry count="2">
+<token>ServiceStack.Messaging.IMessageFactory,CreateMessageProducer</token>
+<token>ServiceStack.Messaging.IMessageQueueClientFactory,CreateMessageQueueClient</token>
+<token>ServiceStack.Messaging.Message,new</token>
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+</entry>
+<entry count="1">
+<token>ServiceStack.Messaging.IMessageQueueClient,Get</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,Ack</token>
+<token>ServiceStack.Messaging.IMessage,GetBody</token>
+<token>ServiceStack.Messaging.Message,new</token>
+</entry>
+<entry count="1">
+<token>ServiceStack.Messaging.IMessageQueueClient,Ack</token>
+<token>ServiceStack.Messaging.IMessage,GetBody</token>
+<token>ServiceStack.Messaging.Message,new</token>
+</entry>
+<entry count="2">
+<token>ServiceStack.Messaging.IMessage,GetBody</token>
+<token>ServiceStack.Messaging.IMessage,GetBody</token>
+<token>ServiceStack.Messaging.IMessage,GetBody</token>
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+</entry>
+<entry count="2">
+<token>ServiceStack.Messaging.IMessageFactory,CreateMessageProducer</token>
+<token>ServiceStack.Messaging.IMessageQueueClientFactory,CreateMessageQueueClient</token>
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,Get</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,Ack</token>
+</entry>
+<entry count="8">
+<token>ServiceStack.Messaging.IMessage,GetBody</token>
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+</entry>
+<entry count="2">
+<token>ServiceStack.Messaging.IMessageFactory,CreateMessageProducer</token>
+<token>ServiceStack.Messaging.IMessageQueueClientFactory,CreateMessageQueueClient</token>
+<token>ServiceStack.Messaging.Message,new</token>
+</entry>
+<entry count="1">
+<token>ServiceStack.Messaging.QueueNames,IsTempQueue</token>
+<token>ServiceStack.Messaging.QueueNames,SetQueuePrefix</token>
+</entry>
+<entry count="5">
+<token>ServiceStack.Messaging.IMessageService,RegisterHandler</token>
+<token>ServiceStack.Messaging.IMessageService,Start</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,GetTempQueueName</token>
+<token>ServiceStack.Messaging.Message,new</token>
+</entry>
+<entry count="1">
+<token>ServiceStack.Messaging.IMessageFactory,CreateMessageProducer</token>
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+</entry>
+<entry count="1">
+<token>ServiceStack.Messaging.IMessageService,RegisterHandler</token>
+<token>ServiceStack.Messaging.IMessageService,Start</token>
+<token>ServiceStack.Messaging.Message,new</token>
+</entry>
+<entry count="19">
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,Get</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,Ack</token>
+</entry>
+<entry count="18">
+<token>ServiceStack.Messaging.IMessage,GetBody</token>
+<token>ServiceStack.Messaging.IMessage,GetBody</token>
+<token>ServiceStack.Messaging.IMessage,GetBody</token>
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+</entry>
+<entry count="1">
+<token>ServiceStack.Messaging.IMessage,GetBody</token>
+<token>ServiceStack.Messaging.IMessageService,RegisterHandler</token>
+<token>ServiceStack.Messaging.IMessageService,Start</token>
+<token>ServiceStack.Messaging.Message,new</token>
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+</entry>
+<entry count="15">
+<token>ServiceStack.Messaging.IMessageService,RegisterHandler</token>
+<token>ServiceStack.Messaging.IMessageService,Start</token>
+</entry>
+<entry count="6">
+<token>ServiceStack.Messaging.IMessageQueueClient,GetTempQueueName</token>
+<token>ServiceStack.Messaging.Message,new</token>
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,Get</token>
+</entry>
+<entry count="1">
+<token>ServiceStack.Messaging.IMessageQueueClient,Ack</token>
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,Get</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,Ack</token>
+</entry>
+<entry count="1">
+<token>ServiceStack.Messaging.QueueNames,SetQueuePrefix</token>
+<token>ServiceStack.Messaging.QueueNames,GetTempQueueName</token>
+<token>ServiceStack.Messaging.QueueNames,IsTempQueue</token>
+<token>ServiceStack.Messaging.QueueNames,SetQueuePrefix</token>
+</entry>
+<entry count="1280">
+<token>ServiceStack.Messaging.IMessageHandler,ProcessQueue</token>
+<token>ServiceStack.Messaging.IMessageHandler,ProcessQueue</token>
+</entry>
+<entry count="1">
+<token>ServiceStack.Messaging.IMessage,GetBody</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,Get</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,Ack</token>
+</entry>
+<entry count="1">
+<token>ServiceStack.Messaging.IMessageQueueClient,Ack</token>
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+</entry>
+<entry count="8">
+<token>ServiceStack.Messaging.QueueNames,new</token>
+<token>ServiceStack.Messaging.MessageFactory,Create</token>
+</entry>
+<entry count="2">
+<token>ServiceStack.Messaging.IMessageQueueClientFactory,CreateMessageQueueClient</token>
+<token>ServiceStack.Messaging.Message,new</token>
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,Get</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,Ack</token>
+</entry>
+<entry count="5">
+<token>ServiceStack.Messaging.IMessage,GetBody</token>
+<token>ServiceStack.Messaging.IMessage,GetBody</token>
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+</entry>
+<entry count="5">
+<token>ServiceStack.Messaging.IMessageService,Start</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,GetTempQueueName</token>
+<token>ServiceStack.Messaging.Message,new</token>
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,Get</token>
+</entry>
+<entry count="4">
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+<token>ServiceStack.Messaging.IMessage,GetBody</token>
+</entry>
+<entry count="1">
+<token>ServiceStack.Messaging.IMessageQueueClient,Ack</token>
+<token>ServiceStack.Messaging.IMessage,GetBody</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,Get</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,Ack</token>
+</entry>
+<entry count="8">
+<token>ServiceStack.Messaging.QueueNames,new</token>
+<token>ServiceStack.Messaging.MessageFactory,Create</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,Publish</token>
+</entry>
+<entry count="5">
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,Get</token>
+<token>ServiceStack.Messaging.IMessage,GetBody</token>
+</entry>
+<entry count="2">
+<token>ServiceStack.Messaging.IMessage,GetBody</token>
+<token>ServiceStack.Messaging.IMessageQueueClientFactory,CreateMessageQueueClient</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,GetAsync</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,Ack</token>
+</entry>
+<entry count="1">
+<token>ServiceStack.Messaging.QueueNames,SetQueuePrefix</token>
+<token>ServiceStack.Messaging.QueueNames,new</token>
+<token>ServiceStack.Messaging.QueueNames,SetQueuePrefix</token>
+</entry>
+<entry count="3">
+<token>ServiceStack.Messaging.IMessageFactory,CreateMessageProducer</token>
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+<token>ServiceStack.Messaging.IMessageQueueClientFactory,CreateMessageQueueClient</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,Get</token>
+</entry>
+<entry count="2">
+<token>ServiceStack.Messaging.IMessageFactory,CreateMessageProducer</token>
+<token>ServiceStack.Messaging.IMessageQueueClientFactory,CreateMessageQueueClient</token>
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,Get</token>
+</entry>
+<entry count="5">
+<token>ServiceStack.Messaging.IMessageQueueClientFactory,CreateMessageQueueClient</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,Get</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,Ack</token>
+</entry>
+<entry count="2">
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+<token>ServiceStack.Messaging.IMessage,GetBody</token>
+<token>ServiceStack.Messaging.IMessageQueueClientFactory,CreateMessageQueueClient</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,GetAsync</token>
+</entry>
+<entry count="10">
+<token>ServiceStack.Messaging.Message,new</token>
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+</entry>
+<entry count="23">
+<token>ServiceStack.Messaging.IMessageQueueClient,Get</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,Ack</token>
+<token>ServiceStack.Messaging.IMessage,GetBody</token>
+</entry>
+<entry count="1">
+<token>ServiceStack.Messaging.IMessageQueueClient,Get</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,Ack</token>
+<token>ServiceStack.Messaging.IMessage,GetBody</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,Get</token>
+</entry>
+<entry count="1">
+<token>ServiceStack.Messaging.QueueNames,GetTempQueueName</token>
+<token>ServiceStack.Messaging.QueueNames,IsTempQueue</token>
+<token>ServiceStack.Messaging.QueueNames,SetQueuePrefix</token>
+</entry>
+<entry count="5">
+<token>ServiceStack.Messaging.IMessageService,Start</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,GetTempQueueName</token>
+<token>ServiceStack.Messaging.Message,new</token>
+</entry>
+<entry count="1">
+<token>ServiceStack.Messaging.IMessage,GetBody</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,Get</token>
+</entry>
+<entry count="18">
+<token>ServiceStack.Messaging.IMessage,GetBody</token>
+<token>ServiceStack.Messaging.IMessage,GetBody</token>
+<token>ServiceStack.Messaging.IMessage,GetBody</token>
+</entry>
+<entry count="1">
+<token>ServiceStack.Messaging.IMessageService,Start</token>
+<token>ServiceStack.Messaging.Message,new</token>
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,Get</token>
+</entry>
+<entry count="3">
+<token>ServiceStack.Messaging.IMessageFactory,CreateMessageProducer</token>
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+<token>ServiceStack.Messaging.IMessageQueueClientFactory,CreateMessageQueueClient</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,Get</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,Ack</token>
+</entry>
+<entry count="1">
+<token>ServiceStack.Messaging.IMessage,GetBody</token>
+<token>ServiceStack.Messaging.IMessageService,RegisterHandler</token>
+<token>ServiceStack.Messaging.IMessageService,Start</token>
+<token>ServiceStack.Messaging.Message,new</token>
+</entry>
+<entry count="2">
+<token>ServiceStack.Messaging.MessageHandlerStats,new</token>
+<token>ServiceStack.Messaging.IMessageHandler,GetStats</token>
+</entry>
+<entry count="5">
+<token>ServiceStack.Messaging.IMessageQueueClientFactory,CreateMessageQueueClient</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,Get</token>
+</entry>
+<entry count="23">
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+</entry>
+<entry count="3">
+<token>ServiceStack.Messaging.MessageFactory,Create</token>
+<token>ServiceStack.Messaging.Message,GetBody</token>
+</entry>
+<entry count="1">
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,Get</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,Ack</token>
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,Get</token>
+</entry>
+<entry count="2">
+<token>ServiceStack.Messaging.IMessageService,RegisterHandler</token>
+<token>ServiceStack.Messaging.IMessageService,RegisterHandler</token>
+<token>ServiceStack.Messaging.IMessageService,RegisterHandler</token>
+<token>ServiceStack.Messaging.IMessageService,RegisterHandler</token>
+</entry>
+<entry count="3">
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+<token>ServiceStack.Messaging.IMessageQueueClientFactory,CreateMessageQueueClient</token>
+</entry>
+<entry count="5">
+<token>ServiceStack.Messaging.IMessageService,Start</token>
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,Get</token>
+</entry>
+<entry count="1">
+<token>ServiceStack.Messaging.IMessageService,RegisterHandler</token>
+<token>ServiceStack.Messaging.IMessageService,RegisterHandler</token>
+<token>ServiceStack.Messaging.IMessageService,RegisterHandler</token>
+<token>ServiceStack.Messaging.IMessageService,Start</token>
+</entry>
+<entry count="24">
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,Get</token>
+</entry>
+<entry count="5">
+<token>ServiceStack.Messaging.IMessageService,RegisterHandler</token>
+<token>ServiceStack.Messaging.IMessageService,Start</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,GetTempQueueName</token>
+</entry>
+<entry count="1">
+<token>ServiceStack.Messaging.IMessageQueueClient,Ack</token>
+<token>ServiceStack.Messaging.IMessage,GetBody</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,Get</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,Ack</token>
+<token>ServiceStack.Messaging.IMessage,GetBody</token>
+</entry>
+<entry count="1">
+<token>ServiceStack.Messaging.IMessage,GetBody</token>
+<token>ServiceStack.Messaging.Message,new</token>
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+</entry>
+<entry count="9">
+<token>ServiceStack.Messaging.Message,new</token>
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,Get</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,Ack</token>
+<token>ServiceStack.Messaging.IMessage,GetBody</token>
+</entry>
+<entry count="2">
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+<token>ServiceStack.Messaging.IMessage,GetBody</token>
+<token>ServiceStack.Messaging.IMessageQueueClientFactory,CreateMessageQueueClient</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,GetAsync</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,Ack</token>
+</entry>
+<entry count="43">
+<token>ServiceStack.Messaging.IMessage,GetBody</token>
+<token>ServiceStack.Messaging.IMessage,GetBody</token>
+</entry>
+<entry count="2">
+<token>ServiceStack.Messaging.MessageHandlerStats,new</token>
+<token>ServiceStack.Messaging.IMessageHandler,GetStats</token>
+<token>ServiceStack.Messaging.MessageHandlerStats,Add</token>
+</entry>
+<entry count="4">
+<token>ServiceStack.Messaging.IMessageFactory,CreateMessageProducer</token>
+<token>ServiceStack.Messaging.IMessageQueueClientFactory,CreateMessageQueueClient</token>
+</entry>
+<entry count="1">
+<token>ServiceStack.Messaging.IMessage,GetBody</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,Get</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,Ack</token>
+<token>ServiceStack.Messaging.IMessage,GetBody</token>
+</entry>
+<entry count="1">
+<token>ServiceStack.Messaging.IMessageService,RegisterHandler</token>
+<token>ServiceStack.Messaging.IMessageService,RegisterHandler</token>
+<token>ServiceStack.Messaging.IMessageService,RegisterHandler</token>
+<token>ServiceStack.Messaging.IMessageService,RegisterHandler</token>
+<token>ServiceStack.Messaging.IMessageService,Start</token>
+</entry>
+<entry count="1">
+<token>ServiceStack.Messaging.QueueNames,SetQueuePrefix</token>
+<token>ServiceStack.Messaging.QueueNames,new</token>
+</entry>
+<entry count="5">
+<token>ServiceStack.Messaging.MessageHandlerStats,new</token>
+<token>ServiceStack.Messaging.MessageHandlerStats,Add</token>
+</entry>
+<entry count="1">
+<token>ServiceStack.Messaging.IMessageService,RegisterHandler</token>
+<token>ServiceStack.Messaging.IMessageService,RegisterHandler</token>
+<token>ServiceStack.Messaging.IMessageService,RegisterHandler</token>
+<token>ServiceStack.Messaging.IMessageService,RegisterHandler</token>
+<token>ServiceStack.Messaging.IMessageService,RegisterHandler</token>
+</entry>
+<entry count="1">
+<token>ServiceStack.Messaging.IMessageService,RegisterHandler</token>
+<token>ServiceStack.Messaging.IMessageService,RegisterHandler</token>
+<token>ServiceStack.Messaging.IMessageService,Start</token>
+</entry>
+<entry count="1">
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,Get</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,Ack</token>
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+</entry>
+<entry count="2">
+<token>ServiceStack.Messaging.IMessageQueueClientFactory,CreateMessageQueueClient</token>
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+<token>ServiceStack.Messaging.IMessage,GetBody</token>
+<token>ServiceStack.Messaging.IMessageQueueClientFactory,CreateMessageQueueClient</token>
+</entry>
+<entry count="1">
+<token>ServiceStack.Messaging.IMessageService,Start</token>
+<token>ServiceStack.Messaging.Message,new</token>
+</entry>
+<entry count="1">
+<token>ServiceStack.Messaging.IMessageService,RegisterHandler</token>
+<token>ServiceStack.Messaging.IMessageService,Start</token>
+<token>ServiceStack.Messaging.Message,new</token>
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,Get</token>
+</entry>
+<entry count="3">
+<token>ServiceStack.Messaging.IMessageQueueClientFactory,CreateMessageQueueClient</token>
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+<token>ServiceStack.Messaging.IMessage,GetBody</token>
+</entry>
+<entry count="5">
+<token>ServiceStack.Messaging.IMessage,GetBody</token>
+<token>ServiceStack.Messaging.IMessage,GetBody</token>
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+</entry>
+<entry count="1">
+<token>ServiceStack.Messaging.QueueNames,new</token>
+<token>ServiceStack.Messaging.QueueNames,SetQueuePrefix</token>
+</entry>
+<entry count="1">
+<token>ServiceStack.Messaging.IMessageQueueClient,Get</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,Ack</token>
+<token>ServiceStack.Messaging.IMessage,GetBody</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,Get</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,Ack</token>
+</entry>
+<entry count="1">
+<token>ServiceStack.Messaging.IMessage,GetBody</token>
+<token>ServiceStack.Messaging.Message,new</token>
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,Get</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,Ack</token>
+</entry>
+<entry count="1">
+<token>ServiceStack.Messaging.IMessageFactory,CreateMessageProducer</token>
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+</entry>
+<entry count="1">
+<token>ServiceStack.Messaging.IMessageQueueClient,Get</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,Ack</token>
+<token>ServiceStack.Messaging.IMessage,GetBody</token>
+<token>ServiceStack.Messaging.Message,new</token>
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+</entry>
+<entry count="2">
+<token>ServiceStack.Messaging.IMessageQueueClientFactory,CreateMessageQueueClient</token>
+<token>ServiceStack.Messaging.Message,new</token>
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,Get</token>
+</entry>
+<entry count="11">
+<token>ServiceStack.Messaging.IMessage,GetBody</token>
+<token>ServiceStack.Messaging.IMessageService,RegisterHandler</token>
+</entry>
+<entry count="2">
+<token>ServiceStack.Messaging.IMessageQueueClientFactory,CreateMessageQueueClient</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,GetAsync</token>
+</entry>
+<entry count="5">
+<token>ServiceStack.Messaging.IMessageService,RegisterHandler</token>
+<token>ServiceStack.Messaging.IMessageService,Start</token>
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,Get</token>
+</entry>
+<entry count="6">
+<token>ServiceStack.Messaging.IMessageQueueClient,GetTempQueueName</token>
+<token>ServiceStack.Messaging.Message,new</token>
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+</entry>
+<entry count="1">
+<token>ServiceStack.Messaging.IMessageQueueClient,Ack</token>
+<token>ServiceStack.Messaging.IMessage,GetBody</token>
+<token>ServiceStack.Messaging.Message,new</token>
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+</entry>
+<entry count="1">
+<token>ServiceStack.Messaging.QueueNames,SetQueuePrefix</token>
+<token>ServiceStack.Messaging.QueueNames,GetTempQueueName</token>
+</entry>
+<entry count="23">
+<token>ServiceStack.Messaging.IMessage,GetBody</token>
+<token>ServiceStack.Messaging.IMessage,GetBody</token>
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+</entry>
+<entry count="1">
+<token>ServiceStack.Messaging.IMessage,GetBody</token>
+<token>ServiceStack.Messaging.IMessageQueueClientFactory,CreateMessageQueueClient</token>
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+</entry>
+<entry count="4">
+<token>ServiceStack.Messaging.IMessageService,Start</token>
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,Get</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,Ack</token>
+<token>ServiceStack.Messaging.IMessage,GetBody</token>
+</entry>
+<entry count="2">
+<token>ServiceStack.Messaging.IMessageQueueClientFactory,CreateMessageQueueClient</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,GetAsync</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,Ack</token>
+</entry>
+<entry count="1">
+<token>ServiceStack.Messaging.IMessageService,RegisterHandler</token>
+<token>ServiceStack.Messaging.IMessage,GetBody</token>
+<token>ServiceStack.Messaging.IMessageService,RegisterHandler</token>
+<token>ServiceStack.Messaging.IMessageService,Start</token>
+</entry>
+<entry count="2">
+<token>ServiceStack.Messaging.IMessage,GetBody</token>
+<token>ServiceStack.Messaging.IMessageService,RegisterHandler</token>
+<token>ServiceStack.Messaging.IMessageService,Start</token>
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,Get</token>
+</entry>
+<entry count="1">
+<token>ServiceStack.Messaging.IMessageQueueClient,Get</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,Ack</token>
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,Get</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,Ack</token>
+</entry>
+<entry count="2">
+<token>ServiceStack.Messaging.IMessageQueueClientFactory,CreateMessageQueueClient</token>
+<token>ServiceStack.Messaging.Message,new</token>
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+</entry>
+<entry count="5">
+<token>ServiceStack.Messaging.IMessageQueueClient,GetTempQueueName</token>
+<token>ServiceStack.Messaging.Message,new</token>
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,Get</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,Ack</token>
+</entry>
+<entry count="26">
+<token>ServiceStack.Messaging.IMessageQueueClient,Get</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,Ack</token>
+</entry>
+<entry count="1">
+<token>ServiceStack.Messaging.IMessageQueueClient,Ack</token>
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,Get</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,Ack</token>
+<token>ServiceStack.Messaging.IMessage,GetBody</token>
+</entry>
+<entry count="11">
+<token>ServiceStack.Messaging.IMessage,GetBody</token>
+<token>ServiceStack.Messaging.IMessageService,RegisterHandler</token>
+<token>ServiceStack.Messaging.IMessageService,Start</token>
+</entry>
+<entry count="5">
+<token>ServiceStack.Messaging.IMessage,GetBody</token>
+<token>ServiceStack.Messaging.IMessageService,RegisterHandler</token>
+<token>ServiceStack.Messaging.IMessageService,Start</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,GetTempQueueName</token>
+</entry>
+<entry count="1">
+<token>ServiceStack.Messaging.IMessageService,Start</token>
+<token>ServiceStack.Messaging.Message,new</token>
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,Get</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,Ack</token>
+</entry>
+<entry count="1">
+<token>ServiceStack.Messaging.IMessage,GetBody</token>
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+<token>ServiceStack.Messaging.IMessage,GetBody</token>
+</entry>
+<entry count="5">
+<token>ServiceStack.Messaging.IMessageService,Start</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,GetTempQueueName</token>
+</entry>
+<entry count="2">
+<token>ServiceStack.Messaging.IMessageQueueClientFactory,CreateMessageQueueClient</token>
+<token>ServiceStack.Messaging.IMessageHandler,Process</token>
+</entry>
+<entry count="2">
+<token>ServiceStack.Messaging.IMessageQueueClientFactory,CreateMessageQueueClient</token>
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,Get</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,Ack</token>
+</entry>
+<entry count="5">
+<token>ServiceStack.Messaging.IMessage,GetBody</token>
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+</entry>
+<entry count="5">
+<token>ServiceStack.Messaging.IMessageService,Start</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,GetTempQueueName</token>
+<token>ServiceStack.Messaging.Message,new</token>
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+</entry>
+<entry count="12">
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+</entry>
+<entry count="1">
+<token>ServiceStack.Messaging.IMessageQueueClient,GetTempQueueName</token>
+<token>ServiceStack.Messaging.Message,new</token>
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,Get</token>
+<token>ServiceStack.Messaging.IMessage,GetBody</token>
+</entry>
+<entry count="16">
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,Get</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,Ack</token>
+<token>ServiceStack.Messaging.IMessage,GetBody</token>
+</entry>
+<entry count="5">
+<token>ServiceStack.Messaging.IMessageService,Start</token>
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,Get</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,Ack</token>
+</entry>
+<entry count="8">
+<token>ServiceStack.Messaging.IMessageFactory,CreateMessageProducer</token>
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+</entry>
+<entry count="1">
+<token>ServiceStack.Messaging.IMessageQueueClient,Get</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,Ack</token>
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,Get</token>
+</entry>
+<entry count="3">
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+<token>ServiceStack.Messaging.IMessageQueueClientFactory,CreateMessageQueueClient</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,Get</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,Ack</token>
+<token>ServiceStack.Messaging.IMessage,GetBody</token>
+</entry>
+<entry count="1">
+<token>ServiceStack.Messaging.IMessageFactory,CreateMessageProducer</token>
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+</entry>
+<entry count="10">
+<token>ServiceStack.Messaging.Message,new</token>
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,Get</token>
+</entry>
+<entry count="5">
+<token>ServiceStack.Messaging.IMessageService,Start</token>
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+</entry>
+<entry count="2">
+<token>ServiceStack.Messaging.IMessageQueueClient,GetAsync</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,Ack</token>
+</entry>
+<entry count="35">
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+</entry>
+<entry count="4">
+<token>ServiceStack.Messaging.IMessage,GetBody</token>
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+</entry>
+<entry count="3">
+<token>ServiceStack.Messaging.IMessageService,RegisterHandler</token>
+<token>ServiceStack.Messaging.IMessageService,RegisterHandler</token>
+<token>ServiceStack.Messaging.IMessageService,RegisterHandler</token>
+</entry>
+<entry count="3">
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+<token>ServiceStack.Messaging.IMessageQueueClientFactory,CreateMessageQueueClient</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,Get</token>
+</entry>
+<entry count="1">
+<token>ServiceStack.Messaging.IMessageService,RegisterHandler</token>
+<token>ServiceStack.Messaging.IMessageService,Start</token>
+<token>ServiceStack.Messaging.Message,new</token>
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+</entry>
+<entry count="5">
+<token>ServiceStack.Messaging.IMessageQueueClient,Get</token>
+<token>ServiceStack.Messaging.IMessage,GetBody</token>
+</entry>
+<entry count="2">
+<token>ServiceStack.Messaging.IMessageQueueClientFactory,CreateMessageQueueClient</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,GetAsync</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,Ack</token>
+<token>ServiceStack.Messaging.IMessage,GetBody</token>
+</entry>
+<entry count="5">
+<token>ServiceStack.Messaging.IMessage,GetBody</token>
+<token>ServiceStack.Messaging.IMessageService,RegisterHandler</token>
+<token>ServiceStack.Messaging.IMessageService,Start</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,GetTempQueueName</token>
+<token>ServiceStack.Messaging.Message,new</token>
+</entry>
+<entry count="5">
+<token>ServiceStack.Messaging.IMessageService,RegisterHandler</token>
+<token>ServiceStack.Messaging.IMessageService,Start</token>
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,Get</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,Ack</token>
+</entry>
+<entry count="256">
+<token>ServiceStack.Messaging.IMessageHandler,ProcessQueue</token>
+<token>ServiceStack.Messaging.IMessageHandler,ProcessQueue</token>
+<token>ServiceStack.Messaging.IMessageHandler,ProcessQueue</token>
+</entry>
+<entry count="1">
+<token>ServiceStack.Messaging.IMessageService,Start</token>
+<token>ServiceStack.Messaging.Message,new</token>
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+</entry>
+<entry count="2">
+<token>ServiceStack.Messaging.IMessageQueueClientFactory,CreateMessageQueueClient</token>
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+<token>ServiceStack.Messaging.IMessage,GetBody</token>
+<token>ServiceStack.Messaging.IMessageQueueClientFactory,CreateMessageQueueClient</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,GetAsync</token>
+</entry>
+<entry count="6">
+<token>ServiceStack.Messaging.IMessageQueueClient,GetTempQueueName</token>
+<token>ServiceStack.Messaging.Message,new</token>
+</entry>
+<entry count="5">
+<token>ServiceStack.Messaging.IMessageService,RegisterHandler</token>
+<token>ServiceStack.Messaging.IMessageService,Start</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,GetTempQueueName</token>
+<token>ServiceStack.Messaging.Message,new</token>
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+</entry>
+<entry count="31">
+<token>ServiceStack.Messaging.IMessage,GetBody</token>
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+</entry>
+<entry count="1">
+<token>ServiceStack.Messaging.IMessageService,RegisterHandler</token>
+<token>ServiceStack.Messaging.IMessage,GetBody</token>
+</entry>
+<entry count="2">
+<token>ServiceStack.Messaging.IMessage,GetBody</token>
+<token>ServiceStack.Messaging.IMessageQueueClientFactory,CreateMessageQueueClient</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,GetAsync</token>
+</entry>
+<entry count="4">
+<token>ServiceStack.Messaging.IMessageService,RegisterHandler</token>
+<token>ServiceStack.Messaging.IMessageService,RegisterHandler</token>
+</entry>
+<entry count="3">
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+<token>ServiceStack.Messaging.IMessageQueueClientFactory,CreateMessageQueueClient</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,Get</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,Ack</token>
+</entry>
+<entry count="5">
+<token>ServiceStack.Messaging.IMessageService,RegisterHandler</token>
+<token>ServiceStack.Messaging.IMessageService,Start</token>
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+</entry>
+<entry count="6">
+<token>ServiceStack.Messaging.IMessageQueueClientFactory,CreateMessageQueueClient</token>
+<token>ServiceStack.Messaging.IMessageProducer,Publish</token>
+</entry>
+<entry count="1">
+<token>ServiceStack.Messaging.IMessageQueueClient,Ack</token>
+<token>ServiceStack.Messaging.IMessage,GetBody</token>
+<token>ServiceStack.Messaging.IMessageQueueClient,Get</token>
+</entry>
+</dictionary>

@@ -1,24 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><dictionary case_sensitive="false">
-<entry count="1">
-<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,AsEntity</token>
-</entry>
-<entry count="8">
-<token>Microsoft.Data.Edm.EdmTypeSemantics,IsCollection</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,IsEntity</token>
-<token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
-</entry>
 <entry count="8">
 <token>Microsoft.Data.Edm.EdmTypeSemantics,IsEntity</token>
 <token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
 <token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
 <token>Microsoft.Data.Edm.EdmTypeSemantics,AsEntity</token>
 </entry>
-<entry count="328">
+<entry count="656">
 <token>Microsoft.Data.Edm.IEdmModel,FindDeclaredType</token>
 <token>Microsoft.Data.Edm.EdmTypeSemantics,IsOrInheritsFrom</token>
 </entry>
@@ -26,16 +13,10 @@
 <token>Microsoft.Data.Edm.IEdmModel,FindDeclaredType</token>
 <token>Microsoft.Data.Edm.ExtensionMethods,FunctionImports</token>
 </entry>
-<entry count="2">
-<token>Microsoft.Data.Edm.ExtensionMethods,FullName</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,CollectionDefinition</token>
-</entry>
-<entry count="1">
-<token>Microsoft.Data.Edm.IEdmEntityContainer,FindFunctionImports</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,AsEntity</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,AsEntity</token>
+<entry count="32">
+<token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,TypeKind</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsPrimitive</token>
 </entry>
 <entry count="6">
 <token>Microsoft.Data.Edm.ExtensionMethods,SetAnnotationValue</token>
@@ -62,27 +43,11 @@
 <token>Microsoft.Data.Edm.EdmTypeSemantics,IsEntity</token>
 <token>Microsoft.Data.Edm.EdmTypeSemantics,AsEntity</token>
 </entry>
-<entry count="8">
+<entry count="64">
 <token>Microsoft.Data.Edm.EdmTypeSemantics,IsEntity</token>
 <token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
 <token>Microsoft.Data.Edm.ExtensionMethods,TypeKind</token>
 </entry>
-<entry count="8">
-<token>Microsoft.Data.Edm.EdmTypeSemantics,IsEntity</token>
-<token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
-</entry>
-<entry count="1">
-<token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,DeclaredNavigationProperties</token>
-</entry>
-<entry count="2">
-<token>Microsoft.Data.Edm.ExtensionMethods,Key</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,CollectionDefinition</token>
-</entry>
 <entry count="1">
 <token>Microsoft.Data.Edm.IEdmModel,FindDeclaredType</token>
 <token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
@@ -93,41 +58,6 @@
 <token>Microsoft.Data.Edm.ExtensionMethods,FindType</token>
 <token>Microsoft.Data.Edm.ExtensionMethods,FindType</token>
 <token>Microsoft.Data.Edm.ExtensionMethods,FindType</token>
-</entry>
-<entry count="192">
-<token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
-<token>Microsoft.Data.Edm.IEdmModel,FindDeclaredType</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,IsOrInheritsFrom</token>
-</entry>
-<entry count="4">
-<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,IsEntity</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
-<token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
-</entry>
-<entry count="1">
-<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,AsEntity</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
-</entry>
-<entry count="1">
-<token>Microsoft.Data.Edm.ExtensionMethods,EntityDefinition</token>
-<token>Microsoft.Data.Edm.IEdmModel,FindDeclaredEntityContainer</token>
-<token>Microsoft.Data.Edm.IEdmEntityContainer,FindFunctionImports</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,AsEntity</token>
-</entry>
-<entry count="8">
-<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
-<token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
-<token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
-</entry>
-<entry count="1">
-<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,AsEntity</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
 </entry>
 <entry count="1">
 <token>Microsoft.Data.Edm.EdmTypeSemantics,AsEntity</token>
@@ -135,31 +65,9 @@
 <token>Microsoft.Data.Edm.IEdmModel,FindDeclaredEntityContainer</token>
 <token>Microsoft.Data.Edm.IEdmEntityContainer,FindFunctionImports</token>
 </entry>
-<entry count="320">
-<token>Microsoft.Data.Edm.IEdmModel,FindDeclaredType</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,IsOrInheritsFrom</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,IsOrInheritsFrom</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,FunctionImports</token>
-</entry>
-<entry count="2">
-<token>Microsoft.Data.Edm.ExtensionMethods,Key</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,Key</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
-</entry>
 <entry count="4">
 <token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
 <token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,FullName</token>
-</entry>
-<entry count="4">
-<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,CollectionDefinition</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,FullName</token>
-</entry>
-<entry count="8">
-<token>Microsoft.Data.Edm.ExtensionMethods,ComplexDefinition</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
 <token>Microsoft.Data.Edm.ExtensionMethods,FullName</token>
 </entry>
 <entry count="6">
@@ -181,13 +89,9 @@
 <token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
 <token>Microsoft.Data.Edm.ExtensionMethods,DeclaredNavigationProperties</token>
 </entry>
-<entry count="68">
+<entry count="84">
 <token>Microsoft.Data.Edm.ExtensionMethods,FullName</token>
 <token>Microsoft.Data.Edm.ExtensionMethods,FindType</token>
-</entry>
-<entry count="1">
-<token>Microsoft.Data.Edm.ExtensionMethods,EntityDefinition</token>
-<token>Microsoft.Data.Edm.IEdmModel,FindDeclaredEntityContainer</token>
 </entry>
 <entry count="10">
 <token>Microsoft.Data.Edm.EdmTypeSemantics,AsEntity</token>
@@ -199,7 +103,7 @@
 <token>Microsoft.Data.Edm.ExtensionMethods,FullName</token>
 <token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
 </entry>
-<entry count="12">
+<entry count="192">
 <token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
 <token>Microsoft.Data.Edm.EdmTypeSemantics,IsPrimitive</token>
 <token>Microsoft.Data.Edm.EdmTypeSemantics,IsComplex</token>
@@ -208,31 +112,15 @@
 <token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
 <token>Microsoft.Data.Edm.EdmTypeSemantics,IsEntity</token>
 </entry>
-<entry count="16">
-<token>Microsoft.Data.Edm.ExtensionMethods,GetAnnotationValue</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,FullName</token>
-</entry>
-<entry count="1">
-<token>Microsoft.Data.Edm.IEdmEntityContainer,FindFunctionImports</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,AsEntity</token>
-</entry>
-<entry count="6">
-<token>Microsoft.Data.Edm.IEdmFunctionBase,FindParameter</token>
-<token>Microsoft.Data.Edm.IEdmFunctionBase,FindParameter</token>
-</entry>
 <entry count="1">
 <token>Microsoft.Data.Edm.IEdmModel,FindDeclaredEntityContainer</token>
 <token>Microsoft.Data.Edm.IEdmEntityContainer,FindFunctionImports</token>
 <token>Microsoft.Data.Edm.EdmTypeSemantics,AsEntity</token>
 <token>Microsoft.Data.Edm.EdmTypeSemantics,AsEntity</token>
 </entry>
-<entry count="8">
+<entry count="128">
 <token>Microsoft.Data.Edm.EdmTypeSemantics,IsComplex</token>
 <token>Microsoft.Data.Edm.EdmTypeSemantics,IsEntity</token>
-</entry>
-<entry count="8">
-<token>Microsoft.Data.Edm.EdmTypeSemantics,IsOrInheritsFrom</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,FullName</token>
 </entry>
 <entry count="2">
 <token>Microsoft.Data.Edm.ExtensionMethods,Multiplicity</token>
@@ -240,18 +128,11 @@
 <token>Microsoft.Data.Edm.EdmElementComparer,IsEquivalentTo</token>
 </entry>
 <entry count="2">
-<token>Microsoft.Data.Edm.ExtensionMethods,FindType</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,IsOrInheritsFrom</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,FindType</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,IsOrInheritsFrom</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,FullName</token>
-</entry>
-<entry count="2">
 <token>Microsoft.Data.Edm.ExtensionMethods,FullName</token>
 <token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
 <token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
 </entry>
-<entry count="4">
+<entry count="16">
 <token>Microsoft.Data.Edm.ExtensionMethods,FindType</token>
 <token>Microsoft.Data.Edm.EdmTypeSemantics,IsOrInheritsFrom</token>
 <token>Microsoft.Data.Edm.ExtensionMethods,FullName</token>
@@ -268,17 +149,15 @@
 <token>Microsoft.Data.Edm.ExtensionMethods,SetAnnotationValue</token>
 <token>Microsoft.Data.Edm.IEdmModel,FindDeclaredEntityContainer</token>
 </entry>
-<entry count="1">
-<token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,Multiplicity</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
-</entry>
-<entry count="144">
+<entry count="388">
 <token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
 <token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
 </entry>
-<entry count="8">
-<token>Microsoft.Data.Edm.ExtensionMethods,FullName</token>
+<entry count="4">
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsPrimitive</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsComplex</token>
+<token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,TypeKind</token>
 <token>Microsoft.Data.Edm.EdmTypeSemantics,AsPrimitive</token>
 </entry>
 <entry count="12">
@@ -287,17 +166,11 @@
 <token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
 <token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
 </entry>
-<entry count="20">
+<entry count="264">
 <token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
 <token>Microsoft.Data.Edm.EdmTypeSemantics,IsPrimitive</token>
 </entry>
-<entry count="2">
-<token>Microsoft.Data.Edm.ExtensionMethods,Key</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
-</entry>
-<entry count="4">
+<entry count="32">
 <token>Microsoft.Data.Edm.EdmTypeSemantics,IsComplex</token>
 <token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
 <token>Microsoft.Data.Edm.ExtensionMethods,TypeKind</token>
@@ -308,63 +181,36 @@
 <token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
 <token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
 <token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
+</entry>
+<entry count="64">
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsPrimitive</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsComplex</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsEntity</token>
+<token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,TypeKind</token>
 </entry>
 <entry count="8">
-<token>Microsoft.Data.Edm.EdmTypeSemantics,IsPrimitive</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,IsComplex</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,IsEntity</token>
-<token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,TypeKind</token>
-</entry>
-<entry count="2">
-<token>Microsoft.Data.Edm.ExtensionMethods,FindType</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,SetAnnotationValue</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,FindType</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,FullName</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,DeclaringEntityType</token>
 </entry>
 <entry count="2">
 <token>Microsoft.Data.Edm.ExtensionMethods,Multiplicity</token>
 <token>Microsoft.Data.Edm.ExtensionMethods,ToEntityType</token>
 </entry>
-<entry count="4">
-<token>Microsoft.Data.Edm.ExtensionMethods,Key</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,Key</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,StructuralProperties</token>
-</entry>
-<entry count="4">
+<entry count="20">
 <token>Microsoft.Data.Edm.ExtensionMethods,FullName</token>
 <token>Microsoft.Data.Edm.ExtensionMethods,FindType</token>
 <token>Microsoft.Data.Edm.EdmTypeSemantics,IsOrInheritsFrom</token>
-</entry>
-<entry count="8">
-<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,IsEntity</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
 </entry>
 <entry count="2">
 <token>Microsoft.Data.Edm.ExtensionMethods,FullName</token>
 <token>Microsoft.Data.Edm.EdmTypeSemantics,AsComplex</token>
 </entry>
-<entry count="96">
-<token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
-<token>Microsoft.Data.Edm.IEdmModel,FindDeclaredType</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,FunctionImports</token>
-</entry>
 <entry count="16">
 <token>Microsoft.Data.Edm.ExtensionMethods,FindType</token>
 <token>Microsoft.Data.Edm.ExtensionMethods,EntityDefinition</token>
 </entry>
-<entry count="4">
-<token>Microsoft.Data.Edm.ExtensionMethods,Key</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,Key</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,StructuralProperties</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,IsPrimitive</token>
-</entry>
-<entry count="12">
-<token>Microsoft.Data.Edm.EdmTypeSemantics,IsCollection</token>
-<token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
-</entry>
-<entry count="4">
+<entry count="32">
 <token>Microsoft.Data.Edm.EdmTypeSemantics,AsPrimitive</token>
 <token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
 </entry>
@@ -374,32 +220,12 @@
 </entry>
 <entry count="8">
 <token>Microsoft.Data.Edm.EdmTypeSemantics,IsEntity</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,FullName</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,AsEntity</token>
-</entry>
-<entry count="4">
-<token>Microsoft.Data.Edm.IEdmFunctionBase,FindParameter</token>
-<token>Microsoft.Data.Edm.IEdmFunctionBase,FindParameter</token>
-<token>Microsoft.Data.Edm.IEdmFunctionBase,FindParameter</token>
-</entry>
-<entry count="4">
-<token>Microsoft.Data.Edm.EdmTypeSemantics,IsComplex</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
-<token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
-</entry>
-<entry count="8">
-<token>Microsoft.Data.Edm.EdmTypeSemantics,IsEntity</token>
 <token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
 </entry>
 <entry count="1">
 <token>Microsoft.Data.Edm.IEdmModel,FindDeclaredEntityContainer</token>
 <token>Microsoft.Data.Edm.IEdmEntityContainer,FindFunctionImports</token>
 <token>Microsoft.Data.Edm.IEdmModel,FindDeclaredType</token>
-</entry>
-<entry count="1">
-<token>Microsoft.Data.Edm.ExtensionMethods,EntityDefinition</token>
-<token>Microsoft.Data.Edm.IEdmModel,FindDeclaredEntityContainer</token>
-<token>Microsoft.Data.Edm.IEdmEntityContainer,FindFunctionImports</token>
 </entry>
 <entry count="5">
 <token>Microsoft.Data.Edm.ExtensionMethods,GetAnnotationValue</token>
@@ -417,60 +243,34 @@
 <token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
 <token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
 </entry>
-<entry count="1">
-<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,AsEntity</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,EntityDefinition</token>
-<token>Microsoft.Data.Edm.IEdmModel,FindDeclaredEntityContainer</token>
-</entry>
-<entry count="4">
-<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,IsComplex</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
-</entry>
-<entry count="1">
-<token>Microsoft.Data.Edm.IEdmEntityContainer,FindFunctionImports</token>
-<token>Microsoft.Data.Edm.IEdmModel,FindDeclaredType</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
-</entry>
-<entry count="2">
-<token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,CollectionDefinition</token>
-</entry>
 <entry count="8">
-<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsComplex</token>
 <token>Microsoft.Data.Edm.EdmTypeSemantics,IsEntity</token>
 <token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
-</entry>
-<entry count="4">
-<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,IsEntity</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,AsEntity</token>
-</entry>
-<entry count="10">
-<token>Microsoft.Data.Edm.ExtensionMethods,FindType</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,FindType</token>
-</entry>
-<entry count="2">
-<token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,Key</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,Key</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,TypeKind</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsPrimitive</token>
 </entry>
 <entry count="1">
 <token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
 <token>Microsoft.Data.Edm.EdmTypeSemantics,AsEntity</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,AsEntity</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,EntityDefinition</token>
+<token>Microsoft.Data.Edm.IEdmModel,FindDeclaredEntityContainer</token>
 </entry>
 <entry count="2">
+<token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,Key</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,Key</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
+</entry>
+<entry count="16">
+<token>Microsoft.Data.Edm.ExtensionMethods,TypeKind</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsPrimitive</token>
+<token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,TypeKind</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
+</entry>
+<entry count="3">
 <token>Microsoft.Data.Edm.EdmTypeSemantics,IsOrInheritsFrom</token>
 <token>Microsoft.Data.Edm.ExtensionMethods,FindType</token>
 <token>Microsoft.Data.Edm.EdmTypeSemantics,IsOrInheritsFrom</token>
@@ -482,19 +282,6 @@
 <token>Microsoft.Data.Edm.EdmTypeSemantics,AsEntity</token>
 <token>Microsoft.Data.Edm.ExtensionMethods,EntityDefinition</token>
 <token>Microsoft.Data.Edm.IEdmModel,FindDeclaredEntityContainer</token>
-</entry>
-<entry count="8">
-<token>Microsoft.Data.Edm.ExtensionMethods,BaseEntityType</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,BaseEntityType</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,BaseEntityType</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,BaseEntityType</token>
-</entry>
-<entry count="4">
-<token>Microsoft.Data.Edm.EdmTypeSemantics,IsCollection</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,IsEntity</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,FullName</token>
 </entry>
 <entry count="2">
 <token>Microsoft.Data.Edm.ExtensionMethods,EntityContainers</token>
@@ -503,7 +290,7 @@
 <token>Microsoft.Data.Edm.ExtensionMethods,Key</token>
 <token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
 </entry>
-<entry count="4">
+<entry count="8">
 <token>Microsoft.Data.Edm.EdmTypeSemantics,IsPrimitive</token>
 <token>Microsoft.Data.Edm.EdmTypeSemantics,IsCollection</token>
 <token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
@@ -512,17 +299,6 @@
 <entry count="2">
 <token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
 <token>Microsoft.Data.Edm.ExtensionMethods,Multiplicity</token>
-</entry>
-<entry count="1">
-<token>Microsoft.Data.Edm.IEdmEntityContainer,FindFunctionImports</token>
-<token>Microsoft.Data.Edm.IEdmModel,FindDeclaredType</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
-</entry>
-<entry count="2">
-<token>Microsoft.Data.Edm.ExtensionMethods,SetAnnotationValue</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,FindType</token>
 </entry>
 <entry count="18">
 <token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
@@ -556,30 +332,12 @@
 <token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
 <token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
 </entry>
-<entry count="1">
-<token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,Multiplicity</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
-</entry>
 <entry count="2">
 <token>Microsoft.Data.Edm.ExtensionMethods,CollectionDefinition</token>
 <token>Microsoft.Data.Edm.ExtensionMethods,FullName</token>
 <token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
 <token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
 <token>Microsoft.Data.Edm.ExtensionMethods,CollectionDefinition</token>
-</entry>
-<entry count="4">
-<token>Microsoft.Data.Edm.EdmTypeSemantics,IsComplex</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
-<token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
-<token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
-</entry>
-<entry count="8">
-<token>Microsoft.Data.Edm.EdmTypeSemantics,IsPrimitive</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,FullName</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,AsPrimitive</token>
 </entry>
 <entry count="2">
 <token>Microsoft.Data.Edm.IEdmFunctionBase,FindParameter</token>
@@ -593,17 +351,9 @@
 <token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
 <token>Microsoft.Data.Edm.ExtensionMethods,Multiplicity</token>
 </entry>
-<entry count="4">
+<entry count="32">
 <token>Microsoft.Data.Edm.ExtensionMethods,DeclaringEntityType</token>
 <token>Microsoft.Data.Edm.ExtensionMethods,FullName</token>
-</entry>
-<entry count="328">
-<token>Microsoft.Data.Edm.EdmTypeSemantics,IsOrInheritsFrom</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,IsOrInheritsFrom</token>
-</entry>
-<entry count="320">
-<token>Microsoft.Data.Edm.EdmTypeSemantics,IsOrInheritsFrom</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,FunctionImports</token>
 </entry>
 <entry count="20">
 <token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
@@ -614,12 +364,1115 @@
 <token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
 <token>Microsoft.Data.Edm.ExtensionMethods,CollectionDefinition</token>
 </entry>
-<entry count="4">
+<entry count="32">
 <token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
 <token>Microsoft.Data.Edm.EdmTypeSemantics,IsPrimitive</token>
 <token>Microsoft.Data.Edm.EdmTypeSemantics,IsComplex</token>
 <token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
 <token>Microsoft.Data.Edm.ExtensionMethods,TypeKind</token>
+</entry>
+<entry count="8">
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsPrimitive</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsCollection</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
+</entry>
+<entry count="6">
+<token>Microsoft.Data.Edm.ExtensionMethods,FindAllDerivedTypes</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,NavigationProperties</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Data.Edm.IEdmModel,FindDeclaredEntityContainer</token>
+<token>Microsoft.Data.Edm.IEdmEntityContainer,FindFunctionImports</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsEntity</token>
+</entry>
+<entry count="32">
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsPrimitive</token>
+<token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,TypeKind</token>
+</entry>
+<entry count="8">
+<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsEntity</token>
+<token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Data.Edm.ExtensionMethods,FindType</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsOrInheritsFrom</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,FullName</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,FullName</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,FindType</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Data.Edm.ExtensionMethods,FindProperty</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,FullName</token>
+</entry>
+<entry count="128">
+<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsPrimitive</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsComplex</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsEntity</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Data.Edm.ExtensionMethods,GetEdmVersion</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,EntityContainers</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,EntityContainers</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsComplex</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,FullName</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsComplex</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Data.Edm.IEdmModel,FindDeclaredEntityContainer</token>
+<token>Microsoft.Data.Edm.IEdmEntityContainer,FindEntitySet</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,SetAnnotationValue</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsEntity</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsEntity</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,FullName</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Data.Edm.ExtensionMethods,Key</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,Key</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,Key</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Data.Edm.ExtensionMethods,Key</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,StructuralProperties</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsPrimitive</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Data.Edm.ExtensionMethods,Key</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,Key</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,Key</token>
+</entry>
+<entry count="16">
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsPrimitive</token>
+<token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,TypeKind</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Data.Edm.IEdmEntityContainer,FindFunctionImports</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsEntity</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsEntity</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,EntityDefinition</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsOrInheritsFrom</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,FullName</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,FullName</token>
+</entry>
+<entry count="32">
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsComplex</token>
+<token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
+</entry>
+<entry count="128">
+<token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,TypeKind</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
+</entry>
+<entry count="48">
+<token>Microsoft.Data.Edm.ExtensionMethods,TypeKind</token>
+<token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,TypeKind</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
+</entry>
+<entry count="8">
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsEntity</token>
+<token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
+</entry>
+<entry count="32">
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsPrimitive</token>
+<token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,TypeKind</token>
+</entry>
+<entry count="48">
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsEntity</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,FullName</token>
+</entry>
+<entry count="64">
+<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsPrimitive</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsComplex</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsEntity</token>
+<token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsEntity</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsCollection</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsEntity</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,CollectionDefinition</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,FullName</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Data.Edm.ExtensionMethods,BaseEntityType</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,BaseEntityType</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,BaseEntityType</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,BaseEntityType</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,BaseEntityType</token>
+</entry>
+<entry count="8">
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsPrimitive</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsCollection</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsPrimitive</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsEntity</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,EntityDefinition</token>
+<token>Microsoft.Data.Edm.IEdmModel,FindDeclaredEntityContainer</token>
+</entry>
+<entry count="16">
+<token>Microsoft.Data.Edm.ExtensionMethods,FindType</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsOrInheritsFrom</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,FullName</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,FindType</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsEntity</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsCollection</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Data.Edm.ExtensionMethods,EntityContainers</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,EntitySets</token>
+</entry>
+<entry count="48">
+<token>Microsoft.Data.Edm.IEdmEntityContainer,FindEntitySet</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,FunctionImports</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,Key</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,Key</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
+</entry>
+<entry count="48">
+<token>Microsoft.Data.Edm.ExtensionMethods,TypeKind</token>
+<token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,TypeKind</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
+</entry>
+<entry count="384">
+<token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
+<token>Microsoft.Data.Edm.IEdmModel,FindDeclaredType</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsOrInheritsFrom</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsOrInheritsFrom</token>
+</entry>
+<entry count="5">
+<token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Data.Edm.ExtensionMethods,StructuralProperties</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,NavigationProperties</token>
+</entry>
+<entry count="12">
+<token>Microsoft.Data.Edm.ExtensionMethods,FindType</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsOrInheritsFrom</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,FindType</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsOrInheritsFrom</token>
+</entry>
+<entry count="8">
+<token>Microsoft.Data.Edm.IEdmEntityContainer,FindEntitySet</token>
+<token>Microsoft.Data.Edm.IEdmModel,FindDeclaredType</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Data.Edm.ExtensionMethods,EntityContainers</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,EntityContainers</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,Key</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,Key</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsEntity</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Data.Edm.ExtensionMethods,DeclaringEntityType</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,FullName</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,DeclaringEntityType</token>
+</entry>
+<entry count="32">
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsPrimitive</token>
+<token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Data.Edm.ExtensionMethods,SetAnnotationValue</token>
+<token>Microsoft.Data.Edm.IEdmModel,FindDeclaredEntityContainer</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Data.Edm.ExtensionMethods,GetAnnotationValue</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,GetAnnotationValue</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,GetAnnotationValue</token>
+</entry>
+<entry count="8">
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsEntity</token>
+<token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
+</entry>
+<entry count="480">
+<token>Microsoft.Data.Edm.ExtensionMethods,NavigationProperties</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
+<token>Microsoft.Data.Edm.IEdmModel,FindDeclaredType</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Data.Edm.IEdmModel,FindDeclaredType</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsEntity</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsComplex</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
+</entry>
+<entry count="22">
+<token>Microsoft.Data.Edm.ExtensionMethods,BaseEntityType</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,BaseEntityType</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsPrimitive</token>
+<token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,TypeKind</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsPrimitive</token>
+</entry>
+<entry count="8">
+<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsEntity</token>
+<token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,CollectionDefinition</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,FullName</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsComplex</token>
+<token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,TypeKind</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsPrimitive</token>
+</entry>
+<entry count="28">
+<token>Microsoft.Data.Edm.ExtensionMethods,FindType</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsOrInheritsFrom</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,FullName</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Data.Edm.ExtensionMethods,FindAllDerivedTypes</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,NavigationProperties</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,DeclaredNavigationProperties</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
+</entry>
+<entry count="32">
+<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsComplex</token>
+</entry>
+<entry count="6">
+<token>Microsoft.Data.Edm.ExtensionMethods,StructuralProperties</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsPrimitive</token>
+</entry>
+<entry count="8">
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsEntity</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsEntity</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,EntityDefinition</token>
+</entry>
+<entry count="64">
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsComplex</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsEntity</token>
+<token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,CollectionDefinition</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,FullName</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
+</entry>
+<entry count="32">
+<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsPrimitive</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsComplex</token>
+<token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
+</entry>
+<entry count="480">
+<token>Microsoft.Data.Edm.ExtensionMethods,NavigationProperties</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Data.Edm.IEdmEntityContainer,FindEntitySet</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,SetAnnotationValue</token>
+</entry>
+<entry count="8">
+<token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsComplex</token>
+</entry>
+<entry count="86">
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsCollection</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
+</entry>
+<entry count="64">
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsComplex</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsEntity</token>
+<token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,TypeKind</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Data.Edm.ExtensionMethods,NavigationProperties</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,GetAnnotationValue</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,GetAnnotationValue</token>
+</entry>
+<entry count="16">
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsPrimitive</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsComplex</token>
+<token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,TypeKind</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Data.Edm.ExtensionMethods,EntityDefinition</token>
+<token>Microsoft.Data.Edm.IEdmModel,FindDeclaredEntityContainer</token>
+<token>Microsoft.Data.Edm.IEdmEntityContainer,FindFunctionImports</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsEntity</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsEntity</token>
+</entry>
+<entry count="32">
+<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsPrimitive</token>
+<token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,TypeKind</token>
+</entry>
+<entry count="32">
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsCollection</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsEntity</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsOrInheritsFrom</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,FullName</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,FindType</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsOrInheritsFrom</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,FullName</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsEntity</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsEntity</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,EntityDefinition</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsPrimitive</token>
+<token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,TypeKind</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsPrimitive</token>
+</entry>
+<entry count="8">
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsEntity</token>
+<token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsEntity</token>
+</entry>
+<entry count="10">
+<token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
+<token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
+</entry>
+<entry count="8">
+<token>Microsoft.Data.Edm.ExtensionMethods,FullName</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,FindType</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,FullName</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsEntity</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Data.Edm.ExtensionMethods,GetEdmVersion</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,EntityContainers</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,EntityContainers</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,Key</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Data.Edm.ExtensionMethods,FullName</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,FullName</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,FindType</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsOrInheritsFrom</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,FullName</token>
+</entry>
+<entry count="8">
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsStructured</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,StructuredDefinition</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,StructuralProperties</token>
+</entry>
+<entry count="192">
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsPrimitive</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsComplex</token>
+</entry>
+<entry count="20">
+<token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
+</entry>
+<entry count="8">
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsEntity</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsEntity</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,EntityDefinition</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsEntity</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,EntityDefinition</token>
+<token>Microsoft.Data.Edm.IEdmModel,FindDeclaredEntityContainer</token>
+<token>Microsoft.Data.Edm.IEdmEntityContainer,FindFunctionImports</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,CollectionDefinition</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsEntity</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsEntity</token>
+</entry>
+<entry count="272">
+<token>Microsoft.Data.Edm.ExtensionMethods,TypeKind</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
+</entry>
+<entry count="96">
+<token>Microsoft.Data.Edm.ExtensionMethods,TypeKind</token>
+<token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Data.Edm.ExtensionMethods,SetAnnotationValue</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,FindType</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,SetAnnotationValue</token>
+<token>Microsoft.Data.Edm.IEdmModel,FindDeclaredEntityContainer</token>
+<token>Microsoft.Data.Edm.IEdmEntityContainer,FindEntitySet</token>
+</entry>
+<entry count="14">
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsComplex</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsComplex</token>
+</entry>
+<entry count="16">
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsOrInheritsFrom</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,FullName</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,FindType</token>
+</entry>
+<entry count="32">
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsPrimitive</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsComplex</token>
+<token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
+</entry>
+<entry count="32">
+<token>Microsoft.Data.Edm.ExtensionMethods,TypeKind</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsPrimitive</token>
+<token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsEntity</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
+<token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsPrimitive</token>
+<token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,TypeKind</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsPrimitive</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsEntity</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
+</entry>
+<entry count="8">
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsEntity</token>
+<token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,TypeKind</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsPrimitive</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Data.Edm.ExtensionMethods,SetAnnotationValue</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,FindType</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,SetAnnotationValue</token>
+</entry>
+<entry count="12">
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsOrInheritsFrom</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,FindType</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Data.Edm.ExtensionMethods,GetEdmVersion</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,EntityContainers</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,EntityContainers</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
+</entry>
+<entry count="12">
+<token>Microsoft.Data.Edm.ExtensionMethods,TypeKind</token>
+<token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,TypeKind</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsPrimitive</token>
+</entry>
+<entry count="16">
+<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsPrimitive</token>
+<token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,TypeKind</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
+</entry>
+<entry count="8">
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsPrimitive</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsCollection</token>
+</entry>
+<entry count="16">
+<token>Microsoft.Data.Edm.ExtensionMethods,FullName</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,SetAnnotationValue</token>
+</entry>
+<entry count="96">
+<token>Microsoft.Data.Edm.ExtensionMethods,TypeKind</token>
+<token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,TypeKind</token>
+</entry>
+<entry count="32">
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsPrimitive</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsComplex</token>
+<token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Data.Edm.ExtensionMethods,Key</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,Key</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
+</entry>
+<entry count="3">
+<token>Microsoft.Data.Edm.ExtensionMethods,Key</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
+</entry>
+<entry count="32">
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsEntity</token>
+<token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,TypeKind</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Data.Edm.IEdmModel,FindDeclaredType</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,SetAnnotationValue</token>
+</entry>
+<entry count="12">
+<token>Microsoft.Data.Edm.ExtensionMethods,FullName</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,FullName</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Data.Edm.ExtensionMethods,FullName</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,FullName</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,FindType</token>
+</entry>
+<entry count="656">
+<token>Microsoft.Data.Edm.IEdmModel,FindDeclaredType</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsOrInheritsFrom</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsOrInheritsFrom</token>
+</entry>
+<entry count="32">
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsPrimitive</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsComplex</token>
+<token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,TypeKind</token>
+</entry>
+<entry count="64">
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsPrimitive</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsComplex</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsEntity</token>
+<token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
+</entry>
+<entry count="8">
+<token>Microsoft.Data.Edm.ExtensionMethods,StructuredDefinition</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,StructuralProperties</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Data.Edm.IEdmModel,FindDeclaredEntityContainer</token>
+<token>Microsoft.Data.Edm.IEdmEntityContainer,FindFunctionImports</token>
+</entry>
+<entry count="8">
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsCollection</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsPrimitive</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Data.Edm.ExtensionMethods,Key</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,Key</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,Key</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,Key</token>
+</entry>
+<entry count="128">
+<token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,TypeKind</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsPrimitive</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Data.Edm.ExtensionMethods,SetAnnotationValue</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,FindType</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,SetAnnotationValue</token>
+<token>Microsoft.Data.Edm.IEdmModel,FindDeclaredEntityContainer</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,CollectionDefinition</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,FullName</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsEntity</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,FullName</token>
+</entry>
+<entry count="16">
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsCollection</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsComplex</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Data.Edm.IEdmModel,FindDeclaredEntityContainer</token>
+<token>Microsoft.Data.Edm.IEdmEntityContainer,FindFunctionImports</token>
+<token>Microsoft.Data.Edm.IEdmModel,FindDeclaredType</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsCollection</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsEntity</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsEntity</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Data.Edm.ExtensionMethods,Multiplicity</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsComplex</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,FullName</token>
+</entry>
+<entry count="96">
+<token>Microsoft.Data.Edm.ExtensionMethods,NavigationProperties</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
+<token>Microsoft.Data.Edm.IEdmModel,FindDeclaredType</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,FunctionImports</token>
+</entry>
+<entry count="384">
+<token>Microsoft.Data.Edm.ExtensionMethods,NavigationProperties</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
+<token>Microsoft.Data.Edm.IEdmModel,FindDeclaredType</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsOrInheritsFrom</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsOrInheritsFrom</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,FullName</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,FullName</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,FindType</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsOrInheritsFrom</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Data.Edm.ExtensionMethods,NavigationProperties</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,Multiplicity</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsComplex</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
+<token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Data.Edm.ExtensionMethods,EntityContainers</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,Key</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,Key</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Data.Edm.ExtensionMethods,FindType</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,FindType</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,FindType</token>
+</entry>
+<entry count="8">
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsEntity</token>
+<token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsOrInheritsFrom</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,FullName</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,FullName</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,FindType</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsEntity</token>
+</entry>
+<entry count="8">
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsCollection</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsEntity</token>
+<token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Data.Edm.ExtensionMethods,FullName</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,CollectionDefinition</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Data.Edm.IEdmEntityContainer,FindFunctionImports</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsEntity</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsEntity</token>
+</entry>
+<entry count="8">
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsEntity</token>
+<token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,DeclaredNavigationProperties</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Data.Edm.ExtensionMethods,Key</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,CollectionDefinition</token>
+</entry>
+<entry count="384">
+<token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
+<token>Microsoft.Data.Edm.IEdmModel,FindDeclaredType</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsOrInheritsFrom</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsEntity</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
+<token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsEntity</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Data.Edm.ExtensionMethods,EntityDefinition</token>
+<token>Microsoft.Data.Edm.IEdmModel,FindDeclaredEntityContainer</token>
+<token>Microsoft.Data.Edm.IEdmEntityContainer,FindFunctionImports</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsEntity</token>
+</entry>
+<entry count="8">
+<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
+<token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
+<token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsEntity</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
+</entry>
+<entry count="640">
+<token>Microsoft.Data.Edm.IEdmModel,FindDeclaredType</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsOrInheritsFrom</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsOrInheritsFrom</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,FunctionImports</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Data.Edm.ExtensionMethods,Key</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,Key</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,CollectionDefinition</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,FullName</token>
+</entry>
+<entry count="8">
+<token>Microsoft.Data.Edm.ExtensionMethods,ComplexDefinition</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,FullName</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Data.Edm.ExtensionMethods,EntityDefinition</token>
+<token>Microsoft.Data.Edm.IEdmModel,FindDeclaredEntityContainer</token>
+</entry>
+<entry count="16">
+<token>Microsoft.Data.Edm.ExtensionMethods,GetAnnotationValue</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,FullName</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Data.Edm.IEdmEntityContainer,FindFunctionImports</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsEntity</token>
+</entry>
+<entry count="6">
+<token>Microsoft.Data.Edm.IEdmFunctionBase,FindParameter</token>
+<token>Microsoft.Data.Edm.IEdmFunctionBase,FindParameter</token>
+</entry>
+<entry count="32">
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsEntity</token>
+<token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,TypeKind</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
+</entry>
+<entry count="28">
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsOrInheritsFrom</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,FullName</token>
+</entry>
+<entry count="3">
+<token>Microsoft.Data.Edm.ExtensionMethods,FindType</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsOrInheritsFrom</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,FindType</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsOrInheritsFrom</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,FullName</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,Multiplicity</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
+</entry>
+<entry count="8">
+<token>Microsoft.Data.Edm.ExtensionMethods,FullName</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsPrimitive</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Data.Edm.ExtensionMethods,Key</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Data.Edm.ExtensionMethods,FindType</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,SetAnnotationValue</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,FindType</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Data.Edm.ExtensionMethods,Key</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,Key</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,StructuralProperties</token>
+</entry>
+<entry count="8">
+<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsEntity</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
+</entry>
+<entry count="96">
+<token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
+<token>Microsoft.Data.Edm.IEdmModel,FindDeclaredType</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,FunctionImports</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Data.Edm.ExtensionMethods,Key</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,Key</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,StructuralProperties</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsPrimitive</token>
+</entry>
+<entry count="12">
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsCollection</token>
+<token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
+</entry>
+<entry count="8">
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsEntity</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,FullName</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsEntity</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Data.Edm.IEdmFunctionBase,FindParameter</token>
+<token>Microsoft.Data.Edm.IEdmFunctionBase,FindParameter</token>
+<token>Microsoft.Data.Edm.IEdmFunctionBase,FindParameter</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsComplex</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
+<token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Data.Edm.ExtensionMethods,TypeKind</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsPrimitive</token>
+<token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,TypeKind</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsPrimitive</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Data.Edm.ExtensionMethods,EntityDefinition</token>
+<token>Microsoft.Data.Edm.IEdmModel,FindDeclaredEntityContainer</token>
+<token>Microsoft.Data.Edm.IEdmEntityContainer,FindFunctionImports</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsComplex</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Data.Edm.IEdmEntityContainer,FindFunctionImports</token>
+<token>Microsoft.Data.Edm.IEdmModel,FindDeclaredType</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,CollectionDefinition</token>
+</entry>
+<entry count="8">
+<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsEntity</token>
+<token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsEntity</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsEntity</token>
+</entry>
+<entry count="42">
+<token>Microsoft.Data.Edm.ExtensionMethods,FindType</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,FindType</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsEntity</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsEntity</token>
+</entry>
+<entry count="32">
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsComplex</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsEntity</token>
+<token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,TypeKind</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
+</entry>
+<entry count="8">
+<token>Microsoft.Data.Edm.ExtensionMethods,BaseEntityType</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,BaseEntityType</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,BaseEntityType</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,BaseEntityType</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsCollection</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsEntity</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,FullName</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Data.Edm.IEdmEntityContainer,FindFunctionImports</token>
+<token>Microsoft.Data.Edm.IEdmModel,FindDeclaredType</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Data.Edm.ExtensionMethods,SetAnnotationValue</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,FindType</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,Multiplicity</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsComplex</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
+<token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
+<token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
+</entry>
+<entry count="8">
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsPrimitive</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,FullName</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsPrimitive</token>
+</entry>
+<entry count="128">
+<token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,TypeKind</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
+</entry>
+<entry count="656">
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsOrInheritsFrom</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsOrInheritsFrom</token>
+</entry>
+<entry count="640">
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsOrInheritsFrom</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,FunctionImports</token>
 </entry>
 <entry count="1">
 <token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
@@ -631,46 +1484,20 @@
 <token>Microsoft.Data.Edm.EdmTypeSemantics,IsCollection</token>
 <token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
 </entry>
-<entry count="4">
-<token>Microsoft.Data.Edm.EdmTypeSemantics,IsPrimitive</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,IsCollection</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
-</entry>
-<entry count="16">
+<entry count="256">
 <token>Microsoft.Data.Edm.ExtensionMethods,TypeKind</token>
 <token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
 <token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
 <token>Microsoft.Data.Edm.EdmTypeSemantics,IsPrimitive</token>
 </entry>
-<entry count="4">
+<entry count="12">
 <token>Microsoft.Data.Edm.ExtensionMethods,FindType</token>
 <token>Microsoft.Data.Edm.EdmTypeSemantics,IsOrInheritsFrom</token>
 <token>Microsoft.Data.Edm.ExtensionMethods,FindType</token>
 </entry>
-<entry count="6">
-<token>Microsoft.Data.Edm.ExtensionMethods,FindAllDerivedTypes</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,NavigationProperties</token>
-</entry>
 <entry count="1">
 <token>Microsoft.Data.Edm.IEdmModel,FindDeclaredType</token>
 <token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
-</entry>
-<entry count="1">
-<token>Microsoft.Data.Edm.IEdmModel,FindDeclaredEntityContainer</token>
-<token>Microsoft.Data.Edm.IEdmEntityContainer,FindFunctionImports</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,AsEntity</token>
-</entry>
-<entry count="4">
-<token>Microsoft.Data.Edm.EdmTypeSemantics,AsPrimitive</token>
-<token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,TypeKind</token>
-</entry>
-<entry count="8">
-<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,IsEntity</token>
-<token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
 </entry>
 <entry count="2">
 <token>Microsoft.Data.Edm.ExtensionMethods,EntityContainers</token>
@@ -698,71 +1525,13 @@
 <token>Microsoft.Data.Edm.ExtensionMethods,FindType</token>
 <token>Microsoft.Data.Edm.ExtensionMethods,EntityDefinition</token>
 </entry>
-<entry count="4">
-<token>Microsoft.Data.Edm.ExtensionMethods,FindProperty</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,FullName</token>
-</entry>
-<entry count="8">
-<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,IsPrimitive</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,IsComplex</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,IsEntity</token>
-</entry>
-<entry count="2">
-<token>Microsoft.Data.Edm.ExtensionMethods,GetEdmVersion</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,EntityContainers</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,EntityContainers</token>
-</entry>
 <entry count="16">
 <token>Microsoft.Data.Edm.ExtensionMethods,TypeKind</token>
 <token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
 <token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
 <token>Microsoft.Data.Edm.EdmTypeSemantics,IsEntity</token>
 </entry>
-<entry count="2">
-<token>Microsoft.Data.Edm.EdmTypeSemantics,IsComplex</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,FullName</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,AsComplex</token>
-</entry>
-<entry count="2">
-<token>Microsoft.Data.Edm.IEdmModel,FindDeclaredEntityContainer</token>
-<token>Microsoft.Data.Edm.IEdmEntityContainer,FindEntitySet</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,SetAnnotationValue</token>
-</entry>
-<entry count="4">
-<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,IsEntity</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,AsEntity</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,FullName</token>
-</entry>
-<entry count="2">
-<token>Microsoft.Data.Edm.ExtensionMethods,Key</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,Key</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,Key</token>
-</entry>
-<entry count="4">
-<token>Microsoft.Data.Edm.ExtensionMethods,Key</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,StructuralProperties</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,IsPrimitive</token>
-</entry>
-<entry count="2">
-<token>Microsoft.Data.Edm.ExtensionMethods,Key</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,Key</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,Key</token>
-</entry>
-<entry count="1">
-<token>Microsoft.Data.Edm.IEdmEntityContainer,FindFunctionImports</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,AsEntity</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,AsEntity</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,EntityDefinition</token>
-</entry>
-<entry count="4">
-<token>Microsoft.Data.Edm.EdmTypeSemantics,IsComplex</token>
-<token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
-</entry>
-<entry count="8">
+<entry count="136">
 <token>Microsoft.Data.Edm.ExtensionMethods,Key</token>
 <token>Microsoft.Data.Edm.ExtensionMethods,Key</token>
 </entry>
@@ -770,31 +1539,11 @@
 <token>Microsoft.Data.Edm.ExtensionMethods,ComplexDefinition</token>
 <token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
 </entry>
-<entry count="8">
-<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,IsEntity</token>
-<token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
-</entry>
-<entry count="4">
-<token>Microsoft.Data.Edm.EdmTypeSemantics,IsPrimitive</token>
-<token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,TypeKind</token>
-</entry>
-<entry count="48">
-<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,IsEntity</token>
-</entry>
 <entry count="2">
 <token>Microsoft.Data.Edm.ExtensionMethods,EntityContainers</token>
 <token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
 </entry>
-<entry count="4">
-<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,FullName</token>
-</entry>
-<entry count="4">
+<entry count="32">
 <token>Microsoft.Data.Edm.EdmTypeSemantics,IsPrimitive</token>
 <token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
 </entry>
@@ -803,31 +1552,11 @@
 <token>Microsoft.Data.Edm.ExtensionMethods,Key</token>
 <token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
 <token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
-</entry>
-<entry count="8">
-<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,IsPrimitive</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,IsComplex</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,IsEntity</token>
-<token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
-</entry>
-<entry count="4">
-<token>Microsoft.Data.Edm.EdmTypeSemantics,IsEntity</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,IsCollection</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,IsEntity</token>
 </entry>
 <entry count="8">
 <token>Microsoft.Data.Edm.ExtensionMethods,NavigationProperties</token>
 <token>Microsoft.Data.Edm.ExtensionMethods,DeclaredNavigationProperties</token>
 </entry>
-<entry count="4">
-<token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,CollectionDefinition</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,FullName</token>
-</entry>
 <entry count="1">
 <token>Microsoft.Data.Edm.IEdmEntityContainer,FindFunctionImports</token>
 <token>Microsoft.Data.Edm.IEdmModel,FindDeclaredType</token>
@@ -836,72 +1565,25 @@
 <token>Microsoft.Data.Edm.EdmTypeSemantics,IsEntity</token>
 <token>Microsoft.Data.Edm.ExtensionMethods,FullName</token>
 </entry>
-<entry count="4">
-<token>Microsoft.Data.Edm.ExtensionMethods,BaseEntityType</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,BaseEntityType</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,BaseEntityType</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,BaseEntityType</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,BaseEntityType</token>
-</entry>
-<entry count="4">
-<token>Microsoft.Data.Edm.EdmTypeSemantics,IsPrimitive</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,IsCollection</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,IsPrimitive</token>
-</entry>
 <entry count="8">
 <token>Microsoft.Data.Edm.ExtensionMethods,FullName</token>
 <token>Microsoft.Data.Edm.EdmTypeSemantics,AsEntity</token>
 </entry>
-<entry count="1">
-<token>Microsoft.Data.Edm.EdmTypeSemantics,AsEntity</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,EntityDefinition</token>
-<token>Microsoft.Data.Edm.IEdmModel,FindDeclaredEntityContainer</token>
-</entry>
-<entry count="4">
+<entry count="12">
 <token>Microsoft.Data.Edm.EdmTypeSemantics,IsOrInheritsFrom</token>
 <token>Microsoft.Data.Edm.ExtensionMethods,FindType</token>
 <token>Microsoft.Data.Edm.EdmTypeSemantics,IsOrInheritsFrom</token>
 </entry>
-<entry count="4">
-<token>Microsoft.Data.Edm.ExtensionMethods,FindType</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,IsOrInheritsFrom</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,FullName</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,FindType</token>
-</entry>
-<entry count="4">
-<token>Microsoft.Data.Edm.EdmTypeSemantics,IsEntity</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,IsCollection</token>
-</entry>
-<entry count="2">
-<token>Microsoft.Data.Edm.ExtensionMethods,EntityContainers</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,EntitySets</token>
-</entry>
-<entry count="48">
-<token>Microsoft.Data.Edm.IEdmEntityContainer,FindEntitySet</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,FunctionImports</token>
-</entry>
-<entry count="82">
+<entry count="86">
 <token>Microsoft.Data.Edm.EdmTypeSemantics,IsCollection</token>
 <token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
 <token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
 </entry>
-<entry count="4">
-<token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,Key</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,Key</token>
-</entry>
-<entry count="4">
+<entry count="16">
 <token>Microsoft.Data.Edm.EdmTypeSemantics,IsOrInheritsFrom</token>
 <token>Microsoft.Data.Edm.ExtensionMethods,FullName</token>
 <token>Microsoft.Data.Edm.ExtensionMethods,FindType</token>
 <token>Microsoft.Data.Edm.EdmTypeSemantics,IsOrInheritsFrom</token>
-</entry>
-<entry count="2">
-<token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
 </entry>
 <entry count="1">
 <token>Microsoft.Data.Edm.EdmTypeSemantics,AsEntity</token>
@@ -910,32 +1592,24 @@
 <token>Microsoft.Data.Edm.IEdmEntityContainer,FindFunctionImports</token>
 <token>Microsoft.Data.Edm.EdmTypeSemantics,AsEntity</token>
 </entry>
-<entry count="192">
-<token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
-<token>Microsoft.Data.Edm.IEdmModel,FindDeclaredType</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,IsOrInheritsFrom</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,IsOrInheritsFrom</token>
-</entry>
-<entry count="5">
-<token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
-</entry>
-<entry count="4">
-<token>Microsoft.Data.Edm.ExtensionMethods,StructuralProperties</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,NavigationProperties</token>
+<entry count="16">
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsPrimitive</token>
+<token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,TypeKind</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
 </entry>
 <entry count="1">
 <token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
 <token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
 <token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
 </entry>
-<entry count="4">
-<token>Microsoft.Data.Edm.ExtensionMethods,FindType</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,IsOrInheritsFrom</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,FindType</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,IsOrInheritsFrom</token>
+<entry count="16">
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsPrimitive</token>
+<token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,TypeKind</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
 </entry>
-<entry count="20">
+<entry count="264">
 <token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
 <token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
 <token>Microsoft.Data.Edm.EdmTypeSemantics,IsPrimitive</token>
@@ -945,35 +1619,17 @@
 <token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
 <token>Microsoft.Data.Edm.EdmTypeSemantics,IsEntity</token>
 <token>Microsoft.Data.Edm.ExtensionMethods,FullName</token>
-</entry>
-<entry count="8">
-<token>Microsoft.Data.Edm.IEdmEntityContainer,FindEntitySet</token>
-<token>Microsoft.Data.Edm.IEdmModel,FindDeclaredType</token>
 </entry>
 <entry count="4">
 <token>Microsoft.Data.Edm.EdmTypeSemantics,AsStructured</token>
 <token>Microsoft.Data.Edm.ExtensionMethods,StructuredDefinition</token>
 <token>Microsoft.Data.Edm.ExtensionMethods,FullName</token>
 </entry>
-<entry count="4">
+<entry count="32">
 <token>Microsoft.Data.Edm.ExtensionMethods,TypeKind</token>
 <token>Microsoft.Data.Edm.EdmTypeSemantics,AsPrimitive</token>
 <token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
 <token>Microsoft.Data.Edm.ExtensionMethods,TypeKind</token>
-</entry>
-<entry count="2">
-<token>Microsoft.Data.Edm.ExtensionMethods,EntityContainers</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,EntityContainers</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,Key</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,Key</token>
-</entry>
-<entry count="1">
-<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,AsEntity</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
 </entry>
 <entry count="8">
 <token>Microsoft.Data.Edm.EdmTypeSemantics,IsEntity</token>
@@ -981,27 +1637,18 @@
 <token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
 </entry>
 <entry count="4">
-<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,IsPrimitive</token>
-<token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,FullName</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,FullName</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,FindType</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsOrInheritsFrom</token>
 </entry>
-<entry count="192">
+<entry count="384">
 <token>Microsoft.Data.Edm.ExtensionMethods,NavigationProperties</token>
 <token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
 <token>Microsoft.Data.Edm.IEdmModel,FindDeclaredType</token>
 <token>Microsoft.Data.Edm.EdmTypeSemantics,IsOrInheritsFrom</token>
 <token>Microsoft.Data.Edm.EdmTypeSemantics,IsOrInheritsFrom</token>
 </entry>
-<entry count="2">
-<token>Microsoft.Data.Edm.ExtensionMethods,SetAnnotationValue</token>
-<token>Microsoft.Data.Edm.IEdmModel,FindDeclaredEntityContainer</token>
-</entry>
-<entry count="1">
-<token>Microsoft.Data.Edm.ExtensionMethods,GetAnnotationValue</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,GetAnnotationValue</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,GetAnnotationValue</token>
-</entry>
 <entry count="1">
 <token>Microsoft.Data.Edm.EdmTypeSemantics,AsEntity</token>
 <token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
@@ -1013,12 +1660,6 @@
 <token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
 <token>Microsoft.Data.Edm.ExtensionMethods,Key</token>
 </entry>
-<entry count="8">
-<token>Microsoft.Data.Edm.EdmTypeSemantics,IsEntity</token>
-<token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
-</entry>
 <entry count="2">
 <token>Microsoft.Data.Edm.ExtensionMethods,Key</token>
 <token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
@@ -1026,7 +1667,7 @@
 <token>Microsoft.Data.Edm.ExtensionMethods,Key</token>
 <token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
 </entry>
-<entry count="32">
+<entry count="272">
 <token>Microsoft.Data.Edm.ExtensionMethods,TypeKind</token>
 <token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
 </entry>
@@ -1034,25 +1675,12 @@
 <token>Microsoft.Data.Edm.EdmTypeSemantics,IsCollection</token>
 <token>Microsoft.Data.Edm.ExtensionMethods,FullName</token>
 </entry>
-<entry count="288">
-<token>Microsoft.Data.Edm.ExtensionMethods,NavigationProperties</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
-<token>Microsoft.Data.Edm.IEdmModel,FindDeclaredType</token>
-</entry>
-<entry count="1">
-<token>Microsoft.Data.Edm.IEdmModel,FindDeclaredType</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
+<entry count="16">
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsPrimitive</token>
+<token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,TypeKind</token>
 <token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
 <token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,AsEntity</token>
-</entry>
-<entry count="4">
-<token>Microsoft.Data.Edm.EdmTypeSemantics,IsComplex</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
-</entry>
-<entry count="22">
-<token>Microsoft.Data.Edm.ExtensionMethods,BaseEntityType</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,BaseEntityType</token>
 </entry>
 <entry count="1">
 <token>Microsoft.Data.Edm.ExtensionMethods,Key</token>
@@ -1061,31 +1689,14 @@
 <token>Microsoft.Data.Edm.ExtensionMethods,Multiplicity</token>
 <token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
 </entry>
-<entry count="8">
-<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,IsEntity</token>
-<token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
-</entry>
-<entry count="4">
+<entry count="32">
 <token>Microsoft.Data.Edm.ExtensionMethods,TypeKind</token>
 <token>Microsoft.Data.Edm.EdmTypeSemantics,AsPrimitive</token>
 <token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
 </entry>
-<entry count="2">
-<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,CollectionDefinition</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,FullName</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
-</entry>
 <entry count="8">
 <token>Microsoft.Data.Edm.ExtensionMethods,GetAnnotationValue</token>
 <token>Microsoft.Data.Edm.ExtensionMethods,SetAnnotationValue</token>
-</entry>
-<entry count="8">
-<token>Microsoft.Data.Edm.ExtensionMethods,FindType</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,IsOrInheritsFrom</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,FullName</token>
 </entry>
 <entry count="1">
 <token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
@@ -1093,24 +1704,11 @@
 <token>Microsoft.Data.Edm.EdmTypeSemantics,AsEntity</token>
 <token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
 </entry>
-<entry count="4">
-<token>Microsoft.Data.Edm.ExtensionMethods,FindAllDerivedTypes</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,NavigationProperties</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,DeclaredNavigationProperties</token>
-</entry>
 <entry count="2">
 <token>Microsoft.Data.Edm.ExtensionMethods,FindType</token>
 <token>Microsoft.Data.Edm.ExtensionMethods,SetAnnotationValue</token>
 <token>Microsoft.Data.Edm.ExtensionMethods,FindType</token>
 <token>Microsoft.Data.Edm.ExtensionMethods,SetAnnotationValue</token>
-</entry>
-<entry count="4">
-<token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
-</entry>
-<entry count="32">
-<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,IsComplex</token>
 </entry>
 <entry count="1">
 <token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
@@ -1118,49 +1716,18 @@
 <token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
 <token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
 </entry>
-<entry count="6">
-<token>Microsoft.Data.Edm.ExtensionMethods,StructuralProperties</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,IsPrimitive</token>
-</entry>
-<entry count="8">
-<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,IsEntity</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
-</entry>
-<entry count="1">
-<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
-</entry>
-<entry count="1">
-<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,AsEntity</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,EntityDefinition</token>
-</entry>
-<entry count="8">
-<token>Microsoft.Data.Edm.EdmTypeSemantics,IsComplex</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,IsEntity</token>
-<token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
-</entry>
 <entry count="2">
-<token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,CollectionDefinition</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,FullName</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,EntityContainers</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,EntityContainers</token>
 <token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
 </entry>
 <entry count="4">
-<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,IsPrimitive</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,IsComplex</token>
-<token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,DeclaringEntityType</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,FullName</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,DeclaringEntityType</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,FullName</token>
 </entry>
-<entry count="2">
-<token>Microsoft.Data.Edm.ExtensionMethods,EntityContainers</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,EntityContainers</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
-</entry>
-<entry count="8">
+<entry count="128">
 <token>Microsoft.Data.Edm.EdmTypeSemantics,IsPrimitive</token>
 <token>Microsoft.Data.Edm.EdmTypeSemantics,IsComplex</token>
 <token>Microsoft.Data.Edm.EdmTypeSemantics,IsEntity</token>
@@ -1171,41 +1738,17 @@
 <token>Microsoft.Data.Edm.EdmTypeSemantics,IsEntity</token>
 <token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
 <token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
-</entry>
-<entry count="288">
-<token>Microsoft.Data.Edm.ExtensionMethods,NavigationProperties</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
-</entry>
-<entry count="2">
-<token>Microsoft.Data.Edm.IEdmEntityContainer,FindEntitySet</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,SetAnnotationValue</token>
-</entry>
-<entry count="8">
-<token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,IsComplex</token>
 </entry>
 <entry count="5">
 <token>Microsoft.Data.Edm.ExtensionMethods,Key</token>
 <token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
 </entry>
-<entry count="82">
-<token>Microsoft.Data.Edm.EdmTypeSemantics,IsCollection</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
-</entry>
-<entry count="8">
-<token>Microsoft.Data.Edm.EdmTypeSemantics,IsComplex</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,IsEntity</token>
-<token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,TypeKind</token>
-</entry>
 <entry count="4">
 <token>Microsoft.Data.Edm.EdmTypeSemantics,IsEntity</token>
 <token>Microsoft.Data.Edm.EdmTypeSemantics,AsEntity</token>
 <token>Microsoft.Data.Edm.ExtensionMethods,FullName</token>
 </entry>
-<entry count="4">
+<entry count="64">
 <token>Microsoft.Data.Edm.ExtensionMethods,TypeKind</token>
 <token>Microsoft.Data.Edm.EdmTypeSemantics,AsPrimitive</token>
 </entry>
@@ -1213,38 +1756,21 @@
 <token>Microsoft.Data.Edm.ExtensionMethods,CollectionDefinition</token>
 <token>Microsoft.Data.Edm.ExtensionMethods,FullName</token>
 </entry>
-<entry count="1">
-<token>Microsoft.Data.Edm.ExtensionMethods,NavigationProperties</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,GetAnnotationValue</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,GetAnnotationValue</token>
-</entry>
-<entry count="1">
-<token>Microsoft.Data.Edm.ExtensionMethods,EntityDefinition</token>
-<token>Microsoft.Data.Edm.IEdmModel,FindDeclaredEntityContainer</token>
-<token>Microsoft.Data.Edm.IEdmEntityContainer,FindFunctionImports</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,AsEntity</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,AsEntity</token>
-</entry>
-<entry count="4">
-<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,IsPrimitive</token>
-<token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,TypeKind</token>
-</entry>
 <entry count="32">
-<token>Microsoft.Data.Edm.EdmTypeSemantics,IsCollection</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,IsEntity</token>
-</entry>
-<entry count="4">
 <token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
 <token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
 <token>Microsoft.Data.Edm.EdmTypeSemantics,IsPrimitive</token>
 <token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
 <token>Microsoft.Data.Edm.ExtensionMethods,TypeKind</token>
 </entry>
-<entry count="12">
+<entry count="16">
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsComplex</token>
+<token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,TypeKind</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
+</entry>
+<entry count="192">
 <token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
 <token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
 <token>Microsoft.Data.Edm.EdmTypeSemantics,IsPrimitive</token>
@@ -1254,98 +1780,32 @@
 <token>Microsoft.Data.Edm.ExtensionMethods,FindType</token>
 <token>Microsoft.Data.Edm.ExtensionMethods,SetAnnotationValue</token>
 </entry>
-<entry count="2">
-<token>Microsoft.Data.Edm.EdmTypeSemantics,IsOrInheritsFrom</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,FullName</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,FindType</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,IsOrInheritsFrom</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,FullName</token>
-</entry>
 <entry count="1">
 <token>Microsoft.Data.Edm.IEdmEntityContainer,FindFunctionImports</token>
 <token>Microsoft.Data.Edm.IEdmModel,FindDeclaredType</token>
 <token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
 </entry>
-<entry count="12">
+<entry count="192">
 <token>Microsoft.Data.Edm.ExtensionMethods,TypeKind</token>
 <token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
 <token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
 <token>Microsoft.Data.Edm.EdmTypeSemantics,IsPrimitive</token>
 <token>Microsoft.Data.Edm.EdmTypeSemantics,IsComplex</token>
 </entry>
-<entry count="1">
-<token>Microsoft.Data.Edm.EdmTypeSemantics,AsEntity</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,AsEntity</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,EntityDefinition</token>
-</entry>
-<entry count="8">
-<token>Microsoft.Data.Edm.EdmTypeSemantics,IsEntity</token>
-<token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,AsEntity</token>
-</entry>
-<entry count="8">
-<token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
-<token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
-</entry>
-<entry count="8">
-<token>Microsoft.Data.Edm.ExtensionMethods,FullName</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,FindType</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,FullName</token>
-</entry>
-<entry count="4">
-<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,IsEntity</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
-</entry>
-<entry count="2">
-<token>Microsoft.Data.Edm.ExtensionMethods,GetEdmVersion</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,EntityContainers</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,EntityContainers</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,Key</token>
-</entry>
 <entry count="2">
 <token>Microsoft.Data.Edm.ExtensionMethods,FullName</token>
 <token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
 </entry>
-<entry count="8">
-<token>Microsoft.Data.Edm.EdmTypeSemantics,AsStructured</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,StructuredDefinition</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,StructuralProperties</token>
-</entry>
-<entry count="12">
-<token>Microsoft.Data.Edm.EdmTypeSemantics,IsPrimitive</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,IsComplex</token>
-</entry>
-<entry count="20">
-<token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
-</entry>
 <entry count="2">
 <token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
 <token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
 </entry>
-<entry count="8">
+<entry count="128">
 <token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
 <token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
 <token>Microsoft.Data.Edm.EdmTypeSemantics,IsPrimitive</token>
 <token>Microsoft.Data.Edm.EdmTypeSemantics,IsComplex</token>
 <token>Microsoft.Data.Edm.EdmTypeSemantics,IsEntity</token>
-</entry>
-<entry count="8">
-<token>Microsoft.Data.Edm.EdmTypeSemantics,IsEntity</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,AsEntity</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,EntityDefinition</token>
-</entry>
-<entry count="1">
-<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,AsEntity</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,EntityDefinition</token>
-<token>Microsoft.Data.Edm.IEdmModel,FindDeclaredEntityContainer</token>
-<token>Microsoft.Data.Edm.IEdmEntityContainer,FindFunctionImports</token>
 </entry>
 <entry count="1">
 <token>Microsoft.Data.Edm.IEdmModel,FindDeclaredEntityContainer</token>
@@ -1355,43 +1815,10 @@
 <token>Microsoft.Data.Edm.ExtensionMethods,EntityDefinition</token>
 </entry>
 <entry count="4">
-<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,CollectionDefinition</token>
-</entry>
-<entry count="4">
 <token>Microsoft.Data.Edm.EdmTypeSemantics,IsEntity</token>
 <token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
 <token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
 <token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
-</entry>
-<entry count="1">
-<token>Microsoft.Data.Edm.EdmTypeSemantics,AsEntity</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,AsEntity</token>
-</entry>
-<entry count="32">
-<token>Microsoft.Data.Edm.ExtensionMethods,TypeKind</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
-</entry>
-<entry count="12">
-<token>Microsoft.Data.Edm.ExtensionMethods,TypeKind</token>
-<token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
-</entry>
-<entry count="2">
-<token>Microsoft.Data.Edm.ExtensionMethods,SetAnnotationValue</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,FindType</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,SetAnnotationValue</token>
-<token>Microsoft.Data.Edm.IEdmModel,FindDeclaredEntityContainer</token>
-<token>Microsoft.Data.Edm.IEdmEntityContainer,FindEntitySet</token>
-</entry>
-<entry count="14">
-<token>Microsoft.Data.Edm.EdmTypeSemantics,IsComplex</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,AsComplex</token>
-</entry>
-<entry count="4">
-<token>Microsoft.Data.Edm.EdmTypeSemantics,IsOrInheritsFrom</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,FullName</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,FindType</token>
 </entry>
 <entry count="1">
 <token>Microsoft.Data.Edm.ExtensionMethods,Multiplicity</token>
@@ -1404,30 +1831,6 @@
 <token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
 <token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
 </entry>
-<entry count="4">
-<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,IsPrimitive</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,IsComplex</token>
-<token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
-</entry>
-<entry count="4">
-<token>Microsoft.Data.Edm.ExtensionMethods,TypeKind</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,IsPrimitive</token>
-<token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
-</entry>
-<entry count="4">
-<token>Microsoft.Data.Edm.EdmTypeSemantics,IsEntity</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
-<token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
-</entry>
-<entry count="1">
-<token>Microsoft.Data.Edm.EdmTypeSemantics,AsEntity</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
-</entry>
 <entry count="2">
 <token>Microsoft.Data.Edm.ExtensionMethods,EntityContainers</token>
 <token>Microsoft.Data.Edm.ExtensionMethods,EntityContainers</token>
@@ -1437,14 +1840,9 @@
 <token>Microsoft.Data.Edm.IEdmEntityContainer,FindEntitySet</token>
 <token>Microsoft.Data.Edm.IEdmModel,FindDeclaredType</token>
 </entry>
-<entry count="288">
+<entry count="480">
 <token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
 <token>Microsoft.Data.Edm.IEdmModel,FindDeclaredType</token>
-</entry>
-<entry count="2">
-<token>Microsoft.Data.Edm.ExtensionMethods,SetAnnotationValue</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,FindType</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,SetAnnotationValue</token>
 </entry>
 <entry count="8">
 <token>Microsoft.Data.Edm.EdmTypeSemantics,IsPrimitive</token>
@@ -1456,16 +1854,6 @@
 <token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
 <token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
 <token>Microsoft.Data.Edm.EdmTypeSemantics,AsEntity</token>
-</entry>
-<entry count="4">
-<token>Microsoft.Data.Edm.EdmTypeSemantics,IsOrInheritsFrom</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,FindType</token>
-</entry>
-<entry count="2">
-<token>Microsoft.Data.Edm.ExtensionMethods,GetEdmVersion</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,EntityContainers</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,EntityContainers</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
 </entry>
 <entry count="4">
 <token>Microsoft.Data.Edm.EdmTypeSemantics,IsEntity</token>
@@ -1480,21 +1868,14 @@
 <token>Microsoft.Data.Edm.EdmTypeSemantics,AsEntity</token>
 </entry>
 <entry count="4">
-<token>Microsoft.Data.Edm.EdmTypeSemantics,IsPrimitive</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,IsCollection</token>
-</entry>
-<entry count="16">
-<token>Microsoft.Data.Edm.ExtensionMethods,FullName</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,SetAnnotationValue</token>
-</entry>
-<entry count="4">
 <token>Microsoft.Data.Edm.ExtensionMethods,StructuredDefinition</token>
 <token>Microsoft.Data.Edm.ExtensionMethods,FullName</token>
 </entry>
-<entry count="12">
-<token>Microsoft.Data.Edm.ExtensionMethods,TypeKind</token>
+<entry count="16">
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsComplex</token>
 <token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
 <token>Microsoft.Data.Edm.ExtensionMethods,TypeKind</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
 </entry>
 <entry count="4">
 <token>Microsoft.Data.Edm.EdmTypeSemantics,IsCollection</token>
@@ -1502,26 +1883,9 @@
 <token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
 <token>Microsoft.Data.Edm.ExtensionMethods,FullName</token>
 </entry>
-<entry count="4">
-<token>Microsoft.Data.Edm.EdmTypeSemantics,IsPrimitive</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,IsComplex</token>
-<token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
-</entry>
 <entry count="1">
 <token>Microsoft.Data.Edm.EdmTypeSemantics,AsEntity</token>
 <token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
-</entry>
-<entry count="2">
-<token>Microsoft.Data.Edm.ExtensionMethods,Key</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,Key</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
-</entry>
-<entry count="3">
-<token>Microsoft.Data.Edm.ExtensionMethods,Key</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
 </entry>
 <entry count="2">
 <token>Microsoft.Data.Edm.ExtensionMethods,FindType</token>
@@ -1549,74 +1913,32 @@
 <token>Microsoft.Data.Edm.ExtensionMethods,Key</token>
 </entry>
 <entry count="2">
-<token>Microsoft.Data.Edm.IEdmModel,FindDeclaredType</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,SetAnnotationValue</token>
-</entry>
-<entry count="2">
 <token>Microsoft.Data.Edm.ExtensionMethods,SetAnnotationValue</token>
 <token>Microsoft.Data.Edm.IEdmModel,FindDeclaredEntityContainer</token>
 <token>Microsoft.Data.Edm.IEdmEntityContainer,FindEntitySet</token>
 </entry>
-<entry count="2">
+<entry count="5">
 <token>Microsoft.Data.Edm.ExtensionMethods,FullName</token>
 <token>Microsoft.Data.Edm.ExtensionMethods,FindType</token>
 <token>Microsoft.Data.Edm.EdmTypeSemantics,IsOrInheritsFrom</token>
 <token>Microsoft.Data.Edm.ExtensionMethods,FullName</token>
 </entry>
-<entry count="328">
-<token>Microsoft.Data.Edm.IEdmModel,FindDeclaredType</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,IsOrInheritsFrom</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,IsOrInheritsFrom</token>
-</entry>
-<entry count="4">
-<token>Microsoft.Data.Edm.EdmTypeSemantics,IsPrimitive</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,IsComplex</token>
-<token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,TypeKind</token>
-</entry>
 <entry count="18">
 <token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
 <token>Microsoft.Data.Edm.EdmTypeSemantics,AsEntity</token>
 </entry>
-<entry count="192">
+<entry count="384">
 <token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
 <token>Microsoft.Data.Edm.IEdmModel,FindDeclaredType</token>
 <token>Microsoft.Data.Edm.EdmTypeSemantics,IsOrInheritsFrom</token>
 <token>Microsoft.Data.Edm.EdmTypeSemantics,IsOrInheritsFrom</token>
 <token>Microsoft.Data.Edm.ExtensionMethods,FunctionImports</token>
 </entry>
-<entry count="8">
-<token>Microsoft.Data.Edm.EdmTypeSemantics,IsPrimitive</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,IsComplex</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,IsEntity</token>
-<token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
-</entry>
-<entry count="8">
-<token>Microsoft.Data.Edm.ExtensionMethods,StructuredDefinition</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,StructuralProperties</token>
-</entry>
-<entry count="2">
-<token>Microsoft.Data.Edm.IEdmModel,FindDeclaredEntityContainer</token>
-<token>Microsoft.Data.Edm.IEdmEntityContainer,FindFunctionImports</token>
-</entry>
 <entry count="4">
 <token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
 <token>Microsoft.Data.Edm.ExtensionMethods,Key</token>
 <token>Microsoft.Data.Edm.ExtensionMethods,Key</token>
 <token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
-</entry>
-<entry count="4">
-<token>Microsoft.Data.Edm.EdmTypeSemantics,IsCollection</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,IsPrimitive</token>
-</entry>
-<entry count="2">
-<token>Microsoft.Data.Edm.ExtensionMethods,Key</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,Key</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,Key</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,Key</token>
 </entry>
 <entry count="16">
 <token>Microsoft.Data.Edm.ExtensionMethods,GetAnnotationValue</token>
@@ -1639,11 +1961,10 @@
 <token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
 <token>Microsoft.Data.Edm.ExtensionMethods,Multiplicity</token>
 </entry>
-<entry count="2">
-<token>Microsoft.Data.Edm.ExtensionMethods,SetAnnotationValue</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,FindType</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,SetAnnotationValue</token>
-<token>Microsoft.Data.Edm.IEdmModel,FindDeclaredEntityContainer</token>
+<entry count="8">
+<token>Microsoft.Data.Edm.ExtensionMethods,FullName</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,DeclaringEntityType</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,FullName</token>
 </entry>
 <entry count="1">
 <token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
@@ -1652,7 +1973,7 @@
 <token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
 <token>Microsoft.Data.Edm.ExtensionMethods,Multiplicity</token>
 </entry>
-<entry count="32">
+<entry count="256">
 <token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
 <token>Microsoft.Data.Edm.ExtensionMethods,TypeKind</token>
 </entry>
@@ -1663,89 +1984,33 @@
 <token>Microsoft.Data.Edm.EdmTypeSemantics,IsEntity</token>
 <token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
 </entry>
-<entry count="2">
-<token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,CollectionDefinition</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,FullName</token>
-</entry>
-<entry count="16">
+<entry count="72">
 <token>Microsoft.Data.Edm.EdmTypeSemantics,IsEntity</token>
 <token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
 </entry>
-<entry count="4">
-<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,IsEntity</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,FullName</token>
-</entry>
-<entry count="16">
-<token>Microsoft.Data.Edm.EdmTypeSemantics,IsCollection</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,IsComplex</token>
-</entry>
-<entry count="16">
+<entry count="64">
 <token>Microsoft.Data.Edm.ExtensionMethods,FindType</token>
 <token>Microsoft.Data.Edm.EdmTypeSemantics,IsOrInheritsFrom</token>
 </entry>
-<entry count="1">
-<token>Microsoft.Data.Edm.IEdmModel,FindDeclaredEntityContainer</token>
-<token>Microsoft.Data.Edm.IEdmEntityContainer,FindFunctionImports</token>
-<token>Microsoft.Data.Edm.IEdmModel,FindDeclaredType</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
-</entry>
 <entry count="4">
-<token>Microsoft.Data.Edm.EdmTypeSemantics,IsCollection</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,IsEntity</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,AsEntity</token>
-</entry>
-<entry count="1">
-<token>Microsoft.Data.Edm.ExtensionMethods,Multiplicity</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
-</entry>
-<entry count="2">
-<token>Microsoft.Data.Edm.EdmTypeSemantics,IsComplex</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,FindType</token>
+<token>Microsoft.Data.Edm.EdmTypeSemantics,IsOrInheritsFrom</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,FullName</token>
 <token>Microsoft.Data.Edm.ExtensionMethods,FullName</token>
 </entry>
-<entry count="4">
+<entry count="32">
 <token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
 <token>Microsoft.Data.Edm.EdmTypeSemantics,IsPrimitive</token>
 <token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
-</entry>
-<entry count="96">
-<token>Microsoft.Data.Edm.ExtensionMethods,NavigationProperties</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
-<token>Microsoft.Data.Edm.IEdmModel,FindDeclaredType</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,FunctionImports</token>
 </entry>
 <entry count="8">
 <token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
 <token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
 </entry>
-<entry count="192">
-<token>Microsoft.Data.Edm.ExtensionMethods,NavigationProperties</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
-<token>Microsoft.Data.Edm.IEdmModel,FindDeclaredType</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,IsOrInheritsFrom</token>
-</entry>
-<entry count="320">
+<entry count="640">
 <token>Microsoft.Data.Edm.EdmTypeSemantics,IsOrInheritsFrom</token>
 <token>Microsoft.Data.Edm.EdmTypeSemantics,IsOrInheritsFrom</token>
 <token>Microsoft.Data.Edm.ExtensionMethods,FunctionImports</token>
-</entry>
-<entry count="1">
-<token>Microsoft.Data.Edm.ExtensionMethods,NavigationProperties</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,Multiplicity</token>
-</entry>
-<entry count="4">
-<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,IsComplex</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
-<token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
 </entry>
 <entry count="1">
 <token>Microsoft.Data.Edm.IEdmModel,FindDeclaredEntityContainer</token>
@@ -1760,11 +2025,10 @@
 <token>Microsoft.Data.Edm.EdmTypeSemantics,AsEntity</token>
 <token>Microsoft.Data.Edm.ExtensionMethods,EntityDefinition</token>
 </entry>
-<entry count="2">
-<token>Microsoft.Data.Edm.ExtensionMethods,EntityContainers</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,Properties</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,Key</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,Key</token>
+<entry count="4">
+<token>Microsoft.Data.Edm.ExtensionMethods,DeclaringEntityType</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,FullName</token>
+<token>Microsoft.Data.Edm.ExtensionMethods,FullName</token>
 </entry>
 <entry count="6">
 <token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
@@ -1791,22 +2055,10 @@
 <token>Microsoft.Data.Edm.ExtensionMethods,Key</token>
 </entry>
 <entry count="4">
-<token>Microsoft.Data.Edm.ExtensionMethods,FindType</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,FindType</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,FindType</token>
-</entry>
-<entry count="4">
 <token>Microsoft.Data.Edm.EdmTypeSemantics,IsEntity</token>
 <token>Microsoft.Data.Edm.EdmTypeSemantics,IsCollection</token>
 <token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
 <token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
-</entry>
-<entry count="8">
-<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
-<token>Microsoft.Data.Edm.ExtensionMethods,ElementType</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,IsEntity</token>
-<token>Microsoft.Data.Edm.ToTraceStringExtensionMethods,ToTraceString</token>
-<token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>
 </entry>
 <entry count="4">
 <token>Microsoft.Data.Edm.EdmTypeSemantics,AsCollection</token>

@@ -4,7 +4,7 @@
 <token>System.DirectoryServices.DirectoryEntry,Close</token>
 <token>System.DirectoryServices.DirectoryEntry,Close</token>
 </entry>
-<entry count="512">
+<entry count="4096">
 <token>System.DirectoryServices.PropertyValueCollection,Add</token>
 <token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
 </entry>
@@ -17,15 +17,22 @@
 <token>System.DirectoryServices.DirectoryEntry,Close</token>
 <token>System.DirectoryServices.DirectoryEntry,Close</token>
 </entry>
-<entry count="512">
+<entry count="4096">
 <token>System.DirectoryServices.DirectoryEntry,new</token>
 <token>System.DirectoryServices.PropertyValueCollection,Add</token>
 </entry>
-<entry count="41">
+<entry count="4">
+<token>System.DirectoryServices.DirectoryEntries,Find</token>
+<token>System.DirectoryServices.DirectoryEntries,Add</token>
+<token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
+<token>System.DirectoryServices.DirectoryEntries,Find</token>
+<token>System.DirectoryServices.DirectoryEntries,Add</token>
+</entry>
+<entry count="89">
 <token>System.DirectoryServices.DirectoryEntry,new</token>
 <token>System.DirectoryServices.DirectoryEntry,RefreshCache</token>
 </entry>
-<entry count="32">
+<entry count="80">
 <token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
 <token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
 <token>System.DirectoryServices.DirectoryEntry,Close</token>
@@ -39,13 +46,19 @@
 <token>System.DirectoryServices.DirectoryEntry,new</token>
 <token>System.DirectoryServices.DirectorySearcher,FindOne</token>
 </entry>
-<entry count="8">
+<entry count="16">
 <token>System.DirectoryServices.DirectoryEntry,RefreshCache</token>
 <token>System.DirectoryServices.DirectoryEntries,Find</token>
 <token>System.DirectoryServices.DirectoryEntry,DeleteTree</token>
 <token>System.DirectoryServices.DirectoryEntries,Find</token>
 </entry>
-<entry count="44">
+<entry count="8">
+<token>System.DirectoryServices.DirectoryEntry,RefreshCache</token>
+<token>System.DirectoryServices.DirectoryEntries,Find</token>
+<token>System.DirectoryServices.DirectoryEntries,Find</token>
+<token>System.DirectoryServices.DirectoryEntry,DeleteTree</token>
+</entry>
+<entry count="80">
 <token>System.DirectoryServices.DirectorySearcher,new</token>
 <token>System.DirectoryServices.DirectorySearcher,FindAll</token>
 </entry>
@@ -61,17 +74,41 @@
 <token>System.DirectoryServices.DirectoryEntries,Find</token>
 <token>System.DirectoryServices.DirectoryEntries,Remove</token>
 </entry>
-<entry count="8">
+<entry count="16">
 <token>System.DirectoryServices.DirectoryEntry,new</token>
 <token>System.DirectoryServices.DirectoryEntry,RefreshCache</token>
 <token>System.DirectoryServices.DirectoryEntries,Find</token>
 <token>System.DirectoryServices.DirectoryEntry,DeleteTree</token>
 <token>System.DirectoryServices.DirectoryEntries,Find</token>
 </entry>
+<entry count="16">
+<token>System.DirectoryServices.DirectoryEntry,DeleteTree</token>
+<token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
+<token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
+</entry>
 <entry count="2">
 <token>System.DirectoryServices.DirectoryEntry,RefreshCache</token>
 <token>System.DirectoryServices.DirectoryEntries,Find</token>
 <token>System.DirectoryServices.DirectoryEntries,Remove</token>
+</entry>
+<entry count="16">
+<token>System.DirectoryServices.DirectoryEntry,new</token>
+<token>System.DirectoryServices.DirectoryEntry,RefreshCache</token>
+<token>System.DirectoryServices.DirectoryEntries,Find</token>
+<token>System.DirectoryServices.DirectoryEntries,Add</token>
+<token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
+</entry>
+<entry count="8">
+<token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
+<token>System.DirectoryServices.DirectoryEntries,Find</token>
+<token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
+</entry>
+<entry count="16">
+<token>System.DirectoryServices.DirectoryEntries,Find</token>
+<token>System.DirectoryServices.DirectoryEntry,DeleteTree</token>
+<token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
+<token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
+<token>System.DirectoryServices.DirectoryEntry,Close</token>
 </entry>
 <entry count="16">
 <token>System.DirectoryServices.DirectoryEntry,RefreshCache</token>
@@ -80,34 +117,57 @@
 <token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
 <token>System.DirectoryServices.DirectoryEntry,Close</token>
 </entry>
-<entry count="36">
+<entry count="72">
 <token>System.DirectoryServices.DirectoryEntry,new</token>
 <token>System.DirectoryServices.DirectoryEntry,new</token>
 <token>System.DirectoryServices.DirectorySearcher,new</token>
 </entry>
-<entry count="8">
+<entry count="32">
 <token>System.DirectoryServices.DirectoryEntries,Find</token>
 <token>System.DirectoryServices.DirectoryEntries,Add</token>
+</entry>
+<entry count="4">
+<token>System.DirectoryServices.DirectoryEntries,Add</token>
+<token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
+<token>System.DirectoryServices.DirectoryEntries,Find</token>
+<token>System.DirectoryServices.DirectoryEntry,DeleteTree</token>
+<token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
 </entry>
 <entry count="4">
 <token>System.DirectoryServices.DirectoryEntry,DeleteTree</token>
 <token>System.DirectoryServices.DirectoryEntries,Find</token>
 <token>System.DirectoryServices.DirectoryEntries,Add</token>
 </entry>
-<entry count="4">
+<entry count="8">
 <token>System.DirectoryServices.DirectoryEntries,Find</token>
 <token>System.DirectoryServices.DirectoryEntries,Find</token>
 <token>System.DirectoryServices.DirectoryEntries,Add</token>
 <token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
 <token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
 </entry>
-<entry count="36">
+<entry count="16">
+<token>System.DirectoryServices.DirectoryEntry,RefreshCache</token>
+<token>System.DirectoryServices.DirectoryEntries,Find</token>
+<token>System.DirectoryServices.DirectoryEntries,Add</token>
+</entry>
+<entry count="4">
+<token>System.DirectoryServices.DirectoryEntry,DeleteTree</token>
+<token>System.DirectoryServices.DirectoryEntries,Find</token>
+<token>System.DirectoryServices.DirectoryEntry,DeleteTree</token>
+<token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
+</entry>
+<entry count="72">
 <token>System.DirectoryServices.DirectoryEntry,new</token>
 <token>System.DirectoryServices.DirectoryEntry,new</token>
 <token>System.DirectoryServices.DirectorySearcher,new</token>
 <token>System.DirectoryServices.DirectorySearcher,FindAll</token>
 </entry>
-<entry count="8">
+<entry count="4">
+<token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
+<token>System.DirectoryServices.DirectoryEntries,Find</token>
+<token>System.DirectoryServices.DirectoryEntry,DeleteTree</token>
+</entry>
+<entry count="16">
 <token>System.DirectoryServices.DirectoryEntries,Find</token>
 <token>System.DirectoryServices.DirectoryEntries,Add</token>
 <token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
@@ -117,26 +177,50 @@
 <entry count="8">
 <token>System.DirectoryServices.DirectoryEntries,Add</token>
 <token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
-</entry>
-<entry count="34">
-<token>System.DirectoryServices.DirectoryEntry,new</token>
-<token>System.DirectoryServices.DirectoryEntry,RefreshCache</token>
 <token>System.DirectoryServices.DirectoryEntries,Find</token>
+<token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
+<token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
 </entry>
 <entry count="8">
+<token>System.DirectoryServices.DirectoryEntries,Find</token>
+<token>System.DirectoryServices.DirectoryEntries,Find</token>
+<token>System.DirectoryServices.DirectoryEntry,DeleteTree</token>
+<token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
+<token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
+</entry>
+<entry count="32">
+<token>System.DirectoryServices.DirectoryEntries,Add</token>
+<token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
+</entry>
+<entry count="16">
+<token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
+<token>System.DirectoryServices.DirectoryEntries,Find</token>
+</entry>
+<entry count="82">
+<token>System.DirectoryServices.DirectoryEntry,new</token>
+<token>System.DirectoryServices.DirectoryEntry,RefreshCache</token>
+<token>System.DirectoryServices.DirectoryEntries,Find</token>
+</entry>
+<entry count="32">
 <token>System.DirectoryServices.DirectoryEntry,new</token>
 <token>System.DirectoryServices.DirectoryEntry,RefreshCache</token>
 <token>System.DirectoryServices.DirectoryEntries,Find</token>
 <token>System.DirectoryServices.DirectoryEntries,Find</token>
 </entry>
-<entry count="4">
+<entry count="16">
 <token>System.DirectoryServices.DirectoryEntry,RefreshCache</token>
 <token>System.DirectoryServices.DirectoryEntries,Find</token>
 <token>System.DirectoryServices.DirectoryEntries,Find</token>
 <token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
 <token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
 </entry>
-<entry count="4">
+<entry count="8">
+<token>System.DirectoryServices.DirectoryEntries,Add</token>
+<token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
+<token>System.DirectoryServices.DirectoryEntries,Find</token>
+<token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
+</entry>
+<entry count="8">
 <token>System.DirectoryServices.DirectoryEntry,DeleteTree</token>
 <token>System.DirectoryServices.DirectoryEntries,Find</token>
 <token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
@@ -149,7 +233,7 @@
 <token>System.DirectoryServices.DirectoryEntry,Close</token>
 <token>System.DirectoryServices.DirectoryEntry,Close</token>
 </entry>
-<entry count="24">
+<entry count="48">
 <token>System.DirectoryServices.DirectoryEntries,Find</token>
 <token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
 <token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
@@ -165,7 +249,7 @@
 <token>System.DirectoryServices.SearchResult,GetDirectoryEntry</token>
 <token>System.DirectoryServices.SearchResult,GetDirectoryEntry</token>
 </entry>
-<entry count="33">
+<entry count="81">
 <token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
 <token>System.DirectoryServices.DirectoryEntry,Close</token>
 </entry>
@@ -174,7 +258,13 @@
 <token>System.DirectoryServices.SearchResult,GetDirectoryEntry</token>
 <token>System.DirectoryServices.SearchResult,GetDirectoryEntry</token>
 </entry>
-<entry count="44">
+<entry count="4">
+<token>System.DirectoryServices.DirectoryEntries,Add</token>
+<token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
+<token>System.DirectoryServices.DirectoryEntries,Find</token>
+<token>System.DirectoryServices.DirectoryEntries,Add</token>
+</entry>
+<entry count="80">
 <token>System.DirectoryServices.DirectoryEntry,new</token>
 <token>System.DirectoryServices.DirectorySearcher,new</token>
 </entry>
@@ -183,14 +273,14 @@
 <token>System.DirectoryServices.DirectorySearcher,FindOne</token>
 <token>System.DirectoryServices.SearchResult,GetDirectoryEntry</token>
 </entry>
-<entry count="4">
+<entry count="8">
 <token>System.DirectoryServices.DirectoryEntries,Find</token>
 <token>System.DirectoryServices.DirectoryEntry,DeleteTree</token>
 <token>System.DirectoryServices.DirectoryEntries,Find</token>
 <token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
 <token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
 </entry>
-<entry count="24">
+<entry count="48">
 <token>System.DirectoryServices.DirectoryEntries,Find</token>
 <token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
 <token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
@@ -203,14 +293,20 @@
 <token>System.DirectoryServices.DirectoryEntries,Find</token>
 <token>System.DirectoryServices.DirectoryEntries,Add</token>
 </entry>
-<entry count="8">
+<entry count="16">
 <token>System.DirectoryServices.DirectoryEntries,Add</token>
 <token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
 <token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
 <token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
 </entry>
-<entry count="517">
+<entry count="4101">
 <token>System.DirectoryServices.DirectoryEntry,new</token>
+<token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
+</entry>
+<entry count="16">
+<token>System.DirectoryServices.DirectoryEntry,RefreshCache</token>
+<token>System.DirectoryServices.DirectoryEntries,Find</token>
+<token>System.DirectoryServices.DirectoryEntries,Add</token>
 <token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
 </entry>
 <entry count="4">
@@ -219,47 +315,67 @@
 <token>System.DirectoryServices.DirectoryEntries,Add</token>
 <token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
 </entry>
-<entry count="24">
+<entry count="48">
 <token>System.DirectoryServices.DirectoryEntries,Find</token>
 <token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
 <token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
 </entry>
-<entry count="4">
+<entry count="8">
 <token>System.DirectoryServices.DirectoryEntry,RefreshCache</token>
 <token>System.DirectoryServices.DirectoryEntries,Find</token>
 <token>System.DirectoryServices.DirectoryEntry,DeleteTree</token>
 <token>System.DirectoryServices.DirectoryEntries,Find</token>
 <token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
 </entry>
-<entry count="8">
+<entry count="16">
+<token>System.DirectoryServices.DirectoryEntry,new</token>
+<token>System.DirectoryServices.DirectoryEntry,RefreshCache</token>
+<token>System.DirectoryServices.DirectoryEntries,Find</token>
+<token>System.DirectoryServices.DirectoryEntries,Add</token>
+</entry>
+<entry count="16">
 <token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
 <token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
 <token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
 <token>System.DirectoryServices.DirectoryEntry,Close</token>
 </entry>
-<entry count="4">
-<token>System.DirectoryServices.DirectoryEntry,RefreshCache</token>
-<token>System.DirectoryServices.DirectoryEntries,Find</token>
-<token>System.DirectoryServices.DirectoryEntries,Find</token>
-<token>System.DirectoryServices.DirectoryEntries,Add</token>
-</entry>
-<entry count="4">
-<token>System.DirectoryServices.DirectoryEntry,new</token>
+<entry count="8">
 <token>System.DirectoryServices.DirectoryEntry,RefreshCache</token>
 <token>System.DirectoryServices.DirectoryEntries,Find</token>
 <token>System.DirectoryServices.DirectoryEntries,Find</token>
 <token>System.DirectoryServices.DirectoryEntries,Add</token>
 </entry>
 <entry count="8">
+<token>System.DirectoryServices.DirectoryEntry,new</token>
+<token>System.DirectoryServices.DirectoryEntry,RefreshCache</token>
+<token>System.DirectoryServices.DirectoryEntries,Find</token>
+<token>System.DirectoryServices.DirectoryEntries,Find</token>
+<token>System.DirectoryServices.DirectoryEntries,Add</token>
+</entry>
+<entry count="16">
 <token>System.DirectoryServices.DirectoryEntries,Find</token>
 <token>System.DirectoryServices.DirectoryEntry,DeleteTree</token>
 <token>System.DirectoryServices.DirectoryEntries,Find</token>
+</entry>
+<entry count="8">
+<token>System.DirectoryServices.DirectoryEntry,new</token>
+<token>System.DirectoryServices.DirectoryEntry,RefreshCache</token>
+<token>System.DirectoryServices.DirectoryEntries,Find</token>
+<token>System.DirectoryServices.DirectoryEntries,Find</token>
+<token>System.DirectoryServices.DirectoryEntry,DeleteTree</token>
 </entry>
 <entry count="1">
 <token>System.DirectoryServices.DirectoryEntries,Remove</token>
 <token>System.DirectoryServices.DirectoryEntry,Close</token>
 </entry>
-<entry count="5">
+<entry count="8">
+<token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
+<token>System.DirectoryServices.DirectoryEntries,Find</token>
+<token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
+<token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
+<token>System.DirectoryServices.DirectoryEntry,Close</token>
+</entry>
+<entry count="17">
 <token>System.DirectoryServices.DirectoryEntry,Invoke</token>
 <token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
 </entry>
@@ -270,6 +386,13 @@
 <token>System.DirectoryServices.SearchResult,GetDirectoryEntry</token>
 <token>System.DirectoryServices.SearchResult,GetDirectoryEntry</token>
 </entry>
+<entry count="4">
+<token>System.DirectoryServices.DirectoryEntry,RefreshCache</token>
+<token>System.DirectoryServices.DirectoryEntries,Find</token>
+<token>System.DirectoryServices.DirectoryEntry,DeleteTree</token>
+<token>System.DirectoryServices.DirectoryEntries,Find</token>
+<token>System.DirectoryServices.DirectoryEntry,DeleteTree</token>
+</entry>
 <entry count="1">
 <token>System.DirectoryServices.DirectoryEntry,RefreshCache</token>
 <token>System.DirectoryServices.DirectoryEntries,Find</token>
@@ -277,12 +400,18 @@
 <token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
 <token>System.DirectoryServices.DirectoryEntry,Close</token>
 </entry>
-<entry count="4">
+<entry count="16">
 <token>System.DirectoryServices.DirectoryEntry,new</token>
 <token>System.DirectoryServices.DirectoryEntry,RefreshCache</token>
 <token>System.DirectoryServices.DirectoryEntries,Find</token>
 <token>System.DirectoryServices.DirectoryEntries,Find</token>
 <token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
+</entry>
+<entry count="4">
+<token>System.DirectoryServices.DirectoryEntries,Add</token>
+<token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
+<token>System.DirectoryServices.DirectoryEntries,Find</token>
+<token>System.DirectoryServices.DirectoryEntry,DeleteTree</token>
 </entry>
 <entry count="4">
 <token>System.DirectoryServices.DirectoryEntry,new</token>
@@ -290,18 +419,18 @@
 <token>System.DirectoryServices.DirectorySearcher,FindAll</token>
 <token>System.DirectoryServices.SearchResult,GetDirectoryEntry</token>
 </entry>
-<entry count="8">
+<entry count="16">
+<token>System.DirectoryServices.DirectoryEntry,RefreshCache</token>
+<token>System.DirectoryServices.DirectoryEntries,Find</token>
+<token>System.DirectoryServices.DirectoryEntries,Find</token>
+<token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
+</entry>
+<entry count="16">
 <token>System.DirectoryServices.DirectoryEntries,Add</token>
 <token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
 <token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
 <token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
 <token>System.DirectoryServices.DirectoryEntry,Close</token>
-</entry>
-<entry count="4">
-<token>System.DirectoryServices.DirectoryEntry,RefreshCache</token>
-<token>System.DirectoryServices.DirectoryEntries,Find</token>
-<token>System.DirectoryServices.DirectoryEntries,Find</token>
-<token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
 </entry>
 <entry count="16">
 <token>System.DirectoryServices.DirectoryEntry,new</token>
@@ -309,7 +438,7 @@
 <token>System.DirectoryServices.DirectoryEntries,Find</token>
 <token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
 </entry>
-<entry count="4">
+<entry count="16">
 <token>System.DirectoryServices.DirectoryEntries,Find</token>
 <token>System.DirectoryServices.DirectoryEntry,Invoke</token>
 </entry>
@@ -321,29 +450,36 @@
 <token>System.DirectoryServices.DirectoryEntry,new</token>
 <token>System.DirectoryServices.DirectoryEntry,RefreshCache</token>
 <token>System.DirectoryServices.DirectoryEntry,Close</token>
-</entry>
-<entry count="8">
-<token>System.DirectoryServices.DirectoryEntries,Find</token>
-<token>System.DirectoryServices.DirectoryEntries,Find</token>
-</entry>
-<entry count="4">
-<token>System.DirectoryServices.DirectoryEntry,DeleteTree</token>
-<token>System.DirectoryServices.DirectoryEntries,Find</token>
-<token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
-</entry>
-<entry count="8">
-<token>System.DirectoryServices.DirectoryEntries,Find</token>
-<token>System.DirectoryServices.DirectoryEntries,Add</token>
-<token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
-<token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
-</entry>
-<entry count="4">
-<token>System.DirectoryServices.DirectoryEntry,new</token>
-<token>System.DirectoryServices.DirectorySearcher,new</token>
-<token>System.DirectoryServices.DirectorySearcher,FindAll</token>
-<token>System.DirectoryServices.SearchResultCollection,Dispose</token>
 </entry>
 <entry count="32">
+<token>System.DirectoryServices.DirectoryEntries,Find</token>
+<token>System.DirectoryServices.DirectoryEntries,Find</token>
+</entry>
+<entry count="8">
+<token>System.DirectoryServices.DirectoryEntry,DeleteTree</token>
+<token>System.DirectoryServices.DirectoryEntries,Find</token>
+<token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
+</entry>
+<entry count="16">
+<token>System.DirectoryServices.DirectoryEntries,Find</token>
+<token>System.DirectoryServices.DirectoryEntries,Add</token>
+<token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
+<token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
+</entry>
+<entry count="8">
+<token>System.DirectoryServices.DirectoryEntry,new</token>
+<token>System.DirectoryServices.DirectorySearcher,new</token>
+<token>System.DirectoryServices.DirectorySearcher,FindAll</token>
+<token>System.DirectoryServices.SearchResultCollection,Dispose</token>
+</entry>
+<entry count="4">
+<token>System.DirectoryServices.DirectoryEntries,Find</token>
+<token>System.DirectoryServices.DirectoryEntry,DeleteTree</token>
+<token>System.DirectoryServices.DirectoryEntries,Find</token>
+<token>System.DirectoryServices.DirectoryEntry,DeleteTree</token>
+<token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
+</entry>
+<entry count="80">
 <token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
 <token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
 <token>System.DirectoryServices.DirectoryEntry,Close</token>
@@ -352,6 +488,19 @@
 <entry count="4">
 <token>System.DirectoryServices.DirectorySearcher,FindAll</token>
 <token>System.DirectoryServices.SearchResult,GetDirectoryEntry</token>
+</entry>
+<entry count="4">
+<token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
+<token>System.DirectoryServices.DirectoryEntries,Find</token>
+<token>System.DirectoryServices.DirectoryEntry,DeleteTree</token>
+<token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
+</entry>
+<entry count="4">
+<token>System.DirectoryServices.DirectoryEntries,Find</token>
+<token>System.DirectoryServices.DirectoryEntries,Add</token>
+<token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
+<token>System.DirectoryServices.DirectoryEntries,Find</token>
+<token>System.DirectoryServices.DirectoryEntry,DeleteTree</token>
 </entry>
 <entry count="4">
 <token>System.DirectoryServices.DirectoryEntry,DeleteTree</token>
@@ -366,11 +515,24 @@
 <token>System.DirectoryServices.SearchResult,GetDirectoryEntry</token>
 <token>System.DirectoryServices.SearchResult,GetDirectoryEntry</token>
 </entry>
-<entry count="8">
+<entry count="16">
 <token>System.DirectoryServices.DirectoryEntry,new</token>
 <token>System.DirectoryServices.DirectoryEntry,RefreshCache</token>
 <token>System.DirectoryServices.DirectoryEntries,Find</token>
 <token>System.DirectoryServices.DirectoryEntry,DeleteTree</token>
+</entry>
+<entry count="8">
+<token>System.DirectoryServices.DirectoryEntry,RefreshCache</token>
+<token>System.DirectoryServices.DirectoryEntries,Find</token>
+<token>System.DirectoryServices.DirectoryEntries,Find</token>
+<token>System.DirectoryServices.DirectoryEntry,DeleteTree</token>
+<token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
+</entry>
+<entry count="4">
+<token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
+<token>System.DirectoryServices.DirectoryEntries,Find</token>
+<token>System.DirectoryServices.DirectoryEntries,Add</token>
+<token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
 </entry>
 <entry count="2">
 <token>System.DirectoryServices.DirectorySearcher,new</token>
@@ -379,32 +541,47 @@
 <token>System.DirectoryServices.SearchResult,GetDirectoryEntry</token>
 <token>System.DirectoryServices.SearchResult,GetDirectoryEntry</token>
 </entry>
+<entry count="94">
+<token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
+<token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
+<token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
+</entry>
 <entry count="8">
-<token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
-<token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
-<token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
-</entry>
-<entry count="4">
 <token>System.DirectoryServices.DirectoryEntry,new</token>
 <token>System.DirectoryServices.DirectoryEntry,new</token>
 <token>System.DirectoryServices.DirectorySearcher,new</token>
 <token>System.DirectoryServices.DirectorySearcher,FindAll</token>
 <token>System.DirectoryServices.SearchResultCollection,Dispose</token>
 </entry>
-<entry count="4">
+<entry count="16">
 <token>System.DirectoryServices.DirectoryEntries,Find</token>
 <token>System.DirectoryServices.DirectoryEntries,Find</token>
 <token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
 </entry>
-<entry count="4">
+<entry count="8">
 <token>System.DirectoryServices.DirectorySearcher,new</token>
 <token>System.DirectoryServices.DirectorySearcher,FindAll</token>
 <token>System.DirectoryServices.SearchResultCollection,Dispose</token>
+</entry>
+<entry count="4">
+<token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
+<token>System.DirectoryServices.DirectoryEntries,Find</token>
+<token>System.DirectoryServices.DirectoryEntries,Add</token>
 </entry>
 <entry count="4">
 <token>System.DirectoryServices.DirectorySearcher,new</token>
 <token>System.DirectoryServices.DirectorySearcher,FindOne</token>
 <token>System.DirectoryServices.SearchResult,GetDirectoryEntry</token>
+</entry>
+<entry count="16">
+<token>System.DirectoryServices.DirectoryEntries,Find</token>
+<token>System.DirectoryServices.DirectoryEntry,DeleteTree</token>
+<token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
+</entry>
+<entry count="16">
+<token>System.DirectoryServices.DirectoryEntries,Add</token>
+<token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
+<token>System.DirectoryServices.DirectoryEntries,Find</token>
 </entry>
 <entry count="4">
 <token>System.DirectoryServices.DirectorySearcher,new</token>
@@ -418,8 +595,28 @@
 <token>System.DirectoryServices.DirectoryEntries,Remove</token>
 <token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
 </entry>
+<entry count="1">
+<token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
+<token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
+<token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
+<token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
+</entry>
 <entry count="6">
 <token>System.DirectoryServices.DirectoryEntry,RefreshCache</token>
+<token>System.DirectoryServices.DirectoryEntry,Close</token>
+</entry>
+<entry count="16">
+<token>System.DirectoryServices.DirectoryEntry,RefreshCache</token>
+<token>System.DirectoryServices.DirectoryEntries,Find</token>
+<token>System.DirectoryServices.DirectoryEntries,Add</token>
+<token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
+<token>System.DirectoryServices.DirectoryEntries,Find</token>
+</entry>
+<entry count="16">
+<token>System.DirectoryServices.DirectoryEntry,DeleteTree</token>
+<token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
+<token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
+<token>System.DirectoryServices.DirectoryEntry,Close</token>
 <token>System.DirectoryServices.DirectoryEntry,Close</token>
 </entry>
 <entry count="1">
@@ -434,7 +631,14 @@
 <token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
 <token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
 </entry>
-<entry count="8">
+<entry count="4">
+<token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
+<token>System.DirectoryServices.DirectoryEntries,Find</token>
+<token>System.DirectoryServices.DirectoryEntry,DeleteTree</token>
+<token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
+<token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
+</entry>
+<entry count="16">
 <token>System.DirectoryServices.DirectoryEntry,RefreshCache</token>
 <token>System.DirectoryServices.DirectoryEntries,Find</token>
 <token>System.DirectoryServices.DirectoryEntry,DeleteTree</token>
@@ -443,7 +647,7 @@
 <token>System.DirectoryServices.DirectoryEntries,Find</token>
 <token>System.DirectoryServices.DirectoryEntries,Remove</token>
 </entry>
-<entry count="32">
+<entry count="80">
 <token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
 <token>System.DirectoryServices.DirectoryEntry,Close</token>
 <token>System.DirectoryServices.DirectoryEntry,Close</token>
@@ -451,10 +655,15 @@
 <entry count="4">
 <token>System.DirectoryServices.DirectoryEntry,DeleteTree</token>
 <token>System.DirectoryServices.DirectoryEntries,Find</token>
+<token>System.DirectoryServices.DirectoryEntry,DeleteTree</token>
+</entry>
+<entry count="8">
+<token>System.DirectoryServices.DirectoryEntry,DeleteTree</token>
+<token>System.DirectoryServices.DirectoryEntries,Find</token>
 <token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
 <token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
 </entry>
-<entry count="8">
+<entry count="16">
 <token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
 <token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
 <token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
@@ -467,16 +676,23 @@
 <token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
 <token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
 </entry>
+<entry count="4">
+<token>System.DirectoryServices.DirectoryEntry,DeleteTree</token>
+<token>System.DirectoryServices.DirectoryEntries,Find</token>
+<token>System.DirectoryServices.DirectoryEntry,DeleteTree</token>
+<token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
+<token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
+</entry>
 <entry count="16">
 <token>System.DirectoryServices.DirectoryEntry,RefreshCache</token>
 <token>System.DirectoryServices.DirectoryEntries,Find</token>
 <token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
 </entry>
-<entry count="8">
+<entry count="16">
 <token>System.DirectoryServices.DirectoryEntry,DeleteTree</token>
 <token>System.DirectoryServices.DirectoryEntries,Find</token>
 </entry>
-<entry count="4">
+<entry count="8">
 <token>System.DirectoryServices.DirectoryEntries,Find</token>
 <token>System.DirectoryServices.DirectoryEntries,Find</token>
 <token>System.DirectoryServices.DirectoryEntries,Add</token>
@@ -488,12 +704,17 @@
 <token>System.DirectoryServices.DirectoryEntries,Remove</token>
 <token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
 </entry>
+<entry count="8">
+<token>System.DirectoryServices.DirectoryEntries,Find</token>
+<token>System.DirectoryServices.DirectoryEntries,Find</token>
+<token>System.DirectoryServices.DirectoryEntry,DeleteTree</token>
+</entry>
 <entry count="1">
 <token>System.DirectoryServices.DirectoryEntries,Remove</token>
 <token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
 <token>System.DirectoryServices.DirectoryEntry,Close</token>
 </entry>
-<entry count="4">
+<entry count="8">
 <token>System.DirectoryServices.DirectoryEntry,RefreshCache</token>
 <token>System.DirectoryServices.DirectoryEntries,Find</token>
 <token>System.DirectoryServices.DirectoryEntries,Find</token>
@@ -507,26 +728,38 @@
 <token>System.DirectoryServices.SearchResult,GetDirectoryEntry</token>
 <token>System.DirectoryServices.SearchResult,GetDirectoryEntry</token>
 </entry>
-<entry count="8">
+<entry count="16">
 <token>System.DirectoryServices.DirectoryEntries,Add</token>
 <token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
 <token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
 </entry>
-<entry count="4">
+<entry count="16">
 <token>System.DirectoryServices.DirectoryEntries,Find</token>
 <token>System.DirectoryServices.DirectoryEntry,Invoke</token>
 <token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
 </entry>
+<entry count="8">
+<token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
+<token>System.DirectoryServices.DirectoryEntries,Find</token>
+<token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
+<token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
+</entry>
 <entry count="4">
 <token>System.DirectoryServices.DirectoryEntries,Find</token>
 <token>System.DirectoryServices.DirectoryEntry,DeleteTree</token>
 <token>System.DirectoryServices.DirectoryEntries,Find</token>
 <token>System.DirectoryServices.DirectoryEntries,Add</token>
 </entry>
-<entry count="4">
+<entry count="8">
 <token>System.DirectoryServices.DirectoryEntries,Find</token>
 <token>System.DirectoryServices.DirectoryEntries,Find</token>
 <token>System.DirectoryServices.DirectoryEntries,Add</token>
+</entry>
+<entry count="16">
+<token>System.DirectoryServices.DirectoryEntries,Find</token>
+<token>System.DirectoryServices.DirectoryEntries,Add</token>
+<token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
+<token>System.DirectoryServices.DirectoryEntries,Find</token>
 </entry>
 <entry count="2">
 <token>System.DirectoryServices.DirectoryEntry,new</token>
@@ -538,25 +771,31 @@
 <token>System.DirectoryServices.DirectorySearcher,new</token>
 <token>System.DirectoryServices.DirectorySearcher,FindOne</token>
 </entry>
-<entry count="40">
+<entry count="2417">
 <token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
 <token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
 </entry>
-<entry count="8">
+<entry count="32">
 <token>System.DirectoryServices.DirectoryEntry,RefreshCache</token>
 <token>System.DirectoryServices.DirectoryEntries,Find</token>
 <token>System.DirectoryServices.DirectoryEntries,Find</token>
 </entry>
-<entry count="4">
+<entry count="16">
 <token>System.DirectoryServices.DirectoryEntries,Find</token>
 <token>System.DirectoryServices.DirectoryEntries,Find</token>
 <token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
 <token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
 </entry>
-<entry count="4">
+<entry count="8">
 <token>System.DirectoryServices.DirectoryEntries,Find</token>
 <token>System.DirectoryServices.DirectoryEntry,DeleteTree</token>
 <token>System.DirectoryServices.DirectoryEntries,Find</token>
+<token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
+</entry>
+<entry count="8">
+<token>System.DirectoryServices.DirectoryEntries,Find</token>
+<token>System.DirectoryServices.DirectoryEntries,Find</token>
+<token>System.DirectoryServices.DirectoryEntry,DeleteTree</token>
 <token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
 </entry>
 <entry count="10">
@@ -564,20 +803,40 @@
 <token>System.DirectoryServices.SearchResult,GetDirectoryEntry</token>
 <token>System.DirectoryServices.SearchResult,GetDirectoryEntry</token>
 </entry>
-<entry count="24">
+<entry count="48">
 <token>System.DirectoryServices.DirectoryEntries,Find</token>
+<token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
+</entry>
+<entry count="4">
+<token>System.DirectoryServices.DirectoryEntries,Add</token>
+<token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
+<token>System.DirectoryServices.DirectoryEntries,Find</token>
+<token>System.DirectoryServices.DirectoryEntries,Add</token>
+<token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
+</entry>
+<entry count="16">
+<token>System.DirectoryServices.DirectoryEntries,Find</token>
+<token>System.DirectoryServices.DirectoryEntry,DeleteTree</token>
+<token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
 <token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
 </entry>
 <entry count="6">
 <token>System.DirectoryServices.DirectorySearcher,FindOne</token>
 <token>System.DirectoryServices.SearchResult,GetDirectoryEntry</token>
 </entry>
-<entry count="4">
+<entry count="16">
 <token>System.DirectoryServices.DirectoryEntries,Find</token>
 <token>System.DirectoryServices.DirectoryEntries,Find</token>
 <token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
 <token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
 <token>System.DirectoryServices.DirectoryEntry,Close</token>
+</entry>
+<entry count="4">
+<token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
+<token>System.DirectoryServices.DirectoryEntries,Find</token>
+<token>System.DirectoryServices.DirectoryEntries,Add</token>
+<token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
+<token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
 </entry>
 <entry count="1">
 <token>System.DirectoryServices.DirectoryEntries,Remove</token>
@@ -590,22 +849,29 @@
 <token>System.DirectoryServices.DirectoryEntry,Close</token>
 <token>System.DirectoryServices.DirectoryEntry,Close</token>
 </entry>
-<entry count="4">
+<entry count="8">
 <token>System.DirectoryServices.DirectorySearcher,FindAll</token>
 <token>System.DirectoryServices.SearchResultCollection,Dispose</token>
 </entry>
-<entry count="1">
+<entry count="17">
 <token>System.DirectoryServices.DirectoryEntry,DeleteTree</token>
 <token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
 </entry>
-<entry count="512">
+<entry count="4096">
 <token>System.DirectoryServices.DirectoryEntry,new</token>
 <token>System.DirectoryServices.PropertyValueCollection,Add</token>
 <token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
 </entry>
-<entry count="8">
+<entry count="32">
 <token>System.DirectoryServices.DirectoryEntries,Find</token>
 <token>System.DirectoryServices.DirectoryEntry,DeleteTree</token>
+</entry>
+<entry count="8">
+<token>System.DirectoryServices.DirectoryEntries,Find</token>
+<token>System.DirectoryServices.DirectoryEntries,Add</token>
+<token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
+<token>System.DirectoryServices.DirectoryEntries,Find</token>
+<token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
 </entry>
 <entry count="2">
 <token>System.DirectoryServices.DirectorySearcher,new</token>
@@ -619,7 +885,7 @@
 <token>System.DirectoryServices.SearchResult,GetDirectoryEntry</token>
 <token>System.DirectoryServices.SearchResult,GetDirectoryEntry</token>
 </entry>
-<entry count="8">
+<entry count="32">
 <token>System.DirectoryServices.DirectoryEntries,Find</token>
 <token>System.DirectoryServices.DirectoryEntries,Add</token>
 <token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
@@ -630,6 +896,12 @@
 <token>System.DirectoryServices.DirectoryEntries,Remove</token>
 <token>System.DirectoryServices.DirectoryEntry,Close</token>
 </entry>
+<entry count="16">
+<token>System.DirectoryServices.DirectoryEntry,DeleteTree</token>
+<token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
+<token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
+<token>System.DirectoryServices.DirectoryEntry,Close</token>
+</entry>
 <entry count="2">
 <token>System.DirectoryServices.DirectoryEntry,new</token>
 <token>System.DirectoryServices.DirectorySearcher,FindOne</token>
@@ -637,11 +909,11 @@
 <token>System.DirectoryServices.SearchResult,GetDirectoryEntry</token>
 <token>System.DirectoryServices.SearchResult,GetDirectoryEntry</token>
 </entry>
-<entry count="36">
+<entry count="84">
 <token>System.DirectoryServices.DirectoryEntry,Close</token>
 <token>System.DirectoryServices.DirectoryEntry,Close</token>
 </entry>
-<entry count="34">
+<entry count="82">
 <token>System.DirectoryServices.DirectoryEntry,RefreshCache</token>
 <token>System.DirectoryServices.DirectoryEntries,Find</token>
 </entry>
@@ -651,6 +923,12 @@
 <token>System.DirectoryServices.DirectoryEntries,Find</token>
 <token>System.DirectoryServices.DirectoryEntries,Remove</token>
 <token>System.DirectoryServices.DirectoryEntry,Close</token>
+</entry>
+<entry count="4">
+<token>System.DirectoryServices.DirectoryEntries,Find</token>
+<token>System.DirectoryServices.DirectoryEntry,DeleteTree</token>
+<token>System.DirectoryServices.DirectoryEntries,Find</token>
+<token>System.DirectoryServices.DirectoryEntry,DeleteTree</token>
 </entry>
 <entry count="1">
 <token>System.DirectoryServices.DirectoryEntries,Find</token>
@@ -665,11 +943,11 @@
 <token>System.DirectoryServices.DirectoryEntries,Add</token>
 <token>System.DirectoryServices.DirectoryEntry,CommitChanges</token>
 </entry>
-<entry count="36">
+<entry count="72">
 <token>System.DirectoryServices.DirectoryEntry,new</token>
 <token>System.DirectoryServices.DirectoryEntry,new</token>
 </entry>
-<entry count="44">
+<entry count="80">
 <token>System.DirectoryServices.DirectoryEntry,new</token>
 <token>System.DirectoryServices.DirectorySearcher,new</token>
 <token>System.DirectoryServices.DirectorySearcher,FindAll</token>

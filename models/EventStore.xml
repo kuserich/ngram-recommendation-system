@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><dictionary case_sensitive="false">
+<entry count="2">
+<token>EventStore.EventMessage,new</token>
+<token>EventStore.IEventStream,Add</token>
+</entry>
+<entry count="4">
+<token>EventStore.EventMessage,new</token>
+<token>EventStore.Commit,new</token>
+</entry>
+<entry count="4">
+<token>EventStore.IAccessSnapshots,GetSnapshot</token>
+<token>EventStore.IStoreEvents,OpenStream</token>
+</entry>
+<entry count="2">
+<token>EventStore.Commit,new</token>
+<token>EventStore.ICommitEvents,Commit</token>
+</entry>
+<entry count="2">
+<token>EventStore.EventMessage,new</token>
+<token>EventStore.IStoreEvents,CreateStream</token>
+<token>EventStore.IEventStream,Add</token>
+</entry>
+<entry count="2">
+<token>EventStore.EventMessage,new</token>
+<token>EventStore.Commit,new</token>
+<token>EventStore.ICommitEvents,Commit</token>
+</entry>
+<entry count="4">
+<token>EventStore.ICommitEvents,Commit</token>
+<token>EventStore.ICommitEvents,Commit</token>
+</entry>
+<entry count="2">
+<token>EventStore.IStoreEvents,CreateStream</token>
+<token>EventStore.IEventStream,Add</token>
+</entry>
+<entry count="2">
+<token>EventStore.ICommitEvents,Commit</token>
+<token>EventStore.ICommitEvents,Commit</token>
+<token>EventStore.ICommitEvents,Commit</token>
+</entry>
+<entry count="2">
+<token>EventStore.EventMessage,new</token>
+<token>EventStore.IStoreEvents,CreateStream</token>
+</entry>
+<entry count="2">
+<token>EventStore.Snapshot,new</token>
+<token>EventStore.IAccessSnapshots,AddSnapshot</token>
+</entry>
+</dictionary>
