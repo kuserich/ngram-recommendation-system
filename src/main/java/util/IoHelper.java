@@ -41,51 +41,6 @@ import extractor.APIToken;
 public class IoHelper {
 
 	/**
-	 * Returns the first context in a given directory.
-	 * Notice that this method might return different contexts in different environments.
-	 * 
-	 * @see #findAllZips(String) 
-	 * 			used to find all zips in the given directory
-	 * @see #read(String)
-	 * 			used to read the contexts from the .zip files
-	 * 
-	 * @param dir
-	 * 			directory that includes context files
-	 * @return
-	 * 			first context found in the directory
-	 */
-	public static Context readFirstContext(String dir) {
-		for(String zip : findAllZips(dir)) {
-			List<Context> ctxs = read(zip);
-			return ctxs.get(0);
-		}
-		return null;
-	}
-
-	/**
-	 * Returns all contexts in a given directory.
-	 * 
-	 * @see #findAllZips(String) 
-	 * 			used to find .zip files in the given directory
-	 * @see #read(String)
-	 * 			used to read the contexts from a single .zip file
-	 * 
-	 * @param dir
-	 * 			directory that is traversed
-	 * 			
-	 * @return
-	 * 			all contexts in the given directory
-	 */
-	public static List<Context> readAll(String dir) {
-		LinkedList<Context> res = Lists.newLinkedList();
-
-		for(String zip : findAllZips(dir)) {
-			res.addAll(read(zip));
-		}
-		return res;
-	}
-
-	/**
 	 * Create a directory at the given path if it does not yet exist.
 	 * 
 	 * @param path
@@ -95,42 +50,6 @@ public class IoHelper {
 		File directory = new File(path);
 		if (! directory.exists()){
 			directory.mkdir();
-		}
-	}
-
-	/**
-	 * Given a filename and list of API sentences, this method creates a new file with the given filename
-	 * and writes all API sentences to that file such that one line contains one sentence.
-	 * Sentences are only written to the file if they contain at least as many tokens as defined by minLength.
-	 *
-	 * @see #removeFile(String)
-	 * 			the file with filename is created also if no API sentences are added (due to minLength).
-	 * 			Hence, those files must be removed afterwards.
-	 *
-	 * @param filename
-	 * 			file to create and write to
-	 * @param apiSentences
-	 * 			API sentences that are written to the file
-	 * @param minLength
-	 * 			minimal length an API sentence must be to be written to the file
-	 *
-	 * @throws IOException
-	 * 			thrown if there is an error with writing or deleting files
-	 */
-	public static void writeAPISentencesToFile(String filename, List<List<APIToken>> apiSentences, int minLength)
-			throws IOException {
-		PrintWriter writer = new PrintWriter(filename, "UTF-8");
-		Long sentencesAdded = 0L;
-		for(List<APIToken> sentence : apiSentences) {
-			if(sentence.size() >= minLength) {
-				writer.println(sentence.toString());
-				sentencesAdded++;
-			}
-		}
-		writer.close();
-		// remove the file created if nothing was written to it
-		if(sentencesAdded.equals(0L)) {
-			removeFile(filename);
 		}
 	}
 
@@ -259,21 +178,6 @@ public class IoHelper {
 	 */
 	public static void removeFile(String filePath) throws IOException {
 		Files.deleteIfExists(new File(filePath).toPath());
-	}
-
-	/**
-	 * Converts the given file path to a file name.
-	 * This method simply removes dots and slashes with plus signs.
-	 * 
-	 * @param filePath
-	 * 			file path that is converted
-	 * @return
-	 * 			replaced string
-	 */
-	public static String pathToFileName(String filePath) {
-		return filePath.replaceAll("//","+")
-				.replaceAll("/", "+")
-				.replaceAll("\\.", "+");
 	}
 
 	/**

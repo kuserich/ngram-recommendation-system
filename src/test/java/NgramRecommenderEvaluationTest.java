@@ -1,10 +1,7 @@
 import evaluation.NgramRecommenderEvaluation;
-import org.junit.Assert;
 import org.junit.Test;
 
 import java.io.IOException;
-import java.lang.reflect.InvocationTargetException;
-import java.lang.reflect.Method;
 import java.util.List;
 
 import static org.junit.Assert.assertEquals;

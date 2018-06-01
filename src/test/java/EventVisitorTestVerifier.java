@@ -1,6 +1,3 @@
-import cc.kave.commons.model.events.IIDEEvent;
-import cc.kave.commons.model.events.completionevents.ICompletionEvent;
-import cc.kave.commons.model.ssts.IStatement;
 import cc.kave.commons.model.ssts.blocks.*;
 import cc.kave.commons.model.ssts.declarations.IMethodDeclaration;
 import cc.kave.commons.model.ssts.declarations.IPropertyDeclaration;
@@ -23,15 +20,9 @@ public class EventVisitorTestVerifier {
         _context = context;
     }
 
-    public EventVisitorTestVerifier(APISentenceTree context) {
-        _context = context;
-    }
-
     public void verify(Object obj) {
         EventVisitor ev = new EventVisitor();
-        //EventVisitor visitor = mock(EventVisitor.class);
-        //_node.visit
-        //_node.accept(visitor, _context);
+
         if (obj instanceof ICompletionExpression) {
             ev.visit((ICompletionExpression) obj, _context);
             assertEquals(ev.hasEventFired(), true);
@@ -110,10 +101,6 @@ public class EventVisitorTestVerifier {
 
          else if (obj instanceof ILambdaExpression)
             assertEquals(ev.visit((ILambdaExpression) obj, _context), null);
-
-         else if (obj instanceof IStatement) {
-             System.out.println("istatement");
-        }
 
         else
             throw new RuntimeException();

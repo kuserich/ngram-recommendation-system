@@ -7,13 +7,10 @@ import org.junit.Test;
 import java.io.IOException;
 import java.util.Set;
 
-import static com.sun.org.apache.xerces.internal.util.PropertyState.is;
 import static junit.framework.TestCase.assertTrue;
 import static org.junit.Assert.assertEquals;
 
 public class NgramRecommenderClientTest {
-    
-    private static String outputDir = "MockData/output/Microsoft.Win32.txt";
 
     @Test
     public void NgramRecommender() throws IOException {
