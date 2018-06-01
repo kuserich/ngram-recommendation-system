@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><dictionary case_sensitive="false">
-<entry count="128">
+<entry count="576">
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+<token>ServiceStack.StringExtensions,Fmt</token>
+<token>ServiceStack.StringExtensions,Fmt</token>
+<token>ServiceStack.HttpUtils,PostStringToUrl</token>
+</entry>
+<entry count="24432">
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.StringExtensions,UrlEncode</token>
@@ -8,19 +14,13 @@
 <token>ServiceStack.QueryFieldAttribute,new</token>
 <token>ServiceStack.QueryFieldAttribute,new</token>
 </entry>
-<entry count="16">
+<entry count="32">
 <token>ServiceStack.StringExtensions,StartsWithIgnoreCase</token>
 <token>ServiceStack.StringExtensions,StartsWithIgnoreCase</token>
 </entry>
 <entry count="1">
 <token>ServiceStack.ArrayOfString,new</token>
 <token>ServiceStack.ArrayOfString,new</token>
-</entry>
-<entry count="49920">
-<token>ServiceStack.ReflectionExtensions,HasInterface</token>
-<token>ServiceStack.StringExtensions,IsUserType</token>
-<token>ServiceStack.ReflectionExtensions,HasInterface</token>
-<token>ServiceStack.ReflectionExtensions,GetSerializableProperties</token>
 </entry>
 <entry count="1">
 <token>ServiceStack.IReplyClient,Send</token>
@@ -28,7 +28,7 @@
 <token>ServiceStack.IRestClient,SetCookie</token>
 <token>ServiceStack.IRestClient,Get</token>
 </entry>
-<entry count="16">
+<entry count="576">
 <token>ServiceStack.StringExtensions,UrlEncode</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.StringExtensions,UrlEncode</token>
@@ -82,12 +82,12 @@
 <token>ServiceStack.TaskExtensions,Success</token>
 <token>ServiceStack.TaskExtensions,Error</token>
 </entry>
-<entry count="2">
+<entry count="6">
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.HttpUtils,AddQueryParam</token>
 </entry>
-<entry count="64">
+<entry count="6912">
 <token>ServiceStack.StringExtensions,UrlEncode</token>
 <token>ServiceStack.ListExtensions,Join</token>
 </entry>
@@ -101,12 +101,12 @@
 <token>ServiceStack.PlatformExtensions,FirstAttribute</token>
 <token>ServiceStack.AutoMappingUtils,GetDefaultValue</token>
 </entry>
-<entry count="120">
+<entry count="36416">
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.StringExtensions,UrlEncode</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 </entry>
-<entry count="96">
+<entry count="23040">
 <token>ServiceStack.HttpUtils,GetStringFromUrl</token>
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
@@ -123,7 +123,7 @@
 <token>ServiceStack.HttpUtils,AddQueryParam</token>
 <token>ServiceStack.HttpUtils,GetJsonFromUrl</token>
 </entry>
-<entry count="104">
+<entry count="34688">
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.StringExtensions,UrlEncode</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
@@ -145,7 +145,7 @@
 <token>ServiceStack.PlatformExtensions,AddAttributes</token>
 <token>ServiceStack.PlatformExtensions,AddAttributes</token>
 </entry>
-<entry count="8">
+<entry count="432">
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
@@ -160,7 +160,7 @@
 <token>ServiceStack.Property,new</token>
 <token>ServiceStack.Property,new</token>
 </entry>
-<entry count="4">
+<entry count="8">
 <token>ServiceStack.PlatformExtensions,AllAttributes</token>
 <token>ServiceStack.ListExtensions,AddIfNotExists</token>
 </entry>
@@ -173,9 +173,16 @@
 <token>ServiceStack.HttpUtils,GetBytesFromUrl</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 </entry>
-<entry count="40">
+<entry count="7552">
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.HttpUtils,PostToUrl</token>
+</entry>
+<entry count="144">
+<token>ServiceStack.StringExtensions,UrlEncode</token>
+<token>ServiceStack.StringExtensions,Fmt</token>
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+<token>ServiceStack.StringExtensions,Fmt</token>
+<token>ServiceStack.HttpUtils,PostStringToUrl</token>
 </entry>
 <entry count="2">
 <token>ServiceStack.StringExtensions,EqualsIgnoreCase</token>
@@ -194,7 +201,7 @@
 <token>ServiceStack.PlatformExtensions,AllAttributes</token>
 <token>ServiceStack.PlatformExtensions,AllAttributes</token>
 </entry>
-<entry count="56">
+<entry count="112">
 <token>ServiceStack.StringExtensions,CountOccurrencesOf</token>
 <token>ServiceStack.StringExtensions,CountOccurrencesOf</token>
 </entry>
@@ -216,11 +223,11 @@
 <token>ServiceStack.IRestClient,GetCookieValues</token>
 <token>ServiceStack.IReplyClient,Send</token>
 </entry>
-<entry count="16">
+<entry count="140">
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.HttpUtils,GetJsonFromUrl</token>
 </entry>
-<entry count="2">
+<entry count="6">
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.HttpUtils,AddQueryParam</token>
@@ -233,7 +240,7 @@
 <token>ServiceStack.HttpUtils,GetJsonFromUrl</token>
 <token>ServiceStack.StringExtensions,FromJson</token>
 </entry>
-<entry count="32">
+<entry count="1152">
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.StringExtensions,UrlEncode</token>
@@ -260,27 +267,31 @@
 <token>ServiceStack.StringExtensions,FromJson</token>
 <token>ServiceStack.StringExtensions,AppendPath</token>
 </entry>
+<entry count="20">
+<token>ServiceStack.ICompressor,Compress</token>
+<token>ServiceStack.ICompressor,Compress</token>
+<token>ServiceStack.ICompressor,Compress</token>
+<token>ServiceStack.ICompressor,Compress</token>
+</entry>
 <entry count="1">
 <token>ServiceStack.IRestClient,Post</token>
 <token>ServiceStack.StringExtensions,ToUtf8Bytes</token>
 <token>ServiceStack.IRestClient,Put</token>
 </entry>
-<entry count="6656">
-<token>ServiceStack.StringExtensions,IsSystemType</token>
-<token>ServiceStack.ReflectionExtensions,HasInterface</token>
-<token>ServiceStack.StringExtensions,IsUserType</token>
-<token>ServiceStack.ReflectionExtensions,HasInterface</token>
-<token>ServiceStack.PlatformExtensions,IsGenericType</token>
-</entry>
 <entry count="1">
 <token>ServiceStack.ReflectionExtensions,CreateInstance</token>
 <token>ServiceStack.ResponseStatus,new</token>
+</entry>
+<entry count="8">
+<token>ServiceStack.HttpUtils,AddQueryParam</token>
+<token>ServiceStack.HttpUtils,AddQueryParam</token>
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 </entry>
 <entry count="1">
 <token>ServiceStack.StringExtensions,AppendPath</token>
 <token>ServiceStack.StringExtensions,ToUtf8Bytes</token>
 </entry>
-<entry count="4096">
+<entry count="16456">
 <token>ServiceStack.StringExtensions,ToJsv</token>
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 </entry>
@@ -290,18 +301,30 @@
 <token>ServiceStack.PlatformExtensions,AllAttributes</token>
 <token>ServiceStack.HttpUtils,AddQueryParam</token>
 </entry>
-<entry count="32418">
+<entry count="546">
+<token>ServiceStack.StringExtensions,ToJsv</token>
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+<token>ServiceStack.StringExtensions,ToJsv</token>
+</entry>
+<entry count="5017136">
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+</entry>
+<entry count="64">
+<token>ServiceStack.StringExtensions,SplitOnFirst</token>
+<token>ServiceStack.StringExtensions,Fmt</token>
+<token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 </entry>
 <entry count="1">
 <token>ServiceStack.StringExtensions,AppendPath</token>
 <token>ServiceStack.HttpUtils,GetStringFromUrl</token>
 </entry>
-<entry count="2448">
+<entry count="209680">
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.StringExtensions,Join</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
@@ -312,11 +335,12 @@
 <token>ServiceStack.HttpUtils,GetStringFromUrl</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 </entry>
-<entry count="39936">
-<token>ServiceStack.StringExtensions,IsSystemType</token>
-<token>ServiceStack.ReflectionExtensions,HasInterface</token>
-<token>ServiceStack.StringExtensions,IsUserType</token>
-<token>ServiceStack.ReflectionExtensions,HasInterface</token>
+<entry count="12128">
+<token>ServiceStack.StringExtensions,Fmt</token>
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+<token>ServiceStack.StringExtensions,Fmt</token>
+<token>ServiceStack.StringExtensions,UrlEncode</token>
+<token>ServiceStack.StringExtensions,Fmt</token>
 </entry>
 <entry count="1">
 <token>ServiceStack.StringExtensions,ToUtf8Bytes</token>
@@ -349,17 +373,17 @@
 <token>ServiceStack.RestrictAttribute,CanShowTo</token>
 <token>ServiceStack.RequestAttributesExtensions,IsLocalSubnet</token>
 </entry>
-<entry count="3936">
+<entry count="883296">
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.ListExtensions,Join</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 </entry>
-<entry count="8">
+<entry count="16">
 <token>ServiceStack.PlatformExtensions,AllAttributes</token>
 <token>ServiceStack.LicenseUtils,AssertValidUsage</token>
 </entry>
-<entry count="16">
+<entry count="32">
 <token>ServiceStack.StringExtensions,StartsWithIgnoreCase</token>
 <token>ServiceStack.StringExtensions,StartsWithIgnoreCase</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
@@ -368,7 +392,7 @@
 <token>ServiceStack.StringExtensions,ToUtf8Bytes</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 </entry>
-<entry count="52554">
+<entry count="14929483">
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 </entry>
@@ -399,11 +423,17 @@
 <token>ServiceStack.HttpUtils,AddQueryParam</token>
 <token>ServiceStack.HttpUtils,AddQueryParam</token>
 </entry>
+<entry count="12128">
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+<token>ServiceStack.StringExtensions,Fmt</token>
+<token>ServiceStack.StringExtensions,UrlEncode</token>
+</entry>
 <entry count="2">
 <token>ServiceStack.HttpUtils,PostBytesToUrl</token>
 <token>ServiceStack.PathUtils,CombineWith</token>
 </entry>
-<entry count="2448">
+<entry count="209680">
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.ListExtensions,Join</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
@@ -445,15 +475,11 @@
 <token>ServiceStack.PclExportExt,UploadFile</token>
 <token>ServiceStack.MimeTypes,GetMimeType</token>
 </entry>
-<entry count="2064">
+<entry count="209680">
 <token>ServiceStack.StringExtensions,Join</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.StringExtensions,SplitOnFirst</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
-</entry>
-<entry count="19968">
-<token>ServiceStack.StringExtensions,IsSystemType</token>
-<token>ServiceStack.PlatformExtensions,GetCollectionType</token>
 </entry>
 <entry count="1">
 <token>ServiceStack.StringExtensions,Fmt</token>
@@ -463,27 +489,26 @@
 <token>ServiceStack.StringExtensions,ToJson</token>
 <token>ServiceStack.StringExtensions,ToUtf8Bytes</token>
 </entry>
-<entry count="9984">
-<token>ServiceStack.StringExtensions,IsUserType</token>
-<token>ServiceStack.ReflectionExtensions,HasInterface</token>
-<token>ServiceStack.PlatformExtensions,IsGenericType</token>
-</entry>
-<entry count="2048">
+<entry count="5548">
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.StringExtensions,ToJsv</token>
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 </entry>
-<entry count="24">
+<entry count="648">
 <token>ServiceStack.QueryStringSerializer,SerializeToString</token>
 <token>ServiceStack.PclExport,GetRequestStream</token>
+</entry>
+<entry count="8">
+<token>ServiceStack.HttpUtils,AddQueryParam</token>
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 </entry>
 <entry count="10">
 <token>ServiceStack.StringExtensions,FromJson</token>
 <token>ServiceStack.PathUtils,CombineWith</token>
 </entry>
-<entry count="8">
+<entry count="144">
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.StringExtensions,UrlEncode</token>
@@ -509,7 +534,7 @@
 <token>ServiceStack.HttpUtils,AddQueryParam</token>
 <token>ServiceStack.StringExtensions,UrlEncode</token>
 </entry>
-<entry count="16">
+<entry count="1728">
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.StringExtensions,UrlEncode</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
@@ -538,7 +563,7 @@
 <token>ServiceStack.HttpUtils,ReadToEnd</token>
 <token>ServiceStack.MimeTypes,GetMimeType</token>
 </entry>
-<entry count="96">
+<entry count="23280">
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.StringExtensions,UrlEncode</token>
@@ -563,25 +588,18 @@
 <token>ServiceStack.StringExtensions,FromJson</token>
 <token>ServiceStack.StringExtensions,AppendPath</token>
 </entry>
-<entry count="1524">
+<entry count="38880">
 <token>ServiceStack.HttpResponseExtensions,RedirectToUrl</token>
 <token>ServiceStack.HttpHandlerFactory,GetHandler</token>
 <token>ServiceStack.TaskExt,AsTaskException</token>
 </entry>
-<entry count="278">
+<entry count="286">
 <token>ServiceStack.PlatformExtensions,FirstAttribute</token>
 <token>ServiceStack.PlatformExtensions,AllAttributes</token>
 </entry>
 <entry count="4">
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.PathUtils,CombineWith</token>
-</entry>
-<entry count="384">
-<token>ServiceStack.ListExtensions,Join</token>
-<token>ServiceStack.StringExtensions,Fmt</token>
-<token>ServiceStack.StringExtensions,Join</token>
-<token>ServiceStack.StringExtensions,Fmt</token>
-<token>ServiceStack.StringExtensions,Fmt</token>
 </entry>
 <entry count="2">
 <token>ServiceStack.IRestClient,Get</token>
@@ -598,17 +616,22 @@
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.HttpUtils,GetStringFromUrl</token>
 </entry>
+<entry count="4">
+<token>ServiceStack.StringExtensions,FromJsv</token>
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+</entry>
 <entry count="16">
 <token>ServiceStack.RequestExtensions,GetCompressionType</token>
 <token>ServiceStack.RequestExtensions,GetHeader</token>
 <token>ServiceStack.StreamExt,Compress</token>
 </entry>
-<entry count="2064">
+<entry count="209680">
 <token>ServiceStack.StringExtensions,Join</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.StringExtensions,SplitOnFirst</token>
 </entry>
-<entry count="1024">
+<entry count="2816">
 <token>ServiceStack.StringExtensions,EndsWithIgnoreCase</token>
 <token>ServiceStack.StringExtensions,WithoutExtension</token>
 </entry>
@@ -623,14 +646,14 @@
 <token>ServiceStack.PlatformExtensions,FirstAttribute</token>
 <token>ServiceStack.PlatformExtensions,FirstAttribute</token>
 </entry>
-<entry count="1188">
+<entry count="12960">
 <token>ServiceStack.HttpResponseExtensions,RedirectToUrl</token>
 <token>ServiceStack.HttpResponseExtensions,RedirectToUrl</token>
 <token>ServiceStack.HttpResponseExtensions,RedirectToUrl</token>
 <token>ServiceStack.HttpHandlerFactory,GetHandler</token>
 <token>ServiceStack.TaskExt,AsTaskException</token>
 </entry>
-<entry count="448">
+<entry count="672">
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.StringExtensions,WithTrailingSlash</token>
 </entry>
@@ -638,7 +661,7 @@
 <token>ServiceStack.StringExtensions,UrlFormat</token>
 <token>ServiceStack.StringExtensions,UrlEncode</token>
 </entry>
-<entry count="1224">
+<entry count="2592">
 <token>ServiceStack.HttpResponseExtensions,RedirectToUrl</token>
 <token>ServiceStack.HttpResponseExtensions,RedirectToUrl</token>
 <token>ServiceStack.HttpResponseExtensions,RedirectToUrl</token>
@@ -650,6 +673,12 @@
 <token>ServiceStack.RestrictExtensions,ToAllowedFlagsSet</token>
 <token>ServiceStack.RestrictExtensions,ToAllowedFlagsSet</token>
 <token>ServiceStack.RestrictExtensions,ToAllowedFlagsSet</token>
+</entry>
+<entry count="2">
+<token>ServiceStack.StringExtensions,ToUtf8Bytes</token>
+<token>ServiceStack.StringExtensions,ToUtf8Bytes</token>
+<token>ServiceStack.StringExtensions,ToUtf8Bytes</token>
+<token>ServiceStack.StringExtensions,ToUtf8Bytes</token>
 </entry>
 <entry count="3">
 <token>ServiceStack.StringExtensions,AppendPath</token>
@@ -678,12 +707,6 @@
 <token>ServiceStack.PathUtils,CombineWith</token>
 <token>ServiceStack.HttpUtils,GetJsonFromUrl</token>
 </entry>
-<entry count="384">
-<token>ServiceStack.StringExtensions,Fmt</token>
-<token>ServiceStack.StringExtensions,Join</token>
-<token>ServiceStack.StringExtensions,Fmt</token>
-<token>ServiceStack.StringExtensions,Fmt</token>
-</entry>
 <entry count="20">
 <token>ServiceStack.HttpUtils,AddQueryParam</token>
 <token>ServiceStack.HttpUtils,AddQueryParam</token>
@@ -694,12 +717,12 @@
 <token>ServiceStack.IRestClient,Post</token>
 <token>ServiceStack.IRestClient,Post</token>
 </entry>
-<entry count="19968">
-<token>ServiceStack.StringExtensions,IsSystemType</token>
-<token>ServiceStack.PlatformExtensions,GetCollectionType</token>
-<token>ServiceStack.ReflectionExtensions,HasInterface</token>
-<token>ServiceStack.StringExtensions,IsUserType</token>
-<token>ServiceStack.ReflectionExtensions,HasInterface</token>
+<entry count="576">
+<token>ServiceStack.StringExtensions,UrlEncode</token>
+<token>ServiceStack.StringExtensions,Fmt</token>
+<token>ServiceStack.HttpUtils,PostToUrl</token>
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+<token>ServiceStack.StringExtensions,UrlEncode</token>
 </entry>
 <entry count="96">
 <token>ServiceStack.PclExport,CreateWebRequest</token>
@@ -710,7 +733,7 @@
 <token>ServiceStack.StringExtensions,Join</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 </entry>
-<entry count="1488">
+<entry count="673616">
 <token>ServiceStack.ListExtensions,Join</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
@@ -729,46 +752,26 @@
 <token>ServiceStack.HttpUtils,AddQueryParam</token>
 <token>ServiceStack.HttpUtils,GetJsonFromUrl</token>
 </entry>
-<entry count="256">
+<entry count="320">
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.StringExtensions,SplitOnFirst</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 </entry>
-<entry count="2048">
+<entry count="14809">
 <token>ServiceStack.StringExtensions,ToJsv</token>
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 </entry>
-<entry count="16640">
-<token>ServiceStack.PlatformExtensions,GetCollectionType</token>
-<token>ServiceStack.ReflectionExtensions,HasInterface</token>
-<token>ServiceStack.StringExtensions,IsUserType</token>
-<token>ServiceStack.ReflectionExtensions,HasInterface</token>
-<token>ServiceStack.ReflectionExtensions,GetSerializableProperties</token>
-</entry>
-<entry count="19968">
-<token>ServiceStack.StringExtensions,IsSystemType</token>
-<token>ServiceStack.PlatformExtensions,GetCollectionType</token>
-<token>ServiceStack.ReflectionExtensions,HasInterface</token>
-<token>ServiceStack.StringExtensions,IsUserType</token>
-</entry>
-<entry count="31736">
+<entry count="10134572">
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
-</entry>
-<entry count="49920">
-<token>ServiceStack.ReflectionExtensions,HasInterface</token>
-<token>ServiceStack.StringExtensions,IsUserType</token>
-<token>ServiceStack.ReflectionExtensions,HasInterface</token>
-<token>ServiceStack.ReflectionExtensions,GetSerializableProperties</token>
-<token>ServiceStack.PlatformExtensions,IsGenericType</token>
 </entry>
 <entry count="28">
 <token>ServiceStack.Property,new</token>
@@ -777,7 +780,7 @@
 <token>ServiceStack.Property,new</token>
 <token>ServiceStack.Property,new</token>
 </entry>
-<entry count="96">
+<entry count="34560">
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.StringExtensions,UrlEncode</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
@@ -791,21 +794,21 @@
 <token>ServiceStack.HttpUtils,AddQueryParam</token>
 <token>ServiceStack.StringExtensions,UrlEncode</token>
 </entry>
-<entry count="1024">
+<entry count="2816">
 <token>ServiceStack.StringExtensions,EndsWithIgnoreCase</token>
 <token>ServiceStack.StringExtensions,WithoutExtension</token>
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.PathUtils,CombineWith</token>
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 </entry>
-<entry count="64">
+<entry count="2304">
 <token>ServiceStack.StringExtensions,UrlEncode</token>
 <token>ServiceStack.ListExtensions,Join</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.StringExtensions,UrlEncode</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 </entry>
-<entry count="3280">
+<entry count="771920">
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.ListExtensions,Join</token>
@@ -827,7 +830,7 @@
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.StringExtensions,ToLowercaseUnderscore</token>
 </entry>
-<entry count="384">
+<entry count="32768">
 <token>ServiceStack.ListExtensions,Join</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
@@ -837,11 +840,25 @@
 <token>ServiceStack.HttpUtils,AddQueryParam</token>
 <token>ServiceStack.HttpUtils,GetStringFromUrl</token>
 </entry>
+<entry count="2304">
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+<token>ServiceStack.StringExtensions,UrlEncode</token>
+<token>ServiceStack.ListExtensions,Join</token>
+<token>ServiceStack.StringExtensions,Fmt</token>
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+</entry>
+<entry count="144">
+<token>ServiceStack.StringExtensions,Fmt</token>
+<token>ServiceStack.StringExtensions,Fmt</token>
+<token>ServiceStack.HttpUtils,PostStringToUrl</token>
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+<token>ServiceStack.StringExtensions,UrlEncode</token>
+</entry>
 <entry count="4">
 <token>ServiceStack.StringExtensions,StartsWithIgnoreCase</token>
 <token>ServiceStack.StringExtensions,EndsWithIgnoreCase</token>
 </entry>
-<entry count="16">
+<entry count="288">
 <token>ServiceStack.StringExtensions,UrlEncode</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
@@ -867,14 +884,28 @@
 <token>ServiceStack.ReflectionExtensions,GetTypeWithInterfaceOf</token>
 <token>ServiceStack.ReflectionExtensions,GetDataContract</token>
 </entry>
-<entry count="2064">
+<entry count="209680">
 <token>ServiceStack.ListExtensions,Join</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.StringExtensions,Join</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.StringExtensions,SplitOnFirst</token>
 </entry>
-<entry count="2048">
+<entry count="576">
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+<token>ServiceStack.StringExtensions,Fmt</token>
+<token>ServiceStack.StringExtensions,Fmt</token>
+<token>ServiceStack.HttpUtils,PostStringToUrl</token>
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+</entry>
+<entry count="2304">
+<token>ServiceStack.StringExtensions,Fmt</token>
+<token>ServiceStack.HttpUtils,GetStringFromUrl</token>
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+<token>ServiceStack.StringExtensions,UrlEncode</token>
+<token>ServiceStack.ListExtensions,Join</token>
+</entry>
+<entry count="5632">
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.StringExtensions,ToJsv</token>
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
@@ -885,19 +916,26 @@
 <token>ServiceStack.PlatformExtensions,AllAttributes</token>
 <token>ServiceStack.PlatformExtensions,AllAttributes</token>
 </entry>
-<entry count="140">
+<entry count="37372">
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 </entry>
-<entry count="3600">
+<entry count="849684">
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+<token>ServiceStack.StringExtensions,Fmt</token>
+</entry>
+<entry count="6624">
+<token>ServiceStack.StringExtensions,UrlEncode</token>
+<token>ServiceStack.StringExtensions,Fmt</token>
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+<token>ServiceStack.StringExtensions,UrlEncode</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 </entry>
 <entry count="2560">
 <token>ServiceStack.RequestAttributesExtensions,ToFormat</token>
 <token>ServiceStack.PlatformExtensions,HasAttribute</token>
 </entry>
-<entry count="16">
+<entry count="864">
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.HttpUtils,PostStringToUrl</token>
@@ -920,16 +958,23 @@
 <token>ServiceStack.DynamicJson,Serialize</token>
 <token>ServiceStack.DynamicJson,Deserialize</token>
 </entry>
-<entry count="1028">
+<entry count="1152">
+<token>ServiceStack.ListExtensions,Join</token>
+<token>ServiceStack.StringExtensions,Fmt</token>
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+<token>ServiceStack.StringExtensions,UrlEncode</token>
+<token>ServiceStack.StringExtensions,Fmt</token>
+</entry>
+<entry count="2820">
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.PathUtils,CombineWith</token>
 </entry>
-<entry count="40">
+<entry count="7552">
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.HttpUtils,PostToUrl</token>
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 </entry>
-<entry count="224">
+<entry count="448">
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.StringExtensions,WithTrailingSlash</token>
 <token>ServiceStack.StringExtensions,EndsWithIgnoreCase</token>
@@ -992,6 +1037,12 @@
 <token>ServiceStack.HttpUtils,GetStringFromUrl</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 </entry>
+<entry count="336">
+<token>ServiceStack.StringExtensions,Fmt</token>
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+<token>ServiceStack.StringExtensions,Fmt</token>
+<token>ServiceStack.StringExtensions,Fmt</token>
+</entry>
 <entry count="1">
 <token>ServiceStack.StringExtensions,AppendPath</token>
 <token>ServiceStack.StringExtensions,ToUtf8Bytes</token>
@@ -1016,7 +1067,7 @@
 <token>ServiceStack.HttpUtils,GetStringFromUrl</token>
 <token>ServiceStack.StringExtensions,FromJson</token>
 </entry>
-<entry count="20">
+<entry count="3200">
 <token>ServiceStack.HttpUtils,PostToUrl</token>
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
@@ -1064,7 +1115,7 @@
 <token>ServiceStack.HttpUtils,GetJsonFromUrl</token>
 <token>ServiceStack.StringExtensions,FromJson</token>
 </entry>
-<entry count="1488">
+<entry count="673616">
 <token>ServiceStack.ListExtensions,Join</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.ListExtensions,Join</token>
@@ -1075,6 +1126,13 @@
 <token>ServiceStack.RequestExtensions,GetHeader</token>
 <token>ServiceStack.StreamExt,Compress</token>
 <token>ServiceStack.CompressedResult,new</token>
+</entry>
+<entry count="11520">
+<token>ServiceStack.StringExtensions,UrlEncode</token>
+<token>ServiceStack.StringExtensions,Fmt</token>
+<token>ServiceStack.HttpUtils,GetStringFromUrl</token>
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+<token>ServiceStack.StringExtensions,UrlEncode</token>
 </entry>
 <entry count="1">
 <token>ServiceStack.StringExtensions,ToJson</token>
@@ -1088,9 +1146,15 @@
 <token>ServiceStack.MimeTypes,GetMimeType</token>
 <token>ServiceStack.StringExtensions,NormalizeNewLines</token>
 </entry>
-<entry count="2">
+<entry count="16">
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.HttpUtils,AddQueryParam</token>
+</entry>
+<entry count="10144">
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+<token>ServiceStack.StringExtensions,UrlEncode</token>
+<token>ServiceStack.StringExtensions,Fmt</token>
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 </entry>
 <entry count="1">
 <token>ServiceStack.ListExtensions,Join</token>
@@ -1098,7 +1162,7 @@
 <token>ServiceStack.MapExtensions,Join</token>
 <token>ServiceStack.ListExtensions,Join</token>
 </entry>
-<entry count="4096">
+<entry count="156">
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.StringExtensions,FromJsv</token>
 </entry>
@@ -1106,7 +1170,7 @@
 <token>ServiceStack.PlatformExtensions,AddAttributes</token>
 <token>ServiceStack.PlatformExtensions,AllAttributes</token>
 </entry>
-<entry count="16">
+<entry count="32">
 <token>ServiceStack.StringExtensions,StartsWithIgnoreCase</token>
 <token>ServiceStack.StringExtensions,StartsWithIgnoreCase</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
@@ -1130,7 +1194,7 @@
 <token>ServiceStack.StringExtensions,UrlEncode</token>
 <token>ServiceStack.HttpUtils,PostStringToUrl</token>
 </entry>
-<entry count="2592">
+<entry count="309176">
 <token>ServiceStack.StringExtensions,SplitOnFirst</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 </entry>
@@ -1166,10 +1230,6 @@
 <token>ServiceStack.HttpUtils,GetStringFromUrl</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 </entry>
-<entry count="39936">
-<token>ServiceStack.PlatformExtensions,IsGenericType</token>
-<token>ServiceStack.PlatformExtensions,IsGenericType</token>
-</entry>
 <entry count="1">
 <token>ServiceStack.StringExtensions,SplitOnFirst</token>
 <token>ServiceStack.StringExtensions,SplitOnFirst</token>
@@ -1181,17 +1241,11 @@
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 </entry>
-<entry count="39936">
-<token>ServiceStack.ReflectionExtensions,HasInterface</token>
-<token>ServiceStack.ReflectionExtensions,GetSerializableProperties</token>
-<token>ServiceStack.PlatformExtensions,IsGenericType</token>
-<token>ServiceStack.PlatformExtensions,IsGenericType</token>
-</entry>
 <entry count="4">
 <token>ServiceStack.ReflectionExtensions,FirstGenericType</token>
 <token>ServiceStack.ReflectionExtensions,IsOrHasGenericInterfaceTypeOf</token>
 </entry>
-<entry count="208">
+<entry count="69376">
 <token>ServiceStack.StringExtensions,UrlEncode</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.HttpUtils,GetStringFromUrl</token>
@@ -1209,7 +1263,7 @@
 <token>ServiceStack.StringExtensions,FromJson</token>
 <token>ServiceStack.PathUtils,CombineWith</token>
 </entry>
-<entry count="16">
+<entry count="32">
 <token>ServiceStack.StringExtensions,StartsWithIgnoreCase</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 </entry>
@@ -1223,6 +1277,13 @@
 <token>ServiceStack.ReflectionExtensions,IsOrHasGenericInterfaceTypeOf</token>
 <token>ServiceStack.PlatformExtensions,AllAttributes</token>
 </entry>
+<entry count="288">
+<token>ServiceStack.StringExtensions,Fmt</token>
+<token>ServiceStack.HttpUtils,PostStringToUrl</token>
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+<token>ServiceStack.StringExtensions,UrlEncode</token>
+<token>ServiceStack.StringExtensions,Fmt</token>
+</entry>
 <entry count="2">
 <token>ServiceStack.ArrayOfString,new</token>
 <token>ServiceStack.AutoMappingUtils,ConvertTo</token>
@@ -1231,7 +1292,7 @@
 <token>ServiceStack.IRestClient,Get</token>
 <token>ServiceStack.StringExtensions,FromUtf8Bytes</token>
 </entry>
-<entry count="2">
+<entry count="6">
 <token>ServiceStack.ServiceStackHost,GetRouteAttributes</token>
 <token>ServiceStack.RouteAttribute,new</token>
 <token>ServiceStack.RouteAttribute,new</token>
@@ -1245,6 +1306,13 @@
 <token>ServiceStack.PathUtils,MapProjectPath</token>
 <token>ServiceStack.MimeTypes,GetMimeType</token>
 <token>ServiceStack.MimeTypes,GetMimeType</token>
+</entry>
+<entry count="288">
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+<token>ServiceStack.StringExtensions,Fmt</token>
+<token>ServiceStack.StringExtensions,Fmt</token>
+<token>ServiceStack.HttpUtils,PostStringToUrl</token>
 </entry>
 <entry count="13">
 <token>ServiceStack.HttpUtils,AddQueryParam</token>
@@ -1265,14 +1333,14 @@
 <token>ServiceStack.StringExtensions,NormalizeNewLines</token>
 <token>ServiceStack.StringExtensions,NormalizeNewLines</token>
 </entry>
-<entry count="28">
+<entry count="4928">
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.StringExtensions,UrlEncode</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.StringExtensions,UrlEncode</token>
 </entry>
-<entry count="1024">
+<entry count="2816">
 <token>ServiceStack.StringExtensions,EndsWithIgnoreCase</token>
 <token>ServiceStack.StringExtensions,WithoutExtension</token>
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
@@ -1300,18 +1368,25 @@
 <token>ServiceStack.StringExtensions,UrlEncode</token>
 <token>ServiceStack.HttpUtils,GetStringFromUrl</token>
 </entry>
-<entry count="96">
+<entry count="23040">
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.HttpUtils,GetStringFromUrl</token>
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
+</entry>
+<entry count="384">
+<token>ServiceStack.ListExtensions,Join</token>
+<token>ServiceStack.StringExtensions,Fmt</token>
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+<token>ServiceStack.StringExtensions,UrlEncode</token>
+<token>ServiceStack.ListExtensions,Join</token>
 </entry>
 <entry count="1">
 <token>ServiceStack.PathUtils,MapHostAbsolutePath</token>
 <token>ServiceStack.HttpUtils,ReadToEnd</token>
 <token>ServiceStack.MimeTypes,GetMimeType</token>
 </entry>
-<entry count="16">
+<entry count="576">
 <token>ServiceStack.HttpUtils,PostStringToUrl</token>
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
@@ -1335,12 +1410,12 @@
 <token>ServiceStack.ResponseStatus,new</token>
 <token>ServiceStack.ResponseError,new</token>
 </entry>
-<entry count="16">
+<entry count="864">
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.HttpUtils,PostStringToUrl</token>
 </entry>
-<entry count="73168">
+<entry count="7406432">
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 </entry>
@@ -1348,6 +1423,13 @@
 <token>ServiceStack.RequestAttributesExtensions,IsLocalhost</token>
 <token>ServiceStack.RequestAttributesExtensions,IsLocalSubnet</token>
 <token>ServiceStack.RestrictAttribute,CanShowTo</token>
+</entry>
+<entry count="576">
+<token>ServiceStack.StringExtensions,Fmt</token>
+<token>ServiceStack.HttpUtils,PostToUrl</token>
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+<token>ServiceStack.StringExtensions,UrlEncode</token>
+<token>ServiceStack.StringExtensions,Fmt</token>
 </entry>
 <entry count="16">
 <token>ServiceStack.RequestExtensions,GetCompressionType</token>
@@ -1357,11 +1439,16 @@
 <token>ServiceStack.IRestClient,Post</token>
 <token>ServiceStack.IRestClient,Post</token>
 </entry>
-<entry count="1440">
+<entry count="28512">
 <token>ServiceStack.HttpResponseExtensions,RedirectToUrl</token>
 <token>ServiceStack.HttpResponseExtensions,RedirectToUrl</token>
 <token>ServiceStack.HttpHandlerFactory,GetHandler</token>
 <token>ServiceStack.TaskExt,AsTaskException</token>
+</entry>
+<entry count="10144">
+<token>ServiceStack.StringExtensions,UrlEncode</token>
+<token>ServiceStack.StringExtensions,Fmt</token>
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 </entry>
 <entry count="9">
 <token>ServiceStack.PathUtils,MapProjectPath</token>
@@ -1371,12 +1458,12 @@
 <token>ServiceStack.RestrictAttribute,CanShowTo</token>
 <token>ServiceStack.RequestAttributesExtensions,IsLocalSubnet</token>
 </entry>
-<entry count="2048">
+<entry count="5808">
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.StringExtensions,ToJsv</token>
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 </entry>
-<entry count="52">
+<entry count="17344">
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.StringExtensions,UrlEncode</token>
@@ -1402,9 +1489,33 @@
 <token>ServiceStack.RestrictExtensions,ToAllowedFlagsSet</token>
 <token>ServiceStack.RestrictExtensions,ToAllowedFlagsSet</token>
 </entry>
+<entry count="64">
+<token>ServiceStack.StringExtensions,Fmt</token>
+<token>ServiceStack.StringExtensions,Fmt</token>
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+<token>ServiceStack.StringExtensions,Fmt</token>
+</entry>
 <entry count="2">
 <token>ServiceStack.PlatformExtensions,AddAttributes</token>
 <token>ServiceStack.RestrictAttribute,new</token>
+</entry>
+<entry count="288">
+<token>ServiceStack.StringExtensions,Fmt</token>
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+<token>ServiceStack.StringExtensions,Fmt</token>
+<token>ServiceStack.StringExtensions,Fmt</token>
+<token>ServiceStack.HttpUtils,PostStringToUrl</token>
+</entry>
+<entry count="24256">
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+<token>ServiceStack.StringExtensions,Fmt</token>
+<token>ServiceStack.StringExtensions,UrlEncode</token>
+<token>ServiceStack.StringExtensions,Fmt</token>
+</entry>
+<entry count="2304">
+<token>ServiceStack.ListExtensions,Join</token>
+<token>ServiceStack.StringExtensions,Fmt</token>
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 </entry>
 <entry count="2">
 <token>ServiceStack.StringExtensions,Fmt</token>
@@ -1421,11 +1532,11 @@
 <token>ServiceStack.ArrayOfString,new</token>
 <token>ServiceStack.ArrayOfString,new</token>
 </entry>
-<entry count="3852">
+<entry count="44064">
 <token>ServiceStack.HttpResponseExtensions,RedirectToUrl</token>
 <token>ServiceStack.HttpResponseExtensions,RedirectToUrl</token>
 </entry>
-<entry count="3552">
+<entry count="850528">
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
@@ -1440,7 +1551,7 @@
 <token>ServiceStack.RestrictAttribute,CanShowTo</token>
 <token>ServiceStack.RestrictAttribute,CanShowTo</token>
 </entry>
-<entry count="15">
+<entry count="21">
 <token>ServiceStack.IReplyClient,Send</token>
 <token>ServiceStack.IReplyClient,Send</token>
 </entry>
@@ -1448,32 +1559,26 @@
 <token>ServiceStack.IRestClient,SetCookie</token>
 <token>ServiceStack.IRestClient,SetCookie</token>
 </entry>
-<entry count="768">
+<entry count="2592">
 <token>ServiceStack.HttpResponseExtensions,RedirectToUrl</token>
 <token>ServiceStack.HttpResponseExtensions,RedirectToUrl</token>
 <token>ServiceStack.HttpResponseExtensions,RedirectToUrl</token>
 <token>ServiceStack.HttpResponseExtensions,RedirectToUrl</token>
 <token>ServiceStack.HttpHandlerFactory,GetHandler</token>
 </entry>
-<entry count="2048">
+<entry count="1764">
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.StringExtensions,ToJsv</token>
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 </entry>
-<entry count="19968">
-<token>ServiceStack.PlatformExtensions,GetCollectionType</token>
-<token>ServiceStack.ReflectionExtensions,HasInterface</token>
-<token>ServiceStack.StringExtensions,IsUserType</token>
-<token>ServiceStack.ReflectionExtensions,HasInterface</token>
-</entry>
-<entry count="1">
+<entry count="48">
 <token>ServiceStack.ICompressor,Compress</token>
 <token>ServiceStack.ICompressor,Compress</token>
 <token>ServiceStack.ICompressor,Compress</token>
 </entry>
-<entry count="16">
+<entry count="32">
 <token>ServiceStack.StringExtensions,StartsWithIgnoreCase</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
@@ -1508,11 +1613,11 @@
 <token>ServiceStack.StringExtensions,SplitOnFirst</token>
 <token>ServiceStack.StringExtensions,SplitOnFirst</token>
 </entry>
-<entry count="1">
+<entry count="4">
 <token>ServiceStack.LicenseUtils,RegisterLicense</token>
 <token>ServiceStack.LicenseUtils,RegisterLicense</token>
 </entry>
-<entry count="1440">
+<entry count="28512">
 <token>ServiceStack.HttpResponseExtensions,RedirectToUrl</token>
 <token>ServiceStack.HttpResponseExtensions,RedirectToUrl</token>
 <token>ServiceStack.HttpHandlerFactory,GetHandler</token>
@@ -1525,7 +1630,7 @@
 <token>ServiceStack.PathUtils,MapHostAbsolutePath</token>
 <token>ServiceStack.MimeTypes,GetMimeType</token>
 </entry>
-<entry count="64">
+<entry count="6912">
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.StringExtensions,UrlEncode</token>
 <token>ServiceStack.ListExtensions,Join</token>
@@ -1533,6 +1638,13 @@
 <entry count="1">
 <token>ServiceStack.IReplyClient,SendAll</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
+</entry>
+<entry count="26">
+<token>ServiceStack.StringExtensions,ToJsv</token>
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+<token>ServiceStack.StringExtensions,ToJsv</token>
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+<token>ServiceStack.StringExtensions,ToJsv</token>
 </entry>
 <entry count="1">
 <token>ServiceStack.IRestClient,Get</token>
@@ -1545,12 +1657,19 @@
 <token>ServiceStack.StringExtensions,EqualsIgnoreCase</token>
 <token>ServiceStack.StringExtensions,EqualsIgnoreCase</token>
 </entry>
-<entry count="3936">
+<entry count="23104">
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+<token>ServiceStack.StringExtensions,Fmt</token>
+<token>ServiceStack.StringExtensions,UrlEncode</token>
+<token>ServiceStack.StringExtensions,Fmt</token>
+<token>ServiceStack.HttpUtils,GetStringFromUrl</token>
+</entry>
+<entry count="883296">
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.ListExtensions,Join</token>
 </entry>
-<entry count="2">
+<entry count="16">
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.HttpUtils,AddQueryParam</token>
 <token>ServiceStack.HttpUtils,AddQueryParam</token>
@@ -1574,16 +1693,30 @@
 <token>ServiceStack.StringExtensions,ContainsAny</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 </entry>
-<entry count="192">
+<entry count="441">
+<token>ServiceStack.StringExtensions,ToJsv</token>
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+<token>ServiceStack.StringExtensions,ToJsv</token>
+</entry>
+<entry count="66784">
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.StringExtensions,UrlEncode</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 </entry>
-<entry count="96">
+<entry count="15504">
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.StringExtensions,UrlEncode</token>
+<token>ServiceStack.StringExtensions,Fmt</token>
+</entry>
+<entry count="2304">
+<token>ServiceStack.HttpUtils,GetStringFromUrl</token>
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+<token>ServiceStack.StringExtensions,UrlEncode</token>
+<token>ServiceStack.ListExtensions,Join</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 </entry>
 <entry count="4">
@@ -1596,14 +1729,14 @@
 <token>ServiceStack.StringExtensions,ToJson</token>
 <token>ServiceStack.IRestClient,Post</token>
 </entry>
-<entry count="64">
+<entry count="2304">
 <token>ServiceStack.ListExtensions,Join</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.StringExtensions,UrlEncode</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.HttpUtils,GetStringFromUrl</token>
 </entry>
-<entry count="44452">
+<entry count="5796232">
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
@@ -1618,7 +1751,7 @@
 <token>ServiceStack.PathUtils,MapProjectPath</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 </entry>
-<entry count="384">
+<entry count="320">
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.StringExtensions,SplitOnFirst</token>
@@ -1628,7 +1761,7 @@
 <token>ServiceStack.ReflectionExtensions,GetTypeWithGenericTypeDefinitionOf</token>
 <token>ServiceStack.ReflectionExtensions,GetDataContract</token>
 </entry>
-<entry count="2064">
+<entry count="209680">
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.StringExtensions,Join</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
@@ -1639,17 +1772,17 @@
 <token>ServiceStack.MimeTypes,GetMimeType</token>
 <token>ServiceStack.HttpUtils,GetStringFromUrl</token>
 </entry>
-<entry count="8">
+<entry count="16">
 <token>ServiceStack.PlatformExtensions,AllAttributes</token>
 <token>ServiceStack.PlatformExtensions,AllAttributes</token>
 <token>ServiceStack.PlatformExtensions,AllAttributes</token>
 <token>ServiceStack.LicenseUtils,AssertValidUsage</token>
 </entry>
-<entry count="16">
+<entry count="664">
 <token>ServiceStack.PathUtils,CombineWith</token>
 <token>ServiceStack.PathUtils,CombineWith</token>
 </entry>
-<entry count="1024">
+<entry count="2816">
 <token>ServiceStack.StringExtensions,WithoutExtension</token>
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.PathUtils,CombineWith</token>
@@ -1671,11 +1804,6 @@
 <token>ServiceStack.QueryFieldAttribute,new</token>
 <token>ServiceStack.QueryFieldAttribute,new</token>
 </entry>
-<entry count="59904">
-<token>ServiceStack.ReflectionExtensions,HasInterface</token>
-<token>ServiceStack.StringExtensions,IsUserType</token>
-<token>ServiceStack.ReflectionExtensions,HasInterface</token>
-</entry>
 <entry count="1">
 <token>ServiceStack.StringExtensions,StripHtml</token>
 <token>ServiceStack.StringExtensions,StripHtml</token>
@@ -1686,10 +1814,15 @@
 <token>ServiceStack.AutoMappingUtils,GetDefaultValue</token>
 <token>ServiceStack.PlatformExtensions,IsEnum</token>
 </entry>
-<entry count="72">
+<entry count="288">
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.AutoMappingUtils,ConvertTo</token>
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+</entry>
+<entry count="24256">
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+<token>ServiceStack.StringExtensions,Fmt</token>
+<token>ServiceStack.StringExtensions,UrlEncode</token>
 </entry>
 <entry count="2">
 <token>ServiceStack.HttpUtils,GetStringFromUrlAsync</token>
@@ -1713,7 +1846,7 @@
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.HttpUtils,GetJsonFromUrl</token>
 </entry>
-<entry count="2448">
+<entry count="210000">
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.StringExtensions,SplitOnFirst</token>
 </entry>
@@ -1723,11 +1856,17 @@
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.HttpUtils,GetStringFromUrl</token>
 </entry>
+<entry count="64">
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+<token>ServiceStack.StringExtensions,SplitOnFirst</token>
+<token>ServiceStack.StringExtensions,Fmt</token>
+<token>ServiceStack.StringExtensions,Fmt</token>
+</entry>
 <entry count="4">
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.PathUtils,MapAbsolutePath</token>
 </entry>
-<entry count="32">
+<entry count="3456">
 <token>ServiceStack.StringExtensions,UrlEncode</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.HttpUtils,PostToUrl</token>
@@ -1751,11 +1890,11 @@
 <token>ServiceStack.PathUtils,CombineWith</token>
 <token>ServiceStack.StreamExtensions,ReadFully</token>
 </entry>
-<entry count="672">
+<entry count="1344">
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.StringExtensions,EndsWithIgnoreCase</token>
 </entry>
-<entry count="40">
+<entry count="9280">
 <token>ServiceStack.StringExtensions,UrlEncode</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.StringExtensions,UrlEncode</token>
@@ -1766,7 +1905,7 @@
 <token>ServiceStack.StringExtensions,EqualsIgnoreCase</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 </entry>
-<entry count="32">
+<entry count="768">
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
@@ -1788,7 +1927,7 @@
 <token>ServiceStack.StreamExtensions,ReadFully</token>
 <token>ServiceStack.StringExtensions,FromUtf8Bytes</token>
 </entry>
-<entry count="64">
+<entry count="2304">
 <token>ServiceStack.StringExtensions,UrlEncode</token>
 <token>ServiceStack.ListExtensions,Join</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
@@ -1806,13 +1945,20 @@
 <token>ServiceStack.ReflectionExtensions,GetSerializableProperties</token>
 <token>ServiceStack.PlatformExtensions,FirstAttribute</token>
 </entry>
-<entry count="8048">
+<entry count="1727664">
 <token>ServiceStack.ListExtensions,Join</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 </entry>
 <entry count="84">
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.PlatformExtensions,AllAttributes</token>
+</entry>
+<entry count="320">
+<token>ServiceStack.StringExtensions,SplitOnFirst</token>
+<token>ServiceStack.StringExtensions,Fmt</token>
+<token>ServiceStack.StringExtensions,Fmt</token>
+<token>ServiceStack.StringExtensions,SplitOnFirst</token>
+<token>ServiceStack.StringExtensions,Fmt</token>
 </entry>
 <entry count="2">
 <token>ServiceStack.PathUtils,CombineWith</token>
@@ -1821,7 +1967,7 @@
 <token>ServiceStack.PathUtils,CombineWith</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 </entry>
-<entry count="1536">
+<entry count="41472">
 <token>ServiceStack.HttpHandlerFactory,GetHandler</token>
 <token>ServiceStack.TaskExt,AsTaskException</token>
 </entry>
@@ -1831,7 +1977,7 @@
 <token>ServiceStack.PathUtils,CombineWith</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 </entry>
-<entry count="2048">
+<entry count="3612">
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.StringExtensions,ToJsv</token>
@@ -1854,7 +2000,7 @@
 <token>ServiceStack.MimeTypes,GetMimeType</token>
 <token>ServiceStack.StringExtensions,NormalizeNewLines</token>
 </entry>
-<entry count="192">
+<entry count="69120">
 <token>ServiceStack.HttpUtils,GetStringFromUrl</token>
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 </entry>
@@ -1863,13 +2009,25 @@
 <token>ServiceStack.StringExtensions,To</token>
 <token>ServiceStack.StringExtensions,To</token>
 </entry>
+<entry count="1152">
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+<token>ServiceStack.StringExtensions,Fmt</token>
+<token>ServiceStack.StringExtensions,UrlEncode</token>
+<token>ServiceStack.StringExtensions,Fmt</token>
+<token>ServiceStack.HttpUtils,PostToUrl</token>
+</entry>
 <entry count="336">
 <token>ServiceStack.ReflectionExtensions,HasInterface</token>
 <token>ServiceStack.ReflectionExtensions,GetTypeWithInterfaceOf</token>
 <token>ServiceStack.ReflectionExtensions,GetTypeWithGenericTypeDefinitionOf</token>
 <token>ServiceStack.ReflectionExtensions,GetDataContract</token>
 </entry>
-<entry count="4096">
+<entry count="2">
+<token>ServiceStack.StringExtensions,FromJsv</token>
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+<token>ServiceStack.StringExtensions,FromJsv</token>
+</entry>
+<entry count="15796">
 <token>ServiceStack.StringExtensions,ToJsv</token>
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
@@ -1878,31 +2036,31 @@
 <token>ServiceStack.PlatformExtensions,AddAttributes</token>
 <token>ServiceStack.RouteAttribute,new</token>
 </entry>
-<entry count="265">
+<entry count="69681">
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.HttpUtils,GetStringFromUrl</token>
 </entry>
-<entry count="2064">
+<entry count="209680">
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.StringExtensions,Join</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.StringExtensions,SplitOnFirst</token>
 </entry>
-<entry count="96">
+<entry count="23040">
 <token>ServiceStack.StringExtensions,UrlEncode</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.HttpUtils,GetStringFromUrl</token>
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 </entry>
-<entry count="16">
+<entry count="1728">
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.StringExtensions,UrlEncode</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.HttpUtils,PostToUrl</token>
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 </entry>
-<entry count="1104">
+<entry count="640848">
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.ListExtensions,Join</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
@@ -1919,16 +2077,17 @@
 <token>ServiceStack.StringExtensions,EqualsIgnoreCase</token>
 <token>ServiceStack.StringExtensions,EqualsIgnoreCase</token>
 </entry>
-<entry count="49920">
-<token>ServiceStack.StringExtensions,IsUserType</token>
-<token>ServiceStack.ReflectionExtensions,HasInterface</token>
-<token>ServiceStack.ReflectionExtensions,GetSerializableProperties</token>
-<token>ServiceStack.PlatformExtensions,IsGenericType</token>
-</entry>
-<entry count="1024">
+<entry count="2816">
 <token>ServiceStack.StringExtensions,WithoutExtension</token>
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.PathUtils,CombineWith</token>
+</entry>
+<entry count="176">
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+<token>ServiceStack.StringExtensions,ToJsv</token>
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+<token>ServiceStack.StringExtensions,ToJsv</token>
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 </entry>
 <entry count="4">
 <token>ServiceStack.PlatformExtensions,GetPropertyInfo</token>
@@ -1939,10 +2098,22 @@
 <token>ServiceStack.PathUtils,MapProjectPath</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 </entry>
+<entry count="4">
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+<token>ServiceStack.StringExtensions,FromJsv</token>
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+</entry>
 <entry count="3">
 <token>ServiceStack.IReplyClient,Send</token>
 <token>ServiceStack.IRestClient,GetCookieValues</token>
 <token>ServiceStack.IReplyClient,Send</token>
+</entry>
+<entry count="64">
+<token>ServiceStack.StringExtensions,SplitOnFirst</token>
+<token>ServiceStack.StringExtensions,Fmt</token>
+<token>ServiceStack.StringExtensions,Fmt</token>
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+<token>ServiceStack.StringExtensions,Fmt</token>
 </entry>
 <entry count="84">
 <token>ServiceStack.StringExtensions,UrlEncode</token>
@@ -1955,7 +2126,14 @@
 <token>ServiceStack.MimeTypes,GetMimeType</token>
 <token>ServiceStack.StringExtensions,EqualsIgnoreCase</token>
 </entry>
-<entry count="1792">
+<entry count="8">
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+<token>ServiceStack.StringExtensions,Fmt</token>
+<token>ServiceStack.StringExtensions,Fmt</token>
+<token>ServiceStack.StringExtensions,Fmt</token>
+</entry>
+<entry count="98304">
 <token>ServiceStack.ListExtensions,Join</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.ListExtensions,Join</token>
@@ -1981,11 +2159,23 @@
 <token>ServiceStack.StringExtensions,ToJson</token>
 <token>ServiceStack.IRestClient,Post</token>
 </entry>
+<entry count="11520">
+<token>ServiceStack.StringExtensions,Fmt</token>
+<token>ServiceStack.HttpUtils,GetStringFromUrl</token>
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+<token>ServiceStack.StringExtensions,UrlEncode</token>
+</entry>
 <entry count="2">
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.HttpUtils,OptionsFromUrl</token>
 </entry>
-<entry count="384">
+<entry count="660">
+<token>ServiceStack.StringExtensions,ToJsv</token>
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+<token>ServiceStack.StringExtensions,ToJsv</token>
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+</entry>
+<entry count="32768">
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.ListExtensions,Join</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
@@ -1996,18 +2186,18 @@
 <token>ServiceStack.RequestAttributesExtensions,ToSoapFeature</token>
 <token>ServiceStack.RequestAttributesExtensions,ToFormat</token>
 </entry>
-<entry count="8">
+<entry count="116">
 <token>ServiceStack.PathUtils,CombineWith</token>
 <token>ServiceStack.PathUtils,CombineWith</token>
 <token>ServiceStack.PathUtils,CombineWith</token>
 </entry>
-<entry count="16">
+<entry count="1728">
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.StringExtensions,UrlEncode</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.HttpUtils,PostToUrl</token>
 </entry>
-<entry count="1024">
+<entry count="2816">
 <token>ServiceStack.StringExtensions,WithoutExtension</token>
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 </entry>
@@ -2015,23 +2205,23 @@
 <token>ServiceStack.QueryStringSerializer,SerializeToString</token>
 <token>ServiceStack.MimeTypes,GetMimeType</token>
 </entry>
-<entry count="16">
+<entry count="32">
 <token>ServiceStack.StringExtensions,CountOccurrencesOf</token>
 <token>ServiceStack.StringExtensions,CountOccurrencesOf</token>
 <token>ServiceStack.StringExtensions,CountOccurrencesOf</token>
 </entry>
-<entry count="128">
+<entry count="24432">
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.StringExtensions,UrlEncode</token>
 </entry>
-<entry count="8">
+<entry count="432">
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.HttpUtils,PostStringToUrl</token>
 </entry>
-<entry count="96">
+<entry count="23280">
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.StringExtensions,UrlEncode</token>
@@ -2051,13 +2241,18 @@
 <token>ServiceStack.ArrayOfString,new</token>
 <token>ServiceStack.AutoMappingUtils,ConvertTo</token>
 </entry>
-<entry count="4096">
+<entry count="15250">
 <token>ServiceStack.StringExtensions,ToJsv</token>
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 </entry>
-<entry count="224">
+<entry count="4">
+<token>ServiceStack.StringExtensions,ToUtf8Bytes</token>
+<token>ServiceStack.StringExtensions,ToUtf8Bytes</token>
+<token>ServiceStack.StringExtensions,ToUtf8Bytes</token>
+</entry>
+<entry count="448">
 <token>ServiceStack.StringExtensions,WithTrailingSlash</token>
 <token>ServiceStack.StringExtensions,EndsWithIgnoreCase</token>
 <token>ServiceStack.StringExtensions,WithoutExtension</token>
@@ -2073,7 +2268,7 @@
 <token>ServiceStack.StreamExtensions,Combine</token>
 <token>ServiceStack.StringExtensions,SplitOnFirst</token>
 </entry>
-<entry count="8">
+<entry count="16">
 <token>ServiceStack.PlatformExtensions,FirstAttribute</token>
 <token>ServiceStack.PlatformExtensions,FirstAttribute</token>
 <token>ServiceStack.PlatformExtensions,AllAttributes</token>
@@ -2088,12 +2283,11 @@
 <token>ServiceStack.PathUtils,MapAbsolutePath</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 </entry>
-<entry count="384">
-<token>ServiceStack.StringExtensions,Join</token>
-<token>ServiceStack.StringExtensions,Fmt</token>
-<token>ServiceStack.StringExtensions,Fmt</token>
-<token>ServiceStack.StringExtensions,SplitOnFirst</token>
-<token>ServiceStack.StringExtensions,Fmt</token>
+<entry count="2">
+<token>ServiceStack.HttpUtils,AddQueryParam</token>
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+<token>ServiceStack.HttpUtils,AddQueryParam</token>
+<token>ServiceStack.HttpUtils,AddQueryParam</token>
 </entry>
 <entry count="16">
 <token>ServiceStack.StringExtensions,FromJson</token>
@@ -2116,7 +2310,7 @@
 <token>ServiceStack.PathUtils,MapProjectPath</token>
 <token>ServiceStack.PathUtils,MapProjectPath</token>
 </entry>
-<entry count="3304">
+<entry count="772808">
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
@@ -2125,7 +2319,7 @@
 <token>ServiceStack.AutoMappingUtils,ConvertTo</token>
 <token>ServiceStack.ArrayOfString,new</token>
 </entry>
-<entry count="104">
+<entry count="34688">
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.StringExtensions,UrlEncode</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
@@ -2141,7 +2335,7 @@
 <token>ServiceStack.StringExtensions,FromJson</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 </entry>
-<entry count="224">
+<entry count="448">
 <token>ServiceStack.StringExtensions,WithTrailingSlash</token>
 <token>ServiceStack.StringExtensions,EndsWithIgnoreCase</token>
 <token>ServiceStack.StringExtensions,WithoutExtension</token>
@@ -2154,7 +2348,7 @@
 <token>ServiceStack.StringExtensions,NormalizeNewLines</token>
 <token>ServiceStack.StringExtensions,NormalizeNewLines</token>
 </entry>
-<entry count="204">
+<entry count="212">
 <token>ServiceStack.PlatformExtensions,AllAttributes</token>
 <token>ServiceStack.PlatformExtensions,AllAttributes</token>
 <token>ServiceStack.PlatformExtensions,AllAttributes</token>
@@ -2228,7 +2422,7 @@
 <token>ServiceStack.PathUtils,CombineWith</token>
 <token>ServiceStack.HttpUtils,GetJsonFromUrl</token>
 </entry>
-<entry count="3288">
+<entry count="772024">
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
@@ -2252,7 +2446,14 @@
 <token>ServiceStack.RestrictExtensions,ToAllowedFlagsSet</token>
 <token>ServiceStack.RestrictExtensions,ToAllowedFlagsSet</token>
 </entry>
-<entry count="16">
+<entry count="8">
+<token>ServiceStack.RouteAttribute,new</token>
+<token>ServiceStack.RouteAttribute,new</token>
+<token>ServiceStack.RouteAttribute,new</token>
+<token>ServiceStack.RouteAttribute,new</token>
+<token>ServiceStack.RouteAttribute,new</token>
+</entry>
+<entry count="288">
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.StringExtensions,UrlEncode</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
@@ -2263,10 +2464,6 @@
 <token>ServiceStack.StreamExt,Compress</token>
 <token>ServiceStack.CompressedResult,new</token>
 </entry>
-<entry count="59904">
-<token>ServiceStack.StringExtensions,IsUserType</token>
-<token>ServiceStack.ReflectionExtensions,HasInterface</token>
-</entry>
 <entry count="1">
 <token>ServiceStack.IRestClient,SetCookie</token>
 <token>ServiceStack.IRestClient,SetCookie</token>
@@ -2276,23 +2473,19 @@
 <token>ServiceStack.StringExtensions,SplitOnFirst</token>
 <token>ServiceStack.ReflectionExtensions,HasGenericType</token>
 </entry>
-<entry count="384">
+<entry count="32768">
 <token>ServiceStack.ListExtensions,Join</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.ListExtensions,Join</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 </entry>
-<entry count="656">
+<entry count="111376">
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.ListExtensions,Join</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.StringExtensions,Join</token>
-</entry>
-<entry count="49920">
-<token>ServiceStack.ReflectionExtensions,HasInterface</token>
-<token>ServiceStack.ReflectionExtensions,GetSerializableProperties</token>
 </entry>
 <entry count="32">
 <token>ServiceStack.PlatformExtensions,FirstAttribute</token>
@@ -2301,7 +2494,7 @@
 <token>ServiceStack.PlatformExtensions,IsEnum</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 </entry>
-<entry count="32">
+<entry count="1728">
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.HttpUtils,PostStringToUrl</token>
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
@@ -2328,17 +2521,17 @@
 <token>ServiceStack.HttpUtils,GetStringFromUrl</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 </entry>
-<entry count="2048">
+<entry count="3696">
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.StringExtensions,ToJsv</token>
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 </entry>
-<entry count="251">
+<entry count="259">
 <token>ServiceStack.PlatformExtensions,FirstAttribute</token>
 <token>ServiceStack.PlatformExtensions,FirstAttribute</token>
 </entry>
-<entry count="24">
+<entry count="48">
 <token>ServiceStack.RestrictAttribute,HasAccessTo</token>
 <token>ServiceStack.RestrictAttribute,HasAccessTo</token>
 </entry>
@@ -2368,10 +2561,20 @@
 <token>ServiceStack.StringExtensions,UrlEncode</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 </entry>
+<entry count="576">
+<token>ServiceStack.HttpUtils,PostToUrl</token>
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+<token>ServiceStack.StringExtensions,UrlEncode</token>
+</entry>
 <entry count="19">
 <token>ServiceStack.HttpUtils,AddQueryParam</token>
 <token>ServiceStack.HttpUtils,AddQueryParam</token>
 <token>ServiceStack.HttpUtils,AddQueryParam</token>
+</entry>
+<entry count="68">
+<token>ServiceStack.StringExtensions,Fmt</token>
+<token>ServiceStack.StringExtensions,Fmt</token>
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 </entry>
 <entry count="256">
 <token>ServiceStack.PlatformExtensions,HasAttribute</token>
@@ -2381,7 +2584,7 @@
 <token>ServiceStack.StringExtensions,Join</token>
 <token>ServiceStack.MapExtensions,Join</token>
 </entry>
-<entry count="56">
+<entry count="9856">
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.StringExtensions,UrlEncode</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
@@ -2392,6 +2595,12 @@
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.HttpUtils,GetJsonFromUrl</token>
 <token>ServiceStack.StringExtensions,FromJson</token>
+</entry>
+<entry count="6624">
+<token>ServiceStack.StringExtensions,UrlEncode</token>
+<token>ServiceStack.StringExtensions,Fmt</token>
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+<token>ServiceStack.StringExtensions,UrlEncode</token>
 </entry>
 <entry count="1">
 <token>ServiceStack.HttpUtils,AddQueryParam</token>
@@ -2411,42 +2620,23 @@
 <token>ServiceStack.IReplyClient,Send</token>
 <token>ServiceStack.IRestClient,GetCookieValues</token>
 </entry>
-<entry count="456">
-<token>ServiceStack.HttpResponseExtensions,RedirectToUrl</token>
-<token>ServiceStack.HttpResponseExtensions,RedirectToUrl</token>
-<token>ServiceStack.HttpResponseExtensions,RedirectToUrl</token>
-<token>ServiceStack.HttpResponseExtensions,RedirectToUrl</token>
-<token>ServiceStack.HttpResponseExtensions,RedirectToUrl</token>
-</entry>
-<entry count="32">
+<entry count="1152">
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.StringExtensions,UrlEncode</token>
 <token>ServiceStack.ListExtensions,Join</token>
 </entry>
-<entry count="39936">
-<token>ServiceStack.StringExtensions,IsUserType</token>
-<token>ServiceStack.ReflectionExtensions,HasInterface</token>
-<token>ServiceStack.ReflectionExtensions,GetSerializableProperties</token>
-<token>ServiceStack.PlatformExtensions,IsGenericType</token>
-<token>ServiceStack.PlatformExtensions,IsGenericType</token>
-</entry>
-<entry count="2">
+<entry count="14">
 <token>ServiceStack.RouteAttribute,new</token>
 <token>ServiceStack.RouteAttribute,new</token>
 <token>ServiceStack.RouteAttribute,new</token>
 <token>ServiceStack.RouteAttribute,new</token>
-</entry>
-<entry count="49920">
-<token>ServiceStack.ReflectionExtensions,HasInterface</token>
-<token>ServiceStack.ReflectionExtensions,GetSerializableProperties</token>
-<token>ServiceStack.PlatformExtensions,IsGenericType</token>
 </entry>
 <entry count="2">
 <token>ServiceStack.StringExtensions,SafeVarName</token>
 <token>ServiceStack.StringExtensions,SafeVarName</token>
 </entry>
-<entry count="32">
+<entry count="1152">
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.StringExtensions,UrlEncode</token>
@@ -2471,7 +2661,7 @@
 <token>ServiceStack.StringExtensions,UrlEncode</token>
 <token>ServiceStack.StringExtensions,UrlDecode</token>
 </entry>
-<entry count="2">
+<entry count="4">
 <token>ServiceStack.StringExtensions,ToUtf8Bytes</token>
 <token>ServiceStack.TaskUtils,Then</token>
 </entry>
@@ -2479,14 +2669,13 @@
 <token>ServiceStack.QueryFieldAttribute,new</token>
 <token>ServiceStack.PlatformExtensions,AddAttributes</token>
 </entry>
-<entry count="1024">
+<entry count="2816">
 <token>ServiceStack.PathUtils,CombineWith</token>
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 </entry>
-<entry count="49920">
-<token>ServiceStack.StringExtensions,IsUserType</token>
-<token>ServiceStack.ReflectionExtensions,HasInterface</token>
-<token>ServiceStack.ReflectionExtensions,GetSerializableProperties</token>
+<entry count="72">
+<token>ServiceStack.StringExtensions,FromUtf8Bytes</token>
+<token>ServiceStack.StringExtensions,FromUtf8Bytes</token>
 </entry>
 <entry count="1">
 <token>ServiceStack.PathUtils,MapProjectPath</token>
@@ -2500,10 +2689,6 @@
 <token>ServiceStack.StringExtensions,FromUtf8Bytes</token>
 <token>ServiceStack.StringExtensions,FromJson</token>
 </entry>
-<entry count="49920">
-<token>ServiceStack.ReflectionExtensions,GetSerializableProperties</token>
-<token>ServiceStack.PlatformExtensions,IsGenericType</token>
-</entry>
 <entry count="4">
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.PathUtils,MapProjectPath</token>
@@ -2514,7 +2699,7 @@
 <token>ServiceStack.StringExtensions,NormalizeNewLines</token>
 <token>ServiceStack.StringExtensions,NormalizeNewLines</token>
 </entry>
-<entry count="224">
+<entry count="448">
 <token>ServiceStack.StringExtensions,WithTrailingSlash</token>
 <token>ServiceStack.StringExtensions,EndsWithIgnoreCase</token>
 <token>ServiceStack.StringExtensions,WithoutExtension</token>
@@ -2532,12 +2717,18 @@
 <token>ServiceStack.PlatformExtensions,AddAttributes</token>
 <token>ServiceStack.PlatformExtensions,AddAttributes</token>
 </entry>
-<entry count="58704">
+<entry count="6581412">
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 </entry>
-<entry count="8">
+<entry count="1536">
+<token>ServiceStack.ListExtensions,Join</token>
+<token>ServiceStack.StringExtensions,Fmt</token>
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+<token>ServiceStack.StringExtensions,UrlEncode</token>
+</entry>
+<entry count="12912">
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
@@ -2557,26 +2748,33 @@
 <token>ServiceStack.HttpUtils,AddQueryParam</token>
 <token>ServiceStack.HttpUtils,AddQueryParam</token>
 </entry>
+<entry count="634">
+<token>ServiceStack.StringExtensions,ToJsv</token>
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+<token>ServiceStack.StringExtensions,ToJsv</token>
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+</entry>
 <entry count="2">
 <token>ServiceStack.HttpUtils,AddQueryParam</token>
 <token>ServiceStack.HttpUtils,PostJsonToUrl</token>
 </entry>
-<entry count="1524">
+<entry count="38880">
 <token>ServiceStack.HttpResponseExtensions,RedirectToUrl</token>
 <token>ServiceStack.HttpHandlerFactory,GetHandler</token>
 </entry>
-<entry count="4">
+<entry count="8">
 <token>ServiceStack.PlatformExtensions,AllAttributes</token>
 <token>ServiceStack.PlatformExtensions,AllAttributes</token>
 <token>ServiceStack.ListExtensions,AddIfNotExists</token>
 </entry>
-<entry count="16">
+<entry count="576">
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.HttpUtils,PostStringToUrl</token>
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 </entry>
-<entry count="16">
+<entry count="40">
 <token>ServiceStack.StringExtensions,EqualsIgnoreCase</token>
 <token>ServiceStack.StringExtensions,EqualsIgnoreCase</token>
 </entry>
@@ -2596,7 +2794,7 @@
 <token>ServiceStack.RequestAttributesExtensions,ToFormat</token>
 <token>ServiceStack.PlatformExtensions,HasAttribute</token>
 </entry>
-<entry count="64">
+<entry count="95136">
 <token>ServiceStack.StringExtensions,SplitOnFirst</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
@@ -2607,13 +2805,20 @@
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.HttpUtils,GetBytesFromUrl</token>
 </entry>
+<entry count="96">
+<token>ServiceStack.StringExtensions,UrlEncode</token>
+<token>ServiceStack.StringExtensions,Fmt</token>
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+<token>ServiceStack.StringExtensions,Fmt</token>
+<token>ServiceStack.StringExtensions,Fmt</token>
+</entry>
 <entry count="8">
 <token>ServiceStack.PlatformExtensions,FirstAttribute</token>
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.StringExtensions,ToLowercaseUnderscore</token>
 <token>ServiceStack.StringExtensions,ToCamelCase</token>
 </entry>
-<entry count="2448">
+<entry count="210000">
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.StringExtensions,SplitOnFirst</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
@@ -2643,7 +2848,7 @@
 <token>ServiceStack.StringExtensions,ToUtf8Bytes</token>
 <token>ServiceStack.IRestClient,Put</token>
 </entry>
-<entry count="2412">
+<entry count="15552">
 <token>ServiceStack.HttpResponseExtensions,RedirectToUrl</token>
 <token>ServiceStack.HttpResponseExtensions,RedirectToUrl</token>
 <token>ServiceStack.HttpResponseExtensions,RedirectToUrl</token>
@@ -2667,7 +2872,7 @@
 <token>ServiceStack.PathUtils,CombineWith</token>
 <token>ServiceStack.HttpUtils,AddQueryParam</token>
 </entry>
-<entry count="482">
+<entry count="103370">
 <token>ServiceStack.StringExtensions,UrlEncode</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 </entry>
@@ -2684,12 +2889,12 @@
 <token>ServiceStack.IRestClient,Get</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 </entry>
-<entry count="8">
+<entry count="16">
 <token>ServiceStack.PlatformExtensions,AllAttributes</token>
 <token>ServiceStack.PlatformExtensions,AllAttributes</token>
 <token>ServiceStack.LicenseUtils,AssertValidUsage</token>
 </entry>
-<entry count="3552">
+<entry count="850528">
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
@@ -2704,7 +2909,7 @@
 <token>ServiceStack.HttpUtils,GetBytesFromUrl</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 </entry>
-<entry count="1188">
+<entry count="12960">
 <token>ServiceStack.HttpResponseExtensions,RedirectToUrl</token>
 <token>ServiceStack.HttpResponseExtensions,RedirectToUrl</token>
 <token>ServiceStack.HttpResponseExtensions,RedirectToUrl</token>
@@ -2715,7 +2920,7 @@
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.HttpUtils,GetJsonFromUrl</token>
 </entry>
-<entry count="8">
+<entry count="16">
 <token>ServiceStack.PlatformExtensions,FirstAttribute</token>
 <token>ServiceStack.PlatformExtensions,AllAttributes</token>
 <token>ServiceStack.PlatformExtensions,AllAttributes</token>
@@ -2730,7 +2935,14 @@
 <token>ServiceStack.PathUtils,MapHostAbsolutePath</token>
 <token>ServiceStack.HttpUtils,ReadToEnd</token>
 </entry>
-<entry count="64">
+<entry count="12128">
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+<token>ServiceStack.StringExtensions,Fmt</token>
+<token>ServiceStack.StringExtensions,UrlEncode</token>
+<token>ServiceStack.StringExtensions,Fmt</token>
+</entry>
+<entry count="6912">
 <token>ServiceStack.StringExtensions,UrlEncode</token>
 <token>ServiceStack.ListExtensions,Join</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
@@ -2761,13 +2973,19 @@
 <token>ServiceStack.HttpUtils,AddQueryParam</token>
 <token>ServiceStack.HttpUtils,GetStringFromUrlAsync</token>
 </entry>
-<entry count="4048">
+<entry count="576">
+<token>ServiceStack.HttpUtils,PostToUrl</token>
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+<token>ServiceStack.StringExtensions,UrlEncode</token>
+<token>ServiceStack.StringExtensions,Fmt</token>
+</entry>
+<entry count="837456">
 <token>ServiceStack.ListExtensions,Join</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.ListExtensions,Join</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 </entry>
-<entry count="1896">
+<entry count="197760">
 <token>ServiceStack.StringExtensions,SplitOnFirst</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
@@ -2775,12 +2993,6 @@
 <entry count="8">
 <token>ServiceStack.IRestClient,Get</token>
 <token>ServiceStack.IReplyClient,Send</token>
-</entry>
-<entry count="9984">
-<token>ServiceStack.ReflectionExtensions,HasInterface</token>
-<token>ServiceStack.StringExtensions,IsUserType</token>
-<token>ServiceStack.ReflectionExtensions,HasInterface</token>
-<token>ServiceStack.PlatformExtensions,IsGenericType</token>
 </entry>
 <entry count="3">
 <token>ServiceStack.HttpUtils,PostToUrl</token>
@@ -2794,6 +3006,12 @@
 <token>ServiceStack.StringExtensions,FromUtf8Bytes</token>
 <token>ServiceStack.StringExtensions,FromJson</token>
 <token>ServiceStack.StringExtensions,FromUtf8Bytes</token>
+</entry>
+<entry count="2">
+<token>ServiceStack.HttpUtils,AddQueryParam</token>
+<token>ServiceStack.HttpUtils,AddQueryParam</token>
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+<token>ServiceStack.HttpUtils,AddQueryParam</token>
 </entry>
 <entry count="2">
 <token>ServiceStack.PathUtils,MapProjectPath</token>
@@ -2811,7 +3029,7 @@
 <token>ServiceStack.IReplyClient,Send</token>
 <token>ServiceStack.IRestClient,GetCookieValues</token>
 </entry>
-<entry count="8">
+<entry count="432">
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
@@ -2857,6 +3075,10 @@
 <token>ServiceStack.StreamExtensions,Combine</token>
 <token>ServiceStack.StringExtensions,FromJson</token>
 </entry>
+<entry count="78">
+<token>ServiceStack.StringExtensions,FromJsv</token>
+<token>ServiceStack.StringExtensions,FromJsv</token>
+</entry>
 <entry count="2">
 <token>ServiceStack.PlatformExtensions,HasAttribute</token>
 <token>ServiceStack.StringExtensions,EqualsIgnoreCase</token>
@@ -2877,14 +3099,14 @@
 <token>ServiceStack.StringExtensions,AppendPath</token>
 <token>ServiceStack.HttpUtils,AddQueryParam</token>
 </entry>
-<entry count="16">
+<entry count="288">
 <token>ServiceStack.StringExtensions,UrlEncode</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.HttpUtils,PostStringToUrl</token>
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 </entry>
-<entry count="2">
+<entry count="6">
 <token>ServiceStack.ServiceStackHost,GetRouteAttributes</token>
 <token>ServiceStack.RouteAttribute,new</token>
 <token>ServiceStack.RouteAttribute,new</token>
@@ -2894,13 +3116,18 @@
 <token>ServiceStack.PathUtils,CombineWith</token>
 <token>ServiceStack.HttpUtils,GetStringFromUrl</token>
 </entry>
+<entry count="64">
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+<token>ServiceStack.StringExtensions,SplitOnFirst</token>
+<token>ServiceStack.StringExtensions,Fmt</token>
+</entry>
 <entry count="8">
 <token>ServiceStack.HttpUtils,AddQueryParam</token>
 <token>ServiceStack.HttpUtils,GetJsonFromUrl</token>
 <token>ServiceStack.StringExtensions,FromJson</token>
 <token>ServiceStack.PathUtils,CombineWith</token>
 </entry>
-<entry count="8">
+<entry count="4096">
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.HttpUtils,PostToUrl</token>
@@ -2912,7 +3139,7 @@
 <token>ServiceStack.IRestClient,Get</token>
 <token>ServiceStack.IRestClient,Get</token>
 </entry>
-<entry count="32">
+<entry count="3456">
 <token>ServiceStack.StringExtensions,UrlEncode</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.HttpUtils,PostToUrl</token>
@@ -2930,11 +3157,16 @@
 <token>ServiceStack.PathUtils,CombineWith</token>
 </entry>
 <entry count="2">
+<token>ServiceStack.StringExtensions,FromJsv</token>
+<token>ServiceStack.StringExtensions,FromJsv</token>
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+</entry>
+<entry count="2">
 <token>ServiceStack.PathUtils,CombineWith</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.HttpUtils,GetBytesFromUrl</token>
 </entry>
-<entry count="120">
+<entry count="36416">
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.StringExtensions,UrlEncode</token>
 </entry>
@@ -2964,7 +3196,7 @@
 <token>ServiceStack.HttpUtils,GetJsonFromUrl</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 </entry>
-<entry count="2448">
+<entry count="209680">
 <token>ServiceStack.ListExtensions,Join</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.StringExtensions,Join</token>
@@ -2985,14 +3217,14 @@
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.PathUtils,MapProjectPath</token>
 </entry>
-<entry count="768">
+<entry count="65536">
 <token>ServiceStack.ListExtensions,Join</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.ListExtensions,Join</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.ListExtensions,Join</token>
 </entry>
-<entry count="8">
+<entry count="288">
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
@@ -3007,6 +3239,12 @@
 <token>ServiceStack.IRestClient,Get</token>
 <token>ServiceStack.StreamExtensions,ReadFully</token>
 </entry>
+<entry count="12128">
+<token>ServiceStack.StringExtensions,Fmt</token>
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+<token>ServiceStack.StringExtensions,Fmt</token>
+<token>ServiceStack.StringExtensions,UrlEncode</token>
+</entry>
 <entry count="2">
 <token>ServiceStack.ListExtensions,Join</token>
 <token>ServiceStack.StringExtensions,Join</token>
@@ -3015,7 +3253,7 @@
 <token>ServiceStack.ResponseStatus,new</token>
 <token>ServiceStack.UrlExtensions,GetOperationName</token>
 </entry>
-<entry count="224">
+<entry count="448">
 <token>ServiceStack.StringExtensions,WithTrailingSlash</token>
 <token>ServiceStack.StringExtensions,EndsWithIgnoreCase</token>
 </entry>
@@ -3029,6 +3267,11 @@
 <token>ServiceStack.PathUtils,MapHostAbsolutePath</token>
 <token>ServiceStack.PlatformExtensions,AddAttributes</token>
 </entry>
+<entry count="11520">
+<token>ServiceStack.HttpUtils,GetStringFromUrl</token>
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+<token>ServiceStack.StringExtensions,UrlEncode</token>
+</entry>
 <entry count="1">
 <token>ServiceStack.IRestClient,Post</token>
 <token>ServiceStack.StringExtensions,ToUtf8Bytes</token>
@@ -3038,18 +3281,17 @@
 <token>ServiceStack.IReplyClient,Send</token>
 <token>ServiceStack.IRestClient,GetCookieValues</token>
 </entry>
-<entry count="3328">
-<token>ServiceStack.PlatformExtensions,GetCollectionType</token>
-<token>ServiceStack.ReflectionExtensions,HasInterface</token>
-<token>ServiceStack.StringExtensions,IsUserType</token>
-<token>ServiceStack.ReflectionExtensions,HasInterface</token>
-<token>ServiceStack.PlatformExtensions,IsGenericType</token>
+<entry count="2304">
+<token>ServiceStack.StringExtensions,UrlEncode</token>
+<token>ServiceStack.ListExtensions,Join</token>
+<token>ServiceStack.StringExtensions,Fmt</token>
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 </entry>
 <entry count="2">
 <token>ServiceStack.IRestClient,Post</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 </entry>
-<entry count="2">
+<entry count="6">
 <token>ServiceStack.ServiceStackHost,GetRouteAttributes</token>
 <token>ServiceStack.RouteAttribute,new</token>
 </entry>
@@ -3057,7 +3299,7 @@
 <token>ServiceStack.StringExtensions,SplitOnFirst</token>
 <token>ServiceStack.ListExtensions,Join</token>
 </entry>
-<entry count="2048">
+<entry count="3696">
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.StringExtensions,ToJsv</token>
@@ -3069,7 +3311,7 @@
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.PathUtils,MapProjectPath</token>
 </entry>
-<entry count="48">
+<entry count="768">
 <token>ServiceStack.IRestClient,Get</token>
 <token>ServiceStack.IRestClient,Get</token>
 <token>ServiceStack.IRestClient,Get</token>
@@ -3097,18 +3339,18 @@
 <token>ServiceStack.ReflectionExtensions,GetTypeInfo</token>
 <token>ServiceStack.ReflectionExtensions,GetTypeInfo</token>
 </entry>
-<entry count="4048">
+<entry count="837456">
 <token>ServiceStack.ListExtensions,Join</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.ListExtensions,Join</token>
 </entry>
-<entry count="128">
+<entry count="16272">
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.StringExtensions,UrlEncode</token>
 </entry>
-<entry count="16">
+<entry count="864">
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.HttpUtils,PostStringToUrl</token>
@@ -3119,6 +3361,11 @@
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.PlatformExtensions,AllAttributes</token>
 <token>ServiceStack.PlatformExtensions,AllAttributes</token>
+</entry>
+<entry count="288">
+<token>ServiceStack.HttpUtils,PostStringToUrl</token>
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+<token>ServiceStack.StringExtensions,UrlEncode</token>
 </entry>
 <entry count="1">
 <token>ServiceStack.StringExtensions,SplitOnFirst</token>
@@ -3132,7 +3379,7 @@
 <token>ServiceStack.PathUtils,CombineWith</token>
 <token>ServiceStack.HttpUtils,GetJsonFromUrl</token>
 </entry>
-<entry count="42522">
+<entry count="13084160">
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
@@ -3141,15 +3388,9 @@
 <token>ServiceStack.StringExtensions,ToCamelCase</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 </entry>
-<entry count="2048">
+<entry count="5808">
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.StringExtensions,ToJsv</token>
-</entry>
-<entry count="384">
-<token>ServiceStack.StringExtensions,Join</token>
-<token>ServiceStack.StringExtensions,Fmt</token>
-<token>ServiceStack.StringExtensions,Fmt</token>
-<token>ServiceStack.StringExtensions,SplitOnFirst</token>
 </entry>
 <entry count="32">
 <token>ServiceStack.Property,new</token>
@@ -3164,7 +3405,7 @@
 <token>ServiceStack.HttpUtils,GetStringFromUrl</token>
 <token>ServiceStack.StringExtensions,FromJson</token>
 </entry>
-<entry count="589">
+<entry count="609">
 <token>ServiceStack.PlatformExtensions,AllAttributes</token>
 <token>ServiceStack.PlatformExtensions,AllAttributes</token>
 </entry>
@@ -3179,18 +3420,23 @@
 <token>ServiceStack.PlatformExtensions,IsEnum</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 </entry>
-<entry count="64">
+<entry count="2304">
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.StringExtensions,UrlEncode</token>
 <token>ServiceStack.ListExtensions,Join</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.StringExtensions,UrlEncode</token>
 </entry>
-<entry count="1024">
+<entry count="2816">
 <token>ServiceStack.StringExtensions,EndsWithIgnoreCase</token>
 <token>ServiceStack.StringExtensions,WithoutExtension</token>
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.PathUtils,CombineWith</token>
+</entry>
+<entry count="4">
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+<token>ServiceStack.StringExtensions,FromJsv</token>
 </entry>
 <entry count="7">
 <token>ServiceStack.StringExtensions,Fmt</token>
@@ -3217,7 +3463,7 @@
 <token>ServiceStack.ReflectionExtensions,GetTypeWithInterfaceOf</token>
 <token>ServiceStack.ReflectionExtensions,GetTypeWithGenericTypeDefinitionOf</token>
 </entry>
-<entry count="136">
+<entry count="24832">
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
@@ -3226,7 +3472,7 @@
 <token>ServiceStack.StringExtensions,ToJson</token>
 <token>ServiceStack.StringExtensions,ToJson</token>
 </entry>
-<entry count="8">
+<entry count="144">
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.StringExtensions,UrlEncode</token>
@@ -3237,10 +3483,23 @@
 <token>ServiceStack.HttpUtils,AddQueryParam</token>
 <token>ServiceStack.StringExtensions,UrlEncode</token>
 </entry>
+<entry count="176">
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+<token>ServiceStack.StringExtensions,ToJsv</token>
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+<token>ServiceStack.StringExtensions,ToJsv</token>
+</entry>
 <entry count="4">
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.PathUtils,CombineWith</token>
+</entry>
+<entry count="16">
+<token>ServiceStack.StringExtensions,Fmt</token>
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+<token>ServiceStack.StringExtensions,Fmt</token>
+<token>ServiceStack.StringExtensions,Fmt</token>
+<token>ServiceStack.StringExtensions,Fmt</token>
 </entry>
 <entry count="6">
 <token>ServiceStack.PathUtils,CombineWith</token>
@@ -3248,31 +3507,31 @@
 <token>ServiceStack.HttpUtils,AddQueryParam</token>
 <token>ServiceStack.HttpUtils,GetJsonFromUrl</token>
 </entry>
+<entry count="2">
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+<token>ServiceStack.StringExtensions,FromJsv</token>
+<token>ServiceStack.StringExtensions,FromJsv</token>
+</entry>
 <entry count="1">
 <token>ServiceStack.RestrictAttribute,new</token>
 <token>ServiceStack.PlatformExtensions,AddAttributes</token>
 <token>ServiceStack.RestrictAttribute,new</token>
 <token>ServiceStack.PlatformExtensions,AddAttributes</token>
 </entry>
-<entry count="19968">
-<token>ServiceStack.PlatformExtensions,GetCollectionType</token>
-<token>ServiceStack.ReflectionExtensions,HasInterface</token>
-<token>ServiceStack.StringExtensions,IsUserType</token>
-</entry>
-<entry count="8">
+<entry count="864">
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.StringExtensions,UrlEncode</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.HttpUtils,PostToUrl</token>
 </entry>
-<entry count="2448">
+<entry count="209680">
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.ListExtensions,Join</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.StringExtensions,Join</token>
 </entry>
-<entry count="42">
+<entry count="56">
 <token>ServiceStack.HttpUtils,AddQueryParam</token>
 <token>ServiceStack.HttpUtils,AddQueryParam</token>
 </entry>
@@ -3287,7 +3546,7 @@
 <token>ServiceStack.IRestClient,Put</token>
 <token>ServiceStack.IRestClient,Post</token>
 </entry>
-<entry count="16">
+<entry count="288">
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.StringExtensions,UrlEncode</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
@@ -3298,7 +3557,7 @@
 <token>ServiceStack.PathUtils,CombineWith</token>
 <token>ServiceStack.HttpUtils,GetJsonFromUrl</token>
 </entry>
-<entry count="56">
+<entry count="9856">
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.StringExtensions,UrlEncode</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
@@ -3313,9 +3572,30 @@
 <token>ServiceStack.StringExtensions,ToUtf8Bytes</token>
 <token>ServiceStack.HttpUtils,PostBytesToUrl</token>
 </entry>
-<entry count="2456">
+<entry count="320">
+<token>ServiceStack.StringExtensions,Fmt</token>
+<token>ServiceStack.StringExtensions,SplitOnFirst</token>
+<token>ServiceStack.StringExtensions,Fmt</token>
+<token>ServiceStack.StringExtensions,Fmt</token>
+<token>ServiceStack.StringExtensions,Fmt</token>
+</entry>
+<entry count="209688">
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.StringExtensions,Join</token>
+</entry>
+<entry count="9216">
+<token>ServiceStack.StringExtensions,Fmt</token>
+<token>ServiceStack.HttpUtils,GetStringFromUrl</token>
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+<token>ServiceStack.StringExtensions,UrlEncode</token>
+<token>ServiceStack.StringExtensions,Fmt</token>
+</entry>
+<entry count="84">
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+<token>ServiceStack.StringExtensions,ToJsv</token>
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+<token>ServiceStack.StringExtensions,ToJsv</token>
 </entry>
 <entry count="16">
 <token>ServiceStack.HttpUtils,GetJsonFromUrl</token>
@@ -3329,13 +3609,13 @@
 <token>ServiceStack.PlatformExtensions,AllAttributes</token>
 <token>ServiceStack.PlatformExtensions,AllAttributes</token>
 </entry>
-<entry count="16">
+<entry count="864">
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.HttpUtils,PostStringToUrl</token>
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 </entry>
-<entry count="192">
+<entry count="69120">
 <token>ServiceStack.StringExtensions,UrlEncode</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.HttpUtils,GetStringFromUrl</token>
@@ -3348,7 +3628,7 @@
 <token>ServiceStack.PathUtils,CombineWith</token>
 <token>ServiceStack.HttpUtils,GetJsonFromUrl</token>
 </entry>
-<entry count="1104">
+<entry count="640848">
 <token>ServiceStack.ListExtensions,Join</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
@@ -3371,11 +3651,23 @@
 <token>ServiceStack.IRestClient,Put</token>
 <token>ServiceStack.IRestClient,Post</token>
 </entry>
-<entry count="672">
+<entry count="320">
+<token>ServiceStack.StringExtensions,SplitOnFirst</token>
+<token>ServiceStack.StringExtensions,Fmt</token>
+<token>ServiceStack.StringExtensions,Fmt</token>
+<token>ServiceStack.StringExtensions,SplitOnFirst</token>
+</entry>
+<entry count="1344">
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.StringExtensions,EndsWithIgnoreCase</token>
 <token>ServiceStack.StringExtensions,WithoutExtension</token>
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+</entry>
+<entry count="312">
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+<token>ServiceStack.StringExtensions,Fmt</token>
+<token>ServiceStack.StringExtensions,Fmt</token>
 </entry>
 <entry count="18">
 <token>ServiceStack.StringExtensions,AppendPath</token>
@@ -3400,11 +3692,6 @@
 <token>ServiceStack.PlatformExtensions,AddAttributes</token>
 <token>ServiceStack.PlatformExtensions,AddAttributes</token>
 </entry>
-<entry count="39936">
-<token>ServiceStack.ReflectionExtensions,GetSerializableProperties</token>
-<token>ServiceStack.PlatformExtensions,IsGenericType</token>
-<token>ServiceStack.PlatformExtensions,IsGenericType</token>
-</entry>
 <entry count="2">
 <token>ServiceStack.IRestClient,SetCookie</token>
 <token>ServiceStack.IRestClient,Get</token>
@@ -3417,7 +3704,7 @@
 <token>ServiceStack.RouteAttribute,new</token>
 <token>ServiceStack.PlatformExtensions,AddAttributes</token>
 </entry>
-<entry count="4">
+<entry count="2048">
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.HttpUtils,PostToUrl</token>
@@ -3439,19 +3726,19 @@
 <token>ServiceStack.PlatformExtensions,FirstAttribute</token>
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 </entry>
-<entry count="2">
+<entry count="6">
 <token>ServiceStack.ServiceStackHost,GetRouteAttributes</token>
 <token>ServiceStack.RouteAttribute,new</token>
 <token>ServiceStack.RouteAttribute,new</token>
 <token>ServiceStack.RouteAttribute,new</token>
 <token>ServiceStack.RouteAttribute,new</token>
 </entry>
-<entry count="16">
+<entry count="288">
 <token>ServiceStack.StringExtensions,UrlEncode</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 </entry>
-<entry count="9">
+<entry count="88">
 <token>ServiceStack.ICompressor,Compress</token>
 <token>ServiceStack.ICompressor,Compress</token>
 </entry>
@@ -3474,12 +3761,12 @@
 <token>ServiceStack.PathUtils,MapHostAbsolutePath</token>
 <token>ServiceStack.PlatformExtensions,AddAttributes</token>
 </entry>
-<entry count="224">
+<entry count="448">
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.StringExtensions,WithTrailingSlash</token>
 <token>ServiceStack.StringExtensions,EndsWithIgnoreCase</token>
 </entry>
-<entry count="8">
+<entry count="8560">
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
@@ -3506,7 +3793,7 @@
 <token>ServiceStack.ReflectionExtensions,GetSerializableProperties</token>
 <token>ServiceStack.ReflectionExtensions,GetSerializableFields</token>
 </entry>
-<entry count="8">
+<entry count="288">
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.HttpUtils,PostStringToUrl</token>
@@ -3517,7 +3804,7 @@
 <token>ServiceStack.IRestClient,Post</token>
 <token>ServiceStack.IRestClient,Delete</token>
 </entry>
-<entry count="1024">
+<entry count="2816">
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.PathUtils,CombineWith</token>
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
@@ -3544,7 +3831,7 @@
 <token>ServiceStack.IRestClient,Post</token>
 <token>ServiceStack.IRestClient,Post</token>
 </entry>
-<entry count="4">
+<entry count="20">
 <token>ServiceStack.RouteAttribute,new</token>
 <token>ServiceStack.RouteAttribute,new</token>
 <token>ServiceStack.RouteAttribute,new</token>
@@ -3557,7 +3844,12 @@
 <token>ServiceStack.StringExtensions,UrlEncode</token>
 <token>ServiceStack.StringExtensions,UrlEncode</token>
 </entry>
-<entry count="64">
+<entry count="1">
+<token>ServiceStack.StringExtensions,FromJsv</token>
+<token>ServiceStack.StringExtensions,FromJsv</token>
+<token>ServiceStack.StringExtensions,FromJsv</token>
+</entry>
+<entry count="6912">
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.StringExtensions,UrlEncode</token>
 <token>ServiceStack.ListExtensions,Join</token>
@@ -3591,6 +3883,13 @@
 <token>ServiceStack.ReflectionExtensions,GetTypeWithInterfaceOf</token>
 <token>ServiceStack.ReflectionExtensions,GetDataContract</token>
 </entry>
+<entry count="6624">
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+<token>ServiceStack.StringExtensions,UrlEncode</token>
+<token>ServiceStack.StringExtensions,Fmt</token>
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+<token>ServiceStack.StringExtensions,UrlEncode</token>
+</entry>
 <entry count="22">
 <token>ServiceStack.StringExtensions,SplitOnFirst</token>
 <token>ServiceStack.StringExtensions,SplitOnLast</token>
@@ -3615,7 +3914,7 @@
 <token>ServiceStack.ArrayOfString,new</token>
 <token>ServiceStack.AutoMappingUtils,ConvertTo</token>
 </entry>
-<entry count="224">
+<entry count="448">
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.StringExtensions,WithTrailingSlash</token>
 <token>ServiceStack.StringExtensions,EndsWithIgnoreCase</token>
@@ -3633,7 +3932,7 @@
 <token>ServiceStack.HttpUtils,GetJsonFromUrl</token>
 <token>ServiceStack.StringExtensions,FromJson</token>
 </entry>
-<entry count="14">
+<entry count="124">
 <token>ServiceStack.StringExtensions,ToUtf8Bytes</token>
 <token>ServiceStack.StringExtensions,ToUtf8Bytes</token>
 </entry>
@@ -3646,7 +3945,7 @@
 <token>ServiceStack.StringExtensions,FromUtf8Bytes</token>
 <token>ServiceStack.StringExtensions,FromJson</token>
 </entry>
-<entry count="22">
+<entry count="30">
 <token>ServiceStack.PlatformExtensions,FirstAttribute</token>
 <token>ServiceStack.PlatformExtensions,AllAttributes</token>
 <token>ServiceStack.PlatformExtensions,AllAttributes</token>
@@ -3664,11 +3963,18 @@
 <token>ServiceStack.PlatformExtensions,AllAttributes</token>
 <token>ServiceStack.HttpUtils,AddQueryParam</token>
 </entry>
-<entry count="24">
+<entry count="648">
 <token>ServiceStack.PclExport,GetRequestStream</token>
 <token>ServiceStack.PclExport,GetResponse</token>
 </entry>
-<entry count="8">
+<entry count="192">
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+<token>ServiceStack.StringExtensions,Fmt</token>
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+<token>ServiceStack.StringExtensions,Fmt</token>
+<token>ServiceStack.StringExtensions,Fmt</token>
+</entry>
+<entry count="288">
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.HttpUtils,PostStringToUrl</token>
@@ -3683,17 +3989,17 @@
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.HttpUtils,GetStringFromUrl</token>
 </entry>
-<entry count="56">
+<entry count="9856">
 <token>ServiceStack.StringExtensions,UrlEncode</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.StringExtensions,UrlEncode</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 </entry>
-<entry count="264">
+<entry count="73704">
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.StringExtensions,UrlEncode</token>
 </entry>
-<entry count="64">
+<entry count="2304">
 <token>ServiceStack.ListExtensions,Join</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.StringExtensions,UrlEncode</token>
@@ -3704,15 +4010,11 @@
 <token>ServiceStack.StringExtensions,FromUtf8Bytes</token>
 <token>ServiceStack.StringExtensions,FromJson</token>
 </entry>
-<entry count="39936">
-<token>ServiceStack.StringExtensions,IsSystemType</token>
-<token>ServiceStack.ReflectionExtensions,HasInterface</token>
-</entry>
 <entry count="3">
 <token>ServiceStack.IRestClient,GetCookieValues</token>
 <token>ServiceStack.IReplyClient,Send</token>
 </entry>
-<entry count="278">
+<entry count="286">
 <token>ServiceStack.PlatformExtensions,FirstAttribute</token>
 <token>ServiceStack.PlatformExtensions,AllAttributes</token>
 <token>ServiceStack.PlatformExtensions,AllAttributes</token>
@@ -3723,13 +4025,13 @@
 <token>ServiceStack.IRestClient,Post</token>
 <token>ServiceStack.StringExtensions,ToUtf8Bytes</token>
 </entry>
-<entry count="8">
+<entry count="432">
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.HttpUtils,PostStringToUrl</token>
 </entry>
-<entry count="4048">
+<entry count="837456">
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.ListExtensions,Join</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
@@ -3743,13 +4045,22 @@
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.HttpUtils,GetStringFromUrl</token>
 </entry>
-<entry count="9984">
-<token>ServiceStack.ReflectionExtensions,HasInterface</token>
-<token>ServiceStack.PlatformExtensions,IsGenericType</token>
+<entry count="2">
+<token>ServiceStack.HttpUtils,AddQueryParam</token>
+<token>ServiceStack.HttpUtils,AddQueryParam</token>
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+<token>ServiceStack.HttpUtils,AddQueryParam</token>
+<token>ServiceStack.HttpUtils,AddQueryParam</token>
 </entry>
 <entry count="2">
 <token>ServiceStack.StringExtensions,WithoutExtension</token>
 <token>ServiceStack.StringExtensions,FormatWith</token>
+</entry>
+<entry count="768">
+<token>ServiceStack.ListExtensions,Join</token>
+<token>ServiceStack.StringExtensions,Fmt</token>
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+<token>ServiceStack.StringExtensions,Fmt</token>
 </entry>
 <entry count="2">
 <token>ServiceStack.TaskExtensions,UnwrapIfSingleException</token>
@@ -3762,11 +4073,11 @@
 <token>ServiceStack.IRestClient,Post</token>
 <token>ServiceStack.IRestClient,Post</token>
 </entry>
-<entry count="6">
+<entry count="26">
 <token>ServiceStack.RouteAttribute,new</token>
 <token>ServiceStack.RouteAttribute,new</token>
 </entry>
-<entry count="3552">
+<entry count="850528">
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
@@ -3780,12 +4091,12 @@
 <token>ServiceStack.StringExtensions,FromJson</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 </entry>
-<entry count="7984">
+<entry count="1720752">
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.ListExtensions,Join</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 </entry>
-<entry count="8">
+<entry count="12880">
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
@@ -3797,7 +4108,7 @@
 <token>ServiceStack.PlatformExtensions,AllAttributes</token>
 <token>ServiceStack.PlatformExtensions,AllAttributes</token>
 </entry>
-<entry count="1792">
+<entry count="98624">
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.StringExtensions,SplitOnFirst</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
@@ -3843,12 +4154,12 @@
 <token>ServiceStack.HttpUtils,AddQueryParam</token>
 <token>ServiceStack.HttpUtils,GetJsonFromUrl</token>
 </entry>
-<entry count="192">
+<entry count="69120">
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.HttpUtils,GetStringFromUrl</token>
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 </entry>
-<entry count="16">
+<entry count="1152">
 <token>ServiceStack.StringExtensions,UrlEncode</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.HttpUtils,PostToUrl</token>
@@ -3862,7 +4173,7 @@
 <token>ServiceStack.TaskExtensions,Success</token>
 <token>ServiceStack.TaskExtensions,Error</token>
 </entry>
-<entry count="28">
+<entry count="4928">
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.StringExtensions,UrlEncode</token>
@@ -3882,14 +4193,14 @@
 <token>ServiceStack.PathUtils,CombineWith</token>
 <token>ServiceStack.HttpUtils,GetJsonFromUrl</token>
 </entry>
-<entry count="672">
+<entry count="1344">
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.StringExtensions,EndsWithIgnoreCase</token>
 <token>ServiceStack.StringExtensions,WithoutExtension</token>
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.PathUtils,CombineWith</token>
 </entry>
-<entry count="52">
+<entry count="17344">
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.StringExtensions,UrlEncode</token>
@@ -3907,26 +4218,27 @@
 <token>ServiceStack.IReplyClient,Send</token>
 <token>ServiceStack.IReplyClient,Send</token>
 </entry>
-<entry count="40">
+<entry count="7552">
 <token>ServiceStack.HttpUtils,PostToUrl</token>
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 </entry>
-<entry count="19968">
-<token>ServiceStack.StringExtensions,IsSystemType</token>
-<token>ServiceStack.PlatformExtensions,GetCollectionType</token>
-<token>ServiceStack.ReflectionExtensions,HasInterface</token>
+<entry count="576">
+<token>ServiceStack.StringExtensions,Fmt</token>
+<token>ServiceStack.HttpUtils,PostToUrl</token>
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+<token>ServiceStack.StringExtensions,UrlEncode</token>
 </entry>
 <entry count="144">
 <token>ServiceStack.ReflectionExtensions,GetDataMember</token>
 <token>ServiceStack.PlatformExtensions,FirstAttribute</token>
 <token>ServiceStack.PlatformExtensions,FirstAttribute</token>
 </entry>
-<entry count="56">
+<entry count="9856">
 <token>ServiceStack.StringExtensions,UrlEncode</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.StringExtensions,UrlEncode</token>
 </entry>
-<entry count="72">
+<entry count="288">
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.AutoMappingUtils,ConvertTo</token>
 </entry>
@@ -3958,7 +4270,7 @@
 <token>ServiceStack.IRestClient,SetCookie</token>
 <token>ServiceStack.IRestClient,Get</token>
 </entry>
-<entry count="32">
+<entry count="1728">
 <token>ServiceStack.HttpUtils,PostStringToUrl</token>
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 </entry>
@@ -3996,17 +4308,24 @@
 <token>ServiceStack.StringExtensions,NormalizeNewLines</token>
 <token>ServiceStack.StringExtensions,NormalizeNewLines</token>
 </entry>
-<entry count="36545">
+<entry count="11392046">
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
+</entry>
+<entry count="546">
+<token>ServiceStack.StringExtensions,ToJsv</token>
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+<token>ServiceStack.StringExtensions,ToJsv</token>
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 </entry>
 <entry count="1">
 <token>ServiceStack.MimeTypes,GetMimeType</token>
 <token>ServiceStack.StringExtensions,NormalizeNewLines</token>
 </entry>
-<entry count="8">
+<entry count="16">
 <token>ServiceStack.PlatformExtensions,FirstAttribute</token>
 <token>ServiceStack.PlatformExtensions,FirstAttribute</token>
 <token>ServiceStack.PlatformExtensions,AllAttributes</token>
@@ -4033,12 +4352,16 @@
 <token>ServiceStack.PlatformExtensions,AddAttributes</token>
 <token>ServiceStack.PlatformExtensions,AddAttributes</token>
 </entry>
-<entry count="3280">
+<entry count="771920">
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
+</entry>
+<entry count="392">
+<token>ServiceStack.StringExtensions,ToEnum</token>
+<token>ServiceStack.StringExtensions,ToEnum</token>
 </entry>
 <entry count="2">
 <token>ServiceStack.HttpUtils,PostJsonToUrl</token>
@@ -4051,12 +4374,12 @@
 <token>ServiceStack.IRestClient,SetCookie</token>
 <token>ServiceStack.IRestClient,Get</token>
 </entry>
-<entry count="672">
+<entry count="1344">
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.StringExtensions,EndsWithIgnoreCase</token>
 <token>ServiceStack.StringExtensions,WithoutExtension</token>
 </entry>
-<entry count="8">
+<entry count="16">
 <token>ServiceStack.PlatformExtensions,FirstAttribute</token>
 <token>ServiceStack.PlatformExtensions,FirstAttribute</token>
 <token>ServiceStack.PlatformExtensions,AllAttributes</token>
@@ -4075,20 +4398,20 @@
 <token>ServiceStack.PlatformExtensions,FirstAttribute</token>
 <token>ServiceStack.HttpUtils,AddQueryParam</token>
 </entry>
-<entry count="59904">
-<token>ServiceStack.ReflectionExtensions,HasInterface</token>
-<token>ServiceStack.StringExtensions,IsUserType</token>
-</entry>
 <entry count="2">
 <token>ServiceStack.StringExtensions,UrlEncode</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.HttpUtils,GetJsonFromUrl</token>
 </entry>
+<entry count="156">
+<token>ServiceStack.StringExtensions,FromJsv</token>
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+</entry>
 <entry count="2">
 <token>ServiceStack.IRestClient,Post</token>
 <token>ServiceStack.StringExtensions,ToJson</token>
 </entry>
-<entry count="2449">
+<entry count="209681">
 <token>ServiceStack.StringExtensions,Join</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 </entry>
@@ -4099,7 +4422,7 @@
 <token>ServiceStack.HttpUtils,AddQueryParam</token>
 <token>ServiceStack.HttpUtils,GetJsonFromUrl</token>
 </entry>
-<entry count="86">
+<entry count="1526">
 <token>ServiceStack.IRestClient,Get</token>
 <token>ServiceStack.IRestClient,Get</token>
 </entry>
@@ -4124,7 +4447,14 @@
 <token>ServiceStack.IRestClient,GetCookieValues</token>
 <token>ServiceStack.IReplyClient,Send</token>
 </entry>
-<entry count="408">
+<entry count="1536">
+<token>ServiceStack.StringExtensions,UrlEncode</token>
+<token>ServiceStack.ListExtensions,Join</token>
+<token>ServiceStack.StringExtensions,Fmt</token>
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+<token>ServiceStack.StringExtensions,UrlEncode</token>
+</entry>
+<entry count="217872">
 <token>ServiceStack.ListExtensions,Join</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
@@ -4174,7 +4504,7 @@
 <token>ServiceStack.PathUtils,MapProjectPath</token>
 <token>ServiceStack.PathUtils,MapProjectPath</token>
 </entry>
-<entry count="1488">
+<entry count="673616">
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.ListExtensions,Join</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
@@ -4189,12 +4519,19 @@
 <token>ServiceStack.PlatformExtensions,AddAttributes</token>
 <token>ServiceStack.IRestClient,Get</token>
 </entry>
-<entry count="24">
+<entry count="4">
+<token>ServiceStack.ICompressor,Compress</token>
+<token>ServiceStack.ICompressor,Compress</token>
+<token>ServiceStack.ICompressor,Compress</token>
+<token>ServiceStack.ICompressor,Compress</token>
+<token>ServiceStack.ICompressor,Compress</token>
+</entry>
+<entry count="648">
 <token>ServiceStack.QueryStringSerializer,SerializeToString</token>
 <token>ServiceStack.PclExport,GetRequestStream</token>
 <token>ServiceStack.PclExport,GetResponse</token>
 </entry>
-<entry count="32">
+<entry count="1728">
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.HttpUtils,PostStringToUrl</token>
 </entry>
@@ -4203,14 +4540,12 @@
 <token>ServiceStack.HttpUtils,GetStringFromUrlAsync</token>
 <token>ServiceStack.TaskExtensions,Success</token>
 </entry>
-<entry count="384">
-<token>ServiceStack.StringExtensions,Fmt</token>
-<token>ServiceStack.StringExtensions,Join</token>
-<token>ServiceStack.StringExtensions,Fmt</token>
-<token>ServiceStack.StringExtensions,Fmt</token>
-<token>ServiceStack.StringExtensions,SplitOnFirst</token>
+<entry count="660">
+<token>ServiceStack.StringExtensions,ToJsv</token>
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+<token>ServiceStack.StringExtensions,ToJsv</token>
 </entry>
-<entry count="8">
+<entry count="864">
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.StringExtensions,UrlEncode</token>
@@ -4225,29 +4560,28 @@
 <token>ServiceStack.StringExtensions,ParentDirectory</token>
 <token>ServiceStack.PathUtils,CombineWith</token>
 </entry>
-<entry count="2048">
-<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
-<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
-<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
-<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
-<token>ServiceStack.StringExtensions,ToJsv</token>
-</entry>
-<entry count="4048">
+<entry count="837456">
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.ListExtensions,Join</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.ListExtensions,Join</token>
 </entry>
-<entry count="7984">
+<entry count="8080">
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+<token>ServiceStack.StringExtensions,Fmt</token>
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+<token>ServiceStack.StringExtensions,Fmt</token>
+<token>ServiceStack.StringExtensions,UrlEncode</token>
+</entry>
+<entry count="1720752">
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.ListExtensions,Join</token>
 </entry>
-<entry count="33280">
-<token>ServiceStack.StringExtensions,IsSystemType</token>
-<token>ServiceStack.ReflectionExtensions,HasInterface</token>
-<token>ServiceStack.StringExtensions,IsUserType</token>
-<token>ServiceStack.ReflectionExtensions,HasInterface</token>
-<token>ServiceStack.ReflectionExtensions,GetSerializableProperties</token>
+<entry count="2304">
+<token>ServiceStack.HttpUtils,GetStringFromUrl</token>
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+<token>ServiceStack.StringExtensions,UrlEncode</token>
+<token>ServiceStack.ListExtensions,Join</token>
 </entry>
 <entry count="4">
 <token>ServiceStack.StringExtensions,FromJson</token>
@@ -4283,6 +4617,12 @@
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 </entry>
+<entry count="288">
+<token>ServiceStack.StringExtensions,Fmt</token>
+<token>ServiceStack.HttpUtils,PostStringToUrl</token>
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+<token>ServiceStack.StringExtensions,UrlEncode</token>
+</entry>
 <entry count="8">
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.StringExtensions,ToLowercaseUnderscore</token>
@@ -4294,7 +4634,7 @@
 <token>ServiceStack.StringExtensions,Join</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 </entry>
-<entry count="96">
+<entry count="34560">
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.StringExtensions,UrlEncode</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
@@ -4309,7 +4649,7 @@
 <token>ServiceStack.StringExtensions,IsUserEnum</token>
 <token>ServiceStack.ReflectionExtensions,IsOrHasGenericInterfaceTypeOf</token>
 </entry>
-<entry count="64">
+<entry count="2304">
 <token>ServiceStack.ListExtensions,Join</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.StringExtensions,UrlEncode</token>
@@ -4336,6 +4676,12 @@
 <token>ServiceStack.PlatformExtensions,AllAttributes</token>
 <token>ServiceStack.PlatformExtensions,AllAttributes</token>
 </entry>
+<entry count="8">
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+<token>ServiceStack.HttpUtils,AddQueryParam</token>
+<token>ServiceStack.HttpUtils,AddQueryParam</token>
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+</entry>
 <entry count="4">
 <token>ServiceStack.StringExtensions,ToJson</token>
 <token>ServiceStack.StringExtensions,FromJson</token>
@@ -4344,9 +4690,25 @@
 <token>ServiceStack.StringExtensions,To</token>
 <token>ServiceStack.StringExtensions,To</token>
 </entry>
-<entry count="19968">
-<token>ServiceStack.PlatformExtensions,GetCollectionType</token>
-<token>ServiceStack.ReflectionExtensions,HasInterface</token>
+<entry count="144">
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+<token>ServiceStack.StringExtensions,Fmt</token>
+<token>ServiceStack.HttpUtils,PostStringToUrl</token>
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+<token>ServiceStack.StringExtensions,UrlEncode</token>
+</entry>
+<entry count="3520">
+<token>ServiceStack.StringExtensions,UrlEncode</token>
+<token>ServiceStack.StringExtensions,Fmt</token>
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+<token>ServiceStack.StringExtensions,Fmt</token>
+</entry>
+<entry count="3520">
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+<token>ServiceStack.StringExtensions,UrlEncode</token>
+<token>ServiceStack.StringExtensions,Fmt</token>
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+<token>ServiceStack.StringExtensions,Fmt</token>
 </entry>
 <entry count="14">
 <token>ServiceStack.PlatformExtensions,FirstAttribute</token>
@@ -4355,7 +4717,7 @@
 <token>ServiceStack.PlatformExtensions,AllAttributes</token>
 <token>ServiceStack.PlatformExtensions,AllAttributes</token>
 </entry>
-<entry count="2">
+<entry count="6">
 <token>ServiceStack.StringExtensions,SplitOnFirst</token>
 <token>ServiceStack.StringExtensions,SplitOnFirst</token>
 </entry>
@@ -4364,13 +4726,38 @@
 <token>ServiceStack.MimeTypes,GetMimeType</token>
 <token>ServiceStack.HttpUtils,GetStringFromUrl</token>
 </entry>
-<entry count="96">
+<entry count="48">
+<token>ServiceStack.StringExtensions,Fmt</token>
+<token>ServiceStack.StringExtensions,Fmt</token>
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+<token>ServiceStack.StringExtensions,Fmt</token>
+<token>ServiceStack.StringExtensions,Fmt</token>
+</entry>
+<entry count="2">
+<token>ServiceStack.HttpUtils,AddQueryParam</token>
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+<token>ServiceStack.HttpUtils,AddQueryParam</token>
+</entry>
+<entry count="9216">
+<token>ServiceStack.HttpUtils,GetStringFromUrl</token>
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+<token>ServiceStack.StringExtensions,UrlEncode</token>
+<token>ServiceStack.StringExtensions,Fmt</token>
+</entry>
+<entry count="64">
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.StringExtensions,SplitOnFirst</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 </entry>
-<entry count="1536">
+<entry count="99040">
+<token>ServiceStack.StringExtensions,SplitOnFirst</token>
+<token>ServiceStack.StringExtensions,Fmt</token>
+<token>ServiceStack.StringExtensions,Fmt</token>
+<token>ServiceStack.StringExtensions,Fmt</token>
+</entry>
+<entry count="98304">
 <token>ServiceStack.StringExtensions,Join</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.StringExtensions,SplitOnFirst</token>
@@ -4385,11 +4772,6 @@
 <token>ServiceStack.PlatformExtensions,HasAttribute</token>
 <token>ServiceStack.PlatformExtensions,HasAttribute</token>
 </entry>
-<entry count="39936">
-<token>ServiceStack.StringExtensions,IsSystemType</token>
-<token>ServiceStack.ReflectionExtensions,HasInterface</token>
-<token>ServiceStack.StringExtensions,IsUserType</token>
-</entry>
 <entry count="1">
 <token>ServiceStack.MapExtensions,Join</token>
 <token>ServiceStack.ListExtensions,Join</token>
@@ -4400,16 +4782,30 @@
 <token>ServiceStack.StringExtensions,SplitOnFirst</token>
 <token>ServiceStack.HttpUtils,GetStringFromUrl</token>
 </entry>
-<entry count="2448">
+<entry count="768">
+<token>ServiceStack.StringExtensions,UrlEncode</token>
+<token>ServiceStack.ListExtensions,Join</token>
+<token>ServiceStack.StringExtensions,Fmt</token>
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+<token>ServiceStack.StringExtensions,Fmt</token>
+</entry>
+<entry count="209680">
 <token>ServiceStack.ListExtensions,Join</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.StringExtensions,Join</token>
 </entry>
-<entry count="8">
+<entry count="4096">
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.HttpUtils,PostToUrl</token>
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+</entry>
+<entry count="2">
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+<token>ServiceStack.HttpUtils,AddQueryParam</token>
+<token>ServiceStack.HttpUtils,AddQueryParam</token>
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+<token>ServiceStack.HttpUtils,AddQueryParam</token>
 </entry>
 <entry count="2">
 <token>ServiceStack.StringExtensions,FromJson</token>
@@ -4418,27 +4814,36 @@
 <token>ServiceStack.HttpUtils,GetJsonFromUrl</token>
 <token>ServiceStack.StringExtensions,FromJson</token>
 </entry>
-<entry count="384">
-<token>ServiceStack.StringExtensions,Join</token>
-<token>ServiceStack.StringExtensions,Fmt</token>
-<token>ServiceStack.StringExtensions,Fmt</token>
+<entry count="84">
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+<token>ServiceStack.StringExtensions,ToJsv</token>
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+<token>ServiceStack.StringExtensions,ToJsv</token>
 </entry>
 <entry count="4">
 <token>ServiceStack.StringExtensions,FromJson</token>
 <token>ServiceStack.StringExtensions,FromUtf8Bytes</token>
 <token>ServiceStack.StringExtensions,FromJson</token>
 </entry>
-<entry count="112">
+<entry count="768">
+<token>ServiceStack.ListExtensions,Join</token>
+<token>ServiceStack.StringExtensions,Fmt</token>
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+<token>ServiceStack.StringExtensions,Fmt</token>
+<token>ServiceStack.StringExtensions,UrlEncode</token>
+</entry>
+<entry count="784">
 <token>ServiceStack.IUrlFilter,ToUrl</token>
 <token>ServiceStack.IUrlFilter,ToUrl</token>
 </entry>
-<entry count="20">
+<entry count="3200">
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.HttpUtils,PostToUrl</token>
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 </entry>
-<entry count="16">
+<entry count="1728">
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.StringExtensions,UrlEncode</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
@@ -4454,16 +4859,16 @@
 <token>ServiceStack.StringExtensions,EndsWithIgnoreCase</token>
 <token>ServiceStack.StringExtensions,SplitOnLast</token>
 </entry>
-<entry count="384">
+<entry count="320">
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 <token>ServiceStack.StringExtensions,SplitOnFirst</token>
 </entry>
-<entry count="72">
+<entry count="288">
 <token>ServiceStack.AutoMappingUtils,ConvertTo</token>
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 </entry>
-<entry count="2048">
+<entry count="1764">
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
@@ -4485,12 +4890,19 @@
 <token>ServiceStack.HttpUtils,GetStringFromUrl</token>
 <token>ServiceStack.StringExtensions,Fmt</token>
 </entry>
+<entry count="3280">
+<token>ServiceStack.StringExtensions,UrlEncode</token>
+<token>ServiceStack.StringExtensions,Fmt</token>
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+<token>ServiceStack.StringExtensions,Fmt</token>
+<token>ServiceStack.StringExtensions,UrlEncode</token>
+</entry>
 <entry count="4">
 <token>ServiceStack.StringExtensions,IsUserType</token>
 <token>ServiceStack.StringExtensions,IsUserEnum</token>
 <token>ServiceStack.ReflectionExtensions,IsOrHasGenericInterfaceTypeOf</token>
 </entry>
-<entry count="32">
+<entry count="1152">
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
 <token>ServiceStack.StringExtensions,UrlEncode</token>
@@ -4521,13 +4933,23 @@
 <token>ServiceStack.StringExtensions,FromJson</token>
 <token>ServiceStack.PathUtils,CombineWith</token>
 </entry>
-<entry count="18">
+<entry count="72">
 <token>ServiceStack.RequestExtensions,GetHeader</token>
 <token>ServiceStack.RequestExtensions,GetHeader</token>
 </entry>
 <entry count="64">
 <token>ServiceStack.AutoMappingUtils,GetDefaultValue</token>
 <token>ServiceStack.PlatformExtensions,IsEnum</token>
+</entry>
+<entry count="288">
+<token>ServiceStack.HttpUtils,PostStringToUrl</token>
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+<token>ServiceStack.StringExtensions,UrlEncode</token>
+<token>ServiceStack.StringExtensions,Fmt</token>
+</entry>
+<entry count="64">
+<token>ServiceStack.StringExtensions,IsNullOrEmpty</token>
+<token>ServiceStack.StringExtensions,SplitOnFirst</token>
 </entry>
 <entry count="1">
 <token>ServiceStack.StringExtensions,ToUtf8Bytes</token>

@@ -17,13 +17,21 @@ public class SentenceExtractor {
     private static final int MAX_FLATTEN_DEPTH = 10;
     
     /**
-     * Returns all API sentences from all contexts in the given directory.
+     * Process all contexts in the given directory.
+     * 
+     * Notice that the results of the extraction are stored to a file rather than 
+     * returned by this function. We decided to write the results to a file as
+     * the amount of data may become enormous and might not fit into memory.
+     * 
+     * @see #processZip(String, String) 
+     *          method that processes a single .zip file
+     * @see #processContext(Context, String) 
+     *          method that processes a single context and then writes the results
+     *          to a file
+     * @see #process(ISST)
      * 
      * @param contextsDirectory
      *          path to the directory containing context files that should be processed
-     *          
-     * @return
-     *          all API sentences in all contexts in the given directory
      */
     public void extract(String contextsDirectory, String outputDirectory) {
         try {
@@ -43,6 +51,19 @@ public class SentenceExtractor {
         }
     }
 
+    /**
+     * Process the zip file at the given file path.
+     * 
+     * @see #extract(String, String)
+     *          method that calls this function
+     * @see #processContext(Context, String) 
+     *          called to process a single context in the given .zip file
+     *          
+     * @param inputFilePath
+     *          path to the .zip file that should be processed
+     * @param outputDirectory
+     *          path to the directory in which the results will be stored
+     */
     private void processZip(String inputFilePath, String outputDirectory) {
         System.out.println();
         System.out.println("PROCESSING "+inputFilePath);
@@ -55,8 +76,6 @@ public class SentenceExtractor {
                 // within the slnZip, each stored context is contained as a single file that
                 // contains the Json representation of a Context.
                 Context context = ra.getNext(Context.class);
-
-                // the events can then be processed individually
                 processContext(context, outputDirectory);
             }
         }
@@ -75,6 +94,10 @@ public class SentenceExtractor {
      * @see APISentenceTree#flatten() 
      *          method that returns all API sentences from the 
      *          {@link APISentenceTree} objects
+     * @see IoHelper#appendAPISentencesToFile(String, List, int) 
+     *          method used to store the results to files
+     * @see #bucketizeApiSentences(List) 
+     *          used to bucketize API sentencess
      * 
      * @param context
      *          context
@@ -86,15 +109,9 @@ public class SentenceExtractor {
         List<APISentenceTree> apiSentenceTrees = process(context.getSST());
         
         for(APISentenceTree asp : apiSentenceTrees) {
-            Long n = 4*asp.numberOfSentences();
-//            System.out.print(" expected: "+n);
-//            System.out.print(" nbranches: "+asp.totalNumberOfBranches());
-//            System.out.print(" in pow: "+Math.pow(2, asp.totalNumberOfBranches()));
             if(asp.numberOfSentences() < 100000L) {
                 List<List<APIToken>> apiSentences = asp.flatten(MAX_FLATTEN_DEPTH);
-//                System.out.print(" actual : "+apiSentences.size());
                 Map<String, List<List<APIToken>>> bucketizedSentences = bucketizeApiSentences(apiSentences);
-                
                 try {
                     if(apiSentences.size() > 0) {
                         for(String key : bucketizedSentences.keySet()) {
@@ -115,13 +132,21 @@ public class SentenceExtractor {
     }
 
     /**
+     * Bucketizes a given list of API sentences.
+     * That is, this function creates a map entry for each distinct namespace from all given API sentences
+     * and gathers all tokens from all sentences that include the same namespace into this map entry.
+     * The sentence structure and token order is preserved for tokens with the same namespace.
      * 
      * @param apiSentences
+     *          list of API sentences
      * @return
+     *          bucketized API sentences
      */
     private Map<String, List<List<APIToken>>> bucketizeApiSentences(List<List<APIToken>> apiSentences) {
         Map<String, List<List<APIToken>>> buckets = new HashMap<>();
         for(List<APIToken> sentence : apiSentences) {
+            // create a new bucket per namespace in the current sentence and add
+            // all tokens with the same namespace to the same sentence preserving their order
             Map<String, List<APIToken>> currentMap = new HashMap<>();
             for(APIToken token : sentence) {
                 if(!currentMap.containsKey(token.getNamespace())) {
@@ -129,6 +154,7 @@ public class SentenceExtractor {
                 }
                 currentMap.get(token.getNamespace()).add(token);
             }
+            // add all newly created buckets to the existing buckets map
             for(String key : currentMap.keySet()) {
                 if(!buckets.containsKey(key)) {
                     buckets.put(key, new ArrayList<>());

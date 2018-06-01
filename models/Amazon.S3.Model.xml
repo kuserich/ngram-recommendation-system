@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8"?><dictionary case_sensitive="false">
+<entry count="8">
+<token>Amazon.S3.Model.PartETag,new</token>
+<token>Amazon.S3.Model.CompleteMultipartUploadRequest,new</token>
+</entry>
+<entry count="6">
+<token>Amazon.S3.Model.PutObjectRequest,WithBucketName</token>
+<token>Amazon.S3.Model.PutObjectRequest,WithKey</token>
+<token>Amazon.S3.Model.S3Request,WithInputStream</token>
+<token>Amazon.S3.Model.S3Request,WithTimeout</token>
+<token>Amazon.S3.Model.S3Request,WithReadWriteTimeout</token>
+</entry>
+<entry count="2">
+<token>Amazon.S3.Model.S3Request,WithTimeout</token>
+<token>Amazon.S3.Model.S3Request,WithReadWriteTimeout</token>
+<token>Amazon.S3.Model.PutObjectRequest,WithCannedACL</token>
+</entry>
+<entry count="1">
+<token>Amazon.S3.Model.GetPreSignedUrlRequest,WithKey</token>
+<token>Amazon.S3.Model.GetPreSignedUrlRequest,WithExpires</token>
+</entry>
+<entry count="6">
+<token>Amazon.S3.Model.PutObjectRequest,WithBucketName</token>
+<token>Amazon.S3.Model.PutObjectRequest,WithKey</token>
+<token>Amazon.S3.Model.S3Request,WithInputStream</token>
+</entry>
+<entry count="1">
+<token>Amazon.S3.Model.GetPreSignedUrlRequest,new</token>
+<token>Amazon.S3.Model.GetPreSignedUrlRequest,WithBucketName</token>
+<token>Amazon.S3.Model.GetPreSignedUrlRequest,WithKey</token>
+</entry>
+<entry count="6">
+<token>Amazon.S3.Model.PutObjectRequest,new</token>
+<token>Amazon.S3.Model.PutObjectRequest,WithBucketName</token>
+<token>Amazon.S3.Model.PutObjectRequest,WithKey</token>
+<token>Amazon.S3.Model.S3Request,WithInputStream</token>
+<token>Amazon.S3.Model.S3Request,WithTimeout</token>
+</entry>
+<entry count="2">
+<token>Amazon.S3.Model.S3Request,WithInputStream</token>
+<token>Amazon.S3.Model.S3Request,WithTimeout</token>
+<token>Amazon.S3.Model.S3Request,WithReadWriteTimeout</token>
+<token>Amazon.S3.Model.PutObjectRequest,WithCannedACL</token>
+</entry>
+<entry count="1">
+<token>Amazon.S3.Model.CopyObjectRequest,new</token>
+<token>Amazon.S3.Model.CopyObjectRequest,WithSourceBucket</token>
+</entry>
+<entry count="28">
+<token>Amazon.S3.Model.PutObjectRequest,new</token>
+<token>Amazon.S3.Model.PutObjectRequest,new</token>
+</entry>
+<entry count="1">
+<token>Amazon.S3.Model.CopyObjectRequest,WithDestinationKey</token>
+<token>Amazon.S3.Model.CopyObjectRequest,WithDirective</token>
+</entry>
+<entry count="1">
+<token>Amazon.S3.Model.GetPreSignedUrlRequest,WithKey</token>
+<token>Amazon.S3.Model.GetPreSignedUrlRequest,WithExpires</token>
+<token>Amazon.S3.Model.S3Request,WithTimeout</token>
+</entry>
+<entry count="8">
+<token>Amazon.S3.Model.UploadPartRequest,new</token>
+<token>Amazon.S3.Model.PartETag,new</token>
+<token>Amazon.S3.Model.CompleteMultipartUploadRequest,new</token>
+</entry>
+<entry count="8">
+<token>Amazon.S3.Model.UploadPartRequest,new</token>
+<token>Amazon.S3.Model.PartETag,new</token>
+</entry>
+<entry count="1">
+<token>Amazon.S3.Model.CopyObjectRequest,WithSourceBucket</token>
+<token>Amazon.S3.Model.CopyObjectRequest,WithDestinationBucket</token>
+</entry>
+<entry count="1">
+<token>Amazon.S3.Model.CopyObjectRequest,new</token>
+<token>Amazon.S3.Model.CopyObjectRequest,WithSourceBucket</token>
+<token>Amazon.S3.Model.CopyObjectRequest,WithDestinationBucket</token>
+<token>Amazon.S3.Model.CopyObjectRequest,WithCannedACL</token>
+</entry>
+<entry count="2">
+<token>Amazon.S3.Model.DeleteObjectRequest,new</token>
+<token>Amazon.S3.Model.DeleteObjectRequest,WithKey</token>
+</entry>
+<entry count="1">
+<token>Amazon.S3.Model.InitiateMultipartUploadRequest,new</token>
+<token>Amazon.S3.Model.AbortMultipartUploadRequest,new</token>
+</entry>
+<entry count="1">
+<token>Amazon.S3.Model.CopyObjectRequest,WithSourceKey</token>
+<token>Amazon.S3.Model.CopyObjectRequest,WithDestinationKey</token>
+<token>Amazon.S3.Model.CopyObjectRequest,WithDirective</token>
+</entry>
+<entry count="2">
+<token>Amazon.S3.Model.DeleteObjectRequest,WithKey</token>
+<token>Amazon.S3.Model.DeleteObjectRequest,WithBucketName</token>
+</entry>
+<entry count="1">
+<token>Amazon.S3.Model.GetObjectMetadataRequest,WithKey</token>
+<token>Amazon.S3.Model.S3Request,WithTimeout</token>
+</entry>
+<entry count="6">
+<token>Amazon.S3.Model.S3Request,WithInputStream</token>
+<token>Amazon.S3.Model.S3Request,WithTimeout</token>
+</entry>
+<entry count="1">
+<token>Amazon.S3.Model.CopyObjectRequest,WithDestinationBucket</token>
+<token>Amazon.S3.Model.CopyObjectRequest,WithCannedACL</token>
+<token>Amazon.S3.Model.CopyObjectRequest,WithSourceKey</token>
+</entry>
+<entry count="1">
+<token>Amazon.S3.Model.CopyObjectRequest,WithCannedACL</token>
+<token>Amazon.S3.Model.CopyObjectRequest,WithSourceKey</token>
+<token>Amazon.S3.Model.CopyObjectRequest,WithDestinationKey</token>
+<token>Amazon.S3.Model.CopyObjectRequest,WithDirective</token>
+<token>Amazon.S3.Model.CopyObjectRequest,WithTimeout</token>
+</entry>
+<entry count="8">
+<token>Amazon.S3.Model.S3Request,WithTimeout</token>
+<token>Amazon.S3.Model.S3Request,WithReadWriteTimeout</token>
+</entry>
+<entry count="1">
+<token>Amazon.S3.Model.GetPreSignedUrlRequest,WithKey</token>
+<token>Amazon.S3.Model.GetPreSignedUrlRequest,WithExpires</token>
+<token>Amazon.S3.Model.S3Request,WithTimeout</token>
+<token>Amazon.S3.Model.S3Request,WithReadWriteTimeout</token>
+</entry>
+<entry count="8">
+<token>Amazon.S3.Model.PutObjectRequest,new</token>
+<token>Amazon.S3.Model.PutObjectRequest,new</token>
+<token>Amazon.S3.Model.PutObjectRequest,new</token>
+</entry>
+<entry count="1">
+<token>Amazon.S3.Model.S3Request,WithReadWriteTimeout</token>
+<token>Amazon.S3.Model.S3Request,AddHeaders</token>
+</entry>
+<entry count="6">
+<token>Amazon.S3.Model.PutObjectRequest,WithKey</token>
+<token>Amazon.S3.Model.S3Request,WithInputStream</token>
+<token>Amazon.S3.Model.S3Request,WithTimeout</token>
+</entry>
+<entry count="6">
+<token>Amazon.S3.Model.PutObjectRequest,new</token>
+<token>Amazon.S3.Model.PutObjectRequest,WithBucketName</token>
+<token>Amazon.S3.Model.PutObjectRequest,WithKey</token>
+</entry>
+<entry count="6">
+<token>Amazon.S3.Model.PutObjectRequest,WithKey</token>
+<token>Amazon.S3.Model.S3Request,WithInputStream</token>
+</entry>
+<entry count="1">
+<token>Amazon.S3.Model.CopyObjectRequest,WithSourceBucket</token>
+<token>Amazon.S3.Model.CopyObjectRequest,WithDestinationBucket</token>
+<token>Amazon.S3.Model.CopyObjectRequest,WithCannedACL</token>
+<token>Amazon.S3.Model.CopyObjectRequest,WithSourceKey</token>
+</entry>
+<entry count="8">
+<token>Amazon.S3.Model.InitiateMultipartUploadRequest,new</token>
+<token>Amazon.S3.Model.UploadPartRequest,new</token>
+<token>Amazon.S3.Model.PartETag,new</token>
+<token>Amazon.S3.Model.CompleteMultipartUploadRequest,new</token>
+</entry>
+<entry count="1">
+<token>Amazon.S3.Model.CopyObjectRequest,WithCannedACL</token>
+<token>Amazon.S3.Model.CopyObjectRequest,WithSourceKey</token>
+<token>Amazon.S3.Model.CopyObjectRequest,WithDestinationKey</token>
+<token>Amazon.S3.Model.CopyObjectRequest,WithDirective</token>
+</entry>
+<entry count="6">
+<token>Amazon.S3.Model.PutObjectRequest,WithBucketName</token>
+<token>Amazon.S3.Model.PutObjectRequest,WithKey</token>
+<token>Amazon.S3.Model.S3Request,WithInputStream</token>
+<token>Amazon.S3.Model.S3Request,WithTimeout</token>
+</entry>
+<entry count="1">
+<token>Amazon.S3.Model.GetObjectMetadataRequest,new</token>
+<token>Amazon.S3.Model.GetObjectMetadataRequest,WithBucketName</token>
+<token>Amazon.S3.Model.GetObjectMetadataRequest,WithKey</token>
+</entry>
+<entry count="2">
+<token>Amazon.S3.Model.S3Request,WithReadWriteTimeout</token>
+<token>Amazon.S3.Model.PutObjectRequest,WithCannedACL</token>
+</entry>
+<entry count="1">
+<token>Amazon.S3.Model.PutObjectRequest,WithKey</token>
+<token>Amazon.S3.Model.S3Request,WithInputStream</token>
+<token>Amazon.S3.Model.S3Request,WithTimeout</token>
+<token>Amazon.S3.Model.S3Request,WithReadWriteTimeout</token>
+<token>Amazon.S3.Model.PutObjectRequest,WithMetaData</token>
+</entry>
+<entry count="1">
+<token>Amazon.S3.Model.GetObjectMetadataRequest,WithBucketName</token>
+<token>Amazon.S3.Model.GetObjectMetadataRequest,WithKey</token>
+<token>Amazon.S3.Model.S3Request,WithTimeout</token>
+<token>Amazon.S3.Model.S3Request,WithReadWriteTimeout</token>
+</entry>
+<entry count="1">
+<token>Amazon.S3.Model.GetPreSignedUrlRequest,WithExpires</token>
+<token>Amazon.S3.Model.S3Request,WithTimeout</token>
+<token>Amazon.S3.Model.S3Request,WithReadWriteTimeout</token>
+</entry>
+<entry count="1">
+<token>Amazon.S3.Model.GetPreSignedUrlRequest,WithBucketName</token>
+<token>Amazon.S3.Model.GetPreSignedUrlRequest,WithKey</token>
+<token>Amazon.S3.Model.GetPreSignedUrlRequest,WithExpires</token>
+<token>Amazon.S3.Model.S3Request,WithTimeout</token>
+<token>Amazon.S3.Model.S3Request,WithReadWriteTimeout</token>
+</entry>
+<entry count="1">
+<token>Amazon.S3.Model.GetObjectMetadataRequest,WithBucketName</token>
+<token>Amazon.S3.Model.GetObjectMetadataRequest,WithKey</token>
+<token>Amazon.S3.Model.S3Request,WithTimeout</token>
+</entry>
+<entry count="1">
+<token>Amazon.S3.Model.CopyObjectRequest,WithSourceBucket</token>
+<token>Amazon.S3.Model.CopyObjectRequest,WithDestinationBucket</token>
+<token>Amazon.S3.Model.CopyObjectRequest,WithCannedACL</token>
+<token>Amazon.S3.Model.CopyObjectRequest,WithSourceKey</token>
+<token>Amazon.S3.Model.CopyObjectRequest,WithDestinationKey</token>
+</entry>
+<entry count="1">
+<token>Amazon.S3.Model.GetObjectMetadataRequest,new</token>
+<token>Amazon.S3.Model.GetObjectMetadataRequest,WithBucketName</token>
+<token>Amazon.S3.Model.GetObjectMetadataRequest,WithKey</token>
+<token>Amazon.S3.Model.S3Request,WithTimeout</token>
+</entry>
+<entry count="1">
+<token>Amazon.S3.Model.CopyObjectRequest,WithSourceBucket</token>
+<token>Amazon.S3.Model.CopyObjectRequest,WithDestinationBucket</token>
+<token>Amazon.S3.Model.CopyObjectRequest,WithCannedACL</token>
+</entry>
+<entry count="1">
+<token>Amazon.S3.Model.GetObjectMetadataRequest,WithKey</token>
+<token>Amazon.S3.Model.S3Request,WithTimeout</token>
+<token>Amazon.S3.Model.S3Request,WithReadWriteTimeout</token>
+</entry>
+<entry count="1">
+<token>Amazon.S3.Model.CopyObjectRequest,WithSourceKey</token>
+<token>Amazon.S3.Model.CopyObjectRequest,WithDestinationKey</token>
+</entry>
+<entry count="1">
+<token>Amazon.S3.Model.GetPreSignedUrlRequest,new</token>
+<token>Amazon.S3.Model.GetPreSignedUrlRequest,WithBucketName</token>
+</entry>
+<entry count="1">
+<token>Amazon.S3.Model.CopyObjectRequest,WithDestinationBucket</token>
+<token>Amazon.S3.Model.CopyObjectRequest,WithCannedACL</token>
+<token>Amazon.S3.Model.CopyObjectRequest,WithSourceKey</token>
+<token>Amazon.S3.Model.CopyObjectRequest,WithDestinationKey</token>
+<token>Amazon.S3.Model.CopyObjectRequest,WithDirective</token>
+</entry>
+<entry count="1">
+<token>Amazon.S3.Model.GetPreSignedUrlRequest,new</token>
+<token>Amazon.S3.Model.GetPreSignedUrlRequest,WithBucketName</token>
+<token>Amazon.S3.Model.GetPreSignedUrlRequest,WithKey</token>
+<token>Amazon.S3.Model.GetPreSignedUrlRequest,WithExpires</token>
+<token>Amazon.S3.Model.S3Request,WithTimeout</token>
+</entry>
+<entry count="1">
+<token>Amazon.S3.Model.GetPreSignedUrlRequest,WithBucketName</token>
+<token>Amazon.S3.Model.GetPreSignedUrlRequest,WithKey</token>
+<token>Amazon.S3.Model.GetPreSignedUrlRequest,WithExpires</token>
+</entry>
+<entry count="8">
+<token>Amazon.S3.Model.InitiateMultipartUploadRequest,new</token>
+<token>Amazon.S3.Model.UploadPartRequest,new</token>
+<token>Amazon.S3.Model.PartETag,new</token>
+</entry>
+<entry count="1">
+<token>Amazon.S3.Model.CopyObjectRequest,new</token>
+<token>Amazon.S3.Model.CopyObjectRequest,WithSourceBucket</token>
+<token>Amazon.S3.Model.CopyObjectRequest,WithDestinationBucket</token>
+</entry>
+<entry count="1">
+<token>Amazon.S3.Model.GetPreSignedUrlRequest,WithBucketName</token>
+<token>Amazon.S3.Model.GetPreSignedUrlRequest,WithKey</token>
+</entry>
+<entry count="4">
+<token>Amazon.S3.Model.InitiateMultipartUploadRequest,new</token>
+<token>Amazon.S3.Model.CompleteMultipartUploadRequest,new</token>
+</entry>
+<entry count="6">
+<token>Amazon.S3.Model.PutObjectRequest,new</token>
+<token>Amazon.S3.Model.PutObjectRequest,WithBucketName</token>
+<token>Amazon.S3.Model.PutObjectRequest,WithKey</token>
+<token>Amazon.S3.Model.S3Request,WithInputStream</token>
+</entry>
+<entry count="1">
+<token>Amazon.S3.Model.PutObjectRequest,WithKey</token>
+<token>Amazon.S3.Model.S3Request,WithInputStream</token>
+<token>Amazon.S3.Model.S3Request,WithTimeout</token>
+<token>Amazon.S3.Model.S3Request,WithReadWriteTimeout</token>
+<token>Amazon.S3.Model.S3Request,AddHeaders</token>
+</entry>
+<entry count="1">
+<token>Amazon.S3.Model.GetPreSignedUrlRequest,WithBucketName</token>
+<token>Amazon.S3.Model.GetPreSignedUrlRequest,WithKey</token>
+<token>Amazon.S3.Model.GetPreSignedUrlRequest,WithExpires</token>
+<token>Amazon.S3.Model.S3Request,WithTimeout</token>
+</entry>
+<entry count="1">
+<token>Amazon.S3.Model.GetObjectMetadataRequest,new</token>
+<token>Amazon.S3.Model.GetObjectMetadataRequest,WithBucketName</token>
+</entry>
+<entry count="1">
+<token>Amazon.S3.Model.CopyObjectRequest,new</token>
+<token>Amazon.S3.Model.CopyObjectRequest,WithSourceBucket</token>
+<token>Amazon.S3.Model.CopyObjectRequest,WithDestinationBucket</token>
+<token>Amazon.S3.Model.CopyObjectRequest,WithCannedACL</token>
+<token>Amazon.S3.Model.CopyObjectRequest,WithSourceKey</token>
+</entry>
+<entry count="1">
+<token>Amazon.S3.Model.S3Request,WithTimeout</token>
+<token>Amazon.S3.Model.S3Request,WithReadWriteTimeout</token>
+<token>Amazon.S3.Model.PutObjectRequest,WithMetaData</token>
+</entry>
+<entry count="1">
+<token>Amazon.S3.Model.CopyObjectRequest,WithCannedACL</token>
+<token>Amazon.S3.Model.CopyObjectRequest,WithSourceKey</token>
+<token>Amazon.S3.Model.CopyObjectRequest,WithDestinationKey</token>
+</entry>
+<entry count="1">
+<token>Amazon.S3.Model.CopyObjectRequest,WithDirective</token>
+<token>Amazon.S3.Model.CopyObjectRequest,WithTimeout</token>
+</entry>
+<entry count="1">
+<token>Amazon.S3.Model.CompleteMultipartUploadRequest,new</token>
+<token>Amazon.S3.Model.CompleteMultipartUploadRequest,AddPartETags</token>
+</entry>
+<entry count="1">
+<token>Amazon.S3.Model.S3Request,WithInputStream</token>
+<token>Amazon.S3.Model.S3Request,WithTimeout</token>
+<token>Amazon.S3.Model.S3Request,WithReadWriteTimeout</token>
+<token>Amazon.S3.Model.S3Request,AddHeaders</token>
+</entry>
+<entry count="1">
+<token>Amazon.S3.Model.CopyObjectRequest,WithDestinationBucket</token>
+<token>Amazon.S3.Model.CopyObjectRequest,WithCannedACL</token>
+<token>Amazon.S3.Model.CopyObjectRequest,WithSourceKey</token>
+<token>Amazon.S3.Model.CopyObjectRequest,WithDestinationKey</token>
+</entry>
+<entry count="1">
+<token>Amazon.S3.Model.CopyObjectRequest,WithSourceKey</token>
+<token>Amazon.S3.Model.CopyObjectRequest,WithDestinationKey</token>
+<token>Amazon.S3.Model.CopyObjectRequest,WithDirective</token>
+<token>Amazon.S3.Model.CopyObjectRequest,WithTimeout</token>
+</entry>
+<entry count="1">
+<token>Amazon.S3.Model.GetObjectMetadataRequest,new</token>
+<token>Amazon.S3.Model.GetObjectMetadataRequest,WithBucketName</token>
+<token>Amazon.S3.Model.GetObjectMetadataRequest,WithKey</token>
+<token>Amazon.S3.Model.S3Request,WithTimeout</token>
+<token>Amazon.S3.Model.S3Request,WithReadWriteTimeout</token>
+</entry>
+<entry count="1">
+<token>Amazon.S3.Model.CopyObjectRequest,WithDestinationBucket</token>
+<token>Amazon.S3.Model.CopyObjectRequest,WithCannedACL</token>
+</entry>
+<entry count="2">
+<token>Amazon.S3.Model.PutObjectRequest,WithKey</token>
+<token>Amazon.S3.Model.S3Request,WithInputStream</token>
+<token>Amazon.S3.Model.S3Request,WithTimeout</token>
+<token>Amazon.S3.Model.S3Request,WithReadWriteTimeout</token>
+<token>Amazon.S3.Model.PutObjectRequest,WithCannedACL</token>
+</entry>
+<entry count="1">
+<token>Amazon.S3.Model.S3Request,WithInputStream</token>
+<token>Amazon.S3.Model.S3Request,WithTimeout</token>
+<token>Amazon.S3.Model.S3Request,WithReadWriteTimeout</token>
+<token>Amazon.S3.Model.PutObjectRequest,WithMetaData</token>
+</entry>
+<entry count="1">
+<token>Amazon.S3.Model.S3Request,WithTimeout</token>
+<token>Amazon.S3.Model.S3Request,WithReadWriteTimeout</token>
+<token>Amazon.S3.Model.S3Request,AddHeaders</token>
+</entry>
+<entry count="2">
+<token>Amazon.S3.Model.DeleteObjectRequest,new</token>
+<token>Amazon.S3.Model.DeleteObjectRequest,WithKey</token>
+<token>Amazon.S3.Model.DeleteObjectRequest,WithBucketName</token>
+</entry>
+<entry count="8">
+<token>Amazon.S3.Model.InitiateMultipartUploadRequest,new</token>
+<token>Amazon.S3.Model.UploadPartRequest,new</token>
+</entry>
+<entry count="1">
+<token>Amazon.S3.Model.GetObjectMetadataRequest,WithBucketName</token>
+<token>Amazon.S3.Model.GetObjectMetadataRequest,WithKey</token>
+</entry>
+<entry count="6">
+<token>Amazon.S3.Model.PutObjectRequest,new</token>
+<token>Amazon.S3.Model.PutObjectRequest,WithBucketName</token>
+</entry>
+<entry count="6">
+<token>Amazon.S3.Model.PutObjectRequest,WithBucketName</token>
+<token>Amazon.S3.Model.PutObjectRequest,WithKey</token>
+</entry>
+<entry count="6">
+<token>Amazon.S3.Model.PutObjectRequest,WithKey</token>
+<token>Amazon.S3.Model.S3Request,WithInputStream</token>
+<token>Amazon.S3.Model.S3Request,WithTimeout</token>
+<token>Amazon.S3.Model.S3Request,WithReadWriteTimeout</token>
+</entry>
+<entry count="1">
+<token>Amazon.S3.Model.GetPreSignedUrlRequest,WithExpires</token>
+<token>Amazon.S3.Model.S3Request,WithTimeout</token>
+</entry>
+<entry count="1">
+<token>Amazon.S3.Model.CopyObjectRequest,WithCannedACL</token>
+<token>Amazon.S3.Model.CopyObjectRequest,WithSourceKey</token>
+</entry>
+<entry count="6">
+<token>Amazon.S3.Model.S3Request,WithInputStream</token>
+<token>Amazon.S3.Model.S3Request,WithTimeout</token>
+<token>Amazon.S3.Model.S3Request,WithReadWriteTimeout</token>
+</entry>
+<entry count="1">
+<token>Amazon.S3.Model.GetPreSignedUrlRequest,new</token>
+<token>Amazon.S3.Model.GetPreSignedUrlRequest,WithBucketName</token>
+<token>Amazon.S3.Model.GetPreSignedUrlRequest,WithKey</token>
+<token>Amazon.S3.Model.GetPreSignedUrlRequest,WithExpires</token>
+</entry>
+<entry count="1">
+<token>Amazon.S3.Model.S3Request,WithReadWriteTimeout</token>
+<token>Amazon.S3.Model.PutObjectRequest,WithMetaData</token>
+</entry>
+<entry count="1">
+<token>Amazon.S3.Model.CopyObjectRequest,WithDestinationKey</token>
+<token>Amazon.S3.Model.CopyObjectRequest,WithDirective</token>
+<token>Amazon.S3.Model.CopyObjectRequest,WithTimeout</token>
+</entry>
+</dictionary>

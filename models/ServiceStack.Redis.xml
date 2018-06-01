@@ -1,142 +1,124 @@
 <?xml version="1.0" encoding="UTF-8"?><dictionary case_sensitive="false">
-<entry count="12">
+<entry count="120">
 <token>ServiceStack.Redis.RedisClient,Remove</token>
 <token>ServiceStack.Redis.RedisNativeClient,Rename</token>
 <token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
 </entry>
-<entry count="12">
+<entry count="96">
+<token>ServiceStack.Redis.RedisNativeClient,Rename</token>
+<token>ServiceStack.Redis.RedisNativeClient,HLen</token>
+<token>ServiceStack.Redis.RedisNativeClient,HGetAll</token>
+</entry>
+<entry count="32">
+<token>ServiceStack.Redis.RedisNativeClient,Rename</token>
+<token>ServiceStack.Redis.RedisNativeClient,HLen</token>
+<token>ServiceStack.Redis.RedisNativeClient,Rename</token>
+<token>ServiceStack.Redis.RedisNativeClient,HGetAll</token>
+</entry>
+<entry count="100">
 <token>ServiceStack.Redis.RedisNativeClient,Rename</token>
 <token>ServiceStack.Redis.RedisNativeClient,HLen</token>
 <token>ServiceStack.Redis.RedisNativeClient,HLen</token>
 <token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
 </entry>
-<entry count="16">
+<entry count="1168">
+<token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,HGet</token>
+</entry>
+<entry count="192">
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
+<token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,HGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
+</entry>
+<entry count="48">
 <token>ServiceStack.Redis.IRedisClient,CreateTransaction</token>
 <token>ServiceStack.Redis.IRedisClient,AddItemToSortedSet</token>
 <token>ServiceStack.Redis.IRedisClient,RemoveRangeFromSortedSet</token>
-</entry>
-<entry count="24">
-<token>ServiceStack.Redis.RedisClient,Remove</token>
-<token>ServiceStack.Redis.RedisNativeClient,Rename</token>
-</entry>
-<entry count="2">
-<token>ServiceStack.Redis.RedisClient,GetConfig</token>
-<token>ServiceStack.Redis.PooledRedisClientManager,new</token>
-</entry>
-<entry count="24">
-<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
-<token>ServiceStack.Redis.RedisClient,ContainsKey</token>
-</entry>
-<entry count="12">
-<token>ServiceStack.Redis.IRedisClientsManager,GetClient</token>
-<token>ServiceStack.Redis.IRedisClient,ScanAllKeys</token>
 </entry>
 <entry count="4">
 <token>ServiceStack.Redis.RedisNativeClient,UnWatch</token>
 <token>ServiceStack.Redis.RedisClient,CreateTransaction</token>
 <token>ServiceStack.Redis.IRedisTransaction,Commit</token>
 </entry>
-<entry count="12">
-<token>ServiceStack.Redis.IRedisClient,RemoveItemFromSortedSet</token>
-<token>ServiceStack.Redis.IRedisClient,RemoveItemFromSet</token>
-<token>ServiceStack.Redis.IRedisClient,RemoveItemFromSet</token>
-<token>ServiceStack.Redis.IRedisTransaction,Commit</token>
+<entry count="8">
+<token>ServiceStack.Redis.RedisNativeClient,Rename</token>
+<token>ServiceStack.Redis.RedisNativeClient,HLen</token>
+<token>ServiceStack.Redis.RedisNativeClient,Rename</token>
+<token>ServiceStack.Redis.RedisNativeClient,HGetAll</token>
+<token>ServiceStack.Redis.RedisClient,Remove</token>
+</entry>
+<entry count="24">
+<token>ServiceStack.Redis.RedisNativeClient,Rename</token>
+<token>ServiceStack.Redis.RedisNativeClient,HLen</token>
+<token>ServiceStack.Redis.RedisNativeClient,HGetAll</token>
+<token>ServiceStack.Redis.RedisClient,Remove</token>
 </entry>
 <entry count="8">
 <token>ServiceStack.Redis.IRedisClientsManager,GetClient</token>
 <token>ServiceStack.Redis.IRedisClient,ScanAllKeys</token>
 <token>ServiceStack.Redis.IRedisClient,GetAllItemsFromSet</token>
 </entry>
-<entry count="24">
-<token>ServiceStack.Redis.RedisClient,ContainsKey</token>
-<token>ServiceStack.Redis.RedisClient,Remove</token>
-</entry>
-<entry count="1">
-<token>ServiceStack.Redis.RedisClient,SetConfig</token>
-<token>ServiceStack.Redis.RedisClient,GetClientsInfo</token>
-</entry>
-<entry count="4">
-<token>ServiceStack.Redis.PooledRedisClientManager,FailoverTo</token>
-<token>ServiceStack.Redis.RedisClient,GetListCount</token>
-<token>ServiceStack.Redis.RedisClient,GetListCount</token>
-</entry>
-<entry count="20">
-<token>ServiceStack.Redis.IRedisClientsManager,GetClient</token>
-<token>ServiceStack.Redis.IRedisClient,CreateTransaction</token>
-<token>ServiceStack.Redis.IRedisClient,RemoveItemFromSortedSet</token>
-</entry>
-<entry count="1">
-<token>ServiceStack.Redis.RedisClient,Remove</token>
-<token>ServiceStack.Redis.RedisClient,new</token>
-<token>ServiceStack.Redis.RedisClient,Remove</token>
-</entry>
-<entry count="4">
-<token>ServiceStack.Redis.RedisNativeClient,Rename</token>
+<entry count="3504">
 <token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
-<token>ServiceStack.Redis.RedisClient,Remove</token>
+<token>ServiceStack.Redis.RedisNativeClient,Get</token>
 </entry>
-<entry count="12">
+<entry count="80">
+<token>ServiceStack.Redis.RedisClient,Get</token>
+<token>ServiceStack.Redis.RedisNativeClient,Get</token>
+</entry>
+<entry count="256">
+<token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,HGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,Get</token>
+</entry>
+<entry count="48">
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
+<token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
+<token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
+</entry>
+<entry count="228">
 <token>ServiceStack.Redis.RedisNativeClient,Rename</token>
 <token>ServiceStack.Redis.RedisNativeClient,HLen</token>
 </entry>
-<entry count="12">
-<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
-<token>ServiceStack.Redis.RedisNativeClient,HLen</token>
-</entry>
-<entry count="12">
+<entry count="36">
 <token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
 <token>ServiceStack.Redis.RedisClient,ContainsKey</token>
 <token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
 <token>ServiceStack.Redis.RedisClient,SearchKeys</token>
 </entry>
-<entry count="4">
+<entry count="12">
 <token>ServiceStack.Redis.RedisClient,ContainsKey</token>
 <token>ServiceStack.Redis.RedisClient,ContainsKey</token>
 <token>ServiceStack.Redis.RedisNativeClient,Rename</token>
 <token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
 <token>ServiceStack.Redis.RedisClient,Remove</token>
 </entry>
-<entry count="2">
-<token>ServiceStack.Redis.RedisClient,SetConfig</token>
-<token>ServiceStack.Redis.RedisClient,GetConfig</token>
-<token>ServiceStack.Redis.PooledRedisClientManager,new</token>
-</entry>
-<entry count="8">
+<entry count="32">
 <token>ServiceStack.Redis.IRedisClient,CreateTransaction</token>
 <token>ServiceStack.Redis.IRedisClient,RemoveItemFromSortedSet</token>
 <token>ServiceStack.Redis.IRedisClient,RemoveItemFromSet</token>
 <token>ServiceStack.Redis.IRedisTransaction,Commit</token>
 </entry>
-<entry count="4">
-<token>ServiceStack.Redis.IRedisClient,ScanAllKeys</token>
-<token>ServiceStack.Redis.IRedisClient,GetValues</token>
+<entry count="18688">
+<token>ServiceStack.Redis.RedisNativeClient,Get</token>
+<token>ServiceStack.Redis.RedisNativeClient,Get</token>
 </entry>
 <entry count="8">
 <token>ServiceStack.Redis.IRedisClientsManager,GetClient</token>
 <token>ServiceStack.Redis.IRedisClient,AddItemToSortedSet</token>
 </entry>
-<entry count="2">
-<token>ServiceStack.Redis.RedisClient,IncrementValue</token>
-<token>ServiceStack.Redis.RedisClient,Get</token>
-</entry>
-<entry count="12">
+<entry count="120">
 <token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
 <token>ServiceStack.Redis.RedisClient,ContainsKey</token>
 <token>ServiceStack.Redis.RedisClient,Remove</token>
 </entry>
-<entry count="8">
+<entry count="80">
 <token>ServiceStack.Redis.IRedisClient,RemoveItemFromSortedSet</token>
 <token>ServiceStack.Redis.IRedisClient,RemoveItemFromSet</token>
 <token>ServiceStack.Redis.IRedisTransaction,Commit</token>
-</entry>
-<entry count="32">
-<token>ServiceStack.Redis.RedisNativeClient,HLen</token>
-<token>ServiceStack.Redis.RedisNativeClient,Rename</token>
-</entry>
-<entry count="4">
-<token>ServiceStack.Redis.IRedisNativeClient,LPush</token>
-<token>ServiceStack.Redis.IRedisNativeClient,LTrim</token>
-<token>ServiceStack.Redis.IRedisNativeClient,Publish</token>
 </entry>
 <entry count="2">
 <token>ServiceStack.Redis.RedisClient,SetConfig</token>
@@ -144,24 +126,27 @@
 <token>ServiceStack.Redis.PooledRedisClientManager,new</token>
 <token>ServiceStack.Redis.PooledRedisClientManager,GetClient</token>
 </entry>
-<entry count="9">
+<entry count="28">
 <token>ServiceStack.Redis.RedisClient,new</token>
 <token>ServiceStack.Redis.RedisNativeClient,FlushAll</token>
 </entry>
-<entry count="8">
-<token>ServiceStack.Redis.IRedisClient,GetRangeFromSortedSetDesc</token>
-<token>ServiceStack.Redis.IRedisClient,As</token>
+<entry count="24">
+<token>ServiceStack.Redis.RedisNativeClient,HLen</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisClient,ContainsKey</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisClient,ContainsKey</token>
 </entry>
 <entry count="8">
 <token>ServiceStack.Redis.IRedisClient,ScanAllKeys</token>
 <token>ServiceStack.Redis.IRedisClient,GetAllItemsFromSet</token>
 <token>ServiceStack.Redis.IRedisClient,GetValues</token>
 </entry>
-<entry count="2">
-<token>ServiceStack.Redis.RedisClient,GetConfig</token>
-<token>ServiceStack.Redis.PooledRedisClientManager,new</token>
-<token>ServiceStack.Redis.PooledRedisClientManager,GetClient</token>
-<token>ServiceStack.Redis.RedisClient,IncrementValue</token>
+<entry count="80">
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
+<token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
+<token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
 <token>ServiceStack.Redis.RedisClient,Get</token>
 </entry>
 <entry count="2">
@@ -169,20 +154,49 @@
 <token>ServiceStack.Redis.PooledRedisClientManager,new</token>
 <token>ServiceStack.Redis.PooledRedisClientManager,GetClient</token>
 <token>ServiceStack.Redis.RedisClient,IncrementValue</token>
+<token>ServiceStack.Redis.RedisClient,Get</token>
 </entry>
-<entry count="5">
-<token>ServiceStack.Redis.PooledRedisClientManager,new</token>
-<token>ServiceStack.Redis.PooledRedisClientManager,FailoverTo</token>
+<entry count="192">
+<token>ServiceStack.Redis.RedisNativeClient,Get</token>
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
+<token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+</entry>
+<entry count="60">
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisNativeClient,HGet</token>
+<token>ServiceStack.Redis.RedisClient,Get</token>
+</entry>
+<entry count="36">
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisNativeClient,HGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
 </entry>
 <entry count="4">
 <token>ServiceStack.Redis.IRedisClientsManager,GetClient</token>
 <token>ServiceStack.Redis.IRedisClient,FlushDb</token>
 </entry>
-<entry count="16">
+<entry count="240">
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisNativeClient,Get</token>
+<token>ServiceStack.Redis.RedisClient,Get</token>
+</entry>
+<entry count="256">
+<token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
+<token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,Get</token>
+</entry>
+<entry count="620">
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
+<token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
+<token>ServiceStack.Redis.RedisClient,Get</token>
+</entry>
+<entry count="48">
 <token>ServiceStack.Redis.IRedisClient,AddItemToSortedSet</token>
 <token>ServiceStack.Redis.IRedisClient,RemoveRangeFromSortedSet</token>
 </entry>
-<entry count="12">
+<entry count="100">
 <token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
 <token>ServiceStack.Redis.RedisClient,ContainsKey</token>
 <token>ServiceStack.Redis.RedisNativeClient,HLen</token>
@@ -191,35 +205,35 @@
 <token>ServiceStack.Redis.RedisNativeClient,Watch</token>
 <token>ServiceStack.Redis.RedisClient,CreateTransaction</token>
 </entry>
-<entry count="4">
-<token>ServiceStack.Redis.RedisNativeClient,Rename</token>
-<token>ServiceStack.Redis.RedisNativeClient,HLen</token>
-<token>ServiceStack.Redis.RedisNativeClient,HLen</token>
-<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
-<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
-</entry>
-<entry count="8">
-<token>ServiceStack.Redis.RedisClient,new</token>
-<token>ServiceStack.Redis.RedisNativeClient,FlushDb</token>
-</entry>
 <entry count="12">
+<token>ServiceStack.Redis.RedisClient,ContainsKey</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisClient,ContainsKey</token>
 <token>ServiceStack.Redis.RedisClient,Remove</token>
-<token>ServiceStack.Redis.RedisNativeClient,Rename</token>
-<token>ServiceStack.Redis.RedisNativeClient,HLen</token>
-<token>ServiceStack.Redis.RedisNativeClient,HLen</token>
+</entry>
+<entry count="45">
 <token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisClient,Get</token>
 </entry>
 <entry count="12">
-<token>ServiceStack.Redis.RedisNativeClient,HLen</token>
 <token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
 <token>ServiceStack.Redis.RedisClient,ContainsKey</token>
 <token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisClient,ContainsKey</token>
 <token>ServiceStack.Redis.RedisClient,SearchKeys</token>
 </entry>
-<entry count="12">
+<entry count="100">
 <token>ServiceStack.Redis.RedisClient,Remove</token>
 <token>ServiceStack.Redis.RedisNativeClient,Rename</token>
+<token>ServiceStack.Redis.RedisNativeClient,HLen</token>
+<token>ServiceStack.Redis.RedisNativeClient,HLen</token>
 <token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+</entry>
+<entry count="36">
+<token>ServiceStack.Redis.RedisNativeClient,HLen</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisClient,ContainsKey</token>
 <token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
 <token>ServiceStack.Redis.RedisClient,SearchKeys</token>
 </entry>
@@ -231,17 +245,11 @@
 <token>ServiceStack.Redis.IRedisNativeClient,LTrim</token>
 <token>ServiceStack.Redis.IRedisNativeClient,Publish</token>
 </entry>
-<entry count="4">
+<entry count="60">
 <token>ServiceStack.Redis.RedisClient,ContainsKey</token>
 <token>ServiceStack.Redis.RedisNativeClient,HLen</token>
 <token>ServiceStack.Redis.RedisNativeClient,HLen</token>
 <token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
-<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
-</entry>
-<entry count="12">
-<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
-<token>ServiceStack.Redis.RedisNativeClient,HLen</token>
-<token>ServiceStack.Redis.RedisNativeClient,HLen</token>
 <token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
 </entry>
 <entry count="4">
@@ -252,66 +260,72 @@
 <token>ServiceStack.Redis.RedisClient,CreatePipeline</token>
 <token>ServiceStack.Redis.RedisNativeClient,SMembers</token>
 </entry>
-<entry count="12">
+<entry count="60">
 <token>ServiceStack.Redis.RedisClient,ContainsKey</token>
 <token>ServiceStack.Redis.RedisClient,Remove</token>
 <token>ServiceStack.Redis.RedisNativeClient,Rename</token>
 <token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
 <token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
 </entry>
-<entry count="2">
-<token>ServiceStack.Redis.IRedisClientsManager,GetClient</token>
-<token>ServiceStack.Redis.IRedisClient,SearchKeys</token>
-<token>ServiceStack.Redis.IRedisClient,GetEntryType</token>
+<entry count="320">
+<token>ServiceStack.Redis.RedisNativeClient,Get</token>
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
+<token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
+<token>ServiceStack.Redis.RedisClient,Get</token>
 </entry>
 <entry count="16">
 <token>ServiceStack.Redis.IRedisNativeClient,LPush</token>
 <token>ServiceStack.Redis.IRedisNativeClient,Publish</token>
 </entry>
-<entry count="4">
+<entry count="128">
 <token>ServiceStack.Redis.RedisNativeClient,FlushDb</token>
 <token>ServiceStack.Redis.RedisClient,new</token>
 <token>ServiceStack.Redis.RedisNativeClient,FlushDb</token>
 </entry>
-<entry count="8">
-<token>ServiceStack.Redis.IRedisClientsManager,GetClient</token>
-<token>ServiceStack.Redis.IRedisClient,ScanAllKeys</token>
-<token>ServiceStack.Redis.IRedisClient,GetAllItemsFromSet</token>
-<token>ServiceStack.Redis.IRedisClient,GetValues</token>
-</entry>
-<entry count="4">
+<entry count="60">
 <token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
 <token>ServiceStack.Redis.RedisNativeClient,HLen</token>
 <token>ServiceStack.Redis.RedisNativeClient,HLen</token>
 <token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
 <token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
 </entry>
-<entry count="12">
-<token>ServiceStack.Redis.RedisNativeClient,HLen</token>
-<token>ServiceStack.Redis.RedisNativeClient,HLen</token>
-<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
-<token>ServiceStack.Redis.RedisClient,ContainsKey</token>
-<token>ServiceStack.Redis.RedisClient,Remove</token>
-</entry>
-<entry count="4">
+<entry count="128">
 <token>ServiceStack.Redis.RedisNativeClient,FlushDb</token>
 <token>ServiceStack.Redis.PooledRedisClientManager,new</token>
 <token>ServiceStack.Redis.PooledRedisClientManager,FailoverTo</token>
 </entry>
-<entry count="12">
+<entry count="100">
 <token>ServiceStack.Redis.RedisClient,ContainsKey</token>
 <token>ServiceStack.Redis.RedisNativeClient,HLen</token>
 <token>ServiceStack.Redis.RedisNativeClient,HLen</token>
 <token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
 </entry>
-<entry count="12">
-<token>ServiceStack.Redis.IRedisClient,CreateTransaction</token>
-<token>ServiceStack.Redis.IRedisClient,RemoveItemFromSortedSet</token>
-<token>ServiceStack.Redis.IRedisClient,RemoveItemFromSet</token>
-<token>ServiceStack.Redis.IRedisClient,RemoveItemFromSet</token>
-<token>ServiceStack.Redis.IRedisTransaction,Commit</token>
+<entry count="16">
+<token>ServiceStack.Redis.RedisClient,ContainsKey</token>
+<token>ServiceStack.Redis.RedisNativeClient,Rename</token>
+<token>ServiceStack.Redis.RedisClient,ContainsKey</token>
+<token>ServiceStack.Redis.RedisNativeClient,Rename</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
 </entry>
-<entry count="8">
+<entry count="96">
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
+</entry>
+<entry count="48">
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
+<token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
+<token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+</entry>
+<entry count="48">
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisClient,ContainsKey</token>
+<token>ServiceStack.Redis.RedisClient,Remove</token>
+<token>ServiceStack.Redis.RedisNativeClient,Rename</token>
+</entry>
+<entry count="40">
 <token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
 <token>ServiceStack.Redis.RedisNativeClient,HLen</token>
 <token>ServiceStack.Redis.RedisNativeClient,HLen</token>
@@ -320,48 +334,40 @@
 </entry>
 <entry count="12">
 <token>ServiceStack.Redis.RedisClient,ContainsKey</token>
-<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
-<token>ServiceStack.Redis.RedisClient,Remove</token>
-</entry>
-<entry count="4">
-<token>ServiceStack.Redis.RedisClient,ContainsKey</token>
 <token>ServiceStack.Redis.RedisNativeClient,Rename</token>
+<token>ServiceStack.Redis.RedisClient,ContainsKey</token>
 <token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
-<token>ServiceStack.Redis.RedisClient,Remove</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRemRangeByRank</token>
 </entry>
 <entry count="1">
 <token>ServiceStack.Redis.PooledRedisClientManager,GetClient</token>
 <token>ServiceStack.Redis.RedisClient,SetConfig</token>
 </entry>
-<entry count="20">
+<entry count="500">
 <token>ServiceStack.Redis.IRedisClient,RemoveItemFromSortedSet</token>
 <token>ServiceStack.Redis.IRedisClient,RemoveItemFromSet</token>
 </entry>
-<entry count="48">
-<token>ServiceStack.Redis.RedisClient,ContainsKey</token>
-<token>ServiceStack.Redis.RedisClient,ContainsKey</token>
-<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
-</entry>
-<entry count="12">
+<entry count="168">
 <token>ServiceStack.Redis.IRedisClient,CreateTransaction</token>
 <token>ServiceStack.Redis.IRedisClient,RemoveItemFromSortedSet</token>
 <token>ServiceStack.Redis.IRedisClient,RemoveItemFromSet</token>
 <token>ServiceStack.Redis.IRedisClient,RemoveItemFromSet</token>
 </entry>
-<entry count="8">
-<token>ServiceStack.Redis.RedisNativeClient,Rename</token>
-<token>ServiceStack.Redis.RedisNativeClient,HGetAll</token>
-<token>ServiceStack.Redis.RedisClient,Remove</token>
+<entry count="36">
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisNativeClient,HGet</token>
 </entry>
-<entry count="1">
-<token>ServiceStack.Redis.IRedisClientsManager,GetClient</token>
-<token>ServiceStack.Redis.IRedisClient,AddItemToList</token>
-<token>ServiceStack.Redis.IRedisClient,SearchKeys</token>
-</entry>
-<entry count="12">
+<entry count="768">
 <token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
-<token>ServiceStack.Redis.RedisClient,ContainsKey</token>
-<token>ServiceStack.Redis.RedisClient,Remove</token>
+<token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,Get</token>
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
+</entry>
+<entry count="1168">
+<token>ServiceStack.Redis.RedisNativeClient,HGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
+<token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
 </entry>
 <entry count="1">
 <token>ServiceStack.Redis.RedisClient,PrependItemToList</token>
@@ -372,49 +378,1437 @@
 <token>ServiceStack.Redis.RedisClient,SearchKeys</token>
 <token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
 </entry>
+<entry count="36">
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
+<token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+</entry>
+<entry count="36">
+<token>ServiceStack.Redis.RedisNativeClient,HLen</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisClient,ContainsKey</token>
+<token>ServiceStack.Redis.RedisClient,Remove</token>
+</entry>
+<entry count="288">
+<token>ServiceStack.Redis.RedisNativeClient,HLen</token>
+<token>ServiceStack.Redis.RedisNativeClient,HLen</token>
+<token>ServiceStack.Redis.RedisNativeClient,HGetAll</token>
+</entry>
+<entry count="24">
+<token>ServiceStack.Redis.RedisClient,ContainsKey</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisClient,ContainsKey</token>
+</entry>
+<entry count="128">
+<token>ServiceStack.Redis.RedisNativeClient,FlushDb</token>
+<token>ServiceStack.Redis.PooledRedisClientManager,new</token>
+</entry>
+<entry count="120">
+<token>ServiceStack.Redis.RedisClient,ContainsKey</token>
+<token>ServiceStack.Redis.RedisClient,Remove</token>
+<token>ServiceStack.Redis.RedisNativeClient,Rename</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+</entry>
+<entry count="192">
+<token>ServiceStack.Redis.RedisNativeClient,HGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,Get</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+</entry>
+<entry count="2">
+<token>ServiceStack.Redis.RedisManagerPool,new</token>
+<token>ServiceStack.Redis.IRedisClientsManager,GetCacheClient</token>
+</entry>
+<entry count="320">
+<token>ServiceStack.Redis.RedisNativeClient,HGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,Get</token>
+<token>ServiceStack.Redis.RedisClient,Get</token>
+</entry>
+<entry count="1168">
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
+<token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,HGet</token>
+</entry>
+<entry count="240">
+<token>ServiceStack.Redis.RedisNativeClient,Get</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisClient,Get</token>
+</entry>
+<entry count="768">
+<token>ServiceStack.Redis.RedisNativeClient,Get</token>
+<token>ServiceStack.Redis.RedisNativeClient,Get</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+</entry>
+<entry count="16">
+<token>ServiceStack.Redis.IRedisClient,As</token>
+<token>ServiceStack.Redis.IRedisClient,CreateTransaction</token>
+<token>ServiceStack.Redis.IRedisClient,AddItemToSortedSet</token>
+<token>ServiceStack.Redis.IRedisTransaction,Commit</token>
+</entry>
+<entry count="1024">
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
+<token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,Get</token>
+<token>ServiceStack.Redis.RedisNativeClient,Get</token>
+</entry>
+<entry count="128">
+<token>ServiceStack.Redis.RedisNativeClient,FlushDb</token>
+<token>ServiceStack.Redis.RedisClient,new</token>
+<token>ServiceStack.Redis.RedisNativeClient,FlushDb</token>
+<token>ServiceStack.Redis.PooledRedisClientManager,new</token>
+<token>ServiceStack.Redis.PooledRedisClientManager,FailoverTo</token>
+</entry>
+<entry count="192">
+<token>ServiceStack.Redis.RedisClient,ContainsKey</token>
+<token>ServiceStack.Redis.RedisClient,ContainsKey</token>
+</entry>
+<entry count="96">
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisClient,ContainsKey</token>
+</entry>
+<entry count="60">
+<token>ServiceStack.Redis.RedisNativeClient,Rename</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisClient,SearchKeys</token>
+</entry>
+<entry count="468">
+<token>ServiceStack.Redis.IRedisClient,AddItemToSet</token>
+<token>ServiceStack.Redis.IRedisClient,AddItemToSet</token>
+<token>ServiceStack.Redis.IRedisTransaction,Commit</token>
+</entry>
+<entry count="12">
+<token>ServiceStack.Redis.RedisClient,ContainsKey</token>
+<token>ServiceStack.Redis.RedisNativeClient,Rename</token>
+<token>ServiceStack.Redis.RedisClient,ContainsKey</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisClient,Remove</token>
+</entry>
+<entry count="1">
+<token>ServiceStack.Redis.RedisClient,Remove</token>
+<token>ServiceStack.Redis.PooledRedisClientManager,new</token>
+<token>ServiceStack.Redis.PooledRedisClientManager,FailoverTo</token>
+<token>ServiceStack.Redis.RedisClient,Get</token>
+<token>ServiceStack.Redis.RedisClient,Get</token>
+</entry>
+<entry count="468">
+<token>ServiceStack.Redis.IRedisClient,AddItemToSortedSet</token>
+<token>ServiceStack.Redis.IRedisClient,AddItemToSet</token>
+<token>ServiceStack.Redis.IRedisClient,AddItemToSet</token>
+</entry>
+<entry count="60">
+<token>ServiceStack.Redis.RedisClient,ContainsKey</token>
+<token>ServiceStack.Redis.RedisClient,Remove</token>
+<token>ServiceStack.Redis.RedisNativeClient,Rename</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisClient,SearchKeys</token>
+</entry>
+<entry count="16">
+<token>ServiceStack.Redis.RedisClient,ContainsKey</token>
+<token>ServiceStack.Redis.RedisNativeClient,Rename</token>
+<token>ServiceStack.Redis.RedisClient,ContainsKey</token>
+<token>ServiceStack.Redis.RedisNativeClient,Rename</token>
+</entry>
+<entry count="100">
+<token>ServiceStack.Redis.RedisClient,Remove</token>
+<token>ServiceStack.Redis.RedisNativeClient,Rename</token>
+<token>ServiceStack.Redis.RedisNativeClient,HLen</token>
+</entry>
+<entry count="4672">
+<token>ServiceStack.Redis.RedisNativeClient,Get</token>
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
+<token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
+</entry>
+<entry count="200">
+<token>ServiceStack.Redis.IRedisClient,CreateTransaction</token>
+<token>ServiceStack.Redis.IRedisClient,RemoveItemFromSortedSet</token>
+<token>ServiceStack.Redis.IRedisClient,RemoveItemFromSet</token>
+</entry>
+<entry count="192">
+<token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisNativeClient,Get</token>
+</entry>
 <entry count="4">
+<token>ServiceStack.Redis.RedisNativeClient,Watch</token>
+<token>ServiceStack.Redis.RedisNativeClient,UnWatch</token>
+<token>ServiceStack.Redis.RedisClient,CreateTransaction</token>
+<token>ServiceStack.Redis.IRedisTransaction,Commit</token>
+</entry>
+<entry count="16">
+<token>ServiceStack.Redis.IRedisClient,AddItemToSortedSet</token>
+<token>ServiceStack.Redis.IRedisClient,RemoveRangeFromSortedSet</token>
+<token>ServiceStack.Redis.IRedisClient,RemoveRangeFromSortedSet</token>
+</entry>
+<entry count="4">
+<token>ServiceStack.Redis.RedisClient,Increment</token>
+<token>ServiceStack.Redis.RedisNativeClient,UnWatch</token>
+</entry>
+<entry count="500">
+<token>ServiceStack.Redis.IRedisClient,AddItemToSortedSet</token>
+<token>ServiceStack.Redis.IRedisClient,AddItemToSet</token>
+</entry>
+<entry count="2">
+<token>ServiceStack.Redis.RedisClient,GetConfig</token>
+<token>ServiceStack.Redis.PooledRedisClientManager,new</token>
+<token>ServiceStack.Redis.PooledRedisClientManager,GetClient</token>
+</entry>
+<entry count="180">
+<token>ServiceStack.Redis.RedisNativeClient,HLen</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+</entry>
+<entry count="24">
+<token>ServiceStack.Redis.RedisNativeClient,HLen</token>
+<token>ServiceStack.Redis.RedisNativeClient,HLen</token>
+<token>ServiceStack.Redis.RedisNativeClient,Rename</token>
+<token>ServiceStack.Redis.RedisNativeClient,HGetAll</token>
+<token>ServiceStack.Redis.RedisClient,Remove</token>
+</entry>
+<entry count="64">
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisClient,Remove</token>
+</entry>
+<entry count="60">
+<token>ServiceStack.Redis.RedisNativeClient,Rename</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+</entry>
+<entry count="3">
+<token>ServiceStack.Redis.IRedisClientsManager,GetClient</token>
+<token>ServiceStack.Redis.IRedisClient,SearchKeys</token>
+</entry>
+<entry count="880">
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
+<token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
+</entry>
+<entry count="144">
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisNativeClient,Get</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+</entry>
+<entry count="1152">
+<token>ServiceStack.Redis.RedisClient,GetValue</token>
+<token>ServiceStack.Redis.IRedisClient,SetEntry</token>
+</entry>
+<entry count="320">
+<token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,Get</token>
+<token>ServiceStack.Redis.RedisClient,Get</token>
+</entry>
+<entry count="192">
+<token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,Get</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+</entry>
+<entry count="4">
+<token>ServiceStack.Redis.RedisClient,New</token>
+<token>ServiceStack.Redis.RedisClient,PrependItemToList</token>
+</entry>
+<entry count="300">
+<token>ServiceStack.Redis.RedisNativeClient,HLen</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+</entry>
+<entry count="12">
+<token>ServiceStack.Redis.RedisClient,ContainsKey</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisClient,ContainsKey</token>
+<token>ServiceStack.Redis.RedisClient,Remove</token>
+<token>ServiceStack.Redis.RedisNativeClient,Rename</token>
+</entry>
+<entry count="64">
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
+<token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,HGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,HGet</token>
+</entry>
+<entry count="4">
+<token>ServiceStack.Redis.IRedisClientsManager,GetClient</token>
+<token>ServiceStack.Redis.IRedisClient,IncrementValueBy</token>
+</entry>
+<entry count="60">
+<token>ServiceStack.Redis.RedisNativeClient,HLen</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisClient,ContainsKey</token>
+<token>ServiceStack.Redis.RedisClient,Remove</token>
+<token>ServiceStack.Redis.RedisNativeClient,Rename</token>
+</entry>
+<entry count="1">
+<token>ServiceStack.Redis.IRedisClient,AddItemToList</token>
+<token>ServiceStack.Redis.IRedisClient,SearchKeys</token>
+</entry>
+<entry count="220">
+<token>ServiceStack.Redis.RedisClient,ContainsKey</token>
+<token>ServiceStack.Redis.RedisClient,Remove</token>
+<token>ServiceStack.Redis.RedisNativeClient,Rename</token>
+</entry>
+<entry count="216">
+<token>ServiceStack.Redis.IRedisClient,AddItemToSortedSet</token>
+<token>ServiceStack.Redis.IRedisClient,AddItemToSet</token>
+<token>ServiceStack.Redis.IRedisClient,AddItemToSet</token>
+<token>ServiceStack.Redis.IRedisClient,AddItemToSet</token>
+<token>ServiceStack.Redis.IRedisTransaction,Commit</token>
+</entry>
+<entry count="400">
+<token>ServiceStack.Redis.RedisNativeClient,HSet</token>
+<token>ServiceStack.Redis.RedisNativeClient,HSet</token>
+</entry>
+<entry count="184">
+<token>ServiceStack.Redis.RedisNativeClient,Rename</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+</entry>
+<entry count="60">
+<token>ServiceStack.Redis.RedisNativeClient,HLen</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisClient,ContainsKey</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+</entry>
+<entry count="1">
+<token>ServiceStack.Redis.RedisClient,Remove</token>
+<token>ServiceStack.Redis.PooledRedisClientManager,new</token>
+<token>ServiceStack.Redis.PooledRedisClientManager,FailoverTo</token>
+<token>ServiceStack.Redis.RedisClient,Get</token>
+</entry>
+<entry count="32">
+<token>ServiceStack.Redis.IRedisClient,CreateTransaction</token>
+<token>ServiceStack.Redis.IRedisClient,AddItemToSortedSet</token>
+<token>ServiceStack.Redis.IRedisClient,RemoveRangeFromSortedSet</token>
+<token>ServiceStack.Redis.IRedisTransaction,Commit</token>
+</entry>
+<entry count="100">
+<token>ServiceStack.Redis.RedisClient,ContainsKey</token>
+<token>ServiceStack.Redis.RedisNativeClient,HLen</token>
+<token>ServiceStack.Redis.RedisNativeClient,HLen</token>
+</entry>
+<entry count="304">
+<token>ServiceStack.Redis.IRedisClientsManager,GetClient</token>
+<token>ServiceStack.Redis.IRedisClient,CreateTransaction</token>
+<token>ServiceStack.Redis.IRedisClient,RemoveItemFromSet</token>
+</entry>
+<entry count="48">
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisNativeClient,HGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,HGet</token>
+</entry>
+<entry count="64">
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
+<token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
+<token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,HGet</token>
+</entry>
+<entry count="1626">
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
+</entry>
+<entry count="242">
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisClient,SearchKeys</token>
+</entry>
+<entry count="16">
+<token>ServiceStack.Redis.RedisNativeClient,Rename</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRemRangeByRank</token>
+</entry>
+<entry count="4">
+<token>ServiceStack.Redis.RedisNativeClient,Watch</token>
+<token>ServiceStack.Redis.RedisClient,CreateTransaction</token>
+<token>ServiceStack.Redis.IRedisTransaction,Commit</token>
+</entry>
+<entry count="64">
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
+<token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,HGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
+<token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
+</entry>
+<entry count="96">
+<token>ServiceStack.Redis.RedisNativeClient,HLen</token>
+<token>ServiceStack.Redis.RedisNativeClient,HLen</token>
+<token>ServiceStack.Redis.RedisNativeClient,Rename</token>
+<token>ServiceStack.Redis.RedisNativeClient,HGetAll</token>
+</entry>
+<entry count="16">
+<token>ServiceStack.Redis.RedisNativeClient,Rename</token>
+<token>ServiceStack.Redis.RedisClient,ContainsKey</token>
+<token>ServiceStack.Redis.RedisNativeClient,Rename</token>
+</entry>
+<entry count="128">
+<token>ServiceStack.Redis.RedisNativeClient,HLen</token>
+<token>ServiceStack.Redis.RedisNativeClient,Rename</token>
+<token>ServiceStack.Redis.RedisNativeClient,HGetAll</token>
+</entry>
+<entry count="48">
+<token>ServiceStack.Redis.IRedisClient,CreateTransaction</token>
+<token>ServiceStack.Redis.IRedisClient,RemoveItemFromSet</token>
+<token>ServiceStack.Redis.IRedisClient,RemoveItemFromSortedSet</token>
+<token>ServiceStack.Redis.IRedisClient,RemoveItemFromSet</token>
+<token>ServiceStack.Redis.IRedisTransaction,Commit</token>
+</entry>
+<entry count="256">
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
+<token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,HGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,Get</token>
+</entry>
+<entry count="128">
+<token>ServiceStack.Redis.PooledRedisClientManager,new</token>
+<token>ServiceStack.Redis.PooledRedisClientManager,FailoverTo</token>
+<token>ServiceStack.Redis.RedisClient,GetListCount</token>
+<token>ServiceStack.Redis.RedisClient,GetListCount</token>
+<token>ServiceStack.Redis.RedisClient,GetListCount</token>
+</entry>
+<entry count="60">
+<token>ServiceStack.Redis.RedisClient,Get</token>
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
+</entry>
+<entry count="4">
+<token>ServiceStack.Redis.IRedisClientsManager,GetClient</token>
+<token>ServiceStack.Redis.IRedisClient,GetValues</token>
+</entry>
+<entry count="2">
+<token>ServiceStack.Redis.RedisClient,new</token>
+<token>ServiceStack.Redis.RedisClient,SetConfig</token>
+<token>ServiceStack.Redis.RedisClient,GetConfig</token>
+<token>ServiceStack.Redis.PooledRedisClientManager,new</token>
+</entry>
+<entry count="384">
+<token>ServiceStack.Redis.RedisClient,GetListCount</token>
+<token>ServiceStack.Redis.RedisClient,GetListCount</token>
+</entry>
+<entry count="2">
+<token>ServiceStack.Redis.PooledRedisClientManager,new</token>
+<token>ServiceStack.Redis.PooledRedisClientManager,GetClient</token>
+<token>ServiceStack.Redis.RedisClient,IncrementValue</token>
+<token>ServiceStack.Redis.RedisClient,Get</token>
+</entry>
+<entry count="32">
+<token>ServiceStack.Redis.IRedisClient,AddItemToSortedSet</token>
+<token>ServiceStack.Redis.IRedisClient,AddItemToSet</token>
+<token>ServiceStack.Redis.IRedisTransaction,Commit</token>
+</entry>
+<entry count="48">
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
+<token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisNativeClient,HGet</token>
+</entry>
+<entry count="768">
+<token>ServiceStack.Redis.RedisNativeClient,Get</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisNativeClient,Get</token>
+</entry>
+<entry count="256">
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
+<token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,Get</token>
+<token>ServiceStack.Redis.RedisNativeClient,HGet</token>
+</entry>
+<entry count="252">
+<token>ServiceStack.Redis.IRedisClient,RemoveItemFromSet</token>
+<token>ServiceStack.Redis.IRedisClient,RemoveItemFromSortedSet</token>
+<token>ServiceStack.Redis.IRedisClient,RemoveItemFromSet</token>
+<token>ServiceStack.Redis.IRedisClient,RemoveItemFromSet</token>
+</entry>
+<entry count="12">
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisClient,ContainsKey</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisClient,ContainsKey</token>
+<token>ServiceStack.Redis.RedisClient,Remove</token>
+</entry>
+<entry count="100">
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
+<token>ServiceStack.Redis.RedisNativeClient,HLen</token>
+<token>ServiceStack.Redis.RedisNativeClient,HLen</token>
+</entry>
+<entry count="500">
+<token>ServiceStack.Redis.IRedisClient,CreateTransaction</token>
+<token>ServiceStack.Redis.IRedisClient,AddItemToSortedSet</token>
+<token>ServiceStack.Redis.IRedisClient,AddItemToSet</token>
+</entry>
+<entry count="468">
+<token>ServiceStack.Redis.IRedisClient,CreateTransaction</token>
+<token>ServiceStack.Redis.IRedisClient,AddItemToSortedSet</token>
+<token>ServiceStack.Redis.IRedisClient,AddItemToSet</token>
+<token>ServiceStack.Redis.IRedisClient,AddItemToSet</token>
+</entry>
+<entry count="144">
+<token>ServiceStack.Redis.IRedisClient,CreateTransaction</token>
+<token>ServiceStack.Redis.IRedisClient,AddItemToSortedSet</token>
+<token>ServiceStack.Redis.IRedisClient,AddItemToSet</token>
+<token>ServiceStack.Redis.IRedisClient,AddItemToSet</token>
+<token>ServiceStack.Redis.IRedisTransaction,Commit</token>
+</entry>
+<entry count="12">
+<token>ServiceStack.Redis.RedisNativeClient,Rename</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisClient,ContainsKey</token>
+<token>ServiceStack.Redis.RedisClient,Remove</token>
+</entry>
+<entry count="16">
+<token>ServiceStack.Redis.RedisClient,CreatePipeline</token>
+<token>ServiceStack.Redis.RedisNativeClient,HGet</token>
+</entry>
+<entry count="64">
+<token>ServiceStack.Redis.IRedisClient,As</token>
+<token>ServiceStack.Redis.IRedisClient,CreateTransaction</token>
+</entry>
+<entry count="1168">
+<token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
+<token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
+</entry>
+<entry count="504">
+<token>ServiceStack.Redis.IRedisClient,RemoveItemFromSet</token>
+<token>ServiceStack.Redis.IRedisTransaction,Commit</token>
+</entry>
+<entry count="2">
+<token>ServiceStack.Redis.IRedisClient,SearchKeys</token>
+<token>ServiceStack.Redis.IRedisClient,GetEntryType</token>
+</entry>
+<entry count="576">
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisNativeClient,Get</token>
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
+</entry>
+<entry count="48">
+<token>ServiceStack.Redis.RedisNativeClient,HGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisNativeClient,HGet</token>
+</entry>
+<entry count="620">
+<token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
+<token>ServiceStack.Redis.RedisClient,Get</token>
+</entry>
+<entry count="2">
+<token>ServiceStack.Redis.PooledRedisClientManager,new</token>
+<token>ServiceStack.Redis.PooledRedisClientManager,GetClient</token>
+<token>ServiceStack.Redis.RedisClient,IncrementValue</token>
+<token>ServiceStack.Redis.RedisClient,Get</token>
+<token>ServiceStack.Redis.PooledRedisClientManager,GetStats</token>
+</entry>
+<entry count="128">
+<token>ServiceStack.Redis.RedisClient,new</token>
+<token>ServiceStack.Redis.RedisNativeClient,FlushDb</token>
+<token>ServiceStack.Redis.PooledRedisClientManager,new</token>
+<token>ServiceStack.Redis.PooledRedisClientManager,FailoverTo</token>
+</entry>
+<entry count="256">
+<token>ServiceStack.Redis.RedisNativeClient,HGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,Get</token>
+<token>ServiceStack.Redis.RedisNativeClient,HGet</token>
+</entry>
+<entry count="2160">
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
+<token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
+</entry>
+<entry count="1">
+<token>ServiceStack.Redis.RedisClient,new</token>
+<token>ServiceStack.Redis.RedisClient,Remove</token>
+<token>ServiceStack.Redis.RedisClient,new</token>
+<token>ServiceStack.Redis.RedisClient,Remove</token>
+<token>ServiceStack.Redis.PooledRedisClientManager,new</token>
+</entry>
+<entry count="8">
+<token>ServiceStack.Redis.RedisNativeClient,SMembers</token>
+<token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
+</entry>
+<entry count="1">
+<token>ServiceStack.Redis.RedisClient,new</token>
+<token>ServiceStack.Redis.RedisClient,Remove</token>
+<token>ServiceStack.Redis.RedisClient,new</token>
+</entry>
+<entry count="1024">
+<token>ServiceStack.Redis.RedisNativeClient,HGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,Get</token>
+<token>ServiceStack.Redis.RedisNativeClient,Get</token>
+</entry>
+<entry count="192">
+<token>ServiceStack.Redis.RedisNativeClient,Get</token>
+<token>ServiceStack.Redis.RedisNativeClient,HGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+</entry>
+<entry count="32">
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
+<token>ServiceStack.Redis.RedisNativeClient,HGet</token>
+</entry>
+<entry count="1280">
+<token>ServiceStack.Redis.RedisNativeClient,Get</token>
+<token>ServiceStack.Redis.RedisNativeClient,Get</token>
+<token>ServiceStack.Redis.RedisClient,Get</token>
+</entry>
+<entry count="192">
+<token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
+<token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
+</entry>
+<entry count="128">
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
+<token>ServiceStack.Redis.RedisNativeClient,Get</token>
+</entry>
+<entry count="12">
+<token>ServiceStack.Redis.RedisClient,ContainsKey</token>
+<token>ServiceStack.Redis.RedisClient,ContainsKey</token>
+<token>ServiceStack.Redis.RedisNativeClient,Rename</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRemRangeByRank</token>
+</entry>
+<entry count="1">
+<token>ServiceStack.Redis.RedisClient,New</token>
+<token>ServiceStack.Redis.RedisClient,New</token>
+<token>ServiceStack.Redis.RedisClient,PrependItemToList</token>
+</entry>
+<entry count="80">
+<token>ServiceStack.Redis.RedisNativeClient,HGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,HGet</token>
+<token>ServiceStack.Redis.RedisClient,Get</token>
+</entry>
+<entry count="48">
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
+<token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
+<token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
+</entry>
+<entry count="192">
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisNativeClient,Get</token>
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
+<token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
+</entry>
+<entry count="100">
+<token>ServiceStack.Redis.RedisClient,Remove</token>
+<token>ServiceStack.Redis.RedisNativeClient,Rename</token>
+<token>ServiceStack.Redis.RedisNativeClient,HLen</token>
+<token>ServiceStack.Redis.RedisNativeClient,HLen</token>
+</entry>
+<entry count="100">
+<token>ServiceStack.Redis.RedisClient,ContainsKey</token>
+<token>ServiceStack.Redis.RedisNativeClient,HLen</token>
+</entry>
+<entry count="16">
+<token>ServiceStack.Redis.IRedisClient,RemoveRangeFromSortedSet</token>
+<token>ServiceStack.Redis.IRedisClient,RemoveRangeFromSortedSet</token>
+</entry>
+<entry count="4672">
+<token>ServiceStack.Redis.RedisNativeClient,HGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,Get</token>
+</entry>
+<entry count="48">
+<token>ServiceStack.Redis.RedisClient,SearchKeys</token>
+<token>ServiceStack.Redis.RedisClient,GetAll</token>
+</entry>
+<entry count="60">
+<token>ServiceStack.Redis.RedisClient,Remove</token>
+<token>ServiceStack.Redis.RedisNativeClient,Rename</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisClient,SearchKeys</token>
+</entry>
+<entry count="60">
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
+<token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
+<token>ServiceStack.Redis.RedisClient,Get</token>
+</entry>
+<entry count="1">
+<token>ServiceStack.Redis.BasicRedisClientManager,new</token>
+<token>ServiceStack.Redis.RedisClientsManagerExtensions,Exec</token>
+</entry>
+<entry count="897">
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+</entry>
+<entry count="256">
+<token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,Get</token>
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
+<token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
+</entry>
+<entry count="300">
+<token>ServiceStack.Redis.IRedisClientsManager,GetClient</token>
+<token>ServiceStack.Redis.IRedisClient,CreateTransaction</token>
+<token>ServiceStack.Redis.IRedisClient,RemoveItemFromSet</token>
+<token>ServiceStack.Redis.IRedisClient,RemoveItemFromSortedSet</token>
+</entry>
+<entry count="1">
+<token>ServiceStack.Redis.RedisClient,New</token>
+<token>ServiceStack.Redis.RedisClient,New</token>
+<token>ServiceStack.Redis.RedisClient,BlockingDequeueItemFromLists</token>
+</entry>
+<entry count="144">
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
+<token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
+</entry>
+<entry count="60">
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisClient,ContainsKey</token>
+<token>ServiceStack.Redis.RedisClient,SearchKeys</token>
+</entry>
+<entry count="36">
+<token>ServiceStack.Redis.RedisNativeClient,HGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+</entry>
+<entry count="300">
+<token>ServiceStack.Redis.IRedisClientsManager,GetClient</token>
+<token>ServiceStack.Redis.IRedisClient,CreateTransaction</token>
+<token>ServiceStack.Redis.IRedisClient,RemoveItemFromSet</token>
+<token>ServiceStack.Redis.IRedisClient,RemoveItemFromSortedSet</token>
+<token>ServiceStack.Redis.IRedisClient,RemoveItemFromSet</token>
+</entry>
+<entry count="2">
+<token>ServiceStack.Redis.RedisClient,new</token>
+<token>ServiceStack.Redis.RedisClient,SetConfig</token>
+</entry>
+<entry count="48">
+<token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisNativeClient,HGet</token>
+</entry>
+<entry count="64">
+<token>ServiceStack.Redis.RedisClient,ContainsKey</token>
+<token>ServiceStack.Redis.RedisNativeClient,Rename</token>
+<token>ServiceStack.Redis.RedisClient,ContainsKey</token>
+</entry>
+<entry count="48">
+<token>ServiceStack.Redis.RedisClient,ContainsKey</token>
+<token>ServiceStack.Redis.RedisClient,ContainsKey</token>
+<token>ServiceStack.Redis.RedisNativeClient,Rename</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+</entry>
+<entry count="144">
+<token>ServiceStack.Redis.IRedisClient,RemoveItemFromSet</token>
+<token>ServiceStack.Redis.IRedisClient,RemoveItemFromSortedSet</token>
+<token>ServiceStack.Redis.IRedisClient,RemoveItemFromSet</token>
+<token>ServiceStack.Redis.IRedisClient,RemoveItemFromSet</token>
+<token>ServiceStack.Redis.IRedisTransaction,Commit</token>
+</entry>
+<entry count="36">
+<token>ServiceStack.Redis.RedisClient,ContainsKey</token>
+<token>ServiceStack.Redis.RedisClient,ContainsKey</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisClient,Remove</token>
+</entry>
+<entry count="304">
+<token>ServiceStack.Redis.IRedisClient,CreateTransaction</token>
+<token>ServiceStack.Redis.IRedisClient,RemoveItemFromSet</token>
+</entry>
+<entry count="420">
+<token>ServiceStack.Redis.IRedisClient,RemoveItemFromSet</token>
+<token>ServiceStack.Redis.IRedisClient,RemoveItemFromSet</token>
+<token>ServiceStack.Redis.IRedisTransaction,Commit</token>
+</entry>
+<entry count="1">
+<token>ServiceStack.Redis.RedisClient,New</token>
+<token>ServiceStack.Redis.RedisClient,PrependItemToList</token>
+<token>ServiceStack.Redis.RedisClient,New</token>
+<token>ServiceStack.Redis.RedisClient,PrependItemToList</token>
+</entry>
+<entry count="2">
+<token>ServiceStack.Redis.RedisClient,PrependItemToList</token>
+<token>ServiceStack.Redis.RedisClient,BlockingDequeueItemFromLists</token>
+</entry>
+<entry count="1024">
+<token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,Get</token>
+<token>ServiceStack.Redis.RedisNativeClient,Get</token>
+</entry>
+<entry count="48">
+<token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
+<token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
+</entry>
+<entry count="108">
+<token>ServiceStack.Redis.IRedisClient,AddItemToSet</token>
+<token>ServiceStack.Redis.IRedisClient,AddItemToSet</token>
+<token>ServiceStack.Redis.IRedisClient,AddItemToSet</token>
+<token>ServiceStack.Redis.IRedisClient,AddItemToSet</token>
+</entry>
+<entry count="64">
+<token>ServiceStack.Redis.IRedisClientsManager,GetClient</token>
+<token>ServiceStack.Redis.IRedisClient,As</token>
+<token>ServiceStack.Redis.IRedisClient,CreateTransaction</token>
+</entry>
+<entry count="256">
+<token>ServiceStack.Redis.RedisNativeClient,HGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,HGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,Get</token>
+</entry>
+<entry count="256">
+<token>ServiceStack.Redis.RedisNativeClient,Get</token>
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
+<token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,HGet</token>
+</entry>
+<entry count="72">
+<token>ServiceStack.Redis.RedisNativeClient,HLen</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisClient,ContainsKey</token>
+</entry>
+<entry count="144">
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisNativeClient,HGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
+</entry>
+<entry count="32">
+<token>ServiceStack.Redis.RedisNativeClient,HLen</token>
+<token>ServiceStack.Redis.RedisNativeClient,Rename</token>
+<token>ServiceStack.Redis.RedisNativeClient,HGetAll</token>
+<token>ServiceStack.Redis.RedisClient,Remove</token>
+</entry>
+<entry count="80">
+<token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,HGet</token>
+<token>ServiceStack.Redis.RedisClient,Get</token>
+</entry>
+<entry count="1">
+<token>ServiceStack.Redis.PooledRedisClientManager,FailoverTo</token>
+<token>ServiceStack.Redis.RedisClient,Get</token>
+<token>ServiceStack.Redis.RedisClient,Get</token>
+</entry>
+<entry count="128">
+<token>ServiceStack.Redis.RedisClient,new</token>
+<token>ServiceStack.Redis.RedisNativeClient,FlushDb</token>
+<token>ServiceStack.Redis.RedisClient,new</token>
+<token>ServiceStack.Redis.RedisNativeClient,FlushDb</token>
+<token>ServiceStack.Redis.PooledRedisClientManager,new</token>
+</entry>
+<entry count="36">
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
+<token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
+</entry>
+<entry count="60">
+<token>ServiceStack.Redis.RedisNativeClient,HLen</token>
+<token>ServiceStack.Redis.RedisNativeClient,HLen</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisClient,ContainsKey</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+</entry>
+<entry count="16">
+<token>ServiceStack.Redis.IRedisClient,CreateTransaction</token>
+<token>ServiceStack.Redis.IRedisClient,AddItemToSortedSet</token>
+<token>ServiceStack.Redis.IRedisTransaction,Commit</token>
+</entry>
+<entry count="16">
+<token>ServiceStack.Redis.IRedisClient,AddItemToSortedSet</token>
+<token>ServiceStack.Redis.IRedisClient,RemoveRangeFromSortedSet</token>
+<token>ServiceStack.Redis.IRedisClient,RemoveRangeFromSortedSet</token>
+<token>ServiceStack.Redis.IRedisTransaction,Commit</token>
+</entry>
+<entry count="876">
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
+<token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+</entry>
+<entry count="24">
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisClient,ContainsKey</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisClient,ContainsKey</token>
+</entry>
+<entry count="108">
+<token>ServiceStack.Redis.IRedisClient,AddItemToSet</token>
+<token>ServiceStack.Redis.IRedisClient,AddItemToSet</token>
+<token>ServiceStack.Redis.IRedisClient,AddItemToSet</token>
+<token>ServiceStack.Redis.IRedisClient,AddItemToSet</token>
+<token>ServiceStack.Redis.IRedisTransaction,Commit</token>
+</entry>
+<entry count="256">
+<token>ServiceStack.Redis.RedisNativeClient,Get</token>
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
+<token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
+<token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
+</entry>
+<entry count="128">
+<token>ServiceStack.Redis.RedisNativeClient,HGetAll</token>
+<token>ServiceStack.Redis.RedisClient,Remove</token>
+</entry>
+<entry count="20">
+<token>ServiceStack.Redis.IRedisClient,GetAllItemsFromSet</token>
+<token>ServiceStack.Redis.IRedisClient,GetValues</token>
+</entry>
+<entry count="1">
+<token>ServiceStack.Redis.RedisClient,New</token>
+<token>ServiceStack.Redis.RedisClient,PrependItemToList</token>
+<token>ServiceStack.Redis.RedisClient,New</token>
+<token>ServiceStack.Redis.RedisClient,BlockingDequeueItemFromLists</token>
+</entry>
+<entry count="1">
+<token>ServiceStack.Redis.RedisClient,new</token>
+<token>ServiceStack.Redis.RedisClient,Remove</token>
+<token>ServiceStack.Redis.RedisClient,new</token>
+<token>ServiceStack.Redis.RedisClient,Remove</token>
+</entry>
+<entry count="36">
+<token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+</entry>
+<entry count="96">
+<token>ServiceStack.Redis.RedisNativeClient,HLen</token>
+<token>ServiceStack.Redis.RedisNativeClient,HLen</token>
+<token>ServiceStack.Redis.RedisNativeClient,Rename</token>
+</entry>
+<entry count="2">
+<token>ServiceStack.Redis.RedisClient,New</token>
+<token>ServiceStack.Redis.RedisClient,PrependItemToList</token>
+<token>ServiceStack.Redis.RedisClient,New</token>
+</entry>
+<entry count="128">
+<token>ServiceStack.Redis.RedisClient,ContainsKey</token>
+<token>ServiceStack.Redis.RedisNativeClient,Rename</token>
+</entry>
+<entry count="180">
+<token>ServiceStack.Redis.IRedisClient,RemoveItemFromSortedSet</token>
+<token>ServiceStack.Redis.IRedisClient,RemoveItemFromSet</token>
+<token>ServiceStack.Redis.IRedisClient,RemoveItemFromSet</token>
+<token>ServiceStack.Redis.IRedisClient,RemoveItemFromSet</token>
+<token>ServiceStack.Redis.IRedisTransaction,Commit</token>
+</entry>
+<entry count="12">
+<token>ServiceStack.Redis.IRedisClientsManager,GetClient</token>
+<token>ServiceStack.Redis.IRedisClient,GetAllItemsFromSet</token>
+<token>ServiceStack.Redis.IRedisClient,GetValues</token>
+</entry>
+<entry count="256">
+<token>ServiceStack.Redis.RedisNativeClient,Get</token>
+<token>ServiceStack.Redis.RedisNativeClient,HGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
+<token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
+</entry>
+<entry count="256">
+<token>ServiceStack.Redis.RedisNativeClient,HGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
+<token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,Get</token>
+</entry>
+<entry count="12">
+<token>ServiceStack.Redis.IRedisClientsManager,GetClient</token>
+<token>ServiceStack.Redis.IRedisClient,GetAllItemsFromSet</token>
+</entry>
+<entry count="24">
+<token>ServiceStack.Redis.RedisNativeClient,HLen</token>
+<token>ServiceStack.Redis.RedisNativeClient,Rename</token>
+<token>ServiceStack.Redis.RedisNativeClient,HLen</token>
+<token>ServiceStack.Redis.RedisNativeClient,HGetAll</token>
+<token>ServiceStack.Redis.RedisClient,Remove</token>
+</entry>
+<entry count="16">
+<token>ServiceStack.Redis.IRedisClientsManager,GetClient</token>
+<token>ServiceStack.Redis.IRedisClient,As</token>
+<token>ServiceStack.Redis.IRedisClient,CreateTransaction</token>
+<token>ServiceStack.Redis.IRedisClient,AddItemToSortedSet</token>
+<token>ServiceStack.Redis.IRedisTransaction,Commit</token>
+</entry>
+<entry count="768">
+<token>ServiceStack.Redis.RedisNativeClient,Get</token>
+<token>ServiceStack.Redis.RedisNativeClient,HGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
+</entry>
+<entry count="500">
+<token>ServiceStack.Redis.IRedisClient,AddItemToSet</token>
+<token>ServiceStack.Redis.IRedisTransaction,Commit</token>
+</entry>
+<entry count="108">
+<token>ServiceStack.Redis.IRedisClient,AddItemToSortedSet</token>
+<token>ServiceStack.Redis.IRedisClient,AddItemToSet</token>
+<token>ServiceStack.Redis.IRedisClient,AddItemToSet</token>
+<token>ServiceStack.Redis.IRedisClient,AddItemToSet</token>
+<token>ServiceStack.Redis.IRedisClient,AddItemToSet</token>
+</entry>
+<entry count="64">
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRemRangeByRank</token>
+</entry>
+<entry count="60">
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisClient,ContainsKey</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+</entry>
+<entry count="200">
+<token>ServiceStack.Redis.IRedisClient,CreateTransaction</token>
+<token>ServiceStack.Redis.IRedisClient,RemoveItemFromSortedSet</token>
+</entry>
+<entry count="16">
+<token>ServiceStack.Redis.RedisNativeClient,Rename</token>
+<token>ServiceStack.Redis.RedisClient,ContainsKey</token>
+<token>ServiceStack.Redis.RedisNativeClient,Rename</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+</entry>
+<entry count="768">
+<token>ServiceStack.Redis.RedisNativeClient,HGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,Get</token>
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
+</entry>
+<entry count="36">
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
+<token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+</entry>
+<entry count="220">
+<token>ServiceStack.Redis.RedisClient,Remove</token>
+<token>ServiceStack.Redis.RedisNativeClient,Rename</token>
+</entry>
+<entry count="2">
+<token>ServiceStack.Redis.RedisClient,GetConfig</token>
+<token>ServiceStack.Redis.PooledRedisClientManager,new</token>
+</entry>
+<entry count="200">
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
+<token>ServiceStack.Redis.RedisClient,ContainsKey</token>
+</entry>
+<entry count="12">
+<token>ServiceStack.Redis.IRedisClientsManager,GetClient</token>
+<token>ServiceStack.Redis.IRedisClient,ScanAllKeys</token>
+</entry>
+<entry count="620">
+<token>ServiceStack.Redis.RedisNativeClient,HGet</token>
+<token>ServiceStack.Redis.RedisClient,Get</token>
+</entry>
+<entry count="320">
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
+<token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,Get</token>
+<token>ServiceStack.Redis.RedisClient,Get</token>
+</entry>
+<entry count="1168">
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
+<token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
+<token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
+</entry>
+<entry count="60">
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
+<token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisClient,Get</token>
+</entry>
+<entry count="4">
+<token>ServiceStack.Redis.RedisNativeClient,Rename</token>
+<token>ServiceStack.Redis.RedisClient,ContainsKey</token>
+<token>ServiceStack.Redis.RedisNativeClient,Rename</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisClient,Remove</token>
+</entry>
+<entry count="240">
+<token>ServiceStack.Redis.IRedisClient,RemoveItemFromSortedSet</token>
+<token>ServiceStack.Redis.IRedisClient,RemoveItemFromSet</token>
+<token>ServiceStack.Redis.IRedisClient,RemoveItemFromSet</token>
+<token>ServiceStack.Redis.IRedisTransaction,Commit</token>
+</entry>
+<entry count="192">
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
+<token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,Get</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+</entry>
+<entry count="3072">
+<token>ServiceStack.Redis.RedisNativeClient,Get</token>
+<token>ServiceStack.Redis.RedisNativeClient,Get</token>
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
+</entry>
+<entry count="220">
+<token>ServiceStack.Redis.RedisClient,ContainsKey</token>
+<token>ServiceStack.Redis.RedisClient,Remove</token>
+</entry>
+<entry count="1">
+<token>ServiceStack.Redis.RedisClient,SetConfig</token>
+<token>ServiceStack.Redis.RedisClient,GetClientsInfo</token>
+</entry>
+<entry count="128">
+<token>ServiceStack.Redis.PooledRedisClientManager,FailoverTo</token>
+<token>ServiceStack.Redis.RedisClient,GetListCount</token>
+<token>ServiceStack.Redis.RedisClient,GetListCount</token>
+</entry>
+<entry count="180">
+<token>ServiceStack.Redis.IRedisClient,RemoveItemFromSet</token>
+<token>ServiceStack.Redis.IRedisClient,RemoveItemFromSet</token>
+<token>ServiceStack.Redis.IRedisClient,RemoveItemFromSet</token>
+</entry>
+<entry count="876">
+<token>ServiceStack.Redis.RedisNativeClient,HGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+</entry>
+<entry count="576">
+<token>ServiceStack.Redis.RedisNativeClient,Get</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
+</entry>
+<entry count="200">
+<token>ServiceStack.Redis.IRedisClientsManager,GetClient</token>
+<token>ServiceStack.Redis.IRedisClient,CreateTransaction</token>
+<token>ServiceStack.Redis.IRedisClient,RemoveItemFromSortedSet</token>
+</entry>
+<entry count="144">
+<token>ServiceStack.Redis.RedisNativeClient,HGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
+</entry>
+<entry count="48">
+<token>ServiceStack.Redis.RedisNativeClient,Rename</token>
+<token>ServiceStack.Redis.RedisClient,ContainsKey</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+</entry>
+<entry count="32">
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
+<token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
+</entry>
+<entry count="144">
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
+<token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
+</entry>
+<entry count="1">
+<token>ServiceStack.Redis.RedisClient,Remove</token>
+<token>ServiceStack.Redis.RedisClient,new</token>
+<token>ServiceStack.Redis.RedisClient,Remove</token>
+</entry>
+<entry count="16">
+<token>ServiceStack.Redis.RedisNativeClient,Rename</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisClient,Remove</token>
+</entry>
+<entry count="108">
+<token>ServiceStack.Redis.IRedisClient,RemoveItemFromSet</token>
+<token>ServiceStack.Redis.IRedisClient,RemoveItemFromSortedSet</token>
+<token>ServiceStack.Redis.IRedisClient,RemoveItemFromSet</token>
+<token>ServiceStack.Redis.IRedisClient,RemoveItemFromSet</token>
+<token>ServiceStack.Redis.IRedisClient,RemoveItemFromSet</token>
+</entry>
+<entry count="100">
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
+<token>ServiceStack.Redis.RedisNativeClient,HLen</token>
+</entry>
+<entry count="128">
+<token>ServiceStack.Redis.RedisNativeClient,HLen</token>
+<token>ServiceStack.Redis.RedisNativeClient,Rename</token>
+<token>ServiceStack.Redis.RedisNativeClient,HLen</token>
+</entry>
+<entry count="2">
+<token>ServiceStack.Redis.RedisClient,SetConfig</token>
+<token>ServiceStack.Redis.RedisClient,GetConfig</token>
+<token>ServiceStack.Redis.PooledRedisClientManager,new</token>
+</entry>
+<entry count="4">
+<token>ServiceStack.Redis.IRedisClient,ScanAllKeys</token>
+<token>ServiceStack.Redis.IRedisClient,GetValues</token>
+</entry>
+<entry count="2">
+<token>ServiceStack.Redis.RedisClient,IncrementValue</token>
+<token>ServiceStack.Redis.RedisClient,Get</token>
+</entry>
+<entry count="256">
+<token>ServiceStack.Redis.RedisNativeClient,HLen</token>
+<token>ServiceStack.Redis.RedisNativeClient,Rename</token>
+</entry>
+<entry count="4">
+<token>ServiceStack.Redis.IRedisNativeClient,LPush</token>
+<token>ServiceStack.Redis.IRedisNativeClient,LTrim</token>
+<token>ServiceStack.Redis.IRedisNativeClient,Publish</token>
+</entry>
+<entry count="96">
+<token>ServiceStack.Redis.RedisNativeClient,HLen</token>
+<token>ServiceStack.Redis.RedisNativeClient,Rename</token>
+<token>ServiceStack.Redis.RedisNativeClient,HLen</token>
+<token>ServiceStack.Redis.RedisNativeClient,HGetAll</token>
+</entry>
+<entry count="12">
+<token>ServiceStack.Redis.RedisNativeClient,Rename</token>
+<token>ServiceStack.Redis.RedisClient,ContainsKey</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRemRangeByRank</token>
+</entry>
+<entry count="36">
+<token>ServiceStack.Redis.RedisNativeClient,HLen</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisClient,ContainsKey</token>
+<token>ServiceStack.Redis.RedisClient,SearchKeys</token>
+</entry>
+<entry count="8">
+<token>ServiceStack.Redis.IRedisClient,GetRangeFromSortedSetDesc</token>
+<token>ServiceStack.Redis.IRedisClient,As</token>
+</entry>
+<entry count="64">
+<token>ServiceStack.Redis.RedisNativeClient,HGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,HGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,HGet</token>
+</entry>
+<entry count="2">
+<token>ServiceStack.Redis.RedisClient,GetConfig</token>
+<token>ServiceStack.Redis.PooledRedisClientManager,new</token>
+<token>ServiceStack.Redis.PooledRedisClientManager,GetClient</token>
+<token>ServiceStack.Redis.RedisClient,IncrementValue</token>
+</entry>
+<entry count="768">
+<token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,Get</token>
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
+</entry>
+<entry count="129">
+<token>ServiceStack.Redis.PooledRedisClientManager,new</token>
+<token>ServiceStack.Redis.PooledRedisClientManager,FailoverTo</token>
+</entry>
+<entry count="20">
+<token>ServiceStack.Redis.RedisClient,Get</token>
+<token>ServiceStack.Redis.RedisNativeClient,HGet</token>
+</entry>
+<entry count="300">
+<token>ServiceStack.Redis.IRedisClient,CreateTransaction</token>
+<token>ServiceStack.Redis.IRedisClient,RemoveItemFromSet</token>
+<token>ServiceStack.Redis.IRedisClient,RemoveItemFromSortedSet</token>
+</entry>
+<entry count="144">
+<token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
+</entry>
+<entry count="876">
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisNativeClient,HGet</token>
+</entry>
+<entry count="60">
+<token>ServiceStack.Redis.RedisNativeClient,Rename</token>
+<token>ServiceStack.Redis.RedisNativeClient,HLen</token>
+<token>ServiceStack.Redis.RedisNativeClient,HLen</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+</entry>
+<entry count="256">
+<token>ServiceStack.Redis.RedisClient,new</token>
+<token>ServiceStack.Redis.RedisNativeClient,FlushDb</token>
+</entry>
+<entry count="768">
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisNativeClient,Get</token>
+<token>ServiceStack.Redis.RedisNativeClient,Get</token>
+</entry>
+<entry count="64">
+<token>ServiceStack.Redis.RedisNativeClient,HGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,HGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
+<token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
+</entry>
+<entry count="4672">
+<token>ServiceStack.Redis.RedisNativeClient,Get</token>
+<token>ServiceStack.Redis.RedisNativeClient,HGet</token>
+</entry>
+<entry count="144">
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisNativeClient,Get</token>
+</entry>
+<entry count="36">
+<token>ServiceStack.Redis.RedisClient,Remove</token>
+<token>ServiceStack.Redis.RedisNativeClient,Rename</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisClient,SearchKeys</token>
+</entry>
+<entry count="16">
+<token>ServiceStack.Redis.IRedisClient,As</token>
+<token>ServiceStack.Redis.IRedisClient,CreateTransaction</token>
+<token>ServiceStack.Redis.IRedisClient,AddItemToSortedSet</token>
+<token>ServiceStack.Redis.IRedisClient,RemoveRangeFromSortedSet</token>
+<token>ServiceStack.Redis.IRedisClient,RemoveRangeFromSortedSet</token>
+</entry>
+<entry count="100">
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
+<token>ServiceStack.Redis.RedisNativeClient,HLen</token>
+<token>ServiceStack.Redis.RedisNativeClient,HLen</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+</entry>
+<entry count="180">
+<token>ServiceStack.Redis.IRedisClient,RemoveItemFromSortedSet</token>
+<token>ServiceStack.Redis.IRedisClient,RemoveItemFromSet</token>
+<token>ServiceStack.Redis.IRedisClient,RemoveItemFromSet</token>
+<token>ServiceStack.Redis.IRedisClient,RemoveItemFromSet</token>
+</entry>
+<entry count="64">
+<token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,HGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,HGet</token>
+</entry>
+<entry count="324">
+<token>ServiceStack.Redis.IRedisClient,AddItemToSortedSet</token>
+<token>ServiceStack.Redis.IRedisClient,AddItemToSet</token>
+<token>ServiceStack.Redis.IRedisClient,AddItemToSet</token>
+<token>ServiceStack.Redis.IRedisClient,AddItemToSet</token>
+</entry>
+<entry count="2">
+<token>ServiceStack.Redis.IRedisClientsManager,GetClient</token>
+<token>ServiceStack.Redis.IRedisClient,SearchKeys</token>
+<token>ServiceStack.Redis.IRedisClient,GetEntryType</token>
+</entry>
+<entry count="48">
+<token>ServiceStack.Redis.RedisNativeClient,HGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
+<token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+</entry>
+<entry count="8">
+<token>ServiceStack.Redis.IRedisClientsManager,GetClient</token>
+<token>ServiceStack.Redis.IRedisClient,ScanAllKeys</token>
+<token>ServiceStack.Redis.IRedisClient,GetAllItemsFromSet</token>
+<token>ServiceStack.Redis.IRedisClient,GetValues</token>
+</entry>
+<entry count="60">
+<token>ServiceStack.Redis.RedisNativeClient,HLen</token>
+<token>ServiceStack.Redis.RedisNativeClient,HLen</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisClient,ContainsKey</token>
+<token>ServiceStack.Redis.RedisClient,Remove</token>
+</entry>
+<entry count="4672">
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
+<token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,Get</token>
+</entry>
+<entry count="96">
+<token>ServiceStack.Redis.IRedisClient,CreateTransaction</token>
+<token>ServiceStack.Redis.IRedisClient,RemoveItemFromSortedSet</token>
+<token>ServiceStack.Redis.IRedisClient,RemoveItemFromSet</token>
+<token>ServiceStack.Redis.IRedisClient,RemoveItemFromSet</token>
+<token>ServiceStack.Redis.IRedisTransaction,Commit</token>
+</entry>
+<entry count="4672">
+<token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,Get</token>
+</entry>
+<entry count="48">
+<token>ServiceStack.Redis.RedisClient,ContainsKey</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisClient,Remove</token>
+</entry>
+<entry count="300">
+<token>ServiceStack.Redis.IRedisClient,RemoveItemFromSet</token>
+<token>ServiceStack.Redis.IRedisClient,RemoveItemFromSortedSet</token>
+</entry>
+<entry count="16">
+<token>ServiceStack.Redis.RedisClient,ContainsKey</token>
+<token>ServiceStack.Redis.RedisNativeClient,Rename</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisClient,Remove</token>
+</entry>
+<entry count="144">
+<token>ServiceStack.Redis.RedisClient,ContainsKey</token>
+<token>ServiceStack.Redis.RedisClient,ContainsKey</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+</entry>
+<entry count="48">
+<token>ServiceStack.Redis.RedisClient,ContainsKey</token>
+<token>ServiceStack.Redis.RedisNativeClient,Rename</token>
+<token>ServiceStack.Redis.RedisClient,ContainsKey</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+</entry>
+<entry count="32">
+<token>ServiceStack.Redis.RedisNativeClient,Rename</token>
+<token>ServiceStack.Redis.RedisNativeClient,HGetAll</token>
+<token>ServiceStack.Redis.RedisClient,Remove</token>
+</entry>
+<entry count="324">
+<token>ServiceStack.Redis.IRedisClient,CreateTransaction</token>
+<token>ServiceStack.Redis.IRedisClient,AddItemToSortedSet</token>
+<token>ServiceStack.Redis.IRedisClient,AddItemToSet</token>
+<token>ServiceStack.Redis.IRedisClient,AddItemToSet</token>
+<token>ServiceStack.Redis.IRedisClient,AddItemToSet</token>
+</entry>
+<entry count="2">
+<token>ServiceStack.Redis.RedisClient,New</token>
+<token>ServiceStack.Redis.RedisClient,PrependItemToList</token>
+<token>ServiceStack.Redis.RedisClient,BlockingDequeueItemFromLists</token>
+</entry>
+<entry count="24">
+<token>ServiceStack.Redis.RedisNativeClient,Rename</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisClient,ContainsKey</token>
+</entry>
+<entry count="1">
+<token>ServiceStack.Redis.IRedisClientsManager,GetClient</token>
+<token>ServiceStack.Redis.IRedisClient,AddItemToList</token>
+<token>ServiceStack.Redis.IRedisClient,SearchKeys</token>
+</entry>
+<entry count="100">
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
+<token>ServiceStack.Redis.RedisClient,ContainsKey</token>
+<token>ServiceStack.Redis.RedisClient,Remove</token>
+</entry>
+<entry count="64">
+<token>ServiceStack.Redis.RedisNativeClient,HGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
+<token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
+<token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
+</entry>
+<entry count="128">
 <token>ServiceStack.Redis.PooledRedisClientManager,FailoverTo</token>
 <token>ServiceStack.Redis.RedisClient,GetListCount</token>
 <token>ServiceStack.Redis.RedisClient,GetListCount</token>
 <token>ServiceStack.Redis.RedisClient,GetListCount</token>
 <token>ServiceStack.Redis.RedisClient,GetListCount</token>
 </entry>
-<entry count="8">
+<entry count="40">
 <token>ServiceStack.Redis.RedisNativeClient,Rename</token>
 <token>ServiceStack.Redis.RedisNativeClient,HLen</token>
 <token>ServiceStack.Redis.RedisNativeClient,HLen</token>
 <token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
 <token>ServiceStack.Redis.RedisClient,ContainsKey</token>
 </entry>
-<entry count="4">
+<entry count="128">
 <token>ServiceStack.Redis.RedisNativeClient,FlushDb</token>
 <token>ServiceStack.Redis.PooledRedisClientManager,new</token>
 <token>ServiceStack.Redis.PooledRedisClientManager,FailoverTo</token>
 <token>ServiceStack.Redis.RedisClient,GetListCount</token>
 <token>ServiceStack.Redis.RedisClient,GetListCount</token>
 </entry>
-<entry count="96">
-<token>ServiceStack.Redis.RedisNativeClient,HLen</token>
-<token>ServiceStack.Redis.RedisNativeClient,HLen</token>
-<token>ServiceStack.Redis.RedisNativeClient,HGetAll</token>
-</entry>
-<entry count="1">
+<entry count="26">
 <token>ServiceStack.Redis.RedisClient,Get</token>
+<token>ServiceStack.Redis.RedisClient,Get</token>
+</entry>
+<entry count="3504">
+<token>ServiceStack.Redis.RedisNativeClient,Get</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+</entry>
+<entry count="2480">
+<token>ServiceStack.Redis.RedisNativeClient,Get</token>
 <token>ServiceStack.Redis.RedisClient,Get</token>
 </entry>
 <entry count="1">
 <token>ServiceStack.Redis.RedisClient,Remove</token>
 <token>ServiceStack.Redis.RedisClient,new</token>
 </entry>
-<entry count="28">
+<entry count="508">
 <token>ServiceStack.Redis.IRedisClientsManager,GetClient</token>
 <token>ServiceStack.Redis.IRedisClient,CreateTransaction</token>
 </entry>
-<entry count="12">
+<entry count="13168">
 <token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
 <token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
 </entry>
-<entry count="12">
+<entry count="48">
+<token>ServiceStack.Redis.RedisNativeClient,HGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
+<token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
+</entry>
+<entry count="100">
 <token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
 <token>ServiceStack.Redis.RedisClient,ContainsKey</token>
 <token>ServiceStack.Redis.RedisClient,Remove</token>
@@ -437,9 +1831,11 @@
 <token>ServiceStack.Redis.RedisClient,New</token>
 <token>ServiceStack.Redis.RedisClient,BlockingDequeueItemFromLists</token>
 </entry>
-<entry count="4">
-<token>ServiceStack.Redis.RedisNativeClient,FlushDb</token>
-<token>ServiceStack.Redis.PooledRedisClientManager,new</token>
+<entry count="64">
+<token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
+<token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,HGet</token>
 </entry>
 <entry count="1">
 <token>ServiceStack.Redis.RedisClient,Remove</token>
@@ -448,63 +1844,54 @@
 <token>ServiceStack.Redis.PooledRedisClientManager,new</token>
 <token>ServiceStack.Redis.PooledRedisClientManager,FailoverTo</token>
 </entry>
-<entry count="8">
+<entry count="16">
 <token>ServiceStack.Redis.RedisNativeClient,ZRevRangeByScoreWithScores</token>
 <token>ServiceStack.Redis.RedisNativeClient,ZRevRangeByScoreWithScores</token>
 </entry>
-<entry count="4">
+<entry count="128">
 <token>ServiceStack.Redis.PooledRedisClientManager,FailoverTo</token>
 <token>ServiceStack.Redis.RedisClient,GetListCount</token>
 </entry>
-<entry count="12">
-<token>ServiceStack.Redis.RedisClient,ContainsKey</token>
-<token>ServiceStack.Redis.RedisClient,Remove</token>
-<token>ServiceStack.Redis.RedisNativeClient,Rename</token>
-<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
-</entry>
-<entry count="12">
+<entry count="108">
 <token>ServiceStack.Redis.RedisNativeClient,HLen</token>
 <token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
 <token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
 <token>ServiceStack.Redis.RedisClient,SearchKeys</token>
 </entry>
-<entry count="2">
-<token>ServiceStack.Redis.RedisManagerPool,new</token>
-<token>ServiceStack.Redis.IRedisClientsManager,GetCacheClient</token>
-</entry>
-<entry count="12">
+<entry count="100">
 <token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
 <token>ServiceStack.Redis.RedisClient,ContainsKey</token>
 <token>ServiceStack.Redis.RedisClient,Remove</token>
 <token>ServiceStack.Redis.RedisNativeClient,Rename</token>
 <token>ServiceStack.Redis.RedisNativeClient,HLen</token>
 </entry>
-<entry count="16">
-<token>ServiceStack.Redis.IRedisClient,As</token>
-<token>ServiceStack.Redis.IRedisClient,CreateTransaction</token>
-<token>ServiceStack.Redis.IRedisClient,AddItemToSortedSet</token>
-<token>ServiceStack.Redis.IRedisTransaction,Commit</token>
+<entry count="12">
+<token>ServiceStack.Redis.RedisNativeClient,Rename</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisClient,ContainsKey</token>
+<token>ServiceStack.Redis.RedisClient,SearchKeys</token>
+</entry>
+<entry count="1024">
+<token>ServiceStack.Redis.RedisNativeClient,Get</token>
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
+<token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,Get</token>
 </entry>
 <entry count="2">
 <token>ServiceStack.Redis.RedisClient,new</token>
 <token>ServiceStack.Redis.RedisClient,Remove</token>
 </entry>
-<entry count="4">
+<entry count="16">
 <token>ServiceStack.Redis.RedisClient,ContainsKey</token>
 <token>ServiceStack.Redis.RedisNativeClient,Rename</token>
 <token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
 <token>ServiceStack.Redis.RedisNativeClient,ZRemRangeByRank</token>
 </entry>
-<entry count="4">
-<token>ServiceStack.Redis.RedisNativeClient,FlushDb</token>
-<token>ServiceStack.Redis.RedisClient,new</token>
-<token>ServiceStack.Redis.RedisNativeClient,FlushDb</token>
-<token>ServiceStack.Redis.PooledRedisClientManager,new</token>
-<token>ServiceStack.Redis.PooledRedisClientManager,FailoverTo</token>
-</entry>
-<entry count="64">
-<token>ServiceStack.Redis.RedisClient,ContainsKey</token>
-<token>ServiceStack.Redis.RedisClient,ContainsKey</token>
+<entry count="192">
+<token>ServiceStack.Redis.RedisNativeClient,Get</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisNativeClient,HGet</token>
 </entry>
 <entry count="1">
 <token>ServiceStack.Redis.IRedisClientsManager,GetClient</token>
@@ -515,7 +1902,7 @@
 <token>ServiceStack.Redis.RedisClient,SetConfig</token>
 <token>ServiceStack.Redis.RedisClient,GetClientsInfo</token>
 </entry>
-<entry count="12">
+<entry count="36">
 <token>ServiceStack.Redis.RedisClient,ContainsKey</token>
 <token>ServiceStack.Redis.RedisClient,ContainsKey</token>
 <token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
@@ -525,6 +1912,17 @@
 <token>ServiceStack.Redis.RedisClient,new</token>
 <token>ServiceStack.Redis.RedisClient,SetConfig</token>
 <token>ServiceStack.Redis.RedisClient,GetConfig</token>
+</entry>
+<entry count="80">
+<token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
+<token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
+<token>ServiceStack.Redis.RedisClient,Get</token>
+</entry>
+<entry count="256">
+<token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,Get</token>
+<token>ServiceStack.Redis.RedisNativeClient,HGet</token>
 </entry>
 <entry count="2">
 <token>ServiceStack.Redis.PooledRedisClientManager,GetClient</token>
@@ -536,114 +1934,93 @@
 <token>ServiceStack.Redis.PooledRedisClientManager,new</token>
 <token>ServiceStack.Redis.PooledRedisClientManager,FailoverTo</token>
 </entry>
-<entry count="12">
+<entry count="40">
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
+<token>ServiceStack.Redis.RedisClient,Get</token>
+</entry>
+<entry count="60">
 <token>ServiceStack.Redis.RedisClient,Remove</token>
 <token>ServiceStack.Redis.RedisNativeClient,Rename</token>
 <token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
 <token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
 </entry>
-<entry count="12">
-<token>ServiceStack.Redis.IRedisClient,AddItemToSet</token>
-<token>ServiceStack.Redis.IRedisClient,AddItemToSet</token>
-<token>ServiceStack.Redis.IRedisTransaction,Commit</token>
-</entry>
-<entry count="1">
-<token>ServiceStack.Redis.RedisClient,Remove</token>
-<token>ServiceStack.Redis.PooledRedisClientManager,new</token>
-<token>ServiceStack.Redis.PooledRedisClientManager,FailoverTo</token>
-<token>ServiceStack.Redis.RedisClient,Get</token>
+<entry count="80">
+<token>ServiceStack.Redis.RedisNativeClient,HGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
+<token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
 <token>ServiceStack.Redis.RedisClient,Get</token>
 </entry>
-<entry count="12">
-<token>ServiceStack.Redis.IRedisClient,AddItemToSortedSet</token>
-<token>ServiceStack.Redis.IRedisClient,AddItemToSet</token>
-<token>ServiceStack.Redis.IRedisClient,AddItemToSet</token>
+<entry count="768">
+<token>ServiceStack.Redis.RedisNativeClient,Get</token>
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
+<token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
 </entry>
-<entry count="4">
+<entry count="32">
+<token>ServiceStack.Redis.RedisNativeClient,HLen</token>
+<token>ServiceStack.Redis.RedisNativeClient,Rename</token>
+<token>ServiceStack.Redis.RedisNativeClient,HLen</token>
+<token>ServiceStack.Redis.RedisNativeClient,Rename</token>
+</entry>
+<entry count="80">
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
+<token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,HGet</token>
+<token>ServiceStack.Redis.RedisClient,Get</token>
+</entry>
+<entry count="128">
 <token>ServiceStack.Redis.RedisNativeClient,FlushDb</token>
 <token>ServiceStack.Redis.PooledRedisClientManager,new</token>
 <token>ServiceStack.Redis.PooledRedisClientManager,FailoverTo</token>
 <token>ServiceStack.Redis.RedisClient,GetListCount</token>
 </entry>
-<entry count="12">
-<token>ServiceStack.Redis.RedisClient,Remove</token>
-<token>ServiceStack.Redis.RedisNativeClient,Rename</token>
-<token>ServiceStack.Redis.RedisNativeClient,HLen</token>
+<entry count="15">
+<token>ServiceStack.Redis.RedisClient,Get</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
 </entry>
-<entry count="20">
+<entry count="72">
 <token>ServiceStack.Redis.IRedisClient,CreateTransaction</token>
 <token>ServiceStack.Redis.IRedisClient,RemoveItemFromSortedSet</token>
 <token>ServiceStack.Redis.IRedisClient,RemoveItemFromSet</token>
+<token>ServiceStack.Redis.IRedisClient,RemoveItemFromSet</token>
+<token>ServiceStack.Redis.IRedisClient,RemoveItemFromSet</token>
 </entry>
-<entry count="4">
-<token>ServiceStack.Redis.RedisNativeClient,Watch</token>
-<token>ServiceStack.Redis.RedisNativeClient,UnWatch</token>
-<token>ServiceStack.Redis.RedisClient,CreateTransaction</token>
-<token>ServiceStack.Redis.IRedisTransaction,Commit</token>
+<entry count="24">
+<token>ServiceStack.Redis.RedisClient,Remove</token>
+<token>ServiceStack.Redis.RedisNativeClient,Rename</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisClient,ContainsKey</token>
 </entry>
 <entry count="2">
 <token>ServiceStack.Redis.RedisClient,Get</token>
 <token>ServiceStack.Redis.PooledRedisClientManager,GetStats</token>
 </entry>
-<entry count="4">
-<token>ServiceStack.Redis.RedisClient,Increment</token>
-<token>ServiceStack.Redis.RedisNativeClient,UnWatch</token>
-</entry>
-<entry count="20">
-<token>ServiceStack.Redis.IRedisClient,AddItemToSortedSet</token>
-<token>ServiceStack.Redis.IRedisClient,AddItemToSet</token>
-</entry>
-<entry count="2">
-<token>ServiceStack.Redis.RedisClient,GetConfig</token>
-<token>ServiceStack.Redis.PooledRedisClientManager,new</token>
-<token>ServiceStack.Redis.PooledRedisClientManager,GetClient</token>
-</entry>
-<entry count="12">
-<token>ServiceStack.Redis.RedisNativeClient,HLen</token>
-<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
-<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
-</entry>
-<entry count="8">
-<token>ServiceStack.Redis.RedisNativeClient,HLen</token>
-<token>ServiceStack.Redis.RedisNativeClient,HLen</token>
-<token>ServiceStack.Redis.RedisNativeClient,Rename</token>
-<token>ServiceStack.Redis.RedisNativeClient,HGetAll</token>
-<token>ServiceStack.Redis.RedisClient,Remove</token>
-</entry>
-<entry count="16">
-<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
-<token>ServiceStack.Redis.RedisClient,Remove</token>
-</entry>
 <entry count="8">
 <token>ServiceStack.Redis.RedisClient,Get</token>
 <token>ServiceStack.Redis.RedisClient,Increment</token>
-</entry>
-<entry count="12">
-<token>ServiceStack.Redis.RedisNativeClient,Rename</token>
-<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
-<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
 </entry>
 <entry count="8">
 <token>ServiceStack.Redis.RedisClient,CreatePipeline</token>
 <token>ServiceStack.Redis.RedisNativeClient,SMembers</token>
 <token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
 </entry>
-<entry count="3">
-<token>ServiceStack.Redis.IRedisClientsManager,GetClient</token>
-<token>ServiceStack.Redis.IRedisClient,SearchKeys</token>
-</entry>
-<entry count="4">
-<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
-<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
-<token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
-</entry>
 <entry count="1">
+<token>ServiceStack.Redis.RedisClient,New</token>
+<token>ServiceStack.Redis.RedisClient,PrependItemToList</token>
+<token>ServiceStack.Redis.RedisClient,New</token>
+<token>ServiceStack.Redis.RedisClient,PrependItemToList</token>
+<token>ServiceStack.Redis.RedisClient,BlockingDequeueItemFromLists</token>
+</entry>
+<entry count="2">
 <token>ServiceStack.Redis.RedisClient,PrependItemToList</token>
 <token>ServiceStack.Redis.RedisClient,New</token>
 </entry>
-<entry count="192">
-<token>ServiceStack.Redis.RedisClient,GetValue</token>
-<token>ServiceStack.Redis.IRedisClient,SetEntry</token>
+<entry count="48">
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisClient,ContainsKey</token>
+<token>ServiceStack.Redis.RedisClient,SearchKeys</token>
 </entry>
 <entry count="2">
 <token>ServiceStack.Redis.RedisClient,IncrementValue</token>
@@ -655,14 +2032,14 @@
 <token>ServiceStack.Redis.RedisClient,SearchKeys</token>
 <token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
 </entry>
-<entry count="8">
+<entry count="32">
 <token>ServiceStack.Redis.IRedisClientsManager,GetClient</token>
 <token>ServiceStack.Redis.IRedisClient,CreateTransaction</token>
 <token>ServiceStack.Redis.IRedisClient,RemoveItemFromSortedSet</token>
 <token>ServiceStack.Redis.IRedisClient,RemoveItemFromSet</token>
 <token>ServiceStack.Redis.IRedisTransaction,Commit</token>
 </entry>
-<entry count="20">
+<entry count="200">
 <token>ServiceStack.Redis.IRedisClientsManager,GetClient</token>
 <token>ServiceStack.Redis.IRedisClient,CreateTransaction</token>
 <token>ServiceStack.Redis.IRedisClient,RemoveItemFromSortedSet</token>
@@ -676,18 +2053,21 @@
 <token>ServiceStack.Redis.RedisManagerPool,new</token>
 <token>ServiceStack.Redis.RedisManagerPool,GetCacheClient</token>
 </entry>
-<entry count="12">
+<entry count="168">
 <token>ServiceStack.Redis.IRedisClientsManager,GetClient</token>
 <token>ServiceStack.Redis.IRedisClient,CreateTransaction</token>
 <token>ServiceStack.Redis.IRedisClient,RemoveItemFromSortedSet</token>
 <token>ServiceStack.Redis.IRedisClient,RemoveItemFromSet</token>
 <token>ServiceStack.Redis.IRedisClient,RemoveItemFromSet</token>
 </entry>
-<entry count="1">
-<token>ServiceStack.Redis.RedisClient,New</token>
-<token>ServiceStack.Redis.RedisClient,PrependItemToList</token>
+<entry count="256">
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
+<token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
+<token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,Get</token>
 </entry>
-<entry count="12">
+<entry count="100">
 <token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
 <token>ServiceStack.Redis.RedisClient,ContainsKey</token>
 <token>ServiceStack.Redis.RedisNativeClient,HLen</token>
@@ -697,135 +2077,161 @@
 <token>ServiceStack.Redis.IRedisClientsManager,GetClient</token>
 <token>ServiceStack.Redis.IRedisClient,PublishMessage</token>
 </entry>
-<entry count="4">
+<entry count="128">
 <token>ServiceStack.Redis.RedisClient,new</token>
 <token>ServiceStack.Redis.RedisNativeClient,FlushDb</token>
 <token>ServiceStack.Redis.RedisClient,new</token>
 </entry>
-<entry count="36">
+<entry count="64">
+<token>ServiceStack.Redis.RedisNativeClient,HGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
+<token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,HGet</token>
+</entry>
+<entry count="48">
+<token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
+<token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+</entry>
+<entry count="120">
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisClient,ContainsKey</token>
+<token>ServiceStack.Redis.RedisClient,Remove</token>
+<token>ServiceStack.Redis.RedisNativeClient,Rename</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+</entry>
+<entry count="16">
+<token>ServiceStack.Redis.IRedisClient,RemoveRangeFromSortedSet</token>
+<token>ServiceStack.Redis.IRedisClient,RemoveRangeFromSortedSet</token>
+<token>ServiceStack.Redis.IRedisTransaction,Commit</token>
+</entry>
+<entry count="240">
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisClient,ContainsKey</token>
+</entry>
+<entry count="72">
+<token>ServiceStack.Redis.RedisNativeClient,HLen</token>
 <token>ServiceStack.Redis.RedisNativeClient,HLen</token>
 <token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
-</entry>
-<entry count="12">
 <token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
 <token>ServiceStack.Redis.RedisClient,ContainsKey</token>
-<token>ServiceStack.Redis.RedisClient,Remove</token>
-<token>ServiceStack.Redis.RedisNativeClient,Rename</token>
-<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
 </entry>
-<entry count="4">
-<token>ServiceStack.Redis.IRedisClientsManager,GetClient</token>
-<token>ServiceStack.Redis.IRedisClient,IncrementValueBy</token>
+<entry count="192">
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
+<token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
+<token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
 </entry>
-<entry count="12">
-<token>ServiceStack.Redis.RedisNativeClient,HLen</token>
-<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
-<token>ServiceStack.Redis.RedisClient,ContainsKey</token>
-<token>ServiceStack.Redis.RedisClient,Remove</token>
-<token>ServiceStack.Redis.RedisNativeClient,Rename</token>
+<entry count="300">
+<token>ServiceStack.Redis.IRedisClient,RemoveItemFromSet</token>
+<token>ServiceStack.Redis.IRedisClient,RemoveItemFromSortedSet</token>
+<token>ServiceStack.Redis.IRedisClient,RemoveItemFromSet</token>
 </entry>
 <entry count="24">
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
 <token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
-<token>ServiceStack.Redis.RedisClient,ContainsKey</token>
-</entry>
-<entry count="1">
-<token>ServiceStack.Redis.IRedisClient,AddItemToList</token>
-<token>ServiceStack.Redis.IRedisClient,SearchKeys</token>
-</entry>
-<entry count="24">
-<token>ServiceStack.Redis.RedisClient,ContainsKey</token>
-<token>ServiceStack.Redis.RedisClient,Remove</token>
-<token>ServiceStack.Redis.RedisNativeClient,Rename</token>
 </entry>
 <entry count="4">
 <token>ServiceStack.Redis.IRedisClientsManager,GetClient</token>
 <token>ServiceStack.Redis.IRedisClient,ScanAllKeys</token>
 <token>ServiceStack.Redis.IRedisClient,GetValues</token>
 </entry>
-<entry count="12">
+<entry count="256">
+<token>ServiceStack.Redis.RedisNativeClient,Get</token>
+<token>ServiceStack.Redis.RedisNativeClient,HGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,HGet</token>
+</entry>
+<entry count="900">
 <token>ServiceStack.Redis.IRedisClient,AddItemToSet</token>
 <token>ServiceStack.Redis.IRedisClient,AddItemToSet</token>
 </entry>
-<entry count="4">
+<entry count="128">
 <token>ServiceStack.Redis.RedisClient,new</token>
 <token>ServiceStack.Redis.RedisNativeClient,FlushDb</token>
 <token>ServiceStack.Redis.PooledRedisClientManager,new</token>
 <token>ServiceStack.Redis.PooledRedisClientManager,FailoverTo</token>
 <token>ServiceStack.Redis.RedisClient,GetListCount</token>
 </entry>
-<entry count="28">
-<token>ServiceStack.Redis.RedisNativeClient,Rename</token>
-<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
-</entry>
-<entry count="24">
+<entry count="120">
 <token>ServiceStack.Redis.RedisNativeClient,HLen</token>
 <token>ServiceStack.Redis.RedisNativeClient,HLen</token>
 <token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
 <token>ServiceStack.Redis.RedisClient,ContainsKey</token>
-</entry>
-<entry count="12">
-<token>ServiceStack.Redis.RedisNativeClient,HLen</token>
-<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
-<token>ServiceStack.Redis.RedisClient,ContainsKey</token>
-<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
 </entry>
 <entry count="4">
 <token>ServiceStack.Redis.IRedisNativeClient,LPush</token>
 <token>ServiceStack.Redis.IRedisNativeClient,LTrim</token>
 </entry>
-<entry count="1">
-<token>ServiceStack.Redis.RedisClient,Remove</token>
-<token>ServiceStack.Redis.PooledRedisClientManager,new</token>
-<token>ServiceStack.Redis.PooledRedisClientManager,FailoverTo</token>
-<token>ServiceStack.Redis.RedisClient,Get</token>
+<entry count="256">
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
+<token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,Get</token>
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
+<token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
 </entry>
-<entry count="12">
+<entry count="4">
+<token>ServiceStack.Redis.RedisNativeClient,Rename</token>
+<token>ServiceStack.Redis.RedisClient,ContainsKey</token>
+<token>ServiceStack.Redis.RedisNativeClient,Rename</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRemRangeByRank</token>
+</entry>
+<entry count="432">
+<token>ServiceStack.Redis.IRedisClient,AddItemToSet</token>
+<token>ServiceStack.Redis.IRedisClient,AddItemToSet</token>
+<token>ServiceStack.Redis.IRedisClient,AddItemToSet</token>
+</entry>
+<entry count="100">
 <token>ServiceStack.Redis.RedisNativeClient,Rename</token>
 <token>ServiceStack.Redis.RedisNativeClient,HLen</token>
 <token>ServiceStack.Redis.RedisNativeClient,HLen</token>
 </entry>
-<entry count="16">
-<token>ServiceStack.Redis.IRedisClient,CreateTransaction</token>
-<token>ServiceStack.Redis.IRedisClient,AddItemToSortedSet</token>
-<token>ServiceStack.Redis.IRedisClient,RemoveRangeFromSortedSet</token>
+<entry count="324">
+<token>ServiceStack.Redis.IRedisClient,AddItemToSet</token>
+<token>ServiceStack.Redis.IRedisClient,AddItemToSet</token>
+<token>ServiceStack.Redis.IRedisClient,AddItemToSet</token>
 <token>ServiceStack.Redis.IRedisTransaction,Commit</token>
 </entry>
-<entry count="12">
-<token>ServiceStack.Redis.RedisClient,ContainsKey</token>
-<token>ServiceStack.Redis.RedisNativeClient,HLen</token>
-<token>ServiceStack.Redis.RedisNativeClient,HLen</token>
-</entry>
-<entry count="4">
-<token>ServiceStack.Redis.IRedisClientsManager,GetClient</token>
-<token>ServiceStack.Redis.IRedisClient,CreateTransaction</token>
-<token>ServiceStack.Redis.IRedisClient,RemoveItemFromSet</token>
-</entry>
-<entry count="12">
+<entry count="108">
 <token>ServiceStack.Redis.RedisNativeClient,HLen</token>
 <token>ServiceStack.Redis.RedisNativeClient,HLen</token>
 <token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
 <token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
 <token>ServiceStack.Redis.RedisClient,SearchKeys</token>
 </entry>
+<entry count="64">
+<token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
+<token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
+<token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
+</entry>
 <entry count="4">
 <token>ServiceStack.Redis.IRedisClient,CreateTransaction</token>
 <token>ServiceStack.Redis.IRedisClient,RemoveItemFromSet</token>
 <token>ServiceStack.Redis.IRedisTransaction,Commit</token>
 </entry>
-<entry count="12">
+<entry count="48">
+<token>ServiceStack.Redis.RedisNativeClient,HGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,HGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+</entry>
+<entry count="100">
 <token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
 <token>ServiceStack.Redis.RedisClient,ContainsKey</token>
 <token>ServiceStack.Redis.RedisNativeClient,HLen</token>
 <token>ServiceStack.Redis.RedisNativeClient,HLen</token>
 <token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
 </entry>
-<entry count="16">
+<entry count="48">
 <token>ServiceStack.Redis.IRedisClient,As</token>
 <token>ServiceStack.Redis.IRedisClient,CreateTransaction</token>
 <token>ServiceStack.Redis.IRedisClient,AddItemToSortedSet</token>
 <token>ServiceStack.Redis.IRedisClient,RemoveRangeFromSortedSet</token>
 </entry>
-<entry count="32">
+<entry count="64">
 <token>ServiceStack.Redis.IRedisClient,As</token>
 <token>ServiceStack.Redis.IRedisClient,CreateTransaction</token>
 <token>ServiceStack.Redis.IRedisClient,AddItemToSortedSet</token>
@@ -836,97 +2242,77 @@
 <token>ServiceStack.Redis.RedisClient,SetConfig</token>
 <token>ServiceStack.Redis.RedisClient,GetClientsInfo</token>
 </entry>
-<entry count="6">
-<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
-<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
-</entry>
-<entry count="38">
-<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
-<token>ServiceStack.Redis.RedisClient,SearchKeys</token>
-</entry>
-<entry count="4">
-<token>ServiceStack.Redis.RedisNativeClient,Rename</token>
-<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
-<token>ServiceStack.Redis.RedisNativeClient,ZRemRangeByRank</token>
-</entry>
 <entry count="4">
 <token>ServiceStack.Redis.RedisNativeClient,Watch</token>
 <token>ServiceStack.Redis.RedisNativeClient,UnWatch</token>
 <token>ServiceStack.Redis.RedisClient,CreateTransaction</token>
 </entry>
-<entry count="4">
-<token>ServiceStack.Redis.RedisNativeClient,Watch</token>
-<token>ServiceStack.Redis.RedisClient,CreateTransaction</token>
-<token>ServiceStack.Redis.IRedisTransaction,Commit</token>
-</entry>
-<entry count="32">
-<token>ServiceStack.Redis.RedisNativeClient,HLen</token>
-<token>ServiceStack.Redis.RedisNativeClient,HLen</token>
-<token>ServiceStack.Redis.RedisNativeClient,Rename</token>
-<token>ServiceStack.Redis.RedisNativeClient,HGetAll</token>
-</entry>
 <entry count="12">
+<token>ServiceStack.Redis.RedisClient,ContainsKey</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisClient,ContainsKey</token>
+<token>ServiceStack.Redis.RedisClient,SearchKeys</token>
+</entry>
+<entry count="8640">
+<token>ServiceStack.Redis.RedisNativeClient,Get</token>
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
+</entry>
+<entry count="100">
 <token>ServiceStack.Redis.RedisClient,ContainsKey</token>
 <token>ServiceStack.Redis.RedisClient,Remove</token>
 <token>ServiceStack.Redis.RedisNativeClient,Rename</token>
 <token>ServiceStack.Redis.RedisNativeClient,HLen</token>
 </entry>
-<entry count="32">
-<token>ServiceStack.Redis.RedisNativeClient,HLen</token>
-<token>ServiceStack.Redis.RedisNativeClient,Rename</token>
-<token>ServiceStack.Redis.RedisNativeClient,HGetAll</token>
-</entry>
-<entry count="12">
+<entry count="600">
 <token>ServiceStack.Redis.IRedisClient,RemoveItemFromSet</token>
 <token>ServiceStack.Redis.IRedisClient,RemoveItemFromSet</token>
 </entry>
-<entry count="24">
+<entry count="96">
 <token>ServiceStack.Redis.RedisNativeClient,HLen</token>
 <token>ServiceStack.Redis.RedisNativeClient,HGetAll</token>
 <token>ServiceStack.Redis.RedisClient,Remove</token>
 </entry>
-<entry count="4">
+<entry count="128">
 <token>ServiceStack.Redis.PooledRedisClientManager,FailoverTo</token>
 <token>ServiceStack.Redis.RedisClient,GetListCount</token>
 <token>ServiceStack.Redis.RedisClient,GetListCount</token>
 <token>ServiceStack.Redis.RedisClient,GetListCount</token>
 </entry>
-<entry count="4">
-<token>ServiceStack.Redis.PooledRedisClientManager,new</token>
-<token>ServiceStack.Redis.PooledRedisClientManager,FailoverTo</token>
-<token>ServiceStack.Redis.RedisClient,GetListCount</token>
-<token>ServiceStack.Redis.RedisClient,GetListCount</token>
-<token>ServiceStack.Redis.RedisClient,GetListCount</token>
+<entry count="1">
+<token>ServiceStack.Redis.RedisClient,PrependItemToList</token>
+<token>ServiceStack.Redis.RedisClient,New</token>
+<token>ServiceStack.Redis.RedisClient,PrependItemToList</token>
 </entry>
-<entry count="32">
+<entry count="320">
+<token>ServiceStack.Redis.RedisNativeClient,Get</token>
+<token>ServiceStack.Redis.RedisNativeClient,HGet</token>
+<token>ServiceStack.Redis.RedisClient,Get</token>
+</entry>
+<entry count="108">
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
+</entry>
+<entry count="192">
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
+<token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,Get</token>
+</entry>
+<entry count="128">
 <token>ServiceStack.Redis.RedisNativeClient,Rename</token>
 <token>ServiceStack.Redis.RedisNativeClient,HGetAll</token>
 </entry>
-<entry count="52">
+<entry count="564">
 <token>ServiceStack.Redis.IRedisClient,CreateTransaction</token>
 <token>ServiceStack.Redis.IRedisClient,AddItemToSortedSet</token>
 </entry>
-<entry count="4">
-<token>ServiceStack.Redis.IRedisClientsManager,GetClient</token>
-<token>ServiceStack.Redis.IRedisClient,GetValues</token>
-</entry>
-<entry count="2">
-<token>ServiceStack.Redis.RedisClient,new</token>
-<token>ServiceStack.Redis.RedisClient,SetConfig</token>
-<token>ServiceStack.Redis.RedisClient,GetConfig</token>
-<token>ServiceStack.Redis.PooledRedisClientManager,new</token>
-</entry>
-<entry count="12">
-<token>ServiceStack.Redis.RedisClient,GetListCount</token>
-<token>ServiceStack.Redis.RedisClient,GetListCount</token>
-</entry>
-<entry count="2">
-<token>ServiceStack.Redis.PooledRedisClientManager,new</token>
-<token>ServiceStack.Redis.PooledRedisClientManager,GetClient</token>
-<token>ServiceStack.Redis.RedisClient,IncrementValue</token>
+<entry count="20">
 <token>ServiceStack.Redis.RedisClient,Get</token>
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
+<token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
 </entry>
-<entry count="12">
+<entry count="120">
 <token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
 <token>ServiceStack.Redis.RedisClient,ContainsKey</token>
 <token>ServiceStack.Redis.RedisClient,Remove</token>
@@ -938,44 +2324,44 @@
 <token>ServiceStack.Redis.RedisClient,Get</token>
 <token>ServiceStack.Redis.RedisClient,Get</token>
 </entry>
-<entry count="8">
-<token>ServiceStack.Redis.IRedisClient,AddItemToSortedSet</token>
-<token>ServiceStack.Redis.IRedisClient,AddItemToSet</token>
-<token>ServiceStack.Redis.IRedisTransaction,Commit</token>
-</entry>
-<entry count="4">
+<entry count="128">
 <token>ServiceStack.Redis.RedisClient,new</token>
 <token>ServiceStack.Redis.RedisNativeClient,FlushDb</token>
 <token>ServiceStack.Redis.PooledRedisClientManager,new</token>
 </entry>
-<entry count="12">
+<entry count="100">
 <token>ServiceStack.Redis.RedisClient,ContainsKey</token>
 <token>ServiceStack.Redis.RedisClient,Remove</token>
 <token>ServiceStack.Redis.RedisNativeClient,Rename</token>
 <token>ServiceStack.Redis.RedisNativeClient,HLen</token>
 <token>ServiceStack.Redis.RedisNativeClient,HLen</token>
 </entry>
-<entry count="8">
+<entry count="32">
 <token>ServiceStack.Redis.IRedisClient,CreateTransaction</token>
 <token>ServiceStack.Redis.IRedisClient,AddItemToSortedSet</token>
 <token>ServiceStack.Redis.IRedisClient,AddItemToSet</token>
 <token>ServiceStack.Redis.IRedisTransaction,Commit</token>
+</entry>
+<entry count="192">
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisNativeClient,HGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,Get</token>
 </entry>
 <entry count="1">
 <token>ServiceStack.Redis.PooledRedisClientManager,new</token>
 <token>ServiceStack.Redis.PooledRedisClientManager,FailoverTo</token>
 <token>ServiceStack.Redis.RedisClient,Get</token>
 </entry>
-<entry count="16">
+<entry count="48">
 <token>ServiceStack.Redis.RedisClient,ContainsKey</token>
 <token>ServiceStack.Redis.RedisClient,ContainsKey</token>
 <token>ServiceStack.Redis.RedisNativeClient,Rename</token>
 </entry>
-<entry count="35">
+<entry count="67">
 <token>ServiceStack.Redis.IRedisClientsManager,GetClient</token>
 <token>ServiceStack.Redis.IRedisClient,As</token>
 </entry>
-<entry count="12">
+<entry count="48">
 <token>ServiceStack.Redis.RedisClient,ContainsKey</token>
 <token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
 <token>ServiceStack.Redis.RedisNativeClient,ZRemRangeByRank</token>
@@ -986,35 +2372,17 @@
 <token>ServiceStack.Redis.RedisClient,Get</token>
 <token>ServiceStack.Redis.PooledRedisClientManager,GetStats</token>
 </entry>
-<entry count="16">
+<entry count="64">
 <token>ServiceStack.Redis.RedisClient,ContainsKey</token>
 <token>ServiceStack.Redis.RedisNativeClient,Rename</token>
 <token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
 </entry>
-<entry count="12">
-<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
-<token>ServiceStack.Redis.RedisNativeClient,HLen</token>
-<token>ServiceStack.Redis.RedisNativeClient,HLen</token>
+<entry count="4096">
+<token>ServiceStack.Redis.RedisNativeClient,Get</token>
+<token>ServiceStack.Redis.RedisNativeClient,Get</token>
+<token>ServiceStack.Redis.RedisNativeClient,Get</token>
 </entry>
-<entry count="20">
-<token>ServiceStack.Redis.IRedisClient,CreateTransaction</token>
-<token>ServiceStack.Redis.IRedisClient,AddItemToSortedSet</token>
-<token>ServiceStack.Redis.IRedisClient,AddItemToSet</token>
-</entry>
-<entry count="12">
-<token>ServiceStack.Redis.IRedisClient,CreateTransaction</token>
-<token>ServiceStack.Redis.IRedisClient,AddItemToSortedSet</token>
-<token>ServiceStack.Redis.IRedisClient,AddItemToSet</token>
-<token>ServiceStack.Redis.IRedisClient,AddItemToSet</token>
-</entry>
-<entry count="12">
-<token>ServiceStack.Redis.IRedisClient,CreateTransaction</token>
-<token>ServiceStack.Redis.IRedisClient,AddItemToSortedSet</token>
-<token>ServiceStack.Redis.IRedisClient,AddItemToSet</token>
-<token>ServiceStack.Redis.IRedisClient,AddItemToSet</token>
-<token>ServiceStack.Redis.IRedisTransaction,Commit</token>
-</entry>
-<entry count="16">
+<entry count="32">
 <token>ServiceStack.Redis.IRedisClient,AddItemToSortedSet</token>
 <token>ServiceStack.Redis.IRedisClient,RemoveRangeFromSortedSet</token>
 <token>ServiceStack.Redis.IRedisTransaction,Commit</token>
@@ -1023,77 +2391,53 @@
 <token>ServiceStack.Redis.IRedisClient,SearchKeys</token>
 <token>ServiceStack.Redis.IRedisClient,SearchKeys</token>
 </entry>
-<entry count="12">
+<entry count="192">
+<token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,HGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
+</entry>
+<entry count="144">
 <token>ServiceStack.Redis.IRedisClient,AddItemToSortedSet</token>
 <token>ServiceStack.Redis.IRedisClient,AddItemToSet</token>
 <token>ServiceStack.Redis.IRedisClient,AddItemToSet</token>
 <token>ServiceStack.Redis.IRedisTransaction,Commit</token>
 </entry>
-<entry count="16">
-<token>ServiceStack.Redis.RedisClient,CreatePipeline</token>
-<token>ServiceStack.Redis.RedisNativeClient,HGet</token>
+<entry count="60">
+<token>ServiceStack.Redis.RedisClient,ContainsKey</token>
+<token>ServiceStack.Redis.RedisClient,SearchKeys</token>
 </entry>
-<entry count="32">
-<token>ServiceStack.Redis.IRedisClient,As</token>
-<token>ServiceStack.Redis.IRedisClient,CreateTransaction</token>
-</entry>
-<entry count="24">
-<token>ServiceStack.Redis.IRedisClient,RemoveItemFromSet</token>
-<token>ServiceStack.Redis.IRedisTransaction,Commit</token>
+<entry count="1024">
+<token>ServiceStack.Redis.RedisNativeClient,Get</token>
+<token>ServiceStack.Redis.RedisNativeClient,Get</token>
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
+<token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
 </entry>
 <entry count="4">
 <token>ServiceStack.Redis.IRedisClientsManager,GetClient</token>
 <token>ServiceStack.Redis.IRedisClient,CreateTransaction</token>
 <token>ServiceStack.Redis.IRedisTransaction,Commit</token>
 </entry>
-<entry count="2">
-<token>ServiceStack.Redis.IRedisClient,SearchKeys</token>
-<token>ServiceStack.Redis.IRedisClient,GetEntryType</token>
-</entry>
-<entry count="164">
+<entry count="684">
 <token>ServiceStack.Redis.RedisNativeClient,HLen</token>
 <token>ServiceStack.Redis.RedisNativeClient,HLen</token>
 </entry>
-<entry count="2">
-<token>ServiceStack.Redis.PooledRedisClientManager,new</token>
-<token>ServiceStack.Redis.PooledRedisClientManager,GetClient</token>
-<token>ServiceStack.Redis.RedisClient,IncrementValue</token>
-<token>ServiceStack.Redis.RedisClient,Get</token>
-<token>ServiceStack.Redis.PooledRedisClientManager,GetStats</token>
-</entry>
-<entry count="4">
-<token>ServiceStack.Redis.RedisClient,new</token>
-<token>ServiceStack.Redis.RedisNativeClient,FlushDb</token>
-<token>ServiceStack.Redis.PooledRedisClientManager,new</token>
-<token>ServiceStack.Redis.PooledRedisClientManager,FailoverTo</token>
+<entry count="1">
+<token>ServiceStack.Redis.RedisClient,New</token>
+<token>ServiceStack.Redis.RedisClient,New</token>
+<token>ServiceStack.Redis.RedisClient,PrependItemToList</token>
+<token>ServiceStack.Redis.RedisClient,BlockingDequeueItemFromLists</token>
 </entry>
 <entry count="1">
 <token>ServiceStack.Redis.PooledRedisClientManager,new</token>
 <token>ServiceStack.Redis.PooledRedisClientManager,GetClient</token>
 <token>ServiceStack.Redis.RedisClient,SetConfig</token>
 </entry>
-<entry count="1">
-<token>ServiceStack.Redis.RedisClient,new</token>
-<token>ServiceStack.Redis.RedisClient,Remove</token>
-<token>ServiceStack.Redis.RedisClient,new</token>
-<token>ServiceStack.Redis.RedisClient,Remove</token>
-<token>ServiceStack.Redis.PooledRedisClientManager,new</token>
-</entry>
-<entry count="8">
-<token>ServiceStack.Redis.RedisNativeClient,SMembers</token>
-<token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
-</entry>
-<entry count="1">
-<token>ServiceStack.Redis.RedisClient,new</token>
-<token>ServiceStack.Redis.RedisClient,Remove</token>
-<token>ServiceStack.Redis.RedisClient,new</token>
-</entry>
-<entry count="12">
+<entry count="36">
 <token>ServiceStack.Redis.RedisClient,ContainsKey</token>
 <token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
 <token>ServiceStack.Redis.RedisClient,SearchKeys</token>
 </entry>
-<entry count="8">
+<entry count="256">
 <token>ServiceStack.Redis.RedisClient,GetListCount</token>
 <token>ServiceStack.Redis.RedisClient,GetListCount</token>
 <token>ServiceStack.Redis.RedisClient,GetListCount</token>
@@ -1108,7 +2452,12 @@
 <token>ServiceStack.Redis.RedisClient,Remove</token>
 <token>ServiceStack.Redis.PooledRedisClientManager,new</token>
 </entry>
-<entry count="4">
+<entry count="192">
+<token>ServiceStack.Redis.RedisNativeClient,HGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisNativeClient,Get</token>
+</entry>
+<entry count="128">
 <token>ServiceStack.Redis.RedisClient,new</token>
 <token>ServiceStack.Redis.RedisNativeClient,FlushDb</token>
 <token>ServiceStack.Redis.RedisClient,new</token>
@@ -1118,25 +2467,38 @@
 <token>ServiceStack.Redis.RedisClient,CreatePipeline</token>
 <token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
 </entry>
-<entry count="16">
+<entry count="300">
+<token>ServiceStack.Redis.IRedisClient,CreateTransaction</token>
+<token>ServiceStack.Redis.IRedisClient,RemoveItemFromSet</token>
+<token>ServiceStack.Redis.IRedisClient,RemoveItemFromSortedSet</token>
+<token>ServiceStack.Redis.IRedisClient,RemoveItemFromSet</token>
+</entry>
+<entry count="48">
 <token>ServiceStack.Redis.IRedisClientsManager,GetClient</token>
 <token>ServiceStack.Redis.IRedisClient,As</token>
 <token>ServiceStack.Redis.IRedisClient,CreateTransaction</token>
 <token>ServiceStack.Redis.IRedisClient,AddItemToSortedSet</token>
 <token>ServiceStack.Redis.IRedisClient,RemoveRangeFromSortedSet</token>
 </entry>
-<entry count="4">
-<token>ServiceStack.Redis.RedisClient,ContainsKey</token>
-<token>ServiceStack.Redis.RedisClient,ContainsKey</token>
+<entry count="2160">
+<token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
+</entry>
+<entry count="1168">
+<token>ServiceStack.Redis.RedisNativeClient,HGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,HGet</token>
+</entry>
+<entry count="12">
 <token>ServiceStack.Redis.RedisNativeClient,Rename</token>
+<token>ServiceStack.Redis.RedisClient,ContainsKey</token>
 <token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
-<token>ServiceStack.Redis.RedisNativeClient,ZRemRangeByRank</token>
+<token>ServiceStack.Redis.RedisClient,Remove</token>
 </entry>
 <entry count="24">
 <token>ServiceStack.Redis.RedisClient,SearchKeys</token>
 <token>ServiceStack.Redis.RedisNativeClient,MGet</token>
 </entry>
-<entry count="4">
+<entry count="128">
 <token>ServiceStack.Redis.PooledRedisClientManager,new</token>
 <token>ServiceStack.Redis.PooledRedisClientManager,FailoverTo</token>
 <token>ServiceStack.Redis.RedisClient,GetListCount</token>
@@ -1145,21 +2507,23 @@
 <token>ServiceStack.Redis.RedisNativeClient,Ping</token>
 <token>ServiceStack.Redis.RedisNativeClient,Ping</token>
 </entry>
-<entry count="32">
+<entry count="64">
 <token>ServiceStack.Redis.IRedisClientsManager,GetClient</token>
 <token>ServiceStack.Redis.IRedisClient,As</token>
 <token>ServiceStack.Redis.IRedisClient,CreateTransaction</token>
 <token>ServiceStack.Redis.IRedisClient,AddItemToSortedSet</token>
 </entry>
-<entry count="12">
-<token>ServiceStack.Redis.RedisClient,Remove</token>
-<token>ServiceStack.Redis.RedisNativeClient,Rename</token>
-<token>ServiceStack.Redis.RedisNativeClient,HLen</token>
-<token>ServiceStack.Redis.RedisNativeClient,HLen</token>
+<entry count="48">
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
+<token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,HGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
 </entry>
-<entry count="12">
-<token>ServiceStack.Redis.RedisClient,ContainsKey</token>
-<token>ServiceStack.Redis.RedisNativeClient,HLen</token>
+<entry count="48">
+<token>ServiceStack.Redis.IRedisClient,RemoveItemFromSet</token>
+<token>ServiceStack.Redis.IRedisClient,RemoveItemFromSortedSet</token>
+<token>ServiceStack.Redis.IRedisClient,RemoveItemFromSet</token>
+<token>ServiceStack.Redis.IRedisTransaction,Commit</token>
 </entry>
 <entry count="2">
 <token>ServiceStack.Redis.PooledRedisClientManager,new</token>
@@ -1172,28 +2536,25 @@
 <token>ServiceStack.Redis.PooledRedisClientManager,new</token>
 <token>ServiceStack.Redis.PooledRedisClientManager,GetClient</token>
 <token>ServiceStack.Redis.RedisClient,IncrementValue</token>
-</entry>
-<entry count="48">
-<token>ServiceStack.Redis.RedisClient,SearchKeys</token>
-<token>ServiceStack.Redis.RedisClient,GetAll</token>
 </entry>
 <entry count="8">
 <token>ServiceStack.Redis.IRedisClientsManager,GetClient</token>
 <token>ServiceStack.Redis.IRedisClient,GetRangeFromSortedSetDesc</token>
 <token>ServiceStack.Redis.IRedisClient,As</token>
 </entry>
-<entry count="1">
-<token>ServiceStack.Redis.BasicRedisClientManager,new</token>
-<token>ServiceStack.Redis.RedisClientsManagerExtensions,Exec</token>
+<entry count="192">
+<token>ServiceStack.Redis.RedisNativeClient,HGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,HGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
 </entry>
-<entry count="24">
+<entry count="465">
 <token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
-<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisClient,Get</token>
 </entry>
-<entry count="1">
-<token>ServiceStack.Redis.RedisClient,New</token>
-<token>ServiceStack.Redis.RedisClient,New</token>
-<token>ServiceStack.Redis.RedisClient,BlockingDequeueItemFromLists</token>
+<entry count="60">
+<token>ServiceStack.Redis.RedisNativeClient,HGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisClient,Get</token>
 </entry>
 <entry count="2">
 <token>ServiceStack.Redis.RedisClient,new</token>
@@ -1202,48 +2563,54 @@
 <token>ServiceStack.Redis.PooledRedisClientManager,new</token>
 <token>ServiceStack.Redis.PooledRedisClientManager,GetClient</token>
 </entry>
-<entry count="4">
+<entry count="2160">
+<token>ServiceStack.Redis.RedisNativeClient,HGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
+</entry>
+<entry count="128">
 <token>ServiceStack.Redis.PooledRedisClientManager,new</token>
 <token>ServiceStack.Redis.PooledRedisClientManager,FailoverTo</token>
 <token>ServiceStack.Redis.RedisClient,GetListCount</token>
 <token>ServiceStack.Redis.RedisClient,GetListCount</token>
 </entry>
-<entry count="2">
-<token>ServiceStack.Redis.RedisClient,new</token>
-<token>ServiceStack.Redis.RedisClient,SetConfig</token>
-</entry>
-<entry count="16">
-<token>ServiceStack.Redis.RedisClient,ContainsKey</token>
-<token>ServiceStack.Redis.RedisClient,ContainsKey</token>
-<token>ServiceStack.Redis.RedisNativeClient,Rename</token>
-<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
-</entry>
 <entry count="8">
 <token>ServiceStack.Redis.IRedisClientsManager,GetClient</token>
 <token>ServiceStack.Redis.IRedisClient,GetRangeFromSortedSetByLowestScore</token>
 </entry>
-<entry count="12">
+<entry count="180">
 <token>ServiceStack.Redis.RedisNativeClient,HLen</token>
 <token>ServiceStack.Redis.RedisNativeClient,HLen</token>
 <token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
 <token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
 </entry>
-<entry count="12">
-<token>ServiceStack.Redis.RedisClient,ContainsKey</token>
-<token>ServiceStack.Redis.RedisClient,ContainsKey</token>
-<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
-<token>ServiceStack.Redis.RedisClient,Remove</token>
-</entry>
-<entry count="4">
-<token>ServiceStack.Redis.IRedisClient,CreateTransaction</token>
+<entry count="180">
 <token>ServiceStack.Redis.IRedisClient,RemoveItemFromSet</token>
-</entry>
-<entry count="12">
 <token>ServiceStack.Redis.IRedisClient,RemoveItemFromSet</token>
 <token>ServiceStack.Redis.IRedisClient,RemoveItemFromSet</token>
 <token>ServiceStack.Redis.IRedisTransaction,Commit</token>
 </entry>
-<entry count="8">
+<entry count="144">
+<token>ServiceStack.Redis.RedisNativeClient,Get</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+</entry>
+<entry count="192">
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisNativeClient,Get</token>
+<token>ServiceStack.Redis.RedisNativeClient,HGet</token>
+</entry>
+<entry count="256">
+<token>ServiceStack.Redis.RedisNativeClient,HGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,Get</token>
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
+<token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
+</entry>
+<entry count="32">
+<token>ServiceStack.Redis.RedisNativeClient,Rename</token>
+<token>ServiceStack.Redis.RedisNativeClient,HLen</token>
+<token>ServiceStack.Redis.RedisNativeClient,Rename</token>
+</entry>
+<entry count="40">
 <token>ServiceStack.Redis.RedisClient,ContainsKey</token>
 <token>ServiceStack.Redis.RedisNativeClient,HLen</token>
 <token>ServiceStack.Redis.RedisNativeClient,HLen</token>
@@ -1266,6 +2633,11 @@
 <token>ServiceStack.Redis.IRedisClient,SearchKeys</token>
 <token>ServiceStack.Redis.IRedisClient,SearchKeys</token>
 </entry>
+<entry count="1024">
+<token>ServiceStack.Redis.RedisNativeClient,Get</token>
+<token>ServiceStack.Redis.RedisNativeClient,Get</token>
+<token>ServiceStack.Redis.RedisNativeClient,HGet</token>
+</entry>
 <entry count="1">
 <token>ServiceStack.Redis.RedisClient,new</token>
 <token>ServiceStack.Redis.RedisClient,Remove</token>
@@ -1273,56 +2645,50 @@
 <token>ServiceStack.Redis.PooledRedisClientManager,FailoverTo</token>
 <token>ServiceStack.Redis.RedisClient,Get</token>
 </entry>
-<entry count="32">
-<token>ServiceStack.Redis.IRedisClientsManager,GetClient</token>
-<token>ServiceStack.Redis.IRedisClient,As</token>
-<token>ServiceStack.Redis.IRedisClient,CreateTransaction</token>
-</entry>
-<entry count="8">
-<token>ServiceStack.Redis.RedisNativeClient,HLen</token>
-<token>ServiceStack.Redis.RedisNativeClient,Rename</token>
-<token>ServiceStack.Redis.RedisNativeClient,HGetAll</token>
-<token>ServiceStack.Redis.RedisClient,Remove</token>
-</entry>
-<entry count="12">
-<token>ServiceStack.Redis.RedisNativeClient,HLen</token>
-<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
-<token>ServiceStack.Redis.RedisClient,ContainsKey</token>
-<token>ServiceStack.Redis.RedisClient,Remove</token>
+<entry count="64">
+<token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,HGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
+<token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
 </entry>
 <entry count="60">
-<token>ServiceStack.Redis.RedisClient,ContainsKey</token>
-<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
-</entry>
-<entry count="1">
-<token>ServiceStack.Redis.PooledRedisClientManager,FailoverTo</token>
-<token>ServiceStack.Redis.RedisClient,Get</token>
-<token>ServiceStack.Redis.RedisClient,Get</token>
-</entry>
-<entry count="4">
-<token>ServiceStack.Redis.RedisClient,new</token>
-<token>ServiceStack.Redis.RedisNativeClient,FlushDb</token>
-<token>ServiceStack.Redis.RedisClient,new</token>
-<token>ServiceStack.Redis.RedisNativeClient,FlushDb</token>
-<token>ServiceStack.Redis.PooledRedisClientManager,new</token>
-</entry>
-<entry count="12">
-<token>ServiceStack.Redis.RedisNativeClient,HLen</token>
 <token>ServiceStack.Redis.RedisNativeClient,HLen</token>
 <token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
 <token>ServiceStack.Redis.RedisClient,ContainsKey</token>
+<token>ServiceStack.Redis.RedisClient,Remove</token>
+</entry>
+<entry count="252">
+<token>ServiceStack.Redis.RedisClient,ContainsKey</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+</entry>
+<entry count="27">
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
 <token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
 </entry>
 <entry count="16">
 <token>ServiceStack.Redis.IRedisClient,CreateTransaction</token>
 <token>ServiceStack.Redis.IRedisClient,AddItemToSortedSet</token>
-<token>ServiceStack.Redis.IRedisTransaction,Commit</token>
+<token>ServiceStack.Redis.IRedisClient,RemoveRangeFromSortedSet</token>
+<token>ServiceStack.Redis.IRedisClient,RemoveRangeFromSortedSet</token>
+</entry>
+<entry count="192">
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
+<token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisNativeClient,Get</token>
+</entry>
+<entry count="48">
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisNativeClient,HGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
+<token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
 </entry>
 <entry count="8">
 <token>ServiceStack.Redis.IRedisClient,ScanAllKeys</token>
 <token>ServiceStack.Redis.IRedisClient,GetAllItemsFromSet</token>
 </entry>
-<entry count="4">
+<entry count="128">
 <token>ServiceStack.Redis.RedisNativeClient,FlushDb</token>
 <token>ServiceStack.Redis.RedisClient,new</token>
 </entry>
@@ -1330,33 +2696,30 @@
 <token>ServiceStack.Redis.RedisClient,SetConfig</token>
 <token>ServiceStack.Redis.RedisClient,GetConfig</token>
 </entry>
-<entry count="24">
+<entry count="144">
 <token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
 <token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
 <token>ServiceStack.Redis.RedisClient,SearchKeys</token>
 </entry>
-<entry count="16">
+<entry count="32">
 <token>ServiceStack.Redis.IRedisClient,As</token>
 <token>ServiceStack.Redis.IRedisClient,CreateTransaction</token>
 <token>ServiceStack.Redis.IRedisClient,AddItemToSortedSet</token>
 <token>ServiceStack.Redis.IRedisClient,RemoveRangeFromSortedSet</token>
 <token>ServiceStack.Redis.IRedisTransaction,Commit</token>
 </entry>
-<entry count="1">
+<entry count="2">
 <token>ServiceStack.Redis.RedisClient,New</token>
 <token>ServiceStack.Redis.RedisClient,New</token>
-</entry>
-<entry count="32">
-<token>ServiceStack.Redis.RedisNativeClient,HGetAll</token>
-<token>ServiceStack.Redis.RedisClient,Remove</token>
 </entry>
 <entry count="4">
 <token>ServiceStack.Redis.IRedisClient,CreateTransaction</token>
 <token>ServiceStack.Redis.IRedisTransaction,Commit</token>
 </entry>
-<entry count="20">
-<token>ServiceStack.Redis.IRedisClient,GetAllItemsFromSet</token>
-<token>ServiceStack.Redis.IRedisClient,GetValues</token>
+<entry count="1024">
+<token>ServiceStack.Redis.RedisNativeClient,Get</token>
+<token>ServiceStack.Redis.RedisNativeClient,HGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,Get</token>
 </entry>
 <entry count="4">
 <token>ServiceStack.Redis.IRedisClientsManager,GetClient</token>
@@ -1364,110 +2727,124 @@
 <token>ServiceStack.Redis.IRedisClient,RemoveItemFromSet</token>
 <token>ServiceStack.Redis.IRedisTransaction,Commit</token>
 </entry>
-<entry count="1">
-<token>ServiceStack.Redis.RedisClient,New</token>
-<token>ServiceStack.Redis.RedisClient,PrependItemToList</token>
-<token>ServiceStack.Redis.RedisClient,New</token>
-<token>ServiceStack.Redis.RedisClient,BlockingDequeueItemFromLists</token>
+<entry count="876">
+<token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
 </entry>
 <entry count="1">
 <token>ServiceStack.Redis.PooledRedisClientManager,FailoverTo</token>
 <token>ServiceStack.Redis.RedisClient,Get</token>
 </entry>
-<entry count="96">
+<entry count="1">
+<token>ServiceStack.Redis.RedisClient,PrependItemToList</token>
+<token>ServiceStack.Redis.RedisClient,New</token>
+<token>ServiceStack.Redis.RedisClient,PrependItemToList</token>
+<token>ServiceStack.Redis.RedisClient,BlockingDequeueItemFromLists</token>
+</entry>
+<entry count="60">
+<token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisClient,Get</token>
+</entry>
+<entry count="384">
 <token>ServiceStack.Redis.RedisNativeClient,HLen</token>
 <token>ServiceStack.Redis.RedisNativeClient,HGetAll</token>
 </entry>
-<entry count="1">
-<token>ServiceStack.Redis.RedisClient,new</token>
-<token>ServiceStack.Redis.RedisClient,Remove</token>
-<token>ServiceStack.Redis.RedisClient,new</token>
-<token>ServiceStack.Redis.RedisClient,Remove</token>
+<entry count="192">
+<token>ServiceStack.Redis.RedisNativeClient,Get</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
+<token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
 </entry>
-<entry count="32">
-<token>ServiceStack.Redis.RedisNativeClient,HLen</token>
-<token>ServiceStack.Redis.RedisNativeClient,HLen</token>
+<entry count="48">
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
+<token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,HGet</token>
+</entry>
+<entry count="64">
 <token>ServiceStack.Redis.RedisNativeClient,Rename</token>
-</entry>
-<entry count="1">
-<token>ServiceStack.Redis.RedisClient,New</token>
-<token>ServiceStack.Redis.RedisClient,PrependItemToList</token>
-<token>ServiceStack.Redis.RedisClient,New</token>
-</entry>
-<entry count="16">
 <token>ServiceStack.Redis.RedisClient,ContainsKey</token>
-<token>ServiceStack.Redis.RedisNativeClient,Rename</token>
 </entry>
 <entry count="1">
 <token>ServiceStack.Redis.IRedisClient,AddItemToList</token>
 <token>ServiceStack.Redis.IRedisClient,SearchKeys</token>
 <token>ServiceStack.Redis.IRedisClient,SearchKeys</token>
 </entry>
-<entry count="24">
+<entry count="72">
 <token>ServiceStack.Redis.RedisNativeClient,HLen</token>
 <token>ServiceStack.Redis.RedisNativeClient,HLen</token>
 <token>ServiceStack.Redis.RedisNativeClient,HGetAll</token>
 <token>ServiceStack.Redis.RedisClient,Remove</token>
 </entry>
-<entry count="36">
+<entry count="300">
 <token>ServiceStack.Redis.RedisNativeClient,HLen</token>
 <token>ServiceStack.Redis.RedisNativeClient,HLen</token>
 <token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
 </entry>
-<entry count="12">
+<entry count="252">
+<token>ServiceStack.Redis.IRedisClient,CreateTransaction</token>
+<token>ServiceStack.Redis.IRedisClient,RemoveItemFromSet</token>
+<token>ServiceStack.Redis.IRedisClient,RemoveItemFromSortedSet</token>
+<token>ServiceStack.Redis.IRedisClient,RemoveItemFromSet</token>
+<token>ServiceStack.Redis.IRedisClient,RemoveItemFromSet</token>
+</entry>
+<entry count="36">
 <token>ServiceStack.Redis.RedisNativeClient,Rename</token>
 <token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
 <token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
 <token>ServiceStack.Redis.RedisClient,SearchKeys</token>
 </entry>
-<entry count="12">
-<token>ServiceStack.Redis.IRedisClientsManager,GetClient</token>
-<token>ServiceStack.Redis.IRedisClient,GetAllItemsFromSet</token>
-<token>ServiceStack.Redis.IRedisClient,GetValues</token>
+<entry count="48">
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
+<token>ServiceStack.Redis.RedisClient,ContainsKey</token>
+<token>ServiceStack.Redis.RedisClient,Remove</token>
 </entry>
-<entry count="16">
+<entry count="48">
 <token>ServiceStack.Redis.IRedisClient,RemoveRangeFromSortedSet</token>
 <token>ServiceStack.Redis.IRedisTransaction,Commit</token>
 </entry>
-<entry count="12">
-<token>ServiceStack.Redis.IRedisClientsManager,GetClient</token>
-<token>ServiceStack.Redis.IRedisClient,GetAllItemsFromSet</token>
+<entry count="32">
+<token>ServiceStack.Redis.RedisNativeClient,HLen</token>
+<token>ServiceStack.Redis.RedisNativeClient,Rename</token>
+<token>ServiceStack.Redis.RedisNativeClient,HLen</token>
+<token>ServiceStack.Redis.RedisNativeClient,Rename</token>
+<token>ServiceStack.Redis.RedisNativeClient,HGetAll</token>
 </entry>
 <entry count="1">
 <token>ServiceStack.Redis.RedisClient,Remove</token>
 <token>ServiceStack.Redis.PooledRedisClientManager,new</token>
 </entry>
-<entry count="4">
+<entry count="128">
 <token>ServiceStack.Redis.RedisNativeClient,FlushDb</token>
 <token>ServiceStack.Redis.RedisClient,new</token>
 <token>ServiceStack.Redis.RedisNativeClient,FlushDb</token>
 <token>ServiceStack.Redis.PooledRedisClientManager,new</token>
 </entry>
-<entry count="16">
-<token>ServiceStack.Redis.IRedisClientsManager,GetClient</token>
-<token>ServiceStack.Redis.IRedisClient,As</token>
-<token>ServiceStack.Redis.IRedisClient,CreateTransaction</token>
-<token>ServiceStack.Redis.IRedisClient,AddItemToSortedSet</token>
-<token>ServiceStack.Redis.IRedisTransaction,Commit</token>
-</entry>
-<entry count="20">
-<token>ServiceStack.Redis.IRedisClient,AddItemToSet</token>
-<token>ServiceStack.Redis.IRedisTransaction,Commit</token>
-</entry>
-<entry count="4">
+<entry count="128">
 <token>ServiceStack.Redis.RedisClient,GetListCount</token>
 <token>ServiceStack.Redis.RedisClient,GetListCount</token>
 <token>ServiceStack.Redis.RedisClient,GetListCount</token>
 <token>ServiceStack.Redis.RedisClient,GetListCount</token>
 </entry>
-<entry count="16">
-<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
-<token>ServiceStack.Redis.RedisNativeClient,ZRemRangeByRank</token>
+<entry count="192">
+<token>ServiceStack.Redis.RedisNativeClient,HGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
+<token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,HKeys</token>
 </entry>
-<entry count="12">
+<entry count="420">
 <token>ServiceStack.Redis.IRedisClient,RemoveItemFromSortedSet</token>
 <token>ServiceStack.Redis.IRedisClient,RemoveItemFromSet</token>
 <token>ServiceStack.Redis.IRedisClient,RemoveItemFromSet</token>
+</entry>
+<entry count="16">
+<token>ServiceStack.Redis.IRedisClient,CreateTransaction</token>
+<token>ServiceStack.Redis.IRedisClient,AddItemToSortedSet</token>
+<token>ServiceStack.Redis.IRedisClient,RemoveRangeFromSortedSet</token>
+<token>ServiceStack.Redis.IRedisClient,RemoveRangeFromSortedSet</token>
+<token>ServiceStack.Redis.IRedisTransaction,Commit</token>
 </entry>
 <entry count="16">
 <token>ServiceStack.Redis.IRedisClient,AddItemToSortedSet</token>
@@ -1477,18 +2854,14 @@
 <token>ServiceStack.Redis.RedisManagerPool,new</token>
 <token>ServiceStack.Redis.BasicRedisClientManager,new</token>
 </entry>
-<entry count="24">
+<entry count="120">
 <token>ServiceStack.Redis.RedisNativeClient,HLen</token>
 <token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
 <token>ServiceStack.Redis.RedisClient,ContainsKey</token>
 </entry>
-<entry count="12">
+<entry count="48">
+<token>ServiceStack.Redis.RedisNativeClient,HMGet</token>
+<token>ServiceStack.Redis.RedisNativeClient,HGet</token>
 <token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
-<token>ServiceStack.Redis.RedisClient,ContainsKey</token>
-<token>ServiceStack.Redis.RedisNativeClient,ZRange</token>
-</entry>
-<entry count="20">
-<token>ServiceStack.Redis.IRedisClient,CreateTransaction</token>
-<token>ServiceStack.Redis.IRedisClient,RemoveItemFromSortedSet</token>
 </entry>
 </dictionary>

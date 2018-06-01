@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><dictionary case_sensitive="false">
-<entry count="16">
+<entry count="28">
 <token>Microsoft.WindowsAzure.Storage.CloudStorageAccount,Parse</token>
 <token>Microsoft.WindowsAzure.Storage.CloudStorageAccount,CreateCloudTableClient</token>
 </entry>
@@ -21,16 +21,16 @@
 <token>Microsoft.WindowsAzure.Storage.CloudStorageAccount,TryParse</token>
 <token>Microsoft.WindowsAzure.Storage.CloudStorageAccount,CreateCloudTableClient</token>
 </entry>
-<entry count="48">
+<entry count="384">
 <token>Microsoft.WindowsAzure.Storage.CloudStorageAccount,CreateCloudBlobClient</token>
 <token>Microsoft.WindowsAzure.Storage.CloudStorageAccount,CreateCloudBlobClient</token>
 </entry>
-<entry count="16">
+<entry count="512">
 <token>Microsoft.WindowsAzure.Storage.CloudStorageAccount,CreateCloudQueueClient</token>
 <token>Microsoft.WindowsAzure.Storage.CloudStorageAccount,CreateCloudQueueClient</token>
 <token>Microsoft.WindowsAzure.Storage.CloudStorageAccount,CreateCloudQueueClient</token>
 </entry>
-<entry count="13">
+<entry count="15">
 <token>Microsoft.WindowsAzure.Storage.CloudStorageAccount,Parse</token>
 <token>Microsoft.WindowsAzure.Storage.CloudStorageAccount,CreateCloudQueueClient</token>
 </entry>
@@ -46,11 +46,11 @@
 <token>Microsoft.WindowsAzure.Storage.AccessCondition,new</token>
 <token>Microsoft.WindowsAzure.Storage.AccessCondition,new</token>
 </entry>
-<entry count="1">
+<entry count="63">
 <token>Microsoft.WindowsAzure.Storage.CloudStorageAccount,ToString</token>
 <token>Microsoft.WindowsAzure.Storage.CloudStorageAccount,ToString</token>
 </entry>
-<entry count="24">
+<entry count="576">
 <token>Microsoft.WindowsAzure.Storage.CloudStorageAccount,CreateCloudTableClient</token>
 <token>Microsoft.WindowsAzure.Storage.CloudStorageAccount,CreateCloudTableClient</token>
 <token>Microsoft.WindowsAzure.Storage.CloudStorageAccount,CreateCloudTableClient</token>
@@ -59,10 +59,15 @@
 <token>Microsoft.WindowsAzure.Storage.StorageException,new</token>
 <token>Microsoft.WindowsAzure.Storage.RequestResult,new</token>
 </entry>
-<entry count="24">
+<entry count="192">
 <token>Microsoft.WindowsAzure.Storage.CloudStorageAccount,CreateCloudBlobClient</token>
 <token>Microsoft.WindowsAzure.Storage.CloudStorageAccount,CreateCloudBlobClient</token>
 <token>Microsoft.WindowsAzure.Storage.CloudStorageAccount,CreateCloudBlobClient</token>
+</entry>
+<entry count="1">
+<token>Microsoft.WindowsAzure.Storage.CloudStorageAccount,ToString</token>
+<token>Microsoft.WindowsAzure.Storage.CloudStorageAccount,ToString</token>
+<token>Microsoft.WindowsAzure.Storage.CloudStorageAccount,ToString</token>
 </entry>
 <entry count="2">
 <token>Microsoft.WindowsAzure.Storage.CloudStorageAccount,TryParse</token>
@@ -83,11 +88,11 @@
 <token>Microsoft.WindowsAzure.Storage.RequestResult,new</token>
 <token>Microsoft.WindowsAzure.Storage.StorageException,new</token>
 </entry>
-<entry count="32">
+<entry count="1024">
 <token>Microsoft.WindowsAzure.Storage.CloudStorageAccount,CreateCloudQueueClient</token>
 <token>Microsoft.WindowsAzure.Storage.CloudStorageAccount,CreateCloudQueueClient</token>
 </entry>
-<entry count="54">
+<entry count="198">
 <token>Microsoft.WindowsAzure.Storage.CloudStorageAccount,TryParse</token>
 <token>Microsoft.WindowsAzure.Storage.CloudStorageAccount,CreateCloudBlobClient</token>
 </entry>
@@ -101,15 +106,35 @@
 </entry>
 <entry count="2">
 <token>Microsoft.WindowsAzure.Storage.CloudStorageAccount,Parse</token>
+<token>Microsoft.WindowsAzure.Storage.CloudStorageAccount,Parse</token>
+<token>Microsoft.WindowsAzure.Storage.CloudStorageAccount,Parse</token>
+<token>Microsoft.WindowsAzure.Storage.CloudStorageAccount,CreateCloudTableClient</token>
+</entry>
+<entry count="2">
+<token>Microsoft.WindowsAzure.Storage.CloudStorageAccount,Parse</token>
 <token>Microsoft.WindowsAzure.Storage.CloudStorageAccount,CreateCloudBlobClient</token>
 <token>Microsoft.WindowsAzure.Storage.CloudStorageAccount,CreateCloudTableClient</token>
 </entry>
-<entry count="48">
+<entry count="1152">
 <token>Microsoft.WindowsAzure.Storage.CloudStorageAccount,CreateCloudTableClient</token>
 <token>Microsoft.WindowsAzure.Storage.CloudStorageAccount,CreateCloudTableClient</token>
 </entry>
 <entry count="1">
 <token>Microsoft.WindowsAzure.Storage.CloudStorageAccount,Parse</token>
 <token>Microsoft.WindowsAzure.Storage.CloudStorageAccount,CreateCloudFileClient</token>
+</entry>
+<entry count="2">
+<token>Microsoft.WindowsAzure.Storage.CloudStorageAccount,Parse</token>
+<token>Microsoft.WindowsAzure.Storage.CloudStorageAccount,Parse</token>
+<token>Microsoft.WindowsAzure.Storage.CloudStorageAccount,Parse</token>
+</entry>
+<entry count="10">
+<token>Microsoft.WindowsAzure.Storage.CloudStorageAccount,Parse</token>
+<token>Microsoft.WindowsAzure.Storage.CloudStorageAccount,Parse</token>
+</entry>
+<entry count="8">
+<token>Microsoft.WindowsAzure.Storage.CloudStorageAccount,Parse</token>
+<token>Microsoft.WindowsAzure.Storage.CloudStorageAccount,Parse</token>
+<token>Microsoft.WindowsAzure.Storage.CloudStorageAccount,CreateCloudTableClient</token>
 </entry>
 </dictionary>

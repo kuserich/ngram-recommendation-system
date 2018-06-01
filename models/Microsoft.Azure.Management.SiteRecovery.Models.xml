@@ -4,35 +4,22 @@
 <token>Microsoft.Azure.Management.SiteRecovery.Models.ReplicationProviderContainerUnmappingInput,new</token>
 <token>Microsoft.Azure.Management.SiteRecovery.Models.RemoveProtectionContainerMappingInput,new</token>
 </entry>
+<entry count="16896">
+<token>Microsoft.Azure.Management.SiteRecovery.Models.HyperVReplica2012R2PolicyInput,new</token>
+<token>Microsoft.Azure.Management.SiteRecovery.Models.CreatePolicyInputProperties,new</token>
+<token>Microsoft.Azure.Management.SiteRecovery.Models.CreatePolicyInput,new</token>
+</entry>
 <entry count="2">
 <token>Microsoft.Azure.Management.SiteRecovery.Models.DisableProtectionInput,new</token>
 <token>Microsoft.Azure.Management.SiteRecovery.Models.DisableProtectionInputProperties,new</token>
 </entry>
-<entry count="96">
-<token>Microsoft.Azure.Management.SiteRecovery.Models.EnableProtectionInput,new</token>
-<token>Microsoft.Azure.Management.SiteRecovery.Models.HyperVReplicaAzureEnableProtectionInput,new</token>
-</entry>
-<entry count="64">
-<token>Microsoft.Azure.Management.SiteRecovery.Models.CreatePolicyInputProperties,new</token>
-<token>Microsoft.Azure.Management.SiteRecovery.Models.HyperVReplica2012PolicyInput,new</token>
-<token>Microsoft.Azure.Management.SiteRecovery.Models.CreatePolicyInput,new</token>
-</entry>
-<entry count="8">
-<token>Microsoft.Azure.Management.SiteRecovery.Models.HyperVReplicaAzurePolicyInput,new</token>
-<token>Microsoft.Azure.Management.SiteRecovery.Models.CreatePolicyInputProperties,new</token>
-</entry>
-<entry count="104">
+<entry count="56448">
 <token>Microsoft.Azure.Management.SiteRecovery.Models.EnableProtectionProviderSpecificInput,new</token>
 <token>Microsoft.Azure.Management.SiteRecovery.Models.EnableProtectionInputProperties,new</token>
 </entry>
 <entry count="4">
 <token>Microsoft.Azure.Management.SiteRecovery.Models.ProviderSpecificFailoverInput,new</token>
 <token>Microsoft.Azure.Management.SiteRecovery.Models.PlannedFailoverInput,new</token>
-</entry>
-<entry count="4">
-<token>Microsoft.Azure.Management.SiteRecovery.Models.TestFailoverInputProperties,new</token>
-<token>Microsoft.Azure.Management.SiteRecovery.Models.ProviderSpecificFailoverInput,new</token>
-<token>Microsoft.Azure.Management.SiteRecovery.Models.TestFailoverInput,new</token>
 </entry>
 <entry count="4">
 <token>Microsoft.Azure.Management.SiteRecovery.Models.ReverseReplicationInputProperties,new</token>
@@ -42,20 +29,147 @@
 <token>Microsoft.Azure.Management.SiteRecovery.Models.UnplannedFailoverInputProperties,new</token>
 <token>Microsoft.Azure.Management.SiteRecovery.Models.ProviderSpecificFailoverInput,new</token>
 </entry>
-<entry count="64">
-<token>Microsoft.Azure.Management.SiteRecovery.Models.CreatePolicyInputProperties,new</token>
-<token>Microsoft.Azure.Management.SiteRecovery.Models.HyperVReplica2012PolicyInput,new</token>
-</entry>
 <entry count="2">
 <token>Microsoft.Azure.Management.SiteRecovery.Models.CreateProtectionContainerMappingInputProperties,new</token>
 <token>Microsoft.Azure.Management.SiteRecovery.Models.ReplicationProviderContainerMappingInput,new</token>
 <token>Microsoft.Azure.Management.SiteRecovery.Models.CreateProtectionContainerMappingInput,new</token>
 </entry>
-<entry count="96">
+<entry count="54432">
 <token>Microsoft.Azure.Management.SiteRecovery.Models.EnableProtectionProviderSpecificInput,new</token>
 <token>Microsoft.Azure.Management.SiteRecovery.Models.EnableProtectionInputProperties,new</token>
 <token>Microsoft.Azure.Management.SiteRecovery.Models.EnableProtectionInput,new</token>
 <token>Microsoft.Azure.Management.SiteRecovery.Models.HyperVReplicaAzureEnableProtectionInput,new</token>
+</entry>
+<entry count="8192">
+<token>Microsoft.Azure.Management.SiteRecovery.Models.HyperVReplica2012R2PolicyInput,new</token>
+<token>Microsoft.Azure.Management.SiteRecovery.Models.HyperVReplica2012R2PolicyInput,new</token>
+<token>Microsoft.Azure.Management.SiteRecovery.Models.CreatePolicyInputProperties,new</token>
+<token>Microsoft.Azure.Management.SiteRecovery.Models.CreatePolicyInput,new</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Azure.Management.SiteRecovery.Models.FabricCreationInputProperties,new</token>
+<token>Microsoft.Azure.Management.SiteRecovery.Models.FabricCreationInput,new</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Azure.Management.SiteRecovery.Models.RemoveProtectionContainerMappingInputProperties,new</token>
+<token>Microsoft.Azure.Management.SiteRecovery.Models.ReplicationProviderContainerUnmappingInput,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Azure.Management.SiteRecovery.Models.DisableProtectionInput,new</token>
+<token>Microsoft.Azure.Management.SiteRecovery.Models.DisableProtectionInputProperties,new</token>
+<token>Microsoft.Azure.Management.SiteRecovery.Models.DisableProtectionProviderSpecificInput,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Azure.Management.SiteRecovery.Models.RecoveryServicesProviderDeletionInput,new</token>
+<token>Microsoft.Azure.Management.SiteRecovery.Models.RecoveryServicesProviderDeletionInputProperties,new</token>
+<token>Microsoft.Azure.Management.SiteRecovery.Models.RecoveryServicesProviderDeletionInput,new</token>
+</entry>
+<entry count="54432">
+<token>Microsoft.Azure.Management.SiteRecovery.Models.HyperVReplicaAzureEnableProtectionInput,new</token>
+<token>Microsoft.Azure.Management.SiteRecovery.Models.EnableProtectionProviderSpecificInput,new</token>
+<token>Microsoft.Azure.Management.SiteRecovery.Models.EnableProtectionInputProperties,new</token>
+<token>Microsoft.Azure.Management.SiteRecovery.Models.EnableProtectionInput,new</token>
+</entry>
+<entry count="8192">
+<token>Microsoft.Azure.Management.SiteRecovery.Models.HyperVReplica2012PolicyInput,new</token>
+<token>Microsoft.Azure.Management.SiteRecovery.Models.HyperVReplica2012R2PolicyInput,new</token>
+<token>Microsoft.Azure.Management.SiteRecovery.Models.CreatePolicyInputProperties,new</token>
+<token>Microsoft.Azure.Management.SiteRecovery.Models.CreatePolicyInput,new</token>
+</entry>
+<entry count="56448">
+<token>Microsoft.Azure.Management.SiteRecovery.Models.EnableProtectionInputProperties,new</token>
+<token>Microsoft.Azure.Management.SiteRecovery.Models.EnableProtectionInput,new</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Azure.Management.SiteRecovery.Models.PlannedFailoverInputProperties,new</token>
+<token>Microsoft.Azure.Management.SiteRecovery.Models.ProviderSpecificFailoverInput,new</token>
+<token>Microsoft.Azure.Management.SiteRecovery.Models.PlannedFailoverInput,new</token>
+</entry>
+<entry count="8">
+<token>Microsoft.Azure.Management.SiteRecovery.Models.HyperVReplicaAzurePolicyInput,new</token>
+<token>Microsoft.Azure.Management.SiteRecovery.Models.CreatePolicyInputProperties,new</token>
+<token>Microsoft.Azure.Management.SiteRecovery.Models.CreatePolicyInput,new</token>
+</entry>
+<entry count="8192">
+<token>Microsoft.Azure.Management.SiteRecovery.Models.HyperVReplica2012PolicyInput,new</token>
+<token>Microsoft.Azure.Management.SiteRecovery.Models.HyperVReplica2012PolicyInput,new</token>
+<token>Microsoft.Azure.Management.SiteRecovery.Models.CreatePolicyInputProperties,new</token>
+<token>Microsoft.Azure.Management.SiteRecovery.Models.CreatePolicyInput,new</token>
+</entry>
+<entry count="8192">
+<token>Microsoft.Azure.Management.SiteRecovery.Models.HyperVReplica2012PolicyInput,new</token>
+<token>Microsoft.Azure.Management.SiteRecovery.Models.HyperVReplica2012PolicyInput,new</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Azure.Management.SiteRecovery.Models.ReverseReplicationProviderSpecificInput,new</token>
+<token>Microsoft.Azure.Management.SiteRecovery.Models.ReverseReplicationInput,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Azure.Management.SiteRecovery.Models.RecoveryServicesProviderDeletionInput,new</token>
+<token>Microsoft.Azure.Management.SiteRecovery.Models.RecoveryServicesProviderDeletionInputProperties,new</token>
+<token>Microsoft.Azure.Management.SiteRecovery.Models.RecoveryServicesProviderDeletionInput,new</token>
+<token>Microsoft.Azure.Management.SiteRecovery.Models.RecoveryServicesProviderDeletionInputProperties,new</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Azure.Management.SiteRecovery.Models.ReverseReplicationInputProperties,new</token>
+<token>Microsoft.Azure.Management.SiteRecovery.Models.ReverseReplicationProviderSpecificInput,new</token>
+<token>Microsoft.Azure.Management.SiteRecovery.Models.ReverseReplicationInput,new</token>
+</entry>
+<entry count="186624">
+<token>Microsoft.Azure.Management.SiteRecovery.Models.UpdateReplicationProtectedItemInputProperties,new</token>
+<token>Microsoft.Azure.Management.SiteRecovery.Models.UpdateReplicationProtectedItemInput,new</token>
+</entry>
+<entry count="52488">
+<token>Microsoft.Azure.Management.SiteRecovery.Models.HyperVReplicaAzureEnableProtectionInput,new</token>
+<token>Microsoft.Azure.Management.SiteRecovery.Models.EnableProtectionProviderSpecificInput,new</token>
+<token>Microsoft.Azure.Management.SiteRecovery.Models.EnableProtectionInputProperties,new</token>
+<token>Microsoft.Azure.Management.SiteRecovery.Models.EnableProtectionInput,new</token>
+<token>Microsoft.Azure.Management.SiteRecovery.Models.HyperVReplicaAzureEnableProtectionInput,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Azure.Management.SiteRecovery.Models.FabricDeletionInput,new</token>
+<token>Microsoft.Azure.Management.SiteRecovery.Models.FabricDeletionInputProperties,new</token>
+</entry>
+<entry count="8192">
+<token>Microsoft.Azure.Management.SiteRecovery.Models.HyperVReplica2012R2PolicyInput,new</token>
+<token>Microsoft.Azure.Management.SiteRecovery.Models.HyperVReplica2012R2PolicyInput,new</token>
+<token>Microsoft.Azure.Management.SiteRecovery.Models.CreatePolicyInputProperties,new</token>
+</entry>
+<entry count="8192">
+<token>Microsoft.Azure.Management.SiteRecovery.Models.HyperVReplica2012PolicyInput,new</token>
+<token>Microsoft.Azure.Management.SiteRecovery.Models.HyperVReplica2012R2PolicyInput,new</token>
+</entry>
+<entry count="54432">
+<token>Microsoft.Azure.Management.SiteRecovery.Models.EnableProtectionInput,new</token>
+<token>Microsoft.Azure.Management.SiteRecovery.Models.HyperVReplicaAzureEnableProtectionInput,new</token>
+</entry>
+<entry count="8">
+<token>Microsoft.Azure.Management.SiteRecovery.Models.HyperVReplicaAzurePolicyInput,new</token>
+<token>Microsoft.Azure.Management.SiteRecovery.Models.CreatePolicyInputProperties,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Azure.Management.SiteRecovery.Models.RecoveryServicesProviderDeletionInputProperties,new</token>
+<token>Microsoft.Azure.Management.SiteRecovery.Models.RecoveryServicesProviderDeletionInput,new</token>
+<token>Microsoft.Azure.Management.SiteRecovery.Models.RecoveryServicesProviderDeletionInputProperties,new</token>
+</entry>
+<entry count="8192">
+<token>Microsoft.Azure.Management.SiteRecovery.Models.HyperVReplica2012PolicyInput,new</token>
+<token>Microsoft.Azure.Management.SiteRecovery.Models.HyperVReplica2012PolicyInput,new</token>
+<token>Microsoft.Azure.Management.SiteRecovery.Models.CreatePolicyInputProperties,new</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Azure.Management.SiteRecovery.Models.TestFailoverInputProperties,new</token>
+<token>Microsoft.Azure.Management.SiteRecovery.Models.ProviderSpecificFailoverInput,new</token>
+<token>Microsoft.Azure.Management.SiteRecovery.Models.TestFailoverInput,new</token>
+</entry>
+<entry count="8192">
+<token>Microsoft.Azure.Management.SiteRecovery.Models.HyperVReplica2012R2PolicyInput,new</token>
+<token>Microsoft.Azure.Management.SiteRecovery.Models.HyperVReplica2012R2PolicyInput,new</token>
+</entry>
+<entry count="54432">
+<token>Microsoft.Azure.Management.SiteRecovery.Models.HyperVReplicaAzureEnableProtectionInput,new</token>
+<token>Microsoft.Azure.Management.SiteRecovery.Models.EnableProtectionProviderSpecificInput,new</token>
+<token>Microsoft.Azure.Management.SiteRecovery.Models.EnableProtectionInputProperties,new</token>
 </entry>
 <entry count="2">
 <token>Microsoft.Azure.Management.SiteRecovery.Models.DisableProtectionInputProperties,new</token>
@@ -65,31 +179,36 @@
 <token>Microsoft.Azure.Management.SiteRecovery.Models.ReplicationProviderContainerMappingInput,new</token>
 <token>Microsoft.Azure.Management.SiteRecovery.Models.CreateProtectionContainerMappingInput,new</token>
 </entry>
+<entry count="8192">
+<token>Microsoft.Azure.Management.SiteRecovery.Models.HyperVReplica2012PolicyInput,new</token>
+<token>Microsoft.Azure.Management.SiteRecovery.Models.HyperVReplica2012R2PolicyInput,new</token>
+<token>Microsoft.Azure.Management.SiteRecovery.Models.CreatePolicyInputProperties,new</token>
+</entry>
+<entry count="16896">
+<token>Microsoft.Azure.Management.SiteRecovery.Models.HyperVReplica2012R2PolicyInput,new</token>
+<token>Microsoft.Azure.Management.SiteRecovery.Models.CreatePolicyInputProperties,new</token>
+</entry>
 <entry count="8">
 <token>Microsoft.Azure.Management.SiteRecovery.Models.UnplannedFailoverInputProperties,new</token>
 <token>Microsoft.Azure.Management.SiteRecovery.Models.ProviderSpecificFailoverInput,new</token>
 <token>Microsoft.Azure.Management.SiteRecovery.Models.UnplannedFailoverInput,new</token>
 </entry>
-<entry count="96">
+<entry count="16896">
+<token>Microsoft.Azure.Management.SiteRecovery.Models.HyperVReplica2012PolicyInput,new</token>
+<token>Microsoft.Azure.Management.SiteRecovery.Models.CreatePolicyInputProperties,new</token>
+</entry>
+<entry count="54432">
 <token>Microsoft.Azure.Management.SiteRecovery.Models.EnableProtectionInputProperties,new</token>
 <token>Microsoft.Azure.Management.SiteRecovery.Models.EnableProtectionInput,new</token>
 <token>Microsoft.Azure.Management.SiteRecovery.Models.HyperVReplicaAzureEnableProtectionInput,new</token>
 </entry>
 <entry count="4">
-<token>Microsoft.Azure.Management.SiteRecovery.Models.FabricCreationInputProperties,new</token>
-<token>Microsoft.Azure.Management.SiteRecovery.Models.FabricCreationInput,new</token>
-</entry>
-<entry count="4">
 <token>Microsoft.Azure.Management.SiteRecovery.Models.PlannedFailoverInputProperties,new</token>
 <token>Microsoft.Azure.Management.SiteRecovery.Models.ProviderSpecificFailoverInput,new</token>
 </entry>
-<entry count="4">
-<token>Microsoft.Azure.Management.SiteRecovery.Models.RemoveProtectionContainerMappingInputProperties,new</token>
-<token>Microsoft.Azure.Management.SiteRecovery.Models.ReplicationProviderContainerUnmappingInput,new</token>
-</entry>
-<entry count="64">
-<token>Microsoft.Azure.Management.SiteRecovery.Models.HyperVReplica2012R2PolicyInput,new</token>
-<token>Microsoft.Azure.Management.SiteRecovery.Models.CreatePolicyInput,new</token>
+<entry count="54432">
+<token>Microsoft.Azure.Management.SiteRecovery.Models.HyperVReplicaAzureEnableProtectionInput,new</token>
+<token>Microsoft.Azure.Management.SiteRecovery.Models.EnableProtectionProviderSpecificInput,new</token>
 </entry>
 <entry count="4">
 <token>Microsoft.Azure.Management.SiteRecovery.Models.TestFailoverInputProperties,new</token>
@@ -99,12 +218,7 @@
 <token>Microsoft.Azure.Management.SiteRecovery.Models.ProviderSpecificFailoverInput,new</token>
 <token>Microsoft.Azure.Management.SiteRecovery.Models.TestFailoverInput,new</token>
 </entry>
-<entry count="2">
-<token>Microsoft.Azure.Management.SiteRecovery.Models.DisableProtectionInput,new</token>
-<token>Microsoft.Azure.Management.SiteRecovery.Models.DisableProtectionInputProperties,new</token>
-<token>Microsoft.Azure.Management.SiteRecovery.Models.DisableProtectionProviderSpecificInput,new</token>
-</entry>
-<entry count="8">
+<entry count="33808">
 <token>Microsoft.Azure.Management.SiteRecovery.Models.CreatePolicyInputProperties,new</token>
 <token>Microsoft.Azure.Management.SiteRecovery.Models.CreatePolicyInput,new</token>
 </entry>
@@ -116,65 +230,45 @@
 <token>Microsoft.Azure.Management.SiteRecovery.Models.ProviderSpecificFailoverInput,new</token>
 <token>Microsoft.Azure.Management.SiteRecovery.Models.UnplannedFailoverInput,new</token>
 </entry>
-<entry count="104">
-<token>Microsoft.Azure.Management.SiteRecovery.Models.EnableProtectionInputProperties,new</token>
-<token>Microsoft.Azure.Management.SiteRecovery.Models.EnableProtectionInput,new</token>
-</entry>
-<entry count="4">
-<token>Microsoft.Azure.Management.SiteRecovery.Models.PlannedFailoverInputProperties,new</token>
-<token>Microsoft.Azure.Management.SiteRecovery.Models.ProviderSpecificFailoverInput,new</token>
-<token>Microsoft.Azure.Management.SiteRecovery.Models.PlannedFailoverInput,new</token>
-</entry>
 <entry count="2">
 <token>Microsoft.Azure.Management.SiteRecovery.Models.CreateProtectionContainerMappingInputProperties,new</token>
 <token>Microsoft.Azure.Management.SiteRecovery.Models.ReplicationProviderContainerMappingInput,new</token>
 </entry>
-<entry count="8">
-<token>Microsoft.Azure.Management.SiteRecovery.Models.HyperVReplicaAzurePolicyInput,new</token>
+<entry count="16896">
+<token>Microsoft.Azure.Management.SiteRecovery.Models.HyperVReplica2012PolicyInput,new</token>
 <token>Microsoft.Azure.Management.SiteRecovery.Models.CreatePolicyInputProperties,new</token>
 <token>Microsoft.Azure.Management.SiteRecovery.Models.CreatePolicyInput,new</token>
 </entry>
-<entry count="64">
-<token>Microsoft.Azure.Management.SiteRecovery.Models.CreatePolicyInputProperties,new</token>
+<entry count="2">
+<token>Microsoft.Azure.Management.SiteRecovery.Models.RecoveryServicesProviderDeletionInputProperties,new</token>
+<token>Microsoft.Azure.Management.SiteRecovery.Models.RecoveryServicesProviderDeletionInput,new</token>
+</entry>
+<entry count="8192">
 <token>Microsoft.Azure.Management.SiteRecovery.Models.HyperVReplica2012R2PolicyInput,new</token>
-<token>Microsoft.Azure.Management.SiteRecovery.Models.CreatePolicyInput,new</token>
+<token>Microsoft.Azure.Management.SiteRecovery.Models.HyperVReplica2012PolicyInput,new</token>
+<token>Microsoft.Azure.Management.SiteRecovery.Models.CreatePolicyInputProperties,new</token>
 </entry>
-<entry count="4">
-<token>Microsoft.Azure.Management.SiteRecovery.Models.ReverseReplicationProviderSpecificInput,new</token>
-<token>Microsoft.Azure.Management.SiteRecovery.Models.ReverseReplicationInput,new</token>
-</entry>
-<entry count="104">
+<entry count="56448">
 <token>Microsoft.Azure.Management.SiteRecovery.Models.EnableProtectionProviderSpecificInput,new</token>
 <token>Microsoft.Azure.Management.SiteRecovery.Models.EnableProtectionInputProperties,new</token>
 <token>Microsoft.Azure.Management.SiteRecovery.Models.EnableProtectionInput,new</token>
-</entry>
-<entry count="64">
-<token>Microsoft.Azure.Management.SiteRecovery.Models.CreatePolicyInputProperties,new</token>
-<token>Microsoft.Azure.Management.SiteRecovery.Models.HyperVReplica2012R2PolicyInput,new</token>
 </entry>
 <entry count="4">
 <token>Microsoft.Azure.Management.SiteRecovery.Models.ReplicationProviderContainerUnmappingInput,new</token>
 <token>Microsoft.Azure.Management.SiteRecovery.Models.RemoveProtectionContainerMappingInput,new</token>
 </entry>
-<entry count="2">
+<entry count="16">
 <token>Microsoft.Azure.Management.SiteRecovery.Models.RecoveryServicesProviderDeletionInput,new</token>
 <token>Microsoft.Azure.Management.SiteRecovery.Models.RecoveryServicesProviderDeletionInputProperties,new</token>
 </entry>
-<entry count="4">
-<token>Microsoft.Azure.Management.SiteRecovery.Models.ReverseReplicationInputProperties,new</token>
-<token>Microsoft.Azure.Management.SiteRecovery.Models.ReverseReplicationProviderSpecificInput,new</token>
-<token>Microsoft.Azure.Management.SiteRecovery.Models.ReverseReplicationInput,new</token>
-</entry>
-<entry count="32">
-<token>Microsoft.Azure.Management.SiteRecovery.Models.UpdateReplicationProtectedItemInputProperties,new</token>
-<token>Microsoft.Azure.Management.SiteRecovery.Models.UpdateReplicationProtectedItemInput,new</token>
-</entry>
-<entry count="64">
+<entry count="8192">
+<token>Microsoft.Azure.Management.SiteRecovery.Models.HyperVReplica2012R2PolicyInput,new</token>
 <token>Microsoft.Azure.Management.SiteRecovery.Models.HyperVReplica2012PolicyInput,new</token>
-<token>Microsoft.Azure.Management.SiteRecovery.Models.CreatePolicyInput,new</token>
 </entry>
-<entry count="2">
-<token>Microsoft.Azure.Management.SiteRecovery.Models.FabricDeletionInput,new</token>
-<token>Microsoft.Azure.Management.SiteRecovery.Models.FabricDeletionInputProperties,new</token>
+<entry count="8192">
+<token>Microsoft.Azure.Management.SiteRecovery.Models.HyperVReplica2012R2PolicyInput,new</token>
+<token>Microsoft.Azure.Management.SiteRecovery.Models.HyperVReplica2012PolicyInput,new</token>
+<token>Microsoft.Azure.Management.SiteRecovery.Models.CreatePolicyInputProperties,new</token>
+<token>Microsoft.Azure.Management.SiteRecovery.Models.CreatePolicyInput,new</token>
 </entry>
 </dictionary>

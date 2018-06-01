@@ -4,23 +4,23 @@
 <token>NLog.Logger,Info</token>
 <token>NLog.Logger,Info</token>
 </entry>
-<entry count="92">
+<entry count="6920">
 <token>NLog.Logger,Info</token>
 <token>NLog.Logger,Info</token>
 <token>NLog.Logger,Info</token>
 <token>NLog.Logger,Info</token>
 <token>NLog.Logger,Info</token>
 </entry>
-<entry count="24">
+<entry count="204">
 <token>NLog.Logger,Debug</token>
 <token>NLog.Logger,Trace</token>
 </entry>
-<entry count="64">
+<entry count="256">
 <token>NLog.LogManager,GetLogger</token>
 <token>NLog.Logger,Debug</token>
 <token>NLog.Logger,Debug</token>
 </entry>
-<entry count="2">
+<entry count="16">
 <token>NLog.Logger,Debug</token>
 <token>NLog.Logger,Trace</token>
 <token>NLog.Logger,Trace</token>
@@ -36,15 +36,15 @@
 <token>NLog.Logger,Info</token>
 <token>NLog.Logger,Error</token>
 </entry>
-<entry count="6">
+<entry count="18">
 <token>NLog.Logger,Error</token>
 <token>NLog.Logger,Info</token>
 </entry>
-<entry count="458">
+<entry count="52479">
 <token>NLog.Logger,Debug</token>
 <token>NLog.Logger,Debug</token>
 </entry>
-<entry count="4">
+<entry count="16">
 <token>NLog.Logger,Debug</token>
 <token>NLog.Logger,Error</token>
 <token>NLog.Logger,Info</token>
@@ -56,14 +56,14 @@
 <token>NLog.Logger,Info</token>
 <token>NLog.Logger,Error</token>
 </entry>
-<entry count="4">
+<entry count="16">
 <token>NLog.Logger,Error</token>
 <token>NLog.Logger,Info</token>
 <token>NLog.Logger,Info</token>
 <token>NLog.Logger,Info</token>
 <token>NLog.Logger,Info</token>
 </entry>
-<entry count="10">
+<entry count="110">
 <token>NLog.Logger,Debug</token>
 <token>NLog.Logger,Debug</token>
 <token>NLog.Logger,Trace</token>
@@ -76,19 +76,19 @@
 <token>NLog.Logger,Info</token>
 <token>NLog.Logger,Info</token>
 </entry>
-<entry count="4">
+<entry count="16">
 <token>NLog.Logger,Debug</token>
 <token>NLog.Logger,Info</token>
 <token>NLog.Logger,Info</token>
 <token>NLog.Logger,Info</token>
 <token>NLog.Logger,Info</token>
 </entry>
-<entry count="4">
+<entry count="8">
 <token>NLog.LogManager,GetCurrentClassLogger</token>
 <token>NLog.Logger,Info</token>
 <token>NLog.Logger,ErrorException</token>
 </entry>
-<entry count="10">
+<entry count="12">
 <token>NLog.Logger,Info</token>
 <token>NLog.Logger,Debug</token>
 <token>NLog.Logger,Debug</token>
@@ -119,6 +119,12 @@
 <token>NLog.Logger,Debug</token>
 <token>NLog.Logger,Debug</token>
 </entry>
+<entry count="40">
+<token>NLog.Logger,Debug</token>
+<token>NLog.Logger,Debug</token>
+<token>NLog.Logger,Debug</token>
+<token>NLog.Logger,Trace</token>
+</entry>
 <entry count="1">
 <token>NLog.Logger,Info</token>
 <token>NLog.Logger,Warn</token>
@@ -130,7 +136,12 @@
 <token>NLog.Logger,Debug</token>
 <token>NLog.Logger,Debug</token>
 </entry>
-<entry count="4">
+<entry count="6">
+<token>NLog.Logger,Warn</token>
+<token>NLog.Logger,Warn</token>
+<token>NLog.Logger,Warn</token>
+</entry>
+<entry count="16">
 <token>NLog.Logger,Error</token>
 <token>NLog.Logger,Info</token>
 <token>NLog.Logger,Info</token>
@@ -140,7 +151,7 @@
 <token>NLog.Logger,Debug</token>
 <token>NLog.Logger,Info</token>
 </entry>
-<entry count="16">
+<entry count="64">
 <token>NLog.LogFactory,new</token>
 <token>NLog.LogFactory,GetLogger</token>
 </entry>
@@ -154,7 +165,7 @@
 <token>NLog.Logger,Warn</token>
 <token>NLog.Logger,Info</token>
 </entry>
-<entry count="4">
+<entry count="8">
 <token>NLog.Logger,Info</token>
 <token>NLog.Logger,ErrorException</token>
 </entry>
@@ -173,7 +184,7 @@
 <token>NLog.Logger,Info</token>
 <token>NLog.Logger,Debug</token>
 </entry>
-<entry count="2">
+<entry count="8">
 <token>NLog.Logger,Info</token>
 <token>NLog.Logger,Debug</token>
 <token>NLog.Logger,Info</token>
@@ -185,13 +196,13 @@
 <token>NLog.Logger,Info</token>
 <token>NLog.Logger,Warn</token>
 </entry>
-<entry count="4">
+<entry count="16">
 <token>NLog.Logger,Error</token>
 <token>NLog.Logger,Info</token>
 <token>NLog.Logger,Info</token>
 <token>NLog.Logger,Info</token>
 </entry>
-<entry count="86">
+<entry count="1996">
 <token>NLog.Logger,Trace</token>
 <token>NLog.Logger,Debug</token>
 </entry>
@@ -199,11 +210,18 @@
 <token>NLog.Logger,Info</token>
 <token>NLog.Logger,Error</token>
 </entry>
+<entry count="40">
+<token>NLog.Logger,Debug</token>
+<token>NLog.Logger,Debug</token>
+<token>NLog.Logger,Debug</token>
+<token>NLog.Logger,Trace</token>
+<token>NLog.Logger,Debug</token>
+</entry>
 <entry count="1">
 <token>NLog.Logger,Info</token>
 <token>NLog.Logger,Fatal</token>
 </entry>
-<entry count="3">
+<entry count="5">
 <token>NLog.Logger,Info</token>
 <token>NLog.Logger,Debug</token>
 <token>NLog.Logger,Debug</token>
@@ -214,7 +232,7 @@
 <token>NLog.Logger,Warn</token>
 <token>NLog.Logger,Fatal</token>
 </entry>
-<entry count="3">
+<entry count="9">
 <token>NLog.Logger,Info</token>
 <token>NLog.Logger,Debug</token>
 <token>NLog.Logger,Info</token>
@@ -234,11 +252,11 @@
 <token>NLog.Logger,Warn</token>
 <token>NLog.Logger,Warn</token>
 </entry>
-<entry count="34">
+<entry count="48">
 <token>NLog.Logger,Info</token>
 <token>NLog.Logger,Debug</token>
 </entry>
-<entry count="65">
+<entry count="260">
 <token>NLog.Logger,Debug</token>
 <token>NLog.Logger,Debug</token>
 <token>NLog.Logger,Error</token>
@@ -260,13 +278,26 @@
 <token>NLog.Logger,Info</token>
 <token>NLog.Logger,Debug</token>
 </entry>
+<entry count="5">
+<token>NLog.Logger,Debug</token>
+<token>NLog.Logger,Debug</token>
+<token>NLog.Logger,Trace</token>
+<token>NLog.Logger,Trace</token>
+<token>NLog.Logger,Debug</token>
+</entry>
+<entry count="4">
+<token>NLog.Logger,Trace</token>
+<token>NLog.Logger,Trace</token>
+<token>NLog.Logger,Debug</token>
+<token>NLog.Logger,Trace</token>
+</entry>
 <entry count="1">
 <token>NLog.Logger,Info</token>
 <token>NLog.Logger,Warn</token>
 <token>NLog.Logger,Debug</token>
 <token>NLog.Logger,Info</token>
 </entry>
-<entry count="1">
+<entry count="2601">
 <token>NLog.Logger,Error</token>
 <token>NLog.Logger,Error</token>
 </entry>
@@ -274,11 +305,11 @@
 <token>NLog.Logger,Error</token>
 <token>NLog.Logger,Fatal</token>
 </entry>
-<entry count="107">
+<entry count="1545">
 <token>NLog.Logger,Trace</token>
 <token>NLog.Logger,Trace</token>
 </entry>
-<entry count="10">
+<entry count="117">
 <token>NLog.Logger,Debug</token>
 <token>NLog.Logger,Debug</token>
 <token>NLog.Logger,Trace</token>
@@ -287,65 +318,85 @@
 <token>NLog.LogLevel,FromString</token>
 <token>NLog.Logger,IsEnabled</token>
 </entry>
-<entry count="21">
+<entry count="33">
 <token>NLog.Logger,Debug</token>
 <token>NLog.Logger,Info</token>
-</entry>
-<entry count="1">
-<token>NLog.Logger,Trace</token>
-<token>NLog.Logger,Debug</token>
-<token>NLog.Logger,Trace</token>
-</entry>
-<entry count="4">
-<token>NLog.Logger,Debug</token>
-<token>NLog.Logger,Error</token>
-<token>NLog.Logger,Info</token>
-<token>NLog.Logger,Info</token>
-</entry>
-<entry count="16">
-<token>NLog.Logger,Trace</token>
-<token>NLog.Logger,Debug</token>
-<token>NLog.Logger,Debug</token>
-<token>NLog.Logger,Debug</token>
-</entry>
-<entry count="1">
-<token>NLog.Logger,Info</token>
-<token>NLog.Logger,Info</token>
-<token>NLog.Logger,Error</token>
-</entry>
-<entry count="98">
-<token>NLog.Logger,Debug</token>
-<token>NLog.Logger,Debug</token>
-<token>NLog.Logger,Debug</token>
 </entry>
 <entry count="5">
+<token>NLog.Logger,Trace</token>
+<token>NLog.Logger,Debug</token>
+<token>NLog.Logger,Trace</token>
+</entry>
+<entry count="16">
+<token>NLog.Logger,Debug</token>
+<token>NLog.Logger,Error</token>
+<token>NLog.Logger,Info</token>
+<token>NLog.Logger,Info</token>
+</entry>
+<entry count="160">
+<token>NLog.Logger,Trace</token>
+<token>NLog.Logger,Debug</token>
+<token>NLog.Logger,Debug</token>
+<token>NLog.Logger,Debug</token>
+</entry>
+<entry count="1">
+<token>NLog.Logger,Info</token>
+<token>NLog.Logger,Info</token>
+<token>NLog.Logger,Error</token>
+</entry>
+<entry count="20">
+<token>NLog.Logger,Trace</token>
+<token>NLog.Logger,Debug</token>
+<token>NLog.Logger,Debug</token>
+<token>NLog.Logger,Debug</token>
+<token>NLog.Logger,Trace</token>
+</entry>
+<entry count="1260">
+<token>NLog.Logger,Debug</token>
+<token>NLog.Logger,Debug</token>
+<token>NLog.Logger,Debug</token>
+</entry>
+<entry count="55">
 <token>NLog.Logger,Warn</token>
 <token>NLog.Logger,Warn</token>
 </entry>
-<entry count="16">
+<entry count="160">
 <token>NLog.Logger,Trace</token>
 <token>NLog.Logger,Debug</token>
 <token>NLog.Logger,Debug</token>
 </entry>
-<entry count="76">
+<entry count="8">
+<token>NLog.Logger,Trace</token>
+<token>NLog.Logger,Trace</token>
+<token>NLog.Logger,Debug</token>
+<token>NLog.Logger,Debug</token>
+</entry>
+<entry count="289">
 <token>NLog.Logger,Debug</token>
 <token>NLog.Logger,Error</token>
 </entry>
-<entry count="6">
+<entry count="10">
 <token>NLog.LogManager,GetCurrentClassLogger</token>
 <token>NLog.Logger,Info</token>
+</entry>
+<entry count="20">
+<token>NLog.Logger,Debug</token>
+<token>NLog.Logger,Debug</token>
+<token>NLog.Logger,Debug</token>
+<token>NLog.Logger,Debug</token>
+<token>NLog.Logger,Trace</token>
 </entry>
 <entry count="9">
 <token>NLog.LogManager,GetLogger</token>
 <token>NLog.Logger,Log</token>
 </entry>
-<entry count="2">
+<entry count="8">
 <token>NLog.Logger,Info</token>
 <token>NLog.Logger,Debug</token>
 <token>NLog.Logger,Error</token>
 <token>NLog.Logger,Info</token>
 </entry>
-<entry count="138">
+<entry count="8093">
 <token>NLog.Logger,Info</token>
 <token>NLog.Logger,Info</token>
 <token>NLog.Logger,Info</token>
@@ -363,7 +414,7 @@
 <token>NLog.Logger,Info</token>
 <token>NLog.Logger,Fatal</token>
 </entry>
-<entry count="4">
+<entry count="16">
 <token>NLog.Logger,Error</token>
 <token>NLog.Logger,Debug</token>
 </entry>
@@ -372,7 +423,7 @@
 <token>NLog.Logger,Trace</token>
 <token>NLog.Logger,Error</token>
 </entry>
-<entry count="64">
+<entry count="256">
 <token>NLog.LogManager,GetLogger</token>
 <token>NLog.Logger,Debug</token>
 <token>NLog.Logger,Debug</token>
@@ -383,15 +434,22 @@
 <token>NLog.Logger,Warn</token>
 <token>NLog.Logger,Debug</token>
 </entry>
-<entry count="16">
+<entry count="64">
 <token>NLog.LogLevel,FromOrdinal</token>
 <token>NLog.LogFactory,new</token>
+</entry>
+<entry count="6">
+<token>NLog.Logger,Trace</token>
+<token>NLog.Logger,Trace</token>
+<token>NLog.Logger,Trace</token>
+<token>NLog.Logger,Trace</token>
+<token>NLog.Logger,Trace</token>
 </entry>
 <entry count="2">
 <token>NLog.Logger,Warn</token>
 <token>NLog.Logger,Error</token>
 </entry>
-<entry count="8">
+<entry count="73">
 <token>NLog.Logger,Debug</token>
 <token>NLog.Logger,Debug</token>
 <token>NLog.Logger,Debug</token>
@@ -409,42 +467,55 @@
 <token>NLog.Logger,Trace</token>
 <token>NLog.Logger,Info</token>
 </entry>
-<entry count="8">
+<entry count="92">
 <token>NLog.Logger,Debug</token>
+<token>NLog.Logger,Debug</token>
+<token>NLog.Logger,Trace</token>
+<token>NLog.Logger,Debug</token>
+<token>NLog.Logger,Debug</token>
+</entry>
+<entry count="140">
+<token>NLog.Logger,Trace</token>
+<token>NLog.Logger,Debug</token>
+<token>NLog.Logger,Debug</token>
+<token>NLog.Logger,Debug</token>
+<token>NLog.Logger,Debug</token>
+</entry>
+<entry count="7486">
+<token>NLog.Logger,Info</token>
+<token>NLog.Logger,Info</token>
+<token>NLog.Logger,Info</token>
+<token>NLog.Logger,Info</token>
+</entry>
+<entry count="152">
 <token>NLog.Logger,Debug</token>
 <token>NLog.Logger,Trace</token>
 <token>NLog.Logger,Debug</token>
 <token>NLog.Logger,Debug</token>
 </entry>
 <entry count="16">
-<token>NLog.Logger,Trace</token>
-<token>NLog.Logger,Debug</token>
-<token>NLog.Logger,Debug</token>
-<token>NLog.Logger,Debug</token>
-<token>NLog.Logger,Debug</token>
-</entry>
-<entry count="109">
-<token>NLog.Logger,Info</token>
-<token>NLog.Logger,Info</token>
-<token>NLog.Logger,Info</token>
-<token>NLog.Logger,Info</token>
-</entry>
-<entry count="16">
-<token>NLog.Logger,Debug</token>
-<token>NLog.Logger,Trace</token>
-<token>NLog.Logger,Debug</token>
-<token>NLog.Logger,Debug</token>
-</entry>
-<entry count="4">
 <token>NLog.Logger,Debug</token>
 <token>NLog.Logger,Error</token>
 <token>NLog.Logger,Info</token>
 </entry>
 <entry count="4">
 <token>NLog.Logger,Trace</token>
+<token>NLog.Logger,Trace</token>
+<token>NLog.Logger,Debug</token>
+<token>NLog.Logger,Trace</token>
+<token>NLog.Logger,Trace</token>
+</entry>
+<entry count="4">
+<token>NLog.Logger,Trace</token>
 <token>NLog.Logger,Warn</token>
 </entry>
-<entry count="27">
+<entry count="1">
+<token>NLog.Logger,Warn</token>
+<token>NLog.Logger,Warn</token>
+<token>NLog.Logger,Warn</token>
+<token>NLog.Logger,Warn</token>
+</entry>
+<entry count="357">
 <token>NLog.Logger,Trace</token>
 <token>NLog.Logger,Trace</token>
 <token>NLog.Logger,Trace</token>
@@ -453,14 +524,34 @@
 <token>NLog.Logger,Trace</token>
 <token>NLog.Logger,Info</token>
 </entry>
-<entry count="20">
+<entry count="180">
 <token>NLog.Logger,Debug</token>
 <token>NLog.Logger,Trace</token>
 <token>NLog.Logger,Debug</token>
 </entry>
+<entry count="8">
+<token>NLog.Logger,Debug</token>
+<token>NLog.Logger,Trace</token>
+<token>NLog.Logger,Trace</token>
+<token>NLog.Logger,Debug</token>
+<token>NLog.Logger,Debug</token>
+</entry>
+<entry count="8">
+<token>NLog.Logger,Trace</token>
+<token>NLog.Logger,Trace</token>
+<token>NLog.Logger,Debug</token>
+<token>NLog.Logger,Debug</token>
+<token>NLog.Logger,Debug</token>
+</entry>
+<entry count="32">
+<token>NLog.Logger,Trace</token>
+<token>NLog.Logger,Trace</token>
+<token>NLog.Logger,Trace</token>
+<token>NLog.Logger,Trace</token>
+</entry>
 <entry count="4">
 <token>NLog.Logger,Trace</token>
-<token>NLog.Logger,Trace</token>
+<token>NLog.Logger,Debug</token>
 <token>NLog.Logger,Trace</token>
 <token>NLog.Logger,Trace</token>
 </entry>
@@ -473,59 +564,59 @@
 <token>NLog.LogLevel,FromString</token>
 <token>NLog.Logger,Log</token>
 </entry>
-<entry count="2">
+<entry count="8">
 <token>NLog.Logger,Info</token>
 <token>NLog.Logger,Debug</token>
 <token>NLog.Logger,Error</token>
 </entry>
-<entry count="2">
+<entry count="22">
 <token>NLog.Logger,Debug</token>
 <token>NLog.Logger,Trace</token>
 <token>NLog.Logger,Trace</token>
 </entry>
-<entry count="30">
+<entry count="518">
 <token>NLog.Logger,Debug</token>
-<token>NLog.Logger,Debug</token>
-<token>NLog.Logger,Debug</token>
-<token>NLog.Logger,Debug</token>
-</entry>
-<entry count="4">
-<token>NLog.LogManager,GetCurrentClassLogger</token>
-<token>NLog.Logger,Info</token>
-<token>NLog.Logger,ErrorException</token>
-<token>NLog.Logger,ErrorException</token>
-</entry>
-<entry count="220">
-<token>NLog.Logger,Info</token>
-<token>NLog.Logger,Info</token>
-</entry>
-<entry count="16">
-<token>NLog.Logger,Debug</token>
-<token>NLog.Logger,Trace</token>
 <token>NLog.Logger,Debug</token>
 <token>NLog.Logger,Debug</token>
 <token>NLog.Logger,Debug</token>
 </entry>
 <entry count="8">
+<token>NLog.LogManager,GetCurrentClassLogger</token>
+<token>NLog.Logger,Info</token>
+<token>NLog.Logger,ErrorException</token>
+<token>NLog.Logger,ErrorException</token>
+</entry>
+<entry count="8769">
+<token>NLog.Logger,Info</token>
+<token>NLog.Logger,Info</token>
+</entry>
+<entry count="152">
+<token>NLog.Logger,Debug</token>
+<token>NLog.Logger,Trace</token>
+<token>NLog.Logger,Debug</token>
+<token>NLog.Logger,Debug</token>
+<token>NLog.Logger,Debug</token>
+</entry>
+<entry count="256">
 <token>NLog.Logger,Trace</token>
 <token>NLog.Logger,Trace</token>
 <token>NLog.Logger,Trace</token>
 <token>NLog.Logger,Debug</token>
 </entry>
-<entry count="2">
+<entry count="8">
 <token>NLog.Logger,Info</token>
 <token>NLog.Logger,Debug</token>
 <token>NLog.Logger,Error</token>
 <token>NLog.Logger,Info</token>
 <token>NLog.Logger,Info</token>
 </entry>
-<entry count="1">
+<entry count="4">
 <token>NLog.Logger,Debug</token>
 <token>NLog.Logger,Debug</token>
 <token>NLog.Logger,Error</token>
 <token>NLog.Logger,Debug</token>
 </entry>
-<entry count="34">
+<entry count="1040">
 <token>NLog.Logger,Trace</token>
 <token>NLog.Logger,Trace</token>
 <token>NLog.Logger,Debug</token>
@@ -535,7 +626,7 @@
 <token>NLog.Logger,Info</token>
 <token>NLog.Logger,Debug</token>
 </entry>
-<entry count="6">
+<entry count="18">
 <token>NLog.Logger,Debug</token>
 <token>NLog.Logger,Info</token>
 <token>NLog.Logger,Info</token>
@@ -546,19 +637,19 @@
 <token>NLog.Logger,Info</token>
 <token>NLog.Logger,Info</token>
 </entry>
-<entry count="2">
+<entry count="8">
 <token>NLog.Logger,Info</token>
 <token>NLog.Logger,Debug</token>
 <token>NLog.Logger,Info</token>
 <token>NLog.Logger,Info</token>
 </entry>
-<entry count="6">
+<entry count="18">
 <token>NLog.Logger,Debug</token>
 <token>NLog.Logger,Info</token>
 <token>NLog.Logger,Info</token>
 <token>NLog.Logger,Info</token>
 </entry>
-<entry count="64">
+<entry count="256">
 <token>NLog.LogManager,GetLogger</token>
 <token>NLog.Logger,Debug</token>
 </entry>
@@ -567,22 +658,35 @@
 <token>NLog.Logger,Trace</token>
 <token>NLog.Logger,Warn</token>
 </entry>
-<entry count="4">
+<entry count="8">
 <token>NLog.Logger,Info</token>
 <token>NLog.Logger,ErrorException</token>
 <token>NLog.Logger,ErrorException</token>
 </entry>
-<entry count="16">
+<entry count="4">
+<token>NLog.Logger,Debug</token>
+<token>NLog.Logger,Trace</token>
+<token>NLog.Logger,Trace</token>
+<token>NLog.Logger,Debug</token>
+<token>NLog.Logger,Trace</token>
+</entry>
+<entry count="64">
 <token>NLog.LogLevel,FromOrdinal</token>
 <token>NLog.LogFactory,new</token>
 <token>NLog.LogFactory,GetLogger</token>
 </entry>
-<entry count="3">
+<entry count="12">
 <token>NLog.Logger,Debug</token>
 <token>NLog.Logger,Error</token>
 <token>NLog.Logger,Debug</token>
 </entry>
-<entry count="4">
+<entry count="7">
+<token>NLog.Logger,Debug</token>
+<token>NLog.Logger,Debug</token>
+<token>NLog.Logger,Trace</token>
+<token>NLog.Logger,Trace</token>
+</entry>
+<entry count="8">
 <token>NLog.Logger,ErrorException</token>
 <token>NLog.Logger,ErrorException</token>
 </entry>

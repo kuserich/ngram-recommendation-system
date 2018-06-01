@@ -1,30 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?><dictionary case_sensitive="false">
-<entry count="4">
+<entry count="4800">
+<token>System.Security.Claims.Claim,new</token>
+<token>System.Security.Claims.ClaimsIdentity,AddClaim</token>
+<token>System.Security.Claims.ClaimsIdentity,new</token>
+</entry>
+<entry count="16">
 <token>System.Security.Claims.ClaimsIdentity,new</token>
 <token>System.Security.Claims.ClaimsIdentity,AddClaims</token>
 <token>System.Security.Claims.ClaimsPrincipal,new</token>
 </entry>
-<entry count="2131">
+<entry count="319164">
 <token>System.Security.Claims.Claim,new</token>
 <token>System.Security.Claims.Claim,new</token>
 </entry>
-<entry count="12">
+<entry count="128">
+<token>System.Security.Claims.ClaimsIdentity,new</token>
+<token>System.Security.Claims.ClaimsIdentity,new</token>
+<token>System.Security.Claims.Claim,new</token>
+<token>System.Security.Claims.ClaimsIdentity,AddClaim</token>
+</entry>
+<entry count="1">
+<token>System.Security.Claims.ClaimsPrincipal,new</token>
+<token>System.Security.Claims.ClaimsIdentity,new</token>
+</entry>
+<entry count="128">
+<token>System.Security.Claims.ClaimsIdentity,new</token>
+<token>System.Security.Claims.ClaimsIdentity,new</token>
+<token>System.Security.Claims.Claim,new</token>
+</entry>
+<entry count="48">
 <token>System.Security.Claims.ClaimsPrincipal,FindAll</token>
 <token>System.Security.Claims.ClaimsPrincipal,FindAll</token>
 </entry>
-<entry count="15460">
+<entry count="1022559">
 <token>System.Security.Claims.ClaimsIdentity,new</token>
 <token>System.Security.Claims.Claim,new</token>
 <token>System.Security.Claims.ClaimsIdentity,AddClaim</token>
 <token>System.Security.Claims.Claim,new</token>
 <token>System.Security.Claims.ClaimsIdentity,AddClaim</token>
 </entry>
-<entry count="12">
+<entry count="48">
 <token>System.Security.Claims.ClaimsPrincipal,FindAll</token>
 <token>System.Security.Claims.ClaimsPrincipal,FindAll</token>
 <token>System.Security.Claims.ClaimsPrincipal,FindFirst</token>
 </entry>
-<entry count="4">
+<entry count="16">
 <token>System.Security.Claims.Claim,new</token>
 <token>System.Security.Claims.Claim,new</token>
 <token>System.Security.Claims.ClaimsPrincipal,FindFirst</token>
@@ -37,7 +57,7 @@
 <token>System.Security.Claims.ClaimsIdentity,AddClaim</token>
 <token>System.Security.Claims.ClaimsPrincipal,new</token>
 </entry>
-<entry count="15463">
+<entry count="1022562">
 <token>System.Security.Claims.ClaimsIdentity,new</token>
 <token>System.Security.Claims.Claim,new</token>
 <token>System.Security.Claims.ClaimsIdentity,AddClaim</token>
@@ -58,7 +78,7 @@
 <token>System.Security.Claims.ClaimsPrincipal,new</token>
 <token>System.Security.Claims.Claim,new</token>
 </entry>
-<entry count="4">
+<entry count="8">
 <token>System.Security.Claims.ClaimsPrincipal,IsInRole</token>
 <token>System.Security.Claims.ClaimsPrincipal,IsInRole</token>
 </entry>
@@ -67,11 +87,11 @@
 <token>System.Security.Claims.Claim,new</token>
 <token>System.Security.Claims.ClaimsIdentity,AddClaim</token>
 </entry>
-<entry count="4">
+<entry count="16">
 <token>System.Security.Claims.Claim,new</token>
 <token>System.Security.Claims.ClaimsIdentity,FindFirst</token>
 </entry>
-<entry count="4">
+<entry count="16">
 <token>System.Security.Claims.Claim,new</token>
 <token>System.Security.Claims.ClaimsPrincipal,FindFirst</token>
 <token>System.Security.Claims.ClaimsPrincipal,FindFirst</token>
@@ -80,7 +100,7 @@
 <token>System.Security.Claims.ClaimsIdentity,RemoveClaim</token>
 <token>System.Security.Claims.Claim,new</token>
 </entry>
-<entry count="33125">
+<entry count="1465171">
 <token>System.Security.Claims.Claim,new</token>
 <token>System.Security.Claims.ClaimsIdentity,AddClaim</token>
 <token>System.Security.Claims.Claim,new</token>
@@ -95,12 +115,19 @@
 <token>System.Security.Claims.Claim,new</token>
 <token>System.Security.Claims.ClaimsIdentity,AddClaims</token>
 </entry>
-<entry count="19">
+<entry count="512">
+<token>System.Security.Claims.ClaimsIdentity,AddClaim</token>
+<token>System.Security.Claims.ClaimsIdentity,new</token>
+<token>System.Security.Claims.Claim,new</token>
+<token>System.Security.Claims.ClaimsIdentity,AddClaim</token>
+<token>System.Security.Claims.Claim,new</token>
+</entry>
+<entry count="39">
 <token>System.Security.Claims.Claim,new</token>
 <token>System.Security.Claims.Claim,new</token>
 <token>System.Security.Claims.AuthorizationContext,new</token>
 </entry>
-<entry count="4">
+<entry count="16">
 <token>System.Security.Claims.Claim,new</token>
 <token>System.Security.Claims.Claim,new</token>
 <token>System.Security.Claims.ClaimsIdentity,FindFirst</token>
@@ -111,30 +138,43 @@
 <token>System.Security.Claims.ClaimsIdentity,new</token>
 <token>System.Security.Claims.ClaimsIdentity,new</token>
 </entry>
-<entry count="873">
+<entry count="3673">
 <token>System.Security.Claims.ClaimsPrincipal,new</token>
 <token>System.Security.Claims.ClaimsAuthenticationManager,Authenticate</token>
+</entry>
+<entry count="10">
+<token>System.Security.Claims.Claim,new</token>
+<token>System.Security.Claims.Claim,new</token>
+<token>System.Security.Claims.Claim,new</token>
+<token>System.Security.Claims.AuthorizationContext,new</token>
 </entry>
 <entry count="2">
 <token>System.Security.Claims.ClaimsIdentity,AddClaim</token>
 <token>System.Security.Claims.ClaimsPrincipal,FindFirst</token>
+</entry>
+<entry count="64">
+<token>System.Security.Claims.ClaimsIdentity,new</token>
+<token>System.Security.Claims.Claim,new</token>
+<token>System.Security.Claims.ClaimsIdentity,AddClaim</token>
+<token>System.Security.Claims.ClaimsIdentity,new</token>
+<token>System.Security.Claims.Claim,new</token>
 </entry>
 <entry count="2">
 <token>System.Security.Claims.Claim,new</token>
 <token>System.Security.Claims.ClaimsPrincipal,HasClaim</token>
 </entry>
-<entry count="17616">
+<entry count="434223">
 <token>System.Security.Claims.Claim,new</token>
 <token>System.Security.Claims.ClaimsIdentity,AddClaim</token>
 <token>System.Security.Claims.Claim,new</token>
 <token>System.Security.Claims.ClaimsIdentity,AddClaim</token>
 <token>System.Security.Claims.Claim,new</token>
 </entry>
-<entry count="502">
+<entry count="105928">
 <token>System.Security.Claims.Claim,new</token>
 <token>System.Security.Claims.ClaimsIdentity,new</token>
 </entry>
-<entry count="4">
+<entry count="16">
 <token>System.Security.Claims.Claim,new</token>
 <token>System.Security.Claims.ClaimsIdentity,FindFirst</token>
 <token>System.Security.Claims.Claim,new</token>
@@ -145,26 +185,51 @@
 <token>System.Security.Claims.Claim,new</token>
 <token>System.Security.Claims.Claim,new</token>
 </entry>
-<entry count="656">
+<entry count="40007">
 <token>System.Security.Claims.Claim,new</token>
 <token>System.Security.Claims.Claim,new</token>
 <token>System.Security.Claims.Claim,new</token>
 <token>System.Security.Claims.Claim,new</token>
 <token>System.Security.Claims.Claim,new</token>
 </entry>
-<entry count="4">
+<entry count="16">
 <token>System.Security.Claims.ClaimsPrincipal,FindFirst</token>
 <token>System.Security.Claims.ClaimsPrincipal,FindFirst</token>
 <token>System.Security.Claims.ClaimsIdentity,new</token>
 <token>System.Security.Claims.ClaimsIdentity,AddClaims</token>
 </entry>
-<entry count="4">
+<entry count="16">
 <token>System.Security.Claims.Claim,new</token>
 <token>System.Security.Claims.ClaimsPrincipal,FindFirst</token>
 </entry>
-<entry count="12">
+<entry count="2624">
+<token>System.Security.Claims.Claim,new</token>
+<token>System.Security.Claims.ClaimsIdentity,AddClaim</token>
+<token>System.Security.Claims.ClaimsIdentity,new</token>
+<token>System.Security.Claims.Claim,new</token>
+<token>System.Security.Claims.ClaimsIdentity,AddClaim</token>
+</entry>
+<entry count="48">
 <token>System.Security.Claims.ClaimsPrincipal,FindAll</token>
 <token>System.Security.Claims.ClaimsPrincipal,FindFirst</token>
+</entry>
+<entry count="216">
+<token>System.Security.Claims.ClaimsIdentity,AddClaim</token>
+<token>System.Security.Claims.ClaimsPrincipal,new</token>
+<token>System.Security.Claims.ClaimsAuthenticationManager,Authenticate</token>
+<token>System.Security.Claims.Claim,new</token>
+<token>System.Security.Claims.ClaimsIdentity,AddClaim</token>
+</entry>
+<entry count="216">
+<token>System.Security.Claims.ClaimsIdentity,AddClaim</token>
+<token>System.Security.Claims.ClaimsPrincipal,new</token>
+<token>System.Security.Claims.ClaimsAuthenticationManager,Authenticate</token>
+<token>System.Security.Claims.Claim,new</token>
+</entry>
+<entry count="2624">
+<token>System.Security.Claims.ClaimsIdentity,AddClaim</token>
+<token>System.Security.Claims.ClaimsIdentity,new</token>
+<token>System.Security.Claims.Claim,new</token>
 </entry>
 <entry count="4">
 <token>System.Security.Claims.ClaimsIdentity,FindFirst</token>
@@ -172,7 +237,7 @@
 <token>System.Security.Claims.ClaimsIdentity,FindFirst</token>
 <token>System.Security.Claims.ClaimsIdentity,FindFirst</token>
 </entry>
-<entry count="433">
+<entry count="865">
 <token>System.Security.Claims.ClaimsIdentity,new</token>
 <token>System.Security.Claims.Claim,new</token>
 <token>System.Security.Claims.ClaimsIdentity,AddClaim</token>
@@ -185,22 +250,28 @@
 <token>System.Security.Claims.Claim,new</token>
 <token>System.Security.Claims.ClaimsIdentity,AddClaims</token>
 </entry>
-<entry count="4">
+<entry count="16">
 <token>System.Security.Claims.Claim,new</token>
 <token>System.Security.Claims.Claim,new</token>
 <token>System.Security.Claims.ClaimsPrincipal,FindFirst</token>
 </entry>
-<entry count="4">
+<entry count="192">
+<token>System.Security.Claims.ClaimsIdentity,new</token>
+<token>System.Security.Claims.Claim,new</token>
+<token>System.Security.Claims.ClaimsIdentity,AddClaim</token>
+<token>System.Security.Claims.ClaimsIdentity,new</token>
+</entry>
+<entry count="113011">
+<token>System.Security.Claims.Claim,new</token>
+<token>System.Security.Claims.Claim,new</token>
+<token>System.Security.Claims.Claim,new</token>
+<token>System.Security.Claims.Claim,new</token>
+</entry>
+<entry count="16">
 <token>System.Security.Claims.ClaimsIdentity,new</token>
 <token>System.Security.Claims.ClaimsIdentity,AddClaims</token>
 </entry>
-<entry count="1055">
-<token>System.Security.Claims.Claim,new</token>
-<token>System.Security.Claims.Claim,new</token>
-<token>System.Security.Claims.Claim,new</token>
-<token>System.Security.Claims.Claim,new</token>
-</entry>
-<entry count="432">
+<entry count="864">
 <token>System.Security.Claims.Claim,new</token>
 <token>System.Security.Claims.ClaimsIdentity,AddClaim</token>
 <token>System.Security.Claims.ClaimsPrincipal,new</token>
@@ -223,7 +294,7 @@
 <token>System.Security.Claims.Claim,new</token>
 <token>System.Security.Claims.Claim,new</token>
 </entry>
-<entry count="4">
+<entry count="16">
 <token>System.Security.Claims.Claim,new</token>
 <token>System.Security.Claims.ClaimsPrincipal,FindFirst</token>
 <token>System.Security.Claims.ClaimsPrincipal,FindFirst</token>
@@ -234,21 +305,32 @@
 <token>System.Security.Claims.ClaimsIdentity,new</token>
 <token>System.Security.Claims.ClaimsIdentity,RemoveClaim</token>
 </entry>
-<entry count="432">
+<entry count="864">
 <token>System.Security.Claims.ClaimsIdentity,AddClaim</token>
 <token>System.Security.Claims.ClaimsPrincipal,new</token>
 <token>System.Security.Claims.ClaimsAuthenticationManager,Authenticate</token>
 </entry>
-<entry count="1525">
+<entry count="864">
+<token>System.Security.Claims.ClaimsPrincipal,new</token>
+<token>System.Security.Claims.ClaimsAuthenticationManager,Authenticate</token>
+<token>System.Security.Claims.Claim,new</token>
+<token>System.Security.Claims.ClaimsIdentity,AddClaim</token>
+</entry>
+<entry count="864">
+<token>System.Security.Claims.ClaimsAuthenticationManager,Authenticate</token>
+<token>System.Security.Claims.Claim,new</token>
+<token>System.Security.Claims.ClaimsIdentity,AddClaim</token>
+</entry>
+<entry count="212587">
 <token>System.Security.Claims.Claim,new</token>
 <token>System.Security.Claims.Claim,new</token>
 <token>System.Security.Claims.Claim,new</token>
 </entry>
-<entry count="12">
+<entry count="48">
 <token>System.Security.Claims.ClaimsPrincipal,FindFirst</token>
 <token>System.Security.Claims.Claim,new</token>
 </entry>
-<entry count="377">
+<entry count="72542">
 <token>System.Security.Claims.Claim,new</token>
 <token>System.Security.Claims.Claim,new</token>
 <token>System.Security.Claims.Claim,new</token>
@@ -265,7 +347,7 @@
 <token>System.Security.Claims.Claim,new</token>
 <token>System.Security.Claims.Claim,new</token>
 </entry>
-<entry count="4">
+<entry count="16">
 <token>System.Security.Claims.Claim,new</token>
 <token>System.Security.Claims.Claim,new</token>
 <token>System.Security.Claims.ClaimsIdentity,FindFirst</token>
@@ -278,20 +360,20 @@
 <token>System.Security.Claims.ClaimsIdentity,AddClaim</token>
 <token>System.Security.Claims.ClaimsPrincipal,FindFirst</token>
 </entry>
-<entry count="33122">
+<entry count="1465168">
 <token>System.Security.Claims.Claim,new</token>
 <token>System.Security.Claims.ClaimsIdentity,AddClaim</token>
 <token>System.Security.Claims.Claim,new</token>
 <token>System.Security.Claims.ClaimsIdentity,AddClaim</token>
 </entry>
-<entry count="17616">
+<entry count="434223">
 <token>System.Security.Claims.ClaimsIdentity,AddClaim</token>
 <token>System.Security.Claims.Claim,new</token>
 <token>System.Security.Claims.ClaimsIdentity,AddClaim</token>
 <token>System.Security.Claims.Claim,new</token>
 <token>System.Security.Claims.ClaimsIdentity,AddClaim</token>
 </entry>
-<entry count="33122">
+<entry count="1465168">
 <token>System.Security.Claims.ClaimsIdentity,AddClaim</token>
 <token>System.Security.Claims.Claim,new</token>
 <token>System.Security.Claims.ClaimsIdentity,AddClaim</token>
@@ -301,11 +383,15 @@
 <token>System.Security.Claims.ClaimsPrincipal,new</token>
 <token>System.Security.Claims.Claim,new</token>
 </entry>
-<entry count="10">
+<entry count="864">
+<token>System.Security.Claims.ClaimsAuthenticationManager,Authenticate</token>
+<token>System.Security.Claims.Claim,new</token>
+</entry>
+<entry count="22">
 <token>System.Security.Claims.ClaimsIdentity,FindFirst</token>
 <token>System.Security.Claims.Claim,new</token>
 </entry>
-<entry count="19047">
+<entry count="1655968">
 <token>System.Security.Claims.ClaimsIdentity,new</token>
 <token>System.Security.Claims.Claim,new</token>
 </entry>
@@ -315,14 +401,19 @@
 <token>System.Security.Claims.ClaimsPrincipal,new</token>
 <token>System.Security.Claims.Claim,new</token>
 </entry>
-<entry count="432">
+<entry count="864">
 <token>System.Security.Claims.ClaimsIdentity,new</token>
 <token>System.Security.Claims.Claim,new</token>
 <token>System.Security.Claims.ClaimsIdentity,AddClaim</token>
 <token>System.Security.Claims.ClaimsPrincipal,new</token>
 <token>System.Security.Claims.ClaimsAuthenticationManager,Authenticate</token>
 </entry>
-<entry count="7">
+<entry count="864">
+<token>System.Security.Claims.ClaimsPrincipal,new</token>
+<token>System.Security.Claims.ClaimsAuthenticationManager,Authenticate</token>
+<token>System.Security.Claims.Claim,new</token>
+</entry>
+<entry count="189">
 <token>System.Security.Claims.Claim,new</token>
 <token>System.Security.Claims.ClaimsIdentity,new</token>
 <token>System.Security.Claims.ClaimsPrincipal,new</token>
@@ -337,14 +428,27 @@
 <token>System.Security.Claims.ClaimsPrincipal,IsInRole</token>
 <token>System.Security.Claims.Claim,new</token>
 </entry>
-<entry count="4">
+<entry count="2624">
+<token>System.Security.Claims.ClaimsIdentity,AddClaim</token>
+<token>System.Security.Claims.ClaimsIdentity,new</token>
+<token>System.Security.Claims.Claim,new</token>
+<token>System.Security.Claims.ClaimsIdentity,AddClaim</token>
+</entry>
+<entry count="16">
 <token>System.Security.Claims.Claim,new</token>
 <token>System.Security.Claims.Claim,new</token>
 <token>System.Security.Claims.ClaimsIdentity,FindFirst</token>
 </entry>
-<entry count="434">
+<entry count="866">
 <token>System.Security.Claims.ClaimsIdentity,AddClaim</token>
 <token>System.Security.Claims.ClaimsPrincipal,new</token>
+</entry>
+<entry count="648">
+<token>System.Security.Claims.ClaimsIdentity,new</token>
+<token>System.Security.Claims.ClaimsPrincipal,new</token>
+<token>System.Security.Claims.ClaimsAuthenticationManager,Authenticate</token>
+<token>System.Security.Claims.Claim,new</token>
+<token>System.Security.Claims.ClaimsIdentity,AddClaim</token>
 </entry>
 <entry count="1">
 <token>System.Security.Claims.ClaimsIdentity,new</token>
@@ -358,49 +462,58 @@
 <token>System.Security.Claims.ClaimsIdentity,AddClaim</token>
 <token>System.Security.Claims.ClaimsPrincipal,FindFirst</token>
 </entry>
-<entry count="4">
+<entry count="1">
+<token>System.Security.Claims.ClaimsIdentity,new</token>
+<token>System.Security.Claims.ClaimsPrincipal,new</token>
+<token>System.Security.Claims.ClaimsIdentity,new</token>
+</entry>
+<entry count="4800">
+<token>System.Security.Claims.ClaimsIdentity,AddClaim</token>
+<token>System.Security.Claims.ClaimsIdentity,new</token>
+</entry>
+<entry count="16">
 <token>System.Security.Claims.Claim,new</token>
 <token>System.Security.Claims.ClaimsIdentity,FindFirst</token>
 <token>System.Security.Claims.Claim,new</token>
 <token>System.Security.Claims.ClaimsIdentity,new</token>
 </entry>
-<entry count="74">
+<entry count="98">
 <token>System.Security.Claims.ClaimsIdentity,FindFirst</token>
 <token>System.Security.Claims.ClaimsIdentity,FindFirst</token>
 </entry>
-<entry count="4">
+<entry count="16">
 <token>System.Security.Claims.Claim,new</token>
 <token>System.Security.Claims.ClaimsPrincipal,FindFirst</token>
 <token>System.Security.Claims.ClaimsPrincipal,FindFirst</token>
 <token>System.Security.Claims.ClaimsIdentity,new</token>
 </entry>
-<entry count="4">
+<entry count="30">
 <token>System.Security.Claims.Claim,new</token>
 <token>System.Security.Claims.Claim,new</token>
 <token>System.Security.Claims.Claim,new</token>
 <token>System.Security.Claims.ClaimsIdentity,new</token>
 <token>System.Security.Claims.ClaimsPrincipal,new</token>
 </entry>
-<entry count="17616">
+<entry count="434223">
 <token>System.Security.Claims.ClaimsIdentity,AddClaim</token>
 <token>System.Security.Claims.Claim,new</token>
 <token>System.Security.Claims.ClaimsIdentity,AddClaim</token>
 <token>System.Security.Claims.Claim,new</token>
 </entry>
-<entry count="4">
+<entry count="16">
 <token>System.Security.Claims.ClaimsPrincipal,FindFirst</token>
 <token>System.Security.Claims.ClaimsPrincipal,FindFirst</token>
 <token>System.Security.Claims.ClaimsIdentity,new</token>
 <token>System.Security.Claims.ClaimsIdentity,AddClaims</token>
 <token>System.Security.Claims.ClaimsPrincipal,new</token>
 </entry>
-<entry count="12">
+<entry count="48">
 <token>System.Security.Claims.ClaimsPrincipal,FindAll</token>
 <token>System.Security.Claims.ClaimsPrincipal,FindAll</token>
 <token>System.Security.Claims.ClaimsPrincipal,FindFirst</token>
 <token>System.Security.Claims.Claim,new</token>
 </entry>
-<entry count="4">
+<entry count="16">
 <token>System.Security.Claims.ClaimsPrincipal,FindFirst</token>
 <token>System.Security.Claims.ClaimsIdentity,new</token>
 <token>System.Security.Claims.ClaimsIdentity,AddClaims</token>
@@ -411,11 +524,11 @@
 <token>System.Security.Claims.Claim,new</token>
 <token>System.Security.Claims.ClaimsIdentity,AddClaim</token>
 </entry>
-<entry count="6">
+<entry count="18">
 <token>System.Security.Claims.ClaimsPrincipal,FindFirst</token>
 <token>System.Security.Claims.ClaimsIdentity,new</token>
 </entry>
-<entry count="13">
+<entry count="37">
 <token>System.Security.Claims.ClaimsPrincipal,FindFirst</token>
 <token>System.Security.Claims.ClaimsPrincipal,FindFirst</token>
 </entry>
@@ -424,7 +537,7 @@
 <token>System.Security.Claims.Claim,new</token>
 <token>System.Security.Claims.ClaimsIdentity,AddClaim</token>
 </entry>
-<entry count="4">
+<entry count="16">
 <token>System.Security.Claims.ClaimsPrincipal,FindFirst</token>
 <token>System.Security.Claims.ClaimsIdentity,new</token>
 <token>System.Security.Claims.ClaimsIdentity,AddClaims</token>
@@ -433,38 +546,44 @@
 <token>System.Security.Claims.ClaimsPrincipal,HasClaim</token>
 <token>System.Security.Claims.ClaimsPrincipal,HasClaim</token>
 </entry>
-<entry count="472">
+<entry count="2847">
 <token>System.Security.Claims.ClaimsIdentity,new</token>
 <token>System.Security.Claims.ClaimsPrincipal,new</token>
 </entry>
-<entry count="20">
+<entry count="404">
 <token>System.Security.Claims.ClaimsIdentity,new</token>
 <token>System.Security.Claims.ClaimsIdentity,new</token>
 </entry>
-<entry count="4">
+<entry count="108">
 <token>System.Security.Claims.Claim,new</token>
 <token>System.Security.Claims.Claim,new</token>
 <token>System.Security.Claims.ClaimsIdentity,new</token>
 <token>System.Security.Claims.ClaimsPrincipal,new</token>
 <token>System.Security.Claims.ClaimsAuthenticationManager,Authenticate</token>
 </entry>
-<entry count="485">
+<entry count="105821">
 <token>System.Security.Claims.Claim,new</token>
 <token>System.Security.Claims.Claim,new</token>
 <token>System.Security.Claims.ClaimsIdentity,new</token>
 </entry>
-<entry count="4">
+<entry count="16">
 <token>System.Security.Claims.Claim,new</token>
 <token>System.Security.Claims.Claim,new</token>
 <token>System.Security.Claims.ClaimsPrincipal,FindFirst</token>
 <token>System.Security.Claims.ClaimsPrincipal,FindFirst</token>
 <token>System.Security.Claims.ClaimsIdentity,new</token>
 </entry>
-<entry count="52246">
+<entry count="2624">
+<token>System.Security.Claims.Claim,new</token>
+<token>System.Security.Claims.ClaimsIdentity,AddClaim</token>
+<token>System.Security.Claims.ClaimsIdentity,new</token>
+<token>System.Security.Claims.Claim,new</token>
+</entry>
+<entry count="3159414">
 <token>System.Security.Claims.Claim,new</token>
 <token>System.Security.Claims.ClaimsIdentity,AddClaim</token>
 </entry>
-<entry count="4">
+<entry count="16">
 <token>System.Security.Claims.ClaimsIdentity,FindFirst</token>
 <token>System.Security.Claims.Claim,new</token>
 <token>System.Security.Claims.ClaimsIdentity,new</token>
@@ -483,15 +602,20 @@
 <token>System.Security.Claims.ClaimsPrincipal,HasClaim</token>
 <token>System.Security.Claims.ClaimsIdentity,new</token>
 </entry>
+<entry count="1">
+<token>System.Security.Claims.ClaimsPrincipal,new</token>
+<token>System.Security.Claims.ClaimsIdentity,new</token>
+<token>System.Security.Claims.ClaimsPrincipal,new</token>
+</entry>
 <entry count="4">
 <token>System.Security.Claims.ClaimsIdentity,HasClaim</token>
 <token>System.Security.Claims.ClaimsIdentity,HasClaim</token>
 </entry>
-<entry count="49">
+<entry count="89">
 <token>System.Security.Claims.Claim,new</token>
 <token>System.Security.Claims.AuthorizationContext,new</token>
 </entry>
-<entry count="25">
+<entry count="207">
 <token>System.Security.Claims.Claim,new</token>
 <token>System.Security.Claims.ClaimsIdentity,new</token>
 <token>System.Security.Claims.ClaimsPrincipal,new</token>
@@ -501,24 +625,30 @@
 <token>System.Security.Claims.ClaimsIdentity,new</token>
 <token>System.Security.Claims.Claim,new</token>
 </entry>
-<entry count="38">
+<entry count="50">
 <token>System.Security.Claims.ClaimsIdentity,FindFirst</token>
 <token>System.Security.Claims.ClaimsIdentity,FindFirst</token>
 <token>System.Security.Claims.ClaimsIdentity,FindFirst</token>
 </entry>
-<entry count="12">
+<entry count="648">
+<token>System.Security.Claims.ClaimsIdentity,new</token>
+<token>System.Security.Claims.ClaimsPrincipal,new</token>
+<token>System.Security.Claims.ClaimsAuthenticationManager,Authenticate</token>
+<token>System.Security.Claims.Claim,new</token>
+</entry>
+<entry count="116">
 <token>System.Security.Claims.Claim,new</token>
 <token>System.Security.Claims.Claim,new</token>
 <token>System.Security.Claims.ClaimsIdentity,new</token>
 <token>System.Security.Claims.ClaimsPrincipal,new</token>
 </entry>
-<entry count="430">
+<entry count="99068">
 <token>System.Security.Claims.Claim,new</token>
 <token>System.Security.Claims.Claim,new</token>
 <token>System.Security.Claims.Claim,new</token>
 <token>System.Security.Claims.ClaimsIdentity,new</token>
 </entry>
-<entry count="33125">
+<entry count="1465171">
 <token>System.Security.Claims.ClaimsIdentity,AddClaim</token>
 <token>System.Security.Claims.Claim,new</token>
 </entry>
@@ -532,7 +662,7 @@
 <token>System.Security.Claims.ClaimsIdentity,HasClaim</token>
 <token>System.Security.Claims.Claim,new</token>
 </entry>
-<entry count="434">
+<entry count="866">
 <token>System.Security.Claims.Claim,new</token>
 <token>System.Security.Claims.ClaimsIdentity,AddClaim</token>
 <token>System.Security.Claims.ClaimsPrincipal,new</token>
@@ -543,7 +673,7 @@
 <token>System.Security.Claims.ClaimsIdentity,AddClaim</token>
 <token>System.Security.Claims.ClaimsPrincipal,new</token>
 </entry>
-<entry count="12">
+<entry count="48">
 <token>System.Security.Claims.ClaimsPrincipal,FindAll</token>
 <token>System.Security.Claims.ClaimsPrincipal,FindFirst</token>
 <token>System.Security.Claims.Claim,new</token>
@@ -552,7 +682,13 @@
 <token>System.Security.Claims.ClaimsIdentity,FindFirst</token>
 <token>System.Security.Claims.ClaimsIdentity,FindAll</token>
 </entry>
-<entry count="19047">
+<entry count="1">
+<token>System.Security.Claims.ClaimsIdentity,new</token>
+<token>System.Security.Claims.ClaimsPrincipal,new</token>
+<token>System.Security.Claims.ClaimsIdentity,new</token>
+<token>System.Security.Claims.ClaimsPrincipal,new</token>
+</entry>
+<entry count="1655968">
 <token>System.Security.Claims.ClaimsIdentity,new</token>
 <token>System.Security.Claims.Claim,new</token>
 <token>System.Security.Claims.ClaimsIdentity,AddClaim</token>
@@ -571,16 +707,28 @@
 <token>System.Security.Claims.ClaimsIdentity,new</token>
 <token>System.Security.Claims.ClaimsPrincipal,new</token>
 </entry>
-<entry count="4">
+<entry count="16">
 <token>System.Security.Claims.ClaimsIdentity,AddClaims</token>
 <token>System.Security.Claims.ClaimsPrincipal,new</token>
 </entry>
-<entry count="440">
+<entry count="216">
+<token>System.Security.Claims.Claim,new</token>
+<token>System.Security.Claims.ClaimsIdentity,AddClaim</token>
+<token>System.Security.Claims.ClaimsPrincipal,new</token>
+<token>System.Security.Claims.ClaimsAuthenticationManager,Authenticate</token>
+<token>System.Security.Claims.Claim,new</token>
+</entry>
+<entry count="2808">
 <token>System.Security.Claims.ClaimsIdentity,new</token>
 <token>System.Security.Claims.ClaimsPrincipal,new</token>
 <token>System.Security.Claims.ClaimsAuthenticationManager,Authenticate</token>
 </entry>
-<entry count="4">
+<entry count="14">
+<token>System.Security.Claims.Claim,new</token>
+<token>System.Security.Claims.ClaimsAuthorizationManager,CheckAccess</token>
+</entry>
+<entry count="2">
+<token>System.Security.Claims.Claim,new</token>
 <token>System.Security.Claims.Claim,new</token>
 <token>System.Security.Claims.ClaimsAuthorizationManager,CheckAccess</token>
 </entry>
@@ -590,7 +738,7 @@
 <token>System.Security.Claims.Claim,new</token>
 <token>System.Security.Claims.ClaimsIdentity,AddClaim</token>
 </entry>
-<entry count="4">
+<entry count="16">
 <token>System.Security.Claims.ClaimsPrincipal,FindFirst</token>
 <token>System.Security.Claims.ClaimsPrincipal,FindFirst</token>
 <token>System.Security.Claims.ClaimsIdentity,new</token>

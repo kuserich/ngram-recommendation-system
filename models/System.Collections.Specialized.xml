@@ -1,8 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?><dictionary case_sensitive="false">
-<entry count="89">
-<token>System.Collections.Specialized.StringDictionary,Add</token>
-<token>System.Collections.Specialized.StringDictionary,Add</token>
-<token>System.Collections.Specialized.StringDictionary,Add</token>
+<entry count="128">
+<token>System.Collections.Specialized.NameValueCollection,new</token>
+<token>System.Collections.Specialized.NameValueCollection,Set</token>
+<token>System.Collections.Specialized.NameValueCollection,Set</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+</entry>
+<entry count="168">
+<token>System.Collections.Specialized.NameValueCollection,GetKey</token>
+<token>System.Collections.Specialized.NameValueCollection,GetValues</token>
+<token>System.Collections.Specialized.NameValueCollection,GetKey</token>
+<token>System.Collections.Specialized.NameValueCollection,GetValues</token>
+</entry>
+<entry count="8256">
+<token>System.Collections.Specialized.StringCollection,new</token>
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.HybridDictionary,new</token>
 </entry>
 <entry count="40">
 <token>System.Collections.Specialized.NameValueCollection,Add</token>
@@ -10,15 +24,11 @@
 <token>System.Collections.Specialized.NameValueCollection,Add</token>
 <token>System.Collections.Specialized.NameValueCollection,GetValues</token>
 </entry>
-<entry count="118">
+<entry count="16277">
 <token>System.Collections.Specialized.NameValueCollection,Set</token>
 <token>System.Collections.Specialized.NameValueCollection,Set</token>
 </entry>
-<entry count="3">
-<token>System.Collections.Specialized.OrderedDictionary,new</token>
-<token>System.Collections.Specialized.OrderedDictionary,Insert</token>
-</entry>
-<entry count="192">
+<entry count="32784">
 <token>System.Collections.Specialized.NameValueCollection,new</token>
 <token>System.Collections.Specialized.NameValueCollection,Add</token>
 <token>System.Collections.Specialized.NameValueCollection,new</token>
@@ -29,31 +39,29 @@
 <token>System.Collections.Specialized.StringCollection,Add</token>
 <token>System.Collections.Specialized.StringCollection,Clear</token>
 </entry>
-<entry count="21">
+<entry count="4249">
 <token>System.Collections.Specialized.StringDictionary,ContainsKey</token>
 <token>System.Collections.Specialized.StringDictionary,ContainsKey</token>
 <token>System.Collections.Specialized.StringDictionary,ContainsKey</token>
 </entry>
-<entry count="232">
-<token>System.Collections.Specialized.NameValueCollection,Add</token>
-<token>System.Collections.Specialized.NameValueCollection,new</token>
-<token>System.Collections.Specialized.NameValueCollection,Add</token>
-</entry>
-<entry count="6">
-<token>System.Collections.Specialized.NameValueCollection,Add</token>
-<token>System.Collections.Specialized.NameValueCollection,Remove</token>
-<token>System.Collections.Specialized.NameValueCollection,Remove</token>
-<token>System.Collections.Specialized.NameValueCollection,Remove</token>
-</entry>
-<entry count="16384">
-<token>System.Collections.Specialized.NameValueCollection,Remove</token>
-<token>System.Collections.Specialized.NameValueCollection,new</token>
-</entry>
-<entry count="8">
-<token>System.Collections.Specialized.HybridDictionary,new</token>
+<entry count="12288">
+<token>System.Collections.Specialized.StringCollection,AddRange</token>
 <token>System.Collections.Specialized.HybridDictionary,new</token>
 <token>System.Collections.Specialized.StringCollection,new</token>
 <token>System.Collections.Specialized.HybridDictionary,new</token>
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+</entry>
+<entry count="1701">
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+</entry>
+<entry count="3">
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
+<token>System.Collections.Specialized.NameValueCollection,Set</token>
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
 </entry>
 <entry count="16384">
 <token>System.Collections.Specialized.NameValueCollection,Remove</token>
@@ -66,13 +74,11 @@
 <token>System.Collections.Specialized.StringCollection,Clear</token>
 <token>System.Collections.Specialized.StringCollection,Add</token>
 </entry>
-<entry count="13">
-<token>System.Collections.Specialized.StringCollection,Clear</token>
-<token>System.Collections.Specialized.StringCollection,Clear</token>
-</entry>
-<entry count="1">
-<token>System.Collections.Specialized.StringCollection,IndexOf</token>
-<token>System.Collections.Specialized.StringCollection,RemoveAt</token>
+<entry count="3">
+<token>System.Collections.Specialized.NameValueCollection,Set</token>
+<token>System.Collections.Specialized.NameValueCollection,Set</token>
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
 </entry>
 <entry count="10">
 <token>System.Collections.Specialized.StringDictionary,Remove</token>
@@ -80,14 +86,9 @@
 <token>System.Collections.Specialized.StringDictionary,Remove</token>
 <token>System.Collections.Specialized.StringDictionary,Remove</token>
 </entry>
-<entry count="49">
+<entry count="139">
 <token>System.Collections.Specialized.StringCollection,new</token>
 <token>System.Collections.Specialized.StringCollection,CopyTo</token>
-</entry>
-<entry count="9">
-<token>System.Collections.Specialized.NameValueCollection,new</token>
-<token>System.Collections.Specialized.NameValueCollection,new</token>
-<token>System.Collections.Specialized.NameValueCollection,new</token>
 </entry>
 <entry count="3">
 <token>System.Collections.Specialized.NameValueCollection,new</token>
@@ -95,77 +96,53 @@
 <token>System.Collections.Specialized.NameValueCollection,new</token>
 <token>System.Collections.Specialized.NameValueCollection,new</token>
 </entry>
+<entry count="2">
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.StringCollection,new</token>
+<token>System.Collections.Specialized.StringCollection,new</token>
+<token>System.Collections.Specialized.StringCollection,new</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+</entry>
 <entry count="9">
 <token>System.Collections.Specialized.StringCollection,Add</token>
 <token>System.Collections.Specialized.StringCollection,Add</token>
 <token>System.Collections.Specialized.StringCollection,Clear</token>
 <token>System.Collections.Specialized.StringCollection,Add</token>
 </entry>
-<entry count="2">
-<token>System.Collections.Specialized.StringCollection,Clear</token>
-<token>System.Collections.Specialized.StringCollection,Add</token>
-<token>System.Collections.Specialized.StringCollection,Add</token>
-<token>System.Collections.Specialized.StringCollection,Add</token>
-</entry>
-<entry count="6">
-<token>System.Collections.Specialized.NameValueCollection,Add</token>
-<token>System.Collections.Specialized.NameValueCollection,Remove</token>
-<token>System.Collections.Specialized.NameValueCollection,Remove</token>
-<token>System.Collections.Specialized.NameValueCollection,Remove</token>
-<token>System.Collections.Specialized.NameValueCollection,Remove</token>
-</entry>
-<entry count="8">
-<token>System.Collections.Specialized.StringDictionary,Remove</token>
-<token>System.Collections.Specialized.StringDictionary,Remove</token>
-<token>System.Collections.Specialized.StringDictionary,Remove</token>
-<token>System.Collections.Specialized.StringDictionary,Remove</token>
-<token>System.Collections.Specialized.StringDictionary,Remove</token>
-</entry>
-<entry count="2">
-<token>System.Collections.Specialized.StringCollection,Insert</token>
-<token>System.Collections.Specialized.StringCollection,RemoveAt</token>
-</entry>
-<entry count="213">
+<entry count="32989">
 <token>System.Collections.Specialized.NameValueCollection,new</token>
 <token>System.Collections.Specialized.NameValueCollection,Add</token>
 <token>System.Collections.Specialized.NameValueCollection,new</token>
 <token>System.Collections.Specialized.NameValueCollection,Add</token>
 </entry>
-<entry count="2">
-<token>System.Collections.Specialized.StringCollection,Add</token>
-<token>System.Collections.Specialized.StringCollection,Add</token>
-<token>System.Collections.Specialized.StringCollection,Clear</token>
-<token>System.Collections.Specialized.StringCollection,Add</token>
-<token>System.Collections.Specialized.StringCollection,Clear</token>
-</entry>
-<entry count="1">
-<token>System.Collections.Specialized.StringCollection,Add</token>
-<token>System.Collections.Specialized.StringCollection,Clear</token>
-<token>System.Collections.Specialized.StringCollection,Clear</token>
-<token>System.Collections.Specialized.StringCollection,Add</token>
-<token>System.Collections.Specialized.StringCollection,Clear</token>
-</entry>
-<entry count="33598">
+<entry count="1292040">
 <token>System.Collections.Specialized.NameValueCollection,Add</token>
 <token>System.Collections.Specialized.NameValueCollection,Add</token>
+</entry>
+<entry count="64">
+<token>System.Collections.Specialized.NameValueCollection,new</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Set</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
 </entry>
 <entry count="70">
 <token>System.Collections.Specialized.NameValueCollection,Clear</token>
 <token>System.Collections.Specialized.NameValueCollection,Add</token>
 </entry>
-<entry count="20">
+<entry count="2548">
 <token>System.Collections.Specialized.StringDictionary,Add</token>
 <token>System.Collections.Specialized.StringDictionary,ContainsKey</token>
 <token>System.Collections.Specialized.StringDictionary,Add</token>
 </entry>
-<entry count="2">
-<token>System.Collections.Specialized.StringCollection,Clear</token>
+<entry count="1548">
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+<token>System.Collections.Specialized.HybridDictionary,new</token>
 <token>System.Collections.Specialized.StringCollection,Add</token>
-<token>System.Collections.Specialized.StringCollection,Add</token>
-<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.HybridDictionary,new</token>
 <token>System.Collections.Specialized.StringCollection,Add</token>
 </entry>
-<entry count="6">
+<entry count="13932">
 <token>System.Collections.Specialized.HybridDictionary,new</token>
 <token>System.Collections.Specialized.HybridDictionary,new</token>
 <token>System.Collections.Specialized.HybridDictionary,new</token>
@@ -176,26 +153,19 @@
 <token>System.Collections.Specialized.StringCollection,AddRange</token>
 <token>System.Collections.Specialized.StringCollection,Add</token>
 </entry>
-<entry count="2">
-<token>System.Collections.Specialized.NameValueCollection,HasKeys</token>
-<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<entry count="34">
+<token>System.Collections.Specialized.NameValueCollection,new</token>
+<token>System.Collections.Specialized.NameValueCollection,new</token>
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
 </entry>
-<entry count="17">
-<token>System.Collections.Specialized.StringCollection,new</token>
-<token>System.Collections.Specialized.HybridDictionary,new</token>
+<entry count="152">
+<token>System.Collections.Specialized.StringDictionary,Add</token>
+<token>System.Collections.Specialized.StringDictionary,ContainsKey</token>
+<token>System.Collections.Specialized.StringDictionary,ContainsKey</token>
+<token>System.Collections.Specialized.StringDictionary,ContainsKey</token>
 </entry>
-<entry count="1">
-<token>System.Collections.Specialized.StringCollection,Add</token>
-<token>System.Collections.Specialized.StringCollection,Clear</token>
-<token>System.Collections.Specialized.StringCollection,Clear</token>
-</entry>
-<entry count="74">
-<token>System.Collections.Specialized.StringDictionary,Add</token>
-<token>System.Collections.Specialized.StringDictionary,Add</token>
-<token>System.Collections.Specialized.StringDictionary,Add</token>
-<token>System.Collections.Specialized.StringDictionary,Add</token>
-</entry>
-<entry count="2976">
+<entry count="265368">
 <token>System.Collections.Specialized.NameValueCollection,Remove</token>
 <token>System.Collections.Specialized.NameValueCollection,Remove</token>
 <token>System.Collections.Specialized.NameValueCollection,Remove</token>
@@ -207,24 +177,24 @@
 <token>System.Collections.Specialized.StringCollection,Add</token>
 <token>System.Collections.Specialized.StringCollection,Add</token>
 </entry>
-<entry count="40">
-<token>System.Collections.Specialized.NameValueCollection,Add</token>
-<token>System.Collections.Specialized.NameValueCollection,GetValues</token>
-<token>System.Collections.Specialized.NameValueCollection,GetValues</token>
-<token>System.Collections.Specialized.NameValueCollection,GetValues</token>
-</entry>
-<entry count="4">
+<entry count="2048">
 <token>System.Collections.Specialized.NameValueCollection,Set</token>
 <token>System.Collections.Specialized.NameValueCollection,Set</token>
 <token>System.Collections.Specialized.NameValueCollection,Remove</token>
 </entry>
-<entry count="208">
+<entry count="168528">
 <token>System.Collections.Specialized.NameValueCollection,Remove</token>
 <token>System.Collections.Specialized.NameValueCollection,GetKey</token>
 </entry>
-<entry count="10">
+<entry count="33026">
 <token>System.Collections.Specialized.StringCollection,CopyTo</token>
 <token>System.Collections.Specialized.StringCollection,AddRange</token>
+</entry>
+<entry count="52">
+<token>System.Collections.Specialized.StringCollection,new</token>
+<token>System.Collections.Specialized.StringCollection,new</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.StringCollection,new</token>
 </entry>
 <entry count="40">
 <token>System.Collections.Specialized.NameValueCollection,Add</token>
@@ -235,52 +205,30 @@
 <token>System.Collections.Specialized.StringDictionary,Clear</token>
 <token>System.Collections.Specialized.StringDictionary,Add</token>
 </entry>
-<entry count="21403">
-<token>System.Collections.Specialized.NameValueCollection,new</token>
-<token>System.Collections.Specialized.NameValueCollection,Add</token>
-<token>System.Collections.Specialized.NameValueCollection,Add</token>
-</entry>
-<entry count="1">
-<token>System.Collections.Specialized.StringCollection,RemoveAt</token>
+<entry count="6192">
+<token>System.Collections.Specialized.StringCollection,new</token>
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+<token>System.Collections.Specialized.HybridDictionary,new</token>
 <token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.HybridDictionary,new</token>
 </entry>
 <entry count="3">
 <token>System.Collections.Specialized.ListDictionary,new</token>
 <token>System.Collections.Specialized.ListDictionary,Add</token>
 </entry>
-<entry count="856">
-<token>System.Collections.Specialized.NameValueCollection,Remove</token>
-<token>System.Collections.Specialized.NameValueCollection,Remove</token>
-<token>System.Collections.Specialized.NameValueCollection,Add</token>
-</entry>
 <entry count="5">
 <token>System.Collections.Specialized.OrderedDictionary,new</token>
 <token>System.Collections.Specialized.OrderedDictionary,Add</token>
-</entry>
-<entry count="16">
-<token>System.Collections.Specialized.StringDictionary,Clear</token>
-<token>System.Collections.Specialized.StringDictionary,Add</token>
-<token>System.Collections.Specialized.StringDictionary,Clear</token>
-</entry>
-<entry count="1">
-<token>System.Collections.Specialized.StringCollection,Clear</token>
-<token>System.Collections.Specialized.StringCollection,AddRange</token>
 </entry>
 <entry count="1">
 <token>System.Collections.Specialized.ListDictionary,Clear</token>
 <token>System.Collections.Specialized.ListDictionary,Add</token>
 </entry>
-<entry count="4">
-<token>System.Collections.Specialized.StringDictionary,Add</token>
-<token>System.Collections.Specialized.StringDictionary,ContainsKey</token>
-<token>System.Collections.Specialized.StringDictionary,ContainsKey</token>
-<token>System.Collections.Specialized.StringDictionary,Add</token>
-</entry>
-<entry count="6">
+<entry count="24768">
 <token>System.Collections.Specialized.HybridDictionary,new</token>
 <token>System.Collections.Specialized.StringCollection,CopyTo</token>
 </entry>
-<entry count="8">
+<entry count="128">
 <token>System.Collections.Specialized.HybridDictionary,new</token>
 <token>System.Collections.Specialized.HybridDictionary,new</token>
 <token>System.Collections.Specialized.StringCollection,new</token>
@@ -289,44 +237,51 @@
 <token>System.Collections.Specialized.NameValueCollection,Get</token>
 <token>System.Collections.Specialized.NameValueCollection,Add</token>
 </entry>
-<entry count="11">
-<token>System.Collections.Specialized.StringDictionary,new</token>
-<token>System.Collections.Specialized.StringDictionary,Add</token>
+<entry count="3">
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
+<token>System.Collections.Specialized.NameValueCollection,Set</token>
+<token>System.Collections.Specialized.NameValueCollection,Set</token>
 </entry>
-<entry count="44781">
-<token>System.Collections.Specialized.NameValueCollection,Get</token>
-<token>System.Collections.Specialized.NameValueCollection,Get</token>
-<token>System.Collections.Specialized.NameValueCollection,Get</token>
-<token>System.Collections.Specialized.NameValueCollection,Get</token>
+<entry count="6192">
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+<token>System.Collections.Specialized.StringCollection,CopyTo</token>
 </entry>
-<entry count="24">
+<entry count="284">
 <token>System.Collections.Specialized.StringCollection,new</token>
 <token>System.Collections.Specialized.StringCollection,Contains</token>
 <token>System.Collections.Specialized.StringCollection,Add</token>
 </entry>
-<entry count="6">
+<entry count="18576">
 <token>System.Collections.Specialized.HybridDictionary,new</token>
 <token>System.Collections.Specialized.HybridDictionary,new</token>
 <token>System.Collections.Specialized.StringCollection,CopyTo</token>
 <token>System.Collections.Specialized.StringCollection,AddRange</token>
 </entry>
-<entry count="268">
+<entry count="25920">
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,GetKey</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,GetKey</token>
+</entry>
+<entry count="1044">
 <token>System.Collections.Specialized.NameValueCollection,new</token>
 <token>System.Collections.Specialized.NameValueCollection,new</token>
 </entry>
-<entry count="15">
+<entry count="1307">
 <token>System.Collections.Specialized.NameValueCollection,new</token>
 <token>System.Collections.Specialized.NameValueCollection,Add</token>
 <token>System.Collections.Specialized.NameValueCollection,Add</token>
 <token>System.Collections.Specialized.NameValueCollection,new</token>
 <token>System.Collections.Specialized.NameValueCollection,Add</token>
 </entry>
-<entry count="38400">
-<token>System.Collections.Specialized.StringCollection,Add</token>
-<token>System.Collections.Specialized.StringCollection,Add</token>
-<token>System.Collections.Specialized.StringCollection,Add</token>
-<token>System.Collections.Specialized.StringCollection,Add</token>
-<token>System.Collections.Specialized.StringCollection,new</token>
+<entry count="48">
+<token>System.Collections.Specialized.NameValueCollection,GetValues</token>
+<token>System.Collections.Specialized.NameValueCollection,GetKey</token>
+<token>System.Collections.Specialized.NameValueCollection,GetValues</token>
+<token>System.Collections.Specialized.NameValueCollection,GetKey</token>
 </entry>
 <entry count="1">
 <token>System.Collections.Specialized.ListDictionary,Add</token>
@@ -334,23 +289,17 @@
 <token>System.Collections.Specialized.ListDictionary,Add</token>
 <token>System.Collections.Specialized.ListDictionary,Add</token>
 </entry>
-<entry count="171650">
-<token>System.Collections.Specialized.StringCollection,Add</token>
-<token>System.Collections.Specialized.StringCollection,Add</token>
-<token>System.Collections.Specialized.StringCollection,Add</token>
-</entry>
 <entry count="6">
 <token>System.Collections.Specialized.NameValueCollection,Get</token>
 <token>System.Collections.Specialized.NameValueCollection,GetValues</token>
 </entry>
-<entry count="8">
-<token>System.Collections.Specialized.StringCollection,new</token>
+<entry count="1548">
 <token>System.Collections.Specialized.StringCollection,Add</token>
-<token>System.Collections.Specialized.StringCollection,new</token>
-<token>System.Collections.Specialized.StringCollection,Contains</token>
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+<token>System.Collections.Specialized.HybridDictionary,new</token>
 <token>System.Collections.Specialized.StringCollection,Add</token>
 </entry>
-<entry count="195">
+<entry count="32771">
 <token>System.Collections.Specialized.NameValueCollection,Add</token>
 <token>System.Collections.Specialized.NameValueCollection,new</token>
 <token>System.Collections.Specialized.NameValueCollection,Add</token>
@@ -368,41 +317,33 @@
 <token>System.Collections.Specialized.NameValueCollection,Get</token>
 <token>System.Collections.Specialized.NameValueCollection,Get</token>
 </entry>
-<entry count="2">
+<entry count="8256">
 <token>System.Collections.Specialized.StringCollection,Add</token>
 <token>System.Collections.Specialized.StringCollection,CopyTo</token>
 <token>System.Collections.Specialized.StringCollection,AddRange</token>
 </entry>
-<entry count="131740">
-<token>System.Collections.Specialized.StringCollection,Add</token>
-<token>System.Collections.Specialized.StringCollection,Add</token>
-<token>System.Collections.Specialized.StringCollection,Add</token>
-<token>System.Collections.Specialized.StringCollection,Add</token>
-</entry>
-<entry count="62">
+<entry count="9386">
 <token>System.Collections.Specialized.NameValueCollection,new</token>
 <token>System.Collections.Specialized.NameValueCollection,Remove</token>
 </entry>
-<entry count="8">
+<entry count="12960">
 <token>System.Collections.Specialized.NameValueCollection,Remove</token>
 <token>System.Collections.Specialized.NameValueCollection,Remove</token>
 <token>System.Collections.Specialized.NameValueCollection,Remove</token>
 <token>System.Collections.Specialized.NameValueCollection,GetKey</token>
 </entry>
-<entry count="20">
-<token>System.Collections.Specialized.StringDictionary,ContainsKey</token>
-<token>System.Collections.Specialized.StringDictionary,Add</token>
-<token>System.Collections.Specialized.StringDictionary,ContainsKey</token>
-<token>System.Collections.Specialized.StringDictionary,Add</token>
-</entry>
-<entry count="4">
+<entry count="1032">
 <token>System.Collections.Specialized.StringDictionary,ContainsKey</token>
 <token>System.Collections.Specialized.StringDictionary,ContainsKey</token>
 <token>System.Collections.Specialized.StringDictionary,ContainsKey</token>
 <token>System.Collections.Specialized.StringDictionary,ContainsKey</token>
 <token>System.Collections.Specialized.StringDictionary,ContainsKey</token>
 </entry>
-<entry count="2">
+<entry count="111">
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
+<token>System.Collections.Specialized.NameValueCollection,Set</token>
+</entry>
+<entry count="8256">
 <token>System.Collections.Specialized.HybridDictionary,new</token>
 <token>System.Collections.Specialized.StringCollection,Add</token>
 <token>System.Collections.Specialized.StringCollection,CopyTo</token>
@@ -413,23 +354,24 @@
 <token>System.Collections.Specialized.StringCollection,Add</token>
 <token>System.Collections.Specialized.StringCollection,Clear</token>
 </entry>
-<entry count="10">
+<entry count="28">
 <token>System.Collections.Specialized.StringCollection,new</token>
 <token>System.Collections.Specialized.StringCollection,Add</token>
 <token>System.Collections.Specialized.StringCollection,CopyTo</token>
 </entry>
-<entry count="7564">
+<entry count="832">
+<token>System.Collections.Specialized.NameValueCollection,new</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Set</token>
+</entry>
+<entry count="685745">
 <token>System.Collections.Specialized.NameValueCollection,Add</token>
 <token>System.Collections.Specialized.NameValueCollection,Add</token>
 <token>System.Collections.Specialized.NameValueCollection,Add</token>
 <token>System.Collections.Specialized.NameValueCollection,Add</token>
 </entry>
-<entry count="12">
-<token>System.Collections.Specialized.NameValueCollection,Add</token>
-<token>System.Collections.Specialized.NameValueCollection,Remove</token>
-<token>System.Collections.Specialized.NameValueCollection,Remove</token>
-</entry>
-<entry count="8">
+<entry count="96">
 <token>System.Collections.Specialized.HybridDictionary,new</token>
 <token>System.Collections.Specialized.HybridDictionary,new</token>
 <token>System.Collections.Specialized.StringCollection,new</token>
@@ -442,47 +384,29 @@
 <token>System.Collections.Specialized.NameValueCollection,GetValues</token>
 <token>System.Collections.Specialized.NameValueCollection,GetValues</token>
 </entry>
-<entry count="2">
-<token>System.Collections.Specialized.NameValueCollection,Get</token>
-<token>System.Collections.Specialized.NameValueCollection,GetValues</token>
-<token>System.Collections.Specialized.NameValueCollection,Get</token>
-<token>System.Collections.Specialized.NameValueCollection,Get</token>
-<token>System.Collections.Specialized.NameValueCollection,Add</token>
-</entry>
-<entry count="10">
-<token>System.Collections.Specialized.BitVector32,CreateMask</token>
-<token>System.Collections.Specialized.BitVector32,CreateMask</token>
-</entry>
 <entry count="9">
 <token>System.Collections.Specialized.StringCollection,Add</token>
 <token>System.Collections.Specialized.StringCollection,Add</token>
 <token>System.Collections.Specialized.StringCollection,Clear</token>
 </entry>
-<entry count="4">
-<token>System.Collections.Specialized.StringCollection,new</token>
-<token>System.Collections.Specialized.StringCollection,new</token>
-<token>System.Collections.Specialized.StringCollection,Contains</token>
+<entry count="2064">
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.StringCollection,CopyTo</token>
 </entry>
 <entry count="2">
 <token>System.Collections.Specialized.NameValueCollection,Get</token>
 <token>System.Collections.Specialized.NameValueCollection,Get</token>
 <token>System.Collections.Specialized.NameValueCollection,Add</token>
 </entry>
-<entry count="10">
-<token>System.Collections.Specialized.ListDictionary,Add</token>
-<token>System.Collections.Specialized.ListDictionary,Add</token>
-</entry>
-<entry count="1">
-<token>System.Collections.Specialized.OrderedDictionary,Contains</token>
-<token>System.Collections.Specialized.OrderedDictionary,Remove</token>
-</entry>
-<entry count="8">
+<entry count="3328">
 <token>System.Collections.Specialized.NameValueCollection,new</token>
 <token>System.Collections.Specialized.NameValueCollection,Set</token>
 <token>System.Collections.Specialized.NameValueCollection,Set</token>
 <token>System.Collections.Specialized.NameValueCollection,Set</token>
 </entry>
-<entry count="201">
+<entry count="205">
 <token>System.Collections.Specialized.NameValueCollection,GetValues</token>
 <token>System.Collections.Specialized.NameValueCollection,GetValues</token>
 </entry>
@@ -491,6 +415,1579 @@
 <token>System.Collections.Specialized.StringCollection,Add</token>
 <token>System.Collections.Specialized.StringCollection,Add</token>
 <token>System.Collections.Specialized.StringCollection,Clear</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+</entry>
+<entry count="2064">
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+</entry>
+<entry count="18">
+<token>System.Collections.Specialized.CollectionsUtil,CreateCaseInsensitiveHashtable</token>
+<token>System.Collections.Specialized.CollectionsUtil,CreateCaseInsensitiveHashtable</token>
+<token>System.Collections.Specialized.CollectionsUtil,CreateCaseInsensitiveHashtable</token>
+</entry>
+<entry count="128">
+<token>System.Collections.Specialized.NameValueCollection,Set</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Set</token>
+</entry>
+<entry count="12960">
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,GetKey</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+</entry>
+<entry count="2840">
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
+</entry>
+<entry count="582">
+<token>System.Collections.Specialized.NameValueCollection,Set</token>
+<token>System.Collections.Specialized.NameValueCollection,Set</token>
+<token>System.Collections.Specialized.NameValueCollection,Set</token>
+<token>System.Collections.Specialized.NameValueCollection,Set</token>
+</entry>
+<entry count="16">
+<token>System.Collections.Specialized.StringCollection,new</token>
+<token>System.Collections.Specialized.StringCollection,Contains</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.StringCollection,new</token>
+<token>System.Collections.Specialized.StringCollection,Contains</token>
+</entry>
+<entry count="512">
+<token>System.Collections.Specialized.ListDictionary,new</token>
+<token>System.Collections.Specialized.ListDictionary,new</token>
+<token>System.Collections.Specialized.ListDictionary,Contains</token>
+<token>System.Collections.Specialized.ListDictionary,Contains</token>
+</entry>
+<entry count="128">
+<token>System.Collections.Specialized.NameValueCollection,new</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Set</token>
+<token>System.Collections.Specialized.NameValueCollection,Set</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+</entry>
+<entry count="3">
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.StringCollection,Clear</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.StringCollection,Clear</token>
+</entry>
+<entry count="1311">
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
+<token>System.Collections.Specialized.NameValueCollection,new</token>
+</entry>
+<entry count="12288">
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+<token>System.Collections.Specialized.StringCollection,CopyTo</token>
+<token>System.Collections.Specialized.StringCollection,AddRange</token>
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+<token>System.Collections.Specialized.StringCollection,new</token>
+</entry>
+<entry count="516">
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+</entry>
+<entry count="16391">
+<token>System.Collections.Specialized.StringDictionary,new</token>
+<token>System.Collections.Specialized.StringDictionary,Add</token>
+<token>System.Collections.Specialized.StringDictionary,Add</token>
+<token>System.Collections.Specialized.StringDictionary,Add</token>
+</entry>
+<entry count="2840">
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
+</entry>
+<entry count="588">
+<token>System.Collections.Specialized.StringDictionary,ContainsKey</token>
+<token>System.Collections.Specialized.StringDictionary,ContainsKey</token>
+<token>System.Collections.Specialized.StringDictionary,Add</token>
+<token>System.Collections.Specialized.StringDictionary,ContainsKey</token>
+<token>System.Collections.Specialized.StringDictionary,Add</token>
+</entry>
+<entry count="1">
+<token>System.Collections.Specialized.ListDictionary,new</token>
+<token>System.Collections.Specialized.ListDictionary,Add</token>
+<token>System.Collections.Specialized.ListDictionary,Add</token>
+<token>System.Collections.Specialized.ListDictionary,Add</token>
+<token>System.Collections.Specialized.ListDictionary,Add</token>
+</entry>
+<entry count="288">
+<token>System.Collections.Specialized.StringDictionary,ContainsValue</token>
+<token>System.Collections.Specialized.StringDictionary,Add</token>
+</entry>
+<entry count="6192">
+<token>System.Collections.Specialized.StringCollection,new</token>
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+</entry>
+<entry count="97759">
+<token>System.Collections.Specialized.StringCollection,new</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+</entry>
+<entry count="26">
+<token>System.Collections.Specialized.StringCollection,new</token>
+<token>System.Collections.Specialized.StringCollection,new</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.StringCollection,new</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+</entry>
+<entry count="16512">
+<token>System.Collections.Specialized.StringCollection,new</token>
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+<token>System.Collections.Specialized.StringCollection,new</token>
+</entry>
+<entry count="4644">
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+<token>System.Collections.Specialized.StringCollection,CopyTo</token>
+</entry>
+<entry count="33243">
+<token>System.Collections.Specialized.NameValueCollection,new</token>
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
+<token>System.Collections.Specialized.NameValueCollection,new</token>
+</entry>
+<entry count="256">
+<token>System.Collections.Specialized.NameValueCollection,new</token>
+<token>System.Collections.Specialized.NameValueCollection,Set</token>
+<token>System.Collections.Specialized.NameValueCollection,Set</token>
+<token>System.Collections.Specialized.NameValueCollection,Set</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+</entry>
+<entry count="25920">
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,GetKey</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,GetKey</token>
+</entry>
+<entry count="2">
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.StringCollection,Clear</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+</entry>
+<entry count="6">
+<token>System.Collections.Specialized.StringCollection,Contains</token>
+<token>System.Collections.Specialized.StringCollection,Contains</token>
+<token>System.Collections.Specialized.StringCollection,Contains</token>
+<token>System.Collections.Specialized.StringCollection,Contains</token>
+<token>System.Collections.Specialized.StringCollection,Contains</token>
+</entry>
+<entry count="3">
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
+<token>System.Collections.Specialized.NameValueCollection,Set</token>
+</entry>
+<entry count="386">
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.StringCollection,new</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+</entry>
+<entry count="52">
+<token>System.Collections.Specialized.StringCollection,new</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.StringCollection,new</token>
+<token>System.Collections.Specialized.StringCollection,new</token>
+</entry>
+<entry count="40">
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
+<token>System.Collections.Specialized.NameValueCollection,GetValues</token>
+<token>System.Collections.Specialized.NameValueCollection,GetValues</token>
+</entry>
+<entry count="16384">
+<token>System.Collections.Specialized.StringCollection,AddRange</token>
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+<token>System.Collections.Specialized.StringCollection,new</token>
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+</entry>
+<entry count="12384">
+<token>System.Collections.Specialized.StringCollection,new</token>
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+<token>System.Collections.Specialized.StringCollection,new</token>
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+</entry>
+<entry count="1">
+<token>System.Collections.Specialized.StringDictionary,ContainsKey</token>
+<token>System.Collections.Specialized.StringDictionary,Remove</token>
+<token>System.Collections.Specialized.StringDictionary,Add</token>
+</entry>
+<entry count="1176">
+<token>System.Collections.Specialized.StringDictionary,ContainsKey</token>
+<token>System.Collections.Specialized.StringDictionary,Add</token>
+<token>System.Collections.Specialized.StringDictionary,ContainsKey</token>
+<token>System.Collections.Specialized.StringDictionary,ContainsKey</token>
+</entry>
+<entry count="1">
+<token>System.Collections.Specialized.StringCollection,Clear</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.StringCollection,Clear</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.StringCollection,Clear</token>
+</entry>
+<entry count="87810">
+<token>System.Collections.Specialized.StringCollection,new</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+</entry>
+<entry count="6192">
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+<token>System.Collections.Specialized.StringCollection,new</token>
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+</entry>
+<entry count="3096">
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+<token>System.Collections.Specialized.StringCollection,CopyTo</token>
+<token>System.Collections.Specialized.StringCollection,AddRange</token>
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+</entry>
+<entry count="366">
+<token>System.Collections.Specialized.StringCollection,new</token>
+<token>System.Collections.Specialized.StringCollection,new</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+</entry>
+<entry count="111">
+<token>System.Collections.Specialized.NameValueCollection,Set</token>
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
+</entry>
+<entry count="93312">
+<token>System.Collections.Specialized.NameValueCollection,GetKey</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,GetKey</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+</entry>
+<entry count="1">
+<token>System.Collections.Specialized.NameValueCollection,new</token>
+<token>System.Collections.Specialized.StringCollection,new</token>
+</entry>
+<entry count="1">
+<token>System.Collections.Specialized.StringCollection,Clear</token>
+<token>System.Collections.Specialized.StringCollection,Clear</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.StringCollection,Clear</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+</entry>
+<entry count="159592">
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+</entry>
+<entry count="1548">
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.StringCollection,CopyTo</token>
+</entry>
+<entry count="2">
+<token>System.Collections.Specialized.StringCollection,Contains</token>
+<token>System.Collections.Specialized.StringCollection,Remove</token>
+<token>System.Collections.Specialized.StringCollection,Insert</token>
+</entry>
+<entry count="16512">
+<token>System.Collections.Specialized.StringCollection,CopyTo</token>
+<token>System.Collections.Specialized.StringCollection,AddRange</token>
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+</entry>
+<entry count="1024">
+<token>System.Collections.Specialized.ListDictionary,new</token>
+<token>System.Collections.Specialized.ListDictionary,new</token>
+<token>System.Collections.Specialized.ListDictionary,Contains</token>
+</entry>
+<entry count="2064">
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.StringCollection,CopyTo</token>
+<token>System.Collections.Specialized.StringCollection,AddRange</token>
+</entry>
+<entry count="12">
+<token>System.Collections.Specialized.StringDictionary,Remove</token>
+<token>System.Collections.Specialized.StringDictionary,Remove</token>
+<token>System.Collections.Specialized.StringDictionary,Remove</token>
+</entry>
+<entry count="4">
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
+<token>System.Collections.Specialized.NameValueCollection,new</token>
+</entry>
+<entry count="16384">
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,new</token>
+</entry>
+<entry count="180">
+<token>System.Collections.Specialized.StringCollection,new</token>
+<token>System.Collections.Specialized.StringCollection,Contains</token>
+<token>System.Collections.Specialized.StringCollection,Contains</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+</entry>
+<entry count="16384">
+<token>System.Collections.Specialized.StringCollection,CopyTo</token>
+<token>System.Collections.Specialized.StringCollection,AddRange</token>
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+<token>System.Collections.Specialized.StringCollection,new</token>
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+</entry>
+<entry count="7">
+<token>System.Collections.Specialized.NameValueCollection,GetValues</token>
+<token>System.Collections.Specialized.NameValueCollection,Get</token>
+<token>System.Collections.Specialized.NameValueCollection,Get</token>
+</entry>
+<entry count="1548">
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+<token>System.Collections.Specialized.StringCollection,CopyTo</token>
+</entry>
+<entry count="18576">
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+<token>System.Collections.Specialized.StringCollection,new</token>
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+</entry>
+<entry count="588">
+<token>System.Collections.Specialized.StringDictionary,ContainsKey</token>
+<token>System.Collections.Specialized.StringDictionary,ContainsKey</token>
+<token>System.Collections.Specialized.StringDictionary,ContainsKey</token>
+<token>System.Collections.Specialized.StringDictionary,Add</token>
+</entry>
+<entry count="1080">
+<token>System.Collections.Specialized.StringCollection,new</token>
+<token>System.Collections.Specialized.StringCollection,Contains</token>
+<token>System.Collections.Specialized.StringCollection,Contains</token>
+</entry>
+<entry count="1142">
+<token>System.Collections.Specialized.StringCollection,Contains</token>
+<token>System.Collections.Specialized.StringCollection,Contains</token>
+</entry>
+<entry count="7995">
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Set</token>
+</entry>
+<entry count="1024">
+<token>System.Collections.Specialized.NameValueCollection,Set</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+</entry>
+<entry count="8">
+<token>System.Collections.Specialized.StringDictionary,Add</token>
+<token>System.Collections.Specialized.StringDictionary,ContainsKey</token>
+<token>System.Collections.Specialized.StringDictionary,ContainsKey</token>
+<token>System.Collections.Specialized.StringDictionary,ContainsKey</token>
+<token>System.Collections.Specialized.StringDictionary,ContainsKey</token>
+</entry>
+<entry count="26">
+<token>System.Collections.Specialized.StringCollection,new</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.StringCollection,new</token>
+<token>System.Collections.Specialized.StringCollection,new</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+</entry>
+<entry count="8">
+<token>System.Collections.Specialized.StringCollection,Contains</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.StringCollection,new</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+</entry>
+<entry count="2">
+<token>System.Collections.Specialized.CollectionsUtil,CreateCaseInsensitiveHashtable</token>
+<token>System.Collections.Specialized.StringCollection,Contains</token>
+</entry>
+<entry count="1">
+<token>System.Collections.Specialized.NameValueCollection,new</token>
+<token>System.Collections.Specialized.StringCollection,new</token>
+<token>System.Collections.Specialized.StringCollection,new</token>
+</entry>
+<entry count="856">
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
+</entry>
+<entry count="33024">
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+<token>System.Collections.Specialized.StringCollection,new</token>
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+</entry>
+<entry count="27">
+<token>System.Collections.Specialized.StringCollection,new</token>
+<token>System.Collections.Specialized.StringCollection,Clear</token>
+<token>System.Collections.Specialized.StringCollection,Clear</token>
+</entry>
+<entry count="216">
+<token>System.Collections.Specialized.StringCollection,new</token>
+<token>System.Collections.Specialized.StringCollection,Contains</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.StringCollection,Contains</token>
+</entry>
+<entry count="4644">
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.StringCollection,CopyTo</token>
+</entry>
+<entry count="1600">
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.StringCollection,Remove</token>
+</entry>
+<entry count="40">
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
+<token>System.Collections.Specialized.NameValueCollection,GetValues</token>
+<token>System.Collections.Specialized.NameValueCollection,GetValues</token>
+<token>System.Collections.Specialized.NameValueCollection,GetValues</token>
+<token>System.Collections.Specialized.NameValueCollection,GetValues</token>
+</entry>
+<entry count="128">
+<token>System.Collections.Specialized.NameValueCollection,new</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Set</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Set</token>
+</entry>
+<entry count="16384">
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,new</token>
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
+</entry>
+<entry count="1134">
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,GetKey</token>
+</entry>
+<entry count="12384">
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+<token>System.Collections.Specialized.StringCollection,CopyTo</token>
+<token>System.Collections.Specialized.StringCollection,AddRange</token>
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+</entry>
+<entry count="832">
+<token>System.Collections.Specialized.NameValueCollection,new</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Set</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+</entry>
+<entry count="1">
+<token>System.Collections.Specialized.StringDictionary,new</token>
+<token>System.Collections.Specialized.StringDictionary,ContainsKey</token>
+<token>System.Collections.Specialized.StringDictionary,Add</token>
+</entry>
+<entry count="44064">
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,GetKey</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+</entry>
+<entry count="256">
+<token>System.Collections.Specialized.NameValueCollection,new</token>
+<token>System.Collections.Specialized.NameValueCollection,Set</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Set</token>
+<token>System.Collections.Specialized.NameValueCollection,Set</token>
+</entry>
+<entry count="5109">
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+</entry>
+<entry count="4898">
+<token>System.Collections.Specialized.NameValueCollection,new</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Set</token>
+</entry>
+<entry count="2801">
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+</entry>
+<entry count="87810">
+<token>System.Collections.Specialized.StringCollection,new</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+</entry>
+<entry count="2">
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.StringCollection,Clear</token>
+</entry>
+<entry count="256">
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Set</token>
+<token>System.Collections.Specialized.NameValueCollection,Set</token>
+<token>System.Collections.Specialized.NameValueCollection,Set</token>
+</entry>
+<entry count="512">
+<token>System.Collections.Specialized.ListDictionary,Contains</token>
+<token>System.Collections.Specialized.ListDictionary,Contains</token>
+</entry>
+<entry count="111505">
+<token>System.Collections.Specialized.NameValueCollection,new</token>
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
+</entry>
+<entry count="64">
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Set</token>
+</entry>
+<entry count="13932">
+<token>System.Collections.Specialized.StringCollection,new</token>
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+<token>System.Collections.Specialized.StringCollection,CopyTo</token>
+</entry>
+<entry count="20736">
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,GetKey</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+</entry>
+<entry count="38137">
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
+</entry>
+<entry count="69984">
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,GetKey</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+</entry>
+<entry count="16384">
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,new</token>
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
+</entry>
+<entry count="16391">
+<token>System.Collections.Specialized.StringDictionary,new</token>
+<token>System.Collections.Specialized.StringDictionary,Add</token>
+<token>System.Collections.Specialized.StringDictionary,Add</token>
+</entry>
+<entry count="4096">
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.StringCollection,CopyTo</token>
+<token>System.Collections.Specialized.StringCollection,AddRange</token>
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+<token>System.Collections.Specialized.StringCollection,new</token>
+</entry>
+<entry count="4">
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.StringCollection,new</token>
+<token>System.Collections.Specialized.StringCollection,new</token>
+<token>System.Collections.Specialized.StringCollection,new</token>
+</entry>
+<entry count="1">
+<token>System.Collections.Specialized.StringDictionary,new</token>
+<token>System.Collections.Specialized.StringDictionary,new</token>
+</entry>
+<entry count="229383">
+<token>System.Collections.Specialized.StringDictionary,Add</token>
+<token>System.Collections.Specialized.StringDictionary,Add</token>
+<token>System.Collections.Specialized.StringDictionary,Add</token>
+<token>System.Collections.Specialized.StringDictionary,Add</token>
+<token>System.Collections.Specialized.StringDictionary,Add</token>
+</entry>
+<entry count="2">
+<token>System.Collections.Specialized.StringDictionary,Add</token>
+<token>System.Collections.Specialized.StringDictionary,Remove</token>
+<token>System.Collections.Specialized.StringDictionary,Add</token>
+</entry>
+<entry count="9194">
+<token>System.Collections.Specialized.StringDictionary,ContainsKey</token>
+<token>System.Collections.Specialized.StringDictionary,ContainsKey</token>
+</entry>
+<entry count="278568">
+<token>System.Collections.Specialized.StringDictionary,Add</token>
+<token>System.Collections.Specialized.StringDictionary,Add</token>
+</entry>
+<entry count="8">
+<token>System.Collections.Specialized.StringCollection,new</token>
+<token>System.Collections.Specialized.StringCollection,AddRange</token>
+</entry>
+<entry count="2">
+<token>System.Collections.Specialized.StringCollection,Remove</token>
+<token>System.Collections.Specialized.StringCollection,Insert</token>
+</entry>
+<entry count="1">
+<token>System.Collections.Specialized.StringCollection,IndexOf</token>
+<token>System.Collections.Specialized.StringCollection,RemoveAt</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+</entry>
+<entry count="15">
+<token>System.Collections.Specialized.StringCollection,Clear</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+</entry>
+<entry count="3">
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
+<token>System.Collections.Specialized.NameValueCollection,Set</token>
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
+</entry>
+<entry count="87808">
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.StringCollection,new</token>
+</entry>
+<entry count="4">
+<token>System.Collections.Specialized.StringCollection,new</token>
+<token>System.Collections.Specialized.StringCollection,new</token>
+<token>System.Collections.Specialized.StringCollection,new</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.StringCollection,new</token>
+</entry>
+<entry count="3406">
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,GetKey</token>
+</entry>
+<entry count="25920">
+<token>System.Collections.Specialized.NameValueCollection,GetKey</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,GetKey</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+</entry>
+<entry count="128">
+<token>System.Collections.Specialized.NameValueCollection,Set</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Set</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+</entry>
+<entry count="88064">
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.StringCollection,new</token>
+</entry>
+<entry count="278230">
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+</entry>
+<entry count="51840">
+<token>System.Collections.Specialized.NameValueCollection,GetKey</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,GetKey</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,GetKey</token>
+</entry>
+<entry count="6192">
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.StringCollection,CopyTo</token>
+</entry>
+<entry count="4">
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
+<token>System.Collections.Specialized.NameValueCollection,new</token>
+</entry>
+<entry count="18576">
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+<token>System.Collections.Specialized.StringCollection,CopyTo</token>
+</entry>
+<entry count="24">
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.StringCollection,new</token>
+<token>System.Collections.Specialized.StringCollection,Contains</token>
+</entry>
+<entry count="32">
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+<token>System.Collections.Specialized.StringCollection,new</token>
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+</entry>
+<entry count="16">
+<token>System.Collections.Specialized.StringDictionary,Add</token>
+<token>System.Collections.Specialized.StringDictionary,Clear</token>
+</entry>
+<entry count="16384">
+<token>System.Collections.Specialized.StringCollection,AddRange</token>
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+<token>System.Collections.Specialized.StringCollection,new</token>
+</entry>
+<entry count="12384">
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+</entry>
+<entry count="41472">
+<token>System.Collections.Specialized.NameValueCollection,GetKey</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,GetKey</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+</entry>
+<entry count="40">
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
+<token>System.Collections.Specialized.NameValueCollection,GetValues</token>
+<token>System.Collections.Specialized.NameValueCollection,GetValues</token>
+</entry>
+<entry count="1">
+<token>System.Collections.Specialized.NotifyCollectionChangedEventArgs,new</token>
+<token>System.Collections.Specialized.NotifyCollectionChangedEventArgs,new</token>
+</entry>
+<entry count="24">
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.StringCollection,new</token>
+<token>System.Collections.Specialized.StringCollection,Contains</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+</entry>
+<entry count="1">
+<token>System.Collections.Specialized.StringCollection,Remove</token>
+<token>System.Collections.Specialized.StringCollection,Insert</token>
+<token>System.Collections.Specialized.StringCollection,RemoveAt</token>
+</entry>
+<entry count="16512">
+<token>System.Collections.Specialized.StringCollection,new</token>
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+<token>System.Collections.Specialized.StringCollection,new</token>
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+</entry>
+<entry count="1">
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.StringCollection,Clear</token>
+<token>System.Collections.Specialized.StringCollection,Clear</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+</entry>
+<entry count="222">
+<token>System.Collections.Specialized.StringCollection,Contains</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.StringCollection,Contains</token>
+</entry>
+<entry count="856">
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
+</entry>
+<entry count="168">
+<token>System.Collections.Specialized.NameValueCollection,GetValues</token>
+<token>System.Collections.Specialized.NameValueCollection,GetKey</token>
+<token>System.Collections.Specialized.NameValueCollection,GetValues</token>
+</entry>
+<entry count="1">
+<token>System.Collections.Specialized.StringCollection,Clear</token>
+<token>System.Collections.Specialized.StringCollection,Clear</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.StringCollection,Clear</token>
+</entry>
+<entry count="4">
+<token>System.Collections.Specialized.CollectionsUtil,CreateCaseInsensitiveHashtable</token>
+<token>System.Collections.Specialized.StringCollection,new</token>
+</entry>
+<entry count="1024">
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Set</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+</entry>
+<entry count="10">
+<token>System.Collections.Specialized.NotifyCollectionChangedEventArgs,new</token>
+<token>System.Collections.Specialized.NotifyCollectionChangedEventHandler,Invoke</token>
+</entry>
+<entry count="16384">
+<token>System.Collections.Specialized.StringCollection,CopyTo</token>
+<token>System.Collections.Specialized.StringCollection,AddRange</token>
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+<token>System.Collections.Specialized.StringCollection,new</token>
+</entry>
+<entry count="2064">
+<token>System.Collections.Specialized.StringCollection,new</token>
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+</entry>
+<entry count="514337">
+<token>System.Collections.Specialized.NameValueCollection,new</token>
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
+</entry>
+<entry count="346">
+<token>System.Collections.Specialized.NameValueCollection,new</token>
+<token>System.Collections.Specialized.NameValueCollection,new</token>
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
+</entry>
+<entry count="226">
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.StringCollection,Contains</token>
+</entry>
+<entry count="27">
+<token>System.Collections.Specialized.NameValueCollection,new</token>
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
+<token>System.Collections.Specialized.NameValueCollection,new</token>
+<token>System.Collections.Specialized.NameValueCollection,new</token>
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
+</entry>
+<entry count="1">
+<token>System.Collections.Specialized.NameValueCollection,GetValues</token>
+<token>System.Collections.Specialized.NameValueCollection,Get</token>
+<token>System.Collections.Specialized.NameValueCollection,Get</token>
+<token>System.Collections.Specialized.NameValueCollection,Get</token>
+</entry>
+<entry count="152">
+<token>System.Collections.Specialized.StringDictionary,Add</token>
+<token>System.Collections.Specialized.StringDictionary,ContainsKey</token>
+<token>System.Collections.Specialized.StringDictionary,ContainsKey</token>
+<token>System.Collections.Specialized.StringDictionary,Add</token>
+<token>System.Collections.Specialized.StringDictionary,ContainsKey</token>
+</entry>
+<entry count="3">
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
+<token>System.Collections.Specialized.NameValueCollection,Set</token>
+</entry>
+<entry count="32">
+<token>System.Collections.Specialized.NameValueCollection,new</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+</entry>
+<entry count="2200">
+<token>System.Collections.Specialized.StringDictionary,ContainsKey</token>
+<token>System.Collections.Specialized.StringDictionary,ContainsKey</token>
+<token>System.Collections.Specialized.StringDictionary,ContainsKey</token>
+<token>System.Collections.Specialized.StringDictionary,ContainsKey</token>
+</entry>
+<entry count="93312">
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,GetKey</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,GetKey</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+</entry>
+<entry count="128">
+<token>System.Collections.Specialized.NameValueCollection,Set</token>
+<token>System.Collections.Specialized.NameValueCollection,Set</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+</entry>
+<entry count="1">
+<token>System.Collections.Specialized.NameValueCollection,Get</token>
+<token>System.Collections.Specialized.NameValueCollection,Set</token>
+</entry>
+<entry count="1">
+<token>System.Collections.Specialized.StringCollection,IndexOf</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+</entry>
+<entry count="10">
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.StringCollection,Clear</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+</entry>
+<entry count="1">
+<token>System.Collections.Specialized.ListDictionary,new</token>
+<token>System.Collections.Specialized.ListDictionary,new</token>
+<token>System.Collections.Specialized.ListDictionary,new</token>
+</entry>
+<entry count="6192">
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+</entry>
+<entry count="64">
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Set</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+</entry>
+<entry count="58156769">
+<token>System.Collections.Specialized.NameValueCollection,Get</token>
+<token>System.Collections.Specialized.NameValueCollection,Get</token>
+<token>System.Collections.Specialized.NameValueCollection,Get</token>
+<token>System.Collections.Specialized.NameValueCollection,Get</token>
+<token>System.Collections.Specialized.NameValueCollection,Get</token>
+</entry>
+<entry count="1176">
+<token>System.Collections.Specialized.StringDictionary,ContainsKey</token>
+<token>System.Collections.Specialized.StringDictionary,Add</token>
+<token>System.Collections.Specialized.StringDictionary,ContainsKey</token>
+<token>System.Collections.Specialized.StringDictionary,Add</token>
+<token>System.Collections.Specialized.StringDictionary,ContainsKey</token>
+</entry>
+<entry count="4128">
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+</entry>
+<entry count="55">
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
+<token>System.Collections.Specialized.NameValueCollection,new</token>
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
+<token>System.Collections.Specialized.NameValueCollection,new</token>
+</entry>
+<entry count="1311">
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
+<token>System.Collections.Specialized.NameValueCollection,new</token>
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
+</entry>
+<entry count="8284">
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.StringCollection,CopyTo</token>
+</entry>
+<entry count="2548">
+<token>System.Collections.Specialized.StringDictionary,ContainsKey</token>
+<token>System.Collections.Specialized.StringDictionary,ContainsKey</token>
+<token>System.Collections.Specialized.StringDictionary,Add</token>
+</entry>
+<entry count="1842">
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,GetKey</token>
+</entry>
+<entry count="1176">
+<token>System.Collections.Specialized.StringDictionary,ContainsKey</token>
+<token>System.Collections.Specialized.StringDictionary,ContainsKey</token>
+<token>System.Collections.Specialized.StringDictionary,Add</token>
+<token>System.Collections.Specialized.StringDictionary,ContainsKey</token>
+</entry>
+<entry count="1548">
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+</entry>
+<entry count="6812">
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,GetKey</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,GetKey</token>
+</entry>
+<entry count="64">
+<token>System.Collections.Specialized.NameValueCollection,new</token>
+<token>System.Collections.Specialized.NameValueCollection,Set</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+</entry>
+<entry count="140">
+<token>System.Collections.Specialized.NameValueCollection,GetValues</token>
+<token>System.Collections.Specialized.NameValueCollection,GetValues</token>
+<token>System.Collections.Specialized.NameValueCollection,GetValues</token>
+</entry>
+<entry count="2">
+<token>System.Collections.Specialized.StringDictionary,new</token>
+<token>System.Collections.Specialized.StringDictionary,ContainsKey</token>
+</entry>
+<entry count="2">
+<token>System.Collections.Specialized.ListDictionary,new</token>
+<token>System.Collections.Specialized.ListDictionary,Add</token>
+<token>System.Collections.Specialized.ListDictionary,Add</token>
+<token>System.Collections.Specialized.ListDictionary,Add</token>
+</entry>
+<entry count="39">
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.StringCollection,Contains</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+</entry>
+<entry count="4">
+<token>System.Collections.Specialized.StringCollection,new</token>
+<token>System.Collections.Specialized.StringCollection,new</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.StringCollection,new</token>
+<token>System.Collections.Specialized.StringCollection,new</token>
+</entry>
+<entry count="10218">
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,GetKey</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+</entry>
+<entry count="24768">
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+<token>System.Collections.Specialized.StringCollection,new</token>
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+</entry>
+<entry count="8256">
+<token>System.Collections.Specialized.StringCollection,new</token>
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+</entry>
+<entry count="64">
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Set</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+</entry>
+<entry count="10218">
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,GetKey</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+</entry>
+<entry count="3">
+<token>System.Collections.Specialized.ListDictionary,Add</token>
+<token>System.Collections.Specialized.ListDictionary,Add</token>
+<token>System.Collections.Specialized.ListDictionary,Add</token>
+</entry>
+<entry count="10">
+<token>System.Collections.Specialized.NameValueCollection,Clear</token>
+<token>System.Collections.Specialized.NameValueCollection,GetValues</token>
+</entry>
+<entry count="6192">
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+<token>System.Collections.Specialized.StringCollection,CopyTo</token>
+<token>System.Collections.Specialized.StringCollection,AddRange</token>
+</entry>
+<entry count="12">
+<token>System.Collections.Specialized.StringCollection,AddRange</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+</entry>
+<entry count="3402">
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,GetKey</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+</entry>
+<entry count="574102">
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
+</entry>
+<entry count="54">
+<token>System.Collections.Specialized.NameValueCollection,new</token>
+<token>System.Collections.Specialized.NameValueCollection,new</token>
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
+<token>System.Collections.Specialized.NameValueCollection,new</token>
+</entry>
+<entry count="1176">
+<token>System.Collections.Specialized.StringDictionary,Add</token>
+<token>System.Collections.Specialized.StringDictionary,ContainsKey</token>
+<token>System.Collections.Specialized.StringDictionary,ContainsKey</token>
+</entry>
+<entry count="40">
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
+<token>System.Collections.Specialized.NameValueCollection,GetValues</token>
+</entry>
+<entry count="8">
+<token>System.Collections.Specialized.StringCollection,Contains</token>
+<token>System.Collections.Specialized.StringCollection,Contains</token>
+<token>System.Collections.Specialized.StringCollection,Contains</token>
+<token>System.Collections.Specialized.StringCollection,Contains</token>
+</entry>
+<entry count="2">
+<token>System.Collections.Specialized.CollectionsUtil,CreateCaseInsensitiveHashtable</token>
+<token>System.Collections.Specialized.StringCollection,new</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+</entry>
+<entry count="4644">
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+<token>System.Collections.Specialized.StringCollection,CopyTo</token>
+</entry>
+<entry count="4">
+<token>System.Collections.Specialized.StringCollection,new</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.StringCollection,new</token>
+<token>System.Collections.Specialized.StringCollection,new</token>
+<token>System.Collections.Specialized.StringCollection,new</token>
+</entry>
+<entry count="16">
+<token>System.Collections.Specialized.StringCollection,Contains</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.StringCollection,new</token>
+<token>System.Collections.Specialized.StringCollection,Contains</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+</entry>
+<entry count="729">
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+</entry>
+<entry count="1701">
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+</entry>
+<entry count="27">
+<token>System.Collections.Specialized.StringCollection,new</token>
+<token>System.Collections.Specialized.StringCollection,Clear</token>
+</entry>
+<entry count="9">
+<token>System.Collections.Specialized.StringCollection,new</token>
+<token>System.Collections.Specialized.StringCollection,Remove</token>
+</entry>
+<entry count="7843">
+<token>System.Collections.Specialized.StringDictionary,ContainsKey</token>
+<token>System.Collections.Specialized.StringDictionary,Add</token>
+</entry>
+<entry count="4128">
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.StringCollection,CopyTo</token>
+<token>System.Collections.Specialized.StringCollection,AddRange</token>
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+</entry>
+<entry count="4">
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.StringCollection,new</token>
+<token>System.Collections.Specialized.StringCollection,new</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.StringCollection,new</token>
+</entry>
+<entry count="1">
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.StringCollection,Clear</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.StringCollection,Clear</token>
+<token>System.Collections.Specialized.StringCollection,Clear</token>
+</entry>
+<entry count="4896">
+<token>System.Collections.Specialized.NameValueCollection,new</token>
+<token>System.Collections.Specialized.NameValueCollection,Set</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+</entry>
+<entry count="3">
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
+<token>System.Collections.Specialized.NameValueCollection,Set</token>
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
+</entry>
+<entry count="3">
+<token>System.Collections.Specialized.ListDictionary,new</token>
+<token>System.Collections.Specialized.ListDictionary,Add</token>
+<token>System.Collections.Specialized.ListDictionary,Add</token>
+</entry>
+<entry count="1307">
+<token>System.Collections.Specialized.NameValueCollection,new</token>
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
+<token>System.Collections.Specialized.NameValueCollection,new</token>
+</entry>
+<entry count="49665">
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+</entry>
+<entry count="16391">
+<token>System.Collections.Specialized.StringDictionary,new</token>
+<token>System.Collections.Specialized.StringDictionary,Add</token>
+<token>System.Collections.Specialized.StringDictionary,Add</token>
+<token>System.Collections.Specialized.StringDictionary,Add</token>
+<token>System.Collections.Specialized.StringDictionary,Add</token>
+</entry>
+<entry count="1">
+<token>System.Collections.Specialized.StringCollection,AddRange</token>
+<token>System.Collections.Specialized.StringCollection,CopyTo</token>
+</entry>
+<entry count="750">
+<token>System.Collections.Specialized.StringCollection,new</token>
+<token>System.Collections.Specialized.StringCollection,new</token>
+</entry>
+<entry count="8">
+<token>System.Collections.Specialized.StringCollection,new</token>
+<token>System.Collections.Specialized.StringCollection,Contains</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.StringCollection,new</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+</entry>
+<entry count="1">
+<token>System.Collections.Specialized.StringCollection,Clear</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.StringCollection,Clear</token>
+<token>System.Collections.Specialized.StringCollection,Clear</token>
+</entry>
+<entry count="651127">
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+</entry>
+<entry count="832">
+<token>System.Collections.Specialized.NameValueCollection,new</token>
+<token>System.Collections.Specialized.NameValueCollection,Set</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+</entry>
+<entry count="262169">
+<token>System.Collections.Specialized.StringDictionary,Add</token>
+<token>System.Collections.Specialized.StringDictionary,Add</token>
+<token>System.Collections.Specialized.StringDictionary,Add</token>
+</entry>
+<entry count="3">
+<token>System.Collections.Specialized.OrderedDictionary,new</token>
+<token>System.Collections.Specialized.OrderedDictionary,Insert</token>
+</entry>
+<entry count="34300">
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
+<token>System.Collections.Specialized.NameValueCollection,new</token>
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
+</entry>
+<entry count="16384">
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,new</token>
+</entry>
+<entry count="128">
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+<token>System.Collections.Specialized.StringCollection,new</token>
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+</entry>
+<entry count="31">
+<token>System.Collections.Specialized.StringCollection,Clear</token>
+<token>System.Collections.Specialized.StringCollection,Clear</token>
+</entry>
+<entry count="1">
+<token>System.Collections.Specialized.StringCollection,IndexOf</token>
+<token>System.Collections.Specialized.StringCollection,RemoveAt</token>
+</entry>
+<entry count="8256">
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+<token>System.Collections.Specialized.StringCollection,new</token>
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+</entry>
+<entry count="61">
+<token>System.Collections.Specialized.NameValueCollection,new</token>
+<token>System.Collections.Specialized.NameValueCollection,new</token>
+<token>System.Collections.Specialized.NameValueCollection,new</token>
+</entry>
+<entry count="128">
+<token>System.Collections.Specialized.NameValueCollection,new</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Set</token>
+<token>System.Collections.Specialized.NameValueCollection,Set</token>
+</entry>
+<entry count="69984">
+<token>System.Collections.Specialized.NameValueCollection,GetKey</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+</entry>
+<entry count="2">
+<token>System.Collections.Specialized.StringCollection,Clear</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+</entry>
+<entry count="567">
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+</entry>
+<entry count="8">
+<token>System.Collections.Specialized.StringDictionary,Remove</token>
+<token>System.Collections.Specialized.StringDictionary,Remove</token>
+<token>System.Collections.Specialized.StringDictionary,Remove</token>
+<token>System.Collections.Specialized.StringDictionary,Remove</token>
+<token>System.Collections.Specialized.StringDictionary,Remove</token>
+</entry>
+<entry count="168">
+<token>System.Collections.Specialized.NameValueCollection,GetKey</token>
+<token>System.Collections.Specialized.NameValueCollection,GetValues</token>
+<token>System.Collections.Specialized.NameValueCollection,GetKey</token>
+</entry>
+<entry count="2">
+<token>System.Collections.Specialized.StringCollection,Insert</token>
+<token>System.Collections.Specialized.StringCollection,RemoveAt</token>
+</entry>
+<entry count="48">
+<token>System.Collections.Specialized.NameValueCollection,GetValues</token>
+<token>System.Collections.Specialized.NameValueCollection,GetKey</token>
+<token>System.Collections.Specialized.NameValueCollection,GetValues</token>
+<token>System.Collections.Specialized.NameValueCollection,GetKey</token>
+<token>System.Collections.Specialized.NameValueCollection,GetValues</token>
+</entry>
+<entry count="2">
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.StringCollection,Clear</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.StringCollection,Clear</token>
+</entry>
+<entry count="1">
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.StringCollection,Clear</token>
+<token>System.Collections.Specialized.StringCollection,Clear</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.StringCollection,Clear</token>
+</entry>
+<entry count="16512">
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+</entry>
+<entry count="52">
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.StringCollection,new</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.StringCollection,new</token>
+</entry>
+<entry count="2">
+<token>System.Collections.Specialized.StringCollection,Clear</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+</entry>
+<entry count="111">
+<token>System.Collections.Specialized.NameValueCollection,Set</token>
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
+</entry>
+<entry count="16512">
+<token>System.Collections.Specialized.StringCollection,AddRange</token>
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+</entry>
+<entry count="2">
+<token>System.Collections.Specialized.NameValueCollection,HasKeys</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+</entry>
+<entry count="49665">
+<token>System.Collections.Specialized.StringCollection,new</token>
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+</entry>
+<entry count="1">
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.StringCollection,Clear</token>
+<token>System.Collections.Specialized.StringCollection,Clear</token>
+</entry>
+<entry count="245774">
+<token>System.Collections.Specialized.StringDictionary,Add</token>
+<token>System.Collections.Specialized.StringDictionary,Add</token>
+<token>System.Collections.Specialized.StringDictionary,Add</token>
+<token>System.Collections.Specialized.StringDictionary,Add</token>
+</entry>
+<entry count="40">
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
+<token>System.Collections.Specialized.NameValueCollection,GetValues</token>
+<token>System.Collections.Specialized.NameValueCollection,GetValues</token>
+<token>System.Collections.Specialized.NameValueCollection,GetValues</token>
+</entry>
+<entry count="3">
+<token>System.Collections.Specialized.NameValueCollection,Set</token>
+<token>System.Collections.Specialized.NameValueCollection,Set</token>
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
+</entry>
+<entry count="256">
+<token>System.Collections.Specialized.NameValueCollection,Set</token>
+<token>System.Collections.Specialized.NameValueCollection,Set</token>
+<token>System.Collections.Specialized.NameValueCollection,Set</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+</entry>
+<entry count="64">
+<token>System.Collections.Specialized.NameValueCollection,Set</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+</entry>
+<entry count="163320">
+<token>System.Collections.Specialized.NameValueCollection,GetKey</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+</entry>
+<entry count="128">
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Set</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Set</token>
+</entry>
+<entry count="384878">
+<token>System.Collections.Specialized.NameValueCollection,new</token>
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
+</entry>
+<entry count="1">
+<token>System.Collections.Specialized.StringCollection,RemoveAt</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+</entry>
+<entry count="856">
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
+</entry>
+<entry count="6192">
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+</entry>
+<entry count="16">
+<token>System.Collections.Specialized.StringDictionary,Clear</token>
+<token>System.Collections.Specialized.StringDictionary,Add</token>
+<token>System.Collections.Specialized.StringDictionary,Clear</token>
+</entry>
+<entry count="1">
+<token>System.Collections.Specialized.StringCollection,Clear</token>
+<token>System.Collections.Specialized.StringCollection,AddRange</token>
+</entry>
+<entry count="588">
+<token>System.Collections.Specialized.StringDictionary,Add</token>
+<token>System.Collections.Specialized.StringDictionary,ContainsKey</token>
+<token>System.Collections.Specialized.StringDictionary,ContainsKey</token>
+<token>System.Collections.Specialized.StringDictionary,Add</token>
+</entry>
+<entry count="16391">
+<token>System.Collections.Specialized.StringDictionary,new</token>
+<token>System.Collections.Specialized.StringDictionary,Add</token>
+</entry>
+<entry count="63639427">
+<token>System.Collections.Specialized.NameValueCollection,Get</token>
+<token>System.Collections.Specialized.NameValueCollection,Get</token>
+<token>System.Collections.Specialized.NameValueCollection,Get</token>
+<token>System.Collections.Specialized.NameValueCollection,Get</token>
+</entry>
+<entry count="4128">
+<token>System.Collections.Specialized.StringCollection,new</token>
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+<token>System.Collections.Specialized.StringCollection,new</token>
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+</entry>
+<entry count="87808">
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.StringCollection,new</token>
+</entry>
+<entry count="508925">
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+</entry>
+<entry count="8">
+<token>System.Collections.Specialized.StringCollection,new</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.StringCollection,new</token>
+<token>System.Collections.Specialized.StringCollection,Contains</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+</entry>
+<entry count="391964">
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+</entry>
+<entry count="2548">
+<token>System.Collections.Specialized.StringDictionary,ContainsKey</token>
+<token>System.Collections.Specialized.StringDictionary,Add</token>
+<token>System.Collections.Specialized.StringDictionary,ContainsKey</token>
+<token>System.Collections.Specialized.StringDictionary,Add</token>
+</entry>
+<entry count="9144">
+<token>System.Collections.Specialized.StringCollection,Remove</token>
+<token>System.Collections.Specialized.StringCollection,Remove</token>
+</entry>
+<entry count="5109">
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+</entry>
+<entry count="2">
+<token>System.Collections.Specialized.NameValueCollection,Get</token>
+<token>System.Collections.Specialized.NameValueCollection,GetValues</token>
+<token>System.Collections.Specialized.NameValueCollection,Get</token>
+<token>System.Collections.Specialized.NameValueCollection,Get</token>
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
+</entry>
+<entry count="10">
+<token>System.Collections.Specialized.BitVector32,CreateMask</token>
+<token>System.Collections.Specialized.BitVector32,CreateMask</token>
+</entry>
+<entry count="152">
+<token>System.Collections.Specialized.StringDictionary,Add</token>
+<token>System.Collections.Specialized.StringDictionary,ContainsKey</token>
+<token>System.Collections.Specialized.StringDictionary,Add</token>
+<token>System.Collections.Specialized.StringDictionary,ContainsKey</token>
+<token>System.Collections.Specialized.StringDictionary,ContainsKey</token>
+</entry>
+<entry count="22">
+<token>System.Collections.Specialized.ListDictionary,Add</token>
+<token>System.Collections.Specialized.ListDictionary,Add</token>
+</entry>
+<entry count="2">
+<token>System.Collections.Specialized.StringCollection,new</token>
+<token>System.Collections.Specialized.StringCollection,new</token>
+<token>System.Collections.Specialized.StringCollection,new</token>
+<token>System.Collections.Specialized.StringCollection,new</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+</entry>
+<entry count="1">
+<token>System.Collections.Specialized.OrderedDictionary,Contains</token>
+<token>System.Collections.Specialized.OrderedDictionary,Remove</token>
+</entry>
+<entry count="4128">
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.HybridDictionary,new</token>
 <token>System.Collections.Specialized.StringCollection,Add</token>
 </entry>
 <entry count="2">
@@ -504,12 +2001,7 @@
 <token>System.Collections.Specialized.NameValueCollection,GetValues</token>
 <token>System.Collections.Specialized.NameValueCollection,GetValues</token>
 </entry>
-<entry count="3">
-<token>System.Collections.Specialized.CollectionsUtil,CreateCaseInsensitiveHashtable</token>
-<token>System.Collections.Specialized.CollectionsUtil,CreateCaseInsensitiveHashtable</token>
-<token>System.Collections.Specialized.CollectionsUtil,CreateCaseInsensitiveHashtable</token>
-</entry>
-<entry count="144">
+<entry count="183">
 <token>System.Collections.Specialized.StringCollection,Contains</token>
 <token>System.Collections.Specialized.StringCollection,Contains</token>
 <token>System.Collections.Specialized.StringCollection,Add</token>
@@ -518,97 +2010,102 @@
 <token>System.Collections.Specialized.StringDictionary,Remove</token>
 <token>System.Collections.Specialized.StringDictionary,Remove</token>
 </entry>
-<entry count="6">
+<entry count="24768">
 <token>System.Collections.Specialized.HybridDictionary,new</token>
 <token>System.Collections.Specialized.StringCollection,CopyTo</token>
 <token>System.Collections.Specialized.StringCollection,AddRange</token>
 </entry>
-<entry count="46">
+<entry count="4239">
 <token>System.Collections.Specialized.NameValueCollection,Set</token>
 <token>System.Collections.Specialized.NameValueCollection,Set</token>
 <token>System.Collections.Specialized.NameValueCollection,Set</token>
 </entry>
-<entry count="18">
-<token>System.Collections.Specialized.NameValueCollection,Set</token>
-<token>System.Collections.Specialized.NameValueCollection,Set</token>
-<token>System.Collections.Specialized.NameValueCollection,Set</token>
+<entry count="3402">
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,GetKey</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+</entry>
+<entry count="1024">
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
 <token>System.Collections.Specialized.NameValueCollection,Set</token>
 </entry>
-<entry count="53838">
+<entry count="36">
+<token>System.Collections.Specialized.StringCollection,new</token>
+<token>System.Collections.Specialized.StringCollection,Contains</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.StringCollection,Contains</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+</entry>
+<entry count="93328">
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,GetKey</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,GetKey</token>
+</entry>
+<entry count="74605285">
 <token>System.Collections.Specialized.NameValueCollection,Get</token>
 <token>System.Collections.Specialized.NameValueCollection,Get</token>
 </entry>
-<entry count="211">
+<entry count="34095">
 <token>System.Collections.Specialized.NameValueCollection,Add</token>
 <token>System.Collections.Specialized.NameValueCollection,new</token>
 <token>System.Collections.Specialized.NameValueCollection,Add</token>
 <token>System.Collections.Specialized.NameValueCollection,Add</token>
 </entry>
-<entry count="32">
-<token>System.Collections.Specialized.ListDictionary,new</token>
-<token>System.Collections.Specialized.ListDictionary,new</token>
-<token>System.Collections.Specialized.ListDictionary,Contains</token>
-<token>System.Collections.Specialized.ListDictionary,Contains</token>
-</entry>
-<entry count="3">
-<token>System.Collections.Specialized.StringCollection,Add</token>
-<token>System.Collections.Specialized.StringCollection,Clear</token>
-<token>System.Collections.Specialized.StringCollection,Add</token>
-<token>System.Collections.Specialized.StringCollection,Clear</token>
-</entry>
-<entry count="19">
-<token>System.Collections.Specialized.NameValueCollection,Add</token>
-<token>System.Collections.Specialized.NameValueCollection,Add</token>
-<token>System.Collections.Specialized.NameValueCollection,new</token>
-</entry>
-<entry count="37">
+<entry count="112">
 <token>System.Collections.Specialized.CollectionsUtil,CreateCaseInsensitiveHashtable</token>
 <token>System.Collections.Specialized.CollectionsUtil,CreateCaseInsensitiveHashtable</token>
 </entry>
-<entry count="2">
+<entry count="4644">
 <token>System.Collections.Specialized.StringCollection,new</token>
 <token>System.Collections.Specialized.HybridDictionary,new</token>
 <token>System.Collections.Specialized.HybridDictionary,new</token>
 <token>System.Collections.Specialized.HybridDictionary,new</token>
 <token>System.Collections.Specialized.StringCollection,Add</token>
 </entry>
-<entry count="11">
-<token>System.Collections.Specialized.StringDictionary,new</token>
-<token>System.Collections.Specialized.StringDictionary,Add</token>
-<token>System.Collections.Specialized.StringDictionary,Add</token>
-<token>System.Collections.Specialized.StringDictionary,Add</token>
+<entry count="6192">
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+<token>System.Collections.Specialized.StringCollection,CopyTo</token>
+</entry>
+<entry count="46656">
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,GetKey</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
 </entry>
 <entry count="1">
 <token>System.Collections.Specialized.CollectionsUtil,CreateCaseInsensitiveHashtable</token>
 <token>System.Collections.Specialized.StringCollection,Add</token>
 </entry>
 <entry count="4">
-<token>System.Collections.Specialized.StringDictionary,ContainsKey</token>
-<token>System.Collections.Specialized.StringDictionary,ContainsKey</token>
-<token>System.Collections.Specialized.StringDictionary,Add</token>
-<token>System.Collections.Specialized.StringDictionary,ContainsKey</token>
-<token>System.Collections.Specialized.StringDictionary,Add</token>
-</entry>
-<entry count="1">
-<token>System.Collections.Specialized.ListDictionary,new</token>
-<token>System.Collections.Specialized.ListDictionary,Add</token>
-<token>System.Collections.Specialized.ListDictionary,Add</token>
-<token>System.Collections.Specialized.ListDictionary,Add</token>
-<token>System.Collections.Specialized.ListDictionary,Add</token>
-</entry>
-<entry count="48">
-<token>System.Collections.Specialized.StringDictionary,ContainsValue</token>
-<token>System.Collections.Specialized.StringDictionary,Add</token>
-</entry>
-<entry count="54551">
 <token>System.Collections.Specialized.StringCollection,new</token>
-<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.StringCollection,new</token>
+<token>System.Collections.Specialized.StringCollection,new</token>
+<token>System.Collections.Specialized.StringCollection,new</token>
 </entry>
-<entry count="20524">
+<entry count="512">
+<token>System.Collections.Specialized.NameValueCollection,new</token>
+<token>System.Collections.Specialized.NameValueCollection,Set</token>
+<token>System.Collections.Specialized.NameValueCollection,Set</token>
+<token>System.Collections.Specialized.NameValueCollection,Set</token>
+<token>System.Collections.Specialized.NameValueCollection,Set</token>
+</entry>
+<entry count="368816">
 <token>System.Collections.Specialized.NameValueCollection,Remove</token>
 <token>System.Collections.Specialized.NameValueCollection,Remove</token>
 </entry>
-<entry count="8348">
+<entry count="3">
+<token>System.Collections.Specialized.NameValueCollection,Set</token>
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
+</entry>
+<entry count="21443">
 <token>System.Collections.Specialized.NameValueCollection,Add</token>
 <token>System.Collections.Specialized.NameValueCollection,Remove</token>
 </entry>
@@ -616,7 +2113,7 @@
 <token>System.Collections.Specialized.NameValueCollection,Add</token>
 <token>System.Collections.Specialized.NameValueCollection,Get</token>
 </entry>
-<entry count="183">
+<entry count="536">
 <token>System.Collections.Specialized.StringCollection,Contains</token>
 <token>System.Collections.Specialized.StringCollection,Add</token>
 </entry>
@@ -625,6 +2122,12 @@
 <token>System.Collections.Specialized.StringCollection,Add</token>
 <token>System.Collections.Specialized.StringCollection,new</token>
 <token>System.Collections.Specialized.StringCollection,Contains</token>
+</entry>
+<entry count="24">
+<token>System.Collections.Specialized.StringCollection,new</token>
+<token>System.Collections.Specialized.StringCollection,Contains</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.StringCollection,new</token>
 </entry>
 <entry count="2">
 <token>System.Collections.Specialized.StringCollection,Add</token>
@@ -639,15 +2142,21 @@
 <token>System.Collections.Specialized.StringCollection,Insert</token>
 <token>System.Collections.Specialized.StringCollection,RemoveAt</token>
 </entry>
-<entry count="267">
-<token>System.Collections.Specialized.NameValueCollection,new</token>
-<token>System.Collections.Specialized.NameValueCollection,Add</token>
-<token>System.Collections.Specialized.NameValueCollection,new</token>
+<entry count="2064">
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.HybridDictionary,new</token>
 </entry>
 <entry count="3">
 <token>System.Collections.Specialized.BitVector32,CreateMask</token>
 <token>System.Collections.Specialized.BitVector32,CreateMask</token>
 <token>System.Collections.Specialized.BitVector32,CreateMask</token>
+</entry>
+<entry count="2048">
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Set</token>
+<token>System.Collections.Specialized.NameValueCollection,Set</token>
 </entry>
 <entry count="18">
 <token>System.Collections.Specialized.OrderedDictionary,new</token>
@@ -657,41 +2166,41 @@
 <token>System.Collections.Specialized.OrderedDictionary,Contains</token>
 <token>System.Collections.Specialized.OrderedDictionary,Add</token>
 </entry>
-<entry count="2">
-<token>System.Collections.Specialized.StringCollection,Add</token>
-<token>System.Collections.Specialized.StringCollection,Clear</token>
-<token>System.Collections.Specialized.StringCollection,Add</token>
-<token>System.Collections.Specialized.StringCollection,Add</token>
-<token>System.Collections.Specialized.StringCollection,Add</token>
-</entry>
-<entry count="8">
+<entry count="2048">
 <token>System.Collections.Specialized.NameValueCollection,Set</token>
 <token>System.Collections.Specialized.NameValueCollection,Remove</token>
 <token>System.Collections.Specialized.NameValueCollection,Set</token>
 </entry>
-<entry count="6">
-<token>System.Collections.Specialized.StringCollection,Contains</token>
-<token>System.Collections.Specialized.StringCollection,Contains</token>
-<token>System.Collections.Specialized.StringCollection,Contains</token>
-<token>System.Collections.Specialized.StringCollection,Contains</token>
-<token>System.Collections.Specialized.StringCollection,Contains</token>
-</entry>
-<entry count="8192">
-<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<entry count="256">
 <token>System.Collections.Specialized.NameValueCollection,new</token>
-<token>System.Collections.Specialized.NameValueCollection,Add</token>
-<token>System.Collections.Specialized.NameValueCollection,Add</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Set</token>
+<token>System.Collections.Specialized.NameValueCollection,Set</token>
+<token>System.Collections.Specialized.NameValueCollection,Set</token>
+</entry>
+<entry count="416">
+<token>System.Collections.Specialized.NameValueCollection,new</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
 <token>System.Collections.Specialized.NameValueCollection,Remove</token>
 </entry>
-<entry count="15360">
-<token>System.Collections.Specialized.StringCollection,Add</token>
-<token>System.Collections.Specialized.StringCollection,new</token>
-<token>System.Collections.Specialized.StringCollection,Add</token>
+<entry count="25920">
+<token>System.Collections.Specialized.NameValueCollection,GetKey</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,GetKey</token>
 </entry>
-<entry count="10">
+<entry count="744">
 <token>System.Collections.Specialized.StringCollection,new</token>
 <token>System.Collections.Specialized.StringCollection,Add</token>
 <token>System.Collections.Specialized.StringCollection,new</token>
+</entry>
+<entry count="6912">
+<token>System.Collections.Specialized.NameValueCollection,GetKey</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,GetKey</token>
 </entry>
 <entry count="4">
 <token>System.Collections.Specialized.NameValueCollection,Add</token>
@@ -700,56 +2209,46 @@
 <token>System.Collections.Specialized.NameValueCollection,new</token>
 <token>System.Collections.Specialized.NameValueCollection,Add</token>
 </entry>
-<entry count="8">
+<entry count="9288">
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+<token>System.Collections.Specialized.StringCollection,CopyTo</token>
+<token>System.Collections.Specialized.StringCollection,AddRange</token>
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+</entry>
+<entry count="1176">
 <token>System.Collections.Specialized.StringDictionary,Add</token>
 <token>System.Collections.Specialized.StringDictionary,ContainsKey</token>
 <token>System.Collections.Specialized.StringDictionary,Add</token>
 <token>System.Collections.Specialized.StringDictionary,ContainsKey</token>
 </entry>
-<entry count="4">
+<entry count="3406">
 <token>System.Collections.Specialized.NameValueCollection,Add</token>
 <token>System.Collections.Specialized.NameValueCollection,Remove</token>
 <token>System.Collections.Specialized.NameValueCollection,Remove</token>
 <token>System.Collections.Specialized.NameValueCollection,GetKey</token>
 </entry>
-<entry count="78">
+<entry count="18694">
 <token>System.Collections.Specialized.NameValueCollection,new</token>
 <token>System.Collections.Specialized.NameValueCollection,Set</token>
 </entry>
-<entry count="40">
-<token>System.Collections.Specialized.NameValueCollection,Add</token>
-<token>System.Collections.Specialized.NameValueCollection,Add</token>
-<token>System.Collections.Specialized.NameValueCollection,GetValues</token>
-<token>System.Collections.Specialized.NameValueCollection,GetValues</token>
+<entry count="152">
+<token>System.Collections.Specialized.StringDictionary,ContainsKey</token>
+<token>System.Collections.Specialized.StringDictionary,Add</token>
+<token>System.Collections.Specialized.StringDictionary,ContainsKey</token>
+<token>System.Collections.Specialized.StringDictionary,ContainsKey</token>
+<token>System.Collections.Specialized.StringDictionary,ContainsKey</token>
 </entry>
-<entry count="96">
+<entry count="12402">
 <token>System.Collections.Specialized.NameValueCollection,Remove</token>
 <token>System.Collections.Specialized.NameValueCollection,Add</token>
 <token>System.Collections.Specialized.NameValueCollection,Remove</token>
 <token>System.Collections.Specialized.NameValueCollection,GetKey</token>
 </entry>
-<entry count="1">
-<token>System.Collections.Specialized.StringDictionary,ContainsKey</token>
-<token>System.Collections.Specialized.StringDictionary,Remove</token>
-<token>System.Collections.Specialized.StringDictionary,Add</token>
-</entry>
-<entry count="8">
-<token>System.Collections.Specialized.StringDictionary,ContainsKey</token>
-<token>System.Collections.Specialized.StringDictionary,Add</token>
-<token>System.Collections.Specialized.StringDictionary,ContainsKey</token>
-<token>System.Collections.Specialized.StringDictionary,ContainsKey</token>
-</entry>
-<entry count="1">
-<token>System.Collections.Specialized.StringCollection,Clear</token>
-<token>System.Collections.Specialized.StringCollection,Add</token>
-<token>System.Collections.Specialized.StringCollection,Clear</token>
-<token>System.Collections.Specialized.StringCollection,Add</token>
-<token>System.Collections.Specialized.StringCollection,Clear</token>
-</entry>
-<entry count="38402">
+<entry count="6192">
 <token>System.Collections.Specialized.StringCollection,new</token>
-<token>System.Collections.Specialized.StringCollection,Add</token>
-<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+<token>System.Collections.Specialized.HybridDictionary,new</token>
 <token>System.Collections.Specialized.StringCollection,Add</token>
 </entry>
 <entry count="1">
@@ -761,116 +2260,74 @@
 <token>System.Collections.Specialized.HybridDictionary,new</token>
 <token>System.Collections.Specialized.HybridDictionary,Add</token>
 </entry>
-<entry count="1">
-<token>System.Collections.Specialized.NameValueCollection,new</token>
-<token>System.Collections.Specialized.StringCollection,new</token>
-</entry>
-<entry count="4438">
-<token>System.Collections.Specialized.NameValueCollection,new</token>
-<token>System.Collections.Specialized.NameValueCollection,Add</token>
-<token>System.Collections.Specialized.NameValueCollection,Add</token>
-<token>System.Collections.Specialized.NameValueCollection,Add</token>
-</entry>
-<entry count="1">
-<token>System.Collections.Specialized.StringCollection,Clear</token>
-<token>System.Collections.Specialized.StringCollection,Clear</token>
+<entry count="4644">
 <token>System.Collections.Specialized.StringCollection,Add</token>
-<token>System.Collections.Specialized.StringCollection,Clear</token>
-<token>System.Collections.Specialized.StringCollection,Add</token>
-</entry>
-<entry count="28">
-<token>System.Collections.Specialized.NameValueCollection,Set</token>
-<token>System.Collections.Specialized.NameValueCollection,Remove</token>
-</entry>
-<entry count="8192">
-<token>System.Collections.Specialized.NameValueCollection,new</token>
-<token>System.Collections.Specialized.NameValueCollection,Add</token>
-<token>System.Collections.Specialized.NameValueCollection,Add</token>
-<token>System.Collections.Specialized.NameValueCollection,Remove</token>
-</entry>
-<entry count="1036">
-<token>System.Collections.Specialized.NameValueCollection,Remove</token>
-<token>System.Collections.Specialized.NameValueCollection,Remove</token>
-<token>System.Collections.Specialized.NameValueCollection,Remove</token>
-<token>System.Collections.Specialized.NameValueCollection,Remove</token>
-<token>System.Collections.Specialized.NameValueCollection,Remove</token>
-</entry>
-<entry count="2">
-<token>System.Collections.Specialized.StringCollection,Contains</token>
-<token>System.Collections.Specialized.StringCollection,Remove</token>
-<token>System.Collections.Specialized.StringCollection,Insert</token>
-</entry>
-<entry count="8">
-<token>System.Collections.Specialized.HybridDictionary,new</token>
-<token>System.Collections.Specialized.StringCollection,new</token>
-</entry>
-<entry count="1">
-<token>System.Collections.Specialized.NameValueCollection,new</token>
-<token>System.Collections.Specialized.StringCollection,new</token>
-<token>System.Collections.Specialized.StringCollection,new</token>
-<token>System.Collections.Specialized.StringCollection,new</token>
-</entry>
-<entry count="80">
-<token>System.Collections.Specialized.ListDictionary,new</token>
-<token>System.Collections.Specialized.ListDictionary,new</token>
-<token>System.Collections.Specialized.ListDictionary,Contains</token>
-</entry>
-<entry count="12">
-<token>System.Collections.Specialized.StringDictionary,Remove</token>
-<token>System.Collections.Specialized.StringDictionary,Remove</token>
-<token>System.Collections.Specialized.StringDictionary,Remove</token>
-</entry>
-<entry count="4">
-<token>System.Collections.Specialized.NameValueCollection,Add</token>
-<token>System.Collections.Specialized.NameValueCollection,Add</token>
-<token>System.Collections.Specialized.NameValueCollection,Add</token>
-<token>System.Collections.Specialized.NameValueCollection,Add</token>
-<token>System.Collections.Specialized.NameValueCollection,new</token>
-</entry>
-<entry count="16384">
-<token>System.Collections.Specialized.NameValueCollection,Remove</token>
-<token>System.Collections.Specialized.NameValueCollection,Remove</token>
-<token>System.Collections.Specialized.NameValueCollection,new</token>
-</entry>
-<entry count="144">
-<token>System.Collections.Specialized.StringCollection,new</token>
-<token>System.Collections.Specialized.StringCollection,Contains</token>
-<token>System.Collections.Specialized.StringCollection,Contains</token>
-<token>System.Collections.Specialized.StringCollection,Add</token>
-</entry>
-<entry count="7">
-<token>System.Collections.Specialized.NameValueCollection,GetValues</token>
-<token>System.Collections.Specialized.NameValueCollection,Get</token>
-<token>System.Collections.Specialized.NameValueCollection,Get</token>
-</entry>
-<entry count="8">
-<token>System.Collections.Specialized.HybridDictionary,new</token>
-<token>System.Collections.Specialized.StringCollection,new</token>
-<token>System.Collections.Specialized.HybridDictionary,new</token>
-<token>System.Collections.Specialized.HybridDictionary,new</token>
-<token>System.Collections.Specialized.HybridDictionary,new</token>
-</entry>
-<entry count="6">
-<token>System.Collections.Specialized.HybridDictionary,new</token>
 <token>System.Collections.Specialized.HybridDictionary,new</token>
 <token>System.Collections.Specialized.HybridDictionary,new</token>
 <token>System.Collections.Specialized.StringCollection,CopyTo</token>
 <token>System.Collections.Specialized.StringCollection,AddRange</token>
 </entry>
-<entry count="4">
+<entry count="219581">
+<token>System.Collections.Specialized.NameValueCollection,new</token>
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
+</entry>
+<entry count="7968">
+<token>System.Collections.Specialized.NameValueCollection,Set</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+</entry>
+<entry count="152">
 <token>System.Collections.Specialized.StringDictionary,ContainsKey</token>
 <token>System.Collections.Specialized.StringDictionary,ContainsKey</token>
 <token>System.Collections.Specialized.StringDictionary,ContainsKey</token>
 <token>System.Collections.Specialized.StringDictionary,Add</token>
+<token>System.Collections.Specialized.StringDictionary,ContainsKey</token>
 </entry>
-<entry count="288">
+<entry count="33024">
+<token>System.Collections.Specialized.HybridDictionary,new</token>
 <token>System.Collections.Specialized.StringCollection,new</token>
-<token>System.Collections.Specialized.StringCollection,Contains</token>
-<token>System.Collections.Specialized.StringCollection,Contains</token>
 </entry>
-<entry count="306">
-<token>System.Collections.Specialized.StringCollection,Contains</token>
-<token>System.Collections.Specialized.StringCollection,Contains</token>
+<entry count="256">
+<token>System.Collections.Specialized.NameValueCollection,new</token>
+<token>System.Collections.Specialized.NameValueCollection,Set</token>
+<token>System.Collections.Specialized.NameValueCollection,Set</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Set</token>
+</entry>
+<entry count="37152">
+<token>System.Collections.Specialized.NameValueCollection,GetKey</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+</entry>
+<entry count="1">
+<token>System.Collections.Specialized.NameValueCollection,new</token>
+<token>System.Collections.Specialized.StringCollection,new</token>
+<token>System.Collections.Specialized.StringCollection,new</token>
+<token>System.Collections.Specialized.StringCollection,new</token>
+</entry>
+<entry count="4">
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.StringCollection,new</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.StringCollection,new</token>
+<token>System.Collections.Specialized.StringCollection,new</token>
+</entry>
+<entry count="4096">
+<token>System.Collections.Specialized.StringCollection,AddRange</token>
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+<token>System.Collections.Specialized.StringCollection,new</token>
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+</entry>
+<entry count="13932">
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+<token>System.Collections.Specialized.StringCollection,CopyTo</token>
+<token>System.Collections.Specialized.StringCollection,AddRange</token>
 </entry>
 <entry count="7">
 <token>System.Collections.Specialized.NameValueCollection,GetValues</token>
@@ -880,23 +2337,19 @@
 <token>System.Collections.Specialized.ListDictionary,Contains</token>
 <token>System.Collections.Specialized.ListDictionary,Add</token>
 </entry>
-<entry count="43">
-<token>System.Collections.Specialized.NameValueCollection,Remove</token>
-<token>System.Collections.Specialized.NameValueCollection,Set</token>
-</entry>
-<entry count="8">
+<entry count="3456">
 <token>System.Collections.Specialized.NameValueCollection,Remove</token>
 <token>System.Collections.Specialized.NameValueCollection,Remove</token>
 <token>System.Collections.Specialized.NameValueCollection,Remove</token>
 <token>System.Collections.Specialized.NameValueCollection,Remove</token>
 <token>System.Collections.Specialized.NameValueCollection,GetKey</token>
 </entry>
-<entry count="40">
+<entry count="5096">
 <token>System.Collections.Specialized.StringDictionary,ContainsKey</token>
 <token>System.Collections.Specialized.StringDictionary,Add</token>
 <token>System.Collections.Specialized.StringDictionary,ContainsKey</token>
 </entry>
-<entry count="156">
+<entry count="21443">
 <token>System.Collections.Specialized.NameValueCollection,Remove</token>
 <token>System.Collections.Specialized.NameValueCollection,Add</token>
 <token>System.Collections.Specialized.NameValueCollection,Remove</token>
@@ -905,79 +2358,23 @@
 <token>System.Collections.Specialized.BitVector32,new</token>
 <token>System.Collections.Specialized.BitVector32,new</token>
 </entry>
-<entry count="4">
-<token>System.Collections.Specialized.NameValueCollection,Set</token>
-<token>System.Collections.Specialized.NameValueCollection,Remove</token>
-<token>System.Collections.Specialized.NameValueCollection,Remove</token>
-</entry>
-<entry count="2">
-<token>System.Collections.Specialized.CollectionsUtil,CreateCaseInsensitiveHashtable</token>
-<token>System.Collections.Specialized.StringCollection,Contains</token>
-</entry>
-<entry count="1">
+<entry count="27">
 <token>System.Collections.Specialized.NameValueCollection,new</token>
 <token>System.Collections.Specialized.NameValueCollection,new</token>
 <token>System.Collections.Specialized.NameValueCollection,Add</token>
 <token>System.Collections.Specialized.NameValueCollection,new</token>
-<token>System.Collections.Specialized.NameValueCollection,Add</token>
-</entry>
-<entry count="1">
-<token>System.Collections.Specialized.NameValueCollection,new</token>
-<token>System.Collections.Specialized.StringCollection,new</token>
-<token>System.Collections.Specialized.StringCollection,new</token>
-</entry>
-<entry count="856">
-<token>System.Collections.Specialized.NameValueCollection,Remove</token>
-<token>System.Collections.Specialized.NameValueCollection,Remove</token>
-<token>System.Collections.Specialized.NameValueCollection,Remove</token>
-<token>System.Collections.Specialized.NameValueCollection,Remove</token>
 <token>System.Collections.Specialized.NameValueCollection,Add</token>
 </entry>
 <entry count="3">
 <token>System.Collections.Specialized.StringDictionary,Remove</token>
 <token>System.Collections.Specialized.StringDictionary,Add</token>
 </entry>
-<entry count="8">
-<token>System.Collections.Specialized.HybridDictionary,new</token>
-<token>System.Collections.Specialized.StringCollection,new</token>
-<token>System.Collections.Specialized.HybridDictionary,new</token>
-</entry>
-<entry count="9">
-<token>System.Collections.Specialized.StringCollection,new</token>
-<token>System.Collections.Specialized.StringCollection,Clear</token>
-<token>System.Collections.Specialized.StringCollection,Clear</token>
-</entry>
-<entry count="2">
-<token>System.Collections.Specialized.HybridDictionary,new</token>
-<token>System.Collections.Specialized.HybridDictionary,new</token>
-<token>System.Collections.Specialized.HybridDictionary,new</token>
-<token>System.Collections.Specialized.StringCollection,Add</token>
-<token>System.Collections.Specialized.StringCollection,CopyTo</token>
-</entry>
-<entry count="160">
-<token>System.Collections.Specialized.StringCollection,Add</token>
-<token>System.Collections.Specialized.StringCollection,Remove</token>
-</entry>
-<entry count="40">
-<token>System.Collections.Specialized.NameValueCollection,Add</token>
-<token>System.Collections.Specialized.NameValueCollection,GetValues</token>
-<token>System.Collections.Specialized.NameValueCollection,GetValues</token>
-<token>System.Collections.Specialized.NameValueCollection,GetValues</token>
-<token>System.Collections.Specialized.NameValueCollection,GetValues</token>
-</entry>
-<entry count="16384">
-<token>System.Collections.Specialized.NameValueCollection,Remove</token>
-<token>System.Collections.Specialized.NameValueCollection,Remove</token>
-<token>System.Collections.Specialized.NameValueCollection,new</token>
-<token>System.Collections.Specialized.NameValueCollection,Add</token>
-<token>System.Collections.Specialized.NameValueCollection,Add</token>
-</entry>
 <entry count="10">
 <token>System.Collections.Specialized.StringCollection,Contains</token>
 <token>System.Collections.Specialized.StringCollection,Contains</token>
 <token>System.Collections.Specialized.StringCollection,Contains</token>
 </entry>
-<entry count="286">
+<entry count="34554">
 <token>System.Collections.Specialized.NameValueCollection,Add</token>
 <token>System.Collections.Specialized.NameValueCollection,new</token>
 </entry>
@@ -989,40 +2386,48 @@
 <token>System.Collections.Specialized.OrderedDictionary,new</token>
 <token>System.Collections.Specialized.OrderedDictionary,Contains</token>
 </entry>
-<entry count="1952">
+<entry count="203216">
 <token>System.Collections.Specialized.NameValueCollection,Remove</token>
 <token>System.Collections.Specialized.NameValueCollection,Remove</token>
 <token>System.Collections.Specialized.NameValueCollection,Remove</token>
 <token>System.Collections.Specialized.NameValueCollection,Remove</token>
 </entry>
-<entry count="1">
+<entry count="27">
 <token>System.Collections.Specialized.NameValueCollection,Add</token>
 <token>System.Collections.Specialized.NameValueCollection,new</token>
 <token>System.Collections.Specialized.NameValueCollection,Add</token>
 <token>System.Collections.Specialized.NameValueCollection,new</token>
 <token>System.Collections.Specialized.NameValueCollection,Add</token>
 </entry>
-<entry count="2">
+<entry count="76">
+<token>System.Collections.Specialized.StringDictionary,Add</token>
+<token>System.Collections.Specialized.StringDictionary,ContainsKey</token>
+<token>System.Collections.Specialized.StringDictionary,ContainsKey</token>
+<token>System.Collections.Specialized.StringDictionary,ContainsKey</token>
+<token>System.Collections.Specialized.StringDictionary,Add</token>
+</entry>
+<entry count="6192">
 <token>System.Collections.Specialized.HybridDictionary,new</token>
 <token>System.Collections.Specialized.HybridDictionary,new</token>
 <token>System.Collections.Specialized.StringCollection,Add</token>
 <token>System.Collections.Specialized.StringCollection,CopyTo</token>
 <token>System.Collections.Specialized.StringCollection,AddRange</token>
 </entry>
-<entry count="32">
+<entry count="512">
 <token>System.Collections.Specialized.ListDictionary,new</token>
 <token>System.Collections.Specialized.ListDictionary,Contains</token>
 <token>System.Collections.Specialized.ListDictionary,Contains</token>
-</entry>
-<entry count="1">
-<token>System.Collections.Specialized.StringDictionary,new</token>
-<token>System.Collections.Specialized.StringDictionary,ContainsKey</token>
-<token>System.Collections.Specialized.StringDictionary,Add</token>
 </entry>
 <entry count="4">
 <token>System.Collections.Specialized.StringCollection,Clear</token>
 <token>System.Collections.Specialized.StringCollection,Add</token>
 <token>System.Collections.Specialized.StringCollection,Clear</token>
+</entry>
+<entry count="128">
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Set</token>
+<token>System.Collections.Specialized.NameValueCollection,Set</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
 </entry>
 <entry count="40">
 <token>System.Collections.Specialized.NameValueCollection,Add</token>
@@ -1031,62 +2436,39 @@
 <token>System.Collections.Specialized.NameValueCollection,GetValues</token>
 <token>System.Collections.Specialized.NameValueCollection,GetValues</token>
 </entry>
-<entry count="8">
+<entry count="18576">
 <token>System.Collections.Specialized.StringCollection,new</token>
 <token>System.Collections.Specialized.HybridDictionary,new</token>
 <token>System.Collections.Specialized.HybridDictionary,new</token>
 <token>System.Collections.Specialized.HybridDictionary,new</token>
 </entry>
-<entry count="12">
-<token>System.Collections.Specialized.NameValueCollection,Remove</token>
-<token>System.Collections.Specialized.NameValueCollection,Add</token>
-<token>System.Collections.Specialized.NameValueCollection,Remove</token>
-<token>System.Collections.Specialized.NameValueCollection,Remove</token>
-</entry>
-<entry count="4">
+<entry count="588">
 <token>System.Collections.Specialized.StringDictionary,ContainsKey</token>
 <token>System.Collections.Specialized.StringDictionary,Add</token>
 <token>System.Collections.Specialized.StringDictionary,ContainsKey</token>
 <token>System.Collections.Specialized.StringDictionary,ContainsKey</token>
 <token>System.Collections.Specialized.StringDictionary,Add</token>
 </entry>
-<entry count="8">
+<entry count="128">
 <token>System.Collections.Specialized.StringCollection,new</token>
 <token>System.Collections.Specialized.HybridDictionary,new</token>
 <token>System.Collections.Specialized.HybridDictionary,new</token>
 <token>System.Collections.Specialized.StringCollection,new</token>
 <token>System.Collections.Specialized.HybridDictionary,new</token>
 </entry>
-<entry count="10">
-<token>System.Collections.Specialized.NameValueCollection,new</token>
-<token>System.Collections.Specialized.NameValueCollection,Remove</token>
-<token>System.Collections.Specialized.NameValueCollection,Set</token>
-</entry>
-<entry count="39178">
+<entry count="89360">
 <token>System.Collections.Specialized.StringCollection,Add</token>
 <token>System.Collections.Specialized.StringCollection,new</token>
-</entry>
-<entry count="8192">
-<token>System.Collections.Specialized.NameValueCollection,Add</token>
-<token>System.Collections.Specialized.NameValueCollection,Add</token>
-<token>System.Collections.Specialized.NameValueCollection,Remove</token>
 </entry>
 <entry count="2">
 <token>System.Collections.Specialized.OrderedDictionary,new</token>
 <token>System.Collections.Specialized.OrderedDictionary,Contains</token>
 <token>System.Collections.Specialized.OrderedDictionary,Add</token>
 </entry>
-<entry count="17">
+<entry count="24897">
 <token>System.Collections.Specialized.StringCollection,new</token>
 <token>System.Collections.Specialized.HybridDictionary,new</token>
 <token>System.Collections.Specialized.HybridDictionary,new</token>
-</entry>
-<entry count="38402">
-<token>System.Collections.Specialized.StringCollection,new</token>
-<token>System.Collections.Specialized.StringCollection,Add</token>
-<token>System.Collections.Specialized.StringCollection,Add</token>
-<token>System.Collections.Specialized.StringCollection,Add</token>
-<token>System.Collections.Specialized.StringCollection,Add</token>
 </entry>
 <entry count="2">
 <token>System.Collections.Specialized.StringCollection,Add</token>
@@ -1095,23 +2477,12 @@
 <token>System.Collections.Specialized.StringCollection,Add</token>
 <token>System.Collections.Specialized.StringCollection,Clear</token>
 </entry>
-<entry count="2">
+<entry count="52">
+<token>System.Collections.Specialized.StringCollection,new</token>
 <token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.StringCollection,new</token>
 <token>System.Collections.Specialized.StringCollection,Add</token>
-<token>System.Collections.Specialized.StringCollection,Add</token>
-<token>System.Collections.Specialized.StringCollection,Add</token>
-<token>System.Collections.Specialized.StringCollection,Clear</token>
-</entry>
-<entry count="32">
-<token>System.Collections.Specialized.ListDictionary,Contains</token>
-<token>System.Collections.Specialized.ListDictionary,Contains</token>
-</entry>
-<entry count="3496">
-<token>System.Collections.Specialized.NameValueCollection,new</token>
-<token>System.Collections.Specialized.NameValueCollection,Add</token>
-<token>System.Collections.Specialized.NameValueCollection,Add</token>
-<token>System.Collections.Specialized.NameValueCollection,Add</token>
-<token>System.Collections.Specialized.NameValueCollection,Add</token>
+<token>System.Collections.Specialized.StringCollection,new</token>
 </entry>
 <entry count="1">
 <token>System.Collections.Specialized.StringCollection,Clear</token>
@@ -1120,193 +2491,116 @@
 <token>System.Collections.Specialized.StringCollection,Clear</token>
 <token>System.Collections.Specialized.StringCollection,Add</token>
 </entry>
-<entry count="49229">
+<entry count="69122128">
 <token>System.Collections.Specialized.NameValueCollection,Get</token>
 <token>System.Collections.Specialized.NameValueCollection,Get</token>
 <token>System.Collections.Specialized.NameValueCollection,Get</token>
 </entry>
-<entry count="6">
-<token>System.Collections.Specialized.StringCollection,new</token>
-<token>System.Collections.Specialized.HybridDictionary,new</token>
-<token>System.Collections.Specialized.HybridDictionary,new</token>
-<token>System.Collections.Specialized.HybridDictionary,new</token>
-<token>System.Collections.Specialized.StringCollection,CopyTo</token>
-</entry>
-<entry count="1062">
+<entry count="2801">
 <token>System.Collections.Specialized.NameValueCollection,Remove</token>
 <token>System.Collections.Specialized.NameValueCollection,Add</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
 </entry>
-<entry count="2">
+<entry count="54">
 <token>System.Collections.Specialized.NameValueCollection,Add</token>
 <token>System.Collections.Specialized.NameValueCollection,new</token>
 <token>System.Collections.Specialized.NameValueCollection,new</token>
 </entry>
-<entry count="3">
+<entry count="55">
 <token>System.Collections.Specialized.NameValueCollection,new</token>
 <token>System.Collections.Specialized.NameValueCollection,Add</token>
 <token>System.Collections.Specialized.NameValueCollection,new</token>
 <token>System.Collections.Specialized.NameValueCollection,Add</token>
 <token>System.Collections.Specialized.NameValueCollection,new</token>
 </entry>
-<entry count="16384">
+<entry count="12288">
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
 <token>System.Collections.Specialized.NameValueCollection,Remove</token>
 <token>System.Collections.Specialized.NameValueCollection,Remove</token>
 <token>System.Collections.Specialized.NameValueCollection,new</token>
 <token>System.Collections.Specialized.NameValueCollection,Add</token>
 </entry>
-<entry count="11">
-<token>System.Collections.Specialized.StringDictionary,new</token>
-<token>System.Collections.Specialized.StringDictionary,Add</token>
-<token>System.Collections.Specialized.StringDictionary,Add</token>
-</entry>
-<entry count="8">
+<entry count="18576">
 <token>System.Collections.Specialized.HybridDictionary,new</token>
 <token>System.Collections.Specialized.HybridDictionary,new</token>
 <token>System.Collections.Specialized.HybridDictionary,new</token>
 </entry>
-<entry count="1">
-<token>System.Collections.Specialized.StringDictionary,new</token>
-<token>System.Collections.Specialized.StringDictionary,new</token>
-</entry>
-<entry count="2">
-<token>System.Collections.Specialized.HybridDictionary,new</token>
-<token>System.Collections.Specialized.StringCollection,Add</token>
-<token>System.Collections.Specialized.StringCollection,CopyTo</token>
-<token>System.Collections.Specialized.StringCollection,AddRange</token>
-</entry>
-<entry count="2">
-<token>System.Collections.Specialized.StringCollection,AddRange</token>
-<token>System.Collections.Specialized.StringCollection,AddRange</token>
-</entry>
-<entry count="15360">
-<token>System.Collections.Specialized.StringCollection,Add</token>
-<token>System.Collections.Specialized.StringCollection,Add</token>
-<token>System.Collections.Specialized.StringCollection,new</token>
-<token>System.Collections.Specialized.StringCollection,Add</token>
-</entry>
-<entry count="63">
-<token>System.Collections.Specialized.StringDictionary,Add</token>
-<token>System.Collections.Specialized.StringDictionary,Add</token>
-<token>System.Collections.Specialized.StringDictionary,Add</token>
-<token>System.Collections.Specialized.StringDictionary,Add</token>
-<token>System.Collections.Specialized.StringDictionary,Add</token>
-</entry>
-<entry count="2">
-<token>System.Collections.Specialized.StringDictionary,Add</token>
-<token>System.Collections.Specialized.StringDictionary,Remove</token>
-<token>System.Collections.Specialized.StringDictionary,Add</token>
-</entry>
-<entry count="58">
-<token>System.Collections.Specialized.StringDictionary,ContainsKey</token>
-<token>System.Collections.Specialized.StringDictionary,ContainsKey</token>
-</entry>
-<entry count="2">
-<token>System.Collections.Specialized.NameValueCollection,new</token>
-<token>System.Collections.Specialized.NameValueCollection,Add</token>
-<token>System.Collections.Specialized.NameValueCollection,new</token>
-<token>System.Collections.Specialized.NameValueCollection,new</token>
-</entry>
-<entry count="106">
-<token>System.Collections.Specialized.StringDictionary,Add</token>
-<token>System.Collections.Specialized.StringDictionary,Add</token>
-</entry>
-<entry count="8">
-<token>System.Collections.Specialized.StringCollection,new</token>
-<token>System.Collections.Specialized.StringCollection,AddRange</token>
-</entry>
-<entry count="2">
-<token>System.Collections.Specialized.StringCollection,Remove</token>
-<token>System.Collections.Specialized.StringCollection,Insert</token>
-</entry>
-<entry count="1">
-<token>System.Collections.Specialized.StringCollection,IndexOf</token>
-<token>System.Collections.Specialized.StringCollection,RemoveAt</token>
-<token>System.Collections.Specialized.StringCollection,Add</token>
-</entry>
-<entry count="15">
-<token>System.Collections.Specialized.StringCollection,Clear</token>
-<token>System.Collections.Specialized.StringCollection,Add</token>
-<token>System.Collections.Specialized.StringCollection,Add</token>
-</entry>
-<entry count="38400">
-<token>System.Collections.Specialized.StringCollection,Add</token>
-<token>System.Collections.Specialized.StringCollection,Add</token>
-<token>System.Collections.Specialized.StringCollection,Add</token>
-<token>System.Collections.Specialized.StringCollection,new</token>
-</entry>
-<entry count="4">
-<token>System.Collections.Specialized.NameValueCollection,Remove</token>
-<token>System.Collections.Specialized.NameValueCollection,Add</token>
-<token>System.Collections.Specialized.NameValueCollection,Remove</token>
-<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<entry count="44064">
 <token>System.Collections.Specialized.NameValueCollection,GetKey</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
 </entry>
-<entry count="38656">
-<token>System.Collections.Specialized.StringCollection,Add</token>
-<token>System.Collections.Specialized.StringCollection,Add</token>
-<token>System.Collections.Specialized.StringCollection,new</token>
-</entry>
-<entry count="93015">
-<token>System.Collections.Specialized.StringCollection,Add</token>
-<token>System.Collections.Specialized.StringCollection,Add</token>
-<token>System.Collections.Specialized.StringCollection,Add</token>
-<token>System.Collections.Specialized.StringCollection,Add</token>
-<token>System.Collections.Specialized.StringCollection,Add</token>
-</entry>
-<entry count="2">
-<token>System.Collections.Specialized.HybridDictionary,new</token>
+<entry count="8256">
 <token>System.Collections.Specialized.HybridDictionary,new</token>
 <token>System.Collections.Specialized.StringCollection,Add</token>
 <token>System.Collections.Specialized.StringCollection,CopyTo</token>
+<token>System.Collections.Specialized.StringCollection,AddRange</token>
 </entry>
-<entry count="4">
-<token>System.Collections.Specialized.NameValueCollection,Add</token>
-<token>System.Collections.Specialized.NameValueCollection,Add</token>
+<entry count="2">
+<token>System.Collections.Specialized.StringCollection,AddRange</token>
+<token>System.Collections.Specialized.StringCollection,AddRange</token>
+</entry>
+<entry count="54">
+<token>System.Collections.Specialized.NameValueCollection,new</token>
 <token>System.Collections.Specialized.NameValueCollection,Add</token>
 <token>System.Collections.Specialized.NameValueCollection,new</token>
+<token>System.Collections.Specialized.NameValueCollection,new</token>
 </entry>
-<entry count="80">
+<entry count="26">
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.StringCollection,new</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.StringCollection,new</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+</entry>
+<entry count="64">
+<token>System.Collections.Specialized.NameValueCollection,new</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Set</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+</entry>
+<entry count="6192">
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+</entry>
+<entry count="1024">
 <token>System.Collections.Specialized.ListDictionary,new</token>
 <token>System.Collections.Specialized.ListDictionary,Contains</token>
 </entry>
-<entry count="6">
-<token>System.Collections.Specialized.HybridDictionary,new</token>
-<token>System.Collections.Specialized.HybridDictionary,new</token>
-<token>System.Collections.Specialized.StringCollection,CopyTo</token>
-</entry>
-<entry count="8">
-<token>System.Collections.Specialized.StringCollection,Add</token>
-<token>System.Collections.Specialized.StringCollection,new</token>
-<token>System.Collections.Specialized.StringCollection,Contains</token>
-</entry>
 <entry count="32">
 <token>System.Collections.Specialized.StringDictionary,Clear</token>
 <token>System.Collections.Specialized.StringDictionary,Add</token>
 </entry>
-<entry count="16">
-<token>System.Collections.Specialized.StringDictionary,Add</token>
-<token>System.Collections.Specialized.StringDictionary,Clear</token>
-</entry>
-<entry count="2">
+<entry count="6192">
+<token>System.Collections.Specialized.StringCollection,Add</token>
 <token>System.Collections.Specialized.HybridDictionary,new</token>
+<token>System.Collections.Specialized.StringCollection,CopyTo</token>
+<token>System.Collections.Specialized.StringCollection,AddRange</token>
+</entry>
+<entry count="3">
+<token>System.Collections.Specialized.NameValueCollection,Set</token>
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
+<token>System.Collections.Specialized.NameValueCollection,Set</token>
+</entry>
+<entry count="8256">
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+<token>System.Collections.Specialized.StringCollection,new</token>
 <token>System.Collections.Specialized.HybridDictionary,new</token>
 <token>System.Collections.Specialized.StringCollection,Add</token>
 </entry>
-<entry count="40">
-<token>System.Collections.Specialized.NameValueCollection,Add</token>
-<token>System.Collections.Specialized.NameValueCollection,GetValues</token>
-<token>System.Collections.Specialized.NameValueCollection,GetValues</token>
-</entry>
-<entry count="28">
+<entry count="2472">
 <token>System.Collections.Specialized.NameValueCollection,new</token>
 <token>System.Collections.Specialized.NameValueCollection,Remove</token>
 <token>System.Collections.Specialized.NameValueCollection,Remove</token>
 </entry>
-<entry count="1">
-<token>System.Collections.Specialized.NotifyCollectionChangedEventArgs,new</token>
-<token>System.Collections.Specialized.NotifyCollectionChangedEventArgs,new</token>
-</entry>
-<entry count="16">
+<entry count="46664">
 <token>System.Collections.Specialized.NameValueCollection,Remove</token>
 <token>System.Collections.Specialized.NameValueCollection,Remove</token>
 <token>System.Collections.Specialized.NameValueCollection,GetKey</token>
@@ -1314,12 +2608,6 @@
 <entry count="1">
 <token>System.Collections.Specialized.StringCollection,Clear</token>
 <token>System.Collections.Specialized.StringCollection,Clear</token>
-<token>System.Collections.Specialized.StringCollection,Add</token>
-</entry>
-<entry count="8">
-<token>System.Collections.Specialized.StringCollection,Add</token>
-<token>System.Collections.Specialized.StringCollection,new</token>
-<token>System.Collections.Specialized.StringCollection,Contains</token>
 <token>System.Collections.Specialized.StringCollection,Add</token>
 </entry>
 <entry count="7">
@@ -1334,80 +2622,53 @@
 <token>System.Collections.Specialized.StringDictionary,Clear</token>
 <token>System.Collections.Specialized.StringDictionary,Add</token>
 </entry>
-<entry count="1">
-<token>System.Collections.Specialized.StringCollection,Remove</token>
-<token>System.Collections.Specialized.StringCollection,Insert</token>
-<token>System.Collections.Specialized.StringCollection,RemoveAt</token>
-</entry>
-<entry count="40">
+<entry count="5096">
 <token>System.Collections.Specialized.StringDictionary,Add</token>
 <token>System.Collections.Specialized.StringDictionary,ContainsKey</token>
+</entry>
+<entry count="4644">
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+<token>System.Collections.Specialized.StringCollection,CopyTo</token>
 </entry>
 <entry count="3">
 <token>System.Collections.Specialized.StringDictionary,ContainsKey</token>
 <token>System.Collections.Specialized.StringDictionary,Remove</token>
 </entry>
-<entry count="1">
-<token>System.Collections.Specialized.StringCollection,Add</token>
-<token>System.Collections.Specialized.StringCollection,Clear</token>
-<token>System.Collections.Specialized.StringCollection,Clear</token>
-<token>System.Collections.Specialized.StringCollection,Add</token>
-</entry>
-<entry count="856">
-<token>System.Collections.Specialized.NameValueCollection,Remove</token>
-<token>System.Collections.Specialized.NameValueCollection,Remove</token>
-<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<entry count="111">
 <token>System.Collections.Specialized.NameValueCollection,Add</token>
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
+<token>System.Collections.Specialized.NameValueCollection,Set</token>
 </entry>
 <entry count="4">
 <token>System.Collections.Specialized.NameValueCollection,Get</token>
 <token>System.Collections.Specialized.NameValueCollection,Remove</token>
 </entry>
-<entry count="98">
+<entry count="1154">
 <token>System.Collections.Specialized.ListDictionary,new</token>
 <token>System.Collections.Specialized.ListDictionary,new</token>
-</entry>
-<entry count="1">
-<token>System.Collections.Specialized.StringCollection,Clear</token>
-<token>System.Collections.Specialized.StringCollection,Clear</token>
-<token>System.Collections.Specialized.StringCollection,Add</token>
-<token>System.Collections.Specialized.StringCollection,Clear</token>
 </entry>
 <entry count="72">
 <token>System.Collections.Specialized.NameValueCollection,GetKey</token>
 <token>System.Collections.Specialized.NameValueCollection,Get</token>
 </entry>
-<entry count="4">
-<token>System.Collections.Specialized.CollectionsUtil,CreateCaseInsensitiveHashtable</token>
-<token>System.Collections.Specialized.StringCollection,new</token>
-</entry>
-<entry count="96">
+<entry count="12402">
 <token>System.Collections.Specialized.NameValueCollection,Add</token>
 <token>System.Collections.Specialized.NameValueCollection,Remove</token>
 <token>System.Collections.Specialized.NameValueCollection,GetKey</token>
 </entry>
-<entry count="10">
-<token>System.Collections.Specialized.NotifyCollectionChangedEventArgs,new</token>
-<token>System.Collections.Specialized.NotifyCollectionChangedEventHandler,Invoke</token>
-</entry>
-<entry count="22464">
-<token>System.Collections.Specialized.NameValueCollection,new</token>
-<token>System.Collections.Specialized.NameValueCollection,Add</token>
-</entry>
-<entry count="48">
-<token>System.Collections.Specialized.NameValueCollection,new</token>
-<token>System.Collections.Specialized.NameValueCollection,new</token>
-<token>System.Collections.Specialized.NameValueCollection,Add</token>
-</entry>
-<entry count="1">
-<token>System.Collections.Specialized.NameValueCollection,new</token>
-<token>System.Collections.Specialized.NameValueCollection,new</token>
-<token>System.Collections.Specialized.NameValueCollection,new</token>
-<token>System.Collections.Specialized.NameValueCollection,Add</token>
-</entry>
-<entry count="4">
+<entry count="26">
+<token>System.Collections.Specialized.StringCollection,new</token>
+<token>System.Collections.Specialized.StringCollection,new</token>
+<token>System.Collections.Specialized.StringCollection,new</token>
 <token>System.Collections.Specialized.StringCollection,Add</token>
-<token>System.Collections.Specialized.StringCollection,Contains</token>
+</entry>
+<entry count="27">
+<token>System.Collections.Specialized.NameValueCollection,new</token>
+<token>System.Collections.Specialized.NameValueCollection,new</token>
+<token>System.Collections.Specialized.NameValueCollection,new</token>
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
 </entry>
 <entry count="16384">
 <token>System.Collections.Specialized.NameValueCollection,Remove</token>
@@ -1415,63 +2676,54 @@
 <token>System.Collections.Specialized.NameValueCollection,Add</token>
 <token>System.Collections.Specialized.NameValueCollection,Add</token>
 </entry>
+<entry count="39">
+<token>System.Collections.Specialized.StringCollection,Contains</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.StringCollection,Contains</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+</entry>
 <entry count="8">
 <token>System.Collections.Specialized.OrderedDictionary,new</token>
 <token>System.Collections.Specialized.OrderedDictionary,new</token>
 <token>System.Collections.Specialized.OrderedDictionary,new</token>
 </entry>
-<entry count="1">
-<token>System.Collections.Specialized.NameValueCollection,new</token>
-<token>System.Collections.Specialized.NameValueCollection,Add</token>
-<token>System.Collections.Specialized.NameValueCollection,new</token>
-<token>System.Collections.Specialized.NameValueCollection,new</token>
-<token>System.Collections.Specialized.NameValueCollection,Add</token>
-</entry>
-<entry count="1">
-<token>System.Collections.Specialized.NameValueCollection,GetValues</token>
-<token>System.Collections.Specialized.NameValueCollection,Get</token>
-<token>System.Collections.Specialized.NameValueCollection,Get</token>
-<token>System.Collections.Specialized.NameValueCollection,Get</token>
+<entry count="16">
+<token>System.Collections.Specialized.StringCollection,Contains</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.StringCollection,new</token>
+<token>System.Collections.Specialized.StringCollection,Contains</token>
 </entry>
 <entry count="4">
 <token>System.Collections.Specialized.StringCollection,new</token>
 <token>System.Collections.Specialized.StringCollection,Add</token>
 <token>System.Collections.Specialized.StringCollection,Contains</token>
 </entry>
-<entry count="8">
-<token>System.Collections.Specialized.StringDictionary,ContainsKey</token>
-<token>System.Collections.Specialized.StringDictionary,ContainsKey</token>
-<token>System.Collections.Specialized.StringDictionary,ContainsKey</token>
-<token>System.Collections.Specialized.StringDictionary,ContainsKey</token>
+<entry count="12288">
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,new</token>
 </entry>
-<entry count="1">
-<token>System.Collections.Specialized.NameValueCollection,Get</token>
-<token>System.Collections.Specialized.NameValueCollection,Set</token>
-</entry>
-<entry count="1">
-<token>System.Collections.Specialized.StringCollection,IndexOf</token>
+<entry count="24">
+<token>System.Collections.Specialized.StringCollection,Contains</token>
 <token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.StringCollection,new</token>
 </entry>
-<entry count="2">
+<entry count="4644">
 <token>System.Collections.Specialized.HybridDictionary,new</token>
 <token>System.Collections.Specialized.HybridDictionary,new</token>
 <token>System.Collections.Specialized.HybridDictionary,new</token>
 <token>System.Collections.Specialized.StringCollection,Add</token>
 </entry>
-<entry count="38427">
+<entry count="87862">
 <token>System.Collections.Specialized.StringCollection,new</token>
 <token>System.Collections.Specialized.StringCollection,Add</token>
 <token>System.Collections.Specialized.StringCollection,Add</token>
 </entry>
-<entry count="10">
+<entry count="52">
 <token>System.Collections.Specialized.StringCollection,Add</token>
-<token>System.Collections.Specialized.StringCollection,Clear</token>
-<token>System.Collections.Specialized.StringCollection,Add</token>
-</entry>
-<entry count="1">
-<token>System.Collections.Specialized.ListDictionary,new</token>
-<token>System.Collections.Specialized.ListDictionary,new</token>
-<token>System.Collections.Specialized.ListDictionary,new</token>
+<token>System.Collections.Specialized.StringCollection,new</token>
+<token>System.Collections.Specialized.StringCollection,new</token>
 </entry>
 <entry count="6">
 <token>System.Collections.Specialized.NameValueCollection,Get</token>
@@ -1479,92 +2731,70 @@
 <token>System.Collections.Specialized.NameValueCollection,Get</token>
 <token>System.Collections.Specialized.NameValueCollection,Get</token>
 </entry>
-<entry count="40337">
-<token>System.Collections.Specialized.NameValueCollection,Get</token>
-<token>System.Collections.Specialized.NameValueCollection,Get</token>
-<token>System.Collections.Specialized.NameValueCollection,Get</token>
-<token>System.Collections.Specialized.NameValueCollection,Get</token>
-<token>System.Collections.Specialized.NameValueCollection,Get</token>
-</entry>
-<entry count="8">
-<token>System.Collections.Specialized.StringDictionary,ContainsKey</token>
-<token>System.Collections.Specialized.StringDictionary,Add</token>
-<token>System.Collections.Specialized.StringDictionary,ContainsKey</token>
-<token>System.Collections.Specialized.StringDictionary,Add</token>
-<token>System.Collections.Specialized.StringDictionary,ContainsKey</token>
+<entry count="370">
+<token>System.Collections.Specialized.StringCollection,new</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.StringCollection,new</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
 </entry>
 <entry count="8">
 <token>System.Collections.Specialized.HybridDictionary,Contains</token>
 <token>System.Collections.Specialized.HybridDictionary,Add</token>
 </entry>
-<entry count="328">
+<entry count="1388">
 <token>System.Collections.Specialized.StringCollection,new</token>
 <token>System.Collections.Specialized.StringCollection,Contains</token>
 </entry>
-<entry count="8">
+<entry count="16512">
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+</entry>
+<entry count="128">
 <token>System.Collections.Specialized.StringCollection,new</token>
 <token>System.Collections.Specialized.HybridDictionary,new</token>
 <token>System.Collections.Specialized.HybridDictionary,new</token>
 <token>System.Collections.Specialized.StringCollection,new</token>
 </entry>
-<entry count="3">
-<token>System.Collections.Specialized.NameValueCollection,Add</token>
+<entry count="128">
 <token>System.Collections.Specialized.NameValueCollection,new</token>
-<token>System.Collections.Specialized.NameValueCollection,Add</token>
-<token>System.Collections.Specialized.NameValueCollection,new</token>
-</entry>
-<entry count="15360">
-<token>System.Collections.Specialized.StringCollection,Add</token>
-<token>System.Collections.Specialized.StringCollection,Add</token>
-<token>System.Collections.Specialized.StringCollection,Add</token>
-<token>System.Collections.Specialized.StringCollection,new</token>
-<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.NameValueCollection,Set</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Set</token>
 </entry>
 <entry count="16">
 <token>System.Collections.Specialized.StringDictionary,Clear</token>
 <token>System.Collections.Specialized.StringDictionary,Clear</token>
 </entry>
-<entry count="19">
-<token>System.Collections.Specialized.NameValueCollection,Add</token>
-<token>System.Collections.Specialized.NameValueCollection,Add</token>
-<token>System.Collections.Specialized.NameValueCollection,new</token>
-<token>System.Collections.Specialized.NameValueCollection,Add</token>
-<token>System.Collections.Specialized.NameValueCollection,Add</token>
-</entry>
 <entry count="2">
 <token>System.Collections.Specialized.NameValueCollection,GetKey</token>
 <token>System.Collections.Specialized.NameValueCollection,GetKey</token>
-</entry>
-<entry count="12">
-<token>System.Collections.Specialized.StringCollection,Add</token>
-<token>System.Collections.Specialized.StringCollection,CopyTo</token>
 </entry>
 <entry count="1">
 <token>System.Collections.Specialized.StringCollection,new</token>
 <token>System.Collections.Specialized.StringCollection,AddRange</token>
 <token>System.Collections.Specialized.StringCollection,CopyTo</token>
 </entry>
-<entry count="20">
-<token>System.Collections.Specialized.StringDictionary,ContainsKey</token>
-<token>System.Collections.Specialized.StringDictionary,ContainsKey</token>
-<token>System.Collections.Specialized.StringDictionary,Add</token>
-</entry>
-<entry count="8">
-<token>System.Collections.Specialized.StringDictionary,ContainsKey</token>
-<token>System.Collections.Specialized.StringDictionary,ContainsKey</token>
-<token>System.Collections.Specialized.StringDictionary,Add</token>
-<token>System.Collections.Specialized.StringDictionary,ContainsKey</token>
-</entry>
-<entry count="12042">
+<entry count="905496">
 <token>System.Collections.Specialized.NameValueCollection,Add</token>
 <token>System.Collections.Specialized.NameValueCollection,Add</token>
 <token>System.Collections.Specialized.NameValueCollection,Add</token>
 </entry>
-<entry count="4">
+<entry count="163320">
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,GetKey</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+</entry>
+<entry count="1664">
 <token>System.Collections.Specialized.NameValueCollection,new</token>
 <token>System.Collections.Specialized.NameValueCollection,Set</token>
 <token>System.Collections.Specialized.NameValueCollection,Set</token>
 <token>System.Collections.Specialized.NameValueCollection,Remove</token>
+</entry>
+<entry count="93328">
+<token>System.Collections.Specialized.NameValueCollection,GetKey</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,GetKey</token>
 </entry>
 <entry count="40">
 <token>System.Collections.Specialized.NameValueCollection,Add</token>
@@ -1573,73 +2803,67 @@
 <token>System.Collections.Specialized.NameValueCollection,GetValues</token>
 <token>System.Collections.Specialized.NameValueCollection,GetValues</token>
 </entry>
+<entry count="168">
+<token>System.Collections.Specialized.NameValueCollection,GetValues</token>
+<token>System.Collections.Specialized.NameValueCollection,GetKey</token>
+</entry>
 <entry count="4">
 <token>System.Collections.Specialized.OrderedDictionary,new</token>
 <token>System.Collections.Specialized.OrderedDictionary,new</token>
 <token>System.Collections.Specialized.OrderedDictionary,new</token>
 <token>System.Collections.Specialized.OrderedDictionary,new</token>
 </entry>
-<entry count="140">
-<token>System.Collections.Specialized.NameValueCollection,GetValues</token>
-<token>System.Collections.Specialized.NameValueCollection,GetValues</token>
-<token>System.Collections.Specialized.NameValueCollection,GetValues</token>
+<entry count="256">
+<token>System.Collections.Specialized.NameValueCollection,Set</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Set</token>
+<token>System.Collections.Specialized.NameValueCollection,Set</token>
 </entry>
-<entry count="2">
-<token>System.Collections.Specialized.StringDictionary,new</token>
-<token>System.Collections.Specialized.StringDictionary,ContainsKey</token>
+<entry count="64">
+<token>System.Collections.Specialized.NameValueCollection,new</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Set</token>
 </entry>
-<entry count="8">
+<entry count="1664">
 <token>System.Collections.Specialized.NameValueCollection,new</token>
 <token>System.Collections.Specialized.NameValueCollection,Set</token>
 <token>System.Collections.Specialized.NameValueCollection,Remove</token>
 <token>System.Collections.Specialized.NameValueCollection,Set</token>
 </entry>
 <entry count="2">
-<token>System.Collections.Specialized.ListDictionary,new</token>
-<token>System.Collections.Specialized.ListDictionary,Add</token>
-<token>System.Collections.Specialized.ListDictionary,Add</token>
-<token>System.Collections.Specialized.ListDictionary,Add</token>
-</entry>
-<entry count="2">
 <token>System.Collections.Specialized.StringCollection,Clear</token>
 <token>System.Collections.Specialized.StringCollection,Add</token>
 <token>System.Collections.Specialized.StringCollection,Add</token>
 <token>System.Collections.Specialized.StringCollection,Clear</token>
-</entry>
-<entry count="8">
-<token>System.Collections.Specialized.HybridDictionary,new</token>
-<token>System.Collections.Specialized.StringCollection,new</token>
-<token>System.Collections.Specialized.HybridDictionary,new</token>
-<token>System.Collections.Specialized.HybridDictionary,new</token>
 </entry>
 <entry count="5">
 <token>System.Collections.Specialized.StringCollection,Contains</token>
 <token>System.Collections.Specialized.StringCollection,Insert</token>
 </entry>
+<entry count="256">
+<token>System.Collections.Specialized.NameValueCollection,Set</token>
+<token>System.Collections.Specialized.NameValueCollection,Set</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Set</token>
+</entry>
 <entry count="22">
 <token>System.Collections.Specialized.StringCollection,Clear</token>
 <token>System.Collections.Specialized.StringCollection,Add</token>
 </entry>
-<entry count="19">
+<entry count="1311">
 <token>System.Collections.Specialized.NameValueCollection,Add</token>
 <token>System.Collections.Specialized.NameValueCollection,Add</token>
 <token>System.Collections.Specialized.NameValueCollection,new</token>
 <token>System.Collections.Specialized.NameValueCollection,Add</token>
 </entry>
 <entry count="3">
-<token>System.Collections.Specialized.ListDictionary,Add</token>
-<token>System.Collections.Specialized.ListDictionary,Add</token>
-<token>System.Collections.Specialized.ListDictionary,Add</token>
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
+<token>System.Collections.Specialized.NameValueCollection,Set</token>
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
 </entry>
-<entry count="10">
-<token>System.Collections.Specialized.NameValueCollection,Clear</token>
-<token>System.Collections.Specialized.NameValueCollection,GetValues</token>
-</entry>
-<entry count="12">
-<token>System.Collections.Specialized.StringCollection,AddRange</token>
-<token>System.Collections.Specialized.StringCollection,Add</token>
-</entry>
-<entry count="512">
+<entry count="16384">
 <token>System.Collections.Specialized.NameValueCollection,new</token>
 <token>System.Collections.Specialized.NameValueCollection,Get</token>
 </entry>
@@ -1648,40 +2872,18 @@
 <token>System.Collections.Specialized.NameValueCollection,GetValues</token>
 <token>System.Collections.Specialized.NameValueCollection,Get</token>
 </entry>
-<entry count="4043">
-<token>System.Collections.Specialized.NameValueCollection,Add</token>
-<token>System.Collections.Specialized.NameValueCollection,Add</token>
-<token>System.Collections.Specialized.NameValueCollection,Add</token>
-<token>System.Collections.Specialized.NameValueCollection,Add</token>
-<token>System.Collections.Specialized.NameValueCollection,Add</token>
-</entry>
-<entry count="12">
+<entry count="324">
 <token>System.Collections.Specialized.NameValueCollection,GetKey</token>
 <token>System.Collections.Specialized.NameValueCollection,GetValues</token>
 </entry>
-<entry count="2">
-<token>System.Collections.Specialized.NameValueCollection,new</token>
-<token>System.Collections.Specialized.NameValueCollection,new</token>
-<token>System.Collections.Specialized.NameValueCollection,Add</token>
-<token>System.Collections.Specialized.NameValueCollection,new</token>
+<entry count="4128">
+<token>System.Collections.Specialized.HybridDictionary,new</token>
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.StringCollection,CopyTo</token>
+<token>System.Collections.Specialized.StringCollection,AddRange</token>
+<token>System.Collections.Specialized.HybridDictionary,new</token>
 </entry>
-<entry count="8">
-<token>System.Collections.Specialized.StringDictionary,Add</token>
-<token>System.Collections.Specialized.StringDictionary,ContainsKey</token>
-<token>System.Collections.Specialized.StringDictionary,ContainsKey</token>
-</entry>
-<entry count="40">
-<token>System.Collections.Specialized.NameValueCollection,Add</token>
-<token>System.Collections.Specialized.NameValueCollection,Add</token>
-<token>System.Collections.Specialized.NameValueCollection,GetValues</token>
-</entry>
-<entry count="8">
-<token>System.Collections.Specialized.StringCollection,Contains</token>
-<token>System.Collections.Specialized.StringCollection,Contains</token>
-<token>System.Collections.Specialized.StringCollection,Contains</token>
-<token>System.Collections.Specialized.StringCollection,Contains</token>
-</entry>
-<entry count="4">
+<entry count="588">
 <token>System.Collections.Specialized.StringDictionary,Add</token>
 <token>System.Collections.Specialized.StringDictionary,ContainsKey</token>
 <token>System.Collections.Specialized.StringDictionary,Add</token>
@@ -1694,8 +2896,16 @@
 <token>System.Collections.Specialized.NameValueCollection,Get</token>
 <token>System.Collections.Specialized.NameValueCollection,Add</token>
 </entry>
-<entry count="2">
-<token>System.Collections.Specialized.CollectionsUtil,CreateCaseInsensitiveHashtable</token>
+<entry count="76">
+<token>System.Collections.Specialized.StringDictionary,ContainsKey</token>
+<token>System.Collections.Specialized.StringDictionary,ContainsKey</token>
+<token>System.Collections.Specialized.StringDictionary,ContainsKey</token>
+<token>System.Collections.Specialized.StringDictionary,ContainsKey</token>
+<token>System.Collections.Specialized.StringDictionary,Add</token>
+</entry>
+<entry count="26">
+<token>System.Collections.Specialized.StringCollection,Add</token>
+<token>System.Collections.Specialized.StringCollection,new</token>
 <token>System.Collections.Specialized.StringCollection,new</token>
 <token>System.Collections.Specialized.StringCollection,Add</token>
 </entry>
@@ -1708,62 +2918,60 @@
 <token>System.Collections.Specialized.StringDictionary,Clear</token>
 <token>System.Collections.Specialized.StringDictionary,Add</token>
 </entry>
-<entry count="6">
-<token>System.Collections.Specialized.NameValueCollection,Remove</token>
-<token>System.Collections.Specialized.NameValueCollection,Add</token>
+<entry count="4096">
 <token>System.Collections.Specialized.NameValueCollection,Remove</token>
 <token>System.Collections.Specialized.NameValueCollection,Remove</token>
 <token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,new</token>
 </entry>
-<entry count="9">
-<token>System.Collections.Specialized.StringCollection,new</token>
-<token>System.Collections.Specialized.StringCollection,Clear</token>
-</entry>
-<entry count="9">
-<token>System.Collections.Specialized.StringCollection,new</token>
-<token>System.Collections.Specialized.StringCollection,Remove</token>
-</entry>
-<entry count="1">
+<entry count="27">
 <token>System.Collections.Specialized.NameValueCollection,Add</token>
 <token>System.Collections.Specialized.NameValueCollection,new</token>
 <token>System.Collections.Specialized.NameValueCollection,new</token>
 <token>System.Collections.Specialized.NameValueCollection,Add</token>
 </entry>
-<entry count="3">
+<entry count="55">
 <token>System.Collections.Specialized.StringCollection,new</token>
 <token>System.Collections.Specialized.StringCollection,new</token>
 <token>System.Collections.Specialized.StringCollection,new</token>
 </entry>
-<entry count="67">
-<token>System.Collections.Specialized.StringDictionary,ContainsKey</token>
-<token>System.Collections.Specialized.StringDictionary,Add</token>
-</entry>
-<entry count="32">
+<entry count="1664">
 <token>System.Collections.Specialized.NameValueCollection,new</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
 <token>System.Collections.Specialized.NameValueCollection,Set</token>
 <token>System.Collections.Specialized.NameValueCollection,Set</token>
 </entry>
-<entry count="1">
+<entry count="2064">
+<token>System.Collections.Specialized.HybridDictionary,new</token>
 <token>System.Collections.Specialized.StringCollection,Add</token>
-<token>System.Collections.Specialized.StringCollection,Clear</token>
+<token>System.Collections.Specialized.HybridDictionary,new</token>
 <token>System.Collections.Specialized.StringCollection,Add</token>
-<token>System.Collections.Specialized.StringCollection,Clear</token>
-<token>System.Collections.Specialized.StringCollection,Clear</token>
+<token>System.Collections.Specialized.StringCollection,CopyTo</token>
 </entry>
-<entry count="24">
+<entry count="9792">
+<token>System.Collections.Specialized.NameValueCollection,new</token>
+<token>System.Collections.Specialized.NameValueCollection,Set</token>
+<token>System.Collections.Specialized.NameValueCollection,Set</token>
+</entry>
+<entry count="128">
 <token>System.Collections.Specialized.NameValueCollection,new</token>
 <token>System.Collections.Specialized.NameValueCollection,Set</token>
 <token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Set</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+</entry>
+<entry count="38">
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
+<token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
 </entry>
 <entry count="2">
 <token>System.Collections.Specialized.StringCollection,CopyTo</token>
 <token>System.Collections.Specialized.StringCollection,new</token>
 <token>System.Collections.Specialized.StringCollection,AddRange</token>
-</entry>
-<entry count="3">
-<token>System.Collections.Specialized.ListDictionary,new</token>
-<token>System.Collections.Specialized.ListDictionary,Add</token>
-<token>System.Collections.Specialized.ListDictionary,Add</token>
 </entry>
 <entry count="40">
 <token>System.Collections.Specialized.NameValueCollection,Add</token>
@@ -1772,59 +2980,44 @@
 <token>System.Collections.Specialized.NameValueCollection,Add</token>
 <token>System.Collections.Specialized.NameValueCollection,GetValues</token>
 </entry>
-<entry count="15">
-<token>System.Collections.Specialized.NameValueCollection,new</token>
-<token>System.Collections.Specialized.NameValueCollection,Add</token>
-<token>System.Collections.Specialized.NameValueCollection,Add</token>
-<token>System.Collections.Specialized.NameValueCollection,new</token>
-</entry>
-<entry count="25">
-<token>System.Collections.Specialized.HybridDictionary,new</token>
-<token>System.Collections.Specialized.HybridDictionary,new</token>
-</entry>
-<entry count="11">
-<token>System.Collections.Specialized.StringDictionary,new</token>
-<token>System.Collections.Specialized.StringDictionary,Add</token>
-<token>System.Collections.Specialized.StringDictionary,Add</token>
-<token>System.Collections.Specialized.StringDictionary,Add</token>
-<token>System.Collections.Specialized.StringDictionary,Add</token>
-</entry>
-<entry count="126">
+<entry count="162">
 <token>System.Collections.Specialized.NameValueCollection,GetKey</token>
 <token>System.Collections.Specialized.NameObjectCollectionBase,BaseGet</token>
 </entry>
-<entry count="1">
-<token>System.Collections.Specialized.StringCollection,AddRange</token>
-<token>System.Collections.Specialized.StringCollection,CopyTo</token>
+<entry count="152">
+<token>System.Collections.Specialized.StringDictionary,ContainsKey</token>
+<token>System.Collections.Specialized.StringDictionary,ContainsKey</token>
+<token>System.Collections.Specialized.StringDictionary,Add</token>
+<token>System.Collections.Specialized.StringDictionary,ContainsKey</token>
+<token>System.Collections.Specialized.StringDictionary,ContainsKey</token>
 </entry>
-<entry count="23">
-<token>System.Collections.Specialized.StringCollection,new</token>
-<token>System.Collections.Specialized.StringCollection,new</token>
-</entry>
-<entry count="2">
+<entry count="24768">
 <token>System.Collections.Specialized.HybridDictionary,new</token>
 <token>System.Collections.Specialized.StringCollection,Add</token>
 </entry>
-<entry count="1">
-<token>System.Collections.Specialized.StringCollection,Clear</token>
-<token>System.Collections.Specialized.StringCollection,Add</token>
-<token>System.Collections.Specialized.StringCollection,Clear</token>
-<token>System.Collections.Specialized.StringCollection,Clear</token>
+<entry count="48">
+<token>System.Collections.Specialized.NameValueCollection,GetKey</token>
+<token>System.Collections.Specialized.NameValueCollection,GetValues</token>
+<token>System.Collections.Specialized.NameValueCollection,GetKey</token>
+<token>System.Collections.Specialized.NameValueCollection,GetValues</token>
+<token>System.Collections.Specialized.NameValueCollection,GetKey</token>
 </entry>
-<entry count="4">
-<token>System.Collections.Specialized.StringCollection,new</token>
-<token>System.Collections.Specialized.StringCollection,new</token>
-<token>System.Collections.Specialized.StringCollection,Contains</token>
-<token>System.Collections.Specialized.StringCollection,Add</token>
-</entry>
-<entry count="221342">
-<token>System.Collections.Specialized.StringCollection,Add</token>
-<token>System.Collections.Specialized.StringCollection,Add</token>
-</entry>
-<entry count="4">
-<token>System.Collections.Specialized.NameValueCollection,new</token>
+<entry count="3">
 <token>System.Collections.Specialized.NameValueCollection,Set</token>
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
+</entry>
+<entry count="128">
 <token>System.Collections.Specialized.NameValueCollection,Remove</token>
 <token>System.Collections.Specialized.NameValueCollection,Remove</token>
+<token>System.Collections.Specialized.NameValueCollection,Set</token>
+<token>System.Collections.Specialized.NameValueCollection,Set</token>
+</entry>
+<entry count="3">
+<token>System.Collections.Specialized.NameValueCollection,Add</token>
+<token>System.Collections.Specialized.NameValueCollection,Set</token>
+<token>System.Collections.Specialized.NameValueCollection,Set</token>
 </entry>
 </dictionary>

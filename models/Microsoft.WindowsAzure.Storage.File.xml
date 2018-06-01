@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><dictionary case_sensitive="false">
+<entry count="48">
+<token>Microsoft.WindowsAzure.Storage.File.CloudFileShare,GetRootDirectoryReference</token>
+<token>Microsoft.WindowsAzure.Storage.File.CloudFile,GetSharedAccessSignature</token>
+</entry>
 <entry count="3">
 <token>Microsoft.WindowsAzure.Storage.File.CloudFileDirectory,GetDirectoryReference</token>
 <token>Microsoft.WindowsAzure.Storage.File.CloudFileDirectory,GetFileReference</token>
@@ -14,7 +18,12 @@
 <token>Microsoft.WindowsAzure.Storage.File.CloudFileDirectory,GetDirectoryReference</token>
 <token>Microsoft.WindowsAzure.Storage.File.CloudFileDirectory,GetFileReference</token>
 </entry>
-<entry count="24">
+<entry count="12">
+<token>Microsoft.WindowsAzure.Storage.File.CloudFileShare,GetRootDirectoryReference</token>
+<token>Microsoft.WindowsAzure.Storage.File.SharedAccessFilePolicy,new</token>
+<token>Microsoft.WindowsAzure.Storage.File.CloudFileShare,GetRootDirectoryReference</token>
+</entry>
+<entry count="48">
 <token>Microsoft.WindowsAzure.Storage.File.SharedAccessFilePolicy,new</token>
 <token>Microsoft.WindowsAzure.Storage.File.CloudFileShare,GetSharedAccessSignature</token>
 </entry>
@@ -29,20 +38,26 @@
 <token>Microsoft.WindowsAzure.Storage.File.CloudFileShare,GetRootDirectoryReference</token>
 <token>Microsoft.WindowsAzure.Storage.File.CloudFileDirectory,GetDirectoryReference</token>
 </entry>
+<entry count="12">
+<token>Microsoft.WindowsAzure.Storage.File.CloudFileShare,GetRootDirectoryReference</token>
+<token>Microsoft.WindowsAzure.Storage.File.SharedAccessFilePolicy,new</token>
+<token>Microsoft.WindowsAzure.Storage.File.CloudFileShare,GetRootDirectoryReference</token>
+<token>Microsoft.WindowsAzure.Storage.File.CloudFile,GetSharedAccessSignature</token>
+</entry>
 <entry count="2">
 <token>Microsoft.WindowsAzure.Storage.File.CloudFileClient,GetShareReference</token>
 <token>Microsoft.WindowsAzure.Storage.File.CloudFileShare,GetRootDirectoryReference</token>
 </entry>
-<entry count="48">
+<entry count="192">
 <token>Microsoft.WindowsAzure.Storage.File.SharedAccessFilePolicy,new</token>
 <token>Microsoft.WindowsAzure.Storage.File.SharedAccessFilePolicies,Add</token>
 <token>Microsoft.WindowsAzure.Storage.File.CloudFileShare,SetPermissions</token>
 </entry>
-<entry count="48">
+<entry count="192">
 <token>Microsoft.WindowsAzure.Storage.File.SharedAccessFilePolicies,Add</token>
 <token>Microsoft.WindowsAzure.Storage.File.CloudFileShare,SetPermissions</token>
 </entry>
-<entry count="48">
+<entry count="192">
 <token>Microsoft.WindowsAzure.Storage.File.CloudFileShare,GetPermissions</token>
 <token>Microsoft.WindowsAzure.Storage.File.SharedAccessFilePolicy,new</token>
 <token>Microsoft.WindowsAzure.Storage.File.SharedAccessFilePolicies,Add</token>
@@ -52,6 +67,10 @@
 <token>Microsoft.WindowsAzure.Storage.File.CloudFileDirectory,GetFileReference</token>
 <token>Microsoft.WindowsAzure.Storage.File.CloudFile,new</token>
 </entry>
+<entry count="48">
+<token>Microsoft.WindowsAzure.Storage.File.SharedAccessFilePolicy,new</token>
+<token>Microsoft.WindowsAzure.Storage.File.CloudFileShare,GetRootDirectoryReference</token>
+</entry>
 <entry count="2">
 <token>Microsoft.WindowsAzure.Storage.File.CloudFileDirectory,GetFileReference</token>
 <token>Microsoft.WindowsAzure.Storage.File.CloudFileShare,GetRootDirectoryReference</token>
@@ -63,29 +82,29 @@
 <token>Microsoft.WindowsAzure.Storage.File.CloudFileDirectory,GetFileReference</token>
 <token>Microsoft.WindowsAzure.Storage.File.CloudFileDirectory,GetDirectoryReference</token>
 </entry>
-<entry count="12">
-<token>Microsoft.WindowsAzure.Storage.File.CloudFileShare,GetRootDirectoryReference</token>
-<token>Microsoft.WindowsAzure.Storage.File.SharedAccessFilePolicy,new</token>
-</entry>
-<entry count="1">
-<token>Microsoft.WindowsAzure.Storage.File.CloudFileDirectory,GetDirectoryReference</token>
-<token>Microsoft.WindowsAzure.Storage.File.CloudFileDirectory,GetFileReference</token>
-<token>Microsoft.WindowsAzure.Storage.File.CloudFileDirectory,GetDirectoryReference</token>
-</entry>
-<entry count="12">
-<token>Microsoft.WindowsAzure.Storage.File.CloudFileShare,GetRootDirectoryReference</token>
-<token>Microsoft.WindowsAzure.Storage.File.SharedAccessFilePolicy,new</token>
-<token>Microsoft.WindowsAzure.Storage.File.CloudFile,GetSharedAccessSignature</token>
-</entry>
-<entry count="54">
-<token>Microsoft.WindowsAzure.Storage.File.SharedAccessFilePolicy,new</token>
-<token>Microsoft.WindowsAzure.Storage.File.CloudFile,GetSharedAccessSignature</token>
-</entry>
-<entry count="1">
-<token>Microsoft.WindowsAzure.Storage.File.CloudFileDirectory,GetFileReference</token>
-<token>Microsoft.WindowsAzure.Storage.File.CloudFileDirectory,GetDirectoryReference</token>
-</entry>
 <entry count="48">
+<token>Microsoft.WindowsAzure.Storage.File.CloudFileShare,GetRootDirectoryReference</token>
+<token>Microsoft.WindowsAzure.Storage.File.SharedAccessFilePolicy,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.WindowsAzure.Storage.File.CloudFileDirectory,GetDirectoryReference</token>
+<token>Microsoft.WindowsAzure.Storage.File.CloudFileDirectory,GetFileReference</token>
+<token>Microsoft.WindowsAzure.Storage.File.CloudFileDirectory,GetDirectoryReference</token>
+</entry>
+<entry count="36">
+<token>Microsoft.WindowsAzure.Storage.File.CloudFileShare,GetRootDirectoryReference</token>
+<token>Microsoft.WindowsAzure.Storage.File.SharedAccessFilePolicy,new</token>
+<token>Microsoft.WindowsAzure.Storage.File.CloudFile,GetSharedAccessSignature</token>
+</entry>
+<entry count="150">
+<token>Microsoft.WindowsAzure.Storage.File.SharedAccessFilePolicy,new</token>
+<token>Microsoft.WindowsAzure.Storage.File.CloudFile,GetSharedAccessSignature</token>
+</entry>
+<entry count="1">
+<token>Microsoft.WindowsAzure.Storage.File.CloudFileDirectory,GetFileReference</token>
+<token>Microsoft.WindowsAzure.Storage.File.CloudFileDirectory,GetDirectoryReference</token>
+</entry>
+<entry count="192">
 <token>Microsoft.WindowsAzure.Storage.File.SharedAccessFilePolicy,new</token>
 <token>Microsoft.WindowsAzure.Storage.File.SharedAccessFilePolicies,Add</token>
 </entry>
@@ -98,7 +117,7 @@
 <token>Microsoft.WindowsAzure.Storage.File.CloudFileShare,GetRootDirectoryReference</token>
 <token>Microsoft.WindowsAzure.Storage.File.CloudFileDirectory,GetDirectoryReference</token>
 </entry>
-<entry count="48">
+<entry count="192">
 <token>Microsoft.WindowsAzure.Storage.File.CloudFileShare,GetPermissions</token>
 <token>Microsoft.WindowsAzure.Storage.File.SharedAccessFilePolicy,new</token>
 </entry>
@@ -106,7 +125,7 @@
 <token>Microsoft.WindowsAzure.Storage.File.CloudFileDirectory,GetFileReference</token>
 <token>Microsoft.WindowsAzure.Storage.File.CloudFileShare,GetRootDirectoryReference</token>
 </entry>
-<entry count="48">
+<entry count="192">
 <token>Microsoft.WindowsAzure.Storage.File.CloudFileShare,GetPermissions</token>
 <token>Microsoft.WindowsAzure.Storage.File.SharedAccessFilePolicy,new</token>
 <token>Microsoft.WindowsAzure.Storage.File.SharedAccessFilePolicies,Add</token>
@@ -114,5 +133,10 @@
 <entry count="5">
 <token>Microsoft.WindowsAzure.Storage.File.CloudFileShare,GetRootDirectoryReference</token>
 <token>Microsoft.WindowsAzure.Storage.File.CloudFileDirectory,GetFileReference</token>
+</entry>
+<entry count="48">
+<token>Microsoft.WindowsAzure.Storage.File.SharedAccessFilePolicy,new</token>
+<token>Microsoft.WindowsAzure.Storage.File.CloudFileShare,GetRootDirectoryReference</token>
+<token>Microsoft.WindowsAzure.Storage.File.CloudFile,GetSharedAccessSignature</token>
 </entry>
 </dictionary>

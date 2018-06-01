@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><dictionary case_sensitive="false">
-<entry count="90">
+<entry count="2550">
 <token>Gtk.ITreeModel,GetPath</token>
 <token>Gtk.TreeView,GetRowExpanded</token>
 <token>Gtk.ITreeModel,IterChildren</token>
@@ -110,7 +110,7 @@
 <token>Gtk.Container,Add</token>
 <token>Gtk.CellRendererPixbuf,new</token>
 </entry>
-<entry count="90">
+<entry count="2550">
 <token>Gtk.ITreeModel,GetIterFirst</token>
 <token>Gtk.ITreeModel,GetPath</token>
 <token>Gtk.TreeView,GetRowExpanded</token>
@@ -125,7 +125,7 @@
 <token>Gtk.ImageMenuItem,new</token>
 <token>Gtk.AccelLabel,new</token>
 </entry>
-<entry count="12">
+<entry count="252">
 <token>Gtk.ITreeModel,IterParent</token>
 <token>Gtk.ITreeModel,GetIterFirst</token>
 <token>Gtk.ITreeModel,GetPath</token>
@@ -174,6 +174,12 @@
 <token>Gtk.TextView,ScrollToMark</token>
 </entry>
 <entry count="3">
+<token>Gtk.TreeViewColumn,AddAttribute</token>
+<token>Gtk.TreeViewColumn,AddAttribute</token>
+<token>Gtk.TreeViewColumn,AddAttribute</token>
+<token>Gtk.TreeViewColumn,AddAttribute</token>
+</entry>
+<entry count="3">
 <token>Gtk.HBox,new</token>
 <token>Gtk.VBox,new</token>
 <token>Gtk.Box,PackStart</token>
@@ -184,7 +190,7 @@
 <token>Gtk.Box,PackStart</token>
 <token>Gtk.Box,PackStart</token>
 </entry>
-<entry count="3">
+<entry count="63">
 <token>Gtk.ITreeModel,GetIterFirst</token>
 <token>Gtk.ITreeModel,GetIterFirst</token>
 <token>Gtk.ITreeModel,GetPath</token>
@@ -205,6 +211,13 @@
 <token>Gtk.TextBuffer,RemoveTag</token>
 <token>Gtk.TextTagTable,Lookup</token>
 <token>Gtk.TextTag,new</token>
+</entry>
+<entry count="60">
+<token>Gtk.ITreeModel,GetIterFirst</token>
+<token>Gtk.ITreeModel,GetIterFirst</token>
+<token>Gtk.ITreeModel,GetPath</token>
+<token>Gtk.TreeView,GetRowExpanded</token>
+<token>Gtk.ITreeModel,IterChildren</token>
 </entry>
 <entry count="3">
 <token>Gtk.HBox,new</token>
@@ -257,11 +270,25 @@
 <token>Gtk.ITreeModel,IterNChildren</token>
 <token>Gtk.TreeView,SetCursorOnCell</token>
 </entry>
+<entry count="960">
+<token>Gtk.ITreeModel,IterNext</token>
+<token>Gtk.ITreeModel,GetIterFirst</token>
+<token>Gtk.ITreeModel,GetPath</token>
+<token>Gtk.TreeView,GetRowExpanded</token>
+<token>Gtk.ITreeModel,IterChildren</token>
+</entry>
 <entry count="3">
 <token>Gtk.HBox,new</token>
 <token>Gtk.VBox,new</token>
 <token>Gtk.Box,PackStart</token>
 <token>Gtk.Container,Add</token>
+</entry>
+<entry count="480">
+<token>Gtk.ITreeModel,IterParent</token>
+<token>Gtk.ITreeModel,IterNext</token>
+<token>Gtk.ITreeModel,GetIterFirst</token>
+<token>Gtk.ITreeModel,GetPath</token>
+<token>Gtk.TreeView,GetRowExpanded</token>
 </entry>
 <entry count="3">
 <token>Gtk.VBox,new</token>
@@ -299,6 +326,13 @@
 <token>Gtk.Entry,new</token>
 <token>Gtk.Widget,SetSizeRequest</token>
 </entry>
+<entry count="504">
+<token>Gtk.ITreeModel,IterChildren</token>
+<token>Gtk.ITreeModel,IterNext</token>
+<token>Gtk.ITreeModel,IterParent</token>
+<token>Gtk.ITreeModel,IterNext</token>
+<token>Gtk.ITreeModel,GetPath</token>
+</entry>
 <entry count="6">
 <token>Gtk.Widget,SetSizeRequest</token>
 <token>Gtk.StyleContext,ListClasses</token>
@@ -313,7 +347,7 @@
 <token>Gtk.Widget,QueueDraw</token>
 <token>Gtk.Widget,QueueDraw</token>
 </entry>
-<entry count="12">
+<entry count="24">
 <token>Gtk.Container,Remove</token>
 <token>Gtk.Paned,Pack1</token>
 <token>Gtk.Paned,Pack2</token>
@@ -374,6 +408,12 @@
 <token>Gtk.Container,Add</token>
 <token>Gtk.Widget,ShowAll</token>
 </entry>
+<entry count="60">
+<token>Gtk.ITreeModel,GetIterFirst</token>
+<token>Gtk.ITreeModel,GetIterFirst</token>
+<token>Gtk.ITreeModel,GetPath</token>
+<token>Gtk.TreeView,GetRowExpanded</token>
+</entry>
 <entry count="3">
 <token>Gtk.Entry,new</token>
 <token>Gtk.Label,new</token>
@@ -399,6 +439,10 @@
 <entry count="3">
 <token>Gtk.Widget,GetPreferredHeight</token>
 <token>Gtk.Widget,GetPreferredHeight</token>
+</entry>
+<entry count="1008">
+<token>Gtk.ITreeModel,IterNext</token>
+<token>Gtk.ITreeModel,GetPath</token>
 </entry>
 <entry count="6">
 <token>Gtk.Widget,SetSizeRequest</token>
@@ -527,7 +571,7 @@
 <token>Gtk.Label,new</token>
 <token>Gtk.Menu,new</token>
 </entry>
-<entry count="90">
+<entry count="2550">
 <token>Gtk.TreeView,GetRowExpanded</token>
 <token>Gtk.ITreeModel,IterChildren</token>
 </entry>
@@ -541,7 +585,7 @@
 <token>Gtk.StyleContext,RemoveClass</token>
 <token>Gtk.StyleContext,RemoveClass</token>
 </entry>
-<entry count="24">
+<entry count="504">
 <token>Gtk.ITreeModel,IterNext</token>
 <token>Gtk.ITreeModel,IterParent</token>
 <token>Gtk.ITreeModel,IterNext</token>
@@ -559,6 +603,12 @@
 <token>Gtk.ComboBox,NewWithModelAndEntry</token>
 <token>Gtk.ComboBox,SetAttributes</token>
 </entry>
+<entry count="240">
+<token>Gtk.ITreeModel,IterParent</token>
+<token>Gtk.ITreeModel,GetIterFirst</token>
+<token>Gtk.ITreeModel,GetPath</token>
+<token>Gtk.TreeView,GetRowExpanded</token>
+</entry>
 <entry count="3">
 <token>Gtk.Window,Move</token>
 <token>Gtk.Widget,ShowAll</token>
@@ -567,7 +617,7 @@
 <token>Gtk.TreePath,Copy</token>
 <token>Gtk.TreePath,AppendIndex</token>
 </entry>
-<entry count="12">
+<entry count="252">
 <token>Gtk.ITreeModel,IterChildren</token>
 <token>Gtk.ITreeModel,IterNext</token>
 <token>Gtk.ITreeModel,IterParent</token>
@@ -582,7 +632,7 @@
 <token>Gtk.AccelLabel,new</token>
 <token>Gtk.Table,Attach</token>
 </entry>
-<entry count="12">
+<entry count="24">
 <token>Gtk.Container,Remove</token>
 <token>Gtk.Container,Remove</token>
 <token>Gtk.Paned,Pack1</token>
@@ -593,12 +643,12 @@
 <token>Gtk.Menu,new</token>
 <token>Gtk.MenuBar,new</token>
 </entry>
-<entry count="12">
+<entry count="24">
 <token>Gtk.Container,Remove</token>
 <token>Gtk.Container,Remove</token>
 <token>Gtk.Paned,Pack1</token>
 </entry>
-<entry count="6">
+<entry count="12">
 <token>Gtk.TreeViewColumn,ClearAttributes</token>
 <token>Gtk.TreeViewColumn,ClearAttributes</token>
 <token>Gtk.TreeViewColumn,AddAttribute</token>
@@ -634,6 +684,13 @@
 <token>Gtk.Widget,GetPreferredWidthForHeight</token>
 <token>Gtk.Widget,GetPreferredWidthForHeight</token>
 </entry>
+<entry count="240">
+<token>Gtk.ITreeModel,IterParent</token>
+<token>Gtk.ITreeModel,GetIterFirst</token>
+<token>Gtk.ITreeModel,GetPath</token>
+<token>Gtk.TreeView,GetRowExpanded</token>
+<token>Gtk.ITreeModel,IterChildren</token>
+</entry>
 <entry count="6">
 <token>Gtk.SeparatorToolItem,new</token>
 <token>Gtk.Toolbar,Insert</token>
@@ -642,11 +699,11 @@
 <token>Gtk.Box,PackStart</token>
 <token>Gtk.Label,new</token>
 </entry>
-<entry count="6">
+<entry count="12">
 <token>Gtk.TreeViewColumn,ClearAttributes</token>
 <token>Gtk.TreeViewColumn,ClearAttributes</token>
 </entry>
-<entry count="36">
+<entry count="1020">
 <token>Gtk.TreeView,GetRowExpanded</token>
 <token>Gtk.ITreeModel,IterChildren</token>
 <token>Gtk.ITreeModel,IterNext</token>
@@ -684,7 +741,7 @@
 <token>Gtk.PrintUnixDialog,new</token>
 <token>Gtk.Label,new</token>
 </entry>
-<entry count="12">
+<entry count="24">
 <token>Gtk.Container,Remove</token>
 <token>Gtk.Container,Remove</token>
 <token>Gtk.Paned,Pack1</token>
@@ -695,7 +752,7 @@
 <token>Gtk.Container,Add</token>
 <token>Gtk.Container,Add</token>
 </entry>
-<entry count="90">
+<entry count="2550">
 <token>Gtk.TreeView,GetRowExpanded</token>
 <token>Gtk.ITreeModel,IterChildren</token>
 <token>Gtk.ITreeModel,IterNext</token>
@@ -728,7 +785,7 @@
 <token>Gtk.Label,new</token>
 <token>Gtk.Box,PackStart</token>
 </entry>
-<entry count="54">
+<entry count="1530">
 <token>Gtk.ITreeModel,IterNext</token>
 <token>Gtk.ITreeModel,IterParent</token>
 </entry>
@@ -879,7 +936,7 @@
 <token>Gtk.TextBuffer,GetIterAtOffset</token>
 <token>Gtk.TextBuffer,GetIterAtOffset</token>
 </entry>
-<entry count="3">
+<entry count="9">
 <token>Gtk.TreeViewColumn,ClearAttributes</token>
 <token>Gtk.TreeViewColumn,AddAttribute</token>
 <token>Gtk.TreeViewColumn,AddAttribute</token>
@@ -909,7 +966,7 @@
 <token>Gtk.HBox,new</token>
 <token>Gtk.VBox,new</token>
 </entry>
-<entry count="12">
+<entry count="24">
 <token>Gtk.Container,Remove</token>
 <token>Gtk.Paned,Pack1</token>
 </entry>
@@ -917,7 +974,7 @@
 <token>Gtk.Container,Remove</token>
 <token>Gtk.Table,Attach</token>
 </entry>
-<entry count="48">
+<entry count="1008">
 <token>Gtk.ITreeModel,IterNext</token>
 <token>Gtk.ITreeModel,GetIterFirst</token>
 </entry>
@@ -941,7 +998,7 @@
 <token>Gtk.ScrolledWindow,new</token>
 <token>Gtk.Viewport,new</token>
 </entry>
-<entry count="36">
+<entry count="1020">
 <token>Gtk.ITreeModel,IterParent</token>
 <token>Gtk.ITreeModel,IterNext</token>
 </entry>
@@ -949,11 +1006,15 @@
 <token>Gtk.Widget,QueueDraw</token>
 <token>Gtk.Widget,QueueDraw</token>
 </entry>
-<entry count="12">
+<entry count="24">
 <token>Gtk.Widget,ShowAll</token>
 <token>Gtk.Container,Remove</token>
 <token>Gtk.Container,Remove</token>
 <token>Gtk.Paned,Pack1</token>
+</entry>
+<entry count="252">
+<token>Gtk.ITreeModel,IterParent</token>
+<token>Gtk.ITreeModel,GetPath</token>
 </entry>
 <entry count="3">
 <token>Gtk.Widget,ShowAll</token>
@@ -981,7 +1042,7 @@
 <token>Gtk.TreePath,AppendIndex</token>
 <token>Gtk.ITreeModel,EmitRowDeleted</token>
 </entry>
-<entry count="24">
+<entry count="504">
 <token>Gtk.ITreeModel,IterChildren</token>
 <token>Gtk.ITreeModel,IterNext</token>
 <token>Gtk.ITreeModel,IterParent</token>
@@ -1042,7 +1103,7 @@
 <token>Gtk.Label,new</token>
 <token>Gtk.PrintUnixDialog,AddCustomTab</token>
 </entry>
-<entry count="24">
+<entry count="504">
 <token>Gtk.ITreeModel,IterNext</token>
 <token>Gtk.ITreeModel,IterParent</token>
 <token>Gtk.ITreeModel,IterNext</token>
@@ -1096,6 +1157,12 @@
 <token>Gtk.VBox,new</token>
 <token>Gtk.Container,Add</token>
 </entry>
+<entry count="504">
+<token>Gtk.TreeView,GetRowExpanded</token>
+<token>Gtk.ITreeModel,IterChildren</token>
+<token>Gtk.ITreeModel,IterNext</token>
+<token>Gtk.ITreeModel,GetPath</token>
+</entry>
 <entry count="3">
 <token>Gtk.HBox,new</token>
 <token>Gtk.VBox,new</token>
@@ -1103,15 +1170,22 @@
 <token>Gtk.Box,PackStart</token>
 <token>Gtk.Box,PackStart</token>
 </entry>
-<entry count="90">
+<entry count="2550">
 <token>Gtk.ITreeModel,IterChildren</token>
 <token>Gtk.ITreeModel,IterNext</token>
 </entry>
-<entry count="6">
+<entry count="12">
 <token>Gtk.TreeViewColumn,ClearAttributes</token>
 <token>Gtk.TreeViewColumn,ClearAttributes</token>
 <token>Gtk.TreeViewColumn,AddAttribute</token>
 <token>Gtk.TreeViewColumn,AddAttribute</token>
+</entry>
+<entry count="240">
+<token>Gtk.ITreeModel,IterNext</token>
+<token>Gtk.ITreeModel,IterParent</token>
+<token>Gtk.ITreeModel,GetIterFirst</token>
+<token>Gtk.ITreeModel,GetPath</token>
+<token>Gtk.TreeView,GetRowExpanded</token>
 </entry>
 <entry count="3">
 <token>Gtk.Window,new</token>
@@ -1156,7 +1230,7 @@
 <token>Gtk.VBox,new</token>
 <token>Gtk.Box,PackStart</token>
 </entry>
-<entry count="90">
+<entry count="2550">
 <token>Gtk.ITreeModel,GetPath</token>
 <token>Gtk.TreeView,GetRowExpanded</token>
 </entry>
@@ -1222,7 +1296,7 @@
 <token>Gtk.TreeViewColumn,new</token>
 <token>Gtk.CellRendererPixbuf,new</token>
 </entry>
-<entry count="24">
+<entry count="504">
 <token>Gtk.TreeView,GetRowExpanded</token>
 <token>Gtk.ITreeModel,IterChildren</token>
 <token>Gtk.ITreeModel,IterNext</token>
@@ -1244,7 +1318,7 @@
 <token>Gtk.Toolbar,Insert</token>
 <token>Gtk.Widget,ShowAll</token>
 </entry>
-<entry count="90">
+<entry count="2550">
 <token>Gtk.ITreeModel,GetIterFirst</token>
 <token>Gtk.ITreeModel,GetPath</token>
 <token>Gtk.TreeView,GetRowExpanded</token>
@@ -1268,11 +1342,17 @@
 <token>Gtk.CellRendererPixbuf,new</token>
 <token>Gtk.TreeViewColumn,PackStart</token>
 </entry>
+<entry count="252">
+<token>Gtk.ITreeModel,IterChildren</token>
+<token>Gtk.ITreeModel,IterNext</token>
+<token>Gtk.ITreeModel,IterParent</token>
+<token>Gtk.ITreeModel,GetPath</token>
+</entry>
 <entry count="3">
 <token>Gtk.TreeModelAdapter,new</token>
 <token>Gtk.TreeView,new</token>
 </entry>
-<entry count="12">
+<entry count="252">
 <token>Gtk.ITreeModel,IterNext</token>
 <token>Gtk.ITreeModel,IterParent</token>
 <token>Gtk.ITreeModel,GetIterFirst</token>
@@ -1311,7 +1391,7 @@
 <token>Gtk.TreeViewColumn,new</token>
 <token>Gtk.CellRendererPixbuf,new</token>
 </entry>
-<entry count="3">
+<entry count="63">
 <token>Gtk.ITreeModel,GetIterFirst</token>
 <token>Gtk.ITreeModel,GetIterFirst</token>
 </entry>
@@ -1329,12 +1409,12 @@
 <token>Gtk.VBox,new</token>
 <token>Gtk.Widget,SetSizeRequest</token>
 </entry>
-<entry count="90">
+<entry count="2550">
 <token>Gtk.ITreeModel,GetPath</token>
 <token>Gtk.TreeView,GetRowExpanded</token>
 <token>Gtk.ITreeModel,IterChildren</token>
 </entry>
-<entry count="12">
+<entry count="252">
 <token>Gtk.ITreeModel,IterChildren</token>
 <token>Gtk.ITreeModel,IterNext</token>
 <token>Gtk.ITreeModel,IterParent</token>
@@ -1406,12 +1486,12 @@
 <token>Gtk.Dialog,Run</token>
 <token>Gtk.Widget,Hide</token>
 </entry>
-<entry count="24">
+<entry count="504">
 <token>Gtk.ITreeModel,IterParent</token>
 <token>Gtk.ITreeModel,IterNext</token>
 <token>Gtk.ITreeModel,GetIterFirst</token>
 </entry>
-<entry count="24">
+<entry count="504">
 <token>Gtk.ITreeModel,IterChildren</token>
 <token>Gtk.ITreeModel,IterNext</token>
 <token>Gtk.ITreeModel,GetIterFirst</token>
@@ -1432,7 +1512,7 @@
 <token>Gtk.CellRendererText,new</token>
 <token>Gtk.TreeViewColumn,PackStart</token>
 </entry>
-<entry count="21">
+<entry count="27">
 <token>Gtk.TreeViewColumn,ClearAttributes</token>
 <token>Gtk.TreeViewColumn,AddAttribute</token>
 </entry>
@@ -1477,11 +1557,18 @@
 <token>Gtk.Box,PackStart</token>
 <token>Gtk.Box,PackStart</token>
 </entry>
-<entry count="36">
+<entry count="1020">
 <token>Gtk.ITreeModel,IterChildren</token>
 <token>Gtk.ITreeModel,IterNext</token>
 <token>Gtk.ITreeModel,IterParent</token>
 <token>Gtk.ITreeModel,IterNext</token>
+</entry>
+<entry count="3">
+<token>Gtk.TreeViewColumn,ClearAttributes</token>
+<token>Gtk.TreeViewColumn,AddAttribute</token>
+<token>Gtk.TreeViewColumn,AddAttribute</token>
+<token>Gtk.TreeViewColumn,AddAttribute</token>
+<token>Gtk.TreeViewColumn,AddAttribute</token>
 </entry>
 <entry count="3">
 <token>Gtk.Window,new</token>
@@ -1512,7 +1599,7 @@
 <token>Gtk.ITreeModel,EmitRowChanged</token>
 <token>Gtk.ITreeModel,EmitRowHasChildToggled</token>
 </entry>
-<entry count="12">
+<entry count="252">
 <token>Gtk.ITreeModel,IterNext</token>
 <token>Gtk.ITreeModel,IterParent</token>
 <token>Gtk.ITreeModel,GetIterFirst</token>
@@ -1524,9 +1611,22 @@
 <token>Gtk.Table,Attach</token>
 <token>Gtk.Image,new</token>
 </entry>
-<entry count="12">
+<entry count="960">
+<token>Gtk.ITreeModel,IterNext</token>
+<token>Gtk.ITreeModel,GetIterFirst</token>
+<token>Gtk.ITreeModel,GetPath</token>
+<token>Gtk.TreeView,GetRowExpanded</token>
+</entry>
+<entry count="27">
 <token>Gtk.TreeViewColumn,AddAttribute</token>
 <token>Gtk.TreeViewColumn,AddAttribute</token>
+</entry>
+<entry count="504">
+<token>Gtk.ITreeModel,GetPath</token>
+<token>Gtk.TreeView,GetRowExpanded</token>
+<token>Gtk.ITreeModel,IterChildren</token>
+<token>Gtk.ITreeModel,IterNext</token>
+<token>Gtk.ITreeModel,GetPath</token>
 </entry>
 <entry count="6">
 <token>Gtk.RadioToolButton,new</token>
@@ -1564,6 +1664,13 @@
 <token>Gtk.FileFilter,new</token>
 <token>Gtk.FileChooserDialog,AddFilter</token>
 </entry>
+<entry count="252">
+<token>Gtk.TreeView,GetRowExpanded</token>
+<token>Gtk.ITreeModel,IterChildren</token>
+<token>Gtk.ITreeModel,IterNext</token>
+<token>Gtk.ITreeModel,IterParent</token>
+<token>Gtk.ITreeModel,GetPath</token>
+</entry>
 <entry count="9">
 <token>Gtk.FileChooserDialog,SetCurrentFolder</token>
 <token>Gtk.Dialog,AddButton</token>
@@ -1581,7 +1688,7 @@
 <token>Gtk.Menu,new</token>
 <token>Gtk.MenuBar,new</token>
 </entry>
-<entry count="153">
+<entry count="2613">
 <token>Gtk.ITreeModel,GetIterFirst</token>
 <token>Gtk.ITreeModel,GetPath</token>
 </entry>
@@ -1596,11 +1703,18 @@
 <token>Gtk.Box,PackStart</token>
 <token>Gtk.Container,Add</token>
 </entry>
+<entry count="480">
+<token>Gtk.ITreeModel,IterChildren</token>
+<token>Gtk.ITreeModel,IterNext</token>
+<token>Gtk.ITreeModel,GetIterFirst</token>
+<token>Gtk.ITreeModel,GetPath</token>
+<token>Gtk.TreeView,GetRowExpanded</token>
+</entry>
 <entry count="3">
 <token>Gtk.ListStore,AppendValues</token>
 <token>Gtk.Widget,QueueResize</token>
 </entry>
-<entry count="24">
+<entry count="504">
 <token>Gtk.ITreeModel,IterChildren</token>
 <token>Gtk.ITreeModel,IterNext</token>
 <token>Gtk.ITreeModel,GetIterFirst</token>
@@ -1609,7 +1723,7 @@
 <token>Gtk.Toolbar,Insert</token>
 <token>Gtk.Widget,ShowAll</token>
 </entry>
-<entry count="48">
+<entry count="1008">
 <token>Gtk.ITreeModel,IterNext</token>
 <token>Gtk.ITreeModel,GetIterFirst</token>
 <token>Gtk.ITreeModel,GetPath</token>
@@ -1633,7 +1747,7 @@
 <token>Gtk.CellRendererText,new</token>
 <token>Gtk.TreeViewColumn,PackStart</token>
 </entry>
-<entry count="12">
+<entry count="252">
 <token>Gtk.ITreeModel,IterParent</token>
 <token>Gtk.ITreeModel,GetIterFirst</token>
 </entry>
@@ -1641,13 +1755,13 @@
 <token>Gtk.VBox,new</token>
 <token>Gtk.Container,Add</token>
 </entry>
-<entry count="24">
+<entry count="504">
 <token>Gtk.ITreeModel,IterParent</token>
 <token>Gtk.ITreeModel,IterNext</token>
 <token>Gtk.ITreeModel,GetIterFirst</token>
 <token>Gtk.ITreeModel,GetPath</token>
 </entry>
-<entry count="12">
+<entry count="24">
 <token>Gtk.Widget,ShowAll</token>
 <token>Gtk.Container,Remove</token>
 <token>Gtk.Container,Remove</token>
@@ -1675,7 +1789,7 @@
 <token>Gtk.TextBuffer,GetIterAtOffset</token>
 <token>Gtk.TextBuffer,Delete</token>
 </entry>
-<entry count="54">
+<entry count="1530">
 <token>Gtk.ITreeModel,IterChildren</token>
 <token>Gtk.ITreeModel,IterNext</token>
 <token>Gtk.ITreeModel,IterParent</token>
@@ -1694,7 +1808,7 @@
 <token>Gtk.Entry,new</token>
 <token>Gtk.Label,new</token>
 </entry>
-<entry count="90">
+<entry count="2550">
 <token>Gtk.ITreeModel,GetIterFirst</token>
 <token>Gtk.ITreeModel,GetPath</token>
 <token>Gtk.TreeView,GetRowExpanded</token>
@@ -1723,7 +1837,7 @@
 <token>Gtk.Button,new</token>
 <token>Gtk.Box,PackStart</token>
 </entry>
-<entry count="12">
+<entry count="24">
 <token>Gtk.Container,Remove</token>
 <token>Gtk.Container,Remove</token>
 </entry>
@@ -1736,7 +1850,7 @@
 <token>Gtk.Container,Add</token>
 <token>Gtk.Widget,ShowAll</token>
 </entry>
-<entry count="12">
+<entry count="252">
 <token>Gtk.TreeView,GetRowExpanded</token>
 <token>Gtk.ITreeModel,IterChildren</token>
 <token>Gtk.ITreeModel,IterNext</token>
@@ -1771,7 +1885,7 @@
 <token>Gtk.Button,SetAlignment</token>
 <token>Gtk.EventBox,new</token>
 </entry>
-<entry count="9">
+<entry count="15">
 <token>Gtk.TreeViewColumn,ClearAttributes</token>
 <token>Gtk.TreeViewColumn,AddAttribute</token>
 <token>Gtk.TreeViewColumn,AddAttribute</token>
@@ -1832,7 +1946,7 @@
 <token>Gtk.Button,new</token>
 <token>Gtk.Box,PackStart</token>
 </entry>
-<entry count="54">
+<entry count="1530">
 <token>Gtk.ITreeModel,GetPath</token>
 <token>Gtk.TreeView,GetRowExpanded</token>
 <token>Gtk.ITreeModel,IterChildren</token>
@@ -1851,7 +1965,7 @@
 <token>Gtk.Viewport,new</token>
 <token>Gtk.HBox,new</token>
 </entry>
-<entry count="54">
+<entry count="1530">
 <token>Gtk.TreeView,GetRowExpanded</token>
 <token>Gtk.ITreeModel,IterChildren</token>
 <token>Gtk.ITreeModel,IterNext</token>
@@ -1860,6 +1974,12 @@
 <entry count="3">
 <token>Gtk.TreeView,AppendColumn</token>
 <token>Gtk.ScrolledWindow,new</token>
+</entry>
+<entry count="504">
+<token>Gtk.ITreeModel,IterNext</token>
+<token>Gtk.ITreeModel,IterParent</token>
+<token>Gtk.ITreeModel,IterNext</token>
+<token>Gtk.ITreeModel,GetPath</token>
 </entry>
 <entry count="18">
 <token>Gtk.HBox,new</token>
@@ -1871,12 +1991,17 @@
 <token>Gtk.TextBuffer,GetIterAtOffset</token>
 <token>Gtk.TextBuffer,Delete</token>
 </entry>
+<entry count="504">
+<token>Gtk.ITreeModel,IterChildren</token>
+<token>Gtk.ITreeModel,IterNext</token>
+<token>Gtk.ITreeModel,GetPath</token>
+</entry>
 <entry count="9">
 <token>Gtk.FileChooserDialog,SetCurrentFolder</token>
 <token>Gtk.Dialog,AddButton</token>
 <token>Gtk.Dialog,AddButton</token>
 </entry>
-<entry count="12">
+<entry count="24">
 <token>Gtk.Paned,Pack1</token>
 <token>Gtk.Paned,Pack2</token>
 <token>Gtk.Widget,Destroy</token>
@@ -1887,7 +2012,7 @@
 <token>Gtk.Box,PackStart</token>
 <token>Gtk.Box,PackStart</token>
 </entry>
-<entry count="3">
+<entry count="9">
 <token>Gtk.TreeViewColumn,ClearAttributes</token>
 <token>Gtk.TreeViewColumn,ClearAttributes</token>
 <token>Gtk.TreeViewColumn,AddAttribute</token>
@@ -1904,7 +2029,7 @@
 <token>Gtk.Table,new</token>
 <token>Gtk.AccelLabel,new</token>
 </entry>
-<entry count="15">
+<entry count="27">
 <token>Gtk.Paned,Pack1</token>
 <token>Gtk.Paned,Pack2</token>
 </entry>
@@ -1957,7 +2082,7 @@
 <token>Gtk.Label,new</token>
 <token>Gtk.Box,PackEnd</token>
 </entry>
-<entry count="12">
+<entry count="24">
 <token>Gtk.Paned,Pack2</token>
 <token>Gtk.Widget,Destroy</token>
 </entry>
@@ -2039,6 +2164,11 @@
 <token>Gtk.StyleContext,RemoveClass</token>
 <token>Gtk.StyleContext,AddClass</token>
 </entry>
+<entry count="504">
+<token>Gtk.ITreeModel,IterParent</token>
+<token>Gtk.ITreeModel,IterNext</token>
+<token>Gtk.ITreeModel,GetPath</token>
+</entry>
 <entry count="3">
 <token>Gtk.CellRendererText,new</token>
 <token>Gtk.ComboBox,PackStart</token>
@@ -2070,12 +2200,12 @@
 <token>Gtk.CheckButton,new</token>
 <token>Gtk.Box,PackStart</token>
 </entry>
-<entry count="3">
+<entry count="12">
 <token>Gtk.TreeViewColumn,AddAttribute</token>
 <token>Gtk.TreeViewColumn,AddAttribute</token>
 <token>Gtk.TreeViewColumn,AddAttribute</token>
 </entry>
-<entry count="24">
+<entry count="504">
 <token>Gtk.ITreeModel,GetPath</token>
 <token>Gtk.TreeView,GetRowExpanded</token>
 <token>Gtk.ITreeModel,IterChildren</token>
@@ -2088,7 +2218,7 @@
 <token>Gtk.TreeViewColumn,PackStart</token>
 <token>Gtk.TreeViewColumn,SetAttributes</token>
 </entry>
-<entry count="36">
+<entry count="1020">
 <token>Gtk.ITreeModel,IterNext</token>
 <token>Gtk.ITreeModel,IterParent</token>
 <token>Gtk.ITreeModel,IterNext</token>
@@ -2130,6 +2260,11 @@
 <entry count="15">
 <token>Gtk.Box,PackStart</token>
 <token>Gtk.Container,Add</token>
+</entry>
+<entry count="252">
+<token>Gtk.ITreeModel,IterNext</token>
+<token>Gtk.ITreeModel,IterParent</token>
+<token>Gtk.ITreeModel,GetPath</token>
 </entry>
 <entry count="3">
 <token>Gtk.HBox,new</token>
@@ -2198,7 +2333,7 @@
 <token>Gtk.Grab,Add</token>
 <token>Gtk.Grab,Remove</token>
 </entry>
-<entry count="24">
+<entry count="504">
 <token>Gtk.TreeView,GetRowExpanded</token>
 <token>Gtk.ITreeModel,IterChildren</token>
 <token>Gtk.ITreeModel,IterNext</token>
@@ -2212,12 +2347,12 @@
 <token>Gtk.Box,PackStart</token>
 <token>Gtk.Container,Add</token>
 </entry>
-<entry count="12">
+<entry count="24">
 <token>Gtk.Widget,ShowAll</token>
 <token>Gtk.Container,Remove</token>
 <token>Gtk.Container,Remove</token>
 </entry>
-<entry count="12">
+<entry count="24">
 <token>Gtk.Container,Remove</token>
 <token>Gtk.Paned,Pack1</token>
 <token>Gtk.Paned,Pack2</token>
@@ -2232,7 +2367,7 @@
 <token>Gtk.CellRendererPixbuf,new</token>
 <token>Gtk.TreeViewColumn,PackStart</token>
 </entry>
-<entry count="15">
+<entry count="27">
 <token>Gtk.Widget,ShowAll</token>
 <token>Gtk.Container,Remove</token>
 </entry>

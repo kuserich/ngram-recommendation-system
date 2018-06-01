@@ -18,6 +18,13 @@
 <token>System.Dynamic.GetMemberBinder,FallbackGetMember</token>
 <token>System.Dynamic.DynamicMetaObject,BindGetMember</token>
 </entry>
+<entry count="44">
+<token>System.Dynamic.DynamicMetaObject,new</token>
+<token>System.Dynamic.BindingRestrictions,Merge</token>
+<token>System.Dynamic.BindingRestrictions,Merge</token>
+<token>System.Dynamic.DynamicMetaObject,new</token>
+<token>System.Dynamic.DynamicMetaObject,new</token>
+</entry>
 <entry count="22">
 <token>System.Dynamic.InvokeMemberBinder,FallbackInvokeMember</token>
 <token>System.Dynamic.InvokeMemberBinder,FallbackInvoke</token>
@@ -48,18 +55,18 @@
 <token>System.Dynamic.DynamicMetaObject,new</token>
 <token>System.Dynamic.GetMemberBinder,FallbackGetMember</token>
 </entry>
-<entry count="2">
+<entry count="8">
 <token>System.Dynamic.DynamicMetaObject,new</token>
 <token>System.Dynamic.DynamicMetaObject,BindSetIndex</token>
 <token>System.Dynamic.DynamicMetaObject,BindSetIndex</token>
 <token>System.Dynamic.DynamicMetaObject,BindSetIndex</token>
 </entry>
-<entry count="2">
+<entry count="8">
 <token>System.Dynamic.DynamicMetaObject,new</token>
 <token>System.Dynamic.DynamicMetaObject,BindSetIndex</token>
 <token>System.Dynamic.DynamicMetaObject,BindSetIndex</token>
 </entry>
-<entry count="5">
+<entry count="28">
 <token>System.Dynamic.DynamicMetaObject,BindSetIndex</token>
 <token>System.Dynamic.DynamicMetaObject,BindSetIndex</token>
 </entry>
@@ -77,11 +84,11 @@
 <token>System.Dynamic.InvokeBinder,FallbackInvoke</token>
 <token>System.Dynamic.DynamicMetaObject,BindInvoke</token>
 </entry>
-<entry count="44">
+<entry count="176">
 <token>System.Dynamic.DynamicMetaObject,new</token>
 <token>System.Dynamic.BindingRestrictions,Merge</token>
 </entry>
-<entry count="38">
+<entry count="310">
 <token>System.Dynamic.IDynamicMetaObjectProvider,GetMetaObject</token>
 <token>System.Dynamic.DynamicMetaObject,GetDynamicMemberNames</token>
 </entry>
@@ -95,7 +102,7 @@
 <token>System.Dynamic.BindingRestrictions,GetTypeRestriction</token>
 <token>System.Dynamic.BindingRestrictions,Merge</token>
 </entry>
-<entry count="11">
+<entry count="44">
 <token>System.Dynamic.DynamicMetaObject,new</token>
 <token>System.Dynamic.DynamicMetaObject,new</token>
 <token>System.Dynamic.BindingRestrictions,Merge</token>
@@ -106,18 +113,18 @@
 <token>System.Dynamic.BindingRestrictions,GetInstanceRestriction</token>
 <token>System.Dynamic.BindingRestrictions,GetTypeRestriction</token>
 </entry>
-<entry count="1">
+<entry count="12">
 <token>System.Dynamic.DynamicMetaObject,BindSetIndex</token>
 <token>System.Dynamic.DynamicMetaObject,BindSetIndex</token>
 <token>System.Dynamic.DynamicMetaObject,BindSetIndex</token>
 <token>System.Dynamic.DynamicMetaObject,BindSetIndex</token>
 </entry>
-<entry count="44">
+<entry count="176">
 <token>System.Dynamic.BindingRestrictions,Merge</token>
 <token>System.Dynamic.BindingRestrictions,Merge</token>
 <token>System.Dynamic.DynamicMetaObject,new</token>
 </entry>
-<entry count="91">
+<entry count="223">
 <token>System.Dynamic.BindingRestrictions,Merge</token>
 <token>System.Dynamic.DynamicMetaObject,new</token>
 </entry>
@@ -141,7 +148,7 @@
 <token>System.Dynamic.DynamicMetaObject,Create</token>
 <token>System.Dynamic.DynamicMetaObject,Create</token>
 </entry>
-<entry count="11">
+<entry count="44">
 <token>System.Dynamic.DynamicMetaObject,new</token>
 <token>System.Dynamic.DynamicMetaObject,new</token>
 <token>System.Dynamic.BindingRestrictions,Merge</token>
@@ -153,6 +160,12 @@
 <token>System.Dynamic.ExpandoObject,new</token>
 </entry>
 <entry count="1">
+<token>System.Dynamic.DynamicMetaObject,BindGetIndex</token>
+<token>System.Dynamic.DynamicMetaObject,BindGetIndex</token>
+<token>System.Dynamic.DynamicMetaObject,BindGetIndex</token>
+<token>System.Dynamic.DynamicMetaObject,BindGetIndex</token>
+</entry>
+<entry count="1">
 <token>System.Dynamic.DynamicMetaObject,new</token>
 <token>System.Dynamic.SetMemberBinder,FallbackSetMember</token>
 </entry>
@@ -161,25 +174,41 @@
 <token>System.Dynamic.DynamicMetaObject,new</token>
 <token>System.Dynamic.SetMemberBinder,FallbackSetMember</token>
 </entry>
-<entry count="1">
+<entry count="4">
 <token>System.Dynamic.DynamicMetaObject,BindGetIndex</token>
 <token>System.Dynamic.DynamicMetaObject,BindGetIndex</token>
 <token>System.Dynamic.DynamicMetaObject,BindGetIndex</token>
 </entry>
-<entry count="3">
+<entry count="9">
 <token>System.Dynamic.DynamicMetaObject,new</token>
 <token>System.Dynamic.DynamicMetaObject,BindSetIndex</token>
+</entry>
+<entry count="128">
+<token>System.Dynamic.IDynamicMetaObjectProvider,GetMetaObject</token>
+<token>System.Dynamic.DynamicMetaObject,GetDynamicMemberNames</token>
+<token>System.Dynamic.IDynamicMetaObjectProvider,GetMetaObject</token>
+<token>System.Dynamic.DynamicMetaObject,GetDynamicMemberNames</token>
 </entry>
 <entry count="3">
 <token>System.Dynamic.BindingRestrictions,GetTypeRestriction</token>
 <token>System.Dynamic.BindingRestrictions,Merge</token>
 <token>System.Dynamic.DynamicMetaObject,new</token>
 </entry>
+<entry count="44">
+<token>System.Dynamic.BindingRestrictions,Merge</token>
+<token>System.Dynamic.BindingRestrictions,Merge</token>
+<token>System.Dynamic.DynamicMetaObject,new</token>
+<token>System.Dynamic.DynamicMetaObject,new</token>
+</entry>
 <entry count="11">
 <token>System.Dynamic.GetMemberBinder,Bind</token>
 <token>System.Dynamic.DynamicMetaObject,new</token>
 </entry>
-<entry count="36">
+<entry count="128">
+<token>System.Dynamic.DynamicMetaObject,GetDynamicMemberNames</token>
+<token>System.Dynamic.IDynamicMetaObjectProvider,GetMetaObject</token>
+</entry>
+<entry count="180">
 <token>System.Dynamic.BindingRestrictions,GetTypeRestriction</token>
 <token>System.Dynamic.DynamicMetaObject,new</token>
 </entry>
@@ -187,12 +216,12 @@
 <token>System.Dynamic.BinaryOperationBinder,FallbackBinaryOperation</token>
 <token>System.Dynamic.DynamicMetaObject,BindBinaryOperation</token>
 </entry>
-<entry count="11">
+<entry count="44">
 <token>System.Dynamic.DynamicMetaObject,new</token>
 <token>System.Dynamic.DynamicMetaObject,new</token>
 <token>System.Dynamic.BindingRestrictions,Merge</token>
 </entry>
-<entry count="44">
+<entry count="176">
 <token>System.Dynamic.DynamicMetaObject,new</token>
 <token>System.Dynamic.BindingRestrictions,Merge</token>
 <token>System.Dynamic.BindingRestrictions,Merge</token>
@@ -205,7 +234,7 @@
 <token>System.Dynamic.DeleteMemberBinder,FallbackDeleteMember</token>
 <token>System.Dynamic.DynamicMetaObject,BindDeleteMember</token>
 </entry>
-<entry count="3">
+<entry count="8">
 <token>System.Dynamic.DynamicMetaObject,BindGetIndex</token>
 <token>System.Dynamic.DynamicMetaObject,BindGetIndex</token>
 </entry>
@@ -213,7 +242,14 @@
 <token>System.Dynamic.CreateInstanceBinder,FallbackCreateInstance</token>
 <token>System.Dynamic.DynamicMetaObject,BindCreateInstance</token>
 </entry>
-<entry count="44">
+<entry count="5">
+<token>System.Dynamic.DynamicMetaObject,BindSetIndex</token>
+<token>System.Dynamic.DynamicMetaObject,BindSetIndex</token>
+<token>System.Dynamic.DynamicMetaObject,BindSetIndex</token>
+<token>System.Dynamic.DynamicMetaObject,BindSetIndex</token>
+<token>System.Dynamic.DynamicMetaObject,BindSetIndex</token>
+</entry>
+<entry count="176">
 <token>System.Dynamic.DynamicMetaObject,new</token>
 <token>System.Dynamic.BindingRestrictions,Merge</token>
 <token>System.Dynamic.BindingRestrictions,Merge</token>
@@ -230,7 +266,12 @@
 <token>System.Dynamic.GetMemberBinder,FallbackGetMember</token>
 <token>System.Dynamic.BindingRestrictions,GetTypeRestriction</token>
 </entry>
-<entry count="44">
+<entry count="128">
+<token>System.Dynamic.IDynamicMetaObjectProvider,GetMetaObject</token>
+<token>System.Dynamic.DynamicMetaObject,GetDynamicMemberNames</token>
+<token>System.Dynamic.IDynamicMetaObjectProvider,GetMetaObject</token>
+</entry>
+<entry count="176">
 <token>System.Dynamic.BindingRestrictions,Merge</token>
 <token>System.Dynamic.BindingRestrictions,Merge</token>
 </entry>
@@ -244,7 +285,7 @@
 <token>System.Dynamic.ExpandoObject,new</token>
 <token>System.Dynamic.ExpandoObject,new</token>
 </entry>
-<entry count="4169">
+<entry count="29355">
 <token>System.Dynamic.ExpandoObject,new</token>
 <token>System.Dynamic.ExpandoObject,new</token>
 </entry>
@@ -260,6 +301,11 @@
 <token>System.Dynamic.SetMemberBinder,FallbackSetMember</token>
 <token>System.Dynamic.BindingRestrictions,GetTypeRestriction</token>
 </entry>
+<entry count="44">
+<token>System.Dynamic.BindingRestrictions,Merge</token>
+<token>System.Dynamic.DynamicMetaObject,new</token>
+<token>System.Dynamic.DynamicMetaObject,new</token>
+</entry>
 <entry count="2">
 <token>System.Dynamic.GetMemberBinder,FallbackGetMember</token>
 <token>System.Dynamic.BindingRestrictions,GetTypeRestriction</token>
@@ -270,7 +316,12 @@
 <token>System.Dynamic.SetMemberBinder,Bind</token>
 <token>System.Dynamic.DynamicMetaObject,new</token>
 </entry>
-<entry count="11">
+<entry count="128">
+<token>System.Dynamic.DynamicMetaObject,GetDynamicMemberNames</token>
+<token>System.Dynamic.IDynamicMetaObjectProvider,GetMetaObject</token>
+<token>System.Dynamic.DynamicMetaObject,GetDynamicMemberNames</token>
+</entry>
+<entry count="88">
 <token>System.Dynamic.DynamicMetaObject,new</token>
 <token>System.Dynamic.DynamicMetaObject,new</token>
 </entry>
@@ -278,12 +329,12 @@
 <token>System.Dynamic.CallInfo,new</token>
 <token>System.Dynamic.GetIndexBinder,new</token>
 </entry>
-<entry count="3">
+<entry count="20">
 <token>System.Dynamic.DynamicMetaObject,BindSetIndex</token>
 <token>System.Dynamic.DynamicMetaObject,BindSetIndex</token>
 <token>System.Dynamic.DynamicMetaObject,BindSetIndex</token>
 </entry>
-<entry count="1">
+<entry count="7">
 <token>System.Dynamic.DynamicMetaObject,new</token>
 <token>System.Dynamic.DynamicMetaObject,BindSetIndex</token>
 <token>System.Dynamic.DynamicMetaObject,BindSetIndex</token>

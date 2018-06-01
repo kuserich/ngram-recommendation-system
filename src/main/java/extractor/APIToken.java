@@ -1,63 +1,164 @@
 package extractor;
 
-import cc.kave.commons.model.naming.IName;
-import cc.kave.commons.model.naming.codeelements.IMethodName;
-import cc.kave.commons.model.naming.codeelements.IParameterName;
-import cc.kave.commons.model.naming.types.ITypeName;
-import cc.kave.commons.model.naming.types.ITypeParameterName;
+import cc.kave.commons.model.naming.impl.v0.codeelements.MethodName;
 import cc.kave.commons.model.ssts.ISST;
-import opennlp.tools.util.StringList;
+import util.Utilities;
 
-import java.util.List;
+/**
+ * This class implements and represents a single API token.
+ * We refer to 'token' or 'API token' as a possible code instruction that involves some API type.
+ * A code instruction is an invocation expression 
+ * {@link cc.kave.commons.model.ssts.expressions.assignable.IInvocationExpression} on a method in
+ * an API. We consider normal operations, static operations and constructors as operations.
+ * 
+ * 
+ */
+public class APIToken extends MethodName {
 
-public class APIToken implements IName, IMethodName {
-    
-    private Invocation invocation;
-    private String type;
-    private String operation;
-    
-    private String namespace;
+    /**
+     * Calls the constructor of the parent class.
+     * The parent constructor calls the same constructor with "[?] [?].???()" set as identifier.
+     * This creates an APIToken with an unknown type, operation, namespace, ... but with valid
+     * (non-null) attributes.
+     * 
+     * @see MethodName
+     *          parent class
+     *          
+     * @see #APIToken(String)
+     *          second constructor which includes an identifier
+     */
+    public APIToken() {
+        super();
+    }
 
+    /**
+     * Calls the constructor of the parent class with the given identifier.
+     * The identifier is used to fill the attributes of the APIToken.
+     * 
+     * An identifier will have the following structure
+     *      [p:int] [a.b.c.MyType, MyProject].M([some.framework.IBla, fw, 1.2.3.4] foo)
+     * such that it holds the following information
+     *      [<return type>] [<declaring type>].<simple name>(<parameter list>)
+     *      
+     * Further details on the structure and semantics of the contents of the identifier
+     * can be found at
+     *      <a href="http://www.kave.cc/caret/simplified-syntax-trees">KaVE Project - Symplified Syntax Trees</a>
+     *      (http://www.kave.cc/caret/simplified-syntax-trees)
+     * 
+     * Notice that APIToken inherits most of its attributes and functionality from {@link MethodName}.
+     * 
+     * @see #APIToken()
+     *          second constructor
+     *          
+     * @param identifier
+     *          structured string as described above
+     */
+    public APIToken(String identifier) {
+        super(identifier);
+    }
+
+    /**
+     * Returns the invocation type of this token.
+     * The invocation type can be instance (normal), static or constructor.
+     * 
+     * @see Invocation
+     *          enum that holds invocation types
+     * @see Invocation#INSTANCE_OPERATION
+     *          value used if the invocation is a normal instance operation
+     * @see Invocation#CLASS_CONSTRUCTOR
+     *          value used if the invocation is the instantiation of a new object,
+     *          i.e. if a constructor is called
+     * @see Invocation#STATIC_OPERATION
+     *          value used if the invocation is on a static operation
+     * 
+     * @return
+     *          invocation type of this token
+     */
     public Invocation getInvocation() {
-        return invocation;
+        if(getIdentifier().startsWith("static")) {
+            return Invocation.STATIC_OPERATION;
+        }
+        
+        if(getOperation().equals("new")) {
+            return Invocation.CLASS_CONSTRUCTOR;
+        }
+        
+        return Invocation.INSTANCE_OPERATION;
     }
 
-    public void setInvocation(Invocation invocation) {
-        this.invocation = invocation;
-    }
-
+    /**
+     * Returns the type of the APIToken.
+     * 
+     * The type of an APIToken (or Membername for that matter) is the class of the object 
+     * it instantiates. In this function we return the entire type identifier including
+     * its package/namespace. For instance, this class (APIToken) will have the following
+     * type:
+     *      evaluation.APIToken
+     *      
+     * TODO: why do we add namepsace?
+     * 
+     * @see #getDeclaringType()#getFullName()
+     *          method that we initially used in this method but may return strings
+     *          that include generic types and their mappings, which cause issues in
+     *          the code elements that use this method
+     * @see #getDeclaringType()#getName()
+     *          returns the actual type of the token/name without any namespaces or 
+     *          package identifiers
+     * 
+     * @return
+     *          Type of the APIToken with the following structure: Some.Namespace.Type
+     */
     public String getType() {
-        return type;
+        // or only getDeclaringType().getName()
+        // return getDeclaringType().getFullName();
+        if(getNamespace() != null && getNamespace().length() > 0) {
+            // when using getDeclareType().getName() some objects return lowercase
+            // names, hence we capitalize (using getDeclaringType().getFullName() does
+            // not exhibit this behavior but has the issue that it might return names
+            // that include generic types and their mappings, which cause issues in
+            // the code elements that use this method
+            return getNamespace()+"."+Utilities.capitalize(getDeclaringType().getName());
+        }
+        return Utilities.capitalize(getDeclaringType().getName());
     }
 
-    public void setType(String type) {
-        this.type = type;
-    }
-    
+    /**
+     * Returns the operation that this token encompasses.
+     * 
+     * Notice that if this is the instantiation of a new object, the operation is equal
+     * to the constructor of the type. In this case, this function returns "new" (as out-
+     * lined in the paper).
+     * 
+     * @see #getName()
+     *          operation of this token (if not constructor)
+     * 
+     * @return
+     *          operation that this token encompasses.
+     */
     public String getOperation() {
-        return operation;
+        if(isConstructor()) {
+            return "new";
+        }
+        return getName();
     }
 
-    public void setOperation(String operation) {
-        this.operation = operation;
-    }
-
-    public void setOperation(StringList operationList) {
-        this.operation = String.valueOf(operationList);
-    }
-    
+    /**
+     * Returns the namespace that this token encompasses.
+     * 
+     * This method is used as a shorthand for
+     * {@link #getDeclaringType()#getNamespace()#getIdentifier()}
+     * 
+     * @return
+     *          namespace of this token
+     */
     public String getNamespace() {
-        return namespace;
-    }
-    
-    public void setNamespace(String namespace) {
-        this.namespace = namespace;
+        return getDeclaringType().getNamespace().getIdentifier();
     }
 
     /**
      * Returns whether this token is empty.
-     * A token is considered empty if all of its values are null or if
-     * all of its values are empty strings (i.e. "").
+     * A token is considered empty if it was instantiated with the default identifier
+     * ("[?] [?].???()") and thus does not have any values for type, namespace, ...
      * 
      * This method is used in {@link APISentenceTree#flatten()} to filter empty APITokens.
      * During extraction in {@link SentenceExtractor#process(ISST)} using {@link APIVisitor#visit},
@@ -77,103 +178,21 @@ public class APIToken implements IName, IMethodName {
      *          true if this token is empty, false otherwise
      */
     public boolean isEmpty() {
-        return (invocation == null)
-                && (type == null || type.length() == 0)
-                && (operation == null || operation.length() == 0)
-                && (namespace == null || namespace.length() == 0);
+        return isUnknown();
     }
 
-    @Override
-    public String getIdentifier() {
-        return null;
-    }
-
-    @Override
-    public boolean isUnknown() {
-        return false;
-    }
-
-    @Override
-    public boolean isHashed() {
-        return false;
-    }
-
+    /**
+     * Return string representation of this token.
+     * That is, returns the type and operation of this token.
+     * 
+     * Example:
+     *      <Some.Namespace.Type,Operation>
+     *          
+     * @return
+     *          String representation of this token
+     */
     @Override
     public String toString() {
-        return "<"+type+","+operation+">";
+        return "<"+getType()+","+getOperation()+">";
     }
-
-    @Override
-    public boolean isConstructor() {
-        return false;
-    }
-
-    @Override
-    public boolean isInit() {
-        return false;
-    }
-
-    @Override
-    public ITypeName getReturnType() {
-        return null;
-    }
-
-    @Override
-    public boolean isExtensionMethod() {
-        return false;
-    }
-
-    @Override
-    public boolean hasTypeParameters() {
-        return false;
-    }
-
-    @Override
-    public List<ITypeParameterName> getTypeParameters() {
-        return null;
-    }
-
-    @Override
-    public List<IParameterName> getParameters() {
-        return null;
-    }
-
-    @Override
-    public boolean hasParameters() {
-        return false;
-    }
-
-    @Override
-    public ITypeName getDeclaringType() {
-        return null;
-    }
-
-    @Override
-    public ITypeName getValueType() {
-        return null;
-    }
-
-    @Override
-    public boolean isStatic() {
-        return false;
-    }
-
-    @Override
-    public String getName() {
-        return null;
-    }
-
-    @Override
-    public String getFullName() {
-        return null;
-    }
-
-    @Override
-    public int compareTo(IMethodName o) {
-        return 0;
-    }
-}
-
-enum Invocation {
-    STATIC_OPERATION, INSTANCE_OPERATION, CLASS_CONSTRUCTOR
 }

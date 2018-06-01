@@ -140,6 +140,11 @@
 <token>Microsoft.Data.OData.ODataMessageReaderSettings,new</token>
 <token>Microsoft.Data.OData.ODataMessageReader,new</token>
 </entry>
+<entry count="66">
+<token>Microsoft.Data.OData.ODataException,new</token>
+<token>Microsoft.Data.OData.ODataException,new</token>
+<token>Microsoft.Data.OData.ODataException,new</token>
+</entry>
 <entry count="2">
 <token>Microsoft.Data.OData.ODataMessageWriter,CreateODataEntryWriter</token>
 <token>Microsoft.Data.OData.ODataEntry,new</token>
@@ -436,6 +441,10 @@
 <token>Microsoft.Data.OData.ODataError,new</token>
 <token>Microsoft.Data.OData.ODataMessageWriter,new</token>
 </entry>
+<entry count="2">
+<token>Microsoft.Data.OData.ODataUtils,IsAlwaysBindable</token>
+<token>Microsoft.Data.OData.ODataUtils,IsAlwaysBindable</token>
+</entry>
 <entry count="6">
 <token>Microsoft.Data.OData.ODataBatchWriter,WriteEndBatch</token>
 <token>Microsoft.Data.OData.ODataBatchWriter,Flush</token>
@@ -519,7 +528,7 @@
 <token>Microsoft.Data.OData.ODataBatchWriter,WriteStartChangeset</token>
 <token>Microsoft.Data.OData.ODataBatchWriter,CreateOperationRequestMessage</token>
 </entry>
-<entry count="66">
+<entry count="366">
 <token>Microsoft.Data.OData.ODataException,new</token>
 <token>Microsoft.Data.OData.ODataException,new</token>
 </entry>

@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><dictionary case_sensitive="false">
 <entry count="10">
+<token>DW.SharpTools.Services.IFileService,Copy</token>
+<token>DW.SharpTools.Services.IFileService,Exists</token>
+</entry>
+<entry count="26">
 <token>DW.SharpTools.Services.IFileService,Exists</token>
 <token>DW.SharpTools.Services.IFileService,Copy</token>
 </entry>
@@ -14,9 +18,14 @@
 <token>DW.SharpTools.Services.IWindowService,Register</token>
 <token>DW.SharpTools.Services.IWindowService,Register</token>
 </entry>
-<entry count="21">
+<entry count="39">
 <token>DW.SharpTools.Services.IFileService,Exists</token>
 <token>DW.SharpTools.Services.IFileService,Exists</token>
+</entry>
+<entry count="2">
+<token>DW.SharpTools.Services.IFileService,Copy</token>
+<token>DW.SharpTools.Services.IFileService,Exists</token>
+<token>DW.SharpTools.Services.IFileService,Copy</token>
 </entry>
 <entry count="1">
 <token>DW.SharpTools.Services.IDialogService,Show</token>
@@ -40,16 +49,28 @@
 <token>DW.SharpTools.Services.IFileService,Copy</token>
 <token>DW.SharpTools.Services.IFileService,Copy</token>
 </entry>
-<entry count="4">
+<entry count="2">
+<token>DW.SharpTools.Services.IFileService,Move</token>
+<token>DW.SharpTools.Services.IFileService,Exists</token>
+<token>DW.SharpTools.Services.IFileService,Copy</token>
+<token>DW.SharpTools.Services.IMessageBoxService,Show</token>
+</entry>
+<entry count="6">
 <token>DW.SharpTools.Services.IFileService,Exists</token>
 <token>DW.SharpTools.Services.IFileService,Exists</token>
 <token>DW.SharpTools.Services.IFileService,Move</token>
 </entry>
-<entry count="5">
+<entry count="7">
 <token>DW.SharpTools.Services.IFileService,Exists</token>
 <token>DW.SharpTools.Services.IFileService,Exists</token>
 <token>DW.SharpTools.Services.IFileService,Copy</token>
 <token>DW.SharpTools.Services.IMessageBoxService,Show</token>
+</entry>
+<entry count="2">
+<token>DW.SharpTools.Services.IFileService,Exists</token>
+<token>DW.SharpTools.Services.IFileService,Copy</token>
+<token>DW.SharpTools.Services.IFileService,Exists</token>
+<token>DW.SharpTools.Services.IFileService,Copy</token>
 </entry>
 <entry count="1">
 <token>DW.SharpTools.Services.IFileService,Exists</token>
@@ -57,6 +78,13 @@
 <token>DW.SharpTools.Services.IFileService,Exists</token>
 <token>DW.SharpTools.Services.IFileService,Copy</token>
 <token>DW.SharpTools.Services.IFileService,Copy</token>
+</entry>
+<entry count="2">
+<token>DW.SharpTools.Services.IFileService,Exists</token>
+<token>DW.SharpTools.Services.IFileService,Copy</token>
+<token>DW.SharpTools.Services.IFileService,Exists</token>
+<token>DW.SharpTools.Services.IFileService,Move</token>
+<token>DW.SharpTools.Services.IMessageBoxService,Show</token>
 </entry>
 <entry count="1">
 <token>DW.SharpTools.Services.IDialogService,Show</token>
@@ -65,7 +93,7 @@
 <token>DW.SharpTools.Services.IFileService,Exists</token>
 <token>DW.SharpTools.Services.IFileService,Exists</token>
 </entry>
-<entry count="6">
+<entry count="12">
 <token>DW.SharpTools.Services.IFileService,Exists</token>
 <token>DW.SharpTools.Services.IFileService,Copy</token>
 <token>DW.SharpTools.Services.IMessageBoxService,Show</token>
@@ -76,7 +104,7 @@
 <token>DW.SharpTools.Services.DirectoryService,new</token>
 <token>DW.SharpTools.Services.FileService,new</token>
 </entry>
-<entry count="5">
+<entry count="19">
 <token>DW.SharpTools.Services.IFileService,Exists</token>
 <token>DW.SharpTools.Services.IFileService,Exists</token>
 <token>DW.SharpTools.Services.IMessageBoxService,Show</token>
@@ -95,9 +123,44 @@
 <token>DW.SharpTools.Services.IWindowService,Register</token>
 <token>DW.SharpTools.Services.IWindowService,Register</token>
 </entry>
+<entry count="6">
+<token>DW.SharpTools.Services.IFileService,Exists</token>
+<token>DW.SharpTools.Services.IFileService,Move</token>
+<token>DW.SharpTools.Services.IFileService,Exists</token>
+<token>DW.SharpTools.Services.IMessageBoxService,Show</token>
+</entry>
 <entry count="1">
 <token>DW.SharpTools.Services.MessageBoxService,new</token>
 <token>DW.SharpTools.Services.DirectoryService,new</token>
+</entry>
+<entry count="2">
+<token>DW.SharpTools.Services.IFileService,Copy</token>
+<token>DW.SharpTools.Services.IFileService,Exists</token>
+<token>DW.SharpTools.Services.IFileService,Move</token>
+</entry>
+<entry count="2">
+<token>DW.SharpTools.Services.IFileService,Exists</token>
+<token>DW.SharpTools.Services.IFileService,Copy</token>
+<token>DW.SharpTools.Services.IFileService,Exists</token>
+<token>DW.SharpTools.Services.IFileService,Move</token>
+</entry>
+<entry count="2">
+<token>DW.SharpTools.Services.IFileService,Exists</token>
+<token>DW.SharpTools.Services.IFileService,Copy</token>
+<token>DW.SharpTools.Services.IFileService,Exists</token>
+<token>DW.SharpTools.Services.IFileService,Copy</token>
+<token>DW.SharpTools.Services.IMessageBoxService,Show</token>
+</entry>
+<entry count="6">
+<token>DW.SharpTools.Services.IFileService,Exists</token>
+<token>DW.SharpTools.Services.IFileService,Copy</token>
+<token>DW.SharpTools.Services.IFileService,Exists</token>
+<token>DW.SharpTools.Services.IMessageBoxService,Show</token>
+</entry>
+<entry count="6">
+<token>DW.SharpTools.Services.IFileService,Move</token>
+<token>DW.SharpTools.Services.IFileService,Exists</token>
+<token>DW.SharpTools.Services.IMessageBoxService,Show</token>
 </entry>
 <entry count="7">
 <token>DW.SharpTools.Services.IWindowService,Register</token>
@@ -108,12 +171,25 @@
 <token>DW.SharpTools.Services.IFileService,Exists</token>
 <token>DW.SharpTools.Services.IFileService,Exists</token>
 </entry>
+<entry count="2">
+<token>DW.SharpTools.Services.IFileService,Exists</token>
+<token>DW.SharpTools.Services.IFileService,Move</token>
+<token>DW.SharpTools.Services.IFileService,Exists</token>
+<token>DW.SharpTools.Services.IFileService,Move</token>
+<token>DW.SharpTools.Services.IMessageBoxService,Show</token>
+</entry>
 <entry count="1">
 <token>DW.SharpTools.Services.DialogService,new</token>
 <token>DW.SharpTools.Services.IWindowService,ShowDialog</token>
 </entry>
 <entry count="1">
 <token>DW.SharpTools.Services.IMessageBoxService,Show</token>
+<token>DW.SharpTools.Services.IFileService,Copy</token>
+</entry>
+<entry count="2">
+<token>DW.SharpTools.Services.IFileService,Exists</token>
+<token>DW.SharpTools.Services.IFileService,Move</token>
+<token>DW.SharpTools.Services.IFileService,Exists</token>
 <token>DW.SharpTools.Services.IFileService,Copy</token>
 </entry>
 <entry count="1">
@@ -134,13 +210,33 @@
 <token>DW.SharpTools.Services.IFileService,Copy</token>
 <token>DW.SharpTools.Services.IFileService,Copy</token>
 </entry>
-<entry count="5">
+<entry count="11">
 <token>DW.SharpTools.Services.IFileService,Move</token>
 <token>DW.SharpTools.Services.IMessageBoxService,Show</token>
+</entry>
+<entry count="10">
+<token>DW.SharpTools.Services.IFileService,Move</token>
+<token>DW.SharpTools.Services.IFileService,Exists</token>
+</entry>
+<entry count="2">
+<token>DW.SharpTools.Services.IFileService,Move</token>
+<token>DW.SharpTools.Services.IFileService,Exists</token>
+<token>DW.SharpTools.Services.IFileService,Move</token>
 </entry>
 <entry count="1">
 <token>DW.SharpTools.Services.IFileService,Exists</token>
 <token>DW.SharpTools.Services.IFileService,Exists</token>
+<token>DW.SharpTools.Services.IFileService,Exists</token>
+<token>DW.SharpTools.Services.IFileService,Copy</token>
+<token>DW.SharpTools.Services.IMessageBoxService,Show</token>
+</entry>
+<entry count="6">
+<token>DW.SharpTools.Services.IFileService,Copy</token>
+<token>DW.SharpTools.Services.IFileService,Exists</token>
+<token>DW.SharpTools.Services.IMessageBoxService,Show</token>
+</entry>
+<entry count="2">
+<token>DW.SharpTools.Services.IFileService,Copy</token>
 <token>DW.SharpTools.Services.IFileService,Exists</token>
 <token>DW.SharpTools.Services.IFileService,Copy</token>
 <token>DW.SharpTools.Services.IMessageBoxService,Show</token>
@@ -167,14 +263,19 @@
 <token>DW.SharpTools.Services.IFileService,Exists</token>
 <token>DW.SharpTools.Services.IFileService,Copy</token>
 </entry>
-<entry count="7">
+<entry count="9">
 <token>DW.SharpTools.Services.IFileService,Exists</token>
 <token>DW.SharpTools.Services.IFileService,Exists</token>
 <token>DW.SharpTools.Services.IFileService,Copy</token>
 </entry>
-<entry count="3">
+<entry count="5">
 <token>DW.SharpTools.Services.IDirectoryService,Exists</token>
 <token>DW.SharpTools.Services.IDirectoryService,CreateDirectory</token>
+</entry>
+<entry count="10">
+<token>DW.SharpTools.Services.IFileService,Exists</token>
+<token>DW.SharpTools.Services.IFileService,Copy</token>
+<token>DW.SharpTools.Services.IFileService,Exists</token>
 </entry>
 <entry count="1">
 <token>DW.SharpTools.Services.IFileService,Exists</token>
@@ -187,8 +288,21 @@
 <token>DW.SharpTools.Services.IFileService,Copy</token>
 <token>DW.SharpTools.Services.IFileService,Copy</token>
 </entry>
-<entry count="5">
+<entry count="31">
 <token>DW.SharpTools.Services.IFileService,Exists</token>
+<token>DW.SharpTools.Services.IMessageBoxService,Show</token>
+</entry>
+<entry count="2">
+<token>DW.SharpTools.Services.IFileService,Exists</token>
+<token>DW.SharpTools.Services.IFileService,Move</token>
+<token>DW.SharpTools.Services.IFileService,Exists</token>
+<token>DW.SharpTools.Services.IFileService,Copy</token>
+<token>DW.SharpTools.Services.IMessageBoxService,Show</token>
+</entry>
+<entry count="2">
+<token>DW.SharpTools.Services.IFileService,Copy</token>
+<token>DW.SharpTools.Services.IFileService,Exists</token>
+<token>DW.SharpTools.Services.IFileService,Move</token>
 <token>DW.SharpTools.Services.IMessageBoxService,Show</token>
 </entry>
 <entry count="1">
@@ -204,13 +318,29 @@
 <token>DW.SharpTools.Services.IMessageBoxService,Show</token>
 <token>DW.SharpTools.Services.IFileService,Copy</token>
 </entry>
-<entry count="6">
+<entry count="10">
+<token>DW.SharpTools.Services.IFileService,Exists</token>
+<token>DW.SharpTools.Services.IFileService,Move</token>
+<token>DW.SharpTools.Services.IFileService,Exists</token>
+</entry>
+<entry count="12">
 <token>DW.SharpTools.Services.IFileService,Copy</token>
 <token>DW.SharpTools.Services.IMessageBoxService,Show</token>
 </entry>
 <entry count="2">
 <token>DW.SharpTools.Services.IMessageBoxService,Show</token>
 <token>DW.SharpTools.Services.IWindowService,SetDialogResult</token>
+</entry>
+<entry count="2">
+<token>DW.SharpTools.Services.IFileService,Move</token>
+<token>DW.SharpTools.Services.IFileService,Exists</token>
+<token>DW.SharpTools.Services.IFileService,Copy</token>
+</entry>
+<entry count="2">
+<token>DW.SharpTools.Services.IFileService,Exists</token>
+<token>DW.SharpTools.Services.IFileService,Move</token>
+<token>DW.SharpTools.Services.IFileService,Exists</token>
+<token>DW.SharpTools.Services.IFileService,Move</token>
 </entry>
 <entry count="1">
 <token>DW.SharpTools.Services.WindowService,new</token>
@@ -228,6 +358,12 @@
 <token>DW.SharpTools.Services.FileService,new</token>
 <token>DW.SharpTools.Services.DialogService,new</token>
 </entry>
+<entry count="2">
+<token>DW.SharpTools.Services.IFileService,Move</token>
+<token>DW.SharpTools.Services.IFileService,Exists</token>
+<token>DW.SharpTools.Services.IFileService,Move</token>
+<token>DW.SharpTools.Services.IMessageBoxService,Show</token>
+</entry>
 <entry count="4">
 <token>DW.SharpTools.Services.IFileService,Exists</token>
 <token>DW.SharpTools.Services.IFileService,Exists</token>
@@ -237,7 +373,7 @@
 <token>DW.SharpTools.Services.IDialogService,Show</token>
 <token>DW.SharpTools.Services.IFileService,Copy</token>
 </entry>
-<entry count="5">
+<entry count="11">
 <token>DW.SharpTools.Services.IFileService,Exists</token>
 <token>DW.SharpTools.Services.IFileService,Move</token>
 <token>DW.SharpTools.Services.IMessageBoxService,Show</token>
@@ -246,13 +382,13 @@
 <token>DW.SharpTools.Services.DirectoryService,new</token>
 <token>DW.SharpTools.Services.FileService,new</token>
 </entry>
-<entry count="4">
+<entry count="6">
 <token>DW.SharpTools.Services.IFileService,Exists</token>
 <token>DW.SharpTools.Services.IFileService,Exists</token>
 <token>DW.SharpTools.Services.IFileService,Move</token>
 <token>DW.SharpTools.Services.IMessageBoxService,Show</token>
 </entry>
-<entry count="6">
+<entry count="22">
 <token>DW.SharpTools.Services.IFileService,Exists</token>
 <token>DW.SharpTools.Services.IFileService,Move</token>
 </entry>

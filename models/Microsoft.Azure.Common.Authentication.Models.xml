@@ -6,7 +6,7 @@
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureTenant,new</token>
 </entry>
-<entry count="3">
+<entry count="5">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSMProfile,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.MemoryDataStore,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
@@ -17,7 +17,14 @@
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetSubscriptions</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetPropertyAsArray</token>
 </entry>
-<entry count="660">
+<entry count="4">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureContext,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetOrAppendProperty</token>
+</entry>
+<entry count="2244">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,GetPropertyAsArray</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,SetProperty</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,GetPropertyAsArray</token>
@@ -111,6 +118,13 @@
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,HasSubscription</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,HasSubscription</token>
 </entry>
+<entry count="4">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetOrAppendProperty</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureContext,new</token>
+</entry>
 <entry count="1">
 <token>Microsoft.Azure.Common.Authentication.Models.MemoryDataStore,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSMProfile,new</token>
@@ -118,42 +132,66 @@
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,HasSubscription</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,HasSubscription</token>
 </entry>
-<entry count="4">
+<entry count="224">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetOrAppendProperty</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureContext,new</token>
 </entry>
-<entry count="529">
+<entry count="2113">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,GetProperty</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,GetPropertyAsArray</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureContext,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
 </entry>
 <entry count="1">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureEnvironment,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSMProfile,Save</token>
 </entry>
-<entry count="528">
+<entry count="23">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetProperty</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetProperty</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetProperty</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetProperty</token>
+</entry>
+<entry count="2112">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetProperty</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetProperty</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetPropertyAsArray</token>
 </entry>
-<entry count="4">
+<entry count="224">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetOrAppendProperty</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureContext,new</token>
 </entry>
-<entry count="660">
+<entry count="12">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetOrAppendProperty</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureContext,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+</entry>
+<entry count="2244">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,GetPropertyAsArray</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,GetPropertyAsArray</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,SetProperty</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,GetPropertyAsArray</token>
 </entry>
-<entry count="660">
+<entry count="2244">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetProperty</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetPropertyAsArray</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetPropertyAsArray</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetProperty</token>
 </entry>
-<entry count="528">
+<entry count="8">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetOrAppendProperty</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureContext,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
+</entry>
+<entry count="2112">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,GetProperty</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,GetProperty</token>
@@ -177,13 +215,25 @@
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSMProfile,new</token>
 </entry>
 <entry count="4">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetOrAppendProperty</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureContext,new</token>
+</entry>
+<entry count="4">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetSubscriptions</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetSubscriptions</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetPropertyAsArray</token>
 </entry>
-<entry count="660">
+<entry count="2244">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,SetProperty</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,GetPropertyAsArray</token>
+</entry>
+<entry count="6">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureContext,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
 </entry>
 <entry count="2">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSMProfile,new</token>
@@ -202,7 +252,7 @@
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetProperty</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
 </entry>
-<entry count="6356992">
+<entry count="12595008">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureEnvironment,IsEndpointSet</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureEnvironment,IsEndpointSet</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureEnvironment,IsEndpointSet</token>
@@ -217,11 +267,23 @@
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSMProfile,Save</token>
 </entry>
+<entry count="8">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetOrAppendProperty</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetOrAppendProperty</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureContext,new</token>
+</entry>
 <entry count="2">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureTenant,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureContext,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureRMProfile,new</token>
+</entry>
+<entry count="124">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
 </entry>
 <entry count="2">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureContext,new</token>
@@ -242,7 +304,34 @@
 <token>Microsoft.Azure.Common.Authentication.Models.MemoryDataStore,FileExists</token>
 <token>Microsoft.Azure.Common.Authentication.Models.MemoryDataStore,ReadFileAsText</token>
 </entry>
-<entry count="142">
+<entry count="1856">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureRMProfile,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetProperty</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureRMProfile,new</token>
+</entry>
+<entry count="2778">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetOrAppendProperty</token>
+</entry>
+<entry count="6">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetOrAppendProperty</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetOrAppendProperty</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureContext,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetOrAppendProperty</token>
 </entry>
@@ -255,6 +344,13 @@
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,IsPropertySet</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,RemoveSubscription</token>
 </entry>
+<entry count="10">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetOrAppendProperty</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+</entry>
 <entry count="3">
 <token>Microsoft.Azure.Common.Authentication.Models.MemoryDataStore,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSMProfile,new</token>
@@ -266,6 +362,28 @@
 <token>Microsoft.Azure.Common.Authentication.Models.AzureContext,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,SetProperty</token>
 </entry>
+<entry count="224">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetOrAppendProperty</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
+</entry>
+<entry count="8">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureContext,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureContext,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetOrAppendProperty</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetOrAppendProperty</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetOrAppendProperty</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+</entry>
+<entry count="8">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetOrAppendProperty</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureContext,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
+</entry>
 <entry count="2">
 <token>Microsoft.Azure.Common.Authentication.Models.MemoryDataStore,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSMProfile,new</token>
@@ -273,17 +391,35 @@
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSMProfile,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSMProfile,new</token>
 </entry>
+<entry count="4">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetOrAppendProperty</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
+</entry>
 <entry count="2">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureEnvironment,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
 </entry>
+<entry count="8">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetOrAppendProperty</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureContext,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureContext,new</token>
+</entry>
+<entry count="336">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetOrAppendProperty</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+</entry>
 <entry count="1">
 <token>Microsoft.Azure.Common.Authentication.Models.MemoryDataStore,WriteFile</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetPropertyAsArray</token>
 </entry>
-<entry count="306">
+<entry count="1566">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureTenant,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureContext,new</token>
 </entry>
@@ -292,7 +428,13 @@
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSMProfile,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSMProfile,new</token>
 </entry>
-<entry count="1624">
+<entry count="4">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetOrAppendProperty</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
+</entry>
+<entry count="53824">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetProperty</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureRMProfile,new</token>
@@ -329,7 +471,7 @@
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetPropertyAsArray</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetPropertyAsArray</token>
 </entry>
-<entry count="528">
+<entry count="2112">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetProperty</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetPropertyAsArray</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetPropertyAsArray</token>
@@ -343,10 +485,15 @@
 <token>Microsoft.Azure.Common.Authentication.Models.AzureContext,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureRMProfile,new</token>
 </entry>
-<entry count="496">
+<entry count="1984">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureEnvironment,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureEnvironment,GetEndpoint</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureEnvironment,GetEndpoint</token>
+</entry>
+<entry count="12">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureContext,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureContext,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
 </entry>
 <entry count="2">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSMProfile,new</token>
@@ -355,14 +502,21 @@
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetSubscriptions</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetPropertyAsArray</token>
 </entry>
-<entry count="5">
+<entry count="7">
 <token>Microsoft.Azure.Common.Authentication.Models.MemoryDataStore,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
 </entry>
-<entry count="660">
+<entry count="2244">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetProperty</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetPropertyAsArray</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetPropertyAsArray</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetOrAppendProperty</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureContext,new</token>
 </entry>
 <entry count="2">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureRMProfile,new</token>
@@ -373,10 +527,22 @@
 <token>Microsoft.Azure.Common.Authentication.Models.AzureEnvironment,GetEndpointAsUri</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureTenant,new</token>
 </entry>
+<entry count="12">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetOrAppendProperty</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetOrAppendProperty</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+</entry>
 <entry count="2">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,IsPropertySet</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,GetProperty</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,IsPropertySet</token>
+</entry>
+<entry count="8">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureContext,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureContext,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
 </entry>
 <entry count="2">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,HasSubscription</token>
@@ -404,7 +570,7 @@
 <token>Microsoft.Azure.Common.Authentication.Models.AzureEnvironment,GetEndpoint</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSMProfile,new</token>
 </entry>
-<entry count="304">
+<entry count="1564">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureTenant,new</token>
 </entry>
@@ -429,7 +595,12 @@
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSMProfile,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,GetProperty</token>
 </entry>
-<entry count="528">
+<entry count="8">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetOrAppendProperty</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureContext,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureContext,new</token>
+</entry>
+<entry count="2112">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,GetProperty</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,GetProperty</token>
@@ -440,6 +611,13 @@
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,SetProperty</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,SetProperty</token>
+</entry>
+<entry count="8">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureContext,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetOrAppendProperty</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetOrAppendProperty</token>
 </entry>
 <entry count="1">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSMProfile,new</token>
@@ -462,17 +640,22 @@
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
 </entry>
-<entry count="660">
+<entry count="2244">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,SetProperty</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,GetPropertyAsArray</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,GetPropertyAsArray</token>
 </entry>
-<entry count="528">
+<entry count="2112">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,GetProperty</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,GetPropertyAsArray</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,GetPropertyAsArray</token>
 </entry>
-<entry count="3946">
+<entry count="12">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureContext,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
+</entry>
+<entry count="252418">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetProperty</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetProperty</token>
 </entry>
@@ -482,7 +665,7 @@
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetSubscriptions</token>
 </entry>
-<entry count="1">
+<entry count="355">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
@@ -507,6 +690,24 @@
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSMProfile,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.MemoryDataStore,WriteFile</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetPropertyAsArray</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,IsPropertySet</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetProperty</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetPropertyAsArray</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetProperty</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetPropertyAsArray</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,IsPropertySet</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetProperty</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetOrAppendProperty</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
 </entry>
 <entry count="6">
 <token>Microsoft.Azure.Common.Authentication.Models.MemoryDataStore,new</token>
@@ -526,6 +727,11 @@
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetPropertyAsArray</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetOrAppendProperty</token>
 </entry>
+<entry count="1856">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetProperty</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureRMProfile,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureRMProfile,new</token>
+</entry>
 <entry count="1">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSMProfile,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.MemoryDataStore,FileExists</token>
@@ -542,6 +748,12 @@
 <token>Microsoft.Azure.Common.Authentication.Models.AzureEnvironment,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSMProfile,new</token>
 </entry>
+<entry count="12">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetOrAppendProperty</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetOrAppendProperty</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+</entry>
 <entry count="2">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureRMProfile,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureRMProfile,Save</token>
@@ -556,6 +768,11 @@
 <token>Microsoft.Azure.Common.Authentication.Models.AzureEnvironment,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
 </entry>
+<entry count="224">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetOrAppendProperty</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetOrAppendProperty</token>
+</entry>
 <entry count="1">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetProperty</token>
@@ -569,12 +786,12 @@
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSMProfile,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,HasSubscription</token>
 </entry>
-<entry count="2">
+<entry count="15">
 <token>Microsoft.Azure.Common.Authentication.Models.MemoryDataStore,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSMProfile,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetProperty</token>
 </entry>
-<entry count="464">
+<entry count="29696">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetProperty</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetProperty</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetProperty</token>
@@ -593,16 +810,22 @@
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetPropertyAsArray</token>
 <token>Microsoft.Azure.Common.Authentication.Models.MemoryDataStore,FileExists</token>
 </entry>
-<entry count="496">
+<entry count="1984">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureEnvironment,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureEnvironment,GetEndpoint</token>
 </entry>
-<entry count="528">
+<entry count="2112">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetProperty</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetProperty</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetPropertyAsArray</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetPropertyAsArray</token>
+</entry>
+<entry count="124">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetOrAppendProperty</token>
 </entry>
 <entry count="1">
 <token>Microsoft.Azure.Common.Authentication.Models.MemoryDataStore,new</token>
@@ -615,24 +838,81 @@
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetPropertyAsArray</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetPropertyAsArray</token>
 </entry>
-<entry count="180">
+<entry count="4">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureContext,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetOrAppendProperty</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureContext,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+</entry>
+<entry count="1170">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureEnvironment,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureTenant,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureContext,new</token>
 </entry>
+<entry count="7424">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureRMProfile,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetProperty</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetProperty</token>
+</entry>
 <entry count="69">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,IsPropertySet</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,IsPropertySet</token>
 </entry>
-<entry count="118">
+<entry count="2">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureContext,new</token>
+</entry>
+<entry count="124">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,IsPropertySet</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetProperty</token>
 </entry>
 <entry count="3">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureEnvironment,GetEndpoint</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,GetProperty</token>
+</entry>
+<entry count="12">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetProperty</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetProperty</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetProperty</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetProperty</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetProperty</token>
+</entry>
+<entry count="8">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetOrAppendProperty</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
+</entry>
+<entry count="10">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
+</entry>
+<entry count="270">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureContext,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureTenant,new</token>
+</entry>
+<entry count="124">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetOrAppendProperty</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
 </entry>
 <entry count="60">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSMProfile,new</token>
@@ -645,7 +925,7 @@
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetPropertyAsArray</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetPropertyAsArray</token>
 </entry>
-<entry count="2">
+<entry count="15778">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureRMProfile,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureRMProfile,new</token>
 </entry>
@@ -656,18 +936,35 @@
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetPropertyAsArray</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetPropertyAsArray</token>
 </entry>
-<entry count="174">
+<entry count="8">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureContext,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetOrAppendProperty</token>
+</entry>
+<entry count="275">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSMProfile,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSMProfile,new</token>
+</entry>
+<entry count="13456">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureRMProfile,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureRMProfile,new</token>
 </entry>
 <entry count="1">
 <token>Microsoft.Azure.Common.Authentication.Models.MemoryDataStore,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSMProfile,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,HasSubscription</token>
 </entry>
-<entry count="196">
+<entry count="1234">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureEnvironment,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+</entry>
+<entry count="8">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureContext,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetOrAppendProperty</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureContext,new</token>
 </entry>
 <entry count="66">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSMProfile,new</token>
@@ -680,6 +977,12 @@
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSMProfile,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetProperty</token>
+</entry>
+<entry count="464">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureRMProfile,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureRMProfile,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureRMProfile,new</token>
 </entry>
 <entry count="29">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureEnvironment,GetEndpointAsUri</token>
@@ -699,7 +1002,13 @@
 <token>Microsoft.Azure.Common.Authentication.Models.AzureEnvironment,GetEndpoint</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSMProfile,new</token>
 </entry>
-<entry count="60">
+<entry count="224">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetOrAppendProperty</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetOrAppendProperty</token>
+</entry>
+<entry count="394">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureContext,new</token>
 </entry>
@@ -708,10 +1017,15 @@
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,IsPropertySet</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,GetProperty</token>
 </entry>
-<entry count="6848512">
+<entry count="13567232">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureEnvironment,IsEndpointSet</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureEnvironment,IsEndpointSet</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureEnvironment,IsEndpointSet</token>
+</entry>
+<entry count="18">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureContext,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
 </entry>
 <entry count="1">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSMProfile,new</token>
@@ -725,7 +1039,7 @@
 <token>Microsoft.Azure.Common.Authentication.Models.AzureEnvironment,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
 </entry>
-<entry count="3">
+<entry count="5">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
@@ -742,15 +1056,28 @@
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
 </entry>
-<entry count="678">
+<entry count="2325">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetProperty</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetProperty</token>
+</entry>
+<entry count="7424">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetProperty</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureRMProfile,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetProperty</token>
 </entry>
 <entry count="1">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetPropertyAsArray</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetPropertyAsArray</token>
 <token>Microsoft.Azure.Common.Authentication.Models.MemoryDataStore,FileExists</token>
 <token>Microsoft.Azure.Common.Authentication.Models.MemoryDataStore,FileExists</token>
+</entry>
+<entry count="11">
+<token>Microsoft.Azure.Common.Authentication.Models.MemoryDataStore,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSMProfile,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetProperty</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetProperty</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetProperty</token>
 </entry>
 <entry count="1">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,IsPropertySet</token>
@@ -791,7 +1118,12 @@
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,GetProperty</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetProperty</token>
 </entry>
-<entry count="3482">
+<entry count="278">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureContext,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
+</entry>
+<entry count="215298">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetProperty</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetProperty</token>
@@ -852,6 +1184,24 @@
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSMProfile,Save</token>
 </entry>
+<entry count="8">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+</entry>
+<entry count="10">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureContext,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+</entry>
+<entry count="7424">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureRMProfile,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetProperty</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetProperty</token>
+</entry>
 <entry count="796">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,IsPropertySet</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetPropertyAsArray</token>
@@ -859,6 +1209,10 @@
 <entry count="2">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,GetProperty</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetProperty</token>
+</entry>
+<entry count="224">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureContext,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
 </entry>
 <entry count="1">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSMProfile,Save</token>
@@ -900,12 +1254,25 @@
 <token>Microsoft.Azure.Common.Authentication.Models.AzureRMProfile,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
 </entry>
-<entry count="660">
+<entry count="8">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetOrAppendProperty</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureContext,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetOrAppendProperty</token>
+</entry>
+<entry count="2244">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetPropertyAsArray</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetPropertyAsArray</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetProperty</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetPropertyAsArray</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetPropertyAsArray</token>
+</entry>
+<entry count="8">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetOrAppendProperty</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetOrAppendProperty</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
 </entry>
 <entry count="2">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureContext,new</token>
@@ -924,12 +1291,28 @@
 <token>Microsoft.Azure.Common.Authentication.Models.AzureEnvironment,GetEndpointAsUri</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureContext,new</token>
 </entry>
-<entry count="660">
+<entry count="10">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetOrAppendProperty</token>
+</entry>
+<entry count="606">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureContext,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+</entry>
+<entry count="2244">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetPropertyAsArray</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetProperty</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetPropertyAsArray</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetPropertyAsArray</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetProperty</token>
+</entry>
+<entry count="124">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureContext,new</token>
 </entry>
 <entry count="1">
 <token>Microsoft.Azure.Common.Authentication.Models.MemoryDataStore,WriteFile</token>
@@ -954,17 +1337,33 @@
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetPropertyAsArray</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetPropertyAsArray</token>
 </entry>
-<entry count="528">
+<entry count="2112">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,GetProperty</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,GetPropertyAsArray</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,GetPropertyAsArray</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,SetProperty</token>
+</entry>
+<entry count="8">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureContext,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureContext,new</token>
 </entry>
 <entry count="3">
 <token>Microsoft.Azure.Common.Authentication.Models.MemoryDataStore,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSMProfile,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.MemoryDataStore,FileExists</token>
 <token>Microsoft.Azure.Common.Authentication.Models.MemoryDataStore,FileExists</token>
+</entry>
+<entry count="1856">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureRMProfile,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetProperty</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureRMProfile,new</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,IsPropertySet</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetProperty</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetPropertyAsArray</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,IsPropertySet</token>
 </entry>
 <entry count="1">
 <token>Microsoft.Azure.Common.Authentication.Models.MemoryDataStore,new</token>
@@ -982,13 +1381,18 @@
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSMProfile,Save</token>
 </entry>
+<entry count="8">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetOrAppendProperty</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureContext,new</token>
+</entry>
 <entry count="132">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,GetPropertyAsArray</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,GetPropertyAsArray</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,SetProperty</token>
 </entry>
-<entry count="660">
+<entry count="2244">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,GetPropertyAsArray</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,SetProperty</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,GetPropertyAsArray</token>
@@ -999,11 +1403,34 @@
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSMProfile,Save</token>
 </entry>
+<entry count="34">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetProperty</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetProperty</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetProperty</token>
+</entry>
 <entry count="2">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,SetProperty</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,SetProperty</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,GetProperty</token>
+</entry>
+<entry count="270">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureTenant,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureContext,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
+</entry>
+<entry count="1856">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetProperty</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureRMProfile,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureRMProfile,new</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureContext,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureContext,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
 </entry>
 <entry count="6">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSMProfile,new</token>
@@ -1020,6 +1447,13 @@
 <entry count="4">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetSubscriptions</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetPropertyAsArray</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,IsPropertySet</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetProperty</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetPropertyAsArray</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,IsPropertySet</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetProperty</token>
 </entry>
 <entry count="132">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureEnvironment,IsEndpointSet</token>
@@ -1036,7 +1470,7 @@
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,IsPropertySet</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,GetProperty</token>
 </entry>
-<entry count="3">
+<entry count="5">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
@@ -1046,7 +1480,7 @@
 <token>Microsoft.Azure.Common.Authentication.Models.AzureContext,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.MemoryDataStore,new</token>
 </entry>
-<entry count="3">
+<entry count="5">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSMProfile,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.MemoryDataStore,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
@@ -1064,10 +1498,16 @@
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetOrAppendProperty</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureEnvironment,GetEndpointAsUri</token>
 </entry>
-<entry count="544">
+<entry count="2144">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetProperty</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetProperty</token>
+</entry>
+<entry count="12">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureContext,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetOrAppendProperty</token>
 </entry>
 <entry count="1">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetPropertyAsArray</token>
@@ -1082,18 +1522,18 @@
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,HasSubscription</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,HasSubscription</token>
 </entry>
-<entry count="528">
+<entry count="2112">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,GetProperty</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,GetPropertyAsArray</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,GetPropertyAsArray</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,SetProperty</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,GetPropertyAsArray</token>
 </entry>
-<entry count="512">
+<entry count="2004">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureEnvironment,GetEndpoint</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureEnvironment,GetEndpoint</token>
 </entry>
-<entry count="304">
+<entry count="1564">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureTenant,new</token>
@@ -1103,12 +1543,19 @@
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetProperty</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
 </entry>
-<entry count="1320">
+<entry count="4488">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,GetPropertyAsArray</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,GetPropertyAsArray</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,SetProperty</token>
 </entry>
-<entry count="180">
+<entry count="2">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
+</entry>
+<entry count="1170">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureEnvironment,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
@@ -1121,6 +1568,11 @@
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSMProfile,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.MemoryDataStore,WriteFile</token>
 </entry>
+<entry count="12">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetOrAppendProperty</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureContext,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+</entry>
 <entry count="2">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureRMProfile,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
@@ -1132,7 +1584,7 @@
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,GetPropertyAsArray</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureEnvironment,GetEndpointAsUri</token>
 </entry>
-<entry count="528">
+<entry count="2112">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetProperty</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetProperty</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetPropertyAsArray</token>
@@ -1141,12 +1593,17 @@
 <token>Microsoft.Azure.Common.Authentication.Models.AzureEnvironment,IsEndpointSet</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
 </entry>
-<entry count="660">
+<entry count="2244">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,GetPropertyAsArray</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,GetPropertyAsArray</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,SetProperty</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,GetPropertyAsArray</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,GetPropertyAsArray</token>
+</entry>
+<entry count="224">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureContext,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetOrAppendProperty</token>
 </entry>
 <entry count="1">
 <token>Microsoft.Azure.Common.Authentication.Models.MemoryDataStore,new</token>
@@ -1165,12 +1622,12 @@
 <token>Microsoft.Azure.Common.Authentication.Models.MemoryDataStore,FileExists</token>
 <token>Microsoft.Azure.Common.Authentication.Models.MemoryDataStore,FileExists</token>
 </entry>
-<entry count="304">
+<entry count="1564">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureTenant,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureContext,new</token>
 </entry>
-<entry count="528">
+<entry count="2112">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,GetProperty</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,GetProperty</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,GetPropertyAsArray</token>
@@ -1183,6 +1640,19 @@
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetSubscriptions</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetSubscriptions</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetPropertyAsArray</token>
+</entry>
+<entry count="10">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureContext,new</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureContext,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetOrAppendProperty</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
 </entry>
 <entry count="3">
 <token>Microsoft.Azure.Common.Authentication.Models.MemoryDataStore,new</token>
@@ -1217,7 +1687,20 @@
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSMProfile,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,IsPropertySet</token>
 </entry>
-<entry count="528">
+<entry count="270">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureTenant,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureContext,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetOrAppendProperty</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetOrAppendProperty</token>
+</entry>
+<entry count="2112">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetProperty</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetProperty</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetPropertyAsArray</token>
@@ -1231,7 +1714,7 @@
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetSubscriptions</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetSubscriptions</token>
 </entry>
-<entry count="304">
+<entry count="1564">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureTenant,new</token>
@@ -1242,7 +1725,7 @@
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetSubscriptions</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetSubscriptions</token>
 </entry>
-<entry count="4">
+<entry count="6">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSMProfile,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.MemoryDataStore,new</token>
 </entry>
@@ -1264,6 +1747,13 @@
 <token>Microsoft.Azure.Common.Authentication.Models.AzureEnvironment,GetEndpoint</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSMProfile,new</token>
 </entry>
+<entry count="2">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureContext,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+</entry>
 <entry count="132">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetOrAppendProperty</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureEnvironment,GetEndpointAsUri</token>
@@ -1272,6 +1762,13 @@
 <token>Microsoft.Azure.Common.Authentication.Models.MemoryDataStore,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSMProfile,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSMProfile,Save</token>
+</entry>
+<entry count="12">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetOrAppendProperty</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetOrAppendProperty</token>
 </entry>
 <entry count="6">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
@@ -1284,18 +1781,34 @@
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetPropertyAsArray</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetPropertyAsArray</token>
 </entry>
+<entry count="336">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetOrAppendProperty</token>
+</entry>
 <entry count="2">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureRMProfile,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureContext,new</token>
 </entry>
-<entry count="528">
+<entry count="2112">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,GetProperty</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,GetProperty</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,GetPropertyAsArray</token>
 </entry>
-<entry count="1320">
+<entry count="224">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureContext,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureContext,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureContext,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+</entry>
+<entry count="4488">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,GetPropertyAsArray</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,SetProperty</token>
 </entry>
@@ -1304,6 +1817,11 @@
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSMProfile,Save</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSMProfile,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,GetProperty</token>
+</entry>
+<entry count="270">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureTenant,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureContext,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
 </entry>
 <entry count="1">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSMProfile,new</token>
@@ -1315,7 +1833,7 @@
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSMProfile,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetSubscriptions</token>
 </entry>
-<entry count="1320">
+<entry count="4488">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,GetPropertyAsArray</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,GetPropertyAsArray</token>
 </entry>
@@ -1326,18 +1844,18 @@
 <token>Microsoft.Azure.Common.Authentication.Models.AzureContext,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,SetProperty</token>
 </entry>
-<entry count="464">
+<entry count="7424">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetProperty</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetProperty</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureRMProfile,new</token>
 </entry>
-<entry count="1320">
+<entry count="4488">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetPropertyAsArray</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetPropertyAsArray</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetProperty</token>
 </entry>
-<entry count="660">
+<entry count="2244">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetProperty</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetPropertyAsArray</token>
 </entry>
@@ -1357,7 +1875,7 @@
 <token>Microsoft.Azure.Common.Authentication.Models.MemoryDataStore,FileExists</token>
 <token>Microsoft.Azure.Common.Authentication.Models.MemoryDataStore,FileExists</token>
 </entry>
-<entry count="2">
+<entry count="4">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSMProfile,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSMProfile,Save</token>
@@ -1371,10 +1889,17 @@
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,IsPropertySet</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetPropertyAsArray</token>
 </entry>
-<entry count="660">
+<entry count="2244">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetPropertyAsArray</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetProperty</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetPropertyAsArray</token>
+</entry>
+<entry count="270">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureContext,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureTenant,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureContext,new</token>
 </entry>
 <entry count="132">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
@@ -1386,6 +1911,13 @@
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetProperty</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSMProfile,Save</token>
 </entry>
+<entry count="8">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetOrAppendProperty</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetOrAppendProperty</token>
+</entry>
 <entry count="1">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSMProfile,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetPropertyAsArray</token>
@@ -1395,7 +1927,7 @@
 <token>Microsoft.Azure.Common.Authentication.Models.MemoryDataStore,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureRMProfile,new</token>
 </entry>
-<entry count="1320">
+<entry count="4488">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetPropertyAsArray</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetProperty</token>
 </entry>
@@ -1405,11 +1937,16 @@
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,IsPropertySet</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,GetProperty</token>
 </entry>
+<entry count="53824">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureRMProfile,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetProperty</token>
+</entry>
 <entry count="3">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSMProfile,Save</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureEnvironment,GetEndpoint</token>
 </entry>
-<entry count="3">
+<entry count="1830">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
 </entry>
@@ -1419,12 +1956,18 @@
 <token>Microsoft.Azure.Common.Authentication.Models.MemoryDataStore,WriteFile</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetPropertyAsArray</token>
 </entry>
+<entry count="11">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSMProfile,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetProperty</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetProperty</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetProperty</token>
+</entry>
 <entry count="1">
 <token>Microsoft.Azure.Common.Authentication.Models.MemoryDataStore,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSMProfile,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetPropertyAsArray</token>
 </entry>
-<entry count="4">
+<entry count="6">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSMProfile,Save</token>
@@ -1449,7 +1992,7 @@
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,IsPropertySet</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetProperty</token>
 </entry>
-<entry count="6">
+<entry count="10">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSMProfile,Save</token>
 </entry>
@@ -1468,7 +2011,7 @@
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,IsPropertySet</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,IsPropertySet</token>
 </entry>
-<entry count="464">
+<entry count="7424">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetProperty</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetProperty</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureRMProfile,new</token>
@@ -1480,9 +2023,15 @@
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetPropertyAsArray</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetPropertyAsArray</token>
 </entry>
-<entry count="532">
+<entry count="2116">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,GetProperty</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,GetProperty</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureContext,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureContext,new</token>
 </entry>
 <entry count="1">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSMProfile,new</token>
@@ -1498,6 +2047,23 @@
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
 </entry>
+<entry count="1856">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureRMProfile,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureRMProfile,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetProperty</token>
+</entry>
+<entry count="124">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureContext,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+</entry>
+<entry count="8">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetOrAppendProperty</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetOrAppendProperty</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetOrAppendProperty</token>
+</entry>
 <entry count="120">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureRMProfile,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
@@ -1505,7 +2071,7 @@
 <token>Microsoft.Azure.Common.Authentication.Models.AzureTenant,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureContext,new</token>
 </entry>
-<entry count="2">
+<entry count="15">
 <token>Microsoft.Azure.Common.Authentication.Models.MemoryDataStore,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSMProfile,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetProperty</token>
@@ -1527,28 +2093,40 @@
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSMProfile,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
 </entry>
+<entry count="8">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetOrAppendProperty</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetOrAppendProperty</token>
+</entry>
 <entry count="1">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSMProfile,Save</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSMProfile,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSMProfile,new</token>
 </entry>
-<entry count="529">
+<entry count="2117">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetProperty</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetPropertyAsArray</token>
 </entry>
-<entry count="3">
+<entry count="5">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
 </entry>
-<entry count="3">
+<entry count="77">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+</entry>
+<entry count="5">
 <token>Microsoft.Azure.Common.Authentication.Models.MemoryDataStore,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
 </entry>
-<entry count="272">
+<entry count="274">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
 </entry>
@@ -1578,6 +2156,11 @@
 <token>Microsoft.Azure.Common.Authentication.Models.AzureTenant,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureContext,new</token>
 </entry>
+<entry count="4">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetProperty</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetPropertyAsArray</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,IsPropertySet</token>
+</entry>
 <entry count="1">
 <token>Microsoft.Azure.Common.Authentication.Models.MemoryDataStore,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSMProfile,new</token>
@@ -1600,7 +2183,7 @@
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureTenant,new</token>
 </entry>
-<entry count="528">
+<entry count="2112">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,GetProperty</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,GetProperty</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,GetPropertyAsArray</token>
@@ -1611,7 +2194,12 @@
 <token>Microsoft.Azure.Common.Authentication.Models.AzureEnvironment,GetEndpoint</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSMProfile,new</token>
 </entry>
-<entry count="660">
+<entry count="8">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetOrAppendProperty</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
+</entry>
+<entry count="2244">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,GetPropertyAsArray</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,SetProperty</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,GetPropertyAsArray</token>
@@ -1621,31 +2209,52 @@
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureEnvironment,new</token>
 </entry>
-<entry count="2">
+<entry count="6">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureContext,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+</entry>
+<entry count="8">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetOrAppendProperty</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureContext,new</token>
+</entry>
+<entry count="15">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSMProfile,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetProperty</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetProperty</token>
 </entry>
-<entry count="3">
+<entry count="5">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSMProfile,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.MemoryDataStore,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
 </entry>
-<entry count="325">
+<entry count="1969">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
+</entry>
+<entry count="63104">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureRMProfile,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetProperty</token>
 </entry>
 <entry count="8">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetSubscriptions</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetSubscriptions</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetSubscriptions</token>
 </entry>
+<entry count="464">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureRMProfile,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureRMProfile,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureRMProfile,new</token>
+</entry>
 <entry count="133">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetPropertyAsArray</token>
 </entry>
-<entry count="660">
+<entry count="2244">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetPropertyAsArray</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetProperty</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetPropertyAsArray</token>
@@ -1658,7 +2267,7 @@
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSMProfile,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.MemoryDataStore,WriteFile</token>
 </entry>
-<entry count="3">
+<entry count="5">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
@@ -1669,7 +2278,7 @@
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetPropertyAsArray</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetPropertyAsArray</token>
 </entry>
-<entry count="196">
+<entry count="1234">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureEnvironment,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
@@ -1692,10 +2301,22 @@
 <token>Microsoft.Azure.Common.Authentication.Models.MemoryDataStore,FileExists</token>
 <token>Microsoft.Azure.Common.Authentication.Models.MemoryDataStore,FileExists</token>
 </entry>
+<entry count="18">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetOrAppendProperty</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+</entry>
 <entry count="2">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSMProfile,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,GetProperty</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetProperty</token>
+</entry>
+<entry count="12">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetOrAppendProperty</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
 </entry>
 <entry count="2">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
@@ -1704,7 +2325,7 @@
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,SetProperty</token>
 </entry>
-<entry count="528">
+<entry count="2112">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetProperty</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetPropertyAsArray</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetPropertyAsArray</token>
@@ -1714,6 +2335,11 @@
 <token>Microsoft.Azure.Common.Authentication.Models.AzureEnvironment,GetEndpoint</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureEnvironment,GetEndpoint</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,GetProperty</token>
+</entry>
+<entry count="37">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSMProfile,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSMProfile,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSMProfile,new</token>
 </entry>
 <entry count="1">
 <token>Microsoft.Azure.Common.Authentication.Models.MemoryDataStore,new</token>
@@ -1724,18 +2350,13 @@
 <token>Microsoft.Azure.Common.Authentication.Models.AzureEnvironment,GetEndpoint</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSMProfile,new</token>
 </entry>
-<entry count="4">
-<token>Microsoft.Azure.Common.Authentication.Models.AzureSMProfile,new</token>
-<token>Microsoft.Azure.Common.Authentication.Models.AzureSMProfile,new</token>
-<token>Microsoft.Azure.Common.Authentication.Models.AzureSMProfile,new</token>
-</entry>
 <entry count="2">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetSubscriptions</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetSubscriptions</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetSubscriptions</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetSubscriptions</token>
 </entry>
-<entry count="4">
+<entry count="8">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetPropertyAsArray</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,IsPropertySet</token>
 </entry>
@@ -1758,7 +2379,14 @@
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetProperty</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetPropertyAsArray</token>
 </entry>
-<entry count="3">
+<entry count="8">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetOrAppendProperty</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureContext,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetOrAppendProperty</token>
+</entry>
+<entry count="16">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSMProfile,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetProperty</token>
 </entry>
@@ -1773,7 +2401,7 @@
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSMProfile,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,GetProperty</token>
 </entry>
-<entry count="6">
+<entry count="10">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
 </entry>
@@ -1781,6 +2409,12 @@
 <token>Microsoft.Azure.Common.Authentication.Models.MemoryDataStore,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSMProfile,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+</entry>
+<entry count="8">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetOrAppendProperty</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetOrAppendProperty</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
 </entry>
 <entry count="2">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureEnvironment,GetEndpoint</token>
@@ -1795,7 +2429,7 @@
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSMProfile,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,GetProperty</token>
 </entry>
-<entry count="528">
+<entry count="2112">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,GetProperty</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,GetProperty</token>
@@ -1808,6 +2442,18 @@
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,SetProperty</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,SetProperty</token>
 </entry>
+<entry count="4">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetOrAppendProperty</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureContext,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+</entry>
+<entry count="12">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetOrAppendProperty</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureContext,new</token>
+</entry>
 <entry count="8">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetPropertyAsArray</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetPropertyAsArray</token>
@@ -1818,13 +2464,13 @@
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSMProfile,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureEnvironment,GetEndpoint</token>
 </entry>
-<entry count="464">
+<entry count="29696">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetProperty</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetProperty</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetProperty</token>
 </entry>
-<entry count="696">
+<entry count="156368">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureRMProfile,new</token>
 </entry>
@@ -1848,6 +2494,13 @@
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSMProfile,Save</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSMProfile,new</token>
 </entry>
+<entry count="270">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureTenant,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureContext,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+</entry>
 <entry count="31">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureContext,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureEnvironment,GetEndpointAsUri</token>
@@ -1859,7 +2512,7 @@
 <token>Microsoft.Azure.Common.Authentication.Models.MemoryDataStore,FileExists</token>
 <token>Microsoft.Azure.Common.Authentication.Models.MemoryDataStore,ReadFileAsText</token>
 </entry>
-<entry count="528">
+<entry count="2112">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetProperty</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetPropertyAsArray</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetPropertyAsArray</token>
@@ -1872,20 +2525,44 @@
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,IsPropertySet</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetPropertyAsArray</token>
 </entry>
-<entry count="43">
+<entry count="45">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSMProfile,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
 </entry>
-<entry count="3">
+<entry count="5">
 <token>Microsoft.Azure.Common.Authentication.Models.MemoryDataStore,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
+</entry>
+<entry count="1856">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureRMProfile,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureRMProfile,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetProperty</token>
+</entry>
+<entry count="124">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetOrAppendProperty</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
 </entry>
 <entry count="1">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureEnvironment,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSMProfile,new</token>
 </entry>
-<entry count="3">
+<entry count="270">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureTenant,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureContext,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureTenant,new</token>
+</entry>
+<entry count="8">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureContext,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetOrAppendProperty</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
+</entry>
+<entry count="5">
 <token>Microsoft.Azure.Common.Authentication.Models.MemoryDataStore,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
@@ -1895,11 +2572,11 @@
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,SetProperty</token>
 </entry>
-<entry count="1863">
+<entry count="5031">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetPropertyAsArray</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetPropertyAsArray</token>
 </entry>
-<entry count="660">
+<entry count="2244">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,SetProperty</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,GetPropertyAsArray</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,GetPropertyAsArray</token>
@@ -1909,11 +2586,17 @@
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureContext,new</token>
 </entry>
-<entry count="660">
+<entry count="2244">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetPropertyAsArray</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetPropertyAsArray</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetProperty</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetPropertyAsArray</token>
+</entry>
+<entry count="8">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetOrAppendProperty</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetOrAppendProperty</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureContext,new</token>
 </entry>
 <entry count="4">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,SetProperty</token>
@@ -1935,16 +2618,22 @@
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,SetProperty</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,SetProperty</token>
 </entry>
-<entry count="123">
+<entry count="135">
 <token>Microsoft.Azure.Common.Authentication.Models.MemoryDataStore,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSMProfile,new</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureContext,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureContext,new</token>
 </entry>
 <entry count="1">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSMProfile,Save</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureEnvironment,GetEndpoint</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureEnvironment,GetEndpoint</token>
 </entry>
-<entry count="2088">
+<entry count="63104">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetProperty</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureRMProfile,new</token>
 </entry>
@@ -1952,6 +2641,16 @@
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,IsPropertySet</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetPropertyAsArray</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetPropertyAsArray</token>
+</entry>
+<entry count="12">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureContext,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureContext,new</token>
+</entry>
+<entry count="7424">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetProperty</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureRMProfile,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetProperty</token>
 </entry>
 <entry count="30">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
@@ -1966,6 +2665,12 @@
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetPropertyAsArray</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetPropertyAsArray</token>
 </entry>
+<entry count="10">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetOrAppendProperty</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+</entry>
 <entry count="6">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureContext,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureRMProfile,new</token>
@@ -1974,11 +2679,11 @@
 <token>Microsoft.Azure.Common.Authentication.Models.MemoryDataStore,FileExists</token>
 <token>Microsoft.Azure.Common.Authentication.Models.MemoryDataStore,ReadFileAsText</token>
 </entry>
-<entry count="544">
+<entry count="2144">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetProperty</token>
 </entry>
-<entry count="528">
+<entry count="2112">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,GetProperty</token>
 </entry>
@@ -1987,7 +2692,7 @@
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSMProfile,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
 </entry>
-<entry count="528">
+<entry count="2112">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetProperty</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetProperty</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetPropertyAsArray</token>
@@ -1999,7 +2704,7 @@
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetSubscriptions</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetPropertyAsArray</token>
 </entry>
-<entry count="7340032">
+<entry count="14539456">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureEnvironment,IsEndpointSet</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureEnvironment,IsEndpointSet</token>
 </entry>
@@ -2047,7 +2752,7 @@
 <token>Microsoft.Azure.Common.Authentication.Models.AzureEnvironment,GetEndpoint</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureEnvironment,GetEndpoint</token>
 </entry>
-<entry count="9054">
+<entry count="625478">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetProperty</token>
 </entry>
@@ -2056,7 +2761,14 @@
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetPropertyAsArray</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetOrAppendProperty</token>
 </entry>
-<entry count="5865472">
+<entry count="11">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSMProfile,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetProperty</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetProperty</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetProperty</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetProperty</token>
+</entry>
+<entry count="11622784">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureEnvironment,IsEndpointSet</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureEnvironment,IsEndpointSet</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureEnvironment,IsEndpointSet</token>
@@ -2085,23 +2797,57 @@
 <token>Microsoft.Azure.Common.Authentication.Models.AzureRMProfile,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
 </entry>
+<entry count="12">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureContext,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetOrAppendProperty</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+</entry>
+<entry count="270">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureTenant,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureContext,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
+</entry>
 <entry count="122">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureRMProfile,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
 </entry>
+<entry count="224">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetOrAppendProperty</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
+</entry>
 <entry count="6">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,SetProperty</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,SetProperty</token>
+</entry>
+<entry count="6">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetOrAppendProperty</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
+</entry>
+<entry count="8">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureContext,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureContext,new</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureContext,new</token>
 </entry>
 <entry count="3">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSMProfile,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSMProfile,Save</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureEnvironment,GetEndpoint</token>
 </entry>
-<entry count="2">
+<entry count="4">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetPropertyAsArray</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,IsPropertySet</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,GetProperty</token>
+</entry>
+<entry count="336">
+<token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,SetOrAppendProperty</token>
+<token>Microsoft.Azure.Common.Authentication.Models.AzureSubscription,new</token>
 </entry>
 <entry count="348">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureSMProfile,new</token>
@@ -2127,7 +2873,7 @@
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,HasSubscription</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,HasSubscription</token>
 </entry>
-<entry count="3">
+<entry count="5">
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>
 <token>Microsoft.Azure.Common.Authentication.Models.AzureAccount,new</token>

@@ -257,6 +257,12 @@
 <token>Microsoft.Azure.Management.Resources.Models.GenericResourceExtended,new</token>
 <token>Microsoft.Azure.Management.Resources.Models.GenericResourceExtended,new</token>
 </entry>
+<entry count="19">
+<token>Microsoft.Azure.Management.Resources.Models.Deployment,new</token>
+<token>Microsoft.Azure.Management.Resources.Models.DeploymentProperties,new</token>
+<token>Microsoft.Azure.Management.Resources.Models.ParametersLink,new</token>
+<token>Microsoft.Azure.Management.Resources.Models.ParametersLink,new</token>
+</entry>
 <entry count="8">
 <token>Microsoft.Azure.Management.Resources.Models.FeatureResponse,new</token>
 <token>Microsoft.Azure.Management.Resources.Models.FeatureProperties,new</token>
@@ -282,6 +288,11 @@
 <entry count="4">
 <token>Microsoft.Azure.Management.Resources.Models.DeploymentListParameters,new</token>
 <token>Microsoft.Azure.Management.Resources.Models.DeploymentListResult,new</token>
+</entry>
+<entry count="76">
+<token>Microsoft.Azure.Management.Resources.Models.DeploymentProperties,new</token>
+<token>Microsoft.Azure.Management.Resources.Models.TemplateLink,new</token>
+<token>Microsoft.Azure.Management.Resources.Models.TemplateLink,new</token>
 </entry>
 <entry count="8">
 <token>Microsoft.Azure.Management.Resources.Models.DeploymentPropertiesExtended,new</token>
@@ -416,6 +427,12 @@
 <entry count="2">
 <token>Microsoft.Azure.Management.Resources.Models.DeploymentValidateResponse,new</token>
 <token>Microsoft.Azure.Management.Resources.Models.DeploymentGetResult,new</token>
+</entry>
+<entry count="38">
+<token>Microsoft.Azure.Management.Resources.Models.Deployment,new</token>
+<token>Microsoft.Azure.Management.Resources.Models.DeploymentProperties,new</token>
+<token>Microsoft.Azure.Management.Resources.Models.ParametersLink,new</token>
+<token>Microsoft.Azure.Management.Resources.Models.TemplateLink,new</token>
 </entry>
 <entry count="2">
 <token>Microsoft.Azure.Management.Resources.Models.GenericResourceExtended,new</token>
@@ -598,6 +615,11 @@
 <token>Microsoft.Azure.Management.Resources.Models.GenericResourceExtended,new</token>
 <token>Microsoft.Azure.Management.Resources.Models.DeploymentOperationsListResult,new</token>
 </entry>
+<entry count="38">
+<token>Microsoft.Azure.Management.Resources.Models.DeploymentProperties,new</token>
+<token>Microsoft.Azure.Management.Resources.Models.ParametersLink,new</token>
+<token>Microsoft.Azure.Management.Resources.Models.TemplateLink,new</token>
+</entry>
 <entry count="2">
 <token>Microsoft.Azure.Management.Resources.Models.DeploymentPropertiesExtended,new</token>
 <token>Microsoft.Azure.Management.Resources.Models.DeploymentExtended,new</token>
@@ -676,7 +698,7 @@
 <token>Microsoft.Azure.Management.Resources.Models.DeploymentPropertiesExtended,new</token>
 <token>Microsoft.Azure.Management.Resources.Models.TemplateLink,new</token>
 </entry>
-<entry count="76">
+<entry count="266">
 <token>Microsoft.Azure.Management.Resources.Models.Deployment,new</token>
 <token>Microsoft.Azure.Management.Resources.Models.DeploymentProperties,new</token>
 <token>Microsoft.Azure.Management.Resources.Models.TemplateLink,new</token>
@@ -856,7 +878,7 @@
 <token>Microsoft.Azure.Management.Resources.Models.GenericResourceExtended,new</token>
 <token>Microsoft.Azure.Management.Resources.Models.ResourceCreateOrUpdateResult,new</token>
 </entry>
-<entry count="19">
+<entry count="133">
 <token>Microsoft.Azure.Management.Resources.Models.Deployment,new</token>
 <token>Microsoft.Azure.Management.Resources.Models.DeploymentProperties,new</token>
 <token>Microsoft.Azure.Management.Resources.Models.ParametersLink,new</token>
@@ -910,13 +932,17 @@
 <token>Microsoft.Azure.Management.Resources.Models.GenericResourceExtended,new</token>
 <token>Microsoft.Azure.Management.Resources.Models.ResourceListParameters,new</token>
 </entry>
-<entry count="116">
+<entry count="477">
 <token>Microsoft.Azure.Management.Resources.Models.Deployment,new</token>
 <token>Microsoft.Azure.Management.Resources.Models.DeploymentProperties,new</token>
 </entry>
 <entry count="12">
 <token>Microsoft.Azure.Management.Resources.Models.DeploymentGetResult,new</token>
 <token>Microsoft.Azure.Management.Resources.Models.DeploymentExtended,new</token>
+</entry>
+<entry count="38">
+<token>Microsoft.Azure.Management.Resources.Models.ParametersLink,new</token>
+<token>Microsoft.Azure.Management.Resources.Models.TemplateLink,new</token>
 </entry>
 <entry count="8">
 <token>Microsoft.Azure.Management.Resources.Models.DeploymentPropertiesExtended,new</token>
@@ -939,7 +965,7 @@
 <token>Microsoft.Azure.Management.Resources.Models.ResourceManagementErrorWithDetails,new</token>
 <token>Microsoft.Azure.Management.Resources.Models.DeploymentOperationsCreateResult,new</token>
 </entry>
-<entry count="76">
+<entry count="266">
 <token>Microsoft.Azure.Management.Resources.Models.DeploymentProperties,new</token>
 <token>Microsoft.Azure.Management.Resources.Models.TemplateLink,new</token>
 </entry>
@@ -1084,7 +1110,7 @@
 <token>Microsoft.Azure.Management.Resources.Models.DeploymentGetResult,new</token>
 <token>Microsoft.Azure.Management.Resources.Models.DeploymentGetResult,new</token>
 </entry>
-<entry count="19">
+<entry count="133">
 <token>Microsoft.Azure.Management.Resources.Models.DeploymentProperties,new</token>
 <token>Microsoft.Azure.Management.Resources.Models.ParametersLink,new</token>
 </entry>
@@ -1128,6 +1154,10 @@
 <token>Microsoft.Azure.Management.Resources.Models.GenericResourceExtended,new</token>
 <token>Microsoft.Azure.Management.Resources.Models.ResourceCreateOrUpdateResult,new</token>
 <token>Microsoft.Azure.Management.Resources.Models.GenericResourceExtended,new</token>
+</entry>
+<entry count="19">
+<token>Microsoft.Azure.Management.Resources.Models.ParametersLink,new</token>
+<token>Microsoft.Azure.Management.Resources.Models.ParametersLink,new</token>
 </entry>
 <entry count="4">
 <token>Microsoft.Azure.Management.Resources.Models.Deployment,new</token>
@@ -1245,6 +1275,10 @@
 <token>Microsoft.Azure.Management.Resources.Models.TargetResource,new</token>
 <token>Microsoft.Azure.Management.Resources.Models.DeploymentOperationsListResult,new</token>
 </entry>
+<entry count="76">
+<token>Microsoft.Azure.Management.Resources.Models.ResourceListParameters,new</token>
+<token>Microsoft.Azure.Management.Resources.Models.ResourceListParameters,new</token>
+</entry>
 <entry count="4">
 <token>Microsoft.Azure.Management.Resources.Models.ResourceGroupExistsResult,new</token>
 <token>Microsoft.Azure.Management.Resources.Models.ResourceGetResult,new</token>
@@ -1360,6 +1394,10 @@
 <token>Microsoft.Azure.Management.Resources.Models.GenericResourceExtended,new</token>
 <token>Microsoft.Azure.Management.Resources.Models.DeploymentOperationsListResult,new</token>
 <token>Microsoft.Azure.Management.Resources.Models.DeploymentOperation,new</token>
+</entry>
+<entry count="76">
+<token>Microsoft.Azure.Management.Resources.Models.TemplateLink,new</token>
+<token>Microsoft.Azure.Management.Resources.Models.TemplateLink,new</token>
 </entry>
 <entry count="2">
 <token>Microsoft.Azure.Management.Resources.Models.ResourceManagementErrorWithDetails,new</token>
@@ -1427,6 +1465,11 @@
 <token>Microsoft.Azure.Management.Resources.Models.ProviderResourceType,new</token>
 <token>Microsoft.Azure.Management.Resources.Models.Provider,new</token>
 </entry>
+<entry count="19">
+<token>Microsoft.Azure.Management.Resources.Models.DeploymentProperties,new</token>
+<token>Microsoft.Azure.Management.Resources.Models.ParametersLink,new</token>
+<token>Microsoft.Azure.Management.Resources.Models.ParametersLink,new</token>
+</entry>
 <entry count="2">
 <token>Microsoft.Azure.Management.Resources.Models.ResourceGroupGetResult,new</token>
 <token>Microsoft.Azure.Management.Resources.Models.ResourceGroupExtended,new</token>
@@ -1585,6 +1628,12 @@
 <token>Microsoft.Azure.Management.Resources.Models.DeploymentGetResult,new</token>
 <token>Microsoft.Azure.Management.Resources.Models.DeploymentGetResult,new</token>
 <token>Microsoft.Azure.Management.Resources.Models.DeploymentGetResult,new</token>
+</entry>
+<entry count="76">
+<token>Microsoft.Azure.Management.Resources.Models.Deployment,new</token>
+<token>Microsoft.Azure.Management.Resources.Models.DeploymentProperties,new</token>
+<token>Microsoft.Azure.Management.Resources.Models.TemplateLink,new</token>
+<token>Microsoft.Azure.Management.Resources.Models.TemplateLink,new</token>
 </entry>
 <entry count="8">
 <token>Microsoft.Azure.Management.Resources.Models.GenericResourceExtended,new</token>

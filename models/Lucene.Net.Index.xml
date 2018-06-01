@@ -1,0 +1,824 @@
+<?xml version="1.0" encoding="UTF-8"?><dictionary case_sensitive="false">
+<entry count="2">
+<token>Lucene.Net.Index.SegmentInfos,new</token>
+<token>Lucene.Net.Index.SegmentInfos,Read</token>
+<token>Lucene.Net.Index.SegmentInfos,GetCurrentSegmentFileName</token>
+<token>Lucene.Net.Index.SegmentInfos,Files</token>
+</entry>
+<entry count="1024">
+<token>Lucene.Net.Index.Term,new</token>
+<token>Lucene.Net.Index.IndexWriter,DeleteDocuments</token>
+<token>Lucene.Net.Index.Term,new</token>
+<token>Lucene.Net.Index.IndexWriter,DeleteDocuments</token>
+</entry>
+<entry count="64">
+<token>Lucene.Net.Index.IndexReader,TermDocs</token>
+<token>Lucene.Net.Index.Term,new</token>
+<token>Lucene.Net.Index.IndexReader,Terms</token>
+<token>Lucene.Net.Index.TermDocs,Seek</token>
+</entry>
+<entry count="2">
+<token>Lucene.Net.Index.Term,new</token>
+<token>Lucene.Net.Index.IndexWriter,DeleteDocuments</token>
+<token>Lucene.Net.Index.IndexWriter,Optimize</token>
+</entry>
+<entry count="36">
+<token>Lucene.Net.Index.IndexReader,TermDocs</token>
+<token>Lucene.Net.Index.IndexReader,Terms</token>
+</entry>
+<entry count="4">
+<token>Lucene.Net.Index.IndexWriter,SetMergeScheduler</token>
+<token>Lucene.Net.Index.IndexWriter,SetMaxBufferedDocs</token>
+<token>Lucene.Net.Index.IndexWriter,SetRAMBufferSizeMB</token>
+</entry>
+<entry count="2">
+<token>Lucene.Net.Index.KeepOnlyLastCommitDeletionPolicy,new</token>
+<token>Lucene.Net.Index.SnapshotDeletionPolicy,new</token>
+<token>Lucene.Net.Index.IndexWriter,new</token>
+<token>Lucene.Net.Index.IndexWriter,SetMergeScheduler</token>
+</entry>
+<entry count="64">
+<token>Lucene.Net.Index.Term,new</token>
+<token>Lucene.Net.Index.IndexWriter,UpdateDocument</token>
+<token>Lucene.Net.Index.IndexWriter,UpdateDocument</token>
+<token>Lucene.Net.Index.IndexWriter,UpdateDocument</token>
+<token>Lucene.Net.Index.IndexWriter,UpdateDocument</token>
+</entry>
+<entry count="88">
+<token>Lucene.Net.Index.TermDocs,Seek</token>
+<token>Lucene.Net.Index.TermDocs,Next</token>
+</entry>
+<entry count="8">
+<token>Lucene.Net.Index.IndexWriter,SetMaxBufferedDocs</token>
+<token>Lucene.Net.Index.IndexWriter,AddDocument</token>
+<token>Lucene.Net.Index.IndexWriter,Commit</token>
+<token>Lucene.Net.Index.IndexWriter,Dispose</token>
+</entry>
+<entry count="24">
+<token>Lucene.Net.Index.Term,new</token>
+<token>Lucene.Net.Index.IndexReader,Terms</token>
+<token>Lucene.Net.Index.TermEnum,DocFreq</token>
+<token>Lucene.Net.Index.TermDocs,Seek</token>
+<token>Lucene.Net.Index.TermDocs,Next</token>
+</entry>
+<entry count="8">
+<token>Lucene.Net.Index.IndexWriter,AddDocument</token>
+<token>Lucene.Net.Index.IndexWriter,Commit</token>
+<token>Lucene.Net.Index.IndexWriter,Dispose</token>
+</entry>
+<entry count="34">
+<token>Lucene.Net.Index.IndexReader,Terms</token>
+<token>Lucene.Net.Index.TermEnum,Next</token>
+<token>Lucene.Net.Index.TermDocs,Seek</token>
+</entry>
+<entry count="8">
+<token>Lucene.Net.Index.IndexReader,IsCurrent</token>
+<token>Lucene.Net.Index.IndexReader,Reopen</token>
+</entry>
+<entry count="8">
+<token>Lucene.Net.Index.IndexWriter,SetMaxBufferedDocs</token>
+<token>Lucene.Net.Index.IndexWriter,AddDocument</token>
+<token>Lucene.Net.Index.IndexWriter,Commit</token>
+</entry>
+<entry count="2">
+<token>Lucene.Net.Index.Term,new</token>
+<token>Lucene.Net.Index.IndexWriter,DeleteDocuments</token>
+<token>Lucene.Net.Index.IndexWriter,Optimize</token>
+<token>Lucene.Net.Index.IndexWriter,Commit</token>
+</entry>
+<entry count="104">
+<token>Lucene.Net.Index.IndexReader,Terms</token>
+<token>Lucene.Net.Index.TermEnum,Next</token>
+<token>Lucene.Net.Index.TermEnum,Next</token>
+</entry>
+<entry count="56">
+<token>Lucene.Net.Index.IndexReader,GetTermFreqVector</token>
+<token>Lucene.Net.Index.ITermFreqVector,GetTerms</token>
+</entry>
+<entry count="2">
+<token>Lucene.Net.Index.IndexWriter,new</token>
+<token>Lucene.Net.Index.IndexWriter,SetMaxBufferedDocs</token>
+<token>Lucene.Net.Index.IndexWriter,Commit</token>
+</entry>
+<entry count="16">
+<token>Lucene.Net.Index.IndexReader,GetCommitUserData</token>
+<token>Lucene.Net.Index.CheckIndex,new</token>
+<token>Lucene.Net.Index.CheckIndex,CheckIndex_Renamed_Method</token>
+</entry>
+<entry count="4">
+<token>Lucene.Net.Index.IndexWriter,SetMaxBufferedDocs</token>
+<token>Lucene.Net.Index.IndexWriter,SetRAMBufferSizeMB</token>
+</entry>
+<entry count="1024">
+<token>Lucene.Net.Index.IndexWriter,DeleteDocuments</token>
+<token>Lucene.Net.Index.Term,new</token>
+<token>Lucene.Net.Index.IndexWriter,DeleteDocuments</token>
+<token>Lucene.Net.Index.Term,new</token>
+</entry>
+<entry count="4096">
+<token>Lucene.Net.Index.Term,new</token>
+<token>Lucene.Net.Index.IndexWriter,DeleteDocuments</token>
+<token>Lucene.Net.Index.Term,new</token>
+</entry>
+<entry count="2">
+<token>Lucene.Net.Index.IndexWriter,AddDocument</token>
+<token>Lucene.Net.Index.Term,new</token>
+</entry>
+<entry count="4">
+<token>Lucene.Net.Index.IndexWriter,AddDocument</token>
+<token>Lucene.Net.Index.IndexReader,Terms</token>
+<token>Lucene.Net.Index.TermEnum,Next</token>
+</entry>
+<entry count="16">
+<token>Lucene.Net.Index.CheckIndex,new</token>
+<token>Lucene.Net.Index.CheckIndex,SetInfoStream</token>
+</entry>
+<entry count="1024">
+<token>Lucene.Net.Index.Term,new</token>
+<token>Lucene.Net.Index.IndexWriter,DeleteDocuments</token>
+<token>Lucene.Net.Index.Term,new</token>
+<token>Lucene.Net.Index.IndexWriter,DeleteDocuments</token>
+<token>Lucene.Net.Index.Term,new</token>
+</entry>
+<entry count="34">
+<token>Lucene.Net.Index.TermEnum,Next</token>
+<token>Lucene.Net.Index.TermDocs,Seek</token>
+<token>Lucene.Net.Index.TermEnum,DocFreq</token>
+<token>Lucene.Net.Index.TermDocs,Next</token>
+</entry>
+<entry count="24">
+<token>Lucene.Net.Index.Term,new</token>
+<token>Lucene.Net.Index.IndexReader,Terms</token>
+<token>Lucene.Net.Index.TermEnum,DocFreq</token>
+<token>Lucene.Net.Index.TermDocs,Seek</token>
+</entry>
+<entry count="1776">
+<token>Lucene.Net.Index.Term,new</token>
+<token>Lucene.Net.Index.IndexReader,DocFreq</token>
+</entry>
+<entry count="1128">
+<token>Lucene.Net.Index.Term,new</token>
+<token>Lucene.Net.Index.IndexWriter,DeleteDocuments</token>
+<token>Lucene.Net.Index.Term,new</token>
+<token>Lucene.Net.Index.IndexWriter,UpdateDocument</token>
+<token>Lucene.Net.Index.IndexWriter,UpdateDocument</token>
+</entry>
+<entry count="32">
+<token>Lucene.Net.Index.CheckIndex,CheckIndex_Renamed_Method</token>
+<token>Lucene.Net.Index.CheckIndex,FixIndex</token>
+</entry>
+<entry count="384">
+<token>Lucene.Net.Index.IndexReader,DocFreq</token>
+<token>Lucene.Net.Index.Term,new</token>
+<token>Lucene.Net.Index.IndexReader,DocFreq</token>
+</entry>
+<entry count="20">
+<token>Lucene.Net.Index.TermEnum,Next</token>
+<token>Lucene.Net.Index.TermEnum,Dispose</token>
+</entry>
+<entry count="16">
+<token>Lucene.Net.Index.IndexReader,GetCommitUserData</token>
+<token>Lucene.Net.Index.CheckIndex,new</token>
+</entry>
+<entry count="16">
+<token>Lucene.Net.Index.IndexWriter,DeleteDocuments</token>
+<token>Lucene.Net.Index.IndexWriter,AddDocument</token>
+</entry>
+<entry count="20808">
+<token>Lucene.Net.Index.Term,new</token>
+<token>Lucene.Net.Index.Term,CreateTerm</token>
+<token>Lucene.Net.Index.Term,CreateTerm</token>
+</entry>
+<entry count="420">
+<token>Lucene.Net.Index.Term,new</token>
+<token>Lucene.Net.Index.IndexReader,Terms</token>
+</entry>
+<entry count="2">
+<token>Lucene.Net.Index.IndexReader,IsCurrent</token>
+<token>Lucene.Net.Index.IndexReader,Reopen</token>
+<token>Lucene.Net.Index.Term,new</token>
+</entry>
+<entry count="4">
+<token>Lucene.Net.Index.IndexWriter,new</token>
+<token>Lucene.Net.Index.IndexWriter,AddDocument</token>
+<token>Lucene.Net.Index.IndexReader,Terms</token>
+</entry>
+<entry count="20808">
+<token>Lucene.Net.Index.Term,CreateTerm</token>
+<token>Lucene.Net.Index.Term,CreateTerm</token>
+</entry>
+<entry count="4114">
+<token>Lucene.Net.Index.Term,new</token>
+<token>Lucene.Net.Index.IndexWriter,DeleteDocuments</token>
+</entry>
+<entry count="1296">
+<token>Lucene.Net.Index.SnapshotDeletionPolicy,Snapshot</token>
+<token>Lucene.Net.Index.SnapshotDeletionPolicy,Release</token>
+<token>Lucene.Net.Index.SnapshotDeletionPolicy,Release</token>
+</entry>
+<entry count="64">
+<token>Lucene.Net.Index.Term,new</token>
+<token>Lucene.Net.Index.IndexReader,Terms</token>
+<token>Lucene.Net.Index.TermDocs,Seek</token>
+<token>Lucene.Net.Index.TermDocs,Next</token>
+</entry>
+<entry count="68">
+<token>Lucene.Net.Index.IndexWriter,UpdateDocument</token>
+<token>Lucene.Net.Index.IndexWriter,UpdateDocument</token>
+<token>Lucene.Net.Index.IndexWriter,UpdateDocument</token>
+<token>Lucene.Net.Index.IndexWriter,UpdateDocument</token>
+</entry>
+<entry count="4">
+<token>Lucene.Net.Index.IndexWriter,UpdateDocument</token>
+<token>Lucene.Net.Index.IndexWriter,UpdateDocument</token>
+<token>Lucene.Net.Index.IndexWriter,UpdateDocument</token>
+<token>Lucene.Net.Index.IndexWriter,UpdateDocument</token>
+<token>Lucene.Net.Index.IndexWriter,UpdateDocument</token>
+</entry>
+<entry count="48">
+<token>Lucene.Net.Index.ITermFreqVector,GetTerms</token>
+<token>Lucene.Net.Index.ITermFreqVector,IndexOf</token>
+</entry>
+<entry count="16">
+<token>Lucene.Net.Index.Term,new</token>
+<token>Lucene.Net.Index.IndexWriter,DeleteDocuments</token>
+<token>Lucene.Net.Index.IndexWriter,AddDocument</token>
+<token>Lucene.Net.Index.IndexWriter,Commit</token>
+</entry>
+<entry count="12">
+<token>Lucene.Net.Index.Term,new</token>
+<token>Lucene.Net.Index.IndexReader,Terms</token>
+<token>Lucene.Net.Index.TermEnum,Next</token>
+<token>Lucene.Net.Index.TermEnum,Dispose</token>
+</entry>
+<entry count="2">
+<token>Lucene.Net.Index.SegmentInfos,Read</token>
+<token>Lucene.Net.Index.SegmentInfos,GetCurrentSegmentFileName</token>
+<token>Lucene.Net.Index.SegmentInfos,Files</token>
+</entry>
+<entry count="6">
+<token>Lucene.Net.Index.IndexWriter,HasDeletions</token>
+<token>Lucene.Net.Index.IndexWriter,Optimize</token>
+</entry>
+<entry count="10">
+<token>Lucene.Net.Index.IndexReader,IsCurrent</token>
+<token>Lucene.Net.Index.Term,new</token>
+</entry>
+<entry count="318">
+<token>Lucene.Net.Index.IndexWriter,DeleteDocuments</token>
+<token>Lucene.Net.Index.Term,new</token>
+<token>Lucene.Net.Index.IndexWriter,UpdateDocument</token>
+<token>Lucene.Net.Index.IndexWriter,UpdateDocument</token>
+<token>Lucene.Net.Index.IndexWriter,UpdateDocument</token>
+</entry>
+<entry count="16">
+<token>Lucene.Net.Index.CheckIndex,SetInfoStream</token>
+<token>Lucene.Net.Index.CheckIndex,CheckIndex_Renamed_Method</token>
+</entry>
+<entry count="10">
+<token>Lucene.Net.Index.IndexWriter,new</token>
+<token>Lucene.Net.Index.IndexWriter,SetMaxBufferedDocs</token>
+</entry>
+<entry count="10642">
+<token>Lucene.Net.Index.Term,new</token>
+<token>Lucene.Net.Index.Term,new</token>
+</entry>
+<entry count="64">
+<token>Lucene.Net.Index.IndexReader,TermDocs</token>
+<token>Lucene.Net.Index.Term,new</token>
+<token>Lucene.Net.Index.IndexReader,Terms</token>
+<token>Lucene.Net.Index.TermDocs,Seek</token>
+<token>Lucene.Net.Index.TermDocs,Next</token>
+</entry>
+<entry count="300">
+<token>Lucene.Net.Index.IndexReader,Terms</token>
+<token>Lucene.Net.Index.TermEnum,Next</token>
+</entry>
+<entry count="2">
+<token>Lucene.Net.Index.SegmentInfos,new</token>
+<token>Lucene.Net.Index.SegmentInfos,Read</token>
+</entry>
+<entry count="34">
+<token>Lucene.Net.Index.IndexReader,TermDocs</token>
+<token>Lucene.Net.Index.IndexReader,Terms</token>
+<token>Lucene.Net.Index.TermEnum,Next</token>
+<token>Lucene.Net.Index.TermDocs,Seek</token>
+</entry>
+<entry count="4">
+<token>Lucene.Net.Index.IndexWriter,SetMergeScheduler</token>
+<token>Lucene.Net.Index.IndexWriter,Flush</token>
+</entry>
+<entry count="8">
+<token>Lucene.Net.Index.IndexReader,GetTermFreqVector</token>
+<token>Lucene.Net.Index.IndexReader,Document</token>
+</entry>
+<entry count="24">
+<token>Lucene.Net.Index.IndexReader,Terms</token>
+<token>Lucene.Net.Index.TermEnum,DocFreq</token>
+<token>Lucene.Net.Index.TermDocs,Seek</token>
+<token>Lucene.Net.Index.TermDocs,Next</token>
+</entry>
+<entry count="16">
+<token>Lucene.Net.Index.CheckIndex,new</token>
+<token>Lucene.Net.Index.CheckIndex,SetInfoStream</token>
+<token>Lucene.Net.Index.CheckIndex,CheckIndex_Renamed_Method</token>
+<token>Lucene.Net.Index.CheckIndex,FixIndex</token>
+</entry>
+<entry count="10">
+<token>Lucene.Net.Index.IndexWriter,Commit</token>
+<token>Lucene.Net.Index.IndexWriter,Dispose</token>
+</entry>
+<entry count="8">
+<token>Lucene.Net.Index.Term,new</token>
+<token>Lucene.Net.Index.IndexReader,Terms</token>
+<token>Lucene.Net.Index.TermEnum,Next</token>
+<token>Lucene.Net.Index.TermEnum,Next</token>
+<token>Lucene.Net.Index.TermEnum,Dispose</token>
+</entry>
+<entry count="24">
+<token>Lucene.Net.Index.IndexReader,TermDocs</token>
+<token>Lucene.Net.Index.Term,new</token>
+<token>Lucene.Net.Index.IndexReader,Terms</token>
+<token>Lucene.Net.Index.TermEnum,DocFreq</token>
+<token>Lucene.Net.Index.TermDocs,Seek</token>
+</entry>
+<entry count="24">
+<token>Lucene.Net.Index.IndexReader,Terms</token>
+<token>Lucene.Net.Index.TermEnum,DocFreq</token>
+</entry>
+<entry count="41616">
+<token>Lucene.Net.Index.Term,new</token>
+<token>Lucene.Net.Index.Term,CreateTerm</token>
+</entry>
+<entry count="4096">
+<token>Lucene.Net.Index.IndexWriter,DeleteDocuments</token>
+<token>Lucene.Net.Index.Term,new</token>
+</entry>
+<entry count="2">
+<token>Lucene.Net.Index.SnapshotDeletionPolicy,new</token>
+<token>Lucene.Net.Index.IndexWriter,new</token>
+</entry>
+<entry count="34">
+<token>Lucene.Net.Index.IndexReader,TermDocs</token>
+<token>Lucene.Net.Index.IndexReader,Terms</token>
+<token>Lucene.Net.Index.TermEnum,Next</token>
+<token>Lucene.Net.Index.TermDocs,Seek</token>
+<token>Lucene.Net.Index.TermEnum,DocFreq</token>
+</entry>
+<entry count="48">
+<token>Lucene.Net.Index.TermPositionVector,GetOffsets</token>
+<token>Lucene.Net.Index.TermPositionVector,GetTermPositions</token>
+</entry>
+<entry count="2">
+<token>Lucene.Net.Index.IndexWriter,Optimize</token>
+<token>Lucene.Net.Index.IndexWriter,Commit</token>
+</entry>
+<entry count="34">
+<token>Lucene.Net.Index.TermEnum,Next</token>
+<token>Lucene.Net.Index.TermDocs,Seek</token>
+<token>Lucene.Net.Index.TermEnum,DocFreq</token>
+</entry>
+<entry count="1504">
+<token>Lucene.Net.Index.Term,new</token>
+<token>Lucene.Net.Index.IndexWriter,UpdateDocument</token>
+<token>Lucene.Net.Index.IndexWriter,UpdateDocument</token>
+</entry>
+<entry count="4">
+<token>Lucene.Net.Index.IndexReader,Terms</token>
+<token>Lucene.Net.Index.TermEnum,Dispose</token>
+</entry>
+<entry count="8">
+<token>Lucene.Net.Index.IndexReader,Terms</token>
+<token>Lucene.Net.Index.TermEnum,Next</token>
+<token>Lucene.Net.Index.TermEnum,Next</token>
+<token>Lucene.Net.Index.TermEnum,Dispose</token>
+</entry>
+<entry count="2">
+<token>Lucene.Net.Index.IndexWriter,AddDocument</token>
+<token>Lucene.Net.Index.IndexWriter,DeleteDocuments</token>
+</entry>
+<entry count="28">
+<token>Lucene.Net.Index.IndexWriter,AddDocument</token>
+<token>Lucene.Net.Index.IndexWriter,Commit</token>
+</entry>
+<entry count="16">
+<token>Lucene.Net.Index.TermEnum,DocFreq</token>
+<token>Lucene.Net.Index.TermDocs,Seek</token>
+<token>Lucene.Net.Index.TermDocs,Next</token>
+<token>Lucene.Net.Index.IndexReader,IsDeleted</token>
+</entry>
+<entry count="4">
+<token>Lucene.Net.Index.IndexWriter,AddDocument</token>
+<token>Lucene.Net.Index.IndexReader,Terms</token>
+</entry>
+<entry count="8">
+<token>Lucene.Net.Index.IndexWriter,SetMaxBufferedDocs</token>
+<token>Lucene.Net.Index.IndexWriter,AddDocument</token>
+</entry>
+<entry count="8">
+<token>Lucene.Net.Index.KeepOnlyLastCommitDeletionPolicy,new</token>
+<token>Lucene.Net.Index.SnapshotDeletionPolicy,new</token>
+</entry>
+<entry count="24">
+<token>Lucene.Net.Index.IndexReader,TermDocs</token>
+<token>Lucene.Net.Index.Term,new</token>
+<token>Lucene.Net.Index.IndexReader,Terms</token>
+<token>Lucene.Net.Index.TermEnum,DocFreq</token>
+</entry>
+<entry count="48">
+<token>Lucene.Net.Index.IndexReader,GetTermFreqVector</token>
+<token>Lucene.Net.Index.ITermFreqVector,GetTerms</token>
+<token>Lucene.Net.Index.ITermFreqVector,IndexOf</token>
+<token>Lucene.Net.Index.TermPositionVector,GetOffsets</token>
+</entry>
+<entry count="64">
+<token>Lucene.Net.Index.IndexReader,Terms</token>
+<token>Lucene.Net.Index.TermDocs,Seek</token>
+</entry>
+<entry count="4">
+<token>Lucene.Net.Index.IndexWriter,new</token>
+<token>Lucene.Net.Index.IndexWriter,SetMergeScheduler</token>
+<token>Lucene.Net.Index.IndexWriter,Flush</token>
+</entry>
+<entry count="24">
+<token>Lucene.Net.Index.TermEnum,DocFreq</token>
+<token>Lucene.Net.Index.TermDocs,Seek</token>
+</entry>
+<entry count="2343">
+<token>Lucene.Net.Index.IndexWriter,DeleteDocuments</token>
+<token>Lucene.Net.Index.Term,new</token>
+<token>Lucene.Net.Index.IndexWriter,UpdateDocument</token>
+</entry>
+<entry count="492">
+<token>Lucene.Net.Index.IndexWriter,UpdateDocument</token>
+<token>Lucene.Net.Index.IndexWriter,UpdateDocument</token>
+<token>Lucene.Net.Index.IndexWriter,UpdateDocument</token>
+</entry>
+<entry count="2">
+<token>Lucene.Net.Index.SegmentInfos,Read</token>
+<token>Lucene.Net.Index.SegmentInfos,GetCurrentSegmentFileName</token>
+</entry>
+<entry count="2">
+<token>Lucene.Net.Index.IndexWriter,DeleteDocuments</token>
+<token>Lucene.Net.Index.IndexWriter,Optimize</token>
+</entry>
+<entry count="781">
+<token>Lucene.Net.Index.IndexWriter,DeleteDocuments</token>
+<token>Lucene.Net.Index.Term,new</token>
+<token>Lucene.Net.Index.IndexWriter,DeleteDocuments</token>
+<token>Lucene.Net.Index.Term,new</token>
+<token>Lucene.Net.Index.IndexWriter,UpdateDocument</token>
+</entry>
+<entry count="2">
+<token>Lucene.Net.Index.IndexWriter,new</token>
+<token>Lucene.Net.Index.IndexWriter,SetMaxBufferedDocs</token>
+<token>Lucene.Net.Index.IndexWriter,Commit</token>
+<token>Lucene.Net.Index.IndexWriter,Dispose</token>
+</entry>
+<entry count="4">
+<token>Lucene.Net.Index.Term,new</token>
+<token>Lucene.Net.Index.IndexReader,Terms</token>
+<token>Lucene.Net.Index.TermEnum,Dispose</token>
+</entry>
+<entry count="16">
+<token>Lucene.Net.Index.CheckIndex,new</token>
+<token>Lucene.Net.Index.CheckIndex,SetInfoStream</token>
+<token>Lucene.Net.Index.CheckIndex,CheckIndex_Renamed_Method</token>
+</entry>
+<entry count="16">
+<token>Lucene.Net.Index.TermDocs,Seek</token>
+<token>Lucene.Net.Index.TermDocs,Next</token>
+<token>Lucene.Net.Index.IndexReader,IsDeleted</token>
+</entry>
+<entry count="34">
+<token>Lucene.Net.Index.IndexReader,Terms</token>
+<token>Lucene.Net.Index.TermEnum,Next</token>
+<token>Lucene.Net.Index.TermDocs,Seek</token>
+<token>Lucene.Net.Index.TermEnum,DocFreq</token>
+</entry>
+<entry count="1996">
+<token>Lucene.Net.Index.IndexWriter,UpdateDocument</token>
+<token>Lucene.Net.Index.IndexWriter,UpdateDocument</token>
+</entry>
+<entry count="34">
+<token>Lucene.Net.Index.TermDocs,Seek</token>
+<token>Lucene.Net.Index.TermEnum,DocFreq</token>
+<token>Lucene.Net.Index.TermDocs,Next</token>
+</entry>
+<entry count="34">
+<token>Lucene.Net.Index.IndexReader,Terms</token>
+<token>Lucene.Net.Index.TermEnum,Next</token>
+<token>Lucene.Net.Index.TermDocs,Seek</token>
+<token>Lucene.Net.Index.TermEnum,DocFreq</token>
+<token>Lucene.Net.Index.TermDocs,Next</token>
+</entry>
+<entry count="384">
+<token>Lucene.Net.Index.Term,new</token>
+<token>Lucene.Net.Index.IndexReader,DocFreq</token>
+<token>Lucene.Net.Index.Term,new</token>
+</entry>
+<entry count="34">
+<token>Lucene.Net.Index.TermEnum,Next</token>
+<token>Lucene.Net.Index.TermDocs,Seek</token>
+</entry>
+<entry count="1024">
+<token>Lucene.Net.Index.IndexWriter,DeleteDocuments</token>
+<token>Lucene.Net.Index.Term,new</token>
+<token>Lucene.Net.Index.IndexWriter,DeleteDocuments</token>
+</entry>
+<entry count="1296">
+<token>Lucene.Net.Index.SnapshotDeletionPolicy,Release</token>
+<token>Lucene.Net.Index.SnapshotDeletionPolicy,Release</token>
+</entry>
+<entry count="16">
+<token>Lucene.Net.Index.TermDocs,Next</token>
+<token>Lucene.Net.Index.IndexReader,IsDeleted</token>
+</entry>
+<entry count="8">
+<token>Lucene.Net.Index.IndexWriter,new</token>
+<token>Lucene.Net.Index.IndexWriter,SetMaxBufferedDocs</token>
+<token>Lucene.Net.Index.IndexWriter,AddDocument</token>
+</entry>
+<entry count="104">
+<token>Lucene.Net.Index.Term,new</token>
+<token>Lucene.Net.Index.IndexReader,Terms</token>
+<token>Lucene.Net.Index.TermEnum,Next</token>
+<token>Lucene.Net.Index.TermEnum,Next</token>
+</entry>
+<entry count="10">
+<token>Lucene.Net.Index.IndexWriter,new</token>
+<token>Lucene.Net.Index.IndexWriter,Dispose</token>
+</entry>
+<entry count="32">
+<token>Lucene.Net.Index.CheckIndex,new</token>
+<token>Lucene.Net.Index.CheckIndex,CheckIndex_Renamed_Method</token>
+</entry>
+<entry count="2">
+<token>Lucene.Net.Index.IndexWriter,DeleteDocuments</token>
+<token>Lucene.Net.Index.IndexWriter,Optimize</token>
+<token>Lucene.Net.Index.IndexWriter,Commit</token>
+</entry>
+<entry count="2">
+<token>Lucene.Net.Index.KeepOnlyLastCommitDeletionPolicy,new</token>
+<token>Lucene.Net.Index.SnapshotDeletionPolicy,new</token>
+<token>Lucene.Net.Index.IndexWriter,new</token>
+</entry>
+<entry count="4">
+<token>Lucene.Net.Index.IndexWriter,new</token>
+<token>Lucene.Net.Index.IndexWriter,SetMergeScheduler</token>
+<token>Lucene.Net.Index.IndexWriter,SetMaxBufferedDocs</token>
+<token>Lucene.Net.Index.IndexWriter,SetRAMBufferSizeMB</token>
+</entry>
+<entry count="24">
+<token>Lucene.Net.Index.IndexReader,Terms</token>
+<token>Lucene.Net.Index.TermEnum,DocFreq</token>
+<token>Lucene.Net.Index.TermDocs,Seek</token>
+</entry>
+<entry count="384">
+<token>Lucene.Net.Index.Term,new</token>
+<token>Lucene.Net.Index.IndexReader,DocFreq</token>
+<token>Lucene.Net.Index.Term,new</token>
+<token>Lucene.Net.Index.IndexReader,DocFreq</token>
+</entry>
+<entry count="2">
+<token>Lucene.Net.Index.IndexReader,Reopen</token>
+<token>Lucene.Net.Index.Term,new</token>
+</entry>
+<entry count="4">
+<token>Lucene.Net.Index.IndexWriter,new</token>
+<token>Lucene.Net.Index.IndexWriter,AddDocument</token>
+<token>Lucene.Net.Index.IndexWriter,Commit</token>
+</entry>
+<entry count="10">
+<token>Lucene.Net.Index.IndexWriter,new</token>
+<token>Lucene.Net.Index.IndexWriter,SetMergeScheduler</token>
+</entry>
+<entry count="8">
+<token>Lucene.Net.Index.IndexWriter,new</token>
+<token>Lucene.Net.Index.IndexWriter,SetMaxBufferedDocs</token>
+<token>Lucene.Net.Index.IndexWriter,AddDocument</token>
+<token>Lucene.Net.Index.IndexWriter,Commit</token>
+<token>Lucene.Net.Index.IndexWriter,Dispose</token>
+</entry>
+<entry count="2">
+<token>Lucene.Net.Index.IndexReader,IndexExists</token>
+<token>Lucene.Net.Index.IndexWriter,new</token>
+<token>Lucene.Net.Index.IndexWriter,Dispose</token>
+</entry>
+<entry count="8">
+<token>Lucene.Net.Index.IndexWriter,new</token>
+<token>Lucene.Net.Index.IndexWriter,SetMaxBufferedDocs</token>
+<token>Lucene.Net.Index.IndexWriter,AddDocument</token>
+<token>Lucene.Net.Index.IndexWriter,Commit</token>
+</entry>
+<entry count="16">
+<token>Lucene.Net.Index.Term,new</token>
+<token>Lucene.Net.Index.IndexWriter,DeleteDocuments</token>
+<token>Lucene.Net.Index.IndexWriter,AddDocument</token>
+</entry>
+<entry count="2">
+<token>Lucene.Net.Index.SegmentInfos,GetCurrentSegmentFileName</token>
+<token>Lucene.Net.Index.SegmentInfos,Files</token>
+</entry>
+<entry count="64">
+<token>Lucene.Net.Index.IndexReader,Terms</token>
+<token>Lucene.Net.Index.TermDocs,Seek</token>
+<token>Lucene.Net.Index.TermDocs,Next</token>
+</entry>
+<entry count="48">
+<token>Lucene.Net.Index.ITermFreqVector,IndexOf</token>
+<token>Lucene.Net.Index.TermPositionVector,GetOffsets</token>
+</entry>
+<entry count="10">
+<token>Lucene.Net.Index.IndexWriter,new</token>
+<token>Lucene.Net.Index.IndexWriter,AddDocument</token>
+</entry>
+<entry count="1128">
+<token>Lucene.Net.Index.IndexWriter,DeleteDocuments</token>
+<token>Lucene.Net.Index.Term,new</token>
+<token>Lucene.Net.Index.IndexWriter,UpdateDocument</token>
+<token>Lucene.Net.Index.IndexWriter,UpdateDocument</token>
+</entry>
+<entry count="4">
+<token>Lucene.Net.Index.IndexWriter,new</token>
+<token>Lucene.Net.Index.IndexWriter,SetMergeScheduler</token>
+<token>Lucene.Net.Index.IndexWriter,SetMaxBufferedDocs</token>
+</entry>
+<entry count="48">
+<token>Lucene.Net.Index.IndexReader,GetTermFreqVector</token>
+<token>Lucene.Net.Index.ITermFreqVector,GetTerms</token>
+<token>Lucene.Net.Index.ITermFreqVector,IndexOf</token>
+</entry>
+<entry count="16">
+<token>Lucene.Net.Index.CheckIndex,SetInfoStream</token>
+<token>Lucene.Net.Index.CheckIndex,CheckIndex_Renamed_Method</token>
+<token>Lucene.Net.Index.CheckIndex,FixIndex</token>
+</entry>
+<entry count="2">
+<token>Lucene.Net.Index.IndexReader,IndexExists</token>
+<token>Lucene.Net.Index.IndexWriter,new</token>
+</entry>
+<entry count="2">
+<token>Lucene.Net.Index.SnapshotDeletionPolicy,new</token>
+<token>Lucene.Net.Index.IndexWriter,new</token>
+<token>Lucene.Net.Index.IndexWriter,SetMergeScheduler</token>
+</entry>
+<entry count="2343">
+<token>Lucene.Net.Index.Term,new</token>
+<token>Lucene.Net.Index.IndexWriter,DeleteDocuments</token>
+<token>Lucene.Net.Index.Term,new</token>
+<token>Lucene.Net.Index.IndexWriter,UpdateDocument</token>
+</entry>
+<entry count="64">
+<token>Lucene.Net.Index.Term,new</token>
+<token>Lucene.Net.Index.IndexReader,Terms</token>
+<token>Lucene.Net.Index.TermDocs,Seek</token>
+</entry>
+<entry count="104">
+<token>Lucene.Net.Index.IndexReader,TermDocs</token>
+<token>Lucene.Net.Index.Term,new</token>
+</entry>
+<entry count="34">
+<token>Lucene.Net.Index.TermDocs,Seek</token>
+<token>Lucene.Net.Index.TermEnum,DocFreq</token>
+</entry>
+<entry count="48">
+<token>Lucene.Net.Index.IndexReader,GetTermFreqVector</token>
+<token>Lucene.Net.Index.ITermFreqVector,GetTerms</token>
+<token>Lucene.Net.Index.ITermFreqVector,IndexOf</token>
+<token>Lucene.Net.Index.TermPositionVector,GetOffsets</token>
+<token>Lucene.Net.Index.TermPositionVector,GetTermPositions</token>
+</entry>
+<entry count="16">
+<token>Lucene.Net.Index.IndexWriter,DeleteDocuments</token>
+<token>Lucene.Net.Index.IndexWriter,AddDocument</token>
+<token>Lucene.Net.Index.IndexWriter,Commit</token>
+</entry>
+<entry count="384">
+<token>Lucene.Net.Index.IndexReader,DocFreq</token>
+<token>Lucene.Net.Index.Term,new</token>
+</entry>
+<entry count="104">
+<token>Lucene.Net.Index.TermEnum,Next</token>
+<token>Lucene.Net.Index.TermEnum,Next</token>
+</entry>
+<entry count="16">
+<token>Lucene.Net.Index.IndexReader,Terms</token>
+<token>Lucene.Net.Index.TermEnum,DocFreq</token>
+<token>Lucene.Net.Index.TermDocs,Seek</token>
+<token>Lucene.Net.Index.TermDocs,Next</token>
+<token>Lucene.Net.Index.IndexReader,IsDeleted</token>
+</entry>
+<entry count="2">
+<token>Lucene.Net.Index.IndexWriter,SetMaxBufferedDocs</token>
+<token>Lucene.Net.Index.IndexWriter,Commit</token>
+<token>Lucene.Net.Index.IndexWriter,Dispose</token>
+</entry>
+<entry count="4">
+<token>Lucene.Net.Index.ITermFreqVector,GetTerms</token>
+<token>Lucene.Net.Index.ITermFreqVector,GetTermFrequencies</token>
+</entry>
+<entry count="260">
+<token>Lucene.Net.Index.Term,new</token>
+<token>Lucene.Net.Index.IndexReader,Terms</token>
+<token>Lucene.Net.Index.TermEnum,Next</token>
+</entry>
+<entry count="48">
+<token>Lucene.Net.Index.ITermFreqVector,GetTerms</token>
+<token>Lucene.Net.Index.ITermFreqVector,IndexOf</token>
+<token>Lucene.Net.Index.TermPositionVector,GetOffsets</token>
+</entry>
+<entry count="3888">
+<token>Lucene.Net.Index.SnapshotDeletionPolicy,Snapshot</token>
+<token>Lucene.Net.Index.SnapshotDeletionPolicy,Release</token>
+</entry>
+<entry count="2">
+<token>Lucene.Net.Index.SegmentInfos,new</token>
+<token>Lucene.Net.Index.SegmentInfos,Read</token>
+<token>Lucene.Net.Index.SegmentInfos,GetCurrentSegmentFileName</token>
+</entry>
+<entry count="3124">
+<token>Lucene.Net.Index.Term,new</token>
+<token>Lucene.Net.Index.IndexWriter,UpdateDocument</token>
+</entry>
+<entry count="2">
+<token>Lucene.Net.Index.IndexWriter,SetMaxBufferedDocs</token>
+<token>Lucene.Net.Index.IndexWriter,Commit</token>
+</entry>
+<entry count="16">
+<token>Lucene.Net.Index.CheckIndex,new</token>
+<token>Lucene.Net.Index.CheckIndex,CheckIndex_Renamed_Method</token>
+<token>Lucene.Net.Index.CheckIndex,FixIndex</token>
+</entry>
+<entry count="342">
+<token>Lucene.Net.Index.Term,new</token>
+<token>Lucene.Net.Index.Term,new</token>
+<token>Lucene.Net.Index.Term,new</token>
+</entry>
+<entry count="24">
+<token>Lucene.Net.Index.Term,new</token>
+<token>Lucene.Net.Index.IndexReader,Terms</token>
+<token>Lucene.Net.Index.TermEnum,DocFreq</token>
+</entry>
+<entry count="12">
+<token>Lucene.Net.Index.IndexReader,Terms</token>
+<token>Lucene.Net.Index.TermEnum,Next</token>
+<token>Lucene.Net.Index.TermEnum,Dispose</token>
+</entry>
+<entry count="24">
+<token>Lucene.Net.Index.TermEnum,DocFreq</token>
+<token>Lucene.Net.Index.TermDocs,Seek</token>
+<token>Lucene.Net.Index.TermDocs,Next</token>
+</entry>
+<entry count="2">
+<token>Lucene.Net.Index.IndexWriter,new</token>
+<token>Lucene.Net.Index.IndexWriter,AddDocument</token>
+<token>Lucene.Net.Index.Term,new</token>
+</entry>
+<entry count="104">
+<token>Lucene.Net.Index.IndexReader,TermDocs</token>
+<token>Lucene.Net.Index.Term,new</token>
+<token>Lucene.Net.Index.IndexReader,Terms</token>
+</entry>
+<entry count="36">
+<token>Lucene.Net.Index.IndexReader,TermDocs</token>
+<token>Lucene.Net.Index.IndexReader,Terms</token>
+<token>Lucene.Net.Index.TermEnum,Next</token>
+</entry>
+<entry count="34">
+<token>Lucene.Net.Index.TermEnum,DocFreq</token>
+<token>Lucene.Net.Index.TermDocs,Next</token>
+</entry>
+<entry count="4">
+<token>Lucene.Net.Index.IndexWriter,SetMergeScheduler</token>
+<token>Lucene.Net.Index.IndexWriter,SetMaxBufferedDocs</token>
+</entry>
+<entry count="48">
+<token>Lucene.Net.Index.ITermFreqVector,IndexOf</token>
+<token>Lucene.Net.Index.TermPositionVector,GetOffsets</token>
+<token>Lucene.Net.Index.TermPositionVector,GetTermPositions</token>
+</entry>
+<entry count="48">
+<token>Lucene.Net.Index.ITermFreqVector,GetTerms</token>
+<token>Lucene.Net.Index.ITermFreqVector,IndexOf</token>
+<token>Lucene.Net.Index.TermPositionVector,GetOffsets</token>
+<token>Lucene.Net.Index.TermPositionVector,GetTermPositions</token>
+</entry>
+<entry count="8">
+<token>Lucene.Net.Index.TermEnum,Next</token>
+<token>Lucene.Net.Index.TermEnum,Next</token>
+<token>Lucene.Net.Index.TermEnum,Dispose</token>
+</entry>
+<entry count="4">
+<token>Lucene.Net.Index.IndexWriter,new</token>
+<token>Lucene.Net.Index.IndexWriter,AddDocument</token>
+<token>Lucene.Net.Index.IndexReader,Terms</token>
+<token>Lucene.Net.Index.TermEnum,Next</token>
+</entry>
+<entry count="424">
+<token>Lucene.Net.Index.Term,new</token>
+<token>Lucene.Net.Index.IndexWriter,UpdateDocument</token>
+<token>Lucene.Net.Index.IndexWriter,UpdateDocument</token>
+<token>Lucene.Net.Index.IndexWriter,UpdateDocument</token>
+</entry>
+</dictionary>

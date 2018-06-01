@@ -5,14 +5,20 @@
 <token>System.Management.Automation.PowerShell,AddParameter</token>
 <token>System.Management.Automation.PowerShell,Invoke</token>
 </entry>
-<entry count="1">
-<token>System.Management.Automation.PSObject,AsPSObject</token>
-<token>System.Management.Automation.PSDataCollection`1[[T</token>
+<entry count="19602">
+<token>System.Management.Automation.PSArgumentException,new</token>
+<token>System.Management.Automation.PSArgumentException,new</token>
+<token>System.Management.Automation.ErrorRecord,new</token>
 </entry>
-<entry count="2">
-<token>3.0.0.0],[TOutput</token>
-<token>-&gt;</token>
-<token>System.Management.Automation.PSObject,</token>
+<entry count="32">
+<token>System.Management.Automation.PathIntrinsics,GetUnresolvedProviderPathFromPSPath</token>
+<token>System.Management.Automation.PathIntrinsics,GetUnresolvedProviderPathFromPSPath</token>
+<token>System.Management.Automation.PathIntrinsics,GetUnresolvedProviderPathFromPSPath</token>
+<token>System.Management.Automation.PathIntrinsics,GetUnresolvedProviderPathFromPSPath</token>
+</entry>
+<entry count="72">
+<token>System.Management.Automation.ErrorRecord,new</token>
+<token>System.Management.Automation.SwitchParameter,ToBool</token>
 </entry>
 <entry count="20">
 <token>System.Management.Automation.Cmdlet,WriteVerbose</token>
@@ -20,66 +26,74 @@
 <token>System.Management.Automation.Cmdlet,WriteObject</token>
 </entry>
 <entry count="31">
-<token>System.Management.Automation.PowerShell,Create</token>
+<token>System.Management.Automation.PowerShell,AddScript</token>
 <token>System.Management.Automation.PowerShell,Invoke</token>
-<token>System.Management.Automation.PSDataCollection`1[[T</token>
-<token>-&gt;</token>
-<token>System.Management.Automation.ErrorRecord,</token>
+<token>System.Management.Automation.RuntimeException,new</token>
+<token>System.Management.Automation.PSDataCollection,Clear</token>
 </entry>
-<entry count="8">
+<entry count="16">
+<token>System.Management.Automation.PSObject,ToString</token>
+<token>System.Management.Automation.PSObject,ToString</token>
+<token>System.Management.Automation.PSObject,ToString</token>
+<token>System.Management.Automation.PSObject,ToString</token>
+<token>System.Management.Automation.PSObject,ToString</token>
+</entry>
+<entry count="64">
 <token>System.Management.Automation.PSCmdlet,GetResolvedProviderPathFromPSPath</token>
 <token>System.Management.Automation.JobDefinition,new</token>
 <token>System.Management.Automation.JobInvocationInfo,new</token>
 </entry>
-<entry count="63">
-<token>System.Management.Automation.PowerShell,Invoke</token>
-<token>System.Management.Automation.RuntimeException,new</token>
-<token>System.Management.Automation.PSDataCollection`1[[T</token>
-<token>-&gt;</token>
-<token>System.Management.Automation.ErrorRecord,</token>
-</entry>
-<entry count="4">
-<token>System.Management.Automation.PowerShell,EndInvoke</token>
-<token>System.Management.Automation.PowerShell,EndInvoke</token>
-</entry>
-<entry count="1">
-<token>System.Management.Automation.PSObject,AsPSObject</token>
-<token>System.Management.Automation.PSDataCollection`1[[T</token>
-<token>-&gt;</token>
-<token>System.Management.Automation.PSObject,</token>
-</entry>
-<entry count="63">
-<token>System.Management.Automation.PowerShell,Invoke</token>
-<token>System.Management.Automation.PSDataCollection`1[[T</token>
-<token>-&gt;</token>
-<token>System.Management.Automation.ErrorRecord,</token>
-<token>System.Management.Automation,</token>
+<entry count="11">
+<token>System.Management.Automation.PSNoteProperty,new</token>
+<token>System.Management.Automation.PSMemberInfoCollection,Add</token>
+<token>System.Management.Automation.PSNoteProperty,new</token>
+<token>System.Management.Automation.PSMemberInfoCollection,Add</token>
 </entry>
 <entry count="16">
+<token>System.Management.Automation.PowerShell,EndInvoke</token>
+<token>System.Management.Automation.PowerShell,EndInvoke</token>
+</entry>
+<entry count="63">
+<token>System.Management.Automation.RuntimeException,new</token>
+<token>System.Management.Automation.PSDataCollection,Clear</token>
+</entry>
+<entry count="72">
+<token>System.Management.Automation.SwitchParameter,ToBool</token>
+<token>System.Management.Automation.ErrorRecord,new</token>
+<token>System.Management.Automation.SwitchParameter,ToBool</token>
+</entry>
+<entry count="1944">
+<token>System.Management.Automation.ErrorRecord,new</token>
+<token>System.Management.Automation.PSArgumentException,new</token>
+<token>System.Management.Automation.PSArgumentException,new</token>
+<token>System.Management.Automation.ErrorRecord,new</token>
+</entry>
+<entry count="960">
 <token>System.Management.Automation.PowerShell,Invoke</token>
 <token>System.Management.Automation.PowerShell,Create</token>
 <token>System.Management.Automation.PowerShell,AddCommand</token>
 <token>System.Management.Automation.PowerShell,AddParameter</token>
 <token>System.Management.Automation.PowerShell,AddParameter</token>
 </entry>
-<entry count="76">
-<token>System.Management.Automation.PSObject,new</token>
-<token>System.Management.Automation.PSNoteProperty,new</token>
-<token>System.Management.Automation.PSMemberInfoCollection`1[[T</token>
-</entry>
-<entry count="34">
+<entry count="1410">
 <token>System.Management.Automation.PowerShell,Create</token>
 <token>System.Management.Automation.PowerShell,AddCommand</token>
 <token>System.Management.Automation.PowerShell,AddParameter</token>
 <token>System.Management.Automation.PowerShell,AddParameter</token>
 <token>System.Management.Automation.PowerShell,Invoke</token>
 </entry>
-<entry count="140">
+<entry count="162">
 <token>System.Management.Automation.PSArgumentException,new</token>
 <token>System.Management.Automation.ErrorRecord,new</token>
 <token>System.Management.Automation.PSArgumentException,new</token>
 <token>System.Management.Automation.PSArgumentException,new</token>
 <token>System.Management.Automation.PSArgumentException,new</token>
+</entry>
+<entry count="6">
+<token>System.Management.Automation.ErrorRecord,new</token>
+<token>System.Management.Automation.SwitchParameter,ToBool</token>
+<token>System.Management.Automation.ErrorRecord,new</token>
+<token>System.Management.Automation.SwitchParameter,ToBool</token>
 </entry>
 <entry count="3">
 <token>System.Management.Automation.PowerShell,AddParameter</token>
@@ -87,17 +101,11 @@
 <token>System.Management.Automation.PowerShell,AddCommand</token>
 <token>System.Management.Automation.PowerShell,AddParameter</token>
 </entry>
-<entry count="63">
-<token>System.Management.Automation.PowerShell,Invoke</token>
-<token>System.Management.Automation.RuntimeException,new</token>
-<token>System.Management.Automation.PSDataCollection`1[[T</token>
-<token>-&gt;</token>
-</entry>
 <entry count="101">
 <token>System.Management.Automation.RuntimeDefinedParameterDictionary,new</token>
 <token>System.Management.Automation.RuntimeDefinedParameter,new</token>
 </entry>
-<entry count="8">
+<entry count="64">
 <token>System.Management.Automation.Job2,StartJob</token>
 <token>System.Management.Automation.Cmdlet,WriteObject</token>
 </entry>
@@ -112,13 +120,13 @@
 <token>System.Management.Automation.ContentCmdletProviderIntrinsics,GetReader</token>
 <token>System.Management.Automation.Cmdlet,WriteDebug</token>
 </entry>
-<entry count="140">
+<entry count="162">
 <token>System.Management.Automation.ErrorRecord,new</token>
 <token>System.Management.Automation.PSArgumentException,new</token>
 <token>System.Management.Automation.PSArgumentException,new</token>
 <token>System.Management.Automation.PSArgumentException,new</token>
 </entry>
-<entry count="3">
+<entry count="9">
 <token>System.Management.Automation.PowerShell,AddCommand</token>
 <token>System.Management.Automation.PowerShell,AddParameter</token>
 <token>System.Management.Automation.PSCommand,Clear</token>
@@ -130,15 +138,20 @@
 <token>System.Management.Automation.ParameterAttribute,new</token>
 <token>System.Management.Automation.AllowNullAttribute,new</token>
 </entry>
+<entry count="5">
+<token>System.Management.Automation.ErrorRecord,new</token>
+<token>System.Management.Automation.SwitchParameter,ToBool</token>
+<token>System.Management.Automation.SwitchParameter,ToBool</token>
+<token>System.Management.Automation.ErrorRecord,new</token>
+</entry>
 <entry count="9">
 <token>System.Management.Automation.PSCommand,AddCommand</token>
 <token>System.Management.Automation.PSCommand,AddParameter</token>
 </entry>
 <entry count="4">
-<token>System.Management.Automation.PSMemberInfoCollection`1[[T</token>
-<token>-&gt;</token>
-<token>System.Management.Automation.PSMemberInfo,</token>
-<token>System.Management.Automation,</token>
+<token>System.Management.Automation.PSDataCollection,new</token>
+<token>System.Management.Automation.PSDataCollection,new</token>
+<token>System.Management.Automation.PSDataCollection,new</token>
 </entry>
 <entry count="1">
 <token>System.Management.Automation.Cmdlet,WriteDebug</token>
@@ -157,20 +170,9 @@
 <token>System.Management.Automation.ContentCmdletProviderIntrinsics,GetReader</token>
 <token>System.Management.Automation.PSVariableIntrinsics,Set</token>
 </entry>
-<entry count="1">
-<token>System.Management.Automation.ProgressRecord,</token>
-<token>System.Management.Automation,</token>
-<token>3.0.0.0]],new</token>
-<token>System.Management.Automation.PSDataCollection`1[[T</token>
-<token>-&gt;</token>
-</entry>
-<entry count="1">
+<entry count="108">
 <token>System.Management.Automation.SwitchParameter,ToBool</token>
 <token>System.Management.Automation.ErrorRecord,new</token>
-</entry>
-<entry count="63">
-<token>System.Management.Automation.PowerShell,Invoke</token>
-<token>System.Management.Automation.PSDataCollection`1[[T</token>
 </entry>
 <entry count="32">
 <token>System.Management.Automation.PowerShell,Create</token>
@@ -178,23 +180,40 @@
 <token>System.Management.Automation.PowerShell,Invoke</token>
 <token>System.Management.Automation.RuntimeException,new</token>
 </entry>
+<entry count="162">
+<token>System.Management.Automation.ErrorRecord,new</token>
+<token>System.Management.Automation.PSArgumentException,new</token>
+<token>System.Management.Automation.PSArgumentException,new</token>
+<token>System.Management.Automation.ErrorRecord,new</token>
+<token>System.Management.Automation.PSArgumentException,new</token>
+</entry>
 <entry count="8">
 <token>System.Management.Automation.Cmdlet,ShouldContinue</token>
 <token>System.Management.Automation.Cmdlet,WriteVerbose</token>
 <token>System.Management.Automation.Cmdlet,WriteDebug</token>
 <token>System.Management.Automation.Cmdlet,WriteObject</token>
 </entry>
-<entry count="8">
+<entry count="64">
 <token>System.Management.Automation.PSCmdlet,GetResolvedProviderPathFromPSPath</token>
 <token>System.Management.Automation.PSCmdlet,GetResolvedProviderPathFromPSPath</token>
 <token>System.Management.Automation.JobDefinition,new</token>
 <token>System.Management.Automation.JobInvocationInfo,new</token>
 </entry>
-<entry count="32">
+<entry count="1408">
 <token>System.Management.Automation.PowerShell,AddParameter</token>
 <token>System.Management.Automation.PowerShell,AddParameter</token>
 <token>System.Management.Automation.PowerShell,Invoke</token>
 <token>System.Management.Automation.PowerShell,Create</token>
+</entry>
+<entry count="4">
+<token>System.Management.Automation.PowerShell,Invoke</token>
+<token>System.Management.Automation.PSCommand,Clone</token>
+<token>System.Management.Automation.PowerShell,AddScript</token>
+</entry>
+<entry count="76">
+<token>System.Management.Automation.ValidateSetAttribute,new</token>
+<token>System.Management.Automation.ValidateLengthAttribute,new</token>
+<token>System.Management.Automation.ValidateLengthAttribute,new</token>
 </entry>
 <entry count="2">
 <token>System.Management.Automation.PowerShell,Create</token>
@@ -203,7 +222,14 @@
 <token>System.Management.Automation.PowerShell,AddScript</token>
 <token>System.Management.Automation.PowerShell,AddScript</token>
 </entry>
-<entry count="143">
+<entry count="6">
+<token>System.Management.Automation.PSNoteProperty,new</token>
+<token>System.Management.Automation.PSMemberInfoCollection,Add</token>
+<token>System.Management.Automation.PSNoteProperty,new</token>
+<token>System.Management.Automation.PSMemberInfoCollection,Add</token>
+<token>System.Management.Automation.PSNoteProperty,new</token>
+</entry>
+<entry count="3603">
 <token>System.Management.Automation.PowerShell,AddCommand</token>
 <token>System.Management.Automation.PowerShell,AddParameter</token>
 </entry>
@@ -213,26 +239,26 @@
 <token>System.Management.Automation.ErrorRecord,new</token>
 <token>System.Management.Automation.PowerShell,AddParameter</token>
 </entry>
-<entry count="3">
+<entry count="9">
 <token>System.Management.Automation.PowerShell,AddParameter</token>
 <token>System.Management.Automation.PSCommand,Clear</token>
 <token>System.Management.Automation.PSCommand,AddCommand</token>
 </entry>
-<entry count="18">
+<entry count="706">
 <token>System.Management.Automation.PowerShell,AddCommand</token>
 <token>System.Management.Automation.PowerShell,AddParameter</token>
 <token>System.Management.Automation.PowerShell,Invoke</token>
 <token>System.Management.Automation.PowerShell,Create</token>
 </entry>
-<entry count="415">
-<token>System.Management.Automation.PowerShell,AddScript</token>
-<token>System.Management.Automation.PowerShell,AddScript</token>
-<token>System.Management.Automation.PowerShell,AddScript</token>
+<entry count="4036">
+<token>System.Management.Automation.PSArgumentException,new</token>
+<token>System.Management.Automation.PSArgumentException,new</token>
+<token>System.Management.Automation.PSArgumentException,new</token>
 </entry>
-<entry count="160">
-<token>System.Management.Automation.PSArgumentException,new</token>
-<token>System.Management.Automation.PSArgumentException,new</token>
-<token>System.Management.Automation.PSArgumentException,new</token>
+<entry count="77703">
+<token>System.Management.Automation.PowerShell,AddScript</token>
+<token>System.Management.Automation.PowerShell,AddScript</token>
+<token>System.Management.Automation.PowerShell,AddScript</token>
 </entry>
 <entry count="25">
 <token>System.Management.Automation.ICommandRuntime,WriteObject</token>
@@ -244,22 +270,28 @@
 <token>System.Management.Automation.Cmdlet,WriteObject</token>
 <token>System.Management.Automation.PSVariableIntrinsics,Set</token>
 </entry>
+<entry count="3888">
+<token>System.Management.Automation.PSArgumentException,new</token>
+<token>System.Management.Automation.PSArgumentException,new</token>
+<token>System.Management.Automation.ErrorRecord,new</token>
+<token>System.Management.Automation.PSArgumentException,new</token>
+</entry>
 <entry count="3">
 <token>System.Management.Automation.Cmdlet,WriteVerbose</token>
 <token>System.Management.Automation.WildcardPattern,new</token>
 </entry>
-<entry count="49">
+<entry count="2625">
 <token>System.Management.Automation.PowerShell,Invoke</token>
 <token>System.Management.Automation.PowerShell,Create</token>
 <token>System.Management.Automation.PowerShell,AddCommand</token>
 <token>System.Management.Automation.PowerShell,AddParameter</token>
 </entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>System.Management.Automation.ErrorRecord,</token>
-<token>System.Management.Automation,</token>
-<token>3.0.0.0]],new</token>
-<token>System.Management.Automation.PSDataCollection`1[[T</token>
+<entry count="512">
+<token>System.Management.Automation.PowerShell,AddCommand</token>
+<token>System.Management.Automation.PowerShell,Invoke</token>
+<token>System.Management.Automation.PowerShell,Create</token>
+<token>System.Management.Automation.PowerShell,AddCommand</token>
+<token>System.Management.Automation.PowerShell,AddParameter</token>
 </entry>
 <entry count="11">
 <token>System.Management.Automation.Cmdlet,WriteDebug</token>
@@ -269,24 +301,12 @@
 <token>System.Management.Automation.PowerShell,Create</token>
 <token>System.Management.Automation.PowerShell,Create</token>
 </entry>
-<entry count="6">
+<entry count="10">
 <token>System.Management.Automation.PowerShell,Create</token>
 <token>System.Management.Automation.PowerShell,AddCommand</token>
 <token>System.Management.Automation.PowerShell,AddCommand</token>
 <token>System.Management.Automation.PowerShell,AddArgument</token>
 <token>System.Management.Automation.PowerShell,Invoke</token>
-</entry>
-<entry count="128">
-<token>System.Management.Automation.PSDataCollection`1[[T</token>
-<token>-&gt;</token>
-<token>System.Management.Automation.ErrorRecord,</token>
-<token>System.Management.Automation,</token>
-</entry>
-<entry count="9">
-<token>System.Management.Automation.PSPropertyInfo,</token>
-<token>System.Management.Automation,</token>
-<token>3.0.0.0]],Add</token>
-<token>System.Management.Automation.PSNoteProperty,new</token>
 </entry>
 <entry count="2">
 <token>System.Management.Automation.Cmdlet,WriteObject</token>
@@ -302,10 +322,6 @@
 <token>System.Management.Automation.PSCommand,Clear</token>
 <token>System.Management.Automation.PowerShell,AddCommand</token>
 </entry>
-<entry count="128">
-<token>-&gt;</token>
-<token>System.Management.Automation.ErrorRecord,</token>
-</entry>
 <entry count="33">
 <token>System.Management.Automation.PowerShell,AddScript</token>
 <token>System.Management.Automation.PowerShell,Invoke</token>
@@ -313,39 +329,25 @@
 <token>System.Management.Automation.Cmdlet,WriteVerbose</token>
 <token>System.Management.Automation.Cmdlet,WriteWarning</token>
 </entry>
-<entry count="9">
-<token>-&gt;</token>
-<token>System.Management.Automation.PSPropertyInfo,</token>
-<token>System.Management.Automation,</token>
-<token>3.0.0.0]],Add</token>
-<token>System.Management.Automation.PSNoteProperty,new</token>
-</entry>
 <entry count="33">
 <token>System.Management.Automation.PowerShell,AddScript</token>
 <token>System.Management.Automation.PowerShell,Invoke</token>
 <token>System.Management.Automation.Cmdlet,WriteError</token>
 <token>System.Management.Automation.Cmdlet,WriteVerbose</token>
 </entry>
-<entry count="2">
+<entry count="4">
 <token>System.Management.Automation.Cmdlet,WriteVerbose</token>
 <token>System.Management.Automation.Cmdlet,WriteVerbose</token>
 <token>System.Management.Automation.Cmdlet,WriteVerbose</token>
 </entry>
-<entry count="4">
+<entry count="2">
+<token>System.Management.Automation.PowerShell,AddScript</token>
+<token>System.Management.Automation.PSDataCollection,new</token>
+</entry>
+<entry count="16">
 <token>System.Management.Automation.PowerShell,AddCommand</token>
 <token>System.Management.Automation.PowerShell,BeginInvoke</token>
 <token>System.Management.Automation.PowerShell,EndInvoke</token>
-</entry>
-<entry count="2">
-<token>System.Management.Automation,</token>
-<token>3.0.0.0]],Add</token>
-<token>System.Management.Automation.Cmdlet,WriteObject</token>
-</entry>
-<entry count="11">
-<token>System.Management.Automation,</token>
-<token>3.0.0.0]],Add</token>
-<token>System.Management.Automation.PSNoteProperty,new</token>
-<token>System.Management.Automation.PSMemberInfoCollection`1[[T</token>
 </entry>
 <entry count="1">
 <token>System.Management.Automation.Cmdlet,WriteObject</token>
@@ -370,16 +372,16 @@
 <token>System.Management.Automation.PowerShell,Invoke</token>
 <token>System.Management.Automation.LanguagePrimitives,ConvertTo</token>
 </entry>
-<entry count="34">
+<entry count="1410">
 <token>System.Management.Automation.PowerShell,Create</token>
 <token>System.Management.Automation.PowerShell,AddCommand</token>
 <token>System.Management.Automation.PowerShell,AddParameter</token>
 <token>System.Management.Automation.PowerShell,AddParameter</token>
 </entry>
-<entry count="7">
-<token>System.Management.Automation.PSObject,</token>
-<token>System.Management.Automation,</token>
-<token>3.0.0.0]],new</token>
+<entry count="2">
+<token>System.Management.Automation.PowerShell,AddScript</token>
+<token>System.Management.Automation.PSDataCollection,new</token>
+<token>System.Management.Automation.PowerShell,BeginInvoke</token>
 </entry>
 <entry count="2">
 <token>System.Management.Automation.ScriptBlock,Invoke</token>
@@ -400,18 +402,6 @@
 <token>System.Management.Automation.PowerShell,Invoke</token>
 <token>System.Management.Automation.Cmdlet,WriteError</token>
 </entry>
-<entry count="11">
-<token>3.0.0.0]],Add</token>
-<token>System.Management.Automation.PSNoteProperty,new</token>
-<token>System.Management.Automation.PSMemberInfoCollection`1[[T</token>
-<token>-&gt;</token>
-</entry>
-<entry count="2">
-<token>System.Management.Automation,</token>
-<token>3.0.0.0],[TOutput</token>
-<token>-&gt;</token>
-<token>System.Management.Automation.PSObject,</token>
-</entry>
 <entry count="4">
 <token>System.Management.Automation.Cmdlet,ShouldProcess</token>
 <token>System.Management.Automation.Cmdlet,WriteWarning</token>
@@ -427,7 +417,7 @@
 <token>System.Management.Automation.RunspaceInvoke,Invoke</token>
 <token>System.Management.Automation.PSObject,new</token>
 </entry>
-<entry count="26">
+<entry count="32">
 <token>System.Management.Automation.PSCommand,Clear</token>
 <token>System.Management.Automation.PowerShell,AddCommand</token>
 <token>System.Management.Automation.PowerShell,AddParameter</token>
@@ -437,15 +427,19 @@
 <token>System.Management.Automation.PowerShell,Invoke</token>
 <token>System.Management.Automation.Cmdlet,WriteError</token>
 </entry>
-<entry count="4">
+<entry count="16">
 <token>System.Management.Automation.PowerShell,AddCommand</token>
 <token>System.Management.Automation.PowerShell,BeginInvoke</token>
 <token>System.Management.Automation.PowerShell,EndInvoke</token>
 <token>System.Management.Automation.PowerShell,EndInvoke</token>
 </entry>
-<entry count="8">
+<entry count="511">
 <token>System.Management.Automation.ProgressRecord,new</token>
 <token>System.Management.Automation.ProgressRecord,new</token>
+</entry>
+<entry count="2">
+<token>System.Management.Automation.PowerShellStreams,new</token>
+<token>System.Management.Automation.PSDataCollection,new</token>
 </entry>
 <entry count="7">
 <token>System.Management.Automation.PowerShell,Invoke</token>
@@ -454,11 +448,11 @@
 <token>System.Management.Automation.PowerShell,AddParameter</token>
 </entry>
 <entry count="5">
-<token>System.Management.Automation.PSDataCollection`1[[T</token>
-<token>-&gt;</token>
-<token>System.Management.Automation.PSObject,</token>
-<token>System.Management.Automation,</token>
-<token>3.0.0.0]],new</token>
+<token>System.Management.Automation.PSObject,new</token>
+<token>System.Management.Automation.PSNoteProperty,new</token>
+<token>System.Management.Automation.PSMemberInfoCollection,Add</token>
+<token>System.Management.Automation.PSNoteProperty,new</token>
+<token>System.Management.Automation.PSMemberInfoCollection,Add</token>
 </entry>
 <entry count="2">
 <token>System.Management.Automation.RunspaceInvoke,new</token>
@@ -466,15 +460,13 @@
 <token>System.Management.Automation.RunspaceInvoke,Invoke</token>
 <token>System.Management.Automation.PSObject,new</token>
 </entry>
-<entry count="20">
+<entry count="68">
 <token>System.Management.Automation.ValidationMetadataException,new</token>
 <token>System.Management.Automation.ValidationMetadataException,new</token>
 </entry>
 <entry count="2">
-<token>-&gt;</token>
-<token>System.Management.Automation.PSObject,</token>
-<token>System.Management.Automation,</token>
-<token>3.0.0.0]],Complete</token>
+<token>System.Management.Automation.PSDataCollection,new</token>
+<token>System.Management.Automation.PowerShell,BeginInvoke</token>
 </entry>
 <entry count="62">
 <token>System.Management.Automation.WildcardPattern,new</token>
@@ -496,7 +488,7 @@
 <token>System.Management.Automation.PSDataStreams,ClearStreams</token>
 <token>System.Management.Automation.PSDataStreams,ClearStreams</token>
 </entry>
-<entry count="6">
+<entry count="10">
 <token>System.Management.Automation.PowerShell,AddCommand</token>
 <token>System.Management.Automation.PowerShell,AddArgument</token>
 <token>System.Management.Automation.PowerShell,Invoke</token>
@@ -522,23 +514,21 @@
 <token>System.Management.Automation.Cmdlet,ShouldContinue</token>
 <token>System.Management.Automation.Cmdlet,ShouldContinue</token>
 </entry>
-<entry count="161">
+<entry count="54432">
 <token>System.Management.Automation.ErrorRecord,new</token>
 <token>System.Management.Automation.PSArgumentException,new</token>
 <token>System.Management.Automation.ErrorRecord,new</token>
 <token>System.Management.Automation.PSArgumentException,new</token>
 <token>System.Management.Automation.ErrorRecord,new</token>
-</entry>
-<entry count="2">
-<token>System.Management.Automation.PSMemberInfo,</token>
-<token>System.Management.Automation,</token>
-<token>3.0.0.0]],Add</token>
-<token>System.Management.Automation.Cmdlet,WriteObject</token>
 </entry>
 <entry count="1">
 <token>System.Management.Automation.PowerShell,AddScript</token>
 <token>System.Management.Automation.PowerShell,Invoke</token>
 <token>System.Management.Automation.PSObject,ToString</token>
+</entry>
+<entry count="2">
+<token>System.Management.Automation.PSMemberInfoCollection,Add</token>
+<token>System.Management.Automation.Cmdlet,WriteObject</token>
 </entry>
 <entry count="1">
 <token>System.Management.Automation.Cmdlet,WriteVerbose</token>
@@ -549,66 +539,31 @@
 <token>System.Management.Automation.RunspaceInvoke,Invoke</token>
 <token>System.Management.Automation.RunspaceInvoke,Invoke</token>
 </entry>
-<entry count="1">
-<token>System.Management.Automation.PSDataCollection`1[[T</token>
-<token>-&gt;</token>
-<token>System.Management.Automation.DebugRecord,</token>
-<token>System.Management.Automation,</token>
-<token>3.0.0.0]],new</token>
-</entry>
 <entry count="4">
 <token>System.Management.Automation.ICommandRuntime,WriteObject</token>
 <token>System.Management.Automation.ICommandRuntime,ShouldProcess</token>
 <token>System.Management.Automation.ICommandRuntime,WriteObject</token>
 </entry>
-<entry count="1">
-<token>System.Management.Automation.DebugRecord,</token>
-<token>System.Management.Automation,</token>
-<token>3.0.0.0]],new</token>
-<token>System.Management.Automation.PSDataCollection`1[[T</token>
-<token>-&gt;</token>
-</entry>
 <entry count="19">
 <token>System.Management.Automation.PowerShell,Invoke</token>
 <token>System.Management.Automation.PowerShell,Dispose</token>
 </entry>
-<entry count="1">
-<token>System.Management.Automation.ErrorRecord,</token>
-<token>System.Management.Automation,</token>
-<token>3.0.0.0]],new</token>
-<token>System.Management.Automation.PSDataCollection`1[[T</token>
-<token>-&gt;</token>
-</entry>
-<entry count="26">
+<entry count="4638">
 <token>System.Management.Automation.PSArgumentNullException,new</token>
 <token>System.Management.Automation.PSArgumentNullException,new</token>
 <token>System.Management.Automation.PSArgumentNullException,new</token>
 </entry>
-<entry count="1">
-<token>System.Management.Automation.PSDataCollection`1[[T</token>
-<token>-&gt;</token>
-<token>System.Management.Automation.DebugRecord,</token>
-<token>System.Management.Automation,</token>
+<entry count="30">
+<token>System.Management.Automation.SwitchParameter,ToBool</token>
+<token>System.Management.Automation.ErrorRecord,new</token>
+<token>System.Management.Automation.SwitchParameter,ToBool</token>
+<token>System.Management.Automation.SwitchParameter,ToBool</token>
 </entry>
-<entry count="4">
+<entry count="16">
 <token>System.Management.Automation.PowerShell,BeginInvoke</token>
 <token>System.Management.Automation.PowerShell,Create</token>
 </entry>
-<entry count="1">
-<token>System.Management.Automation.PSDataCollection`1[[T</token>
-<token>-&gt;</token>
-<token>System.Management.Automation.PSObject,</token>
-<token>System.Management.Automation,</token>
-<token>3.0.0.0]],ReadAll</token>
-</entry>
-<entry count="2">
-<token>System.Management.Automation.ScriptBlock,Invoke</token>
-<token>System.Management.Automation.PSObject,new</token>
-<token>System.Management.Automation.PSNoteProperty,new</token>
-<token>System.Management.Automation.PSMemberInfoCollection`1[[T</token>
-<token>-&gt;</token>
-</entry>
-<entry count="26">
+<entry count="34">
 <token>System.Management.Automation.Cmdlet,WriteDebug</token>
 <token>System.Management.Automation.Cmdlet,WriteObject</token>
 </entry>
@@ -617,7 +572,7 @@
 <token>System.Management.Automation.PSCommand,new</token>
 <token>System.Management.Automation.PSCommand,AddCommand</token>
 </entry>
-<entry count="5569">
+<entry count="1304790">
 <token>System.Management.Automation.PSInvalidOperationException,new</token>
 <token>System.Management.Automation.PSInvalidOperationException,new</token>
 </entry>
@@ -632,30 +587,16 @@
 <token>System.Management.Automation.PowerShell,AddParameter</token>
 <token>System.Management.Automation.PowerShell,AddParameter</token>
 </entry>
-<entry count="1">
-<token>System.Management.Automation.ErrorRecord,new</token>
-<token>System.Management.Automation.PSDataCollection`1[[T</token>
-</entry>
 <entry count="4">
 <token>System.Management.Automation.Cmdlet,WriteVerbose</token>
 <token>System.Management.Automation.ContentCmdletProviderIntrinsics,GetReader</token>
 <token>System.Management.Automation.Cmdlet,WriteDebug</token>
 </entry>
-<entry count="141">
-<token>System.Management.Automation.PSDataCollection`1[[T</token>
-<token>-&gt;</token>
-</entry>
-<entry count="1">
-<token>System.Management.Automation.ErrorRecord,</token>
-<token>System.Management.Automation,</token>
-<token>3.0.0.0]],new</token>
-<token>System.Management.Automation.PSDataCollection`1[[T</token>
-</entry>
 <entry count="2">
 <token>System.Management.Automation.Cmdlet,WriteDebug</token>
 <token>System.Management.Automation.PSVariableIntrinsics,Set</token>
 </entry>
-<entry count="488">
+<entry count="85520">
 <token>System.Management.Automation.PowerShell,AddScript</token>
 <token>System.Management.Automation.PowerShell,AddScript</token>
 </entry>
@@ -667,7 +608,7 @@
 <token>System.Management.Automation.PowerShell,Create</token>
 <token>System.Management.Automation.PowerShell,AddParameter</token>
 </entry>
-<entry count="32">
+<entry count="1408">
 <token>System.Management.Automation.PowerShell,AddParameter</token>
 <token>System.Management.Automation.PowerShell,AddParameter</token>
 <token>System.Management.Automation.PowerShell,Invoke</token>
@@ -681,32 +622,16 @@
 <token>System.Management.Automation.PowerShell,AddCommand</token>
 <token>System.Management.Automation.PowerShell,AddParameter</token>
 </entry>
-<entry count="4">
-<token>System.Management.Automation.PSNoteProperty,new</token>
-<token>System.Management.Automation.PSMemberInfoCollection`1[[T</token>
-<token>-&gt;</token>
-<token>System.Management.Automation.PSMemberInfo,</token>
-<token>System.Management.Automation,</token>
-</entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>System.Management.Automation.VerboseRecord,</token>
-<token>System.Management.Automation,</token>
-</entry>
-<entry count="144">
-<token>System.Management.Automation.PSNoteProperty,new</token>
-<token>System.Management.Automation.PSMemberInfoCollection`1[[T</token>
+<entry count="2">
+<token>System.Management.Automation.ErrorRecord,new</token>
+<token>System.Management.Automation.Cmdlet,ThrowTerminatingError</token>
+<token>System.Management.Automation.Cmdlet,WriteDebug</token>
+<token>System.Management.Automation.ErrorRecord,new</token>
 </entry>
 <entry count="2">
 <token>System.Management.Automation.ICommandRuntime,ShouldProcess</token>
 <token>System.Management.Automation.ICommandRuntime,ShouldContinue</token>
 <token>System.Management.Automation.ICommandRuntime,WriteObject</token>
-</entry>
-<entry count="1">
-<token>3.0.0.0]],new</token>
-<token>System.Management.Automation.PSDataCollection`1[[T</token>
-<token>-&gt;</token>
-<token>System.Management.Automation.WarningRecord,</token>
 </entry>
 <entry count="1">
 <token>System.Management.Automation.Job,SetJobState</token>
@@ -723,16 +648,10 @@
 <token>System.Management.Automation.Cmdlet,TransactionAvailable</token>
 <token>System.Management.Automation.Cmdlet,WriteObject</token>
 </entry>
-<entry count="4">
-<token>-&gt;</token>
-<token>System.Management.Automation.PSMemberInfo,</token>
-<token>System.Management.Automation,</token>
-<token>3.0.0.0]],Add</token>
-</entry>
-<entry count="9">
-<token>3.0.0.0]],new</token>
-<token>System.Management.Automation.PSDataCollection`1[[T</token>
-<token>-&gt;</token>
+<entry count="76">
+<token>System.Management.Automation.ParameterAttribute,new</token>
+<token>System.Management.Automation.ValidateLengthAttribute,new</token>
+<token>System.Management.Automation.ValidateLengthAttribute,new</token>
 </entry>
 <entry count="6">
 <token>System.Management.Automation.PSCmdlet,GetVariableValue</token>
@@ -754,7 +673,7 @@
 <token>System.Management.Automation.ICommandRuntime,ShouldProcess</token>
 <token>System.Management.Automation.ICommandRuntime,WriteObject</token>
 </entry>
-<entry count="560">
+<entry count="3888">
 <token>System.Management.Automation.PSArgumentException,new</token>
 <token>System.Management.Automation.ErrorRecord,new</token>
 <token>System.Management.Automation.PSArgumentException,new</token>
@@ -769,16 +688,16 @@
 <token>System.Management.Automation.Cmdlet,ShouldContinue</token>
 <token>System.Management.Automation.Cmdlet,WriteVerbose</token>
 </entry>
-<entry count="4">
+<entry count="24">
 <token>System.Management.Automation.ValidationMetadataException,new</token>
 <token>System.Management.Automation.ValidationMetadataException,new</token>
 <token>System.Management.Automation.ValidationMetadataException,new</token>
 </entry>
-<entry count="5">
-<token>3.0.0.0]],new</token>
-<token>System.Management.Automation.PSDataCollection`1[[T</token>
-<token>-&gt;</token>
-<token>System.Management.Automation.PSObject,</token>
+<entry count="4">
+<token>System.Management.Automation.Cmdlet,WriteDebug</token>
+<token>System.Management.Automation.ErrorRecord,new</token>
+<token>System.Management.Automation.Cmdlet,ThrowTerminatingError</token>
+<token>System.Management.Automation.Cmdlet,WriteObject</token>
 </entry>
 <entry count="4">
 <token>System.Management.Automation.PSObject,AsPSObject</token>
@@ -786,20 +705,20 @@
 <token>System.Management.Automation.PSObject,AsPSObject</token>
 <token>System.Management.Automation.PSObject,ToString</token>
 </entry>
-<entry count="1">
-<token>System.Management.Automation.PSDataCollection`1[[T</token>
-<token>-&gt;</token>
-<token>System.Management.Automation.VerboseRecord,</token>
-<token>System.Management.Automation,</token>
+<entry count="76">
+<token>System.Management.Automation.ParameterAttribute,new</token>
+<token>System.Management.Automation.ValidateSetAttribute,new</token>
+<token>System.Management.Automation.ValidateLengthAttribute,new</token>
+<token>System.Management.Automation.ValidateLengthAttribute,new</token>
 </entry>
-<entry count="31">
-<token>System.Management.Automation.PowerShell,Create</token>
-<token>System.Management.Automation.PowerShell,AddScript</token>
-<token>System.Management.Automation.PowerShell,Invoke</token>
-<token>System.Management.Automation.RuntimeException,new</token>
-<token>System.Management.Automation.PSDataCollection`1[[T</token>
+<entry count="2">
+<token>System.Management.Automation.PSDataCollection,new</token>
+<token>System.Management.Automation.PSDataCollection,new</token>
+<token>System.Management.Automation.PSDataCollection,new</token>
+<token>System.Management.Automation.PSDataCollection,new</token>
+<token>System.Management.Automation.PSDataCollection,new</token>
 </entry>
-<entry count="320">
+<entry count="162">
 <token>System.Management.Automation.ErrorRecord,new</token>
 <token>System.Management.Automation.PSArgumentException,new</token>
 <token>System.Management.Automation.ErrorRecord,new</token>
@@ -811,12 +730,10 @@
 <token>System.Management.Automation.PowerShell,Invoke</token>
 <token>System.Management.Automation.RuntimeException,new</token>
 </entry>
-<entry count="2">
-<token>System.Management.Automation.PSObject,</token>
-<token>System.Management.Automation,</token>
-<token>3.0.0.0],[TOutput</token>
-<token>-&gt;</token>
-<token>System.Management.Automation.PSObject,</token>
+<entry count="1152">
+<token>System.Management.Automation.PathIntrinsics,GetUnresolvedProviderPathFromPSPath</token>
+<token>System.Management.Automation.PathIntrinsics,GetUnresolvedProviderPathFromPSPath</token>
+<token>System.Management.Automation.PathIntrinsics,GetUnresolvedProviderPathFromPSPath</token>
 </entry>
 <entry count="3">
 <token>System.Management.Automation.PowerShell,AddCommand</token>
@@ -825,7 +742,7 @@
 <token>System.Management.Automation.PowerShell,AddParameter</token>
 <token>System.Management.Automation.PowerShell,Invoke</token>
 </entry>
-<entry count="1">
+<entry count="60">
 <token>System.Management.Automation.SwitchParameter,ToBool</token>
 <token>System.Management.Automation.SwitchParameter,ToBool</token>
 <token>System.Management.Automation.ErrorRecord,new</token>
@@ -836,39 +753,20 @@
 <token>System.Management.Automation.PowerShell,Invoke</token>
 <token>System.Management.Automation.PSCommand,Clear</token>
 </entry>
-<entry count="144">
-<token>System.Management.Automation.PSNoteProperty,new</token>
-<token>System.Management.Automation.PSMemberInfoCollection`1[[T</token>
-<token>-&gt;</token>
-</entry>
 <entry count="6">
 <token>System.Management.Automation.PSCommand,AddParameter</token>
 <token>System.Management.Automation.PSCommand,AddParameter</token>
 <token>System.Management.Automation.PSCommand,AddParameter</token>
 <token>System.Management.Automation.PSCommand,new</token>
 </entry>
-<entry count="12">
-<token>System.Management.Automation,</token>
-<token>3.0.0.0]],new</token>
-</entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>System.Management.Automation.ProgressRecord,</token>
-<token>System.Management.Automation,</token>
-<token>3.0.0.0]],new</token>
-</entry>
 <entry count="5">
 <token>System.Management.Automation.PowerShell,AddParameter</token>
 <token>System.Management.Automation.PowerShell,AddParameter</token>
 <token>System.Management.Automation.PSCommand,Clear</token>
 </entry>
-<entry count="10">
+<entry count="34">
 <token>System.Management.Automation.PowerShell,AddCommand</token>
 <token>System.Management.Automation.PowerShell,BeginInvoke</token>
-</entry>
-<entry count="1">
-<token>System.Management.Automation,</token>
-<token>3.0.0.0]],ReadAll</token>
 </entry>
 <entry count="1">
 <token>System.Management.Automation.PowerShell,AddScript</token>
@@ -877,7 +775,18 @@
 <token>System.Management.Automation.PowerShell,Invoke</token>
 <token>System.Management.Automation.PSObject,ToString</token>
 </entry>
-<entry count="8">
+<entry count="2">
+<token>System.Management.Automation.PowerShellStreams,new</token>
+<token>System.Management.Automation.PSDataCollection,new</token>
+<token>System.Management.Automation.PSDataCollection,Complete</token>
+</entry>
+<entry count="1">
+<token>System.Management.Automation.PowerShellStreams,new</token>
+<token>System.Management.Automation.PSDataCollection,new</token>
+<token>System.Management.Automation.PSDataCollection,Complete</token>
+<token>System.Management.Automation.PSObject,AsPSObject</token>
+</entry>
+<entry count="64">
 <token>System.Management.Automation.PSCmdlet,GetResolvedProviderPathFromPSPath</token>
 <token>System.Management.Automation.PSCmdlet,GetResolvedProviderPathFromPSPath</token>
 <token>System.Management.Automation.JobDefinition,new</token>
@@ -890,22 +799,25 @@
 <token>System.Management.Automation.PowerShell,AddParameters</token>
 <token>System.Management.Automation.PowerShell,Invoke</token>
 </entry>
-<entry count="140">
-<token>System.Management.Automation.PSMemberInfoCollection`1[[T</token>
-<token>-&gt;</token>
-<token>System.Management.Automation.PSPropertyInfo,</token>
-<token>System.Management.Automation,</token>
+<entry count="1944">
+<token>System.Management.Automation.PSArgumentException,new</token>
+<token>System.Management.Automation.ErrorRecord,new</token>
+<token>System.Management.Automation.PSArgumentException,new</token>
+<token>System.Management.Automation.PSArgumentException,new</token>
+<token>System.Management.Automation.ErrorRecord,new</token>
 </entry>
-<entry count="140">
-<token>System.Management.Automation.PSPropertyInfo,</token>
-<token>System.Management.Automation,</token>
-<token>3.0.0.0]],Add</token>
+<entry count="4">
+<token>System.Management.Automation.PowerShell,AddScript</token>
+<token>System.Management.Automation.PowerShell,Invoke</token>
+<token>System.Management.Automation.PSCommand,Clone</token>
+<token>System.Management.Automation.PowerShell,AddScript</token>
+<token>System.Management.Automation.PowerShell,Invoke</token>
 </entry>
 <entry count="4">
 <token>System.Management.Automation.LanguagePrimitives,Compare</token>
 <token>System.Management.Automation.PSObject,AsPSObject</token>
 </entry>
-<entry count="76">
+<entry count="228">
 <token>System.Management.Automation.ParameterAttribute,new</token>
 <token>System.Management.Automation.ValidateSetAttribute,new</token>
 <token>System.Management.Automation.ValidateLengthAttribute,new</token>
@@ -916,29 +828,10 @@
 <token>System.Management.Automation.PowerShell,AddCommand</token>
 <token>System.Management.Automation.PowerShell,Invoke</token>
 </entry>
-<entry count="15">
+<entry count="25">
 <token>System.Management.Automation.PowerShell,Create</token>
 <token>System.Management.Automation.PowerShell,AddCommand</token>
 <token>System.Management.Automation.PowerShell,AddCommand</token>
-</entry>
-<entry count="1">
-<token>3.0.0.0]],Complete</token>
-<token>System.Management.Automation.PSObject,AsPSObject</token>
-<token>System.Management.Automation.PSDataCollection`1[[T</token>
-<token>-&gt;</token>
-</entry>
-<entry count="2">
-<token>System.Management.Automation.PowerShellStreams`2[[TInput</token>
-<token>-&gt;</token>
-<token>System.Management.Automation.PSObject,</token>
-<token>System.Management.Automation,</token>
-</entry>
-<entry count="1">
-<token>System.Management.Automation.PSDataCollection`1[[T</token>
-<token>-&gt;</token>
-<token>System.Management.Automation.ErrorRecord,</token>
-<token>System.Management.Automation,</token>
-<token>3.0.0.0]],Add</token>
 </entry>
 <entry count="4">
 <token>System.Management.Automation.PSVariableIntrinsics,Set</token>
@@ -948,18 +841,12 @@
 <token>System.Management.Automation.ICommandRuntime,ShouldProcess</token>
 <token>System.Management.Automation.ICommandRuntime,ShouldContinue</token>
 </entry>
-<entry count="2">
-<token>System.Management.Automation.ScriptBlock,Invoke</token>
-<token>System.Management.Automation.PSObject,new</token>
+<entry count="6">
+<token>System.Management.Automation.PSMemberInfoCollection,Add</token>
 <token>System.Management.Automation.PSNoteProperty,new</token>
-<token>System.Management.Automation.PSMemberInfoCollection`1[[T</token>
-</entry>
-<entry count="2">
-<token>System.Management.Automation.PSMemberInfo,</token>
-<token>System.Management.Automation,</token>
-<token>3.0.0.0]],Add</token>
+<token>System.Management.Automation.PSMemberInfoCollection,Add</token>
 <token>System.Management.Automation.PSNoteProperty,new</token>
-<token>System.Management.Automation.PSMemberInfoCollection`1[[T</token>
+<token>System.Management.Automation.PSMemberInfoCollection,Add</token>
 </entry>
 <entry count="68">
 <token>System.Management.Automation.Cmdlet,ShouldContinue</token>
@@ -969,7 +856,11 @@
 <token>System.Management.Automation.PSDataStreams,ClearStreams</token>
 <token>System.Management.Automation.PSDataStreams,ClearStreams</token>
 </entry>
-<entry count="40">
+<entry count="1">
+<token>System.Management.Automation.ErrorRecord,new</token>
+<token>System.Management.Automation.PSDataCollection,Add</token>
+</entry>
+<entry count="58">
 <token>System.Management.Automation.PowerShell,Create</token>
 <token>System.Management.Automation.PowerShell,AddCommand</token>
 <token>System.Management.Automation.PowerShell,Invoke</token>
@@ -980,31 +871,34 @@
 <token>System.Management.Automation.PowerShell,AddCommand</token>
 <token>System.Management.Automation.PSCommand,AddParameter</token>
 </entry>
-<entry count="63">
-<token>System.Management.Automation.RuntimeException,new</token>
-<token>System.Management.Automation.PSDataCollection`1[[T</token>
-</entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>System.Management.Automation.DebugRecord,</token>
-<token>System.Management.Automation,</token>
-</entry>
 <entry count="4">
 <token>System.Management.Automation.Cmdlet,WriteWarning</token>
 <token>System.Management.Automation.Cmdlet,WriteVerbose</token>
 <token>System.Management.Automation.Cmdlet,WriteDebug</token>
 </entry>
+<entry count="2">
+<token>System.Management.Automation.PowerShell,Create</token>
+<token>System.Management.Automation.PowerShell,AddScript</token>
+<token>System.Management.Automation.PSDataCollection,new</token>
+</entry>
 <entry count="4">
 <token>System.Management.Automation.ContentCmdletProviderIntrinsics,GetReader</token>
 <token>System.Management.Automation.PSVariableIntrinsics,Set</token>
 </entry>
-<entry count="4">
+<entry count="16">
 <token>System.Management.Automation.PowerShell,BeginInvoke</token>
 <token>System.Management.Automation.PowerShell,Create</token>
 <token>System.Management.Automation.PowerShell,AddCommand</token>
 <token>System.Management.Automation.PowerShell,BeginInvoke</token>
 </entry>
-<entry count="638">
+<entry count="3">
+<token>System.Management.Automation.Cmdlet,WriteDebug</token>
+<token>System.Management.Automation.Cmdlet,WriteDebug</token>
+<token>System.Management.Automation.ErrorRecord,new</token>
+<token>System.Management.Automation.Cmdlet,ThrowTerminatingError</token>
+<token>System.Management.Automation.Cmdlet,WriteObject</token>
+</entry>
+<entry count="942">
 <token>System.Management.Automation.RuntimeDefinedParameter,new</token>
 <token>System.Management.Automation.ParameterAttribute,new</token>
 </entry>
@@ -1012,27 +906,26 @@
 <token>System.Management.Automation.LanguagePrimitives,GetEnumerable</token>
 <token>System.Management.Automation.LanguagePrimitives,GetEnumerable</token>
 </entry>
-<entry count="3">
+<entry count="9">
 <token>System.Management.Automation.PowerShell,AddParameter</token>
 <token>System.Management.Automation.PSCommand,Clear</token>
 <token>System.Management.Automation.PSCommand,AddCommand</token>
 <token>System.Management.Automation.PowerShell,AddParameter</token>
 <token>System.Management.Automation.PowerShell,AddParameter</token>
 </entry>
-<entry count="154">
+<entry count="18636">
 <token>System.Management.Automation.PSArgumentNullException,new</token>
 <token>System.Management.Automation.PSArgumentNullException,new</token>
-</entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>System.Management.Automation.WarningRecord,</token>
-<token>System.Management.Automation,</token>
-<token>3.0.0.0]],new</token>
 </entry>
 <entry count="6">
 <token>System.Management.Automation.Cmdlet,WriteDebug</token>
 <token>System.Management.Automation.Cmdlet,WriteVerbose</token>
 <token>System.Management.Automation.Cmdlet,WriteDebug</token>
+</entry>
+<entry count="6">
+<token>System.Management.Automation.Cmdlet,WriteDebug</token>
+<token>System.Management.Automation.Cmdlet,WriteDebug</token>
+<token>System.Management.Automation.ErrorRecord,new</token>
 </entry>
 <entry count="4">
 <token>System.Management.Automation.Cmdlet,WriteVerbose</token>
@@ -1045,9 +938,15 @@
 <token>System.Management.Automation.PowerShell,AddCommand</token>
 <token>System.Management.Automation.PowerShell,Invoke</token>
 </entry>
-<entry count="124">
+<entry count="1518">
 <token>System.Management.Automation.PowerShell,AddCommand</token>
 <token>System.Management.Automation.PowerShell,Invoke</token>
+</entry>
+<entry count="6">
+<token>System.Management.Automation.PSMemberInfoCollection,Add</token>
+<token>System.Management.Automation.PSNoteProperty,new</token>
+<token>System.Management.Automation.PSMemberInfoCollection,Add</token>
+<token>System.Management.Automation.PSNoteProperty,new</token>
 </entry>
 <entry count="3">
 <token>System.Management.Automation.PowerShell,AddParameter</token>
@@ -1056,17 +955,11 @@
 <token>System.Management.Automation.PowerShell,AddParameter</token>
 <token>System.Management.Automation.PowerShell,AddCommand</token>
 </entry>
-<entry count="1">
-<token>System.Management.Automation.ErrorRecord,new</token>
-<token>System.Management.Automation.PSDataCollection`1[[T</token>
-<token>-&gt;</token>
-<token>System.Management.Automation.ErrorRecord,</token>
+<entry count="144">
+<token>System.Management.Automation.PSNoteProperty,new</token>
+<token>System.Management.Automation.PSMemberInfoCollection,Add</token>
 </entry>
-<entry count="9">
-<token>3.0.0.0]],new</token>
-<token>System.Management.Automation.PSDataCollection`1[[T</token>
-</entry>
-<entry count="69">
+<entry count="1463">
 <token>System.Management.Automation.PowerShell,AddParameter</token>
 <token>System.Management.Automation.PowerShell,AddParameter</token>
 </entry>
@@ -1074,11 +967,7 @@
 <token>System.Management.Automation.ContentCmdletProviderIntrinsics,GetReader</token>
 <token>System.Management.Automation.Cmdlet,WriteDebug</token>
 </entry>
-<entry count="1">
-<token>3.0.0.0]],ReadAll</token>
-<token>System.Management.Automation.PSObject,ToString</token>
-</entry>
-<entry count="195">
+<entry count="3695">
 <token>System.Management.Automation.PowerShell,Create</token>
 <token>System.Management.Automation.PowerShell,AddCommand</token>
 </entry>
@@ -1094,25 +983,12 @@
 <token>System.Management.Automation.PowerShell,AddCommand</token>
 </entry>
 <entry count="1">
-<token>System.Management.Automation.PSDataCollection`1[[T</token>
-<token>-&gt;</token>
-<token>System.Management.Automation.WarningRecord,</token>
-<token>System.Management.Automation,</token>
-</entry>
-<entry count="1">
 <token>System.Management.Automation.PSCommand,Clear</token>
 <token>System.Management.Automation.PSCommand,Clear</token>
 <token>System.Management.Automation.PowerShell,AddCommand</token>
 <token>System.Management.Automation.PowerShell,AddParameter</token>
 </entry>
-<entry count="5">
-<token>System.Management.Automation.PSObject,</token>
-<token>System.Management.Automation,</token>
-<token>3.0.0.0]],new</token>
-<token>System.Management.Automation.PSDataCollection`1[[T</token>
-<token>-&gt;</token>
-</entry>
-<entry count="15">
+<entry count="25">
 <token>System.Management.Automation.PowerShell,AddCommand</token>
 <token>System.Management.Automation.PowerShell,AddCommand</token>
 </entry>
@@ -1120,63 +996,35 @@
 <token>System.Management.Automation.PowerShell,Create</token>
 <token>System.Management.Automation.PowerShell,Invoke</token>
 </entry>
-<entry count="1">
-<token>System.Management.Automation.PSObject,AsPSObject</token>
-<token>System.Management.Automation.PSDataCollection`1[[T</token>
-<token>-&gt;</token>
-<token>System.Management.Automation.PSObject,</token>
-<token>System.Management.Automation,</token>
-</entry>
 <entry count="2">
 <token>System.Management.Automation.Cmdlet,ShouldProcess</token>
 <token>System.Management.Automation.PSArgumentNullException,new</token>
-</entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>System.Management.Automation.VerboseRecord,</token>
 </entry>
 <entry count="3">
 <token>System.Management.Automation.PowerShell,Create</token>
 <token>System.Management.Automation.PowerShell,Dispose</token>
 </entry>
-<entry count="114">
+<entry count="18">
 <token>System.Management.Automation.Cmdlet,ShouldProcess</token>
 <token>System.Management.Automation.Cmdlet,ShouldContinue</token>
-</entry>
-<entry count="1">
-<token>System.Management.Automation.ErrorRecord,</token>
-<token>System.Management.Automation,</token>
-<token>3.0.0.0]],new</token>
-</entry>
-<entry count="1">
-<token>System.Management.Automation.PSDataCollection`1[[T</token>
-<token>-&gt;</token>
-<token>System.Management.Automation.VerboseRecord,</token>
-<token>System.Management.Automation,</token>
-<token>3.0.0.0]],new</token>
 </entry>
 <entry count="2">
 <token>System.Management.Automation.CommandMetadata,new</token>
 <token>System.Management.Automation.ProxyCommand,Create</token>
 </entry>
-<entry count="1">
-<token>System.Management.Automation.WarningRecord,</token>
-<token>System.Management.Automation,</token>
-</entry>
-<entry count="4">
-<token>System.Management.Automation.PSMemberInfo,</token>
-<token>System.Management.Automation,</token>
-</entry>
 <entry count="2">
-<token>3.0.0.0]],new</token>
-<token>System.Management.Automation.PowerShell,BeginInvoke</token>
+<token>System.Management.Automation.ScriptBlock,Invoke</token>
+<token>System.Management.Automation.PSObject,new</token>
+<token>System.Management.Automation.PSNoteProperty,new</token>
+<token>System.Management.Automation.PSMemberInfoCollection,Add</token>
+<token>System.Management.Automation.PSNoteProperty,new</token>
 </entry>
 <entry count="2">
 <token>System.Management.Automation.WildcardPattern,new</token>
 <token>System.Management.Automation.Cmdlet,WriteDebug</token>
 <token>System.Management.Automation.WildcardPattern,IsMatch</token>
 </entry>
-<entry count="3">
+<entry count="9">
 <token>System.Management.Automation.PSCommand,AddCommand</token>
 <token>System.Management.Automation.PowerShell,AddParameter</token>
 <token>System.Management.Automation.PowerShell,AddParameter</token>
@@ -1188,12 +1036,7 @@
 <token>System.Management.Automation.Cmdlet,WriteDebug</token>
 <token>System.Management.Automation.WildcardPattern,new</token>
 </entry>
-<entry count="1">
-<token>3.0.0.0]],Complete</token>
-<token>System.Management.Automation.PSObject,AsPSObject</token>
-<token>System.Management.Automation.PSDataCollection`1[[T</token>
-</entry>
-<entry count="32">
+<entry count="1408">
 <token>System.Management.Automation.PowerShell,AddCommand</token>
 <token>System.Management.Automation.PowerShell,AddParameter</token>
 <token>System.Management.Automation.PowerShell,AddCommand</token>
@@ -1203,19 +1046,14 @@
 <token>System.Management.Automation.SwitchParameter,ToBool</token>
 <token>System.Management.Automation.ICommandRuntime,WriteObject</token>
 </entry>
-<entry count="32">
+<entry count="1408">
 <token>System.Management.Automation.PowerShell,Create</token>
 <token>System.Management.Automation.PowerShell,AddCommand</token>
 <token>System.Management.Automation.PowerShell,AddParameter</token>
 <token>System.Management.Automation.PowerShell,AddCommand</token>
 <token>System.Management.Automation.PowerShell,Invoke</token>
 </entry>
-<entry count="140">
-<token>-&gt;</token>
-<token>System.Management.Automation.PSPropertyInfo,</token>
-<token>System.Management.Automation,</token>
-</entry>
-<entry count="1">
+<entry count="25">
 <token>System.Management.Automation.SwitchParameter,ToBool</token>
 <token>System.Management.Automation.SwitchParameter,ToBool</token>
 <token>System.Management.Automation.SwitchParameter,ToBool</token>
@@ -1231,7 +1069,7 @@
 <token>System.Management.Automation.Cmdlet,WriteVerbose</token>
 <token>System.Management.Automation.Cmdlet,WriteObject</token>
 </entry>
-<entry count="2">
+<entry count="4">
 <token>System.Management.Automation.PowerShell,AddArgument</token>
 <token>System.Management.Automation.PowerShell,Invoke</token>
 <token>System.Management.Automation.PSObject,ToString</token>
@@ -1252,29 +1090,12 @@
 <token>System.Management.Automation.RunspaceInvoke,Invoke</token>
 <token>System.Management.Automation.RunspaceInvoke,Invoke</token>
 </entry>
-<entry count="1">
-<token>System.Management.Automation.ErrorRecord,new</token>
-<token>System.Management.Automation.PSDataCollection`1[[T</token>
-<token>-&gt;</token>
-<token>System.Management.Automation.ErrorRecord,</token>
-<token>System.Management.Automation,</token>
-</entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>System.Management.Automation.PSObject,</token>
-<token>System.Management.Automation,</token>
-<token>3.0.0.0]],ReadAll</token>
-<token>System.Management.Automation.PSObject,ToString</token>
-</entry>
-<entry count="126">
-<token>System.Management.Automation.ErrorRecord,</token>
-<token>System.Management.Automation,</token>
-<token>3.0.0.0]],Clear</token>
-</entry>
-<entry count="1">
-<token>System.Management.Automation.PSDataCollection`1[[T</token>
-<token>-&gt;</token>
-<token>System.Management.Automation.ProgressRecord,</token>
+<entry count="512">
+<token>System.Management.Automation.PowerShell,AddCommand</token>
+<token>System.Management.Automation.PowerShell,AddParameter</token>
+<token>System.Management.Automation.PowerShell,AddCommand</token>
+<token>System.Management.Automation.PowerShell,Invoke</token>
+<token>System.Management.Automation.PowerShell,Create</token>
 </entry>
 <entry count="6">
 <token>System.Management.Automation.PowerShell,AddScript</token>
@@ -1292,38 +1113,29 @@
 <token>System.Management.Automation.PowerShell,AddCommand</token>
 <token>System.Management.Automation.PowerShell,AddParameter</token>
 </entry>
-<entry count="140">
-<token>System.Management.Automation.PSNoteProperty,new</token>
-<token>System.Management.Automation.PSMemberInfoCollection`1[[T</token>
-<token>-&gt;</token>
-<token>System.Management.Automation.PSPropertyInfo,</token>
+<entry count="6">
+<token>System.Management.Automation.SwitchParameter,ToBool</token>
+<token>System.Management.Automation.ErrorRecord,new</token>
+<token>System.Management.Automation.SwitchParameter,ToBool</token>
+<token>System.Management.Automation.ErrorRecord,new</token>
+<token>System.Management.Automation.SwitchParameter,ToBool</token>
 </entry>
-<entry count="2">
-<token>System.Management.Automation.PowerShell,Create</token>
-<token>System.Management.Automation.PowerShell,AddScript</token>
-<token>System.Management.Automation.PSDataCollection`1[[T</token>
-</entry>
-<entry count="4">
+<entry count="36">
 <token>System.Management.Automation.ApplicationFailedException,new</token>
 <token>System.Management.Automation.ErrorRecord,new</token>
 <token>System.Management.Automation.ApplicationFailedException,new</token>
 <token>System.Management.Automation.ErrorRecord,new</token>
-</entry>
-<entry count="1">
-<token>System.Management.Automation.PSObject,</token>
-<token>System.Management.Automation,</token>
-<token>3.0.0.0]],Add</token>
-</entry>
-<entry count="63">
-<token>System.Management.Automation.PowerShell,Invoke</token>
-<token>System.Management.Automation.RuntimeException,new</token>
-<token>System.Management.Automation.PSDataCollection`1[[T</token>
 </entry>
 <entry count="16">
 <token>System.Management.Automation.PowerShell,AddCommand</token>
 <token>System.Management.Automation.PowerShell,AddParameters</token>
 </entry>
-<entry count="4">
+<entry count="11">
+<token>System.Management.Automation.PSMemberInfoCollection,Add</token>
+<token>System.Management.Automation.PSNoteProperty,new</token>
+<token>System.Management.Automation.PSMemberInfoCollection,Add</token>
+</entry>
+<entry count="36">
 <token>System.Management.Automation.ApplicationFailedException,new</token>
 <token>System.Management.Automation.ErrorRecord,new</token>
 <token>System.Management.Automation.ApplicationFailedException,new</token>
@@ -1333,6 +1145,12 @@
 <token>System.Management.Automation.ICommandRuntime,ShouldProcess</token>
 <token>System.Management.Automation.ICommandRuntime,ShouldContinue</token>
 <token>System.Management.Automation.ICommandRuntime,WriteObject</token>
+</entry>
+<entry count="2">
+<token>System.Management.Automation.PSMemberInfoCollection,Add</token>
+<token>System.Management.Automation.PSNoteProperty,new</token>
+<token>System.Management.Automation.PSMemberInfoCollection,Add</token>
+<token>System.Management.Automation.Cmdlet,WriteObject</token>
 </entry>
 <entry count="4">
 <token>System.Management.Automation.PSObject,ToString</token>
@@ -1345,19 +1163,21 @@
 <token>System.Management.Automation.PowerShell,AddParameter</token>
 <token>System.Management.Automation.PowerShell,AddCommand</token>
 </entry>
-<entry count="40">
+<entry count="288">
 <token>System.Management.Automation.SwitchParameter,ToBool</token>
 <token>System.Management.Automation.SwitchParameter,ToBool</token>
 <token>System.Management.Automation.Cmdlet,WriteObject</token>
 </entry>
-<entry count="3">
+<entry count="9">
 <token>System.Management.Automation.PSCommand,Clear</token>
 <token>System.Management.Automation.PSCommand,AddCommand</token>
 </entry>
-<entry count="63">
-<token>System.Management.Automation.PowerShell,Invoke</token>
-<token>System.Management.Automation.PSDataCollection`1[[T</token>
-<token>-&gt;</token>
+<entry count="2">
+<token>System.Management.Automation.ErrorRecord,new</token>
+<token>System.Management.Automation.Cmdlet,ThrowTerminatingError</token>
+<token>System.Management.Automation.Cmdlet,WriteDebug</token>
+<token>System.Management.Automation.ErrorRecord,new</token>
+<token>System.Management.Automation.Cmdlet,ThrowTerminatingError</token>
 </entry>
 <entry count="4">
 <token>System.Management.Automation.PowerShell,AddParameter</token>
@@ -1388,27 +1208,14 @@
 <token>System.Management.Automation.PSCommand,Clear</token>
 <token>System.Management.Automation.PowerShell,AddCommand</token>
 </entry>
-<entry count="2">
+<entry count="16">
 <token>System.Management.Automation.Cmdlet,WriteDebug</token>
 <token>System.Management.Automation.ErrorRecord,new</token>
 <token>System.Management.Automation.Cmdlet,ThrowTerminatingError</token>
 </entry>
-<entry count="19">
+<entry count="67">
 <token>System.Management.Automation.ProgressRecord,new</token>
 <token>System.Management.Automation.Cmdlet,WriteProgress</token>
-</entry>
-<entry count="140">
-<token>-&gt;</token>
-<token>System.Management.Automation.PSPropertyInfo,</token>
-<token>System.Management.Automation,</token>
-<token>3.0.0.0]],Add</token>
-</entry>
-<entry count="1">
-<token>System.Management.Automation,</token>
-<token>3.0.0.0]],new</token>
-<token>System.Management.Automation.PSDataCollection`1[[T</token>
-<token>-&gt;</token>
-<token>System.Management.Automation.VerboseRecord,</token>
 </entry>
 <entry count="1">
 <token>System.Management.Automation.PSCommand,Clear</token>
@@ -1423,11 +1230,6 @@
 <token>System.Management.Automation.PSCommand,Clear</token>
 <token>System.Management.Automation.PowerShell,AddCommand</token>
 <token>System.Management.Automation.PowerShell,AddParameter</token>
-</entry>
-<entry count="11">
-<token>3.0.0.0]],Add</token>
-<token>System.Management.Automation.PSNoteProperty,new</token>
-<token>System.Management.Automation.PSMemberInfoCollection`1[[T</token>
 </entry>
 <entry count="16">
 <token>System.Management.Automation.PSVariableIntrinsics,Get</token>
@@ -1445,25 +1247,11 @@
 <token>System.Management.Automation.PowerShell,AddParameter</token>
 <token>System.Management.Automation.PowerShell,Invoke</token>
 </entry>
-<entry count="140">
-<token>System.Management.Automation.PSNoteProperty,new</token>
-<token>System.Management.Automation.PSMemberInfoCollection`1[[T</token>
-<token>-&gt;</token>
-<token>System.Management.Automation.PSPropertyInfo,</token>
-<token>System.Management.Automation,</token>
-</entry>
-<entry count="31">
-<token>System.Management.Automation.PowerShell,AddScript</token>
-<token>System.Management.Automation.PowerShell,Invoke</token>
-<token>System.Management.Automation.RuntimeException,new</token>
-<token>System.Management.Automation.PSDataCollection`1[[T</token>
-</entry>
 <entry count="1">
-<token>System.Management.Automation,</token>
-<token>3.0.0.0]],new</token>
-<token>System.Management.Automation.PSDataCollection`1[[T</token>
-<token>-&gt;</token>
-<token>System.Management.Automation.WarningRecord,</token>
+<token>System.Management.Automation.PSDataCollection,new</token>
+<token>System.Management.Automation.PSDataCollection,Complete</token>
+<token>System.Management.Automation.PSObject,AsPSObject</token>
+<token>System.Management.Automation.PSDataCollection,Add</token>
 </entry>
 <entry count="2">
 <token>System.Management.Automation.PathIntrinsics,GetResolvedPSPathFromPSPath</token>
@@ -1476,29 +1264,28 @@
 <token>System.Management.Automation.ErrorRecord,new</token>
 <token>System.Management.Automation.ErrorDetails,new</token>
 </entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>System.Management.Automation.ErrorRecord,</token>
-<token>System.Management.Automation,</token>
-<token>3.0.0.0]],Add</token>
-</entry>
 <entry count="2">
 <token>System.Management.Automation.PowerShell,AddCommand</token>
 <token>System.Management.Automation.PowerShell,AddStatement</token>
 </entry>
-<entry count="32">
+<entry count="1408">
 <token>System.Management.Automation.PowerShell,Invoke</token>
 <token>System.Management.Automation.PowerShell,Create</token>
 <token>System.Management.Automation.PowerShell,AddCommand</token>
 <token>System.Management.Automation.PowerShell,AddParameter</token>
 <token>System.Management.Automation.PowerShell,AddCommand</token>
 </entry>
-<entry count="1">
+<entry count="257">
 <token>System.Management.Automation.PowerShell,Invoke</token>
 <token>System.Management.Automation.PowerShell,Create</token>
 <token>System.Management.Automation.PowerShell,AddCommand</token>
 <token>System.Management.Automation.PowerShell,AddParameter</token>
 <token>System.Management.Automation.PowerShell,Invoke</token>
+</entry>
+<entry count="512">
+<token>System.Management.Automation.PowerShell,AddCommand</token>
+<token>System.Management.Automation.PowerShell,Invoke</token>
+<token>System.Management.Automation.PowerShell,Create</token>
 </entry>
 <entry count="2">
 <token>System.Management.Automation.RunspaceInvoke,Invoke</token>
@@ -1516,23 +1303,11 @@
 <token>System.Management.Automation.PSObject,AsPSObject</token>
 <token>System.Management.Automation.PSObject,ToString</token>
 </entry>
-<entry count="5">
+<entry count="11">
 <token>System.Management.Automation.PowerShell,AddCommand</token>
 <token>System.Management.Automation.PowerShell,AddCommand</token>
 <token>System.Management.Automation.PowerShell,AddParameter</token>
 <token>System.Management.Automation.PowerShell,AddParameter</token>
-</entry>
-<entry count="2">
-<token>System.Management.Automation.PowerShell,AddScript</token>
-<token>System.Management.Automation.PSDataCollection`1[[T</token>
-<token>-&gt;</token>
-</entry>
-<entry count="1">
-<token>System.Management.Automation,</token>
-<token>3.0.0.0]],new</token>
-<token>System.Management.Automation.PSDataCollection`1[[T</token>
-<token>-&gt;</token>
-<token>System.Management.Automation.ProgressRecord,</token>
 </entry>
 <entry count="4">
 <token>System.Management.Automation.PowerShell,AddParameter</token>
@@ -1546,15 +1321,14 @@
 <token>System.Management.Automation.ICommandRuntime,WriteObject</token>
 <token>System.Management.Automation.ICommandRuntime,WriteObject</token>
 </entry>
-<entry count="153">
+<entry count="305">
 <token>System.Management.Automation.RuntimeDefinedParameter,new</token>
 <token>System.Management.Automation.ParameterAttribute,new</token>
 <token>System.Management.Automation.ValidateSetAttribute,new</token>
 </entry>
-<entry count="13">
-<token>-&gt;</token>
-<token>System.Management.Automation.PSObject,</token>
-<token>System.Management.Automation,</token>
+<entry count="1">
+<token>System.Management.Automation.Cmdlet,WriteWarning</token>
+<token>System.Management.Automation.Cmdlet,WriteWarning</token>
 </entry>
 <entry count="8">
 <token>System.Management.Automation.Cmdlet,WriteWarning</token>
@@ -1571,14 +1345,14 @@
 <token>System.Management.Automation.RuntimeDefinedParameter,new</token>
 <token>System.Management.Automation.ParameterAttribute,new</token>
 </entry>
-<entry count="4">
+<entry count="16">
 <token>System.Management.Automation.PowerShell,BeginInvoke</token>
 <token>System.Management.Automation.PowerShell,Create</token>
 <token>System.Management.Automation.PowerShell,AddCommand</token>
 <token>System.Management.Automation.PowerShell,BeginInvoke</token>
 <token>System.Management.Automation.PowerShell,EndInvoke</token>
 </entry>
-<entry count="8">
+<entry count="22">
 <token>System.Management.Automation.Cmdlet,WriteVerbose</token>
 <token>System.Management.Automation.PSObject,new</token>
 </entry>
@@ -1601,19 +1375,12 @@
 <token>System.Management.Automation.PowerShell,Invoke</token>
 <token>System.Management.Automation.PowerShell,Dispose</token>
 </entry>
-<entry count="101">
+<entry count="3549">
 <token>System.Management.Automation.PowerShell,Create</token>
 <token>System.Management.Automation.PowerShell,AddCommand</token>
 <token>System.Management.Automation.PowerShell,AddParameter</token>
 </entry>
-<entry count="2">
-<token>System.Management.Automation.PowerShellStreams`2[[TInput</token>
-<token>-&gt;</token>
-<token>System.Management.Automation.PSObject,</token>
-<token>System.Management.Automation,</token>
-<token>3.0.0.0],[TOutput</token>
-</entry>
-<entry count="4">
+<entry count="36">
 <token>System.Management.Automation.ErrorRecord,new</token>
 <token>System.Management.Automation.ApplicationFailedException,new</token>
 </entry>
@@ -1622,21 +1389,33 @@
 <token>System.Management.Automation.WildcardPattern,new</token>
 <token>System.Management.Automation.Cmdlet,WriteDebug</token>
 </entry>
-<entry count="39">
+<entry count="1415">
 <token>System.Management.Automation.PowerShell,AddCommand</token>
 <token>System.Management.Automation.PowerShell,AddParameter</token>
 <token>System.Management.Automation.PowerShell,AddCommand</token>
 </entry>
 <entry count="4">
-<token>-&gt;</token>
-<token>System.Management.Automation.PSMemberInfo,</token>
+<token>System.Management.Automation.PSObject,new</token>
+<token>System.Management.Automation.PSObject,new</token>
+</entry>
+<entry count="2">
+<token>System.Management.Automation.Cmdlet,ThrowTerminatingError</token>
+<token>System.Management.Automation.Cmdlet,WriteDebug</token>
+<token>System.Management.Automation.ErrorRecord,new</token>
+</entry>
+<entry count="1">
+<token>System.Management.Automation.Cmdlet,ThrowTerminatingError</token>
+<token>System.Management.Automation.Cmdlet,WriteDebug</token>
+<token>System.Management.Automation.ErrorRecord,new</token>
+<token>System.Management.Automation.Cmdlet,ThrowTerminatingError</token>
+<token>System.Management.Automation.Cmdlet,WriteObject</token>
 </entry>
 <entry count="4">
 <token>System.Management.Automation.Cmdlet,WriteVerbose</token>
 <token>System.Management.Automation.ContentCmdletProviderIntrinsics,GetReader</token>
 <token>System.Management.Automation.PSVariableIntrinsics,Set</token>
 </entry>
-<entry count="3">
+<entry count="9">
 <token>System.Management.Automation.PowerShell,AddParameter</token>
 <token>System.Management.Automation.PSCommand,Clear</token>
 <token>System.Management.Automation.PSCommand,AddCommand</token>
@@ -1659,7 +1438,7 @@
 <token>System.Management.Automation.PowerShell,AddParameter</token>
 <token>System.Management.Automation.PowerShell,AddParameter</token>
 </entry>
-<entry count="25">
+<entry count="49">
 <token>System.Management.Automation.SwitchParameter,new</token>
 <token>System.Management.Automation.SwitchParameter,new</token>
 </entry>
@@ -1677,14 +1456,9 @@
 <token>System.Management.Automation.PowerShell,AddCommand</token>
 <token>System.Management.Automation.ErrorRecord,new</token>
 </entry>
-<entry count="6">
+<entry count="10">
 <token>System.Management.Automation.PowerShell,AddArgument</token>
 <token>System.Management.Automation.PowerShell,Invoke</token>
-</entry>
-<entry count="2">
-<token>System.Management.Automation,</token>
-<token>3.0.0.0]],new</token>
-<token>System.Management.Automation.PowerShell,BeginInvoke</token>
 </entry>
 <entry count="9">
 <token>System.Management.Automation.PSCommand,AddParameter</token>
@@ -1695,36 +1469,12 @@
 <token>System.Management.Automation.LanguagePrimitives,GetEnumerable</token>
 <token>System.Management.Automation.PSObject,AsPSObject</token>
 </entry>
-<entry count="1">
-<token>3.0.0.0]],Complete</token>
-<token>System.Management.Automation.PSObject,AsPSObject</token>
-<token>System.Management.Automation.PSDataCollection`1[[T</token>
-<token>-&gt;</token>
-<token>System.Management.Automation.PSObject,</token>
+<entry count="30">
+<token>System.Management.Automation.ErrorRecord,new</token>
+<token>System.Management.Automation.SwitchParameter,ToBool</token>
+<token>System.Management.Automation.SwitchParameter,ToBool</token>
 </entry>
-<entry count="31">
-<token>System.Management.Automation.PowerShell,AddScript</token>
-<token>System.Management.Automation.PowerShell,Invoke</token>
-<token>System.Management.Automation.PSDataCollection`1[[T</token>
-<token>-&gt;</token>
-</entry>
-<entry count="1">
-<token>System.Management.Automation.PSDataCollection`1[[T</token>
-<token>-&gt;</token>
-<token>System.Management.Automation.ProgressRecord,</token>
-<token>System.Management.Automation,</token>
-</entry>
-<entry count="1">
-<token>System.Management.Automation.PSObject,</token>
-<token>System.Management.Automation,</token>
-<token>3.0.0.0]],ReadAll</token>
-</entry>
-<entry count="1">
-<token>System.Management.Automation.DebugRecord,</token>
-<token>System.Management.Automation,</token>
-<token>3.0.0.0]],new</token>
-</entry>
-<entry count="42">
+<entry count="738">
 <token>System.Management.Automation.PowerShell,AddCommand</token>
 <token>System.Management.Automation.PowerShell,AddParameter</token>
 <token>System.Management.Automation.PowerShell,Invoke</token>
@@ -1733,31 +1483,16 @@
 <token>System.Management.Automation.ParameterAttribute,new</token>
 <token>System.Management.Automation.AllowNullAttribute,new</token>
 </entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>System.Management.Automation.WarningRecord,</token>
-</entry>
 <entry count="4">
 <token>System.Management.Automation.LanguagePrimitives,Compare</token>
 <token>System.Management.Automation.PSObject,AsPSObject</token>
 <token>System.Management.Automation.PSObject,ToString</token>
 </entry>
-<entry count="50">
+<entry count="2114">
 <token>System.Management.Automation.PowerShell,AddParameter</token>
 <token>System.Management.Automation.PowerShell,Invoke</token>
 <token>System.Management.Automation.PowerShell,Create</token>
 <token>System.Management.Automation.PowerShell,AddCommand</token>
-</entry>
-<entry count="1">
-<token>System.Management.Automation.ProgressRecord,</token>
-<token>System.Management.Automation,</token>
-</entry>
-<entry count="2">
-<token>3.0.0.0],[TOutput</token>
-<token>-&gt;</token>
-<token>System.Management.Automation.PSObject,</token>
-<token>System.Management.Automation,</token>
-<token>3.0.0.0]],new</token>
 </entry>
 <entry count="3">
 <token>System.Management.Automation.PowerShell,AddCommand</token>
@@ -1766,7 +1501,7 @@
 <token>System.Management.Automation.PowerShell,AddParameter</token>
 <token>System.Management.Automation.PowerShell,AddParameter</token>
 </entry>
-<entry count="4">
+<entry count="66056">
 <token>System.Management.Automation.ErrorRecord,new</token>
 <token>System.Management.Automation.ErrorRecord,new</token>
 </entry>
@@ -1775,11 +1510,6 @@
 <token>System.Management.Automation.Cmdlet,WriteVerbose</token>
 <token>System.Management.Automation.ContentCmdletProviderIntrinsics,GetReader</token>
 </entry>
-<entry count="128">
-<token>-&gt;</token>
-<token>System.Management.Automation.ErrorRecord,</token>
-<token>System.Management.Automation,</token>
-</entry>
 <entry count="11">
 <token>System.Management.Automation.PowerShell,AddScript</token>
 <token>System.Management.Automation.PowerShell,Invoke</token>
@@ -1790,41 +1520,20 @@
 <token>System.Management.Automation.PowerShell,AddScript</token>
 <token>System.Management.Automation.PowerShell,Invoke</token>
 </entry>
-<entry count="4">
+<entry count="16">
 <token>System.Management.Automation.PowerShell,BeginInvoke</token>
 <token>System.Management.Automation.PowerShell,EndInvoke</token>
 </entry>
-<entry count="1">
+<entry count="3">
 <token>System.Management.Automation.Cmdlet,ThrowTerminatingError</token>
 <token>System.Management.Automation.Cmdlet,WriteDebug</token>
 <token>System.Management.Automation.Cmdlet,WriteObject</token>
 </entry>
-<entry count="37">
+<entry count="1419">
 <token>System.Management.Automation.PowerShell,AddCommand</token>
 <token>System.Management.Automation.PowerShell,AddParameter</token>
 <token>System.Management.Automation.PowerShell,AddParameter</token>
 <token>System.Management.Automation.PowerShell,Invoke</token>
-</entry>
-<entry count="63">
-<token>System.Management.Automation.RuntimeException,new</token>
-<token>System.Management.Automation.PSDataCollection`1[[T</token>
-<token>-&gt;</token>
-<token>System.Management.Automation.ErrorRecord,</token>
-<token>System.Management.Automation,</token>
-</entry>
-<entry count="9">
-<token>System.Management.Automation.PSPropertyInfo,</token>
-<token>System.Management.Automation,</token>
-<token>3.0.0.0]],Add</token>
-<token>System.Management.Automation.PSNoteProperty,new</token>
-<token>System.Management.Automation.PSMemberInfoCollection`1[[T</token>
-</entry>
-<entry count="31">
-<token>System.Management.Automation.PowerShell,AddScript</token>
-<token>System.Management.Automation.PowerShell,Invoke</token>
-<token>System.Management.Automation.RuntimeException,new</token>
-<token>System.Management.Automation.PSDataCollection`1[[T</token>
-<token>-&gt;</token>
 </entry>
 <entry count="3">
 <token>System.Management.Automation.PowerShell,Create</token>
@@ -1840,34 +1549,23 @@
 <token>System.Management.Automation.PowerShell,AddCommand</token>
 <token>System.Management.Automation.PSCommand,AddParameter</token>
 </entry>
-<entry count="283">
+<entry count="62083">
 <token>System.Management.Automation.PowerShell,AddScript</token>
 <token>System.Management.Automation.PowerShell,AddScript</token>
 <token>System.Management.Automation.PowerShell,AddScript</token>
 <token>System.Management.Automation.PowerShell,AddScript</token>
 <token>System.Management.Automation.PowerShell,AddScript</token>
 </entry>
-<entry count="31">
-<token>System.Management.Automation.PowerShell,AddScript</token>
-<token>System.Management.Automation.PowerShell,Invoke</token>
-<token>System.Management.Automation.PSDataCollection`1[[T</token>
-</entry>
-<entry count="4">
+<entry count="16">
 <token>System.Management.Automation.PowerShell,AddCommand</token>
 <token>System.Management.Automation.PowerShell,BeginInvoke</token>
 <token>System.Management.Automation.PowerShell,Create</token>
 </entry>
-<entry count="2">
+<entry count="8">
 <token>System.Management.Automation.Cmdlet,WriteDebug</token>
 <token>System.Management.Automation.ErrorRecord,new</token>
 <token>System.Management.Automation.Cmdlet,ThrowTerminatingError</token>
 <token>System.Management.Automation.Cmdlet,WriteDebug</token>
-</entry>
-<entry count="9">
-<token>System.Management.Automation,</token>
-<token>3.0.0.0]],new</token>
-<token>System.Management.Automation.PSDataCollection`1[[T</token>
-<token>-&gt;</token>
 </entry>
 <entry count="5">
 <token>System.Management.Automation.PowerShell,AddParameter</token>
@@ -1876,7 +1574,7 @@
 <token>System.Management.Automation.PowerShell,AddCommand</token>
 <token>System.Management.Automation.PowerShell,AddParameter</token>
 </entry>
-<entry count="4">
+<entry count="16">
 <token>System.Management.Automation.PowerShell,Create</token>
 <token>System.Management.Automation.PowerShell,AddCommand</token>
 <token>System.Management.Automation.PowerShell,BeginInvoke</token>
@@ -1888,7 +1586,7 @@
 <token>System.Management.Automation.PowerShell,Invoke</token>
 <token>System.Management.Automation.PowerShell,Dispose</token>
 </entry>
-<entry count="3">
+<entry count="9">
 <token>System.Management.Automation.PSCommand,Clear</token>
 <token>System.Management.Automation.PowerShell,AddCommand</token>
 <token>System.Management.Automation.PowerShell,AddParameter</token>
@@ -1899,24 +1597,17 @@
 <token>System.Management.Automation.PowerShell,BeginInvoke</token>
 <token>System.Management.Automation.PowerShell,Stop</token>
 </entry>
-<entry count="1">
-<token>System.Management.Automation.PSObject,</token>
-<token>System.Management.Automation,</token>
-<token>3.0.0.0]],ReadAll</token>
-<token>System.Management.Automation.PSObject,ToString</token>
-</entry>
 <entry count="3">
 <token>System.Management.Automation.ErrorRecord,new</token>
 <token>System.Management.Automation.PowerShell,AddParameter</token>
 <token>System.Management.Automation.PowerShell,Invoke</token>
 </entry>
-<entry count="5">
-<token>System.Management.Automation.PSObject,</token>
-<token>System.Management.Automation,</token>
-<token>3.0.0.0]],new</token>
-<token>System.Management.Automation.PSDataCollection`1[[T</token>
+<entry count="12">
+<token>System.Management.Automation.ErrorRecord,new</token>
+<token>System.Management.Automation.SwitchParameter,ToBool</token>
+<token>System.Management.Automation.ErrorRecord,new</token>
 </entry>
-<entry count="6">
+<entry count="10">
 <token>System.Management.Automation.PowerShell,AddCommand</token>
 <token>System.Management.Automation.PowerShell,AddCommand</token>
 <token>System.Management.Automation.PowerShell,AddArgument</token>
@@ -1927,56 +1618,37 @@
 <token>System.Management.Automation.ErrorRecord,new</token>
 <token>System.Management.Automation.Cmdlet,WriteError</token>
 </entry>
-<entry count="1">
-<token>System.Management.Automation.DebugRecord,</token>
-<token>System.Management.Automation,</token>
-<token>3.0.0.0]],new</token>
-<token>System.Management.Automation.PSDataCollection`1[[T</token>
-</entry>
 <entry count="6">
 <token>System.Management.Automation.PSCredential,new</token>
 <token>System.Management.Automation.ICommandRuntime,WriteObject</token>
 </entry>
-<entry count="1">
-<token>3.0.0.0]],new</token>
-<token>System.Management.Automation.PSDataCollection`1[[T</token>
-<token>-&gt;</token>
-<token>System.Management.Automation.DebugRecord,</token>
-<token>System.Management.Automation,</token>
+<entry count="162">
+<token>System.Management.Automation.PSArgumentException,new</token>
+<token>System.Management.Automation.PSArgumentException,new</token>
+<token>System.Management.Automation.PSArgumentException,new</token>
+<token>System.Management.Automation.ErrorRecord,new</token>
+<token>System.Management.Automation.PSArgumentException,new</token>
 </entry>
 <entry count="32">
 <token>System.Management.Automation.Cmdlet,WriteVerbose</token>
 <token>System.Management.Automation.Cmdlet,WriteObject</token>
 </entry>
-<entry count="1">
-<token>System.Management.Automation.ErrorRecord,new</token>
-<token>System.Management.Automation.PSDataCollection`1[[T</token>
-<token>-&gt;</token>
-</entry>
 <entry count="3">
 <token>System.Management.Automation.ErrorRecord,new</token>
 <token>System.Management.Automation.PowerShell,AddParameter</token>
 </entry>
-<entry count="5">
-<token>-&gt;</token>
-<token>System.Management.Automation.PSObject,</token>
-<token>System.Management.Automation,</token>
-<token>3.0.0.0]],new</token>
-<token>System.Management.Automation.PSDataCollection`1[[T</token>
+<entry count="486">
+<token>System.Management.Automation.PSArgumentNullException,new</token>
+<token>System.Management.Automation.PSArgumentNullException,new</token>
+<token>System.Management.Automation.PSArgumentNullException,new</token>
+<token>System.Management.Automation.PSArgumentNullException,new</token>
 </entry>
-<entry count="2">
-<token>System.Management.Automation.PSObject,new</token>
-<token>System.Management.Automation.PSNoteProperty,new</token>
-<token>System.Management.Automation.PSMemberInfoCollection`1[[T</token>
-<token>-&gt;</token>
-<token>System.Management.Automation.PSMemberInfo,</token>
+<entry count="4">
+<token>System.Management.Automation.PowerShell,AddScript</token>
+<token>System.Management.Automation.PowerShell,Invoke</token>
+<token>System.Management.Automation.PSCommand,Clone</token>
 </entry>
-<entry count="63">
-<token>System.Management.Automation.RuntimeException,new</token>
-<token>System.Management.Automation.PSDataCollection`1[[T</token>
-<token>-&gt;</token>
-</entry>
-<entry count="1785">
+<entry count="133245">
 <token>System.Management.Automation.PSArgumentException,new</token>
 <token>System.Management.Automation.ErrorRecord,new</token>
 <token>System.Management.Automation.PSArgumentException,new</token>
@@ -1988,21 +1660,16 @@
 <token>System.Management.Automation.PowerShell,AddParameter</token>
 <token>System.Management.Automation.PowerShell,Invoke</token>
 </entry>
-<entry count="5">
+<entry count="11">
 <token>System.Management.Automation.PowerShell,Create</token>
 <token>System.Management.Automation.PowerShell,AddCommand</token>
 <token>System.Management.Automation.PowerShell,AddCommand</token>
 <token>System.Management.Automation.PowerShell,AddParameter</token>
 </entry>
-<entry count="1">
-<token>System.Management.Automation.PSDataCollection`1[[T</token>
-<token>-&gt;</token>
-<token>System.Management.Automation.WarningRecord,</token>
-</entry>
-<entry count="1">
-<token>System.Management.Automation.PSDataCollection`1[[T</token>
-<token>-&gt;</token>
-<token>System.Management.Automation.VerboseRecord,</token>
+<entry count="4">
+<token>System.Management.Automation.PSObject,new</token>
+<token>System.Management.Automation.Cmdlet,WriteVerbose</token>
+<token>System.Management.Automation.Cmdlet,WriteVerbose</token>
 </entry>
 <entry count="11">
 <token>System.Management.Automation.PowerShell,AddScript</token>
@@ -2043,43 +1710,22 @@
 <token>System.Management.Automation.PowerShell,Invoke</token>
 </entry>
 <entry count="1">
+<token>System.Management.Automation.PSDataCollection,ReadAll</token>
+<token>System.Management.Automation.PSObject,ToString</token>
+</entry>
+<entry count="1">
 <token>System.Management.Automation.PSCommand,Clear</token>
 <token>System.Management.Automation.PSCommand,Clear</token>
 <token>System.Management.Automation.PowerShell,AddCommand</token>
 </entry>
-<entry count="49">
+<entry count="2113">
 <token>System.Management.Automation.PowerShell,AddParameter</token>
 <token>System.Management.Automation.PowerShell,Invoke</token>
 <token>System.Management.Automation.PowerShell,Create</token>
 <token>System.Management.Automation.PowerShell,AddCommand</token>
 <token>System.Management.Automation.PowerShell,AddParameter</token>
 </entry>
-<entry count="1">
-<token>System.Management.Automation.PSObject,</token>
-<token>System.Management.Automation,</token>
-<token>3.0.0.0]],Complete</token>
-<token>System.Management.Automation.PSObject,AsPSObject</token>
-</entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>System.Management.Automation.DebugRecord,</token>
-<token>System.Management.Automation,</token>
-<token>3.0.0.0]],new</token>
-<token>System.Management.Automation.PSDataCollection`1[[T</token>
-</entry>
-<entry count="140">
-<token>System.Management.Automation.PSMemberInfoCollection`1[[T</token>
-<token>-&gt;</token>
-<token>System.Management.Automation.PSPropertyInfo,</token>
-</entry>
-<entry count="2">
-<token>3.0.0.0]],Add</token>
-<token>System.Management.Automation.PSNoteProperty,new</token>
-<token>System.Management.Automation.PSMemberInfoCollection`1[[T</token>
-<token>-&gt;</token>
-<token>System.Management.Automation.PSMemberInfo,</token>
-</entry>
-<entry count="928">
+<entry count="548448">
 <token>System.Management.Automation.PSInvalidOperationException,new</token>
 <token>System.Management.Automation.PSInvalidOperationException,new</token>
 <token>System.Management.Automation.PSInvalidOperationException,new</token>
@@ -2095,20 +1741,16 @@
 <token>System.Management.Automation.PowerShell,AddCommand</token>
 <token>System.Management.Automation.PowerShell,AddParameter</token>
 </entry>
-<entry count="144">
-<token>System.Management.Automation.PSMemberInfoCollection`1[[T</token>
-<token>-&gt;</token>
-</entry>
 <entry count="16">
 <token>System.Management.Automation.PowerShell,Create</token>
 <token>System.Management.Automation.PowerShell,AddCommand</token>
 <token>System.Management.Automation.PowerShell,AddParameters</token>
 </entry>
-<entry count="27">
+<entry count="33">
 <token>System.Management.Automation.PSCommand,Clear</token>
 <token>System.Management.Automation.PowerShell,AddCommand</token>
 </entry>
-<entry count="8">
+<entry count="14">
 <token>System.Management.Automation.PowerShell,AddParameter</token>
 <token>System.Management.Automation.PSCommand,Clear</token>
 </entry>
@@ -2118,11 +1760,10 @@
 <token>System.Management.Automation.PowerShell,AddCommand</token>
 <token>System.Management.Automation.PowerShell,AddParameter</token>
 </entry>
-<entry count="2">
-<token>3.0.0.0],[TOutput</token>
-<token>-&gt;</token>
-<token>System.Management.Automation.PSObject,</token>
-<token>System.Management.Automation,</token>
+<entry count="9">
+<token>System.Management.Automation.ProgressRecord,new</token>
+<token>System.Management.Automation.ProgressRecord,new</token>
+<token>System.Management.Automation.ProgressRecord,new</token>
 </entry>
 <entry count="5">
 <token>System.Management.Automation.PowerShell,AddCommand</token>
@@ -2130,7 +1771,7 @@
 <token>System.Management.Automation.PowerShell,AddParameter</token>
 <token>System.Management.Automation.PSCommand,Clear</token>
 </entry>
-<entry count="2">
+<entry count="8">
 <token>System.Management.Automation.ErrorRecord,new</token>
 <token>System.Management.Automation.Cmdlet,ThrowTerminatingError</token>
 <token>System.Management.Automation.Cmdlet,WriteDebug</token>
@@ -2142,69 +1783,41 @@
 <token>System.Management.Automation.PSCommand,Clear</token>
 <token>System.Management.Automation.PowerShell,AddCommand</token>
 </entry>
-<entry count="1">
-<token>System.Management.Automation.PSDataCollection`1[[T</token>
-<token>-&gt;</token>
-<token>System.Management.Automation.WarningRecord,</token>
-<token>System.Management.Automation,</token>
-<token>3.0.0.0]],new</token>
-</entry>
-<entry count="4">
+<entry count="20">
 <token>System.Management.Automation.PSCommand,Clone</token>
 <token>System.Management.Automation.PowerShell,AddScript</token>
 </entry>
-<entry count="75">
+<entry count="795">
 <token>System.Management.Automation.SwitchParameter,ToBool</token>
 <token>System.Management.Automation.SwitchParameter,ToBool</token>
-</entry>
-<entry count="2">
-<token>System.Management.Automation.PowerShell,AddScript</token>
-<token>System.Management.Automation.PSDataCollection`1[[T</token>
-<token>-&gt;</token>
-<token>System.Management.Automation.PSObject,</token>
-<token>System.Management.Automation,</token>
 </entry>
 <entry count="2">
 <token>System.Management.Automation.Cmdlet,WriteDebug</token>
 <token>System.Management.Automation.ScriptBlock,Invoke</token>
 <token>System.Management.Automation.LanguagePrimitives,IsTrue</token>
 </entry>
-<entry count="11">
-<token>3.0.0.0]],Add</token>
-<token>System.Management.Automation.PSNoteProperty,new</token>
-</entry>
-<entry count="1">
-<token>System.Management.Automation.PSObject,</token>
-<token>System.Management.Automation,</token>
-<token>3.0.0.0]],new</token>
-<token>System.Management.Automation.PowerShell,BeginInvoke</token>
-<token>System.Management.Automation.PowerShell,Stop</token>
-</entry>
 <entry count="6">
 <token>System.Management.Automation.PSCommand,AddParameter</token>
 <token>System.Management.Automation.PSCommand,AddParameter</token>
 <token>System.Management.Automation.PSCommand,new</token>
 </entry>
-<entry count="1">
-<token>3.0.0.0]],new</token>
-<token>System.Management.Automation.PSDataCollection`1[[T</token>
-<token>-&gt;</token>
-<token>System.Management.Automation.WarningRecord,</token>
-<token>System.Management.Automation,</token>
+<entry count="4">
+<token>System.Management.Automation.Cmdlet,ThrowTerminatingError</token>
+<token>System.Management.Automation.Cmdlet,WriteObject</token>
 </entry>
-<entry count="2">
+<entry count="4">
 <token>System.Management.Automation.PowerShell,AddCommand</token>
 <token>System.Management.Automation.PowerShell,AddArgument</token>
 <token>System.Management.Automation.PowerShell,Invoke</token>
 <token>System.Management.Automation.PSObject,ToString</token>
 </entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>System.Management.Automation.ErrorRecord,</token>
-<token>System.Management.Automation,</token>
-<token>3.0.0.0]],new</token>
+<entry count="4">
+<token>System.Management.Automation.PowerShell,Invoke</token>
+<token>System.Management.Automation.PSCommand,Clone</token>
+<token>System.Management.Automation.PowerShell,AddScript</token>
+<token>System.Management.Automation.PowerShell,Invoke</token>
 </entry>
-<entry count="8">
+<entry count="64">
 <token>System.Management.Automation.PSCmdlet,GetResolvedProviderPathFromPSPath</token>
 <token>System.Management.Automation.JobDefinition,new</token>
 <token>System.Management.Automation.JobInvocationInfo,new</token>
@@ -2221,40 +1834,32 @@
 <token>System.Management.Automation.ParseException,new</token>
 <token>System.Management.Automation.ErrorRecord,new</token>
 </entry>
-<entry count="6">
+<entry count="150">
 <token>System.Management.Automation.SwitchParameter,ToBool</token>
 <token>System.Management.Automation.SwitchParameter,ToBool</token>
 <token>System.Management.Automation.SwitchParameter,ToBool</token>
 </entry>
-<entry count="140">
-<token>System.Management.Automation.PSMemberInfoCollection`1[[T</token>
-<token>-&gt;</token>
-<token>System.Management.Automation.PSPropertyInfo,</token>
-<token>System.Management.Automation,</token>
-<token>3.0.0.0]],Add</token>
+<entry count="2">
+<token>System.Management.Automation.PSNoteProperty,new</token>
+<token>System.Management.Automation.PSMemberInfoCollection,Add</token>
+<token>System.Management.Automation.PSNoteProperty,new</token>
+<token>System.Management.Automation.PSMemberInfoCollection,Add</token>
+<token>System.Management.Automation.Cmdlet,WriteObject</token>
 </entry>
-<entry count="3">
+<entry count="36864">
+<token>System.Management.Automation.ErrorRecord,new</token>
+<token>System.Management.Automation.ErrorRecord,new</token>
+<token>System.Management.Automation.ErrorRecord,new</token>
+</entry>
+<entry count="9">
 <token>System.Management.Automation.PSCommand,Clear</token>
 <token>System.Management.Automation.PSCommand,AddCommand</token>
 <token>System.Management.Automation.PowerShell,AddParameter</token>
 </entry>
-<entry count="1">
-<token>System.Management.Automation.PSObject,AsPSObject</token>
-<token>System.Management.Automation.PSDataCollection`1[[T</token>
-<token>-&gt;</token>
-</entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>System.Management.Automation.PSObject,</token>
-<token>System.Management.Automation,</token>
-<token>3.0.0.0]],Complete</token>
-<token>System.Management.Automation.PSObject,AsPSObject</token>
-</entry>
-<entry count="2">
-<token>System.Management.Automation.PSObject,</token>
-<token>System.Management.Automation,</token>
-<token>3.0.0.0]],new</token>
-<token>System.Management.Automation.PowerShell,BeginInvoke</token>
+<entry count="63">
+<token>System.Management.Automation.PowerShell,Invoke</token>
+<token>System.Management.Automation.RuntimeException,new</token>
+<token>System.Management.Automation.PSDataCollection,Clear</token>
 </entry>
 <entry count="4">
 <token>System.Management.Automation.PowerShell,AddCommand</token>
@@ -2268,7 +1873,7 @@
 <token>System.Management.Automation.PowerShell,AddCommand</token>
 <token>System.Management.Automation.PowerShell,AddParameter</token>
 </entry>
-<entry count="8">
+<entry count="64">
 <token>System.Management.Automation.PSCmdlet,GetResolvedProviderPathFromPSPath</token>
 <token>System.Management.Automation.JobDefinition,new</token>
 </entry>
@@ -2289,7 +1894,7 @@
 <token>System.Management.Automation.WildcardPattern,ContainsWildcardCharacters</token>
 <token>System.Management.Automation.WildcardPattern,new</token>
 </entry>
-<entry count="6">
+<entry count="10">
 <token>System.Management.Automation.PowerShell,AddCommand</token>
 <token>System.Management.Automation.PowerShell,AddCommand</token>
 <token>System.Management.Automation.PowerShell,AddArgument</token>
@@ -2308,11 +1913,11 @@
 <token>System.Management.Automation.PSCommand,AddParameter</token>
 <token>System.Management.Automation.PSCommand,AddParameter</token>
 </entry>
-<entry count="362">
+<entry count="390">
 <token>System.Management.Automation.PowerShell,Create</token>
 <token>System.Management.Automation.PowerShell,AddScript</token>
 </entry>
-<entry count="8">
+<entry count="64">
 <token>System.Management.Automation.JobInvocationInfo,new</token>
 <token>System.Management.Automation.Job2,StartJob</token>
 </entry>
@@ -2322,6 +1927,16 @@
 <token>System.Management.Automation.ICommandRuntime,WriteObject</token>
 <token>System.Management.Automation.ICommandRuntime,WriteObject</token>
 <token>System.Management.Automation.ICommandRuntime,WriteObject</token>
+</entry>
+<entry count="15360">
+<token>System.Management.Automation.ErrorRecord,new</token>
+<token>System.Management.Automation.ErrorRecord,new</token>
+<token>System.Management.Automation.ErrorRecord,new</token>
+<token>System.Management.Automation.ErrorRecord,new</token>
+</entry>
+<entry count="152">
+<token>System.Management.Automation.ValidateLengthAttribute,new</token>
+<token>System.Management.Automation.ValidateLengthAttribute,new</token>
 </entry>
 <entry count="2">
 <token>System.Management.Automation.LanguagePrimitives,ConvertTo</token>
@@ -2335,19 +1950,19 @@
 <token>System.Management.Automation.Cmdlet,WriteVerbose</token>
 <token>System.Management.Automation.Cmdlet,WriteDebug</token>
 </entry>
-<entry count="1">
-<token>System.Management.Automation,</token>
-<token>3.0.0.0]],Complete</token>
-<token>System.Management.Automation.PSObject,AsPSObject</token>
-<token>System.Management.Automation.PSDataCollection`1[[T</token>
-<token>-&gt;</token>
-</entry>
-<entry count="55">
+<entry count="1437">
 <token>System.Management.Automation.PowerShell,AddCommand</token>
 <token>System.Management.Automation.PowerShell,AddParameter</token>
 <token>System.Management.Automation.PowerShell,AddParameter</token>
 </entry>
-<entry count="3">
+<entry count="4096">
+<token>System.Management.Automation.ErrorRecord,new</token>
+<token>System.Management.Automation.ErrorRecord,new</token>
+<token>System.Management.Automation.ErrorRecord,new</token>
+<token>System.Management.Automation.ErrorRecord,new</token>
+<token>System.Management.Automation.ErrorRecord,new</token>
+</entry>
+<entry count="9">
 <token>System.Management.Automation.PSCommand,Clear</token>
 <token>System.Management.Automation.PowerShell,AddCommand</token>
 <token>System.Management.Automation.PowerShell,AddParameter</token>
@@ -2358,7 +1973,7 @@
 <token>System.Management.Automation.PowerShell,AddCommand</token>
 <token>System.Management.Automation.PowerShell,AddParameter</token>
 </entry>
-<entry count="11">
+<entry count="17">
 <token>System.Management.Automation.PowerShell,AddParameter</token>
 <token>System.Management.Automation.PowerShell,AddParameter</token>
 <token>System.Management.Automation.PowerShell,AddParameter</token>
@@ -2375,9 +1990,26 @@
 <token>System.Management.Automation.WildcardPattern,new</token>
 <token>System.Management.Automation.WildcardPattern,IsMatch</token>
 </entry>
+<entry count="2">
+<token>System.Management.Automation.Cmdlet,ThrowTerminatingError</token>
+<token>System.Management.Automation.Cmdlet,WriteDebug</token>
+<token>System.Management.Automation.ErrorRecord,new</token>
+<token>System.Management.Automation.Cmdlet,ThrowTerminatingError</token>
+</entry>
 <entry count="6">
 <token>System.Management.Automation.PSCmdlet,GetVariableValue</token>
 <token>System.Management.Automation.PowerShell,Create</token>
+</entry>
+<entry count="2">
+<token>System.Management.Automation.ScriptBlock,Invoke</token>
+<token>System.Management.Automation.PSObject,new</token>
+<token>System.Management.Automation.PSNoteProperty,new</token>
+<token>System.Management.Automation.PSMemberInfoCollection,Add</token>
+</entry>
+<entry count="4">
+<token>System.Management.Automation.Cmdlet,WriteVerbose</token>
+<token>System.Management.Automation.Cmdlet,WriteVerbose</token>
+<token>System.Management.Automation.PSObject,new</token>
 </entry>
 <entry count="3">
 <token>System.Management.Automation.PowerShell,AddCommand</token>
@@ -2388,6 +2020,12 @@
 <token>System.Management.Automation.PSVariableIntrinsics,Get</token>
 <token>System.Management.Automation.ProgressRecord,new</token>
 </entry>
+<entry count="4">
+<token>System.Management.Automation.ValidationMetadataException,new</token>
+<token>System.Management.Automation.ValidationMetadataException,new</token>
+<token>System.Management.Automation.ValidationMetadataException,new</token>
+<token>System.Management.Automation.ValidationMetadataException,new</token>
+</entry>
 <entry count="8">
 <token>System.Management.Automation.Cmdlet,ShouldProcess</token>
 <token>System.Management.Automation.Cmdlet,ShouldContinue</token>
@@ -2395,20 +2033,20 @@
 <token>System.Management.Automation.Cmdlet,WriteDebug</token>
 <token>System.Management.Automation.Cmdlet,WriteObject</token>
 </entry>
-<entry count="76">
+<entry count="4">
+<token>System.Management.Automation.ErrorRecord,new</token>
+<token>System.Management.Automation.ApplicationFailedException,new</token>
+<token>System.Management.Automation.ErrorRecord,new</token>
+<token>System.Management.Automation.ApplicationFailedException,new</token>
+<token>System.Management.Automation.ErrorRecord,new</token>
+</entry>
+<entry count="228">
 <token>System.Management.Automation.ParameterAttribute,new</token>
 <token>System.Management.Automation.ValidateLengthAttribute,new</token>
 </entry>
 <entry count="2">
 <token>System.Management.Automation.PowerShell,AddCommand</token>
 <token>System.Management.Automation.PSCommand,AddParameter</token>
-</entry>
-<entry count="1">
-<token>3.0.0.0]],new</token>
-<token>System.Management.Automation.PSDataCollection`1[[T</token>
-<token>-&gt;</token>
-<token>System.Management.Automation.VerboseRecord,</token>
-<token>System.Management.Automation,</token>
 </entry>
 <entry count="1">
 <token>System.Management.Automation.CommandMetadata,new</token>
@@ -2421,10 +2059,11 @@
 <token>System.Management.Automation.Cmdlet,WriteDebug</token>
 <token>System.Management.Automation.Cmdlet,WriteObject</token>
 </entry>
-<entry count="1">
-<token>3.0.0.0]],new</token>
-<token>System.Management.Automation.PowerShell,BeginInvoke</token>
-<token>System.Management.Automation.PowerShell,Stop</token>
+<entry count="512">
+<token>System.Management.Automation.PowerShell,AddCommand</token>
+<token>System.Management.Automation.PowerShell,Invoke</token>
+<token>System.Management.Automation.PowerShell,Create</token>
+<token>System.Management.Automation.PowerShell,AddCommand</token>
 </entry>
 <entry count="101">
 <token>System.Management.Automation.RuntimeDefinedParameterDictionary,new</token>
@@ -2432,17 +2071,11 @@
 <token>System.Management.Automation.ParameterAttribute,new</token>
 <token>System.Management.Automation.AllowNullAttribute,new</token>
 </entry>
-<entry count="4">
+<entry count="16">
 <token>System.Management.Automation.PowerShell,Create</token>
 <token>System.Management.Automation.PowerShell,AddCommand</token>
 <token>System.Management.Automation.PowerShell,BeginInvoke</token>
 <token>System.Management.Automation.PowerShell,EndInvoke</token>
-</entry>
-<entry count="1">
-<token>System.Management.Automation.ProgressRecord,</token>
-<token>System.Management.Automation,</token>
-<token>3.0.0.0]],new</token>
-<token>System.Management.Automation.PSDataCollection`1[[T</token>
 </entry>
 <entry count="1">
 <token>System.Management.Automation.PSCommand,Clear</token>
@@ -2460,22 +2093,12 @@
 <token>System.Management.Automation.RunspaceInvoke,new</token>
 <token>System.Management.Automation.RunspaceInvoke,Invoke</token>
 </entry>
-<entry count="63">
-<token>System.Management.Automation.PowerShell,Invoke</token>
-<token>System.Management.Automation.PSDataCollection`1[[T</token>
-<token>-&gt;</token>
-<token>System.Management.Automation.ErrorRecord,</token>
-</entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>System.Management.Automation.ProgressRecord,</token>
-</entry>
 <entry count="2">
 <token>System.Management.Automation.PSCommand,Clear</token>
 <token>System.Management.Automation.PSCommand,Clear</token>
 <token>System.Management.Automation.PSCommand,Clear</token>
 </entry>
-<entry count="10">
+<entry count="34">
 <token>System.Management.Automation.PowerShell,Create</token>
 <token>System.Management.Automation.PowerShell,AddCommand</token>
 <token>System.Management.Automation.PowerShell,BeginInvoke</token>
@@ -2486,32 +2109,14 @@
 <token>System.Management.Automation.PSCommand,Clear</token>
 <token>System.Management.Automation.PowerShell,AddCommand</token>
 </entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>System.Management.Automation.VerboseRecord,</token>
-<token>System.Management.Automation,</token>
-<token>3.0.0.0]],new</token>
-</entry>
 <entry count="6">
 <token>System.Management.Automation.PSCommand,AddParameter</token>
 <token>System.Management.Automation.PSCommand,new</token>
 </entry>
-<entry count="3">
+<entry count="9">
 <token>System.Management.Automation.Cmdlet,WriteDebug</token>
 <token>System.Management.Automation.Cmdlet,WriteDebug</token>
 <token>System.Management.Automation.Cmdlet,WriteObject</token>
-</entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>System.Management.Automation.ProgressRecord,</token>
-<token>System.Management.Automation,</token>
-<token>3.0.0.0]],new</token>
-<token>System.Management.Automation.PSDataCollection`1[[T</token>
-</entry>
-<entry count="2">
-<token>System.Management.Automation.PSObject,</token>
-<token>System.Management.Automation,</token>
-<token>3.0.0.0]],Complete</token>
 </entry>
 <entry count="9">
 <token>System.Management.Automation.PowerShell,Create</token>
@@ -2531,22 +2136,15 @@
 <token>System.Management.Automation.PowerShell,Invoke</token>
 <token>System.Management.Automation.RuntimeException,new</token>
 </entry>
-<entry count="1">
-<token>System.Management.Automation.ProgressRecord,</token>
-<token>System.Management.Automation,</token>
-<token>3.0.0.0]],new</token>
-</entry>
 <entry count="4">
 <token>System.Management.Automation.Cmdlet,WriteVerbose</token>
 <token>System.Management.Automation.Cmdlet,WriteObject</token>
 <token>System.Management.Automation.ErrorRecord,new</token>
 </entry>
-<entry count="1">
-<token>System.Management.Automation.PSDataCollection`1[[T</token>
-<token>-&gt;</token>
-<token>System.Management.Automation.ProgressRecord,</token>
-<token>System.Management.Automation,</token>
-<token>3.0.0.0]],new</token>
+<entry count="125">
+<token>System.Management.Automation.WildcardPattern,IsMatch</token>
+<token>System.Management.Automation.WildcardPattern,IsMatch</token>
+<token>System.Management.Automation.WildcardPattern,IsMatch</token>
 </entry>
 <entry count="2">
 <token>System.Management.Automation.PowerShell,AddCommand</token>
@@ -2554,9 +2152,16 @@
 <token>System.Management.Automation.PowerShell,AddCommand</token>
 <token>System.Management.Automation.PowerShell,Invoke</token>
 </entry>
-<entry count="13">
-<token>System.Management.Automation.PSObject,</token>
-<token>System.Management.Automation,</token>
+<entry count="31">
+<token>System.Management.Automation.PowerShell,Create</token>
+<token>System.Management.Automation.PowerShell,Invoke</token>
+<token>System.Management.Automation.PSDataCollection,Clear</token>
+</entry>
+<entry count="6">
+<token>System.Management.Automation.Cmdlet,WriteDebug</token>
+<token>System.Management.Automation.Cmdlet,WriteDebug</token>
+<token>System.Management.Automation.ErrorRecord,new</token>
+<token>System.Management.Automation.Cmdlet,ThrowTerminatingError</token>
 </entry>
 <entry count="5">
 <token>System.Management.Automation.PSCommand,Clear</token>
@@ -2566,22 +2171,9 @@
 <token>System.Management.Automation.PSCommand,Clear</token>
 </entry>
 <entry count="2">
-<token>System.Management.Automation.PowerShell,Create</token>
-<token>System.Management.Automation.PowerShell,AddScript</token>
-<token>System.Management.Automation.PSDataCollection`1[[T</token>
-<token>-&gt;</token>
-<token>System.Management.Automation.PSObject,</token>
-</entry>
-<entry count="1">
-<token>System.Management.Automation.WarningRecord,</token>
-<token>System.Management.Automation,</token>
-<token>3.0.0.0]],new</token>
-</entry>
-<entry count="2">
-<token>System.Management.Automation.PSMemberInfo,</token>
-<token>System.Management.Automation,</token>
-<token>3.0.0.0]],Add</token>
 <token>System.Management.Automation.PSNoteProperty,new</token>
+<token>System.Management.Automation.PSMemberInfoCollection,Add</token>
+<token>System.Management.Automation.Cmdlet,WriteObject</token>
 </entry>
 <entry count="4">
 <token>System.Management.Automation.Cmdlet,ShouldProcess</token>
@@ -2602,28 +2194,10 @@
 <token>System.Management.Automation.PowerShell,AddCommand</token>
 </entry>
 <entry count="7">
-<token>-&gt;</token>
-<token>System.Management.Automation.PSObject,</token>
-<token>System.Management.Automation,</token>
-<token>3.0.0.0]],new</token>
-</entry>
-<entry count="2">
-<token>System.Management.Automation,</token>
-<token>3.0.0.0],[TOutput</token>
-<token>-&gt;</token>
-</entry>
-<entry count="2">
-<token>System.Management.Automation.PSDataCollection`1[[T</token>
-<token>-&gt;</token>
-<token>System.Management.Automation.PSObject,</token>
-<token>System.Management.Automation,</token>
-<token>3.0.0.0]],Complete</token>
-</entry>
-<entry count="7">
 <token>System.Management.Automation.ICommandRuntime,WriteObject</token>
 <token>System.Management.Automation.ICommandRuntime,ShouldProcess</token>
 </entry>
-<entry count="3">
+<entry count="9">
 <token>System.Management.Automation.PSCommand,Clear</token>
 <token>System.Management.Automation.PSCommand,AddCommand</token>
 <token>System.Management.Automation.PowerShell,AddParameter</token>
@@ -2635,11 +2209,12 @@
 <token>System.Management.Automation.PowerShell,BeginInvoke</token>
 <token>System.Management.Automation.PowerShell,Stop</token>
 </entry>
-<entry count="2">
-<token>System.Management.Automation.PowerShell,AddScript</token>
-<token>System.Management.Automation.PSDataCollection`1[[T</token>
+<entry count="4">
+<token>System.Management.Automation.ErrorRecord,new</token>
+<token>System.Management.Automation.Cmdlet,ThrowTerminatingError</token>
+<token>System.Management.Automation.Cmdlet,WriteObject</token>
 </entry>
-<entry count="1785">
+<entry count="133245">
 <token>System.Management.Automation.ErrorRecord,new</token>
 <token>System.Management.Automation.PSArgumentException,new</token>
 </entry>
@@ -2651,19 +2226,6 @@
 <token>System.Management.Automation.PSDataStreams,ClearStreams</token>
 <token>System.Management.Automation.PowerShell,AddCommand</token>
 </entry>
-<entry count="1">
-<token>System.Management.Automation,</token>
-<token>3.0.0.0]],ReadAll</token>
-<token>System.Management.Automation.PSObject,ToString</token>
-</entry>
-<entry count="1">
-<token>System.Management.Automation.VerboseRecord,</token>
-<token>System.Management.Automation,</token>
-</entry>
-<entry count="126">
-<token>System.Management.Automation,</token>
-<token>3.0.0.0]],Clear</token>
-</entry>
 <entry count="32">
 <token>System.Management.Automation.PowerShell,AddScript</token>
 <token>System.Management.Automation.PowerShell,Invoke</token>
@@ -2673,6 +2235,12 @@
 <token>System.Management.Automation.PowerShell,AddCommand</token>
 <token>System.Management.Automation.PowerShell,AddStatement</token>
 <token>System.Management.Automation.PowerShell,AddCommand</token>
+</entry>
+<entry count="4">
+<token>System.Management.Automation.PSCommand,Clone</token>
+<token>System.Management.Automation.PowerShell,AddScript</token>
+<token>System.Management.Automation.PowerShell,Invoke</token>
+<token>System.Management.Automation.PSCommand,Clone</token>
 </entry>
 <entry count="3">
 <token>System.Management.Automation.PowerShell,AddParameter</token>
@@ -2691,24 +2259,11 @@
 <token>System.Management.Automation.PSDataStreams,ClearStreams</token>
 <token>System.Management.Automation.PowerShell,Invoke</token>
 </entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>System.Management.Automation.PSObject,</token>
-<token>System.Management.Automation,</token>
-<token>3.0.0.0]],ReadAll</token>
-</entry>
-<entry count="1">
-<token>System.Management.Automation,</token>
-<token>3.0.0.0]],Complete</token>
-<token>System.Management.Automation.PSObject,AsPSObject</token>
-<token>System.Management.Automation.PSDataCollection`1[[T</token>
-</entry>
-<entry count="5">
-<token>System.Management.Automation,</token>
-<token>3.0.0.0]],new</token>
-<token>System.Management.Automation.PSDataCollection`1[[T</token>
-<token>-&gt;</token>
-<token>System.Management.Automation.PSObject,</token>
+<entry count="12">
+<token>System.Management.Automation.SwitchParameter,ToBool</token>
+<token>System.Management.Automation.ErrorRecord,new</token>
+<token>System.Management.Automation.SwitchParameter,ToBool</token>
+<token>System.Management.Automation.ErrorRecord,new</token>
 </entry>
 <entry count="10">
 <token>System.Management.Automation.PowerShell,AddParameter</token>
@@ -2720,13 +2275,6 @@
 <token>System.Management.Automation.PowerShell,AddCommand</token>
 </entry>
 <entry count="2">
-<token>-&gt;</token>
-<token>System.Management.Automation.PSObject,</token>
-<token>System.Management.Automation,</token>
-<token>3.0.0.0]],new</token>
-<token>System.Management.Automation.PowerShell,BeginInvoke</token>
-</entry>
-<entry count="2">
 <token>System.Management.Automation.Cmdlet,WriteDebug</token>
 <token>System.Management.Automation.Cmdlet,WriteObject</token>
 <token>System.Management.Automation.PSVariableIntrinsics,Set</token>
@@ -2734,34 +2282,18 @@
 <entry count="76">
 <token>System.Management.Automation.PSObject,new</token>
 <token>System.Management.Automation.PSNoteProperty,new</token>
-<token>System.Management.Automation.PSMemberInfoCollection`1[[T</token>
-<token>-&gt;</token>
-</entry>
-<entry count="76">
-<token>System.Management.Automation.PSObject,new</token>
-<token>System.Management.Automation.PSNoteProperty,new</token>
-</entry>
-<entry count="1">
-<token>3.0.0.0]],Complete</token>
-<token>System.Management.Automation.PSObject,AsPSObject</token>
-</entry>
-<entry count="5">
-<token>3.0.0.0]],new</token>
-<token>System.Management.Automation.PSDataCollection`1[[T</token>
-<token>-&gt;</token>
-<token>System.Management.Automation.PSObject,</token>
-<token>System.Management.Automation,</token>
 </entry>
 <entry count="101">
 <token>System.Management.Automation.RuntimeDefinedParameterDictionary,new</token>
 <token>System.Management.Automation.RuntimeDefinedParameter,new</token>
 <token>System.Management.Automation.ParameterAttribute,new</token>
 </entry>
-<entry count="1">
-<token>3.0.0.0]],new</token>
-<token>System.Management.Automation.PSDataCollection`1[[T</token>
-<token>-&gt;</token>
-<token>System.Management.Automation.DebugRecord,</token>
+<entry count="81">
+<token>System.Management.Automation.PSArgumentException,new</token>
+<token>System.Management.Automation.PSArgumentException,new</token>
+<token>System.Management.Automation.PSArgumentException,new</token>
+<token>System.Management.Automation.PSArgumentException,new</token>
+<token>System.Management.Automation.ErrorRecord,new</token>
 </entry>
 <entry count="11">
 <token>System.Management.Automation.PowerShell,Invoke</token>
@@ -2778,13 +2310,7 @@
 <token>System.Management.Automation.PowerShell,AddParameter</token>
 <token>System.Management.Automation.PowerShell,Invoke</token>
 </entry>
-<entry count="31">
-<token>System.Management.Automation.PowerShell,Create</token>
-<token>System.Management.Automation.PowerShell,Invoke</token>
-<token>System.Management.Automation.RuntimeException,new</token>
-<token>System.Management.Automation.PSDataCollection`1[[T</token>
-</entry>
-<entry count="42">
+<entry count="1418">
 <token>System.Management.Automation.PowerShell,AddParameter</token>
 <token>System.Management.Automation.PowerShell,AddCommand</token>
 </entry>
@@ -2795,15 +2321,32 @@
 <token>System.Management.Automation.AllowNullAttribute,new</token>
 <token>System.Management.Automation.RuntimeDefinedParameter,new</token>
 </entry>
-<entry count="50">
+<entry count="5">
+<token>System.Management.Automation.SwitchParameter,ToBool</token>
+<token>System.Management.Automation.SwitchParameter,ToBool</token>
+<token>System.Management.Automation.ErrorRecord,new</token>
+<token>System.Management.Automation.SwitchParameter,ToBool</token>
+<token>System.Management.Automation.ErrorRecord,new</token>
+</entry>
+<entry count="2114">
 <token>System.Management.Automation.PowerShell,AddParameter</token>
 <token>System.Management.Automation.PowerShell,Invoke</token>
 <token>System.Management.Automation.PowerShell,Create</token>
 </entry>
-<entry count="4">
+<entry count="1944">
+<token>System.Management.Automation.PSArgumentException,new</token>
+<token>System.Management.Automation.PSArgumentException,new</token>
+<token>System.Management.Automation.PSArgumentException,new</token>
+<token>System.Management.Automation.ErrorRecord,new</token>
+</entry>
+<entry count="16">
 <token>System.Management.Automation.PowerShell,BeginInvoke</token>
 <token>System.Management.Automation.PowerShell,Create</token>
 <token>System.Management.Automation.PowerShell,AddCommand</token>
+</entry>
+<entry count="1">
+<token>System.Management.Automation.PSDataCollection,Complete</token>
+<token>System.Management.Automation.PSObject,AsPSObject</token>
 </entry>
 <entry count="1">
 <token>System.Management.Automation.PSCommand,Clear</token>
@@ -2817,28 +2360,33 @@
 <token>System.Management.Automation.Cmdlet,WriteVerbose</token>
 <token>System.Management.Automation.Cmdlet,WriteWarning</token>
 </entry>
-<entry count="31">
-<token>System.Management.Automation.PowerShell,Create</token>
-<token>System.Management.Automation.PowerShell,Invoke</token>
-<token>System.Management.Automation.RuntimeException,new</token>
-<token>System.Management.Automation.PSDataCollection`1[[T</token>
-<token>-&gt;</token>
+<entry count="81">
+<token>System.Management.Automation.ErrorRecord,new</token>
+<token>System.Management.Automation.PSArgumentException,new</token>
+<token>System.Management.Automation.PSArgumentException,new</token>
+<token>System.Management.Automation.PSArgumentException,new</token>
+<token>System.Management.Automation.ErrorRecord,new</token>
 </entry>
-<entry count="90">
+<entry count="2168">
 <token>System.Management.Automation.PowerShell,AddParameter</token>
 <token>System.Management.Automation.PowerShell,Invoke</token>
 </entry>
-<entry count="1">
-<token>System.Management.Automation.DebugRecord,</token>
-<token>System.Management.Automation,</token>
-</entry>
 <entry count="2">
-<token>System.Management.Automation,</token>
-<token>3.0.0.0]],Complete</token>
+<token>System.Management.Automation.Cmdlet,WriteDebug</token>
+<token>System.Management.Automation.ErrorRecord,new</token>
+<token>System.Management.Automation.Cmdlet,ThrowTerminatingError</token>
+<token>System.Management.Automation.Cmdlet,WriteDebug</token>
+<token>System.Management.Automation.ErrorRecord,new</token>
 </entry>
 <entry count="6">
 <token>System.Management.Automation.PSCmdlet,GetUnresolvedProviderPathFromPSPath</token>
 <token>System.Management.Automation.PSCmdlet,GetUnresolvedProviderPathFromPSPath</token>
+</entry>
+<entry count="31">
+<token>System.Management.Automation.PowerShell,Create</token>
+<token>System.Management.Automation.PowerShell,AddScript</token>
+<token>System.Management.Automation.PowerShell,Invoke</token>
+<token>System.Management.Automation.PSDataCollection,Clear</token>
 </entry>
 <entry count="3">
 <token>System.Management.Automation.PowerShell,AddScript</token>
@@ -2860,31 +2408,33 @@
 <token>System.Management.Automation.PowerShell,AddParameter</token>
 <token>System.Management.Automation.PowerShell,AddParameter</token>
 </entry>
-<entry count="6">
+<entry count="1">
+<token>System.Management.Automation.PowerShellStreams,new</token>
+<token>System.Management.Automation.PSDataCollection,new</token>
+<token>System.Management.Automation.PSDataCollection,Complete</token>
+<token>System.Management.Automation.PSObject,AsPSObject</token>
+<token>System.Management.Automation.PSDataCollection,Add</token>
+</entry>
+<entry count="4">
+<token>System.Management.Automation.PowerShell,AddScript</token>
+<token>System.Management.Automation.PowerShell,Invoke</token>
+<token>System.Management.Automation.PSCommand,Clone</token>
+<token>System.Management.Automation.PowerShell,AddScript</token>
+</entry>
+<entry count="10">
 <token>System.Management.Automation.PowerShell,AddCommand</token>
 <token>System.Management.Automation.PowerShell,AddArgument</token>
 </entry>
-<entry count="2">
+<entry count="8">
 <token>System.Management.Automation.PowerShell,AddCommand</token>
 <token>System.Management.Automation.PowerShell,AddCommand</token>
 <token>System.Management.Automation.PowerShell,AddParameter</token>
 <token>System.Management.Automation.PowerShell,AddParameter</token>
 <token>System.Management.Automation.PowerShell,Invoke</token>
 </entry>
-<entry count="1">
-<token>System.Management.Automation.VerboseRecord,</token>
-<token>System.Management.Automation,</token>
-<token>3.0.0.0]],new</token>
-<token>System.Management.Automation.PSDataCollection`1[[T</token>
-</entry>
 <entry count="27">
 <token>System.Management.Automation.Cmdlet,WriteVerbose</token>
 <token>System.Management.Automation.Cmdlet,WriteDebug</token>
-</entry>
-<entry count="1">
-<token>System.Management.Automation,</token>
-<token>3.0.0.0]],Complete</token>
-<token>System.Management.Automation.PSObject,AsPSObject</token>
 </entry>
 <entry count="3">
 <token>System.Management.Automation.PowerShell,Create</token>
@@ -2896,13 +2446,6 @@
 <entry count="2">
 <token>System.Management.Automation.PowerShell,Create</token>
 <token>System.Management.Automation.PSCredential,new</token>
-</entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>System.Management.Automation.VerboseRecord,</token>
-<token>System.Management.Automation,</token>
-<token>3.0.0.0]],new</token>
-<token>System.Management.Automation.PSDataCollection`1[[T</token>
 </entry>
 <entry count="9">
 <token>System.Management.Automation.PSCommand,new</token>
@@ -2917,25 +2460,31 @@
 <token>System.Management.Automation.PowerShell,Invoke</token>
 </entry>
 <entry count="9">
-<token>System.Management.Automation,</token>
-<token>3.0.0.0]],new</token>
-<token>System.Management.Automation.PSDataCollection`1[[T</token>
-</entry>
-<entry count="1">
-<token>3.0.0.0]],new</token>
-<token>System.Management.Automation.PSDataCollection`1[[T</token>
-<token>-&gt;</token>
-<token>System.Management.Automation.VerboseRecord,</token>
-</entry>
-<entry count="3">
 <token>System.Management.Automation.PowerShell,AddCommand</token>
 <token>System.Management.Automation.PowerShell,AddParameter</token>
 <token>System.Management.Automation.PSCommand,Clear</token>
 <token>System.Management.Automation.PSCommand,AddCommand</token>
 </entry>
-<entry count="2">
+<entry count="8">
 <token>System.Management.Automation.Cmdlet,ThrowTerminatingError</token>
 <token>System.Management.Automation.Cmdlet,WriteDebug</token>
+</entry>
+<entry count="1">
+<token>System.Management.Automation.PSDataCollection,new</token>
+<token>System.Management.Automation.PowerShell,BeginInvoke</token>
+<token>System.Management.Automation.PowerShell,Stop</token>
+</entry>
+<entry count="19285">
+<token>System.Management.Automation.PSInvalidOperationException,new</token>
+<token>System.Management.Automation.PSInvalidOperationException,new</token>
+<token>System.Management.Automation.PSInvalidOperationException,new</token>
+<token>System.Management.Automation.PSInvalidOperationException,new</token>
+<token>System.Management.Automation.PSInvalidOperationException,new</token>
+</entry>
+<entry count="31">
+<token>System.Management.Automation.PowerShell,AddScript</token>
+<token>System.Management.Automation.PowerShell,Invoke</token>
+<token>System.Management.Automation.PSDataCollection,Clear</token>
 </entry>
 <entry count="2">
 <token>System.Management.Automation.ContentCmdletProviderIntrinsics,GetReader</token>
@@ -2947,11 +2496,6 @@
 <token>System.Management.Automation.PowerShell,Invoke</token>
 <token>System.Management.Automation.PSCommand,Clear</token>
 </entry>
-<entry count="2">
-<token>System.Management.Automation.PSObject,</token>
-<token>System.Management.Automation,</token>
-<token>3.0.0.0],[TOutput</token>
-</entry>
 <entry count="232">
 <token>System.Management.Automation.ParameterAttribute,new</token>
 <token>System.Management.Automation.AllowNullAttribute,new</token>
@@ -2959,38 +2503,24 @@
 <token>System.Management.Automation.ParameterAttribute,new</token>
 <token>System.Management.Automation.AllowNullAttribute,new</token>
 </entry>
-<entry count="11">
-<token>System.Management.Automation,</token>
-<token>3.0.0.0]],Add</token>
-<token>System.Management.Automation.PSNoteProperty,new</token>
-<token>System.Management.Automation.PSMemberInfoCollection`1[[T</token>
-<token>-&gt;</token>
-</entry>
-<entry count="4">
+<entry count="20">
 <token>System.Management.Automation.PSCommand,Clone</token>
 <token>System.Management.Automation.PowerShell,AddScript</token>
 <token>System.Management.Automation.PowerShell,Invoke</token>
 </entry>
-<entry count="1">
-<token>System.Management.Automation.VerboseRecord,</token>
-<token>System.Management.Automation,</token>
-<token>3.0.0.0]],new</token>
-<token>System.Management.Automation.PSDataCollection`1[[T</token>
-<token>-&gt;</token>
+<entry count="76">
+<token>System.Management.Automation.RuntimeDefinedParameter,new</token>
+<token>System.Management.Automation.ParameterAttribute,new</token>
+<token>System.Management.Automation.ValidateSetAttribute,new</token>
+<token>System.Management.Automation.ValidateLengthAttribute,new</token>
+<token>System.Management.Automation.ValidateLengthAttribute,new</token>
 </entry>
-<entry count="4">
+<entry count="16">
 <token>System.Management.Automation.PowerShell,Create</token>
 <token>System.Management.Automation.PowerShell,AddCommand</token>
 <token>System.Management.Automation.PowerShell,BeginInvoke</token>
 <token>System.Management.Automation.PowerShell,EndInvoke</token>
 <token>System.Management.Automation.PowerShell,EndInvoke</token>
-</entry>
-<entry count="1">
-<token>3.0.0.0]],new</token>
-<token>System.Management.Automation.PSDataCollection`1[[T</token>
-<token>-&gt;</token>
-<token>System.Management.Automation.ProgressRecord,</token>
-<token>System.Management.Automation,</token>
 </entry>
 <entry count="3">
 <token>System.Management.Automation.PowerShell,Create</token>
@@ -3003,13 +2533,7 @@
 <token>System.Management.Automation.PowerShell,Create</token>
 <token>System.Management.Automation.PSDataStreams,ClearStreams</token>
 </entry>
-<entry count="2">
-<token>System.Management.Automation.PowerShell,Create</token>
-<token>System.Management.Automation.PowerShell,AddScript</token>
-<token>System.Management.Automation.PSDataCollection`1[[T</token>
-<token>-&gt;</token>
-</entry>
-<entry count="24">
+<entry count="112">
 <token>System.Management.Automation.ApplicationFailedException,new</token>
 <token>System.Management.Automation.ErrorRecord,new</token>
 </entry>
@@ -3024,7 +2548,7 @@
 <token>System.Management.Automation.PowerShell,AddCommand</token>
 <token>System.Management.Automation.PowerShell,Invoke</token>
 </entry>
-<entry count="5">
+<entry count="1185">
 <token>System.Management.Automation.PSObject,ToString</token>
 <token>System.Management.Automation.PSObject,ToString</token>
 </entry>
@@ -3043,7 +2567,14 @@
 <token>System.Management.Automation.PSCommand,AddParameter</token>
 <token>System.Management.Automation.PSCommand,AddParameter</token>
 </entry>
-<entry count="8">
+<entry count="1944">
+<token>System.Management.Automation.PSArgumentException,new</token>
+<token>System.Management.Automation.PSArgumentException,new</token>
+<token>System.Management.Automation.ErrorRecord,new</token>
+<token>System.Management.Automation.PSArgumentException,new</token>
+<token>System.Management.Automation.ErrorRecord,new</token>
+</entry>
+<entry count="64">
 <token>System.Management.Automation.JobDefinition,new</token>
 <token>System.Management.Automation.JobInvocationInfo,new</token>
 <token>System.Management.Automation.Job2,StartJob</token>
@@ -3054,37 +2585,25 @@
 <token>System.Management.Automation.Cmdlet,WriteVerbose</token>
 <token>System.Management.Automation.Cmdlet,WriteDebug</token>
 </entry>
-<entry count="31">
-<token>System.Management.Automation.PowerShell,Create</token>
+<entry count="4">
 <token>System.Management.Automation.PowerShell,Invoke</token>
-<token>System.Management.Automation.PSDataCollection`1[[T</token>
-</entry>
-<entry count="1">
-<token>System.Management.Automation.PSDataCollection`1[[T</token>
-<token>-&gt;</token>
-<token>System.Management.Automation.ErrorRecord,</token>
-<token>System.Management.Automation,</token>
-<token>3.0.0.0]],new</token>
+<token>System.Management.Automation.PSCommand,Clone</token>
 </entry>
 <entry count="1">
 <token>System.Management.Automation.WildcardPattern,new</token>
 <token>System.Management.Automation.Cmdlet,WriteVerbose</token>
 </entry>
-<entry count="4">
-<token>System.Management.Automation.PSMemberInfoCollection`1[[T</token>
-<token>-&gt;</token>
-<token>System.Management.Automation.PSMemberInfo,</token>
-<token>System.Management.Automation,</token>
-<token>3.0.0.0]],Add</token>
-</entry>
-<entry count="2">
-<token>3.0.0.0],[TOutput</token>
-<token>-&gt;</token>
-</entry>
-<entry count="76">
+<entry count="228">
 <token>System.Management.Automation.RuntimeDefinedParameter,new</token>
 <token>System.Management.Automation.ParameterAttribute,new</token>
 <token>System.Management.Automation.ValidateLengthAttribute,new</token>
+</entry>
+<entry count="1">
+<token>System.Management.Automation.ErrorRecord,new</token>
+<token>System.Management.Automation.SwitchParameter,ToBool</token>
+<token>System.Management.Automation.ErrorRecord,new</token>
+<token>System.Management.Automation.SwitchParameter,ToBool</token>
+<token>System.Management.Automation.ErrorRecord,new</token>
 </entry>
 <entry count="6">
 <token>System.Management.Automation.PSCommand,AddParameter</token>
@@ -3093,13 +2612,13 @@
 <token>System.Management.Automation.PSCommand,new</token>
 <token>System.Management.Automation.PSCommand,AddCommand</token>
 </entry>
-<entry count="35">
+<entry count="731">
 <token>System.Management.Automation.PowerShell,Create</token>
 <token>System.Management.Automation.PowerShell,AddCommand</token>
 <token>System.Management.Automation.PowerShell,AddParameter</token>
 <token>System.Management.Automation.PowerShell,Invoke</token>
 </entry>
-<entry count="8">
+<entry count="64">
 <token>System.Management.Automation.PSCmdlet,GetResolvedProviderPathFromPSPath</token>
 <token>System.Management.Automation.PSCmdlet,GetResolvedProviderPathFromPSPath</token>
 <token>System.Management.Automation.JobDefinition,new</token>
@@ -3108,12 +2627,23 @@
 <token>System.Management.Automation.ICommandRuntime,ShouldContinue</token>
 <token>System.Management.Automation.ICommandRuntime,WriteObject</token>
 </entry>
-<entry count="560">
+<entry count="2">
+<token>System.Management.Automation.PowerShell,Create</token>
+<token>System.Management.Automation.PowerShell,AddScript</token>
+<token>System.Management.Automation.PSDataCollection,new</token>
+<token>System.Management.Automation.PowerShell,BeginInvoke</token>
+</entry>
+<entry count="1">
+<token>System.Management.Automation.PSDataCollection,Complete</token>
+<token>System.Management.Automation.PSObject,AsPSObject</token>
+<token>System.Management.Automation.PSDataCollection,Add</token>
+</entry>
+<entry count="3888">
 <token>System.Management.Automation.ErrorRecord,new</token>
 <token>System.Management.Automation.PSArgumentException,new</token>
 <token>System.Management.Automation.PSArgumentException,new</token>
 </entry>
-<entry count="805">
+<entry count="113643">
 <token>System.Management.Automation.PSArgumentException,new</token>
 <token>System.Management.Automation.ErrorRecord,new</token>
 <token>System.Management.Automation.PSArgumentException,new</token>
@@ -3130,41 +2660,57 @@
 <token>System.Management.Automation.PowerShell,Invoke</token>
 <token>System.Management.Automation.PSCommand,Clear</token>
 </entry>
-<entry count="1">
-<token>System.Management.Automation.VerboseRecord,</token>
-<token>System.Management.Automation,</token>
-<token>3.0.0.0]],new</token>
-</entry>
-<entry count="8">
+<entry count="64">
 <token>System.Management.Automation.JobDefinition,new</token>
 <token>System.Management.Automation.JobInvocationInfo,new</token>
 </entry>
-<entry count="128">
-<token>System.Management.Automation.PSDataCollection`1[[T</token>
-<token>-&gt;</token>
-<token>System.Management.Automation.ErrorRecord,</token>
+<entry count="8">
+<token>System.Management.Automation.PSObject,new</token>
+<token>System.Management.Automation.Cmdlet,WriteVerbose</token>
+<token>System.Management.Automation.PSObject,new</token>
+</entry>
+<entry count="1">
+<token>System.Management.Automation.PowerShell,Create</token>
+<token>System.Management.Automation.PowerShell,AddScript</token>
+<token>System.Management.Automation.PSDataCollection,new</token>
+<token>System.Management.Automation.PowerShell,BeginInvoke</token>
+<token>System.Management.Automation.PowerShell,Stop</token>
+</entry>
+<entry count="22">
+<token>System.Management.Automation.PSObject,new</token>
+<token>System.Management.Automation.Cmdlet,WriteVerbose</token>
+</entry>
+<entry count="5">
+<token>System.Management.Automation.PSDataCollection,new</token>
+<token>System.Management.Automation.PSDataCollection,new</token>
 </entry>
 <entry count="5">
 <token>System.Management.Automation.PowerShell,Create</token>
 <token>System.Management.Automation.PowerShell,AddParameter</token>
 <token>System.Management.Automation.PowerShell,Invoke</token>
 </entry>
+<entry count="111">
+<token>System.Management.Automation.PSObject,ToString</token>
+<token>System.Management.Automation.PSObject,ToString</token>
+<token>System.Management.Automation.PSObject,ToString</token>
+<token>System.Management.Automation.PSObject,ToString</token>
+</entry>
 <entry count="1">
 <token>System.Management.Automation.PSCommand,Clear</token>
 <token>System.Management.Automation.PowerShell,AddScript</token>
 </entry>
+<entry count="5">
+<token>System.Management.Automation.SwitchParameter,ToBool</token>
+<token>System.Management.Automation.ErrorRecord,new</token>
+<token>System.Management.Automation.SwitchParameter,ToBool</token>
+<token>System.Management.Automation.SwitchParameter,ToBool</token>
+<token>System.Management.Automation.ErrorRecord,new</token>
+</entry>
 <entry count="3">
 <token>System.Management.Automation.PowerShell,AddParameter</token>
 <token>System.Management.Automation.PowerShell,AddCommand</token>
 <token>System.Management.Automation.PowerShell,AddParameter</token>
 <token>System.Management.Automation.PowerShell,Invoke</token>
-</entry>
-<entry count="1">
-<token>System.Management.Automation.Cmdlet,WriteObject</token>
-<token>System.Management.Automation.ScriptBlock,Invoke</token>
-<token>System.Management.Automation.PSObject,new</token>
-<token>System.Management.Automation.PSNoteProperty,new</token>
-<token>System.Management.Automation.PSMemberInfoCollection`1[[T</token>
 </entry>
 <entry count="3">
 <token>System.Management.Automation.PowerShell,Invoke</token>
@@ -3173,51 +2719,49 @@
 <token>System.Management.Automation.PowerShell,AddParameter</token>
 <token>System.Management.Automation.PowerShell,AddParameter</token>
 </entry>
-<entry count="6">
+<entry count="24">
 <token>System.Management.Automation.Cmdlet,WriteDebug</token>
 <token>System.Management.Automation.Cmdlet,WriteDebug</token>
 </entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>System.Management.Automation.WarningRecord,</token>
-<token>System.Management.Automation,</token>
+<entry count="325">
+<token>System.Management.Automation.WildcardPattern,IsMatch</token>
+<token>System.Management.Automation.WildcardPattern,IsMatch</token>
 </entry>
-<entry count="2">
-<token>-&gt;</token>
-<token>System.Management.Automation.PSMemberInfo,</token>
-<token>System.Management.Automation,</token>
-<token>3.0.0.0]],Add</token>
-<token>System.Management.Automation.Cmdlet,WriteObject</token>
-</entry>
-<entry count="18">
+<entry count="706">
 <token>System.Management.Automation.PowerShell,AddCommand</token>
 <token>System.Management.Automation.PowerShell,AddParameter</token>
 <token>System.Management.Automation.PowerShell,Invoke</token>
 <token>System.Management.Automation.PowerShell,Create</token>
 <token>System.Management.Automation.PowerShell,AddCommand</token>
 </entry>
-<entry count="32">
+<entry count="1408">
 <token>System.Management.Automation.PowerShell,Create</token>
 <token>System.Management.Automation.PowerShell,AddCommand</token>
 <token>System.Management.Automation.PowerShell,AddParameter</token>
 <token>System.Management.Automation.PowerShell,AddCommand</token>
 </entry>
-<entry count="76">
+<entry count="228">
 <token>System.Management.Automation.RuntimeDefinedParameter,new</token>
 <token>System.Management.Automation.ParameterAttribute,new</token>
 <token>System.Management.Automation.ValidateSetAttribute,new</token>
 <token>System.Management.Automation.ValidateLengthAttribute,new</token>
 </entry>
-<entry count="50">
+<entry count="5">
+<token>System.Management.Automation.PSObject,new</token>
+<token>System.Management.Automation.PSNoteProperty,new</token>
+<token>System.Management.Automation.PSMemberInfoCollection,Add</token>
+<token>System.Management.Automation.PSNoteProperty,new</token>
+</entry>
+<entry count="2626">
 <token>System.Management.Automation.PowerShell,Invoke</token>
 <token>System.Management.Automation.PowerShell,Create</token>
 <token>System.Management.Automation.PowerShell,AddCommand</token>
 </entry>
-<entry count="1">
-<token>3.0.0.0]],new</token>
-<token>System.Management.Automation.PSDataCollection`1[[T</token>
-<token>-&gt;</token>
-<token>System.Management.Automation.ProgressRecord,</token>
+<entry count="30">
+<token>System.Management.Automation.SwitchParameter,ToBool</token>
+<token>System.Management.Automation.SwitchParameter,ToBool</token>
+<token>System.Management.Automation.ErrorRecord,new</token>
+<token>System.Management.Automation.SwitchParameter,ToBool</token>
 </entry>
 <entry count="2">
 <token>System.Management.Automation.PowerShell,Invoke</token>
@@ -3238,11 +2782,24 @@
 <token>System.Management.Automation.PSObject,ToString</token>
 <token>System.Management.Automation.PSObject,AsPSObject</token>
 </entry>
-<entry count="140">
-<token>System.Management.Automation.PSPropertyInfo,</token>
-<token>System.Management.Automation,</token>
+<entry count="162">
+<token>System.Management.Automation.PSArgumentException,new</token>
+<token>System.Management.Automation.PSArgumentException,new</token>
+<token>System.Management.Automation.ErrorRecord,new</token>
+<token>System.Management.Automation.PSArgumentException,new</token>
+<token>System.Management.Automation.PSArgumentException,new</token>
 </entry>
-<entry count="4">
+<entry count="1">
+<token>System.Management.Automation.PSObject,AsPSObject</token>
+<token>System.Management.Automation.PSDataCollection,Add</token>
+</entry>
+<entry count="1">
+<token>System.Management.Automation.PowerShell,AddScript</token>
+<token>System.Management.Automation.PSDataCollection,new</token>
+<token>System.Management.Automation.PowerShell,BeginInvoke</token>
+<token>System.Management.Automation.PowerShell,Stop</token>
+</entry>
+<entry count="16">
 <token>System.Management.Automation.PowerShell,Create</token>
 <token>System.Management.Automation.PowerShell,AddCommand</token>
 <token>System.Management.Automation.PowerShell,BeginInvoke</token>
@@ -3252,6 +2809,13 @@
 <token>System.Management.Automation.ICommandRuntime,WriteObject</token>
 <token>System.Management.Automation.SwitchParameter,ToBool</token>
 <token>System.Management.Automation.ICommandRuntime,WriteObject</token>
+</entry>
+<entry count="1">
+<token>System.Management.Automation.Cmdlet,WriteObject</token>
+<token>System.Management.Automation.ScriptBlock,Invoke</token>
+<token>System.Management.Automation.PSObject,new</token>
+<token>System.Management.Automation.PSNoteProperty,new</token>
+<token>System.Management.Automation.PSMemberInfoCollection,Add</token>
 </entry>
 <entry count="1">
 <token>System.Management.Automation.RunspaceInvoke,new</token>
@@ -3268,12 +2832,9 @@
 <token>System.Management.Automation.PowerShell,Invoke</token>
 <token>System.Management.Automation.PSObject,ToString</token>
 </entry>
-<entry count="31">
-<token>System.Management.Automation.PowerShell,Create</token>
-<token>System.Management.Automation.PowerShell,AddScript</token>
-<token>System.Management.Automation.PowerShell,Invoke</token>
-<token>System.Management.Automation.PSDataCollection`1[[T</token>
-<token>-&gt;</token>
+<entry count="11">
+<token>System.Management.Automation.PSMemberInfoCollection,Add</token>
+<token>System.Management.Automation.PSNoteProperty,new</token>
 </entry>
 <entry count="3">
 <token>System.Management.Automation.PowerShell,AddCommand</token>
@@ -3282,7 +2843,7 @@
 <token>System.Management.Automation.PowerShell,AddParameter</token>
 <token>System.Management.Automation.PowerShell,Invoke</token>
 </entry>
-<entry count="721">
+<entry count="56376">
 <token>System.Management.Automation.ErrorRecord,new</token>
 <token>System.Management.Automation.PSArgumentException,new</token>
 <token>System.Management.Automation.ErrorRecord,new</token>
@@ -3292,19 +2853,19 @@
 <token>System.Management.Automation.PowerShell,Invoke</token>
 <token>System.Management.Automation.LanguagePrimitives,ConvertTo</token>
 </entry>
-<entry count="805">
+<entry count="113643">
 <token>System.Management.Automation.ErrorRecord,new</token>
 <token>System.Management.Automation.PSArgumentException,new</token>
 <token>System.Management.Automation.ErrorRecord,new</token>
 </entry>
-<entry count="3">
+<entry count="9">
 <token>System.Management.Automation.PowerShell,AddCommand</token>
 <token>System.Management.Automation.PowerShell,AddParameter</token>
 <token>System.Management.Automation.PSCommand,Clear</token>
 </entry>
 <entry count="2">
-<token>System.Management.Automation,</token>
-<token>3.0.0.0],[TOutput</token>
+<token>System.Management.Automation.PSDataCollection,new</token>
+<token>System.Management.Automation.PSDataCollection,Complete</token>
 </entry>
 <entry count="24">
 <token>System.Management.Automation.PowerShell,AddScript</token>
@@ -3346,7 +2907,7 @@
 <token>System.Management.Automation.Cmdlet,WriteVerbose</token>
 <token>System.Management.Automation.ContentCmdletProviderIntrinsics,GetReader</token>
 </entry>
-<entry count="357">
+<entry count="401">
 <token>System.Management.Automation.PowerShell,AddScript</token>
 <token>System.Management.Automation.PowerShell,Invoke</token>
 </entry>
@@ -3366,14 +2927,21 @@
 <token>System.Management.Automation.PowerShell,Invoke</token>
 <token>System.Management.Automation.LanguagePrimitives,ConvertTo</token>
 </entry>
-<entry count="5">
+<entry count="4">
+<token>System.Management.Automation.PSCommand,Clone</token>
+<token>System.Management.Automation.PowerShell,AddScript</token>
+<token>System.Management.Automation.PowerShell,Invoke</token>
+<token>System.Management.Automation.PSCommand,Clone</token>
+<token>System.Management.Automation.PowerShell,AddScript</token>
+</entry>
+<entry count="11">
 <token>System.Management.Automation.PowerShell,Create</token>
 <token>System.Management.Automation.PowerShell,AddCommand</token>
 <token>System.Management.Automation.PowerShell,AddCommand</token>
 <token>System.Management.Automation.PowerShell,AddParameter</token>
 <token>System.Management.Automation.PowerShell,AddParameter</token>
 </entry>
-<entry count="4">
+<entry count="36">
 <token>System.Management.Automation.ErrorRecord,new</token>
 <token>System.Management.Automation.ApplicationFailedException,new</token>
 <token>System.Management.Automation.ErrorRecord,new</token>
@@ -3382,7 +2950,7 @@
 <token>System.Management.Automation.Cmdlet,ShouldProcess</token>
 <token>System.Management.Automation.Cmdlet,WriteVerbose</token>
 </entry>
-<entry count="1">
+<entry count="447">
 <token>System.Management.Automation.PSObject,ToString</token>
 <token>System.Management.Automation.PSObject,ToString</token>
 <token>System.Management.Automation.PSObject,ToString</token>
@@ -3398,34 +2966,28 @@
 <token>System.Management.Automation.PSCommand,AddParameter</token>
 <token>System.Management.Automation.PSCommand,AddParameter</token>
 </entry>
-<entry count="2">
-<token>-&gt;</token>
-<token>System.Management.Automation.PSObject,</token>
-<token>System.Management.Automation,</token>
-<token>3.0.0.0],[TOutput</token>
-</entry>
-<entry count="4">
+<entry count="16">
 <token>System.Management.Automation.PowerShell,AddCommand</token>
 <token>System.Management.Automation.PowerShell,BeginInvoke</token>
 <token>System.Management.Automation.PowerShell,Create</token>
 <token>System.Management.Automation.PowerShell,AddCommand</token>
 </entry>
-<entry count="40">
+<entry count="1422">
 <token>System.Management.Automation.PowerShell,AddParameter</token>
 <token>System.Management.Automation.PowerShell,AddParameter</token>
 <token>System.Management.Automation.PowerShell,Invoke</token>
-</entry>
-<entry count="4">
-<token>System.Management.Automation.PSNoteProperty,new</token>
-<token>System.Management.Automation.PSMemberInfoCollection`1[[T</token>
-<token>-&gt;</token>
-<token>System.Management.Automation.PSMemberInfo,</token>
 </entry>
 <entry count="1">
 <token>System.Management.Automation.Cmdlet,WriteVerbose</token>
 <token>System.Management.Automation.Cmdlet,WriteDebug</token>
 <token>System.Management.Automation.WildcardPattern,new</token>
 <token>System.Management.Automation.Cmdlet,WriteVerbose</token>
+</entry>
+<entry count="166">
+<token>System.Management.Automation.PSArgumentException,new</token>
+<token>System.Management.Automation.PSArgumentException,new</token>
+<token>System.Management.Automation.PSArgumentException,new</token>
+<token>System.Management.Automation.PSArgumentException,new</token>
 </entry>
 <entry count="2">
 <token>System.Management.Automation.Cmdlet,WriteVerbose</token>
@@ -3434,39 +2996,27 @@
 <token>System.Management.Automation.Cmdlet,WriteObject</token>
 <token>System.Management.Automation.PSVariableIntrinsics,Set</token>
 </entry>
-<entry count="31">
-<token>System.Management.Automation.PowerShell,Create</token>
-<token>System.Management.Automation.PowerShell,Invoke</token>
-<token>System.Management.Automation.PSDataCollection`1[[T</token>
-<token>-&gt;</token>
-</entry>
 <entry count="3">
 <token>System.Management.Automation.PowerShell,AddCommand</token>
 <token>System.Management.Automation.ErrorRecord,new</token>
 <token>System.Management.Automation.PowerShell,AddParameter</token>
 </entry>
-<entry count="1">
-<token>System.Management.Automation,</token>
-<token>3.0.0.0]],new</token>
-<token>System.Management.Automation.PowerShell,BeginInvoke</token>
-<token>System.Management.Automation.PowerShell,Stop</token>
+<entry count="512">
+<token>System.Management.Automation.PowerShell,AddParameter</token>
+<token>System.Management.Automation.PowerShell,AddCommand</token>
+<token>System.Management.Automation.PowerShell,Invoke</token>
+<token>System.Management.Automation.PowerShell,Create</token>
 </entry>
 <entry count="1">
 <token>System.Management.Automation.Cmdlet,WriteDebug</token>
 <token>System.Management.Automation.WildcardPattern,new</token>
 <token>System.Management.Automation.Cmdlet,WriteVerbose</token>
 </entry>
-<entry count="5">
+<entry count="19">
 <token>System.Management.Automation.ErrorRecord,new</token>
 <token>System.Management.Automation.Cmdlet,ThrowTerminatingError</token>
 </entry>
-<entry count="9">
-<token>System.Management.Automation.PSDataCollection`1[[T</token>
-<token>-&gt;</token>
-<token>System.Management.Automation.PSObject,</token>
-<token>System.Management.Automation,</token>
-</entry>
-<entry count="1932">
+<entry count="251100">
 <token>System.Management.Automation.PSArgumentException,new</token>
 <token>System.Management.Automation.ErrorRecord,new</token>
 </entry>
@@ -3474,13 +3024,6 @@
 <token>System.Management.Automation.Cmdlet,WriteError</token>
 <token>System.Management.Automation.Cmdlet,WriteVerbose</token>
 <token>System.Management.Automation.Cmdlet,WriteWarning</token>
-</entry>
-<entry count="31">
-<token>System.Management.Automation.PowerShell,AddScript</token>
-<token>System.Management.Automation.PowerShell,Invoke</token>
-<token>System.Management.Automation.PSDataCollection`1[[T</token>
-<token>-&gt;</token>
-<token>System.Management.Automation.ErrorRecord,</token>
 </entry>
 <entry count="1">
 <token>System.Management.Automation.ProxyCommand,Create</token>
@@ -3493,29 +3036,20 @@
 <token>System.Management.Automation.Cmdlet,WriteError</token>
 <token>System.Management.Automation.Cmdlet,WriteVerbose</token>
 </entry>
-<entry count="3">
+<entry count="5">
 <token>System.Management.Automation.PowerShell,Invoke</token>
 <token>System.Management.Automation.PSObject,ToString</token>
-</entry>
-<entry count="11">
-<token>System.Management.Automation,</token>
-<token>3.0.0.0]],Add</token>
-<token>System.Management.Automation.PSNoteProperty,new</token>
 </entry>
 <entry count="232">
 <token>System.Management.Automation.AllowNullAttribute,new</token>
 <token>System.Management.Automation.RuntimeDefinedParameter,new</token>
 <token>System.Management.Automation.ParameterAttribute,new</token>
 </entry>
-<entry count="140">
-<token>-&gt;</token>
-<token>System.Management.Automation.PSPropertyInfo,</token>
-</entry>
 <entry count="120">
 <token>System.Management.Automation.PSCmdlet,GetUnresolvedProviderPathFromPSPath</token>
 <token>System.Management.Automation.ProgressRecord,new</token>
 </entry>
-<entry count="334">
+<entry count="362">
 <token>System.Management.Automation.PowerShell,Create</token>
 <token>System.Management.Automation.PowerShell,AddScript</token>
 <token>System.Management.Automation.PowerShell,Invoke</token>
@@ -3531,30 +3065,22 @@
 <token>System.Management.Automation.ICommandRuntime,WriteObject</token>
 <token>System.Management.Automation.ICommandRuntime,WriteObject</token>
 </entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>System.Management.Automation.ProgressRecord,</token>
-<token>System.Management.Automation,</token>
-</entry>
-<entry count="126">
-<token>System.Management.Automation.PSDataCollection`1[[T</token>
-<token>-&gt;</token>
-<token>System.Management.Automation.ErrorRecord,</token>
-<token>System.Management.Automation,</token>
-<token>3.0.0.0]],Clear</token>
-</entry>
-<entry count="2">
-<token>-&gt;</token>
-<token>System.Management.Automation.PSMemberInfo,</token>
-<token>System.Management.Automation,</token>
-<token>3.0.0.0]],Add</token>
-<token>System.Management.Automation.PSNoteProperty,new</token>
-</entry>
-<entry count="6">
+<entry count="10">
 <token>System.Management.Automation.PowerShell,Create</token>
 <token>System.Management.Automation.PowerShell,AddCommand</token>
 <token>System.Management.Automation.PowerShell,AddCommand</token>
 <token>System.Management.Automation.PowerShell,AddArgument</token>
+</entry>
+<entry count="4">
+<token>System.Management.Automation.ApplicationFailedException,new</token>
+<token>System.Management.Automation.ErrorRecord,new</token>
+<token>System.Management.Automation.ApplicationFailedException,new</token>
+<token>System.Management.Automation.ErrorRecord,new</token>
+<token>System.Management.Automation.ApplicationFailedException,new</token>
+</entry>
+<entry count="15712">
+<token>System.Management.Automation.PathIntrinsics,GetUnresolvedProviderPathFromPSPath</token>
+<token>System.Management.Automation.PathIntrinsics,GetUnresolvedProviderPathFromPSPath</token>
 </entry>
 <entry count="232">
 <token>System.Management.Automation.RuntimeDefinedParameter,new</token>
@@ -3568,19 +3094,20 @@
 <token>System.Management.Automation.PowerShell,Invoke</token>
 <token>System.Management.Automation.Cmdlet,WriteError</token>
 </entry>
+<entry count="1">
+<token>System.Management.Automation.PSDataCollection,new</token>
+<token>System.Management.Automation.PSDataCollection,Complete</token>
+<token>System.Management.Automation.PSObject,AsPSObject</token>
+</entry>
 <entry count="232">
 <token>System.Management.Automation.AllowNullAttribute,new</token>
 <token>System.Management.Automation.RuntimeDefinedParameter,new</token>
 <token>System.Management.Automation.ParameterAttribute,new</token>
 <token>System.Management.Automation.AllowNullAttribute,new</token>
 </entry>
-<entry count="8">
+<entry count="64">
 <token>System.Management.Automation.PSCmdlet,GetResolvedProviderPathFromPSPath</token>
 <token>System.Management.Automation.PSCmdlet,GetResolvedProviderPathFromPSPath</token>
-</entry>
-<entry count="2">
-<token>System.Management.Automation.PowerShellStreams`2[[TInput</token>
-<token>-&gt;</token>
 </entry>
 <entry count="1">
 <token>System.Management.Automation.PSDataStreams,ClearStreams</token>
@@ -3594,39 +3121,13 @@
 <token>System.Management.Automation.PSCommand,AddParameter</token>
 </entry>
 <entry count="4">
-<token>System.Management.Automation.PSMemberInfo,</token>
-<token>System.Management.Automation,</token>
-<token>3.0.0.0]],Add</token>
-</entry>
-<entry count="128">
-<token>System.Management.Automation.ErrorRecord,</token>
-<token>System.Management.Automation,</token>
-</entry>
-<entry count="13">
-<token>-&gt;</token>
-<token>System.Management.Automation.PSObject,</token>
-</entry>
-<entry count="2">
 <token>System.Management.Automation.PowerShell,AddCommand</token>
 <token>System.Management.Automation.PowerShell,AddCommand</token>
 <token>System.Management.Automation.PowerShell,AddArgument</token>
 <token>System.Management.Automation.PowerShell,Invoke</token>
 <token>System.Management.Automation.PSObject,ToString</token>
 </entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>System.Management.Automation.PSObject,</token>
-<token>System.Management.Automation,</token>
-<token>3.0.0.0]],Add</token>
-</entry>
-<entry count="1">
-<token>System.Management.Automation.PSDataCollection`1[[T</token>
-<token>-&gt;</token>
-<token>System.Management.Automation.PSObject,</token>
-<token>System.Management.Automation,</token>
-<token>3.0.0.0]],Add</token>
-</entry>
-<entry count="3">
+<entry count="9">
 <token>System.Management.Automation.PSCommand,AddCommand</token>
 <token>System.Management.Automation.PowerShell,AddParameter</token>
 </entry>
@@ -3640,21 +3141,14 @@
 <token>System.Management.Automation.Cmdlet,WriteVerbose</token>
 <token>System.Management.Automation.Cmdlet,WriteDebug</token>
 </entry>
-<entry count="4">
+<entry count="16">
 <token>System.Management.Automation.PowerShell,BeginInvoke</token>
 <token>System.Management.Automation.PowerShell,EndInvoke</token>
 <token>System.Management.Automation.PowerShell,EndInvoke</token>
 </entry>
-<entry count="76">
+<entry count="228">
 <token>System.Management.Automation.ValidateSetAttribute,new</token>
 <token>System.Management.Automation.ValidateLengthAttribute,new</token>
-</entry>
-<entry count="1">
-<token>System.Management.Automation,</token>
-<token>3.0.0.0]],new</token>
-<token>System.Management.Automation.PSDataCollection`1[[T</token>
-<token>-&gt;</token>
-<token>System.Management.Automation.DebugRecord,</token>
 </entry>
 <entry count="1">
 <token>System.Management.Automation.PSCommand,AddParameter</token>
@@ -3667,40 +3161,17 @@
 <token>System.Management.Automation.PowerShell,Invoke</token>
 <token>System.Management.Automation.PowerShell,Dispose</token>
 </entry>
-<entry count="9">
-<token>System.Management.Automation.PSDataCollection`1[[T</token>
-<token>-&gt;</token>
-<token>System.Management.Automation.PSObject,</token>
-</entry>
-<entry count="1">
-<token>System.Management.Automation.PSDataCollection`1[[T</token>
-<token>-&gt;</token>
-<token>System.Management.Automation.DebugRecord,</token>
-</entry>
-<entry count="46">
+<entry count="294">
 <token>System.Management.Automation.SwitchParameter,ToBool</token>
 <token>System.Management.Automation.Cmdlet,WriteObject</token>
 </entry>
-<entry count="1">
+<entry count="3">
 <token>System.Management.Automation.ErrorRecord,new</token>
 <token>System.Management.Automation.Cmdlet,ThrowTerminatingError</token>
 <token>System.Management.Automation.Cmdlet,WriteDebug</token>
 <token>System.Management.Automation.Cmdlet,WriteObject</token>
 </entry>
-<entry count="126">
-<token>-&gt;</token>
-<token>System.Management.Automation.ErrorRecord,</token>
-<token>System.Management.Automation,</token>
-<token>3.0.0.0]],Clear</token>
-</entry>
-<entry count="2">
-<token>System.Management.Automation,</token>
-<token>3.0.0.0],[TOutput</token>
-<token>-&gt;</token>
-<token>System.Management.Automation.PSObject,</token>
-<token>System.Management.Automation,</token>
-</entry>
-<entry count="804">
+<entry count="43244">
 <token>System.Management.Automation.PSArgumentException,new</token>
 <token>System.Management.Automation.PSArgumentException,new</token>
 </entry>
@@ -3717,6 +3188,18 @@
 <token>System.Management.Automation.PSCommand,new</token>
 <token>System.Management.Automation.PSCommand,AddCommand</token>
 </entry>
+<entry count="4">
+<token>System.Management.Automation.ErrorRecord,new</token>
+<token>System.Management.Automation.ApplicationFailedException,new</token>
+<token>System.Management.Automation.ErrorRecord,new</token>
+<token>System.Management.Automation.ApplicationFailedException,new</token>
+</entry>
+<entry count="76">
+<token>System.Management.Automation.RuntimeDefinedParameter,new</token>
+<token>System.Management.Automation.ParameterAttribute,new</token>
+<token>System.Management.Automation.ValidateLengthAttribute,new</token>
+<token>System.Management.Automation.ValidateLengthAttribute,new</token>
+</entry>
 <entry count="1">
 <token>System.Management.Automation.PSDataStreams,ClearStreams</token>
 <token>System.Management.Automation.PowerShell,AddCommand</token>
@@ -3724,29 +3207,20 @@
 <token>System.Management.Automation.PowerShell,AddParameter</token>
 <token>System.Management.Automation.PowerShell,Invoke</token>
 </entry>
-<entry count="1">
+<entry count="3">
+<token>System.Management.Automation.PSDataCollection,new</token>
+<token>System.Management.Automation.PSDataCollection,new</token>
+<token>System.Management.Automation.PSDataCollection,new</token>
+<token>System.Management.Automation.PSDataCollection,new</token>
+</entry>
+<entry count="3">
 <token>System.Management.Automation.Cmdlet,WriteDebug</token>
 <token>System.Management.Automation.ErrorRecord,new</token>
 <token>System.Management.Automation.Cmdlet,ThrowTerminatingError</token>
 <token>System.Management.Automation.Cmdlet,WriteDebug</token>
 <token>System.Management.Automation.Cmdlet,WriteObject</token>
 </entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>System.Management.Automation.DebugRecord,</token>
-<token>System.Management.Automation,</token>
-<token>3.0.0.0]],new</token>
-</entry>
-<entry count="2">
-<token>3.0.0.0]],Add</token>
-<token>System.Management.Automation.Cmdlet,WriteObject</token>
-</entry>
-<entry count="2">
-<token>System.Management.Automation.PowerShellStreams`2[[TInput</token>
-<token>-&gt;</token>
-<token>System.Management.Automation.PSObject,</token>
-</entry>
-<entry count="32">
+<entry count="1408">
 <token>System.Management.Automation.PowerShell,AddCommand</token>
 <token>System.Management.Automation.PowerShell,AddParameter</token>
 <token>System.Management.Automation.PowerShell,AddParameter</token>
@@ -3760,21 +3234,13 @@
 <token>System.Management.Automation.PowerShell,Invoke</token>
 <token>System.Management.Automation.PSCommand,Clear</token>
 </entry>
-<entry count="1">
-<token>System.Management.Automation.ErrorRecord,</token>
-<token>System.Management.Automation,</token>
-<token>3.0.0.0]],Add</token>
+<entry count="63">
+<token>System.Management.Automation.PowerShell,Invoke</token>
+<token>System.Management.Automation.PSDataCollection,Clear</token>
 </entry>
-<entry count="13">
+<entry count="30">
 <token>System.Management.Automation.Cmdlet,WriteVerbose</token>
 <token>System.Management.Automation.Cmdlet,WriteVerbose</token>
-</entry>
-<entry count="2">
-<token>-&gt;</token>
-<token>System.Management.Automation.PSObject,</token>
-<token>System.Management.Automation,</token>
-<token>3.0.0.0],[TOutput</token>
-<token>-&gt;</token>
 </entry>
 <entry count="3">
 <token>System.Management.Automation.PowerShell,Invoke</token>
@@ -3784,28 +3250,15 @@
 <token>System.Management.Automation.Cmdlet,WriteVerbose</token>
 <token>System.Management.Automation.Cmdlet,WriteWarning</token>
 </entry>
-<entry count="153">
+<entry count="305">
 <token>System.Management.Automation.ParameterAttribute,new</token>
 <token>System.Management.Automation.ValidateSetAttribute,new</token>
 </entry>
-<entry count="63">
-<token>System.Management.Automation.RuntimeException,new</token>
-<token>System.Management.Automation.PSDataCollection`1[[T</token>
-<token>-&gt;</token>
-<token>System.Management.Automation.ErrorRecord,</token>
-</entry>
-<entry count="8">
+<entry count="64">
 <token>System.Management.Automation.PSCmdlet,GetResolvedProviderPathFromPSPath</token>
 <token>System.Management.Automation.JobDefinition,new</token>
 <token>System.Management.Automation.JobInvocationInfo,new</token>
 <token>System.Management.Automation.Job2,StartJob</token>
-</entry>
-<entry count="1">
-<token>System.Management.Automation.PSObject,</token>
-<token>System.Management.Automation,</token>
-<token>3.0.0.0]],Complete</token>
-<token>System.Management.Automation.PSObject,AsPSObject</token>
-<token>System.Management.Automation.PSDataCollection`1[[T</token>
 </entry>
 <entry count="6">
 <token>System.Management.Automation.PowerShell,Create</token>
@@ -3818,21 +3271,9 @@
 <token>System.Management.Automation.Cmdlet,WriteWarning</token>
 <token>System.Management.Automation.Cmdlet,WriteVerbose</token>
 </entry>
-<entry count="2">
-<token>System.Management.Automation.PSObject,</token>
-<token>System.Management.Automation,</token>
-<token>3.0.0.0],[TOutput</token>
-<token>-&gt;</token>
-</entry>
 <entry count="3">
 <token>System.Management.Automation.ICommandRuntime,WriteObject</token>
 <token>System.Management.Automation.SwitchParameter,ToBool</token>
-</entry>
-<entry count="31">
-<token>System.Management.Automation.PowerShell,Create</token>
-<token>System.Management.Automation.PowerShell,AddScript</token>
-<token>System.Management.Automation.PowerShell,Invoke</token>
-<token>System.Management.Automation.PSDataCollection`1[[T</token>
 </entry>
 <entry count="2">
 <token>System.Management.Automation.Cmdlet,WriteVerbose</token>
@@ -3866,12 +3307,12 @@
 <token>System.Management.Automation.ProxyCommand,Create</token>
 <token>System.Management.Automation.PowerShell,Create</token>
 </entry>
-<entry count="9">
-<token>3.0.0.0]],Add</token>
-<token>System.Management.Automation.PSNoteProperty,new</token>
-<token>System.Management.Automation.PSMemberInfoCollection`1[[T</token>
-<token>-&gt;</token>
-<token>System.Management.Automation.PSPropertyInfo,</token>
+<entry count="31">
+<token>System.Management.Automation.PowerShell,Create</token>
+<token>System.Management.Automation.PowerShell,AddScript</token>
+<token>System.Management.Automation.PowerShell,Invoke</token>
+<token>System.Management.Automation.RuntimeException,new</token>
+<token>System.Management.Automation.PSDataCollection,Clear</token>
 </entry>
 <entry count="7">
 <token>System.Management.Automation.PowerShell,AddCommand</token>
@@ -3879,17 +3320,12 @@
 <token>System.Management.Automation.PowerShell,AddCommand</token>
 <token>System.Management.Automation.PowerShell,AddParameter</token>
 </entry>
-<entry count="4">
-<token>System.Management.Automation.PSMemberInfoCollection`1[[T</token>
-<token>-&gt;</token>
-<token>System.Management.Automation.PSMemberInfo,</token>
-</entry>
-<entry count="3">
+<entry count="9">
 <token>System.Management.Automation.PSCommand,AddCommand</token>
 <token>System.Management.Automation.PowerShell,AddParameter</token>
 <token>System.Management.Automation.PowerShell,AddParameter</token>
 </entry>
-<entry count="8">
+<entry count="64">
 <token>System.Management.Automation.JobDefinition,new</token>
 <token>System.Management.Automation.JobInvocationInfo,new</token>
 <token>System.Management.Automation.Job2,StartJob</token>
@@ -3901,18 +3337,11 @@
 <token>System.Management.Automation.PSCommand,AddParameter</token>
 <token>System.Management.Automation.PSCommand,new</token>
 </entry>
-<entry count="74">
-<token>System.Management.Automation.PSObject,new</token>
-<token>System.Management.Automation.PSNoteProperty,new</token>
-<token>System.Management.Automation.PSMemberInfoCollection`1[[T</token>
-<token>-&gt;</token>
-<token>System.Management.Automation.PSPropertyInfo,</token>
-</entry>
-<entry count="50">
+<entry count="2626">
 <token>System.Management.Automation.PowerShell,Invoke</token>
 <token>System.Management.Automation.PowerShell,Create</token>
 </entry>
-<entry count="2">
+<entry count="16">
 <token>System.Management.Automation.Cmdlet,WriteDebug</token>
 <token>System.Management.Automation.ErrorRecord,new</token>
 </entry>
@@ -3920,25 +3349,30 @@
 <token>System.Management.Automation.PowerShell,Invoke</token>
 <token>System.Management.Automation.PSCommand,Clear</token>
 </entry>
-<entry count="4">
+<entry count="16">
 <token>System.Management.Automation.PowerShell,AddCommand</token>
 <token>System.Management.Automation.PowerShell,BeginInvoke</token>
 <token>System.Management.Automation.PowerShell,Create</token>
 <token>System.Management.Automation.PowerShell,AddCommand</token>
 <token>System.Management.Automation.PowerShell,BeginInvoke</token>
 </entry>
-<entry count="5">
+<entry count="11">
 <token>System.Management.Automation.PowerShell,AddCommand</token>
 <token>System.Management.Automation.PowerShell,AddCommand</token>
 <token>System.Management.Automation.PowerShell,AddParameter</token>
 </entry>
-<entry count="349">
+<entry count="11">
+<token>System.Management.Automation.PSNoteProperty,new</token>
+<token>System.Management.Automation.PSMemberInfoCollection,Add</token>
+<token>System.Management.Automation.PSNoteProperty,new</token>
+</entry>
+<entry count="69893">
 <token>System.Management.Automation.PowerShell,AddScript</token>
 <token>System.Management.Automation.PowerShell,AddScript</token>
 <token>System.Management.Automation.PowerShell,AddScript</token>
 <token>System.Management.Automation.PowerShell,AddScript</token>
 </entry>
-<entry count="8">
+<entry count="64">
 <token>System.Management.Automation.JobInvocationInfo,new</token>
 <token>System.Management.Automation.Job2,StartJob</token>
 <token>System.Management.Automation.Cmdlet,WriteObject</token>
@@ -3948,6 +3382,12 @@
 <token>System.Management.Automation.ICommandRuntime,WriteObject</token>
 <token>System.Management.Automation.ICommandRuntime,ShouldProcess</token>
 </entry>
+<entry count="143956">
+<token>System.Management.Automation.PSInvalidOperationException,new</token>
+<token>System.Management.Automation.PSInvalidOperationException,new</token>
+<token>System.Management.Automation.PSInvalidOperationException,new</token>
+<token>System.Management.Automation.PSInvalidOperationException,new</token>
+</entry>
 <entry count="3">
 <token>System.Management.Automation.PSCommand,Clear</token>
 <token>System.Management.Automation.PSDataStreams,ClearStreams</token>
@@ -3956,7 +3396,7 @@
 <token>System.Management.Automation.PathIntrinsics,GetResolvedPSPathFromPSPath</token>
 <token>System.Management.Automation.Cmdlet,WriteVerbose</token>
 </entry>
-<entry count="18">
+<entry count="706">
 <token>System.Management.Automation.PowerShell,Create</token>
 <token>System.Management.Automation.PowerShell,AddCommand</token>
 <token>System.Management.Automation.PowerShell,AddParameter</token>
@@ -3969,7 +3409,20 @@
 <token>System.Management.Automation.Cmdlet,WriteDebug</token>
 <token>System.Management.Automation.Cmdlet,WriteVerbose</token>
 </entry>
-<entry count="32">
+<entry count="512">
+<token>System.Management.Automation.PowerShell,AddParameter</token>
+<token>System.Management.Automation.PowerShell,AddCommand</token>
+<token>System.Management.Automation.PowerShell,Invoke</token>
+<token>System.Management.Automation.PowerShell,Create</token>
+<token>System.Management.Automation.PowerShell,AddCommand</token>
+</entry>
+<entry count="31">
+<token>System.Management.Automation.PowerShell,Create</token>
+<token>System.Management.Automation.PowerShell,Invoke</token>
+<token>System.Management.Automation.RuntimeException,new</token>
+<token>System.Management.Automation.PSDataCollection,Clear</token>
+</entry>
+<entry count="1408">
 <token>System.Management.Automation.PowerShell,AddParameter</token>
 <token>System.Management.Automation.PowerShell,AddCommand</token>
 <token>System.Management.Automation.PowerShell,Invoke</token>
@@ -3983,38 +3436,23 @@
 <token>System.Management.Automation.Cmdlet,WriteDebug</token>
 <token>System.Management.Automation.Cmdlet,WriteVerbose</token>
 </entry>
-<entry count="59">
+<entry count="383">
 <token>System.Management.Automation.PowerShell,Create</token>
 <token>System.Management.Automation.PSDataStreams,ClearStreams</token>
 </entry>
-<entry count="721">
+<entry count="56376">
 <token>System.Management.Automation.PSArgumentException,new</token>
 <token>System.Management.Automation.ErrorRecord,new</token>
 <token>System.Management.Automation.PSArgumentException,new</token>
 <token>System.Management.Automation.ErrorRecord,new</token>
 <token>System.Management.Automation.PSArgumentException,new</token>
-</entry>
-<entry count="4">
-<token>-&gt;</token>
-<token>System.Management.Automation.PSMemberInfo,</token>
-<token>System.Management.Automation,</token>
-</entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>System.Management.Automation.DebugRecord,</token>
 </entry>
 <entry count="16">
 <token>System.Management.Automation.PowerShell,AddCommand</token>
 <token>System.Management.Automation.PowerShell,Invoke</token>
 <token>System.Management.Automation.PowerShell,Dispose</token>
 </entry>
-<entry count="2">
-<token>System.Management.Automation.PowerShell,AddScript</token>
-<token>System.Management.Automation.PSDataCollection`1[[T</token>
-<token>-&gt;</token>
-<token>System.Management.Automation.PSObject,</token>
-</entry>
-<entry count="3">
+<entry count="9">
 <token>System.Management.Automation.PSCommand,Clear</token>
 <token>System.Management.Automation.PSCommand,AddCommand</token>
 <token>System.Management.Automation.PowerShell,AddParameter</token>
@@ -4026,8 +3464,9 @@
 <token>System.Management.Automation.ICommandRuntime,ShouldProcess</token>
 <token>System.Management.Automation.ICommandRuntime,ShouldContinue</token>
 </entry>
-<entry count="146">
-<token>System.Management.Automation,</token>
-<token>3.0.0.0]],Add</token>
+<entry count="76">
+<token>System.Management.Automation.PSObject,new</token>
+<token>System.Management.Automation.PSNoteProperty,new</token>
+<token>System.Management.Automation.PSMemberInfoCollection,Add</token>
 </entry>
 </dictionary>

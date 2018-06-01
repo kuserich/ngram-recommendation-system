@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?><dictionary case_sensitive="false">
-<entry count="11">
+<entry count="67">
 <token>System.Security.AccessControl.FileSystemSecurity,AddAccessRule</token>
 <token>System.Security.AccessControl.FileSystemSecurity,AddAccessRule</token>
 </entry>
 <entry count="2">
 <token>System.Security.AccessControl.FileSystemSecurity,AddAccessRule</token>
 <token>System.Security.AccessControl.ObjectSecurity,SetAccessRuleProtection</token>
+</entry>
+<entry count="1568">
+<token>System.Security.AccessControl.ObjectSecurity,GetSecurityDescriptorBinaryForm</token>
+<token>System.Security.AccessControl.ObjectSecurity,GetSecurityDescriptorBinaryForm</token>
+<token>System.Security.AccessControl.ObjectSecurity,GetSecurityDescriptorBinaryForm</token>
+<token>System.Security.AccessControl.ObjectSecurity,GetSecurityDescriptorBinaryForm</token>
 </entry>
 <entry count="8">
 <token>System.Security.AccessControl.ObjectSecurity,SetAccessRuleProtection</token>
@@ -15,7 +21,7 @@
 <token>System.Security.AccessControl.RegistrySecurity,AddAccessRule</token>
 <token>System.Security.AccessControl.RegistrySecurity,RemoveAccessRuleAll</token>
 </entry>
-<entry count="8">
+<entry count="64">
 <token>System.Security.AccessControl.FileSystemAccessRule,new</token>
 <token>System.Security.AccessControl.FileSystemAccessRule,new</token>
 <token>System.Security.AccessControl.FileSystemSecurity,AddAccessRule</token>
@@ -57,7 +63,7 @@
 <token>System.Security.AccessControl.FileSystemSecurity,AddAccessRule</token>
 <token>System.Security.AccessControl.ObjectSecurity,SetOwner</token>
 </entry>
-<entry count="22">
+<entry count="82">
 <token>System.Security.AccessControl.EventWaitHandleSecurity,new</token>
 <token>System.Security.AccessControl.EventWaitHandleAccessRule,new</token>
 </entry>
@@ -71,12 +77,6 @@
 <token>System.Security.AccessControl.FileSystemSecurity,AddAccessRule</token>
 <token>System.Security.AccessControl.ObjectSecurity,SetAccessRuleProtection</token>
 </entry>
-<entry count="20">
-<token>-&gt;</token>
-<token>e:System.IO.MemoryMappedFiles.MemoryMappedFileRights,</token>
-<token>System.Core,</token>
-<token>4.0.0.0]],AddAccessRule</token>
-</entry>
 <entry count="4">
 <token>System.Security.AccessControl.FileSystemAccessRule,new</token>
 <token>System.Security.AccessControl.FileSecurity,new</token>
@@ -86,7 +86,7 @@
 <token>System.Security.AccessControl.ObjectSecurity,SetOwner</token>
 <token>System.Security.AccessControl.ObjectSecurity,SetGroup</token>
 </entry>
-<entry count="8">
+<entry count="64">
 <token>System.Security.AccessControl.FileSystemAccessRule,new</token>
 <token>System.Security.AccessControl.FileSystemAccessRule,new</token>
 <token>System.Security.AccessControl.FileSystemSecurity,AddAccessRule</token>
@@ -96,7 +96,7 @@
 <token>System.Security.AccessControl.FileSystemSecurity,AddAccessRule</token>
 <token>System.Security.AccessControl.FileSystemAccessRule,new</token>
 </entry>
-<entry count="22">
+<entry count="82">
 <token>System.Security.AccessControl.EventWaitHandleAccessRule,new</token>
 <token>System.Security.AccessControl.EventWaitHandleSecurity,AddAccessRule</token>
 </entry>
@@ -106,20 +106,9 @@
 <token>System.Security.AccessControl.FileSystemAccessRule,new</token>
 <token>System.Security.AccessControl.FileSystemSecurity,AddAccessRule</token>
 </entry>
-<entry count="20">
-<token>System.Security.AccessControl.ObjectSecurity`1[[T</token>
-<token>-&gt;</token>
-</entry>
 <entry count="5">
 <token>System.Security.AccessControl.FileSystemSecurity,AddAccessRule</token>
 <token>System.Security.AccessControl.FileSystemAccessRule,new</token>
-</entry>
-<entry count="20">
-<token>-&gt;</token>
-<token>e:System.IO.MemoryMappedFiles.MemoryMappedFileRights,</token>
-<token>System.Core,</token>
-<token>4.0.0.0]],new</token>
-<token>System.Security.AccessControl.ObjectSecurity`1[[T</token>
 </entry>
 <entry count="1">
 <token>System.Security.AccessControl.FileSystemAccessRule,new</token>
@@ -128,7 +117,7 @@
 <token>System.Security.AccessControl.FileSystemSecurity,AddAccessRule</token>
 <token>System.Security.AccessControl.FileSystemSecurity,AddAccessRule</token>
 </entry>
-<entry count="64">
+<entry count="65536">
 <token>System.Security.AccessControl.FileSecurity,new</token>
 <token>System.Security.AccessControl.ObjectSecurity,SetSecurityDescriptorBinaryForm</token>
 </entry>
@@ -138,6 +127,20 @@
 <token>System.Security.AccessControl.RegistrySecurity,AddAccessRule</token>
 <token>System.Security.AccessControl.RegistrySecurity,AddAccessRule</token>
 <token>System.Security.AccessControl.RegistrySecurity,RemoveAccessRuleAll</token>
+</entry>
+<entry count="64">
+<token>System.Security.AccessControl.ObjectSecurity,GetSecurityDescriptorBinaryForm</token>
+<token>System.Security.AccessControl.ObjectSecurity,GetSecurityDescriptorBinaryForm</token>
+<token>System.Security.AccessControl.ObjectSecurity,GetSecurityDescriptorBinaryForm</token>
+<token>System.Security.AccessControl.ObjectSecurity,GetSecurityDescriptorBinaryForm</token>
+<token>System.Security.AccessControl.ObjectSecurity,GetSecurityDescriptorBinaryForm</token>
+</entry>
+<entry count="80">
+<token>System.Security.AccessControl.EventWaitHandleSecurity,new</token>
+<token>System.Security.AccessControl.EventWaitHandleAccessRule,new</token>
+<token>System.Security.AccessControl.EventWaitHandleSecurity,AddAccessRule</token>
+<token>System.Security.AccessControl.AccessRule,new</token>
+<token>System.Security.AccessControl.ObjectSecurity,AddAccessRule</token>
 </entry>
 <entry count="1">
 <token>System.Security.AccessControl.FileSystemAccessRule,new</token>
@@ -149,26 +152,21 @@
 <token>System.Security.AccessControl.MutexSecurity,AddAccessRule</token>
 <token>System.Security.AccessControl.EventWaitHandleSecurity,new</token>
 </entry>
-<entry count="20">
-<token>System.Security.AccessControl.ObjectSecurity`1[[T</token>
-<token>-&gt;</token>
-<token>e:System.IO.MemoryMappedFiles.MemoryMappedFileRights,</token>
-<token>System.Core,</token>
-</entry>
 <entry count="8">
 <token>System.Security.AccessControl.ObjectSecurity,SetAccessRuleProtection</token>
 <token>System.Security.AccessControl.RegistrySecurity,AddAccessRule</token>
 <token>System.Security.AccessControl.RegistrySecurity,AddAccessRule</token>
 <token>System.Security.AccessControl.RegistrySecurity,RemoveAccessRuleAll</token>
-</entry>
-<entry count="20">
-<token>System.Security.AccessControl.AccessRule`1[[T</token>
-<token>-&gt;</token>
 </entry>
 <entry count="12">
 <token>System.Security.AccessControl.CommonObjectSecurity,GetAccessRules</token>
 <token>System.Security.AccessControl.FileSystemSecurity,AddAccessRule</token>
 </entry>
+<entry count="80">
+<token>System.Security.AccessControl.EventWaitHandleSecurity,AddAccessRule</token>
+<token>System.Security.AccessControl.AccessRule,new</token>
+<token>System.Security.AccessControl.ObjectSecurity,AddAccessRule</token>
+</entry>
 <entry count="2">
 <token>System.Security.AccessControl.FileSystemAccessRule,new</token>
 <token>System.Security.AccessControl.FileSystemAccessRule,new</token>
@@ -183,7 +181,7 @@
 <token>System.Security.AccessControl.RegistryAccessRule,new</token>
 <token>System.Security.AccessControl.CommonObjectSecurity,GetAccessRules</token>
 </entry>
-<entry count="8">
+<entry count="64">
 <token>System.Security.AccessControl.FileSystemAccessRule,new</token>
 <token>System.Security.AccessControl.FileSystemSecurity,AddAccessRule</token>
 <token>System.Security.AccessControl.FileSystemSecurity,AddAccessRule</token>
@@ -194,11 +192,10 @@
 <token>System.Security.AccessControl.DirectorySecurity,new</token>
 <token>System.Security.AccessControl.FileSystemSecurity,AddAccessRule</token>
 </entry>
-<entry count="20">
-<token>System.Security.AccessControl.AccessRule`1[[T</token>
-<token>-&gt;</token>
-<token>e:System.IO.MemoryMappedFiles.MemoryMappedFileRights,</token>
-<token>System.Core,</token>
+<entry count="80">
+<token>System.Security.AccessControl.EventWaitHandleAccessRule,new</token>
+<token>System.Security.AccessControl.EventWaitHandleSecurity,AddAccessRule</token>
+<token>System.Security.AccessControl.AccessRule,new</token>
 </entry>
 <entry count="2">
 <token>System.Security.AccessControl.MutexAccessRule,new</token>
@@ -207,11 +204,11 @@
 <token>System.Security.AccessControl.EventWaitHandleAccessRule,new</token>
 <token>System.Security.AccessControl.EventWaitHandleSecurity,AddAccessRule</token>
 </entry>
-<entry count="11">
+<entry count="67">
 <token>System.Security.AccessControl.FileSystemAccessRule,new</token>
 <token>System.Security.AccessControl.FileSystemAccessRule,new</token>
 </entry>
-<entry count="8">
+<entry count="64">
 <token>System.Security.AccessControl.FileSystemSecurity,RemoveAccessRule</token>
 <token>System.Security.AccessControl.FileSystemSecurity,RemoveAccessRule</token>
 </entry>
@@ -231,12 +228,7 @@
 <token>System.Security.AccessControl.DirectorySecurity,new</token>
 <token>System.Security.AccessControl.FileSystemSecurity,AddAccessRule</token>
 </entry>
-<entry count="20">
-<token>System.Security.AccessControl.AccessRule`1[[T</token>
-<token>-&gt;</token>
-<token>e:System.IO.MemoryMappedFiles.MemoryMappedFileRights,</token>
-</entry>
-<entry count="8">
+<entry count="64">
 <token>System.Security.AccessControl.FileSystemSecurity,AddAccessRule</token>
 <token>System.Security.AccessControl.FileSystemSecurity,AddAccessRule</token>
 <token>System.Security.AccessControl.FileSystemSecurity,RemoveAccessRule</token>
@@ -271,25 +263,13 @@
 <token>System.Security.AccessControl.FileSystemAccessRule,new</token>
 <token>System.Security.AccessControl.FileSystemSecurity,AddAccessRule</token>
 </entry>
-<entry count="20">
-<token>e:System.IO.MemoryMappedFiles.MemoryMappedFileRights,</token>
-<token>System.Core,</token>
-<token>4.0.0.0]],new</token>
-<token>System.Security.AccessControl.ObjectSecurity`1[[T</token>
-</entry>
-<entry count="20">
-<token>System.Core,</token>
-<token>4.0.0.0]],new</token>
-<token>System.Security.AccessControl.ObjectSecurity`1[[T</token>
-<token>-&gt;</token>
-</entry>
 <entry count="2">
 <token>System.Security.AccessControl.MutexSecurity,AddAccessRule</token>
 <token>System.Security.AccessControl.EventWaitHandleSecurity,new</token>
 <token>System.Security.AccessControl.EventWaitHandleAccessRule,new</token>
 <token>System.Security.AccessControl.EventWaitHandleSecurity,AddAccessRule</token>
 </entry>
-<entry count="64">
+<entry count="65536">
 <token>System.Security.AccessControl.DirectorySecurity,new</token>
 <token>System.Security.AccessControl.FileSecurity,new</token>
 <token>System.Security.AccessControl.ObjectSecurity,SetSecurityDescriptorBinaryForm</token>
@@ -306,13 +286,6 @@
 <token>System.Security.AccessControl.RegistryAccessRule,new</token>
 <token>System.Security.AccessControl.ObjectSecurity,SetAccessRuleProtection</token>
 <token>System.Security.AccessControl.RegistrySecurity,AddAccessRule</token>
-</entry>
-<entry count="20">
-<token>e:System.IO.MemoryMappedFiles.MemoryMappedFileRights,</token>
-<token>System.Core,</token>
-<token>4.0.0.0]],new</token>
-<token>System.Security.AccessControl.ObjectSecurity`1[[T</token>
-<token>-&gt;</token>
 </entry>
 <entry count="4">
 <token>System.Security.AccessControl.EventWaitHandleAccessRule,new</token>
@@ -351,11 +324,11 @@
 <token>System.Security.AccessControl.ObjectSecurity,SetOwner</token>
 <token>System.Security.AccessControl.FileSystemAccessRule,new</token>
 </entry>
-<entry count="36">
+<entry count="92">
 <token>System.Security.AccessControl.FileSystemAccessRule,new</token>
 <token>System.Security.AccessControl.FileSystemSecurity,AddAccessRule</token>
 </entry>
-<entry count="8">
+<entry count="64">
 <token>System.Security.AccessControl.FileSystemAccessRule,new</token>
 <token>System.Security.AccessControl.FileSystemSecurity,AddAccessRule</token>
 <token>System.Security.AccessControl.FileSystemSecurity,AddAccessRule</token>
@@ -381,13 +354,6 @@
 <token>System.Security.AccessControl.FileSystemSecurity,AddAccessRule</token>
 <token>System.Security.AccessControl.FileSystemSecurity,AddAccessRule</token>
 </entry>
-<entry count="20">
-<token>System.Core,</token>
-<token>4.0.0.0]],new</token>
-<token>System.Security.AccessControl.ObjectSecurity`1[[T</token>
-<token>-&gt;</token>
-<token>e:System.IO.MemoryMappedFiles.MemoryMappedFileRights,</token>
-</entry>
 <entry count="10">
 <token>System.Security.AccessControl.MutexSecurity,new</token>
 <token>System.Security.AccessControl.MutexAccessRule,new</token>
@@ -412,23 +378,7 @@
 <token>System.Security.AccessControl.ObjectSecurity,SetOwner</token>
 <token>System.Security.AccessControl.FileSystemAccessRule,new</token>
 </entry>
-<entry count="20">
-<token>4.0.0.0]],new</token>
-<token>System.Security.AccessControl.ObjectSecurity`1[[T</token>
-</entry>
-<entry count="20">
-<token>System.Security.AccessControl.EventWaitHandleAccessRule,new</token>
-<token>System.Security.AccessControl.EventWaitHandleSecurity,AddAccessRule</token>
-<token>System.Security.AccessControl.AccessRule`1[[T</token>
-<token>-&gt;</token>
-<token>e:System.IO.MemoryMappedFiles.MemoryMappedFileRights,</token>
-</entry>
-<entry count="20">
-<token>System.Core,</token>
-<token>4.0.0.0]],new</token>
-<token>System.Security.AccessControl.ObjectSecurity`1[[T</token>
-</entry>
-<entry count="66">
+<entry count="65538">
 <token>System.Security.AccessControl.DirectorySecurity,new</token>
 <token>System.Security.AccessControl.FileSecurity,new</token>
 </entry>
@@ -436,12 +386,6 @@
 <token>System.Security.AccessControl.ObjectSecurity,SetOwner</token>
 <token>System.Security.AccessControl.FileSystemSecurity,AddAccessRule</token>
 <token>System.Security.AccessControl.ObjectSecurity,SetOwner</token>
-</entry>
-<entry count="20">
-<token>4.0.0.0]],new</token>
-<token>System.Security.AccessControl.ObjectSecurity`1[[T</token>
-<token>-&gt;</token>
-<token>e:System.IO.MemoryMappedFiles.MemoryMappedFileRights,</token>
 </entry>
 <entry count="2">
 <token>System.Security.AccessControl.ObjectSecurity,SetOwner</token>
@@ -462,12 +406,9 @@
 <token>System.Security.AccessControl.RegistryAccessRule,new</token>
 <token>System.Security.AccessControl.RegistryAccessRule,new</token>
 </entry>
-<entry count="20">
-<token>4.0.0.0]],new</token>
-<token>System.Security.AccessControl.ObjectSecurity`1[[T</token>
-<token>-&gt;</token>
-<token>e:System.IO.MemoryMappedFiles.MemoryMappedFileRights,</token>
-<token>System.Core,</token>
+<entry count="80">
+<token>System.Security.AccessControl.AccessRule,new</token>
+<token>System.Security.AccessControl.ObjectSecurity,AddAccessRule</token>
 </entry>
 <entry count="8">
 <token>System.Security.AccessControl.RegistrySecurity,AddAccessRule</token>
@@ -487,7 +428,7 @@
 <token>System.Security.AccessControl.EventWaitHandleSecurity,new</token>
 <token>System.Security.AccessControl.EventWaitHandleAccessRule,new</token>
 </entry>
-<entry count="22">
+<entry count="82">
 <token>System.Security.AccessControl.EventWaitHandleSecurity,new</token>
 <token>System.Security.AccessControl.EventWaitHandleAccessRule,new</token>
 <token>System.Security.AccessControl.EventWaitHandleSecurity,AddAccessRule</token>
@@ -496,13 +437,6 @@
 <token>System.Security.AccessControl.FileSecurity,new</token>
 <token>System.Security.AccessControl.FileSystemAccessRule,new</token>
 </entry>
-<entry count="20">
-<token>System.Security.AccessControl.ObjectSecurity`1[[T</token>
-<token>-&gt;</token>
-<token>e:System.IO.MemoryMappedFiles.MemoryMappedFileRights,</token>
-<token>System.Core,</token>
-<token>4.0.0.0]],AddAccessRule</token>
-</entry>
 <entry count="1">
 <token>System.Security.AccessControl.DirectorySecurity,new</token>
 <token>System.Security.AccessControl.FileSystemSecurity,AddAccessRule</token>
@@ -510,18 +444,16 @@
 <token>System.Security.AccessControl.FileSystemSecurity,AddAccessRule</token>
 <token>System.Security.AccessControl.FileSystemSecurity,AddAccessRule</token>
 </entry>
+<entry count="16032">
+<token>System.Security.AccessControl.ObjectSecurity,GetSecurityDescriptorBinaryForm</token>
+<token>System.Security.AccessControl.ObjectSecurity,GetSecurityDescriptorBinaryForm</token>
+<token>System.Security.AccessControl.ObjectSecurity,GetSecurityDescriptorBinaryForm</token>
+</entry>
 <entry count="2">
 <token>System.Security.AccessControl.FileSystemSecurity,AddAccessRule</token>
 <token>System.Security.AccessControl.FileSystemAccessRule,new</token>
 <token>System.Security.AccessControl.FileSystemSecurity,AddAccessRule</token>
 <token>System.Security.AccessControl.ObjectSecurity,SetOwner</token>
-</entry>
-<entry count="20">
-<token>System.Security.AccessControl.EventWaitHandleSecurity,new</token>
-<token>System.Security.AccessControl.EventWaitHandleAccessRule,new</token>
-<token>System.Security.AccessControl.EventWaitHandleSecurity,AddAccessRule</token>
-<token>System.Security.AccessControl.AccessRule`1[[T</token>
-<token>-&gt;</token>
 </entry>
 <entry count="2">
 <token>System.Security.AccessControl.FileSystemSecurity,AddAccessRule</token>
@@ -559,7 +491,7 @@
 <token>System.Security.AccessControl.ObjectSecurity,SetOwner</token>
 <token>System.Security.AccessControl.ObjectSecurity,SetGroup</token>
 </entry>
-<entry count="8">
+<entry count="64">
 <token>System.Security.AccessControl.FileSystemSecurity,AddAccessRule</token>
 <token>System.Security.AccessControl.FileSystemSecurity,AddAccessRule</token>
 <token>System.Security.AccessControl.FileSystemSecurity,RemoveAccessRule</token>
@@ -578,19 +510,15 @@
 <token>System.Security.AccessControl.FileSystemSecurity,AddAccessRule</token>
 <token>System.Security.AccessControl.ObjectSecurity,SetAccessRuleProtection</token>
 </entry>
-<entry count="20">
-<token>System.Core,</token>
-<token>4.0.0.0]],AddAccessRule</token>
+<entry count="80">
+<token>System.Security.AccessControl.EventWaitHandleSecurity,new</token>
+<token>System.Security.AccessControl.EventWaitHandleAccessRule,new</token>
+<token>System.Security.AccessControl.EventWaitHandleSecurity,AddAccessRule</token>
+<token>System.Security.AccessControl.AccessRule,new</token>
 </entry>
 <entry count="2">
 <token>System.Security.AccessControl.ObjectSecurity,SetAccessRuleProtection</token>
 <token>System.Security.AccessControl.ObjectSecurity,SetOwner</token>
-</entry>
-<entry count="20">
-<token>-&gt;</token>
-<token>e:System.IO.MemoryMappedFiles.MemoryMappedFileRights,</token>
-<token>System.Core,</token>
-<token>4.0.0.0]],new</token>
 </entry>
 <entry count="2">
 <token>System.Security.AccessControl.MutexSecurity,AddAccessRule</token>
@@ -604,11 +532,6 @@
 <token>System.Security.AccessControl.CommonObjectSecurity,GetAccessRules</token>
 <token>System.Security.AccessControl.RegistrySecurity,AddAccessRule</token>
 </entry>
-<entry count="20">
-<token>System.Security.AccessControl.ObjectSecurity`1[[T</token>
-<token>-&gt;</token>
-<token>e:System.IO.MemoryMappedFiles.MemoryMappedFileRights,</token>
-</entry>
 <entry count="1">
 <token>System.Security.AccessControl.FileSystemAccessRule,new</token>
 <token>System.Security.AccessControl.ObjectSecurity,SetOwner</token>
@@ -616,24 +539,10 @@
 <token>System.Security.AccessControl.ObjectSecurity,SetOwner</token>
 <token>System.Security.AccessControl.FileSystemAccessRule,new</token>
 </entry>
-<entry count="20">
-<token>e:System.IO.MemoryMappedFiles.MemoryMappedFileRights,</token>
-<token>System.Core,</token>
-<token>4.0.0.0]],new</token>
-</entry>
 <entry count="2">
 <token>System.Security.AccessControl.MutexAccessRule,new</token>
 <token>System.Security.AccessControl.MutexSecurity,AddAccessRule</token>
 <token>System.Security.AccessControl.EventWaitHandleSecurity,new</token>
-</entry>
-<entry count="40">
-<token>-&gt;</token>
-<token>e:System.IO.MemoryMappedFiles.MemoryMappedFileRights,</token>
-</entry>
-<entry count="20">
-<token>System.Security.AccessControl.EventWaitHandleAccessRule,new</token>
-<token>System.Security.AccessControl.EventWaitHandleSecurity,AddAccessRule</token>
-<token>System.Security.AccessControl.AccessRule`1[[T</token>
 </entry>
 <entry count="2">
 <token>System.Security.AccessControl.FileSystemAccessRule,new</token>
@@ -651,21 +560,11 @@
 <token>System.Security.AccessControl.FileSecurity,new</token>
 <token>System.Security.AccessControl.FileSystemSecurity,AddAccessRule</token>
 </entry>
-<entry count="20">
-<token>System.Security.AccessControl.EventWaitHandleSecurity,AddAccessRule</token>
-<token>System.Security.AccessControl.AccessRule`1[[T</token>
-<token>-&gt;</token>
-</entry>
 <entry count="1">
 <token>System.Security.AccessControl.FileSystemAccessRule,new</token>
 <token>System.Security.AccessControl.FileSystemAccessRule,new</token>
 <token>System.Security.AccessControl.FileSystemAccessRule,new</token>
 <token>System.Security.AccessControl.FileSystemAccessRule,new</token>
-</entry>
-<entry count="20">
-<token>e:System.IO.MemoryMappedFiles.MemoryMappedFileRights,</token>
-<token>System.Core,</token>
-<token>4.0.0.0]],AddAccessRule</token>
 </entry>
 <entry count="2">
 <token>System.Security.AccessControl.ObjectSecurity,SetOwner</token>
@@ -675,6 +574,10 @@
 <token>System.Security.AccessControl.EventWaitHandleSecurity,new</token>
 <token>System.Security.AccessControl.EventWaitHandleSecurity,AddAccessRule</token>
 </entry>
+<entry count="80">
+<token>System.Security.AccessControl.EventWaitHandleSecurity,AddAccessRule</token>
+<token>System.Security.AccessControl.AccessRule,new</token>
+</entry>
 <entry count="13">
 <token>System.Security.AccessControl.MutexAccessRule,new</token>
 <token>System.Security.AccessControl.MutexSecurity,new</token>
@@ -682,10 +585,6 @@
 <entry count="4">
 <token>System.Security.AccessControl.FileSystemAccessRule,new</token>
 <token>System.Security.AccessControl.FileSystemSecurity,SetAccessRule</token>
-</entry>
-<entry count="20">
-<token>System.Security.AccessControl.EventWaitHandleSecurity,AddAccessRule</token>
-<token>System.Security.AccessControl.AccessRule`1[[T</token>
 </entry>
 <entry count="4">
 <token>System.Security.AccessControl.FileSystemAccessRule,new</token>
@@ -700,17 +599,6 @@
 <token>System.Security.AccessControl.RegistrySecurity,AddAccessRule</token>
 <token>System.Security.AccessControl.RegistrySecurity,AddAccessRule</token>
 </entry>
-<entry count="40">
-<token>-&gt;</token>
-<token>e:System.IO.MemoryMappedFiles.MemoryMappedFileRights,</token>
-<token>System.Core,</token>
-</entry>
-<entry count="20">
-<token>System.Security.AccessControl.EventWaitHandleSecurity,new</token>
-<token>System.Security.AccessControl.EventWaitHandleAccessRule,new</token>
-<token>System.Security.AccessControl.EventWaitHandleSecurity,AddAccessRule</token>
-<token>System.Security.AccessControl.AccessRule`1[[T</token>
-</entry>
 <entry count="2">
 <token>System.Security.AccessControl.MutexSecurity,AddAccessRule</token>
 <token>System.Security.AccessControl.EventWaitHandleSecurity,new</token>
@@ -723,17 +611,11 @@
 <token>System.Security.AccessControl.RegistrySecurity,AddAccessRule</token>
 <token>System.Security.AccessControl.RegistrySecurity,AddAccessRule</token>
 </entry>
-<entry count="20">
-<token>System.Security.AccessControl.EventWaitHandleAccessRule,new</token>
-<token>System.Security.AccessControl.EventWaitHandleSecurity,AddAccessRule</token>
-<token>System.Security.AccessControl.AccessRule`1[[T</token>
-<token>-&gt;</token>
-</entry>
-<entry count="10">
+<entry count="66">
 <token>System.Security.AccessControl.FileSystemSecurity,AddAccessRule</token>
 <token>System.Security.AccessControl.FileSystemSecurity,RemoveAccessRule</token>
 </entry>
-<entry count="8">
+<entry count="64">
 <token>System.Security.AccessControl.FileSystemAccessRule,new</token>
 <token>System.Security.AccessControl.FileSystemAccessRule,new</token>
 <token>System.Security.AccessControl.FileSystemSecurity,AddAccessRule</token>
@@ -757,7 +639,7 @@
 <token>System.Security.AccessControl.FileSystemSecurity,AddAccessRule</token>
 <token>System.Security.AccessControl.FileSystemSecurity,AddAccessRule</token>
 </entry>
-<entry count="8">
+<entry count="64">
 <token>System.Security.AccessControl.FileSystemAccessRule,new</token>
 <token>System.Security.AccessControl.FileSystemSecurity,AddAccessRule</token>
 <token>System.Security.AccessControl.FileSystemSecurity,AddAccessRule</token>
@@ -768,38 +650,24 @@
 <token>System.Security.AccessControl.CommonObjectSecurity,GetAccessRules</token>
 <token>System.Security.AccessControl.FileSystemSecurity,AddAccessRule</token>
 </entry>
-<entry count="20">
-<token>System.Security.AccessControl.EventWaitHandleSecurity,AddAccessRule</token>
-<token>System.Security.AccessControl.AccessRule`1[[T</token>
-<token>-&gt;</token>
-<token>e:System.IO.MemoryMappedFiles.MemoryMappedFileRights,</token>
-<token>System.Core,</token>
+<entry count="88816">
+<token>System.Security.AccessControl.ObjectSecurity,GetSecurityDescriptorBinaryForm</token>
+<token>System.Security.AccessControl.ObjectSecurity,GetSecurityDescriptorBinaryForm</token>
 </entry>
 <entry count="2">
 <token>System.Security.AccessControl.ObjectSecurity,SetOwner</token>
 <token>System.Security.AccessControl.FileSystemSecurity,AddAccessRule</token>
 </entry>
-<entry count="20">
+<entry count="80">
+<token>System.Security.AccessControl.EventWaitHandleAccessRule,new</token>
 <token>System.Security.AccessControl.EventWaitHandleSecurity,AddAccessRule</token>
-<token>System.Security.AccessControl.AccessRule`1[[T</token>
-<token>-&gt;</token>
-<token>e:System.IO.MemoryMappedFiles.MemoryMappedFileRights,</token>
+<token>System.Security.AccessControl.AccessRule,new</token>
+<token>System.Security.AccessControl.ObjectSecurity,AddAccessRule</token>
 </entry>
 <entry count="2">
 <token>System.Security.AccessControl.FileSystemSecurity,AddAccessRule</token>
 <token>System.Security.AccessControl.FileSystemSecurity,AddAccessRule</token>
 <token>System.Security.AccessControl.FileSystemSecurity,AddAccessRule</token>
-</entry>
-<entry count="40">
-<token>e:System.IO.MemoryMappedFiles.MemoryMappedFileRights,</token>
-<token>System.Core,</token>
-</entry>
-<entry count="20">
-<token>System.Security.AccessControl.AccessRule`1[[T</token>
-<token>-&gt;</token>
-<token>e:System.IO.MemoryMappedFiles.MemoryMappedFileRights,</token>
-<token>System.Core,</token>
-<token>4.0.0.0]],new</token>
 </entry>
 <entry count="2">
 <token>System.Security.AccessControl.FileSecurity,new</token>
@@ -825,11 +693,7 @@
 <token>System.Security.AccessControl.RegistrySecurity,AddAccessRule</token>
 <token>System.Security.AccessControl.RegistrySecurity,AddAccessRule</token>
 </entry>
-<entry count="20">
-<token>System.Core,</token>
-<token>4.0.0.0]],new</token>
-</entry>
-<entry count="8">
+<entry count="64">
 <token>System.Security.AccessControl.FileSystemSecurity,AddAccessRule</token>
 <token>System.Security.AccessControl.FileSystemSecurity,RemoveAccessRule</token>
 <token>System.Security.AccessControl.FileSystemSecurity,RemoveAccessRule</token>
@@ -837,10 +701,5 @@
 <entry count="16">
 <token>System.Security.AccessControl.RegistryAccessRule,new</token>
 <token>System.Security.AccessControl.RegistryAccessRule,new</token>
-</entry>
-<entry count="20">
-<token>4.0.0.0]],new</token>
-<token>System.Security.AccessControl.ObjectSecurity`1[[T</token>
-<token>-&gt;</token>
 </entry>
 </dictionary>

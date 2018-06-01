@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?><dictionary case_sensitive="false">
-<entry count="24">
+<entry count="288">
 <token>Mono.Cecil.Cil.ILProcessor,InsertAfter</token>
 <token>Mono.Cecil.Cil.ILProcessor,Create</token>
 <token>Mono.Cecil.Cil.ILProcessor,InsertAfter</token>
 <token>Mono.Cecil.Cil.ILProcessor,Emit</token>
 </entry>
-<entry count="12">
+<entry count="24">
 <token>Mono.Cecil.Cil.ILProcessor,InsertAfter</token>
 <token>Mono.Cecil.Cil.ILProcessor,Emit</token>
 <token>Mono.Cecil.Cil.ILProcessor,Emit</token>
 <token>Mono.Cecil.Cil.ILProcessor,Create</token>
 <token>Mono.Cecil.Cil.ILProcessor,InsertBefore</token>
 </entry>
-<entry count="24">
+<entry count="98304">
 <token>Mono.Cecil.Cil.MethodBody,GetILProcessor</token>
 <token>Mono.Cecil.Cil.VariableDefinition,new</token>
 <token>Mono.Cecil.Cil.ILProcessor,Create</token>
@@ -25,6 +25,13 @@
 <token>Mono.Cecil.Cil.ILProcessor,Emit</token>
 </entry>
 <entry count="24">
+<token>Mono.Cecil.Cil.ILProcessor,InsertAfter</token>
+<token>Mono.Cecil.Cil.ILProcessor,Emit</token>
+<token>Mono.Cecil.Cil.ILProcessor,Emit</token>
+<token>Mono.Cecil.Cil.ILProcessor,Create</token>
+<token>Mono.Cecil.Cil.ILProcessor,InsertAfter</token>
+</entry>
+<entry count="96">
 <token>Mono.Cecil.Cil.ILProcessor,Emit</token>
 <token>Mono.Cecil.Cil.ILProcessor,Emit</token>
 <token>Mono.Cecil.Cil.ILProcessor,Create</token>
@@ -55,7 +62,7 @@
 <token>Mono.Cecil.Cil.ILProcessor,Emit</token>
 <token>Mono.Cecil.Cil.ILProcessor,Emit</token>
 </entry>
-<entry count="492">
+<entry count="2506848">
 <token>Mono.Cecil.Cil.ILProcessor,Create</token>
 <token>Mono.Cecil.Cil.ILProcessor,InsertBefore</token>
 <token>Mono.Cecil.Cil.ILProcessor,Create</token>
@@ -66,8 +73,14 @@
 <token>Mono.Cecil.Cil.ILProcessor,InsertAfter</token>
 <token>Mono.Cecil.Cil.ILProcessor,Emit</token>
 <token>Mono.Cecil.Cil.ILProcessor,Emit</token>
+<token>Mono.Cecil.Cil.ILProcessor,Emit</token>
 </entry>
-<entry count="26">
+<entry count="96">
+<token>Mono.Cecil.Cil.ILProcessor,InsertAfter</token>
+<token>Mono.Cecil.Cil.ILProcessor,Emit</token>
+<token>Mono.Cecil.Cil.ILProcessor,Emit</token>
+</entry>
+<entry count="50">
 <token>Mono.Cecil.Cil.VariableDefinition,new</token>
 <token>Mono.Cecil.Cil.ILProcessor,Emit</token>
 <token>Mono.Cecil.Cil.ILProcessor,Emit</token>
@@ -78,20 +91,27 @@
 <token>Mono.Cecil.Cil.ILProcessor,Create</token>
 <token>Mono.Cecil.Cil.ILProcessor,Append</token>
 </entry>
-<entry count="24">
+<entry count="288">
 <token>Mono.Cecil.Cil.ILProcessor,Create</token>
 <token>Mono.Cecil.Cil.ILProcessor,InsertAfter</token>
 <token>Mono.Cecil.Cil.ILProcessor,Create</token>
 <token>Mono.Cecil.Cil.ILProcessor,InsertAfter</token>
 <token>Mono.Cecil.Cil.ILProcessor,Emit</token>
 </entry>
-<entry count="50">
+<entry count="98">
 <token>Mono.Cecil.Cil.MethodBody,GetILProcessor</token>
 <token>Mono.Cecil.Cil.VariableDefinition,new</token>
 <token>Mono.Cecil.Cil.ILProcessor,Emit</token>
 <token>Mono.Cecil.Cil.ILProcessor,Emit</token>
 </entry>
-<entry count="12">
+<entry count="24">
+<token>Mono.Cecil.Cil.ILProcessor,Emit</token>
+<token>Mono.Cecil.Cil.ILProcessor,Emit</token>
+<token>Mono.Cecil.Cil.ILProcessor,Emit</token>
+<token>Mono.Cecil.Cil.ILProcessor,Create</token>
+<token>Mono.Cecil.Cil.ILProcessor,InsertAfter</token>
+</entry>
+<entry count="24">
 <token>Mono.Cecil.Cil.ILProcessor,Emit</token>
 <token>Mono.Cecil.Cil.ILProcessor,Emit</token>
 <token>Mono.Cecil.Cil.ILProcessor,Emit</token>
@@ -117,8 +137,14 @@
 <token>Mono.Cecil.Cil.ILProcessor,Emit</token>
 <token>Mono.Cecil.Cil.ILProcessor,Emit</token>
 </entry>
-<entry count="24">
+<entry count="98304">
 <token>Mono.Cecil.Cil.VariableDefinition,new</token>
+<token>Mono.Cecil.Cil.ILProcessor,Create</token>
+</entry>
+<entry count="144">
+<token>Mono.Cecil.Cil.ILProcessor,Create</token>
+<token>Mono.Cecil.Cil.ILProcessor,InsertAfter</token>
+<token>Mono.Cecil.Cil.ILProcessor,Emit</token>
 <token>Mono.Cecil.Cil.ILProcessor,Create</token>
 </entry>
 <entry count="2">
@@ -128,7 +154,19 @@
 <token>Mono.Cecil.Cil.ILProcessor,InsertBefore</token>
 <token>Mono.Cecil.Cil.ILProcessor,Create</token>
 </entry>
-<entry count="24">
+<entry count="96">
+<token>Mono.Cecil.Cil.VariableDefinition,new</token>
+<token>Mono.Cecil.Cil.ILProcessor,Emit</token>
+<token>Mono.Cecil.Cil.ILProcessor,Create</token>
+<token>Mono.Cecil.Cil.ILProcessor,InsertAfter</token>
+</entry>
+<entry count="96">
+<token>Mono.Cecil.Cil.MethodBody,GetILProcessor</token>
+<token>Mono.Cecil.Cil.VariableDefinition,new</token>
+<token>Mono.Cecil.Cil.ILProcessor,Emit</token>
+<token>Mono.Cecil.Cil.ILProcessor,Create</token>
+</entry>
+<entry count="96">
 <token>Mono.Cecil.Cil.ILProcessor,Emit</token>
 <token>Mono.Cecil.Cil.ILProcessor,Emit</token>
 <token>Mono.Cecil.Cil.ILProcessor,Create</token>
@@ -140,7 +178,7 @@
 <token>Mono.Cecil.Cil.ILProcessor,Emit</token>
 <token>Mono.Cecil.Cil.ILProcessor,Create</token>
 </entry>
-<entry count="24">
+<entry count="48">
 <token>Mono.Cecil.Cil.ILProcessor,Emit</token>
 <token>Mono.Cecil.Cil.ILProcessor,Emit</token>
 <token>Mono.Cecil.Cil.ILProcessor,Create</token>
@@ -152,7 +190,7 @@
 <token>Mono.Cecil.Cil.ILProcessor,Append</token>
 <token>Mono.Cecil.Cil.ILProcessor,Create</token>
 </entry>
-<entry count="592">
+<entry count="2703652">
 <token>Mono.Cecil.Cil.ILProcessor,Create</token>
 <token>Mono.Cecil.Cil.ILProcessor,InsertBefore</token>
 </entry>
@@ -176,32 +214,45 @@
 <token>Mono.Cecil.Cil.ILProcessor,Append</token>
 <token>Mono.Cecil.Cil.ILProcessor,Emit</token>
 </entry>
-<entry count="26">
+<entry count="50">
 <token>Mono.Cecil.Cil.MethodBody,GetILProcessor</token>
 <token>Mono.Cecil.Cil.VariableDefinition,new</token>
 <token>Mono.Cecil.Cil.ILProcessor,Emit</token>
 <token>Mono.Cecil.Cil.ILProcessor,Emit</token>
 <token>Mono.Cecil.Cil.ILProcessor,Emit</token>
 </entry>
-<entry count="24">
+<entry count="96">
 <token>Mono.Cecil.Cil.ILProcessor,Emit</token>
 <token>Mono.Cecil.Cil.ILProcessor,Create</token>
 <token>Mono.Cecil.Cil.ILProcessor,InsertBefore</token>
 <token>Mono.Cecil.Cil.ILProcessor,Create</token>
 </entry>
-<entry count="24">
+<entry count="98304">
 <token>Mono.Cecil.Cil.VariableDefinition,new</token>
 <token>Mono.Cecil.Cil.ILProcessor,Create</token>
 <token>Mono.Cecil.Cil.ILProcessor,InsertBefore</token>
 <token>Mono.Cecil.Cil.ILProcessor,Create</token>
 <token>Mono.Cecil.Cil.ILProcessor,InsertBefore</token>
 </entry>
-<entry count="52">
+<entry count="96">
+<token>Mono.Cecil.Cil.ILProcessor,InsertAfter</token>
+<token>Mono.Cecil.Cil.ILProcessor,Emit</token>
+<token>Mono.Cecil.Cil.ILProcessor,Create</token>
+<token>Mono.Cecil.Cil.ILProcessor,InsertAfter</token>
+</entry>
+<entry count="96">
+<token>Mono.Cecil.Cil.ILProcessor,Create</token>
+<token>Mono.Cecil.Cil.ILProcessor,InsertAfter</token>
+<token>Mono.Cecil.Cil.ILProcessor,Emit</token>
+<token>Mono.Cecil.Cil.ILProcessor,Create</token>
+<token>Mono.Cecil.Cil.ILProcessor,InsertAfter</token>
+</entry>
+<entry count="148">
 <token>Mono.Cecil.Cil.ILProcessor,Emit</token>
 <token>Mono.Cecil.Cil.ILProcessor,Emit</token>
 <token>Mono.Cecil.Cil.ILProcessor,Create</token>
 </entry>
-<entry count="24">
+<entry count="98304">
 <token>Mono.Cecil.Cil.MethodBody,GetILProcessor</token>
 <token>Mono.Cecil.Cil.VariableDefinition,new</token>
 <token>Mono.Cecil.Cil.ILProcessor,Create</token>
@@ -217,7 +268,7 @@
 <token>Mono.Cecil.Cil.ILProcessor,Create</token>
 <token>Mono.Cecil.Cil.ILProcessor,InsertBefore</token>
 </entry>
-<entry count="24">
+<entry count="288">
 <token>Mono.Cecil.Cil.ILProcessor,Emit</token>
 <token>Mono.Cecil.Cil.ILProcessor,Create</token>
 <token>Mono.Cecil.Cil.ILProcessor,InsertAfter</token>
@@ -235,7 +286,14 @@
 <token>Mono.Cecil.Cil.ILProcessor,Emit</token>
 <token>Mono.Cecil.Cil.ILProcessor,Emit</token>
 </entry>
-<entry count="24">
+<entry count="12">
+<token>Mono.Cecil.Cil.ILProcessor,InsertAfter</token>
+<token>Mono.Cecil.Cil.ILProcessor,Emit</token>
+<token>Mono.Cecil.Cil.ILProcessor,Emit</token>
+<token>Mono.Cecil.Cil.ILProcessor,Emit</token>
+<token>Mono.Cecil.Cil.ILProcessor,Create</token>
+</entry>
+<entry count="288">
 <token>Mono.Cecil.Cil.ILProcessor,Create</token>
 <token>Mono.Cecil.Cil.ILProcessor,InsertAfter</token>
 <token>Mono.Cecil.Cil.ILProcessor,Emit</token>
@@ -244,7 +302,7 @@
 <token>Mono.Cecil.Cil.MethodBody,GetILProcessor</token>
 <token>Mono.Cecil.Cil.ILProcessor,Emit</token>
 </entry>
-<entry count="494">
+<entry count="2506850">
 <token>Mono.Cecil.Cil.ILProcessor,InsertBefore</token>
 <token>Mono.Cecil.Cil.ILProcessor,Create</token>
 <token>Mono.Cecil.Cil.ILProcessor,InsertBefore</token>
@@ -268,24 +326,29 @@
 <token>Mono.Cecil.Cil.ILProcessor,Emit</token>
 <token>Mono.Cecil.Cil.ILProcessor,Emit</token>
 </entry>
-<entry count="64">
+<entry count="400">
 <token>Mono.Cecil.Cil.ILProcessor,Emit</token>
 <token>Mono.Cecil.Cil.ILProcessor,Create</token>
 </entry>
-<entry count="24">
+<entry count="48">
 <token>Mono.Cecil.Cil.VariableDefinition,new</token>
 <token>Mono.Cecil.Cil.ILProcessor,Emit</token>
 <token>Mono.Cecil.Cil.ILProcessor,Emit</token>
 <token>Mono.Cecil.Cil.ILProcessor,Create</token>
 </entry>
-<entry count="494">
+<entry count="144">
+<token>Mono.Cecil.Cil.ILProcessor,InsertAfter</token>
+<token>Mono.Cecil.Cil.ILProcessor,Emit</token>
+<token>Mono.Cecil.Cil.ILProcessor,Create</token>
+</entry>
+<entry count="2506850">
 <token>Mono.Cecil.Cil.ILProcessor,InsertBefore</token>
 <token>Mono.Cecil.Cil.ILProcessor,Create</token>
 <token>Mono.Cecil.Cil.ILProcessor,InsertBefore</token>
 <token>Mono.Cecil.Cil.ILProcessor,Create</token>
 <token>Mono.Cecil.Cil.ILProcessor,InsertBefore</token>
 </entry>
-<entry count="24">
+<entry count="288">
 <token>Mono.Cecil.Cil.ILProcessor,Emit</token>
 <token>Mono.Cecil.Cil.ILProcessor,Create</token>
 <token>Mono.Cecil.Cil.ILProcessor,InsertAfter</token>
@@ -311,19 +374,33 @@
 <token>Mono.Cecil.Cil.ILProcessor,Append</token>
 <token>Mono.Cecil.Cil.ILProcessor,Emit</token>
 </entry>
-<entry count="74">
+<entry count="98498">
 <token>Mono.Cecil.Cil.MethodBody,GetILProcessor</token>
 <token>Mono.Cecil.Cil.VariableDefinition,new</token>
 </entry>
-<entry count="544">
+<entry count="2605252">
 <token>Mono.Cecil.Cil.ILProcessor,InsertBefore</token>
 <token>Mono.Cecil.Cil.ILProcessor,Create</token>
 </entry>
-<entry count="24">
+<entry count="96">
+<token>Mono.Cecil.Cil.VariableDefinition,new</token>
+<token>Mono.Cecil.Cil.ILProcessor,Emit</token>
+<token>Mono.Cecil.Cil.ILProcessor,Create</token>
+<token>Mono.Cecil.Cil.ILProcessor,InsertAfter</token>
+<token>Mono.Cecil.Cil.ILProcessor,Create</token>
+</entry>
+<entry count="288">
 <token>Mono.Cecil.Cil.ILProcessor,InsertAfter</token>
 <token>Mono.Cecil.Cil.ILProcessor,Create</token>
 </entry>
 <entry count="24">
+<token>Mono.Cecil.Cil.VariableDefinition,new</token>
+<token>Mono.Cecil.Cil.ILProcessor,Emit</token>
+<token>Mono.Cecil.Cil.ILProcessor,Emit</token>
+<token>Mono.Cecil.Cil.ILProcessor,Emit</token>
+<token>Mono.Cecil.Cil.ILProcessor,Create</token>
+</entry>
+<entry count="96">
 <token>Mono.Cecil.Cil.ILProcessor,Emit</token>
 <token>Mono.Cecil.Cil.ILProcessor,Create</token>
 <token>Mono.Cecil.Cil.ILProcessor,InsertBefore</token>
@@ -333,11 +410,11 @@
 <token>Mono.Cecil.Cil.ILProcessor,Create</token>
 <token>Mono.Cecil.Cil.ILProcessor,Append</token>
 </entry>
-<entry count="50">
+<entry count="194">
 <token>Mono.Cecil.Cil.VariableDefinition,new</token>
 <token>Mono.Cecil.Cil.ILProcessor,Emit</token>
 </entry>
-<entry count="24">
+<entry count="288">
 <token>Mono.Cecil.Cil.ILProcessor,Create</token>
 <token>Mono.Cecil.Cil.ILProcessor,InsertAfter</token>
 <token>Mono.Cecil.Cil.ILProcessor,Create</token>
@@ -349,13 +426,13 @@
 <token>Mono.Cecil.Cil.ILProcessor,Emit</token>
 <token>Mono.Cecil.Cil.ILProcessor,Emit</token>
 </entry>
-<entry count="542">
+<entry count="2605250">
 <token>Mono.Cecil.Cil.ILProcessor,Create</token>
 <token>Mono.Cecil.Cil.ILProcessor,InsertBefore</token>
 <token>Mono.Cecil.Cil.ILProcessor,Create</token>
 <token>Mono.Cecil.Cil.ILProcessor,InsertBefore</token>
 </entry>
-<entry count="24">
+<entry count="48">
 <token>Mono.Cecil.Cil.VariableDefinition,new</token>
 <token>Mono.Cecil.Cil.ILProcessor,Emit</token>
 <token>Mono.Cecil.Cil.ILProcessor,Emit</token>
@@ -367,7 +444,7 @@
 <token>Mono.Cecil.Cil.ILProcessor,InsertBefore</token>
 <token>Mono.Cecil.Cil.ILProcessor,Create</token>
 </entry>
-<entry count="24">
+<entry count="98304">
 <token>Mono.Cecil.Cil.MethodBody,GetILProcessor</token>
 <token>Mono.Cecil.Cil.VariableDefinition,new</token>
 <token>Mono.Cecil.Cil.ILProcessor,Create</token>
@@ -378,37 +455,49 @@
 <token>Mono.Cecil.Cil.ILProcessor,Create</token>
 <token>Mono.Cecil.Cil.ILProcessor,Replace</token>
 </entry>
-<entry count="12">
+<entry count="48">
 <token>Mono.Cecil.Cil.ILProcessor,Create</token>
 <token>Mono.Cecil.Cil.ILProcessor,InsertAfter</token>
 <token>Mono.Cecil.Cil.ILProcessor,Emit</token>
 <token>Mono.Cecil.Cil.ILProcessor,Emit</token>
 <token>Mono.Cecil.Cil.ILProcessor,Create</token>
 </entry>
-<entry count="24">
+<entry count="96">
 <token>Mono.Cecil.Cil.ILProcessor,Create</token>
 <token>Mono.Cecil.Cil.ILProcessor,InsertAfter</token>
 <token>Mono.Cecil.Cil.ILProcessor,Emit</token>
 <token>Mono.Cecil.Cil.ILProcessor,Emit</token>
 </entry>
-<entry count="24">
+<entry count="288">
 <token>Mono.Cecil.Cil.ILProcessor,Emit</token>
 <token>Mono.Cecil.Cil.ILProcessor,Create</token>
 <token>Mono.Cecil.Cil.ILProcessor,InsertAfter</token>
 </entry>
-<entry count="24">
+<entry count="98304">
 <token>Mono.Cecil.Cil.VariableDefinition,new</token>
 <token>Mono.Cecil.Cil.ILProcessor,Create</token>
 <token>Mono.Cecil.Cil.ILProcessor,InsertBefore</token>
 </entry>
-<entry count="24">
+<entry count="96">
+<token>Mono.Cecil.Cil.VariableDefinition,new</token>
+<token>Mono.Cecil.Cil.ILProcessor,Emit</token>
+<token>Mono.Cecil.Cil.ILProcessor,Create</token>
+</entry>
+<entry count="48">
 <token>Mono.Cecil.Cil.MethodBody,GetILProcessor</token>
 <token>Mono.Cecil.Cil.VariableDefinition,new</token>
 <token>Mono.Cecil.Cil.ILProcessor,Emit</token>
 <token>Mono.Cecil.Cil.ILProcessor,Emit</token>
 <token>Mono.Cecil.Cil.ILProcessor,Create</token>
 </entry>
-<entry count="24">
+<entry count="48">
+<token>Mono.Cecil.Cil.ILProcessor,Create</token>
+<token>Mono.Cecil.Cil.ILProcessor,InsertAfter</token>
+<token>Mono.Cecil.Cil.ILProcessor,Emit</token>
+<token>Mono.Cecil.Cil.ILProcessor,Create</token>
+<token>Mono.Cecil.Cil.ILProcessor,InsertBefore</token>
+</entry>
+<entry count="96">
 <token>Mono.Cecil.Cil.ILProcessor,InsertAfter</token>
 <token>Mono.Cecil.Cil.ILProcessor,Create</token>
 <token>Mono.Cecil.Cil.ILProcessor,InsertAfter</token>
@@ -422,15 +511,15 @@
 <token>Mono.Cecil.Cil.ILProcessor,Emit</token>
 <token>Mono.Cecil.Cil.ILProcessor,Emit</token>
 </entry>
-<entry count="48">
+<entry count="576">
 <token>Mono.Cecil.Cil.ILProcessor,Create</token>
 <token>Mono.Cecil.Cil.ILProcessor,InsertAfter</token>
 </entry>
-<entry count="24">
+<entry count="288">
 <token>Mono.Cecil.Cil.ILProcessor,InsertAfter</token>
 <token>Mono.Cecil.Cil.ILProcessor,Emit</token>
 </entry>
-<entry count="542">
+<entry count="2605250">
 <token>Mono.Cecil.Cil.ILProcessor,Create</token>
 <token>Mono.Cecil.Cil.ILProcessor,InsertBefore</token>
 <token>Mono.Cecil.Cil.ILProcessor,Create</token>
@@ -441,15 +530,29 @@
 <token>Mono.Cecil.Cil.ILProcessor,Create</token>
 <token>Mono.Cecil.Cil.ILProcessor,Append</token>
 </entry>
-<entry count="50">
+<entry count="144">
+<token>Mono.Cecil.Cil.ILProcessor,InsertAfter</token>
+<token>Mono.Cecil.Cil.ILProcessor,Create</token>
+<token>Mono.Cecil.Cil.ILProcessor,InsertAfter</token>
+<token>Mono.Cecil.Cil.ILProcessor,Emit</token>
+<token>Mono.Cecil.Cil.ILProcessor,Create</token>
+</entry>
+<entry count="98">
 <token>Mono.Cecil.Cil.VariableDefinition,new</token>
 <token>Mono.Cecil.Cil.ILProcessor,Emit</token>
 <token>Mono.Cecil.Cil.ILProcessor,Emit</token>
 </entry>
-<entry count="24">
+<entry count="288">
 <token>Mono.Cecil.Cil.ILProcessor,InsertAfter</token>
 <token>Mono.Cecil.Cil.ILProcessor,Create</token>
 <token>Mono.Cecil.Cil.ILProcessor,InsertAfter</token>
+</entry>
+<entry count="48">
+<token>Mono.Cecil.Cil.ILProcessor,InsertAfter</token>
+<token>Mono.Cecil.Cil.ILProcessor,Emit</token>
+<token>Mono.Cecil.Cil.ILProcessor,Create</token>
+<token>Mono.Cecil.Cil.ILProcessor,InsertBefore</token>
+<token>Mono.Cecil.Cil.ILProcessor,Create</token>
 </entry>
 <entry count="12">
 <token>Mono.Cecil.Cil.MethodBody,GetILProcessor</token>
@@ -464,13 +567,20 @@
 <token>Mono.Cecil.Cil.ILProcessor,Create</token>
 <token>Mono.Cecil.Cil.ILProcessor,Append</token>
 </entry>
+<entry count="24">
+<token>Mono.Cecil.Cil.ILProcessor,Create</token>
+<token>Mono.Cecil.Cil.ILProcessor,InsertAfter</token>
+<token>Mono.Cecil.Cil.ILProcessor,Emit</token>
+<token>Mono.Cecil.Cil.ILProcessor,Emit</token>
+<token>Mono.Cecil.Cil.ILProcessor,Emit</token>
+</entry>
 <entry count="8">
 <token>Mono.Cecil.Cil.ILProcessor,Append</token>
 <token>Mono.Cecil.Cil.ILProcessor,Emit</token>
 <token>Mono.Cecil.Cil.ILProcessor,Emit</token>
 <token>Mono.Cecil.Cil.ILProcessor,Emit</token>
 </entry>
-<entry count="194">
+<entry count="362">
 <token>Mono.Cecil.Cil.ILProcessor,Emit</token>
 <token>Mono.Cecil.Cil.ILProcessor,Emit</token>
 </entry>
@@ -484,18 +594,25 @@
 <token>Mono.Cecil.Cil.ILProcessor,Create</token>
 <token>Mono.Cecil.Cil.ILProcessor,Append</token>
 </entry>
-<entry count="50">
+<entry count="194">
 <token>Mono.Cecil.Cil.MethodBody,GetILProcessor</token>
 <token>Mono.Cecil.Cil.VariableDefinition,new</token>
 <token>Mono.Cecil.Cil.ILProcessor,Emit</token>
 </entry>
-<entry count="12">
+<entry count="96">
+<token>Mono.Cecil.Cil.MethodBody,GetILProcessor</token>
+<token>Mono.Cecil.Cil.VariableDefinition,new</token>
+<token>Mono.Cecil.Cil.ILProcessor,Emit</token>
+<token>Mono.Cecil.Cil.ILProcessor,Create</token>
+<token>Mono.Cecil.Cil.ILProcessor,InsertAfter</token>
+</entry>
+<entry count="48">
 <token>Mono.Cecil.Cil.ILProcessor,InsertAfter</token>
 <token>Mono.Cecil.Cil.ILProcessor,Emit</token>
 <token>Mono.Cecil.Cil.ILProcessor,Emit</token>
 <token>Mono.Cecil.Cil.ILProcessor,Create</token>
 </entry>
-<entry count="24">
+<entry count="98304">
 <token>Mono.Cecil.Cil.VariableDefinition,new</token>
 <token>Mono.Cecil.Cil.ILProcessor,Create</token>
 <token>Mono.Cecil.Cil.ILProcessor,InsertBefore</token>
@@ -507,7 +624,14 @@
 <token>Mono.Cecil.Cil.ILProcessor,Emit</token>
 <token>Mono.Cecil.Cil.ILProcessor,Create</token>
 </entry>
-<entry count="12">
+<entry count="96">
+<token>Mono.Cecil.Cil.ILProcessor,InsertAfter</token>
+<token>Mono.Cecil.Cil.ILProcessor,Emit</token>
+<token>Mono.Cecil.Cil.ILProcessor,Create</token>
+<token>Mono.Cecil.Cil.ILProcessor,InsertAfter</token>
+<token>Mono.Cecil.Cil.ILProcessor,Create</token>
+</entry>
+<entry count="48">
 <token>Mono.Cecil.Cil.ILProcessor,Emit</token>
 <token>Mono.Cecil.Cil.ILProcessor,Emit</token>
 <token>Mono.Cecil.Cil.ILProcessor,Emit</token>
@@ -524,7 +648,13 @@
 <token>Mono.Cecil.Cil.ILProcessor,Create</token>
 <token>Mono.Cecil.Cil.ILProcessor,Append</token>
 </entry>
-<entry count="94">
+<entry count="48">
+<token>Mono.Cecil.Cil.ILProcessor,InsertAfter</token>
+<token>Mono.Cecil.Cil.ILProcessor,Emit</token>
+<token>Mono.Cecil.Cil.ILProcessor,Create</token>
+<token>Mono.Cecil.Cil.ILProcessor,InsertBefore</token>
+</entry>
+<entry count="142">
 <token>Mono.Cecil.Cil.ILProcessor,Emit</token>
 <token>Mono.Cecil.Cil.ILProcessor,Emit</token>
 <token>Mono.Cecil.Cil.ILProcessor,Emit</token>
@@ -536,7 +666,7 @@
 <token>Mono.Cecil.Cil.ILProcessor,Append</token>
 <token>Mono.Cecil.Cil.ILProcessor,Emit</token>
 </entry>
-<entry count="544">
+<entry count="2605252">
 <token>Mono.Cecil.Cil.ILProcessor,InsertBefore</token>
 <token>Mono.Cecil.Cil.ILProcessor,Create</token>
 <token>Mono.Cecil.Cil.ILProcessor,InsertBefore</token>
@@ -552,20 +682,20 @@
 <token>Mono.Cecil.Cil.ILProcessor,Append</token>
 <token>Mono.Cecil.Cil.ILProcessor,Create</token>
 </entry>
-<entry count="24">
-<token>Mono.Cecil.Cil.ILProcessor,Emit</token>
-<token>Mono.Cecil.Cil.ILProcessor,Emit</token>
-<token>Mono.Cecil.Cil.ILProcessor,Create</token>
-<token>Mono.Cecil.Cil.ILProcessor,InsertBefore</token>
-</entry>
-<entry count="24">
+<entry count="96">
 <token>Mono.Cecil.Cil.ILProcessor,Emit</token>
 <token>Mono.Cecil.Cil.ILProcessor,Create</token>
 <token>Mono.Cecil.Cil.ILProcessor,InsertBefore</token>
 <token>Mono.Cecil.Cil.ILProcessor,Create</token>
 <token>Mono.Cecil.Cil.ILProcessor,InsertBefore</token>
 </entry>
-<entry count="24">
+<entry count="48">
+<token>Mono.Cecil.Cil.ILProcessor,Emit</token>
+<token>Mono.Cecil.Cil.ILProcessor,Emit</token>
+<token>Mono.Cecil.Cil.ILProcessor,Create</token>
+<token>Mono.Cecil.Cil.ILProcessor,InsertBefore</token>
+</entry>
+<entry count="288">
 <token>Mono.Cecil.Cil.ILProcessor,Create</token>
 <token>Mono.Cecil.Cil.ILProcessor,InsertAfter</token>
 <token>Mono.Cecil.Cil.ILProcessor,Create</token>

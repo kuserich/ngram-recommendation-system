@@ -4,7 +4,7 @@
 <token>System.Xml.Schema.XmlSchemaSimpleType,new</token>
 <token>System.Xml.Schema.XmlSchemaSimpleTypeRestriction,new</token>
 </entry>
-<entry count="8">
+<entry count="36">
 <token>System.Xml.Schema.XmlSchemaDocumentation,new</token>
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
@@ -15,7 +15,7 @@
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 <token>System.Xml.Schema.XmlSchemaElement,new</token>
 </entry>
-<entry count="324">
+<entry count="540">
 <token>System.Xml.Schema.XmlSchemaAttribute,new</token>
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 <token>System.Xml.Schema.XmlSchemaAttribute,new</token>
@@ -31,7 +31,7 @@
 <token>System.Xml.Schema.XmlSchemaComplexType,new</token>
 <token>System.Xml.Schema.XmlSchemaComplexContent,new</token>
 </entry>
-<entry count="2">
+<entry count="4">
 <token>System.Xml.Schema.XmlSchemaSimpleType,new</token>
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 <token>System.Xml.Schema.XmlSchemaSimpleTypeRestriction,new</token>
@@ -54,7 +54,7 @@
 <token>System.Xml.Schema.XmlSchemaComplexType,new</token>
 <token>System.Xml.Schema.XmlSchemaAny,new</token>
 </entry>
-<entry count="8">
+<entry count="36">
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 <token>System.Xml.Schema.XmlSchemaElement,new</token>
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
@@ -65,7 +65,7 @@
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 <token>System.Xml.Schema.XmlSchemaAttribute,new</token>
 </entry>
-<entry count="268">
+<entry count="670">
 <token>System.Xml.Schema.XmlSchemaSet,Contains</token>
 <token>System.Xml.Schema.XmlSchema,Write</token>
 <token>System.Xml.Schema.XmlSchemaSet,Schemas</token>
@@ -103,7 +103,7 @@
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 <token>System.Xml.Schema.XmlSchemaComplexType,new</token>
 </entry>
-<entry count="6">
+<entry count="12">
 <token>System.Xml.Schema.XmlSchemaSimpleType,new</token>
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 <token>System.Xml.Schema.XmlSchemaSimpleTypeRestriction,new</token>
@@ -119,13 +119,13 @@
 <token>System.Xml.Schema.XmlSchema,new</token>
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 </entry>
-<entry count="652">
+<entry count="868">
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 <token>System.Xml.Schema.XmlSchemaAttribute,new</token>
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 <token>System.Xml.Schema.XmlSchemaAttribute,new</token>
 </entry>
-<entry count="6">
+<entry count="12">
 <token>System.Xml.Schema.XmlSchemaSimpleType,new</token>
 <token>System.Xml.Schema.XmlSchemaSimpleTypeUnion,new</token>
 <token>System.Xml.Schema.XmlSchemaSimpleType,new</token>
@@ -138,7 +138,7 @@
 <token>System.Xml.Schema.XmlSchemaSimpleTypeRestriction,new</token>
 <token>System.Xml.Schema.XmlSchemaEnumerationFacet,new</token>
 </entry>
-<entry count="268">
+<entry count="670">
 <token>System.Xml.Schema.XmlSchemaSet,Contains</token>
 <token>System.Xml.Schema.XmlSchema,Write</token>
 <token>System.Xml.Schema.XmlSchemaSet,Schemas</token>
@@ -151,11 +151,11 @@
 <token>System.Xml.Schema.XmlSchemaAny,new</token>
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 </entry>
-<entry count="302">
+<entry count="330">
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 <token>System.Xml.Schema.XmlSchemaElement,new</token>
 </entry>
-<entry count="8">
+<entry count="36">
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
@@ -174,12 +174,12 @@
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 <token>System.Xml.Schema.XmlSchemaSimpleType,new</token>
 </entry>
-<entry count="8">
+<entry count="36">
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 <token>System.Xml.Schema.XmlSchemaElement,new</token>
 </entry>
-<entry count="8">
+<entry count="36">
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 <token>System.Xml.Schema.XmlSchemaElement,new</token>
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
@@ -208,13 +208,13 @@
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 <token>System.Xml.Schema.XmlSchemaAttribute,new</token>
 </entry>
-<entry count="248">
+<entry count="434">
 <token>System.Xml.Schema.XmlSchemaAny,new</token>
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 <token>System.Xml.Schema.XmlSchemaSet,Contains</token>
 <token>System.Xml.Schema.XmlSchema,Write</token>
 </entry>
-<entry count="23">
+<entry count="27">
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 <token>System.Xml.Schema.XmlSchemaSimpleTypeRestriction,new</token>
 <token>System.Xml.Schema.XmlSchemaEnumerationFacet,new</token>
@@ -225,25 +225,25 @@
 <token>System.Xml.Schema.XmlSchemaAttribute,new</token>
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 </entry>
-<entry count="6">
+<entry count="12">
 <token>System.Xml.Schema.XmlSchemaSimpleType,new</token>
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 </entry>
-<entry count="884">
+<entry count="1100">
 <token>System.Xml.Schema.XmlSchemaAttribute,new</token>
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 <token>System.Xml.Schema.XmlSchemaAttribute,new</token>
 </entry>
-<entry count="14">
+<entry count="56">
 <token>System.Xml.Schema.XmlSchemaValidationException,new</token>
 <token>System.Xml.Schema.XmlSchemaValidationException,new</token>
 </entry>
-<entry count="2">
+<entry count="4">
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 <token>System.Xml.Schema.XmlSchemaSimpleTypeRestriction,new</token>
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 </entry>
-<entry count="4">
+<entry count="8">
 <token>System.Xml.Schema.XmlSchemaSimpleType,new</token>
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 <token>System.Xml.Schema.XmlSchemaSimpleTypeRestriction,new</token>
@@ -278,14 +278,14 @@
 <token>System.Xml.Schema.XmlSchemaSet,new</token>
 <token>System.Xml.Schema.XmlSchemaSet,Add</token>
 </entry>
-<entry count="652">
+<entry count="868">
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 <token>System.Xml.Schema.XmlSchemaAttribute,new</token>
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 <token>System.Xml.Schema.XmlSchemaAttribute,new</token>
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 </entry>
-<entry count="268">
+<entry count="670">
 <token>System.Xml.Schema.XmlSchema,Write</token>
 <token>System.Xml.Schema.XmlSchemaSet,Schemas</token>
 <token>System.Xml.Schema.XmlSchema,Write</token>
@@ -296,7 +296,7 @@
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 <token>System.Xml.Schema.XmlSchemaAttribute,new</token>
 </entry>
-<entry count="324">
+<entry count="540">
 <token>System.Xml.Schema.XmlSchemaComplexType,new</token>
 <token>System.Xml.Schema.XmlSchemaSequence,new</token>
 <token>System.Xml.Schema.XmlSchemaAny,new</token>
@@ -387,7 +387,7 @@
 <token>System.Xml.Schema.XmlSchemaSimpleType,new</token>
 <token>System.Xml.Schema.XmlSchemaSimpleTypeRestriction,new</token>
 </entry>
-<entry count="279">
+<entry count="465">
 <token>System.Xml.Schema.XmlSchemaSequence,new</token>
 <token>System.Xml.Schema.XmlSchemaAny,new</token>
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
@@ -425,11 +425,11 @@
 <token>System.Xml.Schema.XmlSchemaSet,Schemas</token>
 <token>System.Xml.Schema.XmlSchemaSet,Add</token>
 </entry>
-<entry count="84">
+<entry count="372">
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 </entry>
-<entry count="8">
+<entry count="36">
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 <token>System.Xml.Schema.XmlSchemaElement,new</token>
@@ -443,7 +443,7 @@
 <token>System.Xml.Schema.XmlSchemaSet,Contains</token>
 <token>System.Xml.Schema.XmlSchemaSet,Add</token>
 </entry>
-<entry count="64">
+<entry count="288">
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
@@ -454,7 +454,11 @@
 <token>System.Xml.Schema.XmlSchemaSet,Add</token>
 <token>System.Xml.Schema.ValidationEventHandler,new</token>
 </entry>
-<entry count="279">
+<entry count="13184">
+<token>System.Xml.Schema.XmlSchemaCollection,Add</token>
+<token>System.Xml.Schema.XmlSchemaCollection,Add</token>
+</entry>
+<entry count="465">
 <token>System.Xml.Schema.XmlSchemaComplexType,new</token>
 <token>System.Xml.Schema.XmlSchemaSequence,new</token>
 <token>System.Xml.Schema.XmlSchemaAny,new</token>
@@ -465,7 +469,7 @@
 <token>System.Xml.Schema.XmlSchemaComplexType,new</token>
 <token>System.Xml.Schema.XmlSchemaAnyAttribute,new</token>
 </entry>
-<entry count="326">
+<entry count="542">
 <token>System.Xml.Schema.XmlSchemaAny,new</token>
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 <token>System.Xml.Schema.XmlSchemaAttribute,new</token>
@@ -490,7 +494,7 @@
 <token>System.Xml.Schema.XmlSchemaSimpleTypeRestriction,new</token>
 <token>System.Xml.Schema.XmlSchemaEnumerationFacet,new</token>
 </entry>
-<entry count="536">
+<entry count="938">
 <token>System.Xml.Schema.XmlSchemaSet,Contains</token>
 <token>System.Xml.Schema.XmlSchema,Write</token>
 <token>System.Xml.Schema.XmlSchemaSet,Schemas</token>
@@ -516,6 +520,11 @@
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 <token>System.Xml.Schema.XmlSchemaEnumerationFacet,new</token>
 </entry>
+<entry count="4">
+<token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
+<token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
+<token>System.Xml.Schema.XmlSchemaAnyAttribute,new</token>
+</entry>
 <entry count="19">
 <token>System.Xml.Schema.XmlSchemaAttribute,new</token>
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
@@ -526,7 +535,7 @@
 <token>System.Xml.Schema.XmlSchemaSet,new</token>
 <token>System.Xml.Schema.XmlSchemaSet,Add</token>
 </entry>
-<entry count="326">
+<entry count="542">
 <token>System.Xml.Schema.XmlSchemaAny,new</token>
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 <token>System.Xml.Schema.XmlSchemaAttribute,new</token>
@@ -541,7 +550,7 @@
 <token>System.Xml.Schema.XmlSchemaAny,new</token>
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 </entry>
-<entry count="8">
+<entry count="36">
 <token>System.Xml.Schema.XmlSchemaAnnotation,new</token>
 <token>System.Xml.Schema.XmlSchemaDocumentation,new</token>
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
@@ -553,14 +562,14 @@
 <token>System.Xml.Schema.XmlSchemaSimpleType,new</token>
 <token>System.Xml.Schema.XmlSchemaAttribute,new</token>
 </entry>
-<entry count="326">
+<entry count="542">
 <token>System.Xml.Schema.XmlSchemaAny,new</token>
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 <token>System.Xml.Schema.XmlSchemaAny,new</token>
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 <token>System.Xml.Schema.XmlSchemaAttribute,new</token>
 </entry>
-<entry count="276">
+<entry count="678">
 <token>System.Xml.Schema.XmlSchemaSet,Schemas</token>
 <token>System.Xml.Schema.XmlSchema,Write</token>
 </entry>
@@ -577,7 +586,7 @@
 <token>System.Xml.Schema.XmlSchemaSimpleType,new</token>
 <token>System.Xml.Schema.XmlSchemaAttribute,new</token>
 </entry>
-<entry count="324">
+<entry count="540">
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 <token>System.Xml.Schema.XmlSchemaAttribute,new</token>
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
@@ -595,7 +604,7 @@
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 <token>System.Xml.Schema.XmlSchemaElement,new</token>
 </entry>
-<entry count="56">
+<entry count="60">
 <token>System.Xml.Schema.XmlSchemaSimpleTypeRestriction,new</token>
 <token>System.Xml.Schema.XmlSchemaEnumerationFacet,new</token>
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
@@ -607,11 +616,17 @@
 <token>System.Xml.Schema.XmlSchemaAttribute,new</token>
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 </entry>
-<entry count="25">
+<entry count="4">
+<token>System.Xml.Schema.XmlSchemaComplexType,new</token>
+<token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
+<token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
+<token>System.Xml.Schema.XmlSchemaAnyAttribute,new</token>
+</entry>
+<entry count="31">
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 <token>System.Xml.Schema.XmlSchemaSimpleTypeRestriction,new</token>
 </entry>
-<entry count="248">
+<entry count="434">
 <token>System.Xml.Schema.XmlSchemaAny,new</token>
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 <token>System.Xml.Schema.XmlSchemaSet,Contains</token>
@@ -635,26 +650,26 @@
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 <token>System.Xml.Schema.XmlSchemaSimpleTypeRestriction,new</token>
 </entry>
-<entry count="6">
+<entry count="12">
 <token>System.Xml.Schema.XmlSchemaSimpleTypeUnion,new</token>
 <token>System.Xml.Schema.XmlSchemaSimpleType,new</token>
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 </entry>
-<entry count="268">
+<entry count="670">
 <token>System.Xml.Schema.XmlSchema,Write</token>
 <token>System.Xml.Schema.XmlSchemaSet,Schemas</token>
 <token>System.Xml.Schema.XmlSchema,Write</token>
 <token>System.Xml.Schema.XmlSchemaSet,Add</token>
 </entry>
-<entry count="377">
+<entry count="593">
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 <token>System.Xml.Schema.XmlSchemaAny,new</token>
 </entry>
-<entry count="4">
+<entry count="12">
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 <token>System.Xml.Schema.XmlSchemaAnyAttribute,new</token>
 </entry>
-<entry count="8">
+<entry count="36">
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
@@ -679,12 +694,12 @@
 <token>System.Xml.Schema.XmlSchemaSet,new</token>
 <token>System.Xml.Schema.XmlSchemaSet,Add</token>
 </entry>
-<entry count="6">
+<entry count="12">
 <token>System.Xml.Schema.XmlSchemaSimpleType,new</token>
 <token>System.Xml.Schema.XmlSchemaSimpleTypeUnion,new</token>
 <token>System.Xml.Schema.XmlSchemaSimpleType,new</token>
 </entry>
-<entry count="1258">
+<entry count="1690">
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 <token>System.Xml.Schema.XmlSchemaAttribute,new</token>
 </entry>
@@ -695,7 +710,7 @@
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 <token>System.Xml.Schema.XmlSchemaAny,new</token>
 </entry>
-<entry count="48">
+<entry count="216">
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
@@ -707,7 +722,7 @@
 <token>System.Xml.Schema.XmlSchemaAny,new</token>
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 </entry>
-<entry count="268">
+<entry count="670">
 <token>System.Xml.Schema.XmlSchema,Write</token>
 <token>System.Xml.Schema.XmlSchemaSet,Add</token>
 </entry>
@@ -717,7 +732,7 @@
 <token>System.Xml.Schema.XmlSchemaAny,new</token>
 <token>System.Xml.Schema.XmlSchemaSequence,new</token>
 </entry>
-<entry count="4">
+<entry count="8">
 <token>System.Xml.Schema.XmlSchemaComplexType,new</token>
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 <token>System.Xml.Schema.XmlSchemaAnyAttribute,new</token>
@@ -750,7 +765,7 @@
 <token>System.Xml.Schema.XmlSchemaSet,Schemas</token>
 <token>System.Xml.Schema.XmlSchemaSet,Add</token>
 </entry>
-<entry count="8">
+<entry count="36">
 <token>System.Xml.Schema.XmlSchemaElement,new</token>
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
@@ -767,39 +782,44 @@
 <token>System.Xml.Schema.XmlSchemaElement,new</token>
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 </entry>
-<entry count="4">
+<entry count="8">
 <token>System.Xml.Schema.XmlSchemaSimpleTypeRestriction,new</token>
 <token>System.Xml.Schema.XmlSchemaEnumerationFacet,new</token>
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 </entry>
-<entry count="26">
+<entry count="54">
 <token>System.Xml.Schema.XmlSchemaAnnotation,new</token>
 <token>System.Xml.Schema.XmlSchemaDocumentation,new</token>
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 </entry>
-<entry count="288">
+<entry count="504">
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 <token>System.Xml.Schema.XmlSchemaAttribute,new</token>
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 <token>System.Xml.Schema.XmlSchemaSet,Contains</token>
 <token>System.Xml.Schema.XmlSchema,Write</token>
 </entry>
-<entry count="536">
+<entry count="938">
 <token>System.Xml.Schema.XmlSchema,Write</token>
 <token>System.Xml.Schema.XmlSchemaSet,Schemas</token>
 </entry>
-<entry count="4">
+<entry count="8">
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 <token>System.Xml.Schema.XmlSchemaSimpleTypeRestriction,new</token>
 <token>System.Xml.Schema.XmlSchemaEnumerationFacet,new</token>
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 </entry>
-<entry count="279">
+<entry count="465">
 <token>System.Xml.Schema.XmlSchemaAny,new</token>
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 <token>System.Xml.Schema.XmlSchemaSet,Contains</token>
+</entry>
+<entry count="4">
+<token>System.Xml.Schema.XmlSchemaComplexType,new</token>
+<token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
+<token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 </entry>
 <entry count="3">
 <token>System.Xml.Schema.XmlSchemaSet,Add</token>
@@ -811,13 +831,13 @@
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 <token>System.Xml.Schema.XmlSchemaElement,new</token>
 </entry>
-<entry count="288">
+<entry count="504">
 <token>System.Xml.Schema.XmlSchemaAttribute,new</token>
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 <token>System.Xml.Schema.XmlSchemaSet,Contains</token>
 <token>System.Xml.Schema.XmlSchema,Write</token>
 </entry>
-<entry count="155">
+<entry count="159">
 <token>System.Xml.Schema.XmlSchemaEnumerationFacet,new</token>
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 </entry>
@@ -827,7 +847,7 @@
 <token>System.Xml.Schema.XmlSchemaSet,Schemas</token>
 <token>System.Xml.Schema.XmlSchemaSet,Add</token>
 </entry>
-<entry count="324">
+<entry count="540">
 <token>System.Xml.Schema.XmlSchemaSequence,new</token>
 <token>System.Xml.Schema.XmlSchemaAny,new</token>
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
@@ -844,7 +864,7 @@
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 <token>System.Xml.Schema.XmlSchemaEnumerationFacet,new</token>
 </entry>
-<entry count="4">
+<entry count="8">
 <token>System.Xml.Schema.XmlSchemaEnumerationFacet,new</token>
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
@@ -876,7 +896,7 @@
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 <token>System.Xml.Schema.XmlSchemaEnumerationFacet,new</token>
 </entry>
-<entry count="936">
+<entry count="1554">
 <token>System.Xml.Schema.XmlSchemaAny,new</token>
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 </entry>
@@ -897,7 +917,7 @@
 <token>System.Xml.Schema.XmlSchemaAttribute,new</token>
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 </entry>
-<entry count="326">
+<entry count="542">
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 <token>System.Xml.Schema.XmlSchemaAny,new</token>
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
@@ -911,7 +931,7 @@
 <token>System.Xml.Schema.XmlSchemaAny,new</token>
 <token>System.Xml.Schema.XmlSchemaSequence,new</token>
 </entry>
-<entry count="6">
+<entry count="12">
 <token>System.Xml.Schema.XmlSchemaSimpleTypeUnion,new</token>
 <token>System.Xml.Schema.XmlSchemaSimpleType,new</token>
 </entry>
@@ -929,18 +949,18 @@
 <token>System.Xml.Schema.XmlSchemaAny,new</token>
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 </entry>
-<entry count="603">
+<entry count="1005">
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 <token>System.Xml.Schema.XmlSchemaSet,Contains</token>
 </entry>
-<entry count="8">
+<entry count="36">
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 <token>System.Xml.Schema.XmlSchemaElement,new</token>
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 </entry>
-<entry count="4">
+<entry count="9768">
 <token>System.Xml.Schema.XmlSchemaSet,Add</token>
 <token>System.Xml.Schema.XmlSchemaSet,Add</token>
 </entry>
@@ -973,12 +993,12 @@
 <token>System.Xml.Schema.XmlSchemaAny,new</token>
 <token>System.Xml.Schema.XmlSchemaSequence,new</token>
 </entry>
-<entry count="329">
+<entry count="545">
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 <token>System.Xml.Schema.XmlSchemaAny,new</token>
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 </entry>
-<entry count="324">
+<entry count="540">
 <token>System.Xml.Schema.XmlSchemaSequence,new</token>
 <token>System.Xml.Schema.XmlSchemaAny,new</token>
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
@@ -1001,18 +1021,18 @@
 <token>System.Xml.Schema.ValidationEventHandler,new</token>
 <token>System.Xml.Schema.XmlSchema,Read</token>
 </entry>
-<entry count="6">
+<entry count="12">
 <token>System.Xml.Schema.XmlSchemaSimpleTypeUnion,new</token>
 <token>System.Xml.Schema.XmlSchemaSimpleType,new</token>
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 <token>System.Xml.Schema.XmlSchemaSimpleTypeRestriction,new</token>
 </entry>
-<entry count="536">
+<entry count="938">
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 <token>System.Xml.Schema.XmlSchemaSet,Contains</token>
 <token>System.Xml.Schema.XmlSchema,Write</token>
 </entry>
-<entry count="26">
+<entry count="54">
 <token>System.Xml.Schema.XmlSchemaAnnotation,new</token>
 <token>System.Xml.Schema.XmlSchemaDocumentation,new</token>
 </entry>
@@ -1023,11 +1043,17 @@
 <token>System.Xml.Schema.XmlSchemaComplexType,new</token>
 <token>System.Xml.Schema.XmlSchemaAttribute,new</token>
 </entry>
+<entry count="256">
+<token>System.Xml.Schema.XmlSchemaCollection,Add</token>
+<token>System.Xml.Schema.XmlSchemaCollection,Add</token>
+<token>System.Xml.Schema.XmlSchemaCollection,Add</token>
+<token>System.Xml.Schema.XmlSchemaCollection,Add</token>
+</entry>
 <entry count="3">
 <token>System.Xml.Schema.XmlSchemaSequence,new</token>
 <token>System.Xml.Schema.XmlSchemaSet,Add</token>
 </entry>
-<entry count="606">
+<entry count="1008">
 <token>System.Xml.Schema.XmlSchemaComplexType,new</token>
 <token>System.Xml.Schema.XmlSchemaSequence,new</token>
 </entry>
@@ -1036,12 +1062,12 @@
 <token>System.Xml.Schema.XmlSchemaSequence,new</token>
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 </entry>
-<entry count="326">
+<entry count="542">
 <token>System.Xml.Schema.XmlSchemaAny,new</token>
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 <token>System.Xml.Schema.XmlSchemaAny,new</token>
 </entry>
-<entry count="2">
+<entry count="4">
 <token>System.Xml.Schema.XmlSchemaSimpleTypeUnion,new</token>
 <token>System.Xml.Schema.XmlSchemaSimpleType,new</token>
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
@@ -1055,7 +1081,7 @@
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 <token>System.Xml.Schema.XmlSchemaAttribute,new</token>
 </entry>
-<entry count="324">
+<entry count="540">
 <token>System.Xml.Schema.XmlSchemaAttribute,new</token>
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 <token>System.Xml.Schema.XmlSchemaSet,Contains</token>
@@ -1066,12 +1092,12 @@
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 <token>System.Xml.Schema.XmlSchemaElement,new</token>
 </entry>
-<entry count="2">
+<entry count="8">
 <token>System.Xml.Schema.XmlSchemaValidationException,new</token>
 <token>System.Xml.Schema.XmlSchemaValidationException,new</token>
 <token>System.Xml.Schema.XmlSchemaValidationException,new</token>
 </entry>
-<entry count="268">
+<entry count="670">
 <token>System.Xml.Schema.XmlSchemaSet,Schemas</token>
 <token>System.Xml.Schema.XmlSchema,Write</token>
 <token>System.Xml.Schema.XmlSchemaSet,Add</token>
@@ -1089,7 +1115,7 @@
 <token>System.Xml.Schema.XmlSchemaComplexContentExtension,new</token>
 <token>System.Xml.Schema.XmlSchemaAttribute,new</token>
 </entry>
-<entry count="326">
+<entry count="542">
 <token>System.Xml.Schema.XmlSchemaAny,new</token>
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 <token>System.Xml.Schema.XmlSchemaAttribute,new</token>
@@ -1103,7 +1129,7 @@
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 <token>System.Xml.Schema.XmlSchemaEnumerationFacet,new</token>
 </entry>
-<entry count="536">
+<entry count="938">
 <token>System.Xml.Schema.XmlSchemaSet,Contains</token>
 <token>System.Xml.Schema.XmlSchema,Write</token>
 </entry>
@@ -1114,14 +1140,14 @@
 <token>System.Xml.Schema.XmlSchemaEnumerationFacet,new</token>
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 </entry>
-<entry count="8">
+<entry count="36">
 <token>System.Xml.Schema.XmlSchemaDocumentation,new</token>
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 </entry>
-<entry count="52">
+<entry count="80">
 <token>System.Xml.Schema.XmlSchemaElement,new</token>
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 </entry>
@@ -1130,11 +1156,11 @@
 <token>System.Xml.Schema.XmlSchemaSet,Add</token>
 <token>System.Xml.Schema.XmlSchemaSet,Compile</token>
 </entry>
-<entry count="6">
+<entry count="12">
 <token>System.Xml.Schema.XmlSchemaSimpleType,new</token>
 <token>System.Xml.Schema.XmlSchemaSimpleTypeUnion,new</token>
 </entry>
-<entry count="44">
+<entry count="72">
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 <token>System.Xml.Schema.XmlSchemaElement,new</token>
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
@@ -1150,13 +1176,13 @@
 <token>System.Xml.Schema.XmlSchemaSet,Compile</token>
 <token>System.Xml.Schema.XmlSchemaSet,Schemas</token>
 </entry>
-<entry count="536">
+<entry count="938">
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 <token>System.Xml.Schema.XmlSchemaSet,Contains</token>
 <token>System.Xml.Schema.XmlSchema,Write</token>
 <token>System.Xml.Schema.XmlSchemaSet,Schemas</token>
 </entry>
-<entry count="32">
+<entry count="144">
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
@@ -1169,13 +1195,13 @@
 <token>System.Xml.Schema.XmlSchemaSimpleTypeRestriction,new</token>
 <token>System.Xml.Schema.XmlSchemaEnumerationFacet,new</token>
 </entry>
-<entry count="326">
+<entry count="542">
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 <token>System.Xml.Schema.XmlSchemaAny,new</token>
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 <token>System.Xml.Schema.XmlSchemaAttribute,new</token>
 </entry>
-<entry count="10">
+<entry count="18">
 <token>System.Xml.Schema.XmlSchemaAnyAttribute,new</token>
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 </entry>
@@ -1189,7 +1215,7 @@
 <token>System.Xml.Schema.XmlSchemaSimpleType,new</token>
 <token>System.Xml.Schema.XmlSchemaSimpleTypeRestriction,new</token>
 </entry>
-<entry count="8">
+<entry count="36">
 <token>System.Xml.Schema.XmlSchemaElement,new</token>
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
@@ -1238,7 +1264,7 @@
 <token>System.Xml.Schema.XmlSchemaAttribute,new</token>
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 </entry>
-<entry count="1499">
+<entry count="1931">
 <token>System.Xml.Schema.XmlSchemaAttribute,new</token>
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 </entry>
@@ -1248,26 +1274,33 @@
 <token>System.Xml.Schema.XmlSchemaComplexType,new</token>
 <token>System.Xml.Schema.XmlSchemaComplexContent,new</token>
 </entry>
-<entry count="34">
+<entry count="50">
 <token>System.Xml.Schema.XmlSchema,Read</token>
 <token>System.Xml.Schema.XmlSchema,Compile</token>
 </entry>
-<entry count="8">
+<entry count="36">
 <token>System.Xml.Schema.XmlSchemaElement,new</token>
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 </entry>
-<entry count="4">
+<entry count="8">
 <token>System.Xml.Schema.XmlSchemaSimpleTypeUnion,new</token>
 <token>System.Xml.Schema.XmlSchemaSimpleType,new</token>
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 <token>System.Xml.Schema.XmlSchemaSimpleTypeRestriction,new</token>
 <token>System.Xml.Schema.XmlSchemaEnumerationFacet,new</token>
 </entry>
-<entry count="4">
+<entry count="12">
 <token>System.Xml.Schema.XmlSchemaComplexType,new</token>
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
+</entry>
+<entry count="4">
+<token>System.Xml.Schema.XmlSchemaSet,Add</token>
+<token>System.Xml.Schema.XmlSchemaSet,Add</token>
+<token>System.Xml.Schema.XmlSchemaSet,Add</token>
+<token>System.Xml.Schema.XmlSchemaSet,Add</token>
+<token>System.Xml.Schema.XmlSchemaSet,Add</token>
 </entry>
 <entry count="210">
 <token>System.Xml.Schema.XmlSchemaComplexType,new</token>
@@ -1285,7 +1318,7 @@
 <token>System.Xml.Schema.XmlSchemaAny,new</token>
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 </entry>
-<entry count="4">
+<entry count="12">
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 <token>System.Xml.Schema.XmlSchemaAnyAttribute,new</token>
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
@@ -1331,7 +1364,12 @@
 <token>System.Xml.Schema.XmlSchemaAttribute,new</token>
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 </entry>
-<entry count="8">
+<entry count="2816">
+<token>System.Xml.Schema.XmlSchemaCollection,Add</token>
+<token>System.Xml.Schema.XmlSchemaCollection,Add</token>
+<token>System.Xml.Schema.XmlSchemaCollection,Add</token>
+</entry>
+<entry count="36">
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 <token>System.Xml.Schema.XmlSchemaElement,new</token>
@@ -1351,7 +1389,7 @@
 <token>System.Xml.Schema.XmlSchemaSet,Add</token>
 <token>System.Xml.Schema.XmlSchemaSet,Compile</token>
 </entry>
-<entry count="4">
+<entry count="8">
 <token>System.Xml.Schema.XmlSchemaComplexType,new</token>
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 <token>System.Xml.Schema.XmlSchemaAnyAttribute,new</token>
@@ -1367,31 +1405,37 @@
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 <token>System.Xml.Schema.XmlSchemaSimpleType,new</token>
 </entry>
-<entry count="248">
+<entry count="434">
 <token>System.Xml.Schema.XmlSchemaSequence,new</token>
 <token>System.Xml.Schema.XmlSchemaAny,new</token>
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 <token>System.Xml.Schema.XmlSchemaSet,Contains</token>
 <token>System.Xml.Schema.XmlSchema,Write</token>
 </entry>
-<entry count="27050">
+<entry count="19882">
 <token>System.Xml.Schema.XmlSchemaSet,Add</token>
 <token>System.Xml.Schema.Extensions,Validate</token>
 </entry>
-<entry count="268">
+<entry count="670">
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 <token>System.Xml.Schema.XmlSchemaSet,Contains</token>
 <token>System.Xml.Schema.XmlSchema,Write</token>
 <token>System.Xml.Schema.XmlSchemaSet,Schemas</token>
 <token>System.Xml.Schema.XmlSchema,Write</token>
 </entry>
-<entry count="603">
+<entry count="4">
+<token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
+<token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
+<token>System.Xml.Schema.XmlSchemaAnyAttribute,new</token>
+<token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
+</entry>
+<entry count="1005">
 <token>System.Xml.Schema.XmlSchemaComplexType,new</token>
 <token>System.Xml.Schema.XmlSchemaSequence,new</token>
 <token>System.Xml.Schema.XmlSchemaAny,new</token>
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 </entry>
-<entry count="603">
+<entry count="1005">
 <token>System.Xml.Schema.XmlSchemaComplexType,new</token>
 <token>System.Xml.Schema.XmlSchemaSequence,new</token>
 <token>System.Xml.Schema.XmlSchemaAny,new</token>
@@ -1429,7 +1473,7 @@
 <token>System.Xml.Schema.XmlSchemaChoice,new</token>
 <token>System.Xml.Schema.XmlSchemaAny,new</token>
 </entry>
-<entry count="23">
+<entry count="27">
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 <token>System.Xml.Schema.XmlSchemaSimpleTypeRestriction,new</token>
 <token>System.Xml.Schema.XmlSchemaEnumerationFacet,new</token>
@@ -1476,14 +1520,14 @@
 <token>System.Xml.Schema.XmlSchema,Read</token>
 <token>System.Xml.Schema.XmlSchemaSet,Add</token>
 </entry>
-<entry count="288">
+<entry count="504">
 <token>System.Xml.Schema.XmlSchemaAttribute,new</token>
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 <token>System.Xml.Schema.XmlSchemaSet,Contains</token>
 <token>System.Xml.Schema.XmlSchema,Write</token>
 <token>System.Xml.Schema.XmlSchemaSet,Schemas</token>
 </entry>
-<entry count="884">
+<entry count="1100">
 <token>System.Xml.Schema.XmlSchemaAttribute,new</token>
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 <token>System.Xml.Schema.XmlSchemaAttribute,new</token>
@@ -1511,7 +1555,7 @@
 <token>System.Xml.Schema.XmlSchemaEnumerationFacet,new</token>
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 </entry>
-<entry count="56">
+<entry count="60">
 <token>System.Xml.Schema.XmlSchemaSimpleTypeRestriction,new</token>
 <token>System.Xml.Schema.XmlSchemaEnumerationFacet,new</token>
 </entry>
@@ -1525,12 +1569,12 @@
 <token>System.Xml.Schema.XmlSchemaSet,Contains</token>
 <token>System.Xml.Schema.XmlSchemaSet,Add</token>
 </entry>
-<entry count="1258">
+<entry count="1690">
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 <token>System.Xml.Schema.XmlSchemaAttribute,new</token>
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 </entry>
-<entry count="603">
+<entry count="1005">
 <token>System.Xml.Schema.XmlSchemaSequence,new</token>
 <token>System.Xml.Schema.XmlSchemaAny,new</token>
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
@@ -1546,13 +1590,20 @@
 <token>System.Xml.Schema.XmlSchemaAny,new</token>
 <token>System.Xml.Schema.XmlSchemaSequence,new</token>
 </entry>
-<entry count="26">
+<entry count="54">
 <token>System.Xml.Schema.XmlSchemaDocumentation,new</token>
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 </entry>
 <entry count="12">
 <token>System.Xml.Schema.XmlSchemaComplexType,new</token>
 <token>System.Xml.Schema.XmlSchemaAll,new</token>
+</entry>
+<entry count="4">
+<token>System.Xml.Schema.XmlSchemaComplexType,new</token>
+<token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
+<token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
+<token>System.Xml.Schema.XmlSchemaAnyAttribute,new</token>
+<token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 </entry>
 <entry count="12">
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
@@ -1582,7 +1633,7 @@
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 <token>System.Xml.Schema.XmlSchemaSet,new</token>
 </entry>
-<entry count="6">
+<entry count="12">
 <token>System.Xml.Schema.XmlSchemaSimpleType,new</token>
 <token>System.Xml.Schema.XmlSchemaSimpleTypeUnion,new</token>
 <token>System.Xml.Schema.XmlSchemaSimpleType,new</token>
@@ -1593,7 +1644,7 @@
 <token>System.Xml.Schema.XmlSchema,Read</token>
 <token>System.Xml.Schema.XmlSchemaSet,Add</token>
 </entry>
-<entry count="2">
+<entry count="4">
 <token>System.Xml.Schema.XmlSchemaSimpleTypeRestriction,new</token>
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 </entry>
@@ -1627,12 +1678,12 @@
 <token>System.Xml.Schema.XmlSchemaSimpleType,new</token>
 <token>System.Xml.Schema.XmlSchemaAttribute,new</token>
 </entry>
-<entry count="8">
+<entry count="36">
 <token>System.Xml.Schema.XmlSchemaDocumentation,new</token>
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 </entry>
-<entry count="603">
+<entry count="1005">
 <token>System.Xml.Schema.XmlSchemaSequence,new</token>
 <token>System.Xml.Schema.XmlSchemaAny,new</token>
 </entry>
@@ -1648,6 +1699,12 @@
 <token>System.Xml.Schema.XmlSchemaAll,new</token>
 <token>System.Xml.Schema.XmlSchemaComplexType,new</token>
 <token>System.Xml.Schema.XmlSchemaAny,new</token>
+</entry>
+<entry count="108">
+<token>System.Xml.Schema.XmlSchemaSet,Add</token>
+<token>System.Xml.Schema.XmlSchemaSet,Add</token>
+<token>System.Xml.Schema.XmlSchemaSet,Add</token>
+<token>System.Xml.Schema.XmlSchemaSet,Add</token>
 </entry>
 <entry count="12">
 <token>System.Xml.Schema.XmlSchemaAll,new</token>
@@ -1692,6 +1749,11 @@
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 <token>System.Xml.Schema.XmlSchemaAttribute,new</token>
 </entry>
+<entry count="1348">
+<token>System.Xml.Schema.XmlSchemaSet,Add</token>
+<token>System.Xml.Schema.XmlSchemaSet,Add</token>
+<token>System.Xml.Schema.XmlSchemaSet,Add</token>
+</entry>
 <entry count="7">
 <token>System.Xml.Schema.XmlSchema,Read</token>
 <token>System.Xml.Schema.XmlSchemaSet,Add</token>
@@ -1723,14 +1785,14 @@
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 <token>System.Xml.Schema.XmlSchemaAny,new</token>
 </entry>
-<entry count="4">
+<entry count="8">
 <token>System.Xml.Schema.XmlSchemaSimpleType,new</token>
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 <token>System.Xml.Schema.XmlSchemaSimpleTypeRestriction,new</token>
 <token>System.Xml.Schema.XmlSchemaEnumerationFacet,new</token>
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 </entry>
-<entry count="8">
+<entry count="36">
 <token>System.Xml.Schema.XmlSchemaAnnotation,new</token>
 <token>System.Xml.Schema.XmlSchemaDocumentation,new</token>
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
@@ -1742,7 +1804,7 @@
 <token>System.Xml.Schema.XmlSchemaSequence,new</token>
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 </entry>
-<entry count="326">
+<entry count="542">
 <token>System.Xml.Schema.XmlSchemaAny,new</token>
 <token>System.Xml.Schema.XmlSchemaObjectCollection,Add</token>
 <token>System.Xml.Schema.XmlSchemaAny,new</token>

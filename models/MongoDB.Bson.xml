@@ -1,27 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?><dictionary case_sensitive="false">
-<entry count="16">
+<entry count="1185">
 <token>MongoDB.Bson.BsonElement,new</token>
 <token>MongoDB.Bson.BsonDocument,Add</token>
 </entry>
-<entry count="32">
+<entry count="120">
+<token>MongoDB.Bson.BsonDocument,new</token>
+<token>MongoDB.Bson.BsonElement,new</token>
+<token>MongoDB.Bson.BsonDocument,Add</token>
+<token>MongoDB.Bson.BsonDocument,new</token>
+<token>MongoDB.Bson.BsonDocument,new</token>
+</entry>
+<entry count="100000">
 <token>MongoDB.Bson.BsonDocument,GetValue</token>
 <token>MongoDB.Bson.BsonDocument,TryGetValue</token>
 </entry>
-<entry count="14">
+<entry count="58">
 <token>MongoDB.Bson.BsonDocument,Add</token>
 <token>MongoDB.Bson.BsonDocument,Add</token>
 </entry>
-<entry count="112">
+<entry count="116766">
 <token>MongoDB.Bson.BsonArray,Add</token>
 <token>MongoDB.Bson.BsonArray,Contains</token>
 </entry>
-<entry count="56">
+<entry count="50181">
 <token>MongoDB.Bson.BsonArray,Contains</token>
 <token>MongoDB.Bson.BsonArray,Add</token>
 <token>MongoDB.Bson.BsonArray,Contains</token>
 <token>MongoDB.Bson.BsonArray,Add</token>
 </entry>
-<entry count="64">
+<entry count="200000">
 <token>MongoDB.Bson.BsonDocument,TryGetValue</token>
 <token>MongoDB.Bson.BsonDocument,TryGetValue</token>
 <token>MongoDB.Bson.BsonDocument,TryGetValue</token>
@@ -33,7 +40,7 @@
 <token>MongoDB.Bson.BsonJavaScript,new</token>
 <token>MongoDB.Bson.BsonDocument,Add</token>
 </entry>
-<entry count="56">
+<entry count="50181">
 <token>MongoDB.Bson.BsonArray,Contains</token>
 <token>MongoDB.Bson.BsonArray,Contains</token>
 <token>MongoDB.Bson.BsonArray,Add</token>
@@ -46,12 +53,19 @@
 <token>MongoDB.Bson.BsonDocument,Add</token>
 <token>MongoDB.Bson.BsonArray,Add</token>
 </entry>
-<entry count="11">
+<entry count="72">
+<token>MongoDB.Bson.BsonDocument,Add</token>
+<token>MongoDB.Bson.BsonDocument,new</token>
+<token>MongoDB.Bson.BsonElement,new</token>
+<token>MongoDB.Bson.BsonDocument,Add</token>
+<token>MongoDB.Bson.BsonDocument,new</token>
+</entry>
+<entry count="24">
 <token>MongoDB.Bson.BsonDocument,GetValue</token>
 <token>MongoDB.Bson.BsonDocument,GetValue</token>
 <token>MongoDB.Bson.BsonDocument,GetValue</token>
 </entry>
-<entry count="5">
+<entry count="9">
 <token>MongoDB.Bson.BsonDocument,new</token>
 <token>MongoDB.Bson.BsonDocument,new</token>
 <token>MongoDB.Bson.BsonDocument,Add</token>
@@ -61,7 +75,7 @@
 <token>MongoDB.Bson.BsonArray,Add</token>
 <token>MongoDB.Bson.BsonDocument,Add</token>
 </entry>
-<entry count="4">
+<entry count="16">
 <token>MongoDB.Bson.BsonDocument,new</token>
 <token>MongoDB.Bson.BsonDocument,new</token>
 <token>MongoDB.Bson.BsonElement,new</token>
@@ -84,18 +98,18 @@
 <token>MongoDB.Bson.BsonDocument,GetElement</token>
 <token>MongoDB.Bson.BsonDocument,GetElement</token>
 </entry>
-<entry count="512">
+<entry count="104976">
 <token>MongoDB.Bson.BsonExtensionMethods,ToBsonDocument</token>
 <token>MongoDB.Bson.BsonDocument,Contains</token>
 <token>MongoDB.Bson.BsonDocument,Contains</token>
 <token>MongoDB.Bson.BsonDocument,Contains</token>
 </entry>
-<entry count="2">
+<entry count="9">
 <token>MongoDB.Bson.BsonDocument,new</token>
 <token>MongoDB.Bson.BsonArray,Add</token>
 <token>MongoDB.Bson.BsonDocument,new</token>
 </entry>
-<entry count="20">
+<entry count="18432">
 <token>MongoDB.Bson.BsonArray,Contains</token>
 <token>MongoDB.Bson.BsonArray,Contains</token>
 <token>MongoDB.Bson.BsonArray,Add</token>
@@ -106,7 +120,7 @@
 <token>MongoDB.Bson.BsonDocument,Parse</token>
 <token>MongoDB.Bson.BsonExtensionMethods,ToJson</token>
 </entry>
-<entry count="112">
+<entry count="182382">
 <token>MongoDB.Bson.BsonArray,Contains</token>
 <token>MongoDB.Bson.BsonArray,Contains</token>
 </entry>
@@ -124,7 +138,19 @@
 <token>MongoDB.Bson.BsonJavaScript,new</token>
 <token>MongoDB.Bson.BsonJavaScript,new</token>
 </entry>
-<entry count="128">
+<entry count="432">
+<token>MongoDB.Bson.BsonElement,new</token>
+<token>MongoDB.Bson.BsonDocument,Add</token>
+<token>MongoDB.Bson.BsonDocument,new</token>
+</entry>
+<entry count="16">
+<token>MongoDB.Bson.BsonElement,new</token>
+<token>MongoDB.Bson.BsonElement,new</token>
+<token>MongoDB.Bson.BsonDocument,Add</token>
+<token>MongoDB.Bson.BsonDocument,new</token>
+<token>MongoDB.Bson.BsonDocument,Add</token>
+</entry>
+<entry count="400000">
 <token>MongoDB.Bson.BsonDocument,TryGetValue</token>
 <token>MongoDB.Bson.BsonDocument,TryGetValue</token>
 </entry>
@@ -134,7 +160,11 @@
 <token>MongoDB.Bson.BsonDocument,Add</token>
 <token>MongoDB.Bson.BsonDocument,Add</token>
 </entry>
-<entry count="16">
+<entry count="6">
+<token>MongoDB.Bson.BsonDocument,GetElement</token>
+<token>MongoDB.Bson.BsonDocument,GetValue</token>
+</entry>
+<entry count="13317">
 <token>MongoDB.Bson.BsonArray,new</token>
 <token>MongoDB.Bson.BsonArray,Contains</token>
 <token>MongoDB.Bson.BsonArray,Contains</token>
@@ -151,6 +181,26 @@
 <token>MongoDB.Bson.BsonDocument,new</token>
 <token>MongoDB.Bson.BsonDocument,Add</token>
 </entry>
+<entry count="4">
+<token>MongoDB.Bson.BsonDocument,Contains</token>
+<token>MongoDB.Bson.BsonDocument,GetElement</token>
+<token>MongoDB.Bson.BsonDocument,GetElement</token>
+<token>MongoDB.Bson.BsonDocument,GetElement</token>
+<token>MongoDB.Bson.BsonDocument,Contains</token>
+</entry>
+<entry count="120">
+<token>MongoDB.Bson.BsonElement,new</token>
+<token>MongoDB.Bson.BsonDocument,Add</token>
+<token>MongoDB.Bson.BsonDocument,new</token>
+<token>MongoDB.Bson.BsonDocument,new</token>
+</entry>
+<entry count="3">
+<token>MongoDB.Bson.BsonDocument,GetElement</token>
+<token>MongoDB.Bson.BsonDocument,GetElement</token>
+<token>MongoDB.Bson.BsonDocument,GetElement</token>
+<token>MongoDB.Bson.BsonDocument,Contains</token>
+<token>MongoDB.Bson.BsonDocument,GetElement</token>
+</entry>
 <entry count="3">
 <token>MongoDB.Bson.BsonDocument,Add</token>
 <token>MongoDB.Bson.BsonDocument,new</token>
@@ -161,7 +211,19 @@
 <token>MongoDB.Bson.BsonDocument,Add</token>
 <token>MongoDB.Bson.BsonDocument,ToString</token>
 </entry>
-<entry count="32">
+<entry count="264">
+<token>MongoDB.Bson.BsonDocument,Add</token>
+<token>MongoDB.Bson.BsonDocument,new</token>
+<token>MongoDB.Bson.BsonElement,new</token>
+<token>MongoDB.Bson.BsonDocument,Add</token>
+</entry>
+<entry count="384">
+<token>MongoDB.Bson.BsonDocument,new</token>
+<token>MongoDB.Bson.BsonElement,new</token>
+<token>MongoDB.Bson.BsonDocument,Add</token>
+<token>MongoDB.Bson.BsonDocument,new</token>
+</entry>
+<entry count="100000">
 <token>MongoDB.Bson.BsonDocument,GetValue</token>
 <token>MongoDB.Bson.BsonDocument,GetValue</token>
 <token>MongoDB.Bson.BsonDocument,TryGetValue</token>
@@ -180,13 +242,13 @@
 <token>MongoDB.Bson.BsonDocument,Contains</token>
 <token>MongoDB.Bson.BsonDocument,Remove</token>
 </entry>
-<entry count="32">
+<entry count="100000">
 <token>MongoDB.Bson.BsonDocument,GetValue</token>
 <token>MongoDB.Bson.BsonDocument,TryGetValue</token>
 <token>MongoDB.Bson.BsonDocument,TryGetValue</token>
 <token>MongoDB.Bson.BsonDocument,TryGetValue</token>
 </entry>
-<entry count="6">
+<entry count="5888">
 <token>MongoDB.Bson.BsonArray,Add</token>
 <token>MongoDB.Bson.BsonArray,Contains</token>
 <token>MongoDB.Bson.BsonArray,Contains</token>
@@ -216,7 +278,7 @@
 <token>MongoDB.Bson.BsonDocument,GetValue</token>
 <token>MongoDB.Bson.BsonDocument,Contains</token>
 </entry>
-<entry count="4">
+<entry count="9">
 <token>MongoDB.Bson.BsonDocument,GetValue</token>
 <token>MongoDB.Bson.BsonDocument,GetValue</token>
 <token>MongoDB.Bson.BsonDocument,GetValue</token>
@@ -241,13 +303,18 @@
 <token>MongoDB.Bson.BsonDocument,Contains</token>
 <token>MongoDB.Bson.BsonDocument,GetElement</token>
 </entry>
-<entry count="3">
+<entry count="14">
 <token>MongoDB.Bson.BsonDocument,Contains</token>
 <token>MongoDB.Bson.BsonDocument,GetElement</token>
 <token>MongoDB.Bson.BsonDocument,GetElement</token>
 <token>MongoDB.Bson.BsonDocument,GetElement</token>
 </entry>
-<entry count="3">
+<entry count="1">
+<token>MongoDB.Bson.BsonDocument,Contains</token>
+<token>MongoDB.Bson.BsonDocument,GetValue</token>
+<token>MongoDB.Bson.BsonDocument,GetValue</token>
+</entry>
+<entry count="120">
 <token>MongoDB.Bson.BsonDocument,new</token>
 <token>MongoDB.Bson.BsonDocument,new</token>
 <token>MongoDB.Bson.BsonElement,new</token>
@@ -258,7 +325,7 @@
 <token>MongoDB.Bson.BsonDocument,GetElement</token>
 <token>MongoDB.Bson.BsonUndefined,ToString</token>
 </entry>
-<entry count="512">
+<entry count="104976">
 <token>MongoDB.Bson.BsonDocument,new</token>
 <token>MongoDB.Bson.BsonExtensionMethods,ToBsonDocument</token>
 <token>MongoDB.Bson.BsonDocument,Contains</token>
@@ -269,12 +336,17 @@
 <token>MongoDB.Bson.BsonDocument,new</token>
 <token>MongoDB.Bson.BsonDocument,Contains</token>
 </entry>
-<entry count="56">
+<entry count="2">
+<token>MongoDB.Bson.BsonDocument,GetElement</token>
+<token>MongoDB.Bson.BsonDocument,GetElement</token>
+<token>MongoDB.Bson.BsonDocument,GetValue</token>
+</entry>
+<entry count="50181">
 <token>MongoDB.Bson.BsonArray,Add</token>
 <token>MongoDB.Bson.BsonArray,Contains</token>
 <token>MongoDB.Bson.BsonArray,Add</token>
 </entry>
-<entry count="8">
+<entry count="6656">
 <token>MongoDB.Bson.BsonArray,new</token>
 <token>MongoDB.Bson.BsonArray,Contains</token>
 <token>MongoDB.Bson.BsonArray,Contains</token>
@@ -287,12 +359,19 @@
 <token>MongoDB.Bson.BsonJavaScript,new</token>
 <token>MongoDB.Bson.BsonJavaScript,new</token>
 </entry>
-<entry count="2">
+<entry count="16900">
 <token>MongoDB.Bson.BsonArray,Add</token>
 <token>MongoDB.Bson.BsonArray,Contains</token>
 <token>MongoDB.Bson.BsonArray,Contains</token>
 <token>MongoDB.Bson.BsonArray,Contains</token>
 <token>MongoDB.Bson.BsonArray,Contains</token>
+</entry>
+<entry count="1">
+<token>MongoDB.Bson.BsonDocument,GetElement</token>
+<token>MongoDB.Bson.BsonDocument,GetElement</token>
+<token>MongoDB.Bson.BsonDocument,Contains</token>
+<token>MongoDB.Bson.BsonDocument,GetElement</token>
+<token>MongoDB.Bson.BsonDocument,GetElement</token>
 </entry>
 <entry count="2">
 <token>MongoDB.Bson.BsonUndefined,ToString</token>
@@ -308,18 +387,24 @@
 <token>MongoDB.Bson.BsonDocument,Add</token>
 </entry>
 <entry count="32">
+<token>MongoDB.Bson.BsonDocument,Add</token>
+<token>MongoDB.Bson.BsonDocument,new</token>
+<token>MongoDB.Bson.BsonElement,new</token>
+<token>MongoDB.Bson.BsonElement,new</token>
+</entry>
+<entry count="100000">
 <token>MongoDB.Bson.BsonDocument,GetValue</token>
 <token>MongoDB.Bson.BsonDocument,TryGetValue</token>
 <token>MongoDB.Bson.BsonDocument,TryGetValue</token>
 <token>MongoDB.Bson.BsonDocument,TryGetValue</token>
 <token>MongoDB.Bson.BsonDocument,TryGetValue</token>
 </entry>
-<entry count="4">
+<entry count="96">
 <token>MongoDB.Bson.BsonDocument,new</token>
 <token>MongoDB.Bson.BsonElement,new</token>
 <token>MongoDB.Bson.BsonElement,new</token>
 </entry>
-<entry count="3">
+<entry count="192">
 <token>MongoDB.Bson.BsonElement,new</token>
 <token>MongoDB.Bson.BsonDocument,Add</token>
 <token>MongoDB.Bson.BsonElement,new</token>
@@ -334,11 +419,29 @@
 <token>MongoDB.Bson.BsonJavaScript,new</token>
 <token>MongoDB.Bson.BsonJavaScript,new</token>
 </entry>
-<entry count="3">
+<entry count="48">
+<token>MongoDB.Bson.BsonElement,new</token>
+<token>MongoDB.Bson.BsonElement,new</token>
+<token>MongoDB.Bson.BsonDocument,Add</token>
+<token>MongoDB.Bson.BsonDocument,new</token>
+</entry>
+<entry count="2">
+<token>MongoDB.Bson.BsonDocument,Contains</token>
+<token>MongoDB.Bson.BsonDocument,GetElement</token>
+<token>MongoDB.Bson.BsonDocument,Contains</token>
+<token>MongoDB.Bson.BsonDocument,GetElement</token>
+<token>MongoDB.Bson.BsonDocument,GetElement</token>
+</entry>
+<entry count="192">
 <token>MongoDB.Bson.BsonDocument,Add</token>
 <token>MongoDB.Bson.BsonElement,new</token>
 </entry>
-<entry count="12">
+<entry count="3">
+<token>MongoDB.Bson.BsonDocument,GetElement</token>
+<token>MongoDB.Bson.BsonDocument,GetValue</token>
+<token>MongoDB.Bson.BsonDocument,GetValue</token>
+</entry>
+<entry count="24068">
 <token>MongoDB.Bson.BsonArray,Add</token>
 <token>MongoDB.Bson.BsonArray,Contains</token>
 <token>MongoDB.Bson.BsonArray,Add</token>
@@ -350,6 +453,18 @@
 <token>MongoDB.Bson.BsonDocument,GetValue</token>
 <token>MongoDB.Bson.BsonDocument,Contains</token>
 </entry>
+<entry count="1">
+<token>MongoDB.Bson.BsonDocument,Contains</token>
+<token>MongoDB.Bson.BsonDocument,Contains</token>
+<token>MongoDB.Bson.BsonDocument,GetElement</token>
+<token>MongoDB.Bson.BsonDocument,GetElement</token>
+<token>MongoDB.Bson.BsonDocument,GetElement</token>
+</entry>
+<entry count="4">
+<token>MongoDB.Bson.BsonDocument,Contains</token>
+<token>MongoDB.Bson.BsonDocument,GetElement</token>
+<token>MongoDB.Bson.BsonDocument,GetValue</token>
+</entry>
 <entry count="4">
 <token>MongoDB.Bson.BsonDocument,TryGetElement</token>
 <token>MongoDB.Bson.BsonElement,ToString</token>
@@ -359,7 +474,7 @@
 <token>MongoDB.Bson.BsonDocument,new</token>
 <token>MongoDB.Bson.BsonDocument,new</token>
 </entry>
-<entry count="2">
+<entry count="8">
 <token>MongoDB.Bson.BsonDocument,GetElement</token>
 <token>MongoDB.Bson.BsonExtensionMethods,ToBsonDocument</token>
 </entry>
@@ -374,7 +489,14 @@
 <token>MongoDB.Bson.BsonString,new</token>
 <token>MongoDB.Bson.BsonElement,new</token>
 </entry>
-<entry count="3">
+<entry count="264">
+<token>MongoDB.Bson.BsonDocument,new</token>
+<token>MongoDB.Bson.BsonElement,new</token>
+<token>MongoDB.Bson.BsonDocument,Add</token>
+<token>MongoDB.Bson.BsonDocument,new</token>
+<token>MongoDB.Bson.BsonElement,new</token>
+</entry>
+<entry count="192">
 <token>MongoDB.Bson.BsonDocument,Add</token>
 <token>MongoDB.Bson.BsonElement,new</token>
 <token>MongoDB.Bson.BsonDocument,Add</token>
@@ -397,12 +519,12 @@
 <token>MongoDB.Bson.BsonUndefined,ToString</token>
 <token>MongoDB.Bson.BsonDocument,GetElement</token>
 </entry>
-<entry count="512">
+<entry count="104976">
 <token>MongoDB.Bson.BsonExtensionMethods,ToBsonDocument</token>
 <token>MongoDB.Bson.BsonDocument,Contains</token>
 <token>MongoDB.Bson.BsonDocument,Contains</token>
 </entry>
-<entry count="8">
+<entry count="200">
 <token>MongoDB.Bson.BsonDocument,new</token>
 <token>MongoDB.Bson.BsonDocument,new</token>
 <token>MongoDB.Bson.BsonDocument,new</token>
@@ -418,24 +540,30 @@
 <token>MongoDB.Bson.BsonValue,Create</token>
 <token>MongoDB.Bson.BsonValue,Create</token>
 </entry>
-<entry count="12">
+<entry count="40472">
 <token>MongoDB.Bson.BsonArray,Add</token>
 <token>MongoDB.Bson.BsonArray,Contains</token>
 <token>MongoDB.Bson.BsonArray,Contains</token>
 <token>MongoDB.Bson.BsonArray,Contains</token>
 </entry>
-<entry count="3">
+<entry count="4">
+<token>MongoDB.Bson.BsonDocument,GetElement</token>
+<token>MongoDB.Bson.BsonDocument,GetElement</token>
+<token>MongoDB.Bson.BsonDocument,GetElement</token>
+<token>MongoDB.Bson.BsonDocument,Contains</token>
+</entry>
+<entry count="192">
 <token>MongoDB.Bson.BsonDocument,new</token>
 <token>MongoDB.Bson.BsonElement,new</token>
 <token>MongoDB.Bson.BsonDocument,Add</token>
 <token>MongoDB.Bson.BsonElement,new</token>
 </entry>
-<entry count="3584">
+<entry count="734832">
 <token>MongoDB.Bson.BsonDocument,Contains</token>
 <token>MongoDB.Bson.BsonDocument,Contains</token>
 <token>MongoDB.Bson.BsonDocument,Contains</token>
 </entry>
-<entry count="32">
+<entry count="26646">
 <token>MongoDB.Bson.BsonArray,new</token>
 <token>MongoDB.Bson.BsonArray,Contains</token>
 <token>MongoDB.Bson.BsonArray,Contains</token>
@@ -459,38 +587,44 @@
 <token>MongoDB.Bson.BsonArray,new</token>
 <token>MongoDB.Bson.BsonDocument,new</token>
 </entry>
-<entry count="4">
+<entry count="247">
 <token>MongoDB.Bson.BsonDocument,GetElement</token>
 <token>MongoDB.Bson.BsonDocument,GetElement</token>
 <token>MongoDB.Bson.BsonDocument,GetElement</token>
 <token>MongoDB.Bson.BsonDocument,GetElement</token>
+<token>MongoDB.Bson.BsonDocument,GetElement</token>
+</entry>
+<entry count="3">
+<token>MongoDB.Bson.BsonDocument,GetElement</token>
+<token>MongoDB.Bson.BsonDocument,GetElement</token>
+<token>MongoDB.Bson.BsonDocument,Contains</token>
 <token>MongoDB.Bson.BsonDocument,GetElement</token>
 </entry>
 <entry count="1">
 <token>MongoDB.Bson.BsonArray,Add</token>
 <token>MongoDB.Bson.BsonDocument,Add</token>
 </entry>
-<entry count="12">
+<entry count="24068">
 <token>MongoDB.Bson.BsonArray,Contains</token>
 <token>MongoDB.Bson.BsonArray,Contains</token>
 <token>MongoDB.Bson.BsonArray,Add</token>
 <token>MongoDB.Bson.BsonArray,Contains</token>
 <token>MongoDB.Bson.BsonArray,Contains</token>
 </entry>
-<entry count="9">
+<entry count="897">
 <token>MongoDB.Bson.BsonDocument,new</token>
 <token>MongoDB.Bson.BsonElement,new</token>
 <token>MongoDB.Bson.BsonDocument,Add</token>
 </entry>
-<entry count="145">
+<entry count="127014">
 <token>MongoDB.Bson.BsonArray,Contains</token>
 <token>MongoDB.Bson.BsonArray,Add</token>
 </entry>
-<entry count="28">
+<entry count="3007">
 <token>MongoDB.Bson.BsonDocument,GetElement</token>
 <token>MongoDB.Bson.BsonDocument,GetElement</token>
 </entry>
-<entry count="512">
+<entry count="104976">
 <token>MongoDB.Bson.BsonDocument,new</token>
 <token>MongoDB.Bson.BsonExtensionMethods,ToBsonDocument</token>
 <token>MongoDB.Bson.BsonDocument,Contains</token>
@@ -509,12 +643,12 @@
 <token>MongoDB.Bson.BsonDocument,new</token>
 <token>MongoDB.Bson.BsonDocument,GetElement</token>
 </entry>
-<entry count="2">
+<entry count="8">
 <token>MongoDB.Bson.BsonExtensionMethods,ToBsonDocument</token>
 <token>MongoDB.Bson.BsonDocument,GetElement</token>
 <token>MongoDB.Bson.BsonExtensionMethods,ToBsonDocument</token>
 </entry>
-<entry count="20">
+<entry count="18432">
 <token>MongoDB.Bson.BsonArray,Add</token>
 <token>MongoDB.Bson.BsonArray,Contains</token>
 <token>MongoDB.Bson.BsonArray,Contains</token>
@@ -528,50 +662,60 @@
 <token>MongoDB.Bson.BsonArray,new</token>
 <token>MongoDB.Bson.BsonElement,new</token>
 </entry>
-<entry count="40">
+<entry count="6">
+<token>MongoDB.Bson.BsonDocument,Contains</token>
+<token>MongoDB.Bson.BsonDocument,GetElement</token>
+<token>MongoDB.Bson.BsonDocument,Contains</token>
+<token>MongoDB.Bson.BsonDocument,GetElement</token>
+</entry>
+<entry count="45060">
 <token>MongoDB.Bson.BsonArray,Add</token>
 <token>MongoDB.Bson.BsonArray,Contains</token>
 <token>MongoDB.Bson.BsonArray,Add</token>
 <token>MongoDB.Bson.BsonArray,Contains</token>
 </entry>
-<entry count="40">
+<entry count="2">
+<token>MongoDB.Bson.BsonDocument,Contains</token>
+<token>MongoDB.Bson.BsonDocument,GetValue</token>
+</entry>
+<entry count="45060">
 <token>MongoDB.Bson.BsonArray,Contains</token>
 <token>MongoDB.Bson.BsonArray,Contains</token>
 <token>MongoDB.Bson.BsonArray,Add</token>
 <token>MongoDB.Bson.BsonArray,Contains</token>
 </entry>
-<entry count="17">
+<entry count="37">
 <token>MongoDB.Bson.BsonDocument,new</token>
 <token>MongoDB.Bson.BsonDocument,Add</token>
 </entry>
-<entry count="4">
+<entry count="96">
 <token>MongoDB.Bson.BsonDocument,new</token>
 <token>MongoDB.Bson.BsonElement,new</token>
 <token>MongoDB.Bson.BsonElement,new</token>
 <token>MongoDB.Bson.BsonDocument,Add</token>
 </entry>
-<entry count="32">
+<entry count="100000">
 <token>MongoDB.Bson.BsonDocument,GetValue</token>
 <token>MongoDB.Bson.BsonDocument,GetValue</token>
 <token>MongoDB.Bson.BsonDocument,TryGetValue</token>
 </entry>
-<entry count="2">
+<entry count="8">
 <token>MongoDB.Bson.BsonDocument,GetElement</token>
 <token>MongoDB.Bson.BsonExtensionMethods,ToBsonDocument</token>
 <token>MongoDB.Bson.BsonDocument,GetElement</token>
 </entry>
-<entry count="12">
+<entry count="40472">
 <token>MongoDB.Bson.BsonArray,Contains</token>
 <token>MongoDB.Bson.BsonArray,Contains</token>
 <token>MongoDB.Bson.BsonArray,Contains</token>
 <token>MongoDB.Bson.BsonArray,Contains</token>
 </entry>
-<entry count="96">
+<entry count="300000">
 <token>MongoDB.Bson.BsonDocument,TryGetValue</token>
 <token>MongoDB.Bson.BsonDocument,TryGetValue</token>
 <token>MongoDB.Bson.BsonDocument,TryGetValue</token>
 </entry>
-<entry count="20">
+<entry count="18432">
 <token>MongoDB.Bson.BsonArray,Contains</token>
 <token>MongoDB.Bson.BsonArray,Contains</token>
 <token>MongoDB.Bson.BsonArray,Contains</token>
@@ -583,6 +727,27 @@
 <token>MongoDB.Bson.BsonJavaScript,new</token>
 <token>MongoDB.Bson.BsonJavaScript,new</token>
 </entry>
+<entry count="2">
+<token>MongoDB.Bson.BsonDocument,Contains</token>
+<token>MongoDB.Bson.BsonDocument,GetElement</token>
+<token>MongoDB.Bson.BsonDocument,GetElement</token>
+<token>MongoDB.Bson.BsonDocument,GetElement</token>
+<token>MongoDB.Bson.BsonDocument,GetValue</token>
+</entry>
+<entry count="1">
+<token>MongoDB.Bson.BsonDocument,GetElement</token>
+<token>MongoDB.Bson.BsonDocument,GetElement</token>
+<token>MongoDB.Bson.BsonDocument,GetElement</token>
+<token>MongoDB.Bson.BsonDocument,GetValue</token>
+<token>MongoDB.Bson.BsonDocument,GetValue</token>
+</entry>
+<entry count="48">
+<token>MongoDB.Bson.BsonDocument,new</token>
+<token>MongoDB.Bson.BsonElement,new</token>
+<token>MongoDB.Bson.BsonElement,new</token>
+<token>MongoDB.Bson.BsonDocument,Add</token>
+<token>MongoDB.Bson.BsonDocument,new</token>
+</entry>
 <entry count="1">
 <token>MongoDB.Bson.BsonDocument,new</token>
 <token>MongoDB.Bson.BsonDocument,GetElement</token>
@@ -593,21 +758,33 @@
 <token>MongoDB.Bson.BsonDocument,Add</token>
 <token>MongoDB.Bson.BsonDocument,AddRange</token>
 </entry>
-<entry count="20">
+<entry count="18432">
 <token>MongoDB.Bson.BsonArray,Add</token>
 <token>MongoDB.Bson.BsonArray,Contains</token>
 <token>MongoDB.Bson.BsonArray,Add</token>
 <token>MongoDB.Bson.BsonArray,Contains</token>
 <token>MongoDB.Bson.BsonArray,Add</token>
 </entry>
-<entry count="8">
+<entry count="36">
 <token>MongoDB.Bson.BsonDocument,new</token>
 <token>MongoDB.Bson.BsonArray,Add</token>
 </entry>
-<entry count="3">
+<entry count="19">
 <token>MongoDB.Bson.BsonDocument,Add</token>
 <token>MongoDB.Bson.BsonDocument,new</token>
 <token>MongoDB.Bson.BsonDocument,Add</token>
+</entry>
+<entry count="120">
+<token>MongoDB.Bson.BsonDocument,Add</token>
+<token>MongoDB.Bson.BsonDocument,new</token>
+<token>MongoDB.Bson.BsonDocument,new</token>
+<token>MongoDB.Bson.BsonElement,new</token>
+</entry>
+<entry count="1">
+<token>MongoDB.Bson.BsonDocument,GetElement</token>
+<token>MongoDB.Bson.BsonDocument,GetElement</token>
+<token>MongoDB.Bson.BsonDocument,GetValue</token>
+<token>MongoDB.Bson.BsonDocument,GetValue</token>
 </entry>
 <entry count="2">
 <token>MongoDB.Bson.BsonString,new</token>
@@ -626,10 +803,15 @@
 <token>MongoDB.Bson.BsonDocument,Add</token>
 <token>MongoDB.Bson.BsonDocument,Add</token>
 </entry>
-<entry count="4">
+<entry count="48">
 <token>MongoDB.Bson.BsonElement,new</token>
 <token>MongoDB.Bson.BsonDocument,Add</token>
 <token>MongoDB.Bson.BsonDocument,Add</token>
+</entry>
+<entry count="9">
+<token>MongoDB.Bson.BsonDocument,GetElement</token>
+<token>MongoDB.Bson.BsonDocument,Contains</token>
+<token>MongoDB.Bson.BsonDocument,GetElement</token>
 </entry>
 <entry count="1">
 <token>MongoDB.Bson.BsonDocument,GetValue</token>
@@ -637,19 +819,45 @@
 <token>MongoDB.Bson.BsonDocument,Contains</token>
 <token>MongoDB.Bson.BsonDocument,GetElement</token>
 <token>MongoDB.Bson.BsonDocument,GetElement</token>
+</entry>
+<entry count="264">
+<token>MongoDB.Bson.BsonElement,new</token>
+<token>MongoDB.Bson.BsonDocument,Add</token>
+<token>MongoDB.Bson.BsonDocument,new</token>
+<token>MongoDB.Bson.BsonElement,new</token>
+<token>MongoDB.Bson.BsonDocument,Add</token>
 </entry>
 <entry count="8">
 <token>MongoDB.Bson.BsonDocument,Contains</token>
 <token>MongoDB.Bson.BsonDocument,Remove</token>
 </entry>
-<entry count="512">
+<entry count="8">
+<token>MongoDB.Bson.BsonDocument,Contains</token>
+<token>MongoDB.Bson.BsonDocument,GetElement</token>
+<token>MongoDB.Bson.BsonDocument,Contains</token>
+</entry>
+<entry count="104976">
 <token>MongoDB.Bson.BsonExtensionMethods,ToBsonDocument</token>
 <token>MongoDB.Bson.BsonDocument,Contains</token>
 <token>MongoDB.Bson.BsonDocument,Contains</token>
 <token>MongoDB.Bson.BsonDocument,Contains</token>
 <token>MongoDB.Bson.BsonDocument,Contains</token>
 </entry>
+<entry count="32">
+<token>MongoDB.Bson.BsonDocument,Add</token>
+<token>MongoDB.Bson.BsonDocument,new</token>
+<token>MongoDB.Bson.BsonElement,new</token>
+<token>MongoDB.Bson.BsonElement,new</token>
+<token>MongoDB.Bson.BsonDocument,Add</token>
+</entry>
 <entry count="2">
+<token>MongoDB.Bson.BsonDocument,Contains</token>
+<token>MongoDB.Bson.BsonDocument,GetElement</token>
+<token>MongoDB.Bson.BsonDocument,GetValue</token>
+<token>MongoDB.Bson.BsonDocument,GetValue</token>
+<token>MongoDB.Bson.BsonDocument,GetValue</token>
+</entry>
+<entry count="8">
 <token>MongoDB.Bson.BsonExtensionMethods,ToBsonDocument</token>
 <token>MongoDB.Bson.BsonDocument,GetElement</token>
 <token>MongoDB.Bson.BsonExtensionMethods,ToBsonDocument</token>
@@ -670,19 +878,24 @@
 <token>MongoDB.Bson.BsonDocument,Add</token>
 <token>MongoDB.Bson.BsonDocument,Add</token>
 </entry>
+<entry count="4">
+<token>MongoDB.Bson.BsonDocument,GetElement</token>
+<token>MongoDB.Bson.BsonDocument,GetElement</token>
+<token>MongoDB.Bson.BsonDocument,Contains</token>
+</entry>
 <entry count="1">
 <token>MongoDB.Bson.BsonArray,Add</token>
 <token>MongoDB.Bson.BsonDocument,Add</token>
 <token>MongoDB.Bson.BsonDocument,Add</token>
 </entry>
-<entry count="40">
+<entry count="45060">
 <token>MongoDB.Bson.BsonArray,Contains</token>
 <token>MongoDB.Bson.BsonArray,Add</token>
 <token>MongoDB.Bson.BsonArray,Contains</token>
 <token>MongoDB.Bson.BsonArray,Add</token>
 <token>MongoDB.Bson.BsonArray,Contains</token>
 </entry>
-<entry count="9">
+<entry count="441">
 <token>MongoDB.Bson.BsonDocument,Add</token>
 <token>MongoDB.Bson.BsonDocument,new</token>
 </entry>
@@ -693,9 +906,14 @@
 <token>MongoDB.Bson.BsonDocument,Add</token>
 <token>MongoDB.Bson.BsonDocument,Add</token>
 </entry>
-<entry count="4096">
+<entry count="839812">
 <token>MongoDB.Bson.BsonDocument,Contains</token>
 <token>MongoDB.Bson.BsonDocument,Contains</token>
+</entry>
+<entry count="3">
+<token>MongoDB.Bson.BsonDocument,Contains</token>
+<token>MongoDB.Bson.BsonDocument,Contains</token>
+<token>MongoDB.Bson.BsonDocument,GetElement</token>
 </entry>
 <entry count="1">
 <token>MongoDB.Bson.BsonDocument,Add</token>
@@ -703,11 +921,17 @@
 <token>MongoDB.Bson.BsonDocument,Add</token>
 <token>MongoDB.Bson.BsonArray,Add</token>
 </entry>
-<entry count="32">
+<entry count="100000">
 <token>MongoDB.Bson.BsonDocument,GetValue</token>
 <token>MongoDB.Bson.BsonDocument,GetValue</token>
 <token>MongoDB.Bson.BsonDocument,TryGetValue</token>
 <token>MongoDB.Bson.BsonDocument,TryGetValue</token>
+</entry>
+<entry count="898">
+<token>MongoDB.Bson.BsonDocument,GetElement</token>
+<token>MongoDB.Bson.BsonDocument,GetElement</token>
+<token>MongoDB.Bson.BsonDocument,GetElement</token>
+<token>MongoDB.Bson.BsonDocument,GetElement</token>
 </entry>
 <entry count="4">
 <token>MongoDB.Bson.BsonDocument,new</token>
@@ -715,20 +939,14 @@
 <token>MongoDB.Bson.BsonJavaScript,new</token>
 <token>MongoDB.Bson.BsonDocument,GetElement</token>
 </entry>
-<entry count="7">
-<token>MongoDB.Bson.BsonDocument,GetElement</token>
-<token>MongoDB.Bson.BsonDocument,GetElement</token>
-<token>MongoDB.Bson.BsonDocument,GetElement</token>
-<token>MongoDB.Bson.BsonDocument,GetElement</token>
-</entry>
-<entry count="16">
+<entry count="13328">
 <token>MongoDB.Bson.BsonArray,new</token>
 <token>MongoDB.Bson.BsonArray,Contains</token>
 <token>MongoDB.Bson.BsonArray,Add</token>
 <token>MongoDB.Bson.BsonArray,Contains</token>
 <token>MongoDB.Bson.BsonArray,Contains</token>
 </entry>
-<entry count="33">
+<entry count="26652">
 <token>MongoDB.Bson.BsonArray,new</token>
 <token>MongoDB.Bson.BsonArray,Contains</token>
 <token>MongoDB.Bson.BsonArray,Add</token>
@@ -737,24 +955,44 @@
 <token>MongoDB.Bson.BsonDocument,new</token>
 <token>MongoDB.Bson.BsonDocument,ToString</token>
 </entry>
-<entry count="9">
+<entry count="3">
+<token>MongoDB.Bson.BsonDocument,GetElement</token>
+<token>MongoDB.Bson.BsonDocument,Contains</token>
+<token>MongoDB.Bson.BsonDocument,GetElement</token>
+<token>MongoDB.Bson.BsonDocument,GetElement</token>
+<token>MongoDB.Bson.BsonDocument,GetElement</token>
+</entry>
+<entry count="42">
 <token>MongoDB.Bson.BsonDocument,Contains</token>
 <token>MongoDB.Bson.BsonDocument,GetElement</token>
 </entry>
-<entry count="52">
+<entry count="100042">
 <token>MongoDB.Bson.BsonDocument,GetValue</token>
 <token>MongoDB.Bson.BsonDocument,GetValue</token>
 </entry>
-<entry count="512">
+<entry count="296">
+<token>MongoDB.Bson.BsonElement,new</token>
+<token>MongoDB.Bson.BsonDocument,Add</token>
+<token>MongoDB.Bson.BsonDocument,new</token>
+<token>MongoDB.Bson.BsonElement,new</token>
+</entry>
+<entry count="104976">
 <token>MongoDB.Bson.BsonExtensionMethods,ToBsonDocument</token>
 <token>MongoDB.Bson.BsonDocument,Contains</token>
 </entry>
-<entry count="2">
+<entry count="8">
 <token>MongoDB.Bson.BsonExtensionMethods,ToBsonDocument</token>
 <token>MongoDB.Bson.BsonDocument,GetElement</token>
 <token>MongoDB.Bson.BsonExtensionMethods,ToBsonDocument</token>
 <token>MongoDB.Bson.BsonDocument,GetElement</token>
 <token>MongoDB.Bson.BsonDocument,GetElement</token>
+</entry>
+<entry count="120">
+<token>MongoDB.Bson.BsonDocument,Add</token>
+<token>MongoDB.Bson.BsonDocument,new</token>
+<token>MongoDB.Bson.BsonDocument,new</token>
+<token>MongoDB.Bson.BsonElement,new</token>
+<token>MongoDB.Bson.BsonDocument,Add</token>
 </entry>
 <entry count="1">
 <token>MongoDB.Bson.BsonJavaScript,new</token>
@@ -768,14 +1006,21 @@
 <token>MongoDB.Bson.BsonDocument,GetValue</token>
 <token>MongoDB.Bson.BsonDocument,Contains</token>
 </entry>
-<entry count="16">
+<entry count="13316">
 <token>MongoDB.Bson.BsonArray,new</token>
 <token>MongoDB.Bson.BsonArray,Contains</token>
 <token>MongoDB.Bson.BsonArray,Contains</token>
 <token>MongoDB.Bson.BsonArray,Add</token>
 <token>MongoDB.Bson.BsonArray,Contains</token>
 </entry>
-<entry count="40">
+<entry count="1">
+<token>MongoDB.Bson.BsonDocument,GetElement</token>
+<token>MongoDB.Bson.BsonDocument,GetElement</token>
+<token>MongoDB.Bson.BsonDocument,GetValue</token>
+<token>MongoDB.Bson.BsonDocument,GetValue</token>
+<token>MongoDB.Bson.BsonDocument,GetValue</token>
+</entry>
+<entry count="61464">
 <token>MongoDB.Bson.BsonArray,Add</token>
 <token>MongoDB.Bson.BsonArray,Contains</token>
 <token>MongoDB.Bson.BsonArray,Contains</token>
@@ -790,23 +1035,39 @@
 <token>MongoDB.Bson.ObjectId,Equals</token>
 </entry>
 <entry count="12">
+<token>MongoDB.Bson.BsonDocument,GetElement</token>
+<token>MongoDB.Bson.BsonDocument,Contains</token>
+</entry>
+<entry count="40472">
 <token>MongoDB.Bson.BsonArray,Contains</token>
 <token>MongoDB.Bson.BsonArray,Add</token>
 <token>MongoDB.Bson.BsonArray,Contains</token>
 <token>MongoDB.Bson.BsonArray,Contains</token>
 <token>MongoDB.Bson.BsonArray,Contains</token>
 </entry>
-<entry count="4">
+<entry count="3">
+<token>MongoDB.Bson.BsonDocument,GetElement</token>
+<token>MongoDB.Bson.BsonDocument,GetValue</token>
+<token>MongoDB.Bson.BsonDocument,GetValue</token>
+<token>MongoDB.Bson.BsonDocument,GetValue</token>
+</entry>
+<entry count="48">
 <token>MongoDB.Bson.BsonElement,new</token>
 <token>MongoDB.Bson.BsonElement,new</token>
 <token>MongoDB.Bson.BsonDocument,Add</token>
 <token>MongoDB.Bson.BsonDocument,Add</token>
 </entry>
-<entry count="66">
+<entry count="2">
+<token>MongoDB.Bson.BsonDocument,Contains</token>
+<token>MongoDB.Bson.BsonDocument,GetElement</token>
+<token>MongoDB.Bson.BsonDocument,GetValue</token>
+<token>MongoDB.Bson.BsonDocument,GetValue</token>
+</entry>
+<entry count="53304">
 <token>MongoDB.Bson.BsonArray,new</token>
 <token>MongoDB.Bson.BsonArray,Contains</token>
 </entry>
-<entry count="3072">
+<entry count="629856">
 <token>MongoDB.Bson.BsonDocument,Contains</token>
 <token>MongoDB.Bson.BsonDocument,Contains</token>
 <token>MongoDB.Bson.BsonDocument,Contains</token>
@@ -824,7 +1085,7 @@
 <token>MongoDB.Bson.BsonDocument,GetElement</token>
 <token>MongoDB.Bson.BsonDocument,GetElement</token>
 </entry>
-<entry count="4">
+<entry count="16">
 <token>MongoDB.Bson.BsonDocument,new</token>
 <token>MongoDB.Bson.BsonDocument,new</token>
 <token>MongoDB.Bson.BsonElement,new</token>
@@ -837,6 +1098,19 @@
 <token>MongoDB.Bson.BsonJavaScript,new</token>
 <token>MongoDB.Bson.BsonJavaScript,new</token>
 <token>MongoDB.Bson.BsonDocument,GetElement</token>
+</entry>
+<entry count="3">
+<token>MongoDB.Bson.BsonDocument,GetElement</token>
+<token>MongoDB.Bson.BsonDocument,Contains</token>
+<token>MongoDB.Bson.BsonDocument,GetElement</token>
+<token>MongoDB.Bson.BsonDocument,GetElement</token>
+</entry>
+<entry count="72">
+<token>MongoDB.Bson.BsonDocument,Add</token>
+<token>MongoDB.Bson.BsonDocument,new</token>
+<token>MongoDB.Bson.BsonElement,new</token>
+<token>MongoDB.Bson.BsonDocument,Add</token>
+<token>MongoDB.Bson.BsonElement,new</token>
 </entry>
 <entry count="1">
 <token>MongoDB.Bson.BsonDocument,new</token>
@@ -852,7 +1126,7 @@
 <token>MongoDB.Bson.BsonDocument,Add</token>
 <token>MongoDB.Bson.BsonDocument,Add</token>
 </entry>
-<entry count="4">
+<entry count="96">
 <token>MongoDB.Bson.BsonElement,new</token>
 <token>MongoDB.Bson.BsonElement,new</token>
 <token>MongoDB.Bson.BsonDocument,Add</token>
@@ -863,7 +1137,7 @@
 <token>MongoDB.Bson.BsonDocument,Add</token>
 <token>MongoDB.Bson.BsonDocument,Add</token>
 </entry>
-<entry count="37">
+<entry count="241">
 <token>MongoDB.Bson.BsonElement,new</token>
 <token>MongoDB.Bson.BsonElement,new</token>
 </entry>
@@ -873,28 +1147,35 @@
 <token>MongoDB.Bson.BsonDocument,GetElement</token>
 <token>MongoDB.Bson.BsonDocument,GetElement</token>
 </entry>
+<entry count="32">
+<token>MongoDB.Bson.BsonElement,new</token>
+<token>MongoDB.Bson.BsonDocument,Add</token>
+<token>MongoDB.Bson.BsonDocument,new</token>
+<token>MongoDB.Bson.BsonElement,new</token>
+<token>MongoDB.Bson.BsonElement,new</token>
+</entry>
 <entry count="4">
 <token>MongoDB.Bson.BsonDocument,new</token>
 <token>MongoDB.Bson.BsonDocument,TryGetElement</token>
 </entry>
-<entry count="32">
+<entry count="100000">
 <token>MongoDB.Bson.BsonDocument,TryGetValue</token>
 <token>MongoDB.Bson.BsonDocument,TryGetValue</token>
 <token>MongoDB.Bson.BsonDocument,TryGetValue</token>
 <token>MongoDB.Bson.BsonDocument,TryGetValue</token>
 <token>MongoDB.Bson.BsonDocument,TryGetValue</token>
 </entry>
-<entry count="2">
+<entry count="8">
 <token>MongoDB.Bson.BsonExtensionMethods,ToBsonDocument</token>
 <token>MongoDB.Bson.BsonDocument,GetElement</token>
 <token>MongoDB.Bson.BsonDocument,GetElement</token>
 </entry>
-<entry count="40">
+<entry count="94272">
 <token>MongoDB.Bson.BsonArray,Contains</token>
 <token>MongoDB.Bson.BsonArray,Contains</token>
 <token>MongoDB.Bson.BsonArray,Contains</token>
 </entry>
-<entry count="3">
+<entry count="192">
 <token>MongoDB.Bson.BsonElement,new</token>
 <token>MongoDB.Bson.BsonDocument,Add</token>
 <token>MongoDB.Bson.BsonElement,new</token>
@@ -903,7 +1184,7 @@
 <token>MongoDB.Bson.BsonJavaScript,new</token>
 <token>MongoDB.Bson.BsonExtensionMethods,ToJson</token>
 </entry>
-<entry count="515">
+<entry count="104979">
 <token>MongoDB.Bson.BsonDocument,new</token>
 <token>MongoDB.Bson.BsonExtensionMethods,ToBsonDocument</token>
 </entry>
@@ -913,20 +1194,25 @@
 <token>MongoDB.Bson.BsonJavaScript,new</token>
 <token>MongoDB.Bson.BsonDocument,GetElement</token>
 </entry>
+<entry count="296">
+<token>MongoDB.Bson.BsonDocument,Add</token>
+<token>MongoDB.Bson.BsonDocument,new</token>
+<token>MongoDB.Bson.BsonElement,new</token>
+</entry>
 <entry count="1">
 <token>MongoDB.Bson.BsonDocument,Add</token>
 <token>MongoDB.Bson.BsonDocument,Add</token>
 <token>MongoDB.Bson.BsonArray,Add</token>
 <token>MongoDB.Bson.BsonDocument,Add</token>
 </entry>
-<entry count="8">
+<entry count="6672">
 <token>MongoDB.Bson.BsonArray,new</token>
 <token>MongoDB.Bson.BsonArray,Contains</token>
 <token>MongoDB.Bson.BsonArray,Contains</token>
 <token>MongoDB.Bson.BsonArray,Contains</token>
 <token>MongoDB.Bson.BsonArray,Contains</token>
 </entry>
-<entry count="8">
+<entry count="200">
 <token>MongoDB.Bson.BsonDocument,new</token>
 <token>MongoDB.Bson.BsonDocument,new</token>
 <token>MongoDB.Bson.BsonDocument,new</token>
@@ -946,20 +1232,20 @@
 <token>MongoDB.Bson.BsonDocument,Add</token>
 <token>MongoDB.Bson.BsonDocument,Add</token>
 </entry>
-<entry count="8">
+<entry count="440">
 <token>MongoDB.Bson.BsonDocument,new</token>
 <token>MongoDB.Bson.BsonDocument,new</token>
 <token>MongoDB.Bson.BsonElement,new</token>
 <token>MongoDB.Bson.BsonDocument,Add</token>
 </entry>
-<entry count="16">
+<entry count="13317">
 <token>MongoDB.Bson.BsonArray,new</token>
 <token>MongoDB.Bson.BsonArray,Contains</token>
 <token>MongoDB.Bson.BsonArray,Add</token>
 <token>MongoDB.Bson.BsonArray,Contains</token>
 <token>MongoDB.Bson.BsonArray,Add</token>
 </entry>
-<entry count="512">
+<entry count="104976">
 <token>MongoDB.Bson.BsonDocument,new</token>
 <token>MongoDB.Bson.BsonExtensionMethods,ToBsonDocument</token>
 <token>MongoDB.Bson.BsonDocument,Contains</token>
@@ -969,7 +1255,7 @@
 <token>MongoDB.Bson.BsonDocument,Add</token>
 <token>MongoDB.Bson.BsonDocument,Add</token>
 </entry>
-<entry count="4">
+<entry count="16">
 <token>MongoDB.Bson.BsonExtensionMethods,ToBsonDocument</token>
 <token>MongoDB.Bson.BsonDocument,GetElement</token>
 </entry>
@@ -979,6 +1265,13 @@
 <token>MongoDB.Bson.BsonDocument,Add</token>
 <token>MongoDB.Bson.BsonDocument,Add</token>
 <token>MongoDB.Bson.BsonDocument,AddRange</token>
+</entry>
+<entry count="32">
+<token>MongoDB.Bson.BsonElement,new</token>
+<token>MongoDB.Bson.BsonElement,new</token>
+<token>MongoDB.Bson.BsonDocument,Add</token>
+<token>MongoDB.Bson.BsonDocument,new</token>
+<token>MongoDB.Bson.BsonElement,new</token>
 </entry>
 <entry count="7">
 <token>MongoDB.Bson.BsonDocument,Add</token>
@@ -990,24 +1283,37 @@
 <token>MongoDB.Bson.BsonDocument,Add</token>
 <token>MongoDB.Bson.BsonDocument,Add</token>
 </entry>
-<entry count="32">
+<entry count="100000">
 <token>MongoDB.Bson.BsonDocument,GetValue</token>
 <token>MongoDB.Bson.BsonDocument,TryGetValue</token>
 <token>MongoDB.Bson.BsonDocument,TryGetValue</token>
 </entry>
-<entry count="2">
+<entry count="9">
 <token>MongoDB.Bson.BsonArray,Add</token>
 <token>MongoDB.Bson.BsonDocument,new</token>
 <token>MongoDB.Bson.BsonArray,Add</token>
 </entry>
-<entry count="2560">
+<entry count="524880">
 <token>MongoDB.Bson.BsonDocument,Contains</token>
 <token>MongoDB.Bson.BsonDocument,Contains</token>
 <token>MongoDB.Bson.BsonDocument,Contains</token>
 <token>MongoDB.Bson.BsonDocument,Contains</token>
 <token>MongoDB.Bson.BsonDocument,Contains</token>
 </entry>
-<entry count="40">
+<entry count="120">
+<token>MongoDB.Bson.BsonDocument,new</token>
+<token>MongoDB.Bson.BsonDocument,new</token>
+<token>MongoDB.Bson.BsonElement,new</token>
+<token>MongoDB.Bson.BsonDocument,Add</token>
+<token>MongoDB.Bson.BsonDocument,new</token>
+</entry>
+<entry count="1">
+<token>MongoDB.Bson.BsonDocument,Contains</token>
+<token>MongoDB.Bson.BsonDocument,Contains</token>
+<token>MongoDB.Bson.BsonDocument,GetElement</token>
+<token>MongoDB.Bson.BsonDocument,GetElement</token>
+</entry>
+<entry count="61464">
 <token>MongoDB.Bson.BsonArray,Contains</token>
 <token>MongoDB.Bson.BsonArray,Add</token>
 <token>MongoDB.Bson.BsonArray,Contains</token>
@@ -1018,20 +1324,20 @@
 <token>MongoDB.Bson.BsonDocument,Add</token>
 <token>MongoDB.Bson.BsonArray,Add</token>
 </entry>
-<entry count="2">
+<entry count="4">
 <token>MongoDB.Bson.BsonDocument,GetValue</token>
 <token>MongoDB.Bson.BsonDocument,GetValue</token>
 <token>MongoDB.Bson.BsonDocument,GetValue</token>
 <token>MongoDB.Bson.BsonDocument,GetValue</token>
 <token>MongoDB.Bson.BsonDocument,GetValue</token>
 </entry>
-<entry count="32">
+<entry count="26646">
 <token>MongoDB.Bson.BsonArray,new</token>
 <token>MongoDB.Bson.BsonArray,Contains</token>
 <token>MongoDB.Bson.BsonArray,Add</token>
 <token>MongoDB.Bson.BsonArray,Contains</token>
 </entry>
-<entry count="13">
+<entry count="1858">
 <token>MongoDB.Bson.BsonDocument,GetElement</token>
 <token>MongoDB.Bson.BsonDocument,GetElement</token>
 <token>MongoDB.Bson.BsonDocument,GetElement</token>
@@ -1041,19 +1347,19 @@
 <token>MongoDB.Bson.BsonElement,new</token>
 <token>MongoDB.Bson.BsonElement,new</token>
 </entry>
-<entry count="112">
+<entry count="116766">
 <token>MongoDB.Bson.BsonArray,Contains</token>
 <token>MongoDB.Bson.BsonArray,Add</token>
 <token>MongoDB.Bson.BsonArray,Contains</token>
 </entry>
-<entry count="12">
+<entry count="15872">
 <token>MongoDB.Bson.BsonArray,Add</token>
 <token>MongoDB.Bson.BsonArray,Contains</token>
 <token>MongoDB.Bson.BsonArray,Contains</token>
 <token>MongoDB.Bson.BsonArray,Add</token>
 <token>MongoDB.Bson.BsonArray,Contains</token>
 </entry>
-<entry count="20">
+<entry count="18432">
 <token>MongoDB.Bson.BsonArray,Contains</token>
 <token>MongoDB.Bson.BsonArray,Add</token>
 <token>MongoDB.Bson.BsonArray,Contains</token>
@@ -1070,21 +1376,21 @@
 <token>MongoDB.Bson.BsonDocument,Add</token>
 <token>MongoDB.Bson.BsonJavaScript,new</token>
 </entry>
-<entry count="3">
+<entry count="192">
 <token>MongoDB.Bson.BsonDocument,new</token>
 <token>MongoDB.Bson.BsonElement,new</token>
 <token>MongoDB.Bson.BsonDocument,Add</token>
 <token>MongoDB.Bson.BsonElement,new</token>
 <token>MongoDB.Bson.BsonDocument,Add</token>
 </entry>
-<entry count="12">
+<entry count="15872">
 <token>MongoDB.Bson.BsonArray,Contains</token>
 <token>MongoDB.Bson.BsonArray,Contains</token>
 <token>MongoDB.Bson.BsonArray,Contains</token>
 <token>MongoDB.Bson.BsonArray,Add</token>
 <token>MongoDB.Bson.BsonArray,Contains</token>
 </entry>
-<entry count="16">
+<entry count="13328">
 <token>MongoDB.Bson.BsonArray,new</token>
 <token>MongoDB.Bson.BsonArray,Contains</token>
 <token>MongoDB.Bson.BsonArray,Contains</token>
@@ -1097,13 +1403,13 @@
 <token>MongoDB.Bson.BsonDocument,Add</token>
 <token>MongoDB.Bson.BsonDocument,Add</token>
 </entry>
-<entry count="2">
+<entry count="9">
 <token>MongoDB.Bson.BsonDocument,new</token>
 <token>MongoDB.Bson.BsonArray,Add</token>
 <token>MongoDB.Bson.BsonDocument,new</token>
 <token>MongoDB.Bson.BsonArray,Add</token>
 </entry>
-<entry count="4">
+<entry count="8">
 <token>MongoDB.Bson.BsonInt32,new</token>
 <token>MongoDB.Bson.BsonElement,new</token>
 </entry>
@@ -1111,11 +1417,22 @@
 <token>MongoDB.Bson.BsonDocument,new</token>
 <token>MongoDB.Bson.BsonArray,new</token>
 </entry>
-<entry count="2">
+<entry count="16">
+<token>MongoDB.Bson.BsonElement,new</token>
+<token>MongoDB.Bson.BsonDocument,Add</token>
+<token>MongoDB.Bson.BsonDocument,new</token>
+<token>MongoDB.Bson.BsonDocument,Add</token>
+</entry>
+<entry count="120">
+<token>MongoDB.Bson.BsonDocument,Add</token>
+<token>MongoDB.Bson.BsonDocument,new</token>
+<token>MongoDB.Bson.BsonDocument,new</token>
+</entry>
+<entry count="9">
 <token>MongoDB.Bson.BsonArray,Add</token>
 <token>MongoDB.Bson.BsonDocument,new</token>
 </entry>
-<entry count="2">
+<entry count="16900">
 <token>MongoDB.Bson.BsonArray,Contains</token>
 <token>MongoDB.Bson.BsonArray,Contains</token>
 <token>MongoDB.Bson.BsonArray,Contains</token>
@@ -1135,10 +1452,16 @@
 <token>MongoDB.Bson.BsonDocument,new</token>
 <token>MongoDB.Bson.BsonDocument,new</token>
 </entry>
-<entry count="3">
+<entry count="14">
 <token>MongoDB.Bson.BsonDocument,Contains</token>
 <token>MongoDB.Bson.BsonDocument,GetElement</token>
 <token>MongoDB.Bson.BsonDocument,GetElement</token>
+</entry>
+<entry count="2">
+<token>MongoDB.Bson.BsonDocument,GetElement</token>
+<token>MongoDB.Bson.BsonDocument,GetElement</token>
+<token>MongoDB.Bson.BsonDocument,GetElement</token>
+<token>MongoDB.Bson.BsonDocument,GetValue</token>
 </entry>
 <entry count="4">
 <token>MongoDB.Bson.BsonDocument,GetElement</token>
@@ -1152,39 +1475,52 @@
 <token>MongoDB.Bson.BsonDocument,Add</token>
 <token>MongoDB.Bson.BsonDocument,Add</token>
 </entry>
-<entry count="13">
+<entry count="993">
 <token>MongoDB.Bson.BsonDocument,new</token>
 <token>MongoDB.Bson.BsonElement,new</token>
 </entry>
-<entry count="4">
+<entry count="48">
 <token>MongoDB.Bson.BsonDocument,new</token>
 <token>MongoDB.Bson.BsonElement,new</token>
 <token>MongoDB.Bson.BsonElement,new</token>
 <token>MongoDB.Bson.BsonDocument,Add</token>
 <token>MongoDB.Bson.BsonDocument,Add</token>
 </entry>
-<entry count="9">
+<entry count="120">
+<token>MongoDB.Bson.BsonElement,new</token>
+<token>MongoDB.Bson.BsonDocument,Add</token>
+<token>MongoDB.Bson.BsonDocument,new</token>
+<token>MongoDB.Bson.BsonDocument,new</token>
+<token>MongoDB.Bson.BsonElement,new</token>
+</entry>
+<entry count="201">
 <token>MongoDB.Bson.BsonDocument,new</token>
 <token>MongoDB.Bson.BsonDocument,new</token>
 <token>MongoDB.Bson.BsonDocument,new</token>
 </entry>
-<entry count="2">
+<entry count="8">
 <token>MongoDB.Bson.BsonDocument,GetElement</token>
 <token>MongoDB.Bson.BsonExtensionMethods,ToBsonDocument</token>
 <token>MongoDB.Bson.BsonDocument,GetElement</token>
 <token>MongoDB.Bson.BsonDocument,GetElement</token>
 </entry>
-<entry count="6">
+<entry count="5888">
 <token>MongoDB.Bson.BsonArray,Contains</token>
 <token>MongoDB.Bson.BsonArray,Contains</token>
 <token>MongoDB.Bson.BsonArray,Contains</token>
 <token>MongoDB.Bson.BsonArray,Contains</token>
 <token>MongoDB.Bson.BsonArray,Add</token>
 </entry>
-<entry count="12">
+<entry count="456">
 <token>MongoDB.Bson.BsonDocument,new</token>
 <token>MongoDB.Bson.BsonDocument,new</token>
 <token>MongoDB.Bson.BsonElement,new</token>
+</entry>
+<entry count="1">
+<token>MongoDB.Bson.BsonDocument,Contains</token>
+<token>MongoDB.Bson.BsonDocument,GetValue</token>
+<token>MongoDB.Bson.BsonDocument,GetValue</token>
+<token>MongoDB.Bson.BsonDocument,GetValue</token>
 </entry>
 <entry count="2">
 <token>MongoDB.Bson.BsonDocument,Add</token>
@@ -1213,7 +1549,7 @@
 <token>MongoDB.Bson.BsonDocument,Add</token>
 <token>MongoDB.Bson.BsonArray,Add</token>
 </entry>
-<entry count="27">
+<entry count="667">
 <token>MongoDB.Bson.BsonDocument,new</token>
 <token>MongoDB.Bson.BsonDocument,new</token>
 </entry>

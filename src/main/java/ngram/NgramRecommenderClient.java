@@ -49,7 +49,7 @@ public class NgramRecommenderClient extends NGramLanguageModel implements ICalls
     public void train(String trainFile) throws IOException {
         BufferedReader br = new BufferedReader(new FileReader(trainFile));
         String line;
-        while((line = br.readLine()) != null) {
+        while((line = br.readLine()) != null && line.length() > 0) {
             add(new StringList(WhitespaceTokenizer.INSTANCE.tokenize(line)), 
                     NGRAM_MIN_LENGTH, NGRAM_MAX_LENGTH);
         }
@@ -83,40 +83,32 @@ public class NgramRecommenderClient extends NGramLanguageModel implements ICalls
         StringList predictedTokenStrings = predictNextTokens(stringToCompare);
         
         Iterator<String> iter = predictedTokenStrings.iterator();
-        while(iter.hasNext()) {
-            String tokenString = iter.next();
-            String type = tokenString.split(",")[0];
-            String operation = tokenString.split(",")[1];
+        // add only the first APIToken of all predicted tokens
+        if(iter.hasNext()) {
+            try {
+                String tokenString = iter.next();
+                String type = tokenString.split(",")[0];
+                String operation = tokenString.split(",")[1];
 
-            APIToken token = new APIToken();
-            token.setNamespace(modelName);
-            token.setOperation(operation);
-            token.setType(type);
-            Tuple<IMethodName, Double> prediction = Tuple.newTuple(token, calculateProbability(predictedTokenStrings));
-            recommendation.add(prediction);
-            
-            
-            /*
-            TODO: None of this makes sense for calculateProbability()...
-            
-            String tokenString = iter.next();
+                StringBuilder tokenStringBuilder = new StringBuilder(); 
+                tokenStringBuilder.append("[?] [");
+                tokenStringBuilder.append(type);
+                tokenStringBuilder.append(", ");
+                tokenStringBuilder.append(modelName, 0, modelName.length()-4);
+                tokenStringBuilder.append("].");
+                tokenStringBuilder.append(operation);
+                tokenStringBuilder.append("()");
+                
+                APIToken token = new APIToken(tokenStringBuilder.toString());
+                
+                Tuple<IMethodName, Double> prediction = Tuple.newTuple(token, calculateProbability(predictedTokenStrings));
+                recommendation.add(prediction);
 
-            String[] predictedSentence = new String[stringToCompare.size()+1];
-            for(int i=0;i<stringToCompare.size();i++) {
-                predictedSentence[i] = stringToCompare.getToken(i);
+            } catch(ArrayIndexOutOfBoundsException e) {
+                System.out.println("[WARN]\tInvalid tokenString, skipping result");
+//                System.out.println(e);
             }
-            predictedSentence[stringToCompare.size()] = tokenString;
             
-            String type = tokenString.split(",")[0];
-            String operation = tokenString.split(",")[1];
-
-            APIToken token = new APIToken();
-            token.setNamespace(modelName);
-            token.setOperation(operation);
-            token.setType(type);
-            Tuple<IMethodName, Double> prediction = Tuple.newTuple(token, calculateProbability(new StringList(predictedSentence)));
-            recommendation.add(prediction);
-             */
         }
         return recommendation;
     }

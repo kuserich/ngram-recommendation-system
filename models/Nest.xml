@@ -1,0 +1,5092 @@
+<?xml version="1.0" encoding="UTF-8"?><dictionary case_sensitive="false">
+<entry count="1">
+<token>Nest.ObjectMappingDescriptor,Path</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.PropertiesDescriptor,String</token>
+</entry>
+<entry count="1">
+<token>Nest.StringMappingDescriptor,Analyzer</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+</entry>
+<entry count="2">
+<token>Nest.RangeFilterDescriptor,OnField</token>
+<token>Nest.RangeFilterDescriptor,GreaterOrEquals</token>
+<token>Nest.Filter,Range</token>
+</entry>
+<entry count="3">
+<token>Nest.PutMappingDescriptor,TimestampField</token>
+<token>Nest.DateMappingDescriptor,Name</token>
+</entry>
+<entry count="1">
+<token>Nest.DynamicTemplateDescriptor,Match</token>
+<token>Nest.GenericMappingDescriptor,Type</token>
+<token>Nest.GenericMappingDescriptor,Index</token>
+<token>Nest.SingleMappingDescriptor,Generic</token>
+</entry>
+<entry count="5">
+<token>Nest.ObjectMappingDescriptor,Name</token>
+<token>Nest.ObjectMappingDescriptor,Dynamic</token>
+</entry>
+<entry count="17">
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.StringMappingDescriptor,IncludeInAll</token>
+</entry>
+<entry count="2">
+<token>Nest.TimestampFieldMappingDescriptor,IgnoreMissing</token>
+<token>Nest.PutMappingDescriptor,TimestampField</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+</entry>
+<entry count="4">
+<token>Nest.TermsQueryDescriptor,MinimumMatch</token>
+<token>Nest.QueryDescriptor,TermsDescriptor</token>
+<token>Nest.SearchDescriptor,Query</token>
+</entry>
+<entry count="1">
+<token>Nest.FluentDictionary,Add</token>
+<token>Nest.PutTemplateDescriptor,Settings</token>
+<token>Nest.PutMappingDescriptor,Dynamic</token>
+<token>Nest.DynamicTemplateDescriptor,Name</token>
+</entry>
+<entry count="1">
+<token>Nest.StringMappingDescriptor,SearchAnalyzer</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+</entry>
+<entry count="7">
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.StringMappingDescriptor,IndexAnalyzer</token>
+<token>Nest.StringMappingDescriptor,SearchAnalyzer</token>
+<token>Nest.StringMappingDescriptor,IncludeInAll</token>
+<token>Nest.StringMappingDescriptor,Boost</token>
+</entry>
+<entry count="1">
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.DateMappingDescriptor,Name</token>
+<token>Nest.DateMappingDescriptor,IndexName</token>
+</entry>
+<entry count="4">
+<token>Nest.SearchDescriptor,Index</token>
+<token>Nest.SearchDescriptor,AllTypes</token>
+<token>Nest.QueryDescriptor,Ids</token>
+<token>Nest.SearchDescriptor,Query</token>
+<token>Nest.ElasticClient,Search</token>
+</entry>
+<entry count="1">
+<token>Nest.DateMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Date</token>
+<token>Nest.BooleanMappingDescriptor,Name</token>
+</entry>
+<entry count="2">
+<token>Nest.RangeFilterDescriptor,OnField</token>
+<token>Nest.RangeFilterDescriptor,Lower</token>
+</entry>
+<entry count="18">
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+</entry>
+<entry count="2">
+<token>Nest.ObjectMappingDescriptor,Properties</token>
+<token>Nest.PropertiesDescriptor,Object</token>
+<token>Nest.ObjectMappingDescriptor,Properties</token>
+<token>Nest.PropertiesDescriptor,Object</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+</entry>
+<entry count="1">
+<token>Nest.NumberMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Number</token>
+<token>Nest.ObjectMappingDescriptor,Properties</token>
+<token>Nest.PropertiesDescriptor,Object</token>
+<token>Nest.PutMappingDescriptor,Properties</token>
+</entry>
+<entry count="13">
+<token>Nest.NumberMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Number</token>
+</entry>
+<entry count="1">
+<token>Nest.BooleanMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Boolean</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.PropertiesDescriptor,String</token>
+</entry>
+<entry count="3">
+<token>Nest.PutMappingDescriptor,TimestampField</token>
+<token>Nest.DateMappingDescriptor,Name</token>
+<token>Nest.DateMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Date</token>
+<token>Nest.DateMappingDescriptor,Name</token>
+</entry>
+<entry count="1">
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.GeoPointMappingDescriptor,Name</token>
+<token>Nest.GeoPointMappingDescriptor,IndexLatLon</token>
+<token>Nest.PropertiesDescriptor,GeoPoint</token>
+<token>Nest.NumberMappingDescriptor,Name</token>
+</entry>
+<entry count="73">
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+</entry>
+<entry count="1">
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.GeoPointMappingDescriptor,Name</token>
+<token>Nest.GeoPointMappingDescriptor,IndexLatLon</token>
+</entry>
+<entry count="1">
+<token>Nest.NumberMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Number</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+</entry>
+<entry count="2">
+<token>Nest.StringMappingDescriptor,IncludeInAll</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.DateMappingDescriptor,Name</token>
+<token>Nest.DateMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Date</token>
+</entry>
+<entry count="2">
+<token>Nest.ObjectMappingDescriptor,Dynamic</token>
+<token>Nest.PropertiesDescriptor,Object</token>
+<token>Nest.ObjectMappingDescriptor,Name</token>
+<token>Nest.ObjectMappingDescriptor,Dynamic</token>
+</entry>
+<entry count="1">
+<token>Nest.PutMappingDescriptor,IncludeInAll</token>
+<token>Nest.PutMappingDescriptor,DisableSizeField</token>
+<token>Nest.MappingTransformDescriptor,Script</token>
+<token>Nest.MappingTransformDescriptor,Language</token>
+<token>Nest.PutMappingDescriptor,Transform</token>
+</entry>
+<entry count="1">
+<token>Nest.PutMappingDescriptor,Dynamic</token>
+<token>Nest.DynamicTemplateDescriptor,Name</token>
+<token>Nest.DynamicTemplateDescriptor,Match</token>
+</entry>
+<entry count="1">
+<token>Nest.ObjectMappingDescriptor,Name</token>
+<token>Nest.ObjectMappingDescriptor,Dynamic</token>
+<token>Nest.PropertiesDescriptor,Object</token>
+<token>Nest.ObjectMappingDescriptor,Name</token>
+<token>Nest.ObjectMappingDescriptor,Path</token>
+</entry>
+<entry count="1">
+<token>Nest.PropertiesDescriptor,Number</token>
+<token>Nest.ObjectMappingDescriptor,Properties</token>
+<token>Nest.PropertiesDescriptor,Object</token>
+<token>Nest.PutMappingDescriptor,Properties</token>
+</entry>
+<entry count="1">
+<token>Nest.BooleanMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Boolean</token>
+<token>Nest.ObjectMappingDescriptor,Properties</token>
+</entry>
+<entry count="12">
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+</entry>
+<entry count="1">
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.StringMappingDescriptor,Analyzer</token>
+<token>Nest.PropertiesDescriptor,String</token>
+</entry>
+<entry count="2">
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.PutMappingDescriptor,Properties</token>
+</entry>
+<entry count="2">
+<token>Nest.TimestampFieldMappingDescriptor,Enabled</token>
+<token>Nest.TimestampFieldMappingDescriptor,Path</token>
+<token>Nest.TimestampFieldMappingDescriptor,IgnoreMissing</token>
+<token>Nest.PutMappingDescriptor,TimestampField</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+</entry>
+<entry count="1">
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.StringMappingDescriptor,Analyzer</token>
+</entry>
+<entry count="1">
+<token>Nest.PropertiesDescriptor,Object</token>
+<token>Nest.ObjectMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+</entry>
+<entry count="32768">
+<token>Nest.AggregationsHelper,Min</token>
+<token>Nest.AggregationsHelper,Max</token>
+<token>Nest.AggregationsHelper,Terms</token>
+<token>Nest.AggregationsHelper,Average</token>
+<token>Nest.AggregationsHelper,Cardinality</token>
+</entry>
+<entry count="5">
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.DateMappingDescriptor,Name</token>
+</entry>
+<entry count="13">
+<token>Nest.NumberMappingDescriptor,Name</token>
+<token>Nest.NumberMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Number</token>
+</entry>
+<entry count="1">
+<token>Nest.PutMappingDescriptor,AllField</token>
+<token>Nest.DateMappingDescriptor,Name</token>
+</entry>
+<entry count="1">
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.StringMappingDescriptor,Analyzer</token>
+</entry>
+<entry count="1">
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.StringMappingDescriptor,Analyzer</token>
+<token>Nest.StringMappingDescriptor,IncludeInAll</token>
+</entry>
+<entry count="2">
+<token>Nest.QueryDescriptor,TermsDescriptor</token>
+<token>Nest.SearchDescriptor,Query</token>
+<token>Nest.ElasticClient,Search</token>
+<token>Nest.ElasticClient,DeleteById</token>
+</entry>
+<entry count="1">
+<token>Nest.SingleMappingDescriptor,Generic</token>
+<token>Nest.DynamicTemplateDescriptor,Mapping</token>
+<token>Nest.DynamicTemplatesDescriptor,Add</token>
+<token>Nest.PutMappingDescriptor,DynamicTemplates</token>
+</entry>
+<entry count="2">
+<token>Nest.StringMappingDescriptor,IncludeInAll</token>
+<token>Nest.StringMappingDescriptor,Analyzer</token>
+</entry>
+<entry count="1">
+<token>Nest.PutTemplateDescriptor,Template</token>
+<token>Nest.FluentDictionary,Add</token>
+<token>Nest.PutTemplateDescriptor,Settings</token>
+</entry>
+<entry count="1">
+<token>Nest.DateMappingDescriptor,Name</token>
+<token>Nest.DateMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Date</token>
+<token>Nest.BooleanMappingDescriptor,Name</token>
+</entry>
+<entry count="8">
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.StringMappingDescriptor,IndexAnalyzer</token>
+<token>Nest.StringMappingDescriptor,SearchAnalyzer</token>
+</entry>
+<entry count="1">
+<token>Nest.PutMappingDescriptor,DisableSizeField</token>
+<token>Nest.MappingTransformDescriptor,Script</token>
+<token>Nest.MappingTransformDescriptor,Language</token>
+</entry>
+<entry count="3">
+<token>Nest.SearchDescriptor,Query</token>
+<token>Nest.ElasticClient,Search</token>
+<token>Nest.ElasticClient,DeleteById</token>
+</entry>
+<entry count="8">
+<token>Nest.PropertiesDescriptor,Date</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+</entry>
+<entry count="45">
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+</entry>
+<entry count="2">
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.BooleanMappingDescriptor,Name</token>
+</entry>
+<entry count="4096">
+<token>Nest.AggregationsHelper,Terms</token>
+<token>Nest.AggregationsHelper,Cardinality</token>
+<token>Nest.AggregationsHelper,DateHistogram</token>
+<token>Nest.AggregationsHelper,Min</token>
+<token>Nest.AggregationsHelper,Max</token>
+</entry>
+<entry count="16384">
+<token>Nest.AggregationsHelper,Cardinality</token>
+<token>Nest.AggregationsHelper,DateHistogram</token>
+<token>Nest.AggregationsHelper,Cardinality</token>
+<token>Nest.AggregationsHelper,Terms</token>
+</entry>
+<entry count="1">
+<token>Nest.StringMappingDescriptor,IncludeInAll</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.ObjectMappingDescriptor,Name</token>
+<token>Nest.ObjectMappingDescriptor,Path</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+</entry>
+<entry count="1">
+<token>Nest.BooleanMappingDescriptor,Name</token>
+<token>Nest.PropertiesDescriptor,Boolean</token>
+</entry>
+<entry count="16384">
+<token>Nest.AggregationsHelper,Terms</token>
+<token>Nest.AggregationsHelper,Cardinality</token>
+<token>Nest.AggregationsHelper,DateHistogram</token>
+<token>Nest.AggregationsHelper,Cardinality</token>
+<token>Nest.AggregationsHelper,Terms</token>
+</entry>
+<entry count="2">
+<token>Nest.PropertiesDescriptor,Number</token>
+<token>Nest.BooleanMappingDescriptor,Name</token>
+</entry>
+<entry count="2">
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.DateMappingDescriptor,Name</token>
+<token>Nest.DateMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Date</token>
+<token>Nest.DateMappingDescriptor,Name</token>
+</entry>
+<entry count="1">
+<token>Nest.GenericMappingDescriptor,Index</token>
+<token>Nest.SingleMappingDescriptor,Generic</token>
+<token>Nest.DynamicTemplateDescriptor,Mapping</token>
+<token>Nest.DynamicTemplatesDescriptor,Add</token>
+<token>Nest.PutMappingDescriptor,DynamicTemplates</token>
+</entry>
+<entry count="7">
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.StringMappingDescriptor,IndexAnalyzer</token>
+<token>Nest.StringMappingDescriptor,SearchAnalyzer</token>
+<token>Nest.StringMappingDescriptor,IncludeInAll</token>
+</entry>
+<entry count="1">
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.PutMappingDescriptor,Properties</token>
+</entry>
+<entry count="1">
+<token>Nest.PutMappingDescriptor,DynamicTemplates</token>
+<token>Nest.PutMappingDescriptor,IncludeInAll</token>
+<token>Nest.PutMappingDescriptor,DisableSizeField</token>
+<token>Nest.MappingTransformDescriptor,Script</token>
+<token>Nest.MappingTransformDescriptor,Language</token>
+</entry>
+<entry count="1">
+<token>Nest.BooleanMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Boolean</token>
+<token>Nest.ObjectMappingDescriptor,Name</token>
+<token>Nest.ObjectMappingDescriptor,Dynamic</token>
+</entry>
+<entry count="2">
+<token>Nest.StringMappingDescriptor,IndexAnalyzer</token>
+<token>Nest.StringMappingDescriptor,SearchAnalyzer</token>
+<token>Nest.StringMappingDescriptor,IncludeInAll</token>
+<token>Nest.StringMappingDescriptor,Boost</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+</entry>
+<entry count="4">
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+</entry>
+<entry count="1">
+<token>Nest.BooleanMappingDescriptor,Name</token>
+<token>Nest.BooleanMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Boolean</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+</entry>
+<entry count="7">
+<token>Nest.PropertiesDescriptor,Object</token>
+<token>Nest.ObjectMappingDescriptor,Name</token>
+<token>Nest.ObjectMappingDescriptor,Path</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+</entry>
+<entry count="16384">
+<token>Nest.AggregationsHelper,Average</token>
+<token>Nest.AggregationsHelper,Cardinality</token>
+<token>Nest.AggregationsHelper,DateHistogram</token>
+<token>Nest.AggregationsHelper,Average</token>
+<token>Nest.AggregationsHelper,Cardinality</token>
+</entry>
+<entry count="2">
+<token>Nest.StringMappingDescriptor,SearchAnalyzer</token>
+<token>Nest.StringMappingDescriptor,IncludeInAll</token>
+<token>Nest.StringMappingDescriptor,Boost</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+</entry>
+<entry count="2">
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.ObjectMappingDescriptor,Properties</token>
+</entry>
+<entry count="2">
+<token>Nest.PropertiesDescriptor,Number</token>
+<token>Nest.NumberMappingDescriptor,Name</token>
+<token>Nest.NumberMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Number</token>
+<token>Nest.ObjectMappingDescriptor,Properties</token>
+</entry>
+<entry count="1">
+<token>Nest.RangeFilterDescriptor,OnField</token>
+<token>Nest.RangeFilterDescriptor,Greater</token>
+</entry>
+<entry count="1">
+<token>Nest.MappingTransformDescriptor,Script</token>
+<token>Nest.MappingTransformDescriptor,Language</token>
+<token>Nest.PutMappingDescriptor,Transform</token>
+<token>Nest.AllFieldMappingDescriptor,IndexAnalyzer</token>
+</entry>
+<entry count="1">
+<token>Nest.PropertiesDescriptor,Object</token>
+<token>Nest.ObjectMappingDescriptor,Properties</token>
+<token>Nest.PropertiesDescriptor,Object</token>
+<token>Nest.PutMappingDescriptor,Properties</token>
+</entry>
+<entry count="1">
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.StringMappingDescriptor,Analyzer</token>
+<token>Nest.PropertiesDescriptor,String</token>
+</entry>
+<entry count="1">
+<token>Nest.NumberMappingDescriptor,Name</token>
+<token>Nest.NumberMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Number</token>
+<token>Nest.PutMappingDescriptor,Properties</token>
+</entry>
+<entry count="1">
+<token>Nest.MappingTransformDescriptor,Script</token>
+<token>Nest.MappingTransformDescriptor,Language</token>
+<token>Nest.PutMappingDescriptor,Transform</token>
+<token>Nest.AllFieldMappingDescriptor,IndexAnalyzer</token>
+<token>Nest.AllFieldMappingDescriptor,SearchAnalyzer</token>
+</entry>
+<entry count="9">
+<token>Nest.BooleanMappingDescriptor,Name</token>
+<token>Nest.BooleanMappingDescriptor,IndexName</token>
+</entry>
+<entry count="1">
+<token>Nest.PropertiesDescriptor,Object</token>
+<token>Nest.ObjectMappingDescriptor,Properties</token>
+<token>Nest.PropertiesDescriptor,Object</token>
+<token>Nest.PutMappingDescriptor,Properties</token>
+<token>Nest.PutTemplateDescriptor,AddMapping</token>
+</entry>
+<entry count="73728">
+<token>Nest.AggregationsHelper,Terms</token>
+<token>Nest.AggregationsHelper,Terms</token>
+</entry>
+<entry count="2">
+<token>Nest.PutMappingDescriptor,TimestampField</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+</entry>
+<entry count="1">
+<token>Nest.PropertiesDescriptor,Number</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.PropertiesDescriptor,String</token>
+</entry>
+<entry count="1">
+<token>Nest.PropertiesDescriptor,Boolean</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+</entry>
+<entry count="1">
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.PutMappingDescriptor,Properties</token>
+</entry>
+<entry count="16384">
+<token>Nest.AggregationsHelper,DateHistogram</token>
+<token>Nest.AggregationsHelper,Average</token>
+<token>Nest.AggregationsHelper,Cardinality</token>
+<token>Nest.AggregationsHelper,Min</token>
+</entry>
+<entry count="5">
+<token>Nest.StringMappingDescriptor,Boost</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.ObjectMappingDescriptor,Properties</token>
+<token>Nest.PropertiesDescriptor,Object</token>
+</entry>
+<entry count="1">
+<token>Nest.PropertiesDescriptor,Number</token>
+<token>Nest.BooleanMappingDescriptor,Name</token>
+<token>Nest.BooleanMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Boolean</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+</entry>
+<entry count="5">
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+</entry>
+<entry count="5">
+<token>Nest.DateMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Date</token>
+<token>Nest.DateMappingDescriptor,Name</token>
+<token>Nest.DateMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Date</token>
+</entry>
+<entry count="1">
+<token>Nest.IElasticClient,GetIndex</token>
+<token>Nest.GetAliasDescriptor,Alias</token>
+<token>Nest.IElasticClient,GetAlias</token>
+</entry>
+<entry count="1">
+<token>Nest.AnalysisDescriptor,Analyzers</token>
+<token>Nest.CreateIndexDescriptor,Analysis</token>
+<token>Nest.CreateIndexDescriptor,AddMapping</token>
+<token>Nest.CreateIndexDescriptor,AddMapping</token>
+</entry>
+<entry count="1">
+<token>Nest.ConnectionSettings,SetDefaultTypeNameInferrer</token>
+<token>Nest.ConnectionSettings,SetDefaultPropertyNameInferrer</token>
+</entry>
+<entry count="7">
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.CorePropertiesDescriptor,String</token>
+</entry>
+<entry count="6">
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.ObjectMappingDescriptor,Name</token>
+</entry>
+<entry count="9">
+<token>Nest.BooleanMappingDescriptor,Name</token>
+<token>Nest.BooleanMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Boolean</token>
+</entry>
+<entry count="1">
+<token>Nest.PutMappingDescriptor,Dynamic</token>
+<token>Nest.MappingTransformDescriptor,Script</token>
+</entry>
+<entry count="1">
+<token>Nest.StringMappingDescriptor,IncludeInAll</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.ObjectMappingDescriptor,Properties</token>
+</entry>
+<entry count="5">
+<token>Nest.TimestampFieldMappingDescriptor,Path</token>
+<token>Nest.TimestampFieldMappingDescriptor,IgnoreMissing</token>
+</entry>
+<entry count="1">
+<token>Nest.ObjectMappingDescriptor,Name</token>
+<token>Nest.ObjectMappingDescriptor,Dynamic</token>
+<token>Nest.PropertiesDescriptor,Object</token>
+<token>Nest.ObjectMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+</entry>
+<entry count="2">
+<token>Nest.Filter,Range</token>
+<token>Nest.RangeFilterDescriptor,OnField</token>
+<token>Nest.RangeFilterDescriptor,LowerOrEquals</token>
+<token>Nest.Filter,Range</token>
+</entry>
+<entry count="1">
+<token>Nest.StringMappingDescriptor,Analyzer</token>
+<token>Nest.StringMappingDescriptor,IncludeInAll</token>
+<token>Nest.StringMappingDescriptor,Boost</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+</entry>
+<entry count="1">
+<token>Nest.ConnectionSettings,new</token>
+<token>Nest.ConnectionSettings,SetDefaultIndex</token>
+<token>Nest.ElasticClient,new</token>
+</entry>
+<entry count="4">
+<token>Nest.BooleanMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Boolean</token>
+<token>Nest.BooleanMappingDescriptor,Name</token>
+<token>Nest.BooleanMappingDescriptor,IndexName</token>
+</entry>
+<entry count="1">
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.StringMappingDescriptor,Analyzer</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+</entry>
+<entry count="1">
+<token>Nest.StringMappingDescriptor,IndexAnalyzer</token>
+<token>Nest.StringMappingDescriptor,SearchAnalyzer</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+</entry>
+<entry count="16384">
+<token>Nest.AggregationsHelper,DateHistogram</token>
+<token>Nest.AggregationsHelper,Cardinality</token>
+<token>Nest.AggregationsHelper,Terms</token>
+<token>Nest.AggregationsHelper,Min</token>
+</entry>
+<entry count="16384">
+<token>Nest.AggregationsHelper,Cardinality</token>
+<token>Nest.AggregationsHelper,DateHistogram</token>
+<token>Nest.AggregationsHelper,Average</token>
+<token>Nest.AggregationsHelper,Cardinality</token>
+</entry>
+<entry count="1">
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.ObjectMappingDescriptor,Name</token>
+<token>Nest.ObjectMappingDescriptor,Path</token>
+</entry>
+<entry count="1">
+<token>Nest.IndicesOptionalExplicitAllPathDescriptor,Index</token>
+<token>Nest.IElasticClient,GetIndex</token>
+</entry>
+<entry count="5">
+<token>Nest.PutMappingDescriptor,Dynamic</token>
+<token>Nest.TimestampFieldMappingDescriptor,Enabled</token>
+<token>Nest.TimestampFieldMappingDescriptor,Path</token>
+<token>Nest.TimestampFieldMappingDescriptor,IgnoreMissing</token>
+</entry>
+<entry count="1">
+<token>Nest.GeoPointMappingDescriptor,IndexLatLon</token>
+<token>Nest.PropertiesDescriptor,GeoPoint</token>
+</entry>
+<entry count="1">
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.ObjectMappingDescriptor,Properties</token>
+</entry>
+<entry count="7">
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.CorePropertiesDescriptor,String</token>
+<token>Nest.StringMappingDescriptor,Fields</token>
+</entry>
+<entry count="2">
+<token>Nest.RangeFilterDescriptor,GreaterOrEquals</token>
+<token>Nest.Filter,Range</token>
+</entry>
+<entry count="2">
+<token>Nest.PropertiesDescriptor,Object</token>
+<token>Nest.ObjectMappingDescriptor,Name</token>
+<token>Nest.DateMappingDescriptor,Name</token>
+<token>Nest.DateMappingDescriptor,IndexName</token>
+</entry>
+<entry count="4">
+<token>Nest.CreateIndexDescriptor,AddMapping</token>
+<token>Nest.CreateIndexDescriptor,AddMapping</token>
+<token>Nest.CreateIndexDescriptor,AddMapping</token>
+</entry>
+<entry count="1">
+<token>Nest.BooleanMappingDescriptor,Name</token>
+<token>Nest.BooleanMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Boolean</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+</entry>
+<entry count="1">
+<token>Nest.PutMappingDescriptor,Dynamic</token>
+<token>Nest.DynamicTemplateDescriptor,Name</token>
+<token>Nest.DynamicTemplateDescriptor,Match</token>
+<token>Nest.GenericMappingDescriptor,Type</token>
+<token>Nest.GenericMappingDescriptor,Index</token>
+</entry>
+<entry count="1">
+<token>Nest.ObjectMappingDescriptor,Properties</token>
+<token>Nest.PropertiesDescriptor,Object</token>
+<token>Nest.ObjectMappingDescriptor,Properties</token>
+<token>Nest.PropertiesDescriptor,Object</token>
+<token>Nest.PutMappingDescriptor,Properties</token>
+</entry>
+<entry count="1">
+<token>Nest.NumberMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Number</token>
+<token>Nest.PutMappingDescriptor,Properties</token>
+</entry>
+<entry count="73728">
+<token>Nest.AggregationsHelper,Terms</token>
+<token>Nest.AggregationsHelper,Terms</token>
+<token>Nest.AggregationsHelper,Cardinality</token>
+<token>Nest.AggregationsHelper,Min</token>
+</entry>
+<entry count="1">
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.ObjectMappingDescriptor,Name</token>
+<token>Nest.ObjectMappingDescriptor,Dynamic</token>
+</entry>
+<entry count="5">
+<token>Nest.DateMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Date</token>
+<token>Nest.DateMappingDescriptor,Name</token>
+<token>Nest.DateMappingDescriptor,IndexName</token>
+</entry>
+<entry count="16384">
+<token>Nest.AggregationsHelper,Terms</token>
+<token>Nest.AggregationsHelper,Min</token>
+<token>Nest.AggregationsHelper,Max</token>
+</entry>
+<entry count="3">
+<token>Nest.Filter,Term</token>
+<token>Nest.Filter,Term</token>
+<token>Nest.Filter,Term</token>
+<token>Nest.Filter,And</token>
+</entry>
+<entry count="1">
+<token>Nest.PutMappingDescriptor,DisableSizeField</token>
+<token>Nest.MappingTransformDescriptor,Script</token>
+<token>Nest.MappingTransformDescriptor,Language</token>
+<token>Nest.PutMappingDescriptor,Transform</token>
+</entry>
+<entry count="4">
+<token>Nest.ObjectMappingDescriptor,Path</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.StringMappingDescriptor,IndexAnalyzer</token>
+</entry>
+<entry count="1">
+<token>Nest.PropertiesDescriptor,Boolean</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.PropertiesDescriptor,String</token>
+</entry>
+<entry count="2">
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.StringMappingDescriptor,IncludeInAll</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.DateMappingDescriptor,Name</token>
+</entry>
+<entry count="4">
+<token>Nest.ObjectMappingDescriptor,Name</token>
+<token>Nest.ObjectMappingDescriptor,Dynamic</token>
+<token>Nest.PropertiesDescriptor,Object</token>
+<token>Nest.ObjectMappingDescriptor,Name</token>
+</entry>
+<entry count="2">
+<token>Nest.RangeFilterDescriptor,OnField</token>
+<token>Nest.RangeFilterDescriptor,Lower</token>
+<token>Nest.Filter,Range</token>
+</entry>
+<entry count="5">
+<token>Nest.TimestampFieldMappingDescriptor,Enabled</token>
+<token>Nest.TimestampFieldMappingDescriptor,Path</token>
+</entry>
+<entry count="29">
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+</entry>
+<entry count="1">
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.BooleanMappingDescriptor,Name</token>
+<token>Nest.BooleanMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Boolean</token>
+<token>Nest.ObjectMappingDescriptor,Properties</token>
+</entry>
+<entry count="5">
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.CorePropertiesDescriptor,String</token>
+</entry>
+<entry count="1">
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.ObjectMappingDescriptor,Properties</token>
+</entry>
+<entry count="6">
+<token>Nest.NumberMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Number</token>
+<token>Nest.NumberMappingDescriptor,Name</token>
+<token>Nest.NumberMappingDescriptor,IndexName</token>
+</entry>
+<entry count="5">
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.DateMappingDescriptor,Name</token>
+<token>Nest.DateMappingDescriptor,IndexName</token>
+</entry>
+<entry count="1">
+<token>Nest.FluentDictionary,Add</token>
+<token>Nest.AnalysisDescriptor,Analyzers</token>
+<token>Nest.CreateIndexDescriptor,Analysis</token>
+<token>Nest.CreateIndexDescriptor,AddMapping</token>
+</entry>
+<entry count="2">
+<token>Nest.StringMappingDescriptor,Boost</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+</entry>
+<entry count="1">
+<token>Nest.PutMappingDescriptor,Dynamic</token>
+<token>Nest.DynamicTemplateDescriptor,Name</token>
+</entry>
+<entry count="2">
+<token>Nest.PropertiesDescriptor,Object</token>
+<token>Nest.ObjectMappingDescriptor,Name</token>
+<token>Nest.ObjectMappingDescriptor,Dynamic</token>
+</entry>
+<entry count="17">
+<token>Nest.DateMappingDescriptor,Name</token>
+<token>Nest.DateMappingDescriptor,IndexName</token>
+</entry>
+<entry count="1">
+<token>Nest.PutTemplateDescriptor,Template</token>
+<token>Nest.FluentDictionary,Add</token>
+<token>Nest.PutTemplateDescriptor,Settings</token>
+<token>Nest.PutMappingDescriptor,Dynamic</token>
+<token>Nest.DynamicTemplateDescriptor,Name</token>
+</entry>
+<entry count="11">
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.StringMappingDescriptor,IncludeInAll</token>
+<token>Nest.PropertiesDescriptor,String</token>
+</entry>
+<entry count="2">
+<token>Nest.ObjectMappingDescriptor,Path</token>
+<token>Nest.ObjectMappingDescriptor,Name</token>
+<token>Nest.ObjectMappingDescriptor,Path</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+</entry>
+<entry count="14">
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.PropertiesDescriptor,String</token>
+</entry>
+<entry count="2">
+<token>Nest.PropertiesDescriptor,Number</token>
+<token>Nest.ObjectMappingDescriptor,Properties</token>
+</entry>
+<entry count="1">
+<token>Nest.ObjectMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,String</token>
+</entry>
+<entry count="4">
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.StringMappingDescriptor,IncludeInAll</token>
+<token>Nest.StringMappingDescriptor,Boost</token>
+</entry>
+<entry count="20480">
+<token>Nest.AggregationsHelper,Terms</token>
+<token>Nest.AggregationsHelper,Cardinality</token>
+<token>Nest.AggregationsHelper,DateHistogram</token>
+</entry>
+<entry count="1">
+<token>Nest.PutMappingDescriptor,Transform</token>
+<token>Nest.PutMappingDescriptor,IncludeInAll</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+</entry>
+<entry count="32768">
+<token>Nest.AggregationsHelper,Terms</token>
+<token>Nest.AggregationsHelper,Average</token>
+<token>Nest.AggregationsHelper,Cardinality</token>
+<token>Nest.AggregationsHelper,Min</token>
+<token>Nest.AggregationsHelper,Max</token>
+</entry>
+<entry count="3">
+<token>Nest.TimestampFieldMappingDescriptor,IgnoreMissing</token>
+<token>Nest.PutMappingDescriptor,TimestampField</token>
+<token>Nest.DateMappingDescriptor,Name</token>
+</entry>
+<entry count="1">
+<token>Nest.PropertiesDescriptor,GeoPoint</token>
+<token>Nest.NumberMappingDescriptor,Name</token>
+</entry>
+<entry count="2">
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.ObjectMappingDescriptor,Properties</token>
+</entry>
+<entry count="2">
+<token>Nest.StringMappingDescriptor,Boost</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.CorePropertiesDescriptor,String</token>
+<token>Nest.StringMappingDescriptor,Fields</token>
+</entry>
+<entry count="1">
+<token>Nest.Filter,Term</token>
+<token>Nest.Filter,Term</token>
+<token>Nest.Filter,Term</token>
+<token>Nest.Filter,Term</token>
+</entry>
+<entry count="1">
+<token>Nest.DynamicTemplateDescriptor,Match</token>
+<token>Nest.GenericMappingDescriptor,Type</token>
+<token>Nest.GenericMappingDescriptor,Index</token>
+</entry>
+<entry count="4">
+<token>Nest.QueryDescriptor,TermsDescriptor</token>
+<token>Nest.SearchDescriptor,Query</token>
+</entry>
+<entry count="1">
+<token>Nest.PutMappingDescriptor,Transform</token>
+<token>Nest.AllFieldMappingDescriptor,IndexAnalyzer</token>
+</entry>
+<entry count="4">
+<token>Nest.SearchDescriptor,Index</token>
+<token>Nest.SearchDescriptor,AllTypes</token>
+<token>Nest.TermsQueryDescriptor,OnField</token>
+<token>Nest.TermsQueryDescriptor,Terms</token>
+<token>Nest.TermsQueryDescriptor,MinimumMatch</token>
+</entry>
+<entry count="1">
+<token>Nest.PutMappingDescriptor,Properties</token>
+<token>Nest.PutTemplateDescriptor,AddMapping</token>
+</entry>
+<entry count="1">
+<token>Nest.PropertiesDescriptor,Number</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+</entry>
+<entry count="5">
+<token>Nest.TimestampFieldMappingDescriptor,Enabled</token>
+<token>Nest.TimestampFieldMappingDescriptor,Path</token>
+<token>Nest.TimestampFieldMappingDescriptor,IgnoreMissing</token>
+</entry>
+<entry count="1">
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.ObjectMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+</entry>
+<entry count="1">
+<token>Nest.PropertiesDescriptor,Boolean</token>
+<token>Nest.ObjectMappingDescriptor,Properties</token>
+</entry>
+<entry count="3">
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.PutMappingDescriptor,Properties</token>
+</entry>
+<entry count="2">
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.BooleanMappingDescriptor,Name</token>
+<token>Nest.BooleanMappingDescriptor,IndexName</token>
+</entry>
+<entry count="1">
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.StringMappingDescriptor,IncludeInAll</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.ObjectMappingDescriptor,Properties</token>
+</entry>
+<entry count="2">
+<token>Nest.BooleanMappingDescriptor,Name</token>
+<token>Nest.BooleanMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Boolean</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+</entry>
+<entry count="2">
+<token>Nest.PropertiesDescriptor,Object</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+</entry>
+<entry count="4">
+<token>Nest.SearchDescriptor,Index</token>
+<token>Nest.SearchDescriptor,AllTypes</token>
+<token>Nest.QueryDescriptor,Ids</token>
+</entry>
+<entry count="1">
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.ObjectMappingDescriptor,Properties</token>
+<token>Nest.PropertiesDescriptor,Object</token>
+<token>Nest.PutMappingDescriptor,Properties</token>
+</entry>
+<entry count="2">
+<token>Nest.NumberMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Number</token>
+<token>Nest.ObjectMappingDescriptor,Properties</token>
+<token>Nest.PropertiesDescriptor,Object</token>
+</entry>
+<entry count="8192">
+<token>Nest.AggregationsHelper,Cardinality</token>
+<token>Nest.AggregationsHelper,DateHistogram</token>
+<token>Nest.AggregationsHelper,Min</token>
+</entry>
+<entry count="5">
+<token>Nest.PutMappingDescriptor,Dynamic</token>
+<token>Nest.TimestampFieldMappingDescriptor,Enabled</token>
+<token>Nest.TimestampFieldMappingDescriptor,Path</token>
+<token>Nest.TimestampFieldMappingDescriptor,IgnoreMissing</token>
+<token>Nest.PutMappingDescriptor,TimestampField</token>
+</entry>
+<entry count="2">
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.NumberMappingDescriptor,Name</token>
+</entry>
+<entry count="73728">
+<token>Nest.AggregationsHelper,Min</token>
+<token>Nest.AggregationsHelper,Max</token>
+<token>Nest.AggregationsHelper,Terms</token>
+<token>Nest.AggregationsHelper,Terms</token>
+</entry>
+<entry count="2">
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+</entry>
+<entry count="5">
+<token>Nest.StringMappingDescriptor,IncludeInAll</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+</entry>
+<entry count="2">
+<token>Nest.MappingTransformDescriptor,Language</token>
+<token>Nest.PutMappingDescriptor,Transform</token>
+</entry>
+<entry count="1">
+<token>Nest.PutMappingDescriptor,Dynamic</token>
+<token>Nest.DateMappingDescriptor,Name</token>
+</entry>
+<entry count="4">
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.ObjectMappingDescriptor,Name</token>
+<token>Nest.ObjectMappingDescriptor,Path</token>
+</entry>
+<entry count="1">
+<token>Nest.CreateIndexDescriptor,Analysis</token>
+<token>Nest.CreateIndexDescriptor,AddMapping</token>
+<token>Nest.CreateIndexDescriptor,AddMapping</token>
+</entry>
+<entry count="1">
+<token>Nest.StringMappingDescriptor,Analyzer</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.PropertiesDescriptor,String</token>
+</entry>
+<entry count="2">
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.StringMappingDescriptor,IncludeInAll</token>
+<token>Nest.StringMappingDescriptor,Analyzer</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+</entry>
+<entry count="1">
+<token>Nest.CustomAnalyzer,new</token>
+<token>Nest.FluentDictionary,Add</token>
+<token>Nest.AnalysisDescriptor,Analyzers</token>
+<token>Nest.CreateIndexDescriptor,Analysis</token>
+</entry>
+<entry count="1">
+<token>Nest.PutMappingDescriptor,IncludeInAll</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+</entry>
+<entry count="1">
+<token>Nest.DateMappingDescriptor,Name</token>
+<token>Nest.DateMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Date</token>
+<token>Nest.BooleanMappingDescriptor,Name</token>
+<token>Nest.PropertiesDescriptor,Boolean</token>
+</entry>
+<entry count="32768">
+<token>Nest.AggregationsHelper,Max</token>
+<token>Nest.AggregationsHelper,Terms</token>
+<token>Nest.AggregationsHelper,Average</token>
+<token>Nest.AggregationsHelper,Cardinality</token>
+<token>Nest.AggregationsHelper,Min</token>
+</entry>
+<entry count="81920">
+<token>Nest.AggregationsHelper,Average</token>
+<token>Nest.AggregationsHelper,Cardinality</token>
+<token>Nest.AggregationsHelper,Min</token>
+<token>Nest.AggregationsHelper,Max</token>
+</entry>
+<entry count="1">
+<token>Nest.DateMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Date</token>
+<token>Nest.BooleanMappingDescriptor,Name</token>
+<token>Nest.PropertiesDescriptor,Boolean</token>
+<token>Nest.BooleanMappingDescriptor,Name</token>
+</entry>
+<entry count="1">
+<token>Nest.StringMappingDescriptor,IndexAnalyzer</token>
+<token>Nest.StringMappingDescriptor,SearchAnalyzer</token>
+<token>Nest.PropertiesDescriptor,String</token>
+</entry>
+<entry count="5">
+<token>Nest.TimestampFieldMappingDescriptor,Path</token>
+<token>Nest.TimestampFieldMappingDescriptor,IgnoreMissing</token>
+<token>Nest.PutMappingDescriptor,TimestampField</token>
+</entry>
+<entry count="1">
+<token>Nest.DynamicTemplateDescriptor,Mapping</token>
+<token>Nest.DynamicTemplatesDescriptor,Add</token>
+</entry>
+<entry count="2">
+<token>Nest.ObjectMappingDescriptor,Name</token>
+<token>Nest.ObjectMappingDescriptor,Path</token>
+<token>Nest.ObjectMappingDescriptor,Name</token>
+<token>Nest.ObjectMappingDescriptor,Path</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+</entry>
+<entry count="1">
+<token>Nest.BooleanMappingDescriptor,Name</token>
+<token>Nest.BooleanMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Boolean</token>
+<token>Nest.ObjectMappingDescriptor,Properties</token>
+<token>Nest.PropertiesDescriptor,Object</token>
+</entry>
+<entry count="1">
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.PropertiesDescriptor,String</token>
+</entry>
+<entry count="1">
+<token>Nest.DynamicTemplateDescriptor,Name</token>
+<token>Nest.DynamicTemplateDescriptor,Match</token>
+</entry>
+<entry count="1">
+<token>Nest.PropertiesDescriptor,Date</token>
+<token>Nest.BooleanMappingDescriptor,Name</token>
+<token>Nest.PropertiesDescriptor,Boolean</token>
+<token>Nest.BooleanMappingDescriptor,Name</token>
+<token>Nest.BooleanMappingDescriptor,IndexName</token>
+</entry>
+<entry count="1">
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.ObjectMappingDescriptor,Properties</token>
+<token>Nest.PropertiesDescriptor,Object</token>
+</entry>
+<entry count="106496">
+<token>Nest.AggregationsHelper,Max</token>
+<token>Nest.AggregationsHelper,DateHistogram</token>
+</entry>
+<entry count="2">
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.StringMappingDescriptor,IncludeInAll</token>
+<token>Nest.StringMappingDescriptor,Analyzer</token>
+<token>Nest.PropertiesDescriptor,String</token>
+</entry>
+<entry count="1">
+<token>Nest.StringMappingDescriptor,SearchAnalyzer</token>
+<token>Nest.PropertiesDescriptor,String</token>
+</entry>
+<entry count="1">
+<token>Nest.SingleMappingDescriptor,Generic</token>
+<token>Nest.DynamicTemplateDescriptor,Mapping</token>
+<token>Nest.DynamicTemplatesDescriptor,Add</token>
+</entry>
+<entry count="5">
+<token>Nest.DateMappingDescriptor,Name</token>
+<token>Nest.DateMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Date</token>
+<token>Nest.DateMappingDescriptor,Name</token>
+<token>Nest.DateMappingDescriptor,IndexName</token>
+</entry>
+<entry count="1">
+<token>Nest.AllFieldMappingDescriptor,SearchAnalyzer</token>
+<token>Nest.PutMappingDescriptor,AllField</token>
+<token>Nest.DateMappingDescriptor,Name</token>
+<token>Nest.DateMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Date</token>
+</entry>
+<entry count="1">
+<token>Nest.PutMappingDescriptor,DynamicTemplates</token>
+<token>Nest.PutMappingDescriptor,IncludeInAll</token>
+<token>Nest.PutMappingDescriptor,DisableSizeField</token>
+<token>Nest.MappingTransformDescriptor,Script</token>
+</entry>
+<entry count="1">
+<token>Nest.PropertiesDescriptor,Number</token>
+<token>Nest.ObjectMappingDescriptor,Properties</token>
+<token>Nest.PropertiesDescriptor,Object</token>
+<token>Nest.ObjectMappingDescriptor,Name</token>
+</entry>
+<entry count="1">
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.ObjectMappingDescriptor,Name</token>
+<token>Nest.ObjectMappingDescriptor,Dynamic</token>
+</entry>
+<entry count="11">
+<token>Nest.ObjectMappingDescriptor,Path</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+</entry>
+<entry count="1">
+<token>Nest.AnalysisDescriptor,Analyzers</token>
+<token>Nest.CreateIndexDescriptor,Analysis</token>
+<token>Nest.CreateIndexDescriptor,AddMapping</token>
+</entry>
+<entry count="2">
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.PutMappingDescriptor,Properties</token>
+</entry>
+<entry count="1">
+<token>Nest.DynamicTemplatesDescriptor,Add</token>
+<token>Nest.PutMappingDescriptor,DynamicTemplates</token>
+</entry>
+<entry count="2">
+<token>Nest.RangeFilterDescriptor,Lower</token>
+<token>Nest.Filter,Range</token>
+</entry>
+<entry count="1">
+<token>Nest.BooleanMappingDescriptor,Name</token>
+<token>Nest.PropertiesDescriptor,Boolean</token>
+<token>Nest.BooleanMappingDescriptor,Name</token>
+<token>Nest.BooleanMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Boolean</token>
+</entry>
+<entry count="2">
+<token>Nest.ObjectMappingDescriptor,Properties</token>
+<token>Nest.PropertiesDescriptor,Object</token>
+<token>Nest.ObjectMappingDescriptor,Name</token>
+<token>Nest.DateMappingDescriptor,Name</token>
+<token>Nest.DateMappingDescriptor,IndexName</token>
+</entry>
+<entry count="1">
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.ObjectMappingDescriptor,Properties</token>
+<token>Nest.PropertiesDescriptor,Object</token>
+</entry>
+<entry count="5">
+<token>Nest.PropertiesDescriptor,Date</token>
+<token>Nest.DateMappingDescriptor,Name</token>
+<token>Nest.DateMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Date</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+</entry>
+<entry count="1">
+<token>Nest.AnalysisDescriptor,Analyzers</token>
+<token>Nest.CreateIndexDescriptor,Analysis</token>
+<token>Nest.CreateIndexDescriptor,AddMapping</token>
+<token>Nest.CreateIndexDescriptor,AddMapping</token>
+<token>Nest.CreateIndexDescriptor,AddMapping</token>
+</entry>
+<entry count="1">
+<token>Nest.PutMappingDescriptor,AllField</token>
+<token>Nest.DateMappingDescriptor,Name</token>
+<token>Nest.DateMappingDescriptor,IndexName</token>
+</entry>
+<entry count="1">
+<token>Nest.PropertiesDescriptor,Number</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.NumberMappingDescriptor,Name</token>
+</entry>
+<entry count="1">
+<token>Nest.PropertiesDescriptor,Number</token>
+<token>Nest.ObjectMappingDescriptor,Name</token>
+<token>Nest.ObjectMappingDescriptor,Dynamic</token>
+<token>Nest.PropertiesDescriptor,Object</token>
+</entry>
+<entry count="6">
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.ObjectMappingDescriptor,Properties</token>
+<token>Nest.PropertiesDescriptor,Object</token>
+<token>Nest.ObjectMappingDescriptor,Name</token>
+</entry>
+<entry count="4">
+<token>Nest.SearchDescriptor,AllTypes</token>
+<token>Nest.TermsQueryDescriptor,OnField</token>
+<token>Nest.TermsQueryDescriptor,Terms</token>
+<token>Nest.TermsQueryDescriptor,MinimumMatch</token>
+</entry>
+<entry count="1">
+<token>Nest.BooleanMappingDescriptor,Name</token>
+<token>Nest.BooleanMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Boolean</token>
+<token>Nest.ObjectMappingDescriptor,Properties</token>
+</entry>
+<entry count="1">
+<token>Nest.SingleMappingDescriptor,Generic</token>
+<token>Nest.DynamicTemplateDescriptor,Mapping</token>
+<token>Nest.DynamicTemplatesDescriptor,Add</token>
+<token>Nest.PutMappingDescriptor,DynamicTemplates</token>
+<token>Nest.PutMappingDescriptor,IncludeInAll</token>
+</entry>
+<entry count="2">
+<token>Nest.PropertiesDescriptor,Number</token>
+<token>Nest.BooleanMappingDescriptor,Name</token>
+<token>Nest.BooleanMappingDescriptor,IndexName</token>
+</entry>
+<entry count="1">
+<token>Nest.GenericMappingDescriptor,Index</token>
+<token>Nest.SingleMappingDescriptor,Generic</token>
+</entry>
+<entry count="2">
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.DateMappingDescriptor,Name</token>
+<token>Nest.DateMappingDescriptor,IndexName</token>
+</entry>
+<entry count="5">
+<token>Nest.StringMappingDescriptor,IncludeInAll</token>
+<token>Nest.StringMappingDescriptor,Boost</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.ObjectMappingDescriptor,Properties</token>
+</entry>
+<entry count="1">
+<token>Nest.PutMappingDescriptor,Transform</token>
+<token>Nest.PutMappingDescriptor,IncludeInAll</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+</entry>
+<entry count="2">
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.NumberMappingDescriptor,Name</token>
+</entry>
+<entry count="17">
+<token>Nest.DateMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Date</token>
+</entry>
+<entry count="16384">
+<token>Nest.AggregationsHelper,Terms</token>
+<token>Nest.AggregationsHelper,Cardinality</token>
+<token>Nest.AggregationsHelper,DateHistogram</token>
+<token>Nest.AggregationsHelper,Cardinality</token>
+</entry>
+<entry count="1">
+<token>Nest.BooleanMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Boolean</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+</entry>
+<entry count="2">
+<token>Nest.ObjectMappingDescriptor,Dynamic</token>
+<token>Nest.PropertiesDescriptor,Object</token>
+<token>Nest.ObjectMappingDescriptor,Name</token>
+<token>Nest.ObjectMappingDescriptor,Dynamic</token>
+<token>Nest.PropertiesDescriptor,Object</token>
+</entry>
+<entry count="253952">
+<token>Nest.AggregationsHelper,Min</token>
+<token>Nest.AggregationsHelper,Max</token>
+</entry>
+<entry count="1">
+<token>Nest.QueryDescriptor,Ids</token>
+<token>Nest.SearchDescriptor,Query</token>
+<token>Nest.ElasticClient,Search</token>
+<token>Nest.ElasticClient,DeleteById</token>
+</entry>
+<entry count="2">
+<token>Nest.StringMappingDescriptor,Boost</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+</entry>
+<entry count="7">
+<token>Nest.StringMappingDescriptor,SearchAnalyzer</token>
+<token>Nest.StringMappingDescriptor,IncludeInAll</token>
+<token>Nest.StringMappingDescriptor,Boost</token>
+</entry>
+<entry count="2">
+<token>Nest.PropertiesDescriptor,Object</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+</entry>
+<entry count="1">
+<token>Nest.AllFieldMappingDescriptor,SearchAnalyzer</token>
+<token>Nest.PutMappingDescriptor,AllField</token>
+<token>Nest.DateMappingDescriptor,Name</token>
+</entry>
+<entry count="2">
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.BooleanMappingDescriptor,Name</token>
+</entry>
+<entry count="50">
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+</entry>
+<entry count="7">
+<token>Nest.StringMappingDescriptor,Fields</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+</entry>
+<entry count="1">
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.ObjectMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+</entry>
+<entry count="4">
+<token>Nest.BooleanMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Boolean</token>
+<token>Nest.BooleanMappingDescriptor,Name</token>
+<token>Nest.BooleanMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Boolean</token>
+</entry>
+<entry count="1">
+<token>Nest.CustomAnalyzer,new</token>
+<token>Nest.FluentDictionary,Add</token>
+<token>Nest.AnalysisDescriptor,Analyzers</token>
+</entry>
+<entry count="1">
+<token>Nest.AllFieldMappingDescriptor,IndexAnalyzer</token>
+<token>Nest.AllFieldMappingDescriptor,SearchAnalyzer</token>
+<token>Nest.PutMappingDescriptor,AllField</token>
+</entry>
+<entry count="2">
+<token>Nest.StringMappingDescriptor,Analyzer</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+</entry>
+<entry count="2">
+<token>Nest.TermsQueryDescriptor,MinimumMatch</token>
+<token>Nest.QueryDescriptor,TermsDescriptor</token>
+<token>Nest.SearchDescriptor,Query</token>
+<token>Nest.ElasticClient,Search</token>
+<token>Nest.ElasticClient,DeleteById</token>
+</entry>
+<entry count="3">
+<token>Nest.ObjectMappingDescriptor,Properties</token>
+<token>Nest.PropertiesDescriptor,Object</token>
+<token>Nest.PutMappingDescriptor,Properties</token>
+</entry>
+<entry count="1">
+<token>Nest.PropertiesDescriptor,GeoPoint</token>
+<token>Nest.NumberMappingDescriptor,Name</token>
+<token>Nest.NumberMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Number</token>
+</entry>
+<entry count="4">
+<token>Nest.PropertiesDescriptor,Object</token>
+<token>Nest.ObjectMappingDescriptor,Properties</token>
+</entry>
+<entry count="4">
+<token>Nest.BooleanMappingDescriptor,Name</token>
+<token>Nest.BooleanMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Boolean</token>
+<token>Nest.BooleanMappingDescriptor,Name</token>
+<token>Nest.BooleanMappingDescriptor,IndexName</token>
+</entry>
+<entry count="1">
+<token>Nest.PropertiesDescriptor,Number</token>
+<token>Nest.PutMappingDescriptor,Properties</token>
+</entry>
+<entry count="1">
+<token>Nest.GeoPointMappingDescriptor,Name</token>
+<token>Nest.GeoPointMappingDescriptor,IndexLatLon</token>
+</entry>
+<entry count="2">
+<token>Nest.ObjectMappingDescriptor,Name</token>
+<token>Nest.DateMappingDescriptor,Name</token>
+<token>Nest.DateMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Date</token>
+<token>Nest.NumberMappingDescriptor,Name</token>
+</entry>
+<entry count="1">
+<token>Nest.PropertiesDescriptor,Number</token>
+<token>Nest.ObjectMappingDescriptor,Name</token>
+<token>Nest.ObjectMappingDescriptor,Dynamic</token>
+<token>Nest.PropertiesDescriptor,Object</token>
+<token>Nest.ObjectMappingDescriptor,Name</token>
+</entry>
+<entry count="102400">
+<token>Nest.AggregationsHelper,Average</token>
+<token>Nest.AggregationsHelper,Cardinality</token>
+</entry>
+<entry count="5">
+<token>Nest.StringMappingDescriptor,IncludeInAll</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+</entry>
+<entry count="1">
+<token>Nest.PropertiesDescriptor,Boolean</token>
+<token>Nest.BooleanMappingDescriptor,Name</token>
+<token>Nest.BooleanMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Boolean</token>
+<token>Nest.NumberMappingDescriptor,Name</token>
+</entry>
+<entry count="1">
+<token>Nest.BooleanMappingDescriptor,Name</token>
+<token>Nest.BooleanMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Boolean</token>
+<token>Nest.NumberMappingDescriptor,Name</token>
+<token>Nest.NumberMappingDescriptor,IndexName</token>
+</entry>
+<entry count="5">
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+</entry>
+<entry count="2">
+<token>Nest.PutMappingDescriptor,TimestampField</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+</entry>
+<entry count="2">
+<token>Nest.BooleanMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Boolean</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+</entry>
+<entry count="1">
+<token>Nest.IndicesTypePathDescriptor,Index</token>
+<token>Nest.PutMappingDescriptor,Dynamic</token>
+<token>Nest.DateMappingDescriptor,Name</token>
+</entry>
+<entry count="10">
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+</entry>
+<entry count="3">
+<token>Nest.PropertiesDescriptor,Boolean</token>
+<token>Nest.BooleanMappingDescriptor,Name</token>
+<token>Nest.BooleanMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Boolean</token>
+<token>Nest.BooleanMappingDescriptor,Name</token>
+</entry>
+<entry count="1">
+<token>Nest.GeoPointMappingDescriptor,IndexLatLon</token>
+<token>Nest.PropertiesDescriptor,GeoPoint</token>
+<token>Nest.NumberMappingDescriptor,Name</token>
+<token>Nest.NumberMappingDescriptor,IndexName</token>
+</entry>
+<entry count="1">
+<token>Nest.NumberMappingDescriptor,Name</token>
+<token>Nest.NumberMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Number</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+</entry>
+<entry count="2">
+<token>Nest.StringMappingDescriptor,IncludeInAll</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.DateMappingDescriptor,Name</token>
+<token>Nest.DateMappingDescriptor,IndexName</token>
+</entry>
+<entry count="1">
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.StringMappingDescriptor,Analyzer</token>
+<token>Nest.StringMappingDescriptor,IncludeInAll</token>
+</entry>
+<entry count="5">
+<token>Nest.PropertiesDescriptor,Date</token>
+<token>Nest.DateMappingDescriptor,Name</token>
+<token>Nest.DateMappingDescriptor,IndexName</token>
+</entry>
+<entry count="1">
+<token>Nest.ObjectMappingDescriptor,Properties</token>
+<token>Nest.PropertiesDescriptor,Object</token>
+<token>Nest.ObjectMappingDescriptor,Properties</token>
+<token>Nest.PropertiesDescriptor,Object</token>
+<token>Nest.ObjectMappingDescriptor,Name</token>
+</entry>
+<entry count="1">
+<token>Nest.PutMappingDescriptor,IncludeInAll</token>
+<token>Nest.PutMappingDescriptor,DisableSizeField</token>
+<token>Nest.MappingTransformDescriptor,Script</token>
+<token>Nest.MappingTransformDescriptor,Language</token>
+</entry>
+<entry count="6">
+<token>Nest.PropertiesDescriptor,Number</token>
+<token>Nest.NumberMappingDescriptor,Name</token>
+<token>Nest.NumberMappingDescriptor,IndexName</token>
+</entry>
+<entry count="5">
+<token>Nest.Filter,Term</token>
+<token>Nest.Filter,And</token>
+</entry>
+<entry count="4">
+<token>Nest.QueryDescriptor,Ids</token>
+<token>Nest.SearchDescriptor,Query</token>
+</entry>
+<entry count="2">
+<token>Nest.PropertiesDescriptor,Object</token>
+<token>Nest.ObjectMappingDescriptor,Properties</token>
+<token>Nest.PropertiesDescriptor,Object</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+</entry>
+<entry count="5">
+<token>Nest.PropertiesDescriptor,Date</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.PropertiesDescriptor,String</token>
+</entry>
+<entry count="32768">
+<token>Nest.AggregationsHelper,Max</token>
+<token>Nest.AggregationsHelper,Terms</token>
+<token>Nest.AggregationsHelper,Average</token>
+<token>Nest.AggregationsHelper,Cardinality</token>
+</entry>
+<entry count="5">
+<token>Nest.PropertiesDescriptor,Boolean</token>
+<token>Nest.BooleanMappingDescriptor,Name</token>
+<token>Nest.BooleanMappingDescriptor,IndexName</token>
+</entry>
+<entry count="2">
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.StringMappingDescriptor,IndexAnalyzer</token>
+</entry>
+<entry count="5">
+<token>Nest.Filter,Term</token>
+<token>Nest.Filter,Term</token>
+<token>Nest.Filter,And</token>
+</entry>
+<entry count="1">
+<token>Nest.IndicesOptionalExplicitAllPathDescriptor,Index</token>
+<token>Nest.IElasticClient,GetIndex</token>
+<token>Nest.GetAliasDescriptor,Alias</token>
+<token>Nest.IElasticClient,GetAlias</token>
+</entry>
+<entry count="33">
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+</entry>
+<entry count="4">
+<token>Nest.SearchDescriptor,AllTypes</token>
+<token>Nest.TermsQueryDescriptor,OnField</token>
+<token>Nest.TermsQueryDescriptor,Terms</token>
+</entry>
+<entry count="1">
+<token>Nest.PutTemplateDescriptor,Settings</token>
+<token>Nest.PutMappingDescriptor,Dynamic</token>
+<token>Nest.DynamicTemplateDescriptor,Name</token>
+<token>Nest.DynamicTemplateDescriptor,Match</token>
+</entry>
+<entry count="1">
+<token>Nest.PutMappingDescriptor,Dynamic</token>
+<token>Nest.DateMappingDescriptor,Name</token>
+<token>Nest.DateMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Date</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+</entry>
+<entry count="3">
+<token>Nest.StringMappingDescriptor,Analyzer</token>
+<token>Nest.PropertiesDescriptor,String</token>
+</entry>
+<entry count="2">
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.NumberMappingDescriptor,Name</token>
+<token>Nest.NumberMappingDescriptor,IndexName</token>
+</entry>
+<entry count="4">
+<token>Nest.SearchDescriptor,AllTypes</token>
+<token>Nest.QueryDescriptor,Ids</token>
+</entry>
+<entry count="2">
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.StringMappingDescriptor,IncludeInAll</token>
+<token>Nest.StringMappingDescriptor,Analyzer</token>
+</entry>
+<entry count="2">
+<token>Nest.StringMappingDescriptor,Boost</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.ObjectMappingDescriptor,Properties</token>
+<token>Nest.PropertiesDescriptor,Object</token>
+<token>Nest.ObjectMappingDescriptor,Properties</token>
+</entry>
+<entry count="4">
+<token>Nest.ObjectMappingDescriptor,Path</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.StringMappingDescriptor,IncludeInAll</token>
+</entry>
+<entry count="1">
+<token>Nest.PropertiesDescriptor,Number</token>
+<token>Nest.ObjectMappingDescriptor,Name</token>
+<token>Nest.ObjectMappingDescriptor,Dynamic</token>
+</entry>
+<entry count="16384">
+<token>Nest.AggregationsHelper,DateHistogram</token>
+<token>Nest.AggregationsHelper,Cardinality</token>
+</entry>
+<entry count="1">
+<token>Nest.DynamicTemplateDescriptor,Mapping</token>
+<token>Nest.DynamicTemplatesDescriptor,Add</token>
+<token>Nest.PutMappingDescriptor,DynamicTemplates</token>
+<token>Nest.PutMappingDescriptor,IncludeInAll</token>
+</entry>
+<entry count="1">
+<token>Nest.NumberMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Number</token>
+<token>Nest.ObjectMappingDescriptor,Name</token>
+</entry>
+<entry count="5">
+<token>Nest.StringMappingDescriptor,SearchAnalyzer</token>
+<token>Nest.StringMappingDescriptor,IncludeInAll</token>
+<token>Nest.StringMappingDescriptor,Boost</token>
+<token>Nest.PropertiesDescriptor,String</token>
+</entry>
+<entry count="3">
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.DateMappingDescriptor,Name</token>
+<token>Nest.DateMappingDescriptor,IndexName</token>
+</entry>
+<entry count="1">
+<token>Nest.StringMappingDescriptor,IncludeInAll</token>
+<token>Nest.StringMappingDescriptor,Boost</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.GeoPointMappingDescriptor,Name</token>
+<token>Nest.GeoPointMappingDescriptor,IndexLatLon</token>
+</entry>
+<entry count="1">
+<token>Nest.BooleanMappingDescriptor,Name</token>
+<token>Nest.PropertiesDescriptor,Boolean</token>
+<token>Nest.BooleanMappingDescriptor,Name</token>
+</entry>
+<entry count="2">
+<token>Nest.ObjectMappingDescriptor,Name</token>
+<token>Nest.DateMappingDescriptor,Name</token>
+</entry>
+<entry count="1">
+<token>Nest.PutMappingDescriptor,Transform</token>
+<token>Nest.AllFieldMappingDescriptor,IndexAnalyzer</token>
+<token>Nest.AllFieldMappingDescriptor,SearchAnalyzer</token>
+</entry>
+<entry count="1">
+<token>Nest.NumberMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Number</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+</entry>
+<entry count="2">
+<token>Nest.StringMappingDescriptor,IncludeInAll</token>
+<token>Nest.StringMappingDescriptor,Boost</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+</entry>
+<entry count="3">
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.ObjectMappingDescriptor,Properties</token>
+</entry>
+<entry count="4">
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,String</token>
+</entry>
+<entry count="2">
+<token>Nest.NumberMappingDescriptor,Name</token>
+<token>Nest.NumberMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Number</token>
+<token>Nest.ObjectMappingDescriptor,Properties</token>
+</entry>
+<entry count="1">
+<token>Nest.StringMappingDescriptor,Boost</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.GeoPointMappingDescriptor,Name</token>
+<token>Nest.GeoPointMappingDescriptor,IndexLatLon</token>
+<token>Nest.PropertiesDescriptor,GeoPoint</token>
+</entry>
+<entry count="1">
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.NumberMappingDescriptor,Name</token>
+<token>Nest.NumberMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Number</token>
+<token>Nest.BooleanMappingDescriptor,Name</token>
+</entry>
+<entry count="1">
+<token>Nest.Filter,Missing</token>
+<token>Nest.Filter,Term</token>
+</entry>
+<entry count="1">
+<token>Nest.StringMappingDescriptor,SearchAnalyzer</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+</entry>
+<entry count="2">
+<token>Nest.PropertiesDescriptor,Object</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.StringMappingDescriptor,IndexAnalyzer</token>
+</entry>
+<entry count="1">
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,String</token>
+</entry>
+<entry count="1">
+<token>Nest.PropertiesDescriptor,Number</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+</entry>
+<entry count="5">
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.StringMappingDescriptor,IncludeInAll</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+</entry>
+<entry count="42">
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.PropertiesDescriptor,String</token>
+</entry>
+<entry count="3">
+<token>Nest.TimestampFieldMappingDescriptor,IgnoreMissing</token>
+<token>Nest.PutMappingDescriptor,TimestampField</token>
+<token>Nest.DateMappingDescriptor,Name</token>
+<token>Nest.DateMappingDescriptor,IndexName</token>
+</entry>
+<entry count="1">
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.DateMappingDescriptor,Name</token>
+<token>Nest.DateMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Date</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+</entry>
+<entry count="4">
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.StringMappingDescriptor,IncludeInAll</token>
+<token>Nest.StringMappingDescriptor,Boost</token>
+</entry>
+<entry count="1">
+<token>Nest.StringMappingDescriptor,IncludeInAll</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.ObjectMappingDescriptor,Properties</token>
+<token>Nest.PropertiesDescriptor,Object</token>
+<token>Nest.ObjectMappingDescriptor,Properties</token>
+</entry>
+<entry count="2">
+<token>Nest.PropertiesDescriptor,Object</token>
+<token>Nest.ObjectMappingDescriptor,Name</token>
+<token>Nest.DateMappingDescriptor,Name</token>
+</entry>
+<entry count="2">
+<token>Nest.PropertiesDescriptor,Date</token>
+<token>Nest.NumberMappingDescriptor,Name</token>
+<token>Nest.NumberMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Number</token>
+<token>Nest.NumberMappingDescriptor,Name</token>
+</entry>
+<entry count="3">
+<token>Nest.PropertiesDescriptor,Date</token>
+<token>Nest.NumberMappingDescriptor,Name</token>
+<token>Nest.NumberMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Number</token>
+</entry>
+<entry count="3">
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+</entry>
+<entry count="2">
+<token>Nest.ObjectMappingDescriptor,Name</token>
+<token>Nest.DateMappingDescriptor,Name</token>
+<token>Nest.DateMappingDescriptor,IndexName</token>
+</entry>
+<entry count="1">
+<token>Nest.DynamicTemplatesDescriptor,Add</token>
+<token>Nest.PutMappingDescriptor,DynamicTemplates</token>
+<token>Nest.PutMappingDescriptor,IncludeInAll</token>
+<token>Nest.PutMappingDescriptor,DisableSizeField</token>
+<token>Nest.MappingTransformDescriptor,Script</token>
+</entry>
+<entry count="1">
+<token>Nest.PutMappingDescriptor,Dynamic</token>
+<token>Nest.DateMappingDescriptor,Name</token>
+<token>Nest.DateMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Date</token>
+</entry>
+<entry count="1">
+<token>Nest.PropertiesDescriptor,GeoPoint</token>
+<token>Nest.NumberMappingDescriptor,Name</token>
+<token>Nest.NumberMappingDescriptor,IndexName</token>
+</entry>
+<entry count="5">
+<token>Nest.StringMappingDescriptor,SearchAnalyzer</token>
+<token>Nest.StringMappingDescriptor,IncludeInAll</token>
+<token>Nest.StringMappingDescriptor,Boost</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.ObjectMappingDescriptor,Properties</token>
+</entry>
+<entry count="1">
+<token>Nest.DynamicTemplateDescriptor,Name</token>
+<token>Nest.DynamicTemplateDescriptor,Match</token>
+<token>Nest.GenericMappingDescriptor,Type</token>
+<token>Nest.GenericMappingDescriptor,Index</token>
+</entry>
+<entry count="6">
+<token>Nest.IndicesTypePathDescriptor,Index</token>
+<token>Nest.PutMappingDescriptor,Dynamic</token>
+</entry>
+<entry count="1">
+<token>Nest.PropertiesDescriptor,Boolean</token>
+<token>Nest.ObjectMappingDescriptor,Properties</token>
+<token>Nest.PropertiesDescriptor,Object</token>
+</entry>
+<entry count="4">
+<token>Nest.TermsQueryDescriptor,OnField</token>
+<token>Nest.TermsQueryDescriptor,Terms</token>
+<token>Nest.TermsQueryDescriptor,MinimumMatch</token>
+<token>Nest.QueryDescriptor,TermsDescriptor</token>
+<token>Nest.SearchDescriptor,Query</token>
+</entry>
+<entry count="4">
+<token>Nest.TermsQueryDescriptor,OnField</token>
+<token>Nest.TermsQueryDescriptor,Terms</token>
+<token>Nest.TermsQueryDescriptor,MinimumMatch</token>
+<token>Nest.QueryDescriptor,TermsDescriptor</token>
+</entry>
+<entry count="16384">
+<token>Nest.AggregationsHelper,DateHistogram</token>
+<token>Nest.AggregationsHelper,Average</token>
+<token>Nest.AggregationsHelper,Cardinality</token>
+</entry>
+<entry count="1">
+<token>Nest.PutTemplateDescriptor,Settings</token>
+<token>Nest.PutMappingDescriptor,Dynamic</token>
+<token>Nest.DynamicTemplateDescriptor,Name</token>
+<token>Nest.DynamicTemplateDescriptor,Match</token>
+<token>Nest.GenericMappingDescriptor,Type</token>
+</entry>
+<entry count="4">
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.StringMappingDescriptor,IncludeInAll</token>
+<token>Nest.StringMappingDescriptor,Boost</token>
+<token>Nest.PropertiesDescriptor,String</token>
+</entry>
+<entry count="1">
+<token>Nest.ObjectMappingDescriptor,Name</token>
+<token>Nest.ObjectMappingDescriptor,Dynamic</token>
+<token>Nest.PropertiesDescriptor,Object</token>
+<token>Nest.PutMappingDescriptor,Properties</token>
+</entry>
+<entry count="6">
+<token>Nest.NumberMappingDescriptor,Name</token>
+<token>Nest.NumberMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Number</token>
+<token>Nest.NumberMappingDescriptor,Name</token>
+<token>Nest.NumberMappingDescriptor,IndexName</token>
+</entry>
+<entry count="1">
+<token>Nest.RangeFilterDescriptor,OnField</token>
+<token>Nest.RangeFilterDescriptor,Greater</token>
+<token>Nest.Filter,Range</token>
+</entry>
+<entry count="147456">
+<token>Nest.AggregationsHelper,Terms</token>
+<token>Nest.AggregationsHelper,Cardinality</token>
+<token>Nest.AggregationsHelper,Min</token>
+</entry>
+<entry count="1">
+<token>Nest.Filter,Term</token>
+<token>Nest.Filter,Missing</token>
+<token>Nest.RangeFilterDescriptor,OnField</token>
+<token>Nest.RangeFilterDescriptor,LowerOrEquals</token>
+</entry>
+<entry count="4096">
+<token>Nest.AggregationsHelper,Terms</token>
+<token>Nest.AggregationsHelper,Cardinality</token>
+<token>Nest.AggregationsHelper,DateHistogram</token>
+<token>Nest.AggregationsHelper,Min</token>
+</entry>
+<entry count="1">
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.ObjectMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+</entry>
+<entry count="2">
+<token>Nest.NumberMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Number</token>
+<token>Nest.BooleanMappingDescriptor,Name</token>
+</entry>
+<entry count="1">
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,String</token>
+</entry>
+<entry count="1">
+<token>Nest.IndicesOptionalExplicitAllPathDescriptor,Index</token>
+<token>Nest.IElasticClient,GetIndex</token>
+<token>Nest.GetAliasDescriptor,Alias</token>
+</entry>
+<entry count="1">
+<token>Nest.PutMappingDescriptor,Dynamic</token>
+<token>Nest.MappingTransformDescriptor,Script</token>
+<token>Nest.MappingTransformDescriptor,Language</token>
+</entry>
+<entry count="2">
+<token>Nest.PropertiesDescriptor,Object</token>
+<token>Nest.ObjectMappingDescriptor,Name</token>
+<token>Nest.DateMappingDescriptor,Name</token>
+<token>Nest.DateMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Date</token>
+</entry>
+<entry count="2">
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.ObjectMappingDescriptor,Name</token>
+</entry>
+<entry count="4">
+<token>Nest.ObjectMappingDescriptor,Properties</token>
+<token>Nest.PropertiesDescriptor,Object</token>
+<token>Nest.ObjectMappingDescriptor,Properties</token>
+<token>Nest.PropertiesDescriptor,Object</token>
+</entry>
+<entry count="1">
+<token>Nest.BooleanMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Boolean</token>
+<token>Nest.ObjectMappingDescriptor,Name</token>
+<token>Nest.ObjectMappingDescriptor,Dynamic</token>
+<token>Nest.PropertiesDescriptor,Object</token>
+</entry>
+<entry count="1">
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.StringMappingDescriptor,Analyzer</token>
+</entry>
+<entry count="1">
+<token>Nest.Filter,Missing</token>
+<token>Nest.RangeFilterDescriptor,OnField</token>
+</entry>
+<entry count="3">
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.ObjectMappingDescriptor,Properties</token>
+<token>Nest.PropertiesDescriptor,Object</token>
+</entry>
+<entry count="1">
+<token>Nest.FluentDictionary,Add</token>
+<token>Nest.PutTemplateDescriptor,Settings</token>
+</entry>
+<entry count="1">
+<token>Nest.DynamicTemplateDescriptor,Match</token>
+<token>Nest.GenericMappingDescriptor,Type</token>
+<token>Nest.GenericMappingDescriptor,Index</token>
+<token>Nest.SingleMappingDescriptor,Generic</token>
+<token>Nest.DynamicTemplateDescriptor,Mapping</token>
+</entry>
+<entry count="5">
+<token>Nest.IndicesTypePathDescriptor,Index</token>
+<token>Nest.PutMappingDescriptor,Dynamic</token>
+<token>Nest.TimestampFieldMappingDescriptor,Enabled</token>
+<token>Nest.TimestampFieldMappingDescriptor,Path</token>
+</entry>
+<entry count="1">
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.StringMappingDescriptor,Analyzer</token>
+<token>Nest.StringMappingDescriptor,IncludeInAll</token>
+<token>Nest.StringMappingDescriptor,Boost</token>
+<token>Nest.PropertiesDescriptor,String</token>
+</entry>
+<entry count="1">
+<token>Nest.GeoPointMappingDescriptor,IndexLatLon</token>
+<token>Nest.PropertiesDescriptor,GeoPoint</token>
+<token>Nest.NumberMappingDescriptor,Name</token>
+</entry>
+<entry count="147456">
+<token>Nest.AggregationsHelper,Terms</token>
+<token>Nest.AggregationsHelper,Cardinality</token>
+<token>Nest.AggregationsHelper,Min</token>
+<token>Nest.AggregationsHelper,Max</token>
+</entry>
+<entry count="1">
+<token>Nest.ObjectMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.PropertiesDescriptor,String</token>
+</entry>
+<entry count="1">
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.StringMappingDescriptor,Analyzer</token>
+</entry>
+<entry count="1">
+<token>Nest.PropertiesDescriptor,Boolean</token>
+<token>Nest.ObjectMappingDescriptor,Name</token>
+<token>Nest.ObjectMappingDescriptor,Dynamic</token>
+<token>Nest.PropertiesDescriptor,Object</token>
+</entry>
+<entry count="6">
+<token>Nest.NumberMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Number</token>
+<token>Nest.NumberMappingDescriptor,Name</token>
+</entry>
+<entry count="48">
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+</entry>
+<entry count="73728">
+<token>Nest.AggregationsHelper,Max</token>
+<token>Nest.AggregationsHelper,Terms</token>
+<token>Nest.AggregationsHelper,Terms</token>
+</entry>
+<entry count="2">
+<token>Nest.ObjectMappingDescriptor,Name</token>
+<token>Nest.ObjectMappingDescriptor,Path</token>
+<token>Nest.ObjectMappingDescriptor,Name</token>
+<token>Nest.ObjectMappingDescriptor,Path</token>
+</entry>
+<entry count="1">
+<token>Nest.PropertiesDescriptor,Boolean</token>
+<token>Nest.NumberMappingDescriptor,Name</token>
+</entry>
+<entry count="6">
+<token>Nest.ObjectMappingDescriptor,Properties</token>
+<token>Nest.PropertiesDescriptor,Object</token>
+<token>Nest.ObjectMappingDescriptor,Name</token>
+<token>Nest.ObjectMappingDescriptor,Path</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+</entry>
+<entry count="7">
+<token>Nest.PropertiesDescriptor,Object</token>
+<token>Nest.ObjectMappingDescriptor,Name</token>
+<token>Nest.ObjectMappingDescriptor,Path</token>
+</entry>
+<entry count="4">
+<token>Nest.SearchDescriptor,Index</token>
+<token>Nest.SearchDescriptor,AllTypes</token>
+<token>Nest.QueryDescriptor,Ids</token>
+<token>Nest.SearchDescriptor,Query</token>
+</entry>
+<entry count="2">
+<token>Nest.StringMappingDescriptor,IncludeInAll</token>
+<token>Nest.StringMappingDescriptor,Boost</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.CorePropertiesDescriptor,String</token>
+</entry>
+<entry count="106496">
+<token>Nest.AggregationsHelper,Cardinality</token>
+<token>Nest.AggregationsHelper,Min</token>
+<token>Nest.AggregationsHelper,Max</token>
+<token>Nest.AggregationsHelper,DateHistogram</token>
+</entry>
+<entry count="4096">
+<token>Nest.AggregationsHelper,Average</token>
+<token>Nest.AggregationsHelper,Cardinality</token>
+<token>Nest.AggregationsHelper,DateHistogram</token>
+<token>Nest.AggregationsHelper,Min</token>
+<token>Nest.AggregationsHelper,Max</token>
+</entry>
+<entry count="4">
+<token>Nest.StringMappingDescriptor,IncludeInAll</token>
+<token>Nest.StringMappingDescriptor,Boost</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+</entry>
+<entry count="3">
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.StringMappingDescriptor,IncludeInAll</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.ObjectMappingDescriptor,Name</token>
+</entry>
+<entry count="1">
+<token>Nest.GeoPointMappingDescriptor,IndexLatLon</token>
+<token>Nest.PropertiesDescriptor,GeoPoint</token>
+<token>Nest.NumberMappingDescriptor,Name</token>
+<token>Nest.NumberMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Number</token>
+</entry>
+<entry count="40960">
+<token>Nest.AggregationsHelper,Cardinality</token>
+<token>Nest.AggregationsHelper,DateHistogram</token>
+</entry>
+<entry count="2">
+<token>Nest.MappingTransformDescriptor,Script</token>
+<token>Nest.MappingTransformDescriptor,Language</token>
+</entry>
+<entry count="32768">
+<token>Nest.AggregationsHelper,Cardinality</token>
+<token>Nest.AggregationsHelper,Min</token>
+<token>Nest.AggregationsHelper,Max</token>
+<token>Nest.AggregationsHelper,Terms</token>
+<token>Nest.AggregationsHelper,Average</token>
+</entry>
+<entry count="1">
+<token>Nest.PutMappingDescriptor,Transform</token>
+<token>Nest.PutMappingDescriptor,IncludeInAll</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+</entry>
+<entry count="7">
+<token>Nest.CorePropertiesDescriptor,String</token>
+<token>Nest.StringMappingDescriptor,Fields</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+</entry>
+<entry count="32768">
+<token>Nest.AggregationsHelper,Terms</token>
+<token>Nest.AggregationsHelper,Average</token>
+<token>Nest.AggregationsHelper,Cardinality</token>
+</entry>
+<entry count="5">
+<token>Nest.PropertiesDescriptor,Boolean</token>
+<token>Nest.BooleanMappingDescriptor,Name</token>
+</entry>
+<entry count="5">
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+</entry>
+<entry count="1">
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+</entry>
+<entry count="11">
+<token>Nest.StringMappingDescriptor,IncludeInAll</token>
+<token>Nest.PropertiesDescriptor,String</token>
+</entry>
+<entry count="8">
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.StringMappingDescriptor,IndexAnalyzer</token>
+<token>Nest.StringMappingDescriptor,SearchAnalyzer</token>
+</entry>
+<entry count="2">
+<token>Nest.StringMappingDescriptor,IncludeInAll</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.ObjectMappingDescriptor,Name</token>
+<token>Nest.ObjectMappingDescriptor,Path</token>
+<token>Nest.ObjectMappingDescriptor,Name</token>
+</entry>
+<entry count="1">
+<token>Nest.GeoPointMappingDescriptor,Name</token>
+<token>Nest.GeoPointMappingDescriptor,IndexLatLon</token>
+<token>Nest.PropertiesDescriptor,GeoPoint</token>
+<token>Nest.NumberMappingDescriptor,Name</token>
+<token>Nest.NumberMappingDescriptor,IndexName</token>
+</entry>
+<entry count="1">
+<token>Nest.NumberMappingDescriptor,Name</token>
+<token>Nest.NumberMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Number</token>
+<token>Nest.ObjectMappingDescriptor,Name</token>
+<token>Nest.ObjectMappingDescriptor,Dynamic</token>
+</entry>
+<entry count="17">
+<token>Nest.DateMappingDescriptor,Name</token>
+<token>Nest.DateMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Date</token>
+</entry>
+<entry count="1">
+<token>Nest.GenericMappingDescriptor,Type</token>
+<token>Nest.GenericMappingDescriptor,Index</token>
+<token>Nest.SingleMappingDescriptor,Generic</token>
+<token>Nest.DynamicTemplateDescriptor,Mapping</token>
+<token>Nest.DynamicTemplatesDescriptor,Add</token>
+</entry>
+<entry count="4">
+<token>Nest.SearchDescriptor,AllTypes</token>
+<token>Nest.TermsQueryDescriptor,OnField</token>
+</entry>
+<entry count="1">
+<token>Nest.CustomAnalyzer,new</token>
+<token>Nest.FluentDictionary,Add</token>
+<token>Nest.AnalysisDescriptor,Analyzers</token>
+<token>Nest.CreateIndexDescriptor,Analysis</token>
+<token>Nest.CreateIndexDescriptor,AddMapping</token>
+</entry>
+<entry count="16384">
+<token>Nest.AggregationsHelper,Cardinality</token>
+<token>Nest.AggregationsHelper,DateHistogram</token>
+<token>Nest.AggregationsHelper,Cardinality</token>
+</entry>
+<entry count="1">
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.ObjectMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+</entry>
+<entry count="2">
+<token>Nest.RangeFilterDescriptor,GreaterOrEquals</token>
+<token>Nest.Filter,Range</token>
+<token>Nest.RangeFilterDescriptor,OnField</token>
+<token>Nest.RangeFilterDescriptor,LowerOrEquals</token>
+<token>Nest.Filter,Range</token>
+</entry>
+<entry count="5">
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.StringMappingDescriptor,IncludeInAll</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+</entry>
+<entry count="29">
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+</entry>
+<entry count="1">
+<token>Nest.PropertiesDescriptor,Boolean</token>
+<token>Nest.ObjectMappingDescriptor,Properties</token>
+<token>Nest.PropertiesDescriptor,Object</token>
+<token>Nest.ObjectMappingDescriptor,Properties</token>
+<token>Nest.PropertiesDescriptor,Object</token>
+</entry>
+<entry count="8">
+<token>Nest.SearchDescriptor,Query</token>
+<token>Nest.ElasticClient,Search</token>
+</entry>
+<entry count="1">
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.ObjectMappingDescriptor,Properties</token>
+<token>Nest.PropertiesDescriptor,Object</token>
+<token>Nest.PutMappingDescriptor,Properties</token>
+</entry>
+<entry count="3">
+<token>Nest.PropertiesDescriptor,Date</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.StringMappingDescriptor,IncludeInAll</token>
+</entry>
+<entry count="2">
+<token>Nest.TimestampFieldMappingDescriptor,Path</token>
+<token>Nest.TimestampFieldMappingDescriptor,IgnoreMissing</token>
+<token>Nest.PutMappingDescriptor,TimestampField</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+</entry>
+<entry count="1">
+<token>Nest.BooleanMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Boolean</token>
+<token>Nest.NumberMappingDescriptor,Name</token>
+</entry>
+<entry count="1">
+<token>Nest.FluentDictionary,Add</token>
+<token>Nest.PutTemplateDescriptor,Settings</token>
+<token>Nest.PutMappingDescriptor,Dynamic</token>
+</entry>
+<entry count="1">
+<token>Nest.StringMappingDescriptor,IncludeInAll</token>
+<token>Nest.StringMappingDescriptor,Boost</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.GeoPointMappingDescriptor,Name</token>
+</entry>
+<entry count="1">
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.DateMappingDescriptor,Name</token>
+</entry>
+<entry count="3">
+<token>Nest.CreateIndexDescriptor,AddMapping</token>
+<token>Nest.CreateIndexDescriptor,AddMapping</token>
+<token>Nest.CreateIndexDescriptor,AddMapping</token>
+<token>Nest.CreateIndexDescriptor,AddMapping</token>
+</entry>
+<entry count="1">
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+</entry>
+<entry count="7">
+<token>Nest.StringMappingDescriptor,SearchAnalyzer</token>
+<token>Nest.StringMappingDescriptor,IncludeInAll</token>
+</entry>
+<entry count="1">
+<token>Nest.MappingTransformDescriptor,Language</token>
+<token>Nest.PutMappingDescriptor,Transform</token>
+<token>Nest.PutMappingDescriptor,IncludeInAll</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+</entry>
+<entry count="2">
+<token>Nest.ObjectMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+</entry>
+<entry count="2">
+<token>Nest.ObjectMappingDescriptor,Name</token>
+<token>Nest.ObjectMappingDescriptor,Path</token>
+<token>Nest.ObjectMappingDescriptor,Name</token>
+</entry>
+<entry count="2">
+<token>Nest.ObjectMappingDescriptor,Path</token>
+<token>Nest.ObjectMappingDescriptor,Name</token>
+<token>Nest.ObjectMappingDescriptor,Path</token>
+</entry>
+<entry count="8">
+<token>Nest.DateMappingDescriptor,Name</token>
+<token>Nest.DateMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Date</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+</entry>
+<entry count="1">
+<token>Nest.PutMappingDescriptor,Dynamic</token>
+<token>Nest.MappingTransformDescriptor,Script</token>
+<token>Nest.MappingTransformDescriptor,Language</token>
+<token>Nest.PutMappingDescriptor,Transform</token>
+<token>Nest.PutMappingDescriptor,IncludeInAll</token>
+</entry>
+<entry count="7">
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.CorePropertiesDescriptor,String</token>
+<token>Nest.StringMappingDescriptor,Fields</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+</entry>
+<entry count="3">
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,String</token>
+</entry>
+<entry count="1">
+<token>Nest.RangeFilterDescriptor,Greater</token>
+<token>Nest.Filter,Range</token>
+</entry>
+<entry count="32768">
+<token>Nest.AggregationsHelper,Average</token>
+<token>Nest.AggregationsHelper,Cardinality</token>
+<token>Nest.AggregationsHelper,Min</token>
+<token>Nest.AggregationsHelper,Max</token>
+<token>Nest.AggregationsHelper,Terms</token>
+</entry>
+<entry count="32768">
+<token>Nest.AggregationsHelper,Min</token>
+<token>Nest.AggregationsHelper,Max</token>
+<token>Nest.AggregationsHelper,Terms</token>
+<token>Nest.AggregationsHelper,Average</token>
+</entry>
+<entry count="2">
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.ObjectMappingDescriptor,Name</token>
+<token>Nest.ObjectMappingDescriptor,Path</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+</entry>
+<entry count="8">
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.StringMappingDescriptor,IndexAnalyzer</token>
+<token>Nest.StringMappingDescriptor,SearchAnalyzer</token>
+</entry>
+<entry count="1">
+<token>Nest.PutTemplateDescriptor,Settings</token>
+<token>Nest.PutMappingDescriptor,Dynamic</token>
+</entry>
+<entry count="32768">
+<token>Nest.AggregationsHelper,Max</token>
+<token>Nest.AggregationsHelper,Terms</token>
+<token>Nest.AggregationsHelper,Average</token>
+</entry>
+<entry count="3">
+<token>Nest.StringMappingDescriptor,Analyzer</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+</entry>
+<entry count="1">
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+</entry>
+<entry count="4">
+<token>Nest.SearchDescriptor,AllTypes</token>
+<token>Nest.QueryDescriptor,Ids</token>
+<token>Nest.SearchDescriptor,Query</token>
+</entry>
+<entry count="1">
+<token>Nest.GenericMappingDescriptor,Type</token>
+<token>Nest.GenericMappingDescriptor,Index</token>
+</entry>
+<entry count="42">
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.PropertiesDescriptor,String</token>
+</entry>
+<entry count="1">
+<token>Nest.GenericMappingDescriptor,Type</token>
+<token>Nest.GenericMappingDescriptor,Index</token>
+<token>Nest.SingleMappingDescriptor,Generic</token>
+</entry>
+<entry count="1">
+<token>Nest.BooleanMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Boolean</token>
+<token>Nest.ObjectMappingDescriptor,Properties</token>
+<token>Nest.PropertiesDescriptor,Object</token>
+</entry>
+<entry count="1">
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.ObjectMappingDescriptor,Name</token>
+</entry>
+<entry count="1">
+<token>Nest.PropertiesDescriptor,Number</token>
+<token>Nest.ObjectMappingDescriptor,Name</token>
+</entry>
+<entry count="1">
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.ObjectMappingDescriptor,Properties</token>
+<token>Nest.PropertiesDescriptor,Object</token>
+</entry>
+<entry count="2">
+<token>Nest.RangeFilterDescriptor,OnField</token>
+<token>Nest.RangeFilterDescriptor,GreaterOrEquals</token>
+<token>Nest.Filter,Range</token>
+<token>Nest.RangeFilterDescriptor,OnField</token>
+<token>Nest.RangeFilterDescriptor,LowerOrEquals</token>
+</entry>
+<entry count="73728">
+<token>Nest.AggregationsHelper,Max</token>
+<token>Nest.AggregationsHelper,Terms</token>
+<token>Nest.AggregationsHelper,Terms</token>
+<token>Nest.AggregationsHelper,Cardinality</token>
+<token>Nest.AggregationsHelper,Min</token>
+</entry>
+<entry count="2">
+<token>Nest.StringMappingDescriptor,IncludeInAll</token>
+<token>Nest.StringMappingDescriptor,Analyzer</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+</entry>
+<entry count="4">
+<token>Nest.SearchDescriptor,Index</token>
+<token>Nest.SearchDescriptor,AllTypes</token>
+<token>Nest.TermsQueryDescriptor,OnField</token>
+</entry>
+<entry count="1">
+<token>Nest.PropertiesDescriptor,Boolean</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+</entry>
+<entry count="75">
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+</entry>
+<entry count="2">
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.DateMappingDescriptor,Name</token>
+</entry>
+<entry count="1">
+<token>Nest.PropertiesDescriptor,Boolean</token>
+<token>Nest.ObjectMappingDescriptor,Name</token>
+</entry>
+<entry count="1">
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.NumberMappingDescriptor,Name</token>
+<token>Nest.NumberMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Number</token>
+<token>Nest.ObjectMappingDescriptor,Name</token>
+</entry>
+<entry count="1">
+<token>Nest.GenericMappingDescriptor,Type</token>
+<token>Nest.GenericMappingDescriptor,Index</token>
+<token>Nest.SingleMappingDescriptor,Generic</token>
+<token>Nest.DynamicTemplateDescriptor,Mapping</token>
+</entry>
+<entry count="1">
+<token>Nest.MappingTransformDescriptor,Language</token>
+<token>Nest.PutMappingDescriptor,Transform</token>
+<token>Nest.PutMappingDescriptor,IncludeInAll</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+</entry>
+<entry count="7">
+<token>Nest.StringMappingDescriptor,Fields</token>
+<token>Nest.PropertiesDescriptor,String</token>
+</entry>
+<entry count="7">
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.CorePropertiesDescriptor,String</token>
+<token>Nest.StringMappingDescriptor,Fields</token>
+<token>Nest.PropertiesDescriptor,String</token>
+</entry>
+<entry count="2">
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+</entry>
+<entry count="106496">
+<token>Nest.AggregationsHelper,Min</token>
+<token>Nest.AggregationsHelper,Max</token>
+<token>Nest.AggregationsHelper,DateHistogram</token>
+</entry>
+<entry count="5">
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.DateMappingDescriptor,Name</token>
+<token>Nest.DateMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Date</token>
+</entry>
+<entry count="2">
+<token>Nest.NumberMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Number</token>
+<token>Nest.BooleanMappingDescriptor,Name</token>
+<token>Nest.BooleanMappingDescriptor,IndexName</token>
+</entry>
+<entry count="3">
+<token>Nest.PutMappingDescriptor,TimestampField</token>
+<token>Nest.DateMappingDescriptor,Name</token>
+<token>Nest.DateMappingDescriptor,IndexName</token>
+</entry>
+<entry count="4">
+<token>Nest.Filter,Term</token>
+<token>Nest.Filter,Term</token>
+<token>Nest.Filter,Term</token>
+</entry>
+<entry count="4">
+<token>Nest.SearchDescriptor,AllTypes</token>
+<token>Nest.QueryDescriptor,Ids</token>
+<token>Nest.SearchDescriptor,Query</token>
+<token>Nest.ElasticClient,Search</token>
+</entry>
+<entry count="2">
+<token>Nest.RangeFilterDescriptor,OnField</token>
+<token>Nest.RangeFilterDescriptor,GreaterOrEquals</token>
+</entry>
+<entry count="7">
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.StringMappingDescriptor,IndexAnalyzer</token>
+<token>Nest.StringMappingDescriptor,SearchAnalyzer</token>
+<token>Nest.StringMappingDescriptor,IncludeInAll</token>
+</entry>
+<entry count="5">
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.ObjectMappingDescriptor,Properties</token>
+<token>Nest.PropertiesDescriptor,Object</token>
+<token>Nest.ObjectMappingDescriptor,Name</token>
+<token>Nest.ObjectMappingDescriptor,Path</token>
+</entry>
+<entry count="5">
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.StringMappingDescriptor,IncludeInAll</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+</entry>
+<entry count="2">
+<token>Nest.TimestampFieldMappingDescriptor,IgnoreMissing</token>
+<token>Nest.PutMappingDescriptor,TimestampField</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+</entry>
+<entry count="1">
+<token>Nest.DynamicTemplateDescriptor,Mapping</token>
+<token>Nest.DynamicTemplatesDescriptor,Add</token>
+<token>Nest.PutMappingDescriptor,DynamicTemplates</token>
+</entry>
+<entry count="8">
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.StringMappingDescriptor,IndexAnalyzer</token>
+</entry>
+<entry count="1">
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.ObjectMappingDescriptor,Name</token>
+<token>Nest.ObjectMappingDescriptor,Path</token>
+</entry>
+<entry count="3">
+<token>Nest.DateMappingDescriptor,Name</token>
+<token>Nest.DateMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Date</token>
+<token>Nest.NumberMappingDescriptor,Name</token>
+<token>Nest.NumberMappingDescriptor,IndexName</token>
+</entry>
+<entry count="1">
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.StringMappingDescriptor,Analyzer</token>
+</entry>
+<entry count="1">
+<token>Nest.Filter,Term</token>
+<token>Nest.Filter,Missing</token>
+<token>Nest.Filter,Term</token>
+</entry>
+<entry count="8">
+<token>Nest.DateMappingDescriptor,Name</token>
+<token>Nest.DateMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Date</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+</entry>
+<entry count="1">
+<token>Nest.PutMappingDescriptor,Transform</token>
+<token>Nest.AllFieldMappingDescriptor,IndexAnalyzer</token>
+<token>Nest.AllFieldMappingDescriptor,SearchAnalyzer</token>
+<token>Nest.PutMappingDescriptor,AllField</token>
+</entry>
+<entry count="1">
+<token>Nest.PropertiesDescriptor,Object</token>
+<token>Nest.ObjectMappingDescriptor,Name</token>
+<token>Nest.ObjectMappingDescriptor,Dynamic</token>
+<token>Nest.PropertiesDescriptor,Object</token>
+<token>Nest.ObjectMappingDescriptor,Name</token>
+</entry>
+<entry count="1">
+<token>Nest.AllFieldMappingDescriptor,SearchAnalyzer</token>
+<token>Nest.PutMappingDescriptor,AllField</token>
+</entry>
+<entry count="32768">
+<token>Nest.AggregationsHelper,Terms</token>
+<token>Nest.AggregationsHelper,Average</token>
+</entry>
+<entry count="2">
+<token>Nest.PropertiesDescriptor,Object</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+</entry>
+<entry count="1">
+<token>Nest.StringMappingDescriptor,Analyzer</token>
+<token>Nest.StringMappingDescriptor,IncludeInAll</token>
+</entry>
+<entry count="3">
+<token>Nest.RangeFilterDescriptor,OnField</token>
+<token>Nest.RangeFilterDescriptor,LowerOrEquals</token>
+</entry>
+<entry count="10">
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.ObjectMappingDescriptor,Properties</token>
+</entry>
+<entry count="5">
+<token>Nest.PropertiesDescriptor,Boolean</token>
+<token>Nest.BooleanMappingDescriptor,Name</token>
+<token>Nest.BooleanMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Boolean</token>
+</entry>
+<entry count="2">
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.StringMappingDescriptor,IncludeInAll</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.DateMappingDescriptor,Name</token>
+</entry>
+<entry count="1">
+<token>Nest.BooleanMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Boolean</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+</entry>
+<entry count="73728">
+<token>Nest.AggregationsHelper,Terms</token>
+<token>Nest.AggregationsHelper,Cardinality</token>
+<token>Nest.AggregationsHelper,Min</token>
+<token>Nest.AggregationsHelper,Max</token>
+<token>Nest.AggregationsHelper,Terms</token>
+</entry>
+<entry count="1">
+<token>Nest.ObjectMappingDescriptor,Dynamic</token>
+<token>Nest.PropertiesDescriptor,Object</token>
+<token>Nest.ObjectMappingDescriptor,Name</token>
+<token>Nest.ObjectMappingDescriptor,Path</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+</entry>
+<entry count="1">
+<token>Nest.PropertiesDescriptor,Boolean</token>
+<token>Nest.ObjectMappingDescriptor,Properties</token>
+<token>Nest.PropertiesDescriptor,Object</token>
+<token>Nest.ObjectMappingDescriptor,Properties</token>
+</entry>
+<entry count="73728">
+<token>Nest.AggregationsHelper,Cardinality</token>
+<token>Nest.AggregationsHelper,Min</token>
+<token>Nest.AggregationsHelper,Max</token>
+<token>Nest.AggregationsHelper,Terms</token>
+<token>Nest.AggregationsHelper,Terms</token>
+</entry>
+<entry count="2">
+<token>Nest.StringMappingDescriptor,Boost</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.CorePropertiesDescriptor,String</token>
+</entry>
+<entry count="1">
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.StringMappingDescriptor,Analyzer</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+</entry>
+<entry count="2">
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.StringMappingDescriptor,IncludeInAll</token>
+<token>Nest.StringMappingDescriptor,Analyzer</token>
+</entry>
+<entry count="3">
+<token>Nest.TimestampFieldMappingDescriptor,Path</token>
+<token>Nest.TimestampFieldMappingDescriptor,IgnoreMissing</token>
+<token>Nest.PutMappingDescriptor,TimestampField</token>
+<token>Nest.DateMappingDescriptor,Name</token>
+<token>Nest.DateMappingDescriptor,IndexName</token>
+</entry>
+<entry count="8">
+<token>Nest.DateMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Date</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+</entry>
+<entry count="3">
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.ObjectMappingDescriptor,Properties</token>
+<token>Nest.PropertiesDescriptor,Object</token>
+<token>Nest.ObjectMappingDescriptor,Properties</token>
+<token>Nest.PropertiesDescriptor,Object</token>
+</entry>
+<entry count="16384">
+<token>Nest.AggregationsHelper,Cardinality</token>
+<token>Nest.AggregationsHelper,DateHistogram</token>
+<token>Nest.AggregationsHelper,Cardinality</token>
+<token>Nest.AggregationsHelper,Terms</token>
+<token>Nest.AggregationsHelper,Min</token>
+</entry>
+<entry count="2">
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+</entry>
+<entry count="1">
+<token>Nest.MappingTransformDescriptor,Script</token>
+<token>Nest.MappingTransformDescriptor,Language</token>
+<token>Nest.PutMappingDescriptor,Transform</token>
+<token>Nest.PutMappingDescriptor,IncludeInAll</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+</entry>
+<entry count="1">
+<token>Nest.IndicesTypePathDescriptor,Index</token>
+<token>Nest.PutMappingDescriptor,Dynamic</token>
+<token>Nest.DateMappingDescriptor,Name</token>
+<token>Nest.DateMappingDescriptor,IndexName</token>
+</entry>
+<entry count="229376">
+<token>Nest.AggregationsHelper,Cardinality</token>
+<token>Nest.AggregationsHelper,Min</token>
+<token>Nest.AggregationsHelper,Max</token>
+</entry>
+<entry count="16384">
+<token>Nest.AggregationsHelper,Cardinality</token>
+<token>Nest.AggregationsHelper,DateHistogram</token>
+<token>Nest.AggregationsHelper,Average</token>
+<token>Nest.AggregationsHelper,Cardinality</token>
+<token>Nest.AggregationsHelper,Min</token>
+</entry>
+<entry count="1">
+<token>Nest.ObjectMappingDescriptor,Path</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+</entry>
+<entry count="2">
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.NumberMappingDescriptor,Name</token>
+<token>Nest.NumberMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Number</token>
+</entry>
+<entry count="8">
+<token>Nest.ObjectMappingDescriptor,Properties</token>
+<token>Nest.PropertiesDescriptor,Object</token>
+<token>Nest.ObjectMappingDescriptor,Name</token>
+</entry>
+<entry count="1">
+<token>Nest.ObjectMappingDescriptor,Dynamic</token>
+<token>Nest.PropertiesDescriptor,Object</token>
+<token>Nest.ObjectMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+</entry>
+<entry count="106496">
+<token>Nest.AggregationsHelper,Max</token>
+<token>Nest.AggregationsHelper,Terms</token>
+</entry>
+<entry count="1">
+<token>Nest.PropertiesDescriptor,Object</token>
+<token>Nest.ObjectMappingDescriptor,Properties</token>
+<token>Nest.PropertiesDescriptor,Object</token>
+<token>Nest.ObjectMappingDescriptor,Name</token>
+<token>Nest.ObjectMappingDescriptor,Path</token>
+</entry>
+<entry count="1">
+<token>Nest.NumberMappingDescriptor,Name</token>
+<token>Nest.NumberMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Number</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+</entry>
+<entry count="13">
+<token>Nest.NumberMappingDescriptor,Name</token>
+<token>Nest.NumberMappingDescriptor,IndexName</token>
+</entry>
+<entry count="19">
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.PropertiesDescriptor,String</token>
+</entry>
+<entry count="1">
+<token>Nest.PropertiesDescriptor,Boolean</token>
+<token>Nest.NumberMappingDescriptor,Name</token>
+<token>Nest.NumberMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Number</token>
+</entry>
+<entry count="5">
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+</entry>
+<entry count="2">
+<token>Nest.RangeFilterDescriptor,GreaterOrEquals</token>
+<token>Nest.Filter,Range</token>
+<token>Nest.RangeFilterDescriptor,OnField</token>
+</entry>
+<entry count="5">
+<token>Nest.CreateIndexDescriptor,AddMapping</token>
+<token>Nest.CreateIndexDescriptor,AddMapping</token>
+</entry>
+<entry count="1">
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.ObjectMappingDescriptor,Properties</token>
+</entry>
+<entry count="3">
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.StringMappingDescriptor,IncludeInAll</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.ObjectMappingDescriptor,Name</token>
+<token>Nest.ObjectMappingDescriptor,Path</token>
+</entry>
+<entry count="2">
+<token>Nest.ObjectMappingDescriptor,Name</token>
+<token>Nest.ObjectMappingDescriptor,Dynamic</token>
+<token>Nest.PropertiesDescriptor,Object</token>
+<token>Nest.ObjectMappingDescriptor,Name</token>
+<token>Nest.ObjectMappingDescriptor,Dynamic</token>
+</entry>
+<entry count="1">
+<token>Nest.SearchDescriptor,AllTypes</token>
+<token>Nest.QueryDescriptor,Ids</token>
+<token>Nest.SearchDescriptor,Query</token>
+<token>Nest.ElasticClient,Search</token>
+<token>Nest.ElasticClient,DeleteById</token>
+</entry>
+<entry count="1">
+<token>Nest.CreateIndexDescriptor,Analysis</token>
+<token>Nest.CreateIndexDescriptor,AddMapping</token>
+<token>Nest.CreateIndexDescriptor,AddMapping</token>
+<token>Nest.CreateIndexDescriptor,AddMapping</token>
+</entry>
+<entry count="1">
+<token>Nest.DynamicTemplateDescriptor,Mapping</token>
+<token>Nest.DynamicTemplatesDescriptor,Add</token>
+<token>Nest.PutMappingDescriptor,DynamicTemplates</token>
+<token>Nest.PutMappingDescriptor,IncludeInAll</token>
+<token>Nest.PutMappingDescriptor,DisableSizeField</token>
+</entry>
+<entry count="1">
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.StringMappingDescriptor,Analyzer</token>
+<token>Nest.StringMappingDescriptor,IncludeInAll</token>
+<token>Nest.StringMappingDescriptor,Boost</token>
+</entry>
+<entry count="1">
+<token>Nest.PropertiesDescriptor,GeoPoint</token>
+<token>Nest.NumberMappingDescriptor,Name</token>
+<token>Nest.NumberMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Number</token>
+<token>Nest.BooleanMappingDescriptor,Name</token>
+</entry>
+<entry count="1">
+<token>Nest.BooleanMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Boolean</token>
+<token>Nest.NumberMappingDescriptor,Name</token>
+<token>Nest.NumberMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Number</token>
+</entry>
+<entry count="1">
+<token>Nest.BooleanMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Boolean</token>
+<token>Nest.NumberMappingDescriptor,Name</token>
+<token>Nest.NumberMappingDescriptor,IndexName</token>
+</entry>
+<entry count="1">
+<token>Nest.IElasticClient,GetIndex</token>
+<token>Nest.GetAliasDescriptor,Alias</token>
+</entry>
+<entry count="229376">
+<token>Nest.AggregationsHelper,Cardinality</token>
+<token>Nest.AggregationsHelper,Min</token>
+</entry>
+<entry count="4">
+<token>Nest.TermsQueryDescriptor,MinimumMatch</token>
+<token>Nest.QueryDescriptor,TermsDescriptor</token>
+</entry>
+<entry count="106496">
+<token>Nest.AggregationsHelper,Cardinality</token>
+<token>Nest.AggregationsHelper,Min</token>
+<token>Nest.AggregationsHelper,Max</token>
+<token>Nest.AggregationsHelper,Terms</token>
+</entry>
+<entry count="8">
+<token>Nest.PropertiesDescriptor,Date</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+</entry>
+<entry count="2">
+<token>Nest.RangeFilterDescriptor,LowerOrEquals</token>
+<token>Nest.Filter,Range</token>
+</entry>
+<entry count="6">
+<token>Nest.PropertiesDescriptor,Number</token>
+<token>Nest.NumberMappingDescriptor,Name</token>
+</entry>
+<entry count="1">
+<token>Nest.ObjectMappingDescriptor,Dynamic</token>
+<token>Nest.PropertiesDescriptor,Object</token>
+<token>Nest.ObjectMappingDescriptor,Name</token>
+<token>Nest.ObjectMappingDescriptor,Path</token>
+</entry>
+<entry count="2">
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.BooleanMappingDescriptor,Name</token>
+</entry>
+<entry count="1">
+<token>Nest.FluentDictionary,Add</token>
+<token>Nest.AnalysisDescriptor,Analyzers</token>
+<token>Nest.CreateIndexDescriptor,Analysis</token>
+<token>Nest.CreateIndexDescriptor,AddMapping</token>
+<token>Nest.CreateIndexDescriptor,AddMapping</token>
+</entry>
+<entry count="9">
+<token>Nest.Filter,Term</token>
+<token>Nest.Filter,Term</token>
+</entry>
+<entry count="7">
+<token>Nest.CorePropertiesDescriptor,String</token>
+<token>Nest.StringMappingDescriptor,Fields</token>
+</entry>
+<entry count="3">
+<token>Nest.FilterContainer,new</token>
+<token>Nest.Filter,Term</token>
+</entry>
+<entry count="1">
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.StringMappingDescriptor,Analyzer</token>
+</entry>
+<entry count="1">
+<token>Nest.PutMappingDescriptor,AllField</token>
+<token>Nest.DateMappingDescriptor,Name</token>
+<token>Nest.DateMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Date</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+</entry>
+<entry count="2">
+<token>Nest.PropertiesDescriptor,Object</token>
+<token>Nest.ObjectMappingDescriptor,Properties</token>
+<token>Nest.PropertiesDescriptor,Object</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+</entry>
+<entry count="1">
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+</entry>
+<entry count="2">
+<token>Nest.RangeFilterDescriptor,OnField</token>
+<token>Nest.RangeFilterDescriptor,LowerOrEquals</token>
+<token>Nest.Filter,Range</token>
+</entry>
+<entry count="4">
+<token>Nest.TermsQueryDescriptor,OnField</token>
+<token>Nest.TermsQueryDescriptor,Terms</token>
+</entry>
+<entry count="4">
+<token>Nest.TermsQueryDescriptor,Terms</token>
+<token>Nest.TermsQueryDescriptor,MinimumMatch</token>
+<token>Nest.QueryDescriptor,TermsDescriptor</token>
+<token>Nest.SearchDescriptor,Query</token>
+</entry>
+<entry count="2">
+<token>Nest.MappingTransformDescriptor,Script</token>
+<token>Nest.MappingTransformDescriptor,Language</token>
+<token>Nest.PutMappingDescriptor,Transform</token>
+</entry>
+<entry count="1">
+<token>Nest.NumberMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Number</token>
+<token>Nest.ObjectMappingDescriptor,Name</token>
+<token>Nest.ObjectMappingDescriptor,Dynamic</token>
+</entry>
+<entry count="81920">
+<token>Nest.AggregationsHelper,Average</token>
+<token>Nest.AggregationsHelper,Cardinality</token>
+<token>Nest.AggregationsHelper,Min</token>
+</entry>
+<entry count="33">
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.PropertiesDescriptor,String</token>
+</entry>
+<entry count="5">
+<token>Nest.IndicesTypePathDescriptor,Index</token>
+<token>Nest.PutMappingDescriptor,Dynamic</token>
+<token>Nest.TimestampFieldMappingDescriptor,Enabled</token>
+<token>Nest.TimestampFieldMappingDescriptor,Path</token>
+<token>Nest.TimestampFieldMappingDescriptor,IgnoreMissing</token>
+</entry>
+<entry count="15">
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+</entry>
+<entry count="3">
+<token>Nest.DateMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Date</token>
+<token>Nest.NumberMappingDescriptor,Name</token>
+</entry>
+<entry count="1">
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+</entry>
+<entry count="1">
+<token>Nest.PropertiesDescriptor,Date</token>
+<token>Nest.BooleanMappingDescriptor,Name</token>
+<token>Nest.PropertiesDescriptor,Boolean</token>
+<token>Nest.BooleanMappingDescriptor,Name</token>
+</entry>
+<entry count="7">
+<token>Nest.StringMappingDescriptor,Fields</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+</entry>
+<entry count="4096">
+<token>Nest.AggregationsHelper,Average</token>
+<token>Nest.AggregationsHelper,Cardinality</token>
+<token>Nest.AggregationsHelper,DateHistogram</token>
+<token>Nest.AggregationsHelper,Min</token>
+</entry>
+<entry count="1">
+<token>Nest.CreateIndexDescriptor,Analysis</token>
+<token>Nest.CreateIndexDescriptor,AddMapping</token>
+<token>Nest.CreateIndexDescriptor,AddMapping</token>
+<token>Nest.CreateIndexDescriptor,AddMapping</token>
+<token>Nest.CreateIndexDescriptor,AddMapping</token>
+</entry>
+<entry count="1">
+<token>Nest.PutMappingDescriptor,Dynamic</token>
+<token>Nest.DateMappingDescriptor,Name</token>
+<token>Nest.DateMappingDescriptor,IndexName</token>
+</entry>
+<entry count="3">
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,String</token>
+</entry>
+<entry count="2">
+<token>Nest.StringMappingDescriptor,Analyzer</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+</entry>
+<entry count="4">
+<token>Nest.BooleanMappingDescriptor,Name</token>
+<token>Nest.BooleanMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Boolean</token>
+<token>Nest.BooleanMappingDescriptor,Name</token>
+</entry>
+<entry count="6">
+<token>Nest.NumberMappingDescriptor,Name</token>
+<token>Nest.NumberMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Number</token>
+<token>Nest.NumberMappingDescriptor,Name</token>
+</entry>
+<entry count="73728">
+<token>Nest.AggregationsHelper,Terms</token>
+<token>Nest.AggregationsHelper,Terms</token>
+<token>Nest.AggregationsHelper,Cardinality</token>
+</entry>
+<entry count="1">
+<token>Nest.PropertiesDescriptor,Number</token>
+<token>Nest.BooleanMappingDescriptor,Name</token>
+<token>Nest.BooleanMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Boolean</token>
+<token>Nest.BooleanMappingDescriptor,Name</token>
+</entry>
+<entry count="1">
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.ObjectMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+</entry>
+<entry count="2">
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.BooleanMappingDescriptor,Name</token>
+<token>Nest.BooleanMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Boolean</token>
+</entry>
+<entry count="32768">
+<token>Nest.AggregationsHelper,Terms</token>
+<token>Nest.AggregationsHelper,Average</token>
+<token>Nest.AggregationsHelper,Cardinality</token>
+<token>Nest.AggregationsHelper,Min</token>
+</entry>
+<entry count="1">
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,String</token>
+</entry>
+<entry count="1">
+<token>Nest.FluentDictionary,Add</token>
+<token>Nest.AnalysisDescriptor,Analyzers</token>
+</entry>
+<entry count="1">
+<token>Nest.GetAliasDescriptor,Alias</token>
+<token>Nest.IElasticClient,GetAlias</token>
+</entry>
+<entry count="4">
+<token>Nest.PropertiesDescriptor,Object</token>
+<token>Nest.ObjectMappingDescriptor,Properties</token>
+<token>Nest.PropertiesDescriptor,Object</token>
+</entry>
+<entry count="1">
+<token>Nest.GenericMappingDescriptor,Index</token>
+<token>Nest.SingleMappingDescriptor,Generic</token>
+<token>Nest.DynamicTemplateDescriptor,Mapping</token>
+<token>Nest.DynamicTemplatesDescriptor,Add</token>
+</entry>
+<entry count="2">
+<token>Nest.NumberMappingDescriptor,Name</token>
+<token>Nest.NumberMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Number</token>
+<token>Nest.BooleanMappingDescriptor,Name</token>
+<token>Nest.BooleanMappingDescriptor,IndexName</token>
+</entry>
+<entry count="1">
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.StringMappingDescriptor,IndexAnalyzer</token>
+<token>Nest.StringMappingDescriptor,SearchAnalyzer</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+</entry>
+<entry count="17">
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.StringMappingDescriptor,IncludeInAll</token>
+</entry>
+<entry count="1">
+<token>Nest.PutMappingDescriptor,Transform</token>
+<token>Nest.AllFieldMappingDescriptor,IndexAnalyzer</token>
+<token>Nest.AllFieldMappingDescriptor,SearchAnalyzer</token>
+<token>Nest.PutMappingDescriptor,AllField</token>
+<token>Nest.DateMappingDescriptor,Name</token>
+</entry>
+<entry count="11">
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.StringMappingDescriptor,IncludeInAll</token>
+<token>Nest.PropertiesDescriptor,String</token>
+</entry>
+<entry count="1">
+<token>Nest.Filter,Term</token>
+<token>Nest.Filter,Term</token>
+<token>Nest.Filter,Term</token>
+<token>Nest.Filter,Term</token>
+<token>Nest.Filter,And</token>
+</entry>
+<entry count="5">
+<token>Nest.StringMappingDescriptor,Boost</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.ObjectMappingDescriptor,Properties</token>
+</entry>
+<entry count="8">
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.StringMappingDescriptor,IndexAnalyzer</token>
+</entry>
+<entry count="3">
+<token>Nest.DateMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Date</token>
+<token>Nest.NumberMappingDescriptor,Name</token>
+<token>Nest.NumberMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Number</token>
+</entry>
+<entry count="2">
+<token>Nest.ObjectMappingDescriptor,Path</token>
+<token>Nest.ObjectMappingDescriptor,Name</token>
+<token>Nest.ObjectMappingDescriptor,Path</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+</entry>
+<entry count="5">
+<token>Nest.TimestampFieldMappingDescriptor,IgnoreMissing</token>
+<token>Nest.PutMappingDescriptor,TimestampField</token>
+</entry>
+<entry count="1">
+<token>Nest.ObjectMappingDescriptor,Dynamic</token>
+<token>Nest.PropertiesDescriptor,Object</token>
+<token>Nest.ObjectMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+</entry>
+<entry count="1">
+<token>Nest.ConnectionSettings,SetDefaultTypeNameInferrer</token>
+<token>Nest.ConnectionSettings,SetDefaultPropertyNameInferrer</token>
+<token>Nest.ConnectionSettings,SetJsonSerializerSettingsModifier</token>
+</entry>
+<entry count="2">
+<token>Nest.PutMappingDescriptor,TimestampField</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.PropertiesDescriptor,String</token>
+</entry>
+<entry count="11">
+<token>Nest.ObjectMappingDescriptor,Name</token>
+<token>Nest.ObjectMappingDescriptor,Path</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+</entry>
+<entry count="1">
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+</entry>
+<entry count="6">
+<token>Nest.ObjectMappingDescriptor,Properties</token>
+<token>Nest.PropertiesDescriptor,Object</token>
+<token>Nest.ObjectMappingDescriptor,Name</token>
+<token>Nest.ObjectMappingDescriptor,Path</token>
+</entry>
+<entry count="1">
+<token>Nest.Filter,Term</token>
+<token>Nest.Filter,Missing</token>
+<token>Nest.RangeFilterDescriptor,OnField</token>
+</entry>
+<entry count="4">
+<token>Nest.SearchDescriptor,Index</token>
+<token>Nest.SearchDescriptor,AllTypes</token>
+<token>Nest.TermsQueryDescriptor,OnField</token>
+<token>Nest.TermsQueryDescriptor,Terms</token>
+</entry>
+<entry count="2">
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.ObjectMappingDescriptor,Name</token>
+<token>Nest.ObjectMappingDescriptor,Path</token>
+<token>Nest.ObjectMappingDescriptor,Name</token>
+<token>Nest.ObjectMappingDescriptor,Path</token>
+</entry>
+<entry count="2">
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.DateMappingDescriptor,Name</token>
+</entry>
+<entry count="2">
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.NumberMappingDescriptor,Name</token>
+<token>Nest.NumberMappingDescriptor,IndexName</token>
+</entry>
+<entry count="1">
+<token>Nest.PropertiesDescriptor,Object</token>
+<token>Nest.ObjectMappingDescriptor,Properties</token>
+<token>Nest.PropertiesDescriptor,Object</token>
+<token>Nest.ObjectMappingDescriptor,Name</token>
+</entry>
+<entry count="73728">
+<token>Nest.AggregationsHelper,Min</token>
+<token>Nest.AggregationsHelper,Max</token>
+<token>Nest.AggregationsHelper,Terms</token>
+<token>Nest.AggregationsHelper,Terms</token>
+<token>Nest.AggregationsHelper,Cardinality</token>
+</entry>
+<entry count="4">
+<token>Nest.StringMappingDescriptor,IncludeInAll</token>
+<token>Nest.StringMappingDescriptor,Boost</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+</entry>
+<entry count="8">
+<token>Nest.PropertiesDescriptor,Date</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+</entry>
+<entry count="2">
+<token>Nest.ObjectMappingDescriptor,Path</token>
+<token>Nest.ObjectMappingDescriptor,Name</token>
+</entry>
+<entry count="1">
+<token>Nest.AnalysisDescriptor,Analyzers</token>
+<token>Nest.CreateIndexDescriptor,Analysis</token>
+</entry>
+<entry count="11">
+<token>Nest.ObjectMappingDescriptor,Name</token>
+<token>Nest.ObjectMappingDescriptor,Path</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+</entry>
+<entry count="2">
+<token>Nest.ObjectMappingDescriptor,Properties</token>
+<token>Nest.PropertiesDescriptor,Object</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+</entry>
+<entry count="1">
+<token>Nest.PropertiesDescriptor,Number</token>
+<token>Nest.ObjectMappingDescriptor,Properties</token>
+<token>Nest.PropertiesDescriptor,Object</token>
+<token>Nest.ObjectMappingDescriptor,Name</token>
+<token>Nest.DateMappingDescriptor,Name</token>
+</entry>
+<entry count="7">
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.CorePropertiesDescriptor,String</token>
+</entry>
+<entry count="1">
+<token>Nest.DynamicTemplateDescriptor,Match</token>
+<token>Nest.GenericMappingDescriptor,Type</token>
+</entry>
+<entry count="1">
+<token>Nest.PutMappingDescriptor,IncludeInAll</token>
+<token>Nest.PutMappingDescriptor,DisableSizeField</token>
+<token>Nest.MappingTransformDescriptor,Script</token>
+</entry>
+<entry count="1">
+<token>Nest.ObjectMappingDescriptor,Properties</token>
+<token>Nest.PropertiesDescriptor,Object</token>
+<token>Nest.PutMappingDescriptor,Properties</token>
+<token>Nest.PutTemplateDescriptor,AddMapping</token>
+</entry>
+<entry count="3">
+<token>Nest.DateMappingDescriptor,Name</token>
+<token>Nest.DateMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Date</token>
+<token>Nest.NumberMappingDescriptor,Name</token>
+</entry>
+<entry count="73">
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+</entry>
+<entry count="1">
+<token>Nest.MappingTransformDescriptor,Language</token>
+<token>Nest.PutMappingDescriptor,Transform</token>
+<token>Nest.AllFieldMappingDescriptor,IndexAnalyzer</token>
+</entry>
+<entry count="1">
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.ObjectMappingDescriptor,Name</token>
+</entry>
+<entry count="1">
+<token>Nest.BooleanMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Boolean</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+</entry>
+<entry count="1">
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.ObjectMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.PropertiesDescriptor,String</token>
+</entry>
+<entry count="1">
+<token>Nest.PutMappingDescriptor,Dynamic</token>
+<token>Nest.MappingTransformDescriptor,Script</token>
+<token>Nest.MappingTransformDescriptor,Language</token>
+<token>Nest.PutMappingDescriptor,Transform</token>
+</entry>
+<entry count="1">
+<token>Nest.PropertiesDescriptor,Boolean</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+</entry>
+<entry count="1">
+<token>Nest.PutMappingDescriptor,IncludeInAll</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+</entry>
+<entry count="1">
+<token>Nest.AllFieldMappingDescriptor,IndexAnalyzer</token>
+<token>Nest.AllFieldMappingDescriptor,SearchAnalyzer</token>
+</entry>
+<entry count="2">
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.ObjectMappingDescriptor,Name</token>
+</entry>
+<entry count="5">
+<token>Nest.IndicesTypePathDescriptor,Index</token>
+<token>Nest.PutMappingDescriptor,Dynamic</token>
+<token>Nest.TimestampFieldMappingDescriptor,Enabled</token>
+</entry>
+<entry count="4">
+<token>Nest.QueryDescriptor,TermsDescriptor</token>
+<token>Nest.SearchDescriptor,Query</token>
+<token>Nest.ElasticClient,Search</token>
+</entry>
+<entry count="5">
+<token>Nest.ObjectMappingDescriptor,Name</token>
+<token>Nest.ObjectMappingDescriptor,Dynamic</token>
+<token>Nest.PropertiesDescriptor,Object</token>
+</entry>
+<entry count="4">
+<token>Nest.SearchDescriptor,AllTypes</token>
+<token>Nest.TermsQueryDescriptor,OnField</token>
+<token>Nest.TermsQueryDescriptor,Terms</token>
+<token>Nest.TermsQueryDescriptor,MinimumMatch</token>
+<token>Nest.QueryDescriptor,TermsDescriptor</token>
+</entry>
+<entry count="1">
+<token>Nest.BooleanMappingDescriptor,Name</token>
+<token>Nest.BooleanMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Boolean</token>
+<token>Nest.ObjectMappingDescriptor,Name</token>
+<token>Nest.ObjectMappingDescriptor,Dynamic</token>
+</entry>
+<entry count="1">
+<token>Nest.PropertiesDescriptor,Boolean</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.PropertiesDescriptor,String</token>
+</entry>
+<entry count="12">
+<token>Nest.StringMappingDescriptor,IncludeInAll</token>
+<token>Nest.StringMappingDescriptor,Boost</token>
+</entry>
+<entry count="6">
+<token>Nest.NumberMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Number</token>
+<token>Nest.NumberMappingDescriptor,Name</token>
+<token>Nest.NumberMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Number</token>
+</entry>
+<entry count="1">
+<token>Nest.PutMappingDescriptor,Properties</token>
+<token>Nest.CreateIndexDescriptor,AddMapping</token>
+</entry>
+<entry count="61">
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.PropertiesDescriptor,String</token>
+</entry>
+<entry count="2">
+<token>Nest.ObjectMappingDescriptor,Properties</token>
+<token>Nest.PropertiesDescriptor,Object</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+</entry>
+<entry count="4">
+<token>Nest.TermsQueryDescriptor,OnField</token>
+<token>Nest.TermsQueryDescriptor,Terms</token>
+<token>Nest.TermsQueryDescriptor,MinimumMatch</token>
+</entry>
+<entry count="9">
+<token>Nest.BooleanMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Boolean</token>
+</entry>
+<entry count="3">
+<token>Nest.PutMappingDescriptor,TimestampField</token>
+<token>Nest.DateMappingDescriptor,Name</token>
+<token>Nest.DateMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Date</token>
+</entry>
+<entry count="1">
+<token>Nest.ObjectMappingDescriptor,Path</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.StringMappingDescriptor,Analyzer</token>
+</entry>
+<entry count="13">
+<token>Nest.ObjectMappingDescriptor,Name</token>
+<token>Nest.ObjectMappingDescriptor,Path</token>
+</entry>
+<entry count="1">
+<token>Nest.BooleanMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Boolean</token>
+<token>Nest.ObjectMappingDescriptor,Name</token>
+</entry>
+<entry count="2">
+<token>Nest.RefreshDescriptor,Force</token>
+<token>Nest.IElasticClient,Refresh</token>
+</entry>
+<entry count="1">
+<token>Nest.ObjectMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+</entry>
+<entry count="2">
+<token>Nest.StringMappingDescriptor,IncludeInAll</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.DateMappingDescriptor,Name</token>
+</entry>
+<entry count="2">
+<token>Nest.StringMappingDescriptor,IncludeInAll</token>
+<token>Nest.StringMappingDescriptor,Analyzer</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+</entry>
+<entry count="1">
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.StringMappingDescriptor,IncludeInAll</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.ObjectMappingDescriptor,Properties</token>
+</entry>
+<entry count="3">
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.DateMappingDescriptor,Name</token>
+</entry>
+<entry count="3">
+<token>Nest.PropertiesDescriptor,Date</token>
+<token>Nest.NumberMappingDescriptor,Name</token>
+</entry>
+<entry count="1">
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.ObjectMappingDescriptor,Properties</token>
+</entry>
+<entry count="1">
+<token>Nest.PutMappingDescriptor,Transform</token>
+<token>Nest.PutMappingDescriptor,IncludeInAll</token>
+</entry>
+<entry count="3">
+<token>Nest.StringMappingDescriptor,Boost</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.ObjectMappingDescriptor,Properties</token>
+<token>Nest.PropertiesDescriptor,Object</token>
+<token>Nest.ObjectMappingDescriptor,Name</token>
+</entry>
+<entry count="1">
+<token>Nest.PropertiesDescriptor,Boolean</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+</entry>
+<entry count="17">
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.StringMappingDescriptor,IncludeInAll</token>
+</entry>
+<entry count="2">
+<token>Nest.PropertiesDescriptor,Number</token>
+<token>Nest.ObjectMappingDescriptor,Properties</token>
+<token>Nest.PropertiesDescriptor,Object</token>
+</entry>
+<entry count="1">
+<token>Nest.StringMappingDescriptor,Analyzer</token>
+<token>Nest.StringMappingDescriptor,IncludeInAll</token>
+<token>Nest.StringMappingDescriptor,Boost</token>
+<token>Nest.PropertiesDescriptor,String</token>
+</entry>
+<entry count="5">
+<token>Nest.DateMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Date</token>
+<token>Nest.DateMappingDescriptor,Name</token>
+</entry>
+<entry count="1">
+<token>Nest.ObjectMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+</entry>
+<entry count="2">
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.ObjectMappingDescriptor,Properties</token>
+<token>Nest.PropertiesDescriptor,Object</token>
+</entry>
+<entry count="2">
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+</entry>
+<entry count="1">
+<token>Nest.CustomAnalyzer,new</token>
+<token>Nest.FluentDictionary,Add</token>
+</entry>
+<entry count="1">
+<token>Nest.AllFieldMappingDescriptor,SearchAnalyzer</token>
+<token>Nest.PutMappingDescriptor,AllField</token>
+<token>Nest.DateMappingDescriptor,Name</token>
+<token>Nest.DateMappingDescriptor,IndexName</token>
+</entry>
+<entry count="1">
+<token>Nest.MappingTransformDescriptor,Language</token>
+<token>Nest.PutMappingDescriptor,Transform</token>
+<token>Nest.AllFieldMappingDescriptor,IndexAnalyzer</token>
+<token>Nest.AllFieldMappingDescriptor,SearchAnalyzer</token>
+<token>Nest.PutMappingDescriptor,AllField</token>
+</entry>
+<entry count="8">
+<token>Nest.DateMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Date</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+</entry>
+<entry count="1">
+<token>Nest.BooleanMappingDescriptor,Name</token>
+<token>Nest.BooleanMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Boolean</token>
+<token>Nest.NumberMappingDescriptor,Name</token>
+</entry>
+<entry count="2">
+<token>Nest.RangeFilterDescriptor,OnField</token>
+<token>Nest.RangeFilterDescriptor,GreaterOrEquals</token>
+<token>Nest.Filter,Range</token>
+<token>Nest.RangeFilterDescriptor,OnField</token>
+</entry>
+<entry count="68">
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+</entry>
+<entry count="2">
+<token>Nest.StringMappingDescriptor,IncludeInAll</token>
+<token>Nest.StringMappingDescriptor,Analyzer</token>
+<token>Nest.PropertiesDescriptor,String</token>
+</entry>
+<entry count="2">
+<token>Nest.RangeFilterDescriptor,GreaterOrEquals</token>
+<token>Nest.Filter,Range</token>
+<token>Nest.RangeFilterDescriptor,OnField</token>
+<token>Nest.RangeFilterDescriptor,LowerOrEquals</token>
+</entry>
+<entry count="1">
+<token>Nest.AllFieldMappingDescriptor,IndexAnalyzer</token>
+<token>Nest.AllFieldMappingDescriptor,SearchAnalyzer</token>
+<token>Nest.PutMappingDescriptor,AllField</token>
+<token>Nest.DateMappingDescriptor,Name</token>
+<token>Nest.DateMappingDescriptor,IndexName</token>
+</entry>
+<entry count="12">
+<token>Nest.PropertiesDescriptor,Object</token>
+<token>Nest.ObjectMappingDescriptor,Name</token>
+</entry>
+<entry count="10">
+<token>Nest.StringMappingDescriptor,IncludeInAll</token>
+<token>Nest.StringMappingDescriptor,Boost</token>
+<token>Nest.PropertiesDescriptor,String</token>
+</entry>
+<entry count="8192">
+<token>Nest.AggregationsHelper,DateHistogram</token>
+<token>Nest.AggregationsHelper,Min</token>
+</entry>
+<entry count="3">
+<token>Nest.PropertiesDescriptor,Date</token>
+<token>Nest.NumberMappingDescriptor,Name</token>
+<token>Nest.NumberMappingDescriptor,IndexName</token>
+</entry>
+<entry count="1">
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.StringMappingDescriptor,Analyzer</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+</entry>
+<entry count="2">
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.BooleanMappingDescriptor,Name</token>
+<token>Nest.BooleanMappingDescriptor,IndexName</token>
+</entry>
+<entry count="2">
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.BooleanMappingDescriptor,Name</token>
+</entry>
+<entry count="2">
+<token>Nest.NumberMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Number</token>
+<token>Nest.ObjectMappingDescriptor,Properties</token>
+</entry>
+<entry count="1">
+<token>Nest.PropertiesDescriptor,Boolean</token>
+<token>Nest.BooleanMappingDescriptor,Name</token>
+<token>Nest.BooleanMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Boolean</token>
+<token>Nest.ObjectMappingDescriptor,Name</token>
+</entry>
+<entry count="167936">
+<token>Nest.AggregationsHelper,Terms</token>
+<token>Nest.AggregationsHelper,Cardinality</token>
+</entry>
+<entry count="3">
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.StringMappingDescriptor,IncludeInAll</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.ObjectMappingDescriptor,Name</token>
+</entry>
+<entry count="2">
+<token>Nest.NumberMappingDescriptor,Name</token>
+<token>Nest.NumberMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Number</token>
+<token>Nest.BooleanMappingDescriptor,Name</token>
+</entry>
+<entry count="7">
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.CorePropertiesDescriptor,String</token>
+<token>Nest.StringMappingDescriptor,Fields</token>
+</entry>
+<entry count="1">
+<token>Nest.StringMappingDescriptor,IncludeInAll</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.ObjectMappingDescriptor,Properties</token>
+<token>Nest.PropertiesDescriptor,Object</token>
+</entry>
+<entry count="1">
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.ObjectMappingDescriptor,Name</token>
+<token>Nest.ObjectMappingDescriptor,Dynamic</token>
+<token>Nest.PropertiesDescriptor,Object</token>
+</entry>
+<entry count="3">
+<token>Nest.TimestampFieldMappingDescriptor,Enabled</token>
+<token>Nest.TimestampFieldMappingDescriptor,Path</token>
+<token>Nest.TimestampFieldMappingDescriptor,IgnoreMissing</token>
+<token>Nest.PutMappingDescriptor,TimestampField</token>
+<token>Nest.DateMappingDescriptor,Name</token>
+</entry>
+<entry count="2">
+<token>Nest.Filter,Range</token>
+<token>Nest.RangeFilterDescriptor,OnField</token>
+<token>Nest.RangeFilterDescriptor,LowerOrEquals</token>
+</entry>
+<entry count="1">
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.StringMappingDescriptor,IndexAnalyzer</token>
+<token>Nest.StringMappingDescriptor,SearchAnalyzer</token>
+<token>Nest.PropertiesDescriptor,String</token>
+</entry>
+<entry count="1">
+<token>Nest.PropertiesDescriptor,Boolean</token>
+<token>Nest.ObjectMappingDescriptor,Name</token>
+<token>Nest.ObjectMappingDescriptor,Dynamic</token>
+</entry>
+<entry count="16384">
+<token>Nest.AggregationsHelper,DateHistogram</token>
+<token>Nest.AggregationsHelper,Cardinality</token>
+<token>Nest.AggregationsHelper,Terms</token>
+<token>Nest.AggregationsHelper,Min</token>
+<token>Nest.AggregationsHelper,Max</token>
+</entry>
+<entry count="5">
+<token>Nest.PutMappingDescriptor,Dynamic</token>
+<token>Nest.TimestampFieldMappingDescriptor,Enabled</token>
+</entry>
+<entry count="16384">
+<token>Nest.AggregationsHelper,Average</token>
+<token>Nest.AggregationsHelper,Cardinality</token>
+<token>Nest.AggregationsHelper,DateHistogram</token>
+<token>Nest.AggregationsHelper,Average</token>
+</entry>
+<entry count="1">
+<token>Nest.NumberMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Number</token>
+<token>Nest.ObjectMappingDescriptor,Properties</token>
+<token>Nest.PropertiesDescriptor,Object</token>
+<token>Nest.ObjectMappingDescriptor,Name</token>
+</entry>
+<entry count="29">
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+</entry>
+<entry count="5">
+<token>Nest.DateMappingDescriptor,Name</token>
+<token>Nest.DateMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Date</token>
+<token>Nest.DateMappingDescriptor,Name</token>
+</entry>
+<entry count="11">
+<token>Nest.ObjectMappingDescriptor,Path</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+</entry>
+<entry count="6">
+<token>Nest.PropertiesDescriptor,Number</token>
+<token>Nest.NumberMappingDescriptor,Name</token>
+<token>Nest.NumberMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Number</token>
+</entry>
+<entry count="1">
+<token>Nest.PutMappingDescriptor,AllField</token>
+<token>Nest.DateMappingDescriptor,Name</token>
+<token>Nest.DateMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Date</token>
+</entry>
+<entry count="5">
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.CorePropertiesDescriptor,String</token>
+<token>Nest.StringMappingDescriptor,Fields</token>
+</entry>
+<entry count="1">
+<token>Nest.BooleanMappingDescriptor,Name</token>
+<token>Nest.BooleanMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Boolean</token>
+<token>Nest.ObjectMappingDescriptor,Name</token>
+</entry>
+<entry count="1">
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.ObjectMappingDescriptor,Properties</token>
+<token>Nest.PropertiesDescriptor,Object</token>
+<token>Nest.ObjectMappingDescriptor,Name</token>
+<token>Nest.DateMappingDescriptor,Name</token>
+</entry>
+<entry count="1">
+<token>Nest.NumberMappingDescriptor,Name</token>
+<token>Nest.NumberMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Number</token>
+<token>Nest.PutMappingDescriptor,Properties</token>
+<token>Nest.CreateIndexDescriptor,AddMapping</token>
+</entry>
+<entry count="2">
+<token>Nest.ObjectMappingDescriptor,Name</token>
+<token>Nest.DateMappingDescriptor,Name</token>
+<token>Nest.DateMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Date</token>
+</entry>
+<entry count="1">
+<token>Nest.PutMappingDescriptor,IncludeInAll</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+</entry>
+<entry count="1">
+<token>Nest.MappingTransformDescriptor,Language</token>
+<token>Nest.PutMappingDescriptor,Transform</token>
+<token>Nest.PutMappingDescriptor,IncludeInAll</token>
+</entry>
+<entry count="2">
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.BooleanMappingDescriptor,Name</token>
+<token>Nest.BooleanMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Boolean</token>
+</entry>
+<entry count="1">
+<token>Nest.NumberMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Number</token>
+<token>Nest.ObjectMappingDescriptor,Name</token>
+<token>Nest.ObjectMappingDescriptor,Dynamic</token>
+<token>Nest.PropertiesDescriptor,Object</token>
+</entry>
+<entry count="1">
+<token>Nest.DynamicTemplatesDescriptor,Add</token>
+<token>Nest.PutMappingDescriptor,DynamicTemplates</token>
+<token>Nest.PutMappingDescriptor,IncludeInAll</token>
+<token>Nest.PutMappingDescriptor,DisableSizeField</token>
+</entry>
+<entry count="8192">
+<token>Nest.AggregationsHelper,DateHistogram</token>
+<token>Nest.AggregationsHelper,Min</token>
+<token>Nest.AggregationsHelper,Max</token>
+</entry>
+<entry count="16384">
+<token>Nest.AggregationsHelper,DateHistogram</token>
+<token>Nest.AggregationsHelper,Cardinality</token>
+<token>Nest.AggregationsHelper,Terms</token>
+</entry>
+<entry count="4">
+<token>Nest.StringMappingDescriptor,Boost</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+</entry>
+<entry count="2">
+<token>Nest.NumberMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Number</token>
+<token>Nest.BooleanMappingDescriptor,Name</token>
+<token>Nest.BooleanMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Boolean</token>
+</entry>
+<entry count="7">
+<token>Nest.CorePropertiesDescriptor,String</token>
+<token>Nest.StringMappingDescriptor,Fields</token>
+<token>Nest.PropertiesDescriptor,String</token>
+</entry>
+<entry count="1">
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.StringMappingDescriptor,IncludeInAll</token>
+<token>Nest.StringMappingDescriptor,Boost</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.GeoPointMappingDescriptor,Name</token>
+</entry>
+<entry count="2">
+<token>Nest.Filter,Range</token>
+<token>Nest.RangeFilterDescriptor,OnField</token>
+</entry>
+<entry count="2">
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.ObjectMappingDescriptor,Name</token>
+<token>Nest.ObjectMappingDescriptor,Path</token>
+<token>Nest.ObjectMappingDescriptor,Name</token>
+</entry>
+<entry count="3">
+<token>Nest.TimestampFieldMappingDescriptor,Path</token>
+<token>Nest.TimestampFieldMappingDescriptor,IgnoreMissing</token>
+<token>Nest.PutMappingDescriptor,TimestampField</token>
+<token>Nest.DateMappingDescriptor,Name</token>
+</entry>
+<entry count="1">
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.StringMappingDescriptor,Analyzer</token>
+<token>Nest.PropertiesDescriptor,String</token>
+</entry>
+<entry count="4">
+<token>Nest.TermsQueryDescriptor,Terms</token>
+<token>Nest.TermsQueryDescriptor,MinimumMatch</token>
+<token>Nest.QueryDescriptor,TermsDescriptor</token>
+</entry>
+<entry count="1">
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.BooleanMappingDescriptor,Name</token>
+<token>Nest.BooleanMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Boolean</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+</entry>
+<entry count="1">
+<token>Nest.GeoPointMappingDescriptor,Name</token>
+<token>Nest.GeoPointMappingDescriptor,IndexLatLon</token>
+<token>Nest.PropertiesDescriptor,GeoPoint</token>
+</entry>
+<entry count="8">
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.StringMappingDescriptor,IndexAnalyzer</token>
+</entry>
+<entry count="16384">
+<token>Nest.AggregationsHelper,Terms</token>
+<token>Nest.AggregationsHelper,Min</token>
+</entry>
+<entry count="8">
+<token>Nest.StringMappingDescriptor,IndexAnalyzer</token>
+<token>Nest.StringMappingDescriptor,SearchAnalyzer</token>
+</entry>
+<entry count="5">
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+</entry>
+<entry count="2">
+<token>Nest.ObjectMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+</entry>
+<entry count="1">
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.StringMappingDescriptor,Analyzer</token>
+</entry>
+<entry count="5">
+<token>Nest.TimestampFieldMappingDescriptor,Enabled</token>
+<token>Nest.TimestampFieldMappingDescriptor,Path</token>
+<token>Nest.TimestampFieldMappingDescriptor,IgnoreMissing</token>
+<token>Nest.PutMappingDescriptor,TimestampField</token>
+</entry>
+<entry count="10">
+<token>Nest.StringMappingDescriptor,Boost</token>
+<token>Nest.PropertiesDescriptor,String</token>
+</entry>
+<entry count="1">
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.ObjectMappingDescriptor,Name</token>
+<token>Nest.ObjectMappingDescriptor,Dynamic</token>
+<token>Nest.PropertiesDescriptor,Object</token>
+<token>Nest.ObjectMappingDescriptor,Name</token>
+</entry>
+<entry count="3">
+<token>Nest.DateMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Date</token>
+<token>Nest.NumberMappingDescriptor,Name</token>
+<token>Nest.NumberMappingDescriptor,IndexName</token>
+</entry>
+<entry count="3">
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.DateMappingDescriptor,Name</token>
+<token>Nest.DateMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Date</token>
+</entry>
+<entry count="3">
+<token>Nest.TimestampFieldMappingDescriptor,IgnoreMissing</token>
+<token>Nest.PutMappingDescriptor,TimestampField</token>
+<token>Nest.DateMappingDescriptor,Name</token>
+<token>Nest.DateMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Date</token>
+</entry>
+<entry count="106496">
+<token>Nest.AggregationsHelper,Min</token>
+<token>Nest.AggregationsHelper,Max</token>
+<token>Nest.AggregationsHelper,Terms</token>
+</entry>
+<entry count="2">
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.ObjectMappingDescriptor,Name</token>
+<token>Nest.ObjectMappingDescriptor,Path</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+</entry>
+<entry count="1">
+<token>Nest.SingleMappingDescriptor,Generic</token>
+<token>Nest.DynamicTemplateDescriptor,Mapping</token>
+</entry>
+<entry count="1">
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.DateMappingDescriptor,Name</token>
+</entry>
+<entry count="1">
+<token>Nest.ObjectMappingDescriptor,Dynamic</token>
+<token>Nest.PropertiesDescriptor,Object</token>
+<token>Nest.PutMappingDescriptor,Properties</token>
+</entry>
+<entry count="16384">
+<token>Nest.AggregationsHelper,Cardinality</token>
+<token>Nest.AggregationsHelper,DateHistogram</token>
+<token>Nest.AggregationsHelper,Average</token>
+</entry>
+<entry count="2">
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.NumberMappingDescriptor,Name</token>
+<token>Nest.NumberMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Number</token>
+</entry>
+<entry count="2">
+<token>Nest.ObjectMappingDescriptor,Properties</token>
+<token>Nest.PropertiesDescriptor,Object</token>
+<token>Nest.ObjectMappingDescriptor,Name</token>
+<token>Nest.DateMappingDescriptor,Name</token>
+</entry>
+<entry count="1">
+<token>Nest.PutMappingDescriptor,DisableSizeField</token>
+<token>Nest.MappingTransformDescriptor,Script</token>
+<token>Nest.MappingTransformDescriptor,Language</token>
+<token>Nest.PutMappingDescriptor,Transform</token>
+<token>Nest.AllFieldMappingDescriptor,IndexAnalyzer</token>
+</entry>
+<entry count="16384">
+<token>Nest.AggregationsHelper,Cardinality</token>
+<token>Nest.AggregationsHelper,Terms</token>
+<token>Nest.AggregationsHelper,Min</token>
+<token>Nest.AggregationsHelper,Max</token>
+</entry>
+<entry count="8">
+<token>Nest.SearchDescriptor,Index</token>
+<token>Nest.SearchDescriptor,AllTypes</token>
+</entry>
+<entry count="1">
+<token>Nest.DynamicTemplateDescriptor,Name</token>
+<token>Nest.DynamicTemplateDescriptor,Match</token>
+<token>Nest.GenericMappingDescriptor,Type</token>
+<token>Nest.GenericMappingDescriptor,Index</token>
+<token>Nest.SingleMappingDescriptor,Generic</token>
+</entry>
+<entry count="2">
+<token>Nest.PropertiesDescriptor,Object</token>
+<token>Nest.ObjectMappingDescriptor,Name</token>
+<token>Nest.ObjectMappingDescriptor,Dynamic</token>
+<token>Nest.PropertiesDescriptor,Object</token>
+</entry>
+<entry count="16384">
+<token>Nest.AggregationsHelper,Cardinality</token>
+<token>Nest.AggregationsHelper,Terms</token>
+</entry>
+<entry count="1">
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.StringMappingDescriptor,IndexAnalyzer</token>
+<token>Nest.StringMappingDescriptor,SearchAnalyzer</token>
+<token>Nest.PropertiesDescriptor,String</token>
+</entry>
+<entry count="73728">
+<token>Nest.AggregationsHelper,Terms</token>
+<token>Nest.AggregationsHelper,Terms</token>
+<token>Nest.AggregationsHelper,Cardinality</token>
+<token>Nest.AggregationsHelper,Min</token>
+<token>Nest.AggregationsHelper,Max</token>
+</entry>
+<entry count="16384">
+<token>Nest.AggregationsHelper,DateHistogram</token>
+<token>Nest.AggregationsHelper,Average</token>
+<token>Nest.AggregationsHelper,Cardinality</token>
+<token>Nest.AggregationsHelper,Min</token>
+<token>Nest.AggregationsHelper,Max</token>
+</entry>
+<entry count="2">
+<token>Nest.PropertiesDescriptor,Number</token>
+<token>Nest.BooleanMappingDescriptor,Name</token>
+<token>Nest.BooleanMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Boolean</token>
+</entry>
+<entry count="2">
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+</entry>
+<entry count="1">
+<token>Nest.ConnectionSettings,SetDefaultIndex</token>
+<token>Nest.ElasticClient,new</token>
+</entry>
+<entry count="3">
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+</entry>
+<entry count="1">
+<token>Nest.PropertiesDescriptor,Boolean</token>
+<token>Nest.ObjectMappingDescriptor,Name</token>
+<token>Nest.ObjectMappingDescriptor,Dynamic</token>
+<token>Nest.PropertiesDescriptor,Object</token>
+<token>Nest.ObjectMappingDescriptor,Name</token>
+</entry>
+<entry count="2">
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.StringMappingDescriptor,IncludeInAll</token>
+<token>Nest.StringMappingDescriptor,Analyzer</token>
+</entry>
+<entry count="1">
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.GeoPointMappingDescriptor,Name</token>
+</entry>
+<entry count="5">
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+</entry>
+<entry count="1">
+<token>Nest.PropertiesDescriptor,Date</token>
+<token>Nest.BooleanMappingDescriptor,Name</token>
+<token>Nest.PropertiesDescriptor,Boolean</token>
+</entry>
+<entry count="1">
+<token>Nest.PutMappingDescriptor,IncludeInAll</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.StringMappingDescriptor,IncludeInAll</token>
+</entry>
+<entry count="2">
+<token>Nest.CreateIndexDescriptor,AddMapping</token>
+<token>Nest.CreateIndexDescriptor,AddMapping</token>
+<token>Nest.CreateIndexDescriptor,AddMapping</token>
+<token>Nest.CreateIndexDescriptor,AddMapping</token>
+<token>Nest.CreateIndexDescriptor,AddMapping</token>
+</entry>
+<entry count="1">
+<token>Nest.DateMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Date</token>
+<token>Nest.BooleanMappingDescriptor,Name</token>
+<token>Nest.PropertiesDescriptor,Boolean</token>
+</entry>
+<entry count="1">
+<token>Nest.MappingTransformDescriptor,Script</token>
+<token>Nest.MappingTransformDescriptor,Language</token>
+<token>Nest.PutMappingDescriptor,Transform</token>
+<token>Nest.PutMappingDescriptor,IncludeInAll</token>
+</entry>
+<entry count="1">
+<token>Nest.PutTemplateDescriptor,Template</token>
+<token>Nest.FluentDictionary,Add</token>
+</entry>
+<entry count="5">
+<token>Nest.PutMappingDescriptor,Dynamic</token>
+<token>Nest.TimestampFieldMappingDescriptor,Enabled</token>
+<token>Nest.TimestampFieldMappingDescriptor,Path</token>
+</entry>
+<entry count="1">
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.StringMappingDescriptor,Analyzer</token>
+<token>Nest.StringMappingDescriptor,IncludeInAll</token>
+</entry>
+<entry count="1">
+<token>Nest.BooleanMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Boolean</token>
+<token>Nest.ObjectMappingDescriptor,Properties</token>
+<token>Nest.PropertiesDescriptor,Object</token>
+<token>Nest.ObjectMappingDescriptor,Properties</token>
+</entry>
+<entry count="2">
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.BooleanMappingDescriptor,Name</token>
+<token>Nest.BooleanMappingDescriptor,IndexName</token>
+</entry>
+<entry count="3">
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.ObjectMappingDescriptor,Properties</token>
+<token>Nest.PropertiesDescriptor,Object</token>
+<token>Nest.ObjectMappingDescriptor,Properties</token>
+</entry>
+<entry count="4">
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.StringMappingDescriptor,IncludeInAll</token>
+<token>Nest.StringMappingDescriptor,Boost</token>
+<token>Nest.PropertiesDescriptor,String</token>
+</entry>
+<entry count="1">
+<token>Nest.PutTemplateDescriptor,Template</token>
+<token>Nest.FluentDictionary,Add</token>
+<token>Nest.PutTemplateDescriptor,Settings</token>
+<token>Nest.PutMappingDescriptor,Dynamic</token>
+</entry>
+<entry count="1">
+<token>Nest.PropertiesDescriptor,Boolean</token>
+<token>Nest.NumberMappingDescriptor,Name</token>
+<token>Nest.NumberMappingDescriptor,IndexName</token>
+</entry>
+<entry count="7">
+<token>Nest.StringMappingDescriptor,Fields</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+</entry>
+<entry count="5">
+<token>Nest.StringMappingDescriptor,IncludeInAll</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+</entry>
+<entry count="4">
+<token>Nest.ObjectMappingDescriptor,Dynamic</token>
+<token>Nest.PropertiesDescriptor,Object</token>
+<token>Nest.ObjectMappingDescriptor,Name</token>
+</entry>
+<entry count="7">
+<token>Nest.StringMappingDescriptor,IndexAnalyzer</token>
+<token>Nest.StringMappingDescriptor,SearchAnalyzer</token>
+<token>Nest.StringMappingDescriptor,IncludeInAll</token>
+</entry>
+<entry count="11">
+<token>Nest.ObjectMappingDescriptor,Name</token>
+<token>Nest.ObjectMappingDescriptor,Path</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+</entry>
+<entry count="5">
+<token>Nest.PropertiesDescriptor,Date</token>
+<token>Nest.DateMappingDescriptor,Name</token>
+<token>Nest.DateMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Date</token>
+</entry>
+<entry count="73728">
+<token>Nest.AggregationsHelper,Max</token>
+<token>Nest.AggregationsHelper,Terms</token>
+<token>Nest.AggregationsHelper,Terms</token>
+<token>Nest.AggregationsHelper,Cardinality</token>
+</entry>
+<entry count="1">
+<token>Nest.PutMappingDescriptor,DynamicTemplates</token>
+<token>Nest.PutMappingDescriptor,IncludeInAll</token>
+</entry>
+<entry count="4">
+<token>Nest.BooleanMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Boolean</token>
+<token>Nest.BooleanMappingDescriptor,Name</token>
+</entry>
+<entry count="1">
+<token>Nest.PutMappingDescriptor,DisableSizeField</token>
+<token>Nest.MappingTransformDescriptor,Script</token>
+</entry>
+<entry count="33">
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+</entry>
+<entry count="5">
+<token>Nest.PropertiesDescriptor,Date</token>
+<token>Nest.DateMappingDescriptor,Name</token>
+</entry>
+<entry count="4">
+<token>Nest.StringMappingDescriptor,Boost</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+</entry>
+<entry count="1">
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.NumberMappingDescriptor,Name</token>
+</entry>
+<entry count="2">
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.NumberMappingDescriptor,Name</token>
+</entry>
+<entry count="1">
+<token>Nest.FluentDictionary,Add</token>
+<token>Nest.PutTemplateDescriptor,Settings</token>
+<token>Nest.PutMappingDescriptor,Dynamic</token>
+<token>Nest.DynamicTemplateDescriptor,Name</token>
+<token>Nest.DynamicTemplateDescriptor,Match</token>
+</entry>
+<entry count="4">
+<token>Nest.TermsQueryDescriptor,Terms</token>
+<token>Nest.TermsQueryDescriptor,MinimumMatch</token>
+</entry>
+<entry count="4">
+<token>Nest.ObjectMappingDescriptor,Properties</token>
+<token>Nest.PropertiesDescriptor,Object</token>
+<token>Nest.ObjectMappingDescriptor,Properties</token>
+</entry>
+<entry count="1">
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.ObjectMappingDescriptor,Name</token>
+<token>Nest.ObjectMappingDescriptor,Dynamic</token>
+<token>Nest.PropertiesDescriptor,Object</token>
+</entry>
+<entry count="73728">
+<token>Nest.AggregationsHelper,Terms</token>
+<token>Nest.AggregationsHelper,Cardinality</token>
+<token>Nest.AggregationsHelper,Min</token>
+<token>Nest.AggregationsHelper,Max</token>
+<token>Nest.AggregationsHelper,DateHistogram</token>
+</entry>
+<entry count="1">
+<token>Nest.PropertiesDescriptor,Number</token>
+<token>Nest.PutMappingDescriptor,Properties</token>
+<token>Nest.CreateIndexDescriptor,AddMapping</token>
+</entry>
+<entry count="2">
+<token>Nest.StringMappingDescriptor,IncludeInAll</token>
+<token>Nest.StringMappingDescriptor,Boost</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+</entry>
+<entry count="11">
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.StringMappingDescriptor,IncludeInAll</token>
+<token>Nest.PropertiesDescriptor,String</token>
+</entry>
+<entry count="2">
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.NumberMappingDescriptor,Name</token>
+<token>Nest.NumberMappingDescriptor,IndexName</token>
+</entry>
+<entry count="1">
+<token>Nest.PropertiesDescriptor,Date</token>
+<token>Nest.BooleanMappingDescriptor,Name</token>
+</entry>
+<entry count="7">
+<token>Nest.PropertiesDescriptor,Object</token>
+<token>Nest.ObjectMappingDescriptor,Name</token>
+<token>Nest.ObjectMappingDescriptor,Path</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+</entry>
+<entry count="1">
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.GeoPointMappingDescriptor,Name</token>
+<token>Nest.GeoPointMappingDescriptor,IndexLatLon</token>
+<token>Nest.PropertiesDescriptor,GeoPoint</token>
+</entry>
+<entry count="1">
+<token>Nest.DynamicTemplateDescriptor,Name</token>
+<token>Nest.DynamicTemplateDescriptor,Match</token>
+<token>Nest.GenericMappingDescriptor,Type</token>
+</entry>
+<entry count="9">
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.StringMappingDescriptor,IncludeInAll</token>
+</entry>
+<entry count="3">
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.PutMappingDescriptor,Properties</token>
+</entry>
+<entry count="1">
+<token>Nest.GeoPointMappingDescriptor,Name</token>
+<token>Nest.GeoPointMappingDescriptor,IndexLatLon</token>
+<token>Nest.PropertiesDescriptor,GeoPoint</token>
+<token>Nest.NumberMappingDescriptor,Name</token>
+</entry>
+<entry count="5">
+<token>Nest.StringMappingDescriptor,IndexAnalyzer</token>
+<token>Nest.StringMappingDescriptor,SearchAnalyzer</token>
+<token>Nest.StringMappingDescriptor,IncludeInAll</token>
+<token>Nest.StringMappingDescriptor,Boost</token>
+<token>Nest.PropertiesDescriptor,String</token>
+</entry>
+<entry count="1">
+<token>Nest.FluentDictionary,Add</token>
+<token>Nest.AnalysisDescriptor,Analyzers</token>
+<token>Nest.CreateIndexDescriptor,Analysis</token>
+</entry>
+<entry count="1">
+<token>Nest.ConnectionSettings,new</token>
+<token>Nest.ConnectionSettings,SetDefaultIndex</token>
+</entry>
+<entry count="4">
+<token>Nest.QueryDescriptor,Ids</token>
+<token>Nest.SearchDescriptor,Query</token>
+<token>Nest.ElasticClient,Search</token>
+</entry>
+<entry count="2">
+<token>Nest.PropertiesDescriptor,Boolean</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+</entry>
+<entry count="16384">
+<token>Nest.AggregationsHelper,Cardinality</token>
+<token>Nest.AggregationsHelper,Terms</token>
+<token>Nest.AggregationsHelper,Min</token>
+</entry>
+<entry count="2">
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,String</token>
+</entry>
+<entry count="2">
+<token>Nest.NumberMappingDescriptor,Name</token>
+<token>Nest.NumberMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Number</token>
+<token>Nest.ObjectMappingDescriptor,Properties</token>
+<token>Nest.PropertiesDescriptor,Object</token>
+</entry>
+<entry count="16384">
+<token>Nest.AggregationsHelper,DateHistogram</token>
+<token>Nest.AggregationsHelper,Average</token>
+</entry>
+<entry count="1">
+<token>Nest.AllFieldMappingDescriptor,IndexAnalyzer</token>
+<token>Nest.AllFieldMappingDescriptor,SearchAnalyzer</token>
+<token>Nest.PutMappingDescriptor,AllField</token>
+<token>Nest.DateMappingDescriptor,Name</token>
+</entry>
+<entry count="1">
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.ObjectMappingDescriptor,Name</token>
+<token>Nest.ObjectMappingDescriptor,Path</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+</entry>
+<entry count="1">
+<token>Nest.PropertiesDescriptor,Object</token>
+<token>Nest.ObjectMappingDescriptor,Name</token>
+<token>Nest.ObjectMappingDescriptor,Dynamic</token>
+<token>Nest.PropertiesDescriptor,Object</token>
+<token>Nest.PutMappingDescriptor,Properties</token>
+</entry>
+<entry count="3">
+<token>Nest.StringMappingDescriptor,IncludeInAll</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.ObjectMappingDescriptor,Name</token>
+</entry>
+<entry count="4">
+<token>Nest.PropertiesDescriptor,Number</token>
+<token>Nest.NumberMappingDescriptor,Name</token>
+<token>Nest.NumberMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Number</token>
+<token>Nest.NumberMappingDescriptor,Name</token>
+</entry>
+<entry count="1">
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.StringMappingDescriptor,IncludeInAll</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.ObjectMappingDescriptor,Properties</token>
+<token>Nest.PropertiesDescriptor,Object</token>
+</entry>
+<entry count="1">
+<token>Nest.NumberMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Number</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.PropertiesDescriptor,String</token>
+</entry>
+<entry count="3">
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.ObjectMappingDescriptor,Name</token>
+</entry>
+<entry count="1">
+<token>Nest.NumberMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Number</token>
+<token>Nest.PutMappingDescriptor,Properties</token>
+<token>Nest.CreateIndexDescriptor,AddMapping</token>
+</entry>
+<entry count="3">
+<token>Nest.ElasticClient,Search</token>
+<token>Nest.ElasticClient,DeleteById</token>
+</entry>
+<entry count="1">
+<token>Nest.StringMappingDescriptor,SearchAnalyzer</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+</entry>
+<entry count="2">
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.ObjectMappingDescriptor,Properties</token>
+<token>Nest.PropertiesDescriptor,Object</token>
+<token>Nest.ObjectMappingDescriptor,Name</token>
+</entry>
+<entry count="1">
+<token>Nest.PropertiesDescriptor,Object</token>
+<token>Nest.PutMappingDescriptor,Properties</token>
+<token>Nest.PutTemplateDescriptor,AddMapping</token>
+</entry>
+<entry count="11">
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+</entry>
+<entry count="1">
+<token>Nest.IndicesTypePathDescriptor,Index</token>
+<token>Nest.PutMappingDescriptor,Dynamic</token>
+<token>Nest.DateMappingDescriptor,Name</token>
+<token>Nest.DateMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Date</token>
+</entry>
+<entry count="16">
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.PropertiesDescriptor,String</token>
+</entry>
+<entry count="1">
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+</entry>
+<entry count="5">
+<token>Nest.Filter,Term</token>
+<token>Nest.Filter,Missing</token>
+</entry>
+<entry count="3">
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.StringMappingDescriptor,IncludeInAll</token>
+<token>Nest.StringMappingDescriptor,Boost</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+</entry>
+<entry count="1">
+<token>Nest.GenericMappingDescriptor,Index</token>
+<token>Nest.SingleMappingDescriptor,Generic</token>
+<token>Nest.DynamicTemplateDescriptor,Mapping</token>
+</entry>
+<entry count="1">
+<token>Nest.PutTemplateDescriptor,Settings</token>
+<token>Nest.PutMappingDescriptor,Dynamic</token>
+<token>Nest.DynamicTemplateDescriptor,Name</token>
+</entry>
+<entry count="2">
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.StringMappingDescriptor,IncludeInAll</token>
+<token>Nest.StringMappingDescriptor,Analyzer</token>
+<token>Nest.PropertiesDescriptor,String</token>
+</entry>
+<entry count="4">
+<token>Nest.TermsQueryDescriptor,Terms</token>
+<token>Nest.TermsQueryDescriptor,MinimumMatch</token>
+<token>Nest.QueryDescriptor,TermsDescriptor</token>
+<token>Nest.SearchDescriptor,Query</token>
+<token>Nest.ElasticClient,Search</token>
+</entry>
+<entry count="3">
+<token>Nest.StringMappingDescriptor,IncludeInAll</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.ObjectMappingDescriptor,Name</token>
+<token>Nest.ObjectMappingDescriptor,Path</token>
+</entry>
+<entry count="2">
+<token>Nest.PutMappingDescriptor,TimestampField</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+</entry>
+<entry count="1">
+<token>Nest.Filter,Missing</token>
+<token>Nest.RangeFilterDescriptor,OnField</token>
+<token>Nest.RangeFilterDescriptor,LowerOrEquals</token>
+</entry>
+<entry count="1">
+<token>Nest.DynamicTemplatesDescriptor,Add</token>
+<token>Nest.PutMappingDescriptor,DynamicTemplates</token>
+<token>Nest.PutMappingDescriptor,IncludeInAll</token>
+</entry>
+<entry count="1">
+<token>Nest.BooleanMappingDescriptor,Name</token>
+<token>Nest.PropertiesDescriptor,Boolean</token>
+<token>Nest.BooleanMappingDescriptor,Name</token>
+<token>Nest.BooleanMappingDescriptor,IndexName</token>
+</entry>
+<entry count="2">
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.StringMappingDescriptor,IncludeInAll</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.DateMappingDescriptor,Name</token>
+<token>Nest.DateMappingDescriptor,IndexName</token>
+</entry>
+<entry count="1">
+<token>Nest.ConnectionSettings,SetDefaultPropertyNameInferrer</token>
+<token>Nest.ConnectionSettings,SetJsonSerializerSettingsModifier</token>
+</entry>
+<entry count="1">
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.StringMappingDescriptor,Analyzer</token>
+<token>Nest.StringMappingDescriptor,IncludeInAll</token>
+<token>Nest.StringMappingDescriptor,Boost</token>
+</entry>
+<entry count="1">
+<token>Nest.MappingTransformDescriptor,Language</token>
+<token>Nest.PutMappingDescriptor,Transform</token>
+<token>Nest.AllFieldMappingDescriptor,IndexAnalyzer</token>
+<token>Nest.AllFieldMappingDescriptor,SearchAnalyzer</token>
+</entry>
+<entry count="1">
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.DateMappingDescriptor,Name</token>
+<token>Nest.DateMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Date</token>
+<token>Nest.BooleanMappingDescriptor,Name</token>
+</entry>
+<entry count="1">
+<token>Nest.StringMappingDescriptor,Analyzer</token>
+<token>Nest.StringMappingDescriptor,IncludeInAll</token>
+<token>Nest.StringMappingDescriptor,Boost</token>
+</entry>
+<entry count="5">
+<token>Nest.ObjectMappingDescriptor,Dynamic</token>
+<token>Nest.PropertiesDescriptor,Object</token>
+</entry>
+<entry count="2">
+<token>Nest.TimestampFieldMappingDescriptor,Path</token>
+<token>Nest.TimestampFieldMappingDescriptor,IgnoreMissing</token>
+<token>Nest.PutMappingDescriptor,TimestampField</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+</entry>
+<entry count="1">
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.DateMappingDescriptor,Name</token>
+<token>Nest.DateMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Date</token>
+<token>Nest.NumberMappingDescriptor,Name</token>
+</entry>
+<entry count="4">
+<token>Nest.PropertiesDescriptor,Object</token>
+<token>Nest.PutMappingDescriptor,Properties</token>
+</entry>
+<entry count="4">
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+</entry>
+<entry count="10">
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.ObjectMappingDescriptor,Properties</token>
+<token>Nest.PropertiesDescriptor,Object</token>
+</entry>
+<entry count="7">
+<token>Nest.StringMappingDescriptor,IndexAnalyzer</token>
+<token>Nest.StringMappingDescriptor,SearchAnalyzer</token>
+<token>Nest.StringMappingDescriptor,IncludeInAll</token>
+<token>Nest.StringMappingDescriptor,Boost</token>
+</entry>
+<entry count="7">
+<token>Nest.CorePropertiesDescriptor,String</token>
+<token>Nest.StringMappingDescriptor,Fields</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+</entry>
+<entry count="1">
+<token>Nest.PropertiesDescriptor,Object</token>
+<token>Nest.ObjectMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+</entry>
+<entry count="1">
+<token>Nest.PropertiesDescriptor,Object</token>
+<token>Nest.ObjectMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+</entry>
+<entry count="4">
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.StringMappingDescriptor,IncludeInAll</token>
+<token>Nest.StringMappingDescriptor,Boost</token>
+</entry>
+<entry count="20480">
+<token>Nest.AggregationsHelper,Average</token>
+<token>Nest.AggregationsHelper,Cardinality</token>
+<token>Nest.AggregationsHelper,DateHistogram</token>
+</entry>
+<entry count="1">
+<token>Nest.PropertiesDescriptor,Date</token>
+<token>Nest.NumberMappingDescriptor,Name</token>
+<token>Nest.NumberMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Number</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+</entry>
+<entry count="17">
+<token>Nest.ObjectMappingDescriptor,Properties</token>
+<token>Nest.PropertiesDescriptor,Object</token>
+</entry>
+<entry count="1">
+<token>Nest.PutMappingDescriptor,DynamicTemplates</token>
+<token>Nest.PutMappingDescriptor,IncludeInAll</token>
+<token>Nest.PutMappingDescriptor,DisableSizeField</token>
+</entry>
+<entry count="7">
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.CorePropertiesDescriptor,String</token>
+<token>Nest.StringMappingDescriptor,Fields</token>
+<token>Nest.PropertiesDescriptor,String</token>
+</entry>
+<entry count="2">
+<token>Nest.TimestampFieldMappingDescriptor,IgnoreMissing</token>
+<token>Nest.PutMappingDescriptor,TimestampField</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+</entry>
+<entry count="5">
+<token>Nest.StringMappingDescriptor,IncludeInAll</token>
+<token>Nest.StringMappingDescriptor,Boost</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.ObjectMappingDescriptor,Properties</token>
+<token>Nest.PropertiesDescriptor,Object</token>
+</entry>
+<entry count="8192">
+<token>Nest.AggregationsHelper,Cardinality</token>
+<token>Nest.AggregationsHelper,DateHistogram</token>
+<token>Nest.AggregationsHelper,Min</token>
+<token>Nest.AggregationsHelper,Max</token>
+</entry>
+<entry count="3">
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+</entry>
+<entry count="2">
+<token>Nest.ObjectMappingDescriptor,Properties</token>
+<token>Nest.PropertiesDescriptor,Object</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+</entry>
+<entry count="11">
+<token>Nest.ObjectMappingDescriptor,Path</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+</entry>
+<entry count="32768">
+<token>Nest.AggregationsHelper,Average</token>
+<token>Nest.AggregationsHelper,Cardinality</token>
+<token>Nest.AggregationsHelper,Min</token>
+<token>Nest.AggregationsHelper,Max</token>
+<token>Nest.AggregationsHelper,DateHistogram</token>
+</entry>
+<entry count="8">
+<token>Nest.DateMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Date</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+</entry>
+<entry count="4">
+<token>Nest.TermsQueryDescriptor,MinimumMatch</token>
+<token>Nest.QueryDescriptor,TermsDescriptor</token>
+<token>Nest.SearchDescriptor,Query</token>
+<token>Nest.ElasticClient,Search</token>
+</entry>
+<entry count="2">
+<token>Nest.StringMappingDescriptor,SearchAnalyzer</token>
+<token>Nest.StringMappingDescriptor,IncludeInAll</token>
+<token>Nest.StringMappingDescriptor,Boost</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+</entry>
+<entry count="4">
+<token>Nest.StringMappingDescriptor,Boost</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+</entry>
+<entry count="1">
+<token>Nest.StringMappingDescriptor,Boost</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.GeoPointMappingDescriptor,Name</token>
+<token>Nest.GeoPointMappingDescriptor,IndexLatLon</token>
+</entry>
+<entry count="5">
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.CorePropertiesDescriptor,String</token>
+</entry>
+<entry count="30">
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,IndexName</token>
+</entry>
+<entry count="1">
+<token>Nest.StringMappingDescriptor,IndexAnalyzer</token>
+<token>Nest.StringMappingDescriptor,SearchAnalyzer</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.StringMappingDescriptor,Name</token>
+</entry>
+<entry count="1">
+<token>Nest.PutMappingDescriptor,IncludeInAll</token>
+<token>Nest.PutMappingDescriptor,DisableSizeField</token>
+</entry>
+<entry count="1">
+<token>Nest.StringMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.ObjectMappingDescriptor,Properties</token>
+<token>Nest.PropertiesDescriptor,Object</token>
+<token>Nest.ObjectMappingDescriptor,Name</token>
+</entry>
+<entry count="1">
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.ObjectMappingDescriptor,Name</token>
+<token>Nest.ObjectMappingDescriptor,Dynamic</token>
+</entry>
+<entry count="1">
+<token>Nest.StringMappingDescriptor,Name</token>
+<token>Nest.StringMappingDescriptor,Index</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.ObjectMappingDescriptor,Properties</token>
+</entry>
+<entry count="1">
+<token>Nest.NumberMappingDescriptor,Name</token>
+<token>Nest.NumberMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Number</token>
+<token>Nest.ObjectMappingDescriptor,Name</token>
+</entry>
+<entry count="1">
+<token>Nest.PropertiesDescriptor,Boolean</token>
+<token>Nest.NumberMappingDescriptor,Name</token>
+<token>Nest.NumberMappingDescriptor,IndexName</token>
+<token>Nest.PropertiesDescriptor,Number</token>
+<token>Nest.PutMappingDescriptor,Properties</token>
+</entry>
+<entry count="1">
+<token>Nest.PutMappingDescriptor,Dynamic</token>
+<token>Nest.DynamicTemplateDescriptor,Name</token>
+<token>Nest.DynamicTemplateDescriptor,Match</token>
+<token>Nest.GenericMappingDescriptor,Type</token>
+</entry>
+<entry count="1">
+<token>Nest.StringMappingDescriptor,Boost</token>
+<token>Nest.PropertiesDescriptor,String</token>
+<token>Nest.GeoPointMappingDescriptor,Name</token>
+</entry>
+<entry count="1">
+<token>Nest.CreateIndexDescriptor,Analysis</token>
+<token>Nest.CreateIndexDescriptor,AddMapping</token>
+</entry>
+</dictionary>
