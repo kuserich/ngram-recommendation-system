@@ -16,9 +16,9 @@ public class SentenceExtractorTest {
     public void removeBuiltTxt() {
         File dir = new File(mockExtractionOutputDir);
 
-        if (dir.isDirectory()) {
-            for (File file : dir.listFiles())
-                if (!file.isDirectory())
+        if(dir.isDirectory()) {
+            for(File file : dir.listFiles())
+                if(!file.isDirectory())
                     file.delete();
         }
     }

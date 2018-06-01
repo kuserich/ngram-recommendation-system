@@ -46,7 +46,7 @@ public class NgramRecommenderEvaluation {
         // .zip file in the dataset corresponds to one user.
 
         List<String> zips = Lists.newLinkedList();
-        for (File f : FileUtils.listFiles(new File(inputDirectory), new String[]{"zip"}, true)) {
+        for(File f : FileUtils.listFiles(new File(inputDirectory), new String[]{"zip"}, true)) {
             zips.add(f.getAbsolutePath());
         }
         return zips;
@@ -56,11 +56,11 @@ public class NgramRecommenderEvaluation {
         // each .zip file corresponds to a user
         List<String> userZips = findAllUsers(inputDirectory);
 
-        for (String user : userZips) {
+        for(String user : userZips) {
             // you can use our helper to open a file...
             ReadingArchive ra = new ReadingArchive(new File(user));
             // ...iterate over it...
-            while (ra.hasNext()) {
+            while(ra.hasNext()) {
                 // ... and desrialize the IDE event.
                 IIDEEvent e = ra.getNext(IIDEEvent.class);
                 // afterwards, you can process it as a Java object
@@ -83,7 +83,7 @@ public class NgramRecommenderEvaluation {
         // once you have access to the instantiated event you can dispatch the
         // type. As the events are not nested, we did not implement the visitor
         // pattern, but resorted to instanceof checks.
-        if (event instanceof CompletionEvent) {
+        if(event instanceof CompletionEvent) {
             // if the correct type is identified, you can cast it...
             CompletionEvent ce = (CompletionEvent) event;
             List<IProposal> proposals = ce.proposalCollection;
@@ -93,7 +93,7 @@ public class NgramRecommenderEvaluation {
 
             // we can skip processing if there are no proposals
             // as we compare our proposals against these
-            if (selections.size() == 0 || proposals.size() == 0) {
+            if(selections.size() == 0 || proposals.size() == 0) {
                 return;
             }
 
@@ -103,13 +103,13 @@ public class NgramRecommenderEvaluation {
             IProposalSelection selected = selections.get(selections.size() - 1);
             IName selectionName = selected.getProposal().getName();
 
-            if (!(selectionName instanceof MethodName)) {
+            if(!(selectionName instanceof MethodName)) {
                 return;
             }
 
             IMethodName methodName = (IMethodName) selectionName;
 
-            if ((methodName.getDeclaringType().getAssembly().isLocalProject()
+            if((methodName.getDeclaringType().getAssembly().isLocalProject()
                     || Utilities.hasIllegalMethodName(methodName))) {
                 return;
             }
@@ -117,7 +117,7 @@ public class NgramRecommenderEvaluation {
             APIToken selectedAPIToken = new APIToken(methodName.getIdentifier());
 
             String modelFile;
-            if ((modelFile = getModelForNamespace(selectedAPIToken.getNamespace())) == null) {
+            if((modelFile = getModelForNamespace(selectedAPIToken.getNamespace())) == null) {
 //                System.out.println("[INFO]\tNo model found for "+selectedAPIToken.getNamespace());
                 return;
             }
@@ -126,18 +126,18 @@ public class NgramRecommenderEvaluation {
 
             ISST sst = ce.context.getSST();
 
-            for (IMethodDeclaration md : sst.getMethods()) {
+            for(IMethodDeclaration md : sst.getMethods()) {
                 EventVisitor visitor = new EventVisitor(selectedAPIToken);
                 APISentenceTree sentenceTree = new APISentenceTree();
                 md.accept(visitor, sentenceTree);
                 // we only process the sentence tree if there was a CompletionExpression (hasEventFired)
                 // and if there is at least one other token next to the prediction token
-                if (sentenceTree.size() > 1 && visitor.hasEventFired()) {
+                if(sentenceTree.size() > 1 && visitor.hasEventFired()) {
                     List<List<APIToken>> sentences = sentenceTree.flatten();
                     List<List<APIToken>> sentencesWithExpectedToken = new ArrayList<>();
-                    for (List<APIToken> sentence : sentences) {
+                    for(List<APIToken> sentence : sentences) {
 //                        System.out.println("[INFO]\t"+sentences.size()+" sentences");
-                        if (sentence.get(sentence.size() - 1).getType().equals(selectedAPIToken.getType())) {
+                        if(sentence.get(sentence.size() - 1).getType().equals(selectedAPIToken.getType())) {
                             sentence.remove(sentence.size() - 1);
                             sentencesWithExpectedToken.add(sentence);
 
@@ -149,10 +149,10 @@ public class NgramRecommenderEvaluation {
                         }
                     }
 
-                    if (sentencesWithExpectedToken.size() > 0) {
+                    if(sentencesWithExpectedToken.size() > 0) {
                         List<List<APIToken>> positives = testWithModel(modelsDir + modelFile, selectedAPIToken, sentencesWithExpectedToken);
                         System.out.println("\tfound in " + positives.size() + "/" + sentencesWithExpectedToken.size() + " (" + sentences.size() + ")");
-                        for (List<APIToken> pos : positives) {
+                        for(List<APIToken> pos : positives) {
                             System.out.println("\t\t" + pos.size());
                         }
                         System.out.println("[INFO]\tPredictions: " + correctlyPredicted + "/" + allPredictions + "  - (correct/all)");
@@ -170,24 +170,24 @@ public class NgramRecommenderEvaluation {
         try {
             NgramRecommenderClient nrc = new NgramRecommenderClient(modelFile);
             List<List<APIToken>> found = new ArrayList<>();
-            for (List<APIToken> sentence : sentences) {
+            for(List<APIToken> sentence : sentences) {
                 Set<Tuple<IMethodName, Double>> predictions = nrc.query(
                         Utilities.apiSentenceToStringList(
                                 sentence.subList(
                                         Math.max(0, sentence.size() - MAX_PROXIMITY),
                                         sentence.size())));
-                if (predictions.size() > 0) {
+                if(predictions.size() > 0) {
 
                     IoHelper.appendPredictionToFile("evaluation.txt",
                             expected,
                             (APIToken) predictions.iterator().next().getFirst());
 
-                    if (((APIToken) predictions.iterator().next().getFirst()).toString().equals(expected.toString())) {
+                    if(((APIToken) predictions.iterator().next().getFirst()).toString().equals(expected.toString())) {
                         found.add(sentence);
                     }
                 }
             }
-            if (found.size() > 0) {
+            if(found.size() > 0) {
                 correctlyPredicted++;
             }
 
@@ -207,8 +207,8 @@ public class NgramRecommenderEvaluation {
      * @return model that fits the namespace in {@link #inputFiles} from {@link #modelsDir}
      */
     private static String getModelForNamespace(String namespace) {
-        for (String entry : inputFiles) {
-            if (entry.toLowerCase().substring(0, entry.length() - 4).equals(namespace.toLowerCase())) {
+        for(String entry : inputFiles) {
+            if(entry.toLowerCase().substring(0, entry.length() - 4).equals(namespace.toLowerCase())) {
                 return entry;
             }
         }

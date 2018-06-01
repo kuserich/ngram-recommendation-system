@@ -19,21 +19,21 @@ public class RunExample {
     public static String eventsDir = "Events-170301-2";
 
     public static void main(String[] args) throws IOException {
-//        System.out.println("\n+-----------------------------------------------------------+");
-//        System.out.println("|                                                           |");
-//        System.out.println("| Stepwise API usage assistance using ngram language models |");
-//        System.out.println("|                                                           |");
-//        System.out.println("+-----------------------------------------------------------+");
-//        System.out.println("| SENTENCE EXTRACTION                                       |");
-//        System.out.println("+-----------------------------------------------------------+");
-//
-//        extractSentences();
-//
-//        System.out.println("+-----------------------------------------------------------+");
-//        System.out.println("| MDOEL TRAINING                                            |");
-//        System.out.println("+-----------------------------------------------------------+");
-//        
-//        trainModels();
+        System.out.println("\n+-----------------------------------------------------------+");
+        System.out.println("|                                                           |");
+        System.out.println("| Stepwise API usage assistance using ngram language models |");
+        System.out.println("|                                                           |");
+        System.out.println("+-----------------------------------------------------------+");
+        System.out.println("| SENTENCE EXTRACTION                                       |");
+        System.out.println("+-----------------------------------------------------------+");
+
+        extractSentences();
+
+        System.out.println("+-----------------------------------------------------------+");
+        System.out.println("| MDOEL TRAINING                                            |");
+        System.out.println("+-----------------------------------------------------------+");
+
+        trainModels();
         predictionExample();
         evaluationExample();
     }
@@ -60,7 +60,7 @@ public class RunExample {
         System.out.println("[INFO]\t Training models");
         Set<String> inputFiles = new Directory(extractionOutputDir).findFiles(s -> s.endsWith(".txt"));
         int cnt = 1;
-        for (String file : inputFiles) {
+        for(String file : inputFiles) {
             System.out.println("[INFO]\t Training " + String.valueOf(cnt++) + "/" + inputFiles.size() + " (" + file + ")");
             trainModel(extractionOutputDir + file, modelsDir);
         }

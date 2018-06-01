@@ -48,7 +48,7 @@ public class IoHelper {
 	 */
 	public static void createDirectoryIfNotExists(String path) {
 		File directory = new File(path);
-		if (! directory.exists()){
+		if(!directory.exists()){
 			directory.mkdir();
 		}
 	}
@@ -192,7 +192,7 @@ public class IoHelper {
 		LinkedList<Context> res = Lists.newLinkedList();
 		try {
 			IReadingArchive ra = new ReadingArchive(new File(zipFile));
-			while (ra.hasNext()) {
+			while(ra.hasNext()) {
 				res.add(ra.getNext(Context.class));
 			}
 			ra.close();
