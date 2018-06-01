@@ -8,7 +8,7 @@
 <token>Microsoft.Azure.Test.UndoContext,Start</token>
 <token>Microsoft.Azure.Test.UndoContext,UndoAll</token>
 </entry>
-<entry count="64">
+<entry count="256">
 <token>Microsoft.Azure.Test.TestEnvironmentFactory,GetTestEnvironment</token>
 <token>Microsoft.Azure.Test.CSMTestEnvironmentFactory,new</token>
 <token>Microsoft.Azure.Test.TestEnvironmentFactory,GetTestEnvironment</token>
@@ -17,7 +17,7 @@
 <token>Microsoft.Azure.Test.TestEnvironmentFactory,GetTestEnvironment</token>
 <token>Microsoft.Azure.Test.TestEnvironment,UsesCustomUri</token>
 </entry>
-<entry count="8">
+<entry count="128">
 <token>Microsoft.Azure.Test.TestUtilities,GenerateName</token>
 <token>Microsoft.Azure.Test.TestUtilities,GenerateName</token>
 <token>Microsoft.Azure.Test.TestUtilities,GetCallingClass</token>
@@ -27,13 +27,13 @@
 <token>Microsoft.Azure.Test.TestUtilities,GenerateName</token>
 <token>Microsoft.Azure.Test.TestUtilities,EndTest</token>
 </entry>
-<entry count="64">
+<entry count="256">
 <token>Microsoft.Azure.Test.RDFETestEnvironmentFactory,new</token>
 <token>Microsoft.Azure.Test.TestEnvironmentFactory,GetTestEnvironment</token>
 <token>Microsoft.Azure.Test.CSMTestEnvironmentFactory,new</token>
 <token>Microsoft.Azure.Test.TestEnvironmentFactory,GetTestEnvironment</token>
 </entry>
-<entry count="44">
+<entry count="164">
 <token>Microsoft.Azure.Test.TestUtilities,GenerateName</token>
 <token>Microsoft.Azure.Test.TestUtilities,GenerateName</token>
 </entry>
@@ -46,7 +46,7 @@
 <token>Microsoft.Azure.Test.UndoContext,Start</token>
 <token>Microsoft.Azure.Test.CSMTestEnvironmentFactory,new</token>
 </entry>
-<entry count="64">
+<entry count="256">
 <token>Microsoft.Azure.Test.RDFETestEnvironmentFactory,new</token>
 <token>Microsoft.Azure.Test.TestEnvironmentFactory,GetTestEnvironment</token>
 <token>Microsoft.Azure.Test.CSMTestEnvironmentFactory,new</token>
@@ -66,17 +66,17 @@
 <token>Microsoft.Azure.Test.TestUtilities,GenerateName</token>
 <token>Microsoft.Azure.Test.TestUtilities,EndTest</token>
 </entry>
-<entry count="16">
+<entry count="256">
 <token>Microsoft.Azure.Test.TestUtilities,GetCallingClass</token>
 <token>Microsoft.Azure.Test.TestUtilities,GetCurrentMethodName</token>
 <token>Microsoft.Azure.Test.TestUtilities,GetCallingClass</token>
 </entry>
-<entry count="16">
+<entry count="256">
 <token>Microsoft.Azure.Test.TestUtilities,GetCurrentMethodName</token>
 <token>Microsoft.Azure.Test.TestUtilities,GetCallingClass</token>
 <token>Microsoft.Azure.Test.TestUtilities,GetCurrentMethodName</token>
 </entry>
-<entry count="8">
+<entry count="128">
 <token>Microsoft.Azure.Test.TestUtilities,GenerateName</token>
 <token>Microsoft.Azure.Test.TestUtilities,GetCallingClass</token>
 <token>Microsoft.Azure.Test.TestUtilities,GetCurrentMethodName</token>
@@ -100,7 +100,7 @@
 <token>Microsoft.Azure.Test.TestUtilities,StartTest</token>
 <token>Microsoft.Azure.Test.UndoContext,Start</token>
 </entry>
-<entry count="376">
+<entry count="764">
 <token>Microsoft.Azure.Test.TestUtilities,GetCallingClass</token>
 <token>Microsoft.Azure.Test.TestUtilities,GetCurrentMethodName</token>
 </entry>
@@ -127,7 +127,7 @@
 <token>Microsoft.Azure.Test.TestBase,GetServiceClient</token>
 <token>Microsoft.Azure.Test.RDFETestEnvironmentFactory,new</token>
 </entry>
-<entry count="8">
+<entry count="128">
 <token>Microsoft.Azure.Test.TestUtilities,GenerateName</token>
 <token>Microsoft.Azure.Test.TestUtilities,GetCallingClass</token>
 <token>Microsoft.Azure.Test.TestUtilities,GetCurrentMethodName</token>
@@ -137,7 +137,7 @@
 <token>Microsoft.Azure.Test.TestEnvironmentFactory,GetTestEnvironment</token>
 <token>Microsoft.Azure.Test.TestEnvironment,UsesCustomUri</token>
 </entry>
-<entry count="64">
+<entry count="256">
 <token>Microsoft.Azure.Test.TestEnvironmentFactory,GetTestEnvironment</token>
 <token>Microsoft.Azure.Test.CSMTestEnvironmentFactory,new</token>
 </entry>
@@ -167,18 +167,18 @@
 <token>Microsoft.Azure.Test.RDFETestEnvironmentFactory,new</token>
 <token>Microsoft.Azure.Test.TestBase,GetServiceClient</token>
 </entry>
-<entry count="8">
+<entry count="128">
 <token>Microsoft.Azure.Test.TestUtilities,GetCurrentMethodName</token>
 <token>Microsoft.Azure.Test.TestUtilities,GetCallingClass</token>
 <token>Microsoft.Azure.Test.TestUtilities,GetCurrentMethodName</token>
 <token>Microsoft.Azure.Test.TestUtilities,GetCallingClass</token>
 <token>Microsoft.Azure.Test.TestUtilities,GetCurrentMethodName</token>
 </entry>
-<entry count="66">
+<entry count="258">
 <token>Microsoft.Azure.Test.RDFETestEnvironmentFactory,new</token>
 <token>Microsoft.Azure.Test.TestEnvironmentFactory,GetTestEnvironment</token>
 </entry>
-<entry count="8">
+<entry count="128">
 <token>Microsoft.Azure.Test.TestUtilities,GetCallingClass</token>
 <token>Microsoft.Azure.Test.TestUtilities,GetCurrentMethodName</token>
 <token>Microsoft.Azure.Test.TestUtilities,GetCallingClass</token>
@@ -199,13 +199,13 @@
 <token>Microsoft.Azure.Test.TestUtilities,GenerateName</token>
 <token>Microsoft.Azure.Test.TestUtilities,EndTest</token>
 </entry>
-<entry count="8">
+<entry count="128">
 <token>Microsoft.Azure.Test.TestUtilities,GetCurrentMethodName</token>
 <token>Microsoft.Azure.Test.TestUtilities,GetCallingClass</token>
 <token>Microsoft.Azure.Test.TestUtilities,GetCurrentMethodName</token>
 <token>Microsoft.Azure.Test.TestUtilities,GetCallingClass</token>
 </entry>
-<entry count="8">
+<entry count="128">
 <token>Microsoft.Azure.Test.TestUtilities,GenerateName</token>
 <token>Microsoft.Azure.Test.TestUtilities,GetCallingClass</token>
 </entry>
@@ -214,7 +214,7 @@
 <token>Microsoft.Azure.Test.TestBase,GetServiceClient</token>
 <token>Microsoft.Azure.Test.TestUtilities,GenerateName</token>
 </entry>
-<entry count="62">
+<entry count="86">
 <token>Microsoft.Azure.Test.TestUtilities,GetCallingClass</token>
 <token>Microsoft.Azure.Test.TestUtilities,GetCurrentMethodName</token>
 <token>Microsoft.Azure.Test.UndoContext,Start</token>
@@ -252,7 +252,7 @@
 <token>Microsoft.Azure.Test.TestBase,GetServiceClient</token>
 <token>Microsoft.Azure.Test.TestBase,GetServiceClient</token>
 </entry>
-<entry count="12">
+<entry count="16">
 <token>Microsoft.Azure.Test.TestBase,GetServiceClient</token>
 <token>Microsoft.Azure.Test.RDFETestEnvironmentFactory,new</token>
 </entry>
@@ -279,7 +279,7 @@
 <token>Microsoft.Azure.Test.TestUtilities,GenerateName</token>
 <token>Microsoft.Azure.Test.TestUtilities,GenerateName</token>
 </entry>
-<entry count="8">
+<entry count="128">
 <token>Microsoft.Azure.Test.TestUtilities,GenerateName</token>
 <token>Microsoft.Azure.Test.TestUtilities,GetCallingClass</token>
 <token>Microsoft.Azure.Test.TestUtilities,GetCurrentMethodName</token>
@@ -299,7 +299,7 @@
 <token>Microsoft.Azure.Test.TestUtilities,StartTest</token>
 <token>Microsoft.Azure.Test.TestUtilities,GenerateName</token>
 </entry>
-<entry count="16">
+<entry count="256">
 <token>Microsoft.Azure.Test.TestUtilities,GetCallingClass</token>
 <token>Microsoft.Azure.Test.TestUtilities,GetCurrentMethodName</token>
 <token>Microsoft.Azure.Test.TestUtilities,GetCallingClass</token>
@@ -324,7 +324,7 @@
 <token>Microsoft.Azure.Test.TestUtilities,GetCallingClass</token>
 <token>Microsoft.Azure.Test.TestUtilities,GetCurrentMethodName</token>
 </entry>
-<entry count="12">
+<entry count="16">
 <token>Microsoft.Azure.Test.TestBase,GetServiceClient</token>
 <token>Microsoft.Azure.Test.RDFETestEnvironmentFactory,new</token>
 <token>Microsoft.Azure.Test.TestBase,GetServiceClient</token>
@@ -347,7 +347,7 @@
 <token>Microsoft.Azure.Test.TestEnvironmentFactory,GetTestEnvironment</token>
 <token>Microsoft.Azure.Test.TestUtilities,GetCallingClass</token>
 </entry>
-<entry count="8">
+<entry count="128">
 <token>Microsoft.Azure.Test.TestUtilities,GenerateName</token>
 <token>Microsoft.Azure.Test.TestUtilities,GenerateName</token>
 <token>Microsoft.Azure.Test.TestUtilities,GetCallingClass</token>
@@ -369,7 +369,7 @@
 <token>Microsoft.Azure.Test.RDFETestEnvironmentFactory,new</token>
 <token>Microsoft.Azure.Test.TestBase,GetServiceClient</token>
 </entry>
-<entry count="52">
+<entry count="56">
 <token>Microsoft.Azure.Test.RDFETestEnvironmentFactory,new</token>
 <token>Microsoft.Azure.Test.TestBase,GetServiceClient</token>
 </entry>
@@ -398,7 +398,7 @@
 <token>Microsoft.Azure.Test.CSMTestEnvironmentFactory,new</token>
 <token>Microsoft.Azure.Test.RDFETestEnvironmentFactory,new</token>
 </entry>
-<entry count="96">
+<entry count="288">
 <token>Microsoft.Azure.Test.CSMTestEnvironmentFactory,new</token>
 <token>Microsoft.Azure.Test.TestEnvironmentFactory,GetTestEnvironment</token>
 </entry>
@@ -411,11 +411,11 @@
 <token>Microsoft.Azure.Test.TestEnvironmentFactory,GetTestEnvironment</token>
 <token>Microsoft.Azure.Test.TestEnvironment,UsesCustomUri</token>
 </entry>
-<entry count="62">
+<entry count="86">
 <token>Microsoft.Azure.Test.TestUtilities,GetCurrentMethodName</token>
 <token>Microsoft.Azure.Test.UndoContext,Start</token>
 </entry>
-<entry count="8">
+<entry count="128">
 <token>Microsoft.Azure.Test.TestUtilities,GenerateName</token>
 <token>Microsoft.Azure.Test.TestUtilities,GenerateName</token>
 <token>Microsoft.Azure.Test.TestUtilities,GetCallingClass</token>
@@ -439,7 +439,7 @@
 <token>Microsoft.Azure.Test.TestUtilities,GenerateName</token>
 <token>Microsoft.Azure.Test.TestUtilities,GenerateName</token>
 </entry>
-<entry count="16">
+<entry count="256">
 <token>Microsoft.Azure.Test.TestUtilities,GetCurrentMethodName</token>
 <token>Microsoft.Azure.Test.TestUtilities,GetCallingClass</token>
 </entry>

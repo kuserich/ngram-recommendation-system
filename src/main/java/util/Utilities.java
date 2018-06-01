@@ -14,14 +14,14 @@ import java.util.List;
 public class Utilities {
 
     /**
-     * Returns whether the given method name contains illegal name or namespace.
+     * Returns whether the given method name contains an illegal name or namespace.
      *
      * We have noticed during development that there are a lot of method names 
      * that only contain question marks. As we cannot use this in any meaningful
      * way we have decided to remove them.
      *
      * @see extractor.APIVisitor#visit(IInvocationExpression, APISentenceTree)
-     *          the function that uses {@link #hasIllegalMethodName(IMethodName)}
+     *          uses this method
      *
      * @param methodName
      *          Method name of a statement (usually an {@link IInvocationExpression}

@@ -7,7 +7,7 @@
 <token>Microsoft.VisualStudio.Utilities.PropertyCollection,TryGetProperty</token>
 <token>Microsoft.VisualStudio.Utilities.PropertyCollection,GetOrCreateSingletonProperty</token>
 </entry>
-<entry count="2">
+<entry count="12">
 <token>Microsoft.VisualStudio.Utilities.IContentTypeRegistryService,GetContentType</token>
 <token>Microsoft.VisualStudio.Utilities.IContentType,IsOfType</token>
 <token>Microsoft.VisualStudio.Utilities.IContentType,IsOfType</token>
@@ -34,12 +34,18 @@
 <token>Microsoft.VisualStudio.Utilities.PropertyCollection,GetOrCreateSingletonProperty</token>
 <token>Microsoft.VisualStudio.Utilities.PropertyCollection,GetOrCreateSingletonProperty</token>
 </entry>
+<entry count="12">
+<token>Microsoft.VisualStudio.Utilities.IContentType,IsOfType</token>
+<token>Microsoft.VisualStudio.Utilities.IContentType,IsOfType</token>
+<token>Microsoft.VisualStudio.Utilities.IContentTypeRegistryService,GetContentType</token>
+<token>Microsoft.VisualStudio.Utilities.IContentType,IsOfType</token>
+</entry>
 <entry count="30">
 <token>Microsoft.VisualStudio.Utilities.IContentType,IsOfType</token>
 <token>Microsoft.VisualStudio.Utilities.PropertyCollection,GetOrCreateSingletonProperty</token>
 <token>Microsoft.VisualStudio.Utilities.PropertyCollection,GetOrCreateSingletonProperty</token>
 </entry>
-<entry count="2">
+<entry count="48">
 <token>Microsoft.VisualStudio.Utilities.IContentType,IsOfType</token>
 <token>Microsoft.VisualStudio.Utilities.IContentTypeRegistryService,GetContentType</token>
 </entry>
@@ -56,9 +62,16 @@
 <token>Microsoft.VisualStudio.Utilities.PropertyCollection,TryGetProperty</token>
 <token>Microsoft.VisualStudio.Utilities.PropertyCollection,AddProperty</token>
 </entry>
-<entry count="2">
+<entry count="32">
 <token>Microsoft.VisualStudio.Utilities.IContentTypeRegistryService,GetContentType</token>
 <token>Microsoft.VisualStudio.Utilities.IContentType,IsOfType</token>
+</entry>
+<entry count="3">
+<token>Microsoft.VisualStudio.Utilities.IContentType,IsOfType</token>
+<token>Microsoft.VisualStudio.Utilities.IContentType,IsOfType</token>
+<token>Microsoft.VisualStudio.Utilities.IContentTypeRegistryService,GetContentType</token>
+<token>Microsoft.VisualStudio.Utilities.IContentType,IsOfType</token>
+<token>Microsoft.VisualStudio.Utilities.IContentTypeRegistryService,GetContentType</token>
 </entry>
 <entry count="1">
 <token>Microsoft.VisualStudio.Utilities.IContentTypeRegistryService,GetContentType</token>
@@ -70,10 +83,34 @@
 <token>Microsoft.VisualStudio.Utilities.IContentTypeRegistryService,GetContentType</token>
 <token>Microsoft.VisualStudio.Utilities.IContentTypeRegistryService,GetContentType</token>
 </entry>
-<entry count="41">
+<entry count="3">
+<token>Microsoft.VisualStudio.Utilities.IContentTypeRegistryService,GetContentType</token>
+<token>Microsoft.VisualStudio.Utilities.IContentType,IsOfType</token>
+<token>Microsoft.VisualStudio.Utilities.IContentType,IsOfType</token>
+<token>Microsoft.VisualStudio.Utilities.IContentTypeRegistryService,GetContentType</token>
+</entry>
+<entry count="9">
 <token>Microsoft.VisualStudio.Utilities.IContentType,IsOfType</token>
 <token>Microsoft.VisualStudio.Utilities.IContentType,IsOfType</token>
 <token>Microsoft.VisualStudio.Utilities.IContentType,IsOfType</token>
+<token>Microsoft.VisualStudio.Utilities.IContentTypeRegistryService,GetContentType</token>
+</entry>
+<entry count="75">
+<token>Microsoft.VisualStudio.Utilities.IContentType,IsOfType</token>
+<token>Microsoft.VisualStudio.Utilities.IContentType,IsOfType</token>
+<token>Microsoft.VisualStudio.Utilities.IContentType,IsOfType</token>
+</entry>
+<entry count="3">
+<token>Microsoft.VisualStudio.Utilities.IContentType,IsOfType</token>
+<token>Microsoft.VisualStudio.Utilities.IContentTypeRegistryService,GetContentType</token>
+<token>Microsoft.VisualStudio.Utilities.IContentType,IsOfType</token>
+<token>Microsoft.VisualStudio.Utilities.IContentType,IsOfType</token>
+<token>Microsoft.VisualStudio.Utilities.IContentTypeRegistryService,GetContentType</token>
+</entry>
+<entry count="8">
+<token>Microsoft.VisualStudio.Utilities.IContentTypeRegistryService,GetContentType</token>
+<token>Microsoft.VisualStudio.Utilities.IContentType,IsOfType</token>
+<token>Microsoft.VisualStudio.Utilities.IContentTypeRegistryService,GetContentType</token>
 </entry>
 <entry count="54">
 <token>Microsoft.VisualStudio.Utilities.IContentType,IsOfType</token>
@@ -85,6 +122,11 @@
 <token>Microsoft.VisualStudio.Utilities.PropertyCollection,GetOrCreateSingletonProperty</token>
 <token>Microsoft.VisualStudio.Utilities.PropertyCollection,GetOrCreateSingletonProperty</token>
 <token>Microsoft.VisualStudio.Utilities.PropertyCollection,GetOrCreateSingletonProperty</token>
+</entry>
+<entry count="24">
+<token>Microsoft.VisualStudio.Utilities.IContentType,IsOfType</token>
+<token>Microsoft.VisualStudio.Utilities.IContentType,IsOfType</token>
+<token>Microsoft.VisualStudio.Utilities.IContentTypeRegistryService,GetContentType</token>
 </entry>
 <entry count="2">
 <token>Microsoft.VisualStudio.Utilities.PropertyCollection,RemoveProperty</token>
@@ -101,6 +143,13 @@
 <token>Microsoft.VisualStudio.Utilities.IContentTypeRegistryService,GetContentType</token>
 <token>Microsoft.VisualStudio.Utilities.IFileExtensionRegistryService,GetContentTypeForExtension</token>
 </entry>
+<entry count="4">
+<token>Microsoft.VisualStudio.Utilities.IContentType,IsOfType</token>
+<token>Microsoft.VisualStudio.Utilities.IContentTypeRegistryService,GetContentType</token>
+<token>Microsoft.VisualStudio.Utilities.IContentType,IsOfType</token>
+<token>Microsoft.VisualStudio.Utilities.IContentTypeRegistryService,GetContentType</token>
+<token>Microsoft.VisualStudio.Utilities.IContentType,IsOfType</token>
+</entry>
 <entry count="16">
 <token>Microsoft.VisualStudio.Utilities.PropertyCollection,ContainsProperty</token>
 <token>Microsoft.VisualStudio.Utilities.PropertyCollection,TryGetProperty</token>
@@ -109,6 +158,12 @@
 <token>Microsoft.VisualStudio.Utilities.IContentType,IsOfType</token>
 <token>Microsoft.VisualStudio.Utilities.IContentType,IsOfType</token>
 <token>Microsoft.VisualStudio.Utilities.IContentType,IsOfType</token>
+<token>Microsoft.VisualStudio.Utilities.IContentType,IsOfType</token>
+</entry>
+<entry count="4">
+<token>Microsoft.VisualStudio.Utilities.IContentTypeRegistryService,GetContentType</token>
+<token>Microsoft.VisualStudio.Utilities.IContentType,IsOfType</token>
+<token>Microsoft.VisualStudio.Utilities.IContentTypeRegistryService,GetContentType</token>
 <token>Microsoft.VisualStudio.Utilities.IContentType,IsOfType</token>
 </entry>
 <entry count="2">
@@ -129,6 +184,12 @@
 <token>Microsoft.VisualStudio.Utilities.IContentType,IsOfType</token>
 <token>Microsoft.VisualStudio.Utilities.PropertyCollection,GetProperty</token>
 </entry>
+<entry count="8">
+<token>Microsoft.VisualStudio.Utilities.IContentType,IsOfType</token>
+<token>Microsoft.VisualStudio.Utilities.IContentTypeRegistryService,GetContentType</token>
+<token>Microsoft.VisualStudio.Utilities.IContentType,IsOfType</token>
+<token>Microsoft.VisualStudio.Utilities.IContentTypeRegistryService,GetContentType</token>
+</entry>
 <entry count="16">
 <token>Microsoft.VisualStudio.Utilities.PropertyCollection,ContainsProperty</token>
 <token>Microsoft.VisualStudio.Utilities.IContentType,IsOfType</token>
@@ -148,11 +209,18 @@
 <token>Microsoft.VisualStudio.Utilities.PropertyCollection,GetOrCreateSingletonProperty</token>
 <token>Microsoft.VisualStudio.Utilities.PropertyCollection,GetOrCreateSingletonProperty</token>
 </entry>
+<entry count="1">
+<token>Microsoft.VisualStudio.Utilities.IContentTypeRegistryService,GetContentType</token>
+<token>Microsoft.VisualStudio.Utilities.IContentType,IsOfType</token>
+<token>Microsoft.VisualStudio.Utilities.IContentTypeRegistryService,GetContentType</token>
+<token>Microsoft.VisualStudio.Utilities.IContentType,IsOfType</token>
+<token>Microsoft.VisualStudio.Utilities.IContentTypeRegistryService,GetContentType</token>
+</entry>
 <entry count="65">
 <token>Microsoft.VisualStudio.Utilities.PropertyCollection,ContainsProperty</token>
 <token>Microsoft.VisualStudio.Utilities.PropertyCollection,GetProperty</token>
 </entry>
-<entry count="2">
+<entry count="12">
 <token>Microsoft.VisualStudio.Utilities.IContentType,IsOfType</token>
 <token>Microsoft.VisualStudio.Utilities.IContentTypeRegistryService,GetContentType</token>
 <token>Microsoft.VisualStudio.Utilities.IContentType,IsOfType</token>
@@ -162,11 +230,11 @@
 <token>Microsoft.VisualStudio.Utilities.IContentType,IsOfType</token>
 <token>Microsoft.VisualStudio.Utilities.PropertyCollection,TryGetProperty</token>
 </entry>
-<entry count="57">
+<entry count="147">
 <token>Microsoft.VisualStudio.Utilities.IContentType,IsOfType</token>
 <token>Microsoft.VisualStudio.Utilities.IContentType,IsOfType</token>
 </entry>
-<entry count="2">
+<entry count="32">
 <token>Microsoft.VisualStudio.Utilities.IContentType,IsOfType</token>
 <token>Microsoft.VisualStudio.Utilities.IContentTypeRegistryService,GetContentType</token>
 <token>Microsoft.VisualStudio.Utilities.IContentType,IsOfType</token>

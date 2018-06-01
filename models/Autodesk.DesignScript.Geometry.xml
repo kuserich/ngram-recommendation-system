@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><dictionary case_sensitive="false">
-<entry count="8">
+<entry count="32">
 <token>Autodesk.DesignScript.Geometry.Vector,Subtract</token>
 <token>Autodesk.DesignScript.Geometry.Vector,Normalized</token>
 <token>Autodesk.DesignScript.Geometry.Point,AsVector</token>
@@ -8,12 +8,12 @@
 <token>Autodesk.DesignScript.Geometry.Rectangle,ToString</token>
 <token>Autodesk.DesignScript.Geometry.Rectangle,ToString</token>
 </entry>
-<entry count="16">
+<entry count="432">
 <token>Autodesk.DesignScript.Geometry.Geometry,DistanceTo</token>
 <token>Autodesk.DesignScript.Geometry.Line,ByStartPointEndPoint</token>
 <token>Autodesk.DesignScript.Geometry.Geometry,DistanceTo</token>
 </entry>
-<entry count="8">
+<entry count="32">
 <token>Autodesk.DesignScript.Geometry.Geometry,IsAlmostEqualTo</token>
 <token>Autodesk.DesignScript.Geometry.Geometry,IsAlmostEqualTo</token>
 <token>Autodesk.DesignScript.Geometry.Line,ByStartPointEndPoint</token>
@@ -23,46 +23,46 @@
 <token>Autodesk.DesignScript.Geometry.Plane,ToString</token>
 <token>Autodesk.DesignScript.Geometry.Plane,ToString</token>
 </entry>
-<entry count="16">
+<entry count="64">
 <token>Autodesk.DesignScript.Geometry.Point,AsVector</token>
 <token>Autodesk.DesignScript.Geometry.Point,AsVector</token>
 <token>Autodesk.DesignScript.Geometry.Vector,Subtract</token>
 <token>Autodesk.DesignScript.Geometry.Vector,Normalized</token>
 </entry>
-<entry count="4">
+<entry count="8">
 <token>Autodesk.DesignScript.Geometry.Vector,Subtract</token>
 <token>Autodesk.DesignScript.Geometry.Vector,Cross</token>
 <token>Autodesk.DesignScript.Geometry.Vector,Dot</token>
 </entry>
-<entry count="16">
+<entry count="432">
 <token>Autodesk.DesignScript.Geometry.Surface,PointAtParameter</token>
 <token>Autodesk.DesignScript.Geometry.Surface,PointAtParameter</token>
 <token>Autodesk.DesignScript.Geometry.Geometry,DistanceTo</token>
 </entry>
-<entry count="4">
+<entry count="8">
 <token>Autodesk.DesignScript.Geometry.Vector,Subtract</token>
 <token>Autodesk.DesignScript.Geometry.Vector,Subtract</token>
 <token>Autodesk.DesignScript.Geometry.Vector,Cross</token>
 </entry>
-<entry count="4">
+<entry count="108">
 <token>Autodesk.DesignScript.Geometry.Surface,PointAtParameter</token>
 <token>Autodesk.DesignScript.Geometry.Geometry,DistanceTo</token>
 <token>Autodesk.DesignScript.Geometry.Line,ByStartPointEndPoint</token>
 <token>Autodesk.DesignScript.Geometry.Geometry,DistanceTo</token>
 <token>Autodesk.DesignScript.Geometry.Geometry,DistanceTo</token>
 </entry>
-<entry count="8">
+<entry count="216">
 <token>Autodesk.DesignScript.Geometry.Surface,PointAtParameter</token>
 <token>Autodesk.DesignScript.Geometry.Geometry,DistanceTo</token>
 <token>Autodesk.DesignScript.Geometry.Line,ByStartPointEndPoint</token>
 </entry>
-<entry count="8">
+<entry count="32">
 <token>Autodesk.DesignScript.Geometry.Geometry,IsAlmostEqualTo</token>
 <token>Autodesk.DesignScript.Geometry.Line,ByStartPointEndPoint</token>
 <token>Autodesk.DesignScript.Geometry.Geometry,DistanceTo</token>
 <token>Autodesk.DesignScript.Geometry.Point,AsVector</token>
 </entry>
-<entry count="8">
+<entry count="32">
 <token>Autodesk.DesignScript.Geometry.Point,AsVector</token>
 <token>Autodesk.DesignScript.Geometry.Point,AsVector</token>
 <token>Autodesk.DesignScript.Geometry.Vector,Subtract</token>
@@ -74,7 +74,7 @@
 <token>Autodesk.DesignScript.Geometry.UV,ByCoordinates</token>
 <token>Autodesk.DesignScript.Geometry.UV,ByCoordinates</token>
 </entry>
-<entry count="8">
+<entry count="32">
 <token>Autodesk.DesignScript.Geometry.Vector,Subtract</token>
 <token>Autodesk.DesignScript.Geometry.Vector,Normalized</token>
 <token>Autodesk.DesignScript.Geometry.Point,AsVector</token>
@@ -92,23 +92,23 @@
 <token>Autodesk.DesignScript.Geometry.Plane,ToString</token>
 <token>Autodesk.DesignScript.Geometry.Rectangle,ToString</token>
 </entry>
-<entry count="8">
+<entry count="32">
 <token>Autodesk.DesignScript.Geometry.Geometry,IsAlmostEqualTo</token>
 <token>Autodesk.DesignScript.Geometry.Line,ByStartPointEndPoint</token>
 </entry>
-<entry count="8">
+<entry count="32">
 <token>Autodesk.DesignScript.Geometry.Geometry,IsAlmostEqualTo</token>
 <token>Autodesk.DesignScript.Geometry.Line,ByStartPointEndPoint</token>
 <token>Autodesk.DesignScript.Geometry.Geometry,DistanceTo</token>
 </entry>
-<entry count="8">
+<entry count="216">
 <token>Autodesk.DesignScript.Geometry.Surface,PointAtParameter</token>
 <token>Autodesk.DesignScript.Geometry.Surface,PointAtParameter</token>
 <token>Autodesk.DesignScript.Geometry.Surface,PointAtParameter</token>
 <token>Autodesk.DesignScript.Geometry.Geometry,DistanceTo</token>
 <token>Autodesk.DesignScript.Geometry.Geometry,DistanceTo</token>
 </entry>
-<entry count="4">
+<entry count="8">
 <token>Autodesk.DesignScript.Geometry.Vector,Cross</token>
 <token>Autodesk.DesignScript.Geometry.Vector,Dot</token>
 <token>Autodesk.DesignScript.Geometry.Vector,Dot</token>
@@ -119,11 +119,11 @@
 <token>Autodesk.DesignScript.Geometry.NurbsCurve,ByControlPoints</token>
 <token>Autodesk.DesignScript.Geometry.Surface,ByLoft</token>
 </entry>
-<entry count="8">
+<entry count="32">
 <token>Autodesk.DesignScript.Geometry.Vector,Normalized</token>
 <token>Autodesk.DesignScript.Geometry.Vector,Cross</token>
 </entry>
-<entry count="4">
+<entry count="108">
 <token>Autodesk.DesignScript.Geometry.Surface,PointAtParameter</token>
 <token>Autodesk.DesignScript.Geometry.Geometry,DistanceTo</token>
 <token>Autodesk.DesignScript.Geometry.Geometry,DistanceTo</token>
@@ -135,28 +135,28 @@
 <token>Autodesk.DesignScript.Geometry.NurbsCurve,ByControlPoints</token>
 <token>Autodesk.DesignScript.Geometry.Surface,ByLoft</token>
 </entry>
-<entry count="4">
+<entry count="108">
 <token>Autodesk.DesignScript.Geometry.Surface,PointAtParameter</token>
 <token>Autodesk.DesignScript.Geometry.Surface,PointAtParameter</token>
 <token>Autodesk.DesignScript.Geometry.Geometry,DistanceTo</token>
 <token>Autodesk.DesignScript.Geometry.Geometry,DistanceTo</token>
 <token>Autodesk.DesignScript.Geometry.Geometry,DistanceTo</token>
 </entry>
-<entry count="8">
+<entry count="216">
 <token>Autodesk.DesignScript.Geometry.Line,ByStartPointEndPoint</token>
 <token>Autodesk.DesignScript.Geometry.Geometry,DistanceTo</token>
 <token>Autodesk.DesignScript.Geometry.Line,ByStartPointEndPoint</token>
 </entry>
-<entry count="8">
+<entry count="32">
 <token>Autodesk.DesignScript.Geometry.Line,ByStartPointEndPoint</token>
 <token>Autodesk.DesignScript.Geometry.Geometry,DistanceTo</token>
 <token>Autodesk.DesignScript.Geometry.Point,AsVector</token>
 </entry>
-<entry count="16">
+<entry count="64">
 <token>Autodesk.DesignScript.Geometry.Vector,Subtract</token>
 <token>Autodesk.DesignScript.Geometry.Vector,Normalized</token>
 </entry>
-<entry count="8">
+<entry count="32">
 <token>Autodesk.DesignScript.Geometry.Geometry,DistanceTo</token>
 <token>Autodesk.DesignScript.Geometry.Point,AsVector</token>
 <token>Autodesk.DesignScript.Geometry.Point,AsVector</token>
@@ -167,18 +167,18 @@
 <token>Autodesk.DesignScript.Geometry.Point,ByCoordinates</token>
 <token>Autodesk.DesignScript.Geometry.Point,ByCoordinates</token>
 </entry>
+<entry count="864">
+<token>Autodesk.DesignScript.Geometry.Surface,PointAtParameter</token>
+<token>Autodesk.DesignScript.Geometry.Surface,PointAtParameter</token>
+</entry>
+<entry count="54">
+<token>Autodesk.DesignScript.Geometry.Line,ByStartPointEndPoint</token>
+<token>Autodesk.DesignScript.Geometry.Geometry,DistanceTo</token>
+<token>Autodesk.DesignScript.Geometry.Line,ByStartPointEndPoint</token>
+<token>Autodesk.DesignScript.Geometry.Geometry,DistanceTo</token>
+<token>Autodesk.DesignScript.Geometry.Line,ByStartPointEndPoint</token>
+</entry>
 <entry count="32">
-<token>Autodesk.DesignScript.Geometry.Surface,PointAtParameter</token>
-<token>Autodesk.DesignScript.Geometry.Surface,PointAtParameter</token>
-</entry>
-<entry count="2">
-<token>Autodesk.DesignScript.Geometry.Line,ByStartPointEndPoint</token>
-<token>Autodesk.DesignScript.Geometry.Geometry,DistanceTo</token>
-<token>Autodesk.DesignScript.Geometry.Line,ByStartPointEndPoint</token>
-<token>Autodesk.DesignScript.Geometry.Geometry,DistanceTo</token>
-<token>Autodesk.DesignScript.Geometry.Line,ByStartPointEndPoint</token>
-</entry>
-<entry count="8">
 <token>Autodesk.DesignScript.Geometry.Vector,Subtract</token>
 <token>Autodesk.DesignScript.Geometry.Vector,Normalized</token>
 <token>Autodesk.DesignScript.Geometry.Vector,Cross</token>
@@ -188,18 +188,18 @@
 <token>Autodesk.DesignScript.Geometry.Rectangle,ToString</token>
 <token>Autodesk.DesignScript.Geometry.Rectangle,ToString</token>
 </entry>
-<entry count="4">
+<entry count="108">
 <token>Autodesk.DesignScript.Geometry.Surface,PointAtParameter</token>
 <token>Autodesk.DesignScript.Geometry.Geometry,DistanceTo</token>
 <token>Autodesk.DesignScript.Geometry.Geometry,DistanceTo</token>
 <token>Autodesk.DesignScript.Geometry.Geometry,DistanceTo</token>
 </entry>
-<entry count="8">
+<entry count="32">
 <token>Autodesk.DesignScript.Geometry.Vector,Normalized</token>
 <token>Autodesk.DesignScript.Geometry.Point,AsVector</token>
 <token>Autodesk.DesignScript.Geometry.Point,AsVector</token>
 </entry>
-<entry count="8">
+<entry count="216">
 <token>Autodesk.DesignScript.Geometry.Surface,PointAtParameter</token>
 <token>Autodesk.DesignScript.Geometry.Geometry,DistanceTo</token>
 <token>Autodesk.DesignScript.Geometry.Line,ByStartPointEndPoint</token>
@@ -215,11 +215,11 @@
 <token>Autodesk.DesignScript.Geometry.Point,ByCoordinates</token>
 <token>Autodesk.DesignScript.Geometry.NurbsCurve,ByControlPoints</token>
 </entry>
-<entry count="16">
+<entry count="432">
 <token>Autodesk.DesignScript.Geometry.Geometry,DistanceTo</token>
 <token>Autodesk.DesignScript.Geometry.Geometry,DistanceTo</token>
 </entry>
-<entry count="16">
+<entry count="64">
 <token>Autodesk.DesignScript.Geometry.Point,AsVector</token>
 <token>Autodesk.DesignScript.Geometry.Point,AsVector</token>
 <token>Autodesk.DesignScript.Geometry.Vector,Subtract</token>
@@ -235,7 +235,7 @@
 <token>Autodesk.DesignScript.Geometry.Vector,Add</token>
 <token>Autodesk.DesignScript.Geometry.Vector,Scale</token>
 </entry>
-<entry count="4">
+<entry count="8">
 <token>Autodesk.DesignScript.Geometry.Vector,Subtract</token>
 <token>Autodesk.DesignScript.Geometry.Vector,Subtract</token>
 <token>Autodesk.DesignScript.Geometry.Vector,Cross</token>
@@ -253,22 +253,26 @@
 <token>Autodesk.DesignScript.Geometry.Surface,ByLoft</token>
 <token>Autodesk.DesignScript.Geometry.Surface,PointAtParameter</token>
 </entry>
-<entry count="16">
+<entry count="432">
 <token>Autodesk.DesignScript.Geometry.Surface,PointAtParameter</token>
 <token>Autodesk.DesignScript.Geometry.Surface,PointAtParameter</token>
 <token>Autodesk.DesignScript.Geometry.Surface,PointAtParameter</token>
 </entry>
-<entry count="4">
+<entry count="1">
+<token>Autodesk.DesignScript.Geometry.Solid,ToString</token>
+<token>Autodesk.DesignScript.Geometry.Solid,ToString</token>
+</entry>
+<entry count="8">
 <token>Autodesk.DesignScript.Geometry.Vector,Cross</token>
 <token>Autodesk.DesignScript.Geometry.Vector,Dot</token>
 </entry>
-<entry count="4">
+<entry count="8">
 <token>Autodesk.DesignScript.Geometry.Vector,Subtract</token>
 <token>Autodesk.DesignScript.Geometry.Vector,Subtract</token>
 <token>Autodesk.DesignScript.Geometry.Vector,Cross</token>
 <token>Autodesk.DesignScript.Geometry.Vector,Dot</token>
 </entry>
-<entry count="4">
+<entry count="108">
 <token>Autodesk.DesignScript.Geometry.Geometry,DistanceTo</token>
 <token>Autodesk.DesignScript.Geometry.Geometry,DistanceTo</token>
 <token>Autodesk.DesignScript.Geometry.Line,ByStartPointEndPoint</token>
@@ -281,48 +285,48 @@
 <token>Autodesk.DesignScript.Geometry.NurbsCurve,ByControlPoints</token>
 <token>Autodesk.DesignScript.Geometry.NurbsCurve,ByControlPoints</token>
 </entry>
-<entry count="2">
+<entry count="54">
 <token>Autodesk.DesignScript.Geometry.Geometry,DistanceTo</token>
 <token>Autodesk.DesignScript.Geometry.Line,ByStartPointEndPoint</token>
 <token>Autodesk.DesignScript.Geometry.Geometry,DistanceTo</token>
 <token>Autodesk.DesignScript.Geometry.Geometry,DistanceTo</token>
 <token>Autodesk.DesignScript.Geometry.Line,ByStartPointEndPoint</token>
 </entry>
-<entry count="24">
+<entry count="464">
 <token>Autodesk.DesignScript.Geometry.Line,ByStartPointEndPoint</token>
 <token>Autodesk.DesignScript.Geometry.Geometry,DistanceTo</token>
 </entry>
-<entry count="2">
+<entry count="54">
 <token>Autodesk.DesignScript.Geometry.Geometry,DistanceTo</token>
 <token>Autodesk.DesignScript.Geometry.Geometry,DistanceTo</token>
 <token>Autodesk.DesignScript.Geometry.Line,ByStartPointEndPoint</token>
 <token>Autodesk.DesignScript.Geometry.Geometry,DistanceTo</token>
 <token>Autodesk.DesignScript.Geometry.Line,ByStartPointEndPoint</token>
 </entry>
-<entry count="2">
+<entry count="54">
 <token>Autodesk.DesignScript.Geometry.Surface,PointAtParameter</token>
 <token>Autodesk.DesignScript.Geometry.Geometry,DistanceTo</token>
 <token>Autodesk.DesignScript.Geometry.Geometry,DistanceTo</token>
 <token>Autodesk.DesignScript.Geometry.Geometry,DistanceTo</token>
 <token>Autodesk.DesignScript.Geometry.Line,ByStartPointEndPoint</token>
 </entry>
-<entry count="4">
+<entry count="32">
 <token>Autodesk.DesignScript.Geometry.Surface,ToString</token>
 <token>Autodesk.DesignScript.Geometry.Surface,ToString</token>
 </entry>
-<entry count="8">
+<entry count="216">
 <token>Autodesk.DesignScript.Geometry.Surface,PointAtParameter</token>
 <token>Autodesk.DesignScript.Geometry.Surface,PointAtParameter</token>
 <token>Autodesk.DesignScript.Geometry.Geometry,DistanceTo</token>
 <token>Autodesk.DesignScript.Geometry.Geometry,DistanceTo</token>
 </entry>
-<entry count="8">
+<entry count="32">
 <token>Autodesk.DesignScript.Geometry.Geometry,IsAlmostEqualTo</token>
 <token>Autodesk.DesignScript.Geometry.Geometry,IsAlmostEqualTo</token>
 <token>Autodesk.DesignScript.Geometry.Geometry,IsAlmostEqualTo</token>
 <token>Autodesk.DesignScript.Geometry.Line,ByStartPointEndPoint</token>
 </entry>
-<entry count="4">
+<entry count="108">
 <token>Autodesk.DesignScript.Geometry.Surface,PointAtParameter</token>
 <token>Autodesk.DesignScript.Geometry.Surface,PointAtParameter</token>
 <token>Autodesk.DesignScript.Geometry.Geometry,DistanceTo</token>
@@ -333,7 +337,7 @@
 <token>Autodesk.DesignScript.Geometry.HostFactory,StartUp</token>
 <token>Autodesk.DesignScript.Geometry.NurbsCurve,ByControlPoints</token>
 </entry>
-<entry count="8">
+<entry count="32">
 <token>Autodesk.DesignScript.Geometry.Geometry,IsAlmostEqualTo</token>
 <token>Autodesk.DesignScript.Geometry.Geometry,IsAlmostEqualTo</token>
 <token>Autodesk.DesignScript.Geometry.Geometry,IsAlmostEqualTo</token>
@@ -343,23 +347,23 @@
 <token>Autodesk.DesignScript.Geometry.Surface,ByLoft</token>
 <token>Autodesk.DesignScript.Geometry.Surface,PointAtParameter</token>
 </entry>
-<entry count="4">
+<entry count="8">
 <token>Autodesk.DesignScript.Geometry.Vector,Dot</token>
 <token>Autodesk.DesignScript.Geometry.Vector,Dot</token>
 </entry>
-<entry count="4">
+<entry count="8">
 <token>Autodesk.DesignScript.Geometry.Vector,Subtract</token>
 <token>Autodesk.DesignScript.Geometry.Vector,Cross</token>
 <token>Autodesk.DesignScript.Geometry.Vector,Dot</token>
 <token>Autodesk.DesignScript.Geometry.Vector,Dot</token>
 </entry>
-<entry count="2">
+<entry count="54">
 <token>Autodesk.DesignScript.Geometry.Line,ByStartPointEndPoint</token>
 <token>Autodesk.DesignScript.Geometry.Geometry,DistanceTo</token>
 <token>Autodesk.DesignScript.Geometry.Geometry,DistanceTo</token>
 <token>Autodesk.DesignScript.Geometry.Line,ByStartPointEndPoint</token>
 </entry>
-<entry count="8">
+<entry count="32">
 <token>Autodesk.DesignScript.Geometry.Point,AsVector</token>
 <token>Autodesk.DesignScript.Geometry.Vector,Subtract</token>
 <token>Autodesk.DesignScript.Geometry.Vector,Normalized</token>
@@ -371,11 +375,11 @@
 <token>Autodesk.DesignScript.Geometry.Point,ByCoordinates</token>
 <token>Autodesk.DesignScript.Geometry.NurbsCurve,ByControlPoints</token>
 </entry>
-<entry count="24">
+<entry count="648">
 <token>Autodesk.DesignScript.Geometry.Geometry,DistanceTo</token>
 <token>Autodesk.DesignScript.Geometry.Line,ByStartPointEndPoint</token>
 </entry>
-<entry count="16">
+<entry count="64">
 <token>Autodesk.DesignScript.Geometry.Point,AsVector</token>
 <token>Autodesk.DesignScript.Geometry.Vector,Subtract</token>
 </entry>
@@ -395,7 +399,7 @@
 <token>Autodesk.DesignScript.Geometry.Rectangle,ToString</token>
 <token>Autodesk.DesignScript.Geometry.Rectangle,ToString</token>
 </entry>
-<entry count="8">
+<entry count="216">
 <token>Autodesk.DesignScript.Geometry.Geometry,DistanceTo</token>
 <token>Autodesk.DesignScript.Geometry.Line,ByStartPointEndPoint</token>
 <token>Autodesk.DesignScript.Geometry.Geometry,DistanceTo</token>
@@ -408,14 +412,14 @@
 <token>Autodesk.DesignScript.Geometry.NurbsCurve,ByControlPoints</token>
 <token>Autodesk.DesignScript.Geometry.Surface,ByLoft</token>
 </entry>
-<entry count="8">
+<entry count="216">
 <token>Autodesk.DesignScript.Geometry.Surface,PointAtParameter</token>
 <token>Autodesk.DesignScript.Geometry.Surface,PointAtParameter</token>
 <token>Autodesk.DesignScript.Geometry.Surface,PointAtParameter</token>
 <token>Autodesk.DesignScript.Geometry.Geometry,DistanceTo</token>
 <token>Autodesk.DesignScript.Geometry.Line,ByStartPointEndPoint</token>
 </entry>
-<entry count="8">
+<entry count="32">
 <token>Autodesk.DesignScript.Geometry.Geometry,IsAlmostEqualTo</token>
 <token>Autodesk.DesignScript.Geometry.Geometry,IsAlmostEqualTo</token>
 <token>Autodesk.DesignScript.Geometry.Geometry,IsAlmostEqualTo</token>
@@ -426,14 +430,14 @@
 <token>Autodesk.DesignScript.Geometry.Rectangle,ByWidthLength</token>
 <token>Autodesk.DesignScript.Geometry.Surface,ByPatch</token>
 </entry>
-<entry count="8">
+<entry count="32">
 <token>Autodesk.DesignScript.Geometry.Point,AsVector</token>
 <token>Autodesk.DesignScript.Geometry.Vector,Subtract</token>
 <token>Autodesk.DesignScript.Geometry.Vector,Normalized</token>
 <token>Autodesk.DesignScript.Geometry.Point,AsVector</token>
 <token>Autodesk.DesignScript.Geometry.Point,AsVector</token>
 </entry>
-<entry count="4">
+<entry count="108">
 <token>Autodesk.DesignScript.Geometry.Line,ByStartPointEndPoint</token>
 <token>Autodesk.DesignScript.Geometry.Geometry,DistanceTo</token>
 <token>Autodesk.DesignScript.Geometry.Line,ByStartPointEndPoint</token>
@@ -449,45 +453,45 @@
 <token>Autodesk.DesignScript.Geometry.Point,ToString</token>
 <token>Autodesk.DesignScript.Geometry.Solid,ToString</token>
 </entry>
-<entry count="4">
+<entry count="108">
 <token>Autodesk.DesignScript.Geometry.Surface,PointAtParameter</token>
 <token>Autodesk.DesignScript.Geometry.Geometry,DistanceTo</token>
 <token>Autodesk.DesignScript.Geometry.Geometry,DistanceTo</token>
 <token>Autodesk.DesignScript.Geometry.Line,ByStartPointEndPoint</token>
 </entry>
-<entry count="4">
+<entry count="108">
 <token>Autodesk.DesignScript.Geometry.Surface,PointAtParameter</token>
 <token>Autodesk.DesignScript.Geometry.Geometry,DistanceTo</token>
 <token>Autodesk.DesignScript.Geometry.Line,ByStartPointEndPoint</token>
 <token>Autodesk.DesignScript.Geometry.Geometry,DistanceTo</token>
 <token>Autodesk.DesignScript.Geometry.Line,ByStartPointEndPoint</token>
 </entry>
-<entry count="8">
+<entry count="216">
 <token>Autodesk.DesignScript.Geometry.Surface,PointAtParameter</token>
 <token>Autodesk.DesignScript.Geometry.Geometry,DistanceTo</token>
 <token>Autodesk.DesignScript.Geometry.Geometry,DistanceTo</token>
 </entry>
-<entry count="8">
+<entry count="32">
 <token>Autodesk.DesignScript.Geometry.Geometry,DistanceTo</token>
 <token>Autodesk.DesignScript.Geometry.Point,AsVector</token>
 <token>Autodesk.DesignScript.Geometry.Point,AsVector</token>
 <token>Autodesk.DesignScript.Geometry.Vector,Subtract</token>
 <token>Autodesk.DesignScript.Geometry.Vector,Normalized</token>
 </entry>
-<entry count="8">
+<entry count="32">
 <token>Autodesk.DesignScript.Geometry.Geometry,IsAlmostEqualTo</token>
 <token>Autodesk.DesignScript.Geometry.Geometry,IsAlmostEqualTo</token>
 <token>Autodesk.DesignScript.Geometry.Line,ByStartPointEndPoint</token>
 <token>Autodesk.DesignScript.Geometry.Geometry,DistanceTo</token>
 <token>Autodesk.DesignScript.Geometry.Point,AsVector</token>
 </entry>
-<entry count="8">
+<entry count="216">
 <token>Autodesk.DesignScript.Geometry.Surface,PointAtParameter</token>
 <token>Autodesk.DesignScript.Geometry.Surface,PointAtParameter</token>
 <token>Autodesk.DesignScript.Geometry.Geometry,DistanceTo</token>
 <token>Autodesk.DesignScript.Geometry.Line,ByStartPointEndPoint</token>
 </entry>
-<entry count="8">
+<entry count="32">
 <token>Autodesk.DesignScript.Geometry.Line,ByStartPointEndPoint</token>
 <token>Autodesk.DesignScript.Geometry.Geometry,DistanceTo</token>
 <token>Autodesk.DesignScript.Geometry.Point,AsVector</token>
@@ -509,7 +513,7 @@
 <token>Autodesk.DesignScript.Geometry.Surface,ByLoft</token>
 <token>Autodesk.DesignScript.Geometry.Surface,PointAtParameter</token>
 </entry>
-<entry count="4">
+<entry count="108">
 <token>Autodesk.DesignScript.Geometry.Geometry,DistanceTo</token>
 <token>Autodesk.DesignScript.Geometry.Geometry,DistanceTo</token>
 <token>Autodesk.DesignScript.Geometry.Geometry,DistanceTo</token>
@@ -518,7 +522,7 @@
 <token>Autodesk.DesignScript.Geometry.HostFactory,StartUp</token>
 <token>Autodesk.DesignScript.Geometry.Point,ByCoordinates</token>
 </entry>
-<entry count="8">
+<entry count="32">
 <token>Autodesk.DesignScript.Geometry.Point,AsVector</token>
 <token>Autodesk.DesignScript.Geometry.Point,AsVector</token>
 <token>Autodesk.DesignScript.Geometry.Vector,Subtract</token>
@@ -530,63 +534,63 @@
 <token>Autodesk.DesignScript.Geometry.NurbsCurve,ByControlPoints</token>
 <token>Autodesk.DesignScript.Geometry.NurbsCurve,ByControlPoints</token>
 </entry>
-<entry count="8">
+<entry count="216">
 <token>Autodesk.DesignScript.Geometry.Surface,PointAtParameter</token>
 <token>Autodesk.DesignScript.Geometry.Surface,PointAtParameter</token>
 <token>Autodesk.DesignScript.Geometry.Geometry,DistanceTo</token>
 <token>Autodesk.DesignScript.Geometry.Line,ByStartPointEndPoint</token>
 <token>Autodesk.DesignScript.Geometry.Geometry,DistanceTo</token>
 </entry>
-<entry count="8">
+<entry count="32">
 <token>Autodesk.DesignScript.Geometry.Geometry,DistanceTo</token>
 <token>Autodesk.DesignScript.Geometry.Point,AsVector</token>
 </entry>
-<entry count="8">
+<entry count="32">
 <token>Autodesk.DesignScript.Geometry.Point,AsVector</token>
 <token>Autodesk.DesignScript.Geometry.Vector,Subtract</token>
 <token>Autodesk.DesignScript.Geometry.Vector,Normalized</token>
 <token>Autodesk.DesignScript.Geometry.Point,AsVector</token>
 </entry>
-<entry count="4">
-<token>Autodesk.DesignScript.Geometry.Vector,Subtract</token>
-<token>Autodesk.DesignScript.Geometry.Vector,Subtract</token>
-</entry>
-<entry count="2">
-<token>Autodesk.DesignScript.Geometry.Geometry,DistanceTo</token>
-<token>Autodesk.DesignScript.Geometry.Geometry,DistanceTo</token>
-<token>Autodesk.DesignScript.Geometry.Geometry,DistanceTo</token>
-<token>Autodesk.DesignScript.Geometry.Line,ByStartPointEndPoint</token>
-</entry>
-<entry count="16">
-<token>Autodesk.DesignScript.Geometry.Point,AsVector</token>
-<token>Autodesk.DesignScript.Geometry.Point,AsVector</token>
-</entry>
-<entry count="4">
-<token>Autodesk.DesignScript.Geometry.Geometry,DistanceTo</token>
-<token>Autodesk.DesignScript.Geometry.Line,ByStartPointEndPoint</token>
-<token>Autodesk.DesignScript.Geometry.Geometry,DistanceTo</token>
-<token>Autodesk.DesignScript.Geometry.Line,ByStartPointEndPoint</token>
-<token>Autodesk.DesignScript.Geometry.Geometry,DistanceTo</token>
-</entry>
 <entry count="8">
+<token>Autodesk.DesignScript.Geometry.Vector,Subtract</token>
+<token>Autodesk.DesignScript.Geometry.Vector,Subtract</token>
+</entry>
+<entry count="54">
+<token>Autodesk.DesignScript.Geometry.Geometry,DistanceTo</token>
+<token>Autodesk.DesignScript.Geometry.Geometry,DistanceTo</token>
+<token>Autodesk.DesignScript.Geometry.Geometry,DistanceTo</token>
+<token>Autodesk.DesignScript.Geometry.Line,ByStartPointEndPoint</token>
+</entry>
+<entry count="64">
+<token>Autodesk.DesignScript.Geometry.Point,AsVector</token>
+<token>Autodesk.DesignScript.Geometry.Point,AsVector</token>
+</entry>
+<entry count="108">
+<token>Autodesk.DesignScript.Geometry.Geometry,DistanceTo</token>
+<token>Autodesk.DesignScript.Geometry.Line,ByStartPointEndPoint</token>
+<token>Autodesk.DesignScript.Geometry.Geometry,DistanceTo</token>
+<token>Autodesk.DesignScript.Geometry.Line,ByStartPointEndPoint</token>
+<token>Autodesk.DesignScript.Geometry.Geometry,DistanceTo</token>
+</entry>
+<entry count="32">
 <token>Autodesk.DesignScript.Geometry.Geometry,IsAlmostEqualTo</token>
 <token>Autodesk.DesignScript.Geometry.Line,ByStartPointEndPoint</token>
 <token>Autodesk.DesignScript.Geometry.Geometry,DistanceTo</token>
 <token>Autodesk.DesignScript.Geometry.Point,AsVector</token>
 <token>Autodesk.DesignScript.Geometry.Point,AsVector</token>
 </entry>
-<entry count="8">
+<entry count="32">
 <token>Autodesk.DesignScript.Geometry.Vector,Normalized</token>
 <token>Autodesk.DesignScript.Geometry.Point,AsVector</token>
 <token>Autodesk.DesignScript.Geometry.Point,AsVector</token>
 <token>Autodesk.DesignScript.Geometry.Vector,Subtract</token>
 <token>Autodesk.DesignScript.Geometry.Vector,Normalized</token>
 </entry>
-<entry count="8">
+<entry count="32">
 <token>Autodesk.DesignScript.Geometry.Vector,Normalized</token>
 <token>Autodesk.DesignScript.Geometry.Point,AsVector</token>
 </entry>
-<entry count="8">
+<entry count="32">
 <token>Autodesk.DesignScript.Geometry.Vector,Normalized</token>
 <token>Autodesk.DesignScript.Geometry.Point,AsVector</token>
 <token>Autodesk.DesignScript.Geometry.Point,AsVector</token>
@@ -600,7 +604,7 @@
 <token>Autodesk.DesignScript.Geometry.Vector,Add</token>
 <token>Autodesk.DesignScript.Geometry.Vector,Scale</token>
 </entry>
-<entry count="16">
+<entry count="64">
 <token>Autodesk.DesignScript.Geometry.Point,AsVector</token>
 <token>Autodesk.DesignScript.Geometry.Vector,Subtract</token>
 <token>Autodesk.DesignScript.Geometry.Vector,Normalized</token>
@@ -609,13 +613,13 @@
 <token>Autodesk.DesignScript.Geometry.NurbsCurve,ByControlPoints</token>
 <token>Autodesk.DesignScript.Geometry.NurbsCurve,ByControlPoints</token>
 </entry>
-<entry count="4">
+<entry count="108">
 <token>Autodesk.DesignScript.Geometry.Geometry,DistanceTo</token>
 <token>Autodesk.DesignScript.Geometry.Line,ByStartPointEndPoint</token>
 <token>Autodesk.DesignScript.Geometry.Geometry,DistanceTo</token>
 <token>Autodesk.DesignScript.Geometry.Geometry,DistanceTo</token>
 </entry>
-<entry count="16">
+<entry count="432">
 <token>Autodesk.DesignScript.Geometry.Surface,PointAtParameter</token>
 <token>Autodesk.DesignScript.Geometry.Surface,PointAtParameter</token>
 <token>Autodesk.DesignScript.Geometry.Surface,PointAtParameter</token>
@@ -626,14 +630,14 @@
 <token>Autodesk.DesignScript.Geometry.Vector,ByCoordinates</token>
 <token>Autodesk.DesignScript.Geometry.Vector,ByCoordinates</token>
 </entry>
-<entry count="8">
+<entry count="32">
 <token>Autodesk.DesignScript.Geometry.Vector,Subtract</token>
 <token>Autodesk.DesignScript.Geometry.Vector,Normalized</token>
 <token>Autodesk.DesignScript.Geometry.Point,AsVector</token>
 <token>Autodesk.DesignScript.Geometry.Point,AsVector</token>
 <token>Autodesk.DesignScript.Geometry.Vector,Subtract</token>
 </entry>
-<entry count="8">
+<entry count="216">
 <token>Autodesk.DesignScript.Geometry.Geometry,DistanceTo</token>
 <token>Autodesk.DesignScript.Geometry.Geometry,DistanceTo</token>
 <token>Autodesk.DesignScript.Geometry.Line,ByStartPointEndPoint</token>
@@ -650,7 +654,7 @@
 <token>Autodesk.DesignScript.Geometry.Point,ByCoordinates</token>
 <token>Autodesk.DesignScript.Geometry.NurbsCurve,ByControlPoints</token>
 </entry>
-<entry count="8">
+<entry count="32">
 <token>Autodesk.DesignScript.Geometry.Geometry,IsAlmostEqualTo</token>
 <token>Autodesk.DesignScript.Geometry.Geometry,IsAlmostEqualTo</token>
 <token>Autodesk.DesignScript.Geometry.Line,ByStartPointEndPoint</token>
@@ -663,12 +667,12 @@
 <token>Autodesk.DesignScript.Geometry.UV,ByCoordinates</token>
 <token>Autodesk.DesignScript.Geometry.UV,ByCoordinates</token>
 </entry>
-<entry count="4">
+<entry count="108">
 <token>Autodesk.DesignScript.Geometry.Line,ByStartPointEndPoint</token>
 <token>Autodesk.DesignScript.Geometry.Geometry,DistanceTo</token>
 <token>Autodesk.DesignScript.Geometry.Geometry,DistanceTo</token>
 </entry>
-<entry count="8">
+<entry count="32">
 <token>Autodesk.DesignScript.Geometry.Line,ByStartPointEndPoint</token>
 <token>Autodesk.DesignScript.Geometry.Geometry,DistanceTo</token>
 <token>Autodesk.DesignScript.Geometry.Point,AsVector</token>
@@ -697,15 +701,15 @@
 <token>Autodesk.DesignScript.Geometry.NurbsCurve,ByControlPoints</token>
 <token>Autodesk.DesignScript.Geometry.Surface,ByLoft</token>
 </entry>
-<entry count="20">
+<entry count="436">
 <token>Autodesk.DesignScript.Geometry.Surface,PointAtParameter</token>
 <token>Autodesk.DesignScript.Geometry.Geometry,DistanceTo</token>
 </entry>
-<entry count="16">
+<entry count="64">
 <token>Autodesk.DesignScript.Geometry.Geometry,IsAlmostEqualTo</token>
 <token>Autodesk.DesignScript.Geometry.Geometry,IsAlmostEqualTo</token>
 </entry>
-<entry count="8">
+<entry count="32">
 <token>Autodesk.DesignScript.Geometry.Geometry,DistanceTo</token>
 <token>Autodesk.DesignScript.Geometry.Point,AsVector</token>
 <token>Autodesk.DesignScript.Geometry.Point,AsVector</token>
@@ -722,7 +726,7 @@
 <token>Autodesk.DesignScript.Geometry.Surface,ByLoft</token>
 <token>Autodesk.DesignScript.Geometry.Surface,PointAtParameter</token>
 </entry>
-<entry count="4">
+<entry count="8">
 <token>Autodesk.DesignScript.Geometry.Vector,Subtract</token>
 <token>Autodesk.DesignScript.Geometry.Vector,Cross</token>
 </entry>

@@ -1,29 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?><dictionary case_sensitive="false">
+<entry count="160">
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
+</entry>
 <entry count="4">
 <token>Sanford.Multimedia.Midi.MetaMessage,new</token>
 <token>Sanford.Multimedia.Midi.TimeSignatureBuilder,new</token>
 </entry>
 <entry count="4">
-<token>Sanford.Multimedia.Midi.TempoChangeBuilder,Build</token>
-<token>Sanford.Multimedia.Midi.Track,Insert</token>
-<token>Sanford.Multimedia.Midi.MetaMessage,new</token>
-</entry>
-<entry count="4">
-<token>Sanford.Multimedia.Midi.ChannelMessageBuilder,Build</token>
-<token>Sanford.Multimedia.Midi.Track,Insert</token>
-<token>Sanford.Multimedia.Midi.ChannelMessageBuilder,Build</token>
-</entry>
-<entry count="4">
 <token>Sanford.Multimedia.Midi.MetaTextBuilder,Build</token>
 <token>Sanford.Multimedia.Midi.Track,Insert</token>
 <token>Sanford.Multimedia.Midi.ChannelMessageBuilder,new</token>
 <token>Sanford.Multimedia.Midi.ChannelMessageBuilder,Build</token>
-</entry>
-<entry count="4">
-<token>Sanford.Multimedia.Midi.Track,Insert</token>
-<token>Sanford.Multimedia.Midi.ChannelMessageBuilder,Build</token>
-<token>Sanford.Multimedia.Midi.Track,Insert</token>
-<token>Sanford.Multimedia.Midi.Sequence,Add</token>
 </entry>
 <entry count="4">
 <token>Sanford.Multimedia.Midi.ChannelMessageBuilder,Build</token>
@@ -33,26 +21,10 @@
 <token>Sanford.Multimedia.Midi.Sequence,Add</token>
 </entry>
 <entry count="4">
-<token>Sanford.Multimedia.Midi.MetaMessage,new</token>
-<token>Sanford.Multimedia.Midi.TempoChangeBuilder,new</token>
-</entry>
-<entry count="4">
 <token>Sanford.Multimedia.Midi.MetaTextBuilder,new</token>
 <token>Sanford.Multimedia.Midi.MetaTextBuilder,Build</token>
 <token>Sanford.Multimedia.Midi.Track,Insert</token>
 <token>Sanford.Multimedia.Midi.ChannelMessageBuilder,new</token>
-</entry>
-<entry count="4">
-<token>Sanford.Multimedia.Midi.ChannelMessageBuilder,new</token>
-<token>Sanford.Multimedia.Midi.ChannelMessageBuilder,Build</token>
-<token>Sanford.Multimedia.Midi.Track,Insert</token>
-<token>Sanford.Multimedia.Midi.ChannelMessageBuilder,Build</token>
-<token>Sanford.Multimedia.Midi.Track,Insert</token>
-</entry>
-<entry count="8">
-<token>Sanford.Multimedia.Midi.MetaTextBuilder,new</token>
-<token>Sanford.Multimedia.Midi.MetaTextBuilder,Build</token>
-<token>Sanford.Multimedia.Midi.Track,Insert</token>
 </entry>
 <entry count="4">
 <token>Sanford.Multimedia.Midi.TempoChangeBuilder,new</token>
@@ -68,81 +40,74 @@
 <token>Sanford.Multimedia.Midi.ChannelMessageBuilder,new</token>
 <token>Sanford.Multimedia.Midi.ChannelMessageBuilder,Build</token>
 </entry>
+<entry count="4">
+<token>Sanford.Multimedia.Midi.MetaTextBuilder,Build</token>
+<token>Sanford.Multimedia.Midi.Track,Insert</token>
+<token>Sanford.Multimedia.Midi.Sequence,Add</token>
+</entry>
 <entry count="8">
-<token>Sanford.Multimedia.Midi.Track,new</token>
-<token>Sanford.Multimedia.Midi.MetaTextBuilder,new</token>
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
 </entry>
-<entry count="4">
-<token>Sanford.Multimedia.Midi.MetaMessage,new</token>
-<token>Sanford.Multimedia.Midi.TimeSignatureBuilder,new</token>
-<token>Sanford.Multimedia.Midi.TimeSignatureBuilder,Build</token>
-<token>Sanford.Multimedia.Midi.Track,Insert</token>
+<entry count="8">
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
 </entry>
-<entry count="4">
-<token>Sanford.Multimedia.Midi.MetaTextBuilder,Build</token>
-<token>Sanford.Multimedia.Midi.Track,Insert</token>
-<token>Sanford.Multimedia.Midi.Sequence,Add</token>
-</entry>
-<entry count="1">
-<token>Sanford.Multimedia.Midi.OutputDevice,new</token>
-<token>Sanford.Multimedia.Midi.ChannelMessageBuilder,new</token>
-<token>Sanford.Multimedia.Midi.ChannelMessageBuilder,Build</token>
-<token>Sanford.Multimedia.Midi.OutputDevice,Send</token>
-<token>Sanford.Multimedia.Midi.ChannelMessageBuilder,Build</token>
-</entry>
-<entry count="4">
-<token>Sanford.Multimedia.Midi.MetaMessage,new</token>
-<token>Sanford.Multimedia.Midi.TimeSignatureBuilder,new</token>
-<token>Sanford.Multimedia.Midi.TimeSignatureBuilder,Build</token>
-<token>Sanford.Multimedia.Midi.Track,Insert</token>
-<token>Sanford.Multimedia.Midi.Sequence,Add</token>
-</entry>
-<entry count="4">
-<token>Sanford.Multimedia.Midi.MetaTextBuilder,new</token>
-<token>Sanford.Multimedia.Midi.MetaTextBuilder,Build</token>
-<token>Sanford.Multimedia.Midi.Track,Insert</token>
-<token>Sanford.Multimedia.Midi.Sequence,Add</token>
+<entry count="24">
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
 </entry>
 <entry count="3">
 <token>Sanford.Multimedia.Midi.Sequence,new</token>
 <token>Sanford.Multimedia.Midi.Sequence,new</token>
 </entry>
+<entry count="24">
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
+</entry>
 <entry count="4">
 <token>Sanford.Multimedia.Midi.TempoChangeBuilder,Build</token>
 <token>Sanford.Multimedia.Midi.Track,Insert</token>
 <token>Sanford.Multimedia.Midi.MetaMessage,new</token>
 <token>Sanford.Multimedia.Midi.TimeSignatureBuilder,new</token>
 <token>Sanford.Multimedia.Midi.TimeSignatureBuilder,Build</token>
+</entry>
+<entry count="8">
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
 </entry>
 <entry count="5">
 <token>Sanford.Multimedia.Midi.ChannelMessageBuilder,new</token>
 <token>Sanford.Multimedia.Midi.ChannelMessageBuilder,Build</token>
 </entry>
-<entry count="4">
-<token>Sanford.Multimedia.Midi.TempoChangeBuilder,new</token>
-<token>Sanford.Multimedia.Midi.TempoChangeBuilder,Build</token>
-<token>Sanford.Multimedia.Midi.Track,Insert</token>
-<token>Sanford.Multimedia.Midi.MetaMessage,new</token>
+<entry count="160">
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
 </entry>
-<entry count="1">
-<token>Sanford.Multimedia.Midi.OutputDevice,new</token>
-<token>Sanford.Multimedia.Midi.ChannelMessageBuilder,new</token>
-<token>Sanford.Multimedia.Midi.ChannelMessageBuilder,Build</token>
-</entry>
-<entry count="2">
-<token>Sanford.Multimedia.Midi.Sequence,new</token>
-<token>Sanford.Multimedia.Midi.OutputDevice,new</token>
-</entry>
-<entry count="4">
-<token>Sanford.Multimedia.Midi.Track,new</token>
-<token>Sanford.Multimedia.Midi.MetaMessage,new</token>
-<token>Sanford.Multimedia.Midi.TempoChangeBuilder,new</token>
-<token>Sanford.Multimedia.Midi.TempoChangeBuilder,Build</token>
-<token>Sanford.Multimedia.Midi.Track,Insert</token>
+<entry count="64">
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
 </entry>
 <entry count="8">
-<token>Sanford.Multimedia.Midi.MetaTextBuilder,new</token>
-<token>Sanford.Multimedia.Midi.MetaTextBuilder,Build</token>
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
 </entry>
 <entry count="4">
 <token>Sanford.Multimedia.Midi.Track,new</token>
@@ -151,17 +116,11 @@
 <token>Sanford.Multimedia.Midi.Track,Insert</token>
 <token>Sanford.Multimedia.Midi.ChannelMessageBuilder,new</token>
 </entry>
-<entry count="4">
-<token>Sanford.Multimedia.Midi.Track,Insert</token>
-<token>Sanford.Multimedia.Midi.MetaMessage,new</token>
-<token>Sanford.Multimedia.Midi.TimeSignatureBuilder,new</token>
-<token>Sanford.Multimedia.Midi.TimeSignatureBuilder,Build</token>
-</entry>
-<entry count="4">
-<token>Sanford.Multimedia.Midi.Track,Insert</token>
-<token>Sanford.Multimedia.Midi.ChannelMessageBuilder,new</token>
-<token>Sanford.Multimedia.Midi.ChannelMessageBuilder,Build</token>
-<token>Sanford.Multimedia.Midi.Track,Insert</token>
+<entry count="24">
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
 </entry>
 <entry count="1">
 <token>Sanford.Multimedia.Midi.ChannelMessageBuilder,Build</token>
@@ -185,10 +144,6 @@
 <token>Sanford.Multimedia.Midi.OutputDevice,Send</token>
 <token>Sanford.Multimedia.Midi.ChannelMessageBuilder,Build</token>
 <token>Sanford.Multimedia.Midi.OutputDevice,Send</token>
-</entry>
-<entry count="4">
-<token>Sanford.Multimedia.Midi.Track,Insert</token>
-<token>Sanford.Multimedia.Midi.ChannelMessageBuilder,new</token>
 </entry>
 <entry count="4">
 <token>Sanford.Multimedia.Midi.TimeSignatureBuilder,new</token>
@@ -196,19 +151,34 @@
 <token>Sanford.Multimedia.Midi.Track,Insert</token>
 <token>Sanford.Multimedia.Midi.Sequence,Add</token>
 </entry>
+<entry count="64">
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+</entry>
 <entry count="4">
 <token>Sanford.Multimedia.Midi.ChannelMessageBuilder,Build</token>
 <token>Sanford.Multimedia.Midi.Track,Insert</token>
 <token>Sanford.Multimedia.Midi.Sequence,Add</token>
 </entry>
-<entry count="4">
-<token>Sanford.Multimedia.Midi.ChannelMessageBuilder,new</token>
-<token>Sanford.Multimedia.Midi.ChannelMessageBuilder,Build</token>
-<token>Sanford.Multimedia.Midi.Track,Insert</token>
+<entry count="24">
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+</entry>
+<entry count="24">
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
 </entry>
 <entry count="8">
-<token>Sanford.Multimedia.Midi.ChannelMessageBuilder,Build</token>
-<token>Sanford.Multimedia.Midi.Track,Insert</token>
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
 </entry>
 <entry count="4">
 <token>Sanford.Multimedia.Midi.Track,new</token>
@@ -216,30 +186,35 @@
 <token>Sanford.Multimedia.Midi.TempoChangeBuilder,new</token>
 <token>Sanford.Multimedia.Midi.TempoChangeBuilder,Build</token>
 </entry>
-<entry count="1">
-<token>Sanford.Multimedia.Midi.ChannelMessageBuilder,Build</token>
-<token>Sanford.Multimedia.Midi.OutputDevice,Send</token>
-<token>Sanford.Multimedia.Midi.ChannelMessageBuilder,Build</token>
+<entry count="8">
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+</entry>
+<entry count="8">
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
 </entry>
 <entry count="4">
-<token>Sanford.Multimedia.Midi.MetaMessage,new</token>
 <token>Sanford.Multimedia.Midi.TimeSignatureBuilder,new</token>
 <token>Sanford.Multimedia.Midi.TimeSignatureBuilder,Build</token>
 </entry>
 <entry count="4">
-<token>Sanford.Multimedia.Midi.MetaTextBuilder,Build</token>
-<token>Sanford.Multimedia.Midi.Track,Insert</token>
-<token>Sanford.Multimedia.Midi.ChannelMessageBuilder,new</token>
-</entry>
-<entry count="4">
-<token>Sanford.Multimedia.Midi.TimeSignatureBuilder,new</token>
-<token>Sanford.Multimedia.Midi.TimeSignatureBuilder,Build</token>
-</entry>
-<entry count="4">
 <token>Sanford.Multimedia.Midi.ChannelMessageBuilder,Build</token>
 <token>Sanford.Multimedia.Midi.Track,Insert</token>
 <token>Sanford.Multimedia.Midi.ChannelMessageBuilder,Build</token>
 <token>Sanford.Multimedia.Midi.Track,Insert</token>
+</entry>
+<entry count="24">
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
 </entry>
 <entry count="1">
 <token>Sanford.Multimedia.Midi.Sequencer,new</token>
@@ -249,10 +224,6 @@
 <token>Sanford.Multimedia.Midi.OutputDevice,Send</token>
 </entry>
 <entry count="4">
-<token>Sanford.Multimedia.Midi.Track,new</token>
-<token>Sanford.Multimedia.Midi.MetaMessage,new</token>
-</entry>
-<entry count="4">
 <token>Sanford.Multimedia.Midi.TimeSignatureBuilder,Build</token>
 <token>Sanford.Multimedia.Midi.Track,Insert</token>
 <token>Sanford.Multimedia.Midi.Sequence,Add</token>
@@ -271,9 +242,12 @@
 <token>Sanford.Multimedia.Midi.Track,Insert</token>
 <token>Sanford.Multimedia.Midi.ChannelMessageBuilder,Build</token>
 </entry>
-<entry count="12">
-<token>Sanford.Multimedia.Midi.Track,Insert</token>
-<token>Sanford.Multimedia.Midi.Sequence,Add</token>
+<entry count="8">
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
 </entry>
 <entry count="4">
 <token>Sanford.Multimedia.Midi.TempoChangeBuilder,new</token>
@@ -287,19 +261,31 @@
 <token>Sanford.Multimedia.Midi.Track,Insert</token>
 <token>Sanford.Multimedia.Midi.Sequence,Add</token>
 </entry>
-<entry count="4">
-<token>Sanford.Multimedia.Midi.MetaTextBuilder,Build</token>
-<token>Sanford.Multimedia.Midi.Track,Insert</token>
-<token>Sanford.Multimedia.Midi.ChannelMessageBuilder,new</token>
-<token>Sanford.Multimedia.Midi.ChannelMessageBuilder,Build</token>
-<token>Sanford.Multimedia.Midi.Track,Insert</token>
+<entry count="8">
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
+</entry>
+<entry count="64">
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
+</entry>
+<entry count="8">
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
 </entry>
 <entry count="1">
 <token>Sanford.Multimedia.Midi.OutputDevice,Send</token>
 <token>Sanford.Multimedia.Midi.ChannelMessageBuilder,Build</token>
 <token>Sanford.Multimedia.Midi.OutputDevice,Send</token>
 </entry>
-<entry count="2">
+<entry count="160">
 <token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
 <token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
 </entry>
@@ -315,29 +301,9 @@
 <token>Sanford.Multimedia.Midi.Track,Insert</token>
 </entry>
 <entry count="4">
-<token>Sanford.Multimedia.Midi.TempoChangeBuilder,Build</token>
-<token>Sanford.Multimedia.Midi.Track,Insert</token>
-<token>Sanford.Multimedia.Midi.MetaMessage,new</token>
-<token>Sanford.Multimedia.Midi.TimeSignatureBuilder,new</token>
-</entry>
-<entry count="8">
-<token>Sanford.Multimedia.Midi.MetaTextBuilder,Build</token>
-<token>Sanford.Multimedia.Midi.Track,Insert</token>
-</entry>
-<entry count="8">
-<token>Sanford.Multimedia.Midi.Track,new</token>
-<token>Sanford.Multimedia.Midi.MetaTextBuilder,new</token>
-<token>Sanford.Multimedia.Midi.MetaTextBuilder,Build</token>
-<token>Sanford.Multimedia.Midi.Track,Insert</token>
-</entry>
-<entry count="4">
 <token>Sanford.Multimedia.Midi.Track,Insert</token>
 <token>Sanford.Multimedia.Midi.ChannelMessageBuilder,new</token>
 <token>Sanford.Multimedia.Midi.ChannelMessageBuilder,Build</token>
-</entry>
-<entry count="1">
-<token>Sanford.Multimedia.Midi.OutputDevice,new</token>
-<token>Sanford.Multimedia.Midi.ChannelMessageBuilder,new</token>
 </entry>
 <entry count="4">
 <token>Sanford.Multimedia.Midi.Track,Insert</token>
@@ -360,15 +326,17 @@
 <token>Sanford.Multimedia.Midi.MetaMessage,new</token>
 <token>Sanford.Multimedia.Midi.TempoChangeBuilder,new</token>
 </entry>
-<entry count="1">
-<token>Sanford.Multimedia.Midi.Sequencer,new</token>
-<token>Sanford.Multimedia.Midi.OutputDevice,new</token>
-<token>Sanford.Multimedia.Midi.ChannelMessageBuilder,new</token>
-<token>Sanford.Multimedia.Midi.ChannelMessageBuilder,Build</token>
+<entry count="24">
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
 </entry>
-<entry count="2">
-<token>Sanford.Multimedia.Midi.Sequencer,new</token>
-<token>Sanford.Multimedia.Midi.OutputDevice,new</token>
+<entry count="24">
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
 </entry>
 <entry count="4">
 <token>Sanford.Multimedia.Midi.Track,Insert</token>
@@ -378,6 +346,401 @@
 <entry count="4">
 <token>Sanford.Multimedia.Midi.TempoChangeBuilder,new</token>
 <token>Sanford.Multimedia.Midi.TempoChangeBuilder,Build</token>
+</entry>
+<entry count="64">
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+</entry>
+<entry count="2">
+<token>Sanford.Multimedia.Midi.OutputDevice,new</token>
+<token>Sanford.Multimedia.Midi.Track,Iterator</token>
+</entry>
+<entry count="8">
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
+</entry>
+<entry count="1">
+<token>Sanford.Multimedia.Midi.ChannelMessageBuilder,new</token>
+<token>Sanford.Multimedia.Midi.ChannelMessageBuilder,Build</token>
+<token>Sanford.Multimedia.Midi.OutputDevice,Send</token>
+</entry>
+<entry count="161">
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+</entry>
+<entry count="24">
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+</entry>
+<entry count="8">
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+</entry>
+<entry count="2">
+<token>Sanford.Multimedia.Midi.Sequence,new</token>
+<token>Sanford.Multimedia.Midi.OutputDevice,new</token>
+<token>Sanford.Multimedia.Midi.Track,Iterator</token>
+</entry>
+<entry count="24">
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+</entry>
+<entry count="15">
+<token>Sanford.Multimedia.Midi.Track,Iterator</token>
+<token>Sanford.Multimedia.Midi.Track,Iterator</token>
+</entry>
+<entry count="24">
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
+</entry>
+<entry count="8">
+<token>Sanford.Multimedia.Midi.Track,new</token>
+<token>Sanford.Multimedia.Midi.MetaTextBuilder,new</token>
+<token>Sanford.Multimedia.Midi.MetaTextBuilder,Build</token>
+</entry>
+<entry count="64">
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
+</entry>
+<entry count="8">
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+</entry>
+<entry count="8">
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
+</entry>
+<entry count="4">
+<token>Sanford.Multimedia.Midi.TempoChangeBuilder,Build</token>
+<token>Sanford.Multimedia.Midi.Track,Insert</token>
+<token>Sanford.Multimedia.Midi.MetaMessage,new</token>
+</entry>
+<entry count="4">
+<token>Sanford.Multimedia.Midi.ChannelMessageBuilder,Build</token>
+<token>Sanford.Multimedia.Midi.Track,Insert</token>
+<token>Sanford.Multimedia.Midi.ChannelMessageBuilder,Build</token>
+</entry>
+<entry count="4">
+<token>Sanford.Multimedia.Midi.Track,Insert</token>
+<token>Sanford.Multimedia.Midi.ChannelMessageBuilder,Build</token>
+<token>Sanford.Multimedia.Midi.Track,Insert</token>
+<token>Sanford.Multimedia.Midi.Sequence,Add</token>
+</entry>
+<entry count="4">
+<token>Sanford.Multimedia.Midi.MetaMessage,new</token>
+<token>Sanford.Multimedia.Midi.TempoChangeBuilder,new</token>
+</entry>
+<entry count="4">
+<token>Sanford.Multimedia.Midi.ChannelMessageBuilder,new</token>
+<token>Sanford.Multimedia.Midi.ChannelMessageBuilder,Build</token>
+<token>Sanford.Multimedia.Midi.Track,Insert</token>
+<token>Sanford.Multimedia.Midi.ChannelMessageBuilder,Build</token>
+<token>Sanford.Multimedia.Midi.Track,Insert</token>
+</entry>
+<entry count="8">
+<token>Sanford.Multimedia.Midi.MetaTextBuilder,new</token>
+<token>Sanford.Multimedia.Midi.MetaTextBuilder,Build</token>
+<token>Sanford.Multimedia.Midi.Track,Insert</token>
+</entry>
+<entry count="8">
+<token>Sanford.Multimedia.Midi.Track,new</token>
+<token>Sanford.Multimedia.Midi.MetaTextBuilder,new</token>
+</entry>
+<entry count="4">
+<token>Sanford.Multimedia.Midi.MetaMessage,new</token>
+<token>Sanford.Multimedia.Midi.TimeSignatureBuilder,new</token>
+<token>Sanford.Multimedia.Midi.TimeSignatureBuilder,Build</token>
+<token>Sanford.Multimedia.Midi.Track,Insert</token>
+</entry>
+<entry count="1">
+<token>Sanford.Multimedia.Midi.OutputDevice,new</token>
+<token>Sanford.Multimedia.Midi.ChannelMessageBuilder,new</token>
+<token>Sanford.Multimedia.Midi.ChannelMessageBuilder,Build</token>
+<token>Sanford.Multimedia.Midi.OutputDevice,Send</token>
+<token>Sanford.Multimedia.Midi.ChannelMessageBuilder,Build</token>
+</entry>
+<entry count="4">
+<token>Sanford.Multimedia.Midi.MetaMessage,new</token>
+<token>Sanford.Multimedia.Midi.TimeSignatureBuilder,new</token>
+<token>Sanford.Multimedia.Midi.TimeSignatureBuilder,Build</token>
+<token>Sanford.Multimedia.Midi.Track,Insert</token>
+<token>Sanford.Multimedia.Midi.Sequence,Add</token>
+</entry>
+<entry count="4">
+<token>Sanford.Multimedia.Midi.MetaTextBuilder,new</token>
+<token>Sanford.Multimedia.Midi.MetaTextBuilder,Build</token>
+<token>Sanford.Multimedia.Midi.Track,Insert</token>
+<token>Sanford.Multimedia.Midi.Sequence,Add</token>
+</entry>
+<entry count="4">
+<token>Sanford.Multimedia.Midi.TempoChangeBuilder,new</token>
+<token>Sanford.Multimedia.Midi.TempoChangeBuilder,Build</token>
+<token>Sanford.Multimedia.Midi.Track,Insert</token>
+<token>Sanford.Multimedia.Midi.MetaMessage,new</token>
+</entry>
+<entry count="8">
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+</entry>
+<entry count="1">
+<token>Sanford.Multimedia.Midi.OutputDevice,new</token>
+<token>Sanford.Multimedia.Midi.ChannelMessageBuilder,new</token>
+<token>Sanford.Multimedia.Midi.ChannelMessageBuilder,Build</token>
+</entry>
+<entry count="2">
+<token>Sanford.Multimedia.Midi.Sequence,new</token>
+<token>Sanford.Multimedia.Midi.OutputDevice,new</token>
+</entry>
+<entry count="4">
+<token>Sanford.Multimedia.Midi.Track,new</token>
+<token>Sanford.Multimedia.Midi.MetaMessage,new</token>
+<token>Sanford.Multimedia.Midi.TempoChangeBuilder,new</token>
+<token>Sanford.Multimedia.Midi.TempoChangeBuilder,Build</token>
+<token>Sanford.Multimedia.Midi.Track,Insert</token>
+</entry>
+<entry count="8">
+<token>Sanford.Multimedia.Midi.MetaTextBuilder,new</token>
+<token>Sanford.Multimedia.Midi.MetaTextBuilder,Build</token>
+</entry>
+<entry count="8">
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+</entry>
+<entry count="4">
+<token>Sanford.Multimedia.Midi.Track,Insert</token>
+<token>Sanford.Multimedia.Midi.MetaMessage,new</token>
+<token>Sanford.Multimedia.Midi.TimeSignatureBuilder,new</token>
+<token>Sanford.Multimedia.Midi.TimeSignatureBuilder,Build</token>
+</entry>
+<entry count="4">
+<token>Sanford.Multimedia.Midi.Track,Insert</token>
+<token>Sanford.Multimedia.Midi.ChannelMessageBuilder,new</token>
+<token>Sanford.Multimedia.Midi.ChannelMessageBuilder,Build</token>
+<token>Sanford.Multimedia.Midi.Track,Insert</token>
+</entry>
+<entry count="64">
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+</entry>
+<entry count="8">
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+</entry>
+<entry count="8">
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
+</entry>
+<entry count="4">
+<token>Sanford.Multimedia.Midi.Track,Insert</token>
+<token>Sanford.Multimedia.Midi.ChannelMessageBuilder,new</token>
+</entry>
+<entry count="8">
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+</entry>
+<entry count="4">
+<token>Sanford.Multimedia.Midi.ChannelMessageBuilder,new</token>
+<token>Sanford.Multimedia.Midi.ChannelMessageBuilder,Build</token>
+<token>Sanford.Multimedia.Midi.Track,Insert</token>
+</entry>
+<entry count="8">
+<token>Sanford.Multimedia.Midi.ChannelMessageBuilder,Build</token>
+<token>Sanford.Multimedia.Midi.Track,Insert</token>
+</entry>
+<entry count="24">
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
+</entry>
+<entry count="8">
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+</entry>
+<entry count="8">
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
+</entry>
+<entry count="1">
+<token>Sanford.Multimedia.Midi.ChannelMessageBuilder,Build</token>
+<token>Sanford.Multimedia.Midi.OutputDevice,Send</token>
+<token>Sanford.Multimedia.Midi.ChannelMessageBuilder,Build</token>
+</entry>
+<entry count="4">
+<token>Sanford.Multimedia.Midi.MetaMessage,new</token>
+<token>Sanford.Multimedia.Midi.TimeSignatureBuilder,new</token>
+<token>Sanford.Multimedia.Midi.TimeSignatureBuilder,Build</token>
+</entry>
+<entry count="4">
+<token>Sanford.Multimedia.Midi.MetaTextBuilder,Build</token>
+<token>Sanford.Multimedia.Midi.Track,Insert</token>
+<token>Sanford.Multimedia.Midi.ChannelMessageBuilder,new</token>
+</entry>
+<entry count="8">
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
+</entry>
+<entry count="4">
+<token>Sanford.Multimedia.Midi.Track,new</token>
+<token>Sanford.Multimedia.Midi.MetaMessage,new</token>
+</entry>
+<entry count="8">
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
+</entry>
+<entry count="24">
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
+</entry>
+<entry count="12">
+<token>Sanford.Multimedia.Midi.Track,Insert</token>
+<token>Sanford.Multimedia.Midi.Sequence,Add</token>
+</entry>
+<entry count="8">
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+</entry>
+<entry count="4">
+<token>Sanford.Multimedia.Midi.MetaTextBuilder,Build</token>
+<token>Sanford.Multimedia.Midi.Track,Insert</token>
+<token>Sanford.Multimedia.Midi.ChannelMessageBuilder,new</token>
+<token>Sanford.Multimedia.Midi.ChannelMessageBuilder,Build</token>
+<token>Sanford.Multimedia.Midi.Track,Insert</token>
+</entry>
+<entry count="8">
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
+</entry>
+<entry count="64">
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
+</entry>
+<entry count="24">
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+</entry>
+<entry count="4">
+<token>Sanford.Multimedia.Midi.TempoChangeBuilder,Build</token>
+<token>Sanford.Multimedia.Midi.Track,Insert</token>
+<token>Sanford.Multimedia.Midi.MetaMessage,new</token>
+<token>Sanford.Multimedia.Midi.TimeSignatureBuilder,new</token>
+</entry>
+<entry count="8">
+<token>Sanford.Multimedia.Midi.MetaTextBuilder,Build</token>
+<token>Sanford.Multimedia.Midi.Track,Insert</token>
+</entry>
+<entry count="24">
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+</entry>
+<entry count="8">
+<token>Sanford.Multimedia.Midi.Track,new</token>
+<token>Sanford.Multimedia.Midi.MetaTextBuilder,new</token>
+<token>Sanford.Multimedia.Midi.MetaTextBuilder,Build</token>
+<token>Sanford.Multimedia.Midi.Track,Insert</token>
+</entry>
+<entry count="8">
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+</entry>
+<entry count="1">
+<token>Sanford.Multimedia.Midi.OutputDevice,new</token>
+<token>Sanford.Multimedia.Midi.ChannelMessageBuilder,new</token>
+</entry>
+<entry count="8">
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
+</entry>
+<entry count="8">
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+</entry>
+<entry count="1">
+<token>Sanford.Multimedia.Midi.Sequencer,new</token>
+<token>Sanford.Multimedia.Midi.OutputDevice,new</token>
+<token>Sanford.Multimedia.Midi.ChannelMessageBuilder,new</token>
+<token>Sanford.Multimedia.Midi.ChannelMessageBuilder,Build</token>
+</entry>
+<entry count="8">
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
+</entry>
+<entry count="2">
+<token>Sanford.Multimedia.Midi.Sequencer,new</token>
+<token>Sanford.Multimedia.Midi.OutputDevice,new</token>
 </entry>
 <entry count="4">
 <token>Sanford.Multimedia.Midi.MetaMessage,new</token>
@@ -389,35 +752,26 @@
 <token>Sanford.Multimedia.Midi.MetaMessage,new</token>
 <token>Sanford.Multimedia.Midi.TimeSignatureBuilder,new</token>
 </entry>
-<entry count="2">
-<token>Sanford.Multimedia.Midi.OutputDevice,new</token>
-<token>Sanford.Multimedia.Midi.Track,Iterator</token>
+<entry count="8">
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
+</entry>
+<entry count="24">
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
 </entry>
 <entry count="2">
-<token>Sanford.Multimedia.Midi.ChannelMessageBuilder,Build</token>
-<token>Sanford.Multimedia.Midi.OutputDevice,Send</token>
-</entry>
-<entry count="1">
-<token>Sanford.Multimedia.Midi.ChannelMessageBuilder,new</token>
 <token>Sanford.Multimedia.Midi.ChannelMessageBuilder,Build</token>
 <token>Sanford.Multimedia.Midi.OutputDevice,Send</token>
 </entry>
 <entry count="4">
 <token>Sanford.Multimedia.Midi.Track,Insert</token>
 <token>Sanford.Multimedia.Midi.ChannelMessageBuilder,Build</token>
-</entry>
-<entry count="1">
-<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
-<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
-</entry>
-<entry count="2">
-<token>Sanford.Multimedia.Midi.Sequence,new</token>
-<token>Sanford.Multimedia.Midi.OutputDevice,new</token>
-<token>Sanford.Multimedia.Midi.Track,Iterator</token>
-</entry>
-<entry count="3">
-<token>Sanford.Multimedia.Midi.Track,Iterator</token>
-<token>Sanford.Multimedia.Midi.Track,Iterator</token>
 </entry>
 <entry count="4">
 <token>Sanford.Multimedia.Midi.MetaMessage,new</token>
@@ -425,17 +779,31 @@
 <token>Sanford.Multimedia.Midi.TempoChangeBuilder,Build</token>
 <token>Sanford.Multimedia.Midi.Track,Insert</token>
 </entry>
-<entry count="4">
-<token>Sanford.Multimedia.Midi.MetaMessage,new</token>
-<token>Sanford.Multimedia.Midi.TempoChangeBuilder,new</token>
-<token>Sanford.Multimedia.Midi.TempoChangeBuilder,Build</token>
-<token>Sanford.Multimedia.Midi.Track,Insert</token>
-<token>Sanford.Multimedia.Midi.MetaMessage,new</token>
+<entry count="64">
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
 </entry>
 <entry count="8">
-<token>Sanford.Multimedia.Midi.Track,new</token>
-<token>Sanford.Multimedia.Midi.MetaTextBuilder,new</token>
-<token>Sanford.Multimedia.Midi.MetaTextBuilder,Build</token>
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+</entry>
+<entry count="8">
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.OutputDeviceBase,GetDeviceCapabilities</token>
+<token>Sanford.Multimedia.Midi.InputDevice,GetDeviceCapabilities</token>
+</entry>
+<entry count="4">
+<token>Sanford.Multimedia.Midi.MetaMessage,new</token>
+<token>Sanford.Multimedia.Midi.TempoChangeBuilder,new</token>
+<token>Sanford.Multimedia.Midi.TempoChangeBuilder,Build</token>
+<token>Sanford.Multimedia.Midi.Track,Insert</token>
+<token>Sanford.Multimedia.Midi.MetaMessage,new</token>
 </entry>
 <entry count="4">
 <token>Sanford.Multimedia.Midi.Track,Insert</token>

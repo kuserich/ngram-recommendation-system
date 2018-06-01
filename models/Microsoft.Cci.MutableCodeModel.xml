@@ -1,107 +1,139 @@
 <?xml version="1.0" encoding="UTF-8"?><dictionary case_sensitive="false">
-<entry count="1">
-<token>Microsoft.Cci.MutableCodeModel.MethodCall,new</token>
-<token>Microsoft.Cci.MutableCodeModel.ThisReference,new</token>
-<token>Microsoft.Cci.MutableCodeModel.ReturnStatement,new</token>
-</entry>
-<entry count="4">
-<token>Microsoft.Cci.MutableCodeModel.Assembly,new</token>
-<token>Microsoft.Cci.MutableCodeModel.RootUnitNamespace,new</token>
-<token>Microsoft.Cci.MutableCodeModel.NamespaceTypeDefinition,new</token>
+<entry count="10">
+<token>Microsoft.Cci.MutableCodeModel.Division,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
 </entry>
 <entry count="2">
-<token>Microsoft.Cci.MutableCodeModel.ExpressionStatement,new</token>
-<token>Microsoft.Cci.MutableCodeModel.BlockExpression,new</token>
-<token>Microsoft.Cci.MutableCodeModel.BlockStatement,new</token>
-<token>Microsoft.Cci.MutableCodeModel.BoundExpression,new</token>
-</entry>
-<entry count="4">
-<token>Microsoft.Cci.MutableCodeModel.Assembly,new</token>
-<token>Microsoft.Cci.MutableCodeModel.RootUnitNamespace,new</token>
-</entry>
-<entry count="2">
-<token>Microsoft.Cci.MutableCodeModel.Subtraction,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Conditional,new</token>
 <token>Microsoft.Cci.MutableCodeModel.CompileTimeConstant,new</token>
 <token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Division,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Subtraction,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Subtraction,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.LessThanOrEqual,new</token>
+<token>Microsoft.Cci.MutableCodeModel.LeftShift,new</token>
 </entry>
 <entry count="2">
-<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
 <token>Microsoft.Cci.MutableCodeModel.ExpressionStatement,new</token>
 <token>Microsoft.Cci.MutableCodeModel.BlockExpression,new</token>
 <token>Microsoft.Cci.MutableCodeModel.BlockStatement,new</token>
 <token>Microsoft.Cci.MutableCodeModel.BoundExpression,new</token>
 </entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Equality,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Equality,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.LessThanOrEqual,new</token>
+<token>Microsoft.Cci.MutableCodeModel.GreaterThanOrEqual,new</token>
+</entry>
 <entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Division,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Modulus,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Division,new</token>
+<token>Microsoft.Cci.MutableCodeModel.RightShift,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.LessThan,new</token>
 <token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Multiplication,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.RightShift,new</token>
+<token>Microsoft.Cci.MutableCodeModel.GreaterThanOrEqual,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.RightShift,new</token>
+<token>Microsoft.Cci.MutableCodeModel.LeftShift,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Subtraction,new</token>
+<token>Microsoft.Cci.MutableCodeModel.LessThan,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.ThisReference,new</token>
+<token>Microsoft.Cci.MutableCodeModel.MethodReference,new</token>
 <token>Microsoft.Cci.MutableCodeModel.ExpressionStatement,new</token>
-<token>Microsoft.Cci.MutableCodeModel.BlockExpression,new</token>
+<token>Microsoft.Cci.MutableCodeModel.MethodCall,new</token>
+<token>Microsoft.Cci.MutableCodeModel.ThisReference,new</token>
 </entry>
 <entry count="4">
-<token>Microsoft.Cci.MutableCodeModel.ThisReference,new</token>
-<token>Microsoft.Cci.MutableCodeModel.ReturnStatement,new</token>
-</entry>
-<entry count="1">
-<token>Microsoft.Cci.MutableCodeModel.ThisReference,new</token>
-<token>Microsoft.Cci.MutableCodeModel.MethodReference,new</token>
-<token>Microsoft.Cci.MutableCodeModel.ExpressionStatement,new</token>
-<token>Microsoft.Cci.MutableCodeModel.MethodCall,new</token>
-<token>Microsoft.Cci.MutableCodeModel.ThisReference,new</token>
-</entry>
-<entry count="4">
 <token>Microsoft.Cci.MutableCodeModel.BlockStatement,new</token>
 <token>Microsoft.Cci.MutableCodeModel.ThisReference,new</token>
 </entry>
 <entry count="2">
-<token>Microsoft.Cci.MutableCodeModel.ArrayIndexer,new</token>
-<token>Microsoft.Cci.MutableCodeModel.MethodCall,new</token>
+<token>Microsoft.Cci.MutableCodeModel.LessThan,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Conditional,new</token>
 </entry>
 <entry count="1">
-<token>Microsoft.Cci.MutableCodeModel.ParameterDefinition,new</token>
-<token>Microsoft.Cci.MutableCodeModel.ParameterDefinition,new</token>
-<token>Microsoft.Cci.MutableCodeModel.ThisReference,new</token>
-<token>Microsoft.Cci.MutableCodeModel.MethodReference,new</token>
-</entry>
-<entry count="1">
-<token>Microsoft.Cci.MutableCodeModel.MethodReference,new</token>
-<token>Microsoft.Cci.MutableCodeModel.ExpressionStatement,new</token>
-<token>Microsoft.Cci.MutableCodeModel.MethodCall,new</token>
-<token>Microsoft.Cci.MutableCodeModel.ThisReference,new</token>
-</entry>
-<entry count="1">
-<token>Microsoft.Cci.MutableCodeModel.ExpressionStatement,new</token>
 <token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Subtraction,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Modulus,new</token>
 </entry>
 <entry count="2">
-<token>Microsoft.Cci.MutableCodeModel.BlockStatement,new</token>
-<token>Microsoft.Cci.MutableCodeModel.ThisReference,new</token>
-<token>Microsoft.Cci.MutableCodeModel.MethodReference,new</token>
-<token>Microsoft.Cci.MutableCodeModel.ExpressionStatement,new</token>
-<token>Microsoft.Cci.MutableCodeModel.MethodCall,new</token>
-</entry>
-<entry count="2">
-<token>Microsoft.Cci.MutableCodeModel.LocalDefinition,new</token>
-<token>Microsoft.Cci.MutableCodeModel.Operation,new</token>
-</entry>
-<entry count="1">
-<token>Microsoft.Cci.MutableCodeModel.LocalDeclarationStatement,new</token>
-<token>Microsoft.Cci.MutableCodeModel.Subtraction,new</token>
-</entry>
-<entry count="1">
-<token>Microsoft.Cci.MutableCodeModel.LocalDefinition,new</token>
-<token>Microsoft.Cci.MutableCodeModel.LocalDeclarationStatement,new</token>
-<token>Microsoft.Cci.MutableCodeModel.Subtraction,new</token>
-</entry>
-<entry count="10">
-<token>Microsoft.Cci.MutableCodeModel.ExpressionStatement,new</token>
-<token>Microsoft.Cci.MutableCodeModel.MethodCall,new</token>
-<token>Microsoft.Cci.MutableCodeModel.EmptyStatement,new</token>
-<token>Microsoft.Cci.MutableCodeModel.BlockStatement,new</token>
-</entry>
-<entry count="1">
 <token>Microsoft.Cci.MutableCodeModel.Addition,new</token>
-<token>Microsoft.Cci.MutableCodeModel.CompileTimeConstant,new</token>
+<token>Microsoft.Cci.MutableCodeModel.BitwiseAnd,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Division,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Subtraction,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Division,new</token>
+<token>Microsoft.Cci.MutableCodeModel.LessThan,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Modulus,new</token>
 <token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
-<token>Microsoft.Cci.MutableCodeModel.ExpressionStatement,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Modulus,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.LocalDefinition,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Operation,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.CompileTimeConstant,new</token>
+<token>Microsoft.Cci.MutableCodeModel.LessThan,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Equality,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Addition,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Division,new</token>
+<token>Microsoft.Cci.MutableCodeModel.BitwiseOr,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.CompileTimeConstant,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Subtraction,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.GreaterThan,new</token>
+<token>Microsoft.Cci.MutableCodeModel.BitwiseOr,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.LocalDeclarationStatement,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Subtraction,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.LocalDefinition,new</token>
+<token>Microsoft.Cci.MutableCodeModel.LocalDeclarationStatement,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Subtraction,new</token>
+</entry>
+<entry count="10">
+<token>Microsoft.Cci.MutableCodeModel.Subtraction,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
 </entry>
 <entry count="10">
 <token>Microsoft.Cci.MutableCodeModel.MethodCall,new</token>
@@ -112,125 +144,118 @@
 <token>Microsoft.Cci.MutableCodeModel.MethodCall,new</token>
 <token>Microsoft.Cci.MutableCodeModel.ThisReference,new</token>
 </entry>
-<entry count="13">
-<token>Microsoft.Cci.MutableCodeModel.ThisReference,new</token>
-<token>Microsoft.Cci.MutableCodeModel.MethodReference,new</token>
-<token>Microsoft.Cci.MutableCodeModel.ExpressionStatement,new</token>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.CompileTimeConstant,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Modulus,new</token>
 </entry>
 <entry count="1">
-<token>Microsoft.Cci.MutableCodeModel.LocalDeclarationStatement,new</token>
-<token>Microsoft.Cci.MutableCodeModel.Subtraction,new</token>
-<token>Microsoft.Cci.MutableCodeModel.CompileTimeConstant,new</token>
-<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
-<token>Microsoft.Cci.MutableCodeModel.ExpressionStatement,new</token>
+<token>Microsoft.Cci.MutableCodeModel.LessThan,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Addition,new</token>
 </entry>
 <entry count="2">
-<token>Microsoft.Cci.MutableCodeModel.LocalDefinition,new</token>
-<token>Microsoft.Cci.MutableCodeModel.Operation,new</token>
-<token>Microsoft.Cci.MutableCodeModel.Operation,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Modulus,new</token>
+<token>Microsoft.Cci.MutableCodeModel.GreaterThan,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Addition,new</token>
+<token>Microsoft.Cci.MutableCodeModel.BitwiseAnd,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Conditional,new</token>
+<token>Microsoft.Cci.MutableCodeModel.CompileTimeConstant,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Multiplication,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Subtraction,new</token>
+<token>Microsoft.Cci.MutableCodeModel.RightShift,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Division,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Subtraction,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Equality,new</token>
+<token>Microsoft.Cci.MutableCodeModel.ExclusiveOr,new</token>
 </entry>
 <entry count="5">
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Subtraction,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Multiplication,new</token>
+<token>Microsoft.Cci.MutableCodeModel.LeftShift,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Addition,new</token>
 <token>Microsoft.Cci.MutableCodeModel.Conditional,new</token>
-<token>Microsoft.Cci.MutableCodeModel.CompileTimeConstant,new</token>
-</entry>
-<entry count="2">
-<token>Microsoft.Cci.MutableCodeModel.ParameterDefinition,new</token>
-<token>Microsoft.Cci.MutableCodeModel.ThisReference,new</token>
 </entry>
 <entry count="1">
-<token>Microsoft.Cci.MutableCodeModel.LocalDefinition,new</token>
-<token>Microsoft.Cci.MutableCodeModel.LocalDeclarationStatement,new</token>
-<token>Microsoft.Cci.MutableCodeModel.Addition,new</token>
-<token>Microsoft.Cci.MutableCodeModel.CompileTimeConstant,new</token>
 <token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
-</entry>
-<entry count="2">
-<token>Microsoft.Cci.MutableCodeModel.BlockStatement,new</token>
-<token>Microsoft.Cci.MutableCodeModel.MethodDefinition,new</token>
-<token>Microsoft.Cci.MutableCodeModel.ParameterDefinition,new</token>
-<token>Microsoft.Cci.MutableCodeModel.ParameterDefinition,new</token>
-</entry>
-<entry count="1">
-<token>Microsoft.Cci.MutableCodeModel.LogicalNot,new</token>
-<token>Microsoft.Cci.MutableCodeModel.Conditional,new</token>
-<token>Microsoft.Cci.MutableCodeModel.CompileTimeConstant,new</token>
-<token>Microsoft.Cci.MutableCodeModel.CodeRewriter,Rewrite</token>
-</entry>
-<entry count="2">
-<token>Microsoft.Cci.MutableCodeModel.SourceMethodBody,new</token>
-<token>Microsoft.Cci.MutableCodeModel.BlockStatement,new</token>
-<token>Microsoft.Cci.MutableCodeModel.MethodDefinition,new</token>
-<token>Microsoft.Cci.MutableCodeModel.ParameterDefinition,new</token>
-<token>Microsoft.Cci.MutableCodeModel.ParameterDefinition,new</token>
-</entry>
-<entry count="2">
-<token>Microsoft.Cci.MutableCodeModel.Addition,new</token>
-<token>Microsoft.Cci.MutableCodeModel.CompileTimeConstant,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Subtraction,new</token>
 <token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
-</entry>
-<entry count="12">
-<token>Microsoft.Cci.MutableCodeModel.MetadataDeepCopier,new</token>
-<token>Microsoft.Cci.MutableCodeModel.MetadataDeepCopier,Copy</token>
-<token>Microsoft.Cci.MutableCodeModel.MetadataRewriter,RewriteChildren</token>
-</entry>
-<entry count="6">
-<token>Microsoft.Cci.MutableCodeModel.SourceMethodBody,new</token>
-<token>Microsoft.Cci.MutableCodeModel.BlockStatement,new</token>
-</entry>
-<entry count="4">
-<token>Microsoft.Cci.MutableCodeModel.MethodDefinition,new</token>
-<token>Microsoft.Cci.MutableCodeModel.ParameterDefinition,new</token>
-</entry>
-<entry count="2">
-<token>Microsoft.Cci.MutableCodeModel.BlockExpression,new</token>
-<token>Microsoft.Cci.MutableCodeModel.BlockStatement,new</token>
-<token>Microsoft.Cci.MutableCodeModel.BoundExpression,new</token>
-</entry>
-<entry count="2">
-<token>Microsoft.Cci.MutableCodeModel.LabeledStatement,new</token>
-<token>Microsoft.Cci.MutableCodeModel.EmptyStatement,new</token>
-<token>Microsoft.Cci.MutableCodeModel.LocalDefinition,new</token>
-<token>Microsoft.Cci.MutableCodeModel.CodeRewriter,Rewrite</token>
-<token>Microsoft.Cci.MutableCodeModel.ReturnStatement,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Subtraction,new</token>
 </entry>
 <entry count="1">
-<token>Microsoft.Cci.MutableCodeModel.ParameterDefinition,new</token>
-<token>Microsoft.Cci.MutableCodeModel.ThisReference,new</token>
-<token>Microsoft.Cci.MutableCodeModel.ReturnStatement,new</token>
+<token>Microsoft.Cci.MutableCodeModel.RightShift,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Addition,new</token>
 </entry>
-<entry count="4">
-<token>Microsoft.Cci.MutableCodeModel.MethodDefinition,new</token>
-<token>Microsoft.Cci.MutableCodeModel.SourceMethodBody,new</token>
-<token>Microsoft.Cci.MutableCodeModel.BlockStatement,new</token>
-<token>Microsoft.Cci.MutableCodeModel.ThisReference,new</token>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Modulus,new</token>
+<token>Microsoft.Cci.MutableCodeModel.GreaterThan,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Equality,new</token>
+<token>Microsoft.Cci.MutableCodeModel.NotEquality,new</token>
 </entry>
 <entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Division,new</token>
 <token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
 <token>Microsoft.Cci.MutableCodeModel.Addition,new</token>
 </entry>
 <entry count="2">
-<token>Microsoft.Cci.MutableCodeModel.BlockExpression,new</token>
-<token>Microsoft.Cci.MutableCodeModel.BlockStatement,new</token>
-</entry>
-<entry count="2">
-<token>Microsoft.Cci.MutableCodeModel.SourceMethodBody,new</token>
-<token>Microsoft.Cci.MutableCodeModel.BlockStatement,new</token>
-<token>Microsoft.Cci.MutableCodeModel.ThisReference,new</token>
-<token>Microsoft.Cci.MutableCodeModel.ReturnStatement,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Division,new</token>
+<token>Microsoft.Cci.MutableCodeModel.BitwiseOr,new</token>
 </entry>
 <entry count="1">
-<token>Microsoft.Cci.MutableCodeModel.LocalDefinition,new</token>
-<token>Microsoft.Cci.MutableCodeModel.LocalDeclarationStatement,new</token>
+<token>Microsoft.Cci.MutableCodeModel.GreaterThan,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Subtraction,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Multiplication,new</token>
+<token>Microsoft.Cci.MutableCodeModel.GreaterThanOrEqual,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Division,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Division,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.NotEquality,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
 <token>Microsoft.Cci.MutableCodeModel.Addition,new</token>
 </entry>
 <entry count="1">
-<token>Microsoft.Cci.MutableCodeModel.MethodDefinition,new</token>
-<token>Microsoft.Cci.MutableCodeModel.ParameterDefinition,new</token>
-<token>Microsoft.Cci.MutableCodeModel.ParameterDefinition,new</token>
-<token>Microsoft.Cci.MutableCodeModel.ThisReference,new</token>
-<token>Microsoft.Cci.MutableCodeModel.MethodReference,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Subtraction,new</token>
+<token>Microsoft.Cci.MutableCodeModel.BitwiseOr,new</token>
 </entry>
 <entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Addition,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Division,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Subtraction,new</token>
+<token>Microsoft.Cci.MutableCodeModel.LessThan,new</token>
+</entry>
+<entry count="54">
 <token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
 <token>Microsoft.Cci.MutableCodeModel.Multiplication,new</token>
 </entry>
@@ -238,33 +263,19 @@
 <token>Microsoft.Cci.MutableCodeModel.NotEquality,new</token>
 <token>Microsoft.Cci.MutableCodeModel.CodeRewriter,Rewrite</token>
 </entry>
+<entry count="5">
+<token>Microsoft.Cci.MutableCodeModel.NotEquality,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+</entry>
 <entry count="1">
-<token>Microsoft.Cci.MutableCodeModel.LocalDeclarationStatement,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Addition,new</token>
 <token>Microsoft.Cci.MutableCodeModel.Addition,new</token>
 </entry>
-<entry count="10">
-<token>Microsoft.Cci.MutableCodeModel.MethodCall,new</token>
-<token>Microsoft.Cci.MutableCodeModel.EmptyStatement,new</token>
-</entry>
 <entry count="2">
-<token>Microsoft.Cci.MutableCodeModel.SourceMethodBody,new</token>
-<token>Microsoft.Cci.MutableCodeModel.BlockStatement,new</token>
-<token>Microsoft.Cci.MutableCodeModel.MethodDefinition,new</token>
-<token>Microsoft.Cci.MutableCodeModel.ParameterDefinition,new</token>
-</entry>
-<entry count="1">
-<token>Microsoft.Cci.MutableCodeModel.ParameterDefinition,new</token>
-<token>Microsoft.Cci.MutableCodeModel.ParameterDefinition,new</token>
-<token>Microsoft.Cci.MutableCodeModel.ThisReference,new</token>
-<token>Microsoft.Cci.MutableCodeModel.MethodReference,new</token>
-<token>Microsoft.Cci.MutableCodeModel.ExpressionStatement,new</token>
-</entry>
-<entry count="1">
-<token>Microsoft.Cci.MutableCodeModel.ParameterDefinition,new</token>
-<token>Microsoft.Cci.MutableCodeModel.ThisReference,new</token>
-<token>Microsoft.Cci.MutableCodeModel.MethodReference,new</token>
-<token>Microsoft.Cci.MutableCodeModel.ExpressionStatement,new</token>
-<token>Microsoft.Cci.MutableCodeModel.MethodCall,new</token>
+<token>Microsoft.Cci.MutableCodeModel.ExclusiveOr,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Conditional,new</token>
+<token>Microsoft.Cci.MutableCodeModel.CompileTimeConstant,new</token>
 </entry>
 <entry count="2">
 <token>Microsoft.Cci.MutableCodeModel.BlockStatement,new</token>
@@ -272,18 +283,40 @@
 <token>Microsoft.Cci.MutableCodeModel.AnonymousDelegate,new</token>
 </entry>
 <entry count="1">
-<token>Microsoft.Cci.MutableCodeModel.MethodReference,new</token>
-<token>Microsoft.Cci.MutableCodeModel.ExpressionStatement,new</token>
-<token>Microsoft.Cci.MutableCodeModel.MethodCall,new</token>
-<token>Microsoft.Cci.MutableCodeModel.ThisReference,new</token>
-<token>Microsoft.Cci.MutableCodeModel.ReturnStatement,new</token>
+<token>Microsoft.Cci.MutableCodeModel.GreaterThan,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Modulus,new</token>
 </entry>
 <entry count="1">
-<token>Microsoft.Cci.MutableCodeModel.LocalDefinition,new</token>
-<token>Microsoft.Cci.MutableCodeModel.LocalDeclarationStatement,new</token>
-<token>Microsoft.Cci.MutableCodeModel.Subtraction,new</token>
-<token>Microsoft.Cci.MutableCodeModel.CompileTimeConstant,new</token>
 <token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Division,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Modulus,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Division,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Modulus,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.GreaterThan,new</token>
+<token>Microsoft.Cci.MutableCodeModel.LessThan,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.NotEquality,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Modulus,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Subtraction,new</token>
+<token>Microsoft.Cci.MutableCodeModel.BitwiseOr,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Equality,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Addition,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.BitwiseOr,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Subtraction,new</token>
 </entry>
 <entry count="1">
 <token>Microsoft.Cci.MutableCodeModel.GotoStatement,new</token>
@@ -295,25 +328,44 @@
 <token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
 <token>Microsoft.Cci.MutableCodeModel.ExpressionStatement,new</token>
 </entry>
-<entry count="2">
-<token>Microsoft.Cci.MutableCodeModel.EmptyStatement,new</token>
-<token>Microsoft.Cci.MutableCodeModel.LocalDefinition,new</token>
-<token>Microsoft.Cci.MutableCodeModel.CodeRewriter,Rewrite</token>
-<token>Microsoft.Cci.MutableCodeModel.ReturnStatement,new</token>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.GreaterThan,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Addition,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.NotEquality,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Subtraction,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Division,new</token>
+<token>Microsoft.Cci.MutableCodeModel.LessThan,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.NotEquality,new</token>
+<token>Microsoft.Cci.MutableCodeModel.LessThanOrEqual,new</token>
 </entry>
 <entry count="2">
-<token>Microsoft.Cci.MutableCodeModel.ParameterDefinition,new</token>
-<token>Microsoft.Cci.MutableCodeModel.ParameterDefinition,new</token>
-<token>Microsoft.Cci.MutableCodeModel.ThisReference,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Division,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Conditional,new</token>
+<token>Microsoft.Cci.MutableCodeModel.CompileTimeConstant,new</token>
 </entry>
-<entry count="2">
-<token>Microsoft.Cci.MutableCodeModel.BlockStatement,new</token>
-<token>Microsoft.Cci.MutableCodeModel.EmptyStatement,new</token>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.ExclusiveOr,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Multiplication,new</token>
 </entry>
-<entry count="4">
-<token>Microsoft.Cci.MutableCodeModel.MethodDefinition,new</token>
-<token>Microsoft.Cci.MutableCodeModel.SourceMethodBody,new</token>
-<token>Microsoft.Cci.MutableCodeModel.BlockStatement,new</token>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Multiplication,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Subtraction,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.BitwiseOr,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Modulus,new</token>
 </entry>
 <entry count="2">
 <token>Microsoft.Cci.MutableCodeModel.LocalDefinition,new</token>
@@ -323,93 +375,904 @@
 <token>Microsoft.Cci.MutableCodeModel.MetadataConstant,new</token>
 <token>Microsoft.Cci.MutableCodeModel.CustomAttribute,new</token>
 </entry>
-<entry count="2">
-<token>Microsoft.Cci.MutableCodeModel.ExpressionStatement,new</token>
-<token>Microsoft.Cci.MutableCodeModel.BlockExpression,new</token>
-</entry>
-<entry count="2">
-<token>Microsoft.Cci.MutableCodeModel.MethodDefinition,new</token>
-<token>Microsoft.Cci.MutableCodeModel.SourceMethodBody,new</token>
-<token>Microsoft.Cci.MutableCodeModel.BlockStatement,new</token>
-<token>Microsoft.Cci.MutableCodeModel.ThisReference,new</token>
-<token>Microsoft.Cci.MutableCodeModel.ReturnStatement,new</token>
-</entry>
-<entry count="2">
-<token>Microsoft.Cci.MutableCodeModel.MethodDefinition,new</token>
-<token>Microsoft.Cci.MutableCodeModel.SourceMethodBody,new</token>
-<token>Microsoft.Cci.MutableCodeModel.BlockStatement,new</token>
-<token>Microsoft.Cci.MutableCodeModel.ThisReference,new</token>
-<token>Microsoft.Cci.MutableCodeModel.MethodReference,new</token>
-</entry>
-<entry count="2">
-<token>Microsoft.Cci.MutableCodeModel.BlockStatement,new</token>
-<token>Microsoft.Cci.MutableCodeModel.MethodDefinition,new</token>
-<token>Microsoft.Cci.MutableCodeModel.ParameterDefinition,new</token>
-</entry>
-<entry count="2">
-<token>Microsoft.Cci.MutableCodeModel.Operation,new</token>
-<token>Microsoft.Cci.MutableCodeModel.Operation,new</token>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.LessThan,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Equality,new</token>
 </entry>
 <entry count="1">
-<token>Microsoft.Cci.MutableCodeModel.Subtraction,new</token>
-<token>Microsoft.Cci.MutableCodeModel.CompileTimeConstant,new</token>
 <token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
-<token>Microsoft.Cci.MutableCodeModel.ExpressionStatement,new</token>
-<token>Microsoft.Cci.MutableCodeModel.BlockExpression,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Addition,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Division,new</token>
 </entry>
-<entry count="12">
-<token>Microsoft.Cci.MutableCodeModel.EmptyStatement,new</token>
-<token>Microsoft.Cci.MutableCodeModel.BlockStatement,new</token>
-</entry>
-<entry count="13">
-<token>Microsoft.Cci.MutableCodeModel.ExpressionStatement,new</token>
-<token>Microsoft.Cci.MutableCodeModel.MethodCall,new</token>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Division,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Subtraction,new</token>
 </entry>
 <entry count="2">
 <token>Microsoft.Cci.MutableCodeModel.BlockStatement,new</token>
 <token>Microsoft.Cci.MutableCodeModel.BoundExpression,new</token>
 </entry>
 <entry count="2">
-<token>Microsoft.Cci.MutableCodeModel.LocalDefinition,new</token>
-<token>Microsoft.Cci.MutableCodeModel.CodeRewriter,Rewrite</token>
-<token>Microsoft.Cci.MutableCodeModel.ReturnStatement,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Multiplication,new</token>
+<token>Microsoft.Cci.MutableCodeModel.GreaterThanOrEqual,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Addition,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Division,new</token>
 </entry>
 <entry count="1">
 <token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
-<token>Microsoft.Cci.MutableCodeModel.TargetExpression,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Subtraction,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Modulus,new</token>
 </entry>
-<entry count="2">
-<token>Microsoft.Cci.MutableCodeModel.ParameterDefinition,new</token>
-<token>Microsoft.Cci.MutableCodeModel.ParameterDefinition,new</token>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.BitwiseAnd,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Subtraction,new</token>
 </entry>
 <entry count="13">
 <token>Microsoft.Cci.MutableCodeModel.MethodReference,new</token>
 <token>Microsoft.Cci.MutableCodeModel.ExpressionStatement,new</token>
 <token>Microsoft.Cci.MutableCodeModel.MethodCall,new</token>
 </entry>
-<entry count="4">
-<token>Microsoft.Cci.MutableCodeModel.CatchClause,new</token>
-<token>Microsoft.Cci.MutableCodeModel.TryCatchFinallyStatement,new</token>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.BitwiseAnd,new</token>
+<token>Microsoft.Cci.MutableCodeModel.BitwiseOr,new</token>
 </entry>
 <entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.CompileTimeConstant,new</token>
+<token>Microsoft.Cci.MutableCodeModel.BitwiseOr,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.LessThanOrEqual,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Conditional,new</token>
+<token>Microsoft.Cci.MutableCodeModel.CompileTimeConstant,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.NotEquality,new</token>
+<token>Microsoft.Cci.MutableCodeModel.RightShift,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Subtraction,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Division,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Subtraction,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Addition,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Equality,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Conditional,new</token>
+</entry>
+<entry count="16">
+<token>Microsoft.Cci.MutableCodeModel.CustomAttribute,new</token>
+<token>Microsoft.Cci.MutableCodeModel.MetadataRewriter,RewriteChildren</token>
+</entry>
+<entry count="5">
+<token>Microsoft.Cci.MutableCodeModel.BitwiseAnd,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.CompileTimeConstant,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Subtraction,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Subtraction,new</token>
+<token>Microsoft.Cci.MutableCodeModel.LessThanOrEqual,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.BitwiseAnd,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Modulus,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.GreaterThanOrEqual,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Addition,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.NotEquality,new</token>
+<token>Microsoft.Cci.MutableCodeModel.GreaterThanOrEqual,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.LeftShift,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Conditional,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.BitwiseAnd,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Division,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.BitwiseAnd,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Division,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.ExclusiveOr,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Equality,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Multiplication,new</token>
+<token>Microsoft.Cci.MutableCodeModel.LessThanOrEqual,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.LeftShift,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Addition,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.ExpressionStatement,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.TargetExpression,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.GreaterThan,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Division,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.CompileTimeConstant,new</token>
+<token>Microsoft.Cci.MutableCodeModel.LessThanOrEqual,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.NotEquality,new</token>
+<token>Microsoft.Cci.MutableCodeModel.LeftShift,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.ExpressionStatement,new</token>
+<token>Microsoft.Cci.MutableCodeModel.ForStatement,new</token>
+<token>Microsoft.Cci.MutableCodeModel.ExpressionStatement,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.LeftShift,new</token>
+<token>Microsoft.Cci.MutableCodeModel.BitwiseOr,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Addition,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Equality,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.LeftShift,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Subtraction,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Multiplication,new</token>
+<token>Microsoft.Cci.MutableCodeModel.RightShift,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.LeftShift,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Addition,new</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Cci.MutableCodeModel.Addition,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Conditional,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.ExclusiveOr,new</token>
+<token>Microsoft.Cci.MutableCodeModel.NotEquality,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Multiplication,new</token>
+<token>Microsoft.Cci.MutableCodeModel.GreaterThan,new</token>
+</entry>
+<entry count="16">
+<token>Microsoft.Cci.MutableCodeModel.MetadataConstant,new</token>
+<token>Microsoft.Cci.MutableCodeModel.CustomAttribute,new</token>
+<token>Microsoft.Cci.MutableCodeModel.MetadataRewriter,RewriteChildren</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Subtraction,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Conditional,new</token>
+<token>Microsoft.Cci.MutableCodeModel.CompileTimeConstant,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.EmptyStatement,new</token>
+<token>Microsoft.Cci.MutableCodeModel.LocalDefinition,new</token>
+<token>Microsoft.Cci.MutableCodeModel.CodeRewriter,Rewrite</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.SourceMethodBody,new</token>
 <token>Microsoft.Cci.MutableCodeModel.BlockStatement,new</token>
 <token>Microsoft.Cci.MutableCodeModel.MethodDefinition,new</token>
 </entry>
 <entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.CompileTimeConstant,new</token>
+<token>Microsoft.Cci.MutableCodeModel.CodeRewriter,Rewrite</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Multiplication,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Multiplication,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Addition,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Addition,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.NotEquality,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Division,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.LeftShift,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Modulus,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.GreaterThanOrEqual,new</token>
+<token>Microsoft.Cci.MutableCodeModel.BitwiseOr,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.LocalDeclarationStatement,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Addition,new</token>
+<token>Microsoft.Cci.MutableCodeModel.CompileTimeConstant,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Subtraction,new</token>
+<token>Microsoft.Cci.MutableCodeModel.CompileTimeConstant,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.BitwiseAnd,new</token>
+<token>Microsoft.Cci.MutableCodeModel.BitwiseAnd,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.GreaterThanOrEqual,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Equality,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.LogicalNot,new</token>
+<token>Microsoft.Cci.MutableCodeModel.LogicalNot,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.CompileTimeConstant,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Modulus,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.MethodDefinition,new</token>
+<token>Microsoft.Cci.MutableCodeModel.ParameterDefinition,new</token>
+<token>Microsoft.Cci.MutableCodeModel.ParameterDefinition,new</token>
+<token>Microsoft.Cci.MutableCodeModel.ThisReference,new</token>
+<token>Microsoft.Cci.MutableCodeModel.ReturnStatement,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Subtraction,new</token>
+<token>Microsoft.Cci.MutableCodeModel.LessThanOrEqual,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.LessThan,new</token>
+<token>Microsoft.Cci.MutableCodeModel.ExclusiveOr,new</token>
+</entry>
+<entry count="2">
 <token>Microsoft.Cci.MutableCodeModel.ExpressionStatement,new</token>
+<token>Microsoft.Cci.MutableCodeModel.BlockExpression,new</token>
+<token>Microsoft.Cci.MutableCodeModel.BlockStatement,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.LeftShift,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Division,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Addition,new</token>
+<token>Microsoft.Cci.MutableCodeModel.NotEquality,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Division,new</token>
+<token>Microsoft.Cci.MutableCodeModel.BitwiseAnd,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Multiplication,new</token>
+<token>Microsoft.Cci.MutableCodeModel.LessThanOrEqual,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Equality,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Multiplication,new</token>
+</entry>
+<entry count="384">
+<token>Microsoft.Cci.MutableCodeModel.MethodReference,new</token>
+<token>Microsoft.Cci.MutableCodeModel.MethodReference,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.ExclusiveOr,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Conditional,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Modulus,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Conditional,new</token>
+<token>Microsoft.Cci.MutableCodeModel.CompileTimeConstant,new</token>
+</entry>
+<entry count="6">
+<token>Microsoft.Cci.MutableCodeModel.ForStatement,new</token>
+<token>Microsoft.Cci.MutableCodeModel.ExpressionStatement,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.BitwiseAnd,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Conditional,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.NamespaceTypeDefinition,new</token>
+<token>Microsoft.Cci.MutableCodeModel.SourceMethodBody,new</token>
+<token>Microsoft.Cci.MutableCodeModel.BlockStatement,new</token>
+<token>Microsoft.Cci.MutableCodeModel.MethodDefinition,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Addition,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Conditional,new</token>
+<token>Microsoft.Cci.MutableCodeModel.CompileTimeConstant,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.LeftShift,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Division,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.NotEquality,new</token>
+<token>Microsoft.Cci.MutableCodeModel.LessThan,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Division,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Division,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.GreaterThanOrEqual,new</token>
+<token>Microsoft.Cci.MutableCodeModel.NotEquality,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Addition,new</token>
+<token>Microsoft.Cci.MutableCodeModel.BitwiseOr,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.GreaterThan,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Multiplication,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Modulus,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Multiplication,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.LocalDefinition,new</token>
+<token>Microsoft.Cci.MutableCodeModel.CodeRewriter,Rewrite</token>
+</entry>
+<entry count="5">
+<token>Microsoft.Cci.MutableCodeModel.LeftShift,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+</entry>
+<entry count="5">
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Division,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Addition,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Equality,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.GreaterThanOrEqual,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Conditional,new</token>
+<token>Microsoft.Cci.MutableCodeModel.CompileTimeConstant,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.LeftShift,new</token>
+<token>Microsoft.Cci.MutableCodeModel.BitwiseAnd,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.GreaterThan,new</token>
+<token>Microsoft.Cci.MutableCodeModel.RightShift,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Modulus,new</token>
+<token>Microsoft.Cci.MutableCodeModel.LessThanOrEqual,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.ExclusiveOr,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Addition,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Addition,new</token>
+<token>Microsoft.Cci.MutableCodeModel.LessThan,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Multiplication,new</token>
+<token>Microsoft.Cci.MutableCodeModel.RightShift,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.GreaterThanOrEqual,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Division,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Subtraction,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Modulus,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Multiplication,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Modulus,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Subtraction,new</token>
+<token>Microsoft.Cci.MutableCodeModel.RightShift,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.MethodDefinition,new</token>
+<token>Microsoft.Cci.MutableCodeModel.ParameterDefinition,new</token>
+<token>Microsoft.Cci.MutableCodeModel.ParameterDefinition,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Conditional,new</token>
+<token>Microsoft.Cci.MutableCodeModel.CompileTimeConstant,new</token>
+<token>Microsoft.Cci.MutableCodeModel.LeftShift,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.CompileTimeConstant,new</token>
+<token>Microsoft.Cci.MutableCodeModel.RightShift,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.GreaterThan,new</token>
+<token>Microsoft.Cci.MutableCodeModel.LessThanOrEqual,new</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Cci.MutableCodeModel.Modulus,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Conditional,new</token>
+<token>Microsoft.Cci.MutableCodeModel.CompileTimeConstant,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.RightShift,new</token>
+<token>Microsoft.Cci.MutableCodeModel.BitwiseOr,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Subtraction,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Subtraction,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Multiplication,new</token>
+<token>Microsoft.Cci.MutableCodeModel.GreaterThan,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Multiplication,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Subtraction,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Division,new</token>
+<token>Microsoft.Cci.MutableCodeModel.LeftShift,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Addition,new</token>
+<token>Microsoft.Cci.MutableCodeModel.ExclusiveOr,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.NamespaceTypeDefinition,new</token>
+<token>Microsoft.Cci.MutableCodeModel.SourceMethodBody,new</token>
+<token>Microsoft.Cci.MutableCodeModel.BlockStatement,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Subtraction,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Multiplication,new</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Cci.MutableCodeModel.RootUnitNamespace,new</token>
+<token>Microsoft.Cci.MutableCodeModel.NamespaceTypeDefinition,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.GreaterThanOrEqual,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Conditional,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.GreaterThanOrEqual,new</token>
+<token>Microsoft.Cci.MutableCodeModel.BitwiseAnd,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.NotEquality,new</token>
+<token>Microsoft.Cci.MutableCodeModel.BitwiseOr,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Addition,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Multiplication,new</token>
+</entry>
+<entry count="1">
 <token>Microsoft.Cci.MutableCodeModel.MethodCall,new</token>
 <token>Microsoft.Cci.MutableCodeModel.ThisReference,new</token>
 <token>Microsoft.Cci.MutableCodeModel.ReturnStatement,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.GreaterThan,new</token>
+<token>Microsoft.Cci.MutableCodeModel.GreaterThanOrEqual,new</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Cci.MutableCodeModel.Assembly,new</token>
+<token>Microsoft.Cci.MutableCodeModel.RootUnitNamespace,new</token>
+<token>Microsoft.Cci.MutableCodeModel.NamespaceTypeDefinition,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.LessThan,new</token>
+<token>Microsoft.Cci.MutableCodeModel.BitwiseOr,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.LessThanOrEqual,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Multiplication,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.BitwiseOr,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Addition,new</token>
+</entry>
+<entry count="6">
+<token>Microsoft.Cci.MutableCodeModel.ExpressionStatement,new</token>
+<token>Microsoft.Cci.MutableCodeModel.ForStatement,new</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Cci.MutableCodeModel.ThisReference,new</token>
+<token>Microsoft.Cci.MutableCodeModel.ReturnStatement,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Multiplication,new</token>
+<token>Microsoft.Cci.MutableCodeModel.BitwiseOr,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.ArrayIndexer,new</token>
+<token>Microsoft.Cci.MutableCodeModel.MethodCall,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.RightShift,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Multiplication,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.RightShift,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Multiplication,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Addition,new</token>
+<token>Microsoft.Cci.MutableCodeModel.LessThan,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Addition,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Subtraction,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Multiplication,new</token>
+<token>Microsoft.Cci.MutableCodeModel.LessThan,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.MethodReference,new</token>
+<token>Microsoft.Cci.MutableCodeModel.ExpressionStatement,new</token>
+<token>Microsoft.Cci.MutableCodeModel.MethodCall,new</token>
+<token>Microsoft.Cci.MutableCodeModel.ThisReference,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Division,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Conditional,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Subtraction,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Division,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.LessThan,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Addition,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Addition,new</token>
+<token>Microsoft.Cci.MutableCodeModel.BitwiseOr,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.LessThanOrEqual,new</token>
+<token>Microsoft.Cci.MutableCodeModel.BitwiseOr,new</token>
+</entry>
+<entry count="10">
+<token>Microsoft.Cci.MutableCodeModel.Multiplication,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Division,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Addition,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.LessThan,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Subtraction,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.LocalDeclarationStatement,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Subtraction,new</token>
+<token>Microsoft.Cci.MutableCodeModel.CompileTimeConstant,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.ExpressionStatement,new</token>
+</entry>
+<entry count="5">
+<token>Microsoft.Cci.MutableCodeModel.GreaterThanOrEqual,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Subtraction,new</token>
+<token>Microsoft.Cci.MutableCodeModel.GreaterThan,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Addition,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Modulus,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.LocalDefinition,new</token>
+<token>Microsoft.Cci.MutableCodeModel.LocalDeclarationStatement,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Addition,new</token>
+<token>Microsoft.Cci.MutableCodeModel.CompileTimeConstant,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.LessThan,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Multiplication,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Conditional,new</token>
+<token>Microsoft.Cci.MutableCodeModel.CompileTimeConstant,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Addition,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.BitwiseOr,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Equality,new</token>
+</entry>
+<entry count="5">
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Addition,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+</entry>
+<entry count="36">
+<token>Microsoft.Cci.MutableCodeModel.MetadataDeepCopier,new</token>
+<token>Microsoft.Cci.MutableCodeModel.MetadataDeepCopier,Copy</token>
+<token>Microsoft.Cci.MutableCodeModel.MetadataRewriter,RewriteChildren</token>
 </entry>
 <entry count="2">
 <token>Microsoft.Cci.MutableCodeModel.LabeledStatement,new</token>
 <token>Microsoft.Cci.MutableCodeModel.EmptyStatement,new</token>
 <token>Microsoft.Cci.MutableCodeModel.LocalDefinition,new</token>
 <token>Microsoft.Cci.MutableCodeModel.CodeRewriter,Rewrite</token>
+<token>Microsoft.Cci.MutableCodeModel.ReturnStatement,new</token>
 </entry>
-<entry count="3">
-<token>Microsoft.Cci.MutableCodeModel.CreateArray,new</token>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.NotEquality,new</token>
+<token>Microsoft.Cci.MutableCodeModel.BitwiseAnd,new</token>
+</entry>
+<entry count="54">
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Addition,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.BlockExpression,new</token>
+<token>Microsoft.Cci.MutableCodeModel.BlockStatement,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.SourceMethodBody,new</token>
+<token>Microsoft.Cci.MutableCodeModel.BlockStatement,new</token>
+<token>Microsoft.Cci.MutableCodeModel.ThisReference,new</token>
+<token>Microsoft.Cci.MutableCodeModel.ReturnStatement,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.LocalDefinition,new</token>
+<token>Microsoft.Cci.MutableCodeModel.LocalDeclarationStatement,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Addition,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.LessThan,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Modulus,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Division,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Multiplication,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Multiplication,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Addition,new</token>
+</entry>
+<entry count="2">
 <token>Microsoft.Cci.MutableCodeModel.CompileTimeConstant,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Division,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Addition,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Addition,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.LessThanOrEqual,new</token>
+<token>Microsoft.Cci.MutableCodeModel.LessThan,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.RightShift,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Modulus,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.SourceMethodBody,new</token>
+<token>Microsoft.Cci.MutableCodeModel.BlockStatement,new</token>
+<token>Microsoft.Cci.MutableCodeModel.MethodDefinition,new</token>
+<token>Microsoft.Cci.MutableCodeModel.ParameterDefinition,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.ParameterDefinition,new</token>
+<token>Microsoft.Cci.MutableCodeModel.ThisReference,new</token>
+<token>Microsoft.Cci.MutableCodeModel.MethodReference,new</token>
+<token>Microsoft.Cci.MutableCodeModel.ExpressionStatement,new</token>
+<token>Microsoft.Cci.MutableCodeModel.MethodCall,new</token>
+</entry>
+<entry count="5">
+<token>Microsoft.Cci.MutableCodeModel.RightShift,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.LeftShift,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Modulus,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Modulus,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Addition,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.BitwiseAnd,new</token>
+<token>Microsoft.Cci.MutableCodeModel.GreaterThanOrEqual,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Equality,new</token>
+<token>Microsoft.Cci.MutableCodeModel.GreaterThan,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.MethodReference,new</token>
+<token>Microsoft.Cci.MutableCodeModel.ExpressionStatement,new</token>
+<token>Microsoft.Cci.MutableCodeModel.MethodCall,new</token>
+<token>Microsoft.Cci.MutableCodeModel.ThisReference,new</token>
+<token>Microsoft.Cci.MutableCodeModel.ReturnStatement,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.LeftShift,new</token>
+<token>Microsoft.Cci.MutableCodeModel.LessThan,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.GreaterThan,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Equality,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.LessThanOrEqual,new</token>
+<token>Microsoft.Cci.MutableCodeModel.RightShift,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.EmptyStatement,new</token>
+<token>Microsoft.Cci.MutableCodeModel.LocalDefinition,new</token>
+<token>Microsoft.Cci.MutableCodeModel.CodeRewriter,Rewrite</token>
+<token>Microsoft.Cci.MutableCodeModel.ReturnStatement,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Addition,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Subtraction,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Modulus,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Addition,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.LessThan,new</token>
+<token>Microsoft.Cci.MutableCodeModel.LessThan,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Division,new</token>
+<token>Microsoft.Cci.MutableCodeModel.GreaterThanOrEqual,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.CompileTimeConstant,new</token>
+<token>Microsoft.Cci.MutableCodeModel.GreaterThanOrEqual,new</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Cci.MutableCodeModel.MethodDefinition,new</token>
+<token>Microsoft.Cci.MutableCodeModel.SourceMethodBody,new</token>
+<token>Microsoft.Cci.MutableCodeModel.BlockStatement,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.GreaterThanOrEqual,new</token>
+<token>Microsoft.Cci.MutableCodeModel.ExclusiveOr,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.ExpressionStatement,new</token>
+<token>Microsoft.Cci.MutableCodeModel.BlockExpression,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Addition,new</token>
+<token>Microsoft.Cci.MutableCodeModel.LessThanOrEqual,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.MethodDefinition,new</token>
+<token>Microsoft.Cci.MutableCodeModel.SourceMethodBody,new</token>
+<token>Microsoft.Cci.MutableCodeModel.BlockStatement,new</token>
+<token>Microsoft.Cci.MutableCodeModel.ThisReference,new</token>
+<token>Microsoft.Cci.MutableCodeModel.ReturnStatement,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.BlockStatement,new</token>
+<token>Microsoft.Cci.MutableCodeModel.MethodDefinition,new</token>
+<token>Microsoft.Cci.MutableCodeModel.ParameterDefinition,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.BitwiseAnd,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Conditional,new</token>
+<token>Microsoft.Cci.MutableCodeModel.CompileTimeConstant,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Subtraction,new</token>
+<token>Microsoft.Cci.MutableCodeModel.GreaterThanOrEqual,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.BitwiseAnd,new</token>
+<token>Microsoft.Cci.MutableCodeModel.NotEquality,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Subtraction,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Addition,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.LocalDefinition,new</token>
+<token>Microsoft.Cci.MutableCodeModel.CodeRewriter,Rewrite</token>
+<token>Microsoft.Cci.MutableCodeModel.ReturnStatement,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Addition,new</token>
+<token>Microsoft.Cci.MutableCodeModel.RightShift,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.RightShift,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Subtraction,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.ParameterDefinition,new</token>
+<token>Microsoft.Cci.MutableCodeModel.ParameterDefinition,new</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Cci.MutableCodeModel.CatchClause,new</token>
+<token>Microsoft.Cci.MutableCodeModel.TryCatchFinallyStatement,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.BitwiseOr,new</token>
+<token>Microsoft.Cci.MutableCodeModel.ExclusiveOr,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.LessThanOrEqual,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Modulus,new</token>
 </entry>
 <entry count="13">
 <token>Microsoft.Cci.MutableCodeModel.ThisReference,new</token>
@@ -428,13 +1291,822 @@
 <token>Microsoft.Cci.MutableCodeModel.GotoStatement,new</token>
 </entry>
 <entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Modulus,new</token>
+<token>Microsoft.Cci.MutableCodeModel.ExclusiveOr,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.LessThanOrEqual,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Subtraction,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Equality,new</token>
+<token>Microsoft.Cci.MutableCodeModel.BitwiseAnd,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Division,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Division,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.BitwiseAnd,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Equality,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Addition,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Subtraction,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.AddressOf,new</token>
+<token>Microsoft.Cci.MutableCodeModel.AddressableExpression,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.LessThanOrEqual,new</token>
+<token>Microsoft.Cci.MutableCodeModel.GreaterThan,new</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Cci.MutableCodeModel.EmptyStatement,new</token>
+<token>Microsoft.Cci.MutableCodeModel.EmptyStatement,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Modulus,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Subtraction,new</token>
+</entry>
+<entry count="122">
+<token>Microsoft.Cci.MutableCodeModel.MetadataRewriter,Rewrite</token>
+<token>Microsoft.Cci.MutableCodeModel.MetadataRewriter,Rewrite</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.CompileTimeConstant,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Equality,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Equality,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Subtraction,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.NotEquality,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Multiplication,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Multiplication,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Addition,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.CompileTimeConstant,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.ExpressionStatement,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Equality,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Modulus,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.BlockStatement,new</token>
+<token>Microsoft.Cci.MutableCodeModel.ReturnStatement,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Addition,new</token>
+<token>Microsoft.Cci.MutableCodeModel.CompileTimeConstant,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.ExpressionStatement,new</token>
+<token>Microsoft.Cci.MutableCodeModel.BlockExpression,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Addition,new</token>
+<token>Microsoft.Cci.MutableCodeModel.CompileTimeConstant,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.BitwiseOr,new</token>
+<token>Microsoft.Cci.MutableCodeModel.GreaterThanOrEqual,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.CompileTimeConstant,new</token>
+<token>Microsoft.Cci.MutableCodeModel.NotEquality,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.GreaterThanOrEqual,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Subtraction,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Conditional,new</token>
+<token>Microsoft.Cci.MutableCodeModel.CompileTimeConstant,new</token>
+<token>Microsoft.Cci.MutableCodeModel.LessThan,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Conditional,new</token>
+<token>Microsoft.Cci.MutableCodeModel.CompileTimeConstant,new</token>
+<token>Microsoft.Cci.MutableCodeModel.RightShift,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.ExpressionStatement,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Modulus,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Multiplication,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Equality,new</token>
+<token>Microsoft.Cci.MutableCodeModel.BitwiseOr,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.GreaterThan,new</token>
+<token>Microsoft.Cci.MutableCodeModel.NotEquality,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.CompileTimeConstant,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.ExpressionStatement,new</token>
+<token>Microsoft.Cci.MutableCodeModel.BlockExpression,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Modulus,new</token>
+<token>Microsoft.Cci.MutableCodeModel.LeftShift,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.ExclusiveOr,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Modulus,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.ParameterDefinition,new</token>
+<token>Microsoft.Cci.MutableCodeModel.ThisReference,new</token>
+<token>Microsoft.Cci.MutableCodeModel.MethodReference,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.MethodReference,new</token>
+<token>Microsoft.Cci.MutableCodeModel.ExpressionStatement,new</token>
+<token>Microsoft.Cci.MutableCodeModel.MethodCall,new</token>
+<token>Microsoft.Cci.MutableCodeModel.ReturnStatement,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Division,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Multiplication,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Equality,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Division,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Multiplication,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Modulus,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Conditional,new</token>
+<token>Microsoft.Cci.MutableCodeModel.CompileTimeConstant,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Subtraction,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Division,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Equality,new</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Cci.MutableCodeModel.Modulus,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Conditional,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Multiplication,new</token>
+<token>Microsoft.Cci.MutableCodeModel.NotEquality,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Equality,new</token>
+<token>Microsoft.Cci.MutableCodeModel.RightShift,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Modulus,new</token>
+<token>Microsoft.Cci.MutableCodeModel.BitwiseAnd,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.LeftShift,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Subtraction,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Modulus,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Addition,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.ExclusiveOr,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Subtraction,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.LeftShift,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Multiplication,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Conditional,new</token>
+<token>Microsoft.Cci.MutableCodeModel.CompileTimeConstant,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Modulus,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Subtraction,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Addition,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Modulus,new</token>
+<token>Microsoft.Cci.MutableCodeModel.NotEquality,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Division,new</token>
+<token>Microsoft.Cci.MutableCodeModel.RightShift,new</token>
+</entry>
+<entry count="10">
+<token>Microsoft.Cci.MutableCodeModel.MethodReference,new</token>
+<token>Microsoft.Cci.MutableCodeModel.ExpressionStatement,new</token>
+<token>Microsoft.Cci.MutableCodeModel.MethodCall,new</token>
+<token>Microsoft.Cci.MutableCodeModel.EmptyStatement,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.ExclusiveOr,new</token>
+<token>Microsoft.Cci.MutableCodeModel.GreaterThan,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.CompileTimeConstant,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Addition,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.LessThanOrEqual,new</token>
+<token>Microsoft.Cci.MutableCodeModel.LessThanOrEqual,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Addition,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Multiplication,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.MethodDefinition,new</token>
+<token>Microsoft.Cci.MutableCodeModel.ParameterDefinition,new</token>
+<token>Microsoft.Cci.MutableCodeModel.ParameterDefinition,new</token>
+<token>Microsoft.Cci.MutableCodeModel.ThisReference,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Subtraction,new</token>
+<token>Microsoft.Cci.MutableCodeModel.LeftShift,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Modulus,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Equality,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.GreaterThanOrEqual,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Modulus,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.GreaterThan,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Division,new</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Cci.MutableCodeModel.SourceMethodBody,new</token>
+<token>Microsoft.Cci.MutableCodeModel.BlockStatement,new</token>
+<token>Microsoft.Cci.MutableCodeModel.ThisReference,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Multiplication,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Division,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.LeftShift,new</token>
+<token>Microsoft.Cci.MutableCodeModel.RightShift,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.LessThan,new</token>
+<token>Microsoft.Cci.MutableCodeModel.BitwiseAnd,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Subtraction,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Subtraction,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.BitwiseAnd,new</token>
+<token>Microsoft.Cci.MutableCodeModel.ExclusiveOr,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Subtraction,new</token>
+<token>Microsoft.Cci.MutableCodeModel.BitwiseAnd,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Division,new</token>
+<token>Microsoft.Cci.MutableCodeModel.LessThanOrEqual,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Modulus,new</token>
+<token>Microsoft.Cci.MutableCodeModel.GreaterThanOrEqual,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Addition,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Modulus,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.NamespaceTypeDefinition,new</token>
+<token>Microsoft.Cci.MutableCodeModel.SourceMethodBody,new</token>
+<token>Microsoft.Cci.MutableCodeModel.BlockStatement,new</token>
+<token>Microsoft.Cci.MutableCodeModel.MethodDefinition,new</token>
+<token>Microsoft.Cci.MutableCodeModel.ParameterDefinition,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Conditional,new</token>
+<token>Microsoft.Cci.MutableCodeModel.CompileTimeConstant,new</token>
+<token>Microsoft.Cci.MutableCodeModel.LessThanOrEqual,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.BitwiseOr,new</token>
+<token>Microsoft.Cci.MutableCodeModel.NotEquality,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Modulus,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Modulus,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Modulus,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Division,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.BlockStatement,new</token>
+<token>Microsoft.Cci.MutableCodeModel.ThisReference,new</token>
+<token>Microsoft.Cci.MutableCodeModel.MethodReference,new</token>
+<token>Microsoft.Cci.MutableCodeModel.ExpressionStatement,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Addition,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Modulus,new</token>
+</entry>
+<entry count="36">
+<token>Microsoft.Cci.MutableCodeModel.MetadataDeepCopier,Copy</token>
+<token>Microsoft.Cci.MutableCodeModel.MetadataRewriter,RewriteChildren</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Subtraction,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Conditional,new</token>
+</entry>
+<entry count="16">
+<token>Microsoft.Cci.MutableCodeModel.MetadataConstant,new</token>
+<token>Microsoft.Cci.MutableCodeModel.MetadataConstant,new</token>
+<token>Microsoft.Cci.MutableCodeModel.CustomAttribute,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.LessThan,new</token>
+<token>Microsoft.Cci.MutableCodeModel.LeftShift,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Subtraction,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Modulus,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.LabeledStatement,new</token>
+<token>Microsoft.Cci.MutableCodeModel.EmptyStatement,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.LeftShift,new</token>
+<token>Microsoft.Cci.MutableCodeModel.LessThanOrEqual,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Multiplication,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Multiplication,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.BlockStatement,new</token>
+<token>Microsoft.Cci.MutableCodeModel.ThisReference,new</token>
+<token>Microsoft.Cci.MutableCodeModel.MethodReference,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Conditional,new</token>
+<token>Microsoft.Cci.MutableCodeModel.CompileTimeConstant,new</token>
+<token>Microsoft.Cci.MutableCodeModel.GreaterThan,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Division,new</token>
+<token>Microsoft.Cci.MutableCodeModel.ExclusiveOr,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.ReturnStatement,new</token>
+<token>Microsoft.Cci.MutableCodeModel.AnonymousDelegate,new</token>
+</entry>
+<entry count="10">
+<token>Microsoft.Cci.MutableCodeModel.Modulus,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+</entry>
+<entry count="5">
+<token>Microsoft.Cci.MutableCodeModel.LessThan,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Division,new</token>
+<token>Microsoft.Cci.MutableCodeModel.GreaterThan,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Modulus,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Subtraction,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.BitwiseOr,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Division,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Equality,new</token>
+<token>Microsoft.Cci.MutableCodeModel.LessThan,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.ExclusiveOr,new</token>
+<token>Microsoft.Cci.MutableCodeModel.LessThanOrEqual,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.SourceMethodBody,new</token>
+<token>Microsoft.Cci.MutableCodeModel.BlockStatement,new</token>
+<token>Microsoft.Cci.MutableCodeModel.ThisReference,new</token>
+<token>Microsoft.Cci.MutableCodeModel.MethodReference,new</token>
+<token>Microsoft.Cci.MutableCodeModel.ExpressionStatement,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Multiplication,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Addition,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.BitwiseOr,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Multiplication,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.ExclusiveOr,new</token>
+<token>Microsoft.Cci.MutableCodeModel.LessThan,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.ExclusiveOr,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Modulus,new</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Cci.MutableCodeModel.Assembly,new</token>
+<token>Microsoft.Cci.MutableCodeModel.RootUnitNamespace,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.LeftShift,new</token>
+<token>Microsoft.Cci.MutableCodeModel.GreaterThan,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.GreaterThan,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Multiplication,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.ExclusiveOr,new</token>
+<token>Microsoft.Cci.MutableCodeModel.RightShift,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.NotEquality,new</token>
+<token>Microsoft.Cci.MutableCodeModel.ExclusiveOr,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Modulus,new</token>
+<token>Microsoft.Cci.MutableCodeModel.BitwiseAnd,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.ParameterDefinition,new</token>
+<token>Microsoft.Cci.MutableCodeModel.ParameterDefinition,new</token>
+<token>Microsoft.Cci.MutableCodeModel.ThisReference,new</token>
+<token>Microsoft.Cci.MutableCodeModel.MethodReference,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.LessThanOrEqual,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Conditional,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.ExpressionStatement,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.BlockStatement,new</token>
+<token>Microsoft.Cci.MutableCodeModel.ThisReference,new</token>
+<token>Microsoft.Cci.MutableCodeModel.MethodReference,new</token>
+<token>Microsoft.Cci.MutableCodeModel.ExpressionStatement,new</token>
+<token>Microsoft.Cci.MutableCodeModel.MethodCall,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.BitwiseOr,new</token>
+<token>Microsoft.Cci.MutableCodeModel.GreaterThan,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.LessThanOrEqual,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Addition,new</token>
+</entry>
+<entry count="10">
+<token>Microsoft.Cci.MutableCodeModel.ExpressionStatement,new</token>
+<token>Microsoft.Cci.MutableCodeModel.MethodCall,new</token>
+<token>Microsoft.Cci.MutableCodeModel.EmptyStatement,new</token>
+<token>Microsoft.Cci.MutableCodeModel.BlockStatement,new</token>
+</entry>
+<entry count="5">
+<token>Microsoft.Cci.MutableCodeModel.ExclusiveOr,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.LessThanOrEqual,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Addition,new</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Cci.MutableCodeModel.Subtraction,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Conditional,new</token>
+<token>Microsoft.Cci.MutableCodeModel.CompileTimeConstant,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Multiplication,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Modulus,new</token>
+</entry>
+<entry count="13">
+<token>Microsoft.Cci.MutableCodeModel.ThisReference,new</token>
+<token>Microsoft.Cci.MutableCodeModel.MethodReference,new</token>
+<token>Microsoft.Cci.MutableCodeModel.ExpressionStatement,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.RightShift,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Addition,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.LocalDefinition,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Operation,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Operation,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Multiplication,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Multiplication,new</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Cci.MutableCodeModel.Multiplication,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Conditional,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.ParameterDefinition,new</token>
+<token>Microsoft.Cci.MutableCodeModel.ThisReference,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.ExclusiveOr,new</token>
+<token>Microsoft.Cci.MutableCodeModel.BitwiseOr,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.LogicalNot,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Conditional,new</token>
+<token>Microsoft.Cci.MutableCodeModel.CompileTimeConstant,new</token>
+<token>Microsoft.Cci.MutableCodeModel.CodeRewriter,Rewrite</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.LessThan,new</token>
+<token>Microsoft.Cci.MutableCodeModel.GreaterThanOrEqual,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Division,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Multiplication,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.CompileTimeConstant,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Multiplication,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Addition,new</token>
+<token>Microsoft.Cci.MutableCodeModel.CompileTimeConstant,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.ExclusiveOr,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Subtraction,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.BlockExpression,new</token>
+<token>Microsoft.Cci.MutableCodeModel.BlockStatement,new</token>
+<token>Microsoft.Cci.MutableCodeModel.BoundExpression,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Equality,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Conditional,new</token>
+<token>Microsoft.Cci.MutableCodeModel.CompileTimeConstant,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Addition,new</token>
+<token>Microsoft.Cci.MutableCodeModel.LeftShift,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.RightShift,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Conditional,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.MethodDefinition,new</token>
+<token>Microsoft.Cci.MutableCodeModel.ParameterDefinition,new</token>
+<token>Microsoft.Cci.MutableCodeModel.ParameterDefinition,new</token>
+<token>Microsoft.Cci.MutableCodeModel.ThisReference,new</token>
+<token>Microsoft.Cci.MutableCodeModel.MethodReference,new</token>
+</entry>
+<entry count="10">
+<token>Microsoft.Cci.MutableCodeModel.MethodCall,new</token>
+<token>Microsoft.Cci.MutableCodeModel.EmptyStatement,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Subtraction,new</token>
+<token>Microsoft.Cci.MutableCodeModel.NotEquality,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Multiplication,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Equality,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Conditional,new</token>
+<token>Microsoft.Cci.MutableCodeModel.CompileTimeConstant,new</token>
+<token>Microsoft.Cci.MutableCodeModel.BitwiseOr,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Multiplication,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Subtraction,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.CompileTimeConstant,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Multiplication,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Equality,new</token>
+<token>Microsoft.Cci.MutableCodeModel.LeftShift,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.LocalDefinition,new</token>
+<token>Microsoft.Cci.MutableCodeModel.LocalDeclarationStatement,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Subtraction,new</token>
+<token>Microsoft.Cci.MutableCodeModel.CompileTimeConstant,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Addition,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Addition,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Equality,new</token>
+<token>Microsoft.Cci.MutableCodeModel.GreaterThanOrEqual,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Subtraction,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Multiplication,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.NotEquality,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Conditional,new</token>
+<token>Microsoft.Cci.MutableCodeModel.CompileTimeConstant,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.BitwiseAnd,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Multiplication,new</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Cci.MutableCodeModel.Division,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Conditional,new</token>
+<token>Microsoft.Cci.MutableCodeModel.CompileTimeConstant,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Multiplication,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Addition,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Multiplication,new</token>
+<token>Microsoft.Cci.MutableCodeModel.BitwiseAnd,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.ParameterDefinition,new</token>
+<token>Microsoft.Cci.MutableCodeModel.ParameterDefinition,new</token>
+<token>Microsoft.Cci.MutableCodeModel.ThisReference,new</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Cci.MutableCodeModel.BlockStatement,new</token>
+<token>Microsoft.Cci.MutableCodeModel.EmptyStatement,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Operation,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Operation,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Subtraction,new</token>
+<token>Microsoft.Cci.MutableCodeModel.CompileTimeConstant,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.ExpressionStatement,new</token>
+<token>Microsoft.Cci.MutableCodeModel.BlockExpression,new</token>
+</entry>
+<entry count="12">
+<token>Microsoft.Cci.MutableCodeModel.EmptyStatement,new</token>
+<token>Microsoft.Cci.MutableCodeModel.BlockStatement,new</token>
+</entry>
+<entry count="13">
+<token>Microsoft.Cci.MutableCodeModel.ExpressionStatement,new</token>
+<token>Microsoft.Cci.MutableCodeModel.MethodCall,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.RightShift,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Conditional,new</token>
+<token>Microsoft.Cci.MutableCodeModel.CompileTimeConstant,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Addition,new</token>
+<token>Microsoft.Cci.MutableCodeModel.GreaterThan,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Addition,new</token>
+<token>Microsoft.Cci.MutableCodeModel.LeftShift,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Division,new</token>
+<token>Microsoft.Cci.MutableCodeModel.NotEquality,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Multiplication,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Division,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Modulus,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Division,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.LabeledStatement,new</token>
+<token>Microsoft.Cci.MutableCodeModel.EmptyStatement,new</token>
+<token>Microsoft.Cci.MutableCodeModel.LocalDefinition,new</token>
+<token>Microsoft.Cci.MutableCodeModel.CodeRewriter,Rewrite</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Subtraction,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Equality,new</token>
+</entry>
+<entry count="3">
+<token>Microsoft.Cci.MutableCodeModel.CreateArray,new</token>
+<token>Microsoft.Cci.MutableCodeModel.CompileTimeConstant,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Addition,new</token>
+<token>Microsoft.Cci.MutableCodeModel.GreaterThanOrEqual,new</token>
+</entry>
+<entry count="1">
 <token>Microsoft.Cci.MutableCodeModel.LogicalNot,new</token>
 <token>Microsoft.Cci.MutableCodeModel.Conditional,new</token>
 <token>Microsoft.Cci.MutableCodeModel.CompileTimeConstant,new</token>
 </entry>
-<entry count="4">
-<token>Microsoft.Cci.MutableCodeModel.MethodDefinition,new</token>
-<token>Microsoft.Cci.MutableCodeModel.SourceMethodBody,new</token>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Equality,new</token>
+<token>Microsoft.Cci.MutableCodeModel.LessThanOrEqual,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Addition,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Division,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.LessThanOrEqual,new</token>
+<token>Microsoft.Cci.MutableCodeModel.ExclusiveOr,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.GreaterThanOrEqual,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Addition,new</token>
 </entry>
 <entry count="10">
 <token>Microsoft.Cci.MutableCodeModel.MethodReference,new</token>
@@ -443,22 +2115,915 @@
 <token>Microsoft.Cci.MutableCodeModel.EmptyStatement,new</token>
 <token>Microsoft.Cci.MutableCodeModel.BlockStatement,new</token>
 </entry>
-<entry count="16">
-<token>Microsoft.Cci.MutableCodeModel.CustomAttribute,new</token>
-<token>Microsoft.Cci.MutableCodeModel.MetadataRewriter,RewriteChildren</token>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Modulus,new</token>
+<token>Microsoft.Cci.MutableCodeModel.BitwiseOr,new</token>
 </entry>
-<entry count="16">
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.BitwiseOr,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Multiplication,new</token>
+</entry>
+<entry count="32">
 <token>Microsoft.Cci.MutableCodeModel.ParameterTypeInformation,new</token>
 <token>Microsoft.Cci.MutableCodeModel.MethodReference,new</token>
 <token>Microsoft.Cci.MutableCodeModel.MethodReference,new</token>
 </entry>
 <entry count="1">
-<token>Microsoft.Cci.MutableCodeModel.AddressOf,new</token>
-<token>Microsoft.Cci.MutableCodeModel.AddressableExpression,new</token>
+<token>Microsoft.Cci.MutableCodeModel.GreaterThan,new</token>
+<token>Microsoft.Cci.MutableCodeModel.GreaterThan,new</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Cci.MutableCodeModel.Multiplication,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Conditional,new</token>
+<token>Microsoft.Cci.MutableCodeModel.CompileTimeConstant,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.NotEquality,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Conditional,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.LeftShift,new</token>
+<token>Microsoft.Cci.MutableCodeModel.GreaterThanOrEqual,new</token>
+</entry>
+<entry count="13">
+<token>Microsoft.Cci.MutableCodeModel.MethodReference,new</token>
+<token>Microsoft.Cci.MutableCodeModel.ExpressionStatement,new</token>
+</entry>
+<entry count="54">
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Modulus,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.LeftShift,new</token>
+<token>Microsoft.Cci.MutableCodeModel.LeftShift,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Multiplication,new</token>
+<token>Microsoft.Cci.MutableCodeModel.NotEquality,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Conditional,new</token>
+<token>Microsoft.Cci.MutableCodeModel.CompileTimeConstant,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Division,new</token>
+</entry>
+<entry count="13">
+<token>Microsoft.Cci.MutableCodeModel.ThisReference,new</token>
+<token>Microsoft.Cci.MutableCodeModel.MethodReference,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.ParameterDefinition,new</token>
+<token>Microsoft.Cci.MutableCodeModel.ThisReference,new</token>
+<token>Microsoft.Cci.MutableCodeModel.MethodReference,new</token>
+<token>Microsoft.Cci.MutableCodeModel.ExpressionStatement,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Addition,new</token>
+<token>Microsoft.Cci.MutableCodeModel.LessThanOrEqual,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.LeftShift,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Multiplication,new</token>
+</entry>
+<entry count="5">
+<token>Microsoft.Cci.MutableCodeModel.Equality,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.NotEquality,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Modulus,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.GreaterThanOrEqual,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Multiplication,new</token>
+</entry>
+<entry count="54">
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Subtraction,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Modulus,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Subtraction,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Subtraction,new</token>
+<token>Microsoft.Cci.MutableCodeModel.ExclusiveOr,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.ThisReference,new</token>
+<token>Microsoft.Cci.MutableCodeModel.MethodReference,new</token>
+<token>Microsoft.Cci.MutableCodeModel.ExpressionStatement,new</token>
+<token>Microsoft.Cci.MutableCodeModel.MethodCall,new</token>
+<token>Microsoft.Cci.MutableCodeModel.ReturnStatement,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.MetadataRewriter,Rewrite</token>
+<token>Microsoft.Cci.MutableCodeModel.MetadataRewriter,Rewrite</token>
+<token>Microsoft.Cci.MutableCodeModel.MetadataRewriter,Rewrite</token>
+<token>Microsoft.Cci.MutableCodeModel.MetadataRewriter,Rewrite</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.RightShift,new</token>
+<token>Microsoft.Cci.MutableCodeModel.ExclusiveOr,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.NotEquality,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Subtraction,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Conditional,new</token>
+<token>Microsoft.Cci.MutableCodeModel.CompileTimeConstant,new</token>
+<token>Microsoft.Cci.MutableCodeModel.BitwiseAnd,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Multiplication,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Equality,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.LabeledStatement,new</token>
+<token>Microsoft.Cci.MutableCodeModel.EmptyStatement,new</token>
+<token>Microsoft.Cci.MutableCodeModel.LocalDefinition,new</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Cci.MutableCodeModel.Conditional,new</token>
+<token>Microsoft.Cci.MutableCodeModel.CompileTimeConstant,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Conditional,new</token>
+<token>Microsoft.Cci.MutableCodeModel.CompileTimeConstant,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Division,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Addition,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Addition,new</token>
+<token>Microsoft.Cci.MutableCodeModel.GreaterThanOrEqual,new</token>
+</entry>
+<entry count="16">
+<token>Microsoft.Cci.MutableCodeModel.MetadataConstant,new</token>
+<token>Microsoft.Cci.MutableCodeModel.MetadataConstant,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.ReturnStatement,new</token>
+<token>Microsoft.Cci.MutableCodeModel.BoundExpression,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.CompileTimeConstant,new</token>
+<token>Microsoft.Cci.MutableCodeModel.ExclusiveOr,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Multiplication,new</token>
+<token>Microsoft.Cci.MutableCodeModel.ExclusiveOr,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.GreaterThanOrEqual,new</token>
+<token>Microsoft.Cci.MutableCodeModel.GreaterThanOrEqual,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Modulus,new</token>
+<token>Microsoft.Cci.MutableCodeModel.LessThan,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Conditional,new</token>
+<token>Microsoft.Cci.MutableCodeModel.CompileTimeConstant,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Multiplication,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.LocalDeclarationStatement,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Subtraction,new</token>
+<token>Microsoft.Cci.MutableCodeModel.CompileTimeConstant,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.LocalDefinition,new</token>
+<token>Microsoft.Cci.MutableCodeModel.LocalDeclarationStatement,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Subtraction,new</token>
+<token>Microsoft.Cci.MutableCodeModel.CompileTimeConstant,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Division,new</token>
+<token>Microsoft.Cci.MutableCodeModel.NotEquality,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.GreaterThan,new</token>
+<token>Microsoft.Cci.MutableCodeModel.ExclusiveOr,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Addition,new</token>
+<token>Microsoft.Cci.MutableCodeModel.GreaterThan,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.RightShift,new</token>
+<token>Microsoft.Cci.MutableCodeModel.BitwiseAnd,new</token>
+</entry>
+<entry count="10">
+<token>Microsoft.Cci.MutableCodeModel.LocalDefinition,new</token>
+<token>Microsoft.Cci.MutableCodeModel.LocalDeclarationStatement,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.NotEquality,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Addition,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.RightShift,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Division,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.LabeledStatement,new</token>
+<token>Microsoft.Cci.MutableCodeModel.BlockStatement,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Modulus,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Multiplication,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.ExclusiveOr,new</token>
+<token>Microsoft.Cci.MutableCodeModel.GreaterThanOrEqual,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.LessThan,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Subtraction,new</token>
 </entry>
 <entry count="2">
 <token>Microsoft.Cci.MutableCodeModel.EmptyStatement,new</token>
+<token>Microsoft.Cci.MutableCodeModel.LocalDefinition,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.ExclusiveOr,new</token>
+<token>Microsoft.Cci.MutableCodeModel.LeftShift,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.ExpressionStatement,new</token>
+<token>Microsoft.Cci.MutableCodeModel.MethodCall,new</token>
+<token>Microsoft.Cci.MutableCodeModel.ThisReference,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.NotEquality,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Division,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.SourceMethodBody,new</token>
+<token>Microsoft.Cci.MutableCodeModel.BlockStatement,new</token>
+<token>Microsoft.Cci.MutableCodeModel.ThisReference,new</token>
+<token>Microsoft.Cci.MutableCodeModel.MethodReference,new</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Cci.MutableCodeModel.Addition,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Conditional,new</token>
+<token>Microsoft.Cci.MutableCodeModel.CompileTimeConstant,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Division,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Division,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Addition,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Multiplication,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.BitwiseAnd,new</token>
+<token>Microsoft.Cci.MutableCodeModel.LeftShift,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.LocalDeclarationStatement,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Subtraction,new</token>
+<token>Microsoft.Cci.MutableCodeModel.CompileTimeConstant,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.ExpressionStatement,new</token>
+<token>Microsoft.Cci.MutableCodeModel.BlockExpression,new</token>
+<token>Microsoft.Cci.MutableCodeModel.BlockStatement,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.BitwiseAnd,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Multiplication,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.LessThanOrEqual,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Division,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Subtraction,new</token>
+<token>Microsoft.Cci.MutableCodeModel.ExclusiveOr,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Subtraction,new</token>
+<token>Microsoft.Cci.MutableCodeModel.GreaterThan,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Modulus,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Modulus,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.LocalDefinition,new</token>
+<token>Microsoft.Cci.MutableCodeModel.LocalDeclarationStatement,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Addition,new</token>
+<token>Microsoft.Cci.MutableCodeModel.CompileTimeConstant,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.LessThanOrEqual,new</token>
+<token>Microsoft.Cci.MutableCodeModel.BitwiseAnd,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.ExclusiveOr,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Addition,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.LessThanOrEqual,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Equality,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.LessThanOrEqual,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Division,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.CompileTimeConstant,new</token>
+<token>Microsoft.Cci.MutableCodeModel.GreaterThan,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.ExclusiveOr,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Division,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.BitwiseOr,new</token>
+<token>Microsoft.Cci.MutableCodeModel.LessThanOrEqual,new</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Cci.MutableCodeModel.Conditional,new</token>
+<token>Microsoft.Cci.MutableCodeModel.CompileTimeConstant,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Conditional,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.LessThan,new</token>
+<token>Microsoft.Cci.MutableCodeModel.RightShift,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Addition,new</token>
+<token>Microsoft.Cci.MutableCodeModel.RightShift,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.LessThan,new</token>
+<token>Microsoft.Cci.MutableCodeModel.LessThanOrEqual,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Subtraction,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Multiplication,new</token>
+</entry>
+<entry count="10">
+<token>Microsoft.Cci.MutableCodeModel.ThisReference,new</token>
+<token>Microsoft.Cci.MutableCodeModel.MethodReference,new</token>
+<token>Microsoft.Cci.MutableCodeModel.ExpressionStatement,new</token>
+<token>Microsoft.Cci.MutableCodeModel.MethodCall,new</token>
 <token>Microsoft.Cci.MutableCodeModel.EmptyStatement,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.NotEquality,new</token>
+<token>Microsoft.Cci.MutableCodeModel.NotEquality,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.GreaterThanOrEqual,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Multiplication,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Addition,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Modulus,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.RightShift,new</token>
+<token>Microsoft.Cci.MutableCodeModel.NotEquality,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.LessThan,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Modulus,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.LessThan,new</token>
+<token>Microsoft.Cci.MutableCodeModel.GreaterThan,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.GreaterThanOrEqual,new</token>
+<token>Microsoft.Cci.MutableCodeModel.LeftShift,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.CodeRewriter,Rewrite</token>
+<token>Microsoft.Cci.MutableCodeModel.ReturnStatement,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.NotEquality,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Equality,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.CodeRewriter,Rewrite</token>
+<token>Microsoft.Cci.MutableCodeModel.ReturnStatement,new</token>
+<token>Microsoft.Cci.MutableCodeModel.BoundExpression,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.ExclusiveOr,new</token>
+<token>Microsoft.Cci.MutableCodeModel.BitwiseAnd,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Modulus,new</token>
+<token>Microsoft.Cci.MutableCodeModel.RightShift,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.GreaterThan,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Conditional,new</token>
+<token>Microsoft.Cci.MutableCodeModel.CompileTimeConstant,new</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Cci.MutableCodeModel.BlockStatement,new</token>
+<token>Microsoft.Cci.MutableCodeModel.EmptyStatement,new</token>
+<token>Microsoft.Cci.MutableCodeModel.EmptyStatement,new</token>
+</entry>
+<entry count="10">
+<token>Microsoft.Cci.MutableCodeModel.Conditional,new</token>
+<token>Microsoft.Cci.MutableCodeModel.CompileTimeConstant,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.LessThanOrEqual,new</token>
+<token>Microsoft.Cci.MutableCodeModel.NotEquality,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.RightShift,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Equality,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Division,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Multiplication,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Multiplication,new</token>
+<token>Microsoft.Cci.MutableCodeModel.ExclusiveOr,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.LessThanOrEqual,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Multiplication,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.GreaterThan,new</token>
+<token>Microsoft.Cci.MutableCodeModel.LeftShift,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Modulus,new</token>
+<token>Microsoft.Cci.MutableCodeModel.ExclusiveOr,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Addition,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Subtraction,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Conditional,new</token>
+<token>Microsoft.Cci.MutableCodeModel.CompileTimeConstant,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Modulus,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Subtraction,new</token>
+<token>Microsoft.Cci.MutableCodeModel.CompileTimeConstant,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.ExpressionStatement,new</token>
+<token>Microsoft.Cci.MutableCodeModel.BlockExpression,new</token>
+<token>Microsoft.Cci.MutableCodeModel.BlockStatement,new</token>
+<token>Microsoft.Cci.MutableCodeModel.BoundExpression,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Division,new</token>
+<token>Microsoft.Cci.MutableCodeModel.BitwiseAnd,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.GreaterThan,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Conditional,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.BitwiseOr,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Conditional,new</token>
+<token>Microsoft.Cci.MutableCodeModel.CompileTimeConstant,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Subtraction,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Division,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.ExpressionStatement,new</token>
+<token>Microsoft.Cci.MutableCodeModel.BlockExpression,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Equality,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Multiplication,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.GreaterThan,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Addition,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Modulus,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Division,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Multiplication,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Conditional,new</token>
+<token>Microsoft.Cci.MutableCodeModel.CompileTimeConstant,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Division,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Subtraction,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Modulus,new</token>
+<token>Microsoft.Cci.MutableCodeModel.RightShift,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Multiplication,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Multiplication,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.ExclusiveOr,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Division,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Conditional,new</token>
+<token>Microsoft.Cci.MutableCodeModel.CompileTimeConstant,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Subtraction,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.NotEquality,new</token>
+<token>Microsoft.Cci.MutableCodeModel.GreaterThan,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Modulus,new</token>
+<token>Microsoft.Cci.MutableCodeModel.NotEquality,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Addition,new</token>
+<token>Microsoft.Cci.MutableCodeModel.CompileTimeConstant,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.ExpressionStatement,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.LeftShift,new</token>
+<token>Microsoft.Cci.MutableCodeModel.NotEquality,new</token>
+</entry>
+<entry count="5">
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Modulus,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Cci.MutableCodeModel.CompileTimeConstant,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Conditional,new</token>
+</entry>
+<entry count="109">
+<token>Microsoft.Cci.MutableCodeModel.Conditional,new</token>
+<token>Microsoft.Cci.MutableCodeModel.CompileTimeConstant,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Multiplication,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Division,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.BlockStatement,new</token>
+<token>Microsoft.Cci.MutableCodeModel.MethodDefinition,new</token>
+<token>Microsoft.Cci.MutableCodeModel.ParameterDefinition,new</token>
+<token>Microsoft.Cci.MutableCodeModel.ParameterDefinition,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.CompileTimeConstant,new</token>
+<token>Microsoft.Cci.MutableCodeModel.BitwiseAnd,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Modulus,new</token>
+<token>Microsoft.Cci.MutableCodeModel.LessThanOrEqual,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Conditional,new</token>
+<token>Microsoft.Cci.MutableCodeModel.CompileTimeConstant,new</token>
+<token>Microsoft.Cci.MutableCodeModel.GreaterThanOrEqual,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.BitwiseAnd,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Addition,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Multiplication,new</token>
+<token>Microsoft.Cci.MutableCodeModel.BitwiseOr,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.BitwiseAnd,new</token>
+<token>Microsoft.Cci.MutableCodeModel.LessThanOrEqual,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Division,new</token>
+<token>Microsoft.Cci.MutableCodeModel.GreaterThanOrEqual,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Conditional,new</token>
+<token>Microsoft.Cci.MutableCodeModel.CompileTimeConstant,new</token>
+<token>Microsoft.Cci.MutableCodeModel.NotEquality,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.SourceMethodBody,new</token>
+<token>Microsoft.Cci.MutableCodeModel.BlockStatement,new</token>
+<token>Microsoft.Cci.MutableCodeModel.MethodDefinition,new</token>
+<token>Microsoft.Cci.MutableCodeModel.ParameterDefinition,new</token>
+<token>Microsoft.Cci.MutableCodeModel.ParameterDefinition,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.RightShift,new</token>
+<token>Microsoft.Cci.MutableCodeModel.LessThan,new</token>
+</entry>
+<entry count="6">
+<token>Microsoft.Cci.MutableCodeModel.SourceMethodBody,new</token>
+<token>Microsoft.Cci.MutableCodeModel.BlockStatement,new</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Cci.MutableCodeModel.MethodDefinition,new</token>
+<token>Microsoft.Cci.MutableCodeModel.ParameterDefinition,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.LeftShift,new</token>
+<token>Microsoft.Cci.MutableCodeModel.ExclusiveOr,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.ParameterDefinition,new</token>
+<token>Microsoft.Cci.MutableCodeModel.ThisReference,new</token>
+<token>Microsoft.Cci.MutableCodeModel.ReturnStatement,new</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Cci.MutableCodeModel.MethodDefinition,new</token>
+<token>Microsoft.Cci.MutableCodeModel.SourceMethodBody,new</token>
+<token>Microsoft.Cci.MutableCodeModel.BlockStatement,new</token>
+<token>Microsoft.Cci.MutableCodeModel.ThisReference,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Subtraction,new</token>
+<token>Microsoft.Cci.MutableCodeModel.BitwiseAnd,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.BitwiseAnd,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Addition,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Division,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Modulus,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.LocalDeclarationStatement,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Addition,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.GreaterThanOrEqual,new</token>
+<token>Microsoft.Cci.MutableCodeModel.RightShift,new</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Cci.MutableCodeModel.Division,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Conditional,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Multiplication,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Subtraction,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.NotEquality,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Multiplication,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.RightShift,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Modulus,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.ParameterDefinition,new</token>
+<token>Microsoft.Cci.MutableCodeModel.ParameterDefinition,new</token>
+<token>Microsoft.Cci.MutableCodeModel.ThisReference,new</token>
+<token>Microsoft.Cci.MutableCodeModel.MethodReference,new</token>
+<token>Microsoft.Cci.MutableCodeModel.ExpressionStatement,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.BitwiseOr,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Modulus,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Equality,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Subtraction,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.BitwiseOr,new</token>
+<token>Microsoft.Cci.MutableCodeModel.RightShift,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.GreaterThanOrEqual,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Subtraction,new</token>
+</entry>
+<entry count="5">
+<token>Microsoft.Cci.MutableCodeModel.LessThanOrEqual,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Addition,new</token>
+<token>Microsoft.Cci.MutableCodeModel.ExclusiveOr,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.LessThanOrEqual,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Modulus,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.LeftShift,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Equality,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Modulus,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Subtraction,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.BitwiseOr,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Subtraction,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Division,new</token>
+<token>Microsoft.Cci.MutableCodeModel.GreaterThan,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Division,new</token>
+<token>Microsoft.Cci.MutableCodeModel.LeftShift,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Multiplication,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Modulus,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.BitwiseOr,new</token>
+<token>Microsoft.Cci.MutableCodeModel.LessThan,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Division,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Equality,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.LeftShift,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Conditional,new</token>
+<token>Microsoft.Cci.MutableCodeModel.CompileTimeConstant,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.ExclusiveOr,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Multiplication,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Modulus,new</token>
+<token>Microsoft.Cci.MutableCodeModel.LessThan,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.MethodDefinition,new</token>
+<token>Microsoft.Cci.MutableCodeModel.SourceMethodBody,new</token>
+<token>Microsoft.Cci.MutableCodeModel.BlockStatement,new</token>
+<token>Microsoft.Cci.MutableCodeModel.ThisReference,new</token>
+<token>Microsoft.Cci.MutableCodeModel.MethodReference,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Conditional,new</token>
+<token>Microsoft.Cci.MutableCodeModel.CompileTimeConstant,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Equality,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.GreaterThanOrEqual,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Modulus,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Modulus,new</token>
+<token>Microsoft.Cci.MutableCodeModel.GreaterThanOrEqual,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.LessThan,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Division,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.RightShift,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Subtraction,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.TargetExpression,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.LessThanOrEqual,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Subtraction,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.GreaterThanOrEqual,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Division,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.BlockStatement,new</token>
+<token>Microsoft.Cci.MutableCodeModel.MethodDefinition,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.ExpressionStatement,new</token>
+<token>Microsoft.Cci.MutableCodeModel.MethodCall,new</token>
+<token>Microsoft.Cci.MutableCodeModel.ThisReference,new</token>
+<token>Microsoft.Cci.MutableCodeModel.ReturnStatement,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.GreaterThanOrEqual,new</token>
+<token>Microsoft.Cci.MutableCodeModel.LessThan,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Division,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Addition,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Addition,new</token>
+<token>Microsoft.Cci.MutableCodeModel.NotEquality,new</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Cci.MutableCodeModel.MethodDefinition,new</token>
+<token>Microsoft.Cci.MutableCodeModel.SourceMethodBody,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Modulus,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Multiplication,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Modulus,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Equality,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Multiplication,new</token>
+<token>Microsoft.Cci.MutableCodeModel.LessThan,new</token>
+</entry>
+<entry count="10">
+<token>Microsoft.Cci.MutableCodeModel.Addition,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Modulus,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Modulus,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.RightShift,new</token>
+<token>Microsoft.Cci.MutableCodeModel.RightShift,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Subtraction,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Equality,new</token>
 </entry>
 <entry count="1">
 <token>Microsoft.Cci.MutableCodeModel.ParameterDefinition,new</token>
@@ -466,12 +3031,12 @@
 <token>Microsoft.Cci.MutableCodeModel.ThisReference,new</token>
 <token>Microsoft.Cci.MutableCodeModel.ReturnStatement,new</token>
 </entry>
-<entry count="13">
-<token>Microsoft.Cci.MutableCodeModel.MethodReference,new</token>
-<token>Microsoft.Cci.MutableCodeModel.ExpressionStatement,new</token>
-</entry>
 <entry count="2">
-<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.BitwiseOr,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Conditional,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.BitwiseAnd,new</token>
 <token>Microsoft.Cci.MutableCodeModel.Modulus,new</token>
 </entry>
 <entry count="2">
@@ -481,24 +3046,23 @@
 <token>Microsoft.Cci.MutableCodeModel.BlockExpression,new</token>
 <token>Microsoft.Cci.MutableCodeModel.BlockStatement,new</token>
 </entry>
-<entry count="13">
-<token>Microsoft.Cci.MutableCodeModel.ThisReference,new</token>
-<token>Microsoft.Cci.MutableCodeModel.MethodReference,new</token>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Subtraction,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Addition,new</token>
 </entry>
 <entry count="1">
-<token>Microsoft.Cci.MutableCodeModel.ParameterDefinition,new</token>
-<token>Microsoft.Cci.MutableCodeModel.ThisReference,new</token>
-<token>Microsoft.Cci.MutableCodeModel.MethodReference,new</token>
-<token>Microsoft.Cci.MutableCodeModel.ExpressionStatement,new</token>
-</entry>
-<entry count="2">
-<token>Microsoft.Cci.MutableCodeModel.CompileTimeConstant,new</token>
+<token>Microsoft.Cci.MutableCodeModel.GreaterThan,new</token>
 <token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
-<token>Microsoft.Cci.MutableCodeModel.ExpressionStatement,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Modulus,new</token>
 </entry>
-<entry count="2">
-<token>Microsoft.Cci.MutableCodeModel.BlockStatement,new</token>
-<token>Microsoft.Cci.MutableCodeModel.ReturnStatement,new</token>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Modulus,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Addition,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.RightShift,new</token>
+<token>Microsoft.Cci.MutableCodeModel.GreaterThan,new</token>
 </entry>
 <entry count="1">
 <token>Microsoft.Cci.MutableCodeModel.LocalDeclarationStatement,new</token>
@@ -506,50 +3070,43 @@
 <token>Microsoft.Cci.MutableCodeModel.CompileTimeConstant,new</token>
 </entry>
 <entry count="1">
-<token>Microsoft.Cci.MutableCodeModel.Addition,new</token>
-<token>Microsoft.Cci.MutableCodeModel.CompileTimeConstant,new</token>
-<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
-<token>Microsoft.Cci.MutableCodeModel.ExpressionStatement,new</token>
-<token>Microsoft.Cci.MutableCodeModel.BlockExpression,new</token>
-</entry>
-<entry count="2">
-<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
-<token>Microsoft.Cci.MutableCodeModel.Subtraction,new</token>
-</entry>
-<entry count="2">
-<token>Microsoft.Cci.MutableCodeModel.Addition,new</token>
-<token>Microsoft.Cci.MutableCodeModel.CompileTimeConstant,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Equality,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Division,new</token>
 </entry>
 <entry count="1">
-<token>Microsoft.Cci.MutableCodeModel.ExpressionStatement,new</token>
+<token>Microsoft.Cci.MutableCodeModel.BitwiseAnd,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Subtraction,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.BitwiseOr,new</token>
+<token>Microsoft.Cci.MutableCodeModel.LeftShift,new</token>
+</entry>
+<entry count="1">
 <token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
-<token>Microsoft.Cci.MutableCodeModel.TargetExpression,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Subtraction,new</token>
+<token>Microsoft.Cci.MutableCodeModel.NotEquality,new</token>
 </entry>
 <entry count="2">
-<token>Microsoft.Cci.MutableCodeModel.ThisReference,new</token>
-<token>Microsoft.Cci.MutableCodeModel.MethodReference,new</token>
-<token>Microsoft.Cci.MutableCodeModel.ExpressionStatement,new</token>
-<token>Microsoft.Cci.MutableCodeModel.MethodCall,new</token>
-<token>Microsoft.Cci.MutableCodeModel.ReturnStatement,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Subtraction,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Multiplication,new</token>
 </entry>
-<entry count="16">
+<entry count="32">
 <token>Microsoft.Cci.MutableCodeModel.ParameterTypeInformation,new</token>
 <token>Microsoft.Cci.MutableCodeModel.MethodReference,new</token>
 </entry>
 <entry count="2">
-<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
-<token>Microsoft.Cci.MutableCodeModel.ExpressionStatement,new</token>
-</entry>
-<entry count="2">
-<token>Microsoft.Cci.MutableCodeModel.LabeledStatement,new</token>
-<token>Microsoft.Cci.MutableCodeModel.EmptyStatement,new</token>
-<token>Microsoft.Cci.MutableCodeModel.LocalDefinition,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Division,new</token>
+<token>Microsoft.Cci.MutableCodeModel.LessThanOrEqual,new</token>
 </entry>
 <entry count="16">
 <token>Microsoft.Cci.MutableCodeModel.MetadataConstant,new</token>
 <token>Microsoft.Cci.MutableCodeModel.MetadataConstant,new</token>
 <token>Microsoft.Cci.MutableCodeModel.CustomAttribute,new</token>
 <token>Microsoft.Cci.MutableCodeModel.MetadataRewriter,RewriteChildren</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Cci.MutableCodeModel.Subtraction,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Conditional,new</token>
 </entry>
 <entry count="1">
 <token>Microsoft.Cci.MutableCodeModel.Conditional,new</token>
@@ -557,38 +3114,27 @@
 <token>Microsoft.Cci.MutableCodeModel.CodeRewriter,Rewrite</token>
 </entry>
 <entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Subtraction,new</token>
+<token>Microsoft.Cci.MutableCodeModel.LeftShift,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Conditional,new</token>
 <token>Microsoft.Cci.MutableCodeModel.CompileTimeConstant,new</token>
 <token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
-<token>Microsoft.Cci.MutableCodeModel.ExpressionStatement,new</token>
-<token>Microsoft.Cci.MutableCodeModel.BlockExpression,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Addition,new</token>
 </entry>
-<entry count="16">
-<token>Microsoft.Cci.MutableCodeModel.MetadataConstant,new</token>
-<token>Microsoft.Cci.MutableCodeModel.MetadataConstant,new</token>
-</entry>
-<entry count="12">
+<entry count="36">
 <token>Microsoft.Cci.MutableCodeModel.MetadataDeepCopier,new</token>
 <token>Microsoft.Cci.MutableCodeModel.MetadataDeepCopier,Copy</token>
 </entry>
 <entry count="1">
-<token>Microsoft.Cci.MutableCodeModel.ParameterDefinition,new</token>
-<token>Microsoft.Cci.MutableCodeModel.ThisReference,new</token>
-<token>Microsoft.Cci.MutableCodeModel.MethodReference,new</token>
-</entry>
-<entry count="2">
-<token>Microsoft.Cci.MutableCodeModel.MethodReference,new</token>
-<token>Microsoft.Cci.MutableCodeModel.ExpressionStatement,new</token>
-<token>Microsoft.Cci.MutableCodeModel.MethodCall,new</token>
-<token>Microsoft.Cci.MutableCodeModel.ReturnStatement,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Modulus,new</token>
+<token>Microsoft.Cci.MutableCodeModel.LeftShift,new</token>
 </entry>
 <entry count="1">
-<token>Microsoft.Cci.MutableCodeModel.ReturnStatement,new</token>
-<token>Microsoft.Cci.MutableCodeModel.BoundExpression,new</token>
-</entry>
-<entry count="16">
-<token>Microsoft.Cci.MutableCodeModel.MetadataConstant,new</token>
-<token>Microsoft.Cci.MutableCodeModel.CustomAttribute,new</token>
-<token>Microsoft.Cci.MutableCodeModel.MetadataRewriter,RewriteChildren</token>
+<token>Microsoft.Cci.MutableCodeModel.RightShift,new</token>
+<token>Microsoft.Cci.MutableCodeModel.LessThanOrEqual,new</token>
 </entry>
 <entry count="2">
 <token>Microsoft.Cci.MutableCodeModel.ExpressionStatement,new</token>
@@ -596,231 +3142,211 @@
 <token>Microsoft.Cci.MutableCodeModel.ReturnStatement,new</token>
 </entry>
 <entry count="2">
-<token>Microsoft.Cci.MutableCodeModel.EmptyStatement,new</token>
-<token>Microsoft.Cci.MutableCodeModel.LocalDefinition,new</token>
-<token>Microsoft.Cci.MutableCodeModel.CodeRewriter,Rewrite</token>
-</entry>
-<entry count="2">
-<token>Microsoft.Cci.MutableCodeModel.SourceMethodBody,new</token>
-<token>Microsoft.Cci.MutableCodeModel.BlockStatement,new</token>
-<token>Microsoft.Cci.MutableCodeModel.MethodDefinition,new</token>
-</entry>
-<entry count="1">
-<token>Microsoft.Cci.MutableCodeModel.CompileTimeConstant,new</token>
-<token>Microsoft.Cci.MutableCodeModel.CodeRewriter,Rewrite</token>
-</entry>
-<entry count="10">
-<token>Microsoft.Cci.MutableCodeModel.ExpressionStatement,new</token>
-<token>Microsoft.Cci.MutableCodeModel.MethodCall,new</token>
-<token>Microsoft.Cci.MutableCodeModel.EmptyStatement,new</token>
-</entry>
-<entry count="2">
-<token>Microsoft.Cci.MutableCodeModel.MethodCall,new</token>
-<token>Microsoft.Cci.MutableCodeModel.ReturnStatement,new</token>
-</entry>
-<entry count="2">
-<token>Microsoft.Cci.MutableCodeModel.BlockStatement,new</token>
-<token>Microsoft.Cci.MutableCodeModel.MethodDefinition,new</token>
-<token>Microsoft.Cci.MutableCodeModel.ParameterDefinition,new</token>
-<token>Microsoft.Cci.MutableCodeModel.ParameterDefinition,new</token>
-<token>Microsoft.Cci.MutableCodeModel.ThisReference,new</token>
-</entry>
-<entry count="1">
-<token>Microsoft.Cci.MutableCodeModel.LocalDeclarationStatement,new</token>
-<token>Microsoft.Cci.MutableCodeModel.Subtraction,new</token>
-<token>Microsoft.Cci.MutableCodeModel.CompileTimeConstant,new</token>
-</entry>
-<entry count="1">
-<token>Microsoft.Cci.MutableCodeModel.LocalDefinition,new</token>
-<token>Microsoft.Cci.MutableCodeModel.LocalDeclarationStatement,new</token>
-<token>Microsoft.Cci.MutableCodeModel.Subtraction,new</token>
-<token>Microsoft.Cci.MutableCodeModel.CompileTimeConstant,new</token>
-</entry>
-<entry count="1">
-<token>Microsoft.Cci.MutableCodeModel.LocalDeclarationStatement,new</token>
-<token>Microsoft.Cci.MutableCodeModel.Addition,new</token>
 <token>Microsoft.Cci.MutableCodeModel.CompileTimeConstant,new</token>
 <token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
-</entry>
-<entry count="2">
-<token>Microsoft.Cci.MutableCodeModel.Subtraction,new</token>
-<token>Microsoft.Cci.MutableCodeModel.CompileTimeConstant,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Division,new</token>
 </entry>
 <entry count="1">
-<token>Microsoft.Cci.MutableCodeModel.MethodDefinition,new</token>
-<token>Microsoft.Cci.MutableCodeModel.ParameterDefinition,new</token>
-<token>Microsoft.Cci.MutableCodeModel.ParameterDefinition,new</token>
-<token>Microsoft.Cci.MutableCodeModel.ThisReference,new</token>
-<token>Microsoft.Cci.MutableCodeModel.ReturnStatement,new</token>
+<token>Microsoft.Cci.MutableCodeModel.ExclusiveOr,new</token>
+<token>Microsoft.Cci.MutableCodeModel.ExclusiveOr,new</token>
 </entry>
-<entry count="2">
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.BitwiseOr,new</token>
+<token>Microsoft.Cci.MutableCodeModel.BitwiseOr,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Multiplication,new</token>
 <token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
 <token>Microsoft.Cci.MutableCodeModel.Division,new</token>
 </entry>
 <entry count="10">
-<token>Microsoft.Cci.MutableCodeModel.LocalDefinition,new</token>
-<token>Microsoft.Cci.MutableCodeModel.LocalDeclarationStatement,new</token>
-</entry>
-<entry count="2">
-<token>Microsoft.Cci.MutableCodeModel.ExpressionStatement,new</token>
-<token>Microsoft.Cci.MutableCodeModel.BlockExpression,new</token>
-<token>Microsoft.Cci.MutableCodeModel.BlockStatement,new</token>
-</entry>
-<entry count="1">
-<token>Microsoft.Cci.MutableCodeModel.LabeledStatement,new</token>
-<token>Microsoft.Cci.MutableCodeModel.BlockStatement,new</token>
-</entry>
-<entry count="192">
-<token>Microsoft.Cci.MutableCodeModel.MethodReference,new</token>
-<token>Microsoft.Cci.MutableCodeModel.MethodReference,new</token>
-</entry>
-<entry count="10">
-<token>Microsoft.Cci.MutableCodeModel.MethodReference,new</token>
 <token>Microsoft.Cci.MutableCodeModel.ExpressionStatement,new</token>
 <token>Microsoft.Cci.MutableCodeModel.MethodCall,new</token>
 <token>Microsoft.Cci.MutableCodeModel.EmptyStatement,new</token>
 </entry>
 <entry count="2">
-<token>Microsoft.Cci.MutableCodeModel.EmptyStatement,new</token>
-<token>Microsoft.Cci.MutableCodeModel.LocalDefinition,new</token>
-</entry>
-<entry count="4">
-<token>Microsoft.Cci.MutableCodeModel.ForStatement,new</token>
-<token>Microsoft.Cci.MutableCodeModel.ExpressionStatement,new</token>
-</entry>
-<entry count="1">
-<token>Microsoft.Cci.MutableCodeModel.ExpressionStatement,new</token>
 <token>Microsoft.Cci.MutableCodeModel.MethodCall,new</token>
-<token>Microsoft.Cci.MutableCodeModel.ThisReference,new</token>
+<token>Microsoft.Cci.MutableCodeModel.ReturnStatement,new</token>
 </entry>
 <entry count="2">
-<token>Microsoft.Cci.MutableCodeModel.SourceMethodBody,new</token>
-<token>Microsoft.Cci.MutableCodeModel.BlockStatement,new</token>
-<token>Microsoft.Cci.MutableCodeModel.ThisReference,new</token>
-<token>Microsoft.Cci.MutableCodeModel.MethodReference,new</token>
-</entry>
-<entry count="2">
-<token>Microsoft.Cci.MutableCodeModel.NamespaceTypeDefinition,new</token>
-<token>Microsoft.Cci.MutableCodeModel.SourceMethodBody,new</token>
 <token>Microsoft.Cci.MutableCodeModel.BlockStatement,new</token>
 <token>Microsoft.Cci.MutableCodeModel.MethodDefinition,new</token>
+<token>Microsoft.Cci.MutableCodeModel.ParameterDefinition,new</token>
+<token>Microsoft.Cci.MutableCodeModel.ParameterDefinition,new</token>
+<token>Microsoft.Cci.MutableCodeModel.ThisReference,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.LessThan,new</token>
+<token>Microsoft.Cci.MutableCodeModel.NotEquality,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.BitwiseAnd,new</token>
+<token>Microsoft.Cci.MutableCodeModel.LessThan,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Modulus,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Division,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Equality,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Modulus,new</token>
+</entry>
+<entry count="54">
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Division,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Division,new</token>
+<token>Microsoft.Cci.MutableCodeModel.ExclusiveOr,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Addition,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Multiplication,new</token>
+</entry>
+<entry count="5">
+<token>Microsoft.Cci.MutableCodeModel.BitwiseOr,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.RightShift,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Division,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.Conditional,new</token>
+<token>Microsoft.Cci.MutableCodeModel.CompileTimeConstant,new</token>
+<token>Microsoft.Cci.MutableCodeModel.ExclusiveOr,new</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Cci.MutableCodeModel.CompileTimeConstant,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Addition,new</token>
 </entry>
 <entry count="1">
 <token>Microsoft.Cci.MutableCodeModel.LogicalNot,new</token>
 <token>Microsoft.Cci.MutableCodeModel.Conditional,new</token>
 </entry>
 <entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.LessThan,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Division,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.BitwiseAnd,new</token>
+<token>Microsoft.Cci.MutableCodeModel.GreaterThan,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.BitwiseOr,new</token>
+<token>Microsoft.Cci.MutableCodeModel.BitwiseAnd,new</token>
+</entry>
+<entry count="5">
+<token>Microsoft.Cci.MutableCodeModel.GreaterThan,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.GreaterThanOrEqual,new</token>
+<token>Microsoft.Cci.MutableCodeModel.LessThanOrEqual,new</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Cci.MutableCodeModel.CompileTimeConstant,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Conditional,new</token>
+<token>Microsoft.Cci.MutableCodeModel.CompileTimeConstant,new</token>
+</entry>
+<entry count="1">
 <token>Microsoft.Cci.MutableCodeModel.LocalDeclarationStatement,new</token>
 <token>Microsoft.Cci.MutableCodeModel.Addition,new</token>
 <token>Microsoft.Cci.MutableCodeModel.CompileTimeConstant,new</token>
 <token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
 <token>Microsoft.Cci.MutableCodeModel.ExpressionStatement,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Modulus,new</token>
+<token>Microsoft.Cci.MutableCodeModel.BitwiseOr,new</token>
 </entry>
 <entry count="2">
 <token>Microsoft.Cci.MutableCodeModel.BlockStatement,new</token>
 <token>Microsoft.Cci.MutableCodeModel.ThisReference,new</token>
 <token>Microsoft.Cci.MutableCodeModel.ReturnStatement,new</token>
 </entry>
+<entry count="20">
+<token>Microsoft.Cci.MutableCodeModel.MetadataRewriter,Rewrite</token>
+<token>Microsoft.Cci.MutableCodeModel.MetadataRewriter,Rewrite</token>
+<token>Microsoft.Cci.MutableCodeModel.MetadataRewriter,Rewrite</token>
+</entry>
 <entry count="1">
-<token>Microsoft.Cci.MutableCodeModel.LocalDeclarationStatement,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
 <token>Microsoft.Cci.MutableCodeModel.Subtraction,new</token>
-<token>Microsoft.Cci.MutableCodeModel.CompileTimeConstant,new</token>
-<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
-</entry>
-<entry count="2">
-<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
-<token>Microsoft.Cci.MutableCodeModel.ExpressionStatement,new</token>
-<token>Microsoft.Cci.MutableCodeModel.BlockExpression,new</token>
-<token>Microsoft.Cci.MutableCodeModel.BlockStatement,new</token>
-</entry>
-<entry count="2">
-<token>Microsoft.Cci.MutableCodeModel.LocalDefinition,new</token>
-<token>Microsoft.Cci.MutableCodeModel.CodeRewriter,Rewrite</token>
-</entry>
-<entry count="2">
-<token>Microsoft.Cci.MutableCodeModel.MethodDefinition,new</token>
-<token>Microsoft.Cci.MutableCodeModel.ParameterDefinition,new</token>
-<token>Microsoft.Cci.MutableCodeModel.ParameterDefinition,new</token>
-<token>Microsoft.Cci.MutableCodeModel.ThisReference,new</token>
+<token>Microsoft.Cci.MutableCodeModel.GreaterThanOrEqual,new</token>
 </entry>
 <entry count="1">
-<token>Microsoft.Cci.MutableCodeModel.LocalDefinition,new</token>
-<token>Microsoft.Cci.MutableCodeModel.LocalDeclarationStatement,new</token>
-<token>Microsoft.Cci.MutableCodeModel.Addition,new</token>
+<token>Microsoft.Cci.MutableCodeModel.GreaterThan,new</token>
+<token>Microsoft.Cci.MutableCodeModel.BitwiseAnd,new</token>
+</entry>
+<entry count="2">
 <token>Microsoft.Cci.MutableCodeModel.CompileTimeConstant,new</token>
+<token>Microsoft.Cci.MutableCodeModel.LeftShift,new</token>
 </entry>
-<entry count="4">
-<token>Microsoft.Cci.MutableCodeModel.SourceMethodBody,new</token>
-<token>Microsoft.Cci.MutableCodeModel.BlockStatement,new</token>
-<token>Microsoft.Cci.MutableCodeModel.ThisReference,new</token>
-</entry>
-<entry count="10">
-<token>Microsoft.Cci.MutableCodeModel.ThisReference,new</token>
-<token>Microsoft.Cci.MutableCodeModel.MethodReference,new</token>
-<token>Microsoft.Cci.MutableCodeModel.ExpressionStatement,new</token>
-<token>Microsoft.Cci.MutableCodeModel.MethodCall,new</token>
-<token>Microsoft.Cci.MutableCodeModel.EmptyStatement,new</token>
-</entry>
-<entry count="4">
-<token>Microsoft.Cci.MutableCodeModel.CompileTimeConstant,new</token>
+<entry count="5">
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Multiplication,new</token>
 <token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
 </entry>
 <entry count="2">
-<token>Microsoft.Cci.MutableCodeModel.NamespaceTypeDefinition,new</token>
-<token>Microsoft.Cci.MutableCodeModel.SourceMethodBody,new</token>
-<token>Microsoft.Cci.MutableCodeModel.BlockStatement,new</token>
-<token>Microsoft.Cci.MutableCodeModel.MethodDefinition,new</token>
-<token>Microsoft.Cci.MutableCodeModel.ParameterDefinition,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Modulus,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Conditional,new</token>
+</entry>
+<entry count="14">
+<token>Microsoft.Cci.MutableCodeModel.CompileTimeConstant,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Subtraction,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Division,new</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Multiplication,new</token>
+<token>Microsoft.Cci.MutableCodeModel.BitwiseAnd,new</token>
 </entry>
 <entry count="2">
 <token>Microsoft.Cci.MutableCodeModel.ConditionalStatement,new</token>
 <token>Microsoft.Cci.MutableCodeModel.EmptyStatement,new</token>
 </entry>
-<entry count="2">
-<token>Microsoft.Cci.MutableCodeModel.BlockStatement,new</token>
-<token>Microsoft.Cci.MutableCodeModel.ThisReference,new</token>
-<token>Microsoft.Cci.MutableCodeModel.MethodReference,new</token>
-<token>Microsoft.Cci.MutableCodeModel.ExpressionStatement,new</token>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.BitwiseOr,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Addition,new</token>
 </entry>
-<entry count="12">
-<token>Microsoft.Cci.MutableCodeModel.MetadataDeepCopier,Copy</token>
-<token>Microsoft.Cci.MutableCodeModel.MetadataRewriter,RewriteChildren</token>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.BitwiseOr,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Division,new</token>
 </entry>
-<entry count="16">
-<token>Microsoft.Cci.MutableCodeModel.MetadataConstant,new</token>
-<token>Microsoft.Cci.MutableCodeModel.MetadataConstant,new</token>
-<token>Microsoft.Cci.MutableCodeModel.CustomAttribute,new</token>
-</entry>
-<entry count="2">
-<token>Microsoft.Cci.MutableCodeModel.LabeledStatement,new</token>
-<token>Microsoft.Cci.MutableCodeModel.EmptyStatement,new</token>
-</entry>
-<entry count="2">
-<token>Microsoft.Cci.MutableCodeModel.MethodDefinition,new</token>
-<token>Microsoft.Cci.MutableCodeModel.ParameterDefinition,new</token>
-<token>Microsoft.Cci.MutableCodeModel.ParameterDefinition,new</token>
-</entry>
-<entry count="2">
-<token>Microsoft.Cci.MutableCodeModel.CodeRewriter,Rewrite</token>
-<token>Microsoft.Cci.MutableCodeModel.ReturnStatement,new</token>
-</entry>
-<entry count="2">
-<token>Microsoft.Cci.MutableCodeModel.BlockStatement,new</token>
-<token>Microsoft.Cci.MutableCodeModel.ThisReference,new</token>
-<token>Microsoft.Cci.MutableCodeModel.MethodReference,new</token>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.GreaterThanOrEqual,new</token>
+<token>Microsoft.Cci.MutableCodeModel.GreaterThan,new</token>
 </entry>
 <entry count="2">
 <token>Microsoft.Cci.MutableCodeModel.NamespaceTypeDefinition,new</token>
 <token>Microsoft.Cci.MutableCodeModel.SourceMethodBody,new</token>
 </entry>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.GreaterThan,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Subtraction,new</token>
+</entry>
 <entry count="2">
-<token>Microsoft.Cci.MutableCodeModel.ReturnStatement,new</token>
-<token>Microsoft.Cci.MutableCodeModel.AnonymousDelegate,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Multiplication,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Conditional,new</token>
 </entry>
 <entry count="1">
-<token>Microsoft.Cci.MutableCodeModel.CodeRewriter,Rewrite</token>
-<token>Microsoft.Cci.MutableCodeModel.ReturnStatement,new</token>
-<token>Microsoft.Cci.MutableCodeModel.BoundExpression,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Assignment,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Multiplication,new</token>
+<token>Microsoft.Cci.MutableCodeModel.LeftShift,new</token>
 </entry>
 <entry count="1">
 <token>Microsoft.Cci.MutableCodeModel.EmptyStatement,new</token>
@@ -830,24 +3356,12 @@
 <token>Microsoft.Cci.MutableCodeModel.BoundExpression,new</token>
 </entry>
 <entry count="2">
-<token>Microsoft.Cci.MutableCodeModel.BlockStatement,new</token>
-<token>Microsoft.Cci.MutableCodeModel.EmptyStatement,new</token>
-<token>Microsoft.Cci.MutableCodeModel.EmptyStatement,new</token>
+<token>Microsoft.Cci.MutableCodeModel.LessThan,new</token>
+<token>Microsoft.Cci.MutableCodeModel.Conditional,new</token>
+<token>Microsoft.Cci.MutableCodeModel.CompileTimeConstant,new</token>
 </entry>
-<entry count="2">
-<token>Microsoft.Cci.MutableCodeModel.NamespaceTypeDefinition,new</token>
-<token>Microsoft.Cci.MutableCodeModel.SourceMethodBody,new</token>
-<token>Microsoft.Cci.MutableCodeModel.BlockStatement,new</token>
-</entry>
-<entry count="4">
-<token>Microsoft.Cci.MutableCodeModel.RootUnitNamespace,new</token>
-<token>Microsoft.Cci.MutableCodeModel.NamespaceTypeDefinition,new</token>
-</entry>
-<entry count="2">
-<token>Microsoft.Cci.MutableCodeModel.SourceMethodBody,new</token>
-<token>Microsoft.Cci.MutableCodeModel.BlockStatement,new</token>
-<token>Microsoft.Cci.MutableCodeModel.ThisReference,new</token>
-<token>Microsoft.Cci.MutableCodeModel.MethodReference,new</token>
-<token>Microsoft.Cci.MutableCodeModel.ExpressionStatement,new</token>
+<entry count="1">
+<token>Microsoft.Cci.MutableCodeModel.BitwiseAnd,new</token>
+<token>Microsoft.Cci.MutableCodeModel.RightShift,new</token>
 </entry>
 </dictionary>

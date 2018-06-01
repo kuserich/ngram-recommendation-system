@@ -6,6 +6,10 @@
 <token>Nancy.Testing.BrowserContextExtensions,Accept</token>
 <token>Nancy.Testing.Browser,Post</token>
 </entry>
+<entry count="30">
+<token>Nancy.Testing.ConfigurableBootstrapperConfigurator,Module</token>
+<token>Nancy.Testing.Browser,new</token>
+</entry>
 <entry count="14">
 <token>Nancy.Testing.BrowserContext,FormValue</token>
 <token>Nancy.Testing.BrowserContext,FormValue</token>
@@ -69,9 +73,17 @@
 <token>Nancy.Testing.Browser,Get</token>
 <token>Nancy.Testing.BrowserResponseBodyWrapperExtensions,DeserializeJson</token>
 </entry>
+<entry count="12">
+<token>Nancy.Testing.ConfigurableBootstrapperConfigurator,ApplicationStartup</token>
+<token>Nancy.Testing.Browser,new</token>
+</entry>
 <entry count="16">
 <token>Nancy.Testing.Browser,Get</token>
 <token>Nancy.Testing.BrowserResponseBodyWrapperExtensions,AsStream</token>
+</entry>
+<entry count="1">
+<token>Nancy.Testing.ConfigurableBoostrapperConfigurator,Module</token>
+<token>Nancy.Testing.ConfigurableBoostrapperConfigurator,NancyEngine</token>
 </entry>
 <entry count="6">
 <token>Nancy.Testing.BrowserContextExtensions,Cookie</token>
@@ -106,16 +118,6 @@
 <token>Nancy.Testing.Browser,Post</token>
 <token>Nancy.Testing.Browser,Delete</token>
 </entry>
-<entry count="12">
-<token>Nancy.Testing.ConfigurableBootstrapper+ConfigurableBootstrapperConfigurator,Module</token>
-<token>Nancy.Testing.ConfigurableBootstrapper+ConfigurableBootstrapperConfigurator,ApplicationStartup</token>
-<token>Nancy.Testing.Browser,new</token>
-</entry>
-<entry count="1024">
-<token>Nancy.Testing.ConfigurableBootstrapper+ConfigurableBootstrapperConfigurator,Module</token>
-<token>Nancy.Testing.ConfigurableBootstrapper+ConfigurableBootstrapperConfigurator,RootPathProvider</token>
-<token>Nancy.Testing.ConfigurableBootstrapper+ConfigurableBootstrapperConfigurator,ViewEngines</token>
-</entry>
 <entry count="190">
 <token>Nancy.Testing.BrowserContextExtensions,Accept</token>
 <token>Nancy.Testing.Browser,Get</token>
@@ -128,11 +130,6 @@
 <entry count="6">
 <token>Nancy.Testing.Browser,new</token>
 <token>Nancy.Testing.BrowserContextExtensions,Cookie</token>
-</entry>
-<entry count="1">
-<token>Nancy.Testing.ConfigurableBootstrapper+ConfigurableBoostrapperConfigurator,Module</token>
-<token>Nancy.Testing.ConfigurableBootstrapper+ConfigurableBoostrapperConfigurator,NancyEngine</token>
-<token>Nancy.Testing.ConfigurableBootstrapper+ConfigurableBoostrapperConfigurator,ViewEngines</token>
 </entry>
 <entry count="38">
 <token>Nancy.Testing.BrowserContext,FormValue</token>
@@ -154,15 +151,14 @@
 <token>Nancy.Testing.Browser,Post</token>
 <token>Nancy.Testing.BrowserContextExtensions,Accept</token>
 </entry>
+<entry count="1">
+<token>Nancy.Testing.ConfigurableBoostrapperConfigurator,NancyEngine</token>
+<token>Nancy.Testing.ConfigurableBoostrapperConfigurator,ViewEngines</token>
+</entry>
 <entry count="4">
 <token>Nancy.Testing.Browser,Post</token>
 <token>Nancy.Testing.Browser,Delete</token>
 <token>Nancy.Testing.Browser,Get</token>
-</entry>
-<entry count="12">
-<token>Nancy.Testing.ConfigurableBootstrapper+ConfigurableBootstrapperConfigurator,Dependency</token>
-<token>Nancy.Testing.ConfigurableBootstrapper+ConfigurableBootstrapperConfigurator,Module</token>
-<token>Nancy.Testing.Browser,new</token>
 </entry>
 <entry count="58">
 <token>Nancy.Testing.Browser,Post</token>
@@ -172,12 +168,6 @@
 <token>Nancy.Testing.BrowserContextExtensions,JsonBody</token>
 <token>Nancy.Testing.BrowserContext,Query</token>
 <token>Nancy.Testing.Browser,Post</token>
-</entry>
-<entry count="1">
-<token>Nancy.Testing.ConfigurableBootstrapper+ConfigurableBoostrapperConfigurator,NancyEngine</token>
-<token>Nancy.Testing.ConfigurableBootstrapper+ConfigurableBoostrapperConfigurator,ViewEngines</token>
-<token>Nancy.Testing.ConfigurableBootstrapper,new</token>
-<token>Nancy.Testing.Browser,new</token>
 </entry>
 <entry count="186">
 <token>Nancy.Testing.BrowserContextExtensions,JsonBody</token>
@@ -227,9 +217,20 @@
 <token>Nancy.Testing.Browser,Get</token>
 <token>Nancy.Testing.BrowserResponseBodyWrapperExtensions,DeserializeJson</token>
 </entry>
+<entry count="12">
+<token>Nancy.Testing.ConfigurableBootstrapperConfigurator,Module</token>
+<token>Nancy.Testing.ConfigurableBootstrapperConfigurator,ApplicationStartup</token>
+<token>Nancy.Testing.Browser,new</token>
+</entry>
 <entry count="14">
 <token>Nancy.Testing.BrowserContext,FormValue</token>
 <token>Nancy.Testing.BrowserContextExtensions,Accept</token>
+</entry>
+<entry count="32000">
+<token>Nancy.Testing.ConfigurableBootstrapperConfigurator,Module</token>
+<token>Nancy.Testing.ConfigurableBootstrapperConfigurator,RootPathProvider</token>
+<token>Nancy.Testing.ConfigurableBootstrapperConfigurator,ViewEngines</token>
+<token>Nancy.Testing.Browser,new</token>
 </entry>
 <entry count="16">
 <token>Nancy.Testing.BrowserContext,Body</token>
@@ -248,7 +249,7 @@
 <token>Nancy.Testing.BrowserContextExtensions,Accept</token>
 <token>Nancy.Testing.Browser,Get</token>
 </entry>
-<entry count="18">
+<entry count="26">
 <token>Nancy.Testing.Browser,Post</token>
 <token>Nancy.Testing.BrowserResponseBodyWrapperExtensions,AsString</token>
 </entry>
@@ -267,10 +268,6 @@
 <token>Nancy.Testing.Browser,Post</token>
 <token>Nancy.Testing.Browser,Get</token>
 <token>Nancy.Testing.BrowserResponseBodyWrapperExtensions,DeserializeJson</token>
-</entry>
-<entry count="30">
-<token>Nancy.Testing.ConfigurableBootstrapper+ConfigurableBootstrapperConfigurator,Module</token>
-<token>Nancy.Testing.Browser,new</token>
 </entry>
 <entry count="20">
 <token>Nancy.Testing.Browser,Post</token>
@@ -311,11 +308,6 @@
 <token>Nancy.Testing.BrowserContextExtensions,JsonBody</token>
 <token>Nancy.Testing.BrowserContextExtensions,Accept</token>
 <token>Nancy.Testing.Browser,Put</token>
-</entry>
-<entry count="18">
-<token>Nancy.Testing.ConfigurableBootstrapper+ConfigurableBootstrapperConfigurator,Module</token>
-<token>Nancy.Testing.Browser,new</token>
-<token>Nancy.Testing.Browser,Get</token>
 </entry>
 <entry count="14">
 <token>Nancy.Testing.BrowserContext,FormValue</token>
@@ -412,13 +404,6 @@
 <token>Nancy.Testing.Browser,Get</token>
 <token>Nancy.Testing.BrowserResponseBodyWrapperExtensions,AsStream</token>
 </entry>
-<entry count="1">
-<token>Nancy.Testing.ConfigurableBootstrapper+ConfigurableBoostrapperConfigurator,Module</token>
-<token>Nancy.Testing.ConfigurableBootstrapper+ConfigurableBoostrapperConfigurator,NancyEngine</token>
-<token>Nancy.Testing.ConfigurableBootstrapper+ConfigurableBoostrapperConfigurator,ViewEngines</token>
-<token>Nancy.Testing.ConfigurableBootstrapper,new</token>
-<token>Nancy.Testing.Browser,new</token>
-</entry>
 <entry count="32">
 <token>Nancy.Testing.Browser,Put</token>
 <token>Nancy.Testing.BrowserContextExtensions,Accept</token>
@@ -474,10 +459,6 @@
 <token>Nancy.Testing.BrowserContextExtensions,Accept</token>
 <token>Nancy.Testing.Browser,Get</token>
 </entry>
-<entry count="12">
-<token>Nancy.Testing.ConfigurableBootstrapper+ConfigurableBootstrapperConfigurator,Module</token>
-<token>Nancy.Testing.ConfigurableBootstrapper+ConfigurableBootstrapperConfigurator,ApplicationStartup</token>
-</entry>
 <entry count="14">
 <token>Nancy.Testing.Browser,Get</token>
 <token>Nancy.Testing.AssertExtensions,ShouldExistOnce</token>
@@ -488,29 +469,24 @@
 <token>Nancy.Testing.AssertExtensions,ShouldExistOnce</token>
 <token>Nancy.Testing.AssertExtensions,ShouldContain</token>
 </entry>
-<entry count="1">
-<token>Nancy.Testing.ConfigurableBootstrapper+ConfigurableBoostrapperConfigurator,Module</token>
-<token>Nancy.Testing.ConfigurableBootstrapper+ConfigurableBoostrapperConfigurator,NancyEngine</token>
-<token>Nancy.Testing.ConfigurableBootstrapper+ConfigurableBoostrapperConfigurator,ViewEngines</token>
-<token>Nancy.Testing.ConfigurableBootstrapper,new</token>
+<entry count="32000">
+<token>Nancy.Testing.ConfigurableBootstrapperConfigurator,RootPathProvider</token>
+<token>Nancy.Testing.ConfigurableBootstrapperConfigurator,ViewEngines</token>
 </entry>
 <entry count="14">
 <token>Nancy.Testing.BrowserContext,FormValue</token>
 <token>Nancy.Testing.BrowserContextExtensions,Accept</token>
 <token>Nancy.Testing.Browser,Post</token>
 </entry>
+<entry count="18">
+<token>Nancy.Testing.ConfigurableBootstrapperConfigurator,Module</token>
+<token>Nancy.Testing.Browser,new</token>
+<token>Nancy.Testing.Browser,Get</token>
+</entry>
 <entry count="32">
 <token>Nancy.Testing.BrowserContextExtensions,XMLBody</token>
 <token>Nancy.Testing.BrowserContextExtensions,Accept</token>
 <token>Nancy.Testing.Browser,Post</token>
-</entry>
-<entry count="12">
-<token>Nancy.Testing.ConfigurableBootstrapper+ConfigurableBootstrapperConfigurator,Dependency</token>
-<token>Nancy.Testing.ConfigurableBootstrapper+ConfigurableBootstrapperConfigurator,Module</token>
-</entry>
-<entry count="1">
-<token>Nancy.Testing.ConfigurableBootstrapper+ConfigurableBoostrapperConfigurator,Module</token>
-<token>Nancy.Testing.ConfigurableBootstrapper+ConfigurableBoostrapperConfigurator,NancyEngine</token>
 </entry>
 <entry count="14">
 <token>Nancy.Testing.Browser,Get</token>
@@ -518,6 +494,11 @@
 <token>Nancy.Testing.AssertExtensions,ShouldExistOnce</token>
 <token>Nancy.Testing.AssertExtensions,ShouldContain</token>
 </entry>
+<entry count="32000">
+<token>Nancy.Testing.ConfigurableBootstrapperConfigurator,Module</token>
+<token>Nancy.Testing.ConfigurableBootstrapperConfigurator,RootPathProvider</token>
+<token>Nancy.Testing.ConfigurableBootstrapperConfigurator,ViewEngines</token>
+</entry>
 <entry count="16">
 <token>Nancy.Testing.BrowserContextExtensions,XMLBody</token>
 <token>Nancy.Testing.BrowserContextExtensions,Accept</token>
@@ -528,9 +509,9 @@
 <token>Nancy.Testing.Browser,Post</token>
 <token>Nancy.Testing.Browser,Get</token>
 </entry>
-<entry count="1024">
-<token>Nancy.Testing.ConfigurableBootstrapper+ConfigurableBootstrapperConfigurator,ViewEngines</token>
-<token>Nancy.Testing.Browser,new</token>
+<entry count="12">
+<token>Nancy.Testing.ConfigurableBootstrapperConfigurator,Module</token>
+<token>Nancy.Testing.ConfigurableBootstrapperConfigurator,ApplicationStartup</token>
 </entry>
 <entry count="4">
 <token>Nancy.Testing.BrowserContextExtensions,JsonBody</token>
@@ -563,6 +544,11 @@
 <token>Nancy.Testing.Browser,Post</token>
 <token>Nancy.Testing.BrowserContextExtensions,Accept</token>
 <token>Nancy.Testing.Browser,Get</token>
+</entry>
+<entry count="1">
+<token>Nancy.Testing.ConfigurableBoostrapperConfigurator,NancyEngine</token>
+<token>Nancy.Testing.ConfigurableBoostrapperConfigurator,ViewEngines</token>
+<token>Nancy.Testing.ConfigurableBootstrapper,new</token>
 </entry>
 <entry count="14">
 <token>Nancy.Testing.BrowserContextExtensions,Accept</token>
@@ -589,6 +575,13 @@
 <token>Nancy.Testing.BrowserContextExtensions,Accept</token>
 <token>Nancy.Testing.Browser,Get</token>
 <token>Nancy.Testing.BrowserResponseBodyWrapperExtensions,DeserializeJson</token>
+</entry>
+<entry count="1">
+<token>Nancy.Testing.ConfigurableBoostrapperConfigurator,Module</token>
+<token>Nancy.Testing.ConfigurableBoostrapperConfigurator,NancyEngine</token>
+<token>Nancy.Testing.ConfigurableBoostrapperConfigurator,ViewEngines</token>
+<token>Nancy.Testing.ConfigurableBootstrapper,new</token>
+<token>Nancy.Testing.Browser,new</token>
 </entry>
 <entry count="16">
 <token>Nancy.Testing.Browser,Delete</token>
@@ -624,10 +617,6 @@
 <token>Nancy.Testing.Browser,Post</token>
 <token>Nancy.Testing.BrowserResponseBodyWrapperExtensions,DeserializeXml</token>
 </entry>
-<entry count="1024">
-<token>Nancy.Testing.ConfigurableBootstrapper+ConfigurableBootstrapperConfigurator,RootPathProvider</token>
-<token>Nancy.Testing.ConfigurableBootstrapper+ConfigurableBootstrapperConfigurator,ViewEngines</token>
-</entry>
 <entry count="16">
 <token>Nancy.Testing.AssertExtensions,ShouldExist</token>
 <token>Nancy.Testing.AssertExtensions,ShouldContain</token>
@@ -644,10 +633,6 @@
 <token>Nancy.Testing.BrowserContextExtensions,Accept</token>
 <token>Nancy.Testing.Browser,Get</token>
 </entry>
-<entry count="1">
-<token>Nancy.Testing.ConfigurableBootstrapper+ConfigurableBoostrapperConfigurator,NancyEngine</token>
-<token>Nancy.Testing.ConfigurableBootstrapper+ConfigurableBoostrapperConfigurator,ViewEngines</token>
-</entry>
 <entry count="16">
 <token>Nancy.Testing.BrowserContextExtensions,Accept</token>
 <token>Nancy.Testing.Browser,Get</token>
@@ -657,6 +642,11 @@
 <token>Nancy.Testing.Browser,Put</token>
 <token>Nancy.Testing.Browser,Get</token>
 <token>Nancy.Testing.BrowserResponseBodyWrapperExtensions,DeserializeJson</token>
+</entry>
+<entry count="1">
+<token>Nancy.Testing.ConfigurableBoostrapperConfigurator,Module</token>
+<token>Nancy.Testing.ConfigurableBoostrapperConfigurator,NancyEngine</token>
+<token>Nancy.Testing.ConfigurableBoostrapperConfigurator,ViewEngines</token>
 </entry>
 <entry count="42">
 <token>Nancy.Testing.AssertExtensions,ShouldExistOnce</token>
@@ -673,10 +663,6 @@
 <token>Nancy.Testing.AssertExtensions,ShouldExistOnce</token>
 <token>Nancy.Testing.AssertExtensions,ShouldExistOnce</token>
 </entry>
-<entry count="1">
-<token>Nancy.Testing.ConfigurableBootstrapper+ConfigurableBoostrapperConfigurator,ViewEngines</token>
-<token>Nancy.Testing.ConfigurableBootstrapper,new</token>
-</entry>
 <entry count="16">
 <token>Nancy.Testing.BrowserContextExtensions,Accept</token>
 <token>Nancy.Testing.Browser,Post</token>
@@ -688,30 +674,26 @@
 <token>Nancy.Testing.Browser,Delete</token>
 <token>Nancy.Testing.BrowserContextExtensions,Accept</token>
 </entry>
+<entry count="1">
+<token>Nancy.Testing.ConfigurableBoostrapperConfigurator,Module</token>
+<token>Nancy.Testing.ConfigurableBoostrapperConfigurator,NancyEngine</token>
+<token>Nancy.Testing.ConfigurableBoostrapperConfigurator,ViewEngines</token>
+<token>Nancy.Testing.ConfigurableBootstrapper,new</token>
+</entry>
+<entry count="32000">
+<token>Nancy.Testing.ConfigurableBootstrapperConfigurator,RootPathProvider</token>
+<token>Nancy.Testing.ConfigurableBootstrapperConfigurator,ViewEngines</token>
+<token>Nancy.Testing.Browser,new</token>
+</entry>
 <entry count="48">
 <token>Nancy.Testing.BrowserContextExtensions,XMLBody</token>
 <token>Nancy.Testing.BrowserContextExtensions,Accept</token>
-</entry>
-<entry count="12">
-<token>Nancy.Testing.ConfigurableBootstrapper+ConfigurableBootstrapperConfigurator,ApplicationStartup</token>
-<token>Nancy.Testing.Browser,new</token>
-</entry>
-<entry count="1024">
-<token>Nancy.Testing.ConfigurableBootstrapper+ConfigurableBootstrapperConfigurator,Module</token>
-<token>Nancy.Testing.ConfigurableBootstrapper+ConfigurableBootstrapperConfigurator,RootPathProvider</token>
-<token>Nancy.Testing.ConfigurableBootstrapper+ConfigurableBootstrapperConfigurator,ViewEngines</token>
-<token>Nancy.Testing.Browser,new</token>
 </entry>
 <entry count="32">
 <token>Nancy.Testing.BrowserContextExtensions,XMLBody</token>
 <token>Nancy.Testing.BrowserContextExtensions,Accept</token>
 <token>Nancy.Testing.Browser,Post</token>
 <token>Nancy.Testing.BrowserContextExtensions,Accept</token>
-</entry>
-<entry count="1024">
-<token>Nancy.Testing.ConfigurableBootstrapper+ConfigurableBootstrapperConfigurator,RootPathProvider</token>
-<token>Nancy.Testing.ConfigurableBootstrapper+ConfigurableBootstrapperConfigurator,ViewEngines</token>
-<token>Nancy.Testing.Browser,new</token>
 </entry>
 <entry count="16">
 <token>Nancy.Testing.BrowserContextExtensions,Accept</token>
@@ -761,10 +743,18 @@
 <token>Nancy.Testing.ConfigurableBootstrapper,new</token>
 <token>Nancy.Testing.Browser,new</token>
 </entry>
+<entry count="32000">
+<token>Nancy.Testing.ConfigurableBootstrapperConfigurator,ViewEngines</token>
+<token>Nancy.Testing.Browser,new</token>
+</entry>
 <entry count="4">
 <token>Nancy.Testing.BrowserContextExtensions,JsonBody</token>
 <token>Nancy.Testing.Browser,Post</token>
 <token>Nancy.Testing.Browser,Get</token>
+</entry>
+<entry count="1">
+<token>Nancy.Testing.ConfigurableBoostrapperConfigurator,ViewEngines</token>
+<token>Nancy.Testing.ConfigurableBootstrapper,new</token>
 </entry>
 <entry count="14">
 <token>Nancy.Testing.BrowserContextExtensions,Accept</token>
@@ -816,6 +806,10 @@
 <token>Nancy.Testing.BrowserContext,FormValue</token>
 <token>Nancy.Testing.Browser,Put</token>
 </entry>
+<entry count="32000">
+<token>Nancy.Testing.ConfigurableBootstrapperConfigurator,Module</token>
+<token>Nancy.Testing.ConfigurableBootstrapperConfigurator,RootPathProvider</token>
+</entry>
 <entry count="16">
 <token>Nancy.Testing.Browser,Post</token>
 <token>Nancy.Testing.BrowserContextExtensions,XMLBody</token>
@@ -853,10 +847,6 @@
 <token>Nancy.Testing.BrowserContext,FormValue</token>
 <token>Nancy.Testing.Browser,Post</token>
 </entry>
-<entry count="1024">
-<token>Nancy.Testing.ConfigurableBootstrapper+ConfigurableBootstrapperConfigurator,Module</token>
-<token>Nancy.Testing.ConfigurableBootstrapper+ConfigurableBootstrapperConfigurator,RootPathProvider</token>
-</entry>
 <entry count="16">
 <token>Nancy.Testing.Browser,Post</token>
 <token>Nancy.Testing.BrowserResponseBodyWrapperExtensions,DeserializeJson</token>
@@ -866,14 +856,19 @@
 <token>Nancy.Testing.BrowserContextExtensions,XMLBody</token>
 <token>Nancy.Testing.BrowserContextExtensions,Accept</token>
 </entry>
-<entry count="1">
-<token>Nancy.Testing.ConfigurableBootstrapper+ConfigurableBoostrapperConfigurator,ViewEngines</token>
-<token>Nancy.Testing.ConfigurableBootstrapper,new</token>
-<token>Nancy.Testing.Browser,new</token>
-</entry>
 <entry count="38">
 <token>Nancy.Testing.BrowserContextExtensions,Accept</token>
 <token>Nancy.Testing.Browser,Put</token>
+</entry>
+<entry count="1">
+<token>Nancy.Testing.ConfigurableBoostrapperConfigurator,NancyEngine</token>
+<token>Nancy.Testing.ConfigurableBoostrapperConfigurator,ViewEngines</token>
+<token>Nancy.Testing.ConfigurableBootstrapper,new</token>
+<token>Nancy.Testing.Browser,new</token>
+</entry>
+<entry count="12">
+<token>Nancy.Testing.ConfigurableBootstrapperConfigurator,Dependency</token>
+<token>Nancy.Testing.ConfigurableBootstrapperConfigurator,Module</token>
 </entry>
 <entry count="78">
 <token>Nancy.Testing.BrowserContextExtensions,Accept</token>
@@ -897,6 +892,11 @@
 <token>Nancy.Testing.BrowserContext,Query</token>
 <token>Nancy.Testing.Browser,Post</token>
 </entry>
+<entry count="12">
+<token>Nancy.Testing.ConfigurableBootstrapperConfigurator,Dependency</token>
+<token>Nancy.Testing.ConfigurableBootstrapperConfigurator,Module</token>
+<token>Nancy.Testing.Browser,new</token>
+</entry>
 <entry count="14">
 <token>Nancy.Testing.Browser,Get</token>
 <token>Nancy.Testing.AssertExtensions,ShouldExistOnce</token>
@@ -912,11 +912,6 @@
 <token>Nancy.Testing.Browser,Post</token>
 <token>Nancy.Testing.BrowserContextExtensions,XMLBody</token>
 <token>Nancy.Testing.BrowserContextExtensions,Accept</token>
-</entry>
-<entry count="1">
-<token>Nancy.Testing.ConfigurableBootstrapper+ConfigurableBoostrapperConfigurator,NancyEngine</token>
-<token>Nancy.Testing.ConfigurableBootstrapper+ConfigurableBoostrapperConfigurator,ViewEngines</token>
-<token>Nancy.Testing.ConfigurableBootstrapper,new</token>
 </entry>
 <entry count="14">
 <token>Nancy.Testing.BrowserContextExtensions,Accept</token>
@@ -935,5 +930,10 @@
 <entry count="16">
 <token>Nancy.Testing.BrowserContext,Body</token>
 <token>Nancy.Testing.BrowserContextExtensions,Accept</token>
+</entry>
+<entry count="1">
+<token>Nancy.Testing.ConfigurableBoostrapperConfigurator,ViewEngines</token>
+<token>Nancy.Testing.ConfigurableBootstrapper,new</token>
+<token>Nancy.Testing.Browser,new</token>
 </entry>
 </dictionary>

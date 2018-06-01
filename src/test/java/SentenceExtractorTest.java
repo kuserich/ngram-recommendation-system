@@ -3,22 +3,22 @@ import org.junit.After;
 import org.junit.Test;
 
 import java.io.File;
-import java.io.FileNotFoundException;
 
 import static org.junit.Assert.assertEquals;
 
 public class SentenceExtractorTest {
-    public static String mockExtractionOutputDir = "MockData/mockOutput/";
-    public static String mockContextsDir = "MockData/contexts";
-    public static int fileOutputSize = 27;
+    
+    private static String mockExtractionOutputDir = "MockData/mockOutput/";
+    private static String mockContextsDir = "MockData/contexts";
+    private static int fileOutputSize = 27;
 
     @After
     public void removeBuiltTxt() {
         File dir = new File(mockExtractionOutputDir);
 
-        if (dir.isDirectory()) {
-            for (File file : dir.listFiles())
-                if (!file.isDirectory())
+        if(dir.isDirectory()) {
+            for(File file : dir.listFiles())
+                if(!file.isDirectory())
                     file.delete();
         }
     }
@@ -26,20 +26,12 @@ public class SentenceExtractorTest {
 
     @Test
     public void extractSentencesFilesCreatedTest() {
-
         SentenceExtractor se = new SentenceExtractor();
         se.extract(mockContextsDir, mockExtractionOutputDir);
 
         File dir = new File(mockExtractionOutputDir);
-        if (dir.isDirectory()) {
-
+        if(dir.isDirectory()) {
             assertEquals(dir.listFiles().length, fileOutputSize);
-
-            //for (File file : dir.listFiles())
-            //if (!file.isDirectory())
-            //if(file.getName() == "System.ComponentModel.txt") {
-
-            //}
         }
     }
 }

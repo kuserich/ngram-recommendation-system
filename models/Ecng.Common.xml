@@ -14,7 +14,14 @@
 <token>Ecng.Common.IdGenerator,GetNextId</token>
 <token>Ecng.Common.RandomGen,GetEnum</token>
 </entry>
-<entry count="64">
+<entry count="8">
+<token>Ecng.Common.StringHelper,CompareIgnoreCase</token>
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.Converter,To</token>
+</entry>
+<entry count="144000">
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.XmlHelper,WriteAttribute</token>
 <token>Ecng.Common.XmlHelper,WriteAttribute</token>
@@ -27,16 +34,22 @@
 <token>Ecng.Common.FastCsvReader,ReadBool</token>
 <token>Ecng.Common.FastCsvReader,ReadNullableDecimal</token>
 </entry>
-<entry count="100">
+<entry count="12560">
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.StringHelper,Put</token>
 <token>Ecng.Common.StringHelper,Put</token>
 </entry>
-<entry count="4">
+<entry count="9216">
+<token>Ecng.Common.Converter,GetPort</token>
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+<token>Ecng.Common.Converter,GetHost</token>
+<token>Ecng.Common.Converter,GetHost</token>
+</entry>
+<entry count="32">
 <token>Ecng.Common.TypeHelper,GetTypeName</token>
 <token>Ecng.Common.TypeHelper,GetTypeName</token>
 </entry>
-<entry count="192">
+<entry count="208000">
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.XmlHelper,WriteAttribute</token>
 <token>Ecng.Common.XmlHelper,WriteAttribute</token>
@@ -48,12 +61,12 @@
 <token>Ecng.Common.ThreadingHelper,Thread</token>
 <token>Ecng.Common.StringHelper,Put</token>
 </entry>
-<entry count="2">
-<token>i:System.Collections.Generic.IDictionary`2[[TKey</token>
-<token>-&gt;</token>
-<token>i:StockSharp.Xaml.Charting.IChartElement,</token>
-<token>StockSharp.Xaml.Charting,</token>
-<token>4.3.14.0],[TValue</token>
+<entry count="1056">
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+<token>Ecng.Common.Converter,To</token>
 </entry>
 <entry count="16">
 <token>Ecng.Common.FastCsvReader,ReadNullableDecimal</token>
@@ -66,23 +79,12 @@
 <token>Ecng.Common.IdGenerator,GetNextId</token>
 <token>Ecng.Common.SyncObject,new</token>
 </entry>
-<entry count="32">
+<entry count="46656">
 <token>Ecng.Common.Converter,GetPort</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.Converter,GetHost</token>
 </entry>
-<entry count="576">
-<token>Ecng.Common.MathHelper,Round</token>
-<token>Ecng.Common.MathHelper,Round</token>
-</entry>
-<entry count="8">
-<token>Ecng.Common.RandomGen,GetInt</token>
-<token>Ecng.Common.RandomGen,GetInt</token>
-<token>Ecng.Common.IdGenerator,GetNextId</token>
-<token>Ecng.Common.RandomArray`1[[T</token>
-<token>-&gt;</token>
-</entry>
-<entry count="48">
+<entry count="96">
 <token>Ecng.Common.StringHelper,Split</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.StringHelper,Split</token>
@@ -99,20 +101,27 @@
 <token>Ecng.Common.ThreadingHelper,Name</token>
 <token>Ecng.Common.ThreadingHelper,Launch</token>
 </entry>
-<entry count="560">
+<entry count="15680">
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.TypeHelper,CreateInstance</token>
 <token>Ecng.Common.Converter,To</token>
+</entry>
+<entry count="8">
+<token>Ecng.Common.RandomArray,Next</token>
+<token>Ecng.Common.RandomGen,GetEnum</token>
 </entry>
 <entry count="1">
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.TypeHelper,CreateInstance</token>
 </entry>
-<entry count="172">
-<token>-&gt;</token>
-<token>p:decimal],[TSecond</token>
+<entry count="16">
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.TypeHelper,GetTypeName</token>
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.TypeHelper,GetTypeName</token>
 </entry>
-<entry count="104">
+<entry count="200">
 <token>Ecng.Common.XmlHelper,GetAttributeValue</token>
 <token>Ecng.Common.XmlHelper,GetElementValue</token>
 </entry>
@@ -124,12 +133,18 @@
 <token>Ecng.Common.Enumerator,GetValues</token>
 <token>Ecng.Common.CompareHelper,IsDefault</token>
 </entry>
-<entry count="44">
+<entry count="104">
 <token>Ecng.Common.XmlHelper,GetElementValue</token>
 <token>Ecng.Common.XmlHelper,GetElementValue</token>
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.XmlHelper,GetElementValue</token>
 <token>Ecng.Common.Converter,To</token>
+</entry>
+<entry count="16">
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.TimeHelper,ToDateTimeOffset</token>
+<token>Ecng.Common.StringHelper,IsEmpty</token>
 </entry>
 <entry count="4">
 <token>Ecng.Common.Converter,To</token>
@@ -154,20 +169,27 @@
 <token>Ecng.Common.TimeHelper,Truncate</token>
 </entry>
 <entry count="8">
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.TypeHelper,GetTypeName</token>
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.Converter,To</token>
+</entry>
+<entry count="8">
 <token>Ecng.Common.FastCsvReader,ReadDecimal</token>
 <token>Ecng.Common.FastCsvReader,ReadDecimal</token>
 <token>Ecng.Common.FastCsvReader,ReadDecimal</token>
 <token>Ecng.Common.FastCsvReader,ReadDecimal</token>
 </entry>
-<entry count="44">
+<entry count="76">
 <token>Ecng.Common.MathHelper,Min</token>
 <token>Ecng.Common.MathHelper,Max</token>
 </entry>
-<entry count="367">
+<entry count="9839">
 <token>Ecng.Common.TypeHelper,DoIf</token>
 <token>Ecng.Common.TypeHelper,DoIf</token>
 </entry>
-<entry count="12">
+<entry count="48">
 <token>Ecng.Common.ThreadingHelper,Launch</token>
 <token>Ecng.Common.StringHelper,Put</token>
 </entry>
@@ -181,11 +203,28 @@
 <token>Ecng.Common.ThreadingHelper,Name</token>
 <token>Ecng.Common.ThreadingHelper,Culture</token>
 </entry>
-<entry count="16">
+<entry count="2048">
+<token>Ecng.Common.TimeHelper,ChangeKind</token>
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.Disposable,Dispose</token>
+<token>Ecng.Common.Converter,To</token>
+</entry>
+<entry count="868">
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.StringHelper,Put</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.StringHelper,Put</token>
+</entry>
+<entry count="10272">
+<token>Ecng.Common.TimeHelper,ApplyTimeZone</token>
+<token>Ecng.Common.TimeHelper,ChangeKind</token>
+</entry>
+<entry count="5184">
+<token>Ecng.Common.Converter,GetPort</token>
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+<token>Ecng.Common.Converter,GetPort</token>
+<token>Ecng.Common.Converter,GetHost</token>
 </entry>
 <entry count="16">
 <token>Ecng.Common.FastCsvReader,ReadNullableLong</token>
@@ -204,6 +243,11 @@
 <token>Ecng.Common.XmlHelper,GetAttributeValue</token>
 <token>Ecng.Common.XmlHelper,GetElementValue</token>
 <token>Ecng.Common.XmlHelper,GetElementValue</token>
+</entry>
+<entry count="511328">
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.TimeHelper,ApplyTimeZone</token>
 </entry>
 <entry count="8">
 <token>Ecng.Common.FastCsvReader,ReadString</token>
@@ -223,24 +267,11 @@
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.StringHelper,Join</token>
 </entry>
-<entry count="2">
-<token>i:System.Collections.Generic.IDictionary`2[[TKey</token>
-<token>-&gt;</token>
-<token>i:StockSharp.Xaml.Charting.IChartElement,</token>
-</entry>
-<entry count="192">
+<entry count="768">
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.StringHelper,Put</token>
 <token>Ecng.Common.CompareHelper,IsDefault</token>
-</entry>
-<entry count="88">
-<token>-&gt;</token>
-<token>p:int]],Next</token>
-</entry>
-<entry count="176">
-<token>Ecng.Common.RefPair`2[[TFirst</token>
-<token>-&gt;</token>
 </entry>
 <entry count="4">
 <token>Ecng.Common.StringHelper,CompareIgnoreCase</token>
@@ -249,15 +280,16 @@
 <token>Ecng.Common.Converter,To</token>
 </entry>
 <entry count="4">
-<token>p:int]],new</token>
-<token>Ecng.Common.RandomArray`1[[T</token>
-<token>-&gt;</token>
-<token>p:int]],new</token>
-</entry>
-<entry count="4">
 <token>Ecng.Common.TimeHelper,ToLocalTime</token>
 <token>Ecng.Common.TimeHelper,ApplyTimeZone</token>
 <token>Ecng.Common.TimeHelper,ApplyTimeZone</token>
+</entry>
+<entry count="528">
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.StringHelper,IsEmpty</token>
 </entry>
 <entry count="16">
 <token>Ecng.Common.FastCsvReader,ReadEnum</token>
@@ -265,11 +297,11 @@
 <token>Ecng.Common.FastCsvReader,ReadNullableEnum</token>
 <token>Ecng.Common.FastCsvReader,ReadNullableEnum</token>
 </entry>
-<entry count="2">
-<token>-&gt;</token>
-<token>s:System.DateTimeOffset,</token>
+<entry count="76800">
+<token>Ecng.Common.TypeHelper,CreateInstance</token>
+<token>Ecng.Common.ThreadingHelper,Thread</token>
 </entry>
-<entry count="240">
+<entry count="4476">
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.StringHelper,Put</token>
@@ -282,7 +314,7 @@
 <token>Ecng.Common.FastCsvReader,ReadString</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 </entry>
-<entry count="8">
+<entry count="64">
 <token>Ecng.Common.StringHelper,CompareIgnoreCase</token>
 <token>Ecng.Common.StringHelper,Split</token>
 <token>Ecng.Common.StringHelper,Put</token>
@@ -298,14 +330,7 @@
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.Converter,To</token>
 </entry>
-<entry count="172">
-<token>Ecng.Common.RefPair`2[[TFirst</token>
-<token>-&gt;</token>
-<token>p:decimal],[TSecond</token>
-<token>-&gt;</token>
-<token>p:decimal]],new</token>
-</entry>
-<entry count="524">
+<entry count="2564">
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.Converter,To</token>
@@ -320,7 +345,7 @@
 <token>Ecng.Common.TimeHelper,ApplyTimeZone</token>
 <token>Ecng.Common.StringHelper,Put</token>
 </entry>
-<entry count="55296">
+<entry count="42592">
 <token>Ecng.Common.XmlHelper,WriteAttribute</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
@@ -332,12 +357,7 @@
 <token>Ecng.Common.MathHelper,Abs</token>
 <token>Ecng.Common.MathHelper,Min</token>
 </entry>
-<entry count="2">
-<token>i:StockSharp.Xaml.Charting.IChartElement,</token>
-<token>StockSharp.Xaml.Charting,</token>
-<token>4.3.14.0],[TValue</token>
-</entry>
-<entry count="98304">
+<entry count="112000">
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.StringHelper,ContainsIgnoreCase</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
@@ -367,7 +387,7 @@
 <token>Ecng.Common.ThreadingHelper,Thread</token>
 <token>Ecng.Common.StringHelper,Put</token>
 </entry>
-<entry count="20">
+<entry count="3972">
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
@@ -377,7 +397,12 @@
 <token>Ecng.Common.StringHelper,Put</token>
 <token>Ecng.Common.ArrayHelper,IndexOf</token>
 </entry>
-<entry count="22862">
+<entry count="1728">
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+<token>Ecng.Common.Converter,To</token>
+</entry>
+<entry count="1163878">
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.Converter,To</token>
@@ -397,7 +422,7 @@
 <token>Ecng.Common.TimeHelper,Range</token>
 <token>Ecng.Common.StringHelper,Put</token>
 </entry>
-<entry count="108">
+<entry count="288">
 <token>Ecng.Common.XmlHelper,GetElementValue</token>
 <token>Ecng.Common.XmlHelper,GetElementValue</token>
 <token>Ecng.Common.XmlHelper,GetElementValue</token>
@@ -424,11 +449,19 @@
 <token>Ecng.Common.FastCsvReader,ReadNullableDecimal</token>
 <token>Ecng.Common.FastCsvReader,ReadNullableDecimal</token>
 </entry>
-<entry count="32">
-<token>Ecng.Common.RandomArray`1[[T</token>
-<token>-&gt;</token>
-<token>p:int]],Next</token>
-<token>Ecng.Common.RandomGen,GetInt</token>
+<entry count="511328">
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.TimeHelper,ApplyTimeZone</token>
+</entry>
+<entry count="2048">
+<token>Ecng.Common.TimeHelper,ApplyTimeZone</token>
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.Disposable,Dispose</token>
+<token>Ecng.Common.Converter,To</token>
 </entry>
 <entry count="16">
 <token>Ecng.Common.FastCsvReader,ReadNullableEnum</token>
@@ -436,31 +469,41 @@
 <token>Ecng.Common.FastCsvReader,ReadNullableLong</token>
 <token>Ecng.Common.FastCsvReader,ReadString</token>
 </entry>
-<entry count="32">
-<token>Ecng.Common.RandomGen,GetEnum</token>
-<token>Ecng.Common.RandomArray`1[[T</token>
-</entry>
-<entry count="98304">
+<entry count="112000">
 <token>Ecng.Common.StringHelper,ContainsIgnoreCase</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.StringHelper,IsEmptyOrWhiteSpace</token>
 <token>Ecng.Common.StringHelper,ContainsIgnoreCase</token>
 <token>Ecng.Common.StringHelper,IsEmptyOrWhiteSpace</token>
 </entry>
-<entry count="98308">
+<entry count="64000">
+<token>Ecng.Common.XmlHelper,WriteAttribute</token>
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+<token>Ecng.Common.XmlHelper,WriteAttribute</token>
+<token>Ecng.Common.XmlHelper,WriteAttribute</token>
+<token>Ecng.Common.XmlHelper,WriteAttribute</token>
+</entry>
+<entry count="112004">
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.StringHelper,ContainsIgnoreCase</token>
 </entry>
-<entry count="4">
+<entry count="36">
 <token>Ecng.Common.StringHelper,Put</token>
 <token>Ecng.Common.MathHelper,Abs</token>
 </entry>
-<entry count="16">
+<entry count="64">
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.IdGenerator,GetNextId</token>
+</entry>
+<entry count="24">
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.TypeHelper,GetTypeName</token>
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.TypeHelper,GetTypeName</token>
+<token>Ecng.Common.Converter,To</token>
 </entry>
 <entry count="8">
 <token>Ecng.Common.DelegateHelper,SafeInvoke</token>
@@ -493,7 +536,7 @@
 <token>Ecng.Common.TypeHelper,IsNumeric</token>
 <token>Ecng.Common.Converter,To</token>
 </entry>
-<entry count="32">
+<entry count="92">
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.XmlHelper,GetElementValue</token>
 <token>Ecng.Common.XmlHelper,GetElementValue</token>
@@ -527,16 +570,11 @@
 <token>Ecng.Common.XmlHelper,GetAttributeValue</token>
 <token>Ecng.Common.XmlHelper,GetAttributeValue</token>
 </entry>
-<entry count="168">
+<entry count="232">
 <token>Ecng.Common.StringHelper,CompareIgnoreCase</token>
 <token>Ecng.Common.StringHelper,CompareIgnoreCase</token>
 <token>Ecng.Common.StringHelper,CompareIgnoreCase</token>
 <token>Ecng.Common.StringHelper,CompareIgnoreCase</token>
-</entry>
-<entry count="2">
-<token>-&gt;</token>
-<token>p:int]],new</token>
-<token>Ecng.Common.ResettableTimer,Activate</token>
 </entry>
 <entry count="12">
 <token>Ecng.Common.DisposableHelper,MakeDisposable</token>
@@ -555,6 +593,12 @@
 <token>Ecng.Common.TimeHelper,ToDateTime</token>
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.TimeHelper,ApplyTimeZone</token>
+</entry>
+<entry count="18144">
+<token>Ecng.Common.Converter,GetHost</token>
+<token>Ecng.Common.Converter,GetPort</token>
+<token>Ecng.Common.Converter,GetHost</token>
+<token>Ecng.Common.Converter,GetPort</token>
 </entry>
 <entry count="16">
 <token>Ecng.Common.StringHelper,Split</token>
@@ -587,11 +631,6 @@
 <token>Ecng.Common.StringHelper,Put</token>
 </entry>
 <entry count="8">
-<token>Ecng.Common.IdGenerator,GetNextId</token>
-<token>Ecng.Common.RandomArray`1[[T</token>
-<token>-&gt;</token>
-</entry>
-<entry count="8">
 <token>Ecng.Common.StringHelper,CompareIgnoreCase</token>
 <token>Ecng.Common.StringHelper,ContainsIgnoreCase</token>
 </entry>
@@ -599,7 +638,7 @@
 <token>Ecng.Common.ThreadingHelper,Background</token>
 <token>Ecng.Common.ThreadingHelper,Name</token>
 </entry>
-<entry count="516">
+<entry count="936">
 <token>Ecng.Common.XmlHelper,GetElementValue</token>
 <token>Ecng.Common.XmlHelper,GetElementValue</token>
 <token>Ecng.Common.XmlHelper,GetElementValue</token>
@@ -618,27 +657,18 @@
 <token>Ecng.Common.StringHelper,TrimEnd</token>
 <token>Ecng.Common.SyncObject,Pulse</token>
 </entry>
-<entry count="8">
+<entry count="16">
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.StringHelper,Put</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 </entry>
-<entry count="32">
+<entry count="46656">
 <token>Ecng.Common.Converter,GetHost</token>
 <token>Ecng.Common.Converter,GetPort</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.Converter,GetHost</token>
 </entry>
-<entry count="172">
-<token>p:decimal],[TSecond</token>
-<token>-&gt;</token>
-</entry>
-<entry count="8">
-<token>Ecng.Common.RandomGen,GetInt</token>
-<token>Ecng.Common.IdGenerator,GetNextId</token>
-<token>Ecng.Common.RandomArray`1[[T</token>
-</entry>
-<entry count="276864">
+<entry count="839936">
 <token>Ecng.Common.XmlHelper,WriteAttribute</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.XmlHelper,WriteAttribute</token>
@@ -647,25 +677,35 @@
 <token>Ecng.Common.FastCsvReader,ReadString</token>
 <token>Ecng.Common.FastCsvReader,ReadString</token>
 </entry>
-<entry count="2">
-<token>i:StockSharp.Xaml.Charting.IChartElement,</token>
-<token>StockSharp.Xaml.Charting,</token>
-<token>4.3.14.0],[TValue</token>
-<token>-&gt;</token>
-</entry>
-<entry count="156">
+<entry count="432">
 <token>Ecng.Common.XmlHelper,GetElementValue</token>
 <token>Ecng.Common.XmlHelper,GetElementValue</token>
 <token>Ecng.Common.Converter,To</token>
+</entry>
+<entry count="8">
+<token>Ecng.Common.RandomGen,GetInt</token>
+<token>Ecng.Common.IdGenerator,GetNextId</token>
+<token>Ecng.Common.RandomArray,Next</token>
+<token>Ecng.Common.RandomGen,GetEnum</token>
 </entry>
 <entry count="16">
 <token>Ecng.Common.FastCsvReader,ReadNullableEnum</token>
 <token>Ecng.Common.FastCsvReader,ReadString</token>
 </entry>
-<entry count="48">
+<entry count="64">
+<token>Ecng.Common.TypeHelper,GetTypeName</token>
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.Converter,To</token>
+</entry>
+<entry count="144">
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.XmlHelper,GetElementValue</token>
 <token>Ecng.Common.XmlHelper,GetElementValue</token>
+<token>Ecng.Common.Converter,To</token>
+</entry>
+<entry count="784">
+<token>Ecng.Common.TypeHelper,DoIf</token>
+<token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.Converter,To</token>
 </entry>
 <entry count="8">
@@ -675,24 +715,11 @@
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.FastCsvReader,ReadString</token>
 </entry>
-<entry count="2">
-<token>4.3.14.0],[TSecond</token>
-<token>-&gt;</token>
-<token>p:int]],new</token>
-<token>Ecng.Common.ResettableTimer,Activate</token>
-</entry>
 <entry count="4">
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.MathHelper,Abs</token>
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.DelegateHelper,SafeInvoke</token>
-</entry>
-<entry count="2">
-<token>-&gt;</token>
-<token>s:System.DateTimeOffset,</token>
-<token>mscorlib,</token>
-<token>4.0.0.0],[TSecond</token>
-<token>-&gt;</token>
 </entry>
 <entry count="4">
 <token>Ecng.Common.Converter,To</token>
@@ -714,46 +741,39 @@
 <token>Ecng.Common.FastCsvReader,ReadEnum</token>
 <token>Ecng.Common.FastCsvReader,ReadNullableEnum</token>
 </entry>
-<entry count="24">
-<token>-&gt;</token>
-<token>p:int]],Next</token>
-<token>Ecng.Common.RandomArray`1[[T</token>
-<token>-&gt;</token>
-<token>p:int]],Next</token>
-</entry>
-<entry count="8">
+<entry count="65536">
 <token>Ecng.Common.StringHelper,ContainsIgnoreCase</token>
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.Converter,DoInCulture</token>
 </entry>
-<entry count="96768">
+<entry count="42592">
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.XmlHelper,WriteAttribute</token>
 </entry>
-<entry count="20">
+<entry count="68">
 <token>Ecng.Common.XmlHelper,GetElementValue</token>
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.XmlHelper,GetElementValue</token>
 <token>Ecng.Common.XmlHelper,GetAttributeValue</token>
 <token>Ecng.Common.XmlHelper,GetElementValue</token>
 </entry>
-<entry count="8">
+<entry count="24">
 <token>Ecng.Common.MathHelper,Abs</token>
 <token>Ecng.Common.MathHelper,Abs</token>
 <token>Ecng.Common.StringHelper,Put</token>
 </entry>
-<entry count="64">
+<entry count="144000">
 <token>Ecng.Common.XmlHelper,WriteAttribute</token>
 <token>Ecng.Common.XmlHelper,WriteAttribute</token>
 <token>Ecng.Common.XmlHelper,WriteAttribute</token>
 <token>Ecng.Common.XmlHelper,WriteAttribute</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 </entry>
-<entry count="128">
+<entry count="512">
 <token>Ecng.Common.TimeHelper,ApplyTimeZone</token>
 <token>Ecng.Common.StringHelper,CompareIgnoreCase</token>
 </entry>
@@ -762,7 +782,7 @@
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.DelegateHelper,SafeInvoke</token>
 </entry>
-<entry count="96768">
+<entry count="65632">
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.XmlHelper,WriteAttribute</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
@@ -784,7 +804,7 @@
 <token>Ecng.Common.FastCsvReader,ReadString</token>
 <token>Ecng.Common.FastCsvReader,ReadString</token>
 </entry>
-<entry count="786432">
+<entry count="896000">
 <token>Ecng.Common.StringHelper,ContainsIgnoreCase</token>
 <token>Ecng.Common.StringHelper,IsEmptyOrWhiteSpace</token>
 <token>Ecng.Common.StringHelper,ContainsIgnoreCase</token>
@@ -800,6 +820,10 @@
 <token>Ecng.Common.ThreadingHelper,Culture</token>
 <token>Ecng.Common.ThreadingHelper,Name</token>
 <token>Ecng.Common.ThreadingHelper,Launch</token>
+</entry>
+<entry count="19200">
+<token>Ecng.Common.StringHelper,Put</token>
+<token>Ecng.Common.TypeHelper,CreateInstance</token>
 </entry>
 <entry count="16">
 <token>Ecng.Common.FastCsvReader,ReadString</token>
@@ -835,7 +859,7 @@
 <token>Ecng.Common.StringHelper,Put</token>
 <token>Ecng.Common.ThreadingHelper,Name</token>
 </entry>
-<entry count="272">
+<entry count="1456">
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.ArrayHelper,IndexOf</token>
 </entry>
@@ -857,11 +881,11 @@
 <token>Ecng.Common.SyncObject,Pulse</token>
 <token>Ecng.Common.SyncObject,Wait</token>
 </entry>
-<entry count="1108">
+<entry count="3796">
 <token>Ecng.Common.TimeHelper,ApplyTimeZone</token>
 <token>Ecng.Common.TimeHelper,ApplyTimeZone</token>
 </entry>
-<entry count="100">
+<entry count="12560">
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.StringHelper,Put</token>
@@ -911,7 +935,7 @@
 <token>Ecng.Common.FastCsvReader,ReadNullableDecimal</token>
 <token>Ecng.Common.FastCsvReader,ReadString</token>
 </entry>
-<entry count="64">
+<entry count="256">
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.Converter,To</token>
@@ -923,22 +947,12 @@
 <token>Ecng.Common.FastCsvReader,new</token>
 <token>Ecng.Common.FastCsvReader,NextLine</token>
 </entry>
-<entry count="4">
-<token>-&gt;</token>
-<token>i:StockSharp.Messages.IMessageChannel,</token>
-<token>Messages]],Clone</token>
-<token>Ecng.Common.ICloneable`1[[T</token>
-</entry>
-<entry count="128">
+<entry count="160000">
 <token>Ecng.Common.XmlHelper,WriteAttribute</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.XmlHelper,WriteAttribute</token>
 <token>Ecng.Common.XmlHelper,WriteAttribute</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
-</entry>
-<entry count="4">
-<token>-&gt;</token>
-<token>i:StockSharp.Xaml.Charting.IChartElement,</token>
 </entry>
 <entry count="12">
 <token>Ecng.Common.TimeHelper,EndOfDay</token>
@@ -956,14 +970,20 @@
 <token>Ecng.Common.SyncObject,Wait</token>
 <token>Ecng.Common.TypeHelper,Throw</token>
 </entry>
-<entry count="96768">
+<entry count="42592">
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.XmlHelper,WriteAttribute</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 </entry>
-<entry count="384">
+<entry count="32">
+<token>Ecng.Common.IdGenerator,GetNextId</token>
+<token>Ecng.Common.RandomGen,GetEnum</token>
+<token>Ecng.Common.RandomArray,Next</token>
+<token>Ecng.Common.RandomGen,GetInt</token>
+</entry>
+<entry count="544000">
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.XmlHelper,WriteAttribute</token>
 <token>Ecng.Common.XmlHelper,WriteAttribute</token>
@@ -980,27 +1000,17 @@
 <token>Ecng.Common.MathHelper,Abs</token>
 <token>Ecng.Common.Converter,To</token>
 </entry>
-<entry count="32">
-<token>-&gt;</token>
-<token>p:int]],Next</token>
-<token>Ecng.Common.RandomGen,GetInt</token>
-</entry>
-<entry count="2">
-<token>Ecng.Common.ResettableTimer,Cancel</token>
-<token>Ecng.Common.RefPair`2[[TFirst</token>
-<token>-&gt;</token>
-</entry>
-<entry count="168">
-<token>-&gt;</token>
-<token>p:decimal]],new</token>
-<token>Ecng.Common.RefPair`2[[TFirst</token>
-<token>-&gt;</token>
-<token>p:decimal],[TSecond</token>
-</entry>
 <entry count="8">
 <token>Ecng.Common.StringHelper,SplitByComma</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.Converter,To</token>
+</entry>
+<entry count="2048">
+<token>Ecng.Common.TimeHelper,ChangeKind</token>
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.Disposable,Dispose</token>
+<token>Ecng.Common.StringHelper,Put</token>
 </entry>
 <entry count="8">
 <token>Ecng.Common.Converter,To</token>
@@ -1027,18 +1037,12 @@
 <token>Ecng.Common.MathHelper,Round</token>
 <token>Ecng.Common.MathHelper,RemoveTrailingZeros</token>
 </entry>
-<entry count="69120">
+<entry count="340736">
 <token>Ecng.Common.XmlHelper,WriteAttribute</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
-</entry>
-<entry count="2">
-<token>4.0.0.0],[TSecond</token>
-<token>-&gt;</token>
-<token>i:System.Collections.Generic.IDictionary`2[[TKey</token>
-<token>-&gt;</token>
 </entry>
 <entry count="16">
 <token>Ecng.Common.FastCsvReader,ReadNullableDecimal</token>
@@ -1047,12 +1051,7 @@
 <token>Ecng.Common.FastCsvReader,ReadNullableEnum</token>
 <token>Ecng.Common.FastCsvReader,ReadNullableLong</token>
 </entry>
-<entry count="2">
-<token>StockSharp.Xaml.Charting,</token>
-<token>4.3.14.0],[TValue</token>
-<token>-&gt;</token>
-</entry>
-<entry count="8">
+<entry count="16">
 <token>Ecng.Common.TimeHelper,ToDateTimeOffset</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.Converter,To</token>
@@ -1063,18 +1062,13 @@
 <token>Ecng.Common.TimeHelper,ApplyTimeZone</token>
 <token>Ecng.Common.Converter,To</token>
 </entry>
-<entry count="16">
+<entry count="64">
 <token>Ecng.Common.Converter,DoInCulture</token>
 <token>Ecng.Common.MathHelper,Min</token>
 </entry>
-<entry count="12">
+<entry count="60">
 <token>Ecng.Common.StringHelper,Put</token>
 <token>Ecng.Common.ThreadingHelper,Thread</token>
-</entry>
-<entry count="13824">
-<token>Ecng.Common.StringHelper,Put</token>
-<token>Ecng.Common.StringHelper,Put</token>
-<token>Ecng.Common.MathHelper,Round</token>
 </entry>
 <entry count="16">
 <token>Ecng.Common.FastCsvReader,ReadString</token>
@@ -1094,25 +1088,20 @@
 <token>Ecng.Common.FastCsvReader,ReadNullableDateTime</token>
 <token>Ecng.Common.FastCsvReader,ReadString</token>
 </entry>
-<entry count="128">
+<entry count="192000">
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.XmlHelper,WriteAttribute</token>
 <token>Ecng.Common.XmlHelper,WriteAttribute</token>
 <token>Ecng.Common.XmlHelper,WriteAttribute</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 </entry>
-<entry count="2">
-<token>StockSharp.Xaml.Charting,</token>
-<token>4.3.14.0],[TSecond</token>
-<token>-&gt;</token>
-</entry>
-<entry count="8">
+<entry count="24">
 <token>Ecng.Common.RefTuple,Create</token>
 <token>Ecng.Common.MathHelper,Abs</token>
 <token>Ecng.Common.MathHelper,Abs</token>
 <token>Ecng.Common.StringHelper,Put</token>
 </entry>
-<entry count="28">
+<entry count="76">
 <token>Ecng.Common.XmlHelper,GetElementValue</token>
 <token>Ecng.Common.XmlHelper,GetAttributeValue</token>
 <token>Ecng.Common.XmlHelper,GetElementValue</token>
@@ -1143,13 +1132,20 @@
 <token>Ecng.Common.FastCsvReader,ReadNullableBool</token>
 <token>Ecng.Common.FastCsvReader,ReadBool</token>
 </entry>
-<entry count="56">
+<entry count="8">
+<token>Ecng.Common.RandomGen,GetInt</token>
+<token>Ecng.Common.RandomGen,GetInt</token>
+<token>Ecng.Common.IdGenerator,GetNextId</token>
+<token>Ecng.Common.RandomArray,Next</token>
+<token>Ecng.Common.RandomGen,GetEnum</token>
+</entry>
+<entry count="152">
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.XmlHelper,GetElementValue</token>
 <token>Ecng.Common.XmlHelper,GetElementValue</token>
 <token>Ecng.Common.XmlHelper,GetElementValue</token>
 </entry>
-<entry count="116">
+<entry count="19296">
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.Converter,To</token>
@@ -1165,9 +1161,9 @@
 <token>Ecng.Common.FastCsvReader,ReadDecimal</token>
 <token>Ecng.Common.FastCsvReader,ReadDecimal</token>
 </entry>
-<entry count="2">
-<token>-&gt;</token>
-<token>p:object]],</token>
+<entry count="23328">
+<token>Ecng.Common.Converter,GetPort</token>
+<token>Ecng.Common.Converter,GetHost</token>
 </entry>
 <entry count="8">
 <token>Ecng.Common.XmlHelper,GetAttributeValue</token>
@@ -1206,6 +1202,13 @@
 <token>Ecng.Common.FastCsvReader,ReadEnum</token>
 <token>Ecng.Common.FastCsvReader,ReadEnum</token>
 </entry>
+<entry count="7168">
+<token>Ecng.Common.Converter,GetPort</token>
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+<token>Ecng.Common.Converter,GetHost</token>
+<token>Ecng.Common.Converter,GetPort</token>
+<token>Ecng.Common.Converter,GetHost</token>
+</entry>
 <entry count="8">
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.Converter,To</token>
@@ -1219,7 +1222,7 @@
 <token>Ecng.Common.FastCsvReader,ReadNullableDecimal</token>
 <token>Ecng.Common.FastCsvReader,ReadNullableDecimal</token>
 </entry>
-<entry count="168">
+<entry count="4900">
 <token>Ecng.Common.TypeHelper,CreateInstance</token>
 <token>Ecng.Common.TypeHelper,DoIf</token>
 <token>Ecng.Common.TypeHelper,DoIf</token>
@@ -1236,7 +1239,7 @@
 <token>Ecng.Common.XmlHelper,GetElementValue</token>
 <token>Ecng.Common.XmlHelper,GetElementValue</token>
 </entry>
-<entry count="32">
+<entry count="35332">
 <token>Ecng.Common.XmlHelper,WriteAttribute</token>
 <token>Ecng.Common.XmlHelper,WriteAttribute</token>
 <token>Ecng.Common.XmlHelper,WriteAttribute</token>
@@ -1278,16 +1281,14 @@
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.StringHelper,ContainsIgnoreCase</token>
 </entry>
+<entry count="23328">
+<token>Ecng.Common.Converter,GetPort</token>
+<token>Ecng.Common.Converter,GetHost</token>
+<token>Ecng.Common.Converter,GetPort</token>
+</entry>
 <entry count="4">
 <token>Ecng.Common.TypeHelper,DoIfElse</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
-</entry>
-<entry count="4">
-<token>i:StockSharp.Messages.IMessageChannel,</token>
-<token>Messages]],Clone</token>
-<token>Ecng.Common.ICloneable`1[[T</token>
-<token>-&gt;</token>
-<token>i:StockSharp.Messages.IMessageChannel,</token>
 </entry>
 <entry count="16">
 <token>Ecng.Common.FastCsvReader,ReadNullableEnum</token>
@@ -1309,17 +1310,12 @@
 <token>Ecng.Common.XmlHelper,GetAttributeValue</token>
 <token>Ecng.Common.XmlHelper,GetAttributeValue</token>
 </entry>
-<entry count="124416">
+<entry count="298144">
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.XmlHelper,WriteAttribute</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
-</entry>
-<entry count="2">
-<token>4.0.0.0],[TSecond</token>
-<token>-&gt;</token>
-<token>i:System.Collections.Generic.IDictionary`2[[TKey</token>
 </entry>
 <entry count="10">
 <token>Ecng.Common.StringHelper,Put</token>
@@ -1332,39 +1328,51 @@
 <token>Ecng.Common.FastCsvReader,ReadNullableEnum</token>
 <token>Ecng.Common.FastCsvReader,ReadNullableLong</token>
 </entry>
-<entry count="10360">
+<entry count="15564">
 <token>Ecng.Common.TimeHelper,ChangeKind</token>
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.Converter,To</token>
 </entry>
-<entry count="168">
-<token>p:decimal],[TSecond</token>
-<token>-&gt;</token>
-<token>p:decimal]],new</token>
-<token>Ecng.Common.RefPair`2[[TFirst</token>
-<token>-&gt;</token>
+<entry count="5136">
+<token>Ecng.Common.TimeHelper,ChangeKind</token>
+<token>Ecng.Common.TimeHelper,ApplyTimeZone</token>
+<token>Ecng.Common.TimeHelper,ChangeKind</token>
+<token>Ecng.Common.Converter,To</token>
 </entry>
 <entry count="6">
 <token>Ecng.Common.StringHelper,Put</token>
 <token>Ecng.Common.TimeHelper,EndOfDay</token>
 <token>Ecng.Common.Enumerator,GetValues</token>
 </entry>
-<entry count="192">
+<entry count="336000">
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.XmlHelper,WriteAttribute</token>
 <token>Ecng.Common.XmlHelper,WriteAttribute</token>
 <token>Ecng.Common.XmlHelper,WriteAttribute</token>
+</entry>
+<entry count="4">
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.TimeHelper,ToDateTimeOffset</token>
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+<token>Ecng.Common.Converter,To</token>
+</entry>
+<entry count="9216">
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+<token>Ecng.Common.Converter,GetHost</token>
+<token>Ecng.Common.Converter,GetHost</token>
+<token>Ecng.Common.Converter,GetPort</token>
 </entry>
 <entry count="24">
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.StringHelper,CompareIgnoreCase</token>
 <token>Ecng.Common.StringHelper,Put</token>
 </entry>
-<entry count="16">
+<entry count="64">
 <token>Ecng.Common.TimeHelper,ToDateTimeOffset</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 </entry>
-<entry count="16">
+<entry count="256">
 <token>Ecng.Common.DelegateHelper,SafeInvoke</token>
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.StringHelper,Join</token>
@@ -1373,6 +1381,10 @@
 <entry count="8">
 <token>Ecng.Common.FastCsvReader,ReadNullableLong</token>
 <token>Ecng.Common.FastCsvReader,ReadNullableDecimal</token>
+</entry>
+<entry count="23328">
+<token>Ecng.Common.Converter,GetHost</token>
+<token>Ecng.Common.Converter,GetHost</token>
 </entry>
 <entry count="100">
 <token>Ecng.Common.RefTuple,Create</token>
@@ -1383,11 +1395,6 @@
 <token>Ecng.Common.FastCsvReader,ReadLong</token>
 <token>Ecng.Common.FastCsvReader,ReadDecimal</token>
 <token>Ecng.Common.FastCsvReader,ReadDecimal</token>
-</entry>
-<entry count="172">
-<token>p:decimal],[TSecond</token>
-<token>-&gt;</token>
-<token>p:decimal]],new</token>
 </entry>
 <entry count="36">
 <token>Ecng.Common.FastCsvReader,ReadString</token>
@@ -1414,23 +1421,32 @@
 <token>Ecng.Common.ThreadingHelper,Name</token>
 <token>Ecng.Common.ThreadingHelper,Culture</token>
 </entry>
-<entry count="168">
+<entry count="4900">
 <token>Ecng.Common.TypeHelper,CreateInstance</token>
 <token>Ecng.Common.TypeHelper,DoIf</token>
 <token>Ecng.Common.TypeHelper,DoIf</token>
+</entry>
+<entry count="68">
+<token>Ecng.Common.StringHelper,CompareIgnoreCase</token>
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+<token>Ecng.Common.StringHelper,CompareIgnoreCase</token>
 </entry>
 <entry count="2">
 <token>Ecng.Common.TypeHelper,DoIf</token>
 <token>Ecng.Common.TypeHelper,DoIf</token>
 <token>Ecng.Common.ResettableTimer,Flush</token>
 </entry>
-<entry count="96">
+<entry count="2">
+<token>Ecng.Common.ResettableTimer,Cancel</token>
+<token>Ecng.Common.RefPair,new</token>
+</entry>
+<entry count="4352">
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.StringHelper,Put</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 </entry>
-<entry count="55616">
+<entry count="579968">
 <token>Ecng.Common.XmlHelper,WriteAttribute</token>
 <token>Ecng.Common.XmlHelper,WriteAttribute</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
@@ -1444,11 +1460,11 @@
 <token>Ecng.Common.TypeHelper,Throw</token>
 <token>Ecng.Common.StringHelper,TrimEnd</token>
 </entry>
-<entry count="1054344">
+<entry count="7839076">
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 </entry>
-<entry count="8">
+<entry count="12688">
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
@@ -1464,7 +1480,7 @@
 <token>Ecng.Common.ThreadingHelper,Culture</token>
 <token>Ecng.Common.ThreadingHelper,Name</token>
 </entry>
-<entry count="8">
+<entry count="20752">
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 </entry>
@@ -1472,34 +1488,26 @@
 <token>Ecng.Common.StringHelper,TrimEnd</token>
 <token>Ecng.Common.StringHelper,Put</token>
 </entry>
-<entry count="2">
-<token>mscorlib,</token>
-<token>4.0.0.0]],new</token>
-<token>Ecng.Common.TypeHelper,DoIf</token>
+<entry count="18144">
+<token>Ecng.Common.Converter,GetHost</token>
+<token>Ecng.Common.Converter,GetPort</token>
+<token>Ecng.Common.Converter,GetHost</token>
 </entry>
-<entry count="24">
-<token>-&gt;</token>
-<token>p:int]],Next</token>
-<token>Ecng.Common.RandomArray`1[[T</token>
-<token>-&gt;</token>
-</entry>
-<entry count="32">
-<token>Ecng.Common.RandomGen,GetEnum</token>
-<token>Ecng.Common.RandomArray`1[[T</token>
-<token>-&gt;</token>
-<token>p:int]],Next</token>
-<token>Ecng.Common.RandomGen,GetInt</token>
-</entry>
-<entry count="2">
-<token>i:StockSharp.Xaml.Charting.IChartElement,</token>
-<token>StockSharp.Xaml.Charting,</token>
-<token>4.3.14.0],[TSecond</token>
-<token>-&gt;</token>
+<entry count="4">
+<token>Ecng.Common.ICloneable,Clone</token>
+<token>Ecng.Common.ICloneable,Clone</token>
 </entry>
 <entry count="16">
 <token>Ecng.Common.FastCsvReader,ReadNullableDecimal</token>
 <token>Ecng.Common.FastCsvReader,ReadNullableInt</token>
 <token>Ecng.Common.FastCsvReader,ReadNullableEnum</token>
+</entry>
+<entry count="5184">
+<token>Ecng.Common.Converter,GetPort</token>
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+<token>Ecng.Common.Converter,GetPort</token>
+<token>Ecng.Common.Converter,GetHost</token>
+<token>Ecng.Common.Converter,GetPort</token>
 </entry>
 <entry count="8">
 <token>Ecng.Common.FastCsvReader,ReadDecimal</token>
@@ -1517,7 +1525,7 @@
 <token>Ecng.Common.StringHelper,Put</token>
 <token>Ecng.Common.ThreadingHelper,Name</token>
 </entry>
-<entry count="168">
+<entry count="4900">
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.TypeHelper,CreateInstance</token>
 <token>Ecng.Common.TypeHelper,DoIf</token>
@@ -1531,44 +1539,33 @@
 <token>Ecng.Common.RefTuple,Create</token>
 <token>Ecng.Common.SyncObject,Wait</token>
 </entry>
-<entry count="2">
-<token>p:object]],</token>
-<token>mscorlib,</token>
-<token>4.0.0.0]],new</token>
-<token>Ecng.Common.TypeHelper,DoIf</token>
-</entry>
-<entry count="40">
+<entry count="72">
 <token>Ecng.Common.TimeHelper,ToLocalTime</token>
 <token>Ecng.Common.TimeHelper,ToLocalTime</token>
-</entry>
-<entry count="4">
-<token>i:StockSharp.Xaml.Charting.IChartElement,</token>
-<token>StockSharp.Xaml.Charting,</token>
 </entry>
 <entry count="6">
 <token>Ecng.Common.StringHelper,Encrypt</token>
 <token>Ecng.Common.StringHelper,Put</token>
 </entry>
-<entry count="112">
+<entry count="3136">
 <token>Ecng.Common.TypeHelper,DoIf</token>
 <token>Ecng.Common.TypeHelper,DoIf</token>
 <token>Ecng.Common.Converter,To</token>
 </entry>
 <entry count="2">
-<token>-&gt;</token>
-<token>i:System.Collections.Generic.IDictionary`2[[TKey</token>
-<token>-&gt;</token>
-</entry>
-<entry count="2">
 <token>Ecng.Common.RandomGen,GetEnum</token>
 <token>Ecng.Common.StringHelper,Put</token>
 </entry>
-<entry count="56">
+<entry count="448">
+<token>Ecng.Common.ArrayHelper,IndexOf</token>
+<token>Ecng.Common.ArrayHelper,IndexOf</token>
+</entry>
+<entry count="128">
 <token>Ecng.Common.RefTuple,Create</token>
 <token>Ecng.Common.MathHelper,Abs</token>
 <token>Ecng.Common.MathHelper,Abs</token>
 </entry>
-<entry count="88">
+<entry count="280">
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.TimeHelper,ApplyTimeZone</token>
@@ -1584,7 +1581,14 @@
 <token>Ecng.Common.StringHelper,CompareIgnoreCase</token>
 <token>Ecng.Common.StringHelper,CompareIgnoreCase</token>
 </entry>
-<entry count="156">
+<entry count="568">
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+<token>Ecng.Common.StringHelper,Put</token>
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+<token>Ecng.Common.StringHelper,Put</token>
+</entry>
+<entry count="216">
 <token>Ecng.Common.XmlHelper,GetElementValue</token>
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.XmlHelper,GetElementValue</token>
@@ -1595,18 +1599,18 @@
 <token>Ecng.Common.XmlHelper,GetAttributeValue</token>
 <token>Ecng.Common.Converter,To</token>
 </entry>
-<entry count="32">
+<entry count="128">
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.XmlHelper,GetElementValue</token>
 <token>Ecng.Common.XmlHelper,GetElementValue</token>
 <token>Ecng.Common.XmlHelper,GetElementValue</token>
 <token>Ecng.Common.Converter,To</token>
 </entry>
-<entry count="180">
+<entry count="174964">
 <token>Ecng.Common.Converter,GetHost</token>
 <token>Ecng.Common.Converter,GetPort</token>
 </entry>
-<entry count="780">
+<entry count="1488">
 <token>Ecng.Common.XmlHelper,GetElementValue</token>
 <token>Ecng.Common.XmlHelper,GetElementValue</token>
 <token>Ecng.Common.XmlHelper,GetElementValue</token>
@@ -1615,20 +1619,11 @@
 <token>Ecng.Common.TimeHelper,Truncate</token>
 <token>Ecng.Common.TimeHelper,Truncate</token>
 </entry>
-<entry count="17280">
-<token>Ecng.Common.StringHelper,IsEmpty</token>
-<token>Ecng.Common.StringHelper,Put</token>
-<token>Ecng.Common.StringHelper,Put</token>
-</entry>
-<entry count="2">
-<token>4.3.14.0],[TValue</token>
-<token>-&gt;</token>
-</entry>
-<entry count="88">
+<entry count="224">
 <token>Ecng.Common.RefTuple,Create</token>
 <token>Ecng.Common.MathHelper,Abs</token>
 </entry>
-<entry count="32">
+<entry count="30272">
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.Converter,GetHost</token>
 <token>Ecng.Common.Converter,GetPort</token>
@@ -1638,7 +1633,7 @@
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.FastCsvReader,ReadNullableDateTime</token>
 </entry>
-<entry count="48">
+<entry count="144">
 <token>Ecng.Common.XmlHelper,GetElementValue</token>
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.XmlHelper,GetElementValue</token>
@@ -1651,9 +1646,26 @@
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.Converter,To</token>
 </entry>
+<entry count="2">
+<token>Ecng.Common.RefPair,new</token>
+<token>Ecng.Common.ResettableTimer,Activate</token>
+</entry>
 <entry count="96">
 <token>Ecng.Common.TypeHelper,CreateInstance</token>
 <token>Ecng.Common.StringHelper,Put</token>
+</entry>
+<entry count="5184">
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+<token>Ecng.Common.Converter,GetPort</token>
+<token>Ecng.Common.Converter,GetHost</token>
+<token>Ecng.Common.Converter,GetPort</token>
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+</entry>
+<entry count="160">
+<token>Ecng.Common.RefPair,new</token>
+<token>Ecng.Common.RefPair,new</token>
+<token>Ecng.Common.RefPair,new</token>
+<token>Ecng.Common.RefPair,new</token>
 </entry>
 <entry count="16">
 <token>Ecng.Common.FastCsvReader,ReadLong</token>
@@ -1670,29 +1682,42 @@
 <token>Ecng.Common.TimeHelper,EndOfDay</token>
 <token>Ecng.Common.SyncObject,new</token>
 </entry>
+<entry count="4096">
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.Disposable,Dispose</token>
+<token>Ecng.Common.StringHelper,Put</token>
+<token>Ecng.Common.Converter,To</token>
+</entry>
+<entry count="5136">
+<token>Ecng.Common.TimeHelper,ChangeKind</token>
+<token>Ecng.Common.TimeHelper,ApplyTimeZone</token>
+<token>Ecng.Common.TimeHelper,ChangeKind</token>
+<token>Ecng.Common.TimeHelper,ApplyTimeZone</token>
+<token>Ecng.Common.Converter,To</token>
+</entry>
 <entry count="16">
 <token>Ecng.Common.FastCsvReader,ReadNullableDecimal</token>
 <token>Ecng.Common.FastCsvReader,ReadNullableDecimal</token>
 <token>Ecng.Common.FastCsvReader,ReadNullableDecimal</token>
 <token>Ecng.Common.FastCsvReader,ReadNullableInt</token>
 </entry>
-<entry count="2">
-<token>-&gt;</token>
-<token>p:object]],</token>
-<token>mscorlib,</token>
-<token>4.0.0.0]],new</token>
-</entry>
 <entry count="4">
 <token>Ecng.Common.StringHelper,ContainsIgnoreCase</token>
 <token>Ecng.Common.StringHelper,CompareIgnoreCase</token>
 </entry>
-<entry count="8">
+<entry count="12">
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.TimeHelper,ToDateTimeOffset</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.Converter,To</token>
 </entry>
-<entry count="192">
+<entry count="48">
+<token>Ecng.Common.TypeHelper,GetTypeName</token>
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.TypeHelper,GetTypeName</token>
+<token>Ecng.Common.Converter,To</token>
+</entry>
+<entry count="336000">
 <token>Ecng.Common.XmlHelper,WriteAttribute</token>
 <token>Ecng.Common.XmlHelper,WriteAttribute</token>
 <token>Ecng.Common.XmlHelper,WriteAttribute</token>
@@ -1703,7 +1728,7 @@
 <token>Ecng.Common.TypeHelper,DoIf</token>
 <token>Ecng.Common.TypeHelper,DoIf</token>
 </entry>
-<entry count="192">
+<entry count="768">
 <token>Ecng.Common.StringHelper,Put</token>
 <token>Ecng.Common.CompareHelper,IsDefault</token>
 </entry>
@@ -1727,6 +1752,11 @@
 <token>Ecng.Common.ArrayHelper,Range</token>
 <token>Ecng.Common.Converter,To</token>
 </entry>
+<entry count="4096">
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.Disposable,Dispose</token>
+<token>Ecng.Common.Converter,To</token>
+</entry>
 <entry count="8">
 <token>Ecng.Common.XmlHelper,GetAttributeValue</token>
 <token>Ecng.Common.XmlHelper,GetAttributeValue</token>
@@ -1746,7 +1776,7 @@
 <token>Ecng.Common.FastCsvReader,ReadNullableDecimal</token>
 <token>Ecng.Common.FastCsvReader,ReadNullableEnum</token>
 </entry>
-<entry count="8">
+<entry count="64">
 <token>Ecng.Common.MathHelper,Abs</token>
 <token>Ecng.Common.StringHelper,Put</token>
 </entry>
@@ -1758,20 +1788,22 @@
 <token>Ecng.Common.CompareHelper,IsDefault</token>
 <token>Ecng.Common.ArrayHelper,Empty</token>
 </entry>
-<entry count="2">
-<token>Ecng.Common.TypeHelper,GetTypeName</token>
+<entry count="120">
+<token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.TypeHelper,GetTypeName</token>
 <token>Ecng.Common.Converter,To</token>
 </entry>
-<entry count="2">
-<token>mscorlib,</token>
-<token>4.0.0.0],[TSecond</token>
+<entry count="224">
+<token>Ecng.Common.StringHelper,Put</token>
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+<token>Ecng.Common.StringHelper,Put</token>
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+<token>Ecng.Common.StringHelper,IsEmpty</token>
 </entry>
-<entry count="8">
-<token>Ecng.Common.RandomGen,GetInt</token>
-<token>Ecng.Common.RandomGen,GetInt</token>
-<token>Ecng.Common.IdGenerator,GetNextId</token>
-<token>Ecng.Common.RandomArray`1[[T</token>
+<entry count="24">
+<token>Ecng.Common.TypeHelper,GetTypeName</token>
+<token>Ecng.Common.TypeHelper,GetTypeName</token>
+<token>Ecng.Common.Converter,To</token>
 </entry>
 <entry count="8">
 <token>Ecng.Common.ThreadingHelper,Thread</token>
@@ -1780,9 +1812,23 @@
 <token>Ecng.Common.ThreadingHelper,Culture</token>
 <token>Ecng.Common.ThreadingHelper,Launch</token>
 </entry>
-<entry count="10376">
+<entry count="15596">
 <token>Ecng.Common.TimeHelper,ChangeKind</token>
 <token>Ecng.Common.Converter,To</token>
+</entry>
+<entry count="552">
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+<token>Ecng.Common.StringHelper,Put</token>
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+<token>Ecng.Common.StringHelper,Put</token>
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+</entry>
+<entry count="5808">
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+<token>Ecng.Common.StringHelper,IsEmpty</token>
 </entry>
 <entry count="16">
 <token>Ecng.Common.FastCsvReader,ReadString</token>
@@ -1798,22 +1844,22 @@
 <token>Ecng.Common.FastCsvReader,ReadString</token>
 </entry>
 <entry count="16">
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.TimeHelper,ToDateTimeOffset</token>
+</entry>
+<entry count="16">
 <token>Ecng.Common.FastCsvReader,ReadString</token>
 <token>Ecng.Common.FastCsvReader,ReadString</token>
 <token>Ecng.Common.FastCsvReader,ReadNullableLong</token>
 </entry>
-<entry count="124416">
+<entry count="127776">
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.XmlHelper,WriteAttribute</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 </entry>
-<entry count="2">
-<token>4.3.14.0],[TSecond</token>
-<token>-&gt;</token>
-</entry>
-<entry count="10256">
+<entry count="20544">
 <token>Ecng.Common.TimeHelper,ChangeKind</token>
 <token>Ecng.Common.TimeHelper,ApplyTimeZone</token>
 </entry>
@@ -1823,12 +1869,11 @@
 <token>Ecng.Common.FastCsvReader,ReadNullableEnum</token>
 <token>Ecng.Common.FastCsvReader,ReadNullableEnum</token>
 </entry>
-<entry count="4096">
+<entry count="4">
 <token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.TimeHelper,ToDateTimeOffset</token>
+<token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.Converter,To</token>
-<token>Ecng.Common.Converter,To</token>
-<token>Ecng.Common.Disposable,Dispose</token>
-<token>Ecng.Common.StringHelper,Put</token>
 </entry>
 <entry count="36">
 <token>Ecng.Common.NullableHelper,IsNullable</token>
@@ -1845,28 +1890,34 @@
 <token>Ecng.Common.TimeHelper,Range</token>
 <token>Ecng.Common.StringHelper,Put</token>
 </entry>
-<entry count="786432">
+<entry count="896000">
 <token>Ecng.Common.StringHelper,ContainsIgnoreCase</token>
 <token>Ecng.Common.StringHelper,IsEmptyOrWhiteSpace</token>
 </entry>
-<entry count="296">
+<entry count="12908">
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.StringHelper,Put</token>
 </entry>
-<entry count="88">
+<entry count="392">
+<token>Ecng.Common.StringHelper,CompareIgnoreCase</token>
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.Converter,To</token>
+</entry>
+<entry count="8">
+<token>Ecng.Common.RandomGen,GetInt</token>
+<token>Ecng.Common.RandomGen,GetInt</token>
+<token>Ecng.Common.IdGenerator,GetNextId</token>
+<token>Ecng.Common.RandomArray,Next</token>
+</entry>
+<entry count="64">
+<token>Ecng.Common.TypeHelper,GetTypeName</token>
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.TypeHelper,GetTypeName</token>
+</entry>
+<entry count="136">
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.StringHelper,Split</token>
-</entry>
-<entry count="32">
-<token>Ecng.Common.IdGenerator,GetNextId</token>
-<token>Ecng.Common.RandomGen,GetEnum</token>
-<token>Ecng.Common.RandomArray`1[[T</token>
-</entry>
-<entry count="2">
-<token>i:System.Collections.Generic.IDictionary`2[[TKey</token>
-<token>-&gt;</token>
-<token>i:StockSharp.Xaml.Charting.IChartElement,</token>
-<token>StockSharp.Xaml.Charting,</token>
 </entry>
 <entry count="12">
 <token>Ecng.Common.StringHelper,Put</token>
@@ -1903,25 +1954,46 @@
 <token>Ecng.Common.DisposableHelper,MakeDisposable</token>
 <token>Ecng.Common.StringHelper,Put</token>
 </entry>
-<entry count="2">
-<token>4.0.0.0]],new</token>
-<token>Ecng.Common.TypeHelper,DoIf</token>
+<entry count="192">
+<token>Ecng.Common.StringHelper,Put</token>
+<token>Ecng.Common.StringHelper,Put</token>
+<token>Ecng.Common.StringHelper,Put</token>
+<token>Ecng.Common.TimeHelper,Range</token>
 </entry>
 <entry count="8">
 <token>Ecng.Common.TimeHelper,EndOfDay</token>
 <token>Ecng.Common.SyncObject,new</token>
 </entry>
-<entry count="28">
+<entry count="616">
+<token>Ecng.Common.StringHelper,Put</token>
+<token>Ecng.Common.StringHelper,Put</token>
+<token>Ecng.Common.StringHelper,Put</token>
+<token>Ecng.Common.StringHelper,Put</token>
+<token>Ecng.Common.StringHelper,Put</token>
+</entry>
+<entry count="65556">
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.Converter,DoInCulture</token>
 </entry>
-<entry count="64">
+<entry count="8">
+<token>Ecng.Common.RefTuple,Create</token>
+<token>Ecng.Common.MathHelper,Abs</token>
+<token>Ecng.Common.StringHelper,Put</token>
+<token>Ecng.Common.MathHelper,Abs</token>
+<token>Ecng.Common.StringHelper,Put</token>
+</entry>
+<entry count="176">
 <token>Ecng.Common.StringHelper,Join</token>
 <token>Ecng.Common.StringHelper,Put</token>
 </entry>
 <entry count="20">
 <token>Ecng.Common.FastCsvReader,ReadNullableDecimal</token>
 <token>Ecng.Common.FastCsvReader,ReadNullableEnum</token>
+</entry>
+<entry count="19200">
+<token>Ecng.Common.StringHelper,Put</token>
+<token>Ecng.Common.TypeHelper,CreateInstance</token>
+<token>Ecng.Common.ThreadingHelper,Thread</token>
 </entry>
 <entry count="8">
 <token>Ecng.Common.StringHelper,IsEmpty</token>
@@ -1936,7 +2008,7 @@
 <token>Ecng.Common.StringHelper,Put</token>
 <token>Ecng.Common.ThreadingHelper,Name</token>
 </entry>
-<entry count="64">
+<entry count="512">
 <token>Ecng.Common.TypeHelper,CreateInstance</token>
 <token>Ecng.Common.TimeHelper,ApplyTimeZone</token>
 <token>Ecng.Common.TimeHelper,ApplyTimeZone</token>
@@ -1948,27 +2020,19 @@
 <token>Ecng.Common.FastCsvReader,ReadEnum</token>
 <token>Ecng.Common.FastCsvReader,ReadNullableEnum</token>
 </entry>
-<entry count="112">
+<entry count="23328">
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+<token>Ecng.Common.Converter,GetPort</token>
+</entry>
+<entry count="65640">
 <token>Ecng.Common.StringHelper,ContainsIgnoreCase</token>
 <token>Ecng.Common.Converter,To</token>
-</entry>
-<entry count="32">
-<token>Ecng.Common.IdGenerator,GetNextId</token>
-<token>Ecng.Common.RandomGen,GetEnum</token>
-<token>Ecng.Common.RandomArray`1[[T</token>
-<token>-&gt;</token>
-<token>p:int]],Next</token>
 </entry>
 <entry count="16">
 <token>Ecng.Common.XmlHelper,GetAttributeValue</token>
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.XmlHelper,GetAttributeValue</token>
 <token>Ecng.Common.Converter,To</token>
-</entry>
-<entry count="172">
-<token>Ecng.Common.RefPair`2[[TFirst</token>
-<token>-&gt;</token>
-<token>p:decimal],[TSecond</token>
 </entry>
 <entry count="4">
 <token>Ecng.Common.ArrayHelper,Empty</token>
@@ -1989,11 +2053,11 @@
 <token>Ecng.Common.TimeHelper,ApplyTimeZone</token>
 <token>Ecng.Common.Converter,To</token>
 </entry>
-<entry count="320">
+<entry count="656">
 <token>Ecng.Common.XmlHelper,GetElementValue</token>
 <token>Ecng.Common.Converter,To</token>
 </entry>
-<entry count="108">
+<entry count="179864">
 <token>Ecng.Common.XmlHelper,WriteAttribute</token>
 <token>Ecng.Common.XmlHelper,WriteAttribute</token>
 <token>Ecng.Common.XmlHelper,WriteAttribute</token>
@@ -2005,28 +2069,23 @@
 <token>Ecng.Common.FastCsvReader,ReadNullableDecimal</token>
 <token>Ecng.Common.FastCsvReader,ReadNullableEnum</token>
 </entry>
-<entry count="32">
+<entry count="144">
 <token>Ecng.Common.StringHelper,Put</token>
 <token>Ecng.Common.StringHelper,Put</token>
 <token>Ecng.Common.TimeHelper,ApplyTimeZone</token>
 <token>Ecng.Common.TimeHelper,ApplyTimeZone</token>
-</entry>
-<entry count="168">
-<token>-&gt;</token>
-<token>p:decimal]],new</token>
-<token>Ecng.Common.RefPair`2[[TFirst</token>
 </entry>
 <entry count="8">
 <token>Ecng.Common.TimeHelper,ToDateTime</token>
 <token>Ecng.Common.TimeHelper,ChangeKind</token>
 <token>Ecng.Common.Converter,DoInCulture</token>
 </entry>
-<entry count="98304">
+<entry count="112000">
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.StringHelper,IsEmptyOrWhiteSpace</token>
 <token>Ecng.Common.StringHelper,ContainsIgnoreCase</token>
 </entry>
-<entry count="8">
+<entry count="65536">
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.Converter,To</token>
@@ -2052,11 +2111,11 @@
 <token>Ecng.Common.FastCsvReader,ReadString</token>
 <token>Ecng.Common.FastCsvReader,ReadString</token>
 </entry>
-<entry count="233">
+<entry count="1225">
 <token>Ecng.Common.DelegateHelper,SafeInvoke</token>
 <token>Ecng.Common.DelegateHelper,SafeInvoke</token>
 </entry>
-<entry count="620">
+<entry count="1136">
 <token>Ecng.Common.XmlHelper,GetElementValue</token>
 <token>Ecng.Common.XmlHelper,GetElementValue</token>
 <token>Ecng.Common.XmlHelper,GetElementValue</token>
@@ -2068,7 +2127,7 @@
 <token>Ecng.Common.FastCsvReader,ReadNullableEnum</token>
 <token>Ecng.Common.FastCsvReader,ReadNullableLong</token>
 </entry>
-<entry count="32">
+<entry count="11616">
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
@@ -2082,11 +2141,11 @@
 <token>Ecng.Common.Disposable,Dispose</token>
 <token>Ecng.Common.Disposable,DisposeManaged</token>
 </entry>
-<entry count="884736">
+<entry count="1008000">
 <token>Ecng.Common.StringHelper,IsEmptyOrWhiteSpace</token>
 <token>Ecng.Common.StringHelper,ContainsIgnoreCase</token>
 </entry>
-<entry count="302">
+<entry count="7666">
 <token>Ecng.Common.StringHelper,Put</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 </entry>
@@ -2102,7 +2161,7 @@
 <token>Ecng.Common.TimeHelper,Truncate</token>
 <token>Ecng.Common.TimeHelper,Truncate</token>
 </entry>
-<entry count="98304">
+<entry count="112000">
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.StringHelper,ContainsIgnoreCase</token>
@@ -2119,21 +2178,22 @@
 <token>Ecng.Common.FastCsvReader,ReadString</token>
 <token>Ecng.Common.FastCsvReader,ReadNullableDecimal</token>
 </entry>
-<entry count="196">
+<entry count="772">
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.CompareHelper,IsDefault</token>
 </entry>
-<entry count="2">
-<token>s:System.DateTimeOffset,</token>
-<token>mscorlib,</token>
-<token>4.0.0.0],[TSecond</token>
-<token>-&gt;</token>
-</entry>
-<entry count="96">
+<entry count="784">
 <token>Ecng.Common.NullableHelper,IsNull</token>
 <token>Ecng.Common.NullableHelper,IsNull</token>
 </entry>
-<entry count="688128">
+<entry count="5120">
+<token>Ecng.Common.TimeHelper,ApplyTimeZone</token>
+<token>Ecng.Common.TimeHelper,ChangeKind</token>
+<token>Ecng.Common.TimeHelper,ApplyTimeZone</token>
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.Converter,To</token>
+</entry>
+<entry count="784000">
 <token>Ecng.Common.StringHelper,ContainsIgnoreCase</token>
 <token>Ecng.Common.StringHelper,IsEmptyOrWhiteSpace</token>
 <token>Ecng.Common.StringHelper,ContainsIgnoreCase</token>
@@ -2144,6 +2204,13 @@
 <token>Ecng.Common.MathHelper,Min</token>
 <token>Ecng.Common.DelegateHelper,SafeInvoke</token>
 </entry>
+<entry count="1152">
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+</entry>
 <entry count="4">
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.StringHelper,ContainsIgnoreCase</token>
@@ -2153,7 +2220,7 @@
 <token>Ecng.Common.TimeHelper,ToDateTime</token>
 <token>Ecng.Common.Converter,To</token>
 </entry>
-<entry count="32">
+<entry count="64">
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.RefTuple,Create</token>
 </entry>
@@ -2163,7 +2230,7 @@
 <token>Ecng.Common.StringHelper,Put</token>
 <token>Ecng.Common.MathHelper,Round</token>
 </entry>
-<entry count="20">
+<entry count="68">
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.XmlHelper,GetElementValue</token>
 <token>Ecng.Common.XmlHelper,GetAttributeValue</token>
@@ -2172,22 +2239,17 @@
 <token>Ecng.Common.StringHelper,Split</token>
 <token>Ecng.Common.Converter,To</token>
 </entry>
-<entry count="18049">
+<entry count="12573">
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.StringHelper,Put</token>
 </entry>
-<entry count="20">
+<entry count="68">
 <token>Ecng.Common.XmlHelper,GetElementValue</token>
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.XmlHelper,GetElementValue</token>
 <token>Ecng.Common.XmlHelper,GetAttributeValue</token>
 </entry>
-<entry count="172">
-<token>-&gt;</token>
-<token>p:decimal],[TSecond</token>
-<token>-&gt;</token>
-</entry>
-<entry count="498304">
+<entry count="1407104">
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.XmlHelper,WriteAttribute</token>
 </entry>
@@ -2195,16 +2257,16 @@
 <token>Ecng.Common.MathHelper,Min</token>
 <token>Ecng.Common.TimeHelper,Range</token>
 </entry>
-<entry count="128">
+<entry count="512">
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.TimeHelper,ApplyTimeZone</token>
 <token>Ecng.Common.StringHelper,CompareIgnoreCase</token>
 </entry>
-<entry count="2">
-<token>Ecng.Common.RefPair`2[[TFirst</token>
-<token>-&gt;</token>
-<token>s:System.DateTimeOffset,</token>
+<entry count="23328">
+<token>Ecng.Common.Converter,GetPort</token>
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+<token>Ecng.Common.Converter,GetPort</token>
 </entry>
 <entry count="12">
 <token>Ecng.Common.XmlHelper,GetElementValue</token>
@@ -2213,7 +2275,7 @@
 <token>Ecng.Common.XmlHelper,GetAttributeValue</token>
 <token>Ecng.Common.XmlHelper,GetElementValue</token>
 </entry>
-<entry count="192">
+<entry count="864">
 <token>Ecng.Common.TimeHelper,ApplyTimeZone</token>
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.Converter,To</token>
@@ -2239,7 +2301,7 @@
 <token>Ecng.Common.MathHelper,GetCachedDecimals</token>
 <token>Ecng.Common.MathHelper,Round</token>
 </entry>
-<entry count="192">
+<entry count="864">
 <token>Ecng.Common.TimeHelper,ToDateTime</token>
 <token>Ecng.Common.TimeHelper,ApplyTimeZone</token>
 <token>Ecng.Common.Converter,To</token>
@@ -2249,7 +2311,7 @@
 <token>Ecng.Common.TimeHelper,ToLocalTime</token>
 <token>Ecng.Common.TimeHelper,StartOfWeek</token>
 </entry>
-<entry count="16">
+<entry count="868">
 <token>Ecng.Common.StringHelper,Put</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.StringHelper,Put</token>
@@ -2260,50 +2322,43 @@
 <token>Ecng.Common.ThreadingHelper,Name</token>
 <token>Ecng.Common.ThreadingHelper,Launch</token>
 </entry>
-<entry count="2">
-<token>-&gt;</token>
-<token>i:StockSharp.Xaml.Charting.IChartElement,</token>
-<token>StockSharp.Xaml.Charting,</token>
-<token>4.3.14.0],[TValue</token>
-</entry>
 <entry count="8">
 <token>Ecng.Common.StringHelper,LastIndexOf</token>
 <token>Ecng.Common.StringHelper,Split</token>
 <token>Ecng.Common.DelegateHelper,SafeInvoke</token>
 <token>Ecng.Common.ThreadingHelper,Thread</token>
 </entry>
-<entry count="128">
+<entry count="576">
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.TimeHelper,ToDateTime</token>
 </entry>
-<entry count="2">
-<token>StockSharp.Xaml.Charting,</token>
-<token>4.3.14.0],[TValue</token>
-<token>-&gt;</token>
-<token>p:object]],</token>
-<token>mscorlib,</token>
+<entry count="32">
+<token>Ecng.Common.TypeHelper,GetTypeName</token>
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.TypeHelper,GetTypeName</token>
 </entry>
-<entry count="276736">
+<entry count="564736">
 <token>Ecng.Common.XmlHelper,WriteAttribute</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.XmlHelper,WriteAttribute</token>
-<token>Ecng.Common.StringHelper,IsEmpty</token>
-</entry>
-<entry count="55360">
-<token>Ecng.Common.XmlHelper,WriteAttribute</token>
-<token>Ecng.Common.XmlHelper,WriteAttribute</token>
-<token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 </entry>
-<entry count="98304">
+<entry count="304768">
+<token>Ecng.Common.XmlHelper,WriteAttribute</token>
+<token>Ecng.Common.XmlHelper,WriteAttribute</token>
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+</entry>
+<entry count="112000">
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.StringHelper,IsEmptyOrWhiteSpace</token>
 <token>Ecng.Common.StringHelper,ContainsIgnoreCase</token>
 <token>Ecng.Common.StringHelper,IsEmptyOrWhiteSpace</token>
 </entry>
-<entry count="17740">
+<entry count="8032">
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.StringHelper,Put</token>
@@ -2360,28 +2415,33 @@
 <token>Ecng.Common.XmlHelper,GetElementValue</token>
 <token>Ecng.Common.XmlHelper,GetAttributeValue</token>
 </entry>
-<entry count="17280">
-<token>Ecng.Common.StringHelper,IsEmpty</token>
-<token>Ecng.Common.StringHelper,IsEmpty</token>
-<token>Ecng.Common.StringHelper,Put</token>
-<token>Ecng.Common.StringHelper,Put</token>
+<entry count="511328">
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.TimeHelper,ApplyTimeZone</token>
 </entry>
 <entry count="12">
 <token>Ecng.Common.StringHelper,Put</token>
 <token>Ecng.Common.DelegateHelper,SafeInvoke</token>
 </entry>
-<entry count="128">
+<entry count="196">
+<token>Ecng.Common.StringHelper,Put</token>
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+<token>Ecng.Common.StringHelper,Put</token>
+</entry>
+<entry count="32">
+<token>Ecng.Common.RandomGen,GetEnum</token>
+<token>Ecng.Common.RandomArray,Next</token>
+</entry>
+<entry count="512">
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.TimeHelper,ApplyTimeZone</token>
 </entry>
-<entry count="8">
-<token>Ecng.Common.RandomArray`1[[T</token>
-<token>-&gt;</token>
-<token>p:int]],Next</token>
-<token>Ecng.Common.RandomGen,GetEnum</token>
-</entry>
-<entry count="112">
+<entry count="3136">
 <token>Ecng.Common.TypeHelper,CreateInstance</token>
 <token>Ecng.Common.TypeHelper,DoIf</token>
 <token>Ecng.Common.TypeHelper,DoIf</token>
@@ -2391,20 +2451,6 @@
 <entry count="8">
 <token>Ecng.Common.NullableHelper,IsNull</token>
 <token>Ecng.Common.StringHelper,Put</token>
-</entry>
-<entry count="2">
-<token>Ecng.Common.ResettableTimer,Cancel</token>
-<token>Ecng.Common.RefPair`2[[TFirst</token>
-<token>-&gt;</token>
-<token>i:StockSharp.Xaml.Charting.IChartElement,</token>
-<token>StockSharp.Xaml.Charting,</token>
-</entry>
-<entry count="2">
-<token>Ecng.Common.RefPair`2[[TFirst</token>
-<token>-&gt;</token>
-<token>i:StockSharp.Xaml.Charting.IChartElement,</token>
-<token>StockSharp.Xaml.Charting,</token>
-<token>4.3.14.0],[TSecond</token>
 </entry>
 <entry count="1">
 <token>Ecng.Common.ThreadingHelper,Culture</token>
@@ -2417,7 +2463,7 @@
 <token>Ecng.Common.FastCsvReader,ReadDecimal</token>
 <token>Ecng.Common.FastCsvReader,ReadNullableDecimal</token>
 </entry>
-<entry count="221248">
+<entry count="208768">
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.XmlHelper,WriteAttribute</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
@@ -2428,25 +2474,12 @@
 <token>Ecng.Common.TimeHelper,Range</token>
 <token>Ecng.Common.TimeHelper,DaysInMonth</token>
 </entry>
-<entry count="16">
+<entry count="256">
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.StringHelper,Join</token>
 <token>Ecng.Common.DelegateHelper,SafeInvoke</token>
 </entry>
-<entry count="2">
-<token>i:StockSharp.Xaml.Charting.IChartElement,</token>
-<token>StockSharp.Xaml.Charting,</token>
-<token>4.3.14.0],[TSecond</token>
-<token>-&gt;</token>
-<token>p:int]],new</token>
-</entry>
-<entry count="2">
-<token>-&gt;</token>
-<token>s:System.DateTimeOffset,</token>
-<token>mscorlib,</token>
-<token>4.0.0.0],[TSecond</token>
-</entry>
-<entry count="32">
+<entry count="30272">
 <token>Ecng.Common.Converter,GetPort</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.Converter,GetHost</token>
@@ -2463,7 +2496,7 @@
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.FastCsvReader,ReadString</token>
 </entry>
-<entry count="8">
+<entry count="64">
 <token>Ecng.Common.StringHelper,Split</token>
 <token>Ecng.Common.StringHelper,Put</token>
 <token>Ecng.Common.StringHelper,Put</token>
@@ -2474,6 +2507,13 @@
 <token>Ecng.Common.DisposableHelper,MakeDisposable</token>
 <token>Ecng.Common.StringHelper,Put</token>
 </entry>
+<entry count="2048">
+<token>Ecng.Common.TimeHelper,ApplyTimeZone</token>
+<token>Ecng.Common.TimeHelper,ChangeKind</token>
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.Disposable,Dispose</token>
+</entry>
 <entry count="4">
 <token>Ecng.Common.FastCsvReader,ReadDecimal</token>
 <token>Ecng.Common.FastCsvReader,ReadEnum</token>
@@ -2481,16 +2521,16 @@
 <token>Ecng.Common.FastCsvReader,ReadNullableEnum</token>
 <token>Ecng.Common.FastCsvReader,ReadNullableLong</token>
 </entry>
-<entry count="296">
+<entry count="5136">
+<token>Ecng.Common.TimeHelper,ChangeKind</token>
+<token>Ecng.Common.TimeHelper,ApplyTimeZone</token>
+<token>Ecng.Common.TimeHelper,ChangeKind</token>
+<token>Ecng.Common.TimeHelper,ApplyTimeZone</token>
+</entry>
+<entry count="596">
 <token>Ecng.Common.XmlHelper,GetElementValue</token>
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.XmlHelper,GetElementValue</token>
-</entry>
-<entry count="4">
-<token>i:StockSharp.Messages.IMessageChannel,</token>
-<token>Messages]],Clone</token>
-<token>Ecng.Common.ICloneable`1[[T</token>
-<token>-&gt;</token>
 </entry>
 <entry count="4">
 <token>Ecng.Common.XmlHelper,GetAttributeValue</token>
@@ -2498,17 +2538,12 @@
 <token>Ecng.Common.XmlHelper,GetElementValue</token>
 <token>Ecng.Common.Converter,To</token>
 </entry>
-<entry count="2">
-<token>4.3.14.0],[TSecond</token>
-<token>-&gt;</token>
-<token>p:int]],new</token>
-</entry>
-<entry count="12">
+<entry count="48">
 <token>Ecng.Common.ThreadingHelper,Thread</token>
 <token>Ecng.Common.ThreadingHelper,Launch</token>
 <token>Ecng.Common.StringHelper,Put</token>
 </entry>
-<entry count="20">
+<entry count="32">
 <token>Ecng.Common.RandomGen,GetInt</token>
 <token>Ecng.Common.RandomGen,GetInt</token>
 </entry>
@@ -2519,7 +2554,7 @@
 <token>Ecng.Common.CompareHelper,IsDefault</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 </entry>
-<entry count="32">
+<entry count="37440">
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.Converter,GetHost</token>
 <token>Ecng.Common.Converter,GetPort</token>
@@ -2535,18 +2570,35 @@
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.XmlHelper,GetElementValue</token>
 </entry>
-<entry count="56">
+<entry count="152">
 <token>Ecng.Common.XmlHelper,GetElementValue</token>
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.XmlHelper,GetElementValue</token>
 <token>Ecng.Common.XmlHelper,GetElementValue</token>
 <token>Ecng.Common.XmlHelper,GetElementValue</token>
 </entry>
-<entry count="56">
+<entry count="4">
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.TypeHelper,GetTypeName</token>
+<token>Ecng.Common.TypeHelper,GetTypeName</token>
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.Converter,To</token>
+</entry>
+<entry count="128">
 <token>Ecng.Common.MathHelper,Abs</token>
 <token>Ecng.Common.MathHelper,Abs</token>
 </entry>
-<entry count="64">
+<entry count="32">
+<token>Ecng.Common.IdGenerator,GetNextId</token>
+<token>Ecng.Common.RandomGen,GetEnum</token>
+<token>Ecng.Common.RandomArray,Next</token>
+</entry>
+<entry count="448">
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+<token>Ecng.Common.ArrayHelper,IndexOf</token>
+<token>Ecng.Common.ArrayHelper,IndexOf</token>
+</entry>
+<entry count="1888">
 <token>Ecng.Common.StringHelper,Put</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
@@ -2558,22 +2610,28 @@
 <token>Ecng.Common.FastCsvReader,ReadNullableDecimal</token>
 <token>Ecng.Common.FastCsvReader,ReadNullableDecimal</token>
 </entry>
-<entry count="128">
+<entry count="576">
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.TimeHelper,ToDateTime</token>
+</entry>
+<entry count="528">
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+</entry>
+<entry count="8">
+<token>Ecng.Common.TypeHelper,GetTypeName</token>
+<token>Ecng.Common.TypeHelper,GetTypeName</token>
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.Converter,To</token>
 </entry>
 <entry count="8">
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.StringHelper,PutEx</token>
 </entry>
-<entry count="192">
-<token>Ecng.Common.StringHelper,IsEmpty</token>
-<token>Ecng.Common.MathHelper,Round</token>
-<token>Ecng.Common.MathHelper,Round</token>
-<token>Ecng.Common.MathHelper,Round</token>
-<token>Ecng.Common.MathHelper,Round</token>
-</entry>
-<entry count="10360">
+<entry count="8396">
 <token>Ecng.Common.TimeHelper,ChangeKind</token>
 <token>Ecng.Common.TimeHelper,ChangeKind</token>
 <token>Ecng.Common.Converter,To</token>
@@ -2585,10 +2643,6 @@
 <token>Ecng.Common.ThreadingHelper,Thread</token>
 <token>Ecng.Common.StringHelper,Put</token>
 </entry>
-<entry count="32">
-<token>p:int]],Next</token>
-<token>Ecng.Common.RandomGen,GetInt</token>
-</entry>
 <entry count="16">
 <token>Ecng.Common.FastCsvReader,ReadString</token>
 <token>Ecng.Common.FastCsvReader,ReadString</token>
@@ -2596,34 +2650,36 @@
 <token>Ecng.Common.FastCsvReader,ReadNullableBool</token>
 </entry>
 <entry count="2">
-<token>s:System.DateTimeOffset,</token>
-<token>mscorlib,</token>
+<token>Ecng.Common.RefPair,new</token>
+<token>Ecng.Common.TypeHelper,DoIf</token>
 </entry>
 <entry count="340">
 <token>Ecng.Common.StringHelper,SplitByComma</token>
 <token>Ecng.Common.Converter,To</token>
 </entry>
-<entry count="16">
+<entry count="48">
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.TimeHelper,ToDateTimeOffset</token>
 </entry>
-<entry count="2">
-<token>-&gt;</token>
-<token>i:System.Collections.Generic.IDictionary`2[[TKey</token>
-</entry>
-<entry count="10432">
+<entry count="7008">
 <token>Ecng.Common.TimeHelper,ApplyTimeZone</token>
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.Converter,To</token>
 </entry>
-<entry count="32">
+<entry count="821">
+<token>Ecng.Common.Disposable,Dispose</token>
+<token>Ecng.Common.Disposable,Dispose</token>
+<token>Ecng.Common.Disposable,Dispose</token>
+<token>Ecng.Common.Disposable,Dispose</token>
+</entry>
+<entry count="80">
 <token>Ecng.Common.XmlHelper,GetElementValue</token>
 <token>Ecng.Common.XmlHelper,GetAttributeValue</token>
 <token>Ecng.Common.XmlHelper,GetElementValue</token>
 <token>Ecng.Common.XmlHelper,GetElementValue</token>
 </entry>
-<entry count="192">
+<entry count="864">
 <token>Ecng.Common.TimeHelper,ToDateTime</token>
 <token>Ecng.Common.TimeHelper,ApplyTimeZone</token>
 <token>Ecng.Common.Converter,To</token>
@@ -2640,7 +2696,7 @@
 <token>Ecng.Common.StringHelper,TrimEnd</token>
 <token>Ecng.Common.SyncObject,Pulse</token>
 </entry>
-<entry count="16">
+<entry count="128">
 <token>Ecng.Common.StringHelper,Put</token>
 <token>Ecng.Common.StringHelper,Join</token>
 <token>Ecng.Common.StringHelper,Put</token>
@@ -2663,15 +2719,36 @@
 <token>Ecng.Common.ThreadingHelper,Name</token>
 <token>Ecng.Common.ThreadingHelper,Culture</token>
 </entry>
-<entry count="11">
+<entry count="2929">
 <token>Ecng.Common.Disposable,Dispose</token>
 <token>Ecng.Common.Disposable,Dispose</token>
+</entry>
+<entry count="16">
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.TypeHelper,GetTypeName</token>
+<token>Ecng.Common.TypeHelper,GetTypeName</token>
 </entry>
 <entry count="16">
 <token>Ecng.Common.FastCsvReader,ReadNullableDecimal</token>
 <token>Ecng.Common.FastCsvReader,ReadNullableDecimal</token>
 <token>Ecng.Common.FastCsvReader,ReadString</token>
 <token>Ecng.Common.FastCsvReader,ReadString</token>
+</entry>
+<entry count="8">
+<token>Ecng.Common.StringHelper,Put</token>
+<token>Ecng.Common.StringHelper,Put</token>
+<token>Ecng.Common.Converter,To</token>
+</entry>
+<entry count="5120">
+<token>Ecng.Common.TimeHelper,ApplyTimeZone</token>
+<token>Ecng.Common.TimeHelper,ChangeKind</token>
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.Converter,To</token>
+</entry>
+<entry count="23328">
+<token>Ecng.Common.Converter,GetPort</token>
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+<token>Ecng.Common.StringHelper,IsEmpty</token>
 </entry>
 <entry count="32">
 <token>Ecng.Common.SyncObject,Pulse</token>
@@ -2686,32 +2763,32 @@
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.Converter,To</token>
 </entry>
-<entry count="24">
-<token>p:int]],Next</token>
-<token>Ecng.Common.RandomArray`1[[T</token>
-<token>-&gt;</token>
-</entry>
-<entry count="240">
+<entry count="7596">
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.StringHelper,Put</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
+</entry>
+<entry count="784">
+<token>Ecng.Common.TypeHelper,DoIf</token>
+<token>Ecng.Common.TypeHelper,DoIf</token>
+<token>Ecng.Common.TypeHelper,DoIf</token>
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.Converter,To</token>
 </entry>
 <entry count="20">
 <token>Ecng.Common.CompareHelper,IsDefault</token>
 <token>Ecng.Common.StringHelper,Put</token>
 <token>Ecng.Common.StringHelper,Put</token>
 </entry>
-<entry count="2">
-<token>-&gt;</token>
-<token>i:System.Collections.Generic.IDictionary`2[[TKey</token>
-<token>-&gt;</token>
-<token>i:StockSharp.Xaml.Charting.IChartElement,</token>
-<token>StockSharp.Xaml.Charting,</token>
-</entry>
 <entry count="108">
 <token>Ecng.Common.DisposableHelper,MakeDisposable</token>
 <token>Ecng.Common.ThreadingHelper,Thread</token>
 <token>Ecng.Common.ThreadingHelper,Name</token>
+</entry>
+<entry count="5136">
+<token>Ecng.Common.TimeHelper,ApplyTimeZone</token>
+<token>Ecng.Common.TimeHelper,ChangeKind</token>
+<token>Ecng.Common.TimeHelper,ApplyTimeZone</token>
 </entry>
 <entry count="8">
 <token>Ecng.Common.StringHelper,ContainsIgnoreCase</token>
@@ -2727,28 +2804,30 @@
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.StringHelper,Split</token>
 </entry>
-<entry count="72">
+<entry count="156">
 <token>Ecng.Common.XmlHelper,GetElementValue</token>
 <token>Ecng.Common.XmlHelper,GetElementValue</token>
 <token>Ecng.Common.XmlHelper,GetElementValue</token>
 <token>Ecng.Common.XmlHelper,GetElementValue</token>
 <token>Ecng.Common.Converter,To</token>
 </entry>
-<entry count="8312">
+<entry count="7168">
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+<token>Ecng.Common.Converter,GetHost</token>
+<token>Ecng.Common.Converter,GetPort</token>
+<token>Ecng.Common.Converter,GetHost</token>
+</entry>
+<entry count="13516">
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.Disposable,Dispose</token>
 </entry>
-<entry count="84">
+<entry count="180">
 <token>Ecng.Common.XmlHelper,GetAttributeValue</token>
 <token>Ecng.Common.XmlHelper,GetElementValue</token>
 <token>Ecng.Common.XmlHelper,GetElementValue</token>
 <token>Ecng.Common.XmlHelper,GetElementValue</token>
 </entry>
-<entry count="24">
-<token>p:int]],Next</token>
-<token>Ecng.Common.RandomArray`1[[T</token>
-</entry>
-<entry count="20">
+<entry count="340">
 <token>Ecng.Common.StringHelper,ContainsIgnoreCase</token>
 <token>Ecng.Common.StringHelper,ContainsIgnoreCase</token>
 </entry>
@@ -2768,6 +2847,13 @@
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.XmlHelper,GetAttributeValue</token>
 </entry>
+<entry count="156">
+<token>Ecng.Common.RefPair,new</token>
+<token>Ecng.Common.RefPair,new</token>
+<token>Ecng.Common.RefPair,new</token>
+<token>Ecng.Common.RefPair,new</token>
+<token>Ecng.Common.RefPair,new</token>
+</entry>
 <entry count="32">
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.StringHelper,ContainsIgnoreCase</token>
@@ -2782,14 +2868,7 @@
 <token>Ecng.Common.TimeHelper,ToLocalTime</token>
 <token>Ecng.Common.DelegateHelper,SafeInvoke</token>
 </entry>
-<entry count="4">
-<token>-&gt;</token>
-<token>i:StockSharp.Messages.IMessageChannel,</token>
-<token>Messages]],Clone</token>
-<token>Ecng.Common.ICloneable`1[[T</token>
-<token>-&gt;</token>
-</entry>
-<entry count="1020">
+<entry count="2016">
 <token>Ecng.Common.XmlHelper,GetElementValue</token>
 <token>Ecng.Common.XmlHelper,GetElementValue</token>
 </entry>
@@ -2810,6 +2889,11 @@
 <token>Ecng.Common.FastCsvReader,ReadString</token>
 </entry>
 <entry count="8">
+<token>Ecng.Common.StringHelper,Put</token>
+<token>Ecng.Common.MathHelper,Abs</token>
+<token>Ecng.Common.StringHelper,Put</token>
+</entry>
+<entry count="8">
 <token>Ecng.Common.FastCsvReader,ReadString</token>
 <token>Ecng.Common.FastCsvReader,ReadString</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
@@ -2818,8 +2902,14 @@
 <token>Ecng.Common.StringHelper,TrimStart</token>
 <token>Ecng.Common.Converter,To</token>
 </entry>
-<entry count="120">
+<entry count="4384">
 <token>Ecng.Common.StringHelper,Put</token>
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+</entry>
+<entry count="12672">
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+<token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 </entry>
@@ -2838,6 +2928,11 @@
 <token>Ecng.Common.FastCsvReader,ReadEnum</token>
 <token>Ecng.Common.FastCsvReader,ReadEnum</token>
 <token>Ecng.Common.FastCsvReader,ReadNullableEnum</token>
+</entry>
+<entry count="18144">
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+<token>Ecng.Common.Converter,GetPort</token>
+<token>Ecng.Common.StringHelper,IsEmpty</token>
 </entry>
 <entry count="32">
 <token>Ecng.Common.StringHelper,SplitByComma</token>
@@ -2858,7 +2953,7 @@
 <token>Ecng.Common.FastCsvReader,ReadNullableEnum</token>
 <token>Ecng.Common.FastCsvReader,ReadNullableLong</token>
 </entry>
-<entry count="13920">
+<entry count="96">
 <token>Ecng.Common.StringHelper,Put</token>
 <token>Ecng.Common.MathHelper,Round</token>
 </entry>
@@ -2867,10 +2962,12 @@
 <token>Ecng.Common.TimeHelper,ToDateTime</token>
 <token>Ecng.Common.TimeHelper,ApplyTimeZone</token>
 </entry>
-<entry count="2">
-<token>Ecng.Common.RefPair`2[[TFirst</token>
-<token>-&gt;</token>
-<token>i:StockSharp.Xaml.Charting.IChartElement,</token>
+<entry count="9216">
+<token>Ecng.Common.Converter,GetPort</token>
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+<token>Ecng.Common.Converter,GetHost</token>
+<token>Ecng.Common.Converter,GetHost</token>
+<token>Ecng.Common.Converter,GetPort</token>
 </entry>
 <entry count="4">
 <token>Ecng.Common.StringHelper,ContainsIgnoreCase</token>
@@ -2882,21 +2979,9 @@
 <token>Ecng.Common.FastCsvReader,ReadNullableDecimal</token>
 <token>Ecng.Common.FastCsvReader,ReadNullableInt</token>
 </entry>
-<entry count="8">
-<token>Ecng.Common.RandomGen,GetInt</token>
-<token>Ecng.Common.IdGenerator,GetNextId</token>
-<token>Ecng.Common.RandomArray`1[[T</token>
-<token>-&gt;</token>
-</entry>
 <entry count="4">
 <token>Ecng.Common.StringHelper,Put</token>
 <token>Ecng.Common.IdGenerator,GetNextId</token>
-</entry>
-<entry count="13824">
-<token>Ecng.Common.StringHelper,IsEmpty</token>
-<token>Ecng.Common.StringHelper,Put</token>
-<token>Ecng.Common.StringHelper,Put</token>
-<token>Ecng.Common.MathHelper,Round</token>
 </entry>
 <entry count="16">
 <token>Ecng.Common.FastCsvReader,ReadString</token>
@@ -2924,6 +3009,13 @@
 <token>Ecng.Common.StringHelper,CompareIgnoreCase</token>
 <token>Ecng.Common.ArrayHelper,Range</token>
 </entry>
+<entry count="23328">
+<token>Ecng.Common.Converter,GetPort</token>
+<token>Ecng.Common.Converter,GetHost</token>
+<token>Ecng.Common.Converter,GetPort</token>
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+</entry>
 <entry count="4">
 <token>Ecng.Common.FastCsvReader,ReadNullableDecimal</token>
 <token>Ecng.Common.FastCsvReader,ReadNullableDecimal</token>
@@ -2942,11 +3034,6 @@
 <token>Ecng.Common.FastCsvReader,ReadString</token>
 <token>Ecng.Common.FastCsvReader,ReadString</token>
 </entry>
-<entry count="4">
-<token>-&gt;</token>
-<token>i:StockSharp.Xaml.Charting.IChartElement,</token>
-<token>StockSharp.Xaml.Charting,</token>
-</entry>
 <entry count="6">
 <token>Ecng.Common.TimeHelper,EndOfDay</token>
 <token>Ecng.Common.Enumerator,GetValues</token>
@@ -2956,11 +3043,23 @@
 <token>Ecng.Common.MathHelper,Round</token>
 <token>Ecng.Common.Converter,DoInCulture</token>
 </entry>
+<entry count="16">
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.TimeHelper,ToDateTimeOffset</token>
+</entry>
 <entry count="4096">
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.Disposable,Dispose</token>
 <token>Ecng.Common.StringHelper,Put</token>
+</entry>
+<entry count="5184">
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+<token>Ecng.Common.Converter,GetHost</token>
+<token>Ecng.Common.Converter,GetPort</token>
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+<token>Ecng.Common.Converter,GetHost</token>
 </entry>
 <entry count="4">
 <token>Ecng.Common.FastCsvReader,ReadNullableEnum</token>
@@ -2985,12 +3084,6 @@
 <token>Ecng.Common.SyncObject,Pulse</token>
 <token>Ecng.Common.SyncObject,Wait</token>
 </entry>
-<entry count="32">
-<token>Ecng.Common.IdGenerator,GetNextId</token>
-<token>Ecng.Common.RandomGen,GetEnum</token>
-<token>Ecng.Common.RandomArray`1[[T</token>
-<token>-&gt;</token>
-</entry>
 <entry count="8">
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.FastCsvReader,ReadString</token>
@@ -3002,19 +3095,19 @@
 <token>Ecng.Common.Enumerator,GetValues</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 </entry>
-<entry count="64">
+<entry count="96000">
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.XmlHelper,WriteAttribute</token>
 <token>Ecng.Common.XmlHelper,WriteAttribute</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 </entry>
-<entry count="16">
+<entry count="32">
 <token>Ecng.Common.StringHelper,Split</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.StringHelper,Put</token>
 </entry>
-<entry count="8312">
+<entry count="5324">
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.Converter,To</token>
@@ -3024,27 +3117,17 @@
 <token>Ecng.Common.TimeHelper,Range</token>
 <token>Ecng.Common.TimeHelper,ApplyTimeZone</token>
 </entry>
-<entry count="112">
+<entry count="896">
 <token>Ecng.Common.StringHelper,CompareIgnoreCase</token>
 <token>Ecng.Common.StringHelper,Split</token>
 <token>Ecng.Common.StringHelper,Put</token>
 </entry>
-<entry count="20">
+<entry count="68">
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.XmlHelper,GetElementValue</token>
 <token>Ecng.Common.XmlHelper,GetAttributeValue</token>
 <token>Ecng.Common.XmlHelper,GetElementValue</token>
 <token>Ecng.Common.XmlHelper,GetElementValue</token>
-</entry>
-<entry count="32">
-<token>Ecng.Common.RandomGen,GetEnum</token>
-<token>Ecng.Common.RandomArray`1[[T</token>
-<token>-&gt;</token>
-<token>p:int]],Next</token>
-</entry>
-<entry count="4">
-<token>p:int]],new</token>
-<token>Ecng.Common.RandomArray`1[[T</token>
 </entry>
 <entry count="16">
 <token>Ecng.Common.FastCsvReader,ReadNullableEnum</token>
@@ -3055,6 +3138,10 @@
 <entry count="1">
 <token>Ecng.Common.AttributeHelper,GetAttribute</token>
 <token>Ecng.Common.Enumerator,Contains</token>
+</entry>
+<entry count="168">
+<token>Ecng.Common.RefPair,new</token>
+<token>Ecng.Common.RefPair,new</token>
 </entry>
 <entry count="12">
 <token>Ecng.Common.StringHelper,PutEx</token>
@@ -3068,11 +3155,7 @@
 <token>Ecng.Common.Disposable,Dispose</token>
 <token>Ecng.Common.StringHelper,Put</token>
 </entry>
-<entry count="2">
-<token>4.0.0.0],[TSecond</token>
-<token>-&gt;</token>
-</entry>
-<entry count="10472">
+<entry count="11160">
 <token>Ecng.Common.TimeHelper,ApplyTimeZone</token>
 <token>Ecng.Common.Converter,To</token>
 </entry>
@@ -3082,7 +3165,12 @@
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.TimeHelper,ApplyTimeZone</token>
 </entry>
-<entry count="48">
+<entry count="32">
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.TypeHelper,GetTypeName</token>
+</entry>
+<entry count="96">
 <token>Ecng.Common.StringHelper,Split</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.StringHelper,Split</token>
@@ -3096,11 +3184,17 @@
 <token>Ecng.Common.TypeHelper,DoDispose</token>
 <token>Ecng.Common.Disposable,DisposeManaged</token>
 </entry>
-<entry count="124">
+<entry count="511644">
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.TimeHelper,ApplyTimeZone</token>
 </entry>
-<entry count="98304">
+<entry count="23328">
+<token>Ecng.Common.Converter,GetPort</token>
+<token>Ecng.Common.Converter,GetHost</token>
+<token>Ecng.Common.Converter,GetPort</token>
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+</entry>
+<entry count="112000">
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.StringHelper,IsEmptyOrWhiteSpace</token>
 <token>Ecng.Common.StringHelper,ContainsIgnoreCase</token>
@@ -3114,14 +3208,7 @@
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.XmlHelper,GetElementValue</token>
 </entry>
-<entry count="8">
-<token>Ecng.Common.IdGenerator,GetNextId</token>
-<token>Ecng.Common.RandomArray`1[[T</token>
-<token>-&gt;</token>
-<token>p:int]],Next</token>
-<token>Ecng.Common.RandomGen,GetEnum</token>
-</entry>
-<entry count="176">
+<entry count="174960">
 <token>Ecng.Common.Converter,GetPort</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 </entry>
@@ -3135,7 +3222,7 @@
 <token>Ecng.Common.FastCsvReader,ReadNullableDecimal</token>
 <token>Ecng.Common.FastCsvReader,ReadNullableDecimal</token>
 </entry>
-<entry count="278">
+<entry count="542">
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.StringHelper,CompareIgnoreCase</token>
 </entry>
@@ -3148,11 +3235,11 @@
 <token>Ecng.Common.FastCsvReader,ReadNullableEnum</token>
 <token>Ecng.Common.FastCsvReader,ReadNullableEnum</token>
 </entry>
-<entry count="12">
+<entry count="146">
 <token>Ecng.Common.StringHelper,CompareIgnoreCase</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 </entry>
-<entry count="10360">
+<entry count="10444">
 <token>Ecng.Common.TimeHelper,ChangeKind</token>
 <token>Ecng.Common.TimeHelper,ChangeKind</token>
 <token>Ecng.Common.Converter,To</token>
@@ -3164,7 +3251,7 @@
 <token>Ecng.Common.FastCsvReader,ReadDecimal</token>
 <token>Ecng.Common.FastCsvReader,ReadEnum</token>
 </entry>
-<entry count="32">
+<entry count="5324">
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
@@ -3175,23 +3262,18 @@
 <token>Ecng.Common.FastCsvReader,ReadNullableDecimal</token>
 <token>Ecng.Common.FastCsvReader,ReadNullableBool</token>
 </entry>
-<entry count="12">
-<token>Ecng.Common.ICloneable`1[[T</token>
-<token>-&gt;</token>
-<token>i:StockSharp.Messages.IMessageChannel,</token>
-</entry>
 <entry count="16">
 <token>Ecng.Common.FastCsvReader,ReadNullableBool</token>
 <token>Ecng.Common.FastCsvReader,ReadBool</token>
 <token>Ecng.Common.FastCsvReader,ReadNullableDecimal</token>
 </entry>
-<entry count="688128">
+<entry count="784000">
 <token>Ecng.Common.StringHelper,ContainsIgnoreCase</token>
 <token>Ecng.Common.StringHelper,IsEmptyOrWhiteSpace</token>
 <token>Ecng.Common.StringHelper,ContainsIgnoreCase</token>
 <token>Ecng.Common.StringHelper,IsEmptyOrWhiteSpace</token>
 </entry>
-<entry count="36">
+<entry count="516">
 <token>Ecng.Common.StringHelper,Join</token>
 <token>Ecng.Common.DelegateHelper,SafeInvoke</token>
 </entry>
@@ -3199,14 +3281,16 @@
 <token>Ecng.Common.MathHelper,Max</token>
 <token>Ecng.Common.MathHelper,Min</token>
 </entry>
-<entry count="128">
+<entry count="512">
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.TimeHelper,ApplyTimeZone</token>
 </entry>
-<entry count="88">
-<token>Ecng.Common.RandomArray`1[[T</token>
-<token>-&gt;</token>
-<token>p:int]],Next</token>
+<entry count="16">
+<token>Ecng.Common.TypeHelper,GetTypeName</token>
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.TypeHelper,GetTypeName</token>
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.Converter,To</token>
 </entry>
 <entry count="4">
 <token>Ecng.Common.StringHelper,IsEmpty</token>
@@ -3239,11 +3323,7 @@
 <token>Ecng.Common.XmlHelper,GetAttributeValue</token>
 <token>Ecng.Common.Converter,To</token>
 </entry>
-<entry count="2">
-<token>i:System.Collections.Generic.IDictionary`2[[TKey</token>
-<token>-&gt;</token>
-</entry>
-<entry count="128">
+<entry count="512">
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.TimeHelper,ApplyTimeZone</token>
 <token>Ecng.Common.StringHelper,CompareIgnoreCase</token>
@@ -3258,18 +3338,16 @@
 <token>Ecng.Common.XmlHelper,GetAttributeValue</token>
 <token>Ecng.Common.Converter,To</token>
 </entry>
-<entry count="96">
+<entry count="5184">
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+<token>Ecng.Common.Converter,GetPort</token>
+<token>Ecng.Common.Converter,GetHost</token>
+</entry>
+<entry count="4240">
 <token>Ecng.Common.StringHelper,Put</token>
 <token>Ecng.Common.Converter,To</token>
 </entry>
 <entry count="4">
-<token>-&gt;</token>
-<token>p:int]],new</token>
-<token>Ecng.Common.RandomArray`1[[T</token>
-<token>-&gt;</token>
-<token>p:int]],new</token>
-</entry>
-<entry count="2">
 <token>Ecng.Common.CompareHelper,IsDefault</token>
 <token>Ecng.Common.CompareHelper,IsDefault</token>
 </entry>
@@ -3280,12 +3358,17 @@
 <token>Ecng.Common.SyncObject,Pulse</token>
 <token>Ecng.Common.SyncObject,Wait</token>
 </entry>
-<entry count="8">
+<entry count="56">
 <token>Ecng.Common.StringHelper,Put</token>
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.StringHelper,Put</token>
 </entry>
-<entry count="221184">
+<entry count="20736">
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+</entry>
+<entry count="247168">
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.XmlHelper,WriteAttribute</token>
@@ -3296,7 +3379,7 @@
 <token>Ecng.Common.FastCsvReader,NextLine</token>
 <token>Ecng.Common.Converter,DoInCulture</token>
 </entry>
-<entry count="144">
+<entry count="4800">
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.Converter,To</token>
@@ -3310,7 +3393,12 @@
 <token>Ecng.Common.FastCsvReader,ReadNullableDecimal</token>
 <token>Ecng.Common.FastCsvReader,ReadNullableDecimal</token>
 </entry>
-<entry count="48">
+<entry count="1680">
+<token>Ecng.Common.StringHelper,Put</token>
+<token>Ecng.Common.StringHelper,Put</token>
+<token>Ecng.Common.TimeHelper,Range</token>
+</entry>
+<entry count="160">
 <token>Ecng.Common.StringHelper,Put</token>
 <token>Ecng.Common.StringHelper,Join</token>
 </entry>
@@ -3327,21 +3415,29 @@
 <token>Ecng.Common.FastCsvReader,ReadString</token>
 <token>Ecng.Common.FastCsvReader,ReadString</token>
 </entry>
+<entry count="23328">
+<token>Ecng.Common.Converter,GetHost</token>
+<token>Ecng.Common.Converter,GetPort</token>
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+</entry>
 <entry count="16">
 <token>Ecng.Common.FastCsvReader,ReadBool</token>
 <token>Ecng.Common.FastCsvReader,ReadBool</token>
 <token>Ecng.Common.FastCsvReader,ReadNullableDecimal</token>
 </entry>
-<entry count="96">
+<entry count="192">
 <token>Ecng.Common.StringHelper,Split</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 </entry>
-<entry count="4">
-<token>i:StockSharp.Messages.IMessageChannel,</token>
-<token>Messages]],Clone</token>
-<token>Ecng.Common.StringHelper,Put</token>
+<entry count="511328">
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.TimeHelper,ApplyTimeZone</token>
+<token>Ecng.Common.StringHelper,IsEmpty</token>
 </entry>
-<entry count="300">
+<entry count="600">
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.XmlHelper,GetElementValue</token>
 </entry>
@@ -3350,11 +3446,6 @@
 <token>Ecng.Common.SyncObject,new</token>
 <token>Ecng.Common.RefTuple,Create</token>
 </entry>
-<entry count="4">
-<token>Messages]],Clone</token>
-<token>Ecng.Common.ICloneable`1[[T</token>
-<token>-&gt;</token>
-</entry>
 <entry count="8">
 <token>Ecng.Common.StringHelper,CompareIgnoreCase</token>
 <token>Ecng.Common.StringHelper,CompareIgnoreCase</token>
@@ -3362,15 +3453,20 @@
 <token>Ecng.Common.StringHelper,CompareIgnoreCase</token>
 <token>Ecng.Common.StringHelper,ContainsIgnoreCase</token>
 </entry>
-<entry count="112">
+<entry count="896">
 <token>Ecng.Common.StringHelper,CompareIgnoreCase</token>
 <token>Ecng.Common.StringHelper,Split</token>
 </entry>
-<entry count="4">
-<token>Ecng.Common.RandomArray`1[[T</token>
-<token>-&gt;</token>
-<token>p:int]],new</token>
-<token>Ecng.Common.RandomArray`1[[T</token>
+<entry count="5808">
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+</entry>
+<entry count="3920">
+<token>Ecng.Common.TypeHelper,CreateInstance</token>
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.Converter,To</token>
 </entry>
 <entry count="16">
 <token>Ecng.Common.FastCsvReader,ReadNullableLong</token>
@@ -3379,27 +3475,10 @@
 <token>Ecng.Common.FastCsvReader,ReadBool</token>
 <token>Ecng.Common.FastCsvReader,ReadNullableDecimal</token>
 </entry>
-<entry count="192">
-<token>Ecng.Common.StringHelper,IsEmpty</token>
-<token>Ecng.Common.StringHelper,IsEmpty</token>
-<token>Ecng.Common.MathHelper,Round</token>
-<token>Ecng.Common.MathHelper,Round</token>
-<token>Ecng.Common.MathHelper,Round</token>
-</entry>
-<entry count="10">
-<token>-&gt;</token>
-<token>p:int]],new</token>
-</entry>
 <entry count="4">
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.StringHelper,Join</token>
 <token>Ecng.Common.StringHelper,Join</token>
-</entry>
-<entry count="2">
-<token>-&gt;</token>
-<token>i:StockSharp.Xaml.Charting.IChartElement,</token>
-<token>StockSharp.Xaml.Charting,</token>
-<token>4.3.14.0],[TSecond</token>
 </entry>
 <entry count="8">
 <token>Ecng.Common.FastCsvReader,NextLine</token>
@@ -3410,41 +3489,23 @@
 <token>Ecng.Common.FastCsvReader,ReadString</token>
 <token>Ecng.Common.FastCsvReader,ReadDecimal</token>
 </entry>
-<entry count="2">
-<token>mscorlib,</token>
-<token>4.0.0.0],[TSecond</token>
-<token>-&gt;</token>
-<token>i:System.Collections.Generic.IDictionary`2[[TKey</token>
-</entry>
-<entry count="55488">
+<entry count="355968">
 <token>Ecng.Common.XmlHelper,WriteAttribute</token>
 <token>Ecng.Common.XmlHelper,WriteAttribute</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.XmlHelper,WriteAttribute</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 </entry>
-<entry count="128">
+<entry count="576">
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.TimeHelper,ToDateTime</token>
 <token>Ecng.Common.TimeHelper,ApplyTimeZone</token>
 <token>Ecng.Common.Converter,To</token>
 </entry>
-<entry count="1">
+<entry count="1738">
 <token>Ecng.Common.Disposable,Dispose</token>
 <token>Ecng.Common.Disposable,Dispose</token>
 <token>Ecng.Common.Disposable,Dispose</token>
-</entry>
-<entry count="32">
-<token>Ecng.Common.RandomGen,GetEnum</token>
-<token>Ecng.Common.RandomArray`1[[T</token>
-<token>-&gt;</token>
-</entry>
-<entry count="4">
-<token>Ecng.Common.ICloneable`1[[T</token>
-<token>-&gt;</token>
-<token>i:StockSharp.Messages.IMessageChannel,</token>
-<token>Messages]],Clone</token>
-<token>Ecng.Common.ICloneable`1[[T</token>
 </entry>
 <entry count="1">
 <token>Ecng.Common.ThreadingHelper,Thread</token>
@@ -3457,19 +3518,14 @@
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.DelegateHelper,SafeInvoke</token>
 </entry>
-<entry count="128">
+<entry count="576">
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.TimeHelper,ToDateTime</token>
 <token>Ecng.Common.TimeHelper,ApplyTimeZone</token>
 </entry>
-<entry count="168">
+<entry count="4900">
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.TypeHelper,CreateInstance</token>
-<token>Ecng.Common.TypeHelper,DoIf</token>
-</entry>
-<entry count="2">
-<token>4.0.0.0]],new</token>
-<token>Ecng.Common.TypeHelper,DoIf</token>
 <token>Ecng.Common.TypeHelper,DoIf</token>
 </entry>
 <entry count="4">
@@ -3478,20 +3534,18 @@
 <token>Ecng.Common.ThreadingHelper,Thread</token>
 <token>Ecng.Common.ThreadingHelper,Name</token>
 </entry>
-<entry count="2">
-<token>s:System.DateTimeOffset,</token>
-<token>mscorlib,</token>
-<token>4.0.0.0],[TSecond</token>
-<token>-&gt;</token>
-<token>i:System.Collections.Generic.IDictionary`2[[TKey</token>
-</entry>
 <entry count="16">
 <token>Ecng.Common.FastCsvReader,ReadString</token>
 <token>Ecng.Common.FastCsvReader,ReadNullableLong</token>
 </entry>
-<entry count="98304">
+<entry count="112000">
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.StringHelper,IsEmptyOrWhiteSpace</token>
+</entry>
+<entry count="9216">
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+<token>Ecng.Common.Converter,GetHost</token>
+<token>Ecng.Common.Converter,GetHost</token>
 </entry>
 <entry count="384">
 <token>Ecng.Common.Converter,To</token>
@@ -3515,7 +3569,20 @@
 <token>Ecng.Common.XmlHelper,GetElementValue</token>
 <token>Ecng.Common.XmlHelper,GetElementValue</token>
 </entry>
-<entry count="196">
+<entry count="5184">
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+<token>Ecng.Common.Converter,GetPort</token>
+<token>Ecng.Common.Converter,GetHost</token>
+<token>Ecng.Common.Converter,GetPort</token>
+</entry>
+<entry count="5808">
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+</entry>
+<entry count="772">
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.CompareHelper,IsDefault</token>
@@ -3525,12 +3592,12 @@
 <token>Ecng.Common.StringHelper,TrimEnd</token>
 <token>Ecng.Common.SyncObject,Pulse</token>
 </entry>
-<entry count="1008">
+<entry count="29400">
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.TypeHelper,CreateInstance</token>
 </entry>
-<entry count="64">
+<entry count="512">
 <token>Ecng.Common.TypeHelper,CreateInstance</token>
 <token>Ecng.Common.TimeHelper,ApplyTimeZone</token>
 </entry>
@@ -3540,6 +3607,10 @@
 <token>Ecng.Common.TimeHelper,ApplyTimeZone</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.StringHelper,Split</token>
+</entry>
+<entry count="4">
+<token>Ecng.Common.ICloneable,Clone</token>
+<token>Ecng.Common.StringHelper,Put</token>
 </entry>
 <entry count="8">
 <token>Ecng.Common.StringHelper,Split</token>
@@ -3551,6 +3622,10 @@
 <token>Ecng.Common.StringHelper,Put</token>
 <token>Ecng.Common.StringHelper,CompareIgnoreCase</token>
 </entry>
+<entry count="32">
+<token>Ecng.Common.RandomArray,Next</token>
+<token>Ecng.Common.RandomGen,GetInt</token>
+</entry>
 <entry count="4">
 <token>Ecng.Common.FastCsvReader,ReadEnum</token>
 <token>Ecng.Common.FastCsvReader,ReadNullableEnum</token>
@@ -3558,12 +3633,12 @@
 <token>Ecng.Common.FastCsvReader,ReadNullableDecimal</token>
 <token>Ecng.Common.FastCsvReader,ReadString</token>
 </entry>
-<entry count="640">
+<entry count="2880">
 <token>Ecng.Common.StringHelper,Put</token>
 <token>Ecng.Common.TimeHelper,ApplyTimeZone</token>
 <token>Ecng.Common.TimeHelper,ApplyTimeZone</token>
 </entry>
-<entry count="128">
+<entry count="576">
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.Converter,To</token>
@@ -3589,7 +3664,20 @@
 <token>Ecng.Common.FastCsvReader,ReadNullableDecimal</token>
 <token>Ecng.Common.FastCsvReader,ReadNullableDecimal</token>
 </entry>
-<entry count="32">
+<entry count="21600">
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.TypeHelper,CreateInstance</token>
+</entry>
+<entry count="568">
+<token>Ecng.Common.StringHelper,Put</token>
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+<token>Ecng.Common.StringHelper,Put</token>
+</entry>
+<entry count="80">
 <token>Ecng.Common.XmlHelper,GetElementValue</token>
 <token>Ecng.Common.XmlHelper,GetAttributeValue</token>
 <token>Ecng.Common.XmlHelper,GetElementValue</token>
@@ -3600,7 +3688,7 @@
 <token>Ecng.Common.FastCsvReader,ReadNullableDecimal</token>
 <token>Ecng.Common.FastCsvReader,ReadNullableDecimal</token>
 </entry>
-<entry count="128">
+<entry count="576">
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.TimeHelper,ToDateTime</token>
 <token>Ecng.Common.TimeHelper,ApplyTimeZone</token>
@@ -3629,14 +3717,14 @@
 <token>Ecng.Common.FastCsvReader,ReadNullableLong</token>
 <token>Ecng.Common.Converter,To</token>
 </entry>
-<entry count="128">
+<entry count="576">
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.TimeHelper,ToDateTime</token>
 </entry>
-<entry count="618">
+<entry count="28462">
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.Converter,To</token>
 </entry>
@@ -3653,11 +3741,6 @@
 <token>Ecng.Common.FastCsvReader,ReadNullableDecimal</token>
 <token>Ecng.Common.FastCsvReader,ReadEnum</token>
 </entry>
-<entry count="4">
-<token>p:int]],new</token>
-<token>Ecng.Common.RandomArray`1[[T</token>
-<token>-&gt;</token>
-</entry>
 <entry count="8">
 <token>Ecng.Common.StringHelper,Split</token>
 <token>Ecng.Common.DelegateHelper,SafeInvoke</token>
@@ -3665,37 +3748,20 @@
 <token>Ecng.Common.StringHelper,Put</token>
 <token>Ecng.Common.ThreadingHelper,Name</token>
 </entry>
-<entry count="12">
-<token>-&gt;</token>
-<token>i:StockSharp.Messages.IMessageChannel,</token>
-<token>Messages]],Clone</token>
+<entry count="1728">
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+<token>Ecng.Common.Converter,To</token>
 </entry>
-<entry count="24">
-<token>Ecng.Common.RandomArray`1[[T</token>
-<token>-&gt;</token>
-<token>p:int]],Next</token>
-<token>Ecng.Common.RandomArray`1[[T</token>
-</entry>
-<entry count="2">
-<token>StockSharp.Xaml.Charting,</token>
-<token>4.3.14.0],[TSecond</token>
-<token>-&gt;</token>
-<token>p:int]],new</token>
-<token>Ecng.Common.ResettableTimer,Activate</token>
+<entry count="511328">
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.TimeHelper,ApplyTimeZone</token>
+<token>Ecng.Common.StringHelper,IsEmpty</token>
 </entry>
 <entry count="8">
 <token>Ecng.Common.FastCsvReader,ReadDecimal</token>
 <token>Ecng.Common.FastCsvReader,ReadEnum</token>
-</entry>
-<entry count="168">
-<token>p:decimal]],new</token>
-<token>Ecng.Common.RefPair`2[[TFirst</token>
-</entry>
-<entry count="8">
-<token>Ecng.Common.IdGenerator,GetNextId</token>
-<token>Ecng.Common.RandomArray`1[[T</token>
-<token>-&gt;</token>
-<token>p:int]],Next</token>
 </entry>
 <entry count="32">
 <token>Ecng.Common.TimeHelper,ToDateTime</token>
@@ -3703,27 +3769,28 @@
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 </entry>
 <entry count="4">
-<token>-&gt;</token>
-<token>p:int]],new</token>
-<token>Ecng.Common.RandomArray`1[[T</token>
-<token>-&gt;</token>
-</entry>
-<entry count="4">
 <token>Ecng.Common.StringHelper,CompareIgnoreCase</token>
 <token>Ecng.Common.StringHelper,CompareIgnoreCase</token>
 <token>Ecng.Common.StringHelper,ContainsIgnoreCase</token>
 <token>Ecng.Common.StringHelper,CompareIgnoreCase</token>
+</entry>
+<entry count="4096">
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.Disposable,Dispose</token>
+<token>Ecng.Common.StringHelper,Put</token>
+<token>Ecng.Common.Converter,To</token>
 </entry>
 <entry count="52">
 <token>Ecng.Common.CompareHelper,IsDefault</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 </entry>
-<entry count="8">
+<entry count="65536">
 <token>Ecng.Common.StringHelper,ContainsIgnoreCase</token>
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.Converter,To</token>
 </entry>
-<entry count="640">
+<entry count="2880">
 <token>Ecng.Common.StringHelper,Put</token>
 <token>Ecng.Common.TimeHelper,ApplyTimeZone</token>
 </entry>
@@ -3744,26 +3811,26 @@
 <token>Ecng.Common.XmlHelper,GetAttributeValue</token>
 <token>Ecng.Common.XmlHelper,GetAttributeValue</token>
 </entry>
+<entry count="5120">
+<token>Ecng.Common.TimeHelper,ChangeKind</token>
+<token>Ecng.Common.TimeHelper,ApplyTimeZone</token>
+<token>Ecng.Common.TimeHelper,ChangeKind</token>
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.Converter,To</token>
+</entry>
 <entry count="32">
 <token>Ecng.Common.TypeHelper,Throw</token>
 <token>Ecng.Common.StringHelper,TrimEnd</token>
 <token>Ecng.Common.SyncObject,Pulse</token>
 <token>Ecng.Common.SyncObject,Wait</token>
 </entry>
-<entry count="4">
-<token>Ecng.Common.RandomArray`1[[T</token>
-<token>-&gt;</token>
-<token>p:int]],new</token>
-<token>Ecng.Common.RandomArray`1[[T</token>
-<token>-&gt;</token>
-</entry>
-<entry count="786432">
+<entry count="896000">
 <token>Ecng.Common.StringHelper,IsEmptyOrWhiteSpace</token>
 <token>Ecng.Common.StringHelper,ContainsIgnoreCase</token>
 <token>Ecng.Common.StringHelper,IsEmptyOrWhiteSpace</token>
 <token>Ecng.Common.StringHelper,ContainsIgnoreCase</token>
 </entry>
-<entry count="148">
+<entry count="208">
 <token>Ecng.Common.XmlHelper,GetElementValue</token>
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.XmlHelper,GetElementValue</token>
@@ -3786,7 +3853,7 @@
 <token>Ecng.Common.Enumerator,GetValues</token>
 <token>Ecng.Common.CompareHelper,IsDefault</token>
 </entry>
-<entry count="40">
+<entry count="100">
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.XmlHelper,GetElementValue</token>
 <token>Ecng.Common.Converter,To</token>
@@ -3804,10 +3871,6 @@
 <token>Ecng.Common.XmlHelper,GetElementValue</token>
 <token>Ecng.Common.XmlHelper,GetElementValue</token>
 <token>Ecng.Common.XmlHelper,GetElementValue</token>
-</entry>
-<entry count="192">
-<token>Ecng.Common.StringHelper,IsEmpty</token>
-<token>Ecng.Common.MathHelper,Round</token>
 </entry>
 <entry count="4">
 <token>Ecng.Common.Converter,To</token>
@@ -3826,7 +3889,7 @@
 <token>Ecng.Common.FastCsvReader,ReadString</token>
 <token>Ecng.Common.FastCsvReader,ReadNullableBool</token>
 </entry>
-<entry count="160">
+<entry count="784">
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.ArrayHelper,IndexOf</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
@@ -3838,11 +3901,6 @@
 <entry count="610">
 <token>Ecng.Common.ThreadingHelper,Name</token>
 <token>Ecng.Common.ThreadingHelper,Launch</token>
-</entry>
-<entry count="2">
-<token>s:System.DateTimeOffset,</token>
-<token>mscorlib,</token>
-<token>4.0.0.0],[TSecond</token>
 </entry>
 <entry count="8">
 <token>Ecng.Common.FastCsvReader,ReadString</token>
@@ -3880,6 +3938,13 @@
 <token>Ecng.Common.StringHelper,Put</token>
 <token>Ecng.Common.ThreadingHelper,Name</token>
 </entry>
+<entry count="4096">
+<token>Ecng.Common.TimeHelper,ChangeKind</token>
+<token>Ecng.Common.TimeHelper,ApplyTimeZone</token>
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.Disposable,Dispose</token>
+</entry>
 <entry count="16">
 <token>Ecng.Common.FastCsvReader,ReadBool</token>
 <token>Ecng.Common.FastCsvReader,ReadNullableDecimal</token>
@@ -3908,7 +3973,7 @@
 <token>Ecng.Common.SyncObject,Wait</token>
 <token>Ecng.Common.TypeHelper,Throw</token>
 </entry>
-<entry count="10360">
+<entry count="11468">
 <token>Ecng.Common.TimeHelper,ChangeKind</token>
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.Converter,To</token>
@@ -3932,7 +3997,7 @@
 <token>Ecng.Common.XmlHelper,GetElementValue</token>
 <token>Ecng.Common.XmlHelper,GetAttributeValue</token>
 </entry>
-<entry count="16">
+<entry count="64">
 <token>Ecng.Common.XmlHelper,GetElementValue</token>
 <token>Ecng.Common.XmlHelper,GetElementValue</token>
 <token>Ecng.Common.Converter,To</token>
@@ -3945,19 +4010,9 @@
 <token>Ecng.Common.FastCsvReader,ReadNullableDateTime</token>
 <token>Ecng.Common.FastCsvReader,ReadString</token>
 </entry>
-<entry count="24">
-<token>p:int]],Next</token>
-<token>Ecng.Common.RandomArray`1[[T</token>
-<token>-&gt;</token>
-<token>p:int]],Next</token>
-</entry>
 <entry count="16">
 <token>Ecng.Common.FastCsvReader,ReadBool</token>
 <token>Ecng.Common.FastCsvReader,ReadBool</token>
-</entry>
-<entry count="8">
-<token>p:int]],Next</token>
-<token>Ecng.Common.RandomGen,GetEnum</token>
 </entry>
 <entry count="48">
 <token>Ecng.Common.StringHelper,CompareIgnoreCase</token>
@@ -3971,18 +4026,11 @@
 <token>Ecng.Common.FastCsvReader,ReadNullableDecimal</token>
 <token>Ecng.Common.FastCsvReader,ReadNullableDecimal</token>
 </entry>
-<entry count="13824">
-<token>Ecng.Common.StringHelper,IsEmpty</token>
-<token>Ecng.Common.StringHelper,IsEmpty</token>
-<token>Ecng.Common.StringHelper,Put</token>
-<token>Ecng.Common.StringHelper,Put</token>
-<token>Ecng.Common.MathHelper,Round</token>
-</entry>
-<entry count="15">
+<entry count="225">
 <token>Ecng.Common.MathHelper,Max</token>
 <token>Ecng.Common.MathHelper,Max</token>
 </entry>
-<entry count="124480">
+<entry count="217376">
 <token>Ecng.Common.XmlHelper,WriteAttribute</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.XmlHelper,WriteAttribute</token>
@@ -3996,7 +4044,7 @@
 <token>Ecng.Common.SyncObject,Pulse</token>
 <token>Ecng.Common.SyncObject,Wait</token>
 </entry>
-<entry count="128">
+<entry count="576">
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.TimeHelper,ToDateTime</token>
@@ -4006,10 +4054,6 @@
 <token>Ecng.Common.FastCsvReader,ReadString</token>
 <token>Ecng.Common.FastCsvReader,ReadString</token>
 <token>Ecng.Common.FastCsvReader,ReadNullableLong</token>
-</entry>
-<entry count="2">
-<token>StockSharp.Xaml.Charting,</token>
-<token>4.3.14.0],[TSecond</token>
 </entry>
 <entry count="12">
 <token>Ecng.Common.SyncObject,new</token>
@@ -4021,6 +4065,13 @@
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.ThreadingHelper,Thread</token>
 <token>Ecng.Common.ThreadingHelper,Name</token>
+</entry>
+<entry count="96">
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+<token>Ecng.Common.Converter,To</token>
 </entry>
 <entry count="32">
 <token>Ecng.Common.SyncObject,new</token>
@@ -4035,16 +4086,16 @@
 <token>Ecng.Common.FastCsvReader,ReadNullableLong</token>
 <token>Ecng.Common.FastCsvReader,ReadNullableDecimal</token>
 </entry>
-<entry count="2">
-<token>StockSharp.Xaml.Charting,</token>
-<token>4.3.14.0],[TValue</token>
-<token>-&gt;</token>
-<token>p:object]],</token>
-</entry>
-<entry count="98304">
+<entry count="112000">
 <token>Ecng.Common.StringHelper,ContainsIgnoreCase</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.StringHelper,IsEmptyOrWhiteSpace</token>
+</entry>
+<entry count="784">
+<token>Ecng.Common.TypeHelper,DoIf</token>
+<token>Ecng.Common.TypeHelper,DoIf</token>
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.Converter,To</token>
 </entry>
 <entry count="16">
 <token>Ecng.Common.DelegateHelper,SafeInvoke</token>
@@ -4065,6 +4116,11 @@
 <token>Ecng.Common.TimeHelper,Range</token>
 <token>Ecng.Common.StringHelper,Put</token>
 </entry>
+<entry count="164">
+<token>Ecng.Common.RefPair,new</token>
+<token>Ecng.Common.RefPair,new</token>
+<token>Ecng.Common.RefPair,new</token>
+</entry>
 <entry count="4">
 <token>Ecng.Common.MathHelper,Max</token>
 <token>Ecng.Common.MathHelper,Min</token>
@@ -4081,48 +4137,61 @@
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.DisposableHelper,MakeDisposable</token>
 </entry>
-<entry count="108">
+<entry count="288">
 <token>Ecng.Common.XmlHelper,GetElementValue</token>
 <token>Ecng.Common.XmlHelper,GetElementValue</token>
 <token>Ecng.Common.XmlHelper,GetElementValue</token>
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.XmlHelper,GetElementValue</token>
 </entry>
-<entry count="168">
+<entry count="4900">
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.TypeHelper,CreateInstance</token>
 <token>Ecng.Common.TypeHelper,DoIf</token>
 <token>Ecng.Common.TypeHelper,DoIf</token>
 <token>Ecng.Common.TypeHelper,DoIf</token>
 </entry>
-<entry count="2">
-<token>-&gt;</token>
-<token>i:StockSharp.Xaml.Charting.IChartElement,</token>
-<token>StockSharp.Xaml.Charting,</token>
-<token>4.3.14.0],[TSecond</token>
-<token>-&gt;</token>
+<entry count="484">
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+<token>Ecng.Common.Converter,To</token>
 </entry>
 <entry count="8">
 <token>Ecng.Common.TimeHelper,ApplyTimeZone</token>
 <token>Ecng.Common.TimeHelper,EndOfDay</token>
 </entry>
-<entry count="20648">
+<entry count="23328">
+<token>Ecng.Common.Converter,GetHost</token>
+<token>Ecng.Common.Converter,GetHost</token>
+<token>Ecng.Common.Converter,GetPort</token>
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+<token>Ecng.Common.Converter,GetPort</token>
+</entry>
+<entry count="15628">
 <token>Ecng.Common.TimeHelper,ChangeKind</token>
 <token>Ecng.Common.TimeHelper,ChangeKind</token>
 </entry>
-<entry count="110976">
+<entry count="884736">
 <token>Ecng.Common.XmlHelper,WriteAttribute</token>
 <token>Ecng.Common.XmlHelper,WriteAttribute</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 </entry>
-<entry count="98304">
+<entry count="112000">
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.StringHelper,ContainsIgnoreCase</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.StringHelper,IsEmptyOrWhiteSpace</token>
 <token>Ecng.Common.StringHelper,ContainsIgnoreCase</token>
 </entry>
-<entry count="116">
+<entry count="24">
+<token>Ecng.Common.StringHelper,Put</token>
+<token>Ecng.Common.ThreadingHelper,Thread</token>
+<token>Ecng.Common.ThreadingHelper,Launch</token>
+<token>Ecng.Common.StringHelper,Put</token>
+</entry>
+<entry count="308">
 <token>Ecng.Common.XmlHelper,GetElementValue</token>
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.XmlHelper,GetElementValue</token>
@@ -4135,6 +4204,13 @@
 <token>Ecng.Common.XmlHelper,GetElementValue</token>
 <token>Ecng.Common.XmlHelper,GetAttributeValue</token>
 </entry>
+<entry count="3072">
+<token>Ecng.Common.TimeHelper,ApplyTimeZone</token>
+<token>Ecng.Common.TimeHelper,ChangeKind</token>
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.Converter,To</token>
+</entry>
 <entry count="16">
 <token>Ecng.Common.FastCsvReader,ReadString</token>
 <token>Ecng.Common.FastCsvReader,ReadNullableBool</token>
@@ -4145,13 +4221,6 @@
 <entry count="8">
 <token>Ecng.Common.SyncObject,Pulse</token>
 <token>Ecng.Common.SyncObject,Pulse</token>
-</entry>
-<entry count="2">
-<token>-&gt;</token>
-<token>p:object]],</token>
-<token>mscorlib,</token>
-<token>4.0.0.0]],new</token>
-<token>Ecng.Common.TypeHelper,DoIf</token>
 </entry>
 <entry count="8">
 <token>Ecng.Common.FastCsvReader,ReadNullableDateTime</token>
@@ -4171,7 +4240,7 @@
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.Enumerator,GetValues</token>
 </entry>
-<entry count="25907">
+<entry count="45863">
 <token>Ecng.Common.StringHelper,Put</token>
 <token>Ecng.Common.StringHelper,Put</token>
 </entry>
@@ -4185,7 +4254,7 @@
 <token>Ecng.Common.StringHelper,Put</token>
 <token>Ecng.Common.TimeHelper,Convert</token>
 </entry>
-<entry count="32">
+<entry count="37440">
 <token>Ecng.Common.Converter,GetHost</token>
 <token>Ecng.Common.Converter,GetPort</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
@@ -4198,15 +4267,16 @@
 <token>Ecng.Common.TimeHelper,ApplyTimeZone</token>
 <token>Ecng.Common.TimeHelper,ApplyTimeZone</token>
 </entry>
-<entry count="2">
-<token>-&gt;</token>
-<token>s:System.DateTimeOffset,</token>
-<token>mscorlib,</token>
-</entry>
 <entry count="4">
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.StringHelper,Join</token>
 <token>Ecng.Common.StringHelper,Put</token>
+</entry>
+<entry count="3920">
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.TypeHelper,CreateInstance</token>
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.Converter,To</token>
 </entry>
 <entry count="16">
 <token>Ecng.Common.FastCsvReader,ReadEnum</token>
@@ -4215,20 +4285,9 @@
 <token>Ecng.Common.FastCsvReader,ReadNullableEnum</token>
 <token>Ecng.Common.FastCsvReader,ReadNullableEnum</token>
 </entry>
-<entry count="4">
-<token>Messages]],Clone</token>
-<token>Ecng.Common.StringHelper,Put</token>
-</entry>
 <entry count="32">
 <token>Ecng.Common.ThreadingHelper,Timer</token>
 <token>Ecng.Common.ThreadingHelper,Interval</token>
-</entry>
-<entry count="2">
-<token>-&gt;</token>
-<token>i:StockSharp.Xaml.Charting.IChartElement,</token>
-<token>StockSharp.Xaml.Charting,</token>
-<token>4.3.14.0],[TValue</token>
-<token>-&gt;</token>
 </entry>
 <entry count="16">
 <token>Ecng.Common.FastCsvReader,ReadNullableDecimal</token>
@@ -4237,67 +4296,61 @@
 <token>Ecng.Common.FastCsvReader,ReadString</token>
 <token>Ecng.Common.FastCsvReader,ReadString</token>
 </entry>
-<entry count="786432">
+<entry count="896000">
 <token>Ecng.Common.StringHelper,IsEmptyOrWhiteSpace</token>
 <token>Ecng.Common.StringHelper,ContainsIgnoreCase</token>
 <token>Ecng.Common.StringHelper,IsEmptyOrWhiteSpace</token>
+</entry>
+<entry count="4096">
+<token>Ecng.Common.TimeHelper,ApplyTimeZone</token>
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.Disposable,Dispose</token>
 </entry>
 <entry count="20">
 <token>Ecng.Common.FastCsvReader,ReadLong</token>
 <token>Ecng.Common.FastCsvReader,ReadLong</token>
 </entry>
-<entry count="2">
-<token>4.0.0.0],[TSecond</token>
-<token>-&gt;</token>
-<token>i:System.Collections.Generic.IDictionary`2[[TKey</token>
-<token>-&gt;</token>
-<token>i:StockSharp.Xaml.Charting.IChartElement,</token>
-</entry>
-<entry count="128">
+<entry count="112000">
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.XmlHelper,WriteAttribute</token>
 <token>Ecng.Common.XmlHelper,WriteAttribute</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.XmlHelper,WriteAttribute</token>
 </entry>
-<entry count="4">
-<token>Messages]],Clone</token>
-<token>Ecng.Common.ICloneable`1[[T</token>
-<token>-&gt;</token>
-<token>i:StockSharp.Messages.IMessageChannel,</token>
-<token>Messages]],Clone</token>
+<entry count="12">
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.TypeHelper,GetTypeName</token>
+<token>Ecng.Common.TypeHelper,GetTypeName</token>
+<token>Ecng.Common.Converter,To</token>
 </entry>
-<entry count="4216">
+<entry count="5324">
 <token>Ecng.Common.TimeHelper,ChangeKind</token>
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.Disposable,Dispose</token>
 </entry>
-<entry count="508468">
+<entry count="5874984">
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 </entry>
-<entry count="2">
-<token>Ecng.Common.ResettableTimer,Cancel</token>
-<token>Ecng.Common.RefPair`2[[TFirst</token>
+<entry count="9216">
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+<token>Ecng.Common.Converter,GetHost</token>
+<token>Ecng.Common.Converter,GetHost</token>
+<token>Ecng.Common.Converter,GetPort</token>
+<token>Ecng.Common.StringHelper,IsEmpty</token>
 </entry>
-<entry count="2">
-<token>mscorlib,</token>
-<token>4.0.0.0],[TSecond</token>
-<token>-&gt;</token>
-<token>i:System.Collections.Generic.IDictionary`2[[TKey</token>
-<token>-&gt;</token>
-</entry>
-<entry count="64">
+<entry count="1888">
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.StringHelper,Put</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 </entry>
-<entry count="16">
+<entry count="48">
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.TimeHelper,ToDateTimeOffset</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
@@ -4321,11 +4374,6 @@
 <token>Ecng.Common.FastCsvReader,ReadNullableEnum</token>
 <token>Ecng.Common.FastCsvReader,ReadNullableDecimal</token>
 </entry>
-<entry count="2">
-<token>p:object]],</token>
-<token>mscorlib,</token>
-<token>4.0.0.0]],new</token>
-</entry>
 <entry count="4">
 <token>Ecng.Common.FastCsvReader,ReadDecimal</token>
 <token>Ecng.Common.FastCsvReader,ReadDecimal</token>
@@ -4340,6 +4388,12 @@
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.FastCsvReader,ReadNullableDateTime</token>
 </entry>
+<entry count="23328">
+<token>Ecng.Common.Converter,GetHost</token>
+<token>Ecng.Common.Converter,GetHost</token>
+<token>Ecng.Common.Converter,GetPort</token>
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+</entry>
 <entry count="16">
 <token>Ecng.Common.FastCsvReader,ReadNullableDecimal</token>
 <token>Ecng.Common.FastCsvReader,ReadNullableDecimal</token>
@@ -4347,9 +4401,9 @@
 <token>Ecng.Common.FastCsvReader,ReadNullableEnum</token>
 </entry>
 <entry count="2">
-<token>-&gt;</token>
-<token>p:object]],</token>
-<token>mscorlib,</token>
+<token>Ecng.Common.ResettableTimer,Cancel</token>
+<token>Ecng.Common.RefPair,new</token>
+<token>Ecng.Common.ResettableTimer,Activate</token>
 </entry>
 <entry count="16">
 <token>Ecng.Common.FastCsvReader,ReadNullableLong</token>
@@ -4357,10 +4411,16 @@
 <token>Ecng.Common.FastCsvReader,ReadString</token>
 <token>Ecng.Common.FastCsvReader,ReadString</token>
 </entry>
-<entry count="192">
+<entry count="768">
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.StringHelper,Put</token>
 <token>Ecng.Common.CompareHelper,IsDefault</token>
+</entry>
+<entry count="1152">
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.StringHelper,IsEmpty</token>
 </entry>
 <entry count="16">
 <token>Ecng.Common.Converter,To</token>
@@ -4369,12 +4429,19 @@
 <token>Ecng.Common.Enumerator,GetValues</token>
 <token>Ecng.Common.CompareHelper,IsDefault</token>
 </entry>
-<entry count="96768">
+<entry count="42592">
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.XmlHelper,WriteAttribute</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.XmlHelper,WriteAttribute</token>
+</entry>
+<entry count="2048">
+<token>Ecng.Common.TimeHelper,ChangeKind</token>
+<token>Ecng.Common.TimeHelper,ChangeKind</token>
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.Disposable,Dispose</token>
 </entry>
 <entry count="4">
 <token>Ecng.Common.FastCsvReader,ReadNullableEnum</token>
@@ -4411,25 +4478,28 @@
 <token>Ecng.Common.ThreadingHelper,Thread</token>
 <token>Ecng.Common.ThreadingHelper,Name</token>
 </entry>
+<entry count="224">
+<token>Ecng.Common.StringHelper,Put</token>
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+<token>Ecng.Common.StringHelper,Put</token>
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+</entry>
+<entry count="500">
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+<token>Ecng.Common.StringHelper,Put</token>
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+<token>Ecng.Common.StringHelper,Put</token>
+</entry>
 <entry count="16">
 <token>Ecng.Common.NullableHelper,IsNull</token>
 <token>Ecng.Common.TypeHelper,Make</token>
-</entry>
-<entry count="16">
-<token>Ecng.Common.StringHelper,IsEmpty</token>
-<token>Ecng.Common.StringHelper,IsEmpty</token>
-<token>Ecng.Common.StringHelper,Put</token>
-<token>Ecng.Common.StringHelper,IsEmpty</token>
-<token>Ecng.Common.StringHelper,Put</token>
 </entry>
 <entry count="12">
 <token>Ecng.Common.TimeHelper,ToLocalTime</token>
 <token>Ecng.Common.TimeHelper,StartOfWeek</token>
 <token>Ecng.Common.TimeHelper,EndOfDay</token>
-</entry>
-<entry count="4">
-<token>Messages]],Clone</token>
-<token>Ecng.Common.ICloneable`1[[T</token>
 </entry>
 <entry count="36">
 <token>Ecng.Common.Converter,DoInCulture</token>
@@ -4442,11 +4512,11 @@
 <token>Ecng.Common.XmlHelper,GetElementValue</token>
 <token>Ecng.Common.Converter,To</token>
 </entry>
-<entry count="2">
-<token>Ecng.Common.RefPair`2[[TFirst</token>
-<token>-&gt;</token>
-<token>i:StockSharp.Xaml.Charting.IChartElement,</token>
-<token>StockSharp.Xaml.Charting,</token>
+<entry count="32">
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.TypeHelper,GetTypeName</token>
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.TypeHelper,GetTypeName</token>
 </entry>
 <entry count="16">
 <token>Ecng.Common.CloneHelper,CloneNullable</token>
@@ -4456,7 +4526,7 @@
 <token>Ecng.Common.FastCsvReader,ReadLong</token>
 <token>Ecng.Common.FastCsvReader,ReadDecimal</token>
 </entry>
-<entry count="688128">
+<entry count="784000">
 <token>Ecng.Common.StringHelper,IsEmptyOrWhiteSpace</token>
 <token>Ecng.Common.StringHelper,ContainsIgnoreCase</token>
 <token>Ecng.Common.StringHelper,IsEmptyOrWhiteSpace</token>
@@ -4476,12 +4546,6 @@
 <token>Ecng.Common.XmlHelper,GetAttributeValue</token>
 <token>Ecng.Common.Converter,To</token>
 </entry>
-<entry count="192">
-<token>Ecng.Common.MathHelper,Round</token>
-<token>Ecng.Common.MathHelper,Round</token>
-<token>Ecng.Common.MathHelper,Round</token>
-<token>Ecng.Common.MathHelper,Round</token>
-</entry>
 <entry count="96">
 <token>Ecng.Common.TypeHelper,CreateInstance</token>
 <token>Ecng.Common.StringHelper,Put</token>
@@ -4494,6 +4558,13 @@
 <entry count="100">
 <token>Ecng.Common.FastCsvReader,ReadNullableDecimal</token>
 <token>Ecng.Common.FastCsvReader,ReadNullableDecimal</token>
+</entry>
+<entry count="18144">
+<token>Ecng.Common.Converter,GetHost</token>
+<token>Ecng.Common.Converter,GetPort</token>
+<token>Ecng.Common.Converter,GetHost</token>
+<token>Ecng.Common.Converter,GetPort</token>
+<token>Ecng.Common.StringHelper,IsEmpty</token>
 </entry>
 <entry count="10">
 <token>Ecng.Common.StringHelper,Put</token>
@@ -4512,25 +4583,25 @@
 <token>Ecng.Common.FastCsvReader,ReadDecimal</token>
 <token>Ecng.Common.FastCsvReader,ReadNullableDecimal</token>
 </entry>
-<entry count="98308">
+<entry count="1056">
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+<token>Ecng.Common.Converter,To</token>
+</entry>
+<entry count="112004">
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.StringHelper,ContainsIgnoreCase</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 </entry>
-<entry count="221184">
+<entry count="170368">
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.XmlHelper,WriteAttribute</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 </entry>
-<entry count="4">
-<token>-&gt;</token>
-<token>i:StockSharp.Messages.IMessageChannel,</token>
-<token>Messages]],Clone</token>
-<token>Ecng.Common.StringHelper,Put</token>
-</entry>
-<entry count="16">
+<entry count="256">
 <token>Ecng.Common.StringHelper,Join</token>
 <token>Ecng.Common.DelegateHelper,SafeInvoke</token>
 <token>Ecng.Common.Converter,To</token>
@@ -4593,7 +4664,14 @@
 <token>Ecng.Common.StringHelper,CompareIgnoreCase</token>
 <token>Ecng.Common.StringHelper,CompareIgnoreCase</token>
 </entry>
-<entry count="98348">
+<entry count="1568">
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+<token>Ecng.Common.StringHelper,Put</token>
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+</entry>
+<entry count="112044">
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.StringHelper,ContainsIgnoreCase</token>
 </entry>
@@ -4601,19 +4679,26 @@
 <token>Ecng.Common.FastCsvReader,ReadNullableEnum</token>
 <token>Ecng.Common.FastCsvReader,ReadNullableLong</token>
 </entry>
-<entry count="24">
-<token>-&gt;</token>
-<token>p:int]],Next</token>
-<token>Ecng.Common.RandomArray`1[[T</token>
-</entry>
-<entry count="192">
+<entry count="864">
 <token>Ecng.Common.TimeHelper,ToDateTime</token>
 <token>Ecng.Common.TimeHelper,ApplyTimeZone</token>
 <token>Ecng.Common.Converter,To</token>
 </entry>
+<entry count="19200">
+<token>Ecng.Common.StringHelper,Put</token>
+<token>Ecng.Common.TypeHelper,CreateInstance</token>
+<token>Ecng.Common.ThreadingHelper,Thread</token>
+<token>Ecng.Common.ThreadingHelper,Launch</token>
+</entry>
 <entry count="24">
 <token>Ecng.Common.StringHelper,LastIndexOf</token>
 <token>Ecng.Common.StringHelper,Split</token>
+</entry>
+<entry count="995">
+<token>Ecng.Common.StringHelper,Put</token>
+<token>Ecng.Common.StringHelper,Put</token>
+<token>Ecng.Common.StringHelper,Put</token>
+<token>Ecng.Common.StringHelper,Put</token>
 </entry>
 <entry count="20">
 <token>Ecng.Common.ArrayHelper,Empty</token>
@@ -4632,27 +4717,22 @@
 <token>Ecng.Common.StringHelper,Join</token>
 <token>Ecng.Common.StringHelper,Join</token>
 </entry>
-<entry count="4">
-<token>Messages]],Clone</token>
-<token>Ecng.Common.ICloneable`1[[T</token>
-<token>-&gt;</token>
-<token>i:StockSharp.Messages.IMessageChannel,</token>
-</entry>
-<entry count="112">
+<entry count="896">
 <token>Ecng.Common.StringHelper,Split</token>
 <token>Ecng.Common.StringHelper,Put</token>
 </entry>
-<entry count="2">
-<token>StockSharp.Xaml.Charting,</token>
-<token>4.3.14.0],[TSecond</token>
-<token>-&gt;</token>
-<token>p:int]],new</token>
+<entry count="3920">
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.TypeHelper,CreateInstance</token>
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.Converter,To</token>
 </entry>
 <entry count="8">
 <token>Ecng.Common.RandomGen,GetInt</token>
 <token>Ecng.Common.IdGenerator,GetNextId</token>
 </entry>
-<entry count="10256">
+<entry count="5136">
 <token>Ecng.Common.TimeHelper,ChangeKind</token>
 <token>Ecng.Common.TimeHelper,ChangeKind</token>
 <token>Ecng.Common.TimeHelper,ApplyTimeZone</token>
@@ -4661,7 +4741,13 @@
 <token>Ecng.Common.ThreadingHelper,Thread</token>
 <token>Ecng.Common.StringHelper,Put</token>
 </entry>
-<entry count="300">
+<entry count="8">
+<token>Ecng.Common.MathHelper,Abs</token>
+<token>Ecng.Common.StringHelper,Put</token>
+<token>Ecng.Common.MathHelper,Abs</token>
+<token>Ecng.Common.StringHelper,Put</token>
+</entry>
+<entry count="62612">
 <token>Ecng.Common.StringHelper,CompareIgnoreCase</token>
 <token>Ecng.Common.Converter,To</token>
 </entry>
@@ -4670,35 +4756,47 @@
 <token>Ecng.Common.FastCsvReader,ReadDecimal</token>
 <token>Ecng.Common.FastCsvReader,ReadDecimal</token>
 </entry>
-<entry count="168">
-<token>p:decimal]],new</token>
-<token>Ecng.Common.RefPair`2[[TFirst</token>
-<token>-&gt;</token>
-<token>p:decimal],[TSecond</token>
-</entry>
-<entry count="39">
+<entry count="76911">
 <token>Ecng.Common.ThreadingHelper,Thread</token>
 <token>Ecng.Common.ThreadingHelper,Launch</token>
+</entry>
+<entry count="18144">
+<token>Ecng.Common.Converter,GetHost</token>
+<token>Ecng.Common.Converter,GetPort</token>
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+<token>Ecng.Common.Converter,GetPort</token>
+<token>Ecng.Common.StringHelper,IsEmpty</token>
 </entry>
 <entry count="8">
 <token>Ecng.Common.TimeHelper,ApplyTimeZone</token>
 <token>Ecng.Common.TimeHelper,Truncate</token>
 </entry>
+<entry count="552">
+<token>Ecng.Common.StringHelper,Put</token>
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+<token>Ecng.Common.StringHelper,Put</token>
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+</entry>
 <entry count="16">
 <token>Ecng.Common.MathHelper,IsInfinity</token>
 <token>Ecng.Common.MathHelper,IsNaN</token>
 </entry>
-<entry count="16">
+<entry count="32">
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.StringHelper,Split</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.StringHelper,Put</token>
 </entry>
 <entry count="8">
+<token>Ecng.Common.RandomGen,GetInt</token>
+<token>Ecng.Common.IdGenerator,GetNextId</token>
+<token>Ecng.Common.RandomArray,Next</token>
+</entry>
+<entry count="8">
 <token>Ecng.Common.Converter,DoInCulture</token>
 <token>Ecng.Common.DelegateHelper,SafeInvoke</token>
 </entry>
-<entry count="276544">
+<entry count="398336">
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.XmlHelper,WriteAttribute</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
@@ -4717,15 +4815,17 @@
 <token>Ecng.Common.FastCsvReader,ReadString</token>
 <token>Ecng.Common.FastCsvReader,ReadDecimal</token>
 </entry>
+<entry count="24">
+<token>Ecng.Common.TypeHelper,GetTypeName</token>
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.TypeHelper,GetTypeName</token>
+<token>Ecng.Common.Converter,To</token>
+</entry>
 <entry count="48">
 <token>Ecng.Common.StringHelper,CompareIgnoreCase</token>
 <token>Ecng.Common.StringHelper,CompareIgnoreCase</token>
 <token>Ecng.Common.Enumerator,GetValues</token>
-</entry>
-<entry count="4">
-<token>-&gt;</token>
-<token>p:int]],new</token>
-<token>Ecng.Common.RandomArray`1[[T</token>
 </entry>
 <entry count="12">
 <token>Ecng.Common.TimeHelper,StartOfWeek</token>
@@ -4736,7 +4836,7 @@
 <token>Ecng.Common.FastCsvReader,ReadNullableDecimal</token>
 <token>Ecng.Common.FastCsvReader,ReadNullableDecimal</token>
 </entry>
-<entry count="128">
+<entry count="576">
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.TimeHelper,ToDateTime</token>
@@ -4762,14 +4862,7 @@
 <token>Ecng.Common.StringHelper,ContainsIgnoreCase</token>
 <token>Ecng.Common.TypeHelper,CreateInstance</token>
 </entry>
-<entry count="2">
-<token>p:object]],</token>
-<token>mscorlib,</token>
-<token>4.0.0.0]],new</token>
-<token>Ecng.Common.TypeHelper,DoIf</token>
-<token>Ecng.Common.TypeHelper,DoIf</token>
-</entry>
-<entry count="32">
+<entry count="272">
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.StringHelper,Join</token>
 </entry>
@@ -4777,18 +4870,28 @@
 <token>Ecng.Common.StringHelper,Split</token>
 <token>Ecng.Common.ThreadingHelper,Thread</token>
 </entry>
-<entry count="10240">
+<entry count="6144">
 <token>Ecng.Common.TimeHelper,ChangeKind</token>
 <token>Ecng.Common.TimeHelper,ApplyTimeZone</token>
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.Converter,To</token>
 </entry>
-<entry count="111324">
+<entry count="16">
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.TimeHelper,ToDateTimeOffset</token>
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+</entry>
+<entry count="1401704">
 <token>Ecng.Common.XmlHelper,WriteAttribute</token>
 <token>Ecng.Common.XmlHelper,WriteAttribute</token>
 </entry>
-<entry count="128">
+<entry count="2">
+<token>Ecng.Common.RefPair,new</token>
+<token>Ecng.Common.TypeHelper,DoIf</token>
+<token>Ecng.Common.TypeHelper,DoIf</token>
+</entry>
+<entry count="224000">
 <token>Ecng.Common.XmlHelper,WriteAttribute</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.XmlHelper,WriteAttribute</token>
@@ -4805,6 +4908,13 @@
 <token>Ecng.Common.SyncObject,new</token>
 <token>Ecng.Common.SyncObject,Pulse</token>
 <token>Ecng.Common.StringHelper,TrimEnd</token>
+</entry>
+<entry count="9216">
+<token>Ecng.Common.Converter,GetHost</token>
+<token>Ecng.Common.Converter,GetPort</token>
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+<token>Ecng.Common.Converter,GetHost</token>
+<token>Ecng.Common.Converter,GetHost</token>
 </entry>
 <entry count="20">
 <token>Ecng.Common.XmlHelper,GetAttributeValue</token>
@@ -4844,22 +4954,27 @@
 <token>Ecng.Common.StringHelper,Split</token>
 <token>Ecng.Common.TypeHelper,CreateInstance</token>
 </entry>
-<entry count="16">
+<entry count="256">
 <token>Ecng.Common.StringHelper,Join</token>
 <token>Ecng.Common.DelegateHelper,SafeInvoke</token>
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.StringHelper,Join</token>
+</entry>
+<entry count="5136">
+<token>Ecng.Common.TimeHelper,ApplyTimeZone</token>
+<token>Ecng.Common.TimeHelper,ChangeKind</token>
+<token>Ecng.Common.Converter,To</token>
 </entry>
 <entry count="65">
 <token>Ecng.Common.ThreadingHelper,Thread</token>
 <token>Ecng.Common.StringHelper,Put</token>
 <token>Ecng.Common.ThreadingHelper,Name</token>
 </entry>
-<entry count="496">
+<entry count="1720">
 <token>Ecng.Common.StringHelper,CompareIgnoreCase</token>
 <token>Ecng.Common.StringHelper,CompareIgnoreCase</token>
 </entry>
-<entry count="10256">
+<entry count="5136">
 <token>Ecng.Common.TimeHelper,ChangeKind</token>
 <token>Ecng.Common.TimeHelper,ChangeKind</token>
 <token>Ecng.Common.TimeHelper,ApplyTimeZone</token>
@@ -4897,16 +5012,20 @@
 <token>Ecng.Common.ThreadingHelper,Thread</token>
 <token>Ecng.Common.StringHelper,Put</token>
 </entry>
+<entry count="280">
+<token>Ecng.Common.Disposable,Dispose</token>
+<token>Ecng.Common.Disposable,Dispose</token>
+<token>Ecng.Common.Disposable,Dispose</token>
+<token>Ecng.Common.Disposable,Dispose</token>
+<token>Ecng.Common.Disposable,Dispose</token>
+</entry>
 <entry count="64">
 <token>Ecng.Common.SyncObject,Pulse</token>
 <token>Ecng.Common.StringHelper,TrimEnd</token>
 </entry>
-<entry count="2">
-<token>Ecng.Common.RefPair`2[[TFirst</token>
-<token>-&gt;</token>
-<token>s:System.DateTimeOffset,</token>
-<token>mscorlib,</token>
-<token>4.0.0.0],[TSecond</token>
+<entry count="4">
+<token>Ecng.Common.RandomArray,new</token>
+<token>Ecng.Common.RandomArray,new</token>
 </entry>
 <entry count="48">
 <token>Ecng.Common.StringHelper,CompareIgnoreCase</token>
@@ -4923,12 +5042,6 @@
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.XmlHelper,GetElementValue</token>
 </entry>
-<entry count="168">
-<token>-&gt;</token>
-<token>p:decimal]],new</token>
-<token>Ecng.Common.RefPair`2[[TFirst</token>
-<token>-&gt;</token>
-</entry>
 <entry count="4">
 <token>Ecng.Common.IdGenerator,GetNextId</token>
 <token>Ecng.Common.StringHelper,Put</token>
@@ -4937,7 +5050,7 @@
 <token>Ecng.Common.FastCsvReader,ReadString</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 </entry>
-<entry count="10240">
+<entry count="5120">
 <token>Ecng.Common.TimeHelper,ChangeKind</token>
 <token>Ecng.Common.TimeHelper,ChangeKind</token>
 <token>Ecng.Common.TimeHelper,ApplyTimeZone</token>
@@ -4953,7 +5066,7 @@
 <token>Ecng.Common.StringHelper,Put</token>
 <token>Ecng.Common.Enumerator,GetValues</token>
 </entry>
-<entry count="192">
+<entry count="297600">
 <token>Ecng.Common.XmlHelper,WriteAttribute</token>
 <token>Ecng.Common.XmlHelper,WriteAttribute</token>
 <token>Ecng.Common.XmlHelper,WriteAttribute</token>
@@ -4974,7 +5087,7 @@
 <token>Ecng.Common.FastCsvReader,ReadString</token>
 <token>Ecng.Common.FastCsvReader,ReadString</token>
 </entry>
-<entry count="148">
+<entry count="208">
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.XmlHelper,GetElementValue</token>
 <token>Ecng.Common.Converter,To</token>
@@ -5004,14 +5117,14 @@
 <token>Ecng.Common.FastCsvReader,ReadString</token>
 <token>Ecng.Common.FastCsvReader,ReadNullableDecimal</token>
 </entry>
-<entry count="27648">
+<entry count="138944">
 <token>Ecng.Common.XmlHelper,WriteAttribute</token>
 <token>Ecng.Common.XmlHelper,WriteAttribute</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.XmlHelper,WriteAttribute</token>
 </entry>
-<entry count="16">
+<entry count="256">
 <token>Ecng.Common.DelegateHelper,SafeInvoke</token>
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.StringHelper,Join</token>
@@ -5021,12 +5134,6 @@
 <token>Ecng.Common.XmlHelper,GetElementValue</token>
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.XmlHelper,GetElementValue</token>
-</entry>
-<entry count="2">
-<token>mscorlib,</token>
-<token>4.0.0.0]],new</token>
-<token>Ecng.Common.TypeHelper,DoIf</token>
-<token>Ecng.Common.TypeHelper,DoIf</token>
 </entry>
 <entry count="256">
 <token>Ecng.Common.Converter,To</token>
@@ -5041,13 +5148,6 @@
 <token>Ecng.Common.XmlHelper,GetAttributeValue</token>
 <token>Ecng.Common.XmlHelper,GetAttributeValue</token>
 </entry>
-<entry count="2">
-<token>4.3.14.0],[TValue</token>
-<token>-&gt;</token>
-<token>p:object]],</token>
-<token>mscorlib,</token>
-<token>4.0.0.0]],new</token>
-</entry>
 <entry count="48">
 <token>Ecng.Common.FastCsvReader,ReadNullableLong</token>
 <token>Ecng.Common.FastCsvReader,ReadString</token>
@@ -5057,20 +5157,10 @@
 <token>Ecng.Common.RandomGen,GetInt</token>
 <token>Ecng.Common.IdGenerator,GetNextId</token>
 </entry>
-<entry count="170">
+<entry count="4902">
 <token>Ecng.Common.TypeHelper,DoIf</token>
 <token>Ecng.Common.TypeHelper,DoIf</token>
 <token>Ecng.Common.TypeHelper,DoIf</token>
-</entry>
-<entry count="2">
-<token>p:int]],new</token>
-<token>Ecng.Common.ResettableTimer,Activate</token>
-</entry>
-<entry count="172">
-<token>Ecng.Common.RefPair`2[[TFirst</token>
-<token>-&gt;</token>
-<token>p:decimal],[TSecond</token>
-<token>-&gt;</token>
 </entry>
 <entry count="8">
 <token>Ecng.Common.ArrayHelper,Clone</token>
@@ -5082,13 +5172,18 @@
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.Converter,To</token>
 </entry>
+<entry count="8">
+<token>Ecng.Common.IdGenerator,GetNextId</token>
+<token>Ecng.Common.RandomArray,Next</token>
+<token>Ecng.Common.RandomGen,GetEnum</token>
+</entry>
 <entry count="10">
 <token>Ecng.Common.StringHelper,Put</token>
 <token>Ecng.Common.MathHelper,Max</token>
 <token>Ecng.Common.MathHelper,Min</token>
 <token>Ecng.Common.TimeHelper,Range</token>
 </entry>
-<entry count="92">
+<entry count="188">
 <token>Ecng.Common.XmlHelper,GetAttributeValue</token>
 <token>Ecng.Common.XmlHelper,GetElementValue</token>
 <token>Ecng.Common.XmlHelper,GetElementValue</token>
@@ -5111,18 +5206,6 @@
 <token>Ecng.Common.StringHelper,CompareIgnoreCase</token>
 <token>Ecng.Common.TypeHelper,CreateInstance</token>
 </entry>
-<entry count="192">
-<token>Ecng.Common.StringHelper,IsEmpty</token>
-<token>Ecng.Common.MathHelper,Round</token>
-<token>Ecng.Common.MathHelper,Round</token>
-<token>Ecng.Common.MathHelper,Round</token>
-</entry>
-<entry count="2">
-<token>Ecng.Common.ResettableTimer,Cancel</token>
-<token>Ecng.Common.RefPair`2[[TFirst</token>
-<token>-&gt;</token>
-<token>i:StockSharp.Xaml.Charting.IChartElement,</token>
-</entry>
 <entry count="16">
 <token>Ecng.Common.FastCsvReader,ReadNullableDecimal</token>
 <token>Ecng.Common.FastCsvReader,ReadNullableEnum</token>
@@ -5130,16 +5213,17 @@
 <token>Ecng.Common.FastCsvReader,ReadString</token>
 <token>Ecng.Common.FastCsvReader,ReadNullableLong</token>
 </entry>
+<entry count="1056">
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+<token>Ecng.Common.Converter,To</token>
+</entry>
 <entry count="32">
 <token>Ecng.Common.SyncObject,Pulse</token>
 <token>Ecng.Common.TypeHelper,Throw</token>
 <token>Ecng.Common.StringHelper,TrimEnd</token>
-</entry>
-<entry count="192">
-<token>Ecng.Common.StringHelper,IsEmpty</token>
-<token>Ecng.Common.StringHelper,IsEmpty</token>
-<token>Ecng.Common.MathHelper,Round</token>
-<token>Ecng.Common.MathHelper,Round</token>
 </entry>
 <entry count="8">
 <token>Ecng.Common.StringHelper,CompareIgnoreCase</token>
@@ -5147,7 +5231,7 @@
 <token>Ecng.Common.StringHelper,CompareIgnoreCase</token>
 <token>Ecng.Common.StringHelper,ContainsIgnoreCase</token>
 </entry>
-<entry count="236">
+<entry count="620">
 <token>Ecng.Common.StringHelper,CompareIgnoreCase</token>
 <token>Ecng.Common.StringHelper,CompareIgnoreCase</token>
 <token>Ecng.Common.StringHelper,CompareIgnoreCase</token>
@@ -5155,18 +5239,6 @@
 <entry count="64">
 <token>Ecng.Common.SyncObject,new</token>
 <token>Ecng.Common.RefTuple,Create</token>
-</entry>
-<entry count="4">
-<token>i:StockSharp.Messages.IMessageChannel,</token>
-<token>Messages]],Clone</token>
-<token>Ecng.Common.ICloneable`1[[T</token>
-</entry>
-<entry count="168">
-<token>p:decimal]],new</token>
-<token>Ecng.Common.RefPair`2[[TFirst</token>
-<token>-&gt;</token>
-<token>p:decimal],[TSecond</token>
-<token>-&gt;</token>
 </entry>
 <entry count="4">
 <token>Ecng.Common.StringHelper,CompareIgnoreCase</token>
@@ -5184,11 +5256,21 @@
 <token>Ecng.Common.SyncObject,Pulse</token>
 <token>Ecng.Common.SyncObject,Wait</token>
 </entry>
-<entry count="2">
-<token>StockSharp.Xaml.Charting,</token>
-<token>4.3.14.0],[TValue</token>
+<entry count="5184">
+<token>Ecng.Common.Converter,GetHost</token>
+<token>Ecng.Common.Converter,GetPort</token>
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+<token>Ecng.Common.Converter,GetPort</token>
+<token>Ecng.Common.Converter,GetHost</token>
 </entry>
-<entry count="44">
+<entry count="38400">
+<token>Ecng.Common.XmlHelper,WriteAttribute</token>
+<token>Ecng.Common.XmlHelper,WriteAttribute</token>
+<token>Ecng.Common.XmlHelper,WriteAttribute</token>
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+</entry>
+<entry count="92">
 <token>Ecng.Common.XmlHelper,GetElementValue</token>
 <token>Ecng.Common.XmlHelper,GetAttributeValue</token>
 </entry>
@@ -5202,14 +5284,14 @@
 <token>Ecng.Common.FastCsvReader,NextLine</token>
 <token>Ecng.Common.Converter,DoInCulture</token>
 </entry>
-<entry count="168">
+<entry count="4900">
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.TypeHelper,CreateInstance</token>
 <token>Ecng.Common.TypeHelper,DoIf</token>
 <token>Ecng.Common.TypeHelper,DoIf</token>
 </entry>
-<entry count="152064">
+<entry count="383328">
 <token>Ecng.Common.XmlHelper,WriteAttribute</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
@@ -5225,13 +5307,18 @@
 <token>Ecng.Common.FastCsvReader,ReadNullableDecimal</token>
 <token>Ecng.Common.FastCsvReader,ReadNullableEnum</token>
 </entry>
-<entry count="20">
+<entry count="68">
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.XmlHelper,GetElementValue</token>
 <token>Ecng.Common.XmlHelper,GetAttributeValue</token>
 <token>Ecng.Common.XmlHelper,GetElementValue</token>
 </entry>
-<entry count="72">
+<entry count="7304">
+<token>Ecng.Common.StringHelper,CompareIgnoreCase</token>
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.Converter,To</token>
+</entry>
+<entry count="168">
 <token>Ecng.Common.XmlHelper,GetAttributeValue</token>
 <token>Ecng.Common.XmlHelper,GetElementValue</token>
 <token>Ecng.Common.XmlHelper,GetElementValue</token>
@@ -5246,7 +5333,12 @@
 <token>Ecng.Common.ResettableTimer,new</token>
 <token>Ecng.Common.ResettableTimer,new</token>
 </entry>
-<entry count="761">
+<entry count="32">
+<token>Ecng.Common.MathHelper,Abs</token>
+<token>Ecng.Common.StringHelper,Put</token>
+<token>Ecng.Common.MathHelper,Abs</token>
+</entry>
+<entry count="537125">
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.Converter,To</token>
@@ -5275,7 +5367,7 @@
 <token>Ecng.Common.FastCsvReader,ReadString</token>
 <token>Ecng.Common.FastCsvReader,ReadString</token>
 </entry>
-<entry count="197">
+<entry count="5081">
 <token>Ecng.Common.StringHelper,Put</token>
 <token>Ecng.Common.TimeHelper,Range</token>
 </entry>
@@ -5288,6 +5380,13 @@
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.Converter,To</token>
+</entry>
+<entry count="68">
+<token>Ecng.Common.StringHelper,Put</token>
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+<token>Ecng.Common.StringHelper,Put</token>
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+<token>Ecng.Common.StringHelper,Put</token>
 </entry>
 <entry count="108">
 <token>Ecng.Common.DisposableHelper,MakeDisposable</token>
@@ -5314,12 +5413,12 @@
 <token>Ecng.Common.StringHelper,Split</token>
 <token>Ecng.Common.DelegateHelper,SafeInvoke</token>
 </entry>
-<entry count="10256">
+<entry count="10272">
 <token>Ecng.Common.TimeHelper,ChangeKind</token>
 <token>Ecng.Common.TimeHelper,ApplyTimeZone</token>
 <token>Ecng.Common.Converter,To</token>
 </entry>
-<entry count="64">
+<entry count="512">
 <token>Ecng.Common.StringHelper,Split</token>
 <token>Ecng.Common.StringHelper,Put</token>
 <token>Ecng.Common.StringHelper,Put</token>
@@ -5340,7 +5439,7 @@
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.StringHelper,Split</token>
 </entry>
-<entry count="98304">
+<entry count="112000">
 <token>Ecng.Common.StringHelper,ContainsIgnoreCase</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.StringHelper,IsEmptyOrWhiteSpace</token>
@@ -5352,16 +5451,22 @@
 <token>Ecng.Common.ThreadingHelper,Name</token>
 <token>Ecng.Common.ThreadingHelper,Launch</token>
 </entry>
-<entry count="16">
+<entry count="64">
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.IdGenerator,GetNextId</token>
 </entry>
-<entry count="168">
+<entry count="4900">
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.TypeHelper,CreateInstance</token>
 <token>Ecng.Common.TypeHelper,DoIf</token>
+</entry>
+<entry count="511328">
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.TimeHelper,ApplyTimeZone</token>
+<token>Ecng.Common.StringHelper,IsEmpty</token>
 </entry>
 <entry count="16">
 <token>Ecng.Common.FastCsvReader,ReadBool</token>
@@ -5375,7 +5480,13 @@
 <token>Ecng.Common.SyncObject,Wait</token>
 <token>Ecng.Common.TypeHelper,Throw</token>
 </entry>
-<entry count="8">
+<entry count="40">
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.TypeHelper,GetTypeName</token>
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.Converter,To</token>
+</entry>
+<entry count="65536">
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.Converter,DoInCulture</token>
@@ -5385,32 +5496,15 @@
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.Enumerator,GetValues</token>
 </entry>
-<entry count="12">
-<token>-&gt;</token>
-<token>i:StockSharp.Messages.IMessageChannel,</token>
-</entry>
 <entry count="8">
 <token>Ecng.Common.FastCsvReader,new</token>
 <token>Ecng.Common.FastCsvReader,NextLine</token>
 <token>Ecng.Common.FastCsvReader,new</token>
 </entry>
-<entry count="8">
-<token>Ecng.Common.RandomGen,GetInt</token>
-<token>Ecng.Common.IdGenerator,GetNextId</token>
-<token>Ecng.Common.RandomArray`1[[T</token>
-<token>-&gt;</token>
-<token>p:int]],Next</token>
-</entry>
 <entry count="96">
 <token>Ecng.Common.StringHelper,ReplaceIgnoreCase</token>
 <token>Ecng.Common.StringHelper,Split</token>
 <token>Ecng.Common.TypeHelper,CreateInstance</token>
-</entry>
-<entry count="12">
-<token>Ecng.Common.ICloneable`1[[T</token>
-<token>-&gt;</token>
-<token>i:StockSharp.Messages.IMessageChannel,</token>
-<token>Messages]],Clone</token>
 </entry>
 <entry count="52">
 <token>Ecng.Common.ThreadingHelper,Thread</token>
@@ -5424,7 +5518,7 @@
 <token>Ecng.Common.StringHelper,Join</token>
 <token>Ecng.Common.StringHelper,Join</token>
 </entry>
-<entry count="16">
+<entry count="256">
 <token>Ecng.Common.DelegateHelper,SafeInvoke</token>
 <token>Ecng.Common.Converter,To</token>
 </entry>
@@ -5435,7 +5529,7 @@
 <token>Ecng.Common.ThreadingHelper,Thread</token>
 <token>Ecng.Common.StringHelper,Put</token>
 </entry>
-<entry count="96">
+<entry count="1896">
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.StringHelper,Put</token>
@@ -5459,18 +5553,12 @@
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.IdGenerator,GetNextId</token>
 </entry>
-<entry count="2">
-<token>Ecng.Common.RefPair`2[[TFirst</token>
-<token>-&gt;</token>
-<token>s:System.DateTimeOffset,</token>
-<token>mscorlib,</token>
-</entry>
 <entry count="16">
 <token>Ecng.Common.FastCsvReader,ReadNullableLong</token>
 <token>Ecng.Common.FastCsvReader,ReadString</token>
 <token>Ecng.Common.FastCsvReader,ReadString</token>
 </entry>
-<entry count="168">
+<entry count="4900">
 <token>Ecng.Common.TypeHelper,CreateInstance</token>
 <token>Ecng.Common.TypeHelper,DoIf</token>
 </entry>
@@ -5478,13 +5566,13 @@
 <token>Ecng.Common.StringHelper,ContainsIgnoreCase</token>
 <token>Ecng.Common.TimeHelper,TryToTimeSpan</token>
 </entry>
-<entry count="2">
-<token>4.3.14.0],[TValue</token>
-<token>-&gt;</token>
-<token>p:object]],</token>
-<token>mscorlib,</token>
+<entry count="8">
+<token>Ecng.Common.StringHelper,Put</token>
+<token>Ecng.Common.StringHelper,Put</token>
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.StringHelper,Put</token>
 </entry>
-<entry count="40">
+<entry count="511368">
 <token>Ecng.Common.TimeHelper,ApplyTimeZone</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 </entry>
@@ -5495,30 +5583,28 @@
 <token>Ecng.Common.XmlHelper,GetElementValue</token>
 <token>Ecng.Common.XmlHelper,GetAttributeValue</token>
 </entry>
+<entry count="5808">
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+</entry>
 <entry count="8">
 <token>Ecng.Common.ArrayHelper,IndexOf</token>
 <token>Ecng.Common.StringHelper,Put</token>
 </entry>
-<entry count="140">
+<entry count="380">
 <token>Ecng.Common.XmlHelper,GetElementValue</token>
 <token>Ecng.Common.XmlHelper,GetElementValue</token>
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.XmlHelper,GetElementValue</token>
 </entry>
-<entry count="2">
-<token>i:StockSharp.Xaml.Charting.IChartElement,</token>
-<token>StockSharp.Xaml.Charting,</token>
-<token>4.3.14.0],[TSecond</token>
-</entry>
-<entry count="32">
+<entry count="37440">
 <token>Ecng.Common.Converter,GetPort</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.Converter,GetHost</token>
 <token>Ecng.Common.Converter,GetPort</token>
-</entry>
-<entry count="2">
-<token>mscorlib,</token>
-<token>4.0.0.0]],new</token>
 </entry>
 <entry count="4">
 <token>Ecng.Common.StringHelper,Join</token>
@@ -5534,7 +5620,7 @@
 <token>Ecng.Common.FastCsvReader,ReadString</token>
 <token>Ecng.Common.FastCsvReader,ReadNullableBool</token>
 </entry>
-<entry count="16">
+<entry count="256">
 <token>Ecng.Common.StringHelper,Join</token>
 <token>Ecng.Common.DelegateHelper,SafeInvoke</token>
 <token>Ecng.Common.Converter,To</token>
@@ -5546,6 +5632,16 @@
 <token>Ecng.Common.StringHelper,CompareIgnoreCase</token>
 <token>Ecng.Common.StringHelper,CompareIgnoreCase</token>
 <token>Ecng.Common.StringHelper,CompareIgnoreCase</token>
+<token>Ecng.Common.Converter,To</token>
+</entry>
+<entry count="32">
+<token>Ecng.Common.RandomGen,GetEnum</token>
+<token>Ecng.Common.RandomArray,Next</token>
+<token>Ecng.Common.RandomGen,GetInt</token>
+</entry>
+<entry count="4096">
+<token>Ecng.Common.Disposable,Dispose</token>
+<token>Ecng.Common.StringHelper,Put</token>
 <token>Ecng.Common.Converter,To</token>
 </entry>
 <entry count="16">
@@ -5570,18 +5666,18 @@
 <token>Ecng.Common.Enumerator,IsDefined</token>
 <token>Ecng.Common.StringHelper,Put</token>
 </entry>
-<entry count="145448">
+<entry count="3372904">
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 </entry>
-<entry count="45507">
+<entry count="1824832">
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.Converter,To</token>
 </entry>
-<entry count="156">
+<entry count="216">
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.XmlHelper,GetElementValue</token>
 <token>Ecng.Common.Converter,To</token>
@@ -5591,11 +5687,7 @@
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.Enumerator,GetValues</token>
 </entry>
-<entry count="12">
-<token>i:StockSharp.Messages.IMessageChannel,</token>
-<token>Messages]],Clone</token>
-</entry>
-<entry count="10376">
+<entry count="10460">
 <token>Ecng.Common.TimeHelper,ChangeKind</token>
 <token>Ecng.Common.TimeHelper,ChangeKind</token>
 <token>Ecng.Common.Converter,To</token>
@@ -5615,15 +5707,11 @@
 <token>Ecng.Common.FastCsvReader,ReadNullableDecimal</token>
 <token>Ecng.Common.FastCsvReader,ReadString</token>
 </entry>
-<entry count="96">
-<token>Ecng.Common.RandomArray`1[[T</token>
-<token>-&gt;</token>
-</entry>
-<entry count="20">
+<entry count="68">
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.IdGenerator,GetNextId</token>
 </entry>
-<entry count="128">
+<entry count="224000">
 <token>Ecng.Common.XmlHelper,WriteAttribute</token>
 <token>Ecng.Common.XmlHelper,WriteAttribute</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
@@ -5634,6 +5722,12 @@
 <token>Ecng.Common.FastCsvReader,ReadNullableDecimal</token>
 <token>Ecng.Common.FastCsvReader,ReadString</token>
 </entry>
+<entry count="24">
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.TypeHelper,GetTypeName</token>
+<token>Ecng.Common.Converter,To</token>
+</entry>
 <entry count="64">
 <token>Ecng.Common.RefTuple,Create</token>
 <token>Ecng.Common.RefTuple,Create</token>
@@ -5641,15 +5735,27 @@
 <token>Ecng.Common.RefTuple,Create</token>
 <token>Ecng.Common.RefTuple,Create</token>
 </entry>
-<entry count="252">
+<entry count="924">
 <token>Ecng.Common.TimeHelper,ToDateTime</token>
 <token>Ecng.Common.TimeHelper,ApplyTimeZone</token>
+</entry>
+<entry count="1696">
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+<token>Ecng.Common.StringHelper,Put</token>
 </entry>
 <entry count="16">
 <token>Ecng.Common.FastCsvReader,ReadNullableBool</token>
 <token>Ecng.Common.FastCsvReader,ReadBool</token>
 <token>Ecng.Common.FastCsvReader,ReadBool</token>
 <token>Ecng.Common.FastCsvReader,ReadNullableDecimal</token>
+</entry>
+<entry count="10272">
+<token>Ecng.Common.TimeHelper,ChangeKind</token>
+<token>Ecng.Common.TimeHelper,ApplyTimeZone</token>
+<token>Ecng.Common.TimeHelper,ChangeKind</token>
 </entry>
 <entry count="48">
 <token>Ecng.Common.Converter,To</token>
@@ -5676,15 +5782,9 @@
 <token>Ecng.Common.ThreadingHelper,Name</token>
 <token>Ecng.Common.ThreadingHelper,Launch</token>
 </entry>
-<entry count="560">
+<entry count="15680">
 <token>Ecng.Common.TypeHelper,CreateInstance</token>
 <token>Ecng.Common.Converter,To</token>
-</entry>
-<entry count="2">
-<token>-&gt;</token>
-<token>i:System.Collections.Generic.IDictionary`2[[TKey</token>
-<token>-&gt;</token>
-<token>i:StockSharp.Xaml.Charting.IChartElement,</token>
 </entry>
 <entry count="16">
 <token>Ecng.Common.FastCsvReader,ReadNullableEnum</token>
@@ -5695,10 +5795,6 @@
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.TypeHelper,IsNumeric</token>
-</entry>
-<entry count="12">
-<token>Ecng.Common.ICloneable`1[[T</token>
-<token>-&gt;</token>
 </entry>
 <entry count="8">
 <token>Ecng.Common.MathHelper,Max</token>
@@ -5715,7 +5811,7 @@
 <token>Ecng.Common.SyncObject,Pulse</token>
 <token>Ecng.Common.TypeHelper,Throw</token>
 </entry>
-<entry count="32">
+<entry count="144">
 <token>Ecng.Common.StringHelper,Put</token>
 <token>Ecng.Common.StringHelper,Put</token>
 <token>Ecng.Common.TimeHelper,ApplyTimeZone</token>
@@ -5725,7 +5821,7 @@
 <token>Ecng.Common.ThreadingHelper,Thread</token>
 <token>Ecng.Common.ThreadingHelper,Name</token>
 </entry>
-<entry count="32">
+<entry count="64">
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.RefTuple,Create</token>
 <token>Ecng.Common.MathHelper,Abs</token>
@@ -5740,13 +5836,13 @@
 <token>Ecng.Common.StringHelper,Split</token>
 <token>Ecng.Common.ThreadingHelper,Thread</token>
 </entry>
-<entry count="864">
+<entry count="28800">
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.TypeHelper,CreateInstance</token>
 </entry>
-<entry count="12">
+<entry count="146">
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.StringHelper,CompareIgnoreCase</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
@@ -5815,12 +5911,13 @@
 <token>Ecng.Common.MathHelper,Round</token>
 <token>Ecng.Common.Converter,DoInCulture</token>
 </entry>
-<entry count="8">
-<token>-&gt;</token>
-<token>p:int]],Next</token>
-<token>Ecng.Common.RandomGen,GetEnum</token>
+<entry count="23328">
+<token>Ecng.Common.Converter,GetHost</token>
+<token>Ecng.Common.Converter,GetPort</token>
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+<token>Ecng.Common.Converter,GetPort</token>
 </entry>
-<entry count="1009">
+<entry count="29401">
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.TypeHelper,CreateInstance</token>
 </entry>
@@ -5833,64 +5930,41 @@
 <token>Ecng.Common.Disposable,Dispose</token>
 <token>Ecng.Common.StringHelper,Put</token>
 </entry>
-<entry count="384">
-<token>Ecng.Common.MathHelper,Round</token>
-<token>Ecng.Common.MathHelper,Round</token>
-<token>Ecng.Common.MathHelper,Round</token>
-</entry>
-<entry count="112">
+<entry count="3136">
 <token>Ecng.Common.TypeHelper,DoIf</token>
 <token>Ecng.Common.TypeHelper,DoIf</token>
 <token>Ecng.Common.TypeHelper,DoIf</token>
 <token>Ecng.Common.Converter,To</token>
 </entry>
-<entry count="172">
-<token>-&gt;</token>
-<token>p:decimal],[TSecond</token>
-<token>-&gt;</token>
-<token>p:decimal]],new</token>
-</entry>
-<entry count="10456">
+<entry count="11128">
 <token>Ecng.Common.TimeHelper,ApplyTimeZone</token>
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.Converter,To</token>
 </entry>
-<entry count="124416">
-<token>Ecng.Common.XmlHelper,WriteAttribute</token>
-<token>Ecng.Common.StringHelper,IsEmpty</token>
-<token>Ecng.Common.StringHelper,IsEmpty</token>
-<token>Ecng.Common.XmlHelper,WriteAttribute</token>
+<entry count="8">
+<token>Ecng.Common.IdGenerator,GetNextId</token>
+<token>Ecng.Common.RandomArray,Next</token>
 </entry>
-<entry count="168">
-<token>p:decimal],[TSecond</token>
-<token>-&gt;</token>
-<token>p:decimal]],new</token>
-<token>Ecng.Common.RefPair`2[[TFirst</token>
+<entry count="204576">
+<token>Ecng.Common.XmlHelper,WriteAttribute</token>
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+<token>Ecng.Common.XmlHelper,WriteAttribute</token>
 </entry>
 <entry count="8">
 <token>Ecng.Common.StringHelper,LastIndexOf</token>
 <token>Ecng.Common.StringHelper,Split</token>
 <token>Ecng.Common.DelegateHelper,SafeInvoke</token>
 </entry>
-<entry count="192">
-<token>Ecng.Common.StringHelper,IsEmpty</token>
-<token>Ecng.Common.MathHelper,Round</token>
-<token>Ecng.Common.MathHelper,Round</token>
-</entry>
 <entry count="4">
 <token>Ecng.Common.FastCsvReader,ReadNullableEnum</token>
 <token>Ecng.Common.FastCsvReader,ReadNullableDecimal</token>
-</entry>
-<entry count="168">
-<token>p:decimal]],new</token>
-<token>Ecng.Common.RefPair`2[[TFirst</token>
-<token>-&gt;</token>
 </entry>
 <entry count="16">
 <token>Ecng.Common.FastCsvReader,ReadNullableLong</token>
 <token>Ecng.Common.Converter,To</token>
 </entry>
-<entry count="76">
+<entry count="208">
 <token>Ecng.Common.XmlHelper,GetElementValue</token>
 <token>Ecng.Common.XmlHelper,GetElementValue</token>
 <token>Ecng.Common.Converter,To</token>
@@ -5907,17 +5981,28 @@
 <token>Ecng.Common.FastCsvReader,ReadEnum</token>
 <token>Ecng.Common.FastCsvReader,ReadNullableEnum</token>
 </entry>
-<entry count="2">
-<token>mscorlib,</token>
-<token>4.0.0.0],[TSecond</token>
-<token>-&gt;</token>
+<entry count="32">
+<token>Ecng.Common.RandomArray,Next</token>
+<token>Ecng.Common.RandomArray,Next</token>
 </entry>
-<entry count="4">
-<token>Ecng.Common.ICloneable`1[[T</token>
-<token>-&gt;</token>
-<token>i:StockSharp.Messages.IMessageChannel,</token>
-<token>Messages]],Clone</token>
-<token>Ecng.Common.StringHelper,Put</token>
+<entry count="7168">
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+<token>Ecng.Common.Converter,GetHost</token>
+<token>Ecng.Common.Converter,GetPort</token>
+<token>Ecng.Common.Converter,GetHost</token>
+<token>Ecng.Common.Converter,GetPort</token>
+</entry>
+<entry count="68">
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+<token>Ecng.Common.StringHelper,CompareIgnoreCase</token>
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+<token>Ecng.Common.StringHelper,CompareIgnoreCase</token>
+</entry>
+<entry count="4096">
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.Disposable,Dispose</token>
+<token>Ecng.Common.Converter,To</token>
 </entry>
 <entry count="200">
 <token>Ecng.Common.Converter,To</token>
@@ -5933,22 +6018,18 @@
 <token>Ecng.Common.DelegateHelper,SafeInvoke</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 </entry>
-<entry count="172">
-<token>-&gt;</token>
-<token>p:decimal]],new</token>
-</entry>
 <entry count="108">
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.DisposableHelper,MakeDisposable</token>
 <token>Ecng.Common.ThreadingHelper,Thread</token>
 </entry>
-<entry count="221248">
+<entry count="259968">
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.XmlHelper,WriteAttribute</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.XmlHelper,WriteAttribute</token>
 </entry>
-<entry count="32">
+<entry count="46656">
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.Converter,GetHost</token>
 </entry>
@@ -5958,25 +6039,23 @@
 <token>Ecng.Common.StringHelper,CompareIgnoreCase</token>
 <token>Ecng.Common.StringHelper,CompareIgnoreCase</token>
 </entry>
-<entry count="176">
+<entry count="156816">
 <token>Ecng.Common.Converter,GetHost</token>
 <token>Ecng.Common.Converter,GetPort</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 </entry>
-<entry count="24">
-<token>Ecng.Common.RandomArray`1[[T</token>
-<token>-&gt;</token>
-<token>p:int]],Next</token>
-<token>Ecng.Common.RandomArray`1[[T</token>
-<token>-&gt;</token>
-</entry>
-<entry count="8">
+<entry count="65536">
 <token>Ecng.Common.StringHelper,ContainsIgnoreCase</token>
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.Converter,To</token>
 </entry>
-<entry count="160">
+<entry count="76800">
+<token>Ecng.Common.TypeHelper,CreateInstance</token>
+<token>Ecng.Common.ThreadingHelper,Thread</token>
+<token>Ecng.Common.ThreadingHelper,Launch</token>
+</entry>
+<entry count="784">
 <token>Ecng.Common.ArrayHelper,IndexOf</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 </entry>
@@ -6007,7 +6086,7 @@
 <token>Ecng.Common.SyncObject,Pulse</token>
 <token>Ecng.Common.TypeHelper,Throw</token>
 </entry>
-<entry count="98312">
+<entry count="112008">
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.StringHelper,ContainsIgnoreCase</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
@@ -6016,7 +6095,7 @@
 <token>Ecng.Common.MathHelper,Max</token>
 <token>Ecng.Common.SyncObject,Wait</token>
 </entry>
-<entry count="128">
+<entry count="576">
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.TimeHelper,ToDateTime</token>
@@ -6032,7 +6111,7 @@
 <token>Ecng.Common.ThreadingHelper,Thread</token>
 <token>Ecng.Common.ThreadingHelper,Launch</token>
 </entry>
-<entry count="56">
+<entry count="118">
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.StringHelper,CompareIgnoreCase</token>
@@ -6041,6 +6120,10 @@
 <token>Ecng.Common.StringHelper,Put</token>
 <token>Ecng.Common.StringHelper,Put</token>
 <token>Ecng.Common.TimeHelper,Convert</token>
+</entry>
+<entry count="4096">
+<token>Ecng.Common.Disposable,Dispose</token>
+<token>Ecng.Common.Converter,To</token>
 </entry>
 <entry count="16">
 <token>Ecng.Common.FastCsvReader,ReadNullableDecimal</token>
@@ -6057,7 +6140,13 @@
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.Enumerator,IsDefined</token>
 </entry>
-<entry count="480">
+<entry count="5136">
+<token>Ecng.Common.TimeHelper,ApplyTimeZone</token>
+<token>Ecng.Common.TimeHelper,ChangeKind</token>
+<token>Ecng.Common.TimeHelper,ApplyTimeZone</token>
+<token>Ecng.Common.Converter,To</token>
+</entry>
+<entry count="15360">
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.Converter,To</token>
@@ -6074,16 +6163,7 @@
 <token>Ecng.Common.StringHelper,Put</token>
 <token>Ecng.Common.Converter,To</token>
 </entry>
-<entry count="192">
-<token>Ecng.Common.StringHelper,IsEmpty</token>
-<token>Ecng.Common.StringHelper,IsEmpty</token>
-<token>Ecng.Common.MathHelper,Round</token>
-</entry>
-<entry count="2">
-<token>p:object]],</token>
-<token>mscorlib,</token>
-</entry>
-<entry count="3">
+<entry count="193">
 <token>Ecng.Common.TypeHelper,GetTypeName</token>
 <token>Ecng.Common.Converter,To</token>
 </entry>
@@ -6095,12 +6175,12 @@
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.DelegateHelper,SafeInvoke</token>
 </entry>
-<entry count="320">
+<entry count="516412">
 <token>Ecng.Common.XmlHelper,WriteAttribute</token>
 <token>Ecng.Common.XmlHelper,WriteAttribute</token>
 <token>Ecng.Common.XmlHelper,WriteAttribute</token>
 </entry>
-<entry count="112">
+<entry count="3136">
 <token>Ecng.Common.TypeHelper,DoIf</token>
 <token>Ecng.Common.Converter,To</token>
 </entry>
@@ -6124,23 +6204,23 @@
 <token>Ecng.Common.StringHelper,ContainsIgnoreCase</token>
 <token>Ecng.Common.StringHelper,ContainsIgnoreCase</token>
 </entry>
+<entry count="2048">
+<token>Ecng.Common.TimeHelper,ApplyTimeZone</token>
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.Disposable,Dispose</token>
+<token>Ecng.Common.StringHelper,Put</token>
+</entry>
 <entry count="184">
 <token>Ecng.Common.SyncObject,Pulse</token>
 <token>Ecng.Common.SyncObject,Wait</token>
 </entry>
-<entry count="41472">
-<token>Ecng.Common.StringHelper,IsEmpty</token>
-<token>Ecng.Common.StringHelper,IsEmpty</token>
-<token>Ecng.Common.StringHelper,IsEmpty</token>
-<token>Ecng.Common.StringHelper,IsEmpty</token>
-<token>Ecng.Common.XmlHelper,WriteAttribute</token>
-</entry>
-<entry count="120">
+<entry count="312">
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.XmlHelper,GetElementValue</token>
 <token>Ecng.Common.XmlHelper,GetElementValue</token>
 </entry>
-<entry count="128">
+<entry count="12636">
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.StringHelper,Put</token>
@@ -6152,13 +6232,6 @@
 <token>Ecng.Common.TimeHelper,ApplyTimeZone</token>
 <token>Ecng.Common.TimeHelper,ApplyTimeZone</token>
 </entry>
-<entry count="2">
-<token>i:StockSharp.Xaml.Charting.IChartElement,</token>
-<token>StockSharp.Xaml.Charting,</token>
-<token>4.3.14.0],[TValue</token>
-<token>-&gt;</token>
-<token>p:object]],</token>
-</entry>
 <entry count="6">
 <token>Ecng.Common.StringHelper,Put</token>
 <token>Ecng.Common.TimeHelper,EndOfDay</token>
@@ -6169,7 +6242,7 @@
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.XmlHelper,GetAttributeValue</token>
 </entry>
-<entry count="8">
+<entry count="16">
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.StringHelper,Put</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
@@ -6192,12 +6265,7 @@
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.Converter,DoInCulture</token>
 </entry>
-<entry count="2">
-<token>4.3.14.0],[TValue</token>
-<token>-&gt;</token>
-<token>p:object]],</token>
-</entry>
-<entry count="608896">
+<entry count="1619840">
 <token>Ecng.Common.XmlHelper,WriteAttribute</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 </entry>
@@ -6207,13 +6275,6 @@
 <token>Ecng.Common.ThreadingHelper,Thread</token>
 <token>Ecng.Common.ThreadingHelper,Name</token>
 <token>Ecng.Common.ThreadingHelper,Launch</token>
-</entry>
-<entry count="4096">
-<token>Ecng.Common.TimeHelper,ApplyTimeZone</token>
-<token>Ecng.Common.Converter,To</token>
-<token>Ecng.Common.Converter,To</token>
-<token>Ecng.Common.Converter,To</token>
-<token>Ecng.Common.Disposable,Dispose</token>
 </entry>
 <entry count="88">
 <token>Ecng.Common.RefTuple,Create</token>
@@ -6233,16 +6294,24 @@
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.Enumerator,GetValues</token>
 </entry>
-<entry count="16">
+<entry count="32">
+<token>Ecng.Common.RefTuple,Create</token>
+<token>Ecng.Common.MathHelper,Abs</token>
+<token>Ecng.Common.StringHelper,Put</token>
+<token>Ecng.Common.MathHelper,Abs</token>
+</entry>
+<entry count="32">
 <token>Ecng.Common.StringHelper,Split</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.StringHelper,Split</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.StringHelper,Put</token>
 </entry>
-<entry count="8">
-<token>Ecng.Common.IdGenerator,GetNextId</token>
-<token>Ecng.Common.RandomArray`1[[T</token>
+<entry count="18144">
+<token>Ecng.Common.Converter,GetPort</token>
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+<token>Ecng.Common.Converter,GetPort</token>
+<token>Ecng.Common.StringHelper,IsEmpty</token>
 </entry>
 <entry count="32">
 <token>Ecng.Common.SyncObject,new</token>
@@ -6251,12 +6320,16 @@
 <token>Ecng.Common.StringHelper,TrimEnd</token>
 <token>Ecng.Common.SyncObject,Pulse</token>
 </entry>
+<entry count="160">
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.TypeHelper,GetTypeName</token>
+</entry>
 <entry count="24">
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.TimeHelper,ApplyTimeZone</token>
 <token>Ecng.Common.Converter,To</token>
 </entry>
-<entry count="285284">
+<entry count="4590156">
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
@@ -6269,21 +6342,21 @@
 <token>Ecng.Common.FastCsvReader,ReadNullableLong</token>
 <token>Ecng.Common.FastCsvReader,ReadString</token>
 </entry>
-<entry count="124416">
+<entry count="127776">
 <token>Ecng.Common.XmlHelper,WriteAttribute</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.XmlHelper,WriteAttribute</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 </entry>
-<entry count="152128">
+<entry count="270560">
 <token>Ecng.Common.XmlHelper,WriteAttribute</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.XmlHelper,WriteAttribute</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 </entry>
-<entry count="98312">
+<entry count="112008">
 <token>Ecng.Common.StringHelper,ContainsIgnoreCase</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 </entry>
@@ -6292,12 +6365,10 @@
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.Converter,To</token>
 </entry>
-<entry count="168">
-<token>-&gt;</token>
-<token>p:decimal],[TSecond</token>
-<token>-&gt;</token>
-<token>p:decimal]],new</token>
-<token>Ecng.Common.RefPair`2[[TFirst</token>
+<entry count="48">
+<token>Ecng.Common.StringHelper,Put</token>
+<token>Ecng.Common.ThreadingHelper,Thread</token>
+<token>Ecng.Common.ThreadingHelper,Launch</token>
 </entry>
 <entry count="2">
 <token>Ecng.Common.TypeHelper,DoIf</token>
@@ -6314,7 +6385,18 @@
 <token>Ecng.Common.Enumerator,GetValues</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 </entry>
-<entry count="27648">
+<entry count="32">
+<token>Ecng.Common.RefTuple,Create</token>
+<token>Ecng.Common.MathHelper,Abs</token>
+<token>Ecng.Common.StringHelper,Put</token>
+</entry>
+<entry count="4096">
+<token>Ecng.Common.TimeHelper,ChangeKind</token>
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.Disposable,Dispose</token>
+</entry>
+<entry count="85184">
 <token>Ecng.Common.XmlHelper,WriteAttribute</token>
 <token>Ecng.Common.XmlHelper,WriteAttribute</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
@@ -6328,6 +6410,12 @@
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.CompareHelper,IsDefault</token>
 </entry>
+<entry count="12672">
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+<token>Ecng.Common.Converter,To</token>
+<token>Ecng.Common.StringHelper,IsEmpty</token>
+</entry>
 <entry count="40">
 <token>Ecng.Common.DelegateHelper,SafeInvoke</token>
 <token>Ecng.Common.StringHelper,CompareIgnoreCase</token>
@@ -6339,7 +6427,7 @@
 <token>Ecng.Common.FastCsvReader,ReadNullableDecimal</token>
 <token>Ecng.Common.FastCsvReader,ReadNullableBool</token>
 </entry>
-<entry count="8312">
+<entry count="13516">
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.Disposable,Dispose</token>
@@ -6348,10 +6436,15 @@
 <token>Ecng.Common.ArrayHelper,Reverse</token>
 <token>Ecng.Common.ArrayHelper,Concat</token>
 </entry>
-<entry count="331904">
+<entry count="703104">
 <token>Ecng.Common.XmlHelper,WriteAttribute</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
+</entry>
+<entry count="23328">
+<token>Ecng.Common.Converter,GetHost</token>
+<token>Ecng.Common.Converter,GetHost</token>
+<token>Ecng.Common.Converter,GetPort</token>
 </entry>
 <entry count="16">
 <token>Ecng.Common.FastCsvReader,ReadNullableDecimal</token>
@@ -6359,7 +6452,7 @@
 <token>Ecng.Common.FastCsvReader,ReadNullableEnum</token>
 <token>Ecng.Common.FastCsvReader,ReadNullableEnum</token>
 </entry>
-<entry count="64">
+<entry count="512">
 <token>Ecng.Common.StringHelper,CompareIgnoreCase</token>
 <token>Ecng.Common.StringHelper,Split</token>
 <token>Ecng.Common.StringHelper,Put</token>
@@ -6394,7 +6487,7 @@
 <token>Ecng.Common.StringHelper,ContainsIgnoreCase</token>
 <token>Ecng.Common.StringHelper,CompareIgnoreCase</token>
 </entry>
-<entry count="497920">
+<entry count="735104">
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.XmlHelper,WriteAttribute</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
@@ -6404,7 +6497,7 @@
 <token>Ecng.Common.TypeHelper,Make</token>
 <token>Ecng.Common.TypeHelper,CreateInstance</token>
 </entry>
-<entry count="48">
+<entry count="96">
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.StringHelper,Split</token>
 <token>Ecng.Common.StringHelper,IsEmpty</token>
@@ -6414,7 +6507,7 @@
 <token>Ecng.Common.TimeHelper,ToLocalTime</token>
 <token>Ecng.Common.DelegateHelper,SafeInvoke</token>
 </entry>
-<entry count="16">
+<entry count="1670">
 <token>Ecng.Common.StringHelper,Put</token>
 <token>Ecng.Common.StringHelper,Put</token>
 <token>Ecng.Common.StringHelper,Put</token>
@@ -6423,7 +6516,7 @@
 <token>Ecng.Common.StringHelper,IsEmpty</token>
 <token>Ecng.Common.TypeHelper,Throw</token>
 </entry>
-<entry count="560">
+<entry count="15680">
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.Converter,To</token>
 <token>Ecng.Common.TypeHelper,CreateInstance</token>
@@ -6433,11 +6526,6 @@
 <token>Ecng.Common.FastCsvReader,ReadString</token>
 <token>Ecng.Common.FastCsvReader,ReadString</token>
 <token>Ecng.Common.FastCsvReader,ReadString</token>
-</entry>
-<entry count="8">
-<token>Ecng.Common.RandomArray`1[[T</token>
-<token>-&gt;</token>
-<token>p:int]],new</token>
 </entry>
 <entry count="24">
 <token>Ecng.Common.StringHelper,IsEmpty</token>

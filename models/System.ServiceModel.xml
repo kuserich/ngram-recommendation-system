@@ -1,675 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?><dictionary case_sensitive="false">
-<entry count="4">
-<token>System.ServiceModel.InstanceContext,new</token>
-<token>System.ServiceModel.ClientBase`1[[TChannel</token>
-<token>-&gt;</token>
-</entry>
-<entry count="1">
-<token>System.ServiceModel.EndpointAddress,new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:Contoso.Provisioning.Hybrid.ISharePointProvisioningChannel,</token>
-<token>Provisioning.Hybrid.Test.Console]],new</token>
-</entry>
-<entry count="2">
-<token>-&gt;</token>
-<token>i:Stact.Internal.WcfChannel`1[[T</token>
-<token>-&gt;</token>
-<token>Stact.Internal.WcfMessageEnvelope,</token>
-</entry>
 <entry count="6">
-<token>MPExtended.Services.TVAccessService.Interfaces,</token>
-<token>0.5.0.0]],new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-</entry>
-<entry count="8">
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:Web.Wcf.IClaimsService,</token>
-</entry>
-<entry count="1">
-<token>Provisioning.Hybrid.Worker]],new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:Contoso.Provisioning.Hybrid.ISharePointProvisioningChannel,</token>
-<token>Provisioning.Hybrid.Worker]],CreateChannel</token>
-</entry>
-<entry count="4">
-<token>System.ServiceModel.EndpointAddress,new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:StockSharp.Algo.IDailyInfoSoap,</token>
-<token>Algo]],new</token>
-</entry>
-<entry count="1">
-<token>i:Contoso.Provisioning.Hybrid.ISharePointProvisioningChannel,</token>
-<token>Provisioning.Hybrid.Test.Console]],new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-</entry>
-<entry count="4">
-<token>Raven.Database]],CreateChannel</token>
-<token>System.ServiceModel.ICommunicationObject,Close</token>
-<token>System.ServiceModel.ICommunicationObject,Abort</token>
-</entry>
-<entry count="28">
-<token>System.ServiceModel.EndpointAddress,new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:Rhino.Licensing.ILicensingService,</token>
-</entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>TService]],new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-</entry>
-<entry count="6">
-<token>System.ServiceModel.InstanceContext,new</token>
-<token>System.ServiceModel.DuplexChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-</entry>
-<entry count="1">
-<token>i:Contoso.Provisioning.Hybrid.ISharePointProvisioningChannel,</token>
-<token>Provisioning.Hybrid.Test.Console]],new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:Contoso.Provisioning.Hybrid.ISharePointProvisioningChannel,</token>
-</entry>
-<entry count="12">
-<token>i:Touryo.Infrastructure.Framework.Transmission.IWCFTCPSvcForFx,</token>
-<token>Framework]],new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-</entry>
-<entry count="7">
-<token>-&gt;</token>
-<token>TService]],new</token>
-</entry>
-<entry count="1">
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>TService]],new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-</entry>
-<entry count="1">
-<token>System.ServiceModel.NetTcpContextBinding,new</token>
 <token>System.ServiceModel.NetNamedPipeBinding,new</token>
-<token>System.ServiceModel.ServiceHost,AddServiceEndpoint</token>
-<token>System.ServiceModel.ServiceHost,AddServiceEndpoint</token>
-<token>System.ServiceModel.ServiceHost,AddServiceEndpoint</token>
-</entry>
-<entry count="2">
-<token>-&gt;</token>
-<token>Stact.Internal.WcfMessageEnvelope,</token>
-<token>Stact]],</token>
-<token>Stact]],CreateChannel</token>
-</entry>
-<entry count="4">
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:Stact.Internal.WcfChannel`1[[T</token>
-<token>-&gt;</token>
-</entry>
-<entry count="12">
-<token>Framework]],new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-</entry>
-<entry count="1">
-<token>i:CefSharp.Internals.IBrowserProcess,</token>
-<token>CefSharp]],new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-</entry>
-<entry count="1">
-<token>Provisioning.Hybrid.Worker]],CreateChannel</token>
-<token>System.ServiceModel.ICommunicationObject,Open</token>
-</entry>
-<entry count="4">
-<token>System.ServiceModel.BasicHttpBinding,new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:MPExtended.Services.TVAccessService.Interfaces.ITVAccessService,</token>
-<token>MPExtended.Services.TVAccessService.Interfaces,</token>
-</entry>
-<entry count="6">
-<token>System.ServiceModel.InstanceContext,new</token>
-<token>System.ServiceModel.DuplexChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:ClearCanvas.Enterprise.Common.TransactionNotifier+ITransactionNotifierChannel,</token>
-<token>ClearCanvas.Enterprise.Common]],new</token>
-</entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>i:Contoso.Provisioning.Hybrid.ISharePointProvisioningChannel,</token>
-<token>Provisioning.Hybrid.Test.Console]],CreateChannel</token>
-<token>System.ServiceModel.ICommunicationObject,Open</token>
-</entry>
-<entry count="7">
-<token>System.ServiceModel.EndpointAddress,new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>TService]],new</token>
-</entry>
-<entry count="2">
-<token>System.ServiceModel.NetNamedPipeBinding,new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-</entry>
-<entry count="8">
-<token>System.ServiceModel.EndpointAddress,new</token>
-<token>System.ServiceModel.BasicHttpBinding,new</token>
-</entry>
-<entry count="1">
-<token>i:Contoso.Provisioning.Hybrid.ISharePointProvisioningChannel,</token>
-<token>Provisioning.Hybrid.Worker]],CreateChannel</token>
-<token>System.ServiceModel.ICommunicationObject,Open</token>
-<token>System.ServiceModel.ICommunicationObject,Close</token>
-</entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>i:Contoso.Provisioning.Hybrid.ISharePointProvisioningChannel,</token>
-<token>Provisioning.Hybrid.Test.Console]],new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-</entry>
-<entry count="12">
-<token>System.ServiceModel.ServiceAuthorizationManager,CheckAccessCore</token>
-<token>System.ServiceModel.ServiceSecurityContext,new</token>
-</entry>
-<entry count="1">
-<token>i:Contoso.Provisioning.Hybrid.ISharePointProvisioningChannel,</token>
-<token>Provisioning.Hybrid.Worker]],new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-</entry>
-<entry count="4">
-<token>-&gt;</token>
-<token>i:ClearCanvas.Dicom.ServiceModel.Streaming.IHeaderStreamingService,</token>
-<token>ClearCanvas.Dicom]],Open</token>
-</entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>i:Contoso.Provisioning.Hybrid.ISharePointProvisioningChannel,</token>
-<token>Provisioning.Hybrid.Worker]],CreateChannel</token>
-<token>System.ServiceModel.ICommunicationObject,Open</token>
-</entry>
-<entry count="1">
-<token>System.ServiceModel.ServiceHost,new</token>
-<token>System.ServiceModel.BasicHttpContextBinding,new</token>
-<token>System.ServiceModel.NetTcpContextBinding,new</token>
-<token>System.ServiceModel.NetNamedPipeBinding,new</token>
-<token>System.ServiceModel.ServiceHost,AddServiceEndpoint</token>
-</entry>
-<entry count="1">
-<token>TService]],new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-</entry>
-<entry count="1">
-<token>Provisioning.Hybrid.Test.Console]],CreateChannel</token>
-<token>System.ServiceModel.ICommunicationObject,Open</token>
-<token>System.ServiceModel.ICommunicationObject,Close</token>
-</entry>
-<entry count="7">
-<token>-&gt;</token>
-<token>i:System.ServiceModel.Security.IWSTrustChannelContract,</token>
-<token>System.ServiceModel,</token>
-</entry>
-<entry count="1">
-<token>System.ServiceModel.WSHttpBinding,new</token>
-<token>System.ServiceModel.EndpointAddress,new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:ClearCanvas.ImageServer.Common.ServiceModel.IProductVerificationService,</token>
-</entry>
-<entry count="1">
-<token>Provisioning.Hybrid.Test.Console]],new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:Contoso.Provisioning.Hybrid.ISharePointProvisioningChannel,</token>
-</entry>
-<entry count="12">
-<token>-&gt;</token>
-<token>i:Touryo.Infrastructure.Framework.Transmission.IWCFTCPSvcForFx,</token>
-<token>Framework]],new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-</entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>i:Contoso.Provisioning.Hybrid.ISharePointProvisioningChannel,</token>
-<token>Provisioning.Hybrid.Worker]],new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-</entry>
-<entry count="4">
-<token>System.ServiceModel.EndpointAddress,new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>T]],new</token>
-</entry>
-<entry count="1">
-<token>CefSharp]],new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:CefSharp.Internals.IBrowserProcess,</token>
-<token>CefSharp]],CreateChannel</token>
-</entry>
-<entry count="2">
-<token>System.ServiceModel.BasicHttpBinding,new</token>
-<token>System.ServiceModel.EndpointAddress,new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:Succinctly.Web.IProductService,</token>
-</entry>
-<entry count="2">
-<token>System.ServiceModel.EndpointAddress,new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:CruiseControl.Common.ICommunicationsChannel,</token>
-<token>CruiseControl.Common]],CreateChannel</token>
-</entry>
-<entry count="4">
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:Web.Wcf.IClaimsService,</token>
-<token>Web]],new</token>
-</entry>
-<entry count="3">
-<token>System.ServiceModel.ServiceHost,AddServiceEndpoint</token>
-<token>System.ServiceModel.WebHttpBinding,new</token>
-<token>System.ServiceModel.ServiceHost,AddServiceEndpoint</token>
-</entry>
-<entry count="28">
-<token>-&gt;</token>
-<token>i:Rhino.Licensing.ILicensingService,</token>
-</entry>
-<entry count="1">
-<token>System.ServiceModel.EndpointAddress,new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>TService]],new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
+<token>System.ServiceModel.ChannelFactory,new</token>
 </entry>
 <entry count="2">
 <token>System.ServiceModel.EndpointAddress,new</token>
 <token>System.ServiceModel.NetNamedPipeBinding,new</token>
-</entry>
-<entry count="6">
-<token>-&gt;</token>
-<token>i:MPExtended.Services.TVAccessService.Interfaces.ITVAccessService,</token>
-<token>MPExtended.Services.TVAccessService.Interfaces,</token>
-<token>0.5.0.0]],new</token>
-</entry>
-<entry count="4">
-<token>-&gt;</token>
-<token>T]],new</token>
-</entry>
-<entry count="85">
-<token>System.ServiceModel.WSHttpBinding,new</token>
 <token>System.ServiceModel.EndpointAddress,new</token>
+<token>System.ServiceModel.NetNamedPipeBinding,new</token>
 </entry>
-<entry count="1">
-<token>i:CefSharp.Internals.IBrowserProcess,</token>
-<token>CefSharp]],new</token>
-</entry>
-<entry count="8">
+<entry count="16">
 <token>System.ServiceModel.ServiceHost,AddServiceEndpoint</token>
 <token>System.ServiceModel.ServiceHostBase,AddServiceEndpoint</token>
+<token>System.ServiceModel.ServiceHostBase,AddServiceEndpoint</token>
 </entry>
-<entry count="2">
-<token>System.ServiceModel.EndpointAddress,new</token>
+<entry count="1">
+<token>System.ServiceModel.BasicHttpContextBinding,new</token>
+<token>System.ServiceModel.NetTcpContextBinding,new</token>
 <token>System.ServiceModel.NetNamedPipeBinding,new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
+<token>System.ServiceModel.ServiceHost,AddServiceEndpoint</token>
 </entry>
-<entry count="28">
-<token>System.ServiceModel.EndpointAddress,new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:Rhino.Licensing.ILicensingService,</token>
-<token>Raven.Database]],CreateChannel</token>
-</entry>
-<entry count="7">
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>TService]],new</token>
-</entry>
-<entry count="6">
-<token>0.5.0.0]],new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-</entry>
-<entry count="112">
+<entry count="4">
 <token>System.ServiceModel.WSHttpBinding,new</token>
-<token>System.ServiceModel.ServiceHost,AddServiceEndpoint</token>
-</entry>
-<entry count="2">
-<token>System.ServiceModel.NetNamedPipeBinding,new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:MPExtended.Services.TVAccessService.Interfaces.ITVAccessService,</token>
+<token>System.ServiceModel.EndpointAddress,new</token>
+<token>System.ServiceModel.ChannelFactory,new</token>
 </entry>
 <entry count="1">
-<token>System.ServiceModel.NetTcpContextBinding,new</token>
 <token>System.ServiceModel.NetNamedPipeBinding,new</token>
 <token>System.ServiceModel.ServiceHost,AddServiceEndpoint</token>
 <token>System.ServiceModel.ServiceHost,AddServiceEndpoint</token>
-</entry>
-<entry count="4">
-<token>System.ServiceModel.EndpointAddress,new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:Web.Wcf.IClaimsService,</token>
-<token>Web]],new</token>
-</entry>
-<entry count="12">
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:Touryo.Infrastructure.Framework.Transmission.IWCFTCPSvcForFx,</token>
-<token>Framework]],new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-</entry>
-<entry count="4">
-<token>System.ServiceModel.InstanceContext,new</token>
-<token>System.ServiceModel.ClientBase`1[[TChannel</token>
-</entry>
-<entry count="2">
-<token>-&gt;</token>
-<token>i:Provisioning.Hybrid.Simple.Common.ISiteRequest,</token>
-<token>Provisioning.Hybrid.Simple.Common]],new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-</entry>
-<entry count="1">
-<token>i:Contoso.Provisioning.Hybrid.ISharePointProvisioningChannel,</token>
-<token>Provisioning.Hybrid.Test.Console]],CreateChannel</token>
-</entry>
-<entry count="12">
-<token>i:Touryo.Infrastructure.Framework.Transmission.IWCFTCPSvcForFx,</token>
-<token>Framework]],new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-</entry>
-<entry count="12">
-<token>Framework]],new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:Touryo.Infrastructure.Framework.Transmission.IWCFTCPSvcForFx,</token>
-</entry>
-<entry count="6">
-<token>-&gt;</token>
-<token>i:Touryo.Infrastructure.Framework.Transmission.IWCFTCPSvcForFx,</token>
-<token>Framework]],CreateChannel</token>
-<token>System.ServiceModel.ICommunicationObject,Close</token>
-</entry>
-<entry count="4">
-<token>ClearCanvas.Dicom]],Open</token>
-<token>System.ServiceModel.ClientBase`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:ClearCanvas.Dicom.ServiceModel.Streaming.IHeaderStreamingService,</token>
-</entry>
-<entry count="4">
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>T]],new</token>
-</entry>
-<entry count="2">
-<token>System.ServiceModel.EndpointAddress,new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:Succinctly.Web.IProductService,</token>
-</entry>
-<entry count="2">
-<token>i:Stact.Internal.WcfChannel`1[[T</token>
-<token>-&gt;</token>
-<token>T]],</token>
-</entry>
-<entry count="28">
-<token>-&gt;</token>
-<token>i:Rhino.Licensing.ILicensingService,</token>
-<token>Raven.Database]],CreateChannel</token>
-<token>System.ServiceModel.ICommunicationObject,Close</token>
-</entry>
-<entry count="12">
-<token>Framework]],new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-</entry>
-<entry count="1">
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:CefSharp.Internals.IBrowserProcess,</token>
-<token>CefSharp]],new</token>
-</entry>
-<entry count="2">
-<token>Provisioning.Hybrid.Simple.Common]],new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-</entry>
-<entry count="6">
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:ClearCanvas.Enterprise.Common.TransactionNotifier+ITransactionNotifierChannel,</token>
-<token>ClearCanvas.Enterprise.Common]],CreateChannel</token>
-</entry>
-<entry count="2">
-<token>System.ServiceModel.EndpointAddress,new</token>
-<token>System.ServiceModel.NetTcpBinding,new</token>
-</entry>
-<entry count="1">
-<token>System.ServiceModel.ServiceHost,AddServiceEndpoint</token>
-<token>System.ServiceModel.ServiceHost,AddServiceEndpoint</token>
 <token>System.ServiceModel.ServiceHost,AddServiceEndpoint</token>
 </entry>
-<entry count="1">
-<token>i:CefSharp.Internals.IBrowserProcess,</token>
-<token>CefSharp]],new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:CefSharp.Internals.IBrowserProcess,</token>
-</entry>
-<entry count="3">
-<token>System.ServiceModel.NetTcpBinding,new</token>
+<entry count="2">
 <token>System.ServiceModel.EndpointAddress,new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-</entry>
-<entry count="1">
-<token>Provisioning.Hybrid.Test.Console]],CreateChannel</token>
-<token>System.ServiceModel.ICommunicationObject,Open</token>
-</entry>
-<entry count="2">
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:Stact.Internal.WcfChannel`1[[T</token>
-<token>-&gt;</token>
-<token>T]],</token>
-</entry>
-<entry count="2">
 <token>System.ServiceModel.NetNamedPipeBinding,new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:MPExtended.Services.TVAccessService.Interfaces.ITVAccessService,</token>
-<token>MPExtended.Services.TVAccessService.Interfaces,</token>
-</entry>
-<entry count="1">
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:Contoso.Provisioning.Hybrid.ISharePointProvisioningChannel,</token>
-<token>Provisioning.Hybrid.Worker]],CreateChannel</token>
-<token>System.ServiceModel.ICommunicationObject,Open</token>
-</entry>
-<entry count="1">
-<token>System.ServiceModel.ServiceHost,new</token>
-<token>System.ServiceModel.BasicHttpContextBinding,new</token>
-<token>System.ServiceModel.NetTcpContextBinding,new</token>
+<token>System.ServiceModel.EndpointAddress,new</token>
 <token>System.ServiceModel.NetNamedPipeBinding,new</token>
-</entry>
-<entry count="1">
-<token>System.ServiceModel.ServiceHost,new</token>
-<token>System.ServiceModel.BasicHttpContextBinding,new</token>
-</entry>
-<entry count="2">
-<token>-&gt;</token>
-<token>i:Provisioning.Hybrid.Simple.Common.ISiteRequest,</token>
-<token>Provisioning.Hybrid.Simple.Common]],new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-</entry>
-<entry count="4">
-<token>i:ClearCanvas.Dicom.ServiceModel.Streaming.IHeaderStreamingService,</token>
-<token>ClearCanvas.Dicom]],Open</token>
-<token>System.ServiceModel.ClientBase`1[[TChannel</token>
-</entry>
-<entry count="1">
-<token>CefSharp]],new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:CefSharp.Internals.IBrowserProcess,</token>
-</entry>
-<entry count="2">
-<token>i:Provisioning.Hybrid.Simple.Common.ISiteRequest,</token>
-<token>Provisioning.Hybrid.Simple.Common]],new</token>
-</entry>
-<entry count="2">
-<token>-&gt;</token>
-<token>i:Succinctly.Web.IProductService,</token>
-</entry>
-<entry count="4">
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:Web.Wcf.IClaimsService,</token>
-<token>Web]],CreateChannelWithIssuedToken</token>
-</entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>i:Contoso.Provisioning.Hybrid.ISharePointProvisioningChannel,</token>
-<token>Provisioning.Hybrid.Worker]],CreateChannel</token>
-<token>System.ServiceModel.ICommunicationObject,Open</token>
-<token>System.ServiceModel.ICommunicationObject,Close</token>
-</entry>
-<entry count="4">
-<token>System.ServiceModel.EndpointAddress,new</token>
-<token>System.ServiceModel.BasicHttpBinding,new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-</entry>
-<entry count="1">
-<token>Provisioning.Hybrid.Test.Console]],new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-</entry>
-<entry count="1">
-<token>System.ServiceModel.BasicHttpBinding,new</token>
-<token>System.ServiceModel.EndpointAddress,new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>TService]],new</token>
-</entry>
-<entry count="4">
-<token>-&gt;</token>
-<token>i:StockSharp.Algo.IDailyInfoSoap,</token>
-<token>Algo]],new</token>
-</entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>i:CefSharp.Internals.IBrowserProcess,</token>
-<token>CefSharp]],CreateChannel</token>
-<token>System.ServiceModel.ICommunicationObject,Open</token>
-</entry>
-<entry count="6">
-<token>i:MPExtended.Services.TVAccessService.Interfaces.ITVAccessService,</token>
-<token>MPExtended.Services.TVAccessService.Interfaces,</token>
-<token>0.5.0.0]],CreateChannel</token>
-</entry>
-<entry count="2">
-<token>i:Provisioning.Hybrid.Simple.Common.ISiteRequest,</token>
-<token>Provisioning.Hybrid.Simple.Common]],new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-</entry>
-<entry count="6">
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:MPExtended.Services.TVAccessService.Interfaces.ITVAccessService,</token>
-<token>MPExtended.Services.TVAccessService.Interfaces,</token>
-<token>0.5.0.0]],CreateChannel</token>
-</entry>
-<entry count="4">
-<token>System.ServiceModel.EndpointAddress,new</token>
-<token>System.ServiceModel.BasicHttpBinding,new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:MPExtended.Services.TVAccessService.Interfaces.ITVAccessService,</token>
-</entry>
-<entry count="4">
-<token>-&gt;</token>
-<token>i:Web.Wcf.IClaimsService,</token>
-<token>Web]],new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-</entry>
-<entry count="12">
-<token>-&gt;</token>
-<token>i:MPExtended.Services.TVAccessService.Interfaces.ITVAccessService,</token>
-<token>MPExtended.Services.TVAccessService.Interfaces,</token>
-</entry>
-<entry count="1">
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:CefSharp.Internals.IBrowserProcess,</token>
-<token>CefSharp]],CreateChannel</token>
-<token>System.ServiceModel.ICommunicationObject,Open</token>
-</entry>
-<entry count="6">
-<token>i:MPExtended.Services.TVAccessService.Interfaces.ITVAccessService,</token>
-<token>MPExtended.Services.TVAccessService.Interfaces,</token>
-<token>0.5.0.0]],new</token>
-</entry>
-<entry count="6">
-<token>ClearCanvas.Enterprise.Common]],new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:ClearCanvas.Enterprise.Common.TransactionNotifier+ITransactionNotifierChannel,</token>
-<token>ClearCanvas.Enterprise.Common]],CreateChannel</token>
-</entry>
-<entry count="7">
-<token>System.ServiceModel.ClientBase`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:ClearCanvas.Dicom.ServiceModel.Streaming.IHeaderStreamingService,</token>
-<token>ClearCanvas.Dicom]],Close</token>
+<token>System.ServiceModel.ChannelFactory,new</token>
 </entry>
 <entry count="4">
 <token>System.ServiceModel.WS2007FederationHttpBinding,new</token>
 <token>System.ServiceModel.EndpointAddress,new</token>
 </entry>
-<entry count="11567">
+<entry count="29">
+<token>System.ServiceModel.WSHttpBinding,new</token>
+<token>System.ServiceModel.EndpointAddress,new</token>
+<token>System.ServiceModel.ChannelFactory,CreateChannel</token>
+</entry>
+<entry count="327751">
 <token>System.ServiceModel.BasicHttpBinding,new</token>
 <token>System.ServiceModel.EndpointAddress,new</token>
 </entry>
-<entry count="4">
-<token>-&gt;</token>
-<token>i:Contoso.Provisioning.Hybrid.ISharePointProvisioningChannel,</token>
-</entry>
-<entry count="2">
-<token>Stact.Internal.WcfMessageEnvelope,</token>
-<token>Stact]],</token>
-</entry>
 <entry count="1">
-<token>System.ServiceModel.EndpointAddress,new</token>
-<token>System.ServiceModel.ClientBase`1[[TChannel</token>
-</entry>
-<entry count="2">
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:Succinctly.Web.IProductService,</token>
+<token>System.ServiceModel.NetTcpBinding,new</token>
+<token>System.ServiceModel.NetTcpBinding,new</token>
 </entry>
 <entry count="50">
 <token>System.ServiceModel.NetTcpBinding,new</token>
 <token>System.ServiceModel.EndpointAddress,new</token>
 </entry>
-<entry count="3">
-<token>System.ServiceModel.NetTcpBinding,new</token>
-<token>System.ServiceModel.EndpointAddress,new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:Ninject.Extensions.Interception.Fakes.IFooService,</token>
-</entry>
 <entry count="9">
 <token>System.ServiceModel.ServiceHost,new</token>
 <token>System.ServiceModel.ServiceHost,AddServiceEndpoint</token>
@@ -685,1275 +74,60 @@
 <token>System.ServiceModel.NetNamedPipeBinding,new</token>
 <token>System.ServiceModel.ServiceHost,AddServiceEndpoint</token>
 </entry>
-<entry count="1">
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:Contoso.Provisioning.Hybrid.ISharePointProvisioningChannel,</token>
-<token>Provisioning.Hybrid.Test.Console]],new</token>
-</entry>
-<entry count="6">
-<token>MPExtended.Services.TVAccessService.Interfaces,</token>
-<token>0.5.0.0]],new</token>
-</entry>
-<entry count="1">
-<token>System.ServiceModel.EndpointAddress,new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:ClearCanvas.ImageServer.Common.ServiceModel.IProductVerificationService,</token>
-</entry>
-<entry count="4">
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:StockSharp.Algo.IDailyInfoSoap,</token>
-<token>Algo]],new</token>
-</entry>
-<entry count="6">
-<token>System.ServiceModel.DuplexChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:ClearCanvas.Enterprise.Common.TransactionNotifier+ITransactionNotifierChannel,</token>
-<token>ClearCanvas.Enterprise.Common]],new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-</entry>
-<entry count="4">
-<token>-&gt;</token>
-<token>i:Web.Wcf.IClaimsService,</token>
-<token>Web]],new</token>
-</entry>
-<entry count="1">
-<token>System.ServiceModel.BasicHttpContextBinding,new</token>
-<token>System.ServiceModel.NetTcpContextBinding,new</token>
+<entry count="14">
 <token>System.ServiceModel.NetNamedPipeBinding,new</token>
-<token>System.ServiceModel.ServiceHost,AddServiceEndpoint</token>
-<token>System.ServiceModel.ServiceHost,AddServiceEndpoint</token>
-</entry>
-<entry count="2">
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:Provisioning.Hybrid.Simple.Common.ISiteRequest,</token>
-<token>Provisioning.Hybrid.Simple.Common]],new</token>
+<token>System.ServiceModel.EndpointAddress,new</token>
 </entry>
 <entry count="6">
-<token>System.ServiceModel.DuplexChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-</entry>
-<entry count="12">
-<token>i:Touryo.Infrastructure.Framework.Transmission.IWCFTCPSvcForFx,</token>
-<token>Framework]],CreateChannel</token>
-</entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>TService]],new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-</entry>
-<entry count="2">
-<token>Stact]],</token>
-<token>Stact]],CreateChannel</token>
-<token>System.ServiceModel.ICommunicationObject,Close</token>
-</entry>
-<entry count="6">
-<token>i:ClearCanvas.Enterprise.Common.TransactionNotifier+ITransactionNotifierChannel,</token>
-<token>ClearCanvas.Enterprise.Common]],new</token>
-</entry>
-<entry count="2">
-<token>-&gt;</token>
-<token>i:Rhino.Licensing.ISubscriptionLicensingService,</token>
-<token>Raven.Database]],CreateChannel</token>
-<token>System.ServiceModel.ICommunicationObject,Close</token>
-</entry>
-<entry count="2">
-<token>i:Succinctly.Web.IProductService,</token>
-<token>Web]],CreateChannel</token>
-</entry>
-<entry count="2">
-<token>System.ServiceModel.NetTcpBinding,new</token>
-<token>System.ServiceModel.EndpointAddress,new</token>
-<token>System.ServiceModel.ClientBase`1[[TChannel]],new</token>
-</entry>
-<entry count="2">
-<token>i:Stact.Internal.WcfChannel`1[[T</token>
-<token>-&gt;</token>
-<token>T]],</token>
-<token>Stact]],CreateChannel</token>
-</entry>
-<entry count="3">
-<token>-&gt;</token>
-<token>i:Ninject.Extensions.Interception.Fakes.IFooService,</token>
-<token>Ninject.Extensions.Interception.Tests]],CreateChannel</token>
-</entry>
-<entry count="12">
-<token>i:Touryo.Infrastructure.Framework.Transmission.IWCFTCPSvcForFx,</token>
-<token>Framework]],new</token>
-</entry>
-<entry count="4">
-<token>i:Rhino.Licensing.ILicensingService,</token>
-<token>Raven.Database]],CreateChannel</token>
-<token>System.ServiceModel.ICommunicationObject,Close</token>
-<token>System.ServiceModel.ICommunicationObject,Abort</token>
-</entry>
-<entry count="4">
-<token>Web]],new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-</entry>
-<entry count="1">
-<token>i:System.ServiceModel.Security.IWSTrustChannelContract,</token>
-<token>System.ServiceModel,</token>
-<token>4.0.0.0]],CreateChannelWithIssuedToken</token>
-</entry>
-<entry count="1">
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:Contoso.Provisioning.Hybrid.ISharePointProvisioningChannel,</token>
-<token>Provisioning.Hybrid.Test.Console]],new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-</entry>
-<entry count="15">
-<token>System.ServiceModel.ClientBase`1[[TChannel</token>
-<token>-&gt;</token>
-</entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>TService]],CreateChannel</token>
-<token>System.ServiceModel.ICommunicationObject,Close</token>
-</entry>
-<entry count="3">
-<token>System.ServiceModel.BasicHttpBinding,new</token>
-<token>System.ServiceModel.ClientBase`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:ClearCanvas.Dicom.ServiceModel.Streaming.IHeaderStreamingService,</token>
-<token>ClearCanvas.Dicom]],Close</token>
-</entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>i:ClearCanvas.ImageServer.Common.ServiceModel.IProductVerificationService,</token>
-<token>ClearCanvas.ImageServer.Common]],CreateChannel</token>
-</entry>
-<entry count="1">
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:System.ServiceModel.Security.IWSTrustChannelContract,</token>
-<token>System.ServiceModel,</token>
-<token>4.0.0.0]],CreateChannelWithIssuedToken</token>
-</entry>
-<entry count="2">
-<token>-&gt;</token>
-<token>i:Stact.Internal.WcfChannel`1[[T</token>
-<token>-&gt;</token>
-<token>T]],</token>
-<token>Stact]],CreateChannel</token>
-</entry>
-<entry count="12">
-<token>-&gt;</token>
-<token>i:MPExtended.Services.TVAccessService.Interfaces.ITVAccessService,</token>
-</entry>
-<entry count="2">
-<token>-&gt;</token>
-<token>T]],</token>
-<token>Stact]],CreateChannel</token>
-<token>System.ServiceModel.ICommunicationObject,Close</token>
-</entry>
-<entry count="2">
-<token>System.ServiceModel.EndpointAddress,new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel]],new</token>
-</entry>
-<entry count="4">
-<token>System.ServiceModel.BasicHttpsBinding,new</token>
-<token>System.ServiceModel.EndpointAddress,new</token>
-</entry>
-<entry count="1">
-<token>System.ServiceModel,</token>
-<token>4.0.0.0]],CreateChannelWithIssuedToken</token>
-</entry>
-<entry count="2">
-<token>Stact]],</token>
-<token>Stact]],CreateChannel</token>
-</entry>
-<entry count="4">
-<token>-&gt;</token>
-<token>i:ClearCanvas.ImageViewer.Common.WorkItem.IWorkItemActivityMonitorService,</token>
-</entry>
-<entry count="4">
-<token>i:ClearCanvas.ImageViewer.Common.WorkItem.IWorkItemActivityMonitorService,</token>
-<token>ClearCanvas.ImageViewer.Common]],Open</token>
-</entry>
-<entry count="4">
-<token>System.ServiceModel.ClientBase`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:ClearCanvas.ImageViewer.Common.WorkItem.IWorkItemActivityMonitorService,</token>
-</entry>
-<entry count="12">
-<token>Framework]],new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:Touryo.Infrastructure.Framework.Transmission.IWCFTCPSvcForFx,</token>
-<token>Framework]],CreateChannel</token>
-</entry>
-<entry count="1">
-<token>i:CefSharp.Internals.IBrowserProcess,</token>
-<token>CefSharp]],CreateChannel</token>
-<token>System.ServiceModel.ICommunicationObject,Open</token>
-</entry>
-<entry count="33">
-<token>System.ServiceModel.NetTcpBinding,new</token>
-<token>System.ServiceModel.ServiceHost,AddServiceEndpoint</token>
-</entry>
-<entry count="4">
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:Stact.Internal.WcfChannel`1[[T</token>
-</entry>
-<entry count="28">
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:Rhino.Licensing.ILicensingService,</token>
-<token>Raven.Database]],CreateChannel</token>
-</entry>
-<entry count="2">
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:CruiseControl.Common.ICommunicationsChannel,</token>
-<token>CruiseControl.Common]],CreateChannel</token>
-</entry>
-<entry count="1">
-<token>System.ServiceModel.ICommunicationObject,BeginClose</token>
-<token>System.ServiceModel.ICommunicationObject,EndClose</token>
-</entry>
-<entry count="4">
-<token>-&gt;</token>
-<token>i:Rhino.Licensing.ISubscriptionLicensingService,</token>
-<token>Raven.Database]],CreateChannel</token>
-</entry>
-<entry count="2">
-<token>i:Stact.Internal.WcfChannel`1[[T</token>
-<token>-&gt;</token>
-<token>Stact.Internal.WcfMessageEnvelope,</token>
-<token>Stact]],</token>
-<token>Stact]],CreateChannel</token>
-</entry>
-<entry count="1">
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:ClearCanvas.ImageServer.Common.ServiceModel.IProductVerificationService,</token>
-</entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>i:Contoso.Provisioning.Hybrid.ISharePointProvisioningChannel,</token>
-<token>Provisioning.Hybrid.Test.Console]],new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-</entry>
-<entry count="6">
-<token>Framework]],CreateChannel</token>
-<token>System.ServiceModel.ICommunicationObject,Close</token>
-</entry>
-<entry count="4">
-<token>i:Web.Wcf.IClaimsService,</token>
-<token>Web]],CreateChannelWithIssuedToken</token>
-</entry>
-<entry count="1">
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>TService]],CreateChannel</token>
-<token>System.ServiceModel.ICommunicationObject,Close</token>
-</entry>
-<entry count="28">
-<token>i:Rhino.Licensing.ILicensingService,</token>
-<token>Raven.Database]],CreateChannel</token>
-<token>System.ServiceModel.ICommunicationObject,Close</token>
-</entry>
-<entry count="3">
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:Ninject.Extensions.Interception.Fakes.IFooService,</token>
-<token>Ninject.Extensions.Interception.Tests]],CreateChannel</token>
-</entry>
-<entry count="2">
-<token>System.ServiceModel.EndpointAddress,new</token>
-<token>System.ServiceModel.NetTcpBinding,new</token>
-<token>System.ServiceModel.EndpointAddress,new</token>
-</entry>
-<entry count="4">
-<token>System.ServiceModel.WSHttpBinding,new</token>
-<token>System.ServiceModel.EndpointAddress,new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>TService]],new</token>
-</entry>
-<entry count="6">
-<token>System.ServiceModel.EndpointAddress,new</token>
-<token>System.ServiceModel.EndpointAddress,new</token>
-</entry>
-<entry count="1">
-<token>i:Contoso.Provisioning.Hybrid.ISharePointProvisioningChannel,</token>
-<token>Provisioning.Hybrid.Worker]],new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-</entry>
-<entry count="6">
-<token>ClearCanvas.Enterprise.Common]],new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-</entry>
-<entry count="4">
-<token>System.ServiceModel.WS2007FederationHttpBinding,new</token>
-<token>System.ServiceModel.EndpointAddress,new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-</entry>
-<entry count="2">
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:CefSharp.Internals.IBrowserProcess,</token>
-</entry>
-<entry count="3">
-<token>System.ServiceModel.EndpointAddress,new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:Ninject.Extensions.Interception.Fakes.IFooService,</token>
-<token>Ninject.Extensions.Interception.Tests]],CreateChannel</token>
-</entry>
-<entry count="9">
-<token>System.ServiceModel.ServiceHost,new</token>
-<token>System.ServiceModel.ServiceHost,AddServiceEndpoint</token>
-<token>System.ServiceModel.NetTcpBinding,new</token>
-</entry>
-<entry count="1">
-<token>System.ServiceModel.EndpointAddress,new</token>
-<token>System.ServiceModel.BasicHttpBinding,new</token>
-<token>System.ServiceModel.EndpointAddress,new</token>
-</entry>
-<entry count="28">
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:Rhino.Licensing.ILicensingService,</token>
-<token>Raven.Database]],CreateChannel</token>
-<token>System.ServiceModel.ICommunicationObject,Close</token>
-</entry>
-<entry count="1">
-<token>Provisioning.Hybrid.Worker]],CreateChannel</token>
-<token>System.ServiceModel.ICommunicationObject,Open</token>
-<token>System.ServiceModel.ICommunicationObject,Close</token>
-</entry>
-<entry count="3">
-<token>System.ServiceModel.BasicHttpBinding,new</token>
-<token>System.ServiceModel.ClientBase`1[[TChannel</token>
-<token>-&gt;</token>
-</entry>
-<entry count="28">
-<token>-&gt;</token>
-<token>i:Rhino.Licensing.ILicensingService,</token>
-<token>Raven.Database]],CreateChannel</token>
-</entry>
-<entry count="2">
-<token>-&gt;</token>
-<token>i:CruiseControl.Common.ICommunicationsChannel,</token>
-<token>CruiseControl.Common]],CreateChannel</token>
-</entry>
-<entry count="7">
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:System.ServiceModel.Security.IWSTrustChannelContract,</token>
-<token>System.ServiceModel,</token>
-</entry>
-<entry count="4">
-<token>i:Stact.Internal.WcfChannel`1[[T</token>
-<token>-&gt;</token>
-</entry>
-<entry count="2">
-<token>System.ServiceModel.EndpointAddress,new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:Provisioning.Hybrid.Simple.Common.ISiteRequest,</token>
-</entry>
-<entry count="1">
-<token>System.ServiceModel.ServiceHost,new</token>
-<token>System.ServiceModel.BasicHttpContextBinding,new</token>
-<token>System.ServiceModel.NetTcpContextBinding,new</token>
-</entry>
-<entry count="6">
-<token>System.ServiceModel.DuplexChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:ClearCanvas.Enterprise.Common.TransactionNotifier+ITransactionNotifierChannel,</token>
-</entry>
-<entry count="4">
-<token>ClearCanvas.Dicom]],Open</token>
-<token>System.ServiceModel.ClientBase`1[[TChannel</token>
-</entry>
-<entry count="7">
-<token>System.ServiceModel.EndpointAddress,new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:System.ServiceModel.Security.IWSTrustChannelContract,</token>
-<token>System.ServiceModel,</token>
-</entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>i:CefSharp.Internals.IBrowserProcess,</token>
-<token>CefSharp]],new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-</entry>
-<entry count="2">
-<token>i:Provisioning.Hybrid.Simple.Common.ISiteRequest,</token>
-<token>Provisioning.Hybrid.Simple.Common]],CreateChannel</token>
-</entry>
-<entry count="7">
-<token>i:ClearCanvas.Dicom.ServiceModel.Streaming.IHeaderStreamingService,</token>
-<token>ClearCanvas.Dicom]],Close</token>
-</entry>
-<entry count="8">
-<token>-&gt;</token>
-<token>i:Web.Wcf.IClaimsService,</token>
-</entry>
-<entry count="4">
-<token>System.ServiceModel.EndpointAddress,new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:Rhino.Licensing.ISubscriptionLicensingService,</token>
-</entry>
-<entry count="4">
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:Rhino.Licensing.ISubscriptionLicensingService,</token>
-<token>Raven.Database]],CreateChannel</token>
-</entry>
-<entry count="33">
-<token>System.ServiceModel.WSHttpBinding,new</token>
-<token>System.ServiceModel.EndpointAddress,new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-</entry>
-<entry count="1">
-<token>TService]],new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>TService]],CreateChannel</token>
-</entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>i:Contoso.Provisioning.Hybrid.ISharePointProvisioningChannel,</token>
-<token>Provisioning.Hybrid.Test.Console]],new</token>
-</entry>
-<entry count="2">
-<token>i:Stact.Internal.WcfChannel`1[[T</token>
-<token>-&gt;</token>
-<token>T]],</token>
-<token>Stact]],CreateChannel</token>
-<token>System.ServiceModel.ICommunicationObject,Close</token>
-</entry>
-<entry count="1">
-<token>Provisioning.Hybrid.Worker]],new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-</entry>
-<entry count="6">
-<token>-&gt;</token>
-<token>i:ClearCanvas.Enterprise.Common.TransactionNotifier+ITransactionNotifierChannel,</token>
-<token>ClearCanvas.Enterprise.Common]],CreateChannel</token>
+<token>System.ServiceModel.DuplexChannelFactory,new</token>
+<token>System.ServiceModel.ChannelFactory,CreateChannel</token>
 <token>System.ServiceModel.ICommunicationObject,Open</token>
 </entry>
 <entry count="4">
 <token>System.ServiceModel.EndpointAddress,new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:Rhino.Licensing.ISubscriptionLicensingService,</token>
-<token>Raven.Database]],CreateChannel</token>
-</entry>
-<entry count="9">
-<token>System.ServiceModel.ServiceHost,AddServiceEndpoint</token>
-<token>System.ServiceModel.NetTcpBinding,new</token>
-<token>System.ServiceModel.ServiceHost,AddServiceEndpoint</token>
-</entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>TService]],new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>TService]],CreateChannel</token>
-</entry>
-<entry count="1">
-<token>i:CefSharp.Internals.IBrowserProcess,</token>
-<token>CefSharp]],CreateChannel</token>
-</entry>
-<entry count="6">
-<token>0.5.0.0]],new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:MPExtended.Services.TVAccessService.Interfaces.ITVAccessService,</token>
-<token>MPExtended.Services.TVAccessService.Interfaces,</token>
+<token>System.ServiceModel.ChannelFactory,new</token>
+<token>System.ServiceModel.ChannelFactory,CreateChannelWithIssuedToken</token>
 </entry>
 <entry count="1">
 <token>System.ServiceModel.EndpointAddress,new</token>
-<token>System.ServiceModel.ClientBase`1[[TChannel</token>
-<token>-&gt;</token>
+<token>System.ServiceModel.ClientBase,Open</token>
+<token>System.ServiceModel.ClientBase,Close</token>
 </entry>
 <entry count="6">
-<token>i:ClearCanvas.Enterprise.Common.TransactionNotifier+ITransactionNotifierChannel,</token>
-<token>ClearCanvas.Enterprise.Common]],new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:ClearCanvas.Enterprise.Common.TransactionNotifier+ITransactionNotifierChannel,</token>
-</entry>
-<entry count="2">
-<token>-&gt;</token>
-<token>T]],</token>
-<token>Stact]],CreateChannel</token>
-</entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>i:CefSharp.Internals.IBrowserProcess,</token>
-<token>CefSharp]],new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-</entry>
-<entry count="6">
-<token>-&gt;</token>
-<token>i:ClearCanvas.Enterprise.Common.TransactionNotifier+ITransactionNotifierChannel,</token>
-<token>ClearCanvas.Enterprise.Common]],CreateChannel</token>
-</entry>
-<entry count="1">
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:Contoso.Provisioning.Hybrid.ISharePointProvisioningChannel,</token>
-<token>Provisioning.Hybrid.Worker]],new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-</entry>
-<entry count="6">
-<token>ClearCanvas.Enterprise.Common]],new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-</entry>
-<entry count="1">
-<token>Provisioning.Hybrid.Worker]],new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:Contoso.Provisioning.Hybrid.ISharePointProvisioningChannel,</token>
-</entry>
-<entry count="6">
-<token>-&gt;</token>
-<token>i:System.ServiceModel.Security.IWSTrustChannelContract,</token>
-<token>System.ServiceModel,</token>
-<token>4.0.0.0]],CreateChannel</token>
-</entry>
-<entry count="4">
-<token>i:Web.Wcf.IClaimsService,</token>
-<token>Web]],new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-</entry>
-<entry count="1">
-<token>i:Contoso.Provisioning.Hybrid.ISharePointProvisioningChannel,</token>
-<token>Provisioning.Hybrid.Worker]],new</token>
-</entry>
-<entry count="4">
-<token>i:Web.Wcf.IClaimsService,</token>
-<token>Web]],new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:Web.Wcf.IClaimsService,</token>
-</entry>
-<entry count="6">
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:MPExtended.Services.TVAccessService.Interfaces.ITVAccessService,</token>
-<token>MPExtended.Services.TVAccessService.Interfaces,</token>
-<token>0.5.0.0]],new</token>
-</entry>
-<entry count="2">
 <token>System.ServiceModel.BasicHttpBinding,new</token>
 <token>System.ServiceModel.EndpointAddress,new</token>
-<token>System.ServiceModel.NetTcpBinding,new</token>
-<token>System.ServiceModel.EndpointAddress,new</token>
-</entry>
-<entry count="12">
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:MPExtended.Services.TVAccessService.Interfaces.ITVAccessService,</token>
-<token>MPExtended.Services.TVAccessService.Interfaces,</token>
-</entry>
-<entry count="1">
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:Contoso.Provisioning.Hybrid.ISharePointProvisioningChannel,</token>
-<token>Provisioning.Hybrid.Test.Console]],CreateChannel</token>
-</entry>
-<entry count="11">
-<token>-&gt;</token>
-<token>i:ClearCanvas.Dicom.ServiceModel.Streaming.IHeaderStreamingService,</token>
-</entry>
-<entry count="1">
-<token>CefSharp]],new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-</entry>
-<entry count="7">
-<token>System.ServiceModel.EndpointAddress,new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:System.ServiceModel.Security.IWSTrustChannelContract,</token>
-</entry>
-<entry count="7">
-<token>-&gt;</token>
-<token>i:System.ServiceModel.Security.IWSTrustChannelContract,</token>
-</entry>
-<entry count="6">
-<token>-&gt;</token>
-<token>i:ClearCanvas.Enterprise.Common.TransactionNotifier+ITransactionNotifierChannel,</token>
-<token>ClearCanvas.Enterprise.Common]],new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-</entry>
-<entry count="3">
-<token>System.ServiceModel.EndpointAddress,new</token>
-<token>System.ServiceModel.BasicHttpBinding,new</token>
-<token>System.ServiceModel.ClientBase`1[[TChannel</token>
-</entry>
-<entry count="4">
-<token>Web]],new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:Web.Wcf.IClaimsService,</token>
-</entry>
-<entry count="8">
-<token>System.ServiceModel.NetNamedPipeBinding,new</token>
-<token>System.ServiceModel.EndpointAddress,new</token>
-</entry>
-<entry count="3">
-<token>System.ServiceModel.EndpointAddress,new</token>
-<token>System.ServiceModel.BasicHttpBinding,new</token>
-<token>System.ServiceModel.ClientBase`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:ClearCanvas.Dicom.ServiceModel.Streaming.IHeaderStreamingService,</token>
-</entry>
-<entry count="6">
-<token>System.ServiceModel.InstanceContext,new</token>
-<token>System.ServiceModel.DuplexChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:ClearCanvas.Enterprise.Common.TransactionNotifier+ITransactionNotifierChannel,</token>
-</entry>
-<entry count="1">
-<token>TService]],new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>TService]],CreateChannel</token>
-<token>System.ServiceModel.ICommunicationObject,Close</token>
-</entry>
-<entry count="1">
-<token>TService]],new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-</entry>
-<entry count="1">
-<token>System.ServiceModel.EndpointAddress,new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:CefSharp.Internals.IBrowserProcess,</token>
-</entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>i:System.ServiceModel.Security.IWSTrustChannelContract,</token>
-<token>System.ServiceModel,</token>
-<token>4.0.0.0]],CreateChannelWithIssuedToken</token>
-</entry>
-<entry count="4">
-<token>System.ServiceModel.EndpointAddress,new</token>
-<token>System.ServiceModel.BasicHttpBinding,new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-</entry>
-<entry count="12">
-<token>-&gt;</token>
-<token>i:ClearCanvas.Enterprise.Common.TransactionNotifier+ITransactionNotifierChannel,</token>
-</entry>
-<entry count="12">
-<token>System.ServiceModel.EndpointAddress,new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:Touryo.Infrastructure.Framework.Transmission.IWCFTCPSvcForFx,</token>
-</entry>
-<entry count="4">
-<token>System.ServiceModel.WS2007FederationHttpBinding,new</token>
-<token>System.ServiceModel.EndpointAddress,new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:Web.Wcf.IClaimsService,</token>
-</entry>
-<entry count="24">
-<token>-&gt;</token>
-<token>i:Touryo.Infrastructure.Framework.Transmission.IWCFTCPSvcForFx,</token>
-</entry>
-<entry count="2">
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:Rhino.Licensing.ISubscriptionLicensingService,</token>
-<token>Raven.Database]],CreateChannel</token>
-<token>System.ServiceModel.ICommunicationObject,Close</token>
-</entry>
-<entry count="2">
-<token>System.ServiceModel.EndpointAddress,new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:Provisioning.Hybrid.Simple.Common.ISiteRequest,</token>
-<token>Provisioning.Hybrid.Simple.Common]],new</token>
-</entry>
-<entry count="4">
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:StockSharp.Algo.IDailyInfoSoap,</token>
-</entry>
-<entry count="2">
-<token>i:Stact.Internal.WcfChannel`1[[T</token>
-<token>-&gt;</token>
-<token>Stact.Internal.WcfMessageEnvelope,</token>
-<token>Stact]],</token>
-</entry>
-<entry count="1">
-<token>System.ServiceModel.NetNamedPipeBinding,new</token>
-<token>System.ServiceModel.ServiceHost,AddServiceEndpoint</token>
-<token>System.ServiceModel.ServiceHost,AddServiceEndpoint</token>
-</entry>
-<entry count="6">
-<token>MPExtended.Services.TVAccessService.Interfaces,</token>
-<token>0.5.0.0]],new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-</entry>
-<entry count="2">
-<token>i:Rhino.Licensing.ISubscriptionLicensingService,</token>
-<token>Raven.Database]],CreateChannel</token>
-<token>System.ServiceModel.ICommunicationObject,Close</token>
-</entry>
-<entry count="4">
-<token>i:ClearCanvas.Dicom.ServiceModel.Streaming.IHeaderStreamingService,</token>
-<token>ClearCanvas.Dicom]],Open</token>
-</entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>i:Contoso.Provisioning.Hybrid.ISharePointProvisioningChannel,</token>
-<token>Provisioning.Hybrid.Test.Console]],CreateChannel</token>
-<token>System.ServiceModel.ICommunicationObject,Open</token>
-<token>System.ServiceModel.ICommunicationObject,Close</token>
-</entry>
-<entry count="1">
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>TService]],CreateChannel</token>
-</entry>
-<entry count="12">
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:Touryo.Infrastructure.Framework.Transmission.IWCFTCPSvcForFx,</token>
-<token>Framework]],CreateChannel</token>
-</entry>
-<entry count="4">
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:Rhino.Licensing.ISubscriptionLicensingService,</token>
-</entry>
-<entry count="4">
-<token>-&gt;</token>
-<token>i:Rhino.Licensing.ILicensingService,</token>
-<token>Raven.Database]],CreateChannel</token>
-<token>System.ServiceModel.ICommunicationObject,Close</token>
-<token>System.ServiceModel.ICommunicationObject,Abort</token>
-</entry>
-<entry count="3">
-<token>System.ServiceModel.EndpointAddress,new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:Ninject.Extensions.Interception.Fakes.IFooService,</token>
-</entry>
-<entry count="6">
-<token>i:Touryo.Infrastructure.Framework.Transmission.IWCFTCPSvcForFx,</token>
-<token>Framework]],CreateChannel</token>
-<token>System.ServiceModel.ICommunicationObject,Close</token>
-</entry>
-<entry count="6">
-<token>MPExtended.Services.TVAccessService.Interfaces,</token>
-<token>0.5.0.0]],CreateChannel</token>
-</entry>
-<entry count="2">
-<token>i:Provisioning.Hybrid.Simple.Common.ISiteRequest,</token>
-<token>Provisioning.Hybrid.Simple.Common]],new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-</entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>i:Contoso.Provisioning.Hybrid.ISharePointProvisioningChannel,</token>
-<token>Provisioning.Hybrid.Worker]],CreateChannel</token>
-</entry>
-<entry count="6">
-<token>ClearCanvas.Enterprise.Common]],new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:ClearCanvas.Enterprise.Common.TransactionNotifier+ITransactionNotifierChannel,</token>
-</entry>
-<entry count="6">
-<token>-&gt;</token>
-<token>i:MPExtended.Services.TVAccessService.Interfaces.ITVAccessService,</token>
-<token>MPExtended.Services.TVAccessService.Interfaces,</token>
-<token>0.5.0.0]],new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-</entry>
-<entry count="4">
-<token>-&gt;</token>
-<token>i:Stact.Internal.WcfChannel`1[[T</token>
-</entry>
-<entry count="1">
-<token>CefSharp]],new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-</entry>
-<entry count="2">
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:Provisioning.Hybrid.Simple.Common.ISiteRequest,</token>
-<token>Provisioning.Hybrid.Simple.Common]],CreateChannel</token>
-</entry>
-<entry count="2">
-<token>System.ServiceModel.EndpointAddress,new</token>
-<token>System.ServiceModel.ClientBase`1[[TChannel]],new</token>
-</entry>
-<entry count="2">
-<token>Provisioning.Hybrid.Simple.Common]],new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-</entry>
-<entry count="3">
-<token>System.ServiceModel.WebHttpBinding,new</token>
-<token>System.ServiceModel.ServiceHost,AddServiceEndpoint</token>
-<token>System.ServiceModel.WebHttpBinding,new</token>
-<token>System.ServiceModel.ServiceHost,AddServiceEndpoint</token>
-</entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>i:CefSharp.Internals.IBrowserProcess,</token>
-<token>CefSharp]],new</token>
-</entry>
-<entry count="4">
-<token>-&gt;</token>
-<token>i:StockSharp.Algo.IDailyInfoSoap,</token>
+<token>System.ServiceModel.ChannelFactory,CreateChannel</token>
 </entry>
 <entry count="1">
 <token>System.ServiceModel.BasicHttpBinding,new</token>
 <token>System.ServiceModel.EndpointAddress,new</token>
-<token>System.ServiceModel.BasicHttpBinding,new</token>
-<token>System.ServiceModel.EndpointAddress,new</token>
-</entry>
-<entry count="6">
-<token>ClearCanvas.Enterprise.Common]],CreateChannel</token>
-<token>System.ServiceModel.ICommunicationObject,Open</token>
-</entry>
-<entry count="6">
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:Touryo.Infrastructure.Framework.Transmission.IWCFTCPSvcForFx,</token>
-<token>Framework]],CreateChannel</token>
-<token>System.ServiceModel.ICommunicationObject,Close</token>
-</entry>
-<entry count="7">
-<token>i:System.ServiceModel.Security.IWSTrustChannelContract,</token>
-<token>System.ServiceModel,</token>
+<token>System.ServiceModel.ChannelFactory,new</token>
+<token>System.ServiceModel.ChannelFactory,CreateChannel</token>
 </entry>
 <entry count="4">
-<token>System.ServiceModel.EndpointAddress,new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:StockSharp.Algo.IDailyInfoSoap,</token>
-</entry>
-<entry count="3">
-<token>-&gt;</token>
-<token>i:Ninject.Extensions.Interception.Fakes.IFooService,</token>
-</entry>
-<entry count="12">
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:Touryo.Infrastructure.Framework.Transmission.IWCFTCPSvcForFx,</token>
-<token>Framework]],new</token>
-</entry>
-<entry count="1">
 <token>System.ServiceModel.BasicHttpBinding,new</token>
-<token>System.ServiceModel.ServiceHost,new</token>
-<token>System.ServiceModel.ServiceHost,AddServiceEndpoint</token>
-</entry>
-<entry count="1">
-<token>Provisioning.Hybrid.Test.Console]],new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-</entry>
-<entry count="12">
-<token>System.ServiceModel.EndpointAddress,new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:Touryo.Infrastructure.Framework.Transmission.IWCFTCPSvcForFx,</token>
-<token>Framework]],new</token>
-</entry>
-<entry count="3">
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:Ninject.Extensions.Interception.Fakes.IFooService,</token>
-</entry>
-<entry count="1">
-<token>System.ServiceModel.ICommunicationObject,BeginOpen</token>
-<token>System.ServiceModel.ICommunicationObject,EndOpen</token>
-</entry>
-<entry count="1">
-<token>System.ServiceModel.EndpointAddress,new</token>
-<token>System.ServiceModel.ClientBase`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:ClearCanvas.Dicom.ServiceModel.Streaming.IHeaderStreamingService,</token>
-</entry>
-<entry count="3">
-<token>System.ServiceModel.BasicHttpBinding,new</token>
-<token>System.ServiceModel.ClientBase`1[[TChannel</token>
-</entry>
-<entry count="2">
 <token>System.ServiceModel.EndpointAddress,new</token>
 <token>System.ServiceModel.NetNamedPipeBinding,new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:MPExtended.Services.TVAccessService.Interfaces.ITVAccessService,</token>
+<token>System.ServiceModel.ChannelFactory,new</token>
+<token>System.ServiceModel.ChannelFactory,CreateChannel</token>
 </entry>
-<entry count="2">
+<entry count="1">
 <token>System.ServiceModel.BasicHttpBinding,new</token>
 <token>System.ServiceModel.EndpointAddress,new</token>
-<token>System.ServiceModel.NetTcpBinding,new</token>
-</entry>
-<entry count="2">
-<token>System.ServiceModel.NetNamedPipeBinding,new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-</entry>
-<entry count="4">
-<token>System.ServiceModel.ClientBase`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:ClearCanvas.ImageViewer.Common.WorkItem.IWorkItemActivityMonitorService,</token>
-<token>ClearCanvas.ImageViewer.Common]],Open</token>
-</entry>
-<entry count="4">
-<token>i:ClearCanvas.Dicom.ServiceModel.Streaming.IHeaderStreamingService,</token>
-<token>ClearCanvas.Dicom]],Open</token>
-<token>System.ServiceModel.ClientBase`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:ClearCanvas.Dicom.ServiceModel.Streaming.IHeaderStreamingService,</token>
-</entry>
-<entry count="1">
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:ClearCanvas.ImageServer.Common.ServiceModel.IProductVerificationService,</token>
-<token>ClearCanvas.ImageServer.Common]],CreateChannel</token>
-</entry>
-<entry count="3">
-<token>System.ServiceModel.ServiceHost,AddServiceEndpoint</token>
-<token>System.ServiceModel.ServiceHost,AddServiceEndpoint</token>
-</entry>
-<entry count="2">
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:Provisioning.Hybrid.Simple.Common.ISiteRequest,</token>
-<token>Provisioning.Hybrid.Simple.Common]],new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-</entry>
-<entry count="1">
-<token>i:Contoso.Provisioning.Hybrid.ISharePointProvisioningChannel,</token>
-<token>Provisioning.Hybrid.Test.Console]],new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-</entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>i:Contoso.Provisioning.Hybrid.ISharePointProvisioningChannel,</token>
-<token>Provisioning.Hybrid.Test.Console]],CreateChannel</token>
-</entry>
-<entry count="2">
-<token>System.ServiceModel.EndpointAddress,new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:CruiseControl.Common.ICommunicationsChannel,</token>
-</entry>
-<entry count="1">
-<token>System.ServiceModel.EndpointAddress,new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:ClearCanvas.ImageServer.Common.ServiceModel.IProductVerificationService,</token>
-<token>ClearCanvas.ImageServer.Common]],CreateChannel</token>
-</entry>
-<entry count="1">
-<token>System.ServiceModel.EndpointAddress,new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:CefSharp.Internals.IBrowserProcess,</token>
-<token>CefSharp]],new</token>
-</entry>
-<entry count="1">
-<token>System.ServiceModel.ServiceHost,new</token>
-<token>System.ServiceModel.ServiceHost,new</token>
-</entry>
-<entry count="6">
-<token>System.ServiceModel.InstanceContext,new</token>
-<token>System.ServiceModel.DuplexChannelFactory`1[[TChannel</token>
-</entry>
-<entry count="12">
-<token>-&gt;</token>
-<token>i:Touryo.Infrastructure.Framework.Transmission.IWCFTCPSvcForFx,</token>
-<token>Framework]],new</token>
-</entry>
-<entry count="4">
-<token>ClearCanvas.Dicom]],Open</token>
-<token>System.ServiceModel.ClientBase`1[[TChannel</token>
-<token>-&gt;</token>
-</entry>
-<entry count="4">
-<token>Web]],new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:Web.Wcf.IClaimsService,</token>
-<token>Web]],CreateChannelWithIssuedToken</token>
-</entry>
-<entry count="11">
-<token>System.ServiceModel.NetNamedPipeBinding,new</token>
-<token>System.ServiceModel.ServiceHost,AddServiceEndpoint</token>
-</entry>
-<entry count="2">
-<token>-&gt;</token>
-<token>i:CruiseControl.Common.ICommunicationsChannel,</token>
-</entry>
-<entry count="1">
-<token>System.ServiceModel.EndpointAddress,new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:Contoso.Provisioning.Hybrid.ISharePointProvisioningChannel,</token>
-<token>Provisioning.Hybrid.Worker]],new</token>
-</entry>
-<entry count="4">
-<token>i:StockSharp.Algo.IDailyInfoSoap,</token>
-<token>Algo]],new</token>
-</entry>
-<entry count="4">
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:Contoso.Provisioning.Hybrid.ISharePointProvisioningChannel,</token>
-</entry>
-<entry count="1">
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:Contoso.Provisioning.Hybrid.ISharePointProvisioningChannel,</token>
-<token>Provisioning.Hybrid.Worker]],new</token>
-</entry>
-<entry count="16">
-<token>System.ServiceModel.WebHttpBinding,new</token>
-<token>System.ServiceModel.ServiceHost,AddServiceEndpoint</token>
-</entry>
-<entry count="4">
-<token>System.ServiceModel.BasicHttpBinding,new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:MPExtended.Services.TVAccessService.Interfaces.ITVAccessService,</token>
-</entry>
-<entry count="4">
-<token>Stact]],CreateChannel</token>
+<token>System.ServiceModel.ChannelFactory,new</token>
+<token>System.ServiceModel.ChannelFactory,CreateChannel</token>
 <token>System.ServiceModel.ICommunicationObject,Close</token>
 </entry>
-<entry count="2">
-<token>Stact.Internal.WcfMessageEnvelope,</token>
-<token>Stact]],</token>
-<token>Stact]],CreateChannel</token>
-<token>System.ServiceModel.ICommunicationObject,Close</token>
-</entry>
-<entry count="2">
-<token>-&gt;</token>
-<token>Stact.Internal.WcfMessageEnvelope,</token>
-<token>Stact]],</token>
-<token>Stact]],CreateChannel</token>
-<token>System.ServiceModel.ICommunicationObject,Close</token>
-</entry>
-<entry count="1">
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:CefSharp.Internals.IBrowserProcess,</token>
-<token>CefSharp]],CreateChannel</token>
-</entry>
-<entry count="2">
-<token>-&gt;</token>
-<token>i:CefSharp.Internals.IBrowserProcess,</token>
-</entry>
-<entry count="4">
-<token>System.ServiceModel.BasicHttpBinding,new</token>
-<token>System.ServiceModel.EndpointAddress,new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:Rhino.Licensing.ISubscriptionLicensingService,</token>
-</entry>
-<entry count="6">
-<token>MPExtended.Services.TVAccessService.Interfaces,</token>
-<token>0.5.0.0]],new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:MPExtended.Services.TVAccessService.Interfaces.ITVAccessService,</token>
-</entry>
-<entry count="6">
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:ClearCanvas.Enterprise.Common.TransactionNotifier+ITransactionNotifierChannel,</token>
-</entry>
-<entry count="2">
-<token>System.ServiceModel.NetNamedPipeBinding,new</token>
-<token>System.ServiceModel.EndpointAddress,new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel]],new</token>
-</entry>
-<entry count="2">
-<token>-&gt;</token>
-<token>i:Provisioning.Hybrid.Simple.Common.ISiteRequest,</token>
-<token>Provisioning.Hybrid.Simple.Common]],new</token>
-</entry>
-<entry count="1">
-<token>System.ServiceModel.ServiceHost,AddServiceEndpoint</token>
-<token>System.ServiceModel.EndpointAddress,new</token>
-</entry>
-<entry count="4">
-<token>-&gt;</token>
-<token>i:Web.Wcf.IClaimsService,</token>
-<token>Web]],new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-</entry>
-<entry count="24">
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:Touryo.Infrastructure.Framework.Transmission.IWCFTCPSvcForFx,</token>
-</entry>
-<entry count="1">
-<token>i:Contoso.Provisioning.Hybrid.ISharePointProvisioningChannel,</token>
-<token>Provisioning.Hybrid.Test.Console]],CreateChannel</token>
-<token>System.ServiceModel.ICommunicationObject,Open</token>
-</entry>
-<entry count="6">
-<token>i:System.ServiceModel.Security.IWSTrustChannelContract,</token>
-<token>System.ServiceModel,</token>
-<token>4.0.0.0]],CreateChannel</token>
-</entry>
-<entry count="2">
-<token>System.ServiceModel.EndpointAddress,new</token>
-<token>System.ServiceModel.NetNamedPipeBinding,new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-</entry>
-<entry count="83">
-<token>System.ServiceModel.EndpointAddress,new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-</entry>
-<entry count="2">
-<token>System.ServiceModel.EndpointAddress,new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:Contoso.Provisioning.Hybrid.ISharePointProvisioningChannel,</token>
-</entry>
-<entry count="1">
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:Contoso.Provisioning.Hybrid.ISharePointProvisioningChannel,</token>
-<token>Provisioning.Hybrid.Worker]],CreateChannel</token>
-</entry>
 <entry count="12">
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:MPExtended.Services.TVAccessService.Interfaces.ITVAccessService,</token>
-</entry>
-<entry count="6">
-<token>-&gt;</token>
-<token>i:MPExtended.Services.TVAccessService.Interfaces.ITVAccessService,</token>
-<token>MPExtended.Services.TVAccessService.Interfaces,</token>
-<token>0.5.0.0]],CreateChannel</token>
-</entry>
-<entry count="1">
-<token>System.ServiceModel.BasicHttpContextBinding,new</token>
-<token>System.ServiceModel.NetTcpContextBinding,new</token>
-<token>System.ServiceModel.NetNamedPipeBinding,new</token>
-<token>System.ServiceModel.ServiceHost,AddServiceEndpoint</token>
-</entry>
-<entry count="1">
-<token>System.ServiceModel.NetNamedPipeBinding,new</token>
-<token>System.ServiceModel.ServiceHost,AddServiceEndpoint</token>
-<token>System.ServiceModel.ServiceHost,AddServiceEndpoint</token>
-<token>System.ServiceModel.ServiceHost,AddServiceEndpoint</token>
-</entry>
-<entry count="12">
-<token>i:MPExtended.Services.TVAccessService.Interfaces.ITVAccessService,</token>
-<token>MPExtended.Services.TVAccessService.Interfaces,</token>
-</entry>
-<entry count="2">
-<token>Stact.Internal.WcfMessageEnvelope,</token>
-<token>Stact]],</token>
-<token>Stact]],CreateChannel</token>
-</entry>
-<entry count="6">
-<token>i:ClearCanvas.Enterprise.Common.TransactionNotifier+ITransactionNotifierChannel,</token>
-<token>ClearCanvas.Enterprise.Common]],CreateChannel</token>
-<token>System.ServiceModel.ICommunicationObject,Open</token>
-</entry>
-<entry count="83">
-<token>System.ServiceModel.EndpointAddress,new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-</entry>
-<entry count="1">
-<token>System.ServiceModel.NetTcpBinding,new</token>
-<token>System.ServiceModel.NetTcpBinding,new</token>
-</entry>
-<entry count="12">
-<token>-&gt;</token>
-<token>i:Touryo.Infrastructure.Framework.Transmission.IWCFTCPSvcForFx,</token>
-<token>Framework]],CreateChannel</token>
-</entry>
-<entry count="3">
-<token>System.ServiceModel.NetTcpBinding,new</token>
-<token>System.ServiceModel.EndpointAddress,new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-</entry>
-<entry count="3">
-<token>System.ServiceModel.EndpointAddress,new</token>
 <token>System.ServiceModel.BasicHttpBinding,new</token>
-<token>System.ServiceModel.ClientBase`1[[TChannel</token>
-<token>-&gt;</token>
+<token>System.ServiceModel.ChannelFactory,new</token>
 </entry>
-<entry count="1">
-<token>i:Contoso.Provisioning.Hybrid.ISharePointProvisioningChannel,</token>
-<token>Provisioning.Hybrid.Worker]],CreateChannel</token>
-<token>System.ServiceModel.ICommunicationObject,Open</token>
-</entry>
-<entry count="2">
-<token>Provisioning.Hybrid.Simple.Common]],new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:Provisioning.Hybrid.Simple.Common.ISiteRequest,</token>
-</entry>
-<entry count="4">
-<token>i:Rhino.Licensing.ISubscriptionLicensingService,</token>
-<token>Raven.Database]],CreateChannel</token>
-</entry>
-<entry count="6">
-<token>i:ClearCanvas.Enterprise.Common.TransactionNotifier+ITransactionNotifierChannel,</token>
-<token>ClearCanvas.Enterprise.Common]],new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-</entry>
-<entry count="6">
-<token>-&gt;</token>
-<token>i:ClearCanvas.Enterprise.Common.TransactionNotifier+ITransactionNotifierChannel,</token>
-<token>ClearCanvas.Enterprise.Common]],new</token>
-</entry>
-<entry count="3">
-<token>System.ServiceModel.BasicHttpBinding,new</token>
-<token>System.ServiceModel.ClientBase`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:ClearCanvas.Dicom.ServiceModel.Streaming.IHeaderStreamingService,</token>
-</entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>i:ClearCanvas.ImageServer.Common.ServiceModel.IProductVerificationService,</token>
-</entry>
-<entry count="11">
-<token>System.ServiceModel.BasicHttpBinding,new</token>
+<entry count="40">
 <token>System.ServiceModel.EndpointAddress,new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-</entry>
-<entry count="1">
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:Contoso.Provisioning.Hybrid.ISharePointProvisioningChannel,</token>
-<token>Provisioning.Hybrid.Test.Console]],CreateChannel</token>
-<token>System.ServiceModel.ICommunicationObject,Open</token>
+<token>System.ServiceModel.EndpointAddress,new</token>
+<token>System.ServiceModel.EndpointAddress,new</token>
+<token>System.ServiceModel.EndpointAddress,new</token>
+<token>System.ServiceModel.EndpointAddress,new</token>
 </entry>
 <entry count="2">
 <token>System.ServiceModel.ServiceHost,new</token>
@@ -1963,382 +137,426 @@
 <token>System.ServiceModel.ServiceHost,AddServiceEndpoint</token>
 <token>System.ServiceModel.NetTcpBinding,new</token>
 </entry>
-<entry count="6">
-<token>System.ServiceModel,</token>
-<token>4.0.0.0]],CreateChannel</token>
+<entry count="1">
+<token>System.ServiceModel.NetTcpContextBinding,new</token>
+<token>System.ServiceModel.NetNamedPipeBinding,new</token>
+<token>System.ServiceModel.ServiceHost,AddServiceEndpoint</token>
+<token>System.ServiceModel.ServiceHost,AddServiceEndpoint</token>
+<token>System.ServiceModel.ServiceHost,AddServiceEndpoint</token>
 </entry>
-<entry count="2">
-<token>i:Stact.Internal.WcfChannel`1[[T</token>
-<token>-&gt;</token>
-<token>Stact.Internal.WcfMessageEnvelope,</token>
-</entry>
-<entry count="2">
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:Stact.Internal.WcfChannel`1[[T</token>
-<token>-&gt;</token>
-<token>Stact.Internal.WcfMessageEnvelope,</token>
-</entry>
-<entry count="2">
-<token>-&gt;</token>
-<token>i:Stact.Internal.WcfChannel`1[[T</token>
-<token>-&gt;</token>
-<token>T]],</token>
-</entry>
-<entry count="4">
-<token>System.ServiceModel.WS2007FederationHttpBinding,new</token>
-<token>System.ServiceModel.EndpointAddress,new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-</entry>
-<entry count="4">
+<entry count="12">
 <token>System.ServiceModel.BasicHttpBinding,new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
+<token>System.ServiceModel.ChannelFactory,new</token>
+<token>System.ServiceModel.ChannelFactory,CreateChannel</token>
 </entry>
-<entry count="11">
-<token>System.ServiceModel.ClientBase`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:ClearCanvas.Dicom.ServiceModel.Streaming.IHeaderStreamingService,</token>
+<entry count="1">
+<token>System.ServiceModel.BasicHttpContextBinding,new</token>
+<token>System.ServiceModel.NetTcpContextBinding,new</token>
+<token>System.ServiceModel.NetNamedPipeBinding,new</token>
+<token>System.ServiceModel.ServiceHost,AddServiceEndpoint</token>
+<token>System.ServiceModel.ServiceHost,AddServiceEndpoint</token>
 </entry>
 <entry count="1">
 <token>System.ServiceModel.EndpointAddress,new</token>
-<token>System.ServiceModel.ClientBase`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:ClearCanvas.Dicom.ServiceModel.Streaming.IHeaderStreamingService,</token>
-<token>ClearCanvas.Dicom]],Open</token>
+<token>System.ServiceModel.ClientBase,Open</token>
+</entry>
+<entry count="15976">
+<token>System.ServiceModel.FaultException,new</token>
+<token>System.ServiceModel.FaultException,new</token>
+</entry>
+<entry count="1">
+<token>System.ServiceModel.NetNamedPipeBinding,new</token>
+<token>System.ServiceModel.ServiceHost,AddServiceEndpoint</token>
+<token>System.ServiceModel.ServiceHost,AddServiceEndpoint</token>
 </entry>
 <entry count="6">
-<token>0.5.0.0]],new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:MPExtended.Services.TVAccessService.Interfaces.ITVAccessService,</token>
+<token>System.ServiceModel.DuplexChannelFactory,new</token>
+<token>System.ServiceModel.ChannelFactory,CreateChannel</token>
 </entry>
-<entry count="2">
-<token>-&gt;</token>
-<token>i:Succinctly.Web.IProductService,</token>
-<token>Web]],CreateChannel</token>
+<entry count="28">
+<token>System.ServiceModel.EndpointAddress,new</token>
+<token>System.ServiceModel.BasicHttpBinding,new</token>
+</entry>
+<entry count="3">
+<token>System.ServiceModel.ChannelFactory,new</token>
+<token>System.ServiceModel.ChannelFactory,CreateChannel</token>
+<token>System.ServiceModel.ICommunicationObject,Open</token>
+</entry>
+<entry count="3">
+<token>System.ServiceModel.BasicHttpBinding,new</token>
+<token>System.ServiceModel.ClientBase,Close</token>
+</entry>
+<entry count="12">
+<token>System.ServiceModel.ServiceAuthorizationManager,CheckAccessCore</token>
+<token>System.ServiceModel.ServiceSecurityContext,new</token>
+</entry>
+<entry count="36">
+<token>System.ServiceModel.ChannelFactory,new</token>
+<token>System.ServiceModel.ChannelFactory,CreateChannel</token>
+</entry>
+<entry count="32">
+<token>System.ServiceModel.FaultException,new</token>
+<token>System.ServiceModel.FaultException,new</token>
+<token>System.ServiceModel.FaultException,new</token>
+<token>System.ServiceModel.FaultException,new</token>
+<token>System.ServiceModel.FaultException,new</token>
 </entry>
 <entry count="1">
 <token>System.ServiceModel.BasicHttpBinding,new</token>
 <token>System.ServiceModel.ServiceHost,new</token>
 </entry>
-<entry count="30">
-<token>Raven.Database]],CreateChannel</token>
+<entry count="3">
+<token>System.ServiceModel.NetTcpBinding,new</token>
+<token>System.ServiceModel.EndpointAddress,new</token>
+<token>System.ServiceModel.ChannelFactory,CreateChannel</token>
+</entry>
+<entry count="1">
+<token>System.ServiceModel.ServiceHost,new</token>
+<token>System.ServiceModel.BasicHttpContextBinding,new</token>
+<token>System.ServiceModel.NetTcpContextBinding,new</token>
+<token>System.ServiceModel.NetNamedPipeBinding,new</token>
+<token>System.ServiceModel.ServiceHost,AddServiceEndpoint</token>
+</entry>
+<entry count="2">
+<token>System.ServiceModel.BasicHttpBinding,new</token>
+<token>System.ServiceModel.EndpointAddress,new</token>
+<token>System.ServiceModel.ChannelFactory,CreateChannel</token>
 <token>System.ServiceModel.ICommunicationObject,Close</token>
 </entry>
-<entry count="4">
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:Web.Wcf.IClaimsService,</token>
-<token>Web]],new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-</entry>
-<entry count="3">
-<token>i:Ninject.Extensions.Interception.Fakes.IFooService,</token>
-<token>Ninject.Extensions.Interception.Tests]],CreateChannel</token>
-</entry>
 <entry count="1">
-<token>CefSharp]],CreateChannel</token>
-<token>System.ServiceModel.ICommunicationObject,Open</token>
+<token>System.ServiceModel.EndpointAddress,new</token>
+<token>System.ServiceModel.ChannelFactory,CreateChannelWithIssuedToken</token>
 </entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>i:Contoso.Provisioning.Hybrid.ISharePointProvisioningChannel,</token>
-<token>Provisioning.Hybrid.Worker]],new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
+<entry count="2">
+<token>System.ServiceModel.NetTcpBinding,new</token>
+<token>System.ServiceModel.EndpointAddress,new</token>
+<token>System.ServiceModel.ClientBase,new</token>
 </entry>
 <entry count="41">
 <token>System.ServiceModel.ServiceHost,new</token>
 <token>System.ServiceModel.ServiceHost,AddServiceEndpoint</token>
 </entry>
-<entry count="6">
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:System.ServiceModel.Security.IWSTrustChannelContract,</token>
-<token>System.ServiceModel,</token>
-<token>4.0.0.0]],CreateChannel</token>
+<entry count="4">
+<token>System.ServiceModel.BasicHttpsBinding,new</token>
+<token>System.ServiceModel.EndpointAddress,new</token>
+</entry>
+<entry count="3">
+<token>System.ServiceModel.WebHttpBinding,new</token>
+<token>System.ServiceModel.ServiceHost,AddServiceEndpoint</token>
+<token>System.ServiceModel.WebHttpBinding,new</token>
+<token>System.ServiceModel.ServiceHost,AddServiceEndpoint</token>
+</entry>
+<entry count="9">
+<token>System.ServiceModel.BasicHttpBinding,new</token>
+<token>System.ServiceModel.EndpointAddress,new</token>
+<token>System.ServiceModel.BasicHttpBinding,new</token>
 </entry>
 <entry count="1">
 <token>System.ServiceModel.BasicHttpBinding,new</token>
 <token>System.ServiceModel.EndpointAddress,new</token>
 <token>System.ServiceModel.BasicHttpBinding,new</token>
+<token>System.ServiceModel.EndpointAddress,new</token>
+</entry>
+<entry count="3">
+<token>System.ServiceModel.ServiceHost,AddServiceEndpoint</token>
+<token>System.ServiceModel.WebHttpBinding,new</token>
+<token>System.ServiceModel.ServiceHost,AddServiceEndpoint</token>
+</entry>
+<entry count="5">
+<token>System.ServiceModel.BasicHttpBinding,new</token>
+<token>System.ServiceModel.EndpointAddress,new</token>
+<token>System.ServiceModel.ChannelFactory,new</token>
 </entry>
 <entry count="6">
-<token>i:MPExtended.Services.TVAccessService.Interfaces.ITVAccessService,</token>
-<token>MPExtended.Services.TVAccessService.Interfaces,</token>
-<token>0.5.0.0]],new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
+<token>System.ServiceModel.InstanceContext,new</token>
+<token>System.ServiceModel.DuplexChannelFactory,new</token>
 </entry>
-<entry count="4">
-<token>System.ServiceModel.BasicHttpBinding,new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
+<entry count="352">
+<token>System.ServiceModel.EndpointAddress,new</token>
+<token>System.ServiceModel.EndpointAddress,new</token>
+<token>System.ServiceModel.EndpointAddress,new</token>
 </entry>
-<entry count="4">
-<token>i:Web.Wcf.IClaimsService,</token>
-<token>Web]],new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
+<entry count="12">
+<token>System.ServiceModel.EndpointAddress,new</token>
+<token>System.ServiceModel.NetNamedPipeBinding,new</token>
 </entry>
 <entry count="1">
 <token>System.ServiceModel.BasicHttpContextBinding,new</token>
 <token>System.ServiceModel.NetTcpContextBinding,new</token>
 <token>System.ServiceModel.NetNamedPipeBinding,new</token>
 </entry>
-<entry count="1">
-<token>i:ClearCanvas.ImageServer.Common.ServiceModel.IProductVerificationService,</token>
-<token>ClearCanvas.ImageServer.Common]],CreateChannel</token>
+<entry count="6">
+<token>System.ServiceModel.EndpointAddress,new</token>
+<token>System.ServiceModel.NetNamedPipeBinding,new</token>
+<token>System.ServiceModel.ChannelFactory,new</token>
+<token>System.ServiceModel.ChannelFactory,CreateChannel</token>
 </entry>
-<entry count="1">
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>TService]],new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
+<entry count="33">
+<token>System.ServiceModel.NetTcpBinding,new</token>
+<token>System.ServiceModel.ServiceHost,AddServiceEndpoint</token>
 </entry>
-<entry count="4">
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:Provisioning.Hybrid.Simple.Common.ISiteRequest,</token>
+<entry count="85">
+<token>System.ServiceModel.WSHttpBinding,new</token>
+<token>System.ServiceModel.EndpointAddress,new</token>
 </entry>
-<entry count="4">
-<token>-&gt;</token>
-<token>i:ClearCanvas.ImageViewer.Common.WorkItem.IWorkItemActivityMonitorService,</token>
-<token>ClearCanvas.ImageViewer.Common]],Open</token>
-</entry>
-<entry count="4">
-<token>i:Web.Wcf.IClaimsService,</token>
-<token>Web]],new</token>
-</entry>
-<entry count="2">
-<token>-&gt;</token>
-<token>Stact.Internal.WcfMessageEnvelope,</token>
-</entry>
-<entry count="4">
-<token>Web]],new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-</entry>
-<entry count="2">
-<token>-&gt;</token>
-<token>Stact.Internal.WcfMessageEnvelope,</token>
-<token>Stact]],</token>
-</entry>
-<entry count="4">
-<token>System.ServiceModel.InstanceContext,new</token>
-<token>System.ServiceModel.ClientBase`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:ClearCanvas.ImageViewer.Common.WorkItem.IWorkItemActivityMonitorService,</token>
+<entry count="544">
+<token>System.ServiceModel.FaultException,new</token>
+<token>System.ServiceModel.FaultException,new</token>
+<token>System.ServiceModel.FaultException,new</token>
+<token>System.ServiceModel.FaultException,new</token>
 </entry>
 <entry count="4">
 <token>System.ServiceModel.ICommunicationObject,Close</token>
 <token>System.ServiceModel.ICommunicationObject,Abort</token>
 </entry>
+<entry count="1">
+<token>System.ServiceModel.ICommunicationObject,BeginClose</token>
+<token>System.ServiceModel.ICommunicationObject,EndClose</token>
+</entry>
+<entry count="400">
+<token>System.ServiceModel.ServiceHost,AddServiceEndpoint</token>
+<token>System.ServiceModel.ServiceHostBase,AddServiceEndpoint</token>
+</entry>
 <entry count="3">
 <token>System.ServiceModel.WebHttpBinding,new</token>
 <token>System.ServiceModel.ServiceHost,AddServiceEndpoint</token>
 <token>System.ServiceModel.WebHttpBinding,new</token>
 </entry>
-<entry count="1">
-<token>TService]],CreateChannel</token>
+<entry count="4">
+<token>System.ServiceModel.EndpointAddress,new</token>
+<token>System.ServiceModel.ChannelFactory,CreateChannel</token>
+<token>System.ServiceModel.ICommunicationObject,Close</token>
+<token>System.ServiceModel.ICommunicationObject,Abort</token>
+</entry>
+<entry count="41">
+<token>System.ServiceModel.ChannelFactory,CreateChannel</token>
 <token>System.ServiceModel.ICommunicationObject,Close</token>
 </entry>
 <entry count="1">
-<token>Provisioning.Hybrid.Worker]],new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
+<token>System.ServiceModel.BasicHttpBinding,new</token>
+<token>System.ServiceModel.ServiceHost,new</token>
+<token>System.ServiceModel.ServiceHost,AddServiceEndpoint</token>
 </entry>
-<entry count="6">
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:ClearCanvas.Enterprise.Common.TransactionNotifier+ITransactionNotifierChannel,</token>
-<token>ClearCanvas.Enterprise.Common]],CreateChannel</token>
+<entry count="9">
+<token>System.ServiceModel.ChannelFactory,CreateChannel</token>
 <token>System.ServiceModel.ICommunicationObject,Open</token>
 </entry>
-<entry count="4">
-<token>-&gt;</token>
-<token>i:Stact.Internal.WcfChannel`1[[T</token>
-<token>-&gt;</token>
+<entry count="6">
+<token>System.ServiceModel.EndpointAddress,new</token>
+<token>System.ServiceModel.NetNamedPipeBinding,new</token>
+<token>System.ServiceModel.ChannelFactory,new</token>
 </entry>
-<entry count="7">
-<token>-&gt;</token>
-<token>i:ClearCanvas.Dicom.ServiceModel.Streaming.IHeaderStreamingService,</token>
-<token>ClearCanvas.Dicom]],Close</token>
+<entry count="304">
+<token>System.ServiceModel.WSHttpBinding,new</token>
+<token>System.ServiceModel.ServiceHost,AddServiceEndpoint</token>
 </entry>
-<entry count="1">
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:CefSharp.Internals.IBrowserProcess,</token>
-<token>CefSharp]],new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
+<entry count="42">
+<token>System.ServiceModel.EndpointAddress,new</token>
+<token>System.ServiceModel.ChannelFactory,new</token>
 </entry>
 <entry count="2">
 <token>System.ServiceModel.EndpointAddress,new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:Succinctly.Web.IProductService,</token>
-<token>Web]],CreateChannel</token>
-</entry>
-<entry count="127">
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-</entry>
-<entry count="6">
-<token>-&gt;</token>
-<token>i:ClearCanvas.Enterprise.Common.TransactionNotifier+ITransactionNotifierChannel,</token>
-<token>ClearCanvas.Enterprise.Common]],new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
+<token>System.ServiceModel.ClientBase,new</token>
 </entry>
 <entry count="4">
-<token>-&gt;</token>
-<token>i:Web.Wcf.IClaimsService,</token>
-<token>Web]],CreateChannelWithIssuedToken</token>
+<token>System.ServiceModel.BasicHttpBinding,new</token>
+<token>System.ServiceModel.EndpointAddress,new</token>
+<token>System.ServiceModel.NetNamedPipeBinding,new</token>
 </entry>
-<entry count="6">
-<token>System.ServiceModel.DuplexChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:ClearCanvas.Enterprise.Common.TransactionNotifier+ITransactionNotifierChannel,</token>
-<token>ClearCanvas.Enterprise.Common]],new</token>
+<entry count="8">
+<token>System.ServiceModel.BasicHttpBinding,new</token>
+<token>System.ServiceModel.EndpointAddress,new</token>
+<token>System.ServiceModel.BasicHttpBinding,new</token>
+<token>System.ServiceModel.ChannelFactory,new</token>
 </entry>
-<entry count="2">
-<token>T]],</token>
-<token>Stact]],CreateChannel</token>
-<token>System.ServiceModel.ICommunicationObject,Close</token>
+<entry count="1">
+<token>System.ServiceModel.ICommunicationObject,BeginOpen</token>
+<token>System.ServiceModel.ICommunicationObject,EndOpen</token>
+</entry>
+<entry count="3">
+<token>System.ServiceModel.EndpointAddress,new</token>
+<token>System.ServiceModel.BasicHttpBinding,new</token>
+<token>System.ServiceModel.ClientBase,Close</token>
 </entry>
 <entry count="4">
-<token>-&gt;</token>
-<token>i:ClearCanvas.Dicom.ServiceModel.Streaming.IHeaderStreamingService,</token>
-<token>ClearCanvas.Dicom]],Open</token>
-<token>System.ServiceModel.ClientBase`1[[TChannel</token>
+<token>System.ServiceModel.WS2007FederationHttpBinding,new</token>
+<token>System.ServiceModel.EndpointAddress,new</token>
+<token>System.ServiceModel.ChannelFactory,new</token>
+<token>System.ServiceModel.ChannelFactory,CreateChannelWithIssuedToken</token>
+</entry>
+<entry count="4">
+<token>System.ServiceModel.ChannelFactory,new</token>
+<token>System.ServiceModel.ChannelFactory,CreateChannelWithIssuedToken</token>
+</entry>
+<entry count="1">
+<token>System.ServiceModel.NetTcpContextBinding,new</token>
+<token>System.ServiceModel.NetNamedPipeBinding,new</token>
+<token>System.ServiceModel.ServiceHost,AddServiceEndpoint</token>
+<token>System.ServiceModel.ServiceHost,AddServiceEndpoint</token>
 </entry>
 <entry count="1">
 <token>System.ServiceModel.NetTcpContextBinding,new</token>
 <token>System.ServiceModel.NetNamedPipeBinding,new</token>
 </entry>
+<entry count="6">
+<token>System.ServiceModel.InstanceContext,new</token>
+<token>System.ServiceModel.DuplexChannelFactory,new</token>
+<token>System.ServiceModel.ChannelFactory,CreateChannel</token>
+</entry>
 <entry count="2">
-<token>Provisioning.Hybrid.Simple.Common]],new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:Provisioning.Hybrid.Simple.Common.ISiteRequest,</token>
-<token>Provisioning.Hybrid.Simple.Common]],CreateChannel</token>
+<token>System.ServiceModel.ChannelFactory,new</token>
+<token>System.ServiceModel.ChannelFactory,CreateChannel</token>
+<token>System.ServiceModel.ICommunicationObject,Open</token>
+<token>System.ServiceModel.ICommunicationObject,Close</token>
+</entry>
+<entry count="2">
+<token>System.ServiceModel.EndpointAddress,new</token>
+<token>System.ServiceModel.NetTcpBinding,new</token>
+<token>System.ServiceModel.EndpointAddress,new</token>
+</entry>
+<entry count="708">
+<token>System.ServiceModel.EndpointAddress,new</token>
+<token>System.ServiceModel.EndpointAddress,new</token>
+</entry>
+<entry count="4">
+<token>System.ServiceModel.WSHttpBinding,new</token>
+<token>System.ServiceModel.EndpointAddress,new</token>
+<token>System.ServiceModel.ChannelFactory,CreateChannel</token>
+<token>System.ServiceModel.ICommunicationObject,Close</token>
+<token>System.ServiceModel.ICommunicationObject,Abort</token>
+</entry>
+<entry count="2">
+<token>System.ServiceModel.EndpointAddress,new</token>
+<token>System.ServiceModel.ChannelFactory,new</token>
+<token>System.ServiceModel.ChannelFactory,CreateChannel</token>
+<token>System.ServiceModel.ICommunicationObject,Open</token>
+<token>System.ServiceModel.ICommunicationObject,Close</token>
+</entry>
+<entry count="2">
+<token>System.ServiceModel.NetNamedPipeBinding,new</token>
+<token>System.ServiceModel.EndpointAddress,new</token>
+<token>System.ServiceModel.NetNamedPipeBinding,new</token>
+<token>System.ServiceModel.ChannelFactory,new</token>
+<token>System.ServiceModel.ChannelFactory,CreateChannel</token>
+</entry>
+<entry count="8">
+<token>System.ServiceModel.EndpointAddress,new</token>
+<token>System.ServiceModel.BasicHttpBinding,new</token>
+<token>System.ServiceModel.EndpointAddress,new</token>
+<token>System.ServiceModel.BasicHttpBinding,new</token>
+<token>System.ServiceModel.ChannelFactory,new</token>
+</entry>
+<entry count="9">
+<token>System.ServiceModel.ServiceHost,new</token>
+<token>System.ServiceModel.ServiceHost,AddServiceEndpoint</token>
+<token>System.ServiceModel.NetTcpBinding,new</token>
+</entry>
+<entry count="2">
+<token>System.ServiceModel.BasicHttpBinding,new</token>
+<token>System.ServiceModel.EndpointAddress,new</token>
+<token>System.ServiceModel.NetTcpBinding,new</token>
+</entry>
+<entry count="13">
+<token>System.ServiceModel.EndpointAddress,new</token>
+<token>System.ServiceModel.BasicHttpBinding,new</token>
+<token>System.ServiceModel.EndpointAddress,new</token>
+</entry>
+<entry count="4">
+<token>System.ServiceModel.BasicHttpBinding,new</token>
+<token>System.ServiceModel.EndpointAddress,new</token>
+<token>System.ServiceModel.NetNamedPipeBinding,new</token>
+<token>System.ServiceModel.ChannelFactory,new</token>
+</entry>
+<entry count="3">
+<token>System.ServiceModel.ServiceHost,AddServiceEndpoint</token>
+<token>System.ServiceModel.ServiceHost,AddServiceEndpoint</token>
+</entry>
+<entry count="4">
+<token>System.ServiceModel.NetNamedPipeBinding,new</token>
+<token>System.ServiceModel.EndpointAddress,new</token>
+<token>System.ServiceModel.BasicHttpBinding,new</token>
 </entry>
 <entry count="1">
-<token>-&gt;</token>
-<token>i:Contoso.Provisioning.Hybrid.ISharePointProvisioningChannel,</token>
-<token>Provisioning.Hybrid.Worker]],new</token>
-</entry>
-<entry count="2">
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:Succinctly.Web.IProductService,</token>
-<token>Web]],CreateChannel</token>
-</entry>
-<entry count="2">
-<token>-&gt;</token>
-<token>i:Provisioning.Hybrid.Simple.Common.ISiteRequest,</token>
-<token>Provisioning.Hybrid.Simple.Common]],CreateChannel</token>
-</entry>
-<entry count="4">
-<token>-&gt;</token>
-<token>i:ClearCanvas.Dicom.ServiceModel.Streaming.IHeaderStreamingService,</token>
-<token>ClearCanvas.Dicom]],Open</token>
-<token>System.ServiceModel.ClientBase`1[[TChannel</token>
-<token>-&gt;</token>
-</entry>
-<entry count="4">
-<token>-&gt;</token>
-<token>i:Rhino.Licensing.ISubscriptionLicensingService,</token>
-</entry>
-<entry count="12">
-<token>-&gt;</token>
-<token>i:Touryo.Infrastructure.Framework.Transmission.IWCFTCPSvcForFx,</token>
-<token>Framework]],new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
+<token>System.ServiceModel.ServiceHost,new</token>
+<token>System.ServiceModel.BasicHttpContextBinding,new</token>
+<token>System.ServiceModel.NetTcpContextBinding,new</token>
 </entry>
 <entry count="3">
 <token>System.ServiceModel.ServiceHost,AddServiceEndpoint</token>
 <token>System.ServiceModel.WebHttpBinding,new</token>
 </entry>
-<entry count="28">
-<token>i:Rhino.Licensing.ILicensingService,</token>
-<token>Raven.Database]],CreateChannel</token>
-</entry>
-<entry count="28">
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:Rhino.Licensing.ILicensingService,</token>
-</entry>
-<entry count="11">
-<token>System.ServiceModel.BasicHttpBinding,new</token>
-<token>System.ServiceModel.EndpointAddress,new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-</entry>
 <entry count="4">
+<token>System.ServiceModel.NetNamedPipeBinding,new</token>
+<token>System.ServiceModel.EndpointAddress,new</token>
+<token>System.ServiceModel.BasicHttpBinding,new</token>
+<token>System.ServiceModel.ChannelFactory,new</token>
+<token>System.ServiceModel.ChannelFactory,CreateChannel</token>
+</entry>
+<entry count="8">
 <token>System.ServiceModel.BasicHttpBinding,new</token>
 <token>System.ServiceModel.EndpointAddress,new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:StockSharp.Algo.IDailyInfoSoap,</token>
-</entry>
-<entry count="2">
-<token>i:CruiseControl.Common.ICommunicationsChannel,</token>
-<token>CruiseControl.Common]],CreateChannel</token>
+<token>System.ServiceModel.BasicHttpBinding,new</token>
+<token>System.ServiceModel.ChannelFactory,new</token>
+<token>System.ServiceModel.ChannelFactory,CreateChannel</token>
 </entry>
 <entry count="6">
-<token>i:MPExtended.Services.TVAccessService.Interfaces.ITVAccessService,</token>
-<token>MPExtended.Services.TVAccessService.Interfaces,</token>
-<token>0.5.0.0]],new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
+<token>System.ServiceModel.EndpointAddress,new</token>
+<token>System.ServiceModel.NetNamedPipeBinding,new</token>
+<token>System.ServiceModel.EndpointAddress,new</token>
 </entry>
 <entry count="4">
-<token>System.ServiceModel.ClientBase`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:ClearCanvas.Dicom.ServiceModel.Streaming.IHeaderStreamingService,</token>
-<token>ClearCanvas.Dicom]],Open</token>
+<token>System.ServiceModel.EndpointAddress,new</token>
+<token>System.ServiceModel.BasicHttpBinding,new</token>
+<token>System.ServiceModel.EndpointAddress,new</token>
+<token>System.ServiceModel.NetNamedPipeBinding,new</token>
+<token>System.ServiceModel.ChannelFactory,new</token>
+</entry>
+<entry count="8">
+<token>System.ServiceModel.EndpointAddress,new</token>
+<token>System.ServiceModel.BasicHttpBinding,new</token>
+<token>System.ServiceModel.EndpointAddress,new</token>
+<token>System.ServiceModel.BasicHttpBinding,new</token>
 </entry>
 <entry count="4">
-<token>-&gt;</token>
-<token>i:Provisioning.Hybrid.Simple.Common.ISiteRequest,</token>
-</entry>
-<entry count="2">
-<token>T]],</token>
-<token>Stact]],CreateChannel</token>
+<token>System.ServiceModel.ChannelFactory,CreateChannel</token>
+<token>System.ServiceModel.ICommunicationObject,Close</token>
+<token>System.ServiceModel.ICommunicationObject,Abort</token>
 </entry>
 <entry count="7">
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:System.ServiceModel.Security.IWSTrustChannelContract,</token>
+<token>System.ServiceModel.ChannelFactory,new</token>
+<token>System.ServiceModel.ChannelFactory,CreateChannel</token>
+<token>System.ServiceModel.ICommunicationObject,Close</token>
 </entry>
-<entry count="33">
-<token>System.ServiceModel.WSHttpBinding,new</token>
+<entry count="46">
 <token>System.ServiceModel.EndpointAddress,new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-</entry>
-<entry count="28">
-<token>System.ServiceModel.WSHttpBinding,new</token>
-<token>System.ServiceModel.EndpointAddress,new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:Rhino.Licensing.ILicensingService,</token>
-</entry>
-<entry count="1">
-<token>i:Contoso.Provisioning.Hybrid.ISharePointProvisioningChannel,</token>
-<token>Provisioning.Hybrid.Worker]],new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:Contoso.Provisioning.Hybrid.ISharePointProvisioningChannel,</token>
-</entry>
-<entry count="1">
-<token>i:CefSharp.Internals.IBrowserProcess,</token>
-<token>CefSharp]],new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-</entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>i:CefSharp.Internals.IBrowserProcess,</token>
-<token>CefSharp]],CreateChannel</token>
+<token>System.ServiceModel.ChannelFactory,CreateChannel</token>
 </entry>
 <entry count="2">
-<token>-&gt;</token>
-<token>T]],</token>
+<token>System.ServiceModel.EndpointAddress,new</token>
+<token>System.ServiceModel.NetTcpBinding,new</token>
+</entry>
+<entry count="12">
+<token>System.ServiceModel.EndpointAddress,new</token>
+<token>System.ServiceModel.BasicHttpBinding,new</token>
+<token>System.ServiceModel.ChannelFactory,new</token>
+</entry>
+<entry count="1">
+<token>System.ServiceModel.ServiceHost,AddServiceEndpoint</token>
+<token>System.ServiceModel.ServiceHost,AddServiceEndpoint</token>
+<token>System.ServiceModel.ServiceHost,AddServiceEndpoint</token>
+</entry>
+<entry count="1">
+<token>System.ServiceModel.ServiceHost,new</token>
+<token>System.ServiceModel.ServiceHost,new</token>
+</entry>
+<entry count="18">
+<token>System.ServiceModel.EndpointAddress,new</token>
+<token>System.ServiceModel.ChannelFactory,new</token>
+<token>System.ServiceModel.ChannelFactory,CreateChannel</token>
+</entry>
+<entry count="11">
+<token>System.ServiceModel.NetNamedPipeBinding,new</token>
+<token>System.ServiceModel.ServiceHost,AddServiceEndpoint</token>
 </entry>
 <entry count="2">
 <token>System.ServiceModel.ICommunicationObject,Open</token>
@@ -2348,102 +566,147 @@
 <token>System.ServiceModel.BasicHttpContextBinding,new</token>
 <token>System.ServiceModel.NetTcpContextBinding,new</token>
 </entry>
-<entry count="1">
-<token>i:Contoso.Provisioning.Hybrid.ISharePointProvisioningChannel,</token>
-<token>Provisioning.Hybrid.Worker]],CreateChannel</token>
+<entry count="16">
+<token>System.ServiceModel.ServiceHostBase,AddServiceEndpoint</token>
+<token>System.ServiceModel.ServiceHostBase,AddServiceEndpoint</token>
 </entry>
-<entry count="4">
-<token>ClearCanvas.Dicom]],Open</token>
-<token>System.ServiceModel.ClientBase`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:ClearCanvas.Dicom.ServiceModel.Streaming.IHeaderStreamingService,</token>
-<token>ClearCanvas.Dicom]],Close</token>
-</entry>
-<entry count="6">
-<token>i:ClearCanvas.Enterprise.Common.TransactionNotifier+ITransactionNotifierChannel,</token>
-<token>ClearCanvas.Enterprise.Common]],new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-</entry>
-<entry count="1">
-<token>i:Contoso.Provisioning.Hybrid.ISharePointProvisioningChannel,</token>
-<token>Provisioning.Hybrid.Test.Console]],new</token>
-</entry>
-<entry count="1">
-<token>i:Contoso.Provisioning.Hybrid.ISharePointProvisioningChannel,</token>
-<token>Provisioning.Hybrid.Test.Console]],CreateChannel</token>
+<entry count="2">
+<token>System.ServiceModel.ChannelFactory,CreateChannel</token>
 <token>System.ServiceModel.ICommunicationObject,Open</token>
 <token>System.ServiceModel.ICommunicationObject,Close</token>
 </entry>
 <entry count="4">
+<token>System.ServiceModel.InstanceContext,new</token>
+<token>System.ServiceModel.ClientBase,Open</token>
+</entry>
+<entry count="9">
+<token>System.ServiceModel.ServiceHost,AddServiceEndpoint</token>
+<token>System.ServiceModel.NetTcpBinding,new</token>
+<token>System.ServiceModel.ServiceHost,AddServiceEndpoint</token>
+</entry>
+<entry count="144">
 <token>System.ServiceModel.EndpointAddress,new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:Web.Wcf.IClaimsService,</token>
+<token>System.ServiceModel.EndpointAddress,new</token>
+<token>System.ServiceModel.EndpointAddress,new</token>
+<token>System.ServiceModel.EndpointAddress,new</token>
+</entry>
+<entry count="6">
+<token>System.ServiceModel.NetNamedPipeBinding,new</token>
+<token>System.ServiceModel.ChannelFactory,new</token>
+<token>System.ServiceModel.ChannelFactory,CreateChannel</token>
 </entry>
 <entry count="2">
-<token>-&gt;</token>
-<token>i:Stact.Internal.WcfChannel`1[[T</token>
-<token>-&gt;</token>
-<token>Stact.Internal.WcfMessageEnvelope,</token>
-<token>Stact]],</token>
+<token>System.ServiceModel.NetNamedPipeBinding,new</token>
+<token>System.ServiceModel.EndpointAddress,new</token>
+<token>System.ServiceModel.NetNamedPipeBinding,new</token>
+</entry>
+<entry count="1">
+<token>System.ServiceModel.ServiceHost,new</token>
+<token>System.ServiceModel.BasicHttpContextBinding,new</token>
+<token>System.ServiceModel.NetTcpContextBinding,new</token>
+<token>System.ServiceModel.NetNamedPipeBinding,new</token>
+</entry>
+<entry count="1">
+<token>System.ServiceModel.ServiceHost,new</token>
+<token>System.ServiceModel.BasicHttpContextBinding,new</token>
+</entry>
+<entry count="4">
+<token>System.ServiceModel.WS2007FederationHttpBinding,new</token>
+<token>System.ServiceModel.EndpointAddress,new</token>
+<token>System.ServiceModel.ChannelFactory,new</token>
+</entry>
+<entry count="4">
+<token>System.ServiceModel.EndpointAddress,new</token>
+<token>System.ServiceModel.NetNamedPipeBinding,new</token>
+<token>System.ServiceModel.EndpointAddress,new</token>
+<token>System.ServiceModel.BasicHttpBinding,new</token>
+</entry>
+<entry count="16">
+<token>System.ServiceModel.WebHttpBinding,new</token>
+<token>System.ServiceModel.ServiceHost,AddServiceEndpoint</token>
 </entry>
 <entry count="12">
-<token>i:Touryo.Infrastructure.Framework.Transmission.IWCFTCPSvcForFx,</token>
-<token>Framework]],new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:Touryo.Infrastructure.Framework.Transmission.IWCFTCPSvcForFx,</token>
-</entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>TService]],CreateChannel</token>
-</entry>
-<entry count="4">
-<token>System.ServiceModel.ClientBase`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:ClearCanvas.Dicom.ServiceModel.Streaming.IHeaderStreamingService,</token>
-<token>ClearCanvas.Dicom]],Open</token>
-<token>System.ServiceModel.ClientBase`1[[TChannel</token>
-</entry>
-<entry count="4">
-<token>i:ClearCanvas.Dicom.ServiceModel.Streaming.IHeaderStreamingService,</token>
-<token>ClearCanvas.Dicom]],Open</token>
-<token>System.ServiceModel.ClientBase`1[[TChannel</token>
-<token>-&gt;</token>
-</entry>
-<entry count="1">
-<token>Provisioning.Hybrid.Test.Console]],new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:Contoso.Provisioning.Hybrid.ISharePointProvisioningChannel,</token>
-<token>Provisioning.Hybrid.Test.Console]],CreateChannel</token>
+<token>System.ServiceModel.EndpointAddress,new</token>
+<token>System.ServiceModel.BasicHttpBinding,new</token>
+<token>System.ServiceModel.ChannelFactory,new</token>
+<token>System.ServiceModel.ChannelFactory,CreateChannel</token>
 </entry>
 <entry count="6">
-<token>i:ClearCanvas.Enterprise.Common.TransactionNotifier+ITransactionNotifierChannel,</token>
-<token>ClearCanvas.Enterprise.Common]],CreateChannel</token>
-</entry>
-<entry count="6">
-<token>0.5.0.0]],new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-</entry>
-<entry count="4">
 <token>System.ServiceModel.InstanceContext,new</token>
-<token>System.ServiceModel.ClientBase`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:ClearCanvas.ImageViewer.Common.WorkItem.IWorkItemActivityMonitorService,</token>
-<token>ClearCanvas.ImageViewer.Common]],Open</token>
+<token>System.ServiceModel.DuplexChannelFactory,new</token>
+<token>System.ServiceModel.ChannelFactory,CreateChannel</token>
+<token>System.ServiceModel.ICommunicationObject,Open</token>
+</entry>
+<entry count="7">
+<token>System.ServiceModel.EndpointAddress,new</token>
+<token>System.ServiceModel.ChannelFactory,new</token>
+<token>System.ServiceModel.ChannelFactory,CreateChannel</token>
+<token>System.ServiceModel.ICommunicationObject,Close</token>
+</entry>
+<entry count="3936">
+<token>System.ServiceModel.FaultException,new</token>
+<token>System.ServiceModel.FaultException,new</token>
+<token>System.ServiceModel.FaultException,new</token>
+</entry>
+<entry count="4">
+<token>System.ServiceModel.ClientBase,Open</token>
+<token>System.ServiceModel.ClientBase,Close</token>
+</entry>
+<entry count="3">
+<token>System.ServiceModel.EndpointAddress,new</token>
+<token>System.ServiceModel.ChannelFactory,new</token>
+<token>System.ServiceModel.ChannelFactory,CreateChannel</token>
+<token>System.ServiceModel.ICommunicationObject,Open</token>
 </entry>
 <entry count="2">
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:CruiseControl.Common.ICommunicationsChannel,</token>
+<token>System.ServiceModel.NetNamedPipeBinding,new</token>
+<token>System.ServiceModel.EndpointAddress,new</token>
+<token>System.ServiceModel.ChannelFactory,new</token>
+</entry>
+<entry count="30">
+<token>System.ServiceModel.EndpointAddress,new</token>
+<token>System.ServiceModel.ChannelFactory,CreateChannel</token>
+<token>System.ServiceModel.ICommunicationObject,Close</token>
 </entry>
 <entry count="2">
-<token>i:Provisioning.Hybrid.Simple.Common.ISiteRequest,</token>
-<token>Provisioning.Hybrid.Simple.Common]],new</token>
-<token>System.ServiceModel.ChannelFactory`1[[TChannel</token>
-<token>-&gt;</token>
-<token>i:Provisioning.Hybrid.Simple.Common.ISiteRequest,</token>
+<token>System.ServiceModel.NetNamedPipeBinding,new</token>
+<token>System.ServiceModel.EndpointAddress,new</token>
+<token>System.ServiceModel.NetNamedPipeBinding,new</token>
+<token>System.ServiceModel.ChannelFactory,new</token>
+</entry>
+<entry count="28">
+<token>System.ServiceModel.WSHttpBinding,new</token>
+<token>System.ServiceModel.EndpointAddress,new</token>
+<token>System.ServiceModel.ChannelFactory,CreateChannel</token>
+<token>System.ServiceModel.ICommunicationObject,Close</token>
+</entry>
+<entry count="4">
+<token>System.ServiceModel.NetNamedPipeBinding,new</token>
+<token>System.ServiceModel.EndpointAddress,new</token>
+<token>System.ServiceModel.BasicHttpBinding,new</token>
+<token>System.ServiceModel.ChannelFactory,new</token>
+</entry>
+<entry count="4">
+<token>System.ServiceModel.EndpointAddress,new</token>
+<token>System.ServiceModel.NetNamedPipeBinding,new</token>
+<token>System.ServiceModel.EndpointAddress,new</token>
+<token>System.ServiceModel.BasicHttpBinding,new</token>
+<token>System.ServiceModel.ChannelFactory,new</token>
+</entry>
+<entry count="1">
+<token>System.ServiceModel.ServiceHost,AddServiceEndpoint</token>
+<token>System.ServiceModel.EndpointAddress,new</token>
+</entry>
+<entry count="2">
+<token>System.ServiceModel.BasicHttpBinding,new</token>
+<token>System.ServiceModel.EndpointAddress,new</token>
+<token>System.ServiceModel.NetTcpBinding,new</token>
+<token>System.ServiceModel.EndpointAddress,new</token>
+</entry>
+<entry count="4">
+<token>System.ServiceModel.EndpointAddress,new</token>
+<token>System.ServiceModel.BasicHttpBinding,new</token>
+<token>System.ServiceModel.EndpointAddress,new</token>
+<token>System.ServiceModel.NetNamedPipeBinding,new</token>
 </entry>
 </dictionary>

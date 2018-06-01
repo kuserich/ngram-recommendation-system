@@ -15,7 +15,7 @@
 <token>Microsoft.Scripting.Hosting.ScriptEngine,GetSearchPaths</token>
 <token>Microsoft.Scripting.Hosting.ScriptEngine,SetSearchPaths</token>
 </entry>
-<entry count="5">
+<entry count="30">
 <token>Microsoft.Scripting.Hosting.ScriptIO,SetOutput</token>
 <token>Microsoft.Scripting.Hosting.ScriptEngine,SetSearchPaths</token>
 <token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScriptSourceFromString</token>
@@ -26,7 +26,7 @@
 <token>Microsoft.Scripting.Hosting.ScriptSource,Execute</token>
 <token>Microsoft.Scripting.Hosting.ScriptEngine,GetVariable</token>
 </entry>
-<entry count="13">
+<entry count="66">
 <token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScope</token>
 <token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScriptSourceFromString</token>
 <token>Microsoft.Scripting.Hosting.ScriptSource,Execute</token>
@@ -38,351 +38,420 @@
 <token>Microsoft.Scripting.Hosting.CompiledCode,Execute</token>
 <token>Microsoft.Scripting.Hosting.ScriptScope,GetItems</token>
 </entry>
-<entry count="2">
+<entry count="5">
+<token>Microsoft.Scripting.Hosting.ScriptEngine,SetSearchPaths</token>
 <token>Microsoft.Scripting.Hosting.ScriptIO,SetOutput</token>
 <token>Microsoft.Scripting.Hosting.ScriptEngine,SetSearchPaths</token>
-<token>Microsoft.Scripting.Hosting.ScriptEngine,GetSearchPaths</token>
-<token>Microsoft.Scripting.Hosting.ScriptEngine,SetSearchPaths</token>
-</entry>
-<entry count="8">
-<token>Microsoft.Scripting.Hosting.ScriptSource,Execute</token>
-<token>Microsoft.Scripting.Hosting.ScriptScope,ContainsVariable</token>
-<token>Microsoft.Scripting.Hosting.ScriptScope,GetVariable</token>
-</entry>
-<entry count="28">
 <token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScriptSourceFromString</token>
-<token>Microsoft.Scripting.Hosting.ScriptSource,Compile</token>
-<token>Microsoft.Scripting.Hosting.CompiledCode,Execute</token>
-<token>Microsoft.Scripting.Hosting.ScriptScope,TryGetVariable</token>
-<token>Microsoft.Scripting.Hosting.ScriptScope,TryGetVariable</token>
-</entry>
-<entry count="3">
-<token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScope</token>
-<token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScriptSourceFromString</token>
-<token>Microsoft.Scripting.Hosting.ScriptSource,Execute</token>
-<token>Microsoft.Scripting.Hosting.ScriptScope,TryGetVariable</token>
-<token>Microsoft.Scripting.Hosting.ScriptScope,GetVariable</token>
-</entry>
-<entry count="8">
-<token>Microsoft.Scripting.Hosting.ScriptScope,ContainsVariable</token>
-<token>Microsoft.Scripting.Hosting.ScriptScope,GetVariable</token>
-</entry>
-<entry count="3">
-<token>Microsoft.Scripting.Hosting.ScriptSource,Execute</token>
-<token>Microsoft.Scripting.Hosting.ScriptScope,TryGetVariable</token>
-<token>Microsoft.Scripting.Hosting.ScriptScope,SetVariable</token>
-<token>Microsoft.Scripting.Hosting.CompiledCode,Execute</token>
-</entry>
-<entry count="3">
-<token>Microsoft.Scripting.Hosting.ScriptSource,Execute</token>
-<token>Microsoft.Scripting.Hosting.ScriptScope,TryGetVariable</token>
-<token>Microsoft.Scripting.Hosting.ScriptScope,GetVariable</token>
-<token>Microsoft.Scripting.Hosting.ScriptScope,SetVariable</token>
-<token>Microsoft.Scripting.Hosting.ScriptScope,SetVariable</token>
-</entry>
-<entry count="5">
-<token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScriptSourceFromString</token>
-<token>Microsoft.Scripting.Hosting.ScriptSource,Execute</token>
-<token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScriptSourceFromString</token>
-<token>Microsoft.Scripting.Hosting.ScriptSource,Execute</token>
-</entry>
-<entry count="1">
-<token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScope</token>
-<token>Microsoft.Scripting.Hosting.ScriptEngine,GetSearchPaths</token>
-<token>Microsoft.Scripting.Hosting.ScriptEngine,SetSearchPaths</token>
-<token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScriptSourceFromString</token>
-<token>Microsoft.Scripting.Hosting.ScriptSource,Execute</token>
-</entry>
-<entry count="4">
-<token>Microsoft.Scripting.Hosting.ScriptScope,SetVariable</token>
-<token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScriptSourceFromString</token>
-<token>Microsoft.Scripting.Hosting.ScriptSource,Execute</token>
-<token>Microsoft.Scripting.Hosting.ScriptScope,ContainsVariable</token>
-<token>Microsoft.Scripting.Hosting.ScriptScope,GetVariable</token>
-</entry>
-<entry count="3">
-<token>Microsoft.Scripting.Hosting.ScriptScope,TryGetVariable</token>
-<token>Microsoft.Scripting.Hosting.ScriptScope,SetVariable</token>
-</entry>
-<entry count="3">
-<token>Microsoft.Scripting.Hosting.ScriptScope,GetVariable</token>
-<token>Microsoft.Scripting.Hosting.ScriptScope,SetVariable</token>
-<token>Microsoft.Scripting.Hosting.ScriptScope,SetVariable</token>
-<token>Microsoft.Scripting.Hosting.CompiledCode,Execute</token>
-</entry>
-<entry count="28">
-<token>Microsoft.Scripting.Hosting.CompiledCode,Execute</token>
-<token>Microsoft.Scripting.Hosting.ScriptScope,TryGetVariable</token>
-<token>Microsoft.Scripting.Hosting.ScriptScope,TryGetVariable</token>
-</entry>
-<entry count="2">
-<token>Microsoft.Scripting.Hosting.ScriptSource,Execute</token>
-<token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScriptSourceFromString</token>
-<token>Microsoft.Scripting.Hosting.ScriptSource,Execute</token>
-<token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScriptSourceFromString</token>
-<token>Microsoft.Scripting.Hosting.ScriptSource,Execute</token>
-</entry>
-<entry count="3">
-<token>Microsoft.Scripting.Hosting.ScriptScope,SetVariable</token>
-<token>Microsoft.Scripting.Hosting.ScriptScope,SetVariable</token>
-<token>Microsoft.Scripting.Hosting.CompiledCode,Execute</token>
-<token>Microsoft.Scripting.Hosting.ScriptScope,GetItems</token>
-<token>Microsoft.Scripting.Hosting.ScriptScope,GetVariableHandle</token>
-</entry>
-<entry count="4">
-<token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScope</token>
-<token>Microsoft.Scripting.Hosting.CompiledCode,Execute</token>
-</entry>
-<entry count="7">
-<token>Microsoft.Scripting.Hosting.ScriptEngine,SetSearchPaths</token>
-<token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScriptSourceFromString</token>
-<token>Microsoft.Scripting.Hosting.ScriptSource,Execute</token>
-</entry>
-<entry count="28">
-<token>Microsoft.Scripting.Hosting.CompiledCode,Execute</token>
-<token>Microsoft.Scripting.Hosting.ScriptScope,TryGetVariable</token>
-</entry>
-<entry count="1">
-<token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScriptSourceFromString</token>
-<token>Microsoft.Scripting.Hosting.ScriptSource,Execute</token>
-<token>Microsoft.Scripting.Hosting.ScriptEngine,GetVariable</token>
-<token>Microsoft.Scripting.Hosting.ScriptEngine,GetVariable</token>
-<token>Microsoft.Scripting.Hosting.ScriptEngine,GetVariable</token>
-</entry>
-<entry count="4">
-<token>Microsoft.Scripting.Hosting.ScriptScope,SetVariable</token>
-<token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScriptSourceFromString</token>
-</entry>
-<entry count="1">
-<token>Microsoft.Scripting.Hosting.ScriptSource,Execute</token>
-<token>Microsoft.Scripting.Hosting.ScriptEngine,GetVariable</token>
-</entry>
-<entry count="6">
-<token>Microsoft.Scripting.Hosting.ScriptSource,Compile</token>
-<token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScope</token>
-<token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScriptSourceFromString</token>
-<token>Microsoft.Scripting.Hosting.ScriptSource,Execute</token>
-<token>Microsoft.Scripting.Hosting.ScriptScope,TryGetVariable</token>
-</entry>
-<entry count="3">
-<token>Microsoft.Scripting.Hosting.ScriptScope,TryGetVariable</token>
-<token>Microsoft.Scripting.Hosting.ScriptScope,SetVariable</token>
-<token>Microsoft.Scripting.Hosting.CompiledCode,Execute</token>
-<token>Microsoft.Scripting.Hosting.ScriptScope,GetItems</token>
-</entry>
-<entry count="28">
-<token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScriptSourceFromString</token>
-<token>Microsoft.Scripting.Hosting.ScriptSource,Compile</token>
-<token>Microsoft.Scripting.Hosting.CompiledCode,Execute</token>
-</entry>
-<entry count="1">
-<token>Microsoft.Scripting.Hosting.ScriptScope,SetVariable</token>
-<token>Microsoft.Scripting.Hosting.ScriptScope,SetVariable</token>
-<token>Microsoft.Scripting.Hosting.ScriptEngine,Execute</token>
-<token>Microsoft.Scripting.Hosting.ScriptEngine,Execute</token>
-</entry>
-<entry count="2">
-<token>Microsoft.Scripting.Hosting.ScriptEngine,SetSearchPaths</token>
-<token>Microsoft.Scripting.Hosting.ScriptEngine,GetSearchPaths</token>
-<token>Microsoft.Scripting.Hosting.ScriptEngine,SetSearchPaths</token>
-</entry>
-<entry count="5">
-<token>Microsoft.Scripting.Hosting.ScriptSource,Execute</token>
-<token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScriptSourceFromString</token>
-</entry>
-<entry count="1">
-<token>Microsoft.Scripting.Hosting.ScriptSource,Execute</token>
-<token>Microsoft.Scripting.Hosting.ScriptEngine,GetVariable</token>
-<token>Microsoft.Scripting.Hosting.ScriptEngine,GetVariable</token>
-<token>Microsoft.Scripting.Hosting.ScriptEngine,GetVariable</token>
-<token>Microsoft.Scripting.Hosting.ScriptEngine,GetVariable</token>
-</entry>
-<entry count="4">
-<token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScope</token>
-<token>Microsoft.Scripting.Hosting.ScriptScope,SetVariable</token>
-<token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScriptSourceFromString</token>
-<token>Microsoft.Scripting.Hosting.ScriptSource,Execute</token>
-<token>Microsoft.Scripting.Hosting.ScriptScope,ContainsVariable</token>
-</entry>
-<entry count="3">
-<token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScope</token>
-<token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScriptSourceFromString</token>
-<token>Microsoft.Scripting.Hosting.ScriptSource,Execute</token>
-<token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScriptSourceFromString</token>
-<token>Microsoft.Scripting.Hosting.ScriptSource,Execute</token>
-</entry>
-<entry count="35">
-<token>Microsoft.Scripting.Hosting.ScriptRuntime,LoadAssembly</token>
-<token>Microsoft.Scripting.Hosting.ScriptRuntime,LoadAssembly</token>
-<token>Microsoft.Scripting.Hosting.ScriptRuntime,LoadAssembly</token>
-<token>Microsoft.Scripting.Hosting.ScriptRuntime,LoadAssembly</token>
-</entry>
-<entry count="3">
-<token>Microsoft.Scripting.Hosting.ScriptEngine,GetVariable</token>
-<token>Microsoft.Scripting.Hosting.ScriptEngine,GetVariable</token>
-</entry>
-<entry count="4">
-<token>Microsoft.Scripting.Hosting.ScriptScope,SetVariable</token>
-<token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScriptSourceFromString</token>
-<token>Microsoft.Scripting.Hosting.ScriptSource,Execute</token>
-</entry>
-<entry count="2">
-<token>Microsoft.Scripting.Hosting.ScriptEngine,GetVariable</token>
-<token>Microsoft.Scripting.Hosting.ScriptEngine,GetVariable</token>
-<token>Microsoft.Scripting.Hosting.ScriptEngine,GetVariable</token>
-</entry>
-<entry count="41">
-<token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScope</token>
-<token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScriptSourceFromString</token>
-</entry>
-<entry count="1">
-<token>Microsoft.Scripting.Hosting.ScriptScope,SetVariable</token>
-<token>Microsoft.Scripting.Hosting.ScriptEngine,Execute</token>
-</entry>
-<entry count="3">
-<token>Microsoft.Scripting.Hosting.ScriptScope,TryGetVariable</token>
-<token>Microsoft.Scripting.Hosting.ScriptScope,GetVariable</token>
-</entry>
-<entry count="1">
-<token>Microsoft.Scripting.Hosting.ScriptSource,Execute</token>
-<token>Microsoft.Scripting.Hosting.ScriptEngine,GetVariable</token>
-<token>Microsoft.Scripting.Hosting.ScriptEngine,GetVariable</token>
-</entry>
-<entry count="2">
-<token>Microsoft.Scripting.Hosting.ScriptScope,ContainsVariable</token>
-<token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScriptSourceFromString</token>
-<token>Microsoft.Scripting.Hosting.ScriptSource,Execute</token>
-</entry>
-<entry count="28">
-<token>Microsoft.Scripting.Hosting.ScriptSource,Compile</token>
-<token>Microsoft.Scripting.Hosting.CompiledCode,Execute</token>
-</entry>
-<entry count="5">
-<token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScriptSourceFromString</token>
-<token>Microsoft.Scripting.Hosting.ScriptSource,Execute</token>
-<token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScriptSourceFromString</token>
-</entry>
-<entry count="4">
-<token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScope</token>
-<token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScriptSourceFromString</token>
-<token>Microsoft.Scripting.Hosting.ScriptSource,Execute</token>
-<token>Microsoft.Scripting.Hosting.ScriptScope,ContainsVariable</token>
-</entry>
-<entry count="3">
-<token>Microsoft.Scripting.Hosting.ScriptSource,Execute</token>
-<token>Microsoft.Scripting.Hosting.ScriptScope,TryGetVariable</token>
-<token>Microsoft.Scripting.Hosting.ScriptScope,SetVariable</token>
-</entry>
-<entry count="3">
-<token>Microsoft.Scripting.Hosting.ScriptScope,GetVariable</token>
-<token>Microsoft.Scripting.Hosting.ScriptScope,SetVariable</token>
-</entry>
-<entry count="1">
-<token>Microsoft.Scripting.Hosting.ScriptEngine,SetSearchPaths</token>
-<token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScriptSourceFromString</token>
-<token>Microsoft.Scripting.Hosting.ScriptSource,Execute</token>
-<token>Microsoft.Scripting.Hosting.ScriptEngine,GetVariable</token>
-<token>Microsoft.Scripting.Hosting.ScriptEngine,GetVariable</token>
-</entry>
-<entry count="3">
-<token>Microsoft.Scripting.Hosting.ScriptScope,SetVariable</token>
-<token>Microsoft.Scripting.Hosting.ScriptScope,SetVariable</token>
-<token>Microsoft.Scripting.Hosting.CompiledCode,Execute</token>
-<token>Microsoft.Scripting.Hosting.ScriptScope,GetItems</token>
-</entry>
-<entry count="3">
-<token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScope</token>
-<token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScriptSourceFromString</token>
-<token>Microsoft.Scripting.Hosting.ScriptSource,Execute</token>
-<token>Microsoft.Scripting.Hosting.ScriptScope,TryGetVariable</token>
-<token>Microsoft.Scripting.Hosting.ScriptScope,SetVariable</token>
-</entry>
-<entry count="5">
-<token>Microsoft.Scripting.Hosting.ScriptIO,SetOutput</token>
-<token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScope</token>
-</entry>
-<entry count="1">
-<token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScriptSourceFromString</token>
-<token>Microsoft.Scripting.Hosting.ScriptSource,Execute</token>
-<token>Microsoft.Scripting.Hosting.ScriptEngine,GetVariable</token>
-<token>Microsoft.Scripting.Hosting.ScriptEngine,GetVariable</token>
-</entry>
-<entry count="2">
-<token>Microsoft.Scripting.Hosting.ScriptEngine,SetSearchPaths</token>
-<token>Microsoft.Scripting.Hosting.ScriptEngine,GetSearchPaths</token>
-</entry>
-<entry count="3">
-<token>Microsoft.Scripting.Hosting.ScriptScope,TryGetVariable</token>
-<token>Microsoft.Scripting.Hosting.ScriptScope,GetVariable</token>
-<token>Microsoft.Scripting.Hosting.ScriptScope,SetVariable</token>
-<token>Microsoft.Scripting.Hosting.ScriptScope,SetVariable</token>
-<token>Microsoft.Scripting.Hosting.CompiledCode,Execute</token>
-</entry>
-<entry count="28">
-<token>Microsoft.Scripting.Hosting.ScriptRuntime,GetEngineByFileExtension</token>
-<token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScope</token>
-<token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScriptSourceFromString</token>
-</entry>
-<entry count="1">
-<token>Microsoft.Scripting.Hosting.ScriptEngine,GetSearchPaths</token>
-<token>Microsoft.Scripting.Hosting.ScriptEngine,SetSearchPaths</token>
-<token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScriptSourceFromString</token>
-<token>Microsoft.Scripting.Hosting.ScriptSource,Execute</token>
-<token>Microsoft.Scripting.Hosting.ScriptEngine,GetVariable</token>
-</entry>
-<entry count="6">
-<token>Microsoft.Scripting.Hosting.CompiledCode,Execute</token>
-<token>Microsoft.Scripting.Hosting.ScriptScope,GetItems</token>
-</entry>
-<entry count="2">
-<token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScriptSourceFromString</token>
-<token>Microsoft.Scripting.Hosting.ScriptSource,Execute</token>
-<token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScriptSourceFromString</token>
-<token>Microsoft.Scripting.Hosting.ScriptSource,Execute</token>
-<token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScriptSourceFromString</token>
-</entry>
-<entry count="3">
-<token>Microsoft.Scripting.Hosting.ScriptScope,GetVariable</token>
-<token>Microsoft.Scripting.Hosting.ScriptScope,SetVariable</token>
-<token>Microsoft.Scripting.Hosting.ScriptScope,SetVariable</token>
-</entry>
-<entry count="1">
-<token>Microsoft.Scripting.Hosting.ScriptEngine,SetSearchPaths</token>
-<token>Microsoft.Scripting.Hosting.ScriptEngine,GetSearchPaths</token>
-<token>Microsoft.Scripting.Hosting.ScriptEngine,SetSearchPaths</token>
-<token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScriptSourceFromString</token>
-</entry>
-<entry count="6">
-<token>Microsoft.Scripting.Hosting.CompiledCode,Execute</token>
-<token>Microsoft.Scripting.Hosting.ScriptScope,GetItems</token>
-<token>Microsoft.Scripting.Hosting.ScriptScope,GetVariableHandle</token>
-</entry>
-<entry count="2">
-<token>Microsoft.Scripting.Hosting.ScriptEngine,GetSearchPaths</token>
-<token>Microsoft.Scripting.Hosting.ScriptEngine,SetSearchPaths</token>
-<token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScriptSourceFromString</token>
-<token>Microsoft.Scripting.Hosting.ScriptSource,Execute</token>
-</entry>
-<entry count="3">
-<token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScriptSourceFromString</token>
-<token>Microsoft.Scripting.Hosting.ScriptSource,Execute</token>
-<token>Microsoft.Scripting.Hosting.ScriptScope,TryGetVariable</token>
-<token>Microsoft.Scripting.Hosting.ScriptScope,GetVariable</token>
-</entry>
-<entry count="6">
-<token>Microsoft.Scripting.Hosting.ScriptScope,SetVariable</token>
-<token>Microsoft.Scripting.Hosting.CompiledCode,Execute</token>
-</entry>
-<entry count="1">
-<token>Microsoft.Scripting.Hosting.ScriptEngine,SetSearchPaths</token>
-<token>Microsoft.Scripting.Hosting.ScriptEngine,GetSearchPaths</token>
-<token>Microsoft.Scripting.Hosting.ScriptEngine,SetSearchPaths</token>
-<token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScriptSourceFromString</token>
-<token>Microsoft.Scripting.Hosting.ScriptSource,Execute</token>
 </entry>
 <entry count="12">
 <token>Microsoft.Scripting.Hosting.ScriptIO,SetOutput</token>
 <token>Microsoft.Scripting.Hosting.ScriptEngine,SetSearchPaths</token>
+<token>Microsoft.Scripting.Hosting.ScriptEngine,GetSearchPaths</token>
+<token>Microsoft.Scripting.Hosting.ScriptEngine,SetSearchPaths</token>
+</entry>
+<entry count="8">
+<token>Microsoft.Scripting.Hosting.ScriptSource,Execute</token>
+<token>Microsoft.Scripting.Hosting.ScriptScope,ContainsVariable</token>
+<token>Microsoft.Scripting.Hosting.ScriptScope,GetVariable</token>
+</entry>
+<entry count="28">
+<token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScriptSourceFromString</token>
+<token>Microsoft.Scripting.Hosting.ScriptSource,Compile</token>
+<token>Microsoft.Scripting.Hosting.CompiledCode,Execute</token>
+<token>Microsoft.Scripting.Hosting.ScriptScope,TryGetVariable</token>
+<token>Microsoft.Scripting.Hosting.ScriptScope,TryGetVariable</token>
+</entry>
+<entry count="3">
+<token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScope</token>
+<token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScriptSourceFromString</token>
+<token>Microsoft.Scripting.Hosting.ScriptSource,Execute</token>
+<token>Microsoft.Scripting.Hosting.ScriptScope,TryGetVariable</token>
+<token>Microsoft.Scripting.Hosting.ScriptScope,GetVariable</token>
+</entry>
+<entry count="8">
+<token>Microsoft.Scripting.Hosting.ScriptScope,ContainsVariable</token>
+<token>Microsoft.Scripting.Hosting.ScriptScope,GetVariable</token>
+</entry>
+<entry count="3">
+<token>Microsoft.Scripting.Hosting.ScriptSource,Execute</token>
+<token>Microsoft.Scripting.Hosting.ScriptScope,TryGetVariable</token>
+<token>Microsoft.Scripting.Hosting.ScriptScope,SetVariable</token>
+<token>Microsoft.Scripting.Hosting.CompiledCode,Execute</token>
+</entry>
+<entry count="3">
+<token>Microsoft.Scripting.Hosting.ScriptSource,Execute</token>
+<token>Microsoft.Scripting.Hosting.ScriptScope,TryGetVariable</token>
+<token>Microsoft.Scripting.Hosting.ScriptScope,GetVariable</token>
+<token>Microsoft.Scripting.Hosting.ScriptScope,SetVariable</token>
+<token>Microsoft.Scripting.Hosting.ScriptScope,SetVariable</token>
+</entry>
+<entry count="136">
+<token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScriptSourceFromString</token>
+<token>Microsoft.Scripting.Hosting.ScriptSource,Execute</token>
+<token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScriptSourceFromString</token>
+<token>Microsoft.Scripting.Hosting.ScriptSource,Execute</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScope</token>
+<token>Microsoft.Scripting.Hosting.ScriptEngine,GetSearchPaths</token>
+<token>Microsoft.Scripting.Hosting.ScriptEngine,SetSearchPaths</token>
+<token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScriptSourceFromString</token>
+<token>Microsoft.Scripting.Hosting.ScriptSource,Execute</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Scripting.Hosting.ScriptScope,SetVariable</token>
+<token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScriptSourceFromString</token>
+<token>Microsoft.Scripting.Hosting.ScriptSource,Execute</token>
+<token>Microsoft.Scripting.Hosting.ScriptScope,ContainsVariable</token>
+<token>Microsoft.Scripting.Hosting.ScriptScope,GetVariable</token>
+</entry>
+<entry count="3">
+<token>Microsoft.Scripting.Hosting.ScriptScope,TryGetVariable</token>
+<token>Microsoft.Scripting.Hosting.ScriptScope,SetVariable</token>
+</entry>
+<entry count="3">
+<token>Microsoft.Scripting.Hosting.ScriptScope,GetVariable</token>
+<token>Microsoft.Scripting.Hosting.ScriptScope,SetVariable</token>
+<token>Microsoft.Scripting.Hosting.ScriptScope,SetVariable</token>
+<token>Microsoft.Scripting.Hosting.CompiledCode,Execute</token>
+</entry>
+<entry count="28">
+<token>Microsoft.Scripting.Hosting.CompiledCode,Execute</token>
+<token>Microsoft.Scripting.Hosting.ScriptScope,TryGetVariable</token>
+<token>Microsoft.Scripting.Hosting.ScriptScope,TryGetVariable</token>
+</entry>
+<entry count="80">
+<token>Microsoft.Scripting.Hosting.ScriptSource,Execute</token>
+<token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScriptSourceFromString</token>
+<token>Microsoft.Scripting.Hosting.ScriptSource,Execute</token>
+<token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScriptSourceFromString</token>
+<token>Microsoft.Scripting.Hosting.ScriptSource,Execute</token>
+</entry>
+<entry count="3">
+<token>Microsoft.Scripting.Hosting.ScriptScope,SetVariable</token>
+<token>Microsoft.Scripting.Hosting.ScriptScope,SetVariable</token>
+<token>Microsoft.Scripting.Hosting.CompiledCode,Execute</token>
+<token>Microsoft.Scripting.Hosting.ScriptScope,GetItems</token>
+<token>Microsoft.Scripting.Hosting.ScriptScope,GetVariableHandle</token>
+</entry>
+<entry count="5">
+<token>Microsoft.Scripting.Hosting.ScriptEngine,GetSearchPaths</token>
+<token>Microsoft.Scripting.Hosting.ScriptEngine,SetSearchPaths</token>
+<token>Microsoft.Scripting.Hosting.ScriptIO,SetOutput</token>
+<token>Microsoft.Scripting.Hosting.ScriptEngine,SetSearchPaths</token>
+<token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScriptSourceFromString</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScope</token>
+<token>Microsoft.Scripting.Hosting.CompiledCode,Execute</token>
+</entry>
+<entry count="37">
+<token>Microsoft.Scripting.Hosting.ScriptEngine,SetSearchPaths</token>
+<token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScriptSourceFromString</token>
+<token>Microsoft.Scripting.Hosting.ScriptSource,Execute</token>
+</entry>
+<entry count="28">
+<token>Microsoft.Scripting.Hosting.CompiledCode,Execute</token>
+<token>Microsoft.Scripting.Hosting.ScriptScope,TryGetVariable</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScriptSourceFromString</token>
+<token>Microsoft.Scripting.Hosting.ScriptSource,Execute</token>
+<token>Microsoft.Scripting.Hosting.ScriptEngine,GetVariable</token>
+<token>Microsoft.Scripting.Hosting.ScriptEngine,GetVariable</token>
+<token>Microsoft.Scripting.Hosting.ScriptEngine,GetVariable</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Scripting.Hosting.ScriptScope,SetVariable</token>
+<token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScriptSourceFromString</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Scripting.Hosting.ScriptScope,ContainsVariable</token>
+<token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScriptSourceFromString</token>
+<token>Microsoft.Scripting.Hosting.ScriptSource,Execute</token>
+<token>Microsoft.Scripting.Hosting.ScriptScope,ContainsVariable</token>
+<token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScriptSourceFromString</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Scripting.Hosting.ScriptSource,Execute</token>
+<token>Microsoft.Scripting.Hosting.ScriptEngine,GetVariable</token>
+</entry>
+<entry count="6">
+<token>Microsoft.Scripting.Hosting.ScriptSource,Compile</token>
+<token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScope</token>
+<token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScriptSourceFromString</token>
+<token>Microsoft.Scripting.Hosting.ScriptSource,Execute</token>
+<token>Microsoft.Scripting.Hosting.ScriptScope,TryGetVariable</token>
+</entry>
+<entry count="3">
+<token>Microsoft.Scripting.Hosting.ScriptScope,TryGetVariable</token>
+<token>Microsoft.Scripting.Hosting.ScriptScope,SetVariable</token>
+<token>Microsoft.Scripting.Hosting.CompiledCode,Execute</token>
+<token>Microsoft.Scripting.Hosting.ScriptScope,GetItems</token>
+</entry>
+<entry count="28">
+<token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScriptSourceFromString</token>
+<token>Microsoft.Scripting.Hosting.ScriptSource,Compile</token>
+<token>Microsoft.Scripting.Hosting.CompiledCode,Execute</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScriptSourceFromString</token>
+<token>Microsoft.Scripting.Hosting.ScriptSource,Execute</token>
+<token>Microsoft.Scripting.Hosting.ScriptScope,ContainsVariable</token>
+<token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScriptSourceFromString</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Scripting.Hosting.ScriptScope,SetVariable</token>
+<token>Microsoft.Scripting.Hosting.ScriptScope,SetVariable</token>
+<token>Microsoft.Scripting.Hosting.ScriptEngine,Execute</token>
+<token>Microsoft.Scripting.Hosting.ScriptEngine,Execute</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Scripting.Hosting.ScriptSource,Execute</token>
+<token>Microsoft.Scripting.Hosting.ScriptScope,ContainsVariable</token>
+<token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScriptSourceFromString</token>
+<token>Microsoft.Scripting.Hosting.ScriptSource,Execute</token>
+</entry>
+<entry count="12">
+<token>Microsoft.Scripting.Hosting.ScriptEngine,SetSearchPaths</token>
+<token>Microsoft.Scripting.Hosting.ScriptEngine,GetSearchPaths</token>
+<token>Microsoft.Scripting.Hosting.ScriptEngine,SetSearchPaths</token>
+</entry>
+<entry count="136">
+<token>Microsoft.Scripting.Hosting.ScriptSource,Execute</token>
+<token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScriptSourceFromString</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Scripting.Hosting.ScriptSource,Execute</token>
+<token>Microsoft.Scripting.Hosting.ScriptEngine,GetVariable</token>
+<token>Microsoft.Scripting.Hosting.ScriptEngine,GetVariable</token>
+<token>Microsoft.Scripting.Hosting.ScriptEngine,GetVariable</token>
+<token>Microsoft.Scripting.Hosting.ScriptEngine,GetVariable</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScope</token>
+<token>Microsoft.Scripting.Hosting.ScriptScope,SetVariable</token>
+<token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScriptSourceFromString</token>
+<token>Microsoft.Scripting.Hosting.ScriptSource,Execute</token>
+<token>Microsoft.Scripting.Hosting.ScriptScope,ContainsVariable</token>
+</entry>
+<entry count="56">
+<token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScope</token>
+<token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScriptSourceFromString</token>
+<token>Microsoft.Scripting.Hosting.ScriptSource,Execute</token>
+<token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScriptSourceFromString</token>
+<token>Microsoft.Scripting.Hosting.ScriptSource,Execute</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Scripting.Hosting.ScriptEngine,SetSearchPaths</token>
+<token>Microsoft.Scripting.Hosting.ScriptIO,SetOutput</token>
+<token>Microsoft.Scripting.Hosting.ScriptEngine,SetSearchPaths</token>
+<token>Microsoft.Scripting.Hosting.ScriptEngine,GetSearchPaths</token>
+<token>Microsoft.Scripting.Hosting.ScriptEngine,SetSearchPaths</token>
+</entry>
+<entry count="150">
+<token>Microsoft.Scripting.Hosting.ScriptRuntime,LoadAssembly</token>
+<token>Microsoft.Scripting.Hosting.ScriptRuntime,LoadAssembly</token>
+<token>Microsoft.Scripting.Hosting.ScriptRuntime,LoadAssembly</token>
+<token>Microsoft.Scripting.Hosting.ScriptRuntime,LoadAssembly</token>
+</entry>
+<entry count="5">
+<token>Microsoft.Scripting.Hosting.ScriptEngine,SetSearchPaths</token>
+<token>Microsoft.Scripting.Hosting.ScriptIO,SetOutput</token>
+<token>Microsoft.Scripting.Hosting.ScriptEngine,SetSearchPaths</token>
+<token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScriptSourceFromString</token>
+<token>Microsoft.Scripting.Hosting.ScriptSource,Execute</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Scripting.Hosting.ScriptEngine,SetSearchPaths</token>
+<token>Microsoft.Scripting.Hosting.ScriptIO,SetOutput</token>
+<token>Microsoft.Scripting.Hosting.ScriptEngine,SetSearchPaths</token>
+<token>Microsoft.Scripting.Hosting.ScriptEngine,GetSearchPaths</token>
+</entry>
+<entry count="3">
+<token>Microsoft.Scripting.Hosting.ScriptEngine,GetVariable</token>
+<token>Microsoft.Scripting.Hosting.ScriptEngine,GetVariable</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Scripting.Hosting.ScriptScope,SetVariable</token>
+<token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScriptSourceFromString</token>
+<token>Microsoft.Scripting.Hosting.ScriptSource,Execute</token>
+</entry>
+<entry count="12">
+<token>Microsoft.Scripting.Hosting.ScriptEngine,SetSearchPaths</token>
+<token>Microsoft.Scripting.Hosting.ScriptIO,SetOutput</token>
+<token>Microsoft.Scripting.Hosting.ScriptEngine,SetSearchPaths</token>
+</entry>
+<entry count="2">
+<token>Microsoft.Scripting.Hosting.ScriptEngine,GetVariable</token>
+<token>Microsoft.Scripting.Hosting.ScriptEngine,GetVariable</token>
+<token>Microsoft.Scripting.Hosting.ScriptEngine,GetVariable</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Scripting.Hosting.ScriptSource,Execute</token>
+<token>Microsoft.Scripting.Hosting.ScriptScope,ContainsVariable</token>
+<token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScriptSourceFromString</token>
+</entry>
+<entry count="94">
+<token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScope</token>
+<token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScriptSourceFromString</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Scripting.Hosting.ScriptScope,SetVariable</token>
+<token>Microsoft.Scripting.Hosting.ScriptEngine,Execute</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScriptSourceFromString</token>
+<token>Microsoft.Scripting.Hosting.ScriptSource,Execute</token>
+<token>Microsoft.Scripting.Hosting.ScriptScope,ContainsVariable</token>
+<token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScriptSourceFromString</token>
+<token>Microsoft.Scripting.Hosting.ScriptSource,Execute</token>
+</entry>
+<entry count="3">
+<token>Microsoft.Scripting.Hosting.ScriptScope,TryGetVariable</token>
+<token>Microsoft.Scripting.Hosting.ScriptScope,GetVariable</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Scripting.Hosting.ScriptSource,Execute</token>
+<token>Microsoft.Scripting.Hosting.ScriptEngine,GetVariable</token>
+<token>Microsoft.Scripting.Hosting.ScriptEngine,GetVariable</token>
+</entry>
+<entry count="12">
+<token>Microsoft.Scripting.Hosting.ScriptScope,ContainsVariable</token>
+<token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScriptSourceFromString</token>
+<token>Microsoft.Scripting.Hosting.ScriptSource,Execute</token>
+</entry>
+<entry count="28">
+<token>Microsoft.Scripting.Hosting.ScriptSource,Compile</token>
+<token>Microsoft.Scripting.Hosting.CompiledCode,Execute</token>
+</entry>
+<entry count="136">
+<token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScriptSourceFromString</token>
+<token>Microsoft.Scripting.Hosting.ScriptSource,Execute</token>
+<token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScriptSourceFromString</token>
+</entry>
+<entry count="4">
+<token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScope</token>
+<token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScriptSourceFromString</token>
+<token>Microsoft.Scripting.Hosting.ScriptSource,Execute</token>
+<token>Microsoft.Scripting.Hosting.ScriptScope,ContainsVariable</token>
+</entry>
+<entry count="3">
+<token>Microsoft.Scripting.Hosting.ScriptSource,Execute</token>
+<token>Microsoft.Scripting.Hosting.ScriptScope,TryGetVariable</token>
+<token>Microsoft.Scripting.Hosting.ScriptScope,SetVariable</token>
+</entry>
+<entry count="3">
+<token>Microsoft.Scripting.Hosting.ScriptScope,GetVariable</token>
+<token>Microsoft.Scripting.Hosting.ScriptScope,SetVariable</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Scripting.Hosting.ScriptEngine,SetSearchPaths</token>
+<token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScriptSourceFromString</token>
+<token>Microsoft.Scripting.Hosting.ScriptSource,Execute</token>
+<token>Microsoft.Scripting.Hosting.ScriptEngine,GetVariable</token>
+<token>Microsoft.Scripting.Hosting.ScriptEngine,GetVariable</token>
+</entry>
+<entry count="3">
+<token>Microsoft.Scripting.Hosting.ScriptScope,SetVariable</token>
+<token>Microsoft.Scripting.Hosting.ScriptScope,SetVariable</token>
+<token>Microsoft.Scripting.Hosting.CompiledCode,Execute</token>
+<token>Microsoft.Scripting.Hosting.ScriptScope,GetItems</token>
+</entry>
+<entry count="3">
+<token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScope</token>
+<token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScriptSourceFromString</token>
+<token>Microsoft.Scripting.Hosting.ScriptSource,Execute</token>
+<token>Microsoft.Scripting.Hosting.ScriptScope,TryGetVariable</token>
+<token>Microsoft.Scripting.Hosting.ScriptScope,SetVariable</token>
+</entry>
+<entry count="5">
+<token>Microsoft.Scripting.Hosting.ScriptIO,SetOutput</token>
+<token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScope</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScriptSourceFromString</token>
+<token>Microsoft.Scripting.Hosting.ScriptSource,Execute</token>
+<token>Microsoft.Scripting.Hosting.ScriptEngine,GetVariable</token>
+<token>Microsoft.Scripting.Hosting.ScriptEngine,GetVariable</token>
+</entry>
+<entry count="12">
+<token>Microsoft.Scripting.Hosting.ScriptEngine,SetSearchPaths</token>
+<token>Microsoft.Scripting.Hosting.ScriptEngine,GetSearchPaths</token>
+</entry>
+<entry count="3">
+<token>Microsoft.Scripting.Hosting.ScriptScope,TryGetVariable</token>
+<token>Microsoft.Scripting.Hosting.ScriptScope,GetVariable</token>
+<token>Microsoft.Scripting.Hosting.ScriptScope,SetVariable</token>
+<token>Microsoft.Scripting.Hosting.ScriptScope,SetVariable</token>
+<token>Microsoft.Scripting.Hosting.CompiledCode,Execute</token>
+</entry>
+<entry count="28">
+<token>Microsoft.Scripting.Hosting.ScriptRuntime,GetEngineByFileExtension</token>
+<token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScope</token>
+<token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScriptSourceFromString</token>
+</entry>
+<entry count="1">
+<token>Microsoft.Scripting.Hosting.ScriptEngine,GetSearchPaths</token>
+<token>Microsoft.Scripting.Hosting.ScriptEngine,SetSearchPaths</token>
+<token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScriptSourceFromString</token>
+<token>Microsoft.Scripting.Hosting.ScriptSource,Execute</token>
+<token>Microsoft.Scripting.Hosting.ScriptEngine,GetVariable</token>
+</entry>
+<entry count="6">
+<token>Microsoft.Scripting.Hosting.CompiledCode,Execute</token>
+<token>Microsoft.Scripting.Hosting.ScriptScope,GetItems</token>
+</entry>
+<entry count="80">
+<token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScriptSourceFromString</token>
+<token>Microsoft.Scripting.Hosting.ScriptSource,Execute</token>
+<token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScriptSourceFromString</token>
+<token>Microsoft.Scripting.Hosting.ScriptSource,Execute</token>
+<token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScriptSourceFromString</token>
+</entry>
+<entry count="3">
+<token>Microsoft.Scripting.Hosting.ScriptScope,GetVariable</token>
+<token>Microsoft.Scripting.Hosting.ScriptScope,SetVariable</token>
+<token>Microsoft.Scripting.Hosting.ScriptScope,SetVariable</token>
+</entry>
+<entry count="6">
+<token>Microsoft.Scripting.Hosting.ScriptEngine,SetSearchPaths</token>
+<token>Microsoft.Scripting.Hosting.ScriptEngine,GetSearchPaths</token>
+<token>Microsoft.Scripting.Hosting.ScriptEngine,SetSearchPaths</token>
+<token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScriptSourceFromString</token>
+</entry>
+<entry count="6">
+<token>Microsoft.Scripting.Hosting.CompiledCode,Execute</token>
+<token>Microsoft.Scripting.Hosting.ScriptScope,GetItems</token>
+<token>Microsoft.Scripting.Hosting.ScriptScope,GetVariableHandle</token>
+</entry>
+<entry count="7">
+<token>Microsoft.Scripting.Hosting.ScriptEngine,GetSearchPaths</token>
+<token>Microsoft.Scripting.Hosting.ScriptEngine,SetSearchPaths</token>
+<token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScriptSourceFromString</token>
+<token>Microsoft.Scripting.Hosting.ScriptSource,Execute</token>
+</entry>
+<entry count="3">
+<token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScriptSourceFromString</token>
+<token>Microsoft.Scripting.Hosting.ScriptSource,Execute</token>
+<token>Microsoft.Scripting.Hosting.ScriptScope,TryGetVariable</token>
+<token>Microsoft.Scripting.Hosting.ScriptScope,GetVariable</token>
+</entry>
+<entry count="6">
+<token>Microsoft.Scripting.Hosting.ScriptScope,SetVariable</token>
+<token>Microsoft.Scripting.Hosting.CompiledCode,Execute</token>
+</entry>
+<entry count="6">
+<token>Microsoft.Scripting.Hosting.ScriptEngine,SetSearchPaths</token>
+<token>Microsoft.Scripting.Hosting.ScriptEngine,GetSearchPaths</token>
+<token>Microsoft.Scripting.Hosting.ScriptEngine,SetSearchPaths</token>
+<token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScriptSourceFromString</token>
+<token>Microsoft.Scripting.Hosting.ScriptSource,Execute</token>
+</entry>
+<entry count="72">
+<token>Microsoft.Scripting.Hosting.ScriptIO,SetOutput</token>
+<token>Microsoft.Scripting.Hosting.ScriptEngine,SetSearchPaths</token>
 </entry>
 <entry count="28">
 <token>Microsoft.Scripting.Hosting.ScriptRuntime,GetEngineByFileExtension</token>
@@ -396,7 +465,7 @@
 <token>Microsoft.Scripting.Hosting.ScriptScope,SetVariable</token>
 <token>Microsoft.Scripting.Hosting.CompiledCode,Execute</token>
 </entry>
-<entry count="5">
+<entry count="30">
 <token>Microsoft.Scripting.Hosting.ScriptIO,SetOutput</token>
 <token>Microsoft.Scripting.Hosting.ScriptEngine,SetSearchPaths</token>
 <token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScriptSourceFromString</token>
@@ -405,7 +474,7 @@
 <token>Microsoft.Scripting.Hosting.ScriptScope,TryGetVariable</token>
 <token>Microsoft.Scripting.Hosting.ScriptScope,TryGetVariable</token>
 </entry>
-<entry count="128">
+<entry count="2304">
 <token>Microsoft.Scripting.Hosting.ScriptRuntime,LoadAssembly</token>
 <token>Microsoft.Scripting.Hosting.ScriptRuntime,LoadAssembly</token>
 <token>Microsoft.Scripting.Hosting.ScriptEngine,SetSearchPaths</token>
@@ -426,7 +495,7 @@
 <token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScriptSourceFromString</token>
 <token>Microsoft.Scripting.Hosting.ScriptSource,Compile</token>
 </entry>
-<entry count="1">
+<entry count="6">
 <token>Microsoft.Scripting.Hosting.ScriptIO,SetOutput</token>
 <token>Microsoft.Scripting.Hosting.ScriptEngine,SetSearchPaths</token>
 <token>Microsoft.Scripting.Hosting.ScriptEngine,GetSearchPaths</token>
@@ -458,7 +527,7 @@
 <token>Microsoft.Scripting.Hosting.CompiledCode,Execute</token>
 <token>Microsoft.Scripting.Hosting.ScriptScope,TryGetVariable</token>
 </entry>
-<entry count="193">
+<entry count="2544">
 <token>Microsoft.Scripting.Hosting.ScriptRuntime,LoadAssembly</token>
 <token>Microsoft.Scripting.Hosting.ScriptRuntime,LoadAssembly</token>
 </entry>
@@ -472,7 +541,7 @@
 <token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScope</token>
 <token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScriptSourceFromString</token>
 </entry>
-<entry count="8">
+<entry count="12">
 <token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScriptSourceFromString</token>
 <token>Microsoft.Scripting.Hosting.ScriptSource,Execute</token>
 <token>Microsoft.Scripting.Hosting.ScriptScope,ContainsVariable</token>
@@ -482,7 +551,7 @@
 <token>Microsoft.Scripting.Hosting.ScriptScope,SetVariable</token>
 <token>Microsoft.Scripting.Hosting.CompiledCode,Execute</token>
 </entry>
-<entry count="3">
+<entry count="56">
 <token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScope</token>
 <token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScriptSourceFromString</token>
 <token>Microsoft.Scripting.Hosting.ScriptSource,Execute</token>
@@ -501,11 +570,11 @@
 <token>Microsoft.Scripting.Hosting.ScriptEngine,SetSearchPaths</token>
 <token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScriptSourceFromString</token>
 </entry>
-<entry count="128">
+<entry count="2304">
 <token>Microsoft.Scripting.Hosting.ScriptRuntime,LoadAssembly</token>
 <token>Microsoft.Scripting.Hosting.ScriptEngine,SetSearchPaths</token>
 </entry>
-<entry count="2">
+<entry count="80">
 <token>Microsoft.Scripting.Hosting.ScriptSource,Execute</token>
 <token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScriptSourceFromString</token>
 <token>Microsoft.Scripting.Hosting.ScriptSource,Execute</token>
@@ -540,7 +609,7 @@
 <token>Microsoft.Scripting.Hosting.ScriptEngine,Execute</token>
 <token>Microsoft.Scripting.Hosting.ScriptEngine,Execute</token>
 </entry>
-<entry count="5">
+<entry count="136">
 <token>Microsoft.Scripting.Hosting.ScriptSource,Execute</token>
 <token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScriptSourceFromString</token>
 <token>Microsoft.Scripting.Hosting.ScriptSource,Execute</token>
@@ -583,11 +652,11 @@
 <token>Microsoft.Scripting.Hosting.ScriptSource,Execute</token>
 <token>Microsoft.Scripting.Hosting.ScriptScope,TryGetVariable</token>
 </entry>
-<entry count="7">
+<entry count="37">
 <token>Microsoft.Scripting.Hosting.ScriptEngine,SetSearchPaths</token>
 <token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScriptSourceFromString</token>
 </entry>
-<entry count="2">
+<entry count="12">
 <token>Microsoft.Scripting.Hosting.ScriptScope,ContainsVariable</token>
 <token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScriptSourceFromString</token>
 </entry>
@@ -618,7 +687,7 @@
 <token>Microsoft.Scripting.Hosting.ScriptScope,SetVariable</token>
 <token>Microsoft.Scripting.Hosting.ScriptEngine,Execute</token>
 </entry>
-<entry count="8">
+<entry count="12">
 <token>Microsoft.Scripting.Hosting.ScriptSource,Execute</token>
 <token>Microsoft.Scripting.Hosting.ScriptScope,ContainsVariable</token>
 </entry>
@@ -639,6 +708,11 @@
 <token>Microsoft.Scripting.Hosting.ScriptSource,Execute</token>
 <token>Microsoft.Scripting.Hosting.ScriptScope,ContainsVariable</token>
 </entry>
+<entry count="12">
+<token>Microsoft.Scripting.Hosting.ScriptEngine,GetSearchPaths</token>
+<token>Microsoft.Scripting.Hosting.ScriptEngine,SetSearchPaths</token>
+<token>Microsoft.Scripting.Hosting.ScriptIO,SetOutput</token>
+</entry>
 <entry count="3">
 <token>Microsoft.Scripting.Hosting.ScriptScope,TryGetVariable</token>
 <token>Microsoft.Scripting.Hosting.ScriptScope,SetVariable</token>
@@ -646,7 +720,7 @@
 <token>Microsoft.Scripting.Hosting.ScriptScope,GetItems</token>
 <token>Microsoft.Scripting.Hosting.ScriptScope,GetVariableHandle</token>
 </entry>
-<entry count="2">
+<entry count="12">
 <token>Microsoft.Scripting.Hosting.ScriptIO,SetOutput</token>
 <token>Microsoft.Scripting.Hosting.ScriptEngine,SetSearchPaths</token>
 <token>Microsoft.Scripting.Hosting.ScriptEngine,GetSearchPaths</token>
@@ -662,6 +736,12 @@
 <token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScope</token>
 <token>Microsoft.Scripting.Hosting.CompiledCode,Execute</token>
 </entry>
+<entry count="4">
+<token>Microsoft.Scripting.Hosting.ScriptScope,ContainsVariable</token>
+<token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScriptSourceFromString</token>
+<token>Microsoft.Scripting.Hosting.ScriptSource,Execute</token>
+<token>Microsoft.Scripting.Hosting.ScriptScope,ContainsVariable</token>
+</entry>
 <entry count="3">
 <token>Microsoft.Scripting.Hosting.ScriptScope,TryGetVariable</token>
 <token>Microsoft.Scripting.Hosting.ScriptScope,GetVariable</token>
@@ -671,9 +751,16 @@
 <entry count="2">
 <token>Microsoft.Scripting.Hosting.ScriptEngine,GetSearchPaths</token>
 <token>Microsoft.Scripting.Hosting.ScriptEngine,SetSearchPaths</token>
+<token>Microsoft.Scripting.Hosting.ScriptIO,SetOutput</token>
+<token>Microsoft.Scripting.Hosting.ScriptEngine,SetSearchPaths</token>
+<token>Microsoft.Scripting.Hosting.ScriptEngine,GetSearchPaths</token>
+</entry>
+<entry count="7">
+<token>Microsoft.Scripting.Hosting.ScriptEngine,GetSearchPaths</token>
+<token>Microsoft.Scripting.Hosting.ScriptEngine,SetSearchPaths</token>
 <token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScriptSourceFromString</token>
 </entry>
-<entry count="66">
+<entry count="302">
 <token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScriptSourceFromString</token>
 <token>Microsoft.Scripting.Hosting.ScriptSource,Execute</token>
 </entry>
@@ -681,19 +768,25 @@
 <token>Microsoft.Scripting.Hosting.ScriptRuntime,GetEngineByFileExtension</token>
 <token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScope</token>
 </entry>
-<entry count="20">
+<entry count="105">
 <token>Microsoft.Scripting.Hosting.ScriptRuntime,LoadAssembly</token>
 <token>Microsoft.Scripting.Hosting.ScriptRuntime,LoadAssembly</token>
 <token>Microsoft.Scripting.Hosting.ScriptRuntime,LoadAssembly</token>
 <token>Microsoft.Scripting.Hosting.ScriptRuntime,LoadAssembly</token>
 <token>Microsoft.Scripting.Hosting.ScriptRuntime,LoadAssembly</token>
 </entry>
-<entry count="50">
+<entry count="195">
 <token>Microsoft.Scripting.Hosting.ScriptRuntime,LoadAssembly</token>
 <token>Microsoft.Scripting.Hosting.ScriptRuntime,LoadAssembly</token>
 <token>Microsoft.Scripting.Hosting.ScriptRuntime,LoadAssembly</token>
 </entry>
-<entry count="3">
+<entry count="12">
+<token>Microsoft.Scripting.Hosting.ScriptEngine,GetSearchPaths</token>
+<token>Microsoft.Scripting.Hosting.ScriptEngine,SetSearchPaths</token>
+<token>Microsoft.Scripting.Hosting.ScriptIO,SetOutput</token>
+<token>Microsoft.Scripting.Hosting.ScriptEngine,SetSearchPaths</token>
+</entry>
+<entry count="25">
 <token>Microsoft.Scripting.Hosting.ScriptEngine,GetSearchPaths</token>
 <token>Microsoft.Scripting.Hosting.ScriptEngine,SetSearchPaths</token>
 </entry>
@@ -702,6 +795,10 @@
 <token>Microsoft.Scripting.Hosting.ScriptEngine,GetVariable</token>
 <token>Microsoft.Scripting.Hosting.ScriptEngine,GetVariable</token>
 <token>Microsoft.Scripting.Hosting.ScriptEngine,GetVariable</token>
+</entry>
+<entry count="12">
+<token>Microsoft.Scripting.Hosting.ScriptEngine,SetSearchPaths</token>
+<token>Microsoft.Scripting.Hosting.ScriptIO,SetOutput</token>
 </entry>
 <entry count="28">
 <token>Microsoft.Scripting.Hosting.ScriptEngine,CreateScope</token>

@@ -12,7 +12,7 @@
 <token>Microsoft.CodeAnalysis.Text.TextSpan,FromBounds</token>
 <token>Microsoft.CodeAnalysis.Text.TextSpan,FromBounds</token>
 </entry>
-<entry count="19">
+<entry count="37">
 <token>Microsoft.CodeAnalysis.Text.TextLineCollection,IndexOf</token>
 <token>Microsoft.CodeAnalysis.Text.TextLineCollection,IndexOf</token>
 </entry>
@@ -21,7 +21,7 @@
 <token>Microsoft.CodeAnalysis.Text.TextSpan,IntersectsWith</token>
 <token>Microsoft.CodeAnalysis.Text.TextSpan,IntersectsWith</token>
 </entry>
-<entry count="24">
+<entry count="96">
 <token>Microsoft.CodeAnalysis.Text.TextSpan,FromBounds</token>
 <token>Microsoft.CodeAnalysis.Text.TextSpan,new</token>
 <token>Microsoft.CodeAnalysis.Text.TextSpan,FromBounds</token>
@@ -52,7 +52,11 @@
 <token>Microsoft.CodeAnalysis.Text.TextSpan,new</token>
 <token>Microsoft.CodeAnalysis.Text.SourceText,GetSubText</token>
 </entry>
-<entry count="4">
+<entry count="221955">
+<token>Microsoft.CodeAnalysis.Text.TextSpan,new</token>
+<token>Microsoft.CodeAnalysis.Text.TextSpan,new</token>
+</entry>
+<entry count="6">
 <token>Microsoft.CodeAnalysis.Text.TextSpan,FromBounds</token>
 <token>Microsoft.CodeAnalysis.Text.TextSpan,FromBounds</token>
 </entry>
@@ -69,15 +73,11 @@
 <token>Microsoft.CodeAnalysis.Text.SourceText,GetSubText</token>
 <token>Microsoft.CodeAnalysis.Text.SourceText,ToString</token>
 </entry>
-<entry count="1536">
-<token>Microsoft.CodeAnalysis.Text.TextSpan,new</token>
-<token>Microsoft.CodeAnalysis.Text.TextSpan,new</token>
-</entry>
 <entry count="4">
 <token>Microsoft.CodeAnalysis.Text.Extensions,AsTextContainer</token>
 <token>Microsoft.CodeAnalysis.Text.TextSpan,new</token>
 </entry>
-<entry count="7">
+<entry count="98313">
 <token>Microsoft.CodeAnalysis.Text.TextSpan,IntersectsWith</token>
 <token>Microsoft.CodeAnalysis.Text.TextSpan,IntersectsWith</token>
 </entry>
@@ -87,16 +87,16 @@
 <token>Microsoft.CodeAnalysis.Text.SourceText,ToString</token>
 <token>Microsoft.CodeAnalysis.Text.TextSpan,new</token>
 </entry>
-<entry count="56">
+<entry count="112">
 <token>Microsoft.CodeAnalysis.Text.SourceText,ToString</token>
 <token>Microsoft.CodeAnalysis.Text.SourceText,ToString</token>
 <token>Microsoft.CodeAnalysis.Text.SourceText,GetTextChanges</token>
 </entry>
-<entry count="48">
+<entry count="192">
 <token>Microsoft.CodeAnalysis.Text.TextSpan,new</token>
 <token>Microsoft.CodeAnalysis.Text.TextSpan,FromBounds</token>
 </entry>
-<entry count="1">
+<entry count="164">
 <token>Microsoft.CodeAnalysis.Text.SourceText,From</token>
 <token>Microsoft.CodeAnalysis.Text.SourceText,From</token>
 </entry>
@@ -108,13 +108,15 @@
 <token>Microsoft.CodeAnalysis.Text.TextSpan,new</token>
 <token>Microsoft.CodeAnalysis.Text.SourceText,ToString</token>
 </entry>
-<entry count="150">
+<entry count="660">
 <token>Microsoft.CodeAnalysis.Text.TextSpan,Contains</token>
 <token>Microsoft.CodeAnalysis.Text.TextSpan,Contains</token>
 </entry>
 <entry count="32">
-<token>Microsoft.CodeAnalysis.Text.TextSpan,Contains</token>
-<token>Microsoft.CodeAnalysis.Text.TextSpan,FromBounds</token>
+<token>Microsoft.CodeAnalysis.Text.SourceText,From</token>
+<token>Microsoft.CodeAnalysis.Text.SourceText,From</token>
+<token>Microsoft.CodeAnalysis.Text.SourceText,From</token>
+<token>Microsoft.CodeAnalysis.Text.SourceText,From</token>
 </entry>
 <entry count="1">
 <token>Microsoft.CodeAnalysis.Text.TextLineCollection,GetLineFromPosition</token>
@@ -125,7 +127,7 @@
 <token>Microsoft.CodeAnalysis.Text.TextLineCollection,GetLineFromPosition</token>
 <token>Microsoft.CodeAnalysis.Text.TextLine,ToString</token>
 </entry>
-<entry count="56">
+<entry count="112">
 <token>Microsoft.CodeAnalysis.Text.SourceText,ToString</token>
 <token>Microsoft.CodeAnalysis.Text.SourceText,GetTextChanges</token>
 </entry>
@@ -133,15 +135,34 @@
 <token>Microsoft.CodeAnalysis.Text.SourceText,ToString</token>
 <token>Microsoft.CodeAnalysis.Text.TextSpan,new</token>
 </entry>
+<entry count="8">
+<token>Microsoft.CodeAnalysis.Text.SourceText,From</token>
+<token>Microsoft.CodeAnalysis.Text.SourceText,From</token>
+<token>Microsoft.CodeAnalysis.Text.SourceText,From</token>
+<token>Microsoft.CodeAnalysis.Text.SourceText,From</token>
+<token>Microsoft.CodeAnalysis.Text.SourceText,From</token>
+</entry>
+<entry count="104448">
+<token>Microsoft.CodeAnalysis.Text.TextSpan,new</token>
+<token>Microsoft.CodeAnalysis.Text.TextSpan,new</token>
+<token>Microsoft.CodeAnalysis.Text.TextSpan,new</token>
+<token>Microsoft.CodeAnalysis.Text.TextSpan,new</token>
+<token>Microsoft.CodeAnalysis.Text.TextSpan,new</token>
+</entry>
 <entry count="2">
 <token>Microsoft.CodeAnalysis.Text.TextSpan,Contains</token>
 <token>Microsoft.CodeAnalysis.Text.TextSpan,OverlapsWith</token>
 </entry>
-<entry count="24">
+<entry count="96">
 <token>Microsoft.CodeAnalysis.Text.TextSpan,FromBounds</token>
 <token>Microsoft.CodeAnalysis.Text.TextSpan,new</token>
 </entry>
-<entry count="24">
+<entry count="84">
+<token>Microsoft.CodeAnalysis.Text.SourceText,From</token>
+<token>Microsoft.CodeAnalysis.Text.SourceText,From</token>
+<token>Microsoft.CodeAnalysis.Text.SourceText,From</token>
+</entry>
+<entry count="96">
 <token>Microsoft.CodeAnalysis.Text.TextSpan,new</token>
 <token>Microsoft.CodeAnalysis.Text.TextSpan,FromBounds</token>
 <token>Microsoft.CodeAnalysis.Text.TextSpan,new</token>
@@ -150,11 +171,17 @@
 <token>Microsoft.CodeAnalysis.Text.SourceText,GetSubText</token>
 <token>Microsoft.CodeAnalysis.Text.SourceText,ToString</token>
 </entry>
-<entry count="56">
+<entry count="112">
 <token>Microsoft.CodeAnalysis.Text.SourceText,ToString</token>
 <token>Microsoft.CodeAnalysis.Text.SourceText,ToString</token>
 </entry>
-<entry count="768">
+<entry count="143360">
+<token>Microsoft.CodeAnalysis.Text.TextSpan,new</token>
+<token>Microsoft.CodeAnalysis.Text.TextSpan,new</token>
+<token>Microsoft.CodeAnalysis.Text.TextSpan,new</token>
+<token>Microsoft.CodeAnalysis.Text.TextSpan,new</token>
+</entry>
+<entry count="182656">
 <token>Microsoft.CodeAnalysis.Text.TextSpan,new</token>
 <token>Microsoft.CodeAnalysis.Text.TextSpan,new</token>
 <token>Microsoft.CodeAnalysis.Text.TextSpan,new</token>
@@ -163,7 +190,7 @@
 <token>Microsoft.CodeAnalysis.Text.TextLineCollection,GetLineFromPosition</token>
 <token>Microsoft.CodeAnalysis.Text.SourceText,Replace</token>
 </entry>
-<entry count="24">
+<entry count="96">
 <token>Microsoft.CodeAnalysis.Text.TextSpan,new</token>
 <token>Microsoft.CodeAnalysis.Text.TextSpan,FromBounds</token>
 <token>Microsoft.CodeAnalysis.Text.TextSpan,new</token>

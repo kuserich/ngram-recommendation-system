@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><dictionary case_sensitive="false">
-<entry count="54">
+<entry count="140">
 <token>Akka.Actor.ActorRefImplicitSenderExtensions,Tell</token>
 <token>Akka.Actor.ReceiveActor,Receive</token>
+</entry>
+<entry count="2">
+<token>Akka.Actor.ActorSelection,Tell</token>
+<token>Akka.Actor.IActorRefFactory,ActorSelection</token>
+<token>Akka.Actor.ActorSelection,Tell</token>
+<token>Akka.Actor.IActorRefFactory,ActorSelection</token>
 </entry>
 <entry count="1">
 <token>Akka.Actor.ActorSystem,ActorOf</token>
@@ -36,12 +42,12 @@
 <token>Akka.Actor.Props,Create</token>
 <token>Akka.Actor.RemoteScope,new</token>
 </entry>
-<entry count="32">
+<entry count="64">
 <token>Akka.Actor.PipeToSupport,PipeTo</token>
 <token>Akka.Actor.ReceiveActor,Receive</token>
 <token>Akka.Actor.PipeToSupport,PipeTo</token>
 </entry>
-<entry count="4">
+<entry count="8">
 <token>Akka.Actor.IActorContext,Child</token>
 <token>Akka.Actor.Props,WithRouter</token>
 <token>Akka.Actor.IActorRefFactory,ActorOf</token>
@@ -56,7 +62,7 @@
 <token>Akka.Actor.IActorContext,Child</token>
 <token>Akka.Actor.ActorRefImplicitSenderExtensions,Tell</token>
 </entry>
-<entry count="32">
+<entry count="64">
 <token>Akka.Actor.IStash,Stash</token>
 <token>Akka.Actor.ReceiveActor,Become</token>
 </entry>
@@ -66,7 +72,7 @@
 <token>Akka.Actor.Props,Create</token>
 <token>Akka.Actor.ActorSystem,ActorOf</token>
 </entry>
-<entry count="2">
+<entry count="8">
 <token>Akka.Actor.Props,WithRouter</token>
 <token>Akka.Actor.IActorRefFactory,ActorOf</token>
 <token>Akka.Actor.Cancelable,new</token>
@@ -77,7 +83,7 @@
 <token>Akka.Actor.IStash,Stash</token>
 <token>Akka.Actor.ReceiveActor,Receive</token>
 </entry>
-<entry count="2">
+<entry count="9">
 <token>Akka.Actor.ActorSelection,Tell</token>
 <token>Akka.Actor.IActorRefFactory,ActorSelection</token>
 </entry>
@@ -111,7 +117,7 @@
 <token>Akka.Actor.ReceiveActor,Receive</token>
 <token>Akka.Actor.ReceiveActor,Receive</token>
 </entry>
-<entry count="2">
+<entry count="8">
 <token>Akka.Actor.IActorRefFactory,ActorOf</token>
 <token>Akka.Actor.Cancelable,new</token>
 <token>Akka.Actor.ITellScheduler,ScheduleTellRepeatedly</token>
@@ -121,7 +127,7 @@
 <token>Akka.Actor.ActorSystem,ActorOf</token>
 <token>Akka.Actor.ActorSystem,ActorSelection</token>
 </entry>
-<entry count="32">
+<entry count="64">
 <token>Akka.Actor.ReceiveActor,Receive</token>
 <token>Akka.Actor.IStash,Stash</token>
 <token>Akka.Actor.ReceiveActor,Become</token>
@@ -146,7 +152,7 @@
 <token>Akka.Actor.IStash,UnstashAll</token>
 <token>Akka.Actor.IActorContext,SetReceiveTimeout</token>
 </entry>
-<entry count="2">
+<entry count="8">
 <token>Akka.Actor.Props,Create</token>
 <token>Akka.Actor.Props,WithRouter</token>
 <token>Akka.Actor.IActorRefFactory,ActorOf</token>
@@ -160,7 +166,7 @@
 <token>Akka.Actor.IStash,Stash</token>
 <token>Akka.Actor.ReceiveActor,Receive</token>
 </entry>
-<entry count="1">
+<entry count="4">
 <token>Akka.Actor.IActorContext,Child</token>
 <token>Akka.Actor.IActorContext,Child</token>
 <token>Akka.Actor.Props,Create</token>
@@ -183,7 +189,7 @@
 <token>Akka.Actor.ReceiveActor,Receive</token>
 <token>Akka.Actor.ICancelable,Cancel</token>
 </entry>
-<entry count="12">
+<entry count="48">
 <token>Akka.Actor.PipeToSupport,PipeTo</token>
 <token>Akka.Actor.ReceiveActor,Receive</token>
 <token>Akka.Actor.ActorRefImplicitSenderExtensions,Tell</token>
@@ -194,6 +200,13 @@
 <token>Akka.Actor.ReceiveActor,Become</token>
 <token>Akka.Actor.IStash,UnstashAll</token>
 <token>Akka.Actor.ReceiveActor,Receive</token>
+</entry>
+<entry count="12">
+<token>Akka.Actor.ReceiveActor,Receive</token>
+<token>Akka.Actor.ActorRefImplicitSenderExtensions,Tell</token>
+<token>Akka.Actor.ActorRefImplicitSenderExtensions,Tell</token>
+<token>Akka.Actor.ActorRefImplicitSenderExtensions,Tell</token>
+<token>Akka.Actor.ActorRefImplicitSenderExtensions,Tell</token>
 </entry>
 <entry count="1">
 <token>Akka.Actor.Props,WithRouter</token>
@@ -218,11 +231,11 @@
 <token>Akka.Actor.ActorRefImplicitSenderExtensions,Tell</token>
 <token>Akka.Actor.ReceiveActor,Receive</token>
 </entry>
-<entry count="4">
+<entry count="16">
 <token>Akka.Actor.Cancelable,new</token>
 <token>Akka.Actor.ITellScheduler,ScheduleTellRepeatedly</token>
 </entry>
-<entry count="2">
+<entry count="8">
 <token>Akka.Actor.IActorContext,Child</token>
 <token>Akka.Actor.Props,Create</token>
 <token>Akka.Actor.Props,WithRouter</token>
@@ -235,7 +248,7 @@
 <token>Akka.Actor.ActorRefImplicitSenderExtensions,Tell</token>
 <token>Akka.Actor.IActorContext,SetReceiveTimeout</token>
 </entry>
-<entry count="2">
+<entry count="9">
 <token>Akka.Actor.ActorSelection,Tell</token>
 <token>Akka.Actor.IActorRefFactory,ActorSelection</token>
 <token>Akka.Actor.ActorSelection,Tell</token>
@@ -260,19 +273,19 @@
 <token>Akka.Actor.Props,WithDeploy</token>
 <token>Akka.Actor.ActorSystem,ActorOf</token>
 </entry>
-<entry count="17">
+<entry count="19">
 <token>Akka.Actor.ReceiveActor,Receive</token>
 <token>Akka.Actor.ReceiveActor,Receive</token>
 <token>Akka.Actor.ReceiveActor,Receive</token>
 <token>Akka.Actor.ReceiveActor,Receive</token>
 <token>Akka.Actor.ReceiveActor,Receive</token>
 </entry>
-<entry count="1">
+<entry count="4">
 <token>Akka.Actor.IActorContext,Child</token>
 <token>Akka.Actor.IActorContext,Child</token>
 <token>Akka.Actor.Cancelable,new</token>
 </entry>
-<entry count="2">
+<entry count="8">
 <token>Akka.Actor.IActorContext,Child</token>
 <token>Akka.Actor.Cancelable,new</token>
 <token>Akka.Actor.ITellScheduler,ScheduleTellRepeatedly</token>
@@ -282,7 +295,7 @@
 <token>Akka.Actor.IActorRefFactory,ActorOf</token>
 <token>Akka.Actor.Props,Create</token>
 </entry>
-<entry count="5">
+<entry count="17">
 <token>Akka.Actor.IActorContext,Child</token>
 <token>Akka.Actor.Props,Create</token>
 <token>Akka.Actor.Props,WithRouter</token>
@@ -297,6 +310,11 @@
 </entry>
 <entry count="1">
 <token>Akka.Actor.ActorSelection,Tell</token>
+<token>Akka.Actor.ActorBase,Unhandled</token>
+<token>Akka.Actor.IActorRefFactory,ActorSelection</token>
+</entry>
+<entry count="1">
+<token>Akka.Actor.ActorSelection,Tell</token>
 <token>Akka.Actor.ReceiveActor,Become</token>
 <token>Akka.Actor.Futures,Ask</token>
 </entry>
@@ -305,7 +323,7 @@
 <token>Akka.Actor.IActorRefFactory,ActorOf</token>
 <token>Akka.Actor.ActorRefImplicitSenderExtensions,Tell</token>
 </entry>
-<entry count="1">
+<entry count="4">
 <token>Akka.Actor.Props,Create</token>
 <token>Akka.Actor.Props,WithRouter</token>
 <token>Akka.Actor.IActorRefFactory,ActorOf</token>
@@ -354,13 +372,13 @@
 <token>Akka.Actor.Futures,Ask</token>
 <token>Akka.Actor.IActorContext,SetReceiveTimeout</token>
 </entry>
-<entry count="1">
+<entry count="4">
 <token>Akka.Actor.IActorContext,Child</token>
 <token>Akka.Actor.IActorContext,Child</token>
 <token>Akka.Actor.Cancelable,new</token>
 <token>Akka.Actor.ITellScheduler,ScheduleTellRepeatedly</token>
 </entry>
-<entry count="4">
+<entry count="16">
 <token>Akka.Actor.ReceiveActor,Receive</token>
 <token>Akka.Actor.ActorRefImplicitSenderExtensions,Tell</token>
 <token>Akka.Actor.ActorRefImplicitSenderExtensions,Tell</token>
@@ -372,7 +390,7 @@
 <token>Akka.Actor.ActorSystem,ActorOf</token>
 <token>Akka.Actor.ActorRefImplicitSenderExtensions,Tell</token>
 </entry>
-<entry count="1">
+<entry count="4">
 <token>Akka.Actor.IActorRefFactory,ActorOf</token>
 <token>Akka.Actor.IActorContext,Child</token>
 <token>Akka.Actor.Props,Create</token>
@@ -385,6 +403,13 @@
 <entry count="1">
 <token>Akka.Actor.IActorRefFactory,ActorOf</token>
 <token>Akka.Actor.ReceiveActor,Become</token>
+</entry>
+<entry count="24">
+<token>Akka.Actor.ActorRefImplicitSenderExtensions,Tell</token>
+<token>Akka.Actor.ReceiveActor,Receive</token>
+<token>Akka.Actor.ActorRefImplicitSenderExtensions,Tell</token>
+<token>Akka.Actor.ActorRefImplicitSenderExtensions,Tell</token>
+<token>Akka.Actor.ReceiveActor,Receive</token>
 </entry>
 <entry count="1">
 <token>Akka.Actor.Props,WithDeploy</token>
@@ -399,7 +424,7 @@
 <token>Akka.Actor.ReceiveActor,Receive</token>
 <token>Akka.Actor.ReceiveActor,Receive</token>
 </entry>
-<entry count="32">
+<entry count="64">
 <token>Akka.Actor.PipeToSupport,PipeTo</token>
 <token>Akka.Actor.ReceiveActor,Receive</token>
 <token>Akka.Actor.PipeToSupport,PipeTo</token>
@@ -412,12 +437,12 @@
 <token>Akka.Actor.ActorSystem,ActorOf</token>
 <token>Akka.Actor.Props,Create</token>
 </entry>
-<entry count="6">
+<entry count="18">
 <token>Akka.Actor.ICanTell,Tell</token>
 <token>Akka.Actor.ReceiveActor,Receive</token>
 <token>Akka.Actor.ReceiveActor,Receive</token>
 </entry>
-<entry count="3">
+<entry count="12">
 <token>Akka.Actor.PipeToSupport,PipeTo</token>
 <token>Akka.Actor.ReceiveActor,Receive</token>
 <token>Akka.Actor.ActorRefImplicitSenderExtensions,Tell</token>
@@ -429,12 +454,12 @@
 <token>Akka.Actor.IActorContext,SetReceiveTimeout</token>
 <token>Akka.Actor.ReceiveActor,Receive</token>
 </entry>
-<entry count="32">
+<entry count="64">
 <token>Akka.Actor.PipeToSupport,PipeTo</token>
 <token>Akka.Actor.ReceiveActor,Receive</token>
 <token>Akka.Actor.IStash,Stash</token>
 </entry>
-<entry count="4">
+<entry count="8">
 <token>Akka.Actor.IActorContext,Child</token>
 <token>Akka.Actor.Props,WithRouter</token>
 <token>Akka.Actor.IActorRefFactory,ActorOf</token>
@@ -450,7 +475,7 @@
 <token>Akka.Actor.ActorRefImplicitSenderExtensions,Tell</token>
 <token>Akka.Actor.ActorSystem,AwaitTermination</token>
 </entry>
-<entry count="5">
+<entry count="17">
 <token>Akka.Actor.IActorContext,Child</token>
 <token>Akka.Actor.Props,Create</token>
 </entry>
@@ -459,7 +484,7 @@
 <token>Akka.Actor.ReceiveActor,Become</token>
 <token>Akka.Actor.IStash,UnstashAll</token>
 </entry>
-<entry count="7">
+<entry count="16">
 <token>Akka.Actor.ReceiveActor,Receive</token>
 <token>Akka.Actor.ActorRefImplicitSenderExtensions,Tell</token>
 <token>Akka.Actor.ReceiveActor,Receive</token>
@@ -486,7 +511,7 @@
 <token>Akka.Actor.ReceiveActor,Receive</token>
 <token>Akka.Actor.ActorRefImplicitSenderExtensions,Tell</token>
 </entry>
-<entry count="32">
+<entry count="64">
 <token>Akka.Actor.IStash,Stash</token>
 <token>Akka.Actor.ReceiveActor,Become</token>
 <token>Akka.Actor.ReceiveActor,Receive</token>
@@ -501,6 +526,12 @@
 <token>Akka.Actor.ActorSystem,Create</token>
 <token>Akka.Actor.Props,WithRouter</token>
 <token>Akka.Actor.ActorSystem,ActorOf</token>
+</entry>
+<entry count="2">
+<token>Akka.Actor.ActorBase,Unhandled</token>
+<token>Akka.Actor.IActorRefFactory,ActorSelection</token>
+<token>Akka.Actor.ActorSelection,Tell</token>
+<token>Akka.Actor.IActorRefFactory,ActorSelection</token>
 </entry>
 <entry count="8">
 <token>Akka.Actor.ActorSystem,ActorOf</token>
@@ -527,7 +558,7 @@
 <token>Akka.Actor.ReceiveActor,Receive</token>
 <token>Akka.Actor.IStash,Stash</token>
 </entry>
-<entry count="7">
+<entry count="9">
 <token>Akka.Actor.ActorRefImplicitSenderExtensions,Tell</token>
 <token>Akka.Actor.ReceiveActor,Receive</token>
 <token>Akka.Actor.ReceiveActor,Receive</token>
@@ -554,7 +585,12 @@
 <token>Akka.Actor.ActorSystem,Create</token>
 <token>Akka.Actor.Props,WithRouter</token>
 </entry>
-<entry count="66">
+<entry count="2">
+<token>Akka.Actor.ActorBase,Unhandled</token>
+<token>Akka.Actor.IActorRefFactory,ActorSelection</token>
+<token>Akka.Actor.ActorSelection,Tell</token>
+</entry>
+<entry count="102">
 <token>Akka.Actor.ReceiveActor,Receive</token>
 <token>Akka.Actor.ReceiveActor,Receive</token>
 <token>Akka.Actor.ReceiveActor,Receive</token>
@@ -595,11 +631,11 @@
 <token>Akka.Actor.ReceiveActor,Receive</token>
 <token>Akka.Actor.ActorRefImplicitSenderExtensions,Tell</token>
 </entry>
-<entry count="40">
+<entry count="72">
 <token>Akka.Actor.ReceiveActor,Receive</token>
 <token>Akka.Actor.IStash,Stash</token>
 </entry>
-<entry count="9">
+<entry count="60">
 <token>Akka.Actor.ReceiveActor,Receive</token>
 <token>Akka.Actor.ActorRefImplicitSenderExtensions,Tell</token>
 <token>Akka.Actor.ActorRefImplicitSenderExtensions,Tell</token>
@@ -628,7 +664,7 @@
 <token>Akka.Actor.ReceiveActor,Receive</token>
 <token>Akka.Actor.ReceiveActor,Receive</token>
 </entry>
-<entry count="32">
+<entry count="64">
 <token>Akka.Actor.ReceiveActor,Receive</token>
 <token>Akka.Actor.PipeToSupport,PipeTo</token>
 <token>Akka.Actor.ReceiveActor,Receive</token>
@@ -640,16 +676,22 @@
 <token>Akka.Actor.Props,Create</token>
 </entry>
 <entry count="1">
+<token>Akka.Actor.ActorSelection,Tell</token>
+<token>Akka.Actor.ActorBase,Unhandled</token>
+<token>Akka.Actor.IActorRefFactory,ActorSelection</token>
+<token>Akka.Actor.ActorSelection,Tell</token>
+</entry>
+<entry count="1">
 <token>Akka.Actor.ReceiveActor,Receive</token>
 <token>Akka.Actor.ICancelable,Cancel</token>
 </entry>
-<entry count="32">
+<entry count="64">
 <token>Akka.Actor.PipeToSupport,PipeTo</token>
 <token>Akka.Actor.ReceiveActor,Receive</token>
 <token>Akka.Actor.PipeToSupport,PipeTo</token>
 <token>Akka.Actor.ReceiveActor,Receive</token>
 </entry>
-<entry count="1">
+<entry count="4">
 <token>Akka.Actor.Props,WithRouter</token>
 <token>Akka.Actor.IActorRefFactory,ActorOf</token>
 <token>Akka.Actor.IActorContext,Child</token>
@@ -674,19 +716,19 @@
 <token>Akka.Actor.Futures,Ask</token>
 <token>Akka.Actor.IActorContext,SetReceiveTimeout</token>
 </entry>
-<entry count="1">
+<entry count="4">
 <token>Akka.Actor.IActorContext,Child</token>
 <token>Akka.Actor.IActorContext,Child</token>
 <token>Akka.Actor.Props,Create</token>
 <token>Akka.Actor.Props,WithRouter</token>
 <token>Akka.Actor.IActorRefFactory,ActorOf</token>
 </entry>
-<entry count="1">
+<entry count="2">
 <token>Akka.Actor.IActorRefFactory,ActorSelection</token>
 <token>Akka.Actor.ActorSelection,Tell</token>
 <token>Akka.Actor.ActorBase,Unhandled</token>
 </entry>
-<entry count="6">
+<entry count="16">
 <token>Akka.Actor.Props,WithRouter</token>
 <token>Akka.Actor.IActorRefFactory,ActorOf</token>
 <token>Akka.Actor.IActorContext,Child</token>
@@ -698,7 +740,7 @@
 <token>Akka.Actor.ICancelable,Cancel</token>
 <token>Akka.Actor.ReceiveActor,Become</token>
 </entry>
-<entry count="1">
+<entry count="4">
 <token>Akka.Actor.Props,WithRouter</token>
 <token>Akka.Actor.IActorRefFactory,ActorOf</token>
 <token>Akka.Actor.IActorContext,Child</token>
@@ -710,7 +752,7 @@
 <token>Akka.Actor.ReceiveActor,Receive</token>
 <token>Akka.Actor.IStash,Stash</token>
 </entry>
-<entry count="119">
+<entry count="189">
 <token>Akka.Actor.ReceiveActor,Receive</token>
 <token>Akka.Actor.ReceiveActor,Receive</token>
 <token>Akka.Actor.ReceiveActor,Receive</token>
@@ -726,7 +768,7 @@
 <token>Akka.Actor.Props,Create</token>
 <token>Akka.Actor.RemoteScope,new</token>
 </entry>
-<entry count="1">
+<entry count="2">
 <token>Akka.Actor.ActorSelection,Tell</token>
 <token>Akka.Actor.IActorRefFactory,ActorSelection</token>
 <token>Akka.Actor.ActorSelection,Tell</token>
@@ -757,11 +799,11 @@
 <token>Akka.Actor.IActorRefFactory,ActorSelection</token>
 <token>Akka.Actor.ActorSelection,Tell</token>
 </entry>
-<entry count="2">
+<entry count="8">
 <token>Akka.Actor.IActorContext,Child</token>
 <token>Akka.Actor.Cancelable,new</token>
 </entry>
-<entry count="6">
+<entry count="18">
 <token>Akka.Actor.ActorRefImplicitSenderExtensions,Tell</token>
 <token>Akka.Actor.ActorRefImplicitSenderExtensions,Tell</token>
 <token>Akka.Actor.ReceiveActor,Receive</token>
@@ -781,14 +823,14 @@
 <token>Akka.Actor.IActorRefFactory,ActorOf</token>
 <token>Akka.Actor.ActorRefImplicitSenderExtensions,Tell</token>
 </entry>
-<entry count="32">
+<entry count="64">
 <token>Akka.Actor.ReceiveActor,Receive</token>
 <token>Akka.Actor.PipeToSupport,PipeTo</token>
 <token>Akka.Actor.ReceiveActor,Receive</token>
 <token>Akka.Actor.IStash,Stash</token>
 <token>Akka.Actor.ReceiveActor,Become</token>
 </entry>
-<entry count="9">
+<entry count="36">
 <token>Akka.Actor.ActorRefImplicitSenderExtensions,Tell</token>
 <token>Akka.Actor.ActorRefImplicitSenderExtensions,Tell</token>
 <token>Akka.Actor.ReceiveActor,Receive</token>
@@ -810,16 +852,16 @@
 <token>Akka.Actor.IStash,Stash</token>
 <token>Akka.Actor.ReceiveActor,ReceiveAny</token>
 </entry>
-<entry count="32">
+<entry count="64">
 <token>Akka.Actor.ReceiveActor,Become</token>
 <token>Akka.Actor.ReceiveActor,Receive</token>
 <token>Akka.Actor.ReceiveActor,Receive</token>
 </entry>
-<entry count="9">
+<entry count="25">
 <token>Akka.Actor.Props,WithRouter</token>
 <token>Akka.Actor.IActorRefFactory,ActorOf</token>
 </entry>
-<entry count="2">
+<entry count="8">
 <token>Akka.Actor.Props,Create</token>
 <token>Akka.Actor.Props,WithRouter</token>
 <token>Akka.Actor.IActorRefFactory,ActorOf</token>
@@ -830,7 +872,7 @@
 <token>Akka.Actor.ActorSystem,Shutdown</token>
 <token>Akka.Actor.IActorRefFactory,ActorSelection</token>
 </entry>
-<entry count="32">
+<entry count="64">
 <token>Akka.Actor.IStash,Stash</token>
 <token>Akka.Actor.ReceiveActor,Become</token>
 <token>Akka.Actor.ReceiveActor,Receive</token>
@@ -842,24 +884,37 @@
 <token>Akka.Actor.Props,Create</token>
 <token>Akka.Actor.ActorSystem,ActorOf</token>
 </entry>
-<entry count="4">
+<entry count="40">
 <token>Akka.Actor.ActorRefImplicitSenderExtensions,Tell</token>
 <token>Akka.Actor.ReceiveActor,Receive</token>
 <token>Akka.Actor.ActorRefImplicitSenderExtensions,Tell</token>
 <token>Akka.Actor.ActorRefImplicitSenderExtensions,Tell</token>
 </entry>
-<entry count="4">
+<entry count="16">
 <token>Akka.Actor.ActorRefImplicitSenderExtensions,Tell</token>
 <token>Akka.Actor.ActorRefImplicitSenderExtensions,Tell</token>
 <token>Akka.Actor.ActorRefImplicitSenderExtensions,Tell</token>
 <token>Akka.Actor.ReceiveActor,Receive</token>
 </entry>
-<entry count="3">
+<entry count="1">
+<token>Akka.Actor.IActorRefFactory,ActorSelection</token>
+<token>Akka.Actor.ActorSelection,Tell</token>
+<token>Akka.Actor.ActorBase,Unhandled</token>
+<token>Akka.Actor.IActorRefFactory,ActorSelection</token>
+</entry>
+<entry count="30">
 <token>Akka.Actor.ActorRefImplicitSenderExtensions,Tell</token>
 <token>Akka.Actor.ActorRefImplicitSenderExtensions,Tell</token>
 <token>Akka.Actor.ReceiveActor,Receive</token>
 <token>Akka.Actor.ActorRefImplicitSenderExtensions,Tell</token>
 <token>Akka.Actor.ActorRefImplicitSenderExtensions,Tell</token>
+</entry>
+<entry count="12">
+<token>Akka.Actor.ActorRefImplicitSenderExtensions,Tell</token>
+<token>Akka.Actor.ActorRefImplicitSenderExtensions,Tell</token>
+<token>Akka.Actor.ActorRefImplicitSenderExtensions,Tell</token>
+<token>Akka.Actor.ActorRefImplicitSenderExtensions,Tell</token>
+<token>Akka.Actor.ReceiveActor,Receive</token>
 </entry>
 <entry count="1">
 <token>Akka.Actor.PipeToSupport,PipeTo</token>
@@ -883,7 +938,7 @@
 <token>Akka.Actor.IActorContext,SetReceiveTimeout</token>
 <token>Akka.Actor.IStash,UnstashAll</token>
 </entry>
-<entry count="1">
+<entry count="4">
 <token>Akka.Actor.IActorRefFactory,ActorOf</token>
 <token>Akka.Actor.IActorContext,Child</token>
 <token>Akka.Actor.Cancelable,new</token>
@@ -998,7 +1053,7 @@
 <token>Akka.Actor.PipeToSupport,PipeTo</token>
 <token>Akka.Actor.ActorRefImplicitSenderExtensions,Tell</token>
 </entry>
-<entry count="198">
+<entry count="326">
 <token>Akka.Actor.ReceiveActor,Receive</token>
 <token>Akka.Actor.ReceiveActor,Receive</token>
 </entry>
@@ -1040,7 +1095,7 @@
 <token>Akka.Actor.ActorSystem,ActorOf</token>
 <token>Akka.Actor.Props,Create</token>
 </entry>
-<entry count="42">
+<entry count="114">
 <token>Akka.Actor.ReceiveActor,Receive</token>
 <token>Akka.Actor.ActorRefImplicitSenderExtensions,Tell</token>
 </entry>
@@ -1063,14 +1118,14 @@
 <token>Akka.Actor.ReceiveActor,Receive</token>
 <token>Akka.Actor.ReceiveActor,Receive</token>
 </entry>
-<entry count="1">
+<entry count="4">
 <token>Akka.Actor.Props,WithRouter</token>
 <token>Akka.Actor.IActorRefFactory,ActorOf</token>
 <token>Akka.Actor.IActorContext,Child</token>
 <token>Akka.Actor.Cancelable,new</token>
 <token>Akka.Actor.ITellScheduler,ScheduleTellRepeatedly</token>
 </entry>
-<entry count="28">
+<entry count="37">
 <token>Akka.Actor.ReceiveActor,Receive</token>
 <token>Akka.Actor.ActorRefImplicitSenderExtensions,Tell</token>
 <token>Akka.Actor.ReceiveActor,Receive</token>
@@ -1085,7 +1140,7 @@
 <token>Akka.Actor.IActorContext,SetReceiveTimeout</token>
 <token>Akka.Actor.ReceiveActor,Receive</token>
 </entry>
-<entry count="32">
+<entry count="64">
 <token>Akka.Actor.ReceiveActor,Receive</token>
 <token>Akka.Actor.IStash,Stash</token>
 <token>Akka.Actor.ReceiveActor,Become</token>
@@ -1101,7 +1156,7 @@
 <token>Akka.Actor.IActorContext,Child</token>
 <token>Akka.Actor.Identify,new</token>
 </entry>
-<entry count="4">
+<entry count="16">
 <token>Akka.Actor.ActorRefImplicitSenderExtensions,Tell</token>
 <token>Akka.Actor.ReceiveActor,Receive</token>
 <token>Akka.Actor.ActorRefImplicitSenderExtensions,Tell</token>
@@ -1143,13 +1198,13 @@
 <token>Akka.Actor.IStash,UnstashAll</token>
 <token>Akka.Actor.ActorBase,PreRestart</token>
 </entry>
-<entry count="32">
+<entry count="64">
 <token>Akka.Actor.ReceiveActor,Receive</token>
 <token>Akka.Actor.PipeToSupport,PipeTo</token>
 <token>Akka.Actor.ReceiveActor,Receive</token>
 <token>Akka.Actor.IStash,Stash</token>
 </entry>
-<entry count="5">
+<entry count="17">
 <token>Akka.Actor.Props,Create</token>
 <token>Akka.Actor.Props,WithRouter</token>
 <token>Akka.Actor.IActorRefFactory,ActorOf</token>
@@ -1161,20 +1216,20 @@
 <token>Akka.Actor.IStash,UnstashAll</token>
 <token>Akka.Actor.IActorContext,SetReceiveTimeout</token>
 </entry>
-<entry count="32">
+<entry count="64">
 <token>Akka.Actor.ReceiveActor,Become</token>
 <token>Akka.Actor.ReceiveActor,Receive</token>
 <token>Akka.Actor.ReceiveActor,Receive</token>
 <token>Akka.Actor.ReceiveActor,Receive</token>
 </entry>
-<entry count="32">
+<entry count="64">
 <token>Akka.Actor.PipeToSupport,PipeTo</token>
 <token>Akka.Actor.ReceiveActor,Receive</token>
 <token>Akka.Actor.IStash,Stash</token>
 <token>Akka.Actor.ReceiveActor,Become</token>
 <token>Akka.Actor.ReceiveActor,Receive</token>
 </entry>
-<entry count="4">
+<entry count="28">
 <token>Akka.Actor.ActorRefImplicitSenderExtensions,Tell</token>
 <token>Akka.Actor.ActorRefImplicitSenderExtensions,Tell</token>
 <token>Akka.Actor.ActorRefImplicitSenderExtensions,Tell</token>
@@ -1198,7 +1253,7 @@
 <token>Akka.Actor.IStash,UnstashAll</token>
 <token>Akka.Actor.IActorContext,SetReceiveTimeout</token>
 </entry>
-<entry count="19">
+<entry count="33">
 <token>Akka.Actor.ActorRefImplicitSenderExtensions,Tell</token>
 <token>Akka.Actor.ReceiveActor,Receive</token>
 <token>Akka.Actor.ReceiveActor,Receive</token>
@@ -1233,7 +1288,7 @@
 <token>Akka.Actor.ActorSystem,ActorOf</token>
 <token>Akka.Actor.ActorSystem,ActorSelection</token>
 </entry>
-<entry count="32">
+<entry count="64">
 <token>Akka.Actor.ReceiveActor,Become</token>
 <token>Akka.Actor.ReceiveActor,Receive</token>
 </entry>
@@ -1253,13 +1308,19 @@
 <token>Akka.Actor.SchedulerExtensions,ScheduleTellRepeatedlyCancelable</token>
 <token>Akka.Actor.ReceiveActor,Receive</token>
 </entry>
-<entry count="7">
+<entry count="12">
+<token>Akka.Actor.ActorRefImplicitSenderExtensions,Tell</token>
+<token>Akka.Actor.ActorRefImplicitSenderExtensions,Tell</token>
+<token>Akka.Actor.ActorRefImplicitSenderExtensions,Tell</token>
+<token>Akka.Actor.ActorRefImplicitSenderExtensions,Tell</token>
+</entry>
+<entry count="9">
 <token>Akka.Actor.ActorRefImplicitSenderExtensions,Tell</token>
 <token>Akka.Actor.ReceiveActor,Receive</token>
 <token>Akka.Actor.ReceiveActor,Receive</token>
 <token>Akka.Actor.ReceiveActor,Receive</token>
 </entry>
-<entry count="1">
+<entry count="4">
 <token>Akka.Actor.IActorContext,Child</token>
 <token>Akka.Actor.IActorContext,Child</token>
 <token>Akka.Actor.Props,Create</token>
@@ -1272,7 +1333,7 @@
 <token>Akka.Actor.ReceiveActor,Receive</token>
 <token>Akka.Actor.ReceiveActor,Receive</token>
 </entry>
-<entry count="15">
+<entry count="27">
 <token>Akka.Actor.IActorRefFactory,ActorSelection</token>
 <token>Akka.Actor.ActorSelection,Tell</token>
 </entry>
@@ -1287,11 +1348,11 @@
 <token>Akka.Actor.IActorRefFactory,ActorOf</token>
 <token>Akka.Actor.ReceiveActor,Become</token>
 </entry>
-<entry count="32">
+<entry count="64">
 <token>Akka.Actor.ReceiveActor,Receive</token>
 <token>Akka.Actor.PipeToSupport,PipeTo</token>
 </entry>
-<entry count="76">
+<entry count="176">
 <token>Akka.Actor.PipeToSupport,PipeTo</token>
 <token>Akka.Actor.ReceiveActor,Receive</token>
 </entry>
@@ -1313,33 +1374,51 @@
 <token>Akka.Actor.ReceiveActor,Receive</token>
 <token>Akka.Actor.ReceiveActor,Receive</token>
 </entry>
-<entry count="6">
+<entry count="16">
 <token>Akka.Actor.IActorRefFactory,ActorOf</token>
 <token>Akka.Actor.IActorContext,Child</token>
 </entry>
-<entry count="2">
+<entry count="8">
 <token>Akka.Actor.IActorContext,Child</token>
 <token>Akka.Actor.Props,Create</token>
 <token>Akka.Actor.Props,WithRouter</token>
 <token>Akka.Actor.IActorRefFactory,ActorOf</token>
 <token>Akka.Actor.Cancelable,new</token>
 </entry>
+<entry count="2">
+<token>Akka.Actor.IActorRefFactory,ActorSelection</token>
+<token>Akka.Actor.ActorSelection,Tell</token>
+<token>Akka.Actor.IActorRefFactory,ActorSelection</token>
+<token>Akka.Actor.ActorSelection,Tell</token>
+<token>Akka.Actor.IActorRefFactory,ActorSelection</token>
+</entry>
 <entry count="1">
 <token>Akka.Actor.IActorContext,Child</token>
 <token>Akka.Actor.IActorContext,Child</token>
 <token>Akka.Actor.ReceiveActor,Become</token>
 </entry>
-<entry count="1">
+<entry count="2">
+<token>Akka.Actor.ActorBase,Unhandled</token>
+<token>Akka.Actor.IActorRefFactory,ActorSelection</token>
+</entry>
+<entry count="2">
 <token>Akka.Actor.IActorRefFactory,ActorSelection</token>
 <token>Akka.Actor.ActorSelection,Tell</token>
 <token>Akka.Actor.IActorRefFactory,ActorSelection</token>
 <token>Akka.Actor.ActorSelection,Tell</token>
 <token>Akka.Actor.ActorBase,Unhandled</token>
 </entry>
-<entry count="5">
+<entry count="17">
 <token>Akka.Actor.IActorContext,Child</token>
 <token>Akka.Actor.Props,Create</token>
 <token>Akka.Actor.Props,WithRouter</token>
+</entry>
+<entry count="1">
+<token>Akka.Actor.ActorSelection,Tell</token>
+<token>Akka.Actor.IActorRefFactory,ActorSelection</token>
+<token>Akka.Actor.ActorSelection,Tell</token>
+<token>Akka.Actor.ActorBase,Unhandled</token>
+<token>Akka.Actor.IActorRefFactory,ActorSelection</token>
 </entry>
 <entry count="1">
 <token>Akka.Actor.ActorRefImplicitSenderExtensions,Tell</token>
@@ -1356,11 +1435,18 @@
 <token>Akka.Actor.ActorSystem,ActorOf</token>
 <token>Akka.Actor.Props,Create</token>
 </entry>
-<entry count="2">
+<entry count="8">
 <token>Akka.Actor.Props,WithRouter</token>
 <token>Akka.Actor.IActorRefFactory,ActorOf</token>
 <token>Akka.Actor.Cancelable,new</token>
 <token>Akka.Actor.ITellScheduler,ScheduleTellRepeatedly</token>
+</entry>
+<entry count="2">
+<token>Akka.Actor.ActorBase,Unhandled</token>
+<token>Akka.Actor.IActorRefFactory,ActorSelection</token>
+<token>Akka.Actor.ActorSelection,Tell</token>
+<token>Akka.Actor.IActorRefFactory,ActorSelection</token>
+<token>Akka.Actor.ActorSelection,Tell</token>
 </entry>
 <entry count="1">
 <token>Akka.Actor.ActorSystem,ActorOf</token>
@@ -1377,7 +1463,7 @@
 <token>Akka.Actor.Identify,new</token>
 <token>Akka.Actor.Futures,Ask</token>
 </entry>
-<entry count="2">
+<entry count="8">
 <token>Akka.Actor.IActorRefFactory,ActorOf</token>
 <token>Akka.Actor.Cancelable,new</token>
 </entry>
@@ -1392,19 +1478,26 @@
 <token>Akka.Actor.ReceiveActor,Receive</token>
 <token>Akka.Actor.ReceiveActor,Receive</token>
 </entry>
-<entry count="1">
+<entry count="4">
 <token>Akka.Actor.IActorRefFactory,ActorOf</token>
 <token>Akka.Actor.IActorContext,Child</token>
 <token>Akka.Actor.Cancelable,new</token>
 <token>Akka.Actor.ITellScheduler,ScheduleTellRepeatedly</token>
 </entry>
 <entry count="1">
+<token>Akka.Actor.ActorSelection,Tell</token>
+<token>Akka.Actor.ActorBase,Unhandled</token>
+<token>Akka.Actor.IActorRefFactory,ActorSelection</token>
+<token>Akka.Actor.ActorSelection,Tell</token>
+<token>Akka.Actor.IActorRefFactory,ActorSelection</token>
+</entry>
+<entry count="1">
 <token>Akka.Actor.Props,Create</token>
 <token>Akka.Actor.IActorRefFactory,ActorOf</token>
 <token>Akka.Actor.Props,Create</token>
 <token>Akka.Actor.IActorRefFactory,ActorOf</token>
 </entry>
-<entry count="32">
+<entry count="64">
 <token>Akka.Actor.IStash,Stash</token>
 <token>Akka.Actor.ReceiveActor,Become</token>
 <token>Akka.Actor.ReceiveActor,Receive</token>
@@ -1434,22 +1527,22 @@
 <token>Akka.Actor.ActorRefImplicitSenderExtensions,Tell</token>
 <token>Akka.Actor.Futures,Ask</token>
 </entry>
-<entry count="24">
+<entry count="123">
 <token>Akka.Actor.ActorRefImplicitSenderExtensions,Tell</token>
 <token>Akka.Actor.ActorRefImplicitSenderExtensions,Tell</token>
 </entry>
-<entry count="1">
+<entry count="4">
 <token>Akka.Actor.IActorRefFactory,ActorOf</token>
 <token>Akka.Actor.IActorContext,Child</token>
 <token>Akka.Actor.Props,Create</token>
 </entry>
-<entry count="2">
+<entry count="8">
 <token>Akka.Actor.Props,Create</token>
 <token>Akka.Actor.Props,WithRouter</token>
 <token>Akka.Actor.IActorRefFactory,ActorOf</token>
 <token>Akka.Actor.IActorContext,Child</token>
 </entry>
-<entry count="13">
+<entry count="76">
 <token>Akka.Actor.ReceiveActor,Receive</token>
 <token>Akka.Actor.ActorRefImplicitSenderExtensions,Tell</token>
 <token>Akka.Actor.ActorRefImplicitSenderExtensions,Tell</token>
@@ -1500,7 +1593,7 @@
 <token>Akka.Actor.ReceiveActor,Become</token>
 <token>Akka.Actor.IStash,UnstashAll</token>
 </entry>
-<entry count="32">
+<entry count="64">
 <token>Akka.Actor.ReceiveActor,Become</token>
 <token>Akka.Actor.ReceiveActor,Receive</token>
 <token>Akka.Actor.ReceiveActor,Receive</token>
@@ -1518,13 +1611,20 @@
 <token>Akka.Actor.ICancelable,Cancel</token>
 <token>Akka.Actor.ReceiveActor,Become</token>
 </entry>
+<entry count="2">
+<token>Akka.Actor.ActorSelection,Tell</token>
+<token>Akka.Actor.IActorRefFactory,ActorSelection</token>
+<token>Akka.Actor.ActorSelection,Tell</token>
+<token>Akka.Actor.IActorRefFactory,ActorSelection</token>
+<token>Akka.Actor.ActorSelection,Tell</token>
+</entry>
 <entry count="5">
 <token>Akka.Actor.ReceiveActor,Receive</token>
 <token>Akka.Actor.ReceiveActor,Receive</token>
 <token>Akka.Actor.IStash,Stash</token>
 <token>Akka.Actor.ReceiveActor,ReceiveAny</token>
 </entry>
-<entry count="1">
+<entry count="4">
 <token>Akka.Actor.Props,Create</token>
 <token>Akka.Actor.Props,WithRouter</token>
 <token>Akka.Actor.IActorRefFactory,ActorOf</token>
@@ -1535,7 +1635,7 @@
 <token>Akka.Actor.ICanWatch,Watch</token>
 <token>Akka.Actor.ReceiveActor,Receive</token>
 </entry>
-<entry count="9">
+<entry count="36">
 <token>Akka.Actor.ReceiveActor,Receive</token>
 <token>Akka.Actor.ActorRefImplicitSenderExtensions,Tell</token>
 <token>Akka.Actor.ActorRefImplicitSenderExtensions,Tell</token>
@@ -1546,7 +1646,7 @@
 <token>Akka.Actor.Props,WithRouter</token>
 <token>Akka.Actor.ActorSystem,ActorOf</token>
 </entry>
-<entry count="9">
+<entry count="36">
 <token>Akka.Actor.PipeToSupport,PipeTo</token>
 <token>Akka.Actor.ReceiveActor,Receive</token>
 <token>Akka.Actor.ActorRefImplicitSenderExtensions,Tell</token>
@@ -1564,30 +1664,30 @@
 <token>Akka.Actor.ReceiveActor,Become</token>
 <token>Akka.Actor.Futures,Ask</token>
 </entry>
-<entry count="16">
+<entry count="52">
 <token>Akka.Actor.ActorRefImplicitSenderExtensions,Tell</token>
 <token>Akka.Actor.ReceiveActor,Receive</token>
 <token>Akka.Actor.ActorRefImplicitSenderExtensions,Tell</token>
 </entry>
-<entry count="3">
+<entry count="12">
 <token>Akka.Actor.PipeToSupport,PipeTo</token>
 <token>Akka.Actor.ReceiveActor,Receive</token>
 <token>Akka.Actor.ActorRefImplicitSenderExtensions,Tell</token>
 <token>Akka.Actor.ReceiveActor,Receive</token>
 <token>Akka.Actor.ActorRefImplicitSenderExtensions,Tell</token>
 </entry>
-<entry count="1">
+<entry count="10">
 <token>Akka.Actor.ReceiveActor,Receive</token>
 <token>Akka.Actor.ActorRefImplicitSenderExtensions,Tell</token>
 <token>Akka.Actor.ReceiveActor,Receive</token>
 <token>Akka.Actor.ActorRefImplicitSenderExtensions,Tell</token>
 <token>Akka.Actor.ActorRefImplicitSenderExtensions,Tell</token>
 </entry>
-<entry count="5">
+<entry count="17">
 <token>Akka.Actor.Props,Create</token>
 <token>Akka.Actor.Props,WithRouter</token>
 </entry>
-<entry count="4">
+<entry count="10">
 <token>Akka.Actor.IActorContext,Child</token>
 <token>Akka.Actor.IActorContext,Child</token>
 </entry>
@@ -1603,7 +1703,7 @@
 <token>Akka.Actor.ICancelable,Cancel</token>
 <token>Akka.Actor.ReceiveActor,Become</token>
 </entry>
-<entry count="19">
+<entry count="94">
 <token>Akka.Actor.ActorRefImplicitSenderExtensions,Tell</token>
 <token>Akka.Actor.ActorRefImplicitSenderExtensions,Tell</token>
 <token>Akka.Actor.ReceiveActor,Receive</token>
@@ -1639,7 +1739,7 @@
 <token>Akka.Actor.Deploy,WithScope</token>
 <token>Akka.Actor.Props,WithDeploy</token>
 </entry>
-<entry count="1">
+<entry count="2">
 <token>Akka.Actor.ActorSelection,Tell</token>
 <token>Akka.Actor.ActorBase,Unhandled</token>
 </entry>
@@ -1661,7 +1761,7 @@
 <token>Akka.Actor.ICancelable,Cancel</token>
 <token>Akka.Actor.ReceiveActor,Receive</token>
 </entry>
-<entry count="4">
+<entry count="8">
 <token>Akka.Actor.IActorContext,Child</token>
 <token>Akka.Actor.Props,WithRouter</token>
 </entry>
@@ -1669,13 +1769,13 @@
 <token>Akka.Actor.ReceiveActor,Become</token>
 <token>Akka.Actor.IActorContext,SetReceiveTimeout</token>
 </entry>
-<entry count="2">
+<entry count="9">
 <token>Akka.Actor.IActorRefFactory,ActorSelection</token>
 <token>Akka.Actor.ActorSelection,Tell</token>
 <token>Akka.Actor.IActorRefFactory,ActorSelection</token>
 <token>Akka.Actor.ActorSelection,Tell</token>
 </entry>
-<entry count="9">
+<entry count="36">
 <token>Akka.Actor.PipeToSupport,PipeTo</token>
 <token>Akka.Actor.ReceiveActor,Receive</token>
 <token>Akka.Actor.ActorRefImplicitSenderExtensions,Tell</token>
@@ -1686,7 +1786,7 @@
 <token>Akka.Actor.ActorRefImplicitSenderExtensions,Tell</token>
 <token>Akka.Actor.ReceiveActor,Receive</token>
 </entry>
-<entry count="6">
+<entry count="18">
 <token>Akka.Actor.ICanTell,Tell</token>
 <token>Akka.Actor.ReceiveActor,Receive</token>
 </entry>
@@ -1703,7 +1803,7 @@
 <token>Akka.Actor.Address,Parse</token>
 <token>Akka.Actor.Props,Create</token>
 </entry>
-<entry count="1">
+<entry count="4">
 <token>Akka.Actor.Props,WithRouter</token>
 <token>Akka.Actor.IActorRefFactory,ActorOf</token>
 <token>Akka.Actor.IActorContext,Child</token>
@@ -1737,7 +1837,7 @@
 <token>Akka.Actor.IActorContext,SetReceiveTimeout</token>
 <token>Akka.Actor.ReceiveActor,Receive</token>
 </entry>
-<entry count="32">
+<entry count="64">
 <token>Akka.Actor.ReceiveActor,Receive</token>
 <token>Akka.Actor.IStash,Stash</token>
 <token>Akka.Actor.ReceiveActor,Become</token>
@@ -1746,7 +1846,7 @@
 <token>Akka.Actor.IStash,UnstashAll</token>
 <token>Akka.Actor.ReceiveActor,Receive</token>
 </entry>
-<entry count="1">
+<entry count="4">
 <token>Akka.Actor.IActorRefFactory,ActorOf</token>
 <token>Akka.Actor.IActorContext,Child</token>
 <token>Akka.Actor.Props,Create</token>
@@ -1754,17 +1854,24 @@
 <token>Akka.Actor.IActorRefFactory,ActorOf</token>
 </entry>
 <entry count="1">
+<token>Akka.Actor.IActorRefFactory,ActorSelection</token>
+<token>Akka.Actor.ActorSelection,Tell</token>
+<token>Akka.Actor.ActorBase,Unhandled</token>
+<token>Akka.Actor.IActorRefFactory,ActorSelection</token>
+<token>Akka.Actor.ActorSelection,Tell</token>
+</entry>
+<entry count="1">
 <token>Akka.Actor.Props,Create</token>
 <token>Akka.Actor.RemoteScope,new</token>
 <token>Akka.Actor.Deploy,WithScope</token>
 </entry>
-<entry count="32">
+<entry count="64">
 <token>Akka.Actor.PipeToSupport,PipeTo</token>
 <token>Akka.Actor.ReceiveActor,Receive</token>
 <token>Akka.Actor.IStash,Stash</token>
 <token>Akka.Actor.ReceiveActor,Become</token>
 </entry>
-<entry count="2">
+<entry count="9">
 <token>Akka.Actor.IActorRefFactory,ActorSelection</token>
 <token>Akka.Actor.ActorSelection,Tell</token>
 <token>Akka.Actor.IActorRefFactory,ActorSelection</token>

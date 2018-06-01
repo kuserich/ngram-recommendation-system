@@ -9,11 +9,11 @@
 <token>LibGit2Sharp.Configuration,BuildSignature</token>
 <token>LibGit2Sharp.RepositoryExtensions,Merge</token>
 </entry>
-<entry count="10">
+<entry count="50">
 <token>LibGit2Sharp.RepositoryExtensions,Lookup</token>
 <token>LibGit2Sharp.CommitFilter,new</token>
 </entry>
-<entry count="48">
+<entry count="192">
 <token>LibGit2Sharp.Diff,Compare</token>
 <token>LibGit2Sharp.Diff,Compare</token>
 </entry>
@@ -25,13 +25,17 @@
 <token>LibGit2Sharp.Configuration,BuildSignature</token>
 <token>LibGit2Sharp.RepositoryExtensions,Merge</token>
 </entry>
-<entry count="61">
+<entry count="261">
 <token>LibGit2Sharp.CommitFilter,new</token>
 <token>LibGit2Sharp.IQueryableCommitLog,QueryBy</token>
 </entry>
 <entry count="2">
 <token>LibGit2Sharp.CommitOptions,new</token>
 <token>LibGit2Sharp.Repository,Commit</token>
+</entry>
+<entry count="50">
+<token>LibGit2Sharp.IQueryableCommitLog,QueryBy</token>
+<token>LibGit2Sharp.RepositoryExtensions,Lookup</token>
 </entry>
 <entry count="1">
 <token>LibGit2Sharp.RepositoryExtensions,Checkout</token>
@@ -56,10 +60,15 @@
 <token>LibGit2Sharp.Signature,new</token>
 <token>LibGit2Sharp.ObjectDatabase,CreateCommit</token>
 </entry>
-<entry count="32">
+<entry count="128">
 <token>LibGit2Sharp.Diff,Compare</token>
 <token>LibGit2Sharp.Diff,Compare</token>
 <token>LibGit2Sharp.Diff,Compare</token>
+</entry>
+<entry count="50">
+<token>LibGit2Sharp.CommitFilter,new</token>
+<token>LibGit2Sharp.IQueryableCommitLog,QueryBy</token>
+<token>LibGit2Sharp.RepositoryExtensions,Lookup</token>
 </entry>
 <entry count="1">
 <token>LibGit2Sharp.ObjectId,new</token>
@@ -69,7 +78,7 @@
 <token>LibGit2Sharp.RepositoryExtensions,CreateBranch</token>
 <token>LibGit2Sharp.RepositoryExtensions,Checkout</token>
 </entry>
-<entry count="12">
+<entry count="64">
 <token>LibGit2Sharp.Reference,IsValidName</token>
 <token>LibGit2Sharp.ReferenceCollectionExtensions,Rename</token>
 </entry>
@@ -78,7 +87,7 @@
 <token>LibGit2Sharp.Signature,new</token>
 <token>LibGit2Sharp.ObjectDatabase,CreateCommit</token>
 </entry>
-<entry count="12">
+<entry count="64">
 <token>LibGit2Sharp.Reference,IsValidName</token>
 <token>LibGit2Sharp.Reference,IsValidName</token>
 <token>LibGit2Sharp.ReferenceCollectionExtensions,Rename</token>
@@ -92,13 +101,19 @@
 <token>LibGit2Sharp.CommitOptions,new</token>
 <token>LibGit2Sharp.Repository,Commit</token>
 </entry>
-<entry count="16">
+<entry count="10">
+<token>LibGit2Sharp.RepositoryExtensions,Lookup</token>
+<token>LibGit2Sharp.CommitFilter,new</token>
+<token>LibGit2Sharp.IQueryableCommitLog,QueryBy</token>
+<token>LibGit2Sharp.RepositoryExtensions,Lookup</token>
+</entry>
+<entry count="64">
 <token>LibGit2Sharp.Diff,Compare</token>
 <token>LibGit2Sharp.Diff,Compare</token>
 <token>LibGit2Sharp.Diff,Compare</token>
 <token>LibGit2Sharp.Diff,Compare</token>
 </entry>
-<entry count="10">
+<entry count="50">
 <token>LibGit2Sharp.RepositoryExtensions,Lookup</token>
 <token>LibGit2Sharp.CommitFilter,new</token>
 <token>LibGit2Sharp.IQueryableCommitLog,QueryBy</token>
@@ -119,7 +134,7 @@
 <token>LibGit2Sharp.Signature,new</token>
 <token>LibGit2Sharp.ObjectDatabase,CreateCommit</token>
 </entry>
-<entry count="12">
+<entry count="64">
 <token>LibGit2Sharp.Reference,IsValidName</token>
 <token>LibGit2Sharp.Reference,IsValidName</token>
 </entry>

@@ -3,11 +3,24 @@
 <token>System.Drawing.Drawing2D.Matrix,Reset</token>
 <token>System.Drawing.Drawing2D.Matrix,Rotate</token>
 </entry>
-<entry count="7725">
+<entry count="109237">
 <token>System.Drawing.Drawing2D.GraphicsPath,new</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddString</token>
 </entry>
-<entry count="20">
+<entry count="200">
+<token>System.Drawing.Drawing2D.GraphicsPath,new</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddLines</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddLines</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,new</token>
+</entry>
+<entry count="40">
+<token>System.Drawing.Drawing2D.GraphicsPath,Transform</token>
+<token>System.Drawing.Drawing2D.Matrix,Translate</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,Transform</token>
+<token>System.Drawing.Drawing2D.LinearGradientBrush,new</token>
+<token>System.Drawing.Drawing2D.Matrix,Reset</token>
+</entry>
+<entry count="80">
 <token>System.Drawing.Drawing2D.Matrix,new</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,GetBounds</token>
 <token>System.Drawing.Drawing2D.Matrix,Scale</token>
@@ -17,7 +30,7 @@
 <token>System.Drawing.Drawing2D.GraphicsPath,AddEllipse</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,IsOutlineVisible</token>
 </entry>
-<entry count="16">
+<entry count="64">
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddBezier</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
@@ -36,12 +49,19 @@
 <token>System.Drawing.Drawing2D.Matrix,Translate</token>
 <token>System.Drawing.Drawing2D.Matrix,Scale</token>
 </entry>
+<entry count="10080">
+<token>System.Drawing.Drawing2D.GraphicsPath,new</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,Reset</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,Reset</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,new</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,new</token>
+</entry>
 <entry count="40">
 <token>System.Drawing.Drawing2D.GraphicsPath,GetBounds</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,IsVisible</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,IsVisible</token>
 </entry>
-<entry count="2">
+<entry count="512">
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
@@ -52,23 +72,41 @@
 <token>System.Drawing.Drawing2D.Matrix,RotateAt</token>
 <token>System.Drawing.Drawing2D.Matrix,Translate</token>
 </entry>
-<entry count="4">
+<entry count="16">
 <token>System.Drawing.Drawing2D.Matrix,Translate</token>
 <token>System.Drawing.Drawing2D.Matrix,Scale</token>
 <token>System.Drawing.Drawing2D.Matrix,Translate</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,Transform</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,Flatten</token>
 </entry>
-<entry count="1">
+<entry count="160">
+<token>System.Drawing.Drawing2D.GraphicsPath,AddLines</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddLines</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,new</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddLines</token>
+</entry>
+<entry count="4">
+<token>System.Drawing.Drawing2D.Matrix,Translate</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,Transform</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,Clone</token>
+<token>System.Drawing.Drawing2D.Matrix,new</token>
+</entry>
+<entry count="2">
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,CloseAllFigures</token>
 </entry>
-<entry count="8">
+<entry count="1296">
 <token>System.Drawing.Drawing2D.GraphicsPath,new</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,StartFigure</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
+</entry>
+<entry count="4">
+<token>System.Drawing.Drawing2D.GraphicsPath,CloseFigure</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,CloseFigure</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,Flatten</token>
 </entry>
 <entry count="3">
 <token>System.Drawing.Drawing2D.Matrix,Scale</token>
@@ -76,17 +114,24 @@
 <token>System.Drawing.Drawing2D.Matrix,Translate</token>
 <token>System.Drawing.Drawing2D.Matrix,Reset</token>
 </entry>
-<entry count="8">
+<entry count="4">
+<token>System.Drawing.Drawing2D.GraphicsPath,new</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,CloseFigure</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
+</entry>
+<entry count="1296">
 <token>System.Drawing.Drawing2D.GraphicsPath,StartFigure</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 </entry>
-<entry count="2">
+<entry count="324">
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 </entry>
-<entry count="10">
+<entry count="2456">
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
@@ -104,23 +149,42 @@
 <token>System.Drawing.Drawing2D.Matrix,Reset</token>
 <token>System.Drawing.Drawing2D.Matrix,Translate</token>
 </entry>
-<entry count="30">
+<entry count="50">
 <token>System.Drawing.Drawing2D.Matrix,TransformVectors</token>
 <token>System.Drawing.Drawing2D.Matrix,Dispose</token>
 </entry>
-<entry count="24">
+<entry count="8">
+<token>System.Drawing.Drawing2D.GraphicsPath,new</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,CloseFigure</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
+</entry>
+<entry count="12">
+<token>System.Drawing.Drawing2D.LinearGradientBrush,new</token>
+<token>System.Drawing.Drawing2D.LinearGradientBrush,SetSigmaBellShape</token>
+<token>System.Drawing.Drawing2D.LinearGradientBrush,new</token>
+<token>System.Drawing.Drawing2D.LinearGradientBrush,SetSigmaBellShape</token>
+</entry>
+<entry count="3456">
+<token>System.Drawing.Drawing2D.GraphicsPath,new</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,Reset</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,Reset</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,new</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,Reset</token>
+</entry>
+<entry count="64">
 <token>System.Drawing.Drawing2D.GraphicsPath,new</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddBezier</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 </entry>
-<entry count="1">
+<entry count="8">
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,CloseFigure</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,Flatten</token>
 </entry>
-<entry count="16">
+<entry count="64">
 <token>System.Drawing.Drawing2D.GraphicsPath,AddBezier</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
@@ -132,12 +196,12 @@
 <token>System.Drawing.Drawing2D.GraphicsPath,CloseFigure</token>
 <token>System.Drawing.Drawing2D.Matrix,new</token>
 </entry>
-<entry count="52">
+<entry count="1344">
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 </entry>
-<entry count="16">
+<entry count="1951">
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
@@ -165,34 +229,46 @@
 <token>System.Drawing.Drawing2D.Matrix,Rotate</token>
 <token>System.Drawing.Drawing2D.Matrix,TransformVectors</token>
 </entry>
-<entry count="4">
+<entry count="96">
 <token>System.Drawing.Drawing2D.GraphicsPath,new</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,Clone</token>
 <token>System.Drawing.Drawing2D.Matrix,new</token>
 <token>System.Drawing.Drawing2D.Matrix,Translate</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,Transform</token>
 </entry>
-<entry count="4">
+<entry count="16">
 <token>System.Drawing.Drawing2D.Matrix,new</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,GetBounds</token>
 <token>System.Drawing.Drawing2D.Matrix,Translate</token>
 <token>System.Drawing.Drawing2D.Matrix,Scale</token>
 <token>System.Drawing.Drawing2D.Matrix,Translate</token>
 </entry>
-<entry count="2">
+<entry count="648">
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 </entry>
-<entry count="28">
+<entry count="4108">
 <token>System.Drawing.Drawing2D.GraphicsPath,new</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 </entry>
-<entry count="50">
+<entry count="40">
+<token>System.Drawing.Drawing2D.GraphicsPath,AddLines</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddLines</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,new</token>
+<token>System.Drawing.Drawing2D.PathGradientBrush,new</token>
+</entry>
+<entry count="4">
+<token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,CloseFigure</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,Flatten</token>
+</entry>
+<entry count="6068">
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
@@ -205,13 +281,13 @@
 <token>System.Drawing.Drawing2D.Matrix,Translate</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,Transform</token>
 </entry>
-<entry count="2">
+<entry count="648">
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 </entry>
-<entry count="62">
+<entry count="6510">
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
@@ -224,7 +300,13 @@
 <token>System.Drawing.Drawing2D.Matrix,RotateAt</token>
 <token>System.Drawing.Drawing2D.Matrix,Translate</token>
 </entry>
-<entry count="14">
+<entry count="1">
+<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddRectangle</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,CloseAllFigures</token>
+</entry>
+<entry count="2706">
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
@@ -241,7 +323,7 @@
 <token>System.Drawing.Drawing2D.GraphicsPath,GetBounds</token>
 <token>System.Drawing.Drawing2D.Matrix,Scale</token>
 </entry>
-<entry count="20">
+<entry count="40">
 <token>System.Drawing.Drawing2D.Matrix,Clone</token>
 <token>System.Drawing.Drawing2D.Matrix,Translate</token>
 <token>System.Drawing.Drawing2D.Matrix,Rotate</token>
@@ -256,7 +338,7 @@
 <token>System.Drawing.Drawing2D.GraphicsPath,AddRectangle</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,CloseFigure</token>
 </entry>
-<entry count="8">
+<entry count="2696">
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
@@ -267,31 +349,30 @@
 <token>System.Drawing.Drawing2D.Matrix,RotateAt</token>
 <token>System.Drawing.Drawing2D.Matrix,Translate</token>
 </entry>
-<entry count="18">
+<entry count="26244">
 <token>System.Drawing.Drawing2D.GraphicsPath,Warp</token>
 <token>System.Drawing.Drawing2D.HatchBrush,new</token>
-</entry>
-<entry count="1">
-<token>System.Drawing.Drawing2D.GraphicsPath,new</token>
-<token>System.Drawing.Drawing2D.GraphicsPath,AddRectangle</token>
-<token>System.Drawing.Drawing2D.GraphicsPath,CloseAllFigures</token>
-<token>System.Drawing.Drawing2D.Matrix,new</token>
-<token>System.Drawing.Drawing2D.Matrix,Translate</token>
 </entry>
 <entry count="1">
 <token>System.Drawing.Drawing2D.GraphicsPath,AddRectangle</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,CloseFigure</token>
 <token>System.Drawing.Drawing2D.Matrix,new</token>
 </entry>
-<entry count="40">
+<entry count="200">
 <token>System.Drawing.Drawing2D.GraphicsPath,new</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLines</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLines</token>
 <token>System.Drawing.Drawing2D.PathGradientBrush,new</token>
 </entry>
-<entry count="56">
+<entry count="57">
 <token>System.Drawing.Drawing2D.GraphicsPath,AddRectangle</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddRectangle</token>
+</entry>
+<entry count="8">
+<token>System.Drawing.Drawing2D.Matrix,new</token>
+<token>System.Drawing.Drawing2D.Matrix,Translate</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,Transform</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,Clone</token>
 </entry>
 <entry count="50">
 <token>System.Drawing.Drawing2D.GraphicsPath,Transform</token>
@@ -303,9 +384,23 @@
 <token>System.Drawing.Drawing2D.GraphicsPath,Dispose</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,Dispose</token>
 </entry>
+<entry count="4320">
+<token>System.Drawing.Drawing2D.GraphicsPath,Reset</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,new</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,Reset</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,new</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,Reset</token>
+</entry>
 <entry count="2">
 <token>System.Drawing.Drawing2D.GraphicsPath,StartFigure</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddPolygon</token>
+</entry>
+<entry count="4">
+<token>System.Drawing.Drawing2D.GraphicsPath,new</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,CloseFigure</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,CloseFigure</token>
 </entry>
 <entry count="10">
 <token>System.Drawing.Drawing2D.Matrix,Clone</token>
@@ -313,29 +408,36 @@
 <token>System.Drawing.Drawing2D.Matrix,Clone</token>
 <token>System.Drawing.Drawing2D.Matrix,Invert</token>
 </entry>
-<entry count="40">
+<entry count="60">
 <token>System.Drawing.Drawing2D.Matrix,Rotate</token>
 <token>System.Drawing.Drawing2D.Matrix,TransformVectors</token>
 </entry>
-<entry count="18">
+<entry count="26244">
 <token>System.Drawing.Drawing2D.GraphicsPath,AddString</token>
 <token>System.Drawing.Drawing2D.Matrix,new</token>
 <token>System.Drawing.Drawing2D.Matrix,Translate</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,Warp</token>
 </entry>
-<entry count="14">
+<entry count="1419">
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,CloseFigure</token>
 </entry>
-<entry count="2">
+<entry count="324">
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
+</entry>
+<entry count="1">
+<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddRectangle</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,CloseAllFigures</token>
+<token>System.Drawing.Drawing2D.Matrix,new</token>
 </entry>
 <entry count="10">
 <token>System.Drawing.Drawing2D.Matrix,new</token>
@@ -343,20 +445,20 @@
 <token>System.Drawing.Drawing2D.Matrix,TransformVectors</token>
 <token>System.Drawing.Drawing2D.Matrix,Reset</token>
 </entry>
-<entry count="22">
+<entry count="21">
 <token>System.Drawing.Drawing2D.GraphicsPath,new</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 </entry>
-<entry count="8">
+<entry count="32">
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddBezier</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddBezier</token>
 </entry>
-<entry count="8">
+<entry count="110">
 <token>System.Drawing.Drawing2D.Matrix,new</token>
 <token>System.Drawing.Drawing2D.Matrix,Translate</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,Transform</token>
@@ -365,11 +467,16 @@
 <token>System.Drawing.Drawing2D.ColorBlend,new</token>
 <token>System.Drawing.Drawing2D.LinearGradientBrush,RotateTransform</token>
 </entry>
-<entry count="4">
+<entry count="1024">
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,CloseFigure</token>
+</entry>
+<entry count="53912">
+<token>System.Drawing.Drawing2D.GraphicsPath,Reset</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,new</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,Reset</token>
 </entry>
 <entry count="1">
 <token>System.Drawing.Drawing2D.Matrix,Scale</token>
@@ -381,11 +488,16 @@
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 </entry>
-<entry count="1">
+<entry count="2">
 <token>System.Drawing.Drawing2D.GraphicsPath,AddRectangle</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,CloseAllFigures</token>
 </entry>
-<entry count="10">
+<entry count="160">
+<token>System.Drawing.Drawing2D.GraphicsPath,AddLines</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,new</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddLines</token>
+</entry>
+<entry count="50">
 <token>System.Drawing.Drawing2D.GraphicsPath,new</token>
 <token>System.Drawing.Drawing2D.PathGradientBrush,new</token>
 </entry>
@@ -394,11 +506,17 @@
 <token>System.Drawing.Drawing2D.Matrix,Scale</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,Transform</token>
 </entry>
-<entry count="28">
+<entry count="6040">
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
+</entry>
+<entry count="80">
+<token>System.Drawing.Drawing2D.Matrix,Translate</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,Transform</token>
+<token>System.Drawing.Drawing2D.LinearGradientBrush,new</token>
+<token>System.Drawing.Drawing2D.Matrix,Reset</token>
 </entry>
 <entry count="1">
 <token>System.Drawing.Drawing2D.Matrix,Rotate</token>
@@ -408,7 +526,7 @@
 <token>System.Drawing.Drawing2D.GraphicsPath,AddPolygon</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,CloseFigure</token>
 </entry>
-<entry count="18">
+<entry count="26244">
 <token>System.Drawing.Drawing2D.GraphicsPath,AddString</token>
 <token>System.Drawing.Drawing2D.Matrix,new</token>
 <token>System.Drawing.Drawing2D.Matrix,Translate</token>
@@ -417,7 +535,7 @@
 <token>System.Drawing.Drawing2D.GraphicsPath,AddEllipse</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddRectangle</token>
 </entry>
-<entry count="22">
+<entry count="21">
 <token>System.Drawing.Drawing2D.GraphicsPath,new</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
@@ -428,7 +546,7 @@
 <token>System.Drawing.Drawing2D.GraphicsPath,Transform</token>
 <token>System.Drawing.Drawing2D.Matrix,new</token>
 </entry>
-<entry count="30">
+<entry count="50">
 <token>System.Drawing.Drawing2D.Matrix,new</token>
 <token>System.Drawing.Drawing2D.Matrix,Rotate</token>
 <token>System.Drawing.Drawing2D.Matrix,TransformVectors</token>
@@ -446,30 +564,47 @@
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,CloseFigure</token>
 </entry>
-<entry count="57">
+<entry count="69">
 <token>System.Drawing.Drawing2D.Matrix,Translate</token>
 <token>System.Drawing.Drawing2D.Matrix,Scale</token>
 </entry>
-<entry count="4">
+<entry count="12">
+<token>System.Drawing.Drawing2D.GraphicsPath,CloseFigure</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
+</entry>
+<entry count="12">
 <token>System.Drawing.Drawing2D.GraphicsPath,new</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 </entry>
-<entry count="40">
+<entry count="160">
 <token>System.Drawing.Drawing2D.Matrix,Translate</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,Transform</token>
 <token>System.Drawing.Drawing2D.LinearGradientBrush,new</token>
 </entry>
-<entry count="8">
+<entry count="1296">
 <token>System.Drawing.Drawing2D.GraphicsPath,StartFigure</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 </entry>
-<entry count="213">
+<entry count="12">
+<token>System.Drawing.Drawing2D.LinearGradientBrush,SetSigmaBellShape</token>
+<token>System.Drawing.Drawing2D.LinearGradientBrush,new</token>
+<token>System.Drawing.Drawing2D.LinearGradientBrush,SetSigmaBellShape</token>
+</entry>
+<entry count="547">
 <token>System.Drawing.Drawing2D.Matrix,Translate</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,Transform</token>
 </entry>
 <entry count="50">
 <token>System.Drawing.Drawing2D.LinearGradientBrush,new</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,new</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,new</token>
+</entry>
+<entry count="12600">
+<token>System.Drawing.Drawing2D.GraphicsPath,Reset</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,new</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,Reset</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,new</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,new</token>
 </entry>
@@ -483,12 +618,18 @@
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 </entry>
+<entry count="73080">
+<token>System.Drawing.Drawing2D.GraphicsPath,new</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,Reset</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,new</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,new</token>
+</entry>
 <entry count="5">
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,IsOutlineVisible</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,Dispose</token>
 </entry>
-<entry count="50">
+<entry count="250">
 <token>System.Drawing.Drawing2D.LinearGradientBrush,new</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,new</token>
 </entry>
@@ -499,18 +640,25 @@
 <token>System.Drawing.Drawing2D.Matrix,Reset</token>
 <token>System.Drawing.Drawing2D.Matrix,Rotate</token>
 </entry>
-<entry count="12">
+<entry count="1944">
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 </entry>
-<entry count="40">
+<entry count="4320">
+<token>System.Drawing.Drawing2D.GraphicsPath,Reset</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,Reset</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,new</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,new</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,Reset</token>
+</entry>
+<entry count="80">
 <token>System.Drawing.Drawing2D.LinearGradientBrush,new</token>
 <token>System.Drawing.Drawing2D.Matrix,Translate</token>
 </entry>
-<entry count="40">
+<entry count="400">
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLines</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLines</token>
 </entry>
@@ -525,12 +673,19 @@
 <token>System.Drawing.Drawing2D.Matrix,Translate</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,Transform</token>
 </entry>
+<entry count="200">
+<token>System.Drawing.Drawing2D.LinearGradientBrush,new</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,new</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddLines</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddLines</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,new</token>
+</entry>
 <entry count="10">
 <token>System.Drawing.Drawing2D.Matrix,Rotate</token>
 <token>System.Drawing.Drawing2D.Matrix,TransformPoints</token>
 <token>System.Drawing.Drawing2D.Matrix,Dispose</token>
 </entry>
-<entry count="2">
+<entry count="4">
 <token>System.Drawing.Drawing2D.GraphicsPath,CloseAllFigures</token>
 <token>System.Drawing.Drawing2D.Matrix,new</token>
 </entry>
@@ -550,7 +705,7 @@
 <token>System.Drawing.Drawing2D.GraphicsPath,CloseFigure</token>
 <token>System.Drawing.Drawing2D.Matrix,new</token>
 </entry>
-<entry count="24">
+<entry count="96">
 <token>System.Drawing.Drawing2D.Matrix,Translate</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,Transform</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,Flatten</token>
@@ -558,9 +713,19 @@
 <entry count="4">
 <token>System.Drawing.Drawing2D.GraphicsPath,new</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,Clone</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,Clone</token>
 <token>System.Drawing.Drawing2D.Matrix,new</token>
 </entry>
-<entry count="40">
+<entry count="96">
+<token>System.Drawing.Drawing2D.GraphicsPath,new</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,Clone</token>
+<token>System.Drawing.Drawing2D.Matrix,new</token>
+</entry>
+<entry count="1">
+<token>System.Drawing.Drawing2D.GraphicsPath,AddRectangle</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
+</entry>
+<entry count="80">
 <token>System.Drawing.Drawing2D.Matrix,Translate</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,Transform</token>
 <token>System.Drawing.Drawing2D.LinearGradientBrush,new</token>
@@ -576,7 +741,7 @@
 <token>System.Drawing.Drawing2D.Matrix,Invert</token>
 <token>System.Drawing.Drawing2D.Matrix,TransformPoints</token>
 </entry>
-<entry count="4">
+<entry count="648">
 <token>System.Drawing.Drawing2D.GraphicsPath,new</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,StartFigure</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
@@ -602,7 +767,7 @@
 <token>System.Drawing.Drawing2D.Matrix,RotateAt</token>
 <token>System.Drawing.Drawing2D.Matrix,Translate</token>
 </entry>
-<entry count="4">
+<entry count="16">
 <token>System.Drawing.Drawing2D.GraphicsPath,GetBounds</token>
 <token>System.Drawing.Drawing2D.Matrix,Translate</token>
 <token>System.Drawing.Drawing2D.Matrix,Scale</token>
@@ -611,7 +776,14 @@
 <token>System.Drawing.Drawing2D.LinearGradientBrush,ResetTransform</token>
 <token>System.Drawing.Drawing2D.LinearGradientBrush,TranslateTransform</token>
 </entry>
-<entry count="1">
+<entry count="40">
+<token>System.Drawing.Drawing2D.LinearGradientBrush,new</token>
+<token>System.Drawing.Drawing2D.Matrix,Translate</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,Transform</token>
+<token>System.Drawing.Drawing2D.LinearGradientBrush,new</token>
+<token>System.Drawing.Drawing2D.Matrix,Reset</token>
+</entry>
+<entry count="2">
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
@@ -624,6 +796,13 @@
 <entry count="1">
 <token>System.Drawing.Drawing2D.Matrix,Translate</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,new</token>
+</entry>
+<entry count="4">
+<token>System.Drawing.Drawing2D.GraphicsPath,Clone</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,Clone</token>
+<token>System.Drawing.Drawing2D.Matrix,new</token>
+<token>System.Drawing.Drawing2D.Matrix,Translate</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,Transform</token>
 </entry>
 <entry count="90">
 <token>System.Drawing.Drawing2D.Matrix,Translate</token>
@@ -640,28 +819,34 @@
 <token>System.Drawing.Drawing2D.Matrix,new</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,Transform</token>
 </entry>
-<entry count="1">
-<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
-<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
-<token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
-<token>System.Drawing.Drawing2D.GraphicsPath,Flatten</token>
-</entry>
-<entry count="102">
+<entry count="26430">
 <token>System.Drawing.Drawing2D.Matrix,new</token>
 <token>System.Drawing.Drawing2D.Matrix,Translate</token>
 </entry>
-<entry count="4">
+<entry count="16">
 <token>System.Drawing.Drawing2D.Matrix,new</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,GetBounds</token>
 <token>System.Drawing.Drawing2D.Matrix,Translate</token>
 <token>System.Drawing.Drawing2D.Matrix,Scale</token>
+</entry>
+<entry count="1">
+<token>System.Drawing.Drawing2D.GraphicsPath,AddRectangle</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddRectangle</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,CloseAllFigures</token>
+<token>System.Drawing.Drawing2D.Matrix,new</token>
+</entry>
+<entry count="8">
+<token>System.Drawing.Drawing2D.GraphicsPath,CloseFigure</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,CloseFigure</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 </entry>
 <entry count="8">
 <token>System.Drawing.Drawing2D.GraphicsPath,Reset</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddRectangle</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddRectangle</token>
 </entry>
-<entry count="8">
+<entry count="32">
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
@@ -679,7 +864,12 @@
 <token>System.Drawing.Drawing2D.Matrix,Translate</token>
 <token>System.Drawing.Drawing2D.Matrix,Translate</token>
 </entry>
-<entry count="8">
+<entry count="83160">
+<token>System.Drawing.Drawing2D.GraphicsPath,Reset</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,new</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,new</token>
+</entry>
+<entry count="2048">
 <token>System.Drawing.Drawing2D.GraphicsPath,new</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
@@ -691,20 +881,18 @@
 <token>System.Drawing.Drawing2D.CustomLineCap,new</token>
 </entry>
 <entry count="1">
+<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddRectangle</token>
+</entry>
+<entry count="1">
 <token>System.Drawing.Drawing2D.Matrix,new</token>
 <token>System.Drawing.Drawing2D.Matrix,RotateAt</token>
 <token>System.Drawing.Drawing2D.Matrix,Translate</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,GetBounds</token>
 <token>System.Drawing.Drawing2D.Matrix,Scale</token>
 </entry>
-<entry count="1">
-<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
-<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
-<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
-<token>System.Drawing.Drawing2D.GraphicsPath,CloseFigure</token>
-<token>System.Drawing.Drawing2D.GraphicsPath,Flatten</token>
-</entry>
-<entry count="23">
+<entry count="43">
 <token>System.Drawing.Drawing2D.Matrix,Translate</token>
 <token>System.Drawing.Drawing2D.Matrix,Rotate</token>
 </entry>
@@ -712,7 +900,7 @@
 <token>System.Drawing.Drawing2D.Matrix,RotateAt</token>
 <token>System.Drawing.Drawing2D.Matrix,TransformPoints</token>
 </entry>
-<entry count="17">
+<entry count="16">
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,CloseFigure</token>
@@ -721,20 +909,18 @@
 <token>System.Drawing.Drawing2D.GraphicsPath,AddEllipse</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,CloseFigure</token>
 </entry>
-<entry count="8">
-<token>System.Drawing.Drawing2D.GraphicsPath,new</token>
-<token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
-<token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
-<token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
-<token>System.Drawing.Drawing2D.GraphicsPath,AddBezier</token>
-</entry>
-<entry count="8">
+<entry count="2048">
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 </entry>
-<entry count="120">
+<entry count="24">
+<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,CloseFigure</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
+</entry>
+<entry count="18172">
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
@@ -749,11 +935,11 @@
 <token>System.Drawing.Drawing2D.GraphicsPath,Transform</token>
 <token>System.Drawing.Drawing2D.Matrix,Reset</token>
 </entry>
-<entry count="4985">
+<entry count="290865">
 <token>System.Drawing.Drawing2D.GraphicsPath,new</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,Reset</token>
 </entry>
-<entry count="18">
+<entry count="26244">
 <token>System.Drawing.Drawing2D.GraphicsPath,AddString</token>
 <token>System.Drawing.Drawing2D.Matrix,new</token>
 </entry>
@@ -764,14 +950,14 @@
 <token>System.Drawing.Drawing2D.GraphicsPath,Transform</token>
 <token>System.Drawing.Drawing2D.Matrix,Reset</token>
 </entry>
-<entry count="8">
+<entry count="2048">
 <token>System.Drawing.Drawing2D.GraphicsPath,new</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 </entry>
-<entry count="156">
+<entry count="22739">
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 </entry>
@@ -784,12 +970,12 @@
 <token>System.Drawing.Drawing2D.GraphicsPath,GetBounds</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,IsVisible</token>
 </entry>
-<entry count="9">
+<entry count="1029">
 <token>System.Drawing.Drawing2D.GraphicsPath,new</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,CloseFigure</token>
 </entry>
-<entry count="8">
+<entry count="1024">
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
@@ -802,6 +988,10 @@
 <token>System.Drawing.Drawing2D.Matrix,Translate</token>
 <token>System.Drawing.Drawing2D.Matrix,Translate</token>
 </entry>
+<entry count="8">
+<token>System.Drawing.Drawing2D.GraphicsPath,Clone</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,Clone</token>
+</entry>
 <entry count="6">
 <token>System.Drawing.Drawing2D.GraphicsPath,new</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddRectangle</token>
@@ -813,7 +1003,7 @@
 <token>System.Drawing.Drawing2D.GraphicsPath,AddPolygon</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,CloseFigure</token>
 </entry>
-<entry count="145">
+<entry count="12186">
 <token>System.Drawing.Drawing2D.GraphicsPath,new</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 </entry>
@@ -823,15 +1013,22 @@
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,CloseFigure</token>
 </entry>
-<entry count="8">
+<entry count="1296">
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 </entry>
-<entry count="1">
+<entry count="2">
 <token>System.Drawing.Drawing2D.GraphicsPath,AddRectangle</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,CloseAllFigures</token>
 <token>System.Drawing.Drawing2D.Matrix,new</token>
+</entry>
+<entry count="1">
+<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddRectangle</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,CloseAllFigures</token>
+<token>System.Drawing.Drawing2D.Matrix,new</token>
+<token>System.Drawing.Drawing2D.Matrix,Translate</token>
 </entry>
 <entry count="6">
 <token>System.Drawing.Drawing2D.Matrix,Reset</token>
@@ -839,21 +1036,34 @@
 <token>System.Drawing.Drawing2D.Matrix,Scale</token>
 <token>System.Drawing.Drawing2D.Matrix,Translate</token>
 </entry>
-<entry count="4">
+<entry count="1">
+<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddRectangle</token>
+</entry>
+<entry count="8">
 <token>System.Drawing.Drawing2D.GraphicsPath,new</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 </entry>
-<entry count="8">
+<entry count="19264">
+<token>System.Drawing.Drawing2D.GraphicsPath,new</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,Reset</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,Reset</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,new</token>
+</entry>
+<entry count="1024">
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,CloseFigure</token>
 </entry>
-<entry count="18">
+<entry count="26244">
 <token>System.Drawing.Drawing2D.HatchBrush,new</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,new</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddString</token>
@@ -877,11 +1087,11 @@
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLines</token>
 <token>System.Drawing.Drawing2D.PathGradientBrush,new</token>
 </entry>
-<entry count="419">
+<entry count="33930">
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 </entry>
-<entry count="24">
+<entry count="48">
 <token>System.Drawing.Drawing2D.LinearGradientBrush,new</token>
 <token>System.Drawing.Drawing2D.LinearGradientBrush,SetSigmaBellShape</token>
 </entry>
@@ -892,7 +1102,12 @@
 <token>System.Drawing.Drawing2D.GraphicsPath,new</token>
 <token>System.Drawing.Drawing2D.PathGradientBrush,new</token>
 </entry>
-<entry count="90">
+<entry count="12">
+<token>System.Drawing.Drawing2D.LinearGradientBrush,new</token>
+<token>System.Drawing.Drawing2D.LinearGradientBrush,SetSigmaBellShape</token>
+<token>System.Drawing.Drawing2D.LinearGradientBrush,new</token>
+</entry>
+<entry count="110">
 <token>System.Drawing.Drawing2D.Matrix,new</token>
 <token>System.Drawing.Drawing2D.Matrix,Rotate</token>
 </entry>
@@ -901,12 +1116,29 @@
 <token>System.Drawing.Drawing2D.GraphicsPath,IsOutlineVisible</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,Dispose</token>
 </entry>
-<entry count="2">
+<entry count="324">
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
+</entry>
+<entry count="1">
+<token>System.Drawing.Drawing2D.GraphicsPath,AddRectangle</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddRectangle</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,CloseAllFigures</token>
+</entry>
+<entry count="4">
+<token>System.Drawing.Drawing2D.GraphicsPath,CloseFigure</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
+</entry>
+<entry count="200">
+<token>System.Drawing.Drawing2D.LinearGradientBrush,new</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,new</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddLines</token>
 </entry>
 <entry count="1">
 <token>System.Drawing.Drawing2D.Matrix,RotateAt</token>
@@ -914,30 +1146,35 @@
 <token>System.Drawing.Drawing2D.GraphicsPath,GetBounds</token>
 <token>System.Drawing.Drawing2D.Matrix,Scale</token>
 </entry>
-<entry count="1">
+<entry count="2">
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,CloseAllFigures</token>
 <token>System.Drawing.Drawing2D.Matrix,new</token>
 <token>System.Drawing.Drawing2D.Matrix,Translate</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,Transform</token>
 </entry>
-<entry count="44">
+<entry count="4348">
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
+</entry>
+<entry count="8">
+<token>System.Drawing.Drawing2D.Matrix,Translate</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,Transform</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,Clone</token>
 </entry>
 <entry count="2">
 <token>System.Drawing.Drawing2D.Matrix,new</token>
 <token>System.Drawing.Drawing2D.Matrix,Scale</token>
 </entry>
-<entry count="8">
+<entry count="1296">
 <token>System.Drawing.Drawing2D.GraphicsPath,StartFigure</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 </entry>
-<entry count="24">
+<entry count="64">
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddBezier</token>
@@ -952,7 +1189,12 @@
 <token>System.Drawing.Drawing2D.GraphicsPath,IsOutlineVisible</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,Dispose</token>
 </entry>
-<entry count="22">
+<entry count="40">
+<token>System.Drawing.Drawing2D.GraphicsPath,AddLines</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,new</token>
+<token>System.Drawing.Drawing2D.PathGradientBrush,new</token>
+</entry>
+<entry count="42">
 <token>System.Drawing.Drawing2D.Matrix,Translate</token>
 <token>System.Drawing.Drawing2D.Matrix,Rotate</token>
 <token>System.Drawing.Drawing2D.Matrix,Translate</token>
@@ -964,16 +1206,20 @@
 <token>System.Drawing.Drawing2D.GraphicsPath,AddRectangle</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddRectangle</token>
 </entry>
+<entry count="20096">
+<token>System.Drawing.Drawing2D.GraphicsPath,Reset</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,Reset</token>
+</entry>
 <entry count="2">
 <token>System.Drawing.Drawing2D.LinearGradientBrush,new</token>
 <token>System.Drawing.Drawing2D.ColorBlend,new</token>
 <token>System.Drawing.Drawing2D.LinearGradientBrush,RotateTransform</token>
 </entry>
-<entry count="21">
+<entry count="81">
 <token>System.Drawing.Drawing2D.GraphicsPath,GetBounds</token>
 <token>System.Drawing.Drawing2D.Matrix,Scale</token>
 </entry>
-<entry count="4">
+<entry count="16">
 <token>System.Drawing.Drawing2D.GraphicsPath,Widen</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,IsVisible</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,Widen</token>
@@ -1005,6 +1251,13 @@
 <token>System.Drawing.Drawing2D.LinearGradientBrush,new</token>
 <token>System.Drawing.Drawing2D.ColorBlend,new</token>
 </entry>
+<entry count="4">
+<token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,CloseFigure</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,CloseFigure</token>
+</entry>
 <entry count="40">
 <token>System.Drawing.Drawing2D.Matrix,Invert</token>
 <token>System.Drawing.Drawing2D.Matrix,TransformPoints</token>
@@ -1026,7 +1279,13 @@
 <token>System.Drawing.Drawing2D.GraphicsPath,new</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,Flatten</token>
 </entry>
-<entry count="4">
+<entry count="12">
+<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,CloseFigure</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,CloseFigure</token>
+</entry>
+<entry count="12">
 <token>System.Drawing.Drawing2D.GraphicsPath,new</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,CloseFigure</token>
@@ -1037,7 +1296,7 @@
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,CloseFigure</token>
 </entry>
-<entry count="19">
+<entry count="20">
 <token>System.Drawing.Drawing2D.GraphicsPath,new</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddRectangle</token>
 </entry>
@@ -1054,11 +1313,24 @@
 <token>System.Drawing.Drawing2D.GraphicsPath,Transform</token>
 </entry>
 <entry count="4">
+<token>System.Drawing.Drawing2D.Matrix,new</token>
+<token>System.Drawing.Drawing2D.Matrix,Translate</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,Transform</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,Clone</token>
+<token>System.Drawing.Drawing2D.Matrix,new</token>
+</entry>
+<entry count="50456">
+<token>System.Drawing.Drawing2D.GraphicsPath,new</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,Reset</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,new</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,Reset</token>
+</entry>
+<entry count="4">
 <token>System.Drawing.Drawing2D.LinearGradientBrush,ResetTransform</token>
 <token>System.Drawing.Drawing2D.LinearGradientBrush,TranslateTransform</token>
 <token>System.Drawing.Drawing2D.LinearGradientBrush,ScaleTransform</token>
 </entry>
-<entry count="4">
+<entry count="16">
 <token>System.Drawing.Drawing2D.GraphicsPath,GetBounds</token>
 <token>System.Drawing.Drawing2D.Matrix,Translate</token>
 <token>System.Drawing.Drawing2D.Matrix,Scale</token>
@@ -1070,9 +1342,21 @@
 <token>System.Drawing.Drawing2D.Matrix,Multiply</token>
 <token>System.Drawing.Drawing2D.Matrix,Multiply</token>
 </entry>
-<entry count="4">
+<entry count="160">
+<token>System.Drawing.Drawing2D.GraphicsPath,AddLines</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddLines</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,new</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddLines</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddLines</token>
+</entry>
+<entry count="16">
 <token>System.Drawing.Drawing2D.GraphicsPath,IsVisible</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,Widen</token>
+</entry>
+<entry count="4">
+<token>System.Drawing.Drawing2D.GraphicsPath,Transform</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,Clone</token>
+<token>System.Drawing.Drawing2D.Matrix,new</token>
 </entry>
 <entry count="2">
 <token>System.Drawing.Drawing2D.Matrix,Translate</token>
@@ -1086,52 +1370,95 @@
 <token>System.Drawing.Drawing2D.ColorBlend,new</token>
 <token>System.Drawing.Drawing2D.LinearGradientBrush,new</token>
 </entry>
-<entry count="1">
+<entry count="10080">
+<token>System.Drawing.Drawing2D.GraphicsPath,Reset</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,Reset</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,new</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,new</token>
+</entry>
+<entry count="2">
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,CloseAllFigures</token>
 <token>System.Drawing.Drawing2D.Matrix,new</token>
 <token>System.Drawing.Drawing2D.Matrix,Translate</token>
 </entry>
-<entry count="20">
+<entry count="80">
+<token>System.Drawing.Drawing2D.Matrix,new</token>
+<token>System.Drawing.Drawing2D.Matrix,new</token>
+<token>System.Drawing.Drawing2D.Matrix,new</token>
+<token>System.Drawing.Drawing2D.Matrix,new</token>
+</entry>
+<entry count="4">
+<token>System.Drawing.Drawing2D.GraphicsPath,CloseFigure</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,CloseFigure</token>
+</entry>
+<entry count="2060">
 <token>System.Drawing.Drawing2D.GraphicsPath,new</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
+</entry>
+<entry count="20096">
+<token>System.Drawing.Drawing2D.GraphicsPath,new</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,Reset</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,Reset</token>
 </entry>
 <entry count="1">
 <token>System.Drawing.Drawing2D.Matrix,new</token>
 <token>System.Drawing.Drawing2D.Matrix,Translate</token>
 <token>System.Drawing.Drawing2D.Matrix,Rotate</token>
 </entry>
+<entry count="200">
+<token>System.Drawing.Drawing2D.GraphicsPath,AddLines</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddLines</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,new</token>
+</entry>
+<entry count="4">
+<token>System.Drawing.Drawing2D.Matrix,Translate</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,Transform</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,Clone</token>
+<token>System.Drawing.Drawing2D.Matrix,new</token>
+<token>System.Drawing.Drawing2D.Matrix,Translate</token>
+</entry>
 <entry count="3">
 <token>System.Drawing.Drawing2D.GraphicsPath,new</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLines</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,CloseFigure</token>
 </entry>
-<entry count="16">
+<entry count="2048">
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,CloseFigure</token>
 </entry>
-<entry count="1">
+<entry count="8">
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,Flatten</token>
 </entry>
-<entry count="24">
+<entry count="64">
 <token>System.Drawing.Drawing2D.GraphicsPath,new</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddBezier</token>
 </entry>
-<entry count="4">
+<entry count="104">
 <token>System.Drawing.Drawing2D.GraphicsPath,Clone</token>
 <token>System.Drawing.Drawing2D.Matrix,new</token>
 <token>System.Drawing.Drawing2D.Matrix,Translate</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,Transform</token>
 </entry>
-<entry count="25">
+<entry count="8">
+<token>System.Drawing.Drawing2D.GraphicsPath,Clone</token>
+<token>System.Drawing.Drawing2D.Matrix,new</token>
+<token>System.Drawing.Drawing2D.Matrix,Translate</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,Transform</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,Clone</token>
+</entry>
+<entry count="97">
 <token>System.Drawing.Drawing2D.GraphicsPath,Transform</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,Flatten</token>
 </entry>
@@ -1139,7 +1466,7 @@
 <token>System.Drawing.Drawing2D.LinearGradientBrush,new</token>
 <token>System.Drawing.Drawing2D.ColorBlend,new</token>
 </entry>
-<entry count="236">
+<entry count="18810">
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
@@ -1149,7 +1476,7 @@
 <token>System.Drawing.Drawing2D.Matrix,RotateAt</token>
 <token>System.Drawing.Drawing2D.Matrix,TransformPoints</token>
 </entry>
-<entry count="4">
+<entry count="16">
 <token>System.Drawing.Drawing2D.GraphicsPath,IsVisible</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,Widen</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,IsVisible</token>
@@ -1158,10 +1485,15 @@
 <token>System.Drawing.Drawing2D.Matrix,Rotate</token>
 <token>System.Drawing.Drawing2D.Matrix,TransformPoints</token>
 </entry>
-<entry count="22">
+<entry count="5410">
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,CloseFigure</token>
+</entry>
+<entry count="1">
+<token>System.Drawing.Drawing2D.GraphicsPath,new</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddRectangle</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddRectangle</token>
 </entry>
 <entry count="8">
 <token>System.Drawing.Drawing2D.GraphicsPath,Reset</token>
@@ -1169,6 +1501,18 @@
 <token>System.Drawing.Drawing2D.GraphicsPath,AddRectangle</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddRectangle</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddRectangle</token>
+</entry>
+<entry count="8">
+<token>System.Drawing.Drawing2D.GraphicsPath,new</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,Clone</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,Clone</token>
+</entry>
+<entry count="8">
+<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,CloseFigure</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 </entry>
 <entry count="1">
 <token>System.Drawing.Drawing2D.GraphicsPath,CloseFigure</token>
@@ -1183,10 +1527,28 @@
 <token>System.Drawing.Drawing2D.GraphicsPath,Clone</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,Widen</token>
 </entry>
+<entry count="1">
+<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddRectangle</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,CloseAllFigures</token>
+</entry>
 <entry count="2">
 <token>System.Drawing.Drawing2D.GraphicsPath,Transform</token>
 <token>System.Drawing.Drawing2D.Matrix,new</token>
 <token>System.Drawing.Drawing2D.Matrix,Translate</token>
+</entry>
+<entry count="160">
+<token>System.Drawing.Drawing2D.GraphicsPath,AddLines</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,new</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddLines</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddLines</token>
+</entry>
+<entry count="160">
+<token>System.Drawing.Drawing2D.GraphicsPath,new</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddLines</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddLines</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,new</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddLines</token>
 </entry>
 <entry count="20">
 <token>System.Drawing.Drawing2D.Matrix,Rotate</token>
@@ -1206,20 +1568,27 @@
 <token>System.Drawing.Drawing2D.Matrix,new</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,Transform</token>
 </entry>
-<entry count="94">
+<entry count="3962">
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 </entry>
-<entry count="35">
+<entry count="1920">
+<token>System.Drawing.Drawing2D.GraphicsPath,Reset</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,Reset</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,new</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,Reset</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,new</token>
+</entry>
+<entry count="99">
 <token>System.Drawing.Drawing2D.LinearGradientBrush,new</token>
 <token>System.Drawing.Drawing2D.LinearGradientBrush,new</token>
 <token>System.Drawing.Drawing2D.LinearGradientBrush,new</token>
 </entry>
-<entry count="8">
+<entry count="192">
 <token>System.Drawing.Drawing2D.GraphicsPath,new</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,Clone</token>
 </entry>
-<entry count="20">
+<entry count="40">
 <token>System.Drawing.Drawing2D.Matrix,Clone</token>
 <token>System.Drawing.Drawing2D.Matrix,Translate</token>
 <token>System.Drawing.Drawing2D.Matrix,Rotate</token>
@@ -1232,11 +1601,11 @@
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 </entry>
-<entry count="43">
+<entry count="5450">
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,CloseFigure</token>
 </entry>
-<entry count="40">
+<entry count="200">
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLines</token>
 <token>System.Drawing.Drawing2D.PathGradientBrush,new</token>
 </entry>
@@ -1245,19 +1614,32 @@
 <token>System.Drawing.Drawing2D.GraphicsPath,AddClosedCurve</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,IsOutlineVisible</token>
 </entry>
+<entry count="160">
+<token>System.Drawing.Drawing2D.GraphicsPath,AddLines</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,new</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddLines</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddLines</token>
+<token>System.Drawing.Drawing2D.PathGradientBrush,new</token>
+</entry>
 <entry count="5">
 <token>System.Drawing.Drawing2D.GraphicsPath,AddCurve</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,IsOutlineVisible</token>
 </entry>
-<entry count="103">
+<entry count="7044">
 <token>System.Drawing.Drawing2D.GraphicsPath,new</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 </entry>
-<entry count="26">
+<entry count="25">
 <token>System.Drawing.Drawing2D.GraphicsPath,new</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
+</entry>
+<entry count="37080">
+<token>System.Drawing.Drawing2D.GraphicsPath,new</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,new</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,Reset</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,new</token>
 </entry>
 <entry count="10">
 <token>System.Drawing.Drawing2D.Matrix,Multiply</token>
@@ -1267,25 +1649,35 @@
 <token>System.Drawing.Drawing2D.GraphicsPath,AddClosedCurve</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,IsOutlineVisible</token>
 </entry>
-<entry count="2">
+<entry count="324">
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 </entry>
-<entry count="21">
+<entry count="26247">
 <token>System.Drawing.Drawing2D.Matrix,new</token>
 <token>System.Drawing.Drawing2D.Matrix,Translate</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,Warp</token>
 </entry>
-<entry count="8">
+<entry count="1296">
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 </entry>
-<entry count="1">
+<entry count="24">
+<token>System.Drawing.Drawing2D.GraphicsPath,CloseFigure</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
+</entry>
+<entry count="40">
+<token>System.Drawing.Drawing2D.GraphicsPath,Transform</token>
+<token>System.Drawing.Drawing2D.Matrix,Translate</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,Transform</token>
+<token>System.Drawing.Drawing2D.LinearGradientBrush,new</token>
+</entry>
+<entry count="2">
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,CloseAllFigures</token>
@@ -1297,7 +1689,7 @@
 <token>System.Drawing.Drawing2D.Matrix,Translate</token>
 <token>System.Drawing.Drawing2D.Matrix,Scale</token>
 </entry>
-<entry count="12">
+<entry count="3020">
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
@@ -1310,16 +1702,23 @@
 <token>System.Drawing.Drawing2D.GraphicsPath,new</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLines</token>
 </entry>
-<entry count="50">
+<entry count="90">
 <token>System.Drawing.Drawing2D.GraphicsPath,Transform</token>
 <token>System.Drawing.Drawing2D.Matrix,Translate</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,Transform</token>
 </entry>
 <entry count="4">
+<token>System.Drawing.Drawing2D.GraphicsPath,Transform</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,Clone</token>
+<token>System.Drawing.Drawing2D.Matrix,new</token>
+<token>System.Drawing.Drawing2D.Matrix,Translate</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,Transform</token>
+</entry>
+<entry count="16">
 <token>System.Drawing.Drawing2D.GraphicsPath,GetBounds</token>
 <token>System.Drawing.Drawing2D.Matrix,Translate</token>
 </entry>
-<entry count="76">
+<entry count="9428">
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
@@ -1329,16 +1728,29 @@
 <token>System.Drawing.Drawing2D.GraphicsPath,Reset</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 </entry>
-<entry count="100">
+<entry count="8">
+<token>System.Drawing.Drawing2D.GraphicsPath,CloseFigure</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 </entry>
-<entry count="52">
+<entry count="12688">
+<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
+</entry>
+<entry count="8">
+<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,CloseFigure</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
+</entry>
+<entry count="72">
 <token>System.Drawing.Drawing2D.Matrix,Rotate</token>
 <token>System.Drawing.Drawing2D.Matrix,Translate</token>
 </entry>
-<entry count="40">
+<entry count="400">
 <token>System.Drawing.Drawing2D.GraphicsPath,new</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLines</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLines</token>
@@ -1348,7 +1760,7 @@
 <token>System.Drawing.Drawing2D.GraphicsPath,AddEllipse</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddRectangle</token>
 </entry>
-<entry count="48">
+<entry count="128">
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddBezier</token>
@@ -1358,7 +1770,7 @@
 <token>System.Drawing.Drawing2D.GraphicsPath,new</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddRectangle</token>
 </entry>
-<entry count="8">
+<entry count="1296">
 <token>System.Drawing.Drawing2D.GraphicsPath,new</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,StartFigure</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
@@ -1375,18 +1787,20 @@
 <token>System.Drawing.Drawing2D.GraphicsPath,new</token>
 <token>System.Drawing.Drawing2D.PathGradientBrush,new</token>
 </entry>
-<entry count="1">
-<token>System.Drawing.Drawing2D.GraphicsPath,new</token>
-<token>System.Drawing.Drawing2D.GraphicsPath,AddRectangle</token>
-<token>System.Drawing.Drawing2D.GraphicsPath,CloseAllFigures</token>
+<entry count="40">
+<token>System.Drawing.Drawing2D.GraphicsPath,Transform</token>
+<token>System.Drawing.Drawing2D.LinearGradientBrush,new</token>
+<token>System.Drawing.Drawing2D.Matrix,Translate</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,Transform</token>
+<token>System.Drawing.Drawing2D.LinearGradientBrush,new</token>
 </entry>
-<entry count="20">
+<entry count="40">
 <token>System.Drawing.Drawing2D.Matrix,new</token>
 <token>System.Drawing.Drawing2D.Matrix,Rotate</token>
 <token>System.Drawing.Drawing2D.Matrix,TransformVectors</token>
 <token>System.Drawing.Drawing2D.Matrix,Dispose</token>
 </entry>
-<entry count="18">
+<entry count="26244">
 <token>System.Drawing.Drawing2D.HatchBrush,new</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,new</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddString</token>
@@ -1396,11 +1810,18 @@
 <token>System.Drawing.Drawing2D.Matrix,new</token>
 <token>System.Drawing.Drawing2D.Matrix,Multiply</token>
 </entry>
+<entry count="1">
+<token>System.Drawing.Drawing2D.GraphicsPath,AddRectangle</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
+</entry>
 <entry count="2">
 <token>System.Drawing.Drawing2D.GraphicsPath,CloseFigure</token>
 <token>System.Drawing.Drawing2D.Matrix,new</token>
 </entry>
-<entry count="40">
+<entry count="80">
 <token>System.Drawing.Drawing2D.GraphicsPath,Transform</token>
 <token>System.Drawing.Drawing2D.LinearGradientBrush,new</token>
 <token>System.Drawing.Drawing2D.Matrix,Translate</token>
@@ -1411,23 +1832,21 @@
 <token>System.Drawing.Drawing2D.GraphicsPath,AddEllipse</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,CloseFigure</token>
 </entry>
-<entry count="40">
+<entry count="8">
+<token>System.Drawing.Drawing2D.GraphicsPath,Transform</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,Clone</token>
+</entry>
+<entry count="80">
 <token>System.Drawing.Drawing2D.LinearGradientBrush,new</token>
 <token>System.Drawing.Drawing2D.Matrix,Translate</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,Transform</token>
 </entry>
-<entry count="16">
+<entry count="2968">
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
-</entry>
-<entry count="1">
-<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
-<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
-<token>System.Drawing.Drawing2D.GraphicsPath,CloseFigure</token>
-<token>System.Drawing.Drawing2D.GraphicsPath,Flatten</token>
 </entry>
 <entry count="5">
 <token>System.Drawing.Drawing2D.GraphicsPath,new</token>
@@ -1435,14 +1854,14 @@
 <token>System.Drawing.Drawing2D.GraphicsPath,IsOutlineVisible</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,Dispose</token>
 </entry>
-<entry count="4">
+<entry count="1024">
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 </entry>
-<entry count="24">
+<entry count="96">
 <token>System.Drawing.Drawing2D.Matrix,Scale</token>
 <token>System.Drawing.Drawing2D.Matrix,Translate</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,Transform</token>
@@ -1458,10 +1877,21 @@
 <token>System.Drawing.Drawing2D.Matrix,Translate</token>
 <token>System.Drawing.Drawing2D.Matrix,Reset</token>
 </entry>
+<entry count="80">
+<token>System.Drawing.Drawing2D.LinearGradientBrush,new</token>
+<token>System.Drawing.Drawing2D.Matrix,Reset</token>
+</entry>
 <entry count="1">
 <token>System.Drawing.Drawing2D.LinearGradientBrush,new</token>
 <token>System.Drawing.Drawing2D.LinearGradientBrush,new</token>
 <token>System.Drawing.Drawing2D.ColorBlend,new</token>
+</entry>
+<entry count="1">
+<token>System.Drawing.Drawing2D.GraphicsPath,AddRectangle</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddRectangle</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,CloseAllFigures</token>
+<token>System.Drawing.Drawing2D.Matrix,new</token>
+<token>System.Drawing.Drawing2D.Matrix,Translate</token>
 </entry>
 <entry count="1">
 <token>System.Drawing.Drawing2D.GraphicsPath,CloseFigure</token>
@@ -1470,23 +1900,30 @@
 <token>System.Drawing.Drawing2D.Matrix,Rotate</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,Transform</token>
 </entry>
+<entry count="8">
+<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,CloseFigure</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,CloseFigure</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
+</entry>
 <entry count="10">
 <token>System.Drawing.Drawing2D.Matrix,TransformVectors</token>
 <token>System.Drawing.Drawing2D.Matrix,Reset</token>
 </entry>
-<entry count="1">
+<entry count="2">
 <token>System.Drawing.Drawing2D.GraphicsPath,AddRectangle</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,CloseAllFigures</token>
 <token>System.Drawing.Drawing2D.Matrix,new</token>
 <token>System.Drawing.Drawing2D.Matrix,Translate</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,Transform</token>
 </entry>
-<entry count="1">
+<entry count="2">
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,CloseAllFigures</token>
 <token>System.Drawing.Drawing2D.Matrix,new</token>
 </entry>
-<entry count="1">
+<entry count="2">
 <token>System.Drawing.Drawing2D.GraphicsPath,AddRectangle</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,CloseAllFigures</token>
 <token>System.Drawing.Drawing2D.Matrix,new</token>
@@ -1502,7 +1939,7 @@
 <token>System.Drawing.Drawing2D.Matrix,new</token>
 <token>System.Drawing.Drawing2D.Matrix,Translate</token>
 </entry>
-<entry count="14">
+<entry count="2714">
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
@@ -1536,9 +1973,14 @@
 <token>System.Drawing.Drawing2D.GraphicsPath,StartFigure</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddPolygon</token>
 </entry>
-<entry count="20">
+<entry count="10495">
 <token>System.Drawing.Drawing2D.Matrix,new</token>
 <token>System.Drawing.Drawing2D.Matrix,new</token>
+</entry>
+<entry count="66744">
+<token>System.Drawing.Drawing2D.GraphicsPath,new</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,new</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,Reset</token>
 </entry>
 <entry count="1">
 <token>System.Drawing.Drawing2D.Matrix,new</token>
@@ -1546,13 +1988,13 @@
 <token>System.Drawing.Drawing2D.Matrix,Translate</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,GetBounds</token>
 </entry>
-<entry count="56">
+<entry count="3395">
 <token>System.Drawing.Drawing2D.GraphicsPath,new</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 </entry>
-<entry count="20">
+<entry count="120">
 <token>System.Drawing.Drawing2D.GraphicsPath,Clone</token>
 <token>System.Drawing.Drawing2D.Matrix,new</token>
 </entry>
@@ -1569,14 +2011,21 @@
 <token>System.Drawing.Drawing2D.ColorBlend,new</token>
 <token>System.Drawing.Drawing2D.LinearGradientBrush,new</token>
 </entry>
-<entry count="4">
+<entry count="1">
+<token>System.Drawing.Drawing2D.GraphicsPath,new</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddRectangle</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
+</entry>
+<entry count="1672">
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,CloseFigure</token>
 </entry>
-<entry count="50">
+<entry count="250">
 <token>System.Drawing.Drawing2D.LinearGradientBrush,new</token>
 <token>System.Drawing.Drawing2D.LinearGradientBrush,new</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,new</token>
@@ -1590,7 +2039,7 @@
 <token>System.Drawing.Drawing2D.GraphicsPath,new</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddCurve</token>
 </entry>
-<entry count="20">
+<entry count="3603">
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
@@ -1602,12 +2051,12 @@
 <token>System.Drawing.Drawing2D.Matrix,Rotate</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,Transform</token>
 </entry>
-<entry count="50">
+<entry count="90">
 <token>System.Drawing.Drawing2D.Matrix,Translate</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,Transform</token>
 <token>System.Drawing.Drawing2D.Matrix,Translate</token>
 </entry>
-<entry count="18">
+<entry count="26244">
 <token>System.Drawing.Drawing2D.Matrix,new</token>
 <token>System.Drawing.Drawing2D.Matrix,Translate</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,Warp</token>
@@ -1626,7 +2075,7 @@
 <token>System.Drawing.Drawing2D.Matrix,Invert</token>
 <token>System.Drawing.Drawing2D.Matrix,TransformPoints</token>
 </entry>
-<entry count="4">
+<entry count="96">
 <token>System.Drawing.Drawing2D.GraphicsPath,new</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,Clone</token>
 <token>System.Drawing.Drawing2D.Matrix,new</token>
@@ -1642,7 +2091,7 @@
 <token>System.Drawing.Drawing2D.GraphicsPath,CloseFigure</token>
 <token>System.Drawing.Drawing2D.Matrix,new</token>
 </entry>
-<entry count="1">
+<entry count="2">
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
@@ -1654,26 +2103,33 @@
 <token>System.Drawing.Drawing2D.Matrix,Scale</token>
 <token>System.Drawing.Drawing2D.Matrix,TransformPoints</token>
 </entry>
-<entry count="40">
+<entry count="80">
 <token>System.Drawing.Drawing2D.Matrix,Translate</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,Transform</token>
 <token>System.Drawing.Drawing2D.LinearGradientBrush,new</token>
 <token>System.Drawing.Drawing2D.Matrix,Translate</token>
 </entry>
-<entry count="20">
+<entry count="4">
+<token>System.Drawing.Drawing2D.GraphicsPath,CloseFigure</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,CloseFigure</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
+</entry>
+<entry count="80">
 <token>System.Drawing.Drawing2D.GraphicsPath,GetBounds</token>
 <token>System.Drawing.Drawing2D.Matrix,Scale</token>
 <token>System.Drawing.Drawing2D.Matrix,Translate</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,Transform</token>
 </entry>
-<entry count="18">
+<entry count="26244">
 <token>System.Drawing.Drawing2D.GraphicsPath,new</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddString</token>
 <token>System.Drawing.Drawing2D.Matrix,new</token>
 <token>System.Drawing.Drawing2D.Matrix,Translate</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,Warp</token>
 </entry>
-<entry count="8">
+<entry count="2048">
 <token>System.Drawing.Drawing2D.GraphicsPath,new</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
@@ -1684,17 +2140,33 @@
 <token>System.Drawing.Drawing2D.GraphicsPath,AddRectangle</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddRectangle</token>
 </entry>
+<entry count="31320">
+<token>System.Drawing.Drawing2D.GraphicsPath,new</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,Reset</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,new</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,new</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,Reset</token>
+</entry>
+<entry count="19264">
+<token>System.Drawing.Drawing2D.GraphicsPath,Reset</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,Reset</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,new</token>
+</entry>
 <entry count="2">
 <token>System.Drawing.Drawing2D.Matrix,new</token>
 <token>System.Drawing.Drawing2D.Matrix,Scale</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,Transform</token>
 <token>System.Drawing.Drawing2D.Matrix,new</token>
 </entry>
-<entry count="48">
+<entry count="128">
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddBezier</token>
 </entry>
-<entry count="16">
+<entry count="12">
+<token>System.Drawing.Drawing2D.LinearGradientBrush,SetSigmaBellShape</token>
+<token>System.Drawing.Drawing2D.LinearGradientBrush,new</token>
+</entry>
+<entry count="64">
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddBezier</token>
@@ -1705,29 +2177,36 @@
 <token>System.Drawing.Drawing2D.Matrix,Reset</token>
 <token>System.Drawing.Drawing2D.Matrix,Translate</token>
 </entry>
+<entry count="4">
+<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,CloseFigure</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,CloseFigure</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,Flatten</token>
+</entry>
 <entry count="30">
 <token>System.Drawing.Drawing2D.Matrix,new</token>
 <token>System.Drawing.Drawing2D.Matrix,Translate</token>
 <token>System.Drawing.Drawing2D.Matrix,Scale</token>
 <token>System.Drawing.Drawing2D.Matrix,Translate</token>
 </entry>
-<entry count="13">
+<entry count="12">
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,CloseFigure</token>
 </entry>
-<entry count="40">
+<entry count="52">
 <token>System.Drawing.Drawing2D.Matrix,Translate</token>
 <token>System.Drawing.Drawing2D.Matrix,Scale</token>
 <token>System.Drawing.Drawing2D.Matrix,Translate</token>
 </entry>
-<entry count="28">
+<entry count="4108">
 <token>System.Drawing.Drawing2D.GraphicsPath,new</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 </entry>
-<entry count="4">
+<entry count="648">
 <token>System.Drawing.Drawing2D.GraphicsPath,StartFigure</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
@@ -1744,7 +2223,7 @@
 <token>System.Drawing.Drawing2D.GraphicsPath,IsOutlineVisible</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,Dispose</token>
 </entry>
-<entry count="4">
+<entry count="12">
 <token>System.Drawing.Drawing2D.GraphicsPath,new</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
@@ -1774,11 +2253,24 @@
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLines</token>
 </entry>
 <entry count="4">
+<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,CloseFigure</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,Flatten</token>
+</entry>
+<entry count="1024">
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,CloseFigure</token>
+</entry>
+<entry count="4">
+<token>System.Drawing.Drawing2D.GraphicsPath,CloseFigure</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,Flatten</token>
 </entry>
 <entry count="1">
 <token>System.Drawing.Drawing2D.GraphicsPath,CloseFigure</token>
@@ -1802,53 +2294,65 @@
 <token>System.Drawing.Drawing2D.GraphicsPath,Reset</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddRectangle</token>
 </entry>
-<entry count="21">
+<entry count="26247">
 <token>System.Drawing.Drawing2D.Matrix,Translate</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,Warp</token>
 </entry>
-<entry count="24">
+<entry count="6040">
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
-<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
-<token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
-<token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
-</entry>
-<entry count="8">
-<token>System.Drawing.Drawing2D.GraphicsPath,Widen</token>
-<token>System.Drawing.Drawing2D.GraphicsPath,IsVisible</token>
-</entry>
-<entry count="20">
-<token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
-<token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
-<token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
-<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
-</entry>
-<entry count="2">
-<token>System.Drawing.Drawing2D.GraphicsPath,CloseAllFigures</token>
-<token>System.Drawing.Drawing2D.Matrix,new</token>
-<token>System.Drawing.Drawing2D.Matrix,Translate</token>
-</entry>
-<entry count="64">
-<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
-<token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
-<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
-<token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
-</entry>
-<entry count="28">
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 </entry>
 <entry count="1">
+<token>System.Drawing.Drawing2D.GraphicsPath,new</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddRectangle</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
+</entry>
+<entry count="32">
+<token>System.Drawing.Drawing2D.GraphicsPath,Widen</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,IsVisible</token>
+</entry>
+<entry count="4640">
+<token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
+</entry>
+<entry count="12">
+<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,CloseFigure</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
+</entry>
+<entry count="4">
+<token>System.Drawing.Drawing2D.GraphicsPath,CloseAllFigures</token>
+<token>System.Drawing.Drawing2D.Matrix,new</token>
+<token>System.Drawing.Drawing2D.Matrix,Translate</token>
+</entry>
+<entry count="8024">
+<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
+</entry>
+<entry count="6688">
+<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
+</entry>
+<entry count="8">
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,Flatten</token>
 </entry>
-<entry count="18">
+<entry count="26244">
 <token>System.Drawing.Drawing2D.GraphicsPath,new</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddString</token>
 <token>System.Drawing.Drawing2D.Matrix,new</token>
 </entry>
-<entry count="8">
+<entry count="1296">
 <token>System.Drawing.Drawing2D.GraphicsPath,StartFigure</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
@@ -1861,19 +2365,19 @@
 <token>System.Drawing.Drawing2D.Matrix,Clone</token>
 <token>System.Drawing.Drawing2D.Matrix,Invert</token>
 </entry>
-<entry count="8">
+<entry count="1296">
 <token>System.Drawing.Drawing2D.GraphicsPath,new</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,StartFigure</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 </entry>
-<entry count="18">
+<entry count="26244">
 <token>System.Drawing.Drawing2D.HatchBrush,new</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,new</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddString</token>
 <token>System.Drawing.Drawing2D.Matrix,new</token>
 </entry>
-<entry count="4">
+<entry count="648">
 <token>System.Drawing.Drawing2D.GraphicsPath,StartFigure</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
@@ -1884,7 +2388,7 @@
 <token>System.Drawing.Drawing2D.GraphicsPath,CloseFigure</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 </entry>
-<entry count="4">
+<entry count="16">
 <token>System.Drawing.Drawing2D.Matrix,Translate</token>
 <token>System.Drawing.Drawing2D.Matrix,Scale</token>
 <token>System.Drawing.Drawing2D.Matrix,Translate</token>
@@ -1896,16 +2400,33 @@
 <token>System.Drawing.Drawing2D.Matrix,TransformPoints</token>
 <token>System.Drawing.Drawing2D.Matrix,new</token>
 </entry>
-<entry count="36">
+<entry count="4">
+<token>System.Drawing.Drawing2D.GraphicsPath,Clone</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,Clone</token>
+<token>System.Drawing.Drawing2D.Matrix,new</token>
+</entry>
+<entry count="8736">
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 </entry>
-<entry count="19">
+<entry count="2595">
 <token>System.Drawing.Drawing2D.GraphicsPath,new</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,StartFigure</token>
 </entry>
 <entry count="4">
+<token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,Flatten</token>
+</entry>
+<entry count="1">
+<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddRectangle</token>
+</entry>
+<entry count="16">
 <token>System.Drawing.Drawing2D.Matrix,new</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,GetBounds</token>
 <token>System.Drawing.Drawing2D.Matrix,Translate</token>
@@ -1923,7 +2444,33 @@
 <token>System.Drawing.Drawing2D.Matrix,Clone</token>
 <token>System.Drawing.Drawing2D.Matrix,Invert</token>
 </entry>
-<entry count="50">
+<entry count="1">
+<token>System.Drawing.Drawing2D.GraphicsPath,new</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddRectangle</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddRectangle</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,CloseAllFigures</token>
+<token>System.Drawing.Drawing2D.Matrix,new</token>
+</entry>
+<entry count="4">
+<token>System.Drawing.Drawing2D.GraphicsPath,Transform</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,Clone</token>
+<token>System.Drawing.Drawing2D.Matrix,new</token>
+<token>System.Drawing.Drawing2D.Matrix,Translate</token>
+</entry>
+<entry count="40">
+<token>System.Drawing.Drawing2D.GraphicsPath,new</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddLines</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddLines</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,new</token>
+<token>System.Drawing.Drawing2D.PathGradientBrush,new</token>
+</entry>
+<entry count="200">
+<token>System.Drawing.Drawing2D.LinearGradientBrush,new</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,new</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddLines</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddLines</token>
+</entry>
+<entry count="90">
 <token>System.Drawing.Drawing2D.Matrix,Translate</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,Transform</token>
 <token>System.Drawing.Drawing2D.Matrix,Translate</token>
@@ -1938,14 +2485,14 @@
 <token>System.Drawing.Drawing2D.Matrix,Rotate</token>
 <token>System.Drawing.Drawing2D.Matrix,Translate</token>
 </entry>
-<entry count="18">
+<entry count="26244">
 <token>System.Drawing.Drawing2D.GraphicsPath,AddString</token>
 <token>System.Drawing.Drawing2D.Matrix,new</token>
 <token>System.Drawing.Drawing2D.Matrix,Translate</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,Warp</token>
 <token>System.Drawing.Drawing2D.HatchBrush,new</token>
 </entry>
-<entry count="24">
+<entry count="96">
 <token>System.Drawing.Drawing2D.Matrix,Scale</token>
 <token>System.Drawing.Drawing2D.Matrix,Translate</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,Transform</token>
@@ -1970,7 +2517,7 @@
 <token>System.Drawing.Drawing2D.Matrix,new</token>
 <token>System.Drawing.Drawing2D.Matrix,Translate</token>
 </entry>
-<entry count="4">
+<entry count="1024">
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
@@ -1981,29 +2528,29 @@
 <token>System.Drawing.Drawing2D.Matrix,Scale</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,Transform</token>
 </entry>
-<entry count="4">
+<entry count="648">
 <token>System.Drawing.Drawing2D.GraphicsPath,StartFigure</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 </entry>
-<entry count="4">
+<entry count="16">
 <token>System.Drawing.Drawing2D.GraphicsPath,Widen</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,IsVisible</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,Widen</token>
 </entry>
-<entry count="4">
+<entry count="16">
 <token>System.Drawing.Drawing2D.GraphicsPath,GetBounds</token>
 <token>System.Drawing.Drawing2D.Matrix,Translate</token>
 <token>System.Drawing.Drawing2D.Matrix,Scale</token>
 <token>System.Drawing.Drawing2D.Matrix,Translate</token>
 </entry>
-<entry count="31">
+<entry count="6164">
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,CloseFigure</token>
 </entry>
-<entry count="2">
+<entry count="4">
 <token>System.Drawing.Drawing2D.GraphicsPath,CloseAllFigures</token>
 <token>System.Drawing.Drawing2D.Matrix,new</token>
 <token>System.Drawing.Drawing2D.Matrix,Translate</token>
@@ -2013,7 +2560,7 @@
 <token>System.Drawing.Drawing2D.GraphicsPath,CloseFigure</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,StartFigure</token>
 </entry>
-<entry count="24">
+<entry count="64">
 <token>System.Drawing.Drawing2D.GraphicsPath,AddBezier</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 </entry>
@@ -2024,21 +2571,28 @@
 <token>System.Drawing.Drawing2D.Matrix,Translate</token>
 <token>System.Drawing.Drawing2D.Matrix,Reset</token>
 </entry>
-<entry count="7">
+<entry count="1537">
 <token>System.Drawing.Drawing2D.GraphicsPath,new</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,CloseFigure</token>
 </entry>
-<entry count="57">
+<entry count="9242">
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,CloseFigure</token>
 </entry>
-<entry count="16">
+<entry count="32">
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddBezier</token>
+</entry>
+<entry count="40">
+<token>System.Drawing.Drawing2D.Matrix,Translate</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,Transform</token>
+<token>System.Drawing.Drawing2D.Matrix,Translate</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,Transform</token>
+<token>System.Drawing.Drawing2D.LinearGradientBrush,new</token>
 </entry>
 <entry count="1">
 <token>System.Drawing.Drawing2D.Matrix,Translate</token>
@@ -2047,7 +2601,7 @@
 <token>System.Drawing.Drawing2D.GraphicsPath,Transform</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,Flatten</token>
 </entry>
-<entry count="24">
+<entry count="64">
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddBezier</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
@@ -2061,11 +2615,25 @@
 <token>System.Drawing.Drawing2D.Matrix,new</token>
 </entry>
 <entry count="4">
+<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,CloseFigure</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,Flatten</token>
+</entry>
+<entry count="1024">
 <token>System.Drawing.Drawing2D.GraphicsPath,new</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
+</entry>
+<entry count="1">
+<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddRectangle</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,CloseAllFigures</token>
 </entry>
 <entry count="3">
 <token>System.Drawing.Drawing2D.Matrix,Reset</token>
@@ -2090,14 +2658,14 @@
 <token>System.Drawing.Drawing2D.GraphicsPath,Transform</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,Dispose</token>
 </entry>
-<entry count="8">
+<entry count="2048">
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 </entry>
-<entry count="24">
+<entry count="350">
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
@@ -2108,7 +2676,7 @@
 <token>System.Drawing.Drawing2D.GraphicsPath,AddPolygon</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,CloseFigure</token>
 </entry>
-<entry count="8">
+<entry count="1996">
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
@@ -2116,10 +2684,16 @@
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 </entry>
 <entry count="1">
+<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddRectangle</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,CloseAllFigures</token>
+<token>System.Drawing.Drawing2D.Matrix,new</token>
+</entry>
+<entry count="1">
 <token>System.Drawing.Drawing2D.GraphicsPath,new</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,GetBounds</token>
 </entry>
-<entry count="20">
+<entry count="80">
 <token>System.Drawing.Drawing2D.GraphicsPath,GetBounds</token>
 <token>System.Drawing.Drawing2D.Matrix,Scale</token>
 <token>System.Drawing.Drawing2D.Matrix,Translate</token>
@@ -2128,9 +2702,14 @@
 <token>System.Drawing.Drawing2D.Matrix,new</token>
 <token>System.Drawing.Drawing2D.Matrix,Dispose</token>
 </entry>
-<entry count="50">
+<entry count="90">
 <token>System.Drawing.Drawing2D.GraphicsPath,Transform</token>
 <token>System.Drawing.Drawing2D.Matrix,Translate</token>
+</entry>
+<entry count="1">
+<token>System.Drawing.Drawing2D.GraphicsPath,AddRectangle</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 </entry>
 <entry count="1">
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
@@ -2151,22 +2730,28 @@
 <token>System.Drawing.Drawing2D.Matrix,new</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,CloseFigure</token>
 </entry>
-<entry count="8">
+<entry count="1996">
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 </entry>
-<entry count="24">
+<entry count="96">
 <token>System.Drawing.Drawing2D.Matrix,new</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,GetBounds</token>
+</entry>
+<entry count="40120">
+<token>System.Drawing.Drawing2D.GraphicsPath,Reset</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,new</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,Reset</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,new</token>
 </entry>
 <entry count="20">
 <token>System.Drawing.Drawing2D.Matrix,Scale</token>
 <token>System.Drawing.Drawing2D.Matrix,TransformPoints</token>
 </entry>
-<entry count="176">
+<entry count="25544">
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 </entry>
@@ -2174,27 +2759,41 @@
 <token>System.Drawing.Drawing2D.Matrix,Translate</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,GetBounds</token>
 </entry>
-<entry count="8">
+<entry count="32">
 <token>System.Drawing.Drawing2D.GraphicsPath,AddBezier</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddBezier</token>
 </entry>
-<entry count="18">
+<entry count="200">
+<token>System.Drawing.Drawing2D.LinearGradientBrush,new</token>
+<token>System.Drawing.Drawing2D.LinearGradientBrush,new</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,new</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddLines</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddLines</token>
+</entry>
+<entry count="26244">
 <token>System.Drawing.Drawing2D.GraphicsPath,new</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddString</token>
 <token>System.Drawing.Drawing2D.Matrix,new</token>
 <token>System.Drawing.Drawing2D.Matrix,Translate</token>
 </entry>
+<entry count="4">
+<token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,CloseFigure</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
+</entry>
 <entry count="20">
 <token>System.Drawing.Drawing2D.GraphicsPath,new</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddEllipse</token>
 </entry>
-<entry count="18">
+<entry count="273">
 <token>System.Drawing.Drawing2D.GraphicsPath,new</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,CloseFigure</token>
 </entry>
-<entry count="2">
+<entry count="648">
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
@@ -2205,19 +2804,19 @@
 <token>System.Drawing.Drawing2D.GraphicsPath,AddRectangle</token>
 <token>System.Drawing.Drawing2D.PathGradientBrush,new</token>
 </entry>
-<entry count="30">
+<entry count="50">
 <token>System.Drawing.Drawing2D.Matrix,Rotate</token>
 <token>System.Drawing.Drawing2D.Matrix,TransformVectors</token>
 <token>System.Drawing.Drawing2D.Matrix,Dispose</token>
 </entry>
-<entry count="13">
+<entry count="12">
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,CloseFigure</token>
 </entry>
-<entry count="24">
+<entry count="1347">
 <token>System.Drawing.Drawing2D.GraphicsPath,new</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
@@ -2235,12 +2834,12 @@
 <token>System.Drawing.Drawing2D.GraphicsPath,AddBeziers</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,GetBounds</token>
 </entry>
-<entry count="1">
+<entry count="2">
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,CloseAllFigures</token>
 </entry>
-<entry count="124">
+<entry count="540">
 <token>System.Drawing.Drawing2D.LinearGradientBrush,new</token>
 <token>System.Drawing.Drawing2D.LinearGradientBrush,new</token>
 </entry>
@@ -2255,8 +2854,15 @@
 <token>System.Drawing.Drawing2D.GraphicsPath,new</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddPolygon</token>
 </entry>
-<entry count="18">
+<entry count="26244">
 <token>System.Drawing.Drawing2D.HatchBrush,new</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,new</token>
+</entry>
+<entry count="19800">
+<token>System.Drawing.Drawing2D.GraphicsPath,Reset</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,new</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,new</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,Reset</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,new</token>
 </entry>
 <entry count="1">
@@ -2264,16 +2870,36 @@
 <token>System.Drawing.Drawing2D.Matrix,Translate</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,Transform</token>
 </entry>
-<entry count="20">
+<entry count="80">
 <token>System.Drawing.Drawing2D.Matrix,new</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,GetBounds</token>
 <token>System.Drawing.Drawing2D.Matrix,Scale</token>
+</entry>
+<entry count="4">
+<token>System.Drawing.Drawing2D.GraphicsPath,new</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,CloseFigure</token>
 </entry>
 <entry count="10">
 <token>System.Drawing.Drawing2D.Matrix,Reset</token>
 <token>System.Drawing.Drawing2D.Matrix,Rotate</token>
 <token>System.Drawing.Drawing2D.Matrix,TransformVectors</token>
 <token>System.Drawing.Drawing2D.Matrix,Dispose</token>
+</entry>
+<entry count="4">
+<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,Flatten</token>
+</entry>
+<entry count="1">
+<token>System.Drawing.Drawing2D.GraphicsPath,AddRectangle</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 </entry>
 <entry count="5">
 <token>System.Drawing.Drawing2D.GraphicsPath,new</token>
@@ -2300,14 +2926,14 @@
 <token>System.Drawing.Drawing2D.Matrix,Translate</token>
 <token>System.Drawing.Drawing2D.Matrix,TransformPoints</token>
 </entry>
-<entry count="4">
+<entry count="648">
 <token>System.Drawing.Drawing2D.GraphicsPath,StartFigure</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 </entry>
-<entry count="50">
+<entry count="155786">
 <token>System.Drawing.Drawing2D.GraphicsPath,new</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,new</token>
 </entry>
@@ -2338,7 +2964,7 @@
 <token>System.Drawing.Drawing2D.Matrix,Clone</token>
 <token>System.Drawing.Drawing2D.Matrix,Invert</token>
 </entry>
-<entry count="3">
+<entry count="10">
 <token>System.Drawing.Drawing2D.GraphicsPath,CloseFigure</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,Flatten</token>
 </entry>
@@ -2352,14 +2978,20 @@
 <token>System.Drawing.Drawing2D.Matrix,Rotate</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,Transform</token>
 </entry>
-<entry count="4">
+<entry count="35640">
+<token>System.Drawing.Drawing2D.GraphicsPath,Reset</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,new</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,new</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,Reset</token>
+</entry>
+<entry count="1024">
 <token>System.Drawing.Drawing2D.GraphicsPath,new</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,CloseFigure</token>
 </entry>
-<entry count="40">
+<entry count="200">
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLines</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLines</token>
 <token>System.Drawing.Drawing2D.PathGradientBrush,new</token>
@@ -2368,21 +3000,21 @@
 <token>System.Drawing.Drawing2D.Matrix,Multiply</token>
 <token>System.Drawing.Drawing2D.LinearGradientBrush,new</token>
 </entry>
-<entry count="8">
-<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
-<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
-<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
-<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
-<token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
-</entry>
-<entry count="1">
-<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
-<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
-<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
-<token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
-<token>System.Drawing.Drawing2D.GraphicsPath,Flatten</token>
-</entry>
 <entry count="4">
+<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
+</entry>
+<entry count="169">
+<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
+</entry>
+<entry count="648">
 <token>System.Drawing.Drawing2D.GraphicsPath,StartFigure</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
@@ -2411,24 +3043,41 @@
 <token>System.Drawing.Drawing2D.GraphicsPath,AddRectangle</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddRectangle</token>
 </entry>
-<entry count="1">
-<token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
-<token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
-<token>System.Drawing.Drawing2D.GraphicsPath,CloseFigure</token>
-<token>System.Drawing.Drawing2D.Matrix,new</token>
+<entry count="40">
+<token>System.Drawing.Drawing2D.LinearGradientBrush,new</token>
 <token>System.Drawing.Drawing2D.Matrix,Translate</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,Transform</token>
+<token>System.Drawing.Drawing2D.LinearGradientBrush,new</token>
 </entry>
 <entry count="8">
+<token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,CloseFigure</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
+</entry>
+<entry count="1">
+<token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,CloseFigure</token>
+<token>System.Drawing.Drawing2D.Matrix,new</token>
+<token>System.Drawing.Drawing2D.Matrix,Translate</token>
+</entry>
+<entry count="1">
+<token>System.Drawing.Drawing2D.GraphicsPath,new</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddRectangle</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
+</entry>
+<entry count="1296">
 <token>System.Drawing.Drawing2D.GraphicsPath,StartFigure</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 </entry>
-<entry count="18">
+<entry count="26244">
 <token>System.Drawing.Drawing2D.Matrix,Translate</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,Warp</token>
 <token>System.Drawing.Drawing2D.HatchBrush,new</token>
 </entry>
-<entry count="16">
+<entry count="2048">
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,CloseFigure</token>
@@ -2437,21 +3086,21 @@
 <token>System.Drawing.Drawing2D.GraphicsPath,AddPath</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 </entry>
-<entry count="1">
+<entry count="2">
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,CloseAllFigures</token>
 <token>System.Drawing.Drawing2D.Matrix,new</token>
 </entry>
-<entry count="2">
+<entry count="324">
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 </entry>
-<entry count="40">
+<entry count="80">
 <token>System.Drawing.Drawing2D.GraphicsPath,Transform</token>
 <token>System.Drawing.Drawing2D.LinearGradientBrush,new</token>
 <token>System.Drawing.Drawing2D.Matrix,Translate</token>
@@ -2468,7 +3117,12 @@
 <token>System.Drawing.Drawing2D.Matrix,new</token>
 <token>System.Drawing.Drawing2D.Matrix,Translate</token>
 </entry>
-<entry count="20">
+<entry count="1440">
+<token>System.Drawing.Drawing2D.Matrix,new</token>
+<token>System.Drawing.Drawing2D.Matrix,new</token>
+<token>System.Drawing.Drawing2D.Matrix,new</token>
+</entry>
+<entry count="80">
 <token>System.Drawing.Drawing2D.Matrix,new</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,GetBounds</token>
 <token>System.Drawing.Drawing2D.Matrix,Scale</token>
@@ -2479,7 +3133,7 @@
 <token>System.Drawing.Drawing2D.GraphicsPath,Transform</token>
 <token>System.Drawing.Drawing2D.Matrix,Reset</token>
 </entry>
-<entry count="40">
+<entry count="160">
 <token>System.Drawing.Drawing2D.GraphicsPath,Transform</token>
 <token>System.Drawing.Drawing2D.LinearGradientBrush,new</token>
 </entry>
@@ -2490,13 +3144,24 @@
 <token>System.Drawing.Drawing2D.GraphicsPath,CloseFigure</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,StartFigure</token>
 </entry>
-<entry count="1">
+<entry count="38200">
 <token>System.Drawing.Drawing2D.GraphicsPath,new</token>
-<token>System.Drawing.Drawing2D.GraphicsPath,AddRectangle</token>
-<token>System.Drawing.Drawing2D.GraphicsPath,CloseAllFigures</token>
-<token>System.Drawing.Drawing2D.Matrix,new</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,Reset</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,new</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,Reset</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,new</token>
 </entry>
-<entry count="2805">
+<entry count="200">
+<token>System.Drawing.Drawing2D.LinearGradientBrush,new</token>
+<token>System.Drawing.Drawing2D.LinearGradientBrush,new</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,new</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddLines</token>
+</entry>
+<entry count="200">
+<token>System.Drawing.Drawing2D.GraphicsPath,AddLines</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,new</token>
+</entry>
+<entry count="220589">
 <token>System.Drawing.Drawing2D.GraphicsPath,new</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,Reset</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,new</token>
@@ -2553,13 +3218,13 @@
 <token>System.Drawing.Drawing2D.Matrix,Translate</token>
 <token>System.Drawing.Drawing2D.Matrix,Rotate</token>
 </entry>
-<entry count="129">
+<entry count="10476">
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 </entry>
-<entry count="60">
+<entry count="132">
 <token>System.Drawing.Drawing2D.Matrix,Scale</token>
 <token>System.Drawing.Drawing2D.Matrix,Translate</token>
 </entry>
@@ -2567,9 +3232,16 @@
 <token>System.Drawing.Drawing2D.HatchBrush,new</token>
 <token>System.Drawing.Drawing2D.LinearGradientBrush,new</token>
 </entry>
-<entry count="20">
+<entry count="40">
 <token>System.Drawing.Drawing2D.Matrix,Clone</token>
 <token>System.Drawing.Drawing2D.Matrix,Translate</token>
+</entry>
+<entry count="4">
+<token>System.Drawing.Drawing2D.GraphicsPath,CloseFigure</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,CloseFigure</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,CloseFigure</token>
 </entry>
 <entry count="27">
 <token>System.Drawing.Drawing2D.GraphicsPath,new</token>
@@ -2583,18 +3255,31 @@
 <token>System.Drawing.Drawing2D.Matrix,Rotate</token>
 <token>System.Drawing.Drawing2D.Matrix,TransformVectors</token>
 </entry>
-<entry count="39">
+<entry count="54">
 <token>System.Drawing.Drawing2D.GraphicsPath,new</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 </entry>
-<entry count="20">
+<entry count="3456">
+<token>System.Drawing.Drawing2D.GraphicsPath,Reset</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,Reset</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,new</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,Reset</token>
+</entry>
+<entry count="80">
 <token>System.Drawing.Drawing2D.GraphicsPath,GetBounds</token>
 <token>System.Drawing.Drawing2D.Matrix,Scale</token>
 <token>System.Drawing.Drawing2D.Matrix,Translate</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,Transform</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,Flatten</token>
 </entry>
+<entry count="104">
+<token>System.Drawing.Drawing2D.GraphicsPath,Clone</token>
+<token>System.Drawing.Drawing2D.Matrix,new</token>
+<token>System.Drawing.Drawing2D.Matrix,Translate</token>
+</entry>
 <entry count="4">
+<token>System.Drawing.Drawing2D.GraphicsPath,new</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,Clone</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,Clone</token>
 <token>System.Drawing.Drawing2D.Matrix,new</token>
 <token>System.Drawing.Drawing2D.Matrix,Translate</token>
@@ -2619,13 +3304,13 @@
 <token>System.Drawing.Drawing2D.GraphicsPath,StartFigure</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddPolygon</token>
 </entry>
-<entry count="16">
+<entry count="3616">
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 </entry>
-<entry count="8">
+<entry count="1296">
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
@@ -2649,35 +3334,53 @@
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 </entry>
-<entry count="8">
+<entry count="1296">
 <token>System.Drawing.Drawing2D.GraphicsPath,new</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,StartFigure</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 </entry>
-<entry count="10">
+<entry count="655">
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 </entry>
-<entry count="47">
+<entry count="1">
+<token>System.Drawing.Drawing2D.GraphicsPath,new</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddRectangle</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddRectangle</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,CloseAllFigures</token>
+</entry>
+<entry count="407">
 <token>System.Drawing.Drawing2D.GraphicsPath,new</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLines</token>
+</entry>
+<entry count="162">
+<token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 </entry>
 <entry count="12">
 <token>System.Drawing.Drawing2D.GraphicsPath,Reset</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 </entry>
-<entry count="12">
+<entry count="2968">
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 </entry>
-<entry count="2">
+<entry count="12">
+<token>System.Drawing.Drawing2D.GraphicsPath,CloseFigure</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,CloseFigure</token>
+</entry>
+<entry count="324">
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
@@ -2697,6 +3400,12 @@
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,IsOutlineVisible</token>
 </entry>
+<entry count="4">
+<token>System.Drawing.Drawing2D.GraphicsPath,Clone</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,Clone</token>
+<token>System.Drawing.Drawing2D.Matrix,new</token>
+<token>System.Drawing.Drawing2D.Matrix,Translate</token>
+</entry>
 <entry count="1">
 <token>System.Drawing.Drawing2D.GraphicsPath,CloseFigure</token>
 <token>System.Drawing.Drawing2D.Matrix,new</token>
@@ -2714,7 +3423,7 @@
 <token>System.Drawing.Drawing2D.GraphicsPath,Transform</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,Dispose</token>
 </entry>
-<entry count="4">
+<entry count="648">
 <token>System.Drawing.Drawing2D.GraphicsPath,StartFigure</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
@@ -2729,19 +3438,19 @@
 <token>System.Drawing.Drawing2D.GraphicsPath,new</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddClosedCurve</token>
 </entry>
-<entry count="8">
+<entry count="1296">
 <token>System.Drawing.Drawing2D.GraphicsPath,new</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,StartFigure</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 </entry>
-<entry count="4">
+<entry count="648">
 <token>System.Drawing.Drawing2D.GraphicsPath,new</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,StartFigure</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 </entry>
-<entry count="2805">
+<entry count="239853">
 <token>System.Drawing.Drawing2D.GraphicsPath,Reset</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,new</token>
 </entry>
@@ -2750,7 +3459,7 @@
 <token>System.Drawing.Drawing2D.Matrix,Clone</token>
 <token>System.Drawing.Drawing2D.Matrix,Invert</token>
 </entry>
-<entry count="8">
+<entry count="12">
 <token>System.Drawing.Drawing2D.LinearGradientBrush,new</token>
 <token>System.Drawing.Drawing2D.LinearGradientBrush,new</token>
 <token>System.Drawing.Drawing2D.LinearGradientBrush,new</token>
@@ -2760,7 +3469,7 @@
 <token>System.Drawing.Drawing2D.GraphicsPath,StartFigure</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddEllipse</token>
 </entry>
-<entry count="2">
+<entry count="1160">
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddLine</token>
@@ -2774,8 +3483,17 @@
 </entry>
 <entry count="1">
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
+<token>System.Drawing.Drawing2D.GraphicsPath,AddRectangle</token>
+</entry>
+<entry count="2">
+<token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,AddArc</token>
 <token>System.Drawing.Drawing2D.GraphicsPath,CloseAllFigures</token>
 <token>System.Drawing.Drawing2D.Matrix,new</token>
+</entry>
+<entry count="80">
+<token>System.Drawing.Drawing2D.GraphicsPath,Transform</token>
+<token>System.Drawing.Drawing2D.LinearGradientBrush,new</token>
+<token>System.Drawing.Drawing2D.Matrix,Reset</token>
 </entry>
 </dictionary>

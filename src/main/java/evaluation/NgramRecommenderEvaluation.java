@@ -9,23 +9,20 @@ import cc.kave.commons.model.naming.codeelements.IMethodName;
 import cc.kave.commons.model.naming.impl.v0.codeelements.MethodName;
 import cc.kave.commons.model.ssts.ISST;
 import cc.kave.commons.model.ssts.declarations.IMethodDeclaration;
-import cc.kave.commons.model.typeshapes.IMemberHierarchy;
 import cc.kave.commons.utils.io.Directory;
 import cc.kave.commons.utils.io.ReadingArchive;
-import cc.kave.commons.utils.io.json.JsonUtils;
 import cc.kave.rsse.calls.datastructures.Tuple;
 import com.google.common.collect.Lists;
 import extractor.APISentenceTree;
 import extractor.APIToken;
 import ngram.NgramRecommenderClient;
-import opennlp.tools.util.StringList;
 import org.apache.commons.io.FileUtils;
 import util.IoHelper;
 import util.Utilities;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.HashSet;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
 
@@ -36,7 +33,7 @@ public class NgramRecommenderEvaluation {
     private static Set<String> inputFiles = new Directory(modelsDir).findFiles(s -> s.endsWith(".xml"));
     private static int NameSpaceCoutner = 0;
     private static int possibleNameSpaceCounter = 0;
-    
+
     private static final int MAX_PROXIMITY = 5;
 
     private static int correctlyPredicted = 0;
@@ -49,7 +46,7 @@ public class NgramRecommenderEvaluation {
         // .zip file in the dataset corresponds to one user.
 
         List<String> zips = Lists.newLinkedList();
-        for (File f : FileUtils.listFiles(new File(inputDirectory), new String[]{"zip"}, true)) {
+        for(File f : FileUtils.listFiles(new File(inputDirectory), new String[]{"zip"}, true)) {
             zips.add(f.getAbsolutePath());
         }
         return zips;
@@ -59,11 +56,11 @@ public class NgramRecommenderEvaluation {
         // each .zip file corresponds to a user
         List<String> userZips = findAllUsers(inputDirectory);
 
-        for (String user : userZips) {
+        for(String user : userZips) {
             // you can use our helper to open a file...
             ReadingArchive ra = new ReadingArchive(new File(user));
             // ...iterate over it...
-            while (ra.hasNext()) {
+            while(ra.hasNext()) {
                 // ... and desrialize the IDE event.
                 IIDEEvent e = ra.getNext(IIDEEvent.class);
                 // afterwards, you can process it as a Java object
@@ -78,33 +75,10 @@ public class NgramRecommenderEvaluation {
         System.out.println("[INFO] #Correctly Predicted " + correctlyPredicted);
         System.out.println("[INFO] All Predictions " + allPredictions);
         System.out.println("[INFO] Precision " + (double) correctlyPredicted / allPredictions);
-        
+
         IoHelper.writeEvaluationResultsToFile(numberOfEvents, correctlyPredicted, allPredictions);
     }
 
-    /**
-     * 3: Reading the plain JSON representation
-     */
-    public static void readPlainEvents(String inputDirectory) throws IOException {
-        // the example is basically the same as before, but...
-        List<String> userZips = findAllUsers(inputDirectory);
-
-        for (String user : userZips) {
-            ReadingArchive ra = new ReadingArchive(new File(user));
-            while (ra.hasNext()) {
-                // ... sometimes it is easier to just read the JSON...
-                String json = ra.getNextPlain();
-                // .. and call the deserializer yourself.
-                IIDEEvent e = JsonUtils.fromJson(json, IIDEEvent.class);
-                process(e);
-
-                // Not all event bindings are very stable already, reading the
-                // JSON helps debugging possible bugs in the bindings
-            }
-            ra.close();
-        }
-    }
-    
     private static void process(IIDEEvent event) throws IOException {
         // once you have access to the instantiated event you can dispatch the
         // type. As the events are not nested, we did not implement the visitor
@@ -122,24 +96,24 @@ public class NgramRecommenderEvaluation {
             if(selections.size() == 0 || proposals.size() == 0) {
                 return;
             }
-            
+
             // Last of selection is selected event
 
             // TODO: we should be able to move this to after traversal
             IProposalSelection selected = selections.get(selections.size() - 1);
             IName selectionName = selected.getProposal().getName();
-            
+
             if(!(selectionName instanceof MethodName)) {
                 return;
             }
 
             IMethodName methodName = (IMethodName) selectionName;
-            
+
             if((methodName.getDeclaringType().getAssembly().isLocalProject()
                     || Utilities.hasIllegalMethodName(methodName))) {
                 return;
             }
-            
+
             APIToken selectedAPIToken = new APIToken(methodName.getIdentifier());
 
             String modelFile;
@@ -149,7 +123,7 @@ public class NgramRecommenderEvaluation {
             }
 //            System.out.println("[INFO]\tModel found for " + modelFile + ".");
 //            System.out.println("[INFO]\t...Processing context");
-            
+
             ISST sst = ce.context.getSST();
 
             for(IMethodDeclaration md : sst.getMethods()) {
@@ -160,91 +134,84 @@ public class NgramRecommenderEvaluation {
                 // and if there is at least one other token next to the prediction token
                 if(sentenceTree.size() > 1 && visitor.hasEventFired()) {
                     List<List<APIToken>> sentences = sentenceTree.flatten();
+                    List<List<APIToken>> sentencesWithExpectedToken = new ArrayList<>();
                     for(List<APIToken> sentence : sentences) {
-                        System.out.println("[INFO]\t"+sentences.size()+" sentences");
-                        if(sentence.get(sentence.size()-1).getType().equals(selectedAPIToken.getType())) {
-                            sentence.remove(sentence.size()-1);
-                            
-                            System.out.println(selectedAPIToken.toString());
-                            System.out.println("\t"+sentence.toString());
-                            
-                            testWithModel(modelFile, selectedAPIToken,
-                                    sentence.subList(
-                                            Math.max(0, sentence.size()-MAX_PROXIMITY),
-                                            sentence.size()
-                                    ));
+//                        System.out.println("[INFO]\t"+sentences.size()+" sentences");
+                        if(sentence.get(sentence.size() - 1).getType().equals(selectedAPIToken.getType())) {
+                            sentence.remove(sentence.size() - 1);
+                            sentencesWithExpectedToken.add(sentence);
+
+//                            System.out.println(selectedAPIToken.toString());
+//                            System.out.println("\t"+sentence.toString());
+
+
                             break;
                         }
                     }
+
+                    if(sentencesWithExpectedToken.size() > 0) {
+                        List<List<APIToken>> positives = testWithModel(modelsDir + modelFile, selectedAPIToken, sentencesWithExpectedToken);
+                        System.out.println("\tfound in " + positives.size() + "/" + sentencesWithExpectedToken.size() + " (" + sentences.size() + ")");
+                        for(List<APIToken> pos : positives) {
+                            System.out.println("\t\t" + pos.size());
+                        }
+                        System.out.println("[INFO]\tPredictions: " + correctlyPredicted + "/" + allPredictions + "  - (correct/all)");
+                    }
+
                     break;
                 } else {
 //                    System.out.println("[INFO]\tNo CompletionExpression and/or APITokens found.");
                 }
             }
-
-            System.out.println("[INFO]\tPredictions: "+correctlyPredicted + "/" + allPredictions + "  - (correct/all)");
         }
     }
-    
 
-
-    private static void testWithModel(String modelFile, APIToken expected, List<APIToken> sentence) {
+    private static List<List<APIToken>> testWithModel(String modelFile, APIToken expected, List<List<APIToken>> sentences) {
         try {
             NgramRecommenderClient nrc = new NgramRecommenderClient(modelFile);
-            Set<Tuple<IMethodName, Double>> predictions = nrc.query(Utilities.apiSentenceToStringList(sentence));
-            
-            if(predictions.size() == 0) {
-//                System.out.println("[INFO]\tNo prediction found.");
-                return;
-            }
-            
-            System.out.println("============= PREDICTION =============");
-            System.out.println(predictions);
-            System.out.println("============= ACTUAL =============");
-            System.out.println(expected.toString());
+            List<List<APIToken>> found = new ArrayList<>();
+            for(List<APIToken> sentence : sentences) {
+                Set<Tuple<IMethodName, Double>> predictions = nrc.query(
+                        Utilities.apiSentenceToStringList(
+                                sentence.subList(
+                                        Math.max(0, sentence.size() - MAX_PROXIMITY),
+                                        sentence.size())));
+                if(predictions.size() > 0) {
 
-            IoHelper.appendClassificationToFile("evaluation.txt", 
-                    expected, 
-                    (APIToken) predictions.iterator().next().getFirst());
-            
-            if(compareStrings(predictions.toString(), expected.getType()+","+expected.getOperation())) {
-                correctlyPredicted = correctlyPredicted + 1;
-                allPredictions = allPredictions + 1;
-                System.out.println("IS CORRECT");
-            } else {
-                allPredictions = allPredictions + 1;
-                System.out.println("IS NOT CORRECT");
+                    IoHelper.appendPredictionToFile("evaluation.txt",
+                            expected,
+                            (APIToken) predictions.iterator().next().getFirst());
+
+                    if(((APIToken) predictions.iterator().next().getFirst()).toString().equals(expected.toString())) {
+                        found.add(sentence);
+                    }
+                }
+            }
+            if(found.size() > 0) {
+                correctlyPredicted++;
             }
 
-            
-        } catch(IOException e) {
-            System.out.println("No model found for "+expected.getNamespace());
-//            e.printStackTrace();
+            allPredictions++;
+            return found;
+        } catch (IOException e) {
+            e.printStackTrace();
         }
-    }
 
-
-
-    private static boolean compareStrings(String one, String two) {
-        return one.contains(two) || two.contains(one);
+        return new ArrayList<>();
     }
 
     /**
      * Return the file path of the matching model for the given namespace.
-     * 
-     * @param namespace
-     *          namespace from an {@link IName}
-     *          
-     * @return
-     *          model that fits the namespace in {@link #inputFiles} from {@link #modelsDir} 
+     *
+     * @param namespace namespace from an {@link IName}
+     * @return model that fits the namespace in {@link #inputFiles} from {@link #modelsDir}
      */
     private static String getModelForNamespace(String namespace) {
         for(String entry : inputFiles) {
-            if(entry.toLowerCase().substring(0, entry.length()-4).equals(namespace.toLowerCase())) {
+            if(entry.toLowerCase().substring(0, entry.length() - 4).equals(namespace.toLowerCase())) {
                 return entry;
             }
         }
         return null;
     }
-
 }

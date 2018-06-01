@@ -107,17 +107,7 @@ public class APISentenceTree {
         }
         return sentenceList;
     }
-    
-    public int totalNumberOfBranches() {
-        int sum = 0;
-        sum += branches.size();
-        for(APIToken key : branches.keySet()) {
-            for(APISentenceTree asp : branches.get(key)) {
-                sum += asp.totalNumberOfBranches();
-            }
-        }
-        return sum;
-    }
+
 
     public Long numberOfSentences() {
         Long total = (long) Math.max(1, Math.pow(2, branches.size()-1));

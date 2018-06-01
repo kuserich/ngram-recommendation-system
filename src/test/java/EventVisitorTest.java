@@ -1,12 +1,9 @@
-import cc.kave.commons.model.events.IDEEvent;
-import cc.kave.commons.model.ssts.blocks.IUsingBlock;
 import cc.kave.commons.model.ssts.impl.blocks.*;
 import cc.kave.commons.model.ssts.impl.declarations.MethodDeclaration;
 import cc.kave.commons.model.ssts.impl.declarations.PropertyDeclaration;
 import cc.kave.commons.model.ssts.impl.expressions.assignable.*;
 import cc.kave.commons.model.ssts.impl.expressions.loopheader.LoopHeaderBlockExpression;
 import cc.kave.commons.model.ssts.impl.statements.*;
-import evaluation.EvaluationVisitor;
 import evaluation.EventVisitor;
 import extractor.APISentenceTree;
 import extractor.APIToken;
@@ -232,14 +229,6 @@ public class EventVisitorTest {
 
    //     EventVisitorTestHelper.accept(sut, setupTokenHelper()).verify(new LinkedList<IStatement>());
    // }
-
-    @Test
-    public void visitIIDEEvent() {
-        EvaluationVisitor ev = new EvaluationVisitor();
-
-        EventVisitorTestHelper.accept(ev, setupTokenHelper()).verify(new LambdaExpression());
-
-    }
 
 
 

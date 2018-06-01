@@ -32,7 +32,7 @@
 <token>Terraria.NetMessage,SendData</token>
 <token>Terraria.NetMessage,SendTileSquare</token>
 </entry>
-<entry count="4">
+<entry count="16">
 <token>Terraria.Chest,UsingChest</token>
 <token>Terraria.NetMessage,SendData</token>
 </entry>
@@ -82,7 +82,7 @@
 <token>Terraria.NetMessage,SendData</token>
 <token>Terraria.NetMessage,SendTileSquare</token>
 </entry>
-<entry count="4">
+<entry count="16">
 <token>Terraria.Chest,UsingChest</token>
 <token>Terraria.NetMessage,SendData</token>
 <token>Terraria.NetMessage,SendData</token>
@@ -91,7 +91,7 @@
 <token>Terraria.WorldGen,PlaceWire3</token>
 <token>Terraria.NetMessage,SendData</token>
 </entry>
-<entry count="144">
+<entry count="300000">
 <token>Terraria.Utils,ReadRGB</token>
 <token>Terraria.Utils,ReadRGB</token>
 <token>Terraria.Utils,ReadRGB</token>
@@ -115,7 +115,7 @@
 <token>Terraria.NetMessage,SendData</token>
 <token>Terraria.NetMessage,SendTileSquare</token>
 </entry>
-<entry count="4">
+<entry count="16">
 <token>Terraria.Chest,FindChest</token>
 <token>Terraria.Chest,UsingChest</token>
 <token>Terraria.NetMessage,SendData</token>
@@ -149,7 +149,7 @@
 <token>Terraria.NetMessage,SendData</token>
 <token>Terraria.NetMessage,SendTileSquare</token>
 </entry>
-<entry count="26">
+<entry count="114244">
 <token>Terraria.Utils,ReadVector2</token>
 <token>Terraria.Utils,ReadVector2</token>
 </entry>
@@ -182,6 +182,10 @@
 <token>Terraria.Item,SetDefaults</token>
 <token>Terraria.Item,netDefaults</token>
 </entry>
+<entry count="1">
+<token>Terraria.WorldGen,SquareTileFrame</token>
+<token>Terraria.WorldGen,SquareTileFrame</token>
+</entry>
 <entry count="4">
 <token>Terraria.Netplay,GetSectionX</token>
 <token>Terraria.Netplay,GetSectionY</token>
@@ -197,10 +201,18 @@
 <token>Terraria.WorldGen,KillWall</token>
 <token>Terraria.NetMessage,SendData</token>
 </entry>
-<entry count="4">
+<entry count="16">
 <token>Terraria.Chest,FindChest</token>
 <token>Terraria.Chest,UsingChest</token>
 <token>Terraria.NetMessage,SendData</token>
+</entry>
+<entry count="1">
+<token>Terraria.NetMessage,SendTileSquare</token>
+<token>Terraria.WorldGen,PlaceDresserDirect</token>
+</entry>
+<entry count="1">
+<token>Terraria.WorldGen,PlaceChestDirect</token>
+<token>Terraria.NetMessage,SendTileSquare</token>
 </entry>
 <entry count="1">
 <token>Terraria.WorldGen,PlaceWire3</token>
@@ -260,7 +272,7 @@
 <token>Terraria.WorldGen,InWorld</token>
 <token>Terraria.NetMessage,SendTileSquare</token>
 </entry>
-<entry count="192">
+<entry count="400000">
 <token>Terraria.Utils,ReadRGB</token>
 <token>Terraria.Utils,ReadRGB</token>
 <token>Terraria.Utils,ReadRGB</token>
@@ -269,6 +281,10 @@
 <entry count="4">
 <token>Terraria.WorldGen,InWorld</token>
 <token>Terraria.WorldGen,PlaceWall</token>
+</entry>
+<entry count="1">
+<token>Terraria.NetMessage,SendTileSquare</token>
+<token>Terraria.NetMessage,SendTileSquare</token>
 </entry>
 <entry count="2">
 <token>Terraria.WorldGen,InWorld</token>
@@ -296,10 +312,14 @@
 <token>Terraria.Item,new</token>
 <token>Terraria.Item,SetDefaults</token>
 </entry>
-<entry count="240">
+<entry count="500000">
 <token>Terraria.Utils,ReadRGB</token>
 <token>Terraria.Utils,ReadRGB</token>
 <token>Terraria.Utils,ReadRGB</token>
+</entry>
+<entry count="1">
+<token>Terraria.WorldGen,PlaceChestDirect</token>
+<token>Terraria.WorldGen,PlaceDresserDirect</token>
 </entry>
 <entry count="3">
 <token>Terraria.NetMessage,SendData</token>
@@ -310,6 +330,10 @@
 <entry count="2">
 <token>Terraria.WorldGen,KillActuator</token>
 <token>Terraria.NetMessage,SendData</token>
+</entry>
+<entry count="1">
+<token>Terraria.WorldGen,PlaceDresserDirect</token>
+<token>Terraria.WorldGen,PlaceChestDirect</token>
 </entry>
 <entry count="4">
 <token>Terraria.WorldGen,InWorld</token>
@@ -365,7 +389,7 @@
 <token>Terraria.NetMessage,SendData</token>
 <token>Terraria.NetMessage,SendTileSquare</token>
 </entry>
-<entry count="18">
+<entry count="44">
 <token>Terraria.Chest,FindChest</token>
 <token>Terraria.Chest,UsingChest</token>
 </entry>
@@ -433,6 +457,10 @@
 <token>Terraria.NetMessage,SendTileSquare</token>
 </entry>
 <entry count="1">
+<token>Terraria.WorldGen,PlaceChestDirect</token>
+<token>Terraria.WorldGen,PlaceChestDirect</token>
+</entry>
+<entry count="1">
 <token>Terraria.NetMessage,SendTileSquare</token>
 <token>Terraria.NetMessage,SendData</token>
 <token>Terraria.NetMessage,SendTileSquare</token>
@@ -451,11 +479,15 @@
 <token>Terraria.WorldGen,InWorld</token>
 <token>Terraria.WorldGen,RangeFrame</token>
 </entry>
+<entry count="1">
+<token>Terraria.WorldGen,SquareTileFrame</token>
+<token>Terraria.NetMessage,SendData</token>
+</entry>
 <entry count="4">
 <token>Terraria.WorldGen,InWorld</token>
 <token>Terraria.WorldGen,KillTile</token>
 </entry>
-<entry count="14">
+<entry count="27">
 <token>Terraria.NetMessage,SendData</token>
 <token>Terraria.NetMessage,SendData</token>
 </entry>
@@ -501,11 +533,15 @@
 <token>Terraria.NetMessage,SendData</token>
 <token>Terraria.NetMessage,SendTileSquare</token>
 </entry>
+<entry count="1">
+<token>Terraria.WorldGen,PlaceDresserDirect</token>
+<token>Terraria.NetMessage,SendTileSquare</token>
+</entry>
 <entry count="2">
 <token>Terraria.Sign,TextSign</token>
 <token>Terraria.Main,PlaySound</token>
 </entry>
-<entry count="288">
+<entry count="600000">
 <token>Terraria.Utils,ReadRGB</token>
 <token>Terraria.Utils,ReadRGB</token>
 </entry>
@@ -544,6 +580,14 @@
 <token>Terraria.NetMessage,SendData</token>
 <token>Terraria.NetMessage,SendTileSquare</token>
 </entry>
+<entry count="1">
+<token>Terraria.NetMessage,SendData</token>
+<token>Terraria.WorldGen,SquareTileFrame</token>
+</entry>
+<entry count="1">
+<token>Terraria.NetMessage,SendTileSquare</token>
+<token>Terraria.WorldGen,PlaceChestDirect</token>
+</entry>
 <entry count="2">
 <token>Terraria.WorldGen,SlopeTile</token>
 <token>Terraria.NetMessage,SendData</token>
@@ -569,6 +613,10 @@
 <entry count="2">
 <token>Terraria.WorldGen,KillWire</token>
 <token>Terraria.NetMessage,SendData</token>
+</entry>
+<entry count="1">
+<token>Terraria.WorldGen,PlaceDresserDirect</token>
+<token>Terraria.WorldGen,PlaceDresserDirect</token>
 </entry>
 <entry count="4">
 <token>Terraria.Netplay,GetSectionX</token>

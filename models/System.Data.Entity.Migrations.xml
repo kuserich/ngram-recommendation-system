@@ -10,6 +10,13 @@
 <token>System.Data.Entity.Migrations.DbMigration,DropTable</token>
 </entry>
 <entry count="2">
+<token>System.Data.Entity.Migrations.DbMigration,Sql</token>
+<token>System.Data.Entity.Migrations.DbMigration,Sql</token>
+<token>System.Data.Entity.Migrations.DbMigration,AddColumn</token>
+<token>System.Data.Entity.Migrations.DbMigration,CreateIndex</token>
+<token>System.Data.Entity.Migrations.DbMigration,CreateIndex</token>
+</entry>
+<entry count="2">
 <token>System.Data.Entity.Migrations.DbMigration,AddColumn</token>
 <token>System.Data.Entity.Migrations.DbMigration,AddColumn</token>
 <token>System.Data.Entity.Migrations.DbMigration,Sql</token>
@@ -101,7 +108,7 @@
 <token>System.Data.Entity.Migrations.DbMigration,DropTable</token>
 <token>System.Data.Entity.Migrations.DbMigration,DropTable</token>
 </entry>
-<entry count="42">
+<entry count="102">
 <token>System.Data.Entity.Migrations.DbMigration,AddColumn</token>
 <token>System.Data.Entity.Migrations.DbMigration,AddColumn</token>
 <token>System.Data.Entity.Migrations.DbMigration,AddColumn</token>
@@ -164,7 +171,7 @@
 <token>System.Data.Entity.Migrations.DbMigration,AlterColumn</token>
 <token>System.Data.Entity.Migrations.DbMigration,CreateIndex</token>
 </entry>
-<entry count="8">
+<entry count="10">
 <token>System.Data.Entity.Migrations.DbMigration,AddColumn</token>
 <token>System.Data.Entity.Migrations.DbMigration,CreateIndex</token>
 <token>System.Data.Entity.Migrations.DbMigration,CreateIndex</token>
@@ -205,7 +212,7 @@
 <token>System.Data.Entity.Migrations.DbMigration,AlterColumn</token>
 <token>System.Data.Entity.Migrations.DbMigration,CreateIndex</token>
 </entry>
-<entry count="44">
+<entry count="48">
 <token>System.Data.Entity.Migrations.DbMigration,CreateIndex</token>
 <token>System.Data.Entity.Migrations.DbMigration,CreateIndex</token>
 </entry>
@@ -238,6 +245,13 @@
 <token>System.Data.Entity.Migrations.DbMigration,AlterColumn</token>
 <token>System.Data.Entity.Migrations.DbMigration,DropTable</token>
 </entry>
+<entry count="2">
+<token>System.Data.Entity.Migrations.DbMigration,AddColumn</token>
+<token>System.Data.Entity.Migrations.DbMigration,Sql</token>
+<token>System.Data.Entity.Migrations.DbMigration,Sql</token>
+<token>System.Data.Entity.Migrations.DbMigration,AddColumn</token>
+<token>System.Data.Entity.Migrations.DbMigration,CreateIndex</token>
+</entry>
 <entry count="1">
 <token>System.Data.Entity.Migrations.DbMigration,CreateTable</token>
 <token>System.Data.Entity.Migrations.DbMigration,AlterColumn</token>
@@ -253,12 +267,12 @@
 <token>System.Data.Entity.Migrations.DbMigration,DropIndex</token>
 <token>System.Data.Entity.Migrations.DbMigration,AddColumn</token>
 </entry>
-<entry count="2">
+<entry count="4">
 <token>System.Data.Entity.Migrations.DbMigration,Sql</token>
 <token>System.Data.Entity.Migrations.DbMigration,Sql</token>
 <token>System.Data.Entity.Migrations.DbMigration,CreateIndex</token>
 </entry>
-<entry count="2">
+<entry count="4">
 <token>System.Data.Entity.Migrations.DbMigration,Sql</token>
 <token>System.Data.Entity.Migrations.DbMigration,CreateIndex</token>
 <token>System.Data.Entity.Migrations.DbMigration,CreateIndex</token>
@@ -331,6 +345,13 @@
 <token>System.Data.Entity.Migrations.DbMigration,DropIndex</token>
 <token>System.Data.Entity.Migrations.DbMigration,DropTable</token>
 <token>System.Data.Entity.Migrations.DbMigration,CreateIndex</token>
+</entry>
+<entry count="2">
+<token>System.Data.Entity.Migrations.DbMigration,Sql</token>
+<token>System.Data.Entity.Migrations.DbMigration,AddColumn</token>
+<token>System.Data.Entity.Migrations.DbMigration,CreateIndex</token>
+<token>System.Data.Entity.Migrations.DbMigration,CreateIndex</token>
+<token>System.Data.Entity.Migrations.DbMigration,AddForeignKey</token>
 </entry>
 <entry count="206">
 <token>System.Data.Entity.Migrations.DbMigration,DropForeignKey</token>
@@ -441,7 +462,7 @@
 <token>System.Data.Entity.Migrations.DbMigration,CreateIndex</token>
 <token>System.Data.Entity.Migrations.DbMigration,AddForeignKey</token>
 </entry>
-<entry count="2">
+<entry count="4">
 <token>System.Data.Entity.Migrations.DbMigration,Sql</token>
 <token>System.Data.Entity.Migrations.DbMigration,Sql</token>
 <token>System.Data.Entity.Migrations.DbMigration,CreateIndex</token>
@@ -502,7 +523,7 @@
 <token>System.Data.Entity.Migrations.DbMigration,AddColumn</token>
 <token>System.Data.Entity.Migrations.DbMigration,CreateIndex</token>
 </entry>
-<entry count="61">
+<entry count="181">
 <token>System.Data.Entity.Migrations.DbMigration,AddColumn</token>
 <token>System.Data.Entity.Migrations.DbMigration,AddColumn</token>
 <token>System.Data.Entity.Migrations.DbMigration,AddColumn</token>
@@ -541,12 +562,17 @@
 <token>System.Data.Entity.Migrations.DbMigration,DropIndex</token>
 <token>System.Data.Entity.Migrations.DbMigration,DropIndex</token>
 </entry>
-<entry count="2">
+<entry count="4">
 <token>System.Data.Entity.Migrations.DbMigration,Sql</token>
 <token>System.Data.Entity.Migrations.DbMigration,CreateIndex</token>
 <token>System.Data.Entity.Migrations.DbMigration,CreateIndex</token>
 <token>System.Data.Entity.Migrations.DbMigration,AddForeignKey</token>
 <token>System.Data.Entity.Migrations.DbMigration,AddForeignKey</token>
+</entry>
+<entry count="2">
+<token>System.Data.Entity.Migrations.DbMigration,Sql</token>
+<token>System.Data.Entity.Migrations.DbMigration,AddColumn</token>
+<token>System.Data.Entity.Migrations.DbMigration,CreateIndex</token>
 </entry>
 <entry count="17">
 <token>System.Data.Entity.Migrations.DbMigration,DropIndex</token>
@@ -617,12 +643,18 @@
 <token>System.Data.Entity.Migrations.DbMigration,AddColumn</token>
 <token>System.Data.Entity.Migrations.DbMigration,DropColumn</token>
 </entry>
-<entry count="2">
+<entry count="4">
 <token>System.Data.Entity.Migrations.DbMigration,Sql</token>
 <token>System.Data.Entity.Migrations.DbMigration,Sql</token>
 <token>System.Data.Entity.Migrations.DbMigration,CreateIndex</token>
 <token>System.Data.Entity.Migrations.DbMigration,CreateIndex</token>
 <token>System.Data.Entity.Migrations.DbMigration,AddForeignKey</token>
+</entry>
+<entry count="2">
+<token>System.Data.Entity.Migrations.DbMigration,Sql</token>
+<token>System.Data.Entity.Migrations.DbMigration,AddColumn</token>
+<token>System.Data.Entity.Migrations.DbMigration,Sql</token>
+<token>System.Data.Entity.Migrations.DbMigration,Sql</token>
 </entry>
 <entry count="4">
 <token>System.Data.Entity.Migrations.DbMigration,AddColumn</token>
@@ -724,7 +756,7 @@
 <token>System.Data.Entity.Migrations.DbMigration,AddColumn</token>
 <token>System.Data.Entity.Migrations.DbMigration,CreateIndex</token>
 </entry>
-<entry count="95">
+<entry count="275">
 <token>System.Data.Entity.Migrations.DbMigration,AddColumn</token>
 <token>System.Data.Entity.Migrations.DbMigration,AddColumn</token>
 <token>System.Data.Entity.Migrations.DbMigration,AddColumn</token>
@@ -771,7 +803,7 @@
 <token>System.Data.Entity.Migrations.DbMigration,AddForeignKey</token>
 <token>System.Data.Entity.Migrations.DbMigration,CreateIndex</token>
 </entry>
-<entry count="12">
+<entry count="16">
 <token>System.Data.Entity.Migrations.DbMigration,CreateIndex</token>
 <token>System.Data.Entity.Migrations.DbMigration,AddForeignKey</token>
 <token>System.Data.Entity.Migrations.DbMigration,AddForeignKey</token>
@@ -785,6 +817,13 @@
 <token>System.Data.Entity.Migrations.DbMigration,AddColumn</token>
 <token>System.Data.Entity.Migrations.DbMigration,AddColumn</token>
 <token>System.Data.Entity.Migrations.DbMigration,DropForeignKey</token>
+</entry>
+<entry count="2">
+<token>System.Data.Entity.Migrations.DbMigration,AddColumn</token>
+<token>System.Data.Entity.Migrations.DbMigration,Sql</token>
+<token>System.Data.Entity.Migrations.DbMigration,Sql</token>
+<token>System.Data.Entity.Migrations.DbMigration,AddColumn</token>
+<token>System.Data.Entity.Migrations.DbMigration,Sql</token>
 </entry>
 <entry count="8">
 <token>System.Data.Entity.Migrations.DbMigration,CreateTable</token>
@@ -929,7 +968,7 @@
 <token>System.Data.Entity.Migrations.DbMigration,DropTable</token>
 <token>System.Data.Entity.Migrations.DbMigration,DropTable</token>
 </entry>
-<entry count="3">
+<entry count="9">
 <token>System.Data.Entity.Migrations.DbMigration,AddColumn</token>
 <token>System.Data.Entity.Migrations.DbMigration,Sql</token>
 <token>System.Data.Entity.Migrations.DbMigration,Sql</token>
@@ -941,7 +980,7 @@
 <token>System.Data.Entity.Migrations.DbMigration,DropForeignKey</token>
 <token>System.Data.Entity.Migrations.DbMigration,DropColumn</token>
 </entry>
-<entry count="8">
+<entry count="10">
 <token>System.Data.Entity.Migrations.DbMigration,AddColumn</token>
 <token>System.Data.Entity.Migrations.DbMigration,CreateIndex</token>
 <token>System.Data.Entity.Migrations.DbMigration,CreateIndex</token>
@@ -964,6 +1003,11 @@
 <token>System.Data.Entity.Migrations.DbMigration,AddColumn</token>
 <token>System.Data.Entity.Migrations.DbMigration,AddColumn</token>
 <token>System.Data.Entity.Migrations.DbMigration,DropColumn</token>
+</entry>
+<entry count="4">
+<token>System.Data.Entity.Migrations.DbMigration,Sql</token>
+<token>System.Data.Entity.Migrations.DbMigration,Sql</token>
+<token>System.Data.Entity.Migrations.DbMigration,AddColumn</token>
 </entry>
 <entry count="15">
 <token>System.Data.Entity.Migrations.DbMigration,DropColumn</token>
@@ -1011,7 +1055,7 @@
 <token>System.Data.Entity.Migrations.DbMigration,AlterColumn</token>
 <token>System.Data.Entity.Migrations.DbMigration,AlterColumn</token>
 </entry>
-<entry count="474">
+<entry count="3211350">
 <token>System.Data.Entity.Migrations.DbMigration,CreateTable</token>
 <token>System.Data.Entity.Migrations.DbMigration,CreateTable</token>
 </entry>
@@ -1055,7 +1099,7 @@
 <token>System.Data.Entity.Migrations.DbMigration,AddColumn</token>
 <token>System.Data.Entity.Migrations.DbMigration,DropForeignKey</token>
 </entry>
-<entry count="413">
+<entry count="3112993">
 <token>System.Data.Entity.Migrations.DbMigration,CreateTable</token>
 <token>System.Data.Entity.Migrations.DbMigration,CreateTable</token>
 <token>System.Data.Entity.Migrations.DbMigration,CreateTable</token>
@@ -1073,7 +1117,7 @@
 <token>System.Data.Entity.Migrations.DbMigration,DropIndex</token>
 <token>System.Data.Entity.Migrations.DbMigration,AlterColumn</token>
 </entry>
-<entry count="12">
+<entry count="16">
 <token>System.Data.Entity.Migrations.DbMigration,AddForeignKey</token>
 <token>System.Data.Entity.Migrations.DbMigration,AddForeignKey</token>
 </entry>
@@ -1194,7 +1238,7 @@
 <token>System.Data.Entity.Migrations.DbMigration,DropIndex</token>
 <token>System.Data.Entity.Migrations.DbMigration,DropForeignKey</token>
 </entry>
-<entry count="12">
+<entry count="16">
 <token>System.Data.Entity.Migrations.DbMigration,CreateIndex</token>
 <token>System.Data.Entity.Migrations.DbMigration,CreateIndex</token>
 <token>System.Data.Entity.Migrations.DbMigration,AddForeignKey</token>
@@ -1260,6 +1304,10 @@
 <token>System.Data.Entity.Migrations.DbMigration,DropTable</token>
 <token>System.Data.Entity.Migrations.DbMigration,DropTable</token>
 </entry>
+<entry count="4">
+<token>System.Data.Entity.Migrations.DbMigration,Sql</token>
+<token>System.Data.Entity.Migrations.DbMigration,AddColumn</token>
+</entry>
 <entry count="2">
 <token>System.Data.Entity.Migrations.DbMigration,DropIndex</token>
 <token>System.Data.Entity.Migrations.DbMigration,DropIndex</token>
@@ -1271,13 +1319,19 @@
 <token>System.Data.Entity.Migrations.DbMigration,AlterColumn</token>
 <token>System.Data.Entity.Migrations.DbMigration,AddForeignKey</token>
 </entry>
-<entry count="24">
+<entry count="28">
 <token>System.Data.Entity.Migrations.DbMigration,CreateIndex</token>
 <token>System.Data.Entity.Migrations.DbMigration,AddForeignKey</token>
 </entry>
-<entry count="12">
+<entry count="14">
 <token>System.Data.Entity.Migrations.DbMigration,AddColumn</token>
 <token>System.Data.Entity.Migrations.DbMigration,CreateIndex</token>
+<token>System.Data.Entity.Migrations.DbMigration,CreateIndex</token>
+</entry>
+<entry count="2">
+<token>System.Data.Entity.Migrations.DbMigration,Sql</token>
+<token>System.Data.Entity.Migrations.DbMigration,Sql</token>
+<token>System.Data.Entity.Migrations.DbMigration,AddColumn</token>
 <token>System.Data.Entity.Migrations.DbMigration,CreateIndex</token>
 </entry>
 <entry count="1">
@@ -1354,6 +1408,11 @@
 <token>System.Data.Entity.Migrations.DbMigration,AddColumn</token>
 <token>System.Data.Entity.Migrations.DbMigration,RenameColumn</token>
 </entry>
+<entry count="2">
+<token>System.Data.Entity.Migrations.DbMigration,Sql</token>
+<token>System.Data.Entity.Migrations.DbMigration,AddColumn</token>
+<token>System.Data.Entity.Migrations.DbMigration,Sql</token>
+</entry>
 <entry count="1">
 <token>System.Data.Entity.Migrations.DbMigration,RenameTable</token>
 <token>System.Data.Entity.Migrations.DbMigration,RenameTable</token>
@@ -1370,6 +1429,13 @@
 <entry count="32">
 <token>System.Data.Entity.Migrations.DbMigrator,GetDatabaseMigrations</token>
 <token>System.Data.Entity.Migrations.DbMigrator,Update</token>
+</entry>
+<entry count="2">
+<token>System.Data.Entity.Migrations.DbMigration,Sql</token>
+<token>System.Data.Entity.Migrations.DbMigration,Sql</token>
+<token>System.Data.Entity.Migrations.DbMigration,AddColumn</token>
+<token>System.Data.Entity.Migrations.DbMigration,Sql</token>
+<token>System.Data.Entity.Migrations.DbMigration,Sql</token>
 </entry>
 <entry count="2">
 <token>System.Data.Entity.Migrations.DbMigration,AlterColumn</token>
@@ -1406,6 +1472,12 @@
 <token>System.Data.Entity.Migrations.DbMigration,DropIndex</token>
 <token>System.Data.Entity.Migrations.DbMigration,DropForeignKey</token>
 <token>System.Data.Entity.Migrations.DbMigration,DropForeignKey</token>
+</entry>
+<entry count="2">
+<token>System.Data.Entity.Migrations.DbMigration,Sql</token>
+<token>System.Data.Entity.Migrations.DbMigration,AddColumn</token>
+<token>System.Data.Entity.Migrations.DbMigration,CreateIndex</token>
+<token>System.Data.Entity.Migrations.DbMigration,CreateIndex</token>
 </entry>
 <entry count="7">
 <token>System.Data.Entity.Migrations.DbMigration,DropForeignKey</token>
@@ -1450,7 +1522,7 @@
 <token>System.Data.Entity.Migrations.DbMigration,DropColumn</token>
 <token>System.Data.Entity.Migrations.DbMigration,DropTable</token>
 </entry>
-<entry count="12">
+<entry count="16">
 <token>System.Data.Entity.Migrations.DbMigration,CreateIndex</token>
 <token>System.Data.Entity.Migrations.DbMigration,CreateIndex</token>
 <token>System.Data.Entity.Migrations.DbMigration,AddForeignKey</token>
@@ -1468,7 +1540,14 @@
 <token>System.Data.Entity.Migrations.DbMigration,CreateIndex</token>
 <token>System.Data.Entity.Migrations.DbMigration,CreateIndex</token>
 </entry>
-<entry count="427">
+<entry count="2">
+<token>System.Data.Entity.Migrations.DbMigration,Sql</token>
+<token>System.Data.Entity.Migrations.DbMigration,AddColumn</token>
+<token>System.Data.Entity.Migrations.DbMigration,Sql</token>
+<token>System.Data.Entity.Migrations.DbMigration,Sql</token>
+<token>System.Data.Entity.Migrations.DbMigration,CreateIndex</token>
+</entry>
+<entry count="3145771">
 <token>System.Data.Entity.Migrations.DbMigration,CreateTable</token>
 <token>System.Data.Entity.Migrations.DbMigration,CreateTable</token>
 <token>System.Data.Entity.Migrations.DbMigration,CreateTable</token>
@@ -1485,7 +1564,7 @@
 <token>System.Data.Entity.Migrations.DbMigration,AddForeignKey</token>
 <token>System.Data.Entity.Migrations.DbMigration,DropForeignKey</token>
 </entry>
-<entry count="175">
+<entry count="415">
 <token>System.Data.Entity.Migrations.DbMigration,AddColumn</token>
 <token>System.Data.Entity.Migrations.DbMigration,AddColumn</token>
 </entry>
@@ -1555,11 +1634,17 @@
 <token>System.Data.Entity.Migrations.DbMigration,CreateIndex</token>
 <token>System.Data.Entity.Migrations.DbMigration,AddForeignKey</token>
 </entry>
-<entry count="2">
+<entry count="4">
 <token>System.Data.Entity.Migrations.DbMigration,Sql</token>
 <token>System.Data.Entity.Migrations.DbMigration,CreateIndex</token>
 </entry>
 <entry count="2">
+<token>System.Data.Entity.Migrations.DbMigration,Sql</token>
+<token>System.Data.Entity.Migrations.DbMigration,Sql</token>
+<token>System.Data.Entity.Migrations.DbMigration,AddColumn</token>
+<token>System.Data.Entity.Migrations.DbMigration,Sql</token>
+</entry>
+<entry count="4">
 <token>System.Data.Entity.Migrations.DbMigration,AddColumn</token>
 <token>System.Data.Entity.Migrations.DbMigration,Sql</token>
 <token>System.Data.Entity.Migrations.DbMigration,Sql</token>
@@ -1576,7 +1661,7 @@
 <token>System.Data.Entity.Migrations.DbMigration,DropTable</token>
 <token>System.Data.Entity.Migrations.DbMigration,DropTable</token>
 </entry>
-<entry count="3">
+<entry count="9">
 <token>System.Data.Entity.Migrations.DbMigration,Sql</token>
 <token>System.Data.Entity.Migrations.DbMigration,Sql</token>
 </entry>
@@ -1604,7 +1689,7 @@
 <token>System.Data.Entity.Migrations.DbMigration,DropForeignKey</token>
 <token>System.Data.Entity.Migrations.DbMigration,DropForeignKey</token>
 </entry>
-<entry count="5">
+<entry count="11">
 <token>System.Data.Entity.Migrations.DbMigration,AddColumn</token>
 <token>System.Data.Entity.Migrations.DbMigration,Sql</token>
 </entry>
@@ -1647,7 +1732,7 @@
 <token>System.Data.Entity.Migrations.DbMigration,AddColumn</token>
 <token>System.Data.Entity.Migrations.DbMigration,DropColumn</token>
 </entry>
-<entry count="2">
+<entry count="4">
 <token>System.Data.Entity.Migrations.DbMigration,AddColumn</token>
 <token>System.Data.Entity.Migrations.DbMigration,Sql</token>
 <token>System.Data.Entity.Migrations.DbMigration,Sql</token>
@@ -1679,7 +1764,7 @@
 <token>System.Data.Entity.Migrations.DbMigration,CreateTable</token>
 <token>System.Data.Entity.Migrations.DbMigration,DropForeignKey</token>
 </entry>
-<entry count="2">
+<entry count="4">
 <token>System.Data.Entity.Migrations.DbMigration,Sql</token>
 <token>System.Data.Entity.Migrations.DbMigration,CreateIndex</token>
 <token>System.Data.Entity.Migrations.DbMigration,CreateIndex</token>
@@ -1787,7 +1872,7 @@
 <token>System.Data.Entity.Migrations.DbMigration,AddColumn</token>
 <token>System.Data.Entity.Migrations.DbMigration,AlterColumn</token>
 </entry>
-<entry count="22">
+<entry count="24">
 <token>System.Data.Entity.Migrations.DbMigration,AddColumn</token>
 <token>System.Data.Entity.Migrations.DbMigration,CreateIndex</token>
 </entry>
@@ -1801,7 +1886,7 @@
 <token>System.Data.Entity.Migrations.DbMigration,RenameColumn</token>
 <token>System.Data.Entity.Migrations.DbMigration,AddColumn</token>
 </entry>
-<entry count="444">
+<entry count="3178552">
 <token>System.Data.Entity.Migrations.DbMigration,CreateTable</token>
 <token>System.Data.Entity.Migrations.DbMigration,CreateTable</token>
 <token>System.Data.Entity.Migrations.DbMigration,CreateTable</token>
@@ -1809,6 +1894,12 @@
 <entry count="2">
 <token>System.Data.Entity.Migrations.DbMigration,DropColumn</token>
 <token>System.Data.Entity.Migrations.DbMigration,CreateIndex</token>
+</entry>
+<entry count="4">
+<token>System.Data.Entity.Migrations.DbMigration,AddColumn</token>
+<token>System.Data.Entity.Migrations.DbMigration,Sql</token>
+<token>System.Data.Entity.Migrations.DbMigration,Sql</token>
+<token>System.Data.Entity.Migrations.DbMigration,AddColumn</token>
 </entry>
 <entry count="2">
 <token>System.Data.Entity.Migrations.DbMigration,AddColumn</token>

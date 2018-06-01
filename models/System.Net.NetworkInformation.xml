@@ -7,6 +7,11 @@
 <token>System.Net.NetworkInformation.Ping,new</token>
 <token>System.Net.NetworkInformation.PingOptions,new</token>
 </entry>
+<entry count="2">
+<token>System.Net.NetworkInformation.PhysicalAddress,ToString</token>
+<token>System.Net.NetworkInformation.PhysicalAddress,ToString</token>
+<token>System.Net.NetworkInformation.PhysicalAddress,ToString</token>
+</entry>
 <entry count="312">
 <token>System.Net.NetworkInformation.IPGlobalProperties,GetIPGlobalProperties</token>
 <token>System.Net.NetworkInformation.NetworkInterface,GetAllNetworkInterfaces</token>
@@ -21,6 +26,10 @@
 <token>System.Net.NetworkInformation.IPGlobalProperties,GetIPGlobalProperties</token>
 <token>System.Net.NetworkInformation.NetworkInterface,GetAllNetworkInterfaces</token>
 <token>System.Net.NetworkInformation.NetworkInterface,Supports</token>
+</entry>
+<entry count="34">
+<token>System.Net.NetworkInformation.PhysicalAddress,ToString</token>
+<token>System.Net.NetworkInformation.PhysicalAddress,ToString</token>
 </entry>
 <entry count="2">
 <token>System.Net.NetworkInformation.NetworkInterface,Supports</token>
@@ -46,7 +55,7 @@
 <token>System.Net.NetworkInformation.PingOptions,new</token>
 <token>System.Net.NetworkInformation.Ping,Send</token>
 </entry>
-<entry count="4777">
+<entry count="6595">
 <token>System.Net.NetworkInformation.NetworkInterface,GetAllNetworkInterfaces</token>
 <token>System.Net.NetworkInformation.NetworkInterface,GetIPProperties</token>
 </entry>
@@ -60,7 +69,7 @@
 <token>System.Net.NetworkInformation.NetworkInterface,GetAllNetworkInterfaces</token>
 <token>System.Net.NetworkInformation.NetworkInterface,GetIPProperties</token>
 </entry>
-<entry count="140">
+<entry count="196">
 <token>System.Net.NetworkInformation.NetworkInterface,GetIsNetworkAvailable</token>
 <token>System.Net.NetworkInformation.NetworkInterface,GetAllNetworkInterfaces</token>
 </entry>

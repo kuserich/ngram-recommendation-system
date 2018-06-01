@@ -38,36 +38,16 @@
 <token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
 <token>Rhino.Mocks.MockRepository,GenerateMock</token>
 </entry>
-<entry count="2">
-<token>Rhino.Mocks.Arg`1[[T</token>
-<token>-&gt;</token>
-<token>ThoughtWorks.CruiseControl.Core.Tasks.GeneralTaskResult,</token>
-<token>core]],Matches</token>
-</entry>
-<entry count="44">
-<token>CacheCow.Common.CacheKey,</token>
-<token>CacheCow.Common]],Matches</token>
-<token>Rhino.Mocks.Arg`1[[T</token>
-<token>-&gt;</token>
-<token>CacheCow.Common.TimedEntityTagHeaderValue,</token>
-</entry>
-<entry count="4">
-<token>core],[R</token>
-<token>-&gt;</token>
-<token>ThoughtWorks.CruiseControl.Core.Util.ProcessResult,</token>
-<token>core]],new</token>
-</entry>
 <entry count="4">
 <token>Rhino.Mocks.RhinoMocksExtensions,Stub</token>
 <token>Rhino.Mocks.MockRepository,GenerateMock</token>
 </entry>
-<entry count="28">
-<token>CacheCow.Common.TimedEntityTagHeaderValue,</token>
-<token>CacheCow.Common]],Out</token>
+<entry count="36">
+<token>Rhino.Mocks.Arg,Matches</token>
+<token>Rhino.Mocks.Arg,Out</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
-<token>Rhino.Mocks.MockRepository,ReplayAll</token>
 </entry>
-<entry count="6">
+<entry count="2050">
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.Expect,Call</token>
@@ -94,16 +74,11 @@
 <token>Rhino.Mocks.MockRepository,GenerateStrictMock</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,Stub</token>
 </entry>
-<entry count="2">
-<token>-&gt;</token>
-<token>ThoughtWorks.CruiseControl.Core.Tasks.GeneralTaskResult,</token>
-<token>core]],Matches</token>
-<token>Rhino.Mocks.Expect,Call</token>
+<entry count="32">
+<token>Rhino.Mocks.Arg,Out</token>
+<token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
 <token>Rhino.Mocks.MockRepository,ReplayAll</token>
-</entry>
-<entry count="13">
-<token>-&gt;</token>
-<token>System.Net.Http.HttpResponseMessage,</token>
+<token>Rhino.Mocks.MockRepository,VerifyAll</token>
 </entry>
 <entry count="1">
 <token>Rhino.Mocks.MockRepository,new</token>
@@ -128,13 +103,6 @@
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.Expect,Call</token>
 </entry>
-<entry count="2">
-<token>-&gt;</token>
-<token>p:string]],new</token>
-<token>Rhino.Mocks.RhinoMocksExtensions,Stub</token>
-<token>Rhino.Mocks.Function`2[[T</token>
-<token>-&gt;</token>
-</entry>
 <entry count="1">
 <token>Rhino.Mocks.MockRepository,GenerateStub</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,Stub</token>
@@ -142,7 +110,7 @@
 <token>Rhino.Mocks.RhinoMocksExtensions,VerifyAllExpectations</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,VerifyAllExpectations</token>
 </entry>
-<entry count="16">
+<entry count="44">
 <token>Rhino.Mocks.MockRepository,Ordered</token>
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.LastCall,On</token>
@@ -183,7 +151,7 @@
 <token>Rhino.Mocks.LastCall,On</token>
 <token>Rhino.Mocks.MockRepository,ReplayAll</token>
 </entry>
-<entry count="4">
+<entry count="32">
 <token>Rhino.Mocks.LastCall,On</token>
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.Expect,Call</token>
@@ -198,13 +166,6 @@
 <token>Rhino.Mocks.MockRepository,GenerateMock</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
 <token>Rhino.Mocks.MockRepository,GenerateMock</token>
-</entry>
-<entry count="4">
-<token>-&gt;</token>
-<token>s:Microsoft.Isam.Esent.Interop.JET_INSTANCE,</token>
-<token>EsentInterop]],Ref</token>
-<token>Rhino.Mocks.Expect,Call</token>
-<token>Rhino.Mocks.MockRepository,ReplayAll</token>
 </entry>
 <entry count="1">
 <token>Rhino.Mocks.MockRepository,new</token>
@@ -232,7 +193,7 @@
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.Expect,Call</token>
 </entry>
-<entry count="4">
+<entry count="32">
 <token>Rhino.Mocks.MockRepository,Ordered</token>
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.LastCall,On</token>
@@ -245,7 +206,7 @@
 <token>Rhino.Mocks.MockRepository,ReplayAll</token>
 <token>Rhino.Mocks.MockRepository,VerifyAll</token>
 </entry>
-<entry count="7">
+<entry count="13">
 <token>Rhino.Mocks.MockRepository,CreateMock</token>
 <token>Rhino.Mocks.MockRepository,Ordered</token>
 <token>Rhino.Mocks.Expect,Call</token>
@@ -272,24 +233,11 @@
 <token>Rhino.Mocks.MockRepository,ReplayAll</token>
 <token>Rhino.Mocks.MockRepository,VerifyAll</token>
 </entry>
-<entry count="1">
-<token>Rhino.Mocks.Arg`1[[T</token>
-<token>-&gt;</token>
-<token>Cradiator.Model.Skin,</token>
-<token>Cradiator]],Matches</token>
-<token>Rhino.Mocks.Arg`1[[T</token>
-</entry>
-<entry count="4">
-<token>EsentInterop]],Ref</token>
-<token>Rhino.Mocks.Expect,Call</token>
-<token>Rhino.Mocks.MockRepository,ReplayAll</token>
-</entry>
 <entry count="2">
-<token>Rhino.Mocks.Arg`1[[T</token>
-<token>-&gt;</token>
-<token>ThoughtWorks.CruiseControl.Core.Tasks.GeneralTaskResult,</token>
-<token>core]],Matches</token>
+<token>Rhino.Mocks.SetupResult,For</token>
+<token>Rhino.Mocks.SetupResult,For</token>
 <token>Rhino.Mocks.Expect,Call</token>
+<token>Rhino.Mocks.SetupResult,For</token>
 </entry>
 <entry count="6">
 <token>Rhino.Mocks.MockRepository,CreateMock</token>
@@ -315,13 +263,6 @@
 <token>Rhino.Mocks.SetupResult,For</token>
 <token>Rhino.Mocks.LastCall,Constraints</token>
 </entry>
-<entry count="8">
-<token>CacheCow.Common.TimedEntityTagHeaderValue,</token>
-<token>CacheCow.Common]],Out</token>
-<token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
-<token>Rhino.Mocks.Arg`1[[T</token>
-<token>-&gt;</token>
-</entry>
 <entry count="1">
 <token>Rhino.Mocks.MockRepository,GenerateStub</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
@@ -335,7 +276,7 @@
 <token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
 <token>Rhino.Mocks.MockRepository,ReplayAll</token>
 </entry>
-<entry count="19">
+<entry count="47">
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
 <token>Rhino.Mocks.MockRepository,Ordered</token>
@@ -360,22 +301,11 @@
 <token>Rhino.Mocks.RhinoMocksExtensions,BackToRecord</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,Replay</token>
 </entry>
-<entry count="6">
-<token>s:Microsoft.Isam.Esent.Interop.JET_INSTANCE,</token>
-<token>EsentInterop]],Out</token>
-</entry>
 <entry count="15">
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.LastCall,On</token>
 <token>Rhino.Mocks.MockRepository,ReplayAll</token>
 <token>Rhino.Mocks.MockRepository,VerifyAll</token>
-</entry>
-<entry count="2">
-<token>p:string]],new</token>
-<token>Rhino.Mocks.RhinoMocksExtensions,Stub</token>
-<token>Rhino.Mocks.Function`2[[T</token>
-<token>-&gt;</token>
-<token>p:string],[R</token>
 </entry>
 <entry count="2">
 <token>Rhino.Mocks.LastCall,On</token>
@@ -404,30 +334,11 @@
 <token>Rhino.Mocks.MockRepository,GenerateMock</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,AssertWasCalled</token>
 </entry>
-<entry count="2">
-<token>Cradiator.Model.Skin,</token>
-<token>Cradiator]],Matches</token>
-<token>Rhino.Mocks.RhinoMocksExtensions,AssertWasCalled</token>
-</entry>
-<entry count="2">
-<token>-&gt;</token>
-<token>p:bool]],new</token>
-</entry>
-<entry count="2">
-<token>s:System.IntPtr,</token>
-<token>mscorlib,</token>
-<token>4.0.0.0]],Ref</token>
-<token>Rhino.Mocks.Arg`1[[T</token>
-</entry>
 <entry count="1">
 <token>Rhino.Mocks.RhinoMocksExtensions,Stub</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,Stub</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,Stub</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
-</entry>
-<entry count="4">
-<token>Rhino.Mocks.RhinoMocksExtensions,Stub</token>
-<token>Rhino.Mocks.Function`2[[T</token>
 </entry>
 <entry count="1">
 <token>Rhino.Mocks.MockRepository,new</token>
@@ -439,39 +350,28 @@
 <token>Rhino.Mocks.RhinoMocksExtensions,Stub</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
 </entry>
-<entry count="4">
-<token>-&gt;</token>
-<token>ThoughtWorks.CruiseControl.Core.Util.ProcessResult,</token>
-</entry>
 <entry count="1">
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
 <token>Rhino.Mocks.SetupResult,For</token>
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
 <token>Rhino.Mocks.SetupResult,For</token>
-</entry>
-<entry count="44">
-<token>-&gt;</token>
-<token>CacheCow.Common.CacheKey,</token>
-<token>CacheCow.Common]],Matches</token>
 </entry>
 <entry count="8">
 <token>Rhino.Mocks.SetupResult,For</token>
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
 </entry>
+<entry count="9">
+<token>Rhino.Mocks.Arg,Matches</token>
+<token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
+<token>Rhino.Mocks.MockRepository,ReplayAll</token>
+</entry>
 <entry count="1">
-<token>s:Microsoft.Isam.Esent.Interop.JET_INSTANCE,</token>
-<token>EsentInterop]],Ref</token>
+<token>Rhino.Mocks.Expect,Call</token>
+<token>Rhino.Mocks.Arg,Ref</token>
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.MockRepository,ReplayAll</token>
-</entry>
-<entry count="44">
-<token>-&gt;</token>
-<token>CacheCow.Common.CacheKey,</token>
-<token>CacheCow.Common]],Matches</token>
-<token>Rhino.Mocks.Arg`1[[T</token>
-<token>-&gt;</token>
 </entry>
 <entry count="2">
 <token>Rhino.Mocks.Expect,On</token>
@@ -484,17 +384,10 @@
 <token>Rhino.Mocks.RhinoMocksExtensions,Stub</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,Stub</token>
 </entry>
-<entry count="64">
+<entry count="1088">
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
 <token>Rhino.Mocks.SetupResult,For</token>
 <token>Rhino.Mocks.SetupResult,For</token>
-</entry>
-<entry count="36">
-<token>Rhino.Mocks.Arg`1[[T</token>
-<token>-&gt;</token>
-<token>CacheCow.Common.TimedEntityTagHeaderValue,</token>
-<token>CacheCow.Common]],Out</token>
-<token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
 </entry>
 <entry count="1">
 <token>Rhino.Mocks.LastCall,On</token>
@@ -535,24 +428,26 @@
 <token>Rhino.Mocks.RhinoMocksExtensions,Stub</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,Raise</token>
 </entry>
+<entry count="1">
+<token>Rhino.Mocks.Arg,Out</token>
+<token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
+<token>Rhino.Mocks.Arg,Matches</token>
+<token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
+</entry>
 <entry count="3">
 <token>Rhino.Mocks.SetupResult,For</token>
 <token>Rhino.Mocks.MockRepository,DynamicMock</token>
 <token>Rhino.Mocks.Expect,Call</token>
 </entry>
-<entry count="10">
+<entry count="2054">
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
 <token>Rhino.Mocks.Expect,Call</token>
 </entry>
-<entry count="27">
+<entry count="55">
 <token>Rhino.Mocks.LastCall,On</token>
 <token>Rhino.Mocks.MockRepository,ReplayAll</token>
-</entry>
-<entry count="11">
-<token>-&gt;</token>
-<token>s:Microsoft.Isam.Esent.Interop.JET_INSTANCE,</token>
 </entry>
 <entry count="2">
 <token>Rhino.Mocks.MockRepository,new</token>
@@ -592,23 +487,12 @@
 <token>Rhino.Mocks.LastCall,On</token>
 <token>Rhino.Mocks.MockRepository,ReplayAll</token>
 </entry>
-<entry count="2">
-<token>-&gt;</token>
-<token>p:string],[R</token>
-<token>-&gt;</token>
-<token>p:bool]],new</token>
-</entry>
 <entry count="1">
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.SetupResult,For</token>
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
 <token>Rhino.Mocks.SetupResult,For</token>
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
-</entry>
-<entry count="9">
-<token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
-<token>Rhino.Mocks.Arg`1[[T</token>
-<token>-&gt;</token>
 </entry>
 <entry count="3">
 <token>Rhino.Mocks.MockRepository,DynamicMock</token>
@@ -666,6 +550,13 @@
 <token>Rhino.Mocks.RhinoMocksExtensions,Stub</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,Stub</token>
 </entry>
+<entry count="28">
+<token>Rhino.Mocks.MockRepository,StrictMock</token>
+<token>Rhino.Mocks.Arg,Matches</token>
+<token>Rhino.Mocks.Arg,Out</token>
+<token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
+<token>Rhino.Mocks.MockRepository,ReplayAll</token>
+</entry>
 <entry count="7">
 <token>Rhino.Mocks.MockRepository,GenerateMock</token>
 <token>Rhino.Mocks.MockRepository,GenerateMock</token>
@@ -679,13 +570,11 @@
 <token>Rhino.Mocks.LastCall,Return</token>
 <token>Rhino.Mocks.LastCall,Return</token>
 </entry>
-<entry count="5">
-<token>EsentInterop]],Out</token>
-<token>Rhino.Mocks.Expect,Call</token>
-<token>Rhino.Mocks.Arg`1[[T</token>
-<token>-&gt;</token>
+<entry count="4">
+<token>Rhino.Mocks.RhinoMocksExtensions,Stub</token>
+<token>Rhino.Mocks.Function,new</token>
 </entry>
-<entry count="2">
+<entry count="1024">
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
@@ -699,6 +588,11 @@
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
 </entry>
+<entry count="6">
+<token>Rhino.Mocks.MockRepository,new</token>
+<token>Rhino.Mocks.MockRepository,StrictMock</token>
+<token>Rhino.Mocks.Arg,Out</token>
+</entry>
 <entry count="1">
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
 <token>Rhino.Mocks.SetupResult,For</token>
@@ -711,10 +605,6 @@
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.SetupResult,For</token>
-</entry>
-<entry count="44">
-<token>-&gt;</token>
-<token>CacheCow.Common.CacheKey,</token>
 </entry>
 <entry count="8">
 <token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
@@ -746,42 +636,20 @@
 <token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,VerifyAllExpectations</token>
 </entry>
-<entry count="22">
+<entry count="5">
+<token>Rhino.Mocks.MockRepository,StrictMock</token>
+<token>Rhino.Mocks.Arg,Out</token>
+<token>Rhino.Mocks.Expect,Call</token>
+<token>Rhino.Mocks.Arg,Ref</token>
+</entry>
+<entry count="3088">
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
-</entry>
-<entry count="2">
-<token>Rhino.Mocks.Function`2[[T</token>
-<token>-&gt;</token>
-<token>p:string],[R</token>
-<token>-&gt;</token>
-<token>p:bool]],new</token>
 </entry>
 <entry count="8">
 <token>Rhino.Mocks.LastCall,IgnoreArguments</token>
 <token>Rhino.Mocks.MockRepository,ReplayAll</token>
 <token>Rhino.Mocks.MockRepository,VerifyAll</token>
-</entry>
-<entry count="2">
-<token>ThoughtWorks.CruiseControl.Core.Tasks.GeneralTaskResult,</token>
-<token>core]],Matches</token>
-</entry>
-<entry count="2">
-<token>Rhino.Mocks.SetupResult,For</token>
-<token>Rhino.Mocks.SetupResult,For</token>
-<token>Rhino.Mocks.Expect,Call</token>
-<token>Rhino.Mocks.Expect,Call</token>
-<token>Rhino.Mocks.Arg`1[[T</token>
-</entry>
-<entry count="2">
-<token>p:string]],Out</token>
-<token>Rhino.Mocks.Expect,Call</token>
-<token>Rhino.Mocks.MockRepository,ReplayAll</token>
-</entry>
-<entry count="1">
-<token>EsentInterop]],Ref</token>
-<token>Rhino.Mocks.Expect,Call</token>
-<token>Rhino.Mocks.Expect,Call</token>
 </entry>
 <entry count="1">
 <token>Rhino.Mocks.Expect,Call</token>
@@ -793,10 +661,6 @@
 <entry count="3">
 <token>Rhino.Mocks.RhinoMocksExtensions,Replay</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,Stub</token>
-</entry>
-<entry count="2">
-<token>-&gt;</token>
-<token>p:string]],new</token>
 </entry>
 <entry count="5">
 <token>Rhino.Mocks.MockRepository,GenerateStub</token>
@@ -822,20 +686,6 @@
 <token>Rhino.Mocks.RhinoMocksExtensions,Stub</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,Stub</token>
 </entry>
-<entry count="2">
-<token>s:System.IntPtr,</token>
-<token>mscorlib,</token>
-<token>4.0.0.0]],Ref</token>
-<token>Rhino.Mocks.Arg`1[[T</token>
-<token>-&gt;</token>
-</entry>
-<entry count="1">
-<token>EsentInterop]],Ref</token>
-<token>Rhino.Mocks.Expect,Call</token>
-<token>Rhino.Mocks.Expect,Call</token>
-<token>Rhino.Mocks.MockRepository,ReplayAll</token>
-<token>Rhino.Mocks.MockRepository,VerifyAll</token>
-</entry>
 <entry count="1">
 <token>Rhino.Mocks.MockRepository,DynamicMock</token>
 <token>Rhino.Mocks.SetupResult,For</token>
@@ -848,20 +698,6 @@
 <token>Rhino.Mocks.SetupResult,For</token>
 <token>Rhino.Mocks.SetupResult,For</token>
 <token>Rhino.Mocks.MockRepository,ReplayAll</token>
-</entry>
-<entry count="1">
-<token>System.Net.Http,</token>
-<token>2.0.0.0]],Matches</token>
-<token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
-<token>Rhino.Mocks.MockRepository,ReplayAll</token>
-<token>Rhino.Mocks.MockRepository,VerifyAll</token>
-</entry>
-<entry count="7">
-<token>System.Net.Http.HttpResponseMessage,</token>
-<token>System.Net.Http,</token>
-<token>2.0.0.0]],Out</token>
-<token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
-<token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
 </entry>
 <entry count="1">
 <token>Rhino.Mocks.MockRepository,new</token>
@@ -891,16 +727,12 @@
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.MockRepository,ReplayAll</token>
 </entry>
-<entry count="4">
-<token>p:string],[R</token>
-<token>-&gt;</token>
-</entry>
-<entry count="6">
-<token>Rhino.Mocks.MockRepository,StrictMock</token>
-<token>Rhino.Mocks.Arg`1[[T</token>
-<token>-&gt;</token>
-<token>s:Microsoft.Isam.Esent.Interop.JET_INSTANCE,</token>
-<token>EsentInterop]],Out</token>
+<entry count="2">
+<token>Rhino.Mocks.SetupResult,For</token>
+<token>Rhino.Mocks.Expect,Call</token>
+<token>Rhino.Mocks.SetupResult,For</token>
+<token>Rhino.Mocks.SetupResult,For</token>
+<token>Rhino.Mocks.SetupResult,For</token>
 </entry>
 <entry count="2">
 <token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
@@ -924,6 +756,11 @@
 <token>Rhino.Mocks.LastCall,On</token>
 <token>Rhino.Mocks.MockRepository,ReplayAll</token>
 </entry>
+<entry count="5">
+<token>Rhino.Mocks.Expect,Call</token>
+<token>Rhino.Mocks.Arg,Ref</token>
+<token>Rhino.Mocks.Expect,Call</token>
+</entry>
 <entry count="7">
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
@@ -934,7 +771,7 @@
 <token>Rhino.Mocks.RhinoMocksExtensions,Stub</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,AssertWasCalled</token>
 </entry>
-<entry count="2">
+<entry count="1024">
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
 </entry>
@@ -964,12 +801,6 @@
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.MockRepository,CreateMock</token>
 </entry>
-<entry count="2">
-<token>-&gt;</token>
-<token>p:string]],Out</token>
-<token>Rhino.Mocks.Expect,Call</token>
-<token>Rhino.Mocks.MockRepository,ReplayAll</token>
-</entry>
 <entry count="1">
 <token>Rhino.Mocks.MockRepository,Stub</token>
 <token>Rhino.Mocks.MockRepository,Stub</token>
@@ -984,7 +815,7 @@
 <token>Rhino.Mocks.MockRepository,GenerateMock</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
 </entry>
-<entry count="551">
+<entry count="1609">
 <token>Rhino.Mocks.MockRepository,ReplayAll</token>
 <token>Rhino.Mocks.MockRepository,VerifyAll</token>
 </entry>
@@ -999,13 +830,6 @@
 <token>Rhino.Mocks.MockRepository,ReplayAll</token>
 <token>Rhino.Mocks.MockRepository,DynamicMock</token>
 </entry>
-<entry count="4">
-<token>System.Net.Http.HttpResponseMessage,</token>
-<token>System.Net.Http,</token>
-<token>2.0.0.0]],Out</token>
-<token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
-<token>Rhino.Mocks.MockRepository,ReplayAll</token>
-</entry>
 <entry count="1">
 <token>Rhino.Mocks.SetupResult,For</token>
 <token>Rhino.Mocks.MockRepository,DynamicMock</token>
@@ -1018,19 +842,10 @@
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.SetupResult,For</token>
 </entry>
-<entry count="13">
-<token>-&gt;</token>
-<token>System.Net.Http.HttpResponseMessage,</token>
-<token>System.Net.Http,</token>
-</entry>
-<entry count="44">
-<token>CacheCow.Common]],Matches</token>
-<token>Rhino.Mocks.Arg`1[[T</token>
-<token>-&gt;</token>
-</entry>
-<entry count="8">
-<token>CacheCow.Common]],Matches</token>
-<token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
+<entry count="2">
+<token>Rhino.Mocks.MockRepository,new</token>
+<token>Rhino.Mocks.MockRepository,StrictMock</token>
+<token>Rhino.Mocks.Arg,Ref</token>
 </entry>
 <entry count="13">
 <token>Rhino.Mocks.Expect,Call</token>
@@ -1038,20 +853,10 @@
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.MockRepository,DynamicMock</token>
 </entry>
-<entry count="5">
-<token>-&gt;</token>
-<token>s:Microsoft.Isam.Esent.Interop.JET_INSTANCE,</token>
-<token>EsentInterop]],Ref</token>
-</entry>
 <entry count="1">
 <token>Rhino.Mocks.MockRepository,GenerateMock</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,Stub</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,Raise</token>
-</entry>
-<entry count="2">
-<token>p:string],[R</token>
-<token>-&gt;</token>
-<token>p:bool]],new</token>
 </entry>
 <entry count="3">
 <token>Rhino.Mocks.SetupResult,For</token>
@@ -1097,7 +902,7 @@
 <token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
 </entry>
-<entry count="7">
+<entry count="35">
 <token>Rhino.Mocks.LastCall,On</token>
 <token>Rhino.Mocks.LastCall,On</token>
 <token>Rhino.Mocks.MockRepository,ReplayAll</token>
@@ -1112,14 +917,8 @@
 <token>Rhino.Mocks.RhinoMocksExtensions,Stub</token>
 <token>Rhino.Mocks.MockRepository,GenerateStub</token>
 </entry>
-<entry count="2">
+<entry count="1024">
 <token>Rhino.Mocks.Expect,Call</token>
-<token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
-<token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
-<token>Rhino.Mocks.MockRepository,ReplayAll</token>
-</entry>
-<entry count="7">
-<token>2.0.0.0]],Out</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
 <token>Rhino.Mocks.MockRepository,ReplayAll</token>
@@ -1167,14 +966,14 @@
 <token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
 </entry>
-<entry count="2">
+<entry count="1024">
 <token>Rhino.Mocks.SetupResult,For</token>
 <token>Rhino.Mocks.SetupResult,For</token>
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
 </entry>
-<entry count="194">
+<entry count="3268">
 <token>Rhino.Mocks.SetupResult,For</token>
 <token>Rhino.Mocks.SetupResult,For</token>
 </entry>
@@ -1185,15 +984,9 @@
 <token>Rhino.Mocks.RhinoMocksExtensions,Stub</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
 </entry>
-<entry count="35">
+<entry count="37">
 <token>Rhino.Mocks.MockRepository,new</token>
 <token>Rhino.Mocks.MockRepository,DynamicMock</token>
-</entry>
-<entry count="2">
-<token>p:string],[R</token>
-<token>-&gt;</token>
-<token>p:string]],new</token>
-<token>Rhino.Mocks.RhinoMocksExtensions,Stub</token>
 </entry>
 <entry count="1">
 <token>Rhino.Mocks.MockRepository,Stub</token>
@@ -1201,19 +994,17 @@
 <token>Rhino.Mocks.MockRepository,ReplayAll</token>
 </entry>
 <entry count="36">
-<token>Rhino.Mocks.Arg`1[[T</token>
-<token>-&gt;</token>
-<token>CacheCow.Common.TimedEntityTagHeaderValue,</token>
-<token>CacheCow.Common]],Out</token>
+<token>Rhino.Mocks.Arg,Matches</token>
+<token>Rhino.Mocks.Arg,Out</token>
 </entry>
-<entry count="4">
+<entry count="32">
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.LastCall,On</token>
 <token>Rhino.Mocks.LastCall,On</token>
 <token>Rhino.Mocks.MockRepository,ReplayAll</token>
 </entry>
-<entry count="2">
+<entry count="1024">
 <token>Rhino.Mocks.SetupResult,For</token>
 <token>Rhino.Mocks.SetupResult,For</token>
 <token>Rhino.Mocks.SetupResult,For</token>
@@ -1227,16 +1018,16 @@
 <token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,VerifyAllExpectations</token>
 </entry>
+<entry count="2">
+<token>Rhino.Mocks.MockRepository,StrictMock</token>
+<token>Rhino.Mocks.Arg,Ref</token>
+<token>Rhino.Mocks.Arg,Out</token>
+<token>Rhino.Mocks.Expect,Call</token>
+<token>Rhino.Mocks.MockRepository,ReplayAll</token>
+</entry>
 <entry count="69">
 <token>Rhino.Mocks.MockRepository,GenerateStub</token>
 <token>Rhino.Mocks.MockRepository,GenerateStub</token>
-</entry>
-<entry count="8">
-<token>CacheCow.Common]],Matches</token>
-<token>Rhino.Mocks.Arg`1[[T</token>
-<token>-&gt;</token>
-<token>CacheCow.Common.TimedEntityTagHeaderValue,</token>
-<token>CacheCow.Common]],Matches</token>
 </entry>
 <entry count="111">
 <token>Rhino.Mocks.Expect,Call</token>
@@ -1245,22 +1036,10 @@
 <token>Rhino.Mocks.MockRepository,VerifyAll</token>
 </entry>
 <entry count="4">
-<token>ThoughtWorks.CruiseControl.Core.Util.ProcessResult,</token>
-<token>core]],new</token>
-</entry>
-<entry count="12">
-<token>System.Net.Http,</token>
-<token>2.0.0.0]],Out</token>
-</entry>
-<entry count="4">
 <token>Rhino.Mocks.MockRepository,ReplayAll</token>
 <token>Rhino.Mocks.MockRepository,DynamicMock</token>
 </entry>
-<entry count="1">
-<token>Cradiator]],Matches</token>
-<token>Rhino.Mocks.Arg`1[[T</token>
-</entry>
-<entry count="6">
+<entry count="2050">
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
 <token>Rhino.Mocks.Expect,Call</token>
@@ -1276,10 +1055,6 @@
 <token>Rhino.Mocks.MockRepository,CreateMock</token>
 <token>Rhino.Mocks.MockRepository,Ordered</token>
 <token>Rhino.Mocks.MockRepository,ReplayAll</token>
-</entry>
-<entry count="4">
-<token>-&gt;</token>
-<token>ThoughtWorks.CruiseControl.Core.Util.ProcessInfo,</token>
 </entry>
 <entry count="3">
 <token>Rhino.Mocks.MockRepository,Stub</token>
@@ -1310,11 +1085,6 @@
 <token>Rhino.Mocks.MockRepository,GenerateMock</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
 </entry>
-<entry count="2">
-<token>Rhino.Mocks.Arg`1[[T</token>
-<token>-&gt;</token>
-<token>p:string]],Out</token>
-</entry>
 <entry count="1">
 <token>Rhino.Mocks.SetupResult,For</token>
 <token>Rhino.Mocks.Expect,Call</token>
@@ -1341,11 +1111,24 @@
 <token>Rhino.Mocks.RhinoMocksExtensions,AssertWasNotCalled</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,AssertWasNotCalled</token>
 </entry>
-<entry count="52">
+<entry count="1">
+<token>Rhino.Mocks.Arg,Out</token>
+<token>Rhino.Mocks.Expect,Call</token>
+<token>Rhino.Mocks.MockRepository,ReplayAll</token>
+<token>Rhino.Mocks.MockRepository,VerifyAll</token>
+</entry>
+<entry count="1076">
 <token>Rhino.Mocks.SetupResult,For</token>
 <token>Rhino.Mocks.SetupResult,For</token>
 <token>Rhino.Mocks.SetupResult,For</token>
 <token>Rhino.Mocks.SetupResult,For</token>
+</entry>
+<entry count="8">
+<token>Rhino.Mocks.Arg,Out</token>
+<token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
+<token>Rhino.Mocks.Arg,Matches</token>
+<token>Rhino.Mocks.Arg,Matches</token>
+<token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
 </entry>
 <entry count="1">
 <token>Rhino.Mocks.MockRepository,GenerateMock</token>
@@ -1400,12 +1183,11 @@
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.MockRepository,ReplayAll</token>
 </entry>
-<entry count="6">
-<token>Rhino.Mocks.Arg`1[[T</token>
-<token>-&gt;</token>
-<token>s:Microsoft.Isam.Esent.Interop.JET_INSTANCE,</token>
-<token>EsentInterop]],Out</token>
-<token>Rhino.Mocks.Expect,Call</token>
+<entry count="36">
+<token>Rhino.Mocks.MockRepository,new</token>
+<token>Rhino.Mocks.MockRepository,StrictMock</token>
+<token>Rhino.Mocks.Arg,Matches</token>
+<token>Rhino.Mocks.Arg,Out</token>
 </entry>
 <entry count="2">
 <token>Rhino.Mocks.MockRepository,Record</token>
@@ -1423,7 +1205,7 @@
 <token>Rhino.Mocks.RhinoMocksExtensions,Stub</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,AssertWasCalled</token>
 </entry>
-<entry count="16">
+<entry count="44">
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
 <token>Rhino.Mocks.MockRepository,Ordered</token>
 <token>Rhino.Mocks.Expect,Call</token>
@@ -1460,13 +1242,13 @@
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.Expect,Call</token>
 </entry>
-<entry count="2">
+<entry count="1024">
 <token>Rhino.Mocks.SetupResult,For</token>
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
 </entry>
-<entry count="2">
+<entry count="1024">
 <token>Rhino.Mocks.SetupResult,For</token>
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
@@ -1535,29 +1317,19 @@
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
 </entry>
-<entry count="4">
-<token>-&gt;</token>
-<token>ThoughtWorks.CruiseControl.Core.Util.ProcessInfo,</token>
-<token>core],[R</token>
-</entry>
-<entry count="19">
+<entry count="47">
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
 <token>Rhino.Mocks.MockRepository,Ordered</token>
 </entry>
-<entry count="7">
+<entry count="35">
 <token>Rhino.Mocks.LastCall,On</token>
 <token>Rhino.Mocks.LastCall,On</token>
 <token>Rhino.Mocks.MockRepository,ReplayAll</token>
 </entry>
-<entry count="4">
-<token>Rhino.Mocks.Expect,Call</token>
-<token>Rhino.Mocks.Function`2[[T</token>
-</entry>
 <entry count="2">
-<token>-&gt;</token>
-<token>p:string],[R</token>
-<token>-&gt;</token>
-<token>p:string]],new</token>
+<token>Rhino.Mocks.Arg,Ref</token>
+<token>Rhino.Mocks.Arg,Out</token>
+<token>Rhino.Mocks.Expect,Call</token>
 </entry>
 <entry count="2">
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
@@ -1565,11 +1337,6 @@
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.MockRepository,ReplayAll</token>
 <token>Rhino.Mocks.MockRepository,VerifyAll</token>
-</entry>
-<entry count="2">
-<token>Rhino.Mocks.Expect,Call</token>
-<token>Rhino.Mocks.Expect,Call</token>
-<token>Rhino.Mocks.Arg`1[[T</token>
 </entry>
 <entry count="1">
 <token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
@@ -1635,28 +1402,9 @@
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
 <token>Rhino.Mocks.Expect,Call</token>
 </entry>
-<entry count="4">
-<token>Rhino.Mocks.RhinoMocksExtensions,Stub</token>
-<token>Rhino.Mocks.Function`2[[T</token>
-<token>-&gt;</token>
-</entry>
-<entry count="1">
-<token>Cradiator.Model.Skin,</token>
-<token>Cradiator]],Matches</token>
-<token>Rhino.Mocks.Arg`1[[T</token>
-<token>-&gt;</token>
-<token>Cradiator.Model.Skin,</token>
-</entry>
 <entry count="1">
 <token>Rhino.Mocks.MockRepository,GeneratePartialMock</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
-</entry>
-<entry count="4">
-<token>System.Net.Http,</token>
-<token>2.0.0.0]],Out</token>
-<token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
-<token>Rhino.Mocks.MockRepository,ReplayAll</token>
-<token>Rhino.Mocks.MockRepository,VerifyAll</token>
 </entry>
 <entry count="5">
 <token>Rhino.Mocks.MockRepository,GenerateStub</token>
@@ -1677,14 +1425,9 @@
 <token>Rhino.Mocks.MockRepository,GenerateMock</token>
 <token>Rhino.Mocks.MockRepository,GenerateMock</token>
 </entry>
-<entry count="28">
-<token>CacheCow.Common]],Out</token>
-<token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
-<token>Rhino.Mocks.MockRepository,ReplayAll</token>
-</entry>
-<entry count="8">
-<token>CacheCow.Common]],Matches</token>
-<token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
+<entry count="4">
+<token>Rhino.Mocks.Arg,Ref</token>
+<token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.MockRepository,ReplayAll</token>
 <token>Rhino.Mocks.MockRepository,VerifyAll</token>
 </entry>
@@ -1708,7 +1451,7 @@
 <token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,VerifyAllExpectations</token>
 </entry>
-<entry count="16">
+<entry count="44">
 <token>Rhino.Mocks.MockRepository,Ordered</token>
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.LastCall,On</token>
@@ -1731,15 +1474,10 @@
 <token>Rhino.Mocks.Arg,Is</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,Stub</token>
 </entry>
-<entry count="21">
+<entry count="49">
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.LastCall,On</token>
 <token>Rhino.Mocks.Expect,Call</token>
-</entry>
-<entry count="44">
-<token>Rhino.Mocks.MockRepository,StrictMock</token>
-<token>Rhino.Mocks.Arg`1[[T</token>
-<token>-&gt;</token>
 </entry>
 <entry count="5">
 <token>Rhino.Mocks.MockRepository,new</token>
@@ -1749,6 +1487,13 @@
 </entry>
 <entry count="2">
 <token>Rhino.Mocks.Arg,Is</token>
+<token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
+</entry>
+<entry count="36">
+<token>Rhino.Mocks.MockRepository,new</token>
+<token>Rhino.Mocks.MockRepository,StrictMock</token>
+<token>Rhino.Mocks.Arg,Matches</token>
+<token>Rhino.Mocks.Arg,Out</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
 </entry>
 <entry count="5">
@@ -1761,13 +1506,6 @@
 <token>Rhino.Mocks.MockRepository,GenerateMock</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
 <token>Rhino.Mocks.MockRepository,GenerateMock</token>
-</entry>
-<entry count="5">
-<token>Rhino.Mocks.Arg`1[[T</token>
-<token>-&gt;</token>
-<token>s:Microsoft.Isam.Esent.Interop.JET_INSTANCE,</token>
-<token>EsentInterop]],Ref</token>
-<token>Rhino.Mocks.Expect,Call</token>
 </entry>
 <entry count="2">
 <token>Rhino.Mocks.SetupResult,For</token>
@@ -1787,11 +1525,7 @@
 <token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,VerifyAllExpectations</token>
 </entry>
-<entry count="1">
-<token>System.Net.Http,</token>
-<token>2.0.0.0]],Matches</token>
-</entry>
-<entry count="4">
+<entry count="6">
 <token>Rhino.Mocks.MockRepository,DynamicMock</token>
 <token>Rhino.Mocks.MockRepository,ReplayAll</token>
 <token>Rhino.Mocks.MockRepository,ReplayAll</token>
@@ -1808,6 +1542,13 @@
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
 </entry>
 <entry count="5">
+<token>Rhino.Mocks.MockRepository,new</token>
+<token>Rhino.Mocks.MockRepository,StrictMock</token>
+<token>Rhino.Mocks.Arg,Out</token>
+<token>Rhino.Mocks.Expect,Call</token>
+<token>Rhino.Mocks.Arg,Ref</token>
+</entry>
+<entry count="5">
 <token>Rhino.Mocks.MockRepository,DynamicMock</token>
 <token>Rhino.Mocks.MockRepository,DynamicMock</token>
 <token>Rhino.Mocks.SetupResult,For</token>
@@ -1818,19 +1559,13 @@
 <token>Rhino.Mocks.MockRepository,CreateMock</token>
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
 </entry>
-<entry count="1">
-<token>2.0.0.0]],Out</token>
-<token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
-<token>Rhino.Mocks.Arg`1[[T</token>
-<token>-&gt;</token>
-</entry>
 <entry count="9">
 <token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
 <token>Rhino.Mocks.MockRepository,GenerateMock</token>
 </entry>
-<entry count="77">
+<entry count="133">
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
@@ -1856,18 +1591,6 @@
 <token>Rhino.Mocks.LastCall,GetEventRaiser</token>
 <token>Rhino.Mocks.MockRepository,ReplayAll</token>
 </entry>
-<entry count="1">
-<token>s:Microsoft.Isam.Esent.Interop.JET_INSTANCE,</token>
-<token>EsentInterop]],Out</token>
-<token>Rhino.Mocks.Expect,Call</token>
-<token>Rhino.Mocks.MockRepository,ReplayAll</token>
-</entry>
-<entry count="12">
-<token>System.Net.Http.HttpResponseMessage,</token>
-<token>System.Net.Http,</token>
-<token>2.0.0.0]],Out</token>
-<token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
-</entry>
 <entry count="6">
 <token>Rhino.Mocks.SetupResult,For</token>
 <token>Rhino.Mocks.MockRepository,DynamicMock</token>
@@ -1911,23 +1634,11 @@
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
 <token>Rhino.Mocks.MockRepository,DynamicMock</token>
 </entry>
-<entry count="40">
+<entry count="2084">
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.Expect,Call</token>
-</entry>
-<entry count="1">
-<token>Rhino.Mocks.Arg`1[[T</token>
-<token>-&gt;</token>
-<token>System.Net.Http.HttpResponseMessage,</token>
-<token>System.Net.Http,</token>
-<token>2.0.0.0]],Matches</token>
-</entry>
-<entry count="4">
-<token>Rhino.Mocks.Function`2[[T</token>
-<token>-&gt;</token>
-<token>ThoughtWorks.CruiseControl.Core.Util.ProcessInfo,</token>
 </entry>
 <entry count="2">
 <token>Rhino.Mocks.MockRepository,Record</token>
@@ -1935,11 +1646,11 @@
 <token>Rhino.Mocks.SetupResult,For</token>
 <token>Rhino.Mocks.SetupResult,For</token>
 </entry>
-<entry count="68">
+<entry count="72">
 <token>Rhino.Mocks.MockRepository,DynamicMock</token>
 <token>Rhino.Mocks.MockRepository,ReplayAll</token>
 </entry>
-<entry count="1051">
+<entry count="9263">
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.Expect,Call</token>
 </entry>
@@ -1956,29 +1667,12 @@
 <token>Rhino.Mocks.MockRepository,DynamicMock</token>
 <token>Rhino.Mocks.Expect,Call</token>
 </entry>
-<entry count="12">
-<token>System.Net.Http.HttpResponseMessage,</token>
-<token>System.Net.Http,</token>
-<token>2.0.0.0]],Out</token>
-</entry>
-<entry count="1">
-<token>Cradiator]],Matches</token>
-<token>Rhino.Mocks.Arg`1[[T</token>
-<token>-&gt;</token>
-<token>Cradiator.Model.Skin,</token>
-<token>Cradiator]],Matches</token>
-</entry>
 <entry count="7">
 <token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
-</entry>
-<entry count="44">
-<token>Rhino.Mocks.Arg`1[[T</token>
-<token>-&gt;</token>
-<token>CacheCow.Common.TimedEntityTagHeaderValue,</token>
 </entry>
 <entry count="1">
 <token>Rhino.Mocks.SetupResult,For</token>
@@ -2005,10 +1699,15 @@
 <token>Rhino.Mocks.RhinoMocksExtensions,Stub</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,Stub</token>
 </entry>
-<entry count="4">
+<entry count="32">
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.LastCall,On</token>
+</entry>
+<entry count="9">
+<token>Rhino.Mocks.Arg,Out</token>
+<token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
+<token>Rhino.Mocks.Arg,Matches</token>
 </entry>
 <entry count="1">
 <token>Rhino.Mocks.LastCall,On</token>
@@ -2029,7 +1728,7 @@
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.MockRepository,Playback</token>
 </entry>
-<entry count="19">
+<entry count="47">
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
 <token>Rhino.Mocks.MockRepository,Ordered</token>
@@ -2078,6 +1777,12 @@
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.Expect,Call</token>
 </entry>
+<entry count="2">
+<token>Rhino.Mocks.Expect,Call</token>
+<token>Rhino.Mocks.Arg,Matches</token>
+<token>Rhino.Mocks.Expect,Call</token>
+<token>Rhino.Mocks.MockRepository,ReplayAll</token>
+</entry>
 <entry count="3">
 <token>Rhino.Mocks.MockRepository,CreateMock</token>
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
@@ -2095,6 +1800,12 @@
 <token>Rhino.Mocks.SetupResult,For</token>
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.Expect,Call</token>
+</entry>
+<entry count="2">
+<token>Rhino.Mocks.Arg,Matches</token>
+<token>Rhino.Mocks.Expect,Call</token>
+<token>Rhino.Mocks.MockRepository,ReplayAll</token>
+<token>Rhino.Mocks.MockRepository,VerifyAll</token>
 </entry>
 <entry count="2">
 <token>Rhino.Mocks.Expect,Call</token>
@@ -2139,22 +1850,12 @@
 <token>Rhino.Mocks.LastCall,Throw</token>
 <token>Rhino.Mocks.MockRepository,Playback</token>
 </entry>
-<entry count="2">
-<token>Rhino.Mocks.Arg`1[[T</token>
-<token>-&gt;</token>
-<token>ThoughtWorks.CruiseControl.Core.Tasks.GeneralTaskResult,</token>
-</entry>
-<entry count="44">
-<token>CacheCow.Common.CacheKey,</token>
-<token>CacheCow.Common]],Matches</token>
-<token>Rhino.Mocks.Arg`1[[T</token>
-</entry>
-<entry count="7">
+<entry count="1029">
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
 <token>Rhino.Mocks.SetupResult,For</token>
 </entry>
-<entry count="21">
+<entry count="49">
 <token>Rhino.Mocks.LastCall,On</token>
 <token>Rhino.Mocks.Expect,Call</token>
 </entry>
@@ -2176,13 +1877,6 @@
 <token>Rhino.Mocks.LastCall,On</token>
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
 </entry>
-<entry count="44">
-<token>Rhino.Mocks.Arg`1[[T</token>
-<token>-&gt;</token>
-<token>CacheCow.Common.CacheKey,</token>
-<token>CacheCow.Common]],Matches</token>
-<token>Rhino.Mocks.Arg`1[[T</token>
-</entry>
 <entry count="2">
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
 <token>Rhino.Mocks.Expect,Call</token>
@@ -2204,7 +1898,7 @@
 <token>Rhino.Mocks.MockRepository,ReplayAll</token>
 <token>Rhino.Mocks.MockRepository,VerifyAll</token>
 </entry>
-<entry count="4">
+<entry count="6">
 <token>Rhino.Mocks.MockRepository,DynamicMock</token>
 <token>Rhino.Mocks.MockRepository,ReplayAll</token>
 <token>Rhino.Mocks.MockRepository,ReplayAll</token>
@@ -2223,25 +1917,10 @@
 <token>Rhino.Mocks.SetupResult,For</token>
 </entry>
 <entry count="2">
-<token>Rhino.Mocks.Function`2[[T</token>
-<token>-&gt;</token>
-<token>p:string],[R</token>
-<token>-&gt;</token>
-<token>p:string]],new</token>
-</entry>
-<entry count="6">
-<token>EsentInterop]],Out</token>
-<token>Rhino.Mocks.Expect,Call</token>
-</entry>
-<entry count="2">
 <token>Rhino.Mocks.MockRepository,GenerateStub</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,Stub</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
-</entry>
-<entry count="2">
-<token>-&gt;</token>
-<token>p:string]],Out</token>
 </entry>
 <entry count="2">
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
@@ -2270,16 +1949,28 @@
 <token>Rhino.Mocks.MockRepository,ReplayAll</token>
 <token>Rhino.Mocks.MockRepository,VerifyAll</token>
 </entry>
-<entry count="6">
+<entry count="34">
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.LastCall,On</token>
 <token>Rhino.Mocks.LastCall,On</token>
+</entry>
+<entry count="8">
+<token>Rhino.Mocks.Arg,Matches</token>
+<token>Rhino.Mocks.Arg,Matches</token>
+<token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
+<token>Rhino.Mocks.MockRepository,ReplayAll</token>
+<token>Rhino.Mocks.MockRepository,VerifyAll</token>
 </entry>
 <entry count="1">
 <token>Rhino.Mocks.MockRepository,DynamicMock</token>
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
 <token>Rhino.Mocks.MockRepository,ReplayAll</token>
 <token>Rhino.Mocks.MockRepository,VerifyAll</token>
+</entry>
+<entry count="3">
+<token>Rhino.Mocks.Arg,Out</token>
+<token>Rhino.Mocks.Expect,Call</token>
+<token>Rhino.Mocks.MockRepository,ReplayAll</token>
 </entry>
 <entry count="3">
 <token>Rhino.Mocks.MockRepository,Stub</token>
@@ -2294,19 +1985,10 @@
 <token>Rhino.Mocks.SetupResult,For</token>
 <token>Rhino.Mocks.SetupResult,For</token>
 </entry>
-<entry count="4">
-<token>2.0.0.0]],Out</token>
-<token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
-<token>Rhino.Mocks.MockRepository,ReplayAll</token>
-</entry>
-<entry count="2">
+<entry count="1024">
 <token>Rhino.Mocks.SetupResult,For</token>
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
-</entry>
-<entry count="2">
-<token>p:string]],new</token>
-<token>Rhino.Mocks.RhinoMocksExtensions,Stub</token>
 </entry>
 <entry count="6">
 <token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
@@ -2314,13 +1996,12 @@
 <token>Rhino.Mocks.RhinoMocksExtensions,VerifyAllExpectations</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,VerifyAllExpectations</token>
 </entry>
-<entry count="4">
-<token>EsentInterop]],Ref</token>
-<token>Rhino.Mocks.Expect,Call</token>
-<token>Rhino.Mocks.MockRepository,ReplayAll</token>
-<token>Rhino.Mocks.MockRepository,VerifyAll</token>
-</entry>
 <entry count="5">
+<token>Rhino.Mocks.Arg,Out</token>
+<token>Rhino.Mocks.Expect,Call</token>
+<token>Rhino.Mocks.Arg,Ref</token>
+</entry>
+<entry count="33">
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.LastCall,On</token>
 <token>Rhino.Mocks.LastCall,On</token>
@@ -2335,7 +2016,7 @@
 <token>Rhino.Mocks.Arg,Is</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,Stub</token>
 </entry>
-<entry count="4">
+<entry count="1026">
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.Expect,Call</token>
@@ -2354,17 +2035,11 @@
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.MockRepository,DynamicMock</token>
 </entry>
-<entry count="13">
-<token>Rhino.Mocks.Arg`1[[T</token>
-<token>-&gt;</token>
-<token>System.Net.Http.HttpResponseMessage,</token>
-</entry>
-<entry count="12">
-<token>Rhino.Mocks.Arg`1[[T</token>
-<token>-&gt;</token>
-<token>System.Net.Http.HttpResponseMessage,</token>
-<token>System.Net.Http,</token>
-<token>2.0.0.0]],Out</token>
+<entry count="28">
+<token>Rhino.Mocks.Arg,Matches</token>
+<token>Rhino.Mocks.Arg,Out</token>
+<token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
+<token>Rhino.Mocks.MockRepository,ReplayAll</token>
 </entry>
 <entry count="23">
 <token>Rhino.Mocks.MockRepository,DynamicMock</token>
@@ -2376,7 +2051,7 @@
 <token>Rhino.Mocks.MockRepository,DynamicMock</token>
 <token>Rhino.Mocks.Expect,Call</token>
 </entry>
-<entry count="689">
+<entry count="5805">
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.Expect,Call</token>
@@ -2394,17 +2069,16 @@
 <token>Rhino.Mocks.LastCall,Return</token>
 <token>Rhino.Mocks.LastCall,Return</token>
 </entry>
-<entry count="1">
-<token>System.Net.Http.HttpResponseMessage,</token>
-<token>System.Net.Http,</token>
-<token>2.0.0.0]],Matches</token>
+<entry count="9">
+<token>Rhino.Mocks.Arg,Matches</token>
+<token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
 </entry>
 <entry count="19">
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
 <token>Rhino.Mocks.Expect,Call</token>
 </entry>
-<entry count="6">
+<entry count="1028">
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.Expect,Call</token>
@@ -2422,20 +2096,7 @@
 <token>Rhino.Mocks.Arg,Is</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,AssertWasCalled</token>
 </entry>
-<entry count="7">
-<token>2.0.0.0]],Out</token>
-<token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
-<token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
-<token>Rhino.Mocks.MockRepository,ReplayAll</token>
-<token>Rhino.Mocks.MockRepository,VerifyAll</token>
-</entry>
-<entry count="1">
-<token>EsentInterop]],Out</token>
-<token>Rhino.Mocks.Expect,Call</token>
-<token>Rhino.Mocks.MockRepository,ReplayAll</token>
-<token>Rhino.Mocks.MockRepository,VerifyAll</token>
-</entry>
-<entry count="38">
+<entry count="66">
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
@@ -2447,6 +2108,13 @@
 <token>Rhino.Mocks.MockRepository,Ordered</token>
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.Expect,Call</token>
+</entry>
+<entry count="28">
+<token>Rhino.Mocks.Arg,Matches</token>
+<token>Rhino.Mocks.Arg,Out</token>
+<token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
+<token>Rhino.Mocks.MockRepository,ReplayAll</token>
+<token>Rhino.Mocks.MockRepository,VerifyAll</token>
 </entry>
 <entry count="1">
 <token>Rhino.Mocks.MockRepository,GenerateStub</token>
@@ -2474,6 +2142,10 @@
 <token>Rhino.Mocks.SetupResult,For</token>
 <token>Rhino.Mocks.SetupResult,For</token>
 </entry>
+<entry count="5">
+<token>Rhino.Mocks.Arg,Ref</token>
+<token>Rhino.Mocks.Expect,Call</token>
+</entry>
 <entry count="2">
 <token>Rhino.Mocks.LastCall,On</token>
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
@@ -2492,18 +2164,29 @@
 <token>Rhino.Mocks.RhinoMocksExtensions,AssertWasCalled</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,AssertWasCalled</token>
 </entry>
+<entry count="2">
+<token>Rhino.Mocks.Function,new</token>
+<token>Rhino.Mocks.RhinoMocksExtensions,Stub</token>
+</entry>
 <entry count="7">
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.MockRepository,DynamicMock</token>
 <token>Rhino.Mocks.MockRepository,DynamicMock</token>
 <token>Rhino.Mocks.Expect,Call</token>
 </entry>
-<entry count="4">
-<token>ThoughtWorks.CruiseControl.Core.Util.ProcessInfo,</token>
-<token>core],[R</token>
-<token>-&gt;</token>
-<token>ThoughtWorks.CruiseControl.Core.Util.ProcessResult,</token>
-<token>core]],new</token>
+<entry count="2">
+<token>Rhino.Mocks.Expect,Call</token>
+<token>Rhino.Mocks.SetupResult,For</token>
+<token>Rhino.Mocks.SetupResult,For</token>
+<token>Rhino.Mocks.SetupResult,For</token>
+<token>Rhino.Mocks.SetupResult,For</token>
+</entry>
+<entry count="7">
+<token>Rhino.Mocks.Arg,Out</token>
+<token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
+<token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
+<token>Rhino.Mocks.MockRepository,ReplayAll</token>
+<token>Rhino.Mocks.MockRepository,VerifyAll</token>
 </entry>
 <entry count="4">
 <token>Rhino.Mocks.MockRepository,GenerateStub</token>
@@ -2566,7 +2249,7 @@
 <token>Rhino.Mocks.RhinoMocksExtensions,VerifyAllExpectations</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,VerifyAllExpectations</token>
 </entry>
-<entry count="24">
+<entry count="1046">
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
 <token>Rhino.Mocks.SetupResult,For</token>
 <token>Rhino.Mocks.SetupResult,For</token>
@@ -2594,6 +2277,13 @@
 <token>Rhino.Mocks.MockRepository,DynamicMock</token>
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
 </entry>
+<entry count="8">
+<token>Rhino.Mocks.Arg,Matches</token>
+<token>Rhino.Mocks.Arg,Out</token>
+<token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
+<token>Rhino.Mocks.Arg,Matches</token>
+<token>Rhino.Mocks.Arg,Matches</token>
+</entry>
 <entry count="4">
 <token>Rhino.Mocks.RhinoMocksExtensions,Replay</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,Replay</token>
@@ -2640,10 +2330,21 @@
 </entry>
 <entry count="2">
 <token>Rhino.Mocks.Expect,Call</token>
+<token>Rhino.Mocks.Arg,Matches</token>
+</entry>
+<entry count="2">
+<token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.MockRepository,ReplayAll</token>
+</entry>
+<entry count="8">
+<token>Rhino.Mocks.MockRepository,StrictMock</token>
+<token>Rhino.Mocks.Arg,Matches</token>
+<token>Rhino.Mocks.Arg,Out</token>
+<token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
+<token>Rhino.Mocks.Arg,Matches</token>
 </entry>
 <entry count="3">
 <token>Rhino.Mocks.MockRepository,CreateMock</token>
@@ -2652,11 +2353,11 @@
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.LastCall,On</token>
 </entry>
-<entry count="2">
-<token>-&gt;</token>
-<token>Cradiator.Model.Skin,</token>
-<token>Cradiator]],Matches</token>
-<token>Rhino.Mocks.RhinoMocksExtensions,AssertWasCalled</token>
+<entry count="36">
+<token>Rhino.Mocks.MockRepository,StrictMock</token>
+<token>Rhino.Mocks.Arg,Matches</token>
+<token>Rhino.Mocks.Arg,Out</token>
+<token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
 </entry>
 <entry count="1">
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
@@ -2682,23 +2383,11 @@
 <token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
 <token>Rhino.Mocks.MockRepository,GenerateMock</token>
 </entry>
-<entry count="8">
-<token>CacheCow.Common.TimedEntityTagHeaderValue,</token>
-<token>CacheCow.Common]],Matches</token>
-<token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
-</entry>
 <entry count="6">
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
 <token>Rhino.Mocks.SetupResult,For</token>
 <token>Rhino.Mocks.MockRepository,ReplayAll</token>
 <token>Rhino.Mocks.MockRepository,VerifyAll</token>
-</entry>
-<entry count="8">
-<token>Rhino.Mocks.Arg`1[[T</token>
-<token>-&gt;</token>
-<token>CacheCow.Common.TimedEntityTagHeaderValue,</token>
-<token>CacheCow.Common]],Matches</token>
-<token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
 </entry>
 <entry count="3">
 <token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
@@ -2721,20 +2410,7 @@
 <token>Rhino.Mocks.RhinoMocksExtensions,Stub</token>
 <token>Rhino.Mocks.MockRepository,GenerateStub</token>
 </entry>
-<entry count="2">
-<token>-&gt;</token>
-<token>p:string],[R</token>
-<token>-&gt;</token>
-<token>p:string]],new</token>
-<token>Rhino.Mocks.RhinoMocksExtensions,Stub</token>
-</entry>
-<entry count="4">
-<token>Rhino.Mocks.Function`2[[T</token>
-<token>-&gt;</token>
-<token>p:string],[R</token>
-<token>-&gt;</token>
-</entry>
-<entry count="3">
+<entry count="9">
 <token>Rhino.Mocks.MockRepository,Ordered</token>
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.MockRepository,ReplayAll</token>
@@ -2747,7 +2423,7 @@
 <token>Rhino.Mocks.LastCall,Return</token>
 <token>Rhino.Mocks.MockRepository,VerifyAll</token>
 </entry>
-<entry count="4">
+<entry count="32">
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.LastCall,On</token>
 <token>Rhino.Mocks.Expect,Call</token>
@@ -2759,12 +2435,23 @@
 <token>Rhino.Mocks.RhinoMocksExtensions,Stub</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
 </entry>
+<entry count="2">
+<token>Rhino.Mocks.Function,new</token>
+<token>Rhino.Mocks.RhinoMocksExtensions,Stub</token>
+<token>Rhino.Mocks.Function,new</token>
+</entry>
 <entry count="1">
 <token>Rhino.Mocks.RhinoMocksExtensions,Stub</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,Raise</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,Stub</token>
 </entry>
-<entry count="4">
+<entry count="2">
+<token>Rhino.Mocks.Expect,Call</token>
+<token>Rhino.Mocks.SetupResult,For</token>
+<token>Rhino.Mocks.SetupResult,For</token>
+<token>Rhino.Mocks.SetupResult,For</token>
+</entry>
+<entry count="32">
 <token>Rhino.Mocks.LastCall,On</token>
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.Expect,Call</token>
@@ -2781,6 +2468,20 @@
 <token>Rhino.Mocks.RhinoMocksExtensions,Stub</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,Stub</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
+</entry>
+<entry count="2">
+<token>Rhino.Mocks.SetupResult,For</token>
+<token>Rhino.Mocks.SetupResult,For</token>
+<token>Rhino.Mocks.Expect,Call</token>
+<token>Rhino.Mocks.Expect,Call</token>
+<token>Rhino.Mocks.Arg,Matches</token>
+</entry>
+<entry count="2">
+<token>Rhino.Mocks.SetupResult,For</token>
+<token>Rhino.Mocks.SetupResult,For</token>
+<token>Rhino.Mocks.Expect,Call</token>
+<token>Rhino.Mocks.SetupResult,For</token>
+<token>Rhino.Mocks.SetupResult,For</token>
 </entry>
 <entry count="2">
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
@@ -2801,7 +2502,7 @@
 <token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
 </entry>
-<entry count="6">
+<entry count="1028">
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.Expect,Call</token>
@@ -2814,7 +2515,7 @@
 <token>Rhino.Mocks.SetupResult,For</token>
 <token>Rhino.Mocks.SetupResult,For</token>
 </entry>
-<entry count="19">
+<entry count="47">
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
 <token>Rhino.Mocks.MockRepository,Ordered</token>
 <token>Rhino.Mocks.Expect,Call</token>
@@ -2833,15 +2534,16 @@
 <token>Rhino.Mocks.MockRepository,GenerateStub</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,AssertWasCalled</token>
 </entry>
+<entry count="2">
+<token>Rhino.Mocks.MockRepository,StrictMock</token>
+<token>Rhino.Mocks.SetupResult,For</token>
+<token>Rhino.Mocks.SetupResult,For</token>
+<token>Rhino.Mocks.Expect,Call</token>
+<token>Rhino.Mocks.SetupResult,For</token>
+</entry>
 <entry count="1">
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.MockRepository,VerifyAll</token>
-</entry>
-<entry count="1">
-<token>System.Net.Http,</token>
-<token>2.0.0.0]],Out</token>
-<token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
-<token>Rhino.Mocks.Arg`1[[T</token>
 </entry>
 <entry count="10">
 <token>Rhino.Mocks.RhinoMocksExtensions,AssertWasNotCalled</token>
@@ -2859,7 +2561,7 @@
 <token>Rhino.Mocks.RhinoMocksExtensions,AssertWasCalled</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,AssertWasCalled</token>
 </entry>
-<entry count="4">
+<entry count="32">
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.LastCall,On</token>
 <token>Rhino.Mocks.Expect,Call</token>
@@ -2881,13 +2583,6 @@
 <token>Rhino.Mocks.RhinoMocksExtensions,AssertWasCalled</token>
 </entry>
 <entry count="1">
-<token>System.Net.Http.HttpResponseMessage,</token>
-<token>System.Net.Http,</token>
-<token>2.0.0.0]],Out</token>
-<token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
-<token>Rhino.Mocks.Arg`1[[T</token>
-</entry>
-<entry count="1">
 <token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,Stub</token>
@@ -2905,13 +2600,6 @@
 <token>Rhino.Mocks.MockRepository,CreateMock</token>
 <token>Rhino.Mocks.MockRepository,ReplayAll</token>
 <token>Rhino.Mocks.MockRepository,VerifyAll</token>
-</entry>
-<entry count="2">
-<token>p:string],[R</token>
-<token>-&gt;</token>
-<token>p:string]],new</token>
-<token>Rhino.Mocks.RhinoMocksExtensions,Stub</token>
-<token>Rhino.Mocks.Function`2[[T</token>
 </entry>
 <entry count="6">
 <token>Rhino.Mocks.SetupResult,For</token>
@@ -2965,25 +2653,11 @@
 <token>Rhino.Mocks.SetupResult,For</token>
 <token>Rhino.Mocks.MockRepository,ReplayAll</token>
 </entry>
-<entry count="44">
-<token>CacheCow.Common.CacheKey,</token>
-<token>CacheCow.Common]],Matches</token>
-<token>Rhino.Mocks.Arg`1[[T</token>
-<token>-&gt;</token>
-</entry>
-<entry count="32">
+<entry count="1054">
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
 <token>Rhino.Mocks.SetupResult,For</token>
 <token>Rhino.Mocks.SetupResult,For</token>
 <token>Rhino.Mocks.SetupResult,For</token>
-</entry>
-<entry count="5">
-<token>EsentInterop]],Ref</token>
-<token>Rhino.Mocks.Expect,Call</token>
-</entry>
-<entry count="2">
-<token>Cradiator]],Matches</token>
-<token>Rhino.Mocks.RhinoMocksExtensions,AssertWasCalled</token>
 </entry>
 <entry count="9">
 <token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
@@ -2997,15 +2671,21 @@
 <token>Rhino.Mocks.MockRepository,ReplayAll</token>
 <token>Rhino.Mocks.MockRepository,VerifyAll</token>
 </entry>
+<entry count="2">
+<token>Rhino.Mocks.Expect,Call</token>
+<token>Rhino.Mocks.Expect,Call</token>
+<token>Rhino.Mocks.Arg,Matches</token>
+<token>Rhino.Mocks.Expect,Call</token>
+</entry>
+<entry count="6">
+<token>Rhino.Mocks.MockRepository,new</token>
+<token>Rhino.Mocks.MockRepository,StrictMock</token>
+<token>Rhino.Mocks.Arg,Out</token>
+<token>Rhino.Mocks.Expect,Call</token>
+</entry>
 <entry count="4">
 <token>Rhino.Mocks.MockRepository,GenerateStub</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,AssertWasCalled</token>
-</entry>
-<entry count="12">
-<token>-&gt;</token>
-<token>System.Net.Http.HttpResponseMessage,</token>
-<token>System.Net.Http,</token>
-<token>2.0.0.0]],Out</token>
 </entry>
 <entry count="41">
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
@@ -3020,19 +2700,15 @@
 <token>Rhino.Mocks.MockRepository,DynamicMock</token>
 <token>Rhino.Mocks.MockRepository,ReplayAll</token>
 </entry>
-<entry count="13">
-<token>System.Net.Http.HttpResponseMessage,</token>
-<token>System.Net.Http,</token>
+<entry count="8">
+<token>Rhino.Mocks.Arg,Out</token>
+<token>Rhino.Mocks.Expect,Call</token>
 </entry>
 <entry count="3">
 <token>Rhino.Mocks.RhinoMocksExtensions,Stub</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,Stub</token>
 <token>Rhino.Mocks.MockRepository,GenerateStrictMock</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,Stub</token>
-</entry>
-<entry count="5">
-<token>s:Microsoft.Isam.Esent.Interop.JET_INSTANCE,</token>
-<token>EsentInterop]],Ref</token>
 </entry>
 <entry count="1">
 <token>Rhino.Mocks.LastCall,On</token>
@@ -3047,17 +2723,11 @@
 <token>Rhino.Mocks.RhinoMocksExtensions,Stub</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,Stub</token>
 </entry>
-<entry count="4">
-<token>Rhino.Mocks.Function`2[[T</token>
-<token>-&gt;</token>
-<token>ThoughtWorks.CruiseControl.Core.Util.ProcessInfo,</token>
-<token>core],[R</token>
-<token>-&gt;</token>
-</entry>
-<entry count="2">
-<token>p:string]],new</token>
-<token>Rhino.Mocks.RhinoMocksExtensions,Stub</token>
-<token>Rhino.Mocks.Function`2[[T</token>
+<entry count="1">
+<token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
+<token>Rhino.Mocks.Arg,Matches</token>
+<token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
+<token>Rhino.Mocks.MockRepository,ReplayAll</token>
 </entry>
 <entry count="2">
 <token>Rhino.Mocks.MockRepository,DynamicMock</token>
@@ -3074,21 +2744,11 @@
 <token>Rhino.Mocks.LastCall,On</token>
 <token>Rhino.Mocks.MockRepository,CreateMock</token>
 </entry>
-<entry count="4">
-<token>-&gt;</token>
-<token>Cradiator.Model.Skin,</token>
-</entry>
 <entry count="6">
 <token>Rhino.Mocks.MockRepository,GenerateStub</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,Raise</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,Raise</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,Raise</token>
-</entry>
-<entry count="4">
-<token>Rhino.Mocks.Function`2[[T</token>
-<token>-&gt;</token>
-<token>ThoughtWorks.CruiseControl.Core.Util.ProcessInfo,</token>
-<token>core],[R</token>
 </entry>
 <entry count="1">
 <token>Rhino.Mocks.SetupResult,For</token>
@@ -3100,6 +2760,12 @@
 <entry count="6">
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
 <token>Rhino.Mocks.MockRepository,DynamicMock</token>
+<token>Rhino.Mocks.Expect,Call</token>
+</entry>
+<entry count="5">
+<token>Rhino.Mocks.Arg,Out</token>
+<token>Rhino.Mocks.Expect,Call</token>
+<token>Rhino.Mocks.Arg,Ref</token>
 <token>Rhino.Mocks.Expect,Call</token>
 </entry>
 <entry count="10">
@@ -3116,10 +2782,6 @@
 <token>Rhino.Mocks.MockRepository,DynamicMock</token>
 <token>Rhino.Mocks.LastCall,On</token>
 </entry>
-<entry count="122">
-<token>Rhino.Mocks.Arg`1[[T</token>
-<token>-&gt;</token>
-</entry>
 <entry count="2">
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.LastCall,On</token>
@@ -3127,19 +2789,12 @@
 <token>Rhino.Mocks.LastCall,On</token>
 <token>Rhino.Mocks.LastCall,On</token>
 </entry>
-<entry count="12">
+<entry count="3078">
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
 </entry>
-<entry count="2">
-<token>mscorlib,</token>
-<token>4.0.0.0]],Ref</token>
-<token>Rhino.Mocks.Arg`1[[T</token>
-<token>-&gt;</token>
-<token>p:string]],Out</token>
-</entry>
-<entry count="4">
+<entry count="32">
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.LastCall,On</token>
@@ -3148,6 +2803,11 @@
 <entry count="6">
 <token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
 <token>Rhino.Mocks.Arg,Is</token>
+</entry>
+<entry count="2">
+<token>Rhino.Mocks.Arg,Matches</token>
+<token>Rhino.Mocks.Expect,Call</token>
+<token>Rhino.Mocks.MockRepository,ReplayAll</token>
 </entry>
 <entry count="1">
 <token>Rhino.Mocks.RhinoMocksExtensions,AssertWasCalled</token>
@@ -3172,26 +2832,9 @@
 <token>Rhino.Mocks.RhinoMocksExtensions,Stub</token>
 <token>Rhino.Mocks.MockRepository,GenerateStrictMock</token>
 </entry>
-<entry count="178">
+<entry count="3244">
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
 <token>Rhino.Mocks.Expect,Call</token>
-</entry>
-<entry count="1">
-<token>2.0.0.0]],Matches</token>
-<token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
-<token>Rhino.Mocks.MockRepository,ReplayAll</token>
-</entry>
-<entry count="44">
-<token>Rhino.Mocks.MockRepository,new</token>
-<token>Rhino.Mocks.MockRepository,StrictMock</token>
-<token>Rhino.Mocks.Arg`1[[T</token>
-<token>-&gt;</token>
-</entry>
-<entry count="4">
-<token>Rhino.Mocks.Arg`1[[T</token>
-<token>-&gt;</token>
-<token>Cradiator.Model.Skin,</token>
-<token>Cradiator]],Matches</token>
 </entry>
 <entry count="15">
 <token>Rhino.Mocks.SetupResult,For</token>
@@ -3251,15 +2894,16 @@
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.SetupResult,For</token>
 </entry>
-<entry count="153">
+<entry count="237">
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
 </entry>
-<entry count="2">
-<token>4.0.0.0]],Ref</token>
-<token>Rhino.Mocks.Arg`1[[T</token>
-<token>-&gt;</token>
-<token>p:string]],Out</token>
+<entry count="8">
+<token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
+<token>Rhino.Mocks.Arg,Matches</token>
+<token>Rhino.Mocks.Arg,Matches</token>
+<token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
+<token>Rhino.Mocks.MockRepository,ReplayAll</token>
 </entry>
 <entry count="39">
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
@@ -3278,13 +2922,6 @@
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.MockRepository,ReplayAll</token>
 </entry>
-<entry count="5">
-<token>Rhino.Mocks.Expect,Call</token>
-<token>Rhino.Mocks.Arg`1[[T</token>
-<token>-&gt;</token>
-<token>s:Microsoft.Isam.Esent.Interop.JET_INSTANCE,</token>
-<token>EsentInterop]],Ref</token>
-</entry>
 <entry count="1">
 <token>Rhino.Mocks.MockRepository,Stub</token>
 <token>Rhino.Mocks.Expect,Call</token>
@@ -3296,23 +2933,11 @@
 <token>Rhino.Mocks.RhinoMocksExtensions,Stub</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,Stub</token>
 </entry>
-<entry count="1">
-<token>System.Net.Http,</token>
-<token>2.0.0.0]],Matches</token>
-<token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
-</entry>
 <entry count="4">
 <token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
 <token>Rhino.Mocks.MockRepository,GenerateMock</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
-</entry>
-<entry count="8">
-<token>-&gt;</token>
-<token>CacheCow.Common.TimedEntityTagHeaderValue,</token>
-<token>CacheCow.Common]],Matches</token>
-<token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
-<token>Rhino.Mocks.MockRepository,ReplayAll</token>
 </entry>
 <entry count="1">
 <token>Rhino.Mocks.RhinoMocksExtensions,Stub</token>
@@ -3325,31 +2950,15 @@
 <token>Rhino.Mocks.MockRepository,ReplayAll</token>
 <token>Rhino.Mocks.MockRepository,VerifyAll</token>
 </entry>
-<entry count="44">
-<token>Rhino.Mocks.MockRepository,new</token>
-<token>Rhino.Mocks.MockRepository,StrictMock</token>
-<token>Rhino.Mocks.Arg`1[[T</token>
-</entry>
 <entry count="10">
 <token>Rhino.Mocks.MockRepository,GenerateMock</token>
 <token>Rhino.Mocks.MockRepository,GenerateMock</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,Stub</token>
 </entry>
 <entry count="2">
-<token>p:string]],new</token>
-<token>Rhino.Mocks.RhinoMocksExtensions,Stub</token>
-<token>Rhino.Mocks.Function`2[[T</token>
-<token>-&gt;</token>
-</entry>
-<entry count="2">
 <token>Rhino.Mocks.SetupResult,For</token>
 <token>Rhino.Mocks.LastCall,IgnoreArguments</token>
 <token>Rhino.Mocks.MockRepository,ReplayAll</token>
-</entry>
-<entry count="4">
-<token>core],[R</token>
-<token>-&gt;</token>
-<token>ThoughtWorks.CruiseControl.Core.Util.ProcessResult,</token>
 </entry>
 <entry count="2">
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
@@ -3366,10 +2975,6 @@
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.MockRepository,ReplayAll</token>
 </entry>
-<entry count="8">
-<token>Rhino.Mocks.Function`2[[T</token>
-<token>-&gt;</token>
-</entry>
 <entry count="6">
 <token>Rhino.Mocks.SetupResult,For</token>
 <token>Rhino.Mocks.SetupResult,For</token>
@@ -3377,19 +2982,17 @@
 <token>Rhino.Mocks.MockRepository,ReplayAll</token>
 <token>Rhino.Mocks.MockRepository,VerifyAll</token>
 </entry>
+<entry count="1">
+<token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
+<token>Rhino.Mocks.Arg,Matches</token>
+<token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
+</entry>
 <entry count="2">
 <token>Rhino.Mocks.MockRepository,DynamicMock</token>
 <token>Rhino.Mocks.Expect,On</token>
 <token>Rhino.Mocks.LastCall,On</token>
 <token>Rhino.Mocks.MockRepository,ReplayAll</token>
 <token>Rhino.Mocks.MockRepository,VerifyAll</token>
-</entry>
-<entry count="8">
-<token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
-<token>Rhino.Mocks.Arg`1[[T</token>
-<token>-&gt;</token>
-<token>CacheCow.Common.CacheKey,</token>
-<token>CacheCow.Common]],Matches</token>
 </entry>
 <entry count="2">
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
@@ -3429,6 +3032,10 @@
 <token>Rhino.Mocks.SetupResult,For</token>
 <token>Rhino.Mocks.SetupResult,For</token>
 </entry>
+<entry count="9">
+<token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
+<token>Rhino.Mocks.Arg,Matches</token>
+</entry>
 <entry count="4">
 <token>Rhino.Mocks.MockRepository,GenerateStub</token>
 <token>Rhino.Mocks.MockRepository,GenerateStub</token>
@@ -3441,19 +3048,10 @@
 <token>Rhino.Mocks.MockRepository,GenerateStub</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,AssertWasCalled</token>
 </entry>
-<entry count="2">
-<token>4.0.0.0]],Ref</token>
-<token>Rhino.Mocks.Arg`1[[T</token>
-<token>-&gt;</token>
-</entry>
 <entry count="1">
 <token>Rhino.Mocks.RhinoMocksExtensions,AssertWasCalled</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,AssertWasCalled</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,AssertWasNotCalled</token>
-</entry>
-<entry count="4">
-<token>ThoughtWorks.CruiseControl.Core.Util.ProcessInfo,</token>
-<token>core],[R</token>
 </entry>
 <entry count="1">
 <token>Rhino.Mocks.MockRepository,CreateMock</token>
@@ -3488,13 +3086,6 @@
 <token>Rhino.Mocks.MockRepository,VerifyAll</token>
 </entry>
 <entry count="7">
-<token>System.Net.Http,</token>
-<token>2.0.0.0]],Out</token>
-<token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
-<token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
-<token>Rhino.Mocks.MockRepository,ReplayAll</token>
-</entry>
-<entry count="7">
 <token>Rhino.Mocks.MockRepository,DynamicMock</token>
 <token>Rhino.Mocks.MockRepository,DynamicMock</token>
 <token>Rhino.Mocks.Expect,Call</token>
@@ -3504,18 +3095,6 @@
 <token>Rhino.Mocks.LastCall,On</token>
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
-</entry>
-<entry count="1">
-<token>Cradiator]],Matches</token>
-<token>Rhino.Mocks.Arg`1[[T</token>
-<token>-&gt;</token>
-</entry>
-<entry count="2">
-<token>Rhino.Mocks.SetupResult,For</token>
-<token>Rhino.Mocks.Expect,Call</token>
-<token>Rhino.Mocks.Expect,Call</token>
-<token>Rhino.Mocks.Arg`1[[T</token>
-<token>-&gt;</token>
 </entry>
 <entry count="16">
 <token>Rhino.Mocks.RhinoMocksExtensions,Raise</token>
@@ -3541,7 +3120,7 @@
 <token>Rhino.Mocks.MockRepository,GenerateMock</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,Stub</token>
 </entry>
-<entry count="90">
+<entry count="2138">
 <token>Rhino.Mocks.SetupResult,For</token>
 <token>Rhino.Mocks.SetupResult,For</token>
 <token>Rhino.Mocks.SetupResult,For</token>
@@ -3551,12 +3130,6 @@
 <token>Rhino.Mocks.RhinoMocksExtensions,AssertWasCalled</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,AssertWasCalled</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,GetArgumentsForCallsMadeOn</token>
-</entry>
-<entry count="2">
-<token>Rhino.Mocks.Expect,Call</token>
-<token>Rhino.Mocks.Arg`1[[T</token>
-<token>-&gt;</token>
-<token>ThoughtWorks.CruiseControl.Core.Tasks.GeneralTaskResult,</token>
 </entry>
 <entry count="7">
 <token>Rhino.Mocks.Expect,Call</token>
@@ -3587,6 +3160,11 @@
 <token>Rhino.Mocks.MockRepository,DynamicMock</token>
 <token>Rhino.Mocks.SetupResult,For</token>
 <token>Rhino.Mocks.SetupResult,For</token>
+</entry>
+<entry count="36">
+<token>Rhino.Mocks.MockRepository,StrictMock</token>
+<token>Rhino.Mocks.Arg,Matches</token>
+<token>Rhino.Mocks.Arg,Out</token>
 </entry>
 <entry count="4">
 <token>Rhino.Mocks.Expect,Call</token>
@@ -3623,11 +3201,21 @@
 <token>Rhino.Mocks.RhinoMocksExtensions,Raise</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,Raise</token>
 </entry>
+<entry count="8">
+<token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
+<token>Rhino.Mocks.Arg,Matches</token>
+<token>Rhino.Mocks.Arg,Matches</token>
+</entry>
 <entry count="1">
 <token>Rhino.Mocks.RhinoMocksExtensions,AssertWasNotCalled</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,AssertWasCalled</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,AssertWasCalled</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,AssertWasCalled</token>
+</entry>
+<entry count="2">
+<token>Rhino.Mocks.SetupResult,For</token>
+<token>Rhino.Mocks.Expect,Call</token>
+<token>Rhino.Mocks.SetupResult,For</token>
 </entry>
 <entry count="1">
 <token>Rhino.Mocks.MockRepository,Stub</token>
@@ -3636,11 +3224,6 @@
 <token>Rhino.Mocks.MockRepository,Record</token>
 <token>Rhino.Mocks.SetupResult,For</token>
 </entry>
-<entry count="4">
-<token>-&gt;</token>
-<token>Cradiator.Model.Skin,</token>
-<token>Cradiator]],Matches</token>
-</entry>
 <entry count="2">
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
@@ -3648,7 +3231,7 @@
 <token>Rhino.Mocks.MockRepository,ReplayAll</token>
 <token>Rhino.Mocks.MockRepository,VerifyAll</token>
 </entry>
-<entry count="178">
+<entry count="1280">
 <token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
 </entry>
@@ -3657,12 +3240,6 @@
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
 <token>Rhino.Mocks.SetupResult,For</token>
 <token>Rhino.Mocks.SetupResult,For</token>
-</entry>
-<entry count="4">
-<token>Rhino.Mocks.Expect,Call</token>
-<token>Rhino.Mocks.Function`2[[T</token>
-<token>-&gt;</token>
-<token>ThoughtWorks.CruiseControl.Core.Util.ProcessInfo,</token>
 </entry>
 <entry count="18">
 <token>Rhino.Mocks.RhinoMocksExtensions,VerifyAllExpectations</token>
@@ -3686,13 +3263,6 @@
 <token>Rhino.Mocks.RhinoMocksExtensions,AssertWasCalled</token>
 </entry>
 <entry count="2">
-<token>-&gt;</token>
-<token>s:System.IntPtr,</token>
-<token>mscorlib,</token>
-<token>4.0.0.0]],Ref</token>
-<token>Rhino.Mocks.Arg`1[[T</token>
-</entry>
-<entry count="2">
 <token>Rhino.Mocks.RhinoMocksExtensions,Stub</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,Stub</token>
@@ -3704,10 +3274,6 @@
 <token>Rhino.Mocks.MockRepository,Stub</token>
 <token>Rhino.Mocks.SetupResult,For</token>
 <token>Rhino.Mocks.SetupResult,For</token>
-</entry>
-<entry count="2">
-<token>4.0.0.0]],Ref</token>
-<token>Rhino.Mocks.Arg`1[[T</token>
 </entry>
 <entry count="2">
 <token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
@@ -3722,11 +3288,6 @@
 <token>Rhino.Mocks.MockRepository,GenerateStub</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,Stub</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
-</entry>
-<entry count="4">
-<token>Rhino.Mocks.Arg`1[[T</token>
-<token>-&gt;</token>
-<token>Cradiator.Model.Skin,</token>
 </entry>
 <entry count="2">
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
@@ -3751,22 +3312,15 @@
 <token>Rhino.Mocks.MockRepository,ReplayAll</token>
 <token>Rhino.Mocks.MockRepository,VerifyAll</token>
 </entry>
-<entry count="8">
-<token>CacheCow.Common.TimedEntityTagHeaderValue,</token>
-<token>CacheCow.Common]],Matches</token>
-<token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
-<token>Rhino.Mocks.MockRepository,ReplayAll</token>
-</entry>
 <entry count="15">
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
 <token>Rhino.Mocks.SetupResult,For</token>
 <token>Rhino.Mocks.Expect,Call</token>
 </entry>
-<entry count="8">
-<token>Rhino.Mocks.Arg`1[[T</token>
-<token>-&gt;</token>
-<token>CacheCow.Common.TimedEntityTagHeaderValue,</token>
-<token>CacheCow.Common]],Matches</token>
+<entry count="2">
+<token>Rhino.Mocks.Expect,Call</token>
+<token>Rhino.Mocks.Arg,Matches</token>
+<token>Rhino.Mocks.Expect,Call</token>
 </entry>
 <entry count="2">
 <token>Rhino.Mocks.LastCall,On</token>
@@ -3780,23 +3334,9 @@
 <token>Rhino.Mocks.MockRepository,GenerateStub</token>
 </entry>
 <entry count="2">
-<token>4.0.0.0]],Ref</token>
-<token>Rhino.Mocks.Arg`1[[T</token>
-<token>-&gt;</token>
-<token>p:string]],Out</token>
-<token>Rhino.Mocks.Expect,Call</token>
-</entry>
-<entry count="2">
 <token>Rhino.Mocks.RhinoMocksExtensions,Stub</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,Stub</token>
-</entry>
-<entry count="2">
-<token>Rhino.Mocks.Arg`1[[T</token>
-<token>-&gt;</token>
-<token>Cradiator.Model.Skin,</token>
-<token>Cradiator]],Matches</token>
-<token>Rhino.Mocks.RhinoMocksExtensions,AssertWasCalled</token>
 </entry>
 <entry count="1">
 <token>Rhino.Mocks.SetupResult,For</token>
@@ -3804,10 +3344,10 @@
 <token>Rhino.Mocks.SetupResult,For</token>
 <token>Rhino.Mocks.MockRepository,ReplayAll</token>
 </entry>
-<entry count="6">
-<token>s:Microsoft.Isam.Esent.Interop.JET_INSTANCE,</token>
-<token>EsentInterop]],Out</token>
-<token>Rhino.Mocks.Expect,Call</token>
+<entry count="32">
+<token>Rhino.Mocks.Arg,Out</token>
+<token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
+<token>Rhino.Mocks.MockRepository,ReplayAll</token>
 </entry>
 <entry count="3">
 <token>Rhino.Mocks.MockRepository,DynamicMock</token>
@@ -3827,24 +3367,11 @@
 <token>Rhino.Mocks.RhinoMocksExtensions,Stub</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
 </entry>
-<entry count="12">
+<entry count="1035">
 <token>Rhino.Mocks.SetupResult,For</token>
 <token>Rhino.Mocks.SetupResult,For</token>
 <token>Rhino.Mocks.SetupResult,For</token>
 <token>Rhino.Mocks.Expect,Call</token>
-</entry>
-<entry count="36">
-<token>CacheCow.Common]],Matches</token>
-<token>Rhino.Mocks.Arg`1[[T</token>
-<token>-&gt;</token>
-<token>CacheCow.Common.TimedEntityTagHeaderValue,</token>
-<token>CacheCow.Common]],Out</token>
-</entry>
-<entry count="6">
-<token>Rhino.Mocks.MockRepository,StrictMock</token>
-<token>Rhino.Mocks.Arg`1[[T</token>
-<token>-&gt;</token>
-<token>s:Microsoft.Isam.Esent.Interop.JET_INSTANCE,</token>
 </entry>
 <entry count="2">
 <token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
@@ -3869,7 +3396,7 @@
 <token>Rhino.Mocks.RhinoMocksExtensions,Stub</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,Stub</token>
 </entry>
-<entry count="6">
+<entry count="2050">
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
@@ -3926,6 +3453,11 @@
 <token>Rhino.Mocks.SetupResult,For</token>
 <token>Rhino.Mocks.MockRepository,DynamicMock</token>
 </entry>
+<entry count="8">
+<token>Rhino.Mocks.Arg,Matches</token>
+<token>Rhino.Mocks.Arg,Matches</token>
+<token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
+</entry>
 <entry count="4">
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.MockRepository,ReplayAll</token>
@@ -3943,12 +3475,6 @@
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
 <token>Rhino.Mocks.SetupResult,For</token>
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
-</entry>
-<entry count="2">
-<token>-&gt;</token>
-<token>p:string]],new</token>
-<token>Rhino.Mocks.RhinoMocksExtensions,Stub</token>
-<token>Rhino.Mocks.Function`2[[T</token>
 </entry>
 <entry count="2">
 <token>Rhino.Mocks.Expect,Call</token>
@@ -3969,18 +3495,17 @@
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
 <token>Rhino.Mocks.MockRepository,ReplayAll</token>
 </entry>
+<entry count="7">
+<token>Rhino.Mocks.Arg,Out</token>
+<token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
+<token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
+</entry>
 <entry count="2">
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.MockRepository,ReplayAll</token>
-</entry>
-<entry count="2">
-<token>Rhino.Mocks.Arg`1[[T</token>
-<token>-&gt;</token>
-<token>p:string]],Out</token>
-<token>Rhino.Mocks.Expect,Call</token>
 </entry>
 <entry count="2">
 <token>Rhino.Mocks.MockRepository,new</token>
@@ -3995,13 +3520,17 @@
 <token>Rhino.Mocks.MockRepository,ReplayAll</token>
 </entry>
 <entry count="2">
-<token>core]],Matches</token>
-<token>Rhino.Mocks.Expect,Call</token>
+<token>Rhino.Mocks.RhinoMocksExtensions,Stub</token>
+<token>Rhino.Mocks.Function,new</token>
+<token>Rhino.Mocks.RhinoMocksExtensions,Stub</token>
+<token>Rhino.Mocks.Function,new</token>
 </entry>
 <entry count="1">
-<token>2.0.0.0]],Out</token>
-<token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
-<token>Rhino.Mocks.Arg`1[[T</token>
+<token>Rhino.Mocks.Arg,Ref</token>
+<token>Rhino.Mocks.Expect,Call</token>
+<token>Rhino.Mocks.Expect,Call</token>
+<token>Rhino.Mocks.MockRepository,ReplayAll</token>
+<token>Rhino.Mocks.MockRepository,VerifyAll</token>
 </entry>
 <entry count="2">
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
@@ -4019,17 +3548,6 @@
 <token>Rhino.Mocks.LastCall,IgnoreArguments</token>
 <token>Rhino.Mocks.MockRepository,ReplayAll</token>
 </entry>
-<entry count="2">
-<token>-&gt;</token>
-<token>p:string]],new</token>
-<token>Rhino.Mocks.RhinoMocksExtensions,Stub</token>
-</entry>
-<entry count="1">
-<token>Cradiator]],Matches</token>
-<token>Rhino.Mocks.Arg`1[[T</token>
-<token>-&gt;</token>
-<token>Cradiator.Model.Skin,</token>
-</entry>
 <entry count="1">
 <token>Rhino.Mocks.LastCall,Constraints</token>
 <token>Rhino.Mocks.MockRepository,VerifyAll</token>
@@ -4043,6 +3561,10 @@
 <token>Rhino.Mocks.LastCall,On</token>
 <token>Rhino.Mocks.LastCall,On</token>
 <token>Rhino.Mocks.MockRepository,ReplayAll</token>
+</entry>
+<entry count="2">
+<token>Rhino.Mocks.Arg,Ref</token>
+<token>Rhino.Mocks.Arg,Out</token>
 </entry>
 <entry count="3">
 <token>Rhino.Mocks.MockRepository,GenerateMock</token>
@@ -4064,13 +3586,6 @@
 <token>Rhino.Mocks.MockRepository,DynamicMock</token>
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.MockRepository,DynamicMock</token>
-</entry>
-<entry count="36">
-<token>Rhino.Mocks.MockRepository,new</token>
-<token>Rhino.Mocks.MockRepository,StrictMock</token>
-<token>Rhino.Mocks.Arg`1[[T</token>
-<token>-&gt;</token>
-<token>CacheCow.Common.CacheKey,</token>
 </entry>
 <entry count="2">
 <token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
@@ -4096,43 +3611,18 @@
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.MockRepository,CreateMock</token>
 </entry>
-<entry count="8">
-<token>-&gt;</token>
-<token>CacheCow.Common.TimedEntityTagHeaderValue,</token>
-<token>CacheCow.Common]],Matches</token>
-<token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
-</entry>
 <entry count="2">
 <token>Rhino.Mocks.MockRepository,GenerateMock</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,Stub</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,VerifyAllExpectations</token>
 </entry>
-<entry count="13">
+<entry count="41">
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
 <token>Rhino.Mocks.MockRepository,Ordered</token>
 </entry>
-<entry count="4">
-<token>Rhino.Mocks.Function`2[[T</token>
-<token>-&gt;</token>
-<token>p:string],[R</token>
-</entry>
-<entry count="2">
-<token>Rhino.Mocks.MockRepository,new</token>
-<token>Rhino.Mocks.MockRepository,StrictMock</token>
-<token>Rhino.Mocks.Arg`1[[T</token>
-<token>-&gt;</token>
-<token>s:System.IntPtr,</token>
-</entry>
-<entry count="2">
-<token>Rhino.Mocks.MockRepository,StrictMock</token>
-<token>Rhino.Mocks.Arg`1[[T</token>
-<token>-&gt;</token>
-<token>s:System.IntPtr,</token>
-<token>mscorlib,</token>
-</entry>
-<entry count="10">
+<entry count="12">
 <token>Rhino.Mocks.MockRepository,new</token>
 <token>Rhino.Mocks.MockRepository,DynamicMock</token>
 <token>Rhino.Mocks.MockRepository,ReplayAll</token>
@@ -4144,11 +3634,11 @@
 <token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
 <token>Rhino.Mocks.MockRepository,GenerateMock</token>
 </entry>
-<entry count="5">
-<token>-&gt;</token>
-<token>s:Microsoft.Isam.Esent.Interop.JET_INSTANCE,</token>
-<token>EsentInterop]],Ref</token>
-<token>Rhino.Mocks.Expect,Call</token>
+<entry count="8">
+<token>Rhino.Mocks.Arg,Matches</token>
+<token>Rhino.Mocks.Arg,Out</token>
+<token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
+<token>Rhino.Mocks.Arg,Matches</token>
 </entry>
 <entry count="9">
 <token>Rhino.Mocks.MockRepository,Ordered</token>
@@ -4165,17 +3655,12 @@
 <token>Rhino.Mocks.MockRepository,ReplayAll</token>
 <token>Rhino.Mocks.MockRepository,VerifyAll</token>
 </entry>
-<entry count="5">
+<entry count="33">
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.LastCall,On</token>
 <token>Rhino.Mocks.LastCall,On</token>
 <token>Rhino.Mocks.MockRepository,ReplayAll</token>
 <token>Rhino.Mocks.MockRepository,VerifyAll</token>
-</entry>
-<entry count="1">
-<token>EsentInterop]],Out</token>
-<token>Rhino.Mocks.Expect,Call</token>
-<token>Rhino.Mocks.MockRepository,ReplayAll</token>
 </entry>
 <entry count="1">
 <token>Rhino.Mocks.MockRepository,Record</token>
@@ -4183,7 +3668,7 @@
 <token>Rhino.Mocks.LastCall,Constraints</token>
 <token>Rhino.Mocks.MockRepository,VerifyAll</token>
 </entry>
-<entry count="28">
+<entry count="62">
 <token>Rhino.Mocks.MockRepository,Ordered</token>
 <token>Rhino.Mocks.Expect,Call</token>
 </entry>
@@ -4214,7 +3699,7 @@
 <token>Rhino.Mocks.MockRepository,ReplayAll</token>
 <token>Rhino.Mocks.MockRepository,VerifyAll</token>
 </entry>
-<entry count="91">
+<entry count="3157">
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.Expect,Call</token>
@@ -4250,10 +3735,8 @@
 <token>Rhino.Mocks.RhinoMocksExtensions,AssertWasCalled</token>
 </entry>
 <entry count="2">
-<token>ThoughtWorks.CruiseControl.Core.Tasks.GeneralTaskResult,</token>
-<token>core]],Matches</token>
-<token>Rhino.Mocks.Expect,Call</token>
-<token>Rhino.Mocks.MockRepository,ReplayAll</token>
+<token>Rhino.Mocks.Arg,Matches</token>
+<token>Rhino.Mocks.RhinoMocksExtensions,AssertWasCalled</token>
 </entry>
 <entry count="1">
 <token>Rhino.Mocks.MockRepository,GenerateStub</token>
@@ -4265,6 +3748,10 @@
 <token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
 <token>Rhino.Mocks.Arg,Is</token>
+</entry>
+<entry count="2">
+<token>Rhino.Mocks.MockRepository,StrictMock</token>
+<token>Rhino.Mocks.Arg,Ref</token>
 </entry>
 <entry count="1">
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
@@ -4290,11 +3777,6 @@
 <token>Rhino.Mocks.MockRepository,DynamicMock</token>
 </entry>
 <entry count="2">
-<token>core]],Matches</token>
-<token>Rhino.Mocks.Expect,Call</token>
-<token>Rhino.Mocks.MockRepository,ReplayAll</token>
-</entry>
-<entry count="2">
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
@@ -4305,11 +3787,6 @@
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.LastCall,On</token>
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
-</entry>
-<entry count="8">
-<token>CacheCow.Common]],Matches</token>
-<token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
-<token>Rhino.Mocks.MockRepository,ReplayAll</token>
 </entry>
 <entry count="1">
 <token>Rhino.Mocks.LastCall,On</token>
@@ -4357,10 +3834,6 @@
 <token>Rhino.Mocks.MockRepository,DynamicMock</token>
 <token>Rhino.Mocks.Expect,Call</token>
 </entry>
-<entry count="2">
-<token>-&gt;</token>
-<token>ThoughtWorks.CruiseControl.Core.Tasks.GeneralTaskResult,</token>
-</entry>
 <entry count="1">
 <token>Rhino.Mocks.MockRepository,Stub</token>
 <token>Rhino.Mocks.MockRepository,Stub</token>
@@ -4375,24 +3848,9 @@
 <token>Rhino.Mocks.MockRepository,GenerateMock</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
 </entry>
-<entry count="8">
-<token>CacheCow.Common.TimedEntityTagHeaderValue,</token>
-<token>CacheCow.Common]],Matches</token>
-</entry>
-<entry count="44">
-<token>Rhino.Mocks.Arg`1[[T</token>
-<token>-&gt;</token>
-<token>CacheCow.Common.CacheKey,</token>
-</entry>
-<entry count="2">
-<token>Rhino.Mocks.Arg`1[[T</token>
-<token>-&gt;</token>
-<token>s:System.IntPtr,</token>
-</entry>
-<entry count="4">
-<token>-&gt;</token>
-<token>ThoughtWorks.CruiseControl.Core.Util.ProcessResult,</token>
-<token>core]],new</token>
+<entry count="5">
+<token>Rhino.Mocks.Expect,Call</token>
+<token>Rhino.Mocks.Arg,Ref</token>
 </entry>
 <entry count="2">
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
@@ -4400,13 +3858,6 @@
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
 <token>Rhino.Mocks.MockRepository,DynamicMock</token>
 <token>Rhino.Mocks.Expect,Call</token>
-</entry>
-<entry count="2">
-<token>Rhino.Mocks.Arg`1[[T</token>
-<token>-&gt;</token>
-<token>p:string]],Out</token>
-<token>Rhino.Mocks.Expect,Call</token>
-<token>Rhino.Mocks.MockRepository,ReplayAll</token>
 </entry>
 <entry count="1">
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
@@ -4418,23 +3869,13 @@
 <token>Rhino.Mocks.MockRepository,PartialMock</token>
 <token>Rhino.Mocks.MockRepository,DynamicMock</token>
 </entry>
-<entry count="5">
-<token>s:Microsoft.Isam.Esent.Interop.JET_INSTANCE,</token>
-<token>EsentInterop]],Out</token>
-<token>Rhino.Mocks.Expect,Call</token>
-<token>Rhino.Mocks.Arg`1[[T</token>
-<token>-&gt;</token>
-</entry>
 <entry count="14">
 <token>Rhino.Mocks.RhinoMocksExtensions,AssertWasCalled</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,AssertWasNotCalled</token>
 </entry>
-<entry count="8">
-<token>CacheCow.Common.TimedEntityTagHeaderValue,</token>
-<token>CacheCow.Common]],Matches</token>
-<token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
-<token>Rhino.Mocks.MockRepository,ReplayAll</token>
-<token>Rhino.Mocks.MockRepository,VerifyAll</token>
+<entry count="9">
+<token>Rhino.Mocks.Arg,Matches</token>
+<token>Rhino.Mocks.Arg,Matches</token>
 </entry>
 <entry count="1">
 <token>Rhino.Mocks.MockRepository,GenerateStub</token>
@@ -4543,12 +3984,6 @@
 <token>Rhino.Mocks.SetupResult,For</token>
 <token>Rhino.Mocks.LastCall,IgnoreArguments</token>
 <token>Rhino.Mocks.LastCall,GetEventRaiser</token>
-</entry>
-<entry count="1">
-<token>EsentInterop]],Ref</token>
-<token>Rhino.Mocks.Expect,Call</token>
-<token>Rhino.Mocks.Expect,Call</token>
-<token>Rhino.Mocks.MockRepository,ReplayAll</token>
 </entry>
 <entry count="2">
 <token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
@@ -4603,6 +4038,12 @@
 <token>Rhino.Mocks.MockRepository,Playback</token>
 </entry>
 <entry count="1">
+<token>Rhino.Mocks.MockRepository,StrictMock</token>
+<token>Rhino.Mocks.Arg,Out</token>
+<token>Rhino.Mocks.Expect,Call</token>
+<token>Rhino.Mocks.MockRepository,ReplayAll</token>
+</entry>
+<entry count="1">
 <token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,Stub</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
@@ -4615,12 +4056,6 @@
 <token>Rhino.Mocks.LastCall,On</token>
 <token>Rhino.Mocks.MockRepository,ReplayAll</token>
 <token>Rhino.Mocks.MockRepository,VerifyAll</token>
-</entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>System.Net.Http.HttpResponseMessage,</token>
-<token>System.Net.Http,</token>
-<token>2.0.0.0]],Matches</token>
 </entry>
 <entry count="7">
 <token>Rhino.Mocks.RhinoMocksExtensions,Stub</token>
@@ -4646,31 +4081,12 @@
 <token>Rhino.Mocks.SetupResult,For</token>
 <token>Rhino.Mocks.MockRepository,ReplayAll</token>
 </entry>
-<entry count="1">
-<token>2.0.0.0]],Matches</token>
-<token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
-<token>Rhino.Mocks.MockRepository,ReplayAll</token>
-<token>Rhino.Mocks.MockRepository,VerifyAll</token>
-</entry>
-<entry count="4">
-<token>Rhino.Mocks.RhinoMocksExtensions,Stub</token>
-<token>Rhino.Mocks.Function`2[[T</token>
-<token>-&gt;</token>
-<token>p:string],[R</token>
-<token>-&gt;</token>
-</entry>
 <entry count="5">
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.MockRepository,DynamicMock</token>
 <token>Rhino.Mocks.Expect,Call</token>
-</entry>
-<entry count="44">
-<token>-&gt;</token>
-<token>CacheCow.Common.CacheKey,</token>
-<token>CacheCow.Common]],Matches</token>
-<token>Rhino.Mocks.Arg`1[[T</token>
 </entry>
 <entry count="9">
 <token>Rhino.Mocks.MockRepository,GenerateMock</token>
@@ -4684,40 +4100,20 @@
 <token>Rhino.Mocks.MockRepository,GenerateMock</token>
 <token>Rhino.Mocks.MockRepository,GenerateMock</token>
 </entry>
-<entry count="28">
-<token>-&gt;</token>
-<token>CacheCow.Common.TimedEntityTagHeaderValue,</token>
-<token>CacheCow.Common]],Out</token>
-<token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
-<token>Rhino.Mocks.MockRepository,ReplayAll</token>
-</entry>
 <entry count="7">
 <token>Rhino.Mocks.MockRepository,GenerateMock</token>
 <token>Rhino.Mocks.Arg,Is</token>
 </entry>
-<entry count="2">
+<entry count="1024">
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
 <token>Rhino.Mocks.SetupResult,For</token>
 </entry>
-<entry count="7">
-<token>System.Net.Http,</token>
-<token>2.0.0.0]],Out</token>
-<token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
-<token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
-</entry>
 <entry count="10">
 <token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
 <token>Rhino.Mocks.MockRepository,GenerateMock</token>
-</entry>
-<entry count="2">
-<token>Rhino.Mocks.Expect,Call</token>
-<token>Rhino.Mocks.Arg`1[[T</token>
-<token>-&gt;</token>
-<token>ThoughtWorks.CruiseControl.Core.Tasks.GeneralTaskResult,</token>
-<token>core]],Matches</token>
 </entry>
 <entry count="4">
 <token>Rhino.Mocks.MockRepository,Record</token>
@@ -4753,16 +4149,6 @@
 <token>Rhino.Mocks.MockRepository,DynamicMock</token>
 <token>Rhino.Mocks.SetupResult,For</token>
 <token>Rhino.Mocks.SetupResult,For</token>
-</entry>
-<entry count="1">
-<token>2.0.0.0]],Matches</token>
-<token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
-</entry>
-<entry count="6">
-<token>-&gt;</token>
-<token>s:Microsoft.Isam.Esent.Interop.JET_INSTANCE,</token>
-<token>EsentInterop]],Out</token>
-<token>Rhino.Mocks.Expect,Call</token>
 </entry>
 <entry count="1">
 <token>Rhino.Mocks.MockRepository,Stub</token>
@@ -4808,36 +4194,6 @@
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.Expect,Call</token>
 </entry>
-<entry count="1">
-<token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
-<token>Rhino.Mocks.Arg`1[[T</token>
-<token>-&gt;</token>
-<token>System.Net.Http.HttpResponseMessage,</token>
-<token>System.Net.Http,</token>
-</entry>
-<entry count="12">
-<token>-&gt;</token>
-<token>System.Net.Http.HttpResponseMessage,</token>
-<token>System.Net.Http,</token>
-<token>2.0.0.0]],Out</token>
-<token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
-</entry>
-<entry count="4">
-<token>System.Net.Http,</token>
-<token>2.0.0.0]],Out</token>
-<token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
-<token>Rhino.Mocks.MockRepository,ReplayAll</token>
-</entry>
-<entry count="36">
-<token>CacheCow.Common]],Out</token>
-<token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
-</entry>
-<entry count="1">
-<token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
-<token>Rhino.Mocks.Arg`1[[T</token>
-<token>-&gt;</token>
-<token>System.Net.Http.HttpResponseMessage,</token>
-</entry>
 <entry count="13">
 <token>Rhino.Mocks.MockRepository,DynamicMock</token>
 <token>Rhino.Mocks.MockRepository,Stub</token>
@@ -4895,10 +4251,6 @@
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.Expect,Call</token>
 </entry>
-<entry count="7">
-<token>Rhino.Mocks.Expect,Call</token>
-<token>Rhino.Mocks.Arg`1[[T</token>
-</entry>
 <entry count="1">
 <token>Rhino.Mocks.MockRepository,CreateMock</token>
 <token>Rhino.Mocks.Expect,Call</token>
@@ -4910,13 +4262,6 @@
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.MockRepository,CreateMock</token>
 </entry>
-<entry count="5">
-<token>EsentInterop]],Out</token>
-<token>Rhino.Mocks.Expect,Call</token>
-<token>Rhino.Mocks.Arg`1[[T</token>
-<token>-&gt;</token>
-<token>s:Microsoft.Isam.Esent.Interop.JET_INSTANCE,</token>
-</entry>
 <entry count="12">
 <token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
 <token>Rhino.Mocks.MockRepository,GenerateMock</token>
@@ -4924,9 +4269,9 @@
 <token>Rhino.Mocks.MockRepository,GenerateMock</token>
 <token>Rhino.Mocks.MockRepository,GenerateMock</token>
 </entry>
-<entry count="2">
-<token>ThoughtWorks.CruiseControl.Core.Tasks.GeneralTaskResult,</token>
-<token>core]],Matches</token>
+<entry count="6">
+<token>Rhino.Mocks.MockRepository,StrictMock</token>
+<token>Rhino.Mocks.Arg,Out</token>
 <token>Rhino.Mocks.Expect,Call</token>
 </entry>
 <entry count="1">
@@ -4965,9 +4310,11 @@
 <token>Rhino.Mocks.SetupResult,For</token>
 <token>Rhino.Mocks.MockRepository,DynamicMock</token>
 </entry>
-<entry count="9">
+<entry count="8">
+<token>Rhino.Mocks.Arg,Matches</token>
+<token>Rhino.Mocks.Arg,Matches</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
-<token>Rhino.Mocks.Arg`1[[T</token>
+<token>Rhino.Mocks.MockRepository,ReplayAll</token>
 </entry>
 <entry count="1">
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
@@ -4998,7 +4345,7 @@
 <token>Rhino.Mocks.MockRepository,PartialMock</token>
 <token>Rhino.Mocks.MockRepository,Ordered</token>
 </entry>
-<entry count="27">
+<entry count="55">
 <token>Rhino.Mocks.LastCall,On</token>
 <token>Rhino.Mocks.MockRepository,ReplayAll</token>
 <token>Rhino.Mocks.MockRepository,VerifyAll</token>
@@ -5016,10 +4363,6 @@
 <token>Rhino.Mocks.SetupResult,For</token>
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
 </entry>
-<entry count="12">
-<token>2.0.0.0]],Out</token>
-<token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
-</entry>
 <entry count="1">
 <token>Rhino.Mocks.MockRepository,DynamicMock</token>
 <token>Rhino.Mocks.SetupResult,For</token>
@@ -5033,6 +4376,13 @@
 <entry count="4">
 <token>Rhino.Mocks.MockRepository,Stub</token>
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
+</entry>
+<entry count="2">
+<token>Rhino.Mocks.Expect,Call</token>
+<token>Rhino.Mocks.Arg,Matches</token>
+<token>Rhino.Mocks.Expect,Call</token>
+<token>Rhino.Mocks.MockRepository,ReplayAll</token>
+<token>Rhino.Mocks.MockRepository,VerifyAll</token>
 </entry>
 <entry count="1">
 <token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
@@ -5060,10 +4410,6 @@
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
 <token>Rhino.Mocks.Expect,Call</token>
 </entry>
-<entry count="2">
-<token>s:System.IntPtr,</token>
-<token>mscorlib,</token>
-</entry>
 <entry count="34">
 <token>Rhino.Mocks.MockRepository,GenerateStub</token>
 <token>Rhino.Mocks.MockRepository,GenerateStub</token>
@@ -5075,10 +4421,11 @@
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.MockRepository,CreateMock</token>
 </entry>
-<entry count="36">
-<token>CacheCow.Common.TimedEntityTagHeaderValue,</token>
-<token>CacheCow.Common]],Out</token>
-<token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
+<entry count="2">
+<token>Rhino.Mocks.SetupResult,For</token>
+<token>Rhino.Mocks.Expect,Call</token>
+<token>Rhino.Mocks.Expect,Call</token>
+<token>Rhino.Mocks.Arg,Matches</token>
 </entry>
 <entry count="2">
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
@@ -5087,7 +4434,7 @@
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.Expect,Call</token>
 </entry>
-<entry count="10">
+<entry count="1032">
 <token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
 <token>Rhino.Mocks.MockRepository,ReplayAll</token>
@@ -5103,6 +4450,12 @@
 <token>Rhino.Mocks.MockRepository,DynamicMock</token>
 <token>Rhino.Mocks.Expect,On</token>
 <token>Rhino.Mocks.MockRepository,ReplayAll</token>
+</entry>
+<entry count="9">
+<token>Rhino.Mocks.Arg,Matches</token>
+<token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
+<token>Rhino.Mocks.MockRepository,ReplayAll</token>
+<token>Rhino.Mocks.MockRepository,VerifyAll</token>
 </entry>
 <entry count="3">
 <token>Rhino.Mocks.MockRepository,DynamicMock</token>
@@ -5122,6 +4475,30 @@
 <token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
 <token>Rhino.Mocks.Arg,Is</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
+</entry>
+<entry count="1">
+<token>Rhino.Mocks.Arg,Ref</token>
+<token>Rhino.Mocks.Expect,Call</token>
+<token>Rhino.Mocks.Expect,Call</token>
+<token>Rhino.Mocks.MockRepository,ReplayAll</token>
+</entry>
+<entry count="3">
+<token>Rhino.Mocks.MockRepository,StrictMock</token>
+<token>Rhino.Mocks.Expect,Call</token>
+<token>Rhino.Mocks.Function,new</token>
+</entry>
+<entry count="7">
+<token>Rhino.Mocks.Arg,Out</token>
+<token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
+<token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
+<token>Rhino.Mocks.MockRepository,ReplayAll</token>
+</entry>
+<entry count="5">
+<token>Rhino.Mocks.MockRepository,StrictMock</token>
+<token>Rhino.Mocks.Arg,Out</token>
+<token>Rhino.Mocks.Expect,Call</token>
+<token>Rhino.Mocks.Arg,Ref</token>
+<token>Rhino.Mocks.Expect,Call</token>
 </entry>
 <entry count="4">
 <token>Rhino.Mocks.MockRepository,new</token>
@@ -5147,11 +4524,6 @@
 <token>Rhino.Mocks.SetupResult,For</token>
 <token>Rhino.Mocks.SetupResult,For</token>
 <token>Rhino.Mocks.Expect,Call</token>
-</entry>
-<entry count="12">
-<token>System.Net.Http,</token>
-<token>2.0.0.0]],Out</token>
-<token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
 </entry>
 <entry count="2">
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
@@ -5183,26 +4555,26 @@
 <token>Rhino.Mocks.SetupResult,For</token>
 <token>Rhino.Mocks.SetupResult,For</token>
 </entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>s:Microsoft.Isam.Esent.Interop.JET_INSTANCE,</token>
-<token>EsentInterop]],Out</token>
-<token>Rhino.Mocks.Expect,Call</token>
-<token>Rhino.Mocks.MockRepository,ReplayAll</token>
-</entry>
 <entry count="6">
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.LastCall,IgnoreArguments</token>
 <token>Rhino.Mocks.MockRepository,ReplayAll</token>
 </entry>
 <entry count="1">
-<token>Cradiator.Model.Skin,</token>
-<token>Cradiator]],Matches</token>
-<token>Rhino.Mocks.Arg`1[[T</token>
-</entry>
-<entry count="1">
 <token>Rhino.Mocks.MockRepository,Stub</token>
 <token>Rhino.Mocks.MockRepository,Record</token>
+<token>Rhino.Mocks.Expect,Call</token>
+</entry>
+<entry count="2">
+<token>Rhino.Mocks.MockRepository,new</token>
+<token>Rhino.Mocks.MockRepository,StrictMock</token>
+<token>Rhino.Mocks.Arg,Ref</token>
+<token>Rhino.Mocks.Arg,Out</token>
+</entry>
+<entry count="2">
+<token>Rhino.Mocks.MockRepository,StrictMock</token>
+<token>Rhino.Mocks.Arg,Ref</token>
+<token>Rhino.Mocks.Arg,Out</token>
 <token>Rhino.Mocks.Expect,Call</token>
 </entry>
 <entry count="1">
@@ -5248,7 +4620,7 @@
 <token>Rhino.Mocks.MockRepository,GenerateMock</token>
 <token>Rhino.Mocks.MockRepository,GenerateMock</token>
 </entry>
-<entry count="11">
+<entry count="1034">
 <token>Rhino.Mocks.SetupResult,For</token>
 <token>Rhino.Mocks.SetupResult,For</token>
 <token>Rhino.Mocks.SetupResult,For</token>
@@ -5259,6 +4631,13 @@
 <token>Rhino.Mocks.SetupResult,For</token>
 <token>Rhino.Mocks.LastCall,IgnoreArguments</token>
 <token>Rhino.Mocks.LastCall,GetEventRaiser</token>
+<token>Rhino.Mocks.MockRepository,ReplayAll</token>
+</entry>
+<entry count="4">
+<token>Rhino.Mocks.Arg,Out</token>
+<token>Rhino.Mocks.Expect,Call</token>
+<token>Rhino.Mocks.Arg,Ref</token>
+<token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.MockRepository,ReplayAll</token>
 </entry>
 <entry count="1">
@@ -5287,11 +4666,6 @@
 <token>Rhino.Mocks.MockRepository,GenerateMock</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
 <token>Rhino.Mocks.MockRepository,GenerateMock</token>
-</entry>
-<entry count="4">
-<token>ThoughtWorks.CruiseControl.Core.Util.ProcessInfo,</token>
-<token>core],[R</token>
-<token>-&gt;</token>
 </entry>
 <entry count="2">
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
@@ -5323,36 +4697,31 @@
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
 <token>Rhino.Mocks.SetupResult,For</token>
 </entry>
+<entry count="6">
+<token>Rhino.Mocks.MockRepository,StrictMock</token>
+<token>Rhino.Mocks.Arg,Out</token>
+</entry>
 <entry count="3">
 <token>Rhino.Mocks.MockRepository,CreateMock</token>
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.Expect,Call</token>
 </entry>
-<entry count="4">
-<token>Cradiator.Model.Skin,</token>
-<token>Cradiator]],Matches</token>
+<entry count="36">
+<token>Rhino.Mocks.MockRepository,new</token>
+<token>Rhino.Mocks.MockRepository,StrictMock</token>
+<token>Rhino.Mocks.Arg,Matches</token>
 </entry>
-<entry count="5">
-<token>s:Microsoft.Isam.Esent.Interop.JET_INSTANCE,</token>
-<token>EsentInterop]],Ref</token>
+<entry count="1">
+<token>Rhino.Mocks.MockRepository,new</token>
+<token>Rhino.Mocks.MockRepository,StrictMock</token>
+<token>Rhino.Mocks.Arg,Out</token>
 <token>Rhino.Mocks.Expect,Call</token>
+<token>Rhino.Mocks.MockRepository,ReplayAll</token>
 </entry>
 <entry count="2">
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
 <token>Rhino.Mocks.MockRepository,Record</token>
-</entry>
-<entry count="36">
-<token>-&gt;</token>
-<token>CacheCow.Common.TimedEntityTagHeaderValue,</token>
-<token>CacheCow.Common]],Out</token>
-</entry>
-<entry count="2">
-<token>Rhino.Mocks.Arg`1[[T</token>
-<token>-&gt;</token>
-<token>s:System.IntPtr,</token>
-<token>mscorlib,</token>
-<token>4.0.0.0]],Ref</token>
 </entry>
 <entry count="4">
 <token>Rhino.Mocks.MockRepository,GenerateStub</token>
@@ -5375,7 +4744,7 @@
 <token>Rhino.Mocks.SetupResult,For</token>
 <token>Rhino.Mocks.MockRepository,ReplayAll</token>
 </entry>
-<entry count="3">
+<entry count="5">
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.SetupResult,For</token>
 <token>Rhino.Mocks.SetupResult,For</token>
@@ -5387,22 +4756,18 @@
 <token>Rhino.Mocks.MockRepository,DynamicMock</token>
 <token>Rhino.Mocks.MockRepository,ReplayAll</token>
 </entry>
-<entry count="4">
-<token>s:Microsoft.Isam.Esent.Interop.JET_INSTANCE,</token>
-<token>EsentInterop]],Ref</token>
-<token>Rhino.Mocks.Expect,Call</token>
-<token>Rhino.Mocks.MockRepository,ReplayAll</token>
-</entry>
-<entry count="2">
-<token>s:System.IntPtr,</token>
-<token>mscorlib,</token>
-<token>4.0.0.0]],Ref</token>
-</entry>
-<entry count="6">
+<entry count="1028">
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
 <token>Rhino.Mocks.SetupResult,For</token>
 <token>Rhino.Mocks.SetupResult,For</token>
+</entry>
+<entry count="1">
+<token>Rhino.Mocks.Arg,Out</token>
+<token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
+<token>Rhino.Mocks.Arg,Matches</token>
+<token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
+<token>Rhino.Mocks.MockRepository,ReplayAll</token>
 </entry>
 <entry count="2">
 <token>Rhino.Mocks.SetupResult,For</token>
@@ -5428,7 +4793,7 @@
 <token>Rhino.Mocks.MockRepository,GenerateMock</token>
 <token>Rhino.Mocks.MockRepository,GenerateMock</token>
 </entry>
-<entry count="73">
+<entry count="1098">
 <token>Rhino.Mocks.SetupResult,For</token>
 <token>Rhino.Mocks.Expect,Call</token>
 </entry>
@@ -5467,12 +4832,6 @@
 <token>Rhino.Mocks.RhinoMocksExtensions,AssertWasCalled</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,AssertWasCalled</token>
 </entry>
-<entry count="8">
-<token>CacheCow.Common]],Out</token>
-<token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
-<token>Rhino.Mocks.Arg`1[[T</token>
-<token>-&gt;</token>
-</entry>
 <entry count="3">
 <token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
 <token>Rhino.Mocks.MockRepository,GenerateStub</token>
@@ -5501,12 +4860,6 @@
 <token>Rhino.Mocks.MockRepository,GenerateMock</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,AssertWasCalled</token>
 </entry>
-<entry count="5">
-<token>Rhino.Mocks.Expect,Call</token>
-<token>Rhino.Mocks.Arg`1[[T</token>
-<token>-&gt;</token>
-<token>s:Microsoft.Isam.Esent.Interop.JET_INSTANCE,</token>
-</entry>
 <entry count="3">
 <token>Rhino.Mocks.RhinoMocksExtensions,Stub</token>
 <token>Rhino.Mocks.MockRepository,GenerateStrictMock</token>
@@ -5523,23 +4876,6 @@
 <token>Rhino.Mocks.RhinoMocksExtensions,Stub</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,Stub</token>
 <token>Rhino.Mocks.MockRepository,GenerateStub</token>
-</entry>
-<entry count="5">
-<token>EsentInterop]],Out</token>
-<token>Rhino.Mocks.Expect,Call</token>
-<token>Rhino.Mocks.Arg`1[[T</token>
-</entry>
-<entry count="5">
-<token>s:Microsoft.Isam.Esent.Interop.JET_INSTANCE,</token>
-<token>EsentInterop]],Out</token>
-<token>Rhino.Mocks.Expect,Call</token>
-<token>Rhino.Mocks.Arg`1[[T</token>
-</entry>
-<entry count="4">
-<token>ThoughtWorks.CruiseControl.Core.Util.ProcessInfo,</token>
-<token>core],[R</token>
-<token>-&gt;</token>
-<token>ThoughtWorks.CruiseControl.Core.Util.ProcessResult,</token>
 </entry>
 <entry count="70">
 <token>Rhino.Mocks.MockRepository,GenerateMock</token>
@@ -5559,13 +4895,7 @@
 <token>Rhino.Mocks.SetupResult,For</token>
 <token>Rhino.Mocks.Expect,Call</token>
 </entry>
-<entry count="2">
-<token>-&gt;</token>
-<token>ThoughtWorks.CruiseControl.Core.Tasks.GeneralTaskResult,</token>
-<token>core]],Matches</token>
-<token>Rhino.Mocks.Expect,Call</token>
-</entry>
-<entry count="2">
+<entry count="1024">
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.Expect,Call</token>
@@ -5604,12 +4934,7 @@
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.Expect,Call</token>
 </entry>
-<entry count="11">
-<token>Rhino.Mocks.Arg`1[[T</token>
-<token>-&gt;</token>
-<token>s:Microsoft.Isam.Esent.Interop.JET_INSTANCE,</token>
-</entry>
-<entry count="16">
+<entry count="44">
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
 <token>Rhino.Mocks.MockRepository,Ordered</token>
@@ -5652,12 +4977,6 @@
 <token>Rhino.Mocks.RhinoMocksExtensions,AssertWasCalled</token>
 </entry>
 <entry count="8">
-<token>CacheCow.Common.TimedEntityTagHeaderValue,</token>
-<token>CacheCow.Common]],Out</token>
-<token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
-<token>Rhino.Mocks.Arg`1[[T</token>
-</entry>
-<entry count="2">
 <token>Rhino.Mocks.MockRepository,CreateMock</token>
 <token>Rhino.Mocks.MockRepository,Ordered</token>
 <token>Rhino.Mocks.Expect,Call</token>
@@ -5666,10 +4985,6 @@
 <entry count="60">
 <token>Rhino.Mocks.MockRepository,GenerateStub</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,Stub</token>
-</entry>
-<entry count="44">
-<token>Rhino.Mocks.MockRepository,StrictMock</token>
-<token>Rhino.Mocks.Arg`1[[T</token>
 </entry>
 <entry count="3">
 <token>Rhino.Mocks.MockRepository,CreateMock</token>
@@ -5684,24 +4999,12 @@
 <token>Rhino.Mocks.SetupResult,For</token>
 <token>Rhino.Mocks.SetupResult,For</token>
 </entry>
-<entry count="2">
-<token>-&gt;</token>
-<token>p:string]],Out</token>
-<token>Rhino.Mocks.Expect,Call</token>
-</entry>
 <entry count="13">
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.MockRepository,DynamicMock</token>
-</entry>
-<entry count="4">
-<token>Rhino.Mocks.Expect,Call</token>
-<token>Rhino.Mocks.Function`2[[T</token>
-<token>-&gt;</token>
-<token>ThoughtWorks.CruiseControl.Core.Util.ProcessInfo,</token>
-<token>core],[R</token>
 </entry>
 <entry count="23">
 <token>Rhino.Mocks.SetupResult,For</token>
@@ -5715,32 +5018,25 @@
 <token>Rhino.Mocks.RhinoMocksExtensions,AssertWasCalled</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,AssertWasCalled</token>
 </entry>
+<entry count="1">
+<token>Rhino.Mocks.MockRepository,StrictMock</token>
+<token>Rhino.Mocks.Arg,Out</token>
+<token>Rhino.Mocks.Expect,Call</token>
+<token>Rhino.Mocks.MockRepository,ReplayAll</token>
+<token>Rhino.Mocks.MockRepository,VerifyAll</token>
+</entry>
 <entry count="2">
 <token>Rhino.Mocks.MockRepository,DynamicMock</token>
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.MockRepository,ReplayAll</token>
 <token>Rhino.Mocks.MockRepository,BackToRecordAll</token>
 </entry>
-<entry count="3">
-<token>Rhino.Mocks.MockRepository,StrictMock</token>
-<token>Rhino.Mocks.Expect,Call</token>
-<token>Rhino.Mocks.Function`2[[T</token>
-<token>-&gt;</token>
-<token>ThoughtWorks.CruiseControl.Core.Util.ProcessInfo,</token>
-</entry>
 <entry count="1">
 <token>Rhino.Mocks.SetupResult,For</token>
 <token>Rhino.Mocks.SetupResult,For</token>
 <token>Rhino.Mocks.MockRepository,DynamicMock</token>
 <token>Rhino.Mocks.MockRepository,DynamicMock</token>
 <token>Rhino.Mocks.SetupResult,For</token>
-</entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>Cradiator.Model.Skin,</token>
-<token>Cradiator]],Matches</token>
-<token>Rhino.Mocks.Arg`1[[T</token>
-<token>-&gt;</token>
 </entry>
 <entry count="12">
 <token>Rhino.Mocks.MockRepository,GenerateMock</token>
@@ -5771,13 +5067,18 @@
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
 </entry>
+<entry count="4">
+<token>Rhino.Mocks.Arg,Ref</token>
+<token>Rhino.Mocks.Expect,Call</token>
+<token>Rhino.Mocks.MockRepository,ReplayAll</token>
+</entry>
 <entry count="7">
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.MockRepository,DynamicMock</token>
 <token>Rhino.Mocks.MockRepository,DynamicMock</token>
 </entry>
-<entry count="467">
+<entry count="3537">
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.Expect,Call</token>
@@ -5794,12 +5095,7 @@
 <token>Rhino.Mocks.RhinoMocksExtensions,AssertWasCalled</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,AssertWasCalled</token>
 </entry>
-<entry count="6">
-<token>-&gt;</token>
-<token>s:Microsoft.Isam.Esent.Interop.JET_INSTANCE,</token>
-<token>EsentInterop]],Out</token>
-</entry>
-<entry count="9">
+<entry count="15">
 <token>Rhino.Mocks.MockRepository,CreateMock</token>
 <token>Rhino.Mocks.MockRepository,Ordered</token>
 </entry>
@@ -5833,7 +5129,7 @@
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
 </entry>
-<entry count="53">
+<entry count="1075">
 <token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
 <token>Rhino.Mocks.MockRepository,ReplayAll</token>
 <token>Rhino.Mocks.MockRepository,VerifyAll</token>
@@ -5867,12 +5163,6 @@
 <token>Rhino.Mocks.RhinoMocksExtensions,Stub</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,Stub</token>
 </entry>
-<entry count="44">
-<token>Rhino.Mocks.Arg`1[[T</token>
-<token>-&gt;</token>
-<token>CacheCow.Common.CacheKey,</token>
-<token>CacheCow.Common]],Matches</token>
-</entry>
 <entry count="3">
 <token>Rhino.Mocks.MockRepository,GenerateStrictMock</token>
 <token>Rhino.Mocks.MockRepository,GenerateStrictMock</token>
@@ -5885,12 +5175,6 @@
 <token>Rhino.Mocks.SetupResult,For</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,Replay</token>
 </entry>
-<entry count="1">
-<token>Cradiator.Model.Skin,</token>
-<token>Cradiator]],Matches</token>
-<token>Rhino.Mocks.Arg`1[[T</token>
-<token>-&gt;</token>
-</entry>
 <entry count="13">
 <token>Rhino.Mocks.SetupResult,For</token>
 <token>Rhino.Mocks.SetupResult,For</token>
@@ -5900,13 +5184,7 @@
 <token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,Stub</token>
 </entry>
-<entry count="4">
-<token>-&gt;</token>
-<token>ThoughtWorks.CruiseControl.Core.Util.ProcessInfo,</token>
-<token>core],[R</token>
-<token>-&gt;</token>
-</entry>
-<entry count="6">
+<entry count="1028">
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
 <token>Rhino.Mocks.SetupResult,For</token>
@@ -5943,13 +5221,6 @@
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.Expect,Call</token>
-</entry>
-<entry count="1">
-<token>s:Microsoft.Isam.Esent.Interop.JET_INSTANCE,</token>
-<token>EsentInterop]],Out</token>
-<token>Rhino.Mocks.Expect,Call</token>
-<token>Rhino.Mocks.MockRepository,ReplayAll</token>
-<token>Rhino.Mocks.MockRepository,VerifyAll</token>
 </entry>
 <entry count="25">
 <token>Rhino.Mocks.MockRepository,DynamicMock</token>
@@ -5971,18 +5242,18 @@
 <token>Rhino.Mocks.MockRepository,DynamicMock</token>
 <token>Rhino.Mocks.SetupResult,For</token>
 </entry>
+<entry count="4">
+<token>Rhino.Mocks.Expect,Call</token>
+<token>Rhino.Mocks.Arg,Ref</token>
+<token>Rhino.Mocks.Expect,Call</token>
+<token>Rhino.Mocks.MockRepository,ReplayAll</token>
+</entry>
 <entry count="8">
 <token>Rhino.Mocks.SetupResult,For</token>
 <token>Rhino.Mocks.SetupResult,For</token>
 <token>Rhino.Mocks.SetupResult,For</token>
 <token>Rhino.Mocks.SetupResult,For</token>
 <token>Rhino.Mocks.MockRepository,ReplayAll</token>
-</entry>
-<entry count="44">
-<token>CacheCow.Common]],Matches</token>
-<token>Rhino.Mocks.Arg`1[[T</token>
-<token>-&gt;</token>
-<token>CacheCow.Common.TimedEntityTagHeaderValue,</token>
 </entry>
 <entry count="1">
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
@@ -6002,13 +5273,6 @@
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.MockRepository,DynamicMock</token>
 </entry>
-<entry count="4">
-<token>-&gt;</token>
-<token>ThoughtWorks.CruiseControl.Core.Util.ProcessInfo,</token>
-<token>core],[R</token>
-<token>-&gt;</token>
-<token>ThoughtWorks.CruiseControl.Core.Util.ProcessResult,</token>
-</entry>
 <entry count="5">
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
 <token>Rhino.Mocks.SetupResult,For</token>
@@ -6021,7 +5285,7 @@
 <token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,AssertWasNotCalled</token>
 </entry>
-<entry count="15">
+<entry count="1037">
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.Expect,Call</token>
@@ -6034,7 +5298,7 @@
 <token>Rhino.Mocks.RhinoMocksExtensions,AssertWasNotCalled</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,AssertWasNotCalled</token>
 </entry>
-<entry count="2">
+<entry count="1024">
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
@@ -6065,11 +5329,10 @@
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.Expect,Call</token>
 </entry>
-<entry count="5">
-<token>Rhino.Mocks.Arg`1[[T</token>
-<token>-&gt;</token>
-<token>s:Microsoft.Isam.Esent.Interop.JET_INSTANCE,</token>
-<token>EsentInterop]],Ref</token>
+<entry count="2">
+<token>Rhino.Mocks.MockRepository,StrictMock</token>
+<token>Rhino.Mocks.Arg,Ref</token>
+<token>Rhino.Mocks.Arg,Out</token>
 </entry>
 <entry count="38">
 <token>Rhino.Mocks.SetupResult,For</token>
@@ -6082,12 +5345,6 @@
 <token>Rhino.Mocks.SetupResult,For</token>
 <token>Rhino.Mocks.SetupResult,For</token>
 <token>Rhino.Mocks.MockRepository,DynamicMock</token>
-</entry>
-<entry count="2">
-<token>Rhino.Mocks.MockRepository,StrictMock</token>
-<token>Rhino.Mocks.Arg`1[[T</token>
-<token>-&gt;</token>
-<token>s:System.IntPtr,</token>
 </entry>
 <entry count="1">
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
@@ -6107,7 +5364,7 @@
 <token>Rhino.Mocks.MockRepository,GenerateMock</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
 </entry>
-<entry count="9">
+<entry count="11">
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.SetupResult,For</token>
 </entry>
@@ -6122,10 +5379,12 @@
 <token>Rhino.Mocks.MockRepository,Stub</token>
 <token>Rhino.Mocks.MockRepository,Record</token>
 </entry>
-<entry count="4">
-<token>-&gt;</token>
-<token>p:string],[R</token>
-<token>-&gt;</token>
+<entry count="2">
+<token>Rhino.Mocks.SetupResult,For</token>
+<token>Rhino.Mocks.Expect,Call</token>
+<token>Rhino.Mocks.Expect,Call</token>
+<token>Rhino.Mocks.Arg,Matches</token>
+<token>Rhino.Mocks.Expect,Call</token>
 </entry>
 <entry count="1">
 <token>Rhino.Mocks.Expect,Call</token>
@@ -6133,7 +5392,20 @@
 <token>Rhino.Mocks.MockRepository,CreateMock</token>
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
 </entry>
-<entry count="4">
+<entry count="2">
+<token>Rhino.Mocks.MockRepository,new</token>
+<token>Rhino.Mocks.MockRepository,StrictMock</token>
+<token>Rhino.Mocks.Arg,Ref</token>
+<token>Rhino.Mocks.Arg,Out</token>
+<token>Rhino.Mocks.Expect,Call</token>
+</entry>
+<entry count="8">
+<token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
+<token>Rhino.Mocks.Arg,Matches</token>
+<token>Rhino.Mocks.Arg,Matches</token>
+<token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
+</entry>
+<entry count="2048">
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
 <token>Rhino.Mocks.Expect,Call</token>
@@ -6153,30 +5425,12 @@
 <token>Rhino.Mocks.MockRepository,GenerateMock</token>
 <token>Rhino.Mocks.MockRepository,GenerateMock</token>
 </entry>
-<entry count="7">
-<token>Rhino.Mocks.Expect,Call</token>
-<token>Rhino.Mocks.Arg`1[[T</token>
-<token>-&gt;</token>
-</entry>
-<entry count="4">
-<token>s:Microsoft.Isam.Esent.Interop.JET_INSTANCE,</token>
-<token>EsentInterop]],Ref</token>
-<token>Rhino.Mocks.Expect,Call</token>
-<token>Rhino.Mocks.MockRepository,ReplayAll</token>
-<token>Rhino.Mocks.MockRepository,VerifyAll</token>
-</entry>
 <entry count="2">
 <token>Rhino.Mocks.MockRepository,new</token>
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
 <token>Rhino.Mocks.MockRepository,PartialMock</token>
 <token>Rhino.Mocks.MockRepository,Ordered</token>
 <token>Rhino.Mocks.Expect,Call</token>
-</entry>
-<entry count="8">
-<token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
-<token>Rhino.Mocks.Arg`1[[T</token>
-<token>-&gt;</token>
-<token>CacheCow.Common.CacheKey,</token>
 </entry>
 <entry count="23">
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
@@ -6201,17 +5455,7 @@
 </entry>
 <entry count="36">
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
-<token>Rhino.Mocks.Arg`1[[T</token>
-<token>-&gt;</token>
-<token>CacheCow.Common.CacheKey,</token>
-<token>CacheCow.Common]],Matches</token>
-</entry>
-<entry count="28">
-<token>CacheCow.Common.TimedEntityTagHeaderValue,</token>
-<token>CacheCow.Common]],Out</token>
-<token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
-<token>Rhino.Mocks.MockRepository,ReplayAll</token>
-<token>Rhino.Mocks.MockRepository,VerifyAll</token>
+<token>Rhino.Mocks.Arg,Matches</token>
 </entry>
 <entry count="3">
 <token>Rhino.Mocks.MockRepository,GenerateMock</token>
@@ -6220,6 +5464,12 @@
 <token>Rhino.Mocks.RhinoMocksExtensions,AssertWasNotCalled</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,AssertWasNotCalled</token>
 </entry>
+<entry count="1">
+<token>Rhino.Mocks.Expect,Call</token>
+<token>Rhino.Mocks.Arg,Ref</token>
+<token>Rhino.Mocks.Expect,Call</token>
+<token>Rhino.Mocks.Expect,Call</token>
+</entry>
 <entry count="3">
 <token>Rhino.Mocks.MockRepository,DynamicMock</token>
 <token>Rhino.Mocks.SetupResult,For</token>
@@ -6231,10 +5481,6 @@
 <token>Rhino.Mocks.RhinoMocksExtensions,AssertWasNotCalled</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,AssertWasNotCalled</token>
 </entry>
-<entry count="44">
-<token>CacheCow.Common.CacheKey,</token>
-<token>CacheCow.Common]],Matches</token>
-</entry>
 <entry count="6">
 <token>Rhino.Mocks.MockRepository,GenerateStub</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,Raise</token>
@@ -6242,14 +5488,14 @@
 <token>Rhino.Mocks.RhinoMocksExtensions,Raise</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,Raise</token>
 </entry>
-<entry count="2">
+<entry count="8">
 <token>Rhino.Mocks.MockRepository,CreateMock</token>
 <token>Rhino.Mocks.MockRepository,Ordered</token>
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.MockRepository,ReplayAll</token>
 <token>Rhino.Mocks.MockRepository,VerifyAll</token>
 </entry>
-<entry count="92">
+<entry count="1116">
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
 <token>Rhino.Mocks.SetupResult,For</token>
 </entry>
@@ -6266,13 +5512,13 @@
 <token>Rhino.Mocks.LastCall,On</token>
 <token>Rhino.Mocks.MockRepository,ReplayAll</token>
 </entry>
-<entry count="16">
+<entry count="44">
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
 <token>Rhino.Mocks.MockRepository,Ordered</token>
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.LastCall,On</token>
 </entry>
-<entry count="2">
+<entry count="1024">
 <token>Rhino.Mocks.SetupResult,For</token>
 <token>Rhino.Mocks.SetupResult,For</token>
 <token>Rhino.Mocks.Expect,Call</token>
@@ -6311,35 +5557,35 @@
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.Expect,Call</token>
 </entry>
+<entry count="48">
+<token>Rhino.Mocks.Arg,Out</token>
+<token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
+</entry>
 <entry count="1">
-<token>System.Net.Http,</token>
-<token>2.0.0.0]],Matches</token>
+<token>Rhino.Mocks.SetupResult,For</token>
+<token>Rhino.Mocks.MockRepository,StrictMock</token>
+<token>Rhino.Mocks.SetupResult,For</token>
+<token>Rhino.Mocks.Expect,Call</token>
+</entry>
+<entry count="1">
+<token>Rhino.Mocks.MockRepository,StrictMock</token>
+<token>Rhino.Mocks.MockRepository,StrictMock</token>
+<token>Rhino.Mocks.SetupResult,For</token>
+<token>Rhino.Mocks.Expect,Call</token>
+</entry>
+<entry count="2383">
+<token>Rhino.Mocks.Expect,Call</token>
+<token>Rhino.Mocks.Expect,Call</token>
+<token>Rhino.Mocks.Expect,Call</token>
+<token>Rhino.Mocks.Expect,Call</token>
+<token>Rhino.Mocks.Expect,Call</token>
+</entry>
+<entry count="1">
+<token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
+<token>Rhino.Mocks.Arg,Matches</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
 <token>Rhino.Mocks.MockRepository,ReplayAll</token>
-</entry>
-<entry count="1">
-<token>Rhino.Mocks.SetupResult,For</token>
-<token>Rhino.Mocks.MockRepository,StrictMock</token>
-<token>Rhino.Mocks.SetupResult,For</token>
-<token>Rhino.Mocks.Expect,Call</token>
-</entry>
-<entry count="1">
-<token>Rhino.Mocks.MockRepository,StrictMock</token>
-<token>Rhino.Mocks.MockRepository,StrictMock</token>
-<token>Rhino.Mocks.SetupResult,For</token>
-<token>Rhino.Mocks.Expect,Call</token>
-</entry>
-<entry count="8">
-<token>-&gt;</token>
-<token>CacheCow.Common.TimedEntityTagHeaderValue,</token>
-<token>CacheCow.Common]],Matches</token>
-</entry>
-<entry count="337">
-<token>Rhino.Mocks.Expect,Call</token>
-<token>Rhino.Mocks.Expect,Call</token>
-<token>Rhino.Mocks.Expect,Call</token>
-<token>Rhino.Mocks.Expect,Call</token>
-<token>Rhino.Mocks.Expect,Call</token>
+<token>Rhino.Mocks.MockRepository,VerifyAll</token>
 </entry>
 <entry count="22">
 <token>Rhino.Mocks.RhinoMocksExtensions,Raise</token>
@@ -6351,12 +5597,6 @@
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.MockRepository,ReplayAll</token>
 <token>Rhino.Mocks.MockRepository,VerifyAll</token>
-</entry>
-<entry count="13">
-<token>Rhino.Mocks.Arg`1[[T</token>
-<token>-&gt;</token>
-<token>System.Net.Http.HttpResponseMessage,</token>
-<token>System.Net.Http,</token>
 </entry>
 <entry count="21">
 <token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
@@ -6377,18 +5617,6 @@
 <token>Rhino.Mocks.RhinoMocksExtensions,Stub</token>
 <token>Rhino.Mocks.MockRepository,GenerateStub</token>
 </entry>
-<entry count="4">
-<token>Rhino.Mocks.Expect,Call</token>
-<token>Rhino.Mocks.Function`2[[T</token>
-<token>-&gt;</token>
-</entry>
-<entry count="1">
-<token>2.0.0.0]],Out</token>
-<token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
-<token>Rhino.Mocks.Arg`1[[T</token>
-<token>-&gt;</token>
-<token>System.Net.Http.HttpResponseMessage,</token>
-</entry>
 <entry count="1">
 <token>Rhino.Mocks.RhinoMocksExtensions,Stub</token>
 <token>Rhino.Mocks.MockRepository,GenerateStub</token>
@@ -6400,6 +5628,12 @@
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
 <token>Rhino.Mocks.MockRepository,DynamicMock</token>
 <token>Rhino.Mocks.Expect,Call</token>
+</entry>
+<entry count="8">
+<token>Rhino.Mocks.Arg,Out</token>
+<token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
+<token>Rhino.Mocks.Arg,Matches</token>
+<token>Rhino.Mocks.Arg,Matches</token>
 </entry>
 <entry count="6">
 <token>Rhino.Mocks.SetupResult,For</token>
@@ -6414,27 +5648,22 @@
 <token>Rhino.Mocks.SetupResult,For</token>
 <token>Rhino.Mocks.MockRepository,ReplayAll</token>
 </entry>
-<entry count="2">
-<token>Rhino.Mocks.Expect,Call</token>
-<token>Rhino.Mocks.Expect,Call</token>
-<token>Rhino.Mocks.Arg`1[[T</token>
-<token>-&gt;</token>
-<token>ThoughtWorks.CruiseControl.Core.Tasks.GeneralTaskResult,</token>
-</entry>
 <entry count="4">
 <token>Rhino.Mocks.MockRepository,DynamicMock</token>
 <token>Rhino.Mocks.SetupResult,For</token>
 <token>Rhino.Mocks.LastCall,IgnoreArguments</token>
 </entry>
-<entry count="2">
-<token>-&gt;</token>
-<token>ThoughtWorks.CruiseControl.Core.Tasks.GeneralTaskResult,</token>
-<token>core]],Matches</token>
-</entry>
-<entry count="10">
+<entry count="1032">
 <token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
 <token>Rhino.Mocks.MockRepository,ReplayAll</token>
+</entry>
+<entry count="4">
+<token>Rhino.Mocks.Expect,Call</token>
+<token>Rhino.Mocks.Arg,Ref</token>
+<token>Rhino.Mocks.Expect,Call</token>
+<token>Rhino.Mocks.MockRepository,ReplayAll</token>
+<token>Rhino.Mocks.MockRepository,VerifyAll</token>
 </entry>
 <entry count="12">
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
@@ -6463,7 +5692,7 @@
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.Expect,Call</token>
 </entry>
-<entry count="15">
+<entry count="17">
 <token>Rhino.Mocks.MockRepository,ReplayAll</token>
 <token>Rhino.Mocks.MockRepository,ReplayAll</token>
 </entry>
@@ -6473,24 +5702,11 @@
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.LastCall,On</token>
 </entry>
-<entry count="8">
-<token>-&gt;</token>
-<token>CacheCow.Common.TimedEntityTagHeaderValue,</token>
-<token>CacheCow.Common]],Out</token>
-<token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
-<token>Rhino.Mocks.Arg`1[[T</token>
-</entry>
 <entry count="2">
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.MockRepository,CreateMock</token>
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.Expect,Call</token>
-</entry>
-<entry count="2">
-<token>core]],Matches</token>
-<token>Rhino.Mocks.Expect,Call</token>
-<token>Rhino.Mocks.MockRepository,ReplayAll</token>
-<token>Rhino.Mocks.MockRepository,VerifyAll</token>
 </entry>
 <entry count="4">
 <token>Rhino.Mocks.Expect,Call</token>
@@ -6504,13 +5720,6 @@
 <token>Rhino.Mocks.SetupResult,For</token>
 <token>Rhino.Mocks.SetupResult,For</token>
 <token>Rhino.Mocks.SetupResult,For</token>
-</entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>System.Net.Http.HttpResponseMessage,</token>
-<token>System.Net.Http,</token>
-<token>2.0.0.0]],Matches</token>
-<token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
 </entry>
 <entry count="7">
 <token>Rhino.Mocks.Expect,Call</token>
@@ -6555,18 +5764,12 @@
 <token>Rhino.Mocks.RhinoMocksExtensions,Stub</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,AssertWasCalled</token>
 </entry>
-<entry count="2">
+<entry count="1024">
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
-</entry>
-<entry count="2">
-<token>Rhino.Mocks.Arg`1[[T</token>
-<token>-&gt;</token>
-<token>s:System.IntPtr,</token>
-<token>mscorlib,</token>
 </entry>
 <entry count="1">
 <token>Rhino.Mocks.Expect,Call</token>
@@ -6579,12 +5782,6 @@
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.MockRepository,DynamicMock</token>
 <token>Rhino.Mocks.Expect,Call</token>
-</entry>
-<entry count="3">
-<token>Rhino.Mocks.MockRepository,StrictMock</token>
-<token>Rhino.Mocks.Expect,Call</token>
-<token>Rhino.Mocks.Function`2[[T</token>
-<token>-&gt;</token>
 </entry>
 <entry count="2">
 <token>Rhino.Mocks.MockRepository,new</token>
@@ -6600,32 +5797,24 @@
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.Expect,Call</token>
 </entry>
-<entry count="1">
-<token>s:Microsoft.Isam.Esent.Interop.JET_INSTANCE,</token>
-<token>EsentInterop]],Ref</token>
-<token>Rhino.Mocks.Expect,Call</token>
-<token>Rhino.Mocks.Expect,Call</token>
-</entry>
 <entry count="2">
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
 <token>Rhino.Mocks.SetupResult,For</token>
 <token>Rhino.Mocks.SetupResult,For</token>
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
+</entry>
+<entry count="2">
+<token>Rhino.Mocks.Expect,Call</token>
+<token>Rhino.Mocks.Expect,Call</token>
+<token>Rhino.Mocks.Arg,Matches</token>
+<token>Rhino.Mocks.Expect,Call</token>
+<token>Rhino.Mocks.MockRepository,ReplayAll</token>
 </entry>
 <entry count="6">
 <token>Rhino.Mocks.RhinoMocksExtensions,AssertWasNotCalled</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,AssertWasNotCalled</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,AssertWasNotCalled</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,AssertWasNotCalled</token>
-</entry>
-<entry count="2">
-<token>-&gt;</token>
-<token>s:System.IntPtr,</token>
-</entry>
-<entry count="2">
-<token>mscorlib,</token>
-<token>4.0.0.0]],Ref</token>
-<token>Rhino.Mocks.Arg`1[[T</token>
 </entry>
 <entry count="1">
 <token>Rhino.Mocks.Expect,Call</token>
@@ -6645,12 +5834,6 @@
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.LastCall,On</token>
 <token>Rhino.Mocks.Expect,Call</token>
-</entry>
-<entry count="2">
-<token>Rhino.Mocks.Expect,Call</token>
-<token>Rhino.Mocks.Expect,Call</token>
-<token>Rhino.Mocks.Arg`1[[T</token>
-<token>-&gt;</token>
 </entry>
 <entry count="11">
 <token>Rhino.Mocks.MockRepository,new</token>
@@ -6700,18 +5883,7 @@
 <token>Rhino.Mocks.LastCall,On</token>
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
 </entry>
-<entry count="6">
-<token>Rhino.Mocks.MockRepository,new</token>
-<token>Rhino.Mocks.MockRepository,StrictMock</token>
-<token>Rhino.Mocks.Arg`1[[T</token>
-<token>-&gt;</token>
-<token>s:Microsoft.Isam.Esent.Interop.JET_INSTANCE,</token>
-</entry>
-<entry count="36">
-<token>CacheCow.Common.TimedEntityTagHeaderValue,</token>
-<token>CacheCow.Common]],Out</token>
-</entry>
-<entry count="497">
+<entry count="503">
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.MockRepository,ReplayAll</token>
 </entry>
@@ -6736,12 +5908,6 @@
 <token>Rhino.Mocks.MockRepository,DynamicMock</token>
 <token>Rhino.Mocks.MockRepository,DynamicMock</token>
 </entry>
-<entry count="4">
-<token>Rhino.Mocks.RhinoMocksExtensions,Stub</token>
-<token>Rhino.Mocks.Function`2[[T</token>
-<token>-&gt;</token>
-<token>p:string],[R</token>
-</entry>
 <entry count="3">
 <token>Rhino.Mocks.MockRepository,CreateMock</token>
 <token>Rhino.Mocks.Expect,Call</token>
@@ -6752,7 +5918,7 @@
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
 <token>Rhino.Mocks.MockRepository,ReplayAll</token>
 </entry>
-<entry count="3">
+<entry count="9">
 <token>Rhino.Mocks.MockRepository,Ordered</token>
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.MockRepository,ReplayAll</token>
@@ -6770,12 +5936,12 @@
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.Expect,Call</token>
 </entry>
-<entry count="4">
+<entry count="6">
 <token>Rhino.Mocks.MockRepository,ReplayAll</token>
 <token>Rhino.Mocks.MockRepository,ReplayAll</token>
 <token>Rhino.Mocks.MockRepository,VerifyAll</token>
 </entry>
-<entry count="2">
+<entry count="1024">
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.Expect,Call</token>
@@ -6795,11 +5961,6 @@
 <token>Rhino.Mocks.MockRepository,GenerateStub</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
 </entry>
-<entry count="3">
-<token>Rhino.Mocks.MockRepository,StrictMock</token>
-<token>Rhino.Mocks.Expect,Call</token>
-<token>Rhino.Mocks.Function`2[[T</token>
-</entry>
 <entry count="50">
 <token>Rhino.Mocks.MockRepository,DynamicMock</token>
 <token>Rhino.Mocks.Expect,Call</token>
@@ -6817,29 +5978,14 @@
 <token>Rhino.Mocks.MockRepository,GenerateStrictMock</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,Stub</token>
 </entry>
-<entry count="44">
-<token>-&gt;</token>
-<token>CacheCow.Common.TimedEntityTagHeaderValue,</token>
-</entry>
-<entry count="2">
-<token>-&gt;</token>
-<token>s:System.IntPtr,</token>
-<token>mscorlib,</token>
-</entry>
 <entry count="12">
 <token>Rhino.Mocks.Arg,Is</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,AssertWasCalled</token>
 </entry>
-<entry count="2">
+<entry count="1024">
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
-</entry>
-<entry count="2">
-<token>mscorlib,</token>
-<token>4.0.0.0]],Ref</token>
-<token>Rhino.Mocks.Arg`1[[T</token>
-<token>-&gt;</token>
 </entry>
 <entry count="6">
 <token>Rhino.Mocks.MockRepository,CreateMock</token>
@@ -6851,35 +5997,15 @@
 <token>Rhino.Mocks.MockRepository,GenerateStub</token>
 </entry>
 <entry count="1">
-<token>-&gt;</token>
-<token>s:Microsoft.Isam.Esent.Interop.JET_INSTANCE,</token>
-<token>EsentInterop]],Ref</token>
-<token>Rhino.Mocks.Expect,Call</token>
-<token>Rhino.Mocks.Expect,Call</token>
-</entry>
-<entry count="1">
 <token>Rhino.Mocks.MockRepository,GenerateMock</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,Stub</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,AssertWasCalled</token>
 </entry>
-<entry count="36">
-<token>Rhino.Mocks.MockRepository,StrictMock</token>
-<token>Rhino.Mocks.Arg`1[[T</token>
-<token>-&gt;</token>
-<token>CacheCow.Common.CacheKey,</token>
-</entry>
 <entry count="1">
 <token>Rhino.Mocks.MockRepository,GenerateStub</token>
 <token>Rhino.Mocks.MockRepository,GenerateStub</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,Stub</token>
 <token>Rhino.Mocks.MockRepository,GenerateStub</token>
-</entry>
-<entry count="1">
-<token>System.Net.Http.HttpResponseMessage,</token>
-<token>System.Net.Http,</token>
-<token>2.0.0.0]],Matches</token>
-<token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
-<token>Rhino.Mocks.MockRepository,ReplayAll</token>
 </entry>
 <entry count="1">
 <token>Rhino.Mocks.Expect,Call</token>
@@ -6891,6 +6017,10 @@
 <token>Rhino.Mocks.MockRepository,Stub</token>
 <token>Rhino.Mocks.SetupResult,For</token>
 <token>Rhino.Mocks.SetupResult,For</token>
+</entry>
+<entry count="4">
+<token>Rhino.Mocks.Expect,Call</token>
+<token>Rhino.Mocks.Function,new</token>
 </entry>
 <entry count="7">
 <token>Rhino.Mocks.MockRepository,Record</token>
@@ -6906,12 +6036,6 @@
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.MockRepository,CreateMock</token>
-</entry>
-<entry count="2">
-<token>-&gt;</token>
-<token>s:System.IntPtr,</token>
-<token>mscorlib,</token>
-<token>4.0.0.0]],Ref</token>
 </entry>
 <entry count="19">
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
@@ -6940,7 +6064,7 @@
 <token>Rhino.Mocks.LastCall,On</token>
 <token>Rhino.Mocks.LastCall,On</token>
 </entry>
-<entry count="306">
+<entry count="312">
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.MockRepository,ReplayAll</token>
 <token>Rhino.Mocks.MockRepository,VerifyAll</token>
@@ -6952,7 +6076,7 @@
 <token>Rhino.Mocks.RhinoMocksExtensions,Stub</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
 </entry>
-<entry count="39">
+<entry count="1064">
 <token>Rhino.Mocks.SetupResult,For</token>
 <token>Rhino.Mocks.SetupResult,For</token>
 <token>Rhino.Mocks.Expect,Call</token>
@@ -6961,18 +6085,18 @@
 <token>Rhino.Mocks.MockRepository,GenerateMock</token>
 <token>Rhino.Mocks.MockRepository,GenerateMock</token>
 </entry>
-<entry count="2">
-<token>Rhino.Mocks.SetupResult,For</token>
-<token>Rhino.Mocks.Expect,Call</token>
-<token>Rhino.Mocks.Expect,Call</token>
-<token>Rhino.Mocks.Arg`1[[T</token>
-</entry>
 <entry count="1">
 <token>Rhino.Mocks.MockRepository,DynamicMock</token>
 <token>Rhino.Mocks.MockRepository,DynamicMock</token>
 <token>Rhino.Mocks.SetupResult,For</token>
 <token>Rhino.Mocks.SetupResult,For</token>
 <token>Rhino.Mocks.MockRepository,ReplayAll</token>
+</entry>
+<entry count="2">
+<token>Rhino.Mocks.SetupResult,For</token>
+<token>Rhino.Mocks.Expect,Call</token>
+<token>Rhino.Mocks.SetupResult,For</token>
+<token>Rhino.Mocks.SetupResult,For</token>
 </entry>
 <entry count="2">
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
@@ -7009,10 +6133,6 @@
 <token>Rhino.Mocks.RhinoMocksExtensions,AssertWasCalled</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,AssertWasNotCalled</token>
 </entry>
-<entry count="2">
-<token>mscorlib,</token>
-<token>4.0.0.0]],Ref</token>
-</entry>
 <entry count="3">
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.MockRepository,CreateMock</token>
@@ -7032,27 +6152,28 @@
 <token>Rhino.Mocks.LastCall,Return</token>
 <token>Rhino.Mocks.MockRepository,VerifyAll</token>
 </entry>
-<entry count="1">
-<token>System.Net.Http.HttpResponseMessage,</token>
-<token>System.Net.Http,</token>
-<token>2.0.0.0]],Matches</token>
-<token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
-</entry>
 <entry count="3">
 <token>Rhino.Mocks.RhinoMocksExtensions,VerifyAllExpectations</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,VerifyAllExpectations</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,VerifyAllExpectations</token>
 </entry>
 <entry count="1">
-<token>-&gt;</token>
-<token>Cradiator.Model.Skin,</token>
-<token>Cradiator]],Matches</token>
-<token>Rhino.Mocks.Arg`1[[T</token>
+<token>Rhino.Mocks.Arg,Out</token>
+<token>Rhino.Mocks.Expect,Call</token>
+<token>Rhino.Mocks.Arg,Ref</token>
+<token>Rhino.Mocks.Expect,Call</token>
+<token>Rhino.Mocks.Expect,Call</token>
 </entry>
 <entry count="4">
 <token>Rhino.Mocks.RhinoMocksExtensions,Stub</token>
 <token>Rhino.Mocks.Arg,Is</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,Stub</token>
+</entry>
+<entry count="2">
+<token>Rhino.Mocks.Arg,Ref</token>
+<token>Rhino.Mocks.Arg,Out</token>
+<token>Rhino.Mocks.Expect,Call</token>
+<token>Rhino.Mocks.MockRepository,ReplayAll</token>
 </entry>
 <entry count="1">
 <token>Rhino.Mocks.MockRepository,Stub</token>
@@ -7086,25 +6207,16 @@
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.MockRepository,ReplayAll</token>
 </entry>
-<entry count="5">
-<token>-&gt;</token>
-<token>s:Microsoft.Isam.Esent.Interop.JET_INSTANCE,</token>
-<token>EsentInterop]],Out</token>
-<token>Rhino.Mocks.Expect,Call</token>
-<token>Rhino.Mocks.Arg`1[[T</token>
-</entry>
-<entry count="8">
+<entry count="36">
 <token>Rhino.Mocks.LastCall,On</token>
 <token>Rhino.Mocks.LastCall,On</token>
 </entry>
 <entry count="2">
-<token>ThoughtWorks.CruiseControl.Core.Tasks.GeneralTaskResult,</token>
-<token>core]],Matches</token>
-<token>Rhino.Mocks.Expect,Call</token>
-<token>Rhino.Mocks.MockRepository,ReplayAll</token>
-<token>Rhino.Mocks.MockRepository,VerifyAll</token>
+<token>Rhino.Mocks.RhinoMocksExtensions,Stub</token>
+<token>Rhino.Mocks.Function,new</token>
+<token>Rhino.Mocks.RhinoMocksExtensions,Stub</token>
 </entry>
-<entry count="55">
+<entry count="1077">
 <token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
 <token>Rhino.Mocks.MockRepository,ReplayAll</token>
 </entry>
@@ -7114,7 +6226,7 @@
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
 <token>Rhino.Mocks.Expect,Call</token>
 </entry>
-<entry count="12">
+<entry count="2056">
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
 <token>Rhino.Mocks.Expect,Call</token>
@@ -7125,23 +6237,11 @@
 <token>Rhino.Mocks.LastCall,Return</token>
 <token>Rhino.Mocks.MockRepository,VerifyAll</token>
 </entry>
-<entry count="28">
-<token>CacheCow.Common]],Out</token>
-<token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
-<token>Rhino.Mocks.MockRepository,ReplayAll</token>
-<token>Rhino.Mocks.MockRepository,VerifyAll</token>
-</entry>
 <entry count="1">
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.MockRepository,ReplayAll</token>
-</entry>
-<entry count="4">
-<token>2.0.0.0]],Out</token>
-<token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
-<token>Rhino.Mocks.MockRepository,ReplayAll</token>
-<token>Rhino.Mocks.MockRepository,VerifyAll</token>
 </entry>
 <entry count="1">
 <token>Rhino.Mocks.MockRepository,Stub</token>
@@ -7149,11 +6249,11 @@
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.MockRepository,ReplayAll</token>
 </entry>
-<entry count="45">
+<entry count="101">
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.LastCall,On</token>
 </entry>
-<entry count="4">
+<entry count="32">
 <token>Rhino.Mocks.LastCall,On</token>
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.Expect,Call</token>
@@ -7171,13 +6271,6 @@
 <token>Rhino.Mocks.MockRepository,GenerateStub</token>
 <token>Rhino.Mocks.MockRepository,GenerateStub</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,Stub</token>
-</entry>
-<entry count="8">
-<token>CacheCow.Common]],Out</token>
-<token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
-<token>Rhino.Mocks.Arg`1[[T</token>
-<token>-&gt;</token>
-<token>CacheCow.Common.CacheKey,</token>
 </entry>
 <entry count="1">
 <token>Rhino.Mocks.MockRepository,new</token>
@@ -7191,27 +6284,18 @@
 <token>Rhino.Mocks.RhinoMocksExtensions,AssertWasCalled</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,AssertWasCalled</token>
 </entry>
-<entry count="4">
+<entry count="32">
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
 <token>Rhino.Mocks.MockRepository,Ordered</token>
 </entry>
-<entry count="4">
-<token>core],[R</token>
-<token>-&gt;</token>
-</entry>
-<entry count="8">
-<token>CacheCow.Common]],Out</token>
-<token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
-<token>Rhino.Mocks.Arg`1[[T</token>
-</entry>
 <entry count="6">
 <token>Rhino.Mocks.RhinoMocksExtensions,Replay</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,AssertWasCalled</token>
 </entry>
-<entry count="27">
+<entry count="29">
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
 <token>Rhino.Mocks.SetupResult,For</token>
 <token>Rhino.Mocks.SetupResult,For</token>
@@ -7245,6 +6329,11 @@
 <token>Rhino.Mocks.RhinoMocksExtensions,Stub</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,Stub</token>
 </entry>
+<entry count="2">
+<token>Rhino.Mocks.Expect,Call</token>
+<token>Rhino.Mocks.Expect,Call</token>
+<token>Rhino.Mocks.Arg,Matches</token>
+</entry>
 <entry count="16">
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
@@ -7257,11 +6346,6 @@
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.MockRepository,ReplayAll</token>
-</entry>
-<entry count="2">
-<token>p:string],[R</token>
-<token>-&gt;</token>
-<token>p:string]],new</token>
 </entry>
 <entry count="2">
 <token>Rhino.Mocks.MockRepository,GenerateMock</token>
@@ -7281,24 +6365,20 @@
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.LastCall,On</token>
 </entry>
-<entry count="7">
-<token>2.0.0.0]],Out</token>
-<token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
-<token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
-</entry>
 <entry count="5">
 <token>Rhino.Mocks.MockRepository,new</token>
 <token>Rhino.Mocks.MockRepository,PartialMock</token>
-</entry>
-<entry count="4">
-<token>-&gt;</token>
-<token>p:string],[R</token>
 </entry>
 <entry count="1">
 <token>Rhino.Mocks.MockRepository,PartialMock</token>
 <token>Rhino.Mocks.MockRepository,DynamicMock</token>
 <token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.MockRepository,DynamicMock</token>
+<token>Rhino.Mocks.Expect,Call</token>
+</entry>
+<entry count="1">
+<token>Rhino.Mocks.Arg,Ref</token>
+<token>Rhino.Mocks.Expect,Call</token>
 <token>Rhino.Mocks.Expect,Call</token>
 </entry>
 <entry count="2">
@@ -7308,7 +6388,7 @@
 <token>Rhino.Mocks.MockRepository,ReplayAll</token>
 <token>Rhino.Mocks.MockRepository,DynamicMock</token>
 </entry>
-<entry count="13">
+<entry count="41">
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
@@ -7319,12 +6399,6 @@
 <token>Rhino.Mocks.MockRepository,GenerateMock</token>
 <token>Rhino.Mocks.MockRepository,GenerateMock</token>
 <token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
-</entry>
-<entry count="6">
-<token>Rhino.Mocks.Arg`1[[T</token>
-<token>-&gt;</token>
-<token>s:Microsoft.Isam.Esent.Interop.JET_INSTANCE,</token>
-<token>EsentInterop]],Out</token>
 </entry>
 <entry count="2">
 <token>Rhino.Mocks.MockRepository,StrictMock</token>
@@ -7356,10 +6430,6 @@
 <token>Rhino.Mocks.RhinoMocksExtensions,Stub</token>
 <token>Rhino.Mocks.Arg,Is</token>
 </entry>
-<entry count="44">
-<token>CacheCow.Common]],Matches</token>
-<token>Rhino.Mocks.Arg`1[[T</token>
-</entry>
 <entry count="2">
 <token>Rhino.Mocks.MockRepository,Stub</token>
 <token>Rhino.Mocks.MockRepository,Stub</token>
@@ -7389,14 +6459,8 @@
 <token>Rhino.Mocks.MockRepository,DynamicMock</token>
 <token>Rhino.Mocks.MockRepository,DynamicMock</token>
 </entry>
-<entry count="36">
-<token>-&gt;</token>
-<token>CacheCow.Common.TimedEntityTagHeaderValue,</token>
-<token>CacheCow.Common]],Out</token>
-<token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
-</entry>
 <entry count="2">
-<token>p:string]],Out</token>
+<token>Rhino.Mocks.Arg,Matches</token>
 <token>Rhino.Mocks.Expect,Call</token>
 </entry>
 <entry count="26">
@@ -7433,13 +6497,6 @@
 <token>Rhino.Mocks.LastCall,On</token>
 <token>Rhino.Mocks.LastCall,On</token>
 <token>Rhino.Mocks.LastCall,On</token>
-</entry>
-<entry count="1">
-<token>System.Net.Http,</token>
-<token>2.0.0.0]],Out</token>
-<token>Rhino.Mocks.RhinoMocksExtensions,Expect</token>
-<token>Rhino.Mocks.Arg`1[[T</token>
-<token>-&gt;</token>
 </entry>
 <entry count="3">
 <token>Rhino.Mocks.Expect,On</token>

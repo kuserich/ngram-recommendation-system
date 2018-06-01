@@ -15,7 +15,6 @@ import cc.kave.commons.model.ssts.expressions.simple.IReferenceExpression;
 import cc.kave.commons.model.ssts.expressions.simple.IUnknownExpression;
 import cc.kave.commons.model.ssts.references.*;
 import cc.kave.commons.model.ssts.statements.*;
-import cc.kave.commons.model.ssts.visitor.ISSTNode;
 import cc.kave.commons.model.ssts.visitor.ISSTNodeVisitor;
 import util.Utilities;
 
@@ -300,7 +299,6 @@ public class APIVisitor implements ISSTNodeVisitor<APISentenceTree, APIToken> {
 
     @Override
     public APIToken visit(ICastExpression statement, APISentenceTree context) {
-        // TODO: which one?
         return null;
     }
 
@@ -311,7 +309,6 @@ public class APIVisitor implements ISSTNodeVisitor<APISentenceTree, APIToken> {
 
     @Override
     public APIToken visit(IComposedExpression statement, APISentenceTree context) {
-        // TODO: what is this?
         return null;
     }
 

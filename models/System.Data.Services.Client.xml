@@ -12,15 +12,11 @@
 <token>System.Data.Services.Client.DataServiceContext,LoadProperty</token>
 <token>System.Data.Services.Client.DataServiceContext,new</token>
 </entry>
-<entry count="8">
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.Offer,</token>
-<token>Commands.Utilities]],Execute</token>
-</entry>
-<entry count="3">
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.VirtualNetworkAdapter,</token>
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
+<entry count="1">
+<token>System.Data.Services.Client.DataServiceContext,UpdateObject</token>
+<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
+<token>System.Data.Services.Client.DataServiceContext,DeleteObject</token>
+<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
 </entry>
 <entry count="1">
 <token>System.Data.Services.Client.DataServiceContext,AddObject</token>
@@ -28,47 +24,14 @@
 <token>System.Data.Services.Client.DataServiceContext,UpdateObject</token>
 </entry>
 <entry count="1">
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.OfferLink,</token>
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.VisualizationImage,</token>
+<token>System.Data.Services.Client.DataServiceContext,AddObject</token>
+<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
+<token>System.Data.Services.Client.DataServiceContext,new</token>
+<token>System.Data.Services.Client.DataServiceContext,CreateQuery</token>
 </entry>
-<entry count="1">
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.CloudCapacity,</token>
-</entry>
-<entry count="1">
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.ApplicationHost,</token>
-<token>Commands.Utilities]],new</token>
-</entry>
-<entry count="12">
-<token>-&gt;</token>
-<token>WebStack.QA.Test.OData.Batch.Tests.DataServicesClient.Unbuffered.UnbufferedBatchCustomer,</token>
-</entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.MarketLanguage,</token>
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-</entry>
-<entry count="6">
-<token>WebStack.QA.Test.OData]],new</token>
-<token>System.Data.Services.Client.DataServiceRequest`1[[TElement</token>
-<token>-&gt;</token>
-<token>WebStack.QA.Test.OData.Batch.Tests.DataServicesClient.Unbuffered.UnbufferedBatchCustomer,</token>
-</entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.CapabilityProfile,</token>
-<token>Commands.Utilities]],new</token>
-</entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.MarketLanguage,</token>
+<entry count="3">
+<token>System.Data.Services.Client.DataServiceContext,UpdateObject</token>
+<token>System.Data.Services.Client.DataServiceContext,DeleteObject</token>
 </entry>
 <entry count="1">
 <token>System.Data.Services.Client.DataServiceContext,LoadProperty</token>
@@ -76,42 +39,35 @@
 <token>System.Data.Services.Client.DataServiceContext,AttachTo</token>
 <token>System.Data.Services.Client.DataServiceContext,DeleteObject</token>
 </entry>
+<entry count="15">
+<token>System.Data.Services.Client.DataServiceCollection,new</token>
+<token>System.Data.Services.Client.DataServiceCollection,new</token>
+<token>System.Data.Services.Client.DataServiceCollection,new</token>
+</entry>
+<entry count="12">
+<token>System.Data.Services.Client.DataServiceRequest,new</token>
+<token>System.Data.Services.Client.DataServiceContext,ExecuteBatch</token>
+</entry>
 <entry count="1">
 <token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
 <token>System.Data.Services.Client.DataServiceContext,SetLink</token>
 <token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
 </entry>
-<entry count="2">
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.VirtualDVDDrive,</token>
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
+<entry count="4">
+<token>System.Data.Services.Client.DataServiceContext,new</token>
+<token>System.Data.Services.Client.DataServiceContext,AddObject</token>
+<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
 </entry>
 <entry count="6">
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.Offer,</token>
-<token>Commands.Utilities]],Execute</token>
+<token>System.Data.Services.Client.DataServiceQuery,AddQueryOption</token>
+<token>System.Data.Services.Client.DataServiceQuery,Expand</token>
+<token>System.Data.Services.Client.DataServiceQuery,Execute</token>
 <token>System.Data.Services.Client.DataServiceContext,LoadProperty</token>
-<token>System.Data.Services.Client.QueryOperationResponse`1[[T</token>
+<token>System.Data.Services.Client.QueryOperationResponse,GetContinuation</token>
 </entry>
-<entry count="1">
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.OfferLink,</token>
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-</entry>
-<entry count="1">
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.Plan,</token>
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-</entry>
-<entry count="2">
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.VirtualHardDisk,</token>
-</entry>
-<entry count="3">
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.VirtualSCSIAdapter,</token>
-<token>Commands.Utilities]],new</token>
+<entry count="8">
+<token>System.Data.Services.Client.DataServiceQuery,Expand</token>
+<token>System.Data.Services.Client.DataServiceQuery,Execute</token>
 </entry>
 <entry count="2">
 <token>System.Data.Services.Client.DataServiceContext,AttachTo</token>
@@ -124,63 +80,41 @@
 <token>System.Data.Services.Client.DataServiceContext,LoadProperty</token>
 <token>System.Data.Services.Client.DataServiceContext,new</token>
 </entry>
-<entry count="1">
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.VisualizationImage,</token>
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.Category,</token>
+<entry count="2">
+<token>System.Data.Services.Client.DataServiceContext,DeleteObject</token>
+<token>System.Data.Services.Client.DataServiceContext,DeleteObject</token>
 </entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.LogicalNetwork,</token>
-</entry>
-<entry count="1">
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.CloudResource,</token>
-</entry>
-<entry count="1">
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.VisualizationImage,</token>
-<token>Commands.Utilities]],new</token>
+<entry count="9">
+<token>System.Data.Services.Client.DataServiceCollection,new</token>
+<token>System.Data.Services.Client.DataServiceCollection,new</token>
+<token>System.Data.Services.Client.DataServiceCollection,new</token>
+<token>System.Data.Services.Client.DataServiceCollection,new</token>
 </entry>
 <entry count="2">
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.VirtualDVDDrive,</token>
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
+<token>System.Data.Services.Client.DataServiceContext,AttachTo</token>
+<token>System.Data.Services.Client.DataServiceContext,DeleteLink</token>
+<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
+<token>System.Data.Services.Client.DataServiceContext,CreateQuery</token>
+</entry>
+<entry count="1">
+<token>System.Data.Services.Client.DataServiceContext,new</token>
+<token>System.Data.Services.Client.DataServiceContext,CreateQuery</token>
+<token>System.Data.Services.Client.DataServiceContext,new</token>
+</entry>
+<entry count="5">
+<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
+<token>System.Data.Services.Client.DataServiceContext,CreateQuery</token>
+<token>System.Data.Services.Client.DataServiceContext,LoadProperty</token>
 </entry>
 <entry count="2">
 <token>System.Data.Services.Client.DataServiceContext,DeleteObject</token>
 <token>System.Data.Services.Client.DataServiceContext,UpdateObject</token>
 <token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
 </entry>
-<entry count="1">
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.VMRoleVMNic,</token>
-</entry>
 <entry count="2">
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.Offer,</token>
-</entry>
-<entry count="1">
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.ApplicationHostTemplate,</token>
-<token>Commands.Utilities]],new</token>
-</entry>
-<entry count="1">
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.Plan,</token>
-</entry>
-<entry count="2">
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.VirtualHardDisk,</token>
-<token>Commands.Utilities]],new</token>
+<token>System.Data.Services.Client.DataServiceContext,CreateQuery</token>
+<token>System.Data.Services.Client.DataServiceContext,LoadProperty</token>
+<token>System.Data.Services.Client.DataServiceContext,AttachTo</token>
 </entry>
 <entry count="3">
 <token>System.Data.Services.Client.DataServiceContext,UpdateObject</token>
@@ -188,12 +122,10 @@
 <token>System.Data.Services.Client.DataServiceContext,CreateQuery</token>
 <token>System.Data.Services.Client.DataServiceContext,AttachTo</token>
 </entry>
-<entry count="1">
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.Category,</token>
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.Offer,</token>
+<entry count="3">
+<token>System.Data.Services.Client.DataServiceContext,DeleteObject</token>
+<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
+<token>System.Data.Services.Client.DataServiceContext,CreateQuery</token>
 </entry>
 <entry count="1">
 <token>System.Data.Services.Client.DataServiceContext,CreateQuery</token>
@@ -201,11 +133,6 @@
 <token>System.Data.Services.Client.DataServiceContext,AttachTo</token>
 <token>System.Data.Services.Client.DataServiceContext,UpdateObject</token>
 <token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
-</entry>
-<entry count="1">
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.VMRole,</token>
-<token>Commands.Utilities]],Load</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
 </entry>
 <entry count="8">
 <token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
@@ -215,12 +142,6 @@
 <entry count="3">
 <token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
 <token>System.Data.Services.Client.DataServiceContext,new</token>
-</entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.LogicalNetwork,</token>
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
 </entry>
 <entry count="4">
 <token>System.Data.Services.Client.DataServiceContext,BeginSaveChanges</token>
@@ -238,128 +159,48 @@
 <token>System.Data.Services.Client.DataServiceContext,AttachTo</token>
 </entry>
 <entry count="1">
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.VMRoleVMDisk,</token>
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-</entry>
-<entry count="1">
 <token>System.Data.Services.Client.DataServiceContext,new</token>
 <token>System.Data.Services.Client.DataServiceContext,CreateQuery</token>
 <token>System.Data.Services.Client.DataServiceContext,LoadProperty</token>
 <token>System.Data.Services.Client.DataServiceContext,new</token>
 </entry>
-<entry count="2">
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.VirtualSCSIAdapter,</token>
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.VirtualHardDisk,</token>
-</entry>
-<entry count="1">
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.NATConnection,</token>
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-</entry>
 <entry count="6">
-<token>WebStack.QA.Test.OData.Batch.Tests.DataServicesClient.Unbuffered.UnbufferedBatchCustomer,</token>
-<token>WebStack.QA.Test.OData]],new</token>
-<token>System.Data.Services.Client.DataServiceRequest`1[[TElement</token>
-<token>-&gt;</token>
-</entry>
-<entry count="1">
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.ComputerTierTemplate,</token>
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-</entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.QuotaAndUsageComponent,</token>
+<token>System.Data.Services.Client.DataServiceQuery,Expand</token>
+<token>System.Data.Services.Client.DataServiceQuery,Execute</token>
+<token>System.Data.Services.Client.DataServiceContext,LoadProperty</token>
 </entry>
 <entry count="2">
 <token>System.Data.Services.Client.DataServiceClientFormat,UseJson</token>
 <token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
 </entry>
-<entry count="8">
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.Offer,</token>
-<token>Commands.Utilities]],Expand</token>
-</entry>
 <entry count="1">
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.VMCheckPoint,</token>
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
+<token>System.Data.Services.Client.DataServiceContext,AddObject</token>
+<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
+<token>System.Data.Services.Client.DataServiceContext,new</token>
 </entry>
 <entry count="2">
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.VirtualHardDisk,</token>
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-</entry>
-<entry count="1">
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.ApplicationHostTemplate,</token>
-</entry>
-<entry count="1">
-<token>Commands.Utilities]],Load</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.CloudResource,</token>
-</entry>
-<entry count="1">
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.MarketLanguage,</token>
-<token>Commands.Utilities]],new</token>
-</entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.VMRole,</token>
+<token>System.Data.Services.Client.DataServiceContext,AddRelatedObject</token>
+<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
+<token>System.Data.Services.Client.DataServiceContext,CreateQuery</token>
 </entry>
 <entry count="8">
-<token>System.Data.Services.Client.QueryOperationResponse`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.Offer,</token>
-</entry>
-<entry count="8">
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.Offer,</token>
-<token>Commands.Utilities]],AddQueryOption</token>
-<token>System.Data.Services.Client.DataServiceQuery`1[[TElement</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.Offer,</token>
+<token>System.Data.Services.Client.DataServiceQuery,AddQueryOption</token>
+<token>System.Data.Services.Client.DataServiceQuery,Expand</token>
 </entry>
 <entry count="6">
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.Plan,</token>
-<token>Commands.Utilities]],GetContinuation</token>
-<token>System.Data.Services.Client.QueryOperationResponse`1[[T</token>
+<token>System.Data.Services.Client.QueryOperationResponse,GetContinuation</token>
+<token>System.Data.Services.Client.QueryOperationResponse,GetContinuation</token>
 </entry>
-<entry count="1">
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.ComputerTier,</token>
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-</entry>
-<entry count="8">
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.Offer,</token>
-<token>Commands.Utilities]],AddQueryOption</token>
+<entry count="6">
+<token>System.Data.Services.Client.DataServiceContext,LoadProperty</token>
+<token>System.Data.Services.Client.QueryOperationResponse,GetContinuation</token>
+<token>System.Data.Services.Client.QueryOperationResponse,GetContinuation</token>
 </entry>
 <entry count="5">
 <token>System.Data.Services.Client.DataServiceContext,AttachTo</token>
 <token>System.Data.Services.Client.DataServiceContext,UpdateObject</token>
 <token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
 <token>System.Data.Services.Client.DataServiceContext,CreateQuery</token>
-</entry>
-<entry count="8">
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.Offer,</token>
-<token>Commands.Utilities]],AddQueryOption</token>
-<token>System.Data.Services.Client.DataServiceQuery`1[[TElement</token>
 </entry>
 <entry count="4">
 <token>System.Data.Services.Client.DataServiceContext,CreateQuery</token>
@@ -373,105 +214,25 @@
 <token>System.Data.Services.Client.DataServiceContext,CreateQuery</token>
 <token>System.Data.Services.Client.DataServiceContext,new</token>
 </entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.VisualizationImage,</token>
-</entry>
-<entry count="6">
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.Offer,</token>
-<token>Commands.Utilities]],Execute</token>
-<token>System.Data.Services.Client.DataServiceContext,LoadProperty</token>
-</entry>
-<entry count="12">
-<token>WebStack.QA.Test.OData]],new</token>
-<token>System.Data.Services.Client.DataServiceRequest`1[[TElement</token>
-</entry>
 <entry count="6">
 <token>System.Data.Services.Client.DataServiceContext,AddObject</token>
 <token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
 <token>System.Data.Services.Client.DataServiceContext,CreateQuery</token>
 </entry>
-<entry count="2">
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.VirtualHardDisk,</token>
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-</entry>
-<entry count="6">
-<token>System.Data.Services.Client.QueryOperationResponse`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.Plan,</token>
-</entry>
 <entry count="1">
 <token>System.Data.Services.Client.DataServiceContext,new</token>
 <token>System.Data.Services.Client.DataServiceContext,Execute</token>
 </entry>
-<entry count="6">
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.Plan,</token>
-<token>Commands.Utilities]],GetContinuation</token>
-</entry>
 <entry count="1">
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.LibraryShare,</token>
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
+<token>System.Data.Services.Client.DataServiceContext,AttachTo</token>
+<token>System.Data.Services.Client.DataServiceContext,UpdateObject</token>
+<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
+<token>System.Data.Services.Client.DataServiceContext,new</token>
 </entry>
-<entry count="26">
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-</entry>
-<entry count="1">
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.Plan,</token>
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-</entry>
-<entry count="8">
-<token>System.Data.Services.Client.QueryOperationResponse`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.Offer,</token>
-<token>Commands.Utilities]],GetContinuation</token>
-</entry>
-<entry count="1">
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.VisualizationImage,</token>
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-</entry>
-<entry count="3">
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.VirtualNetworkAdapter,</token>
-<token>Commands.Utilities]],new</token>
-</entry>
-<entry count="1">
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.BGPPeer,</token>
-<token>Commands.Utilities]],new</token>
-</entry>
-<entry count="26">
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-</entry>
-<entry count="8">
-<token>System.Data.Services.Client.DataServiceQuery`1[[TElement</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.Offer,</token>
-<token>Commands.Utilities]],AddQueryOption</token>
-<token>System.Data.Services.Client.DataServiceQuery`1[[TElement</token>
-</entry>
-<entry count="6">
-<token>System.Data.Services.Client.DataServiceQuery`1[[TElement</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.Offer,</token>
-<token>Commands.Utilities]],Execute</token>
-<token>System.Data.Services.Client.DataServiceContext,LoadProperty</token>
-</entry>
-<entry count="12">
-<token>System.Data.Services.Client.DataServiceClientFormat,UseJson</token>
-<token>System.Data.Services.Client.DataServiceRequest`1[[TElement</token>
-<token>-&gt;</token>
+<entry count="5">
+<token>System.Data.Services.Client.DataServiceContext,AddObject</token>
+<token>System.Data.Services.Client.DataServiceContext,AddObject</token>
+<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
 </entry>
 <entry count="2">
 <token>System.Data.Services.Client.DataServiceContext,AddRelatedObject</token>
@@ -479,15 +240,11 @@
 <token>System.Data.Services.Client.DataServiceContext,CreateQuery</token>
 <token>System.Data.Services.Client.DataServiceContext,LoadProperty</token>
 </entry>
-<entry count="1">
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.Plan,</token>
-</entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.LibraryShare,</token>
+<entry count="6">
+<token>System.Data.Services.Client.DataServiceQuery,AddQueryOption</token>
+<token>System.Data.Services.Client.DataServiceQuery,Expand</token>
+<token>System.Data.Services.Client.DataServiceQuery,Execute</token>
+<token>System.Data.Services.Client.DataServiceContext,LoadProperty</token>
 </entry>
 <entry count="1">
 <token>System.Data.Services.Client.DataServiceContext,new</token>
@@ -495,18 +252,9 @@
 <token>System.Data.Services.Client.DataServiceContext,UpdateObject</token>
 <token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
 </entry>
-<entry count="2">
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.VirtualHardDisk,</token>
-</entry>
-<entry count="2">
-<token>System.Data.Services.Client.DataServiceQuery`1[[TElement</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.Offer,</token>
-<token>Commands.Utilities]],Execute</token>
-<token>System.Data.Services.Client.QueryOperationResponse`1[[T</token>
+<entry count="4">
+<token>System.Data.Services.Client.DataServiceContext,DeleteObject</token>
+<token>System.Data.Services.Client.DataServiceContext,BeginSaveChanges</token>
 </entry>
 <entry count="21">
 <token>System.Data.Services.Client.DataServiceContext,AddObject</token>
@@ -519,37 +267,12 @@
 <token>System.Data.Services.Client.DataServiceContext,AttachTo</token>
 <token>System.Data.Services.Client.DataServiceContext,DeleteObject</token>
 </entry>
-<entry count="6">
-<token>System.Data.Services.Client.DataServiceContext,LoadProperty</token>
-<token>System.Data.Services.Client.QueryOperationResponse`1[[T</token>
-</entry>
-<entry count="1">
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.ApplicationHostTemplate,</token>
-<token>Commands.Utilities]],new</token>
-</entry>
-<entry count="12">
-<token>WebStack.QA.Test.OData]],new</token>
-<token>System.Data.Services.Client.DataServiceContext,ExecuteBatch</token>
-</entry>
-<entry count="12">
-<token>-&gt;</token>
-<token>WebStack.QA.Test.OData.Batch.Tests.DataServicesClient.Unbuffered.UnbufferedBatchCustomer,</token>
-<token>WebStack.QA.Test.OData]],new</token>
-</entry>
-<entry count="1">
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.Plan,</token>
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.Market,</token>
-</entry>
-<entry count="2">
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.Offer,</token>
+<entry count="3">
+<token>System.Data.Services.Client.DataServiceContext,CreateQuery</token>
+<token>System.Data.Services.Client.DataServiceContext,AttachTo</token>
+<token>System.Data.Services.Client.DataServiceContext,DeleteObject</token>
+<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
+<token>System.Data.Services.Client.DataServiceContext,CreateQuery</token>
 </entry>
 <entry count="2">
 <token>System.Data.Services.Client.DataServiceContext,AttachTo</token>
@@ -562,9 +285,17 @@
 <token>System.Data.Services.Client.DataServiceContext,SetLink</token>
 <token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
 </entry>
-<entry count="2">
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.Category,</token>
+<entry count="4">
+<token>System.Data.Services.Client.DataServiceContext,AttachTo</token>
+<token>System.Data.Services.Client.DataServiceContext,DeleteObject</token>
+<token>System.Data.Services.Client.DataServiceContext,BeginSaveChanges</token>
+</entry>
+<entry count="1">
+<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
+<token>System.Data.Services.Client.DataServiceContext,new</token>
+<token>System.Data.Services.Client.DataServiceContext,CreateQuery</token>
+<token>System.Data.Services.Client.DataServiceContext,new</token>
+<token>System.Data.Services.Client.DataServiceContext,AttachTo</token>
 </entry>
 <entry count="2">
 <token>System.Data.Services.Client.DataServiceContext,AttachTo</token>
@@ -574,30 +305,42 @@
 <token>System.Data.Services.Client.DataServiceContext,CreateQuery</token>
 </entry>
 <entry count="1">
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.LogicalNetwork,</token>
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
+<token>System.Data.Services.Client.DataServiceContext,new</token>
+<token>System.Data.Services.Client.DataServiceContext,AttachTo</token>
+<token>System.Data.Services.Client.DataServiceContext,UpdateObject</token>
 </entry>
 <entry count="1">
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.CapabilityProfile,</token>
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
+<token>System.Data.Services.Client.DataServiceContext,new</token>
+<token>System.Data.Services.Client.DataServiceContext,AddObject</token>
+<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
+<token>System.Data.Services.Client.DataServiceContext,new</token>
+</entry>
+<entry count="20">
+<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
+<token>System.Data.Services.Client.DataServiceContext,CreateQuery</token>
+</entry>
+<entry count="2">
+<token>System.Data.Services.Client.DataServiceContext,new</token>
+<token>System.Data.Services.Client.DataServiceContext,CreateQuery</token>
+<token>System.Data.Services.Client.DataServiceContext,TryGetUri</token>
+<token>System.Data.Services.Client.DataServiceContext,Execute</token>
+</entry>
+<entry count="1">
+<token>System.Data.Services.Client.DataServiceContext,new</token>
+<token>System.Data.Services.Client.DataServiceContext,AttachTo</token>
+<token>System.Data.Services.Client.DataServiceContext,UpdateObject</token>
+<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
+<token>System.Data.Services.Client.DataServiceContext,new</token>
 </entry>
 <entry count="5">
 <token>System.Data.Services.Client.DataServiceContext,AddObject</token>
 <token>System.Data.Services.Client.DataServiceContext,AddObject</token>
 </entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.LibraryShare,</token>
-<token>Commands.Utilities]],new</token>
-</entry>
-<entry count="3">
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.VirtualNetworkAdapter,</token>
+<entry count="12">
+<token>System.Data.Services.Client.DataServiceClientFormat,UseJson</token>
+<token>System.Data.Services.Client.DataServiceRequest,new</token>
+<token>System.Data.Services.Client.DataServiceRequest,new</token>
+<token>System.Data.Services.Client.DataServiceContext,ExecuteBatch</token>
 </entry>
 <entry count="2">
 <token>System.Data.Services.Client.DataServiceContext,AddObject</token>
@@ -605,29 +348,10 @@
 <token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
 </entry>
 <entry count="1">
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.BGPPeer,</token>
-<token>Commands.Utilities]],new</token>
-</entry>
-<entry count="1">
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.VMRoleVMNic,</token>
-<token>Commands.Utilities]],new</token>
-</entry>
-<entry count="3">
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.VirtualDVDDrive,</token>
-<token>Commands.Utilities]],new</token>
-</entry>
-<entry count="1">
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.VisualizationImage,</token>
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-</entry>
-<entry count="1">
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.VMRoleVMDisk,</token>
+<token>System.Data.Services.Client.DataServiceContext,AddObject</token>
+<token>System.Data.Services.Client.DataServiceContext,AddObject</token>
+<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
+<token>System.Data.Services.Client.DataServiceContext,SetLink</token>
 </entry>
 <entry count="1">
 <token>System.Data.Services.Client.DataServiceContext,new</token>
@@ -636,9 +360,17 @@
 <token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
 </entry>
 <entry count="2">
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.Category,</token>
-<token>Commands.Utilities]],new</token>
+<token>System.Data.Services.Client.DataServiceContext,AddRelatedObject</token>
+<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
+<token>System.Data.Services.Client.DataServiceContext,CreateQuery</token>
+<token>System.Data.Services.Client.DataServiceContext,LoadProperty</token>
+<token>System.Data.Services.Client.DataServiceContext,AttachTo</token>
+</entry>
+<entry count="1">
+<token>System.Data.Services.Client.DataServiceContext,new</token>
+<token>System.Data.Services.Client.DataServiceContext,CreateQuery</token>
+<token>System.Data.Services.Client.DataServiceContext,new</token>
+<token>System.Data.Services.Client.DataServiceContext,AttachTo</token>
 </entry>
 <entry count="5">
 <token>System.Data.Services.Client.DataServiceContext,AddObject</token>
@@ -647,22 +379,16 @@
 <token>System.Data.Services.Client.DataServiceContext,AttachTo</token>
 </entry>
 <entry count="1">
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.ComputerTier,</token>
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.ApplicationHost,</token>
+<token>System.Data.Services.Client.DataServiceContext,AttachTo</token>
+<token>System.Data.Services.Client.DataServiceContext,DeleteObject</token>
+<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
+<token>System.Data.Services.Client.DataServiceContext,new</token>
+<token>System.Data.Services.Client.DataServiceContext,CreateQuery</token>
 </entry>
-<entry count="1">
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.ComputerTierTemplate,</token>
-</entry>
-<entry count="1">
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.VMCheckPoint,</token>
+<entry count="3">
+<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
+<token>System.Data.Services.Client.DataServiceContext,new</token>
+<token>System.Data.Services.Client.DataServiceContext,CreateQuery</token>
 </entry>
 <entry count="1">
 <token>System.Data.Services.Client.DataServiceContext,AddObject</token>
@@ -677,60 +403,20 @@
 <token>System.Data.Services.Client.DataServiceContext,new</token>
 <token>System.Data.Services.Client.DataServiceContext,AttachTo</token>
 </entry>
-<entry count="2">
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.Category,</token>
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-</entry>
-<entry count="2">
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.Offer,</token>
-<token>Commands.Utilities]],new</token>
-</entry>
-<entry count="12">
-<token>System.Data.Services.Client.DataServiceClientFormat,UseJson</token>
-<token>System.Data.Services.Client.DataServiceRequest`1[[TElement</token>
+<entry count="6">
+<token>System.Data.Services.Client.DataServiceContext,new</token>
+<token>System.Data.Services.Client.DataServiceContext,CreateQuery</token>
+<token>System.Data.Services.Client.DataServiceContext,TryGetUri</token>
 </entry>
 <entry count="1">
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.BGPPeer,</token>
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.NATConnection,</token>
+<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
+<token>System.Data.Services.Client.DataServiceContext,DeleteObject</token>
+<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
 </entry>
 <entry count="6">
-<token>Commands.Utilities]],GetContinuation</token>
-<token>System.Data.Services.Client.QueryOperationResponse`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.Offer,</token>
-</entry>
-<entry count="1">
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.NATConnection,</token>
-<token>Commands.Utilities]],new</token>
-</entry>
-<entry count="3">
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.VirtualSCSIAdapter,</token>
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-</entry>
-<entry count="2">
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.VirtualDVDDrive,</token>
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-</entry>
-<entry count="6">
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.Offer,</token>
-<token>Commands.Utilities]],Execute</token>
+<token>System.Data.Services.Client.DataServiceQuery,Execute</token>
 <token>System.Data.Services.Client.DataServiceContext,LoadProperty</token>
+<token>System.Data.Services.Client.QueryOperationResponse,GetContinuation</token>
 </entry>
 <entry count="1">
 <token>System.Data.Services.Client.DataServiceContext,AttachTo</token>
@@ -738,46 +424,43 @@
 <token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
 <token>System.Data.Services.Client.DataServiceContext,new</token>
 </entry>
-<entry count="3">
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.VirtualDVDDrive,</token>
+<entry count="4">
+<token>System.Data.Services.Client.BodyOperationParameter,new</token>
+<token>System.Data.Services.Client.BodyOperationParameter,new</token>
 </entry>
 <entry count="1">
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.CloudCapacity,</token>
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
+<token>System.Data.Services.Client.DataServiceCollection,Load</token>
+<token>System.Data.Services.Client.DataServiceCollection,Load</token>
 </entry>
 <entry count="1">
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.Plan,</token>
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
+<token>System.Data.Services.Client.DataServiceContext,UpdateObject</token>
+<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
+<token>System.Data.Services.Client.DataServiceContext,new</token>
+<token>System.Data.Services.Client.DataServiceContext,CreateQuery</token>
 </entry>
 <entry count="1">
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.ComputerTierTemplate,</token>
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-</entry>
-<entry count="3">
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.VirtualSCSIAdapter,</token>
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
+<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
+<token>System.Data.Services.Client.DataServiceContext,new</token>
+<token>System.Data.Services.Client.DataServiceContext,CreateQuery</token>
+<token>System.Data.Services.Client.DataServiceContext,new</token>
 </entry>
 <entry count="6">
-<token>System.Data.Services.Client.DataServiceClientFormat,UseJson</token>
-<token>System.Data.Services.Client.DataServiceRequest`1[[TElement</token>
-<token>-&gt;</token>
-<token>WebStack.QA.Test.OData.Batch.Tests.DataServicesClient.Unbuffered.UnbufferedBatchCustomer,</token>
+<token>System.Data.Services.Client.DataServiceQuery,Execute</token>
+<token>System.Data.Services.Client.DataServiceContext,LoadProperty</token>
+<token>System.Data.Services.Client.QueryOperationResponse,GetContinuation</token>
+<token>System.Data.Services.Client.QueryOperationResponse,GetContinuation</token>
 </entry>
-<entry count="1">
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.Plan,</token>
-<token>Commands.Utilities]],new</token>
+<entry count="4">
+<token>System.Data.Services.Client.DataServiceContext,CreateQuery</token>
+<token>System.Data.Services.Client.DataServiceContext,TryGetUri</token>
+<token>System.Data.Services.Client.DataServiceContext,UpdateObject</token>
+<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
+</entry>
+<entry count="6">
+<token>System.Data.Services.Client.DataServiceQuery,Expand</token>
+<token>System.Data.Services.Client.DataServiceQuery,Execute</token>
+<token>System.Data.Services.Client.DataServiceContext,LoadProperty</token>
+<token>System.Data.Services.Client.QueryOperationResponse,GetContinuation</token>
 </entry>
 <entry count="4">
 <token>System.Data.Services.Client.DataServiceContext,AttachTo</token>
@@ -792,23 +475,49 @@
 <token>System.Data.Services.Client.DataServiceContext,new</token>
 <token>System.Data.Services.Client.DataServiceContext,CreateQuery</token>
 </entry>
+<entry count="2">
+<token>System.Data.Services.Client.DataServiceContext,LoadProperty</token>
+<token>System.Data.Services.Client.DataServiceContext,AttachTo</token>
+<token>System.Data.Services.Client.DataServiceContext,AttachTo</token>
+<token>System.Data.Services.Client.DataServiceContext,DeleteLink</token>
+</entry>
+<entry count="2">
+<token>System.Data.Services.Client.DataServiceClientFormat,UseJson</token>
+<token>System.Data.Services.Client.DataServiceContext,DeleteObject</token>
+<token>System.Data.Services.Client.DataServiceContext,UpdateObject</token>
+<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
+</entry>
 <entry count="1">
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.Market,</token>
-<token>Commands.Utilities]],new</token>
+<token>System.Data.Services.Client.DataServiceContext,SetLink</token>
+<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
 </entry>
-<entry count="6">
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.Plan,</token>
-<token>Commands.Utilities]],GetContinuation</token>
-<token>System.Data.Services.Client.QueryOperationResponse`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.Offer,</token>
+<entry count="1">
+<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
+<token>System.Data.Services.Client.DataServiceContext,UpdateObject</token>
+<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
 </entry>
-<entry count="12">
-<token>WebStack.QA.Test.OData]],new</token>
-<token>System.Data.Services.Client.DataServiceRequest`1[[TElement</token>
-<token>-&gt;</token>
+<entry count="2">
+<token>System.Data.Services.Client.DataServiceContext,CreateQuery</token>
+<token>System.Data.Services.Client.DataServiceContext,TryGetUri</token>
+<token>System.Data.Services.Client.DataServiceContext,Execute</token>
+</entry>
+<entry count="1">
+<token>System.Data.Services.Client.DataServiceContext,CreateQuery</token>
+<token>System.Data.Services.Client.DataServiceContext,new</token>
+<token>System.Data.Services.Client.DataServiceContext,AttachTo</token>
+</entry>
+<entry count="8">
+<token>System.Data.Services.Client.DataServiceContext,CreateQuery</token>
+<token>System.Data.Services.Client.DataServiceContext,AttachTo</token>
+</entry>
+<entry count="1">
+<token>System.Data.Services.Client.DataServiceContext,new</token>
+<token>System.Data.Services.Client.DataServiceContext,AttachTo</token>
+<token>System.Data.Services.Client.DataServiceContext,DeleteObject</token>
+</entry>
+<entry count="4">
+<token>System.Data.Services.Client.DataServiceContext,new</token>
+<token>System.Data.Services.Client.DataServiceContext,AddObject</token>
 </entry>
 <entry count="1">
 <token>System.Data.Services.Client.DataServiceContext,LoadProperty</token>
@@ -817,47 +526,37 @@
 <token>System.Data.Services.Client.DataServiceContext,DeleteObject</token>
 <token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
 </entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.ComputerTierTemplate,</token>
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
+<entry count="12">
+<token>System.Data.Services.Client.DataServiceRequest,new</token>
+<token>System.Data.Services.Client.DataServiceRequest,new</token>
 </entry>
-<entry count="1">
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.NATConnection,</token>
-<token>Commands.Utilities]],new</token>
+<entry count="8">
+<token>System.Data.Services.Client.DataServiceQuery,AddQueryOption</token>
+<token>System.Data.Services.Client.DataServiceQuery,Expand</token>
+<token>System.Data.Services.Client.DataServiceQuery,Execute</token>
 </entry>
-<entry count="2">
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.Category,</token>
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
+<entry count="6">
+<token>System.Data.Services.Client.DataServiceQuery,Execute</token>
+<token>System.Data.Services.Client.DataServiceContext,LoadProperty</token>
 </entry>
 <entry count="2">
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.VirtualHardDisk,</token>
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-</entry>
-<entry count="1">
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.VMRole,</token>
-<token>Commands.Utilities]],Load</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-</entry>
-<entry count="1">
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.VPNConnection,</token>
-<token>Commands.Utilities]],new</token>
+<token>System.Data.Services.Client.DataServiceContext,DeleteLink</token>
+<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
+<token>System.Data.Services.Client.DataServiceContext,CreateQuery</token>
 </entry>
 <entry count="2">
-<token>Commands.Utilities]],Execute</token>
-<token>System.Data.Services.Client.QueryOperationResponse`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.Offer,</token>
+<token>System.Data.Services.Client.DataServiceContext,AttachTo</token>
+<token>System.Data.Services.Client.DataServiceContext,DeleteLink</token>
+<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
+</entry>
+<entry count="1">
+<token>System.Data.Services.Client.DataServiceContext,AddObject</token>
+<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
+<token>System.Data.Services.Client.DataServiceContext,SetLink</token>
+</entry>
+<entry count="6">
+<token>System.Data.Services.Client.DataServiceContext,AttachTo</token>
+<token>System.Data.Services.Client.DataServiceContext,UpdateObject</token>
 </entry>
 <entry count="3">
 <token>System.Data.Services.Client.DataServiceContext,AttachTo</token>
@@ -873,25 +572,28 @@
 <token>System.Data.Services.Client.DataServiceContext,LoadProperty</token>
 </entry>
 <entry count="2">
+<token>System.Data.Services.Client.DataServiceClientFormat,UseJson</token>
+<token>System.Data.Services.Client.DataServiceContext,DeleteObject</token>
+</entry>
+<entry count="2">
 <token>System.Data.Services.Client.DataServiceContext,AddObject</token>
 <token>System.Data.Services.Client.DataServiceContext,AddRelatedObject</token>
 </entry>
-<entry count="14">
-<token>System.Data.Services.Client.QueryOperationResponse`1[[T</token>
-<token>-&gt;</token>
-</entry>
 <entry count="2">
-<token>Commands.Utilities]],Execute</token>
-<token>System.Data.Services.Client.QueryOperationResponse`1[[T</token>
-<token>-&gt;</token>
+<token>System.Data.Services.Client.DataServiceContext,LoadProperty</token>
+<token>System.Data.Services.Client.DataServiceContext,AttachTo</token>
+<token>System.Data.Services.Client.DataServiceContext,AttachTo</token>
 </entry>
-<entry count="3">
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.VirtualSCSIAdapter,</token>
+<entry count="5">
+<token>System.Data.Services.Client.DataServiceContext,CreateQuery</token>
+<token>System.Data.Services.Client.DataServiceContext,AttachTo</token>
+<token>System.Data.Services.Client.DataServiceContext,UpdateObject</token>
+<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
 </entry>
-<entry count="1">
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.QuotaAndUsageComponent,</token>
-<token>Commands.Utilities]],new</token>
+<entry count="12">
+<token>System.Data.Services.Client.DataServiceClientFormat,UseJson</token>
+<token>System.Data.Services.Client.DataServiceRequest,new</token>
+<token>System.Data.Services.Client.DataServiceRequest,new</token>
 </entry>
 <entry count="4">
 <token>System.Data.Services.Client.DataServiceContext,DeleteObject</token>
@@ -902,12 +604,6 @@
 <token>System.Data.Services.Client.DataServiceContext,GetMetadataUri</token>
 <token>System.Data.Services.Client.DataServiceClientFormat,UseJson</token>
 </entry>
-<entry count="1">
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.CloudResource,</token>
-<token>Commands.Utilities]],Load</token>
-</entry>
 <entry count="2">
 <token>System.Data.Services.Client.DataServiceContext,AddObject</token>
 <token>System.Data.Services.Client.DataServiceContext,AddRelatedObject</token>
@@ -920,34 +616,9 @@
 <token>System.Data.Services.Client.DataServiceContext,SetLink</token>
 <token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
 </entry>
-<entry count="1">
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.Category,</token>
-<token>Commands.Utilities]],new</token>
-</entry>
-<entry count="2">
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.VirtualDiskDrive,</token>
-<token>Commands.Utilities]],new</token>
-</entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.VPNConnection,</token>
-</entry>
-<entry count="8">
-<token>System.Data.Services.Client.DataServiceQuery`1[[TElement</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.Offer,</token>
-<token>Commands.Utilities]],Execute</token>
-</entry>
-<entry count="3">
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.VirtualSCSIAdapter,</token>
+<entry count="6">
+<token>System.Data.Services.Client.DataServiceContext,LoadProperty</token>
+<token>System.Data.Services.Client.QueryOperationResponse,GetContinuation</token>
 </entry>
 <entry count="2">
 <token>System.Data.Services.Client.DataServiceContext,AddRelatedObject</token>
@@ -960,10 +631,6 @@
 <token>System.Data.Services.Client.DataServiceContext,AttachTo</token>
 <token>System.Data.Services.Client.DataServiceContext,UpdateObject</token>
 </entry>
-<entry count="1">
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.MarketLanguage,</token>
-<token>Commands.Utilities]],new</token>
-</entry>
 <entry count="4">
 <token>System.Data.Services.Client.DataServiceContext,new</token>
 <token>System.Data.Services.Client.DataServiceContext,CreateQuery</token>
@@ -971,92 +638,78 @@
 <token>System.Data.Services.Client.DataServiceContext,UpdateObject</token>
 <token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
 </entry>
-<entry count="6">
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.Plan,</token>
-<token>Commands.Utilities]],GetContinuation</token>
-<token>System.Data.Services.Client.QueryOperationResponse`1[[T</token>
-<token>-&gt;</token>
-</entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.ComputerTier,</token>
-<token>Commands.Utilities]],new</token>
-</entry>
-<entry count="1">
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.VPNConnection,</token>
-<token>Commands.Utilities]],new</token>
-</entry>
-<entry count="6">
-<token>WebStack.QA.Test.OData]],new</token>
-<token>System.Data.Services.Client.DataServiceRequest`1[[TElement</token>
-<token>-&gt;</token>
-<token>WebStack.QA.Test.OData.Batch.Tests.DataServicesClient.Default.DefaultBatchCustomer,</token>
-</entry>
 <entry count="1">
 <token>System.Data.Services.Client.DataServiceContext,CreateQuery</token>
 <token>System.Data.Services.Client.DataServiceContext,new</token>
 <token>System.Data.Services.Client.DataServiceContext,AttachTo</token>
 <token>System.Data.Services.Client.DataServiceContext,UpdateObject</token>
 </entry>
+<entry count="2">
+<token>System.Data.Services.Client.DataServiceContext,AttachTo</token>
+<token>System.Data.Services.Client.DataServiceContext,AttachTo</token>
+<token>System.Data.Services.Client.DataServiceContext,DeleteLink</token>
+</entry>
 <entry count="6">
 <token>System.Data.Services.Client.DataServiceContext,CreateQuery</token>
 <token>System.Data.Services.Client.DataServiceContext,LoadProperty</token>
 </entry>
-<entry count="1">
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.VMCheckPoint,</token>
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
+<entry count="2">
+<token>System.Data.Services.Client.DataServiceClientFormat,UseJson</token>
+<token>System.Data.Services.Client.DataServiceContext,AddLink</token>
+</entry>
+<entry count="2">
+<token>System.Data.Services.Client.DataServiceQuery,AddQueryOption</token>
+<token>System.Data.Services.Client.DataServiceQuery,Expand</token>
+<token>System.Data.Services.Client.DataServiceQuery,Execute</token>
+<token>System.Data.Services.Client.QueryOperationResponse,GetContinuation</token>
+</entry>
+<entry count="6">
+<token>System.Data.Services.Client.DataServiceContext,DeleteObject</token>
+<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
 </entry>
 <entry count="1">
 <token>System.Data.Services.Client.DataServiceContext,UpdateObject</token>
 <token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
 <token>System.Data.Services.Client.DataServiceContext,new</token>
 </entry>
-<entry count="6">
-<token>System.Data.Services.Client.DataServiceContext,LoadProperty</token>
-<token>System.Data.Services.Client.QueryOperationResponse`1[[T</token>
-<token>-&gt;</token>
+<entry count="2">
+<token>System.Data.Services.Client.DataServiceQuery,Execute</token>
+<token>System.Data.Services.Client.QueryOperationResponse,GetContinuation</token>
 </entry>
 <entry count="2">
 <token>System.Data.Services.Client.DataServiceContext,DeleteLink</token>
 <token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
 </entry>
 <entry count="1">
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.ComputerTier,</token>
+<token>System.Data.Services.Client.DataServiceContext,CreateQuery</token>
+<token>System.Data.Services.Client.DataServiceContext,new</token>
+</entry>
+<entry count="2">
+<token>System.Data.Services.Client.DataServiceContext,new</token>
+<token>System.Data.Services.Client.DataServiceContext,AttachTo</token>
 </entry>
 <entry count="6">
 <token>System.Data.Services.Client.BodyOperationParameter,new</token>
 <token>System.Data.Services.Client.DataServiceContext,Execute</token>
 </entry>
-<entry count="1">
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.OfferLink,</token>
-<token>Commands.Utilities]],new</token>
+<entry count="3">
+<token>System.Data.Services.Client.DataServiceContext,UpdateObject</token>
+<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
+<token>System.Data.Services.Client.DataServiceContext,CreateQuery</token>
+<token>System.Data.Services.Client.DataServiceContext,AttachTo</token>
+<token>System.Data.Services.Client.DataServiceContext,DeleteObject</token>
+</entry>
+<entry count="3">
+<token>System.Data.Services.Client.DataServiceContext,AttachTo</token>
+<token>System.Data.Services.Client.DataServiceContext,UpdateObject</token>
+<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
+<token>System.Data.Services.Client.DataServiceContext,CreateQuery</token>
+<token>System.Data.Services.Client.DataServiceContext,AttachTo</token>
 </entry>
 <entry count="6">
-<token>-&gt;</token>
-<token>WebStack.QA.Test.OData.Batch.Tests.DataServicesClient.Unbuffered.UnbufferedBatchCustomer,</token>
-<token>WebStack.QA.Test.OData]],new</token>
-<token>System.Data.Services.Client.DataServiceRequest`1[[TElement</token>
-<token>-&gt;</token>
-</entry>
-<entry count="2">
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.Category,</token>
-<token>Commands.Utilities]],new</token>
-</entry>
-<entry count="2">
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.Category,</token>
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
+<token>System.Data.Services.Client.DataServiceContext,AttachTo</token>
+<token>System.Data.Services.Client.DataServiceContext,UpdateObject</token>
+<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
 </entry>
 <entry count="2">
 <token>System.Data.Services.Client.DataServiceClientFormat,UseJson</token>
@@ -1068,1677 +721,11 @@
 <token>System.Data.Services.Client.DataServiceContext,CreateQuery</token>
 <token>System.Data.Services.Client.DataServiceContext,TryGetUri</token>
 <token>System.Data.Services.Client.DataServiceContext,UpdateObject</token>
-</entry>
-<entry count="1">
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.ComputerTierTemplate,</token>
-<token>Commands.Utilities]],new</token>
-</entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.BGPPeer,</token>
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-</entry>
-<entry count="2">
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.Category,</token>
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
 </entry>
 <entry count="18">
 <token>System.Data.Services.Client.DataServiceContext,UpdateObject</token>
 <token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
 </entry>
-<entry count="8">
-<token>Commands.Utilities]],Expand</token>
-<token>System.Data.Services.Client.DataServiceQuery`1[[TElement</token>
-<token>-&gt;</token>
-</entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.ComputerTierTemplate,</token>
-<token>Commands.Utilities]],new</token>
-</entry>
-<entry count="6">
-<token>System.Data.Services.Client.DataServiceContext,UpdateObject</token>
-<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
-<token>System.Data.Services.Client.DataServiceContext,CreateQuery</token>
-</entry>
-<entry count="1">
-<token>System.Data.Services.Client.DataServiceContext,AddObject</token>
-<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
-<token>System.Data.Services.Client.DataServiceContext,UpdateObject</token>
-<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
-</entry>
-<entry count="1">
-<token>System.Data.Services.Client.DataServiceContext,SetLink</token>
-<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
-<token>System.Data.Services.Client.DataServiceContext,CreateQuery</token>
-<token>System.Data.Services.Client.DataServiceContext,LoadProperty</token>
-</entry>
-<entry count="1">
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.CloudCapacity,</token>
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.LogicalNetwork,</token>
-</entry>
-<entry count="1">
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.ComputerTier,</token>
-<token>Commands.Utilities]],new</token>
-</entry>
-<entry count="1">
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.LogicalNetwork,</token>
-<token>Commands.Utilities]],new</token>
-</entry>
-<entry count="1">
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.VMRoleVMDisk,</token>
-<token>Commands.Utilities]],new</token>
-</entry>
-<entry count="5">
-<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
-<token>System.Data.Services.Client.DataServiceContext,CreateQuery</token>
-<token>System.Data.Services.Client.DataServiceContext,AttachTo</token>
-<token>System.Data.Services.Client.DataServiceContext,UpdateObject</token>
-</entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.Market,</token>
-</entry>
-<entry count="1">
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.CapabilityProfile,</token>
-</entry>
-<entry count="1">
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.VMRoleVMNic,</token>
-<token>Commands.Utilities]],new</token>
-</entry>
-<entry count="8">
-<token>Commands.Utilities]],AddQueryOption</token>
-<token>System.Data.Services.Client.DataServiceQuery`1[[TElement</token>
-<token>-&gt;</token>
-</entry>
-<entry count="1">
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.VirtualNetworkAdapter,</token>
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.VMCheckPoint,</token>
-</entry>
-<entry count="4">
-<token>System.Data.Services.Client.DataServiceContext,AttachTo</token>
-<token>System.Data.Services.Client.DataServiceContext,DeleteObject</token>
-<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
-</entry>
-<entry count="2">
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.Offer,</token>
-<token>Commands.Utilities]],Execute</token>
-<token>System.Data.Services.Client.QueryOperationResponse`1[[T</token>
-</entry>
-<entry count="8">
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.Offer,</token>
-<token>Commands.Utilities]],Expand</token>
-<token>System.Data.Services.Client.DataServiceQuery`1[[TElement</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.Offer,</token>
-</entry>
-<entry count="1">
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.LogicalNetwork,</token>
-</entry>
-<entry count="6">
-<token>Commands.Utilities]],Execute</token>
-<token>System.Data.Services.Client.DataServiceContext,LoadProperty</token>
-<token>System.Data.Services.Client.QueryOperationResponse`1[[T</token>
-</entry>
-<entry count="1">
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.VPNConnection,</token>
-<token>Commands.Utilities]],new</token>
-</entry>
-<entry count="1">
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.CapabilityProfile,</token>
-<token>Commands.Utilities]],new</token>
-</entry>
-<entry count="5">
-<token>System.Data.Services.Client.DataServiceContext,CreateQuery</token>
-<token>System.Data.Services.Client.DataServiceContext,AttachTo</token>
-<token>System.Data.Services.Client.DataServiceContext,UpdateObject</token>
-</entry>
-<entry count="1">
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.CapabilityProfile,</token>
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.LibraryShare,</token>
-</entry>
-<entry count="1">
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.VMRoleVMDisk,</token>
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-</entry>
-<entry count="1">
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.Category,</token>
-</entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.CloudResource,</token>
-</entry>
-<entry count="1">
-<token>System.Data.Services.Client.DataServiceContext,LoadProperty</token>
-<token>System.Data.Services.Client.DataServiceContext,new</token>
-<token>System.Data.Services.Client.DataServiceContext,AttachTo</token>
-</entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.Plan,</token>
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-</entry>
-<entry count="6">
-<token>System.Data.Services.Client.DataServiceRequest`1[[TElement</token>
-<token>-&gt;</token>
-<token>WebStack.QA.Test.OData.Batch.Tests.DataServicesClient.Default.DefaultBatchCustomer,</token>
-<token>WebStack.QA.Test.OData]],new</token>
-<token>System.Data.Services.Client.DataServiceRequest`1[[TElement</token>
-</entry>
-<entry count="2">
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.Offer,</token>
-<token>Commands.Utilities]],new</token>
-</entry>
-<entry count="6">
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.Plan,</token>
-<token>Commands.Utilities]],GetContinuation</token>
-<token>System.Data.Services.Client.QueryOperationResponse`1[[T</token>
-<token>-&gt;</token>
-</entry>
-<entry count="5">
-<token>System.Data.Services.Client.DataServiceContext,AddObject</token>
-<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
-<token>System.Data.Services.Client.DataServiceContext,CreateQuery</token>
-<token>System.Data.Services.Client.DataServiceContext,AttachTo</token>
-<token>System.Data.Services.Client.DataServiceContext,UpdateObject</token>
-</entry>
-<entry count="2">
-<token>Commands.Utilities]],Execute</token>
-<token>System.Data.Services.Client.QueryOperationResponse`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.Offer,</token>
-<token>Commands.Utilities]],GetContinuation</token>
-</entry>
-<entry count="2">
-<token>System.Data.Services.Client.DataServiceContext,AttachTo</token>
-<token>System.Data.Services.Client.DataServiceContext,DeleteLink</token>
-<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
-<token>System.Data.Services.Client.DataServiceContext,CreateQuery</token>
-<token>System.Data.Services.Client.DataServiceContext,LoadProperty</token>
-</entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.CapabilityProfile,</token>
-</entry>
-<entry count="8">
-<token>Commands.Utilities]],Expand</token>
-<token>System.Data.Services.Client.DataServiceQuery`1[[TElement</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.Offer,</token>
-<token>Commands.Utilities]],Execute</token>
-</entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.CloudCapacity,</token>
-<token>Commands.Utilities]],new</token>
-</entry>
-<entry count="3">
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.VirtualSCSIAdapter,</token>
-<token>Commands.Utilities]],new</token>
-</entry>
-<entry count="1">
-<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
-<token>System.Data.Services.Client.DataServiceContext,UpdateObject</token>
-<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
-<token>System.Data.Services.Client.DataServiceContext,CreateQuery</token>
-</entry>
-<entry count="1">
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.OfferLink,</token>
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-</entry>
-<entry count="1">
-<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
-<token>System.Data.Services.Client.DataServiceContext,SetLink</token>
-<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
-<token>System.Data.Services.Client.DataServiceContext,CreateQuery</token>
-</entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.ApplicationHost,</token>
-<token>Commands.Utilities]],new</token>
-</entry>
-<entry count="1">
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.CapabilityProfile,</token>
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-</entry>
-<entry count="1">
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.Plan,</token>
-<token>Commands.Utilities]],new</token>
-</entry>
-<entry count="8">
-<token>System.Data.Services.Client.DataServiceContext,AttachTo</token>
-<token>System.Data.Services.Client.DataServiceContext,DeleteObject</token>
-</entry>
-<entry count="1">
-<token>System.Data.Services.Client.DataServiceContext,AddObject</token>
-<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
-<token>System.Data.Services.Client.DataServiceContext,SetLink</token>
-<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
-<token>System.Data.Services.Client.DataServiceContext,CreateQuery</token>
-</entry>
-<entry count="2">
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.VirtualDiskDrive,</token>
-</entry>
-<entry count="6">
-<token>WebStack.QA.Test.OData.Batch.Tests.DataServicesClient.Default.DefaultBatchCustomer,</token>
-<token>WebStack.QA.Test.OData]],new</token>
-<token>System.Data.Services.Client.DataServiceRequest`1[[TElement</token>
-<token>-&gt;</token>
-</entry>
-<entry count="2">
-<token>Commands.Utilities]],Execute</token>
-<token>System.Data.Services.Client.QueryOperationResponse`1[[T</token>
-</entry>
-<entry count="1">
-<token>System.Data.Services.Client.DataServiceContext,DeleteObject</token>
-<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
-<token>System.Data.Services.Client.DataServiceContext,new</token>
-</entry>
-<entry count="3">
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.VirtualSCSIAdapter,</token>
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-</entry>
-<entry count="1">
-<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
-<token>System.Data.Services.Client.DataServiceContext,SetLink</token>
-<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
-<token>System.Data.Services.Client.DataServiceContext,CreateQuery</token>
-<token>System.Data.Services.Client.DataServiceContext,LoadProperty</token>
-</entry>
-<entry count="8">
-<token>System.Data.Services.Client.DataServiceQuery`1[[TElement</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.Offer,</token>
-<token>Commands.Utilities]],Expand</token>
-<token>System.Data.Services.Client.DataServiceQuery`1[[TElement</token>
-</entry>
-<entry count="1">
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.VMCheckPoint,</token>
-</entry>
-<entry count="12">
-<token>WebStack.QA.Test.OData.Batch.Tests.DataServicesClient.Default.DefaultBatchCustomer,</token>
-<token>WebStack.QA.Test.OData]],new</token>
-</entry>
-<entry count="6">
-<token>WebStack.QA.Test.OData.Batch.Tests.DataServicesClient.Default.DefaultBatchCustomer,</token>
-<token>WebStack.QA.Test.OData]],new</token>
-<token>System.Data.Services.Client.DataServiceRequest`1[[TElement</token>
-</entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.VisualizationImage,</token>
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-</entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.VMRoleVMDisk,</token>
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-</entry>
-<entry count="3">
-<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
-<token>System.Data.Services.Client.DataServiceContext,CreateQuery</token>
-<token>System.Data.Services.Client.DataServiceContext,AttachTo</token>
-<token>System.Data.Services.Client.DataServiceContext,DeleteObject</token>
-<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
-</entry>
-<entry count="1">
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.NATConnection,</token>
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-</entry>
-<entry count="8">
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.Offer,</token>
-<token>Commands.Utilities]],Expand</token>
-<token>System.Data.Services.Client.DataServiceQuery`1[[TElement</token>
-</entry>
-<entry count="1">
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.NATConnection,</token>
-</entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.Market,</token>
-<token>Commands.Utilities]],new</token>
-</entry>
-<entry count="1">
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.VMRole,</token>
-<token>Commands.Utilities]],Load</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.CloudResource,</token>
-</entry>
-<entry count="12">
-<token>System.Data.Services.Client.DataServiceRequest`1[[TElement</token>
-<token>-&gt;</token>
-<token>WebStack.QA.Test.OData.Batch.Tests.DataServicesClient.Unbuffered.UnbufferedBatchCustomer,</token>
-</entry>
-<entry count="4">
-<token>System.Data.Services.Client.BodyOperationParameter,new</token>
-<token>System.Data.Services.Client.BodyOperationParameter,new</token>
-<token>System.Data.Services.Client.DataServiceContext,Execute</token>
-</entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.VisualizationImage,</token>
-<token>Commands.Utilities]],new</token>
-</entry>
-<entry count="1">
-<token>System.Data.Services.Client.DataServiceContext,new</token>
-<token>System.Data.Services.Client.DataServiceContext,AttachTo</token>
-<token>System.Data.Services.Client.DataServiceContext,DeleteObject</token>
-<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
-<token>System.Data.Services.Client.DataServiceContext,new</token>
-</entry>
-<entry count="2">
-<token>System.Data.Services.Client.DataServiceContext,AddObject</token>
-<token>System.Data.Services.Client.DataServiceContext,AddRelatedObject</token>
-<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
-<token>System.Data.Services.Client.DataServiceContext,CreateQuery</token>
-<token>System.Data.Services.Client.DataServiceContext,LoadProperty</token>
-</entry>
-<entry count="2">
-<token>System.Data.Services.Client.DataServiceContext,DeleteLink</token>
-<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
-<token>System.Data.Services.Client.DataServiceContext,CreateQuery</token>
-<token>System.Data.Services.Client.DataServiceContext,LoadProperty</token>
-</entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.ComputerTier,</token>
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-</entry>
-<entry count="1">
-<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
-<token>System.Data.Services.Client.DataServiceContext,new</token>
-<token>System.Data.Services.Client.DataServiceContext,CreateQuery</token>
-<token>System.Data.Services.Client.DataServiceContext,LoadProperty</token>
-</entry>
-<entry count="1">
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.VMCheckPoint,</token>
-<token>Commands.Utilities]],new</token>
-</entry>
-<entry count="1">
-<token>System.Data.Services.Client.DataServiceContext,new</token>
-<token>System.Data.Services.Client.DataServiceContext,CreateQuery</token>
-<token>System.Data.Services.Client.DataServiceContext,LoadProperty</token>
-</entry>
-<entry count="12">
-<token>System.Data.Services.Client.DataServiceRequest`1[[TElement</token>
-<token>-&gt;</token>
-<token>WebStack.QA.Test.OData.Batch.Tests.DataServicesClient.Unbuffered.UnbufferedBatchCustomer,</token>
-<token>WebStack.QA.Test.OData]],new</token>
-</entry>
-<entry count="3">
-<token>System.Data.Services.Client.DataServiceContext,CreateQuery</token>
-<token>System.Data.Services.Client.DataServiceContext,AttachTo</token>
-<token>System.Data.Services.Client.DataServiceContext,DeleteObject</token>
-<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
-</entry>
-<entry count="6">
-<token>Commands.Utilities]],Execute</token>
-<token>System.Data.Services.Client.DataServiceContext,LoadProperty</token>
-<token>System.Data.Services.Client.QueryOperationResponse`1[[T</token>
-<token>-&gt;</token>
-</entry>
-<entry count="8">
-<token>System.Data.Services.Client.DataServiceQuery`1[[TElement</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.Offer,</token>
-<token>Commands.Utilities]],Expand</token>
-</entry>
-<entry count="1">
-<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
-<token>System.Data.Services.Client.DataServiceContext,DeleteObject</token>
-</entry>
-<entry count="1">
-<token>System.Data.Services.Client.DataServiceContext,SetLink</token>
-<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
-<token>System.Data.Services.Client.DataServiceContext,CreateQuery</token>
-</entry>
-<entry count="1">
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.VMRoleVMNic,</token>
-<token>Commands.Utilities]],new</token>
-</entry>
-<entry count="1">
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.CloudCapacity,</token>
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-</entry>
-<entry count="1">
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.VisualizationImage,</token>
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-</entry>
-<entry count="1">
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.ComputerTier,</token>
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-</entry>
-<entry count="2">
-<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
-<token>System.Data.Services.Client.DataServiceContext,CreateQuery</token>
-<token>System.Data.Services.Client.DataServiceContext,LoadProperty</token>
-<token>System.Data.Services.Client.DataServiceContext,AttachTo</token>
-</entry>
-<entry count="8">
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.Offer,</token>
-<token>Commands.Utilities]],GetContinuation</token>
-</entry>
-<entry count="2">
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.VirtualDiskDrive,</token>
-<token>Commands.Utilities]],new</token>
-</entry>
-<entry count="1">
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.VMRole,</token>
-<token>Commands.Utilities]],Load</token>
-</entry>
-<entry count="6">
-<token>System.Data.Services.Client.QueryOperationResponse`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.Plan,</token>
-<token>Commands.Utilities]],GetContinuation</token>
-</entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.CloudCapacity,</token>
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-</entry>
-<entry count="1">
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.ComputerTierTemplate,</token>
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.ApplicationHostTemplate,</token>
-</entry>
-<entry count="2">
-<token>System.Data.Services.Client.DataServiceContext,DeleteObject</token>
-<token>System.Data.Services.Client.DataServiceContext,UpdateObject</token>
-</entry>
-<entry count="1">
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.LogicalNetwork,</token>
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-</entry>
-<entry count="1">
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.ApplicationHost,</token>
-</entry>
-<entry count="6">
-<token>-&gt;</token>
-<token>WebStack.QA.Test.OData.Batch.Tests.DataServicesClient.Unbuffered.UnbufferedBatchCustomer,</token>
-<token>WebStack.QA.Test.OData]],new</token>
-<token>System.Data.Services.Client.DataServiceContext,ExecuteBatch</token>
-</entry>
-<entry count="6">
-<token>-&gt;</token>
-<token>WebStack.QA.Test.OData.Batch.Tests.DataServicesClient.Default.DefaultBatchCustomer,</token>
-<token>WebStack.QA.Test.OData]],new</token>
-<token>System.Data.Services.Client.DataServiceRequest`1[[TElement</token>
-<token>-&gt;</token>
-</entry>
-<entry count="7">
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.Plan,</token>
-</entry>
-<entry count="3">
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.VirtualNetworkAdapter,</token>
-<token>Commands.Utilities]],new</token>
-</entry>
-<entry count="1">
-<token>System.Data.Services.Client.DataServiceContext,UpdateObject</token>
-<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
-<token>System.Data.Services.Client.DataServiceContext,DeleteObject</token>
-<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
-</entry>
-<entry count="1">
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.VMCheckPoint,</token>
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-</entry>
-<entry count="1">
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.CloudCapacity,</token>
-<token>Commands.Utilities]],new</token>
-</entry>
-<entry count="6">
-<token>WebStack.QA.Test.OData.Batch.Tests.DataServicesClient.Default.DefaultBatchCustomer,</token>
-<token>WebStack.QA.Test.OData]],new</token>
-<token>System.Data.Services.Client.DataServiceRequest`1[[TElement</token>
-<token>-&gt;</token>
-<token>WebStack.QA.Test.OData.Batch.Tests.DataServicesClient.Default.DefaultBatchCustomer,</token>
-</entry>
-<entry count="1">
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.VMRole,</token>
-<token>Commands.Utilities]],Load</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-</entry>
-<entry count="2">
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.Offer,</token>
-<token>Commands.Utilities]],new</token>
-</entry>
-<entry count="1">
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.NATConnection,</token>
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-</entry>
-<entry count="1">
-<token>System.Data.Services.Client.DataServiceContext,AddObject</token>
-<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
-<token>System.Data.Services.Client.DataServiceContext,new</token>
-<token>System.Data.Services.Client.DataServiceContext,CreateQuery</token>
-</entry>
-<entry count="1">
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.MarketLanguage,</token>
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.Offer,</token>
-</entry>
-<entry count="1">
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.OfferLink,</token>
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-</entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.CapabilityProfile,</token>
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-</entry>
-<entry count="6">
-<token>WebStack.QA.Test.OData.Batch.Tests.DataServicesClient.Unbuffered.UnbufferedBatchCustomer,</token>
-<token>WebStack.QA.Test.OData]],new</token>
-<token>System.Data.Services.Client.DataServiceRequest`1[[TElement</token>
-<token>-&gt;</token>
-<token>WebStack.QA.Test.OData.Batch.Tests.DataServicesClient.Unbuffered.UnbufferedBatchCustomer,</token>
-</entry>
-<entry count="1">
-<token>System.Data.Services.Client.DataServiceContext,UpdateObject</token>
-<token>System.Data.Services.Client.DataServiceContext,DeleteObject</token>
-</entry>
-<entry count="2">
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.Category,</token>
-</entry>
-<entry count="8">
-<token>Commands.Utilities]],AddQueryOption</token>
-<token>System.Data.Services.Client.DataServiceQuery`1[[TElement</token>
-</entry>
-<entry count="6">
-<token>System.Data.Services.Client.QueryOperationResponse`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.Plan,</token>
-<token>Commands.Utilities]],GetContinuation</token>
-<token>System.Data.Services.Client.QueryOperationResponse`1[[T</token>
-</entry>
-<entry count="4">
-<token>System.Data.Services.Client.DataServiceContext,new</token>
-<token>System.Data.Services.Client.DataServiceContext,AddObject</token>
-<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
-</entry>
-<entry count="1">
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.CapabilityProfile,</token>
-</entry>
-<entry count="3">
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.VirtualDVDDrive,</token>
-</entry>
-<entry count="1">
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.LibraryShare,</token>
-</entry>
-<entry count="2">
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.VirtualHardDisk,</token>
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-</entry>
-<entry count="1">
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.LibraryShare,</token>
-<token>Commands.Utilities]],new</token>
-</entry>
-<entry count="6">
-<token>System.Data.Services.Client.DataServiceRequest`1[[TElement</token>
-<token>-&gt;</token>
-<token>WebStack.QA.Test.OData.Batch.Tests.DataServicesClient.Default.DefaultBatchCustomer,</token>
-<token>WebStack.QA.Test.OData]],new</token>
-<token>System.Data.Services.Client.DataServiceContext,ExecuteBatch</token>
-</entry>
-<entry count="8">
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.Offer,</token>
-<token>Commands.Utilities]],Expand</token>
-<token>System.Data.Services.Client.DataServiceQuery`1[[TElement</token>
-</entry>
-<entry count="3">
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.VirtualSCSIAdapter,</token>
-<token>Commands.Utilities]],new</token>
-</entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.BGPPeer,</token>
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-</entry>
-<entry count="2">
-<token>System.Data.Services.Client.DataServiceContext,AttachTo</token>
-<token>System.Data.Services.Client.DataServiceContext,DeleteLink</token>
-<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
-<token>System.Data.Services.Client.DataServiceContext,CreateQuery</token>
-</entry>
-<entry count="1">
-<token>System.Data.Services.Client.DataServiceContext,new</token>
-<token>System.Data.Services.Client.DataServiceContext,CreateQuery</token>
-<token>System.Data.Services.Client.DataServiceContext,new</token>
-</entry>
-<entry count="6">
-<token>-&gt;</token>
-<token>WebStack.QA.Test.OData.Batch.Tests.DataServicesClient.Default.DefaultBatchCustomer,</token>
-<token>WebStack.QA.Test.OData]],new</token>
-<token>System.Data.Services.Client.DataServiceRequest`1[[TElement</token>
-</entry>
-<entry count="8">
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.Offer,</token>
-<token>Commands.Utilities]],Expand</token>
-</entry>
-<entry count="5">
-<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
-<token>System.Data.Services.Client.DataServiceContext,CreateQuery</token>
-<token>System.Data.Services.Client.DataServiceContext,LoadProperty</token>
-</entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.ApplicationHostTemplate,</token>
-</entry>
-<entry count="2">
-<token>System.Data.Services.Client.DataServiceContext,CreateQuery</token>
-<token>System.Data.Services.Client.DataServiceContext,LoadProperty</token>
-<token>System.Data.Services.Client.DataServiceContext,AttachTo</token>
-</entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.CloudCapacity,</token>
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-</entry>
-<entry count="8">
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.Offer,</token>
-<token>Commands.Utilities]],Execute</token>
-</entry>
-<entry count="1">
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.VisualizationImage,</token>
-</entry>
-<entry count="3">
-<token>System.Data.Services.Client.DataServiceContext,DeleteObject</token>
-<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
-<token>System.Data.Services.Client.DataServiceContext,CreateQuery</token>
-</entry>
-<entry count="1">
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.VMRoleVMDisk,</token>
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-</entry>
-<entry count="8">
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.Offer,</token>
-<token>Commands.Utilities]],Expand</token>
-<token>System.Data.Services.Client.DataServiceQuery`1[[TElement</token>
-<token>-&gt;</token>
-</entry>
-<entry count="1">
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.ApplicationHostTemplate,</token>
-<token>Commands.Utilities]],new</token>
-</entry>
-<entry count="1">
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.Market,</token>
-<token>Commands.Utilities]],new</token>
-</entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.Plan,</token>
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-</entry>
-<entry count="1">
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.VMRole,</token>
-</entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.BGPPeer,</token>
-</entry>
-<entry count="1">
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.QuotaAndUsageComponent,</token>
-</entry>
-<entry count="2">
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.VirtualHardDisk,</token>
-<token>Commands.Utilities]],new</token>
-</entry>
-<entry count="1">
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.ComputerTier,</token>
-</entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.ApplicationHostTemplate,</token>
-<token>Commands.Utilities]],new</token>
-</entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.OfferLink,</token>
-</entry>
-<entry count="1">
-<token>System.Data.Services.Client.DataServiceContext,AddObject</token>
-<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
-<token>System.Data.Services.Client.DataServiceContext,new</token>
-</entry>
-<entry count="2">
-<token>System.Data.Services.Client.DataServiceContext,AddRelatedObject</token>
-<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
-<token>System.Data.Services.Client.DataServiceContext,CreateQuery</token>
-</entry>
-<entry count="6">
-<token>System.Data.Services.Client.DataServiceClientFormat,UseJson</token>
-<token>System.Data.Services.Client.DataServiceRequest`1[[TElement</token>
-<token>-&gt;</token>
-<token>WebStack.QA.Test.OData.Batch.Tests.DataServicesClient.Default.DefaultBatchCustomer,</token>
-<token>WebStack.QA.Test.OData]],new</token>
-</entry>
-<entry count="1">
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.Plan,</token>
-<token>Commands.Utilities]],new</token>
-</entry>
-<entry count="3">
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.VirtualNetworkAdapter,</token>
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-</entry>
-<entry count="3">
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.VirtualSCSIAdapter,</token>
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-</entry>
-<entry count="6">
-<token>WebStack.QA.Test.OData.Batch.Tests.DataServicesClient.Unbuffered.UnbufferedBatchCustomer,</token>
-<token>WebStack.QA.Test.OData]],new</token>
-<token>System.Data.Services.Client.DataServiceContext,ExecuteBatch</token>
-</entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.ComputerTierTemplate,</token>
-</entry>
-<entry count="8">
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.Offer,</token>
-<token>Commands.Utilities]],AddQueryOption</token>
-</entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.VMRole,</token>
-<token>Commands.Utilities]],Load</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-</entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.CloudResource,</token>
-<token>Commands.Utilities]],Load</token>
-</entry>
-<entry count="1">
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.CapabilityProfile,</token>
-<token>Commands.Utilities]],new</token>
-</entry>
-<entry count="1">
-<token>System.Data.Services.Client.DataServiceContext,AttachTo</token>
-<token>System.Data.Services.Client.DataServiceContext,UpdateObject</token>
-<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
-<token>System.Data.Services.Client.DataServiceContext,new</token>
-</entry>
-<entry count="8">
-<token>Commands.Utilities]],AddQueryOption</token>
-<token>System.Data.Services.Client.DataServiceQuery`1[[TElement</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.Offer,</token>
-</entry>
-<entry count="5">
-<token>System.Data.Services.Client.DataServiceContext,AddObject</token>
-<token>System.Data.Services.Client.DataServiceContext,AddObject</token>
-<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
-</entry>
-<entry count="2">
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.VirtualHardDisk,</token>
-</entry>
-<entry count="8">
-<token>Commands.Utilities]],Expand</token>
-<token>System.Data.Services.Client.DataServiceQuery`1[[TElement</token>
-</entry>
-<entry count="1">
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.VMCheckPoint,</token>
-<token>Commands.Utilities]],new</token>
-</entry>
-<entry count="1">
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.BGPPeer,</token>
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-</entry>
-<entry count="1">
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.MarketLanguage,</token>
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-</entry>
-<entry count="1">
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.ApplicationHost,</token>
-</entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.VMRoleVMNic,</token>
-</entry>
-<entry count="1">
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.LibraryShare,</token>
-<token>Commands.Utilities]],new</token>
-</entry>
-<entry count="4">
-<token>System.Data.Services.Client.DataServiceContext,DeleteObject</token>
-<token>System.Data.Services.Client.DataServiceContext,BeginSaveChanges</token>
-</entry>
-<entry count="3">
-<token>System.Data.Services.Client.DataServiceContext,CreateQuery</token>
-<token>System.Data.Services.Client.DataServiceContext,AttachTo</token>
-<token>System.Data.Services.Client.DataServiceContext,DeleteObject</token>
-<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
-<token>System.Data.Services.Client.DataServiceContext,CreateQuery</token>
-</entry>
-<entry count="1">
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.VisualizationImage,</token>
-<token>Commands.Utilities]],new</token>
-</entry>
-<entry count="6">
-<token>System.Data.Services.Client.DataServiceClientFormat,UseJson</token>
-<token>System.Data.Services.Client.DataServiceRequest`1[[TElement</token>
-<token>-&gt;</token>
-<token>WebStack.QA.Test.OData.Batch.Tests.DataServicesClient.Default.DefaultBatchCustomer,</token>
-</entry>
-<entry count="4">
-<token>System.Data.Services.Client.DataServiceContext,AttachTo</token>
-<token>System.Data.Services.Client.DataServiceContext,DeleteObject</token>
-<token>System.Data.Services.Client.DataServiceContext,BeginSaveChanges</token>
-</entry>
-<entry count="1">
-<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
-<token>System.Data.Services.Client.DataServiceContext,new</token>
-<token>System.Data.Services.Client.DataServiceContext,CreateQuery</token>
-<token>System.Data.Services.Client.DataServiceContext,new</token>
-<token>System.Data.Services.Client.DataServiceContext,AttachTo</token>
-</entry>
-<entry count="8">
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.Offer,</token>
-<token>Commands.Utilities]],AddQueryOption</token>
-<token>System.Data.Services.Client.DataServiceQuery`1[[TElement</token>
-</entry>
-<entry count="3">
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.VirtualDVDDrive,</token>
-<token>Commands.Utilities]],new</token>
-</entry>
-<entry count="1">
-<token>System.Data.Services.Client.DataServiceContext,new</token>
-<token>System.Data.Services.Client.DataServiceContext,AttachTo</token>
-<token>System.Data.Services.Client.DataServiceContext,UpdateObject</token>
-</entry>
-<entry count="1">
-<token>System.Data.Services.Client.DataServiceContext,new</token>
-<token>System.Data.Services.Client.DataServiceContext,AddObject</token>
-<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
-<token>System.Data.Services.Client.DataServiceContext,new</token>
-</entry>
-<entry count="2">
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.Category,</token>
-<token>Commands.Utilities]],new</token>
-</entry>
-<entry count="1">
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.LibraryShare,</token>
-</entry>
-<entry count="1">
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.LogicalNetwork,</token>
-<token>Commands.Utilities]],new</token>
-</entry>
-<entry count="20">
-<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
-<token>System.Data.Services.Client.DataServiceContext,CreateQuery</token>
-</entry>
-<entry count="24">
-<token>System.Data.Services.Client.DataServiceRequest`1[[TElement</token>
-<token>-&gt;</token>
-</entry>
-<entry count="2">
-<token>System.Data.Services.Client.DataServiceContext,new</token>
-<token>System.Data.Services.Client.DataServiceContext,CreateQuery</token>
-<token>System.Data.Services.Client.DataServiceContext,TryGetUri</token>
-<token>System.Data.Services.Client.DataServiceContext,Execute</token>
-</entry>
-<entry count="1">
-<token>System.Data.Services.Client.DataServiceContext,new</token>
-<token>System.Data.Services.Client.DataServiceContext,AttachTo</token>
-<token>System.Data.Services.Client.DataServiceContext,UpdateObject</token>
-<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
-<token>System.Data.Services.Client.DataServiceContext,new</token>
-</entry>
-<entry count="1">
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.BGPPeer,</token>
-<token>Commands.Utilities]],new</token>
-</entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.OfferLink,</token>
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-</entry>
-<entry count="1">
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.Market,</token>
-</entry>
-<entry count="6">
-<token>System.Data.Services.Client.DataServiceRequest`1[[TElement</token>
-<token>-&gt;</token>
-<token>WebStack.QA.Test.OData.Batch.Tests.DataServicesClient.Unbuffered.UnbufferedBatchCustomer,</token>
-<token>WebStack.QA.Test.OData]],new</token>
-<token>System.Data.Services.Client.DataServiceRequest`1[[TElement</token>
-</entry>
-<entry count="1">
-<token>System.Data.Services.Client.DataServiceContext,AddObject</token>
-<token>System.Data.Services.Client.DataServiceContext,AddObject</token>
-<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
-<token>System.Data.Services.Client.DataServiceContext,SetLink</token>
-</entry>
-<entry count="3">
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.VirtualNetworkAdapter,</token>
-<token>Commands.Utilities]],new</token>
-</entry>
-<entry count="12">
-<token>System.Data.Services.Client.DataServiceRequest`1[[TElement</token>
-<token>-&gt;</token>
-<token>WebStack.QA.Test.OData.Batch.Tests.DataServicesClient.Default.DefaultBatchCustomer,</token>
-<token>WebStack.QA.Test.OData]],new</token>
-</entry>
-<entry count="1">
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.VMRole,</token>
-<token>Commands.Utilities]],Load</token>
-</entry>
-<entry count="6">
-<token>System.Data.Services.Client.DataServiceClientFormat,UseJson</token>
-<token>System.Data.Services.Client.DataServiceRequest`1[[TElement</token>
-<token>-&gt;</token>
-<token>WebStack.QA.Test.OData.Batch.Tests.DataServicesClient.Unbuffered.UnbufferedBatchCustomer,</token>
-<token>WebStack.QA.Test.OData]],new</token>
-</entry>
-<entry count="2">
-<token>System.Data.Services.Client.DataServiceContext,AddRelatedObject</token>
-<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
-<token>System.Data.Services.Client.DataServiceContext,CreateQuery</token>
-<token>System.Data.Services.Client.DataServiceContext,LoadProperty</token>
-<token>System.Data.Services.Client.DataServiceContext,AttachTo</token>
-</entry>
-<entry count="1">
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.LogicalNetwork,</token>
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-</entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.ComputerTier,</token>
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-</entry>
-<entry count="1">
-<token>System.Data.Services.Client.DataServiceContext,new</token>
-<token>System.Data.Services.Client.DataServiceContext,CreateQuery</token>
-<token>System.Data.Services.Client.DataServiceContext,new</token>
-<token>System.Data.Services.Client.DataServiceContext,AttachTo</token>
-</entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.VMCheckPoint,</token>
-<token>Commands.Utilities]],new</token>
-</entry>
-<entry count="6">
-<token>WebStack.QA.Test.OData.Batch.Tests.DataServicesClient.Unbuffered.UnbufferedBatchCustomer,</token>
-<token>WebStack.QA.Test.OData]],new</token>
-<token>System.Data.Services.Client.DataServiceRequest`1[[TElement</token>
-</entry>
-<entry count="1">
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.BGPPeer,</token>
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-</entry>
-<entry count="1">
-<token>System.Data.Services.Client.DataServiceContext,AttachTo</token>
-<token>System.Data.Services.Client.DataServiceContext,DeleteObject</token>
-<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
-<token>System.Data.Services.Client.DataServiceContext,new</token>
-<token>System.Data.Services.Client.DataServiceContext,CreateQuery</token>
-</entry>
-<entry count="3">
-<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
-<token>System.Data.Services.Client.DataServiceContext,new</token>
-<token>System.Data.Services.Client.DataServiceContext,CreateQuery</token>
-</entry>
-<entry count="2">
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.Offer,</token>
-<token>Commands.Utilities]],Execute</token>
-<token>System.Data.Services.Client.QueryOperationResponse`1[[T</token>
-</entry>
-<entry count="1">
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.LibraryShare,</token>
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-</entry>
-<entry count="1">
-<token>Commands.Utilities]],Load</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-</entry>
-<entry count="34">
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.Offer,</token>
-</entry>
-<entry count="6">
-<token>System.Data.Services.Client.DataServiceContext,new</token>
-<token>System.Data.Services.Client.DataServiceContext,CreateQuery</token>
-<token>System.Data.Services.Client.DataServiceContext,TryGetUri</token>
-</entry>
-<entry count="1">
-<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
-<token>System.Data.Services.Client.DataServiceContext,DeleteObject</token>
-<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
-</entry>
-<entry count="1">
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.CapabilityProfile,</token>
-<token>Commands.Utilities]],new</token>
-</entry>
-<entry count="24">
-<token>System.Data.Services.Client.DataServiceQuery`1[[TElement</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.Offer,</token>
-</entry>
-<entry count="1">
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.CapabilityProfile,</token>
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-</entry>
-<entry count="1">
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.MarketLanguage,</token>
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-</entry>
-<entry count="4">
-<token>System.Data.Services.Client.BodyOperationParameter,new</token>
-<token>System.Data.Services.Client.BodyOperationParameter,new</token>
-</entry>
-<entry count="6">
-<token>WebStack.QA.Test.OData]],new</token>
-<token>System.Data.Services.Client.DataServiceRequest`1[[TElement</token>
-<token>-&gt;</token>
-<token>WebStack.QA.Test.OData.Batch.Tests.DataServicesClient.Default.DefaultBatchCustomer,</token>
-<token>WebStack.QA.Test.OData]],new</token>
-</entry>
-<entry count="6">
-<token>System.Data.Services.Client.DataServiceContext,LoadProperty</token>
-<token>System.Data.Services.Client.QueryOperationResponse`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.Plan,</token>
-</entry>
-<entry count="1">
-<token>System.Data.Services.Client.DataServiceContext,UpdateObject</token>
-<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
-<token>System.Data.Services.Client.DataServiceContext,new</token>
-<token>System.Data.Services.Client.DataServiceContext,CreateQuery</token>
-</entry>
-<entry count="6">
-<token>-&gt;</token>
-<token>WebStack.QA.Test.OData.Batch.Tests.DataServicesClient.Default.DefaultBatchCustomer,</token>
-<token>WebStack.QA.Test.OData]],new</token>
-<token>System.Data.Services.Client.DataServiceContext,ExecuteBatch</token>
-</entry>
-<entry count="1">
-<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
-<token>System.Data.Services.Client.DataServiceContext,new</token>
-<token>System.Data.Services.Client.DataServiceContext,CreateQuery</token>
-<token>System.Data.Services.Client.DataServiceContext,new</token>
-</entry>
-<entry count="1">
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.QuotaAndUsageComponent,</token>
-<token>Commands.Utilities]],new</token>
-</entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.VMRoleVMNic,</token>
-<token>Commands.Utilities]],new</token>
-</entry>
-<entry count="4">
-<token>System.Data.Services.Client.DataServiceContext,CreateQuery</token>
-<token>System.Data.Services.Client.DataServiceContext,TryGetUri</token>
-<token>System.Data.Services.Client.DataServiceContext,UpdateObject</token>
-<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
-</entry>
-<entry count="12">
-<token>WebStack.QA.Test.OData.Batch.Tests.DataServicesClient.Unbuffered.UnbufferedBatchCustomer,</token>
-<token>WebStack.QA.Test.OData]],new</token>
-</entry>
-<entry count="1">
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.ApplicationHost,</token>
-<token>Commands.Utilities]],new</token>
-</entry>
-<entry count="1">
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.LogicalNetwork,</token>
-</entry>
-<entry count="3">
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.VirtualNetworkAdapter,</token>
-</entry>
-<entry count="2">
-<token>System.Data.Services.Client.DataServiceContext,LoadProperty</token>
-<token>System.Data.Services.Client.DataServiceContext,AttachTo</token>
-<token>System.Data.Services.Client.DataServiceContext,AttachTo</token>
-<token>System.Data.Services.Client.DataServiceContext,DeleteLink</token>
-</entry>
-<entry count="2">
-<token>System.Data.Services.Client.DataServiceClientFormat,UseJson</token>
-<token>System.Data.Services.Client.DataServiceContext,DeleteObject</token>
-<token>System.Data.Services.Client.DataServiceContext,UpdateObject</token>
-<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
-</entry>
-<entry count="1">
-<token>System.Data.Services.Client.DataServiceContext,SetLink</token>
-<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
-</entry>
-<entry count="3">
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.VirtualSCSIAdapter,</token>
-<token>Commands.Utilities]],new</token>
-</entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.VisualizationImage,</token>
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-</entry>
-<entry count="1">
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.VPNConnection,</token>
-</entry>
-<entry count="1">
-<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
-<token>System.Data.Services.Client.DataServiceContext,UpdateObject</token>
-<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
-</entry>
-<entry count="2">
-<token>System.Data.Services.Client.DataServiceContext,CreateQuery</token>
-<token>System.Data.Services.Client.DataServiceContext,TryGetUri</token>
-<token>System.Data.Services.Client.DataServiceContext,Execute</token>
-</entry>
-<entry count="1">
-<token>System.Data.Services.Client.DataServiceContext,CreateQuery</token>
-<token>System.Data.Services.Client.DataServiceContext,new</token>
-<token>System.Data.Services.Client.DataServiceContext,AttachTo</token>
-</entry>
-<entry count="8">
-<token>System.Data.Services.Client.DataServiceContext,CreateQuery</token>
-<token>System.Data.Services.Client.DataServiceContext,AttachTo</token>
-</entry>
-<entry count="1">
-<token>System.Data.Services.Client.DataServiceContext,new</token>
-<token>System.Data.Services.Client.DataServiceContext,AttachTo</token>
-<token>System.Data.Services.Client.DataServiceContext,DeleteObject</token>
-</entry>
-<entry count="6">
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.Plan,</token>
-<token>Commands.Utilities]],GetContinuation</token>
-<token>System.Data.Services.Client.QueryOperationResponse`1[[T</token>
-</entry>
-<entry count="4">
-<token>System.Data.Services.Client.DataServiceContext,new</token>
-<token>System.Data.Services.Client.DataServiceContext,AddObject</token>
-</entry>
-<entry count="1">
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.VMRoleVMDisk,</token>
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.VMRoleVMNic,</token>
-</entry>
-<entry count="1">
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.NATConnection,</token>
-</entry>
-<entry count="6">
-<token>WebStack.QA.Test.OData.Batch.Tests.DataServicesClient.Default.DefaultBatchCustomer,</token>
-<token>WebStack.QA.Test.OData]],new</token>
-<token>System.Data.Services.Client.DataServiceContext,ExecuteBatch</token>
-</entry>
-<entry count="6">
-<token>System.Data.Services.Client.DataServiceRequest`1[[TElement</token>
-<token>-&gt;</token>
-<token>WebStack.QA.Test.OData.Batch.Tests.DataServicesClient.Unbuffered.UnbufferedBatchCustomer,</token>
-<token>WebStack.QA.Test.OData]],new</token>
-<token>System.Data.Services.Client.DataServiceContext,ExecuteBatch</token>
-</entry>
-<entry count="6">
-<token>Commands.Utilities]],GetContinuation</token>
-<token>System.Data.Services.Client.QueryOperationResponse`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.Offer,</token>
-<token>Commands.Utilities]],GetContinuation</token>
-</entry>
-<entry count="2">
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.VirtualDiskDrive,</token>
-</entry>
-<entry count="2">
-<token>System.Data.Services.Client.DataServiceContext,DeleteLink</token>
-<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
-<token>System.Data.Services.Client.DataServiceContext,CreateQuery</token>
-</entry>
-<entry count="1">
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.LibraryShare,</token>
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-</entry>
-<entry count="6">
-<token>-&gt;</token>
-<token>WebStack.QA.Test.OData.Batch.Tests.DataServicesClient.Unbuffered.UnbufferedBatchCustomer,</token>
-<token>WebStack.QA.Test.OData]],new</token>
-<token>System.Data.Services.Client.DataServiceRequest`1[[TElement</token>
-</entry>
-<entry count="1">
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.ComputerTier,</token>
-<token>Commands.Utilities]],new</token>
-</entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.NATConnection,</token>
-<token>Commands.Utilities]],new</token>
-</entry>
-<entry count="2">
-<token>System.Data.Services.Client.DataServiceContext,AttachTo</token>
-<token>System.Data.Services.Client.DataServiceContext,DeleteLink</token>
-<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
-</entry>
-<entry count="1">
-<token>System.Data.Services.Client.DataServiceContext,AddObject</token>
-<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
-<token>System.Data.Services.Client.DataServiceContext,SetLink</token>
-</entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.ComputerTierTemplate,</token>
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-</entry>
-<entry count="2">
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.Offer,</token>
-<token>Commands.Utilities]],Execute</token>
-<token>System.Data.Services.Client.QueryOperationResponse`1[[T</token>
-<token>-&gt;</token>
-</entry>
-<entry count="6">
-<token>System.Data.Services.Client.DataServiceContext,AttachTo</token>
-<token>System.Data.Services.Client.DataServiceContext,UpdateObject</token>
-</entry>
-<entry count="8">
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.Offer,</token>
-<token>Commands.Utilities]],AddQueryOption</token>
-<token>System.Data.Services.Client.DataServiceQuery`1[[TElement</token>
-<token>-&gt;</token>
-</entry>
-<entry count="2">
-<token>System.Data.Services.Client.DataServiceClientFormat,UseJson</token>
-<token>System.Data.Services.Client.DataServiceContext,DeleteObject</token>
-</entry>
-<entry count="6">
-<token>WebStack.QA.Test.OData]],new</token>
-<token>System.Data.Services.Client.DataServiceRequest`1[[TElement</token>
-<token>-&gt;</token>
-<token>WebStack.QA.Test.OData.Batch.Tests.DataServicesClient.Unbuffered.UnbufferedBatchCustomer,</token>
-<token>WebStack.QA.Test.OData]],new</token>
-</entry>
-<entry count="2">
-<token>System.Data.Services.Client.DataServiceContext,LoadProperty</token>
-<token>System.Data.Services.Client.DataServiceContext,AttachTo</token>
-<token>System.Data.Services.Client.DataServiceContext,AttachTo</token>
-</entry>
-<entry count="2">
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.Category,</token>
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-</entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.MarketLanguage,</token>
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-</entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.LogicalNetwork,</token>
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-</entry>
-<entry count="5">
-<token>System.Data.Services.Client.DataServiceContext,CreateQuery</token>
-<token>System.Data.Services.Client.DataServiceContext,AttachTo</token>
-<token>System.Data.Services.Client.DataServiceContext,UpdateObject</token>
-<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
-</entry>
-<entry count="1">
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.MarketLanguage,</token>
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-</entry>
-<entry count="12">
-<token>-&gt;</token>
-<token>WebStack.QA.Test.OData.Batch.Tests.DataServicesClient.Default.DefaultBatchCustomer,</token>
-</entry>
-<entry count="8">
-<token>Commands.Utilities]],AddQueryOption</token>
-<token>System.Data.Services.Client.DataServiceQuery`1[[TElement</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.Offer,</token>
-<token>Commands.Utilities]],Expand</token>
-</entry>
-<entry count="2">
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.VirtualHardDisk,</token>
-<token>Commands.Utilities]],new</token>
-</entry>
-<entry count="1">
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.ComputerTierTemplate,</token>
-<token>Commands.Utilities]],new</token>
-</entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.VMCheckPoint,</token>
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-</entry>
-<entry count="3">
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.VirtualNetworkAdapter,</token>
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-</entry>
-<entry count="1">
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.Market,</token>
-</entry>
-<entry count="2">
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.Offer,</token>
-<token>Commands.Utilities]],Execute</token>
-<token>System.Data.Services.Client.QueryOperationResponse`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.Offer,</token>
-</entry>
-<entry count="1">
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.ComputerTier,</token>
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-</entry>
-<entry count="1">
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.LogicalNetwork,</token>
-<token>Commands.Utilities]],new</token>
-</entry>
-<entry count="1">
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.VMCheckPoint,</token>
-<token>Commands.Utilities]],new</token>
-</entry>
-<entry count="1">
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.CloudCapacity,</token>
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-</entry>
-<entry count="2">
-<token>System.Data.Services.Client.DataServiceContext,AttachTo</token>
-<token>System.Data.Services.Client.DataServiceContext,AttachTo</token>
-<token>System.Data.Services.Client.DataServiceContext,DeleteLink</token>
-</entry>
-<entry count="2">
-<token>System.Data.Services.Client.DataServiceClientFormat,UseJson</token>
-<token>System.Data.Services.Client.DataServiceContext,AddLink</token>
-</entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.OfferLink,</token>
-<token>Commands.Utilities]],new</token>
-</entry>
-<entry count="6">
-<token>System.Data.Services.Client.DataServiceContext,DeleteObject</token>
-<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
-</entry>
-<entry count="2">
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.VirtualDVDDrive,</token>
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-</entry>
-<entry count="1">
-<token>System.Data.Services.Client.DataServiceContext,CreateQuery</token>
-<token>System.Data.Services.Client.DataServiceContext,new</token>
-</entry>
-<entry count="2">
-<token>System.Data.Services.Client.DataServiceContext,new</token>
-<token>System.Data.Services.Client.DataServiceContext,AttachTo</token>
-</entry>
-<entry count="8">
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.Offer,</token>
-<token>Commands.Utilities]],Expand</token>
-<token>System.Data.Services.Client.DataServiceQuery`1[[TElement</token>
-<token>-&gt;</token>
-</entry>
-<entry count="3">
-<token>System.Data.Services.Client.DataServiceContext,UpdateObject</token>
-<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
-<token>System.Data.Services.Client.DataServiceContext,CreateQuery</token>
-<token>System.Data.Services.Client.DataServiceContext,AttachTo</token>
-<token>System.Data.Services.Client.DataServiceContext,DeleteObject</token>
-</entry>
-<entry count="3">
-<token>System.Data.Services.Client.DataServiceContext,AttachTo</token>
-<token>System.Data.Services.Client.DataServiceContext,UpdateObject</token>
-<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
-<token>System.Data.Services.Client.DataServiceContext,CreateQuery</token>
-<token>System.Data.Services.Client.DataServiceContext,AttachTo</token>
-</entry>
-<entry count="6">
-<token>System.Data.Services.Client.DataServiceContext,AttachTo</token>
-<token>System.Data.Services.Client.DataServiceContext,UpdateObject</token>
-<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
-</entry>
-<entry count="39">
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-</entry>
-<entry count="1">
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.VisualizationImage,</token>
-</entry>
-<entry count="1">
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.MarketLanguage,</token>
-</entry>
-<entry count="8">
-<token>System.Data.Services.Client.DataServiceQuery`1[[TElement</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.Offer,</token>
-<token>Commands.Utilities]],AddQueryOption</token>
-</entry>
 <entry count="5">
 <token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
 <token>System.Data.Services.Client.DataServiceContext,CreateQuery</token>
@@ -2746,133 +733,69 @@
 <token>System.Data.Services.Client.DataServiceContext,UpdateObject</token>
 <token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
 </entry>
-<entry count="1">
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.VPNConnection,</token>
-</entry>
 <entry count="2">
 <token>System.Data.Services.Client.DataServiceContext,AttachTo</token>
 <token>System.Data.Services.Client.DataServiceContext,AttachTo</token>
 </entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.MarketLanguage,</token>
-<token>Commands.Utilities]],new</token>
-</entry>
-<entry count="8">
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.Offer,</token>
-<token>Commands.Utilities]],AddQueryOption</token>
-<token>System.Data.Services.Client.DataServiceQuery`1[[TElement</token>
-<token>-&gt;</token>
+<entry count="6">
+<token>System.Data.Services.Client.DataServiceContext,UpdateObject</token>
+<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
+<token>System.Data.Services.Client.DataServiceContext,CreateQuery</token>
 </entry>
 <entry count="1">
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.QuotaAndUsageComponent,</token>
-<token>Commands.Utilities]],new</token>
-</entry>
-<entry count="3">
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.VirtualDVDDrive,</token>
-<token>Commands.Utilities]],new</token>
-</entry>
-<entry count="2">
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.VirtualDiskDrive,</token>
-<token>Commands.Utilities]],new</token>
+<token>System.Data.Services.Client.DataServiceContext,AddObject</token>
+<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
+<token>System.Data.Services.Client.DataServiceContext,UpdateObject</token>
+<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
 </entry>
 <entry count="1">
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.VMRoleVMDisk,</token>
-<token>Commands.Utilities]],new</token>
+<token>System.Data.Services.Client.DataServiceContext,SetLink</token>
+<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
+<token>System.Data.Services.Client.DataServiceContext,CreateQuery</token>
+<token>System.Data.Services.Client.DataServiceContext,LoadProperty</token>
 </entry>
 <entry count="2">
 <token>System.Data.Services.Client.DataServiceClientFormat,UseJson</token>
 <token>System.Data.Services.Client.DataServiceContext,AddLink</token>
 <token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
 </entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.LogicalNetwork,</token>
-<token>Commands.Utilities]],new</token>
+<entry count="12">
+<token>System.Data.Services.Client.DataServiceRequest,new</token>
+<token>System.Data.Services.Client.DataServiceRequest,new</token>
+<token>System.Data.Services.Client.DataServiceContext,ExecuteBatch</token>
 </entry>
-<entry count="1">
-<token>Commands.Utilities]],Load</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-</entry>
-<entry count="1">
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.VMCheckPoint,</token>
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-</entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.VMRoleVMDisk,</token>
-</entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.NATConnection,</token>
+<entry count="5">
+<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
+<token>System.Data.Services.Client.DataServiceContext,CreateQuery</token>
+<token>System.Data.Services.Client.DataServiceContext,AttachTo</token>
+<token>System.Data.Services.Client.DataServiceContext,UpdateObject</token>
 </entry>
 <entry count="2">
 <token>System.Data.Services.Client.DataServiceContext,LoadProperty</token>
 <token>System.Data.Services.Client.DataServiceContext,AttachTo</token>
 </entry>
-<entry count="2">
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.VirtualDVDDrive,</token>
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.VirtualDiskDrive,</token>
+<entry count="12">
+<token>System.Data.Services.Client.DataServiceClientFormat,UseJson</token>
+<token>System.Data.Services.Client.DataServiceRequest,new</token>
 </entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.NATConnection,</token>
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-</entry>
-<entry count="1">
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.LibraryShare,</token>
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.QuotaAndUsageComponent,</token>
-</entry>
-<entry count="1">
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.LibraryShare,</token>
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
+<entry count="4">
+<token>System.Data.Services.Client.DataServiceContext,AttachTo</token>
+<token>System.Data.Services.Client.DataServiceContext,DeleteObject</token>
+<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
 </entry>
 <entry count="1">
 <token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
 <token>System.Data.Services.Client.DataServiceContext,UpdateObject</token>
 </entry>
-<entry count="3">
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.VirtualSCSIAdapter,</token>
+<entry count="2">
+<token>System.Data.Services.Client.DataServiceQuery,Expand</token>
+<token>System.Data.Services.Client.DataServiceQuery,Execute</token>
+<token>System.Data.Services.Client.QueryOperationResponse,GetContinuation</token>
 </entry>
-<entry count="1">
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.Market,</token>
-<token>Commands.Utilities]],new</token>
-</entry>
-<entry count="1">
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.BGPPeer,</token>
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-</entry>
-<entry count="6">
-<token>Commands.Utilities]],GetContinuation</token>
-<token>System.Data.Services.Client.QueryOperationResponse`1[[T</token>
+<entry count="5">
+<token>System.Data.Services.Client.DataServiceContext,CreateQuery</token>
+<token>System.Data.Services.Client.DataServiceContext,AttachTo</token>
+<token>System.Data.Services.Client.DataServiceContext,UpdateObject</token>
 </entry>
 <entry count="3">
 <token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
@@ -2892,9 +815,9 @@
 <token>System.Data.Services.Client.DataServiceContext,SetLink</token>
 </entry>
 <entry count="1">
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.VPNConnection,</token>
-<token>Commands.Utilities]],new</token>
+<token>System.Data.Services.Client.DataServiceContext,LoadProperty</token>
+<token>System.Data.Services.Client.DataServiceContext,new</token>
+<token>System.Data.Services.Client.DataServiceContext,AttachTo</token>
 </entry>
 <entry count="2">
 <token>System.Data.Services.Client.DataServiceContext,LoadProperty</token>
@@ -2910,120 +833,74 @@
 <token>System.Data.Services.Client.DataServiceContext,AttachTo</token>
 <token>System.Data.Services.Client.DataServiceContext,AttachTo</token>
 </entry>
-<entry count="1">
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.CapabilityProfile,</token>
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-</entry>
-<entry count="1">
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.CloudResource,</token>
-<token>Commands.Utilities]],Load</token>
-</entry>
-<entry count="6">
-<token>Commands.Utilities]],Execute</token>
-<token>System.Data.Services.Client.DataServiceContext,LoadProperty</token>
-</entry>
-<entry count="1">
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.LogicalNetwork,</token>
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.CapabilityProfile,</token>
+<entry count="5">
+<token>System.Data.Services.Client.DataServiceContext,AddObject</token>
+<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
+<token>System.Data.Services.Client.DataServiceContext,CreateQuery</token>
+<token>System.Data.Services.Client.DataServiceContext,AttachTo</token>
+<token>System.Data.Services.Client.DataServiceContext,UpdateObject</token>
 </entry>
 <entry count="2">
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.VirtualNetworkAdapter,</token>
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.VirtualSCSIAdapter,</token>
-</entry>
-<entry count="1">
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.Category,</token>
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.Plan,</token>
-</entry>
-<entry count="1">
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.VMRoleVMNic,</token>
-</entry>
-<entry count="6">
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.Offer,</token>
-<token>Commands.Utilities]],Execute</token>
+<token>System.Data.Services.Client.DataServiceContext,AttachTo</token>
+<token>System.Data.Services.Client.DataServiceContext,DeleteLink</token>
+<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
+<token>System.Data.Services.Client.DataServiceContext,CreateQuery</token>
 <token>System.Data.Services.Client.DataServiceContext,LoadProperty</token>
-<token>System.Data.Services.Client.QueryOperationResponse`1[[T</token>
 </entry>
 <entry count="1">
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.NATConnection,</token>
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.VPNConnection,</token>
+<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
+<token>System.Data.Services.Client.DataServiceContext,UpdateObject</token>
+<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
+<token>System.Data.Services.Client.DataServiceContext,CreateQuery</token>
+</entry>
+<entry count="5">
+<token>System.Data.Services.Client.DataServiceCollection,new</token>
+<token>System.Data.Services.Client.DataServiceCollection,new</token>
+<token>System.Data.Services.Client.DataServiceCollection,new</token>
+<token>System.Data.Services.Client.DataServiceCollection,new</token>
+<token>System.Data.Services.Client.DataServiceCollection,new</token>
 </entry>
 <entry count="1">
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.CloudCapacity,</token>
+<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
+<token>System.Data.Services.Client.DataServiceContext,SetLink</token>
+<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
+<token>System.Data.Services.Client.DataServiceContext,CreateQuery</token>
 </entry>
-<entry count="6">
-<token>Commands.Utilities]],GetContinuation</token>
-<token>System.Data.Services.Client.QueryOperationResponse`1[[T</token>
-<token>-&gt;</token>
+<entry count="8">
+<token>System.Data.Services.Client.DataServiceContext,AttachTo</token>
+<token>System.Data.Services.Client.DataServiceContext,DeleteObject</token>
+</entry>
+<entry count="26">
+<token>System.Data.Services.Client.DataServiceCollection,new</token>
+<token>System.Data.Services.Client.DataServiceCollection,new</token>
 </entry>
 <entry count="1">
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.Plan,</token>
-<token>Commands.Utilities]],new</token>
-</entry>
-<entry count="6">
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.Plan,</token>
-<token>Commands.Utilities]],GetContinuation</token>
-</entry>
-<entry count="6">
-<token>Commands.Utilities]],Execute</token>
-<token>System.Data.Services.Client.DataServiceContext,LoadProperty</token>
-<token>System.Data.Services.Client.QueryOperationResponse`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.Plan,</token>
+<token>System.Data.Services.Client.DataServiceContext,AddObject</token>
+<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
+<token>System.Data.Services.Client.DataServiceContext,SetLink</token>
+<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
+<token>System.Data.Services.Client.DataServiceContext,CreateQuery</token>
 </entry>
 <entry count="15">
 <token>System.Data.Services.Client.DataServiceContext,new</token>
 <token>System.Data.Services.Client.DataServiceContext,CreateQuery</token>
 </entry>
-<entry count="24">
-<token>System.Data.Services.Client.DataServiceQuery`1[[TElement</token>
-<token>-&gt;</token>
+<entry count="1">
+<token>System.Data.Services.Client.DataServiceContext,DeleteObject</token>
+<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
+<token>System.Data.Services.Client.DataServiceContext,new</token>
 </entry>
 <entry count="1">
-<token>Commands.Utilities]],Load</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.CloudResource,</token>
-<token>Commands.Utilities]],Load</token>
-</entry>
-<entry count="1">
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.CloudCapacity,</token>
-<token>Commands.Utilities]],new</token>
+<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
+<token>System.Data.Services.Client.DataServiceContext,SetLink</token>
+<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
+<token>System.Data.Services.Client.DataServiceContext,CreateQuery</token>
+<token>System.Data.Services.Client.DataServiceContext,LoadProperty</token>
 </entry>
 <entry count="4">
 <token>System.Data.Services.Client.DataServiceContext,TryGetUri</token>
 <token>System.Data.Services.Client.DataServiceContext,UpdateObject</token>
 <token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
-</entry>
-<entry count="1">
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.OfferLink,</token>
-</entry>
-<entry count="1">
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.QuotaAndUsageComponent,</token>
-<token>Commands.Utilities]],new</token>
 </entry>
 <entry count="5">
 <token>System.Data.Services.Client.DataServiceContext,CreateQuery</token>
@@ -3033,39 +910,11 @@
 <token>System.Data.Services.Client.DataServiceContext,CreateQuery</token>
 </entry>
 <entry count="3">
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.VirtualNetworkAdapter,</token>
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-</entry>
-<entry count="1">
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.VirtualSCSIAdapter,</token>
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.VirtualDVDDrive,</token>
-</entry>
-<entry count="6">
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.Offer,</token>
-<token>Commands.Utilities]],Execute</token>
-<token>System.Data.Services.Client.DataServiceContext,LoadProperty</token>
-<token>System.Data.Services.Client.QueryOperationResponse`1[[T</token>
-<token>-&gt;</token>
-</entry>
-<entry count="2">
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.Offer,</token>
-<token>Commands.Utilities]],new</token>
-</entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.ApplicationHost,</token>
-</entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.VMRoleVMDisk,</token>
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
+<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
+<token>System.Data.Services.Client.DataServiceContext,CreateQuery</token>
+<token>System.Data.Services.Client.DataServiceContext,AttachTo</token>
+<token>System.Data.Services.Client.DataServiceContext,DeleteObject</token>
+<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
 </entry>
 <entry count="1">
 <token>System.Data.Services.Client.DataServiceContext,new</token>
@@ -3078,225 +927,109 @@
 <token>System.Data.Services.Client.DataServiceContext,UpdateObject</token>
 <token>System.Data.Services.Client.DataServiceContext,UpdateObject</token>
 </entry>
-<entry count="1">
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.VMCheckPoint,</token>
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.VirtualSCSIAdapter,</token>
+<entry count="4">
+<token>System.Data.Services.Client.BodyOperationParameter,new</token>
+<token>System.Data.Services.Client.BodyOperationParameter,new</token>
+<token>System.Data.Services.Client.DataServiceContext,Execute</token>
 </entry>
 <entry count="1">
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.ApplicationHost,</token>
-<token>Commands.Utilities]],new</token>
-</entry>
-<entry count="1">
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.VMRoleVMDisk,</token>
-<token>Commands.Utilities]],new</token>
-</entry>
-<entry count="1">
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.NATConnection,</token>
-<token>Commands.Utilities]],new</token>
-</entry>
-<entry count="1">
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.VisualizationImage,</token>
-<token>Commands.Utilities]],new</token>
-</entry>
-<entry count="6">
-<token>System.Data.Services.Client.DataServiceContext,LoadProperty</token>
-<token>System.Data.Services.Client.QueryOperationResponse`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.Plan,</token>
-<token>Commands.Utilities]],GetContinuation</token>
-</entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.VMCheckPoint,</token>
+<token>System.Data.Services.Client.DataServiceContext,new</token>
+<token>System.Data.Services.Client.DataServiceContext,AttachTo</token>
+<token>System.Data.Services.Client.DataServiceContext,DeleteObject</token>
+<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
+<token>System.Data.Services.Client.DataServiceContext,new</token>
 </entry>
 <entry count="6">
 <token>System.Data.Services.Client.DataServiceContext,CreateQuery</token>
 <token>System.Data.Services.Client.DataServiceContext,TryGetUri</token>
 </entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.NATConnection,</token>
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-</entry>
-<entry count="1">
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.QuotaAndUsageComponent,</token>
-</entry>
-<entry count="3">
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.VirtualDVDDrive,</token>
-</entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.OfferLink,</token>
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
+<entry count="2">
+<token>System.Data.Services.Client.DataServiceContext,AddObject</token>
+<token>System.Data.Services.Client.DataServiceContext,AddRelatedObject</token>
+<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
+<token>System.Data.Services.Client.DataServiceContext,CreateQuery</token>
+<token>System.Data.Services.Client.DataServiceContext,LoadProperty</token>
 </entry>
 <entry count="2">
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.VirtualDiskDrive,</token>
-<token>Commands.Utilities]],new</token>
+<token>System.Data.Services.Client.DataServiceContext,DeleteLink</token>
+<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
+<token>System.Data.Services.Client.DataServiceContext,CreateQuery</token>
+<token>System.Data.Services.Client.DataServiceContext,LoadProperty</token>
+</entry>
+<entry count="1">
+<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
+<token>System.Data.Services.Client.DataServiceContext,new</token>
+<token>System.Data.Services.Client.DataServiceContext,CreateQuery</token>
+<token>System.Data.Services.Client.DataServiceContext,LoadProperty</token>
+</entry>
+<entry count="1">
+<token>System.Data.Services.Client.DataServiceContext,UpdateObject</token>
+<token>System.Data.Services.Client.DataServiceContext,DeleteObject</token>
+<token>System.Data.Services.Client.DataServiceContext,DeleteObject</token>
+</entry>
+<entry count="1">
+<token>System.Data.Services.Client.DataServiceContext,new</token>
+<token>System.Data.Services.Client.DataServiceContext,CreateQuery</token>
+<token>System.Data.Services.Client.DataServiceContext,LoadProperty</token>
 </entry>
 <entry count="3">
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.VirtualSCSIAdapter,</token>
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
+<token>System.Data.Services.Client.DataServiceContext,CreateQuery</token>
+<token>System.Data.Services.Client.DataServiceContext,AttachTo</token>
+<token>System.Data.Services.Client.DataServiceContext,DeleteObject</token>
+<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
 </entry>
 <entry count="2">
 <token>System.Data.Services.Client.DataServiceContext,AddLink</token>
 <token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
 </entry>
-<entry count="2">
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.VirtualDVDDrive,</token>
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
+<entry count="1">
+<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
+<token>System.Data.Services.Client.DataServiceContext,DeleteObject</token>
+</entry>
+<entry count="1">
+<token>System.Data.Services.Client.DataServiceContext,SetLink</token>
+<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
+<token>System.Data.Services.Client.DataServiceContext,CreateQuery</token>
 </entry>
 <entry count="4">
 <token>System.Data.Services.Client.DataServiceContext,TryGetUri</token>
 <token>System.Data.Services.Client.DataServiceContext,UpdateObject</token>
 </entry>
-<entry count="1">
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.OfferLink,</token>
-<token>Commands.Utilities]],new</token>
-</entry>
-<entry count="2">
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.Offer,</token>
-<token>Commands.Utilities]],Execute</token>
-<token>System.Data.Services.Client.QueryOperationResponse`1[[T</token>
-<token>-&gt;</token>
-</entry>
-<entry count="12">
-<token>System.Data.Services.Client.DataServiceRequest`1[[TElement</token>
-<token>-&gt;</token>
-<token>WebStack.QA.Test.OData.Batch.Tests.DataServicesClient.Default.DefaultBatchCustomer,</token>
-</entry>
-<entry count="2">
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.VirtualHardDisk,</token>
-<token>Commands.Utilities]],new</token>
+<entry count="6">
+<token>System.Data.Services.Client.DataServiceQuery,Expand</token>
+<token>System.Data.Services.Client.DataServiceQuery,Execute</token>
+<token>System.Data.Services.Client.DataServiceContext,LoadProperty</token>
+<token>System.Data.Services.Client.QueryOperationResponse,GetContinuation</token>
+<token>System.Data.Services.Client.QueryOperationResponse,GetContinuation</token>
 </entry>
 <entry count="3">
 <token>System.Data.Services.Client.DataServiceContext,CreateQuery</token>
 <token>System.Data.Services.Client.DataServiceContext,AttachTo</token>
 <token>System.Data.Services.Client.DataServiceContext,DeleteObject</token>
 </entry>
-<entry count="1">
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.LibraryShare,</token>
-<token>Commands.Utilities]],new</token>
-</entry>
-<entry count="12">
-<token>-&gt;</token>
-<token>WebStack.QA.Test.OData.Batch.Tests.DataServicesClient.Default.DefaultBatchCustomer,</token>
-<token>WebStack.QA.Test.OData]],new</token>
-</entry>
-<entry count="1">
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.BGPPeer,</token>
-</entry>
 <entry count="2">
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.VirtualHardDisk,</token>
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-</entry>
-<entry count="8">
-<token>Commands.Utilities]],Expand</token>
-<token>System.Data.Services.Client.DataServiceQuery`1[[TElement</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.Offer,</token>
-</entry>
-<entry count="3">
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.VirtualNetworkAdapter,</token>
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-</entry>
-<entry count="3">
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.VirtualDVDDrive,</token>
-<token>Commands.Utilities]],new</token>
+<token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
+<token>System.Data.Services.Client.DataServiceContext,CreateQuery</token>
+<token>System.Data.Services.Client.DataServiceContext,LoadProperty</token>
+<token>System.Data.Services.Client.DataServiceContext,AttachTo</token>
 </entry>
 <entry count="1">
 <token>System.Data.Services.Client.DataServiceContext,UpdateObject</token>
 <token>System.Data.Services.Client.DataServiceContext,SaveChanges</token>
 <token>System.Data.Services.Client.DataServiceContext,DeleteObject</token>
 </entry>
-<entry count="8">
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.MarketplaceServiceReference.Offer,</token>
-<token>Commands.Utilities]],GetContinuation</token>
-</entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.VMRole,</token>
-<token>Commands.Utilities]],Load</token>
+<entry count="2">
+<token>System.Data.Services.Client.DataServiceContext,DeleteObject</token>
+<token>System.Data.Services.Client.DataServiceContext,UpdateObject</token>
 </entry>
 <entry count="1">
 <token>System.Data.Services.Client.DataServiceContext,LoadProperty</token>
 <token>System.Data.Services.Client.DataServiceContext,new</token>
-</entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.VMRole,</token>
-<token>Commands.Utilities]],Load</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-</entry>
-<entry count="1">
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.ComputerTierTemplate,</token>
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-</entry>
-<entry count="2">
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.VirtualHardDisk,</token>
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.VirtualDVDDrive,</token>
-</entry>
-<entry count="1">
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.LibraryShare,</token>
-<token>Commands.Utilities]],new</token>
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-</entry>
-<entry count="1">
-<token>System.Data.Services.Client.DataServiceCollection`1[[T</token>
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.ApplicationHostTemplate,</token>
 </entry>
 <entry count="2">
 <token>System.Data.Services.Client.DataServiceContext,CreateQuery</token>
 <token>System.Data.Services.Client.DataServiceContext,LoadProperty</token>
 <token>System.Data.Services.Client.DataServiceContext,AttachTo</token>
 <token>System.Data.Services.Client.DataServiceContext,AttachTo</token>
-</entry>
-<entry count="2">
-<token>-&gt;</token>
-<token>Microsoft.WindowsAzure.Commands.Utilities.WAPackIaaS.DataContract.VirtualDiskDrive,</token>
 </entry>
 </dictionary>

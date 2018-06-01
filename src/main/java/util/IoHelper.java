@@ -40,63 +40,16 @@ import extractor.APIToken;
  */
 public class IoHelper {
 
-	public static Context readFirstContext(String dir) {
-		for (String zip : findAllZips(dir)) {
-			List<Context> ctxs = read(zip);
-			return ctxs.get(0);
-		}
-		return null;
-	}
-
-	public static List<Context> readAll(String dir) {
-		LinkedList<Context> res = Lists.newLinkedList();
-
-		for (String zip : findAllZips(dir)) {
-			res.addAll(read(zip));
-		}
-		return res;
-	}
-
+	/**
+	 * Create a directory at the given path if it does not yet exist.
+	 * 
+	 * @param path
+	 * 			path to a directory
+	 */
 	public static void createDirectoryIfNotExists(String path) {
 		File directory = new File(path);
-		if (! directory.exists()){
+		if(!directory.exists()){
 			directory.mkdir();
-		}
-	}
-
-	/**
-	 * Given a filename and list of API sentences, this method creates a new file with the given filename
-	 * and writes all API sentences to that file such that one line contains one sentence.
-	 * Sentences are only written to the file if they contain at least as many tokens as defined by minLength.
-	 *
-	 * @see #removeFile(String)
-	 * 			the file with filename is created also if no API sentences are added (due to minLength).
-	 * 			Hence, those files must be removed afterwards.
-	 *
-	 * @param filename
-	 * 			file to create and write to
-	 * @param apiSentences
-	 * 			API sentences that are written to the file
-	 * @param minLength
-	 * 			minimal length an API sentence must be to be written to the file
-	 *
-	 * @throws IOException
-	 * 			thrown if there is an error with writing or deleting files
-	 */
-	public static void writeAPISentencesToFile(String filename, List<List<APIToken>> apiSentences, int minLength)
-			throws IOException {
-		PrintWriter writer = new PrintWriter(filename, "UTF-8");
-		Long sentencesAdded = 0L;
-		for(List<APIToken> sentence : apiSentences) {
-			if(sentence.size() >= minLength) {
-				writer.println(sentence.toString());
-				sentencesAdded++;
-			}
-		}
-		writer.close();
-		// remove the file created if nothing was written to it
-		if(sentencesAdded.equals(0L)) {
-			removeFile(filename);
 		}
 	}
 
@@ -139,7 +92,24 @@ public class IoHelper {
 		removeFileIfEmpty(filename);
 	}
 
-	public static void appendClassificationToFile(String filename, APIToken expected, APIToken actual) throws IOException {
+	/**
+	 * Appends the results of a prediction to the given file.
+	 * The results of a prediction include tha {@link APIToken} that should be predicted
+	 * as well as the {@link APIToken} that was actually predicted.
+	 * 
+	 * This file can be used in further processing to evaluate the performance of the predictions.
+	 * 
+	 * @param filename
+	 * 			file to store the results
+	 * @param expected
+	 * 			APIToken that would result in a positive match
+	 * @param actual
+	 * 			APIToken that was received from the prediction
+	 * 			
+	 * @throws IOException
+	 * 			thrown if the file cannot be read or written to
+	 */
+	public static void appendPredictionToFile(String filename, APIToken expected, APIToken actual) throws IOException {
 		FileWriter fw = new FileWriter(filename, true);
 		BufferedWriter bw = new BufferedWriter(fw);
 		PrintWriter out = new PrintWriter(bw);
@@ -152,6 +122,19 @@ public class IoHelper {
 		fw.close();
 	}
 
+	/**
+	 * Writes the results of an evaluation to a file.
+	 * 
+	 * @param events
+	 * 			number of events processed
+	 * @param positives
+	 * 			number of positive matches
+	 * @param total
+	 * 			total number of matches
+	 * 		
+	 * @throws IOException
+	 * 			thrown if the file cannot be created or written
+	 */
 	public static void writeEvaluationResultsToFile(int events, int positives, int total) throws IOException {
 		FileWriter fw = new FileWriter("evalnums.txt");
 		BufferedWriter bw = new BufferedWriter(fw);
@@ -165,6 +148,18 @@ public class IoHelper {
 		fw.close();
 	}
 
+	/**
+	 * Removes the file at given path if it is empty.
+	 * 
+	 * @see #removeFile(String)
+	 * 			used to remove the file
+	 * 
+	 * @param filename
+	 * 			path to the file that is removed if it is empty
+	 * 			
+	 * @throws IOException
+	 * 			thrown if the file cannot be read or removed
+	 */
 	public static void removeFileIfEmpty(String filename) throws IOException {
 		BufferedReader br = new BufferedReader(new FileReader(filename));
 		if(br.readLine() == null) {
@@ -185,17 +180,19 @@ public class IoHelper {
 		Files.deleteIfExists(new File(filePath).toPath());
 	}
 
-	public static String pathToFileName(String filePath) {
-		return filePath.replaceAll("//","+")
-				.replaceAll("/", "+")
-				.replaceAll("\\.", "+");
-	}
-
+	/**
+	 * Returns the contexts from the given zip file.
+	 * 
+	 * @param zipFile
+	 * 			zip file containing contexts
+	 * @return
+	 * 			contexts in the zip file
+	 */
 	public static List<Context> read(String zipFile) {
 		LinkedList<Context> res = Lists.newLinkedList();
 		try {
 			IReadingArchive ra = new ReadingArchive(new File(zipFile));
-			while (ra.hasNext()) {
+			while(ra.hasNext()) {
 				res.add(ra.getNext(Context.class));
 			}
 			ra.close();
@@ -208,6 +205,16 @@ public class IoHelper {
 	/*
 	 * will recursively search for all .zip files in the "dir". The paths that are
 	 * returned are relative to "dir".
+	 */
+
+	/**
+	 * Returns all .zip files in the given directory.
+	 * Notice that the paths that are returned are relative to the given directory.
+	 * 
+	 * @param dir
+	 * 			directory that is traversed
+	 * @return
+	 * 			all files in the given directory ending in ".zip"
 	 */
 	public static Set<String> findAllZips(String dir) {
 		return new Directory(dir).findFiles(s -> s.endsWith(".zip"));
