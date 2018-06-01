@@ -8,9 +8,10 @@ import java.io.FileNotFoundException;
 import static org.junit.Assert.assertEquals;
 
 public class SentenceExtractorTest {
-    public static String mockExtractionOutputDir = "MockData/mockOutput/";
-    public static String mockContextsDir = "MockData/contexts";
-    public static int fileOutputSize = 27;
+    
+    private static String mockExtractionOutputDir = "MockData/mockOutput/";
+    private static String mockContextsDir = "MockData/contexts";
+    private static int fileOutputSize = 27;
 
     @After
     public void removeBuiltTxt() {
