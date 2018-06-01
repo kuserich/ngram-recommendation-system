@@ -1,4 +1,4 @@
-# Stepwise API usage assistance using n-gram language models [![Build Status](https://travis-ci.org/kuserich/ngram-recommendation-system.svg?branch=develop)](https://travis-ci.org/kuserich/ngram-recommendation-system) [![Coverage Status](https://coveralls.io/repos/github/kuserich/ngram-recommendation-system/badge.svg?branch=develop)](https://coveralls.io/github/kuserich/ngram-recommendation-system?branch=develop)
+# Stepwise API usage assistance using n-gram language models [![Build Status](https://travis-ci.org/kuserich/ngram-recommendation-system.svg?branch=master)](https://travis-ci.org/kuserich/ngram-recommendation-system) [![Coverage Status](https://coveralls.io/repos/github/kuserich/ngram-recommendation-system/badge.svg?branch=master)](https://coveralls.io/github/kuserich/ngram-recommendation-system?branch=master)
 
 Implementation of a Recommendation System for Software Engineering using n-gram language models as described by [Santos et al. (2016)](https://www.sciencedirect.com/science/article/pii/S0164121216300917?via%3Dihub). The recommender has been implemented with the help of the [KaVE Project](http://www.kave.cc/).
 
@@ -27,7 +27,7 @@ This project is part of the course [Advanced Software Engineering - FS 18](http:
 ---
 
 ## Getting Started <a name="getting-started"></a>
-For the installation of the recommender you can either use the maven repository dependency, or compile this project.
+For the installation of the recommender you can either use the maven repository dependency, or compile this project. The steps required are outlined in the corresponding subchapters.
 
 ### Maven Configuration <a name="getting-started-maven"></a>
 To use it in your Maven build add:
@@ -58,7 +58,7 @@ and the dependency:
 ```
 
 ### Clone Project <a name="getting-started-clone"></a>
-Please run the following command to clone the project to your local file system:
+Please run the following commands to clone the project to your local file system:
 ```bash
 git clone https://github.com/kuserich/ngram-recommendation-system.git
 
@@ -67,21 +67,25 @@ cd ngram-recommendation-system
 mvn clean install
 ```
 
-After you have run the commands the .jar file should be available and can be added to your project.
+After you have run the commands the .jar file should be available and can be added to your project. 
 
 ---
 
 ## Usage of Recommender <a name="usage-of-recommender"></a>
 
-The n-gram sentences recommender has been trained with the context and event dataset provided by the [KaVE Project](http://www.kave.cc/datasets).
+The n-gram sentences recommender has been trained with the context and event dataset provided by the [KaVE Project](http://www.kave.cc/datasets). Any other repository can be extracted and therefore the SentenceExtractor needs to be usee. The current training set covers 1770 namespaces.
+
+### SentenceExtractor
+Julian
 
 ### Train/Prepare Recommender <a name="usage-of-recommender-train"></a>
 
-Teh training/preparation of the recommender can be done through 2 ways. The first option is to train the recommender with own scratched data, or with the data already available.
+Teh training/preparation of the recommender can be done through 2 ways. The first option is to train the recommender with own scratched data (done trough the APISentenceExtractor), or with the data already available.
 
 **Own Training Set**
 
-The user has the possible to add its own API sentences, this is specially from interest if has his own projects which are not open for the public.
+The user has the possible to add its own API sentences, this is specially from interest if the user has his own projects which are not open for the public.
+
 ```java
 public void train(String trainFile) throws IOException {
     ...
@@ -90,7 +94,7 @@ public void train(String trainFile) throws IOException {
 
 **Trained Set**
 
-The user has the possibility to use a model file, which is mostly used by widely used libraries.
+The user has the possibility to use a model file, which is mostly used by widely used libraries. Please refer to the chapter [Mining](#mining) for more details on how the the models have been atracted from the dataset.
 ```java
 public void setModelNameFromFileName(String modelFile) {
     ...
