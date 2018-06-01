@@ -178,7 +178,7 @@ public class NgramRecommenderEvaluation {
                                     sentence.size())));
                 if(predictions.size() > 0) {
 
-                    IoHelper.appendClassificationToFile("evaluation.txt",
+                    IoHelper.appendPredictionToFile("evaluation.txt",
                             expected,
                             (APIToken) predictions.iterator().next().getFirst());
                     
@@ -216,7 +216,7 @@ public class NgramRecommenderEvaluation {
             System.out.println("============= ACTUAL =============");
             System.out.println(expected.toString());
 
-            IoHelper.appendClassificationToFile("evaluation.txt", 
+            IoHelper.appendPredictionToFile("evaluation.txt", 
                     expected, 
                     (APIToken) predictions.iterator().next().getFirst());
             

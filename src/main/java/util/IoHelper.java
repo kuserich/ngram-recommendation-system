@@ -40,23 +40,57 @@ import extractor.APIToken;
  */
 public class IoHelper {
 
+	/**
+	 * Returns the first context in a given directory.
+	 * Notice that this method might return different contexts in different environments.
+	 * 
+	 * @see #findAllZips(String) 
+	 * 			used to find all zips in the given directory
+	 * @see #read(String)
+	 * 			used to read the contexts from the .zip files
+	 * 
+	 * @param dir
+	 * 			directory that includes context files
+	 * @return
+	 * 			first context found in the directory
+	 */
 	public static Context readFirstContext(String dir) {
-		for (String zip : findAllZips(dir)) {
+		for(String zip : findAllZips(dir)) {
 			List<Context> ctxs = read(zip);
 			return ctxs.get(0);
 		}
 		return null;
 	}
 
+	/**
+	 * Returns all contexts in a given directory.
+	 * 
+	 * @see #findAllZips(String) 
+	 * 			used to find .zip files in the given directory
+	 * @see #read(String)
+	 * 			used to read the contexts from a single .zip file
+	 * 
+	 * @param dir
+	 * 			directory that is traversed
+	 * 			
+	 * @return
+	 * 			all contexts in the given directory
+	 */
 	public static List<Context> readAll(String dir) {
 		LinkedList<Context> res = Lists.newLinkedList();
 
-		for (String zip : findAllZips(dir)) {
+		for(String zip : findAllZips(dir)) {
 			res.addAll(read(zip));
 		}
 		return res;
 	}
 
+	/**
+	 * Create a directory at the given path if it does not yet exist.
+	 * 
+	 * @param path
+	 * 			path to a directory
+	 */
 	public static void createDirectoryIfNotExists(String path) {
 		File directory = new File(path);
 		if (! directory.exists()){
@@ -139,7 +173,24 @@ public class IoHelper {
 		removeFileIfEmpty(filename);
 	}
 
-	public static void appendClassificationToFile(String filename, APIToken expected, APIToken actual) throws IOException {
+	/**
+	 * Appends the results of a prediction to the given file.
+	 * The results of a prediction include tha {@link APIToken} that should be predicted
+	 * as well as the {@link APIToken} that was actually predicted.
+	 * 
+	 * This file can be used in further processing to evaluate the performance of the predictions.
+	 * 
+	 * @param filename
+	 * 			file to store the results
+	 * @param expected
+	 * 			APIToken that would result in a positive match
+	 * @param actual
+	 * 			APIToken that was received from the prediction
+	 * 			
+	 * @throws IOException
+	 * 			thrown if the file cannot be read or written to
+	 */
+	public static void appendPredictionToFile(String filename, APIToken expected, APIToken actual) throws IOException {
 		FileWriter fw = new FileWriter(filename, true);
 		BufferedWriter bw = new BufferedWriter(fw);
 		PrintWriter out = new PrintWriter(bw);
@@ -152,6 +203,19 @@ public class IoHelper {
 		fw.close();
 	}
 
+	/**
+	 * Writes the results of an evaluation to a file.
+	 * 
+	 * @param events
+	 * 			number of events processed
+	 * @param positives
+	 * 			number of positive matches
+	 * @param total
+	 * 			total number of matches
+	 * 		
+	 * @throws IOException
+	 * 			thrown if the file cannot be created or written
+	 */
 	public static void writeEvaluationResultsToFile(int events, int positives, int total) throws IOException {
 		FileWriter fw = new FileWriter("evalnums.txt");
 		BufferedWriter bw = new BufferedWriter(fw);
@@ -165,6 +229,18 @@ public class IoHelper {
 		fw.close();
 	}
 
+	/**
+	 * Removes the file at given path if it is empty.
+	 * 
+	 * @see #removeFile(String)
+	 * 			used to remove the file
+	 * 
+	 * @param filename
+	 * 			path to the file that is removed if it is empty
+	 * 			
+	 * @throws IOException
+	 * 			thrown if the file cannot be read or removed
+	 */
 	public static void removeFileIfEmpty(String filename) throws IOException {
 		BufferedReader br = new BufferedReader(new FileReader(filename));
 		if(br.readLine() == null) {
@@ -185,12 +261,29 @@ public class IoHelper {
 		Files.deleteIfExists(new File(filePath).toPath());
 	}
 
+	/**
+	 * Converts the given file path to a file name.
+	 * This method simply removes dots and slashes with plus signs.
+	 * 
+	 * @param filePath
+	 * 			file path that is converted
+	 * @return
+	 * 			replaced string
+	 */
 	public static String pathToFileName(String filePath) {
 		return filePath.replaceAll("//","+")
 				.replaceAll("/", "+")
 				.replaceAll("\\.", "+");
 	}
 
+	/**
+	 * Returns the contexts from the given zip file.
+	 * 
+	 * @param zipFile
+	 * 			zip file containing contexts
+	 * @return
+	 * 			contexts in the zip file
+	 */
 	public static List<Context> read(String zipFile) {
 		LinkedList<Context> res = Lists.newLinkedList();
 		try {
@@ -208,6 +301,16 @@ public class IoHelper {
 	/*
 	 * will recursively search for all .zip files in the "dir". The paths that are
 	 * returned are relative to "dir".
+	 */
+
+	/**
+	 * Returns all .zip files in the given directory.
+	 * Notice that the paths that are returned are relative to the given directory.
+	 * 
+	 * @param dir
+	 * 			directory that is traversed
+	 * @return
+	 * 			all files in the given directory ending in ".zip"
 	 */
 	public static Set<String> findAllZips(String dir) {
 		return new Directory(dir).findFiles(s -> s.endsWith(".zip"));
