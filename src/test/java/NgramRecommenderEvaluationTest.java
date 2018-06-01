@@ -22,7 +22,4 @@ public class NgramRecommenderEvaluationTest {
     public void readAllEventsTest() throws IOException {
         NgramRecommenderEvaluation.readAllEvents(mockDir);
     }
-
-
-
 }
