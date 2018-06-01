@@ -111,6 +111,15 @@ public Set<Tuple<IMethodNAme, Double>> query(StringList stringToCompare) {
 
 The returned set is ordered in an ascending order, based on the prediction of the model.
 
+**Example file**
+
+```java
+    NgramRecommenderClient nrc = new NgramRecommenderClient("models/NUnit.Framework.xml");
+    System.out.println(nrc.query(new StringList("NUnit.Framework.Assert,AreEqual")));
+```
+
+All the models can be found in the folder "models"
+
 ---
 ## Continuous Development <a name="continouos-development"></a>
 In order for the development process, the team chose to use Travis CI to have automated tests and publishing of the artifacts, to be used by other parties. Sharing is caring. ;)
