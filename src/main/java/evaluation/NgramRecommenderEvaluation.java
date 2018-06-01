@@ -9,16 +9,13 @@ import cc.kave.commons.model.naming.codeelements.IMethodName;
 import cc.kave.commons.model.naming.impl.v0.codeelements.MethodName;
 import cc.kave.commons.model.ssts.ISST;
 import cc.kave.commons.model.ssts.declarations.IMethodDeclaration;
-import cc.kave.commons.model.typeshapes.IMemberHierarchy;
 import cc.kave.commons.utils.io.Directory;
 import cc.kave.commons.utils.io.ReadingArchive;
-import cc.kave.commons.utils.io.json.JsonUtils;
 import cc.kave.rsse.calls.datastructures.Tuple;
 import com.google.common.collect.Lists;
 import extractor.APISentenceTree;
 import extractor.APIToken;
 import ngram.NgramRecommenderClient;
-import opennlp.tools.util.StringList;
 import org.apache.commons.io.FileUtils;
 import util.IoHelper;
 import util.Utilities;
@@ -26,7 +23,6 @@ import util.Utilities;
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
@@ -81,29 +77,6 @@ public class NgramRecommenderEvaluation {
         System.out.println("[INFO] Precision " + (double) correctlyPredicted / allPredictions);
         
         IoHelper.writeEvaluationResultsToFile(numberOfEvents, correctlyPredicted, allPredictions);
-    }
-
-    /**
-     * 3: Reading the plain JSON representation
-     */
-    public static void readPlainEvents(String inputDirectory) throws IOException {
-        // the example is basically the same as before, but...
-        List<String> userZips = findAllUsers(inputDirectory);
-
-        for (String user : userZips) {
-            ReadingArchive ra = new ReadingArchive(new File(user));
-            while (ra.hasNext()) {
-                // ... sometimes it is easier to just read the JSON...
-                String json = ra.getNextPlain();
-                // .. and call the deserializer yourself.
-                IIDEEvent e = JsonUtils.fromJson(json, IIDEEvent.class);
-                process(e);
-
-                // Not all event bindings are very stable already, reading the
-                // JSON helps debugging possible bugs in the bindings
-            }
-            ra.close();
-        }
     }
     
     private static void process(IIDEEvent event) throws IOException {

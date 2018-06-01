@@ -6,15 +6,10 @@ import cc.kave.commons.model.ssts.declarations.IMethodDeclaration;
 import cc.kave.commons.model.ssts.declarations.IPropertyDeclaration;
 import cc.kave.commons.model.ssts.expressions.assignable.*;
 import cc.kave.commons.model.ssts.expressions.loopheader.ILoopHeaderBlockExpression;
-import cc.kave.commons.model.ssts.impl.expressions.assignable.CompletionExpression;
-import cc.kave.commons.model.ssts.impl.expressions.assignable.InvocationExpression;
 import cc.kave.commons.model.ssts.statements.*;
-import evaluation.EvaluationVisitor;
 import evaluation.EventVisitor;
 import extractor.APISentenceTree;
 import extractor.APIToken;
-
-import java.util.List;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotEquals;
@@ -28,7 +23,7 @@ public class EventVisitorTestVerifier {
         _context = context;
     }
 
-    public EventVisitorTestVerifier(EvaluationVisitor node, APISentenceTree context) {
+    public EventVisitorTestVerifier(APISentenceTree context) {
         _context = context;
     }
 
@@ -115,17 +110,6 @@ public class EventVisitorTestVerifier {
 
          else if (obj instanceof ILambdaExpression)
             assertEquals(ev.visit((ILambdaExpression) obj, _context), null);
-
-         else if (obj instanceof ICompletionEvent) {
-            EvaluationVisitor eval = new EvaluationVisitor();
-            assertEquals(eval.visit((ICompletionEvent) obj, null), null);
-        }
-
-         else if (obj instanceof IIDEEvent) {
-            EvaluationVisitor eval = new EvaluationVisitor();
-            assertEquals(eval.visit((IIDEEvent) obj, null), null);
-        }
-
 
          else if (obj instanceof IStatement) {
              System.out.println("istatement");
